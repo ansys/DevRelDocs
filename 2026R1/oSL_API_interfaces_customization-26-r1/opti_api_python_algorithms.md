@@ -34,7 +34,9 @@ Initializes the algorithm with the input values.
   - `seed`: integer with seed used
   - `settings`: PyOSDesignPoint with algorithm settings
   - `PyOSDesignPoint` - optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (*.opd)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -44,11 +46,12 @@ Initializes the algorithm with the input values.
   - bool: Success value of the initialization
 
 ## `GetNextDesigns(args)`
-
 Returns the next designs that must be calculated by the solver.
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -62,7 +65,9 @@ Sets the results calculated by the solver.
 - **Inputs:**
   - `designs`: PyOSDesignContainer with expected designs including calculated responses
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -75,7 +80,9 @@ Sets the results calculated by the solver.
 Appraises the last set results.
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -94,7 +101,9 @@ Adapts the next designs expected to be calculated by the solver.
   - `seed`: integer with seed used by optiSLang
   - `settings`: PyOSDesignPoint with algorithm settings
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -107,7 +116,9 @@ Adapts the next designs expected to be calculated by the solver.
 Decides if the algorithm is terminated.
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -120,7 +131,9 @@ Decides if the algorithm is terminated.
 Decides if the algorithm is converged.
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -133,7 +146,9 @@ Decides if the algorithm is converged.
 Returns the internally used algorithm settings to show them in the dialog.
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -147,7 +162,9 @@ Checks the internally used algorithm settings.
 - **Inputs:**
   - `PyOSDesignPoint`: Algorithm settings
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -161,7 +178,9 @@ Decides if the algorithm uses optimization parameters.
 
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -176,7 +195,9 @@ Decides if the algorithm uses stochastic parameters.
 
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:
-    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`)
+    - `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+    - `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+    - `OSL_PROJECT_DIR`: absolute path of the current project (`*.opd`). ***Deprecated.***
     - `OSL_WORKING_DIR`: absolute path of the current working directory
     - `OSL_CUSTOM_SCRIPT_DIR`: absolute path of the current script file
     - `OSL_RLS_VER`: version number
@@ -187,4 +208,4 @@ Decides if the algorithm uses stochastic parameters.
 
 The basic relationship between functions and the algorithm is shown in the following workflow:
 
-![Relationship between functions and algorithm](graphics/CustomAlgorithm.png)
+![CustomAlgorithm.png](graphics/CustomAlgorithm.png)

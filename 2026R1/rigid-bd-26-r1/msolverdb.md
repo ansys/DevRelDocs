@@ -1,6 +1,6 @@
 # MSolverDB
 
-Solver database. The database is both the input and the results file to the
+Solver database. The database is both the input and the results file for the
 solver. It can be used to solve outside the Mechanical session (for example,
 for co-simulation purposes) or to restart from a previous run.
 
@@ -32,7 +32,7 @@ Close the database file.
 
 `OpenDatabase()`
 
-Open the database file and reads the database content table.
+Open the database file and read the database content table.
 
 `Dispose()`
 

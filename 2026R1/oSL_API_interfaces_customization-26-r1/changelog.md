@@ -1,5 +1,8 @@
-# Changelog 
+# Changelog
 
-## 2025R2
+## 2026 R1
+- deprecated OSL_PROJECT_DIR; added OSL_PROJECT_WORKING_DIR and OSL_PROJECT_FILE_DIR
 
-Document added to developer site.
+## 2025 R2 
+
+Added Interfaces and Customizations to developer portal.

@@ -36,19 +36,21 @@ The arguments are defined as follows:
 - Password - string containing password information for authentications
 - Script path - Path containing the current script file
 - Variables	- PyOSDesignPoint containing optiSLang variables
-    - OSL_CUSTOM_SCRIPT_DIR - contains the absolute path of the current script file
-    - ACTION - string containing the action type [None, Receive, Send, Compress GZ, Remove]
-    - GUID - string containing the unique ID of the registered file entry
+    - `OSL_CUSTOM_SCRIPT_DIR` - contains the absolute path of the current script file
+    - `ACTION` - string containing the action type [None, Receive, Send, Compress GZ, Remove]
+    - `GUID` - string containing the unique ID of the registered file entry
     - If the called function is "Browse", the following value is also available:
-        - PARENT_FRAME - string containing the geometry of the parent window in the format "[x,y,width,height]"
+        - `PARENT_FRAME` - string containing the geometry of the parent window in the format "[x,y,width,height]"
     - If there is a node relationship, the following additional values may be available:
-        * OSL_DESIGN_NO - representing the current numerical design number (for example, 1)
-        * OSL_DESIGN_NAME - representing the current design directory name (for example, Design_0001)
-        * OSL_DESIGN_DIR - contains the absolute path of the current design directory
-        * OSL_PROJECT_DIR - contains the absolute path of the current project (*.opd)
-        * OSL_NODE_NAME - contains the name of the current node
-        * OSL_RLS_VER - representing the version number of optiSLang
-        * OSL_RLS_REV - representing the revision number of optiSLang
-        * OSL_RLS_FLG - is empty unless a specific version of optiSLang is used
+        * `OSL_DESIGN_NO` - representing the current numerical design number (for example, 1)
+        * `OSL_DESIGN_NAME` - representing the current design directory name (for example, Design_0001)
+        * `OSL_DESIGN_DIR` - contains the absolute path of the current design directory
+        * `OSL_PROJECT_WORKING_DIR` - Absolute path of the current project (`*.opd`).
+        * `OSL_PROJECT_FILE_DIR` - Absolute path of the current directory containing the project file (`*.opf`).
+        * `OSL_PROJECT_DIR` - contains the absolute path of the current project (`*.opd`). ***Deprecated.***
+        * `OSL_NODE_NAME` - contains the name of the current node
+        * `OSL_RLS_VER` - representing the version number of optiSLang
+        * `OSL_RLS_REV` - representing the revision number of optiSLang
+        * `OSL_RLS_FLG` - is empty unless a specific version of optiSLang is used
 
 ---

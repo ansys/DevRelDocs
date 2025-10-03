@@ -11,14 +11,14 @@ JointDOFLoad derives from [Load](load.md).
 
 `joint`
 
-A joint object
+A joint object.
 
 `dof`
 
 An integer that defines the joint degree of freedom to be included in the
 term. The ordering of the degrees of freedom sets the translation degrees of
 freedom first. The degrees of freedom numbering is zero based. For example, in
-a slot joint, the translational degree of freedom is 0, while the third
+a slot joint the translational degree of freedom is 0, while the third
 rotational degree of freedom is 3.
 
 ### Members

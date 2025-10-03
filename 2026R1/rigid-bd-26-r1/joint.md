@@ -16,11 +16,11 @@ For the joint type (`E_JointType`):
 
 `Name`
 
-Name of the joint
+Name of the joint.
 
 `ReferenceCoordinateSystem`
 
-Joint reference coordinate system
+Joint reference coordinate system.
 
 Example:
 
@@ -29,7 +29,7 @@ Example:
 
 `MovingCoordinateSystem`
 
-Joint moving coordinate system
+Joint moving coordinate system.
 
 Example:
 
@@ -38,21 +38,21 @@ Example:
 
 `Type`
 
-Joint type
+Joint type.
 
 `IsRevert`
 
 The internal representation of the joint can use flipped reference and mobile
-coordinate systems. In that case, all the joint results (for example, forces,
-moments, rotation, velocities and acceleration) must be multiplied by -1 to go
-from their internal representation to the user representation. As transient
-values of joint measures are giving the internal representation, use this
-`IsRevert` information to know if results should be negated.
+coordinate systems. In this case, all the joint results (for example, forces,
+moments, rotation, velocities and acceleration) must be multiplied by -1 to be
+translated from their internal representation to the user representation. As
+transient values of joint measures use the internal representation, use this
+`IsRevert` information to know if results should be made negative.
 
 `AccelerationFromVelocitiesDerivatives`
 
 When extracting joint degrees of freedom on joints that return true,
-accelerations should be done using the time derivatives of the joint velocity
+accelerations should be retrieved using the time derivatives of the joint velocity
 measure. On joints that return false, joint DOF derivatives should be
 extracted using the joint acceleration measure. It is important to check this
 flag first. Use of the wrong method to query joint acceleration can result in
@@ -80,9 +80,9 @@ to the joint accelerations.
 
 `GetRotation()`
 
-Returns the joint rotation measure. The type of measure depends on the joint
-number of rotational degrees of freedom (`E_1DRotationMeasure`,
-`E_3DRotationMeasure`, `E_UniversalAngles`). These rotations components are
+Returns the joint rotation measure. The type of measure depends on the number
+of rotational degrees of freedom of the joint (`E_1DRotationMeasure`,
+`E_3DRotationMeasure`, `E_UniversalAngles`). These rotation components are
 relative to the reference coordinate system of the joint.
 
 `GetTranslation()`
@@ -94,18 +94,18 @@ components are expressed in the reference coordinate system of the joint.
 `GetForce()`
 
 Returns the joint force measure. The length of this measure is always 6 (3
-forces components, 3 torque component). This force measure is the total
-force/moment, including constraint forces/moment, external forces/moment
-applied to the joint, and joint internal forces/moment, such as elastic moment
+force components, 3 torque component). This force measure is the total
+force/moment, including constraint forces/moments, external forces/moments
+applied to the joint, and joint internal forces/moments, such as elastic moment
 in a revolute joint that has a stiffness on the Z rotation axis. The force
 measure components are expressed in the global coordinate system. Note that
 the sign convention is different from the sign convention used in the Joint
-Probes in Mechanical.
+Probes in the Mechanical application.
 
 `GetAcceleration()`
 
-Returns the joint acceleration measures on the joints that are constraint
-equations based. See the `AccelerationFromVelocitiesDerivatives` member to see
+Returns the joint acceleration measures on the joints that are based on constraint
+equations. See the `AccelerationFromVelocitiesDerivatives` member to see
 when this function should be used.
 
 Example:
@@ -152,10 +152,10 @@ On `SphericalJoint, SlotJoint, BushingJoint, FreeJoint, GeneralJoint`.
 
 `AddStop(angle_max, restitution_factor)`
 
-Adds a spherical stop to a joint that has three rotations. A spherical stop
+Adds a spherical stop to a joint that has three rotational DOFs. A spherical stop
 constrains the motion of the X and Y rotational degrees of freedom, to give to
 the joint the behavior of a loose revolute joint, with a rotational gap. This
-will allow easier handling of over-constrained systems and building higher
+will allow easier handling of over-constrained systems and building of higher
 fidelity models without having to use contact.
 
 `angle_max`
@@ -173,7 +173,7 @@ The restitution factor, similar to other joint stops.
 
 `ReplaceByScrew(pitch)`
 
-Creates a relation between the translational and the rotational degrees of
+Creates a relationship between the translational and the rotational degrees of
 freedom of a cylindrical joint.
 
 **Note**
@@ -192,10 +192,10 @@ has been performed.
 
 ##### Creating new joints
 
-The following joint can be created by commands:
+A joint can be created by commands:
 
 `CS_GeneralJoint(from, to, FreeX, FreeY, FreeZ, FreeRX, FreeRY, FreeRZ)`  
   
 Where `from` and `to` are of type `CS_BodyCoordinateSystem` and `Free*` are
-integers where 0 is no available motion and nonzero is available motion.
-Selecting two free rotations is not allowed.
+integers where zero is no available motion and nonzero is available motion.
+Selecting two free rotations is not permitted.

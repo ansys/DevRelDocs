@@ -6,7 +6,7 @@ Corresponding ID table: `CS_PointsTable`
 
 `CS_PointsTable( tab )`
 
-`tab` is a two dimensional array where the first column contains the input
+`tab` is a two-dimensional array where the first column contains the input
 values and the second column contains the corresponding output values.
 
 Example:
@@ -32,5 +32,5 @@ Example:
 Here, the output (shown as Stiffness in the chart above) varies in a linear,
 piece-wise manner. For values of input less than -8.0 or greater than 8.0, the
 output is equal to 1.0. For values between -7.9 and +7.9, the output is 0.1.
-The transition is linear between -8.0 and -7.9, and as well between +7.9 and
+The transition is linear between -8.0 and -7.9, and also between +7.9 and
 +8.0.

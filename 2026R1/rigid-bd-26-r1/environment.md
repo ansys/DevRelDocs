@@ -75,11 +75,11 @@ Example:
     
 `Drivers`
 
-The vector of Displacements, Velocity and Acceleration joint conditions.
+The vector of Displacement, Velocity and Acceleration joint conditions.
 
 `InitialConditions`
 
-The vector of Displacements, Velocity, and Acceleration joint conditions to be
+The vector of Displacement, Velocity, and Acceleration joint conditions to be
 used only at time=`0`.
 
 `PotentialEnergy`
@@ -100,7 +100,7 @@ Gets the Actuator Energy Measure.
 
 `RestartTime`
 
-Specifies the starting time in a restart analysis
+Specifies the starting time in a restart analysis.
 
 ### Member functions
 

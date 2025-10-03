@@ -1,0 +1,103 @@
+# Class List
+
+Here are the classes, structs, unions, and interfaces with brief descriptions:
+
+- Phoenix
+  - [Optimization](../NamespaceList/Phoenix/optimization.md)
+    - [AlgorithmTests](../NamespaceList/Phoenix/Optimization/AlgorithmTests)
+      - [Evaluators](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators.md)
+        - [AckleyEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/AckleyEvaluator.md) - Implementation fo the Ackley Function Source: http://www-optima.amp.i.kyoto-u.ac.jp/member/student/hedar/Hedar_files/TestGO_files/Page295.htm
+        - [CRPO1](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO1.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO10](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO10.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO11](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO11.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO12](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO12.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO13](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO13.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO14](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO14.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 14
+        - [CRPO15](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO15.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 15
+        - [CRPO16](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO16.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO17](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO17.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO18](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO18.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO19](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO19.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO2](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO2.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 02
+        - [CRPO20](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO20.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO21](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO21.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO22](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO22.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO23](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO23.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO24](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO24.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO3](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO3.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 03
+        - [CRPO4](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO4.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 04
+        - [CRPO5](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO5.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO6](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO6.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO7](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO7.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO8](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO8.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [CRPO9](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO9.md) - Implementation of Constrained Real-Parameter Optimization Fucntion - 01
+        - [FailedRunsEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/FailedRunsEvaluator.md)
+        - [FrankEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/FrankEvaluator.md) - Implementation of Frank Fucntion Source: Phoenix Integration Customer
+        - [LohPapalambrosExample2Evaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/LohPapalambrosExample2Evaluator.md) - Loh-Papalambros Example 2 function
+        - [MatyasEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MatyasEvaluator.md) - Implementation of Matyas Fucntion
+        - [MOC1](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOC1.md) - Implementation of Constrained Multi-objective Optimization problem 1 from CEC'09
+        - [MOC2](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOC2.md) - Implementation of Constrained Multi-objective Optimization problem 4 from CEC'09
+        - [MOC3](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOC3.md) - Implementation of Constrained Multi-objective Optimization problem 8 from CEC'09
+        - [MOC4](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOC4.md) - Implementation of Constrained Multi-objective Optimization problem 10 from CEC'09
+        - [MOC5](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOC5.md) - Implementation of Constrained Multi-objective Optimization problem 2 from CEC'09
+        - [MOC6](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOC6.md) - Implementation of Constrained Multi-objective Optimization problem 1 from CEC'09
+        - [ModelCenterEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/ModelCenterEvaluator.md) - Abstract class that simplifies adding ModelCenter models as evaluators
+        - [ModelEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/ModelEvaluator.md) - Abstract class that implements common code for evaluators
+        - [MOUC1](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOUC1.md) - Implementation of Un-constrained Multi-objective Optimization problem 6 from CEC'09
+        - [MOUC2](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOUC2.md) - Implementation of Un-constrained Multi-objective Optimization problem 6 from CEC'09
+        - [PlyAnglesEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/PlyAnglesEvaluator.md) - Ply lamination optimization problem
+        - [RosenBrockDiscreteEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenBrockDiscreteEvaluator.md) - Implementation of Rosenbrock Fucntion Source: http://www-optima.amp.i.kyoto-u.ac.jp/member/student/hedar/Hedar_files/TestGO_files/TestGO_files/TestCodes/rosen.m
+        - [RosenbrockEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenbrockEvaluator.md) - Implementation of Rosenbrock Fucntion Source: http://www-optima.amp.i.kyoto-u.ac.jp/member/student/hedar/Hedar_files/TestGO_files/TestGO_files/TestCodes/rosen.m
+        - [RosenSuzukiDiscreteEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenSuzukiDiscreteEvaluator.md) - Implementation of T:Phoenix.Optimization.AlgorithmTests.Evaluators.RosenSuzukiEvaluator using discrete variables
+        - [RosenSuzukiEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenSuzukiEvaluator.md) - The Rosen-Suzuki problem is a function of four variables with three nonlinear constraints on the variables
+        - [RosenSuzukiFailEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenSuzukiFailEvaluator.md) - Implementation of T:Phoenix.Optimization.AlgorithmTests.Evaluators.RosenSuzukiEvaluator with failed runs
+        - [SeparableEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/SeparableEvaluator.md) - Implementation for the Separable Function problem Source: NonLinear Programming Theory and Algorithms, Second Edition Wiley Student edition ISBN 9812-53-068-1 by Mokhtar S Bazaraa, Hanif D
+        - [Stelmack98Evaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/Stelmack98Evaluator.md) - Implementation of the Stelmack 98 function
+        - [Stelmack98FailEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/Stelmack98FailEvaluator.md) - Implementation of the Stelmack 98 function with faild runs
+        - [SystemEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/SystemEvaluator.md) - Generic system evaluator used for testing algorithms that support solve for objectives but not minimize/maximize objectives
+        - [TB1Evaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/TB1Evaluator.md) - Implementation for the TB1 Function problem Source: NonLinear Programming Theory and Algorithms, Second Edition Wiley Student edition ISBN 9812-53-068-1 by Mokhtar S Bazaraa, Hanif D
+        - [TB2Evaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/TB2Evaluator.md) - Implementation for the TB2 Function problem
+        - [UnicodeLohPapalambrosExample2Evaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/UnicodeLohPapalambrosExample2Evaluator.md) - Copy of LohPapalambrosExample2Evaluator that tests using unicode strings as enumerated values
+        - [WoodsEvaluator](../NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/WoodsEvaluator.md) - Woods – a la More, Garbow & Hillstrom (TOMS algorithm 566)
+      - [MockObjects](../NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects.md)
+        - [MockAlgorithm](../NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockAlgorithm.md) - Dummy implementation of T:Phoenix.Optimization.IAlgorithm
+        - [MockIAlgorithmCatalogEntry](../NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockIAlgorithmCatalogEntry.md) - A mock implementation of IAlgorithmCatalogEntry for use in automated tests
+        - [MockIAlgorithmCatalogEntry2](../NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockIAlgorithmCatalogEntry2.md) - Copy of MockIAlgorithmCatalogEntry with different metadata on the wrapped IAlgorithm
+        - [MockIDynamicAlgorithmProvider](../NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockIDynamicAlgorithmProvider.md) - A mock implementation of IDynamicAlgorithmProvider for use in automated tests
+        - [MockOptions](../NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockOptions.md) - Mock options to facilitate testing
+        - [MockSolverInfrastructure](../NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockSolverInfrastructure.md) - Dummy implementation of T:Phoenix.Optimization.IAlgorithmHost
+      - AlgorithmTestFixture
+        - [AlgorithmTestFixture](../NamespaceList/Phoenix/Optimization/AlgorithmTests/AlgorithmTestFixture.md) - Abstract class used for implementing basic algorithm tests
+          - AlgorithmResults - (struct)
+      - TestStrings
+        - [TestStrings](../NamespaceList/Phoenix/Optimization/AlgorithmTests/TestStrings.md) - A strongly-typed resource class, for looking up localized strings, etc
+    - [AlgorithmException](../NamespaceList/Phoenix/Optimization/AlgorithmException.md) - This exception can be thrown by an algorithm when an algorithm specific code is raised
+    - [BoundsMustBeSpecifiedException](../NamespaceList/Phoenix/Optimization/BoundsMustBeSpecifiedException.md) - This can be thrown from the algorithm when the algorithm is passed a problem definition that has an open bound upper or lower bound on the constraints or design variables and the algorithm does not support open bounds
+    - [BoundsNotSupportedException](../NamespaceList/Phoenix/Optimization/BoundsNotSupportedException.md) - This can be thrown from the algorithm when the algorithm is passed a problem definition that has an open bound upper or lower bound on the constraints or design variables and the algorithm does not support open bounds
+    - [DesignComparer](../NamespaceList/Phoenix/Optimization/DesignComparer.md) - Class can be used to compare two designs to each other
+    - [DesignVariable](../NamespaceList/Phoenix/Optimization/DesignVariable.md) - Class to hold information about a design variable
+    - [EarlyTerminationException](../NamespaceList/Phoenix/Optimization/EarlyTerminationException.md) - Represents a class of cases where the solver terminated early due to some maximum option being hit, but the optimum value has probably not been found
+    - [HaltedException](../NamespaceList/Phoenix/Optimization/HaltedException.md) - This can be thrown from the algorithm when the algorithm is halted
+    - [HelpResourceStringAttribute](../NamespaceList/Phoenix/Optimization/HelpResourceStringAttribute.md) - Attribute used to specify a location in the help for an option
+    - [MaxFunctionEvaluationsException](../NamespaceList/Phoenix/Optimization/MaxFunctionEvaluationsException.md) - If a solver hits the maximum number of function evaluations before finding a solution it can throw this exception
+    - [MaxGenerationsException](../NamespaceList/Phoenix/Optimization/MaxGenerationsException.md) - The maximum number of generations was reached before an optimimum value was found
+    - [MaxIterationsException](../NamespaceList/Phoenix/Optimization/MaxIterationsException.md) - The maximum number of iterations was reached before an optimum was found
+    - [ModelEvaluation](../NamespaceList/Phoenix/Optimization/ModelEvaluation.md) - Class to hold the results of a model evaluation
+    - [NoFeasiblePointFoundException](../NamespaceList/Phoenix/Optimization/NoFeasiblePointFoundException.md) - This can be thrown from the algorithm when the algorithm is unable to find a feasible optimum
+    - [Objective](../NamespaceList/Phoenix/Optimization/Objective.md) - Class to hold information about an objective
+    - [OptConstraint](../NamespaceList/Phoenix/Optimization/OptConstraint.md) - Class to hold contraint information
+    - [OptimizationException](../NamespaceList/Phoenix/Optimization/OptimizationException.md) - Represents an exception that happened in the solver
+    - [ResponseVarArr](../NamespaceList/Phoenix/Optimization/ResponseVarArr.md)
+    - [ResponseVariable](../NamespaceList/Phoenix/Optimization/ResponseVariable.md) - Class to hold information about a design variable
+    - [RunFailureException](../NamespaceList/Phoenix/Optimization/RunFailureException.md) - This can be thrown from the algorithm when the algorithm receives a failed run and it does not support failed runs
+    - [IAlgorithm](../NamespaceList/Phoenix/Optimization/IAlgorithm.md) - Interface used to define an algorithm for the Optimization Tool infrastructure
+    - [IAlgorithmCatalogEntry](../NamespaceList/Phoenix/Optimization/IAlgorithmCatalogEntry.md) - Implementations of this interface are designed to allow an IDynamicAlgorithmProvider as well as the rest of the optimization tool to load and work with metadata about an optimization algorithm while avoiding having to actually instantiate or even load the corresponding IAlgorithm implementation
+    - [IAlgorithmHost](../NamespaceList/Phoenix/Optimization/IAlgorithmHost.md) - Interface used by the algorithm to communicate with the solver and request model evaluations
+    - [IConvergingMultiObjectiveAlgorithm](../NamespaceList/Phoenix/Optimization/IConvergingMultiObjectiveAlgorithm.md) - Interface used to indicate an algorithm converges even with multiple objectives
+    - [IDetailsSerializer](../NamespaceList/Phoenix/Optimization/IDetailsSerializer.md) - Interface to provide for algorithms to return details report as a file
+    - [IDynamicAlgorithmProvider](../NamespaceList/Phoenix/Optimization/IDynamicAlgorithmProvider.md) - This interface is intended to allow extensibility of the way in which the Opt Tool discovers available algorithms, such that IAlgorithm implementations can be generated programatically / dynamically and presented to the Opt Tool as separate algorithms
+    - [IEvaluator](../NamespaceList/Phoenix/Optimization/IEvaluator.md) - Interface used to define model evaluator used by the test problem infrastructure
+    - [IFeasibilityProvider](../NamespaceList/Phoenix/Optimization/IFeasibilityProvider.md) - Implemented by algorithms with custom IsDesignFeasible implementations
+    - [ISerializableAlgorithm](../NamespaceList/Phoenix/Optimization/ISerializableAlgorithm.md) - Interface that serves as a combination of IAlgorithm and IXmlSerializable to define an Optimization Tool algorithm which provides methods for XML serialization
+    - [IVariableName](../NamespaceList/Phoenix/Optimization/IVariableName.md) - Defines an object that has a variable name
+    - [IWarmStartAlgorithm](../NamespaceList/Phoenix/Optimization/IWarmStartAlgorithm.md) - Interface used to implement warm start functionality for an algorithm for the Optimization Tool infrastructure

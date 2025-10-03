@@ -8,7 +8,7 @@ corresponding joint in the tree:
 
     TopRevolute = CS_Joint.Find(_jid)
 
-Next, the commands object shown below is inserted in the result node. An
+Next, the command object shown below is inserted in the result node. An
 explanation of these commands follows.
 
 ![export commands](./images/gds_cmdref_ex_joint_insert.png)
@@ -44,7 +44,7 @@ explanation of these commands follows.
     fich.write('Time,Rotation,Velocity\n')
     ```
 
-6. Loop over all time values, and write values:
+6. Loop through all time values, and write values:
   
     ```
     for i in range(0,nbValues):
