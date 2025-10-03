@@ -1,6 +1,4 @@
-# ModelCenter Component Plug-In Getting Started Guide
-
-## Introduction
+# Introduction
 
 Welcome to the ModelCenter Component Plug-In Getting Started Guide. This document intends to help Plug-In developers who would like to extend the capabilities of ModelCenter by adding connections to external data and analysis tools like Excel and Databases.
 

@@ -1,4 +1,4 @@
-- name: ModelCenter Component Plugin SDK Getting Started Guide
+- name: Introduction
   href: index.md
 - name: Getting Started
   href: started.md
@@ -12,5 +12,5 @@
   href: common_issues.md
 - name: Frequently Asked Questions
   href: faq.md
-- name: Change Log
-  href: change_log.md
+- name: Changelog
+  href: changelog.md
