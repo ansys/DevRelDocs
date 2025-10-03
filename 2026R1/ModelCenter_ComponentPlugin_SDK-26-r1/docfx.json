@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ModelCenter Component Plugin SDK getting started 2026 R1",
+      "summary": "",
+      "version": "2026 R1",
+      "product": "ModelCenter",
+      "programming language": "java",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}

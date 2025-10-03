@@ -1,0 +1,247 @@
+- name: Introduction
+  href: index.md
+- name: Create an Algorithm
+  href: create_algorithm.md
+  items:
+  - name: Create a .NET Algorithm Project
+    href: create_algorithm/create_algo_net.md
+  - name: Create a Java Algorithm Project
+    href: create_algorithm/create_algo_java.md
+  - name: Implement Description Properties
+    href: create_algorithm/create_algo_description.md
+  - name: Implement Capability Properties
+    href: create_algorithm/create_algo_capability.md
+  - name: Implement Setup Methods and Properties
+    href: create_algorithm/create_algo_setup.md
+  - name: Implement Algorithm Execution
+    href: create_algorithm/create_algo_execution.md
+  - name: Implement Results Properties
+    href: create_algorithm/create_algo_results.md
+  - name: Installing the Algorithm
+    href: create_algorithm/create_algo_install.md
+- name: How to Create an Evaluator
+  href: create_evaluator.md
+- name: How to Use the Problem Test Suite
+  href: how_test_suite.md
+- name: API 
+  href: api/index_api.md
+  items:
+  - name: Namespaces
+    items:
+    - name: NamespaceList
+      items:
+      - name: Phoenix
+        items:
+        - name: Optimization
+          href: api/Namespaces/NamespaceList/Phoenix/optimization.md
+          items:
+          - name: AlgorithmTests
+            items:
+            - name: Evaluators
+              href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators.md
+              items:
+              - name: AckleyEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/AckleyEvaluator.md
+              - name: CRPO1
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO1.md
+              - name: CRPO10
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO10.md
+              - name: CRPO11
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO11.md
+              - name: CRPO12
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO12.md
+              - name: CRPO13
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO13.md
+              - name: CRPO14
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO14.md
+              - name: CRPO15
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO15.md
+              - name: CRPO16
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO16.md
+              - name: CRPO17
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO17.md
+              - name: CRPO18
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO18.md
+              - name: CRPO2
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO2.md
+              - name: CRPO3
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO3.md
+              - name: CRPO4
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO4.md
+              - name: CRPO5
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO5.md
+              - name: CRPO6
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO6.md
+              - name: CRPO7
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO7.md
+              - name: CRPO8
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO8.md
+              - name: CRPO9
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/CRPO9.md
+              - name: DiscontinuousEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/DiscontinuousEvaluator.md
+              - name: E1Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/E1Evaluator.md
+              - name: E2Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/E2Evaluator.md
+              - name: F1Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/F1Evaluator.md
+              - name: FailEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/FailEvaluator.md
+              - name: G1Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/G1Evaluator.md
+              - name: G2Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/G2Evaluator.md
+              - name: HimmelblauEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/HimmelblauEvaluator.md
+              - name: HimmelblauDiscreteEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/HimmelblauDiscreteEvaluator.md
+              - name: HimmelblauWithFailEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/HimmelblauWithFailEvaluator.md
+              - name: HS037Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/HS037Evaluator.md
+              - name: HS100Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/HS100Evaluator.md
+              - name: ModelCenterEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/ModelCenterEvaluator.md
+              - name: ModelEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/ModelEvaluator.md
+              - name: MOUC1
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOUC1.md
+              - name: MOUC2
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/MOUC2.md
+              - name: PolyApproximationEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/PolyApproximationEvaluator.md
+              - name: PlyAnglesEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/PlyAnglesEvaluator.md
+              - name: RosenBrockDiscreteEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenBrockDiscreteEvaluator.md
+              - name: RosenbrockEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenbrockEvaluator.md
+              - name: RosenSuzukiDiscreteEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenSuzukiDiscreteEvaluator.md
+              - name: RosenSuzukiEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenSuzukiEvaluator.md
+              - name: RosenSuzukiFailEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/RosenSuzukiFailEvaluator.md
+              - name: SeparableEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/SeparableEvaluator.md
+              - name: Stelmack98Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/Stelmack98Evaluator.md
+              - name: Stelmack98FailEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/Stelmack98FailEvaluator.md
+              - name: SystemEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/SystemEvaluator.md
+              - name: TB1Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/TB1Evaluator.md
+              - name: TB2Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/TB2Evaluator.md
+              - name: UnicodeLohPapalambrosExample2Evaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/UnicodeLohPapalambrosExample2Evaluator.md
+              - name: WoodsEvaluator
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/WoodsEvaluator.md
+              - name: ConstraintType
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators.md#ConstraintType
+              - name: DesignVariableType
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators.md#DesignVariableType
+            - name: MockObjects
+              href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects.md
+              items:
+              - name: MockIAlgorithm
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockIAlgorithm.md
+              - name: MockIAlgorithmCatalogEntry
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockIAlgorithmCatalogEntry.md
+              - name: MockIAlgorithmCatalogEntry2
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockIAlgorithmCatalogEntry2.md
+              - name: MockIDynamicAlgorithmProvider
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockIDynamicAlgorithmProvider.md
+              - name: MockOptions
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects/MockOptions.md
+              - name: Execute
+                href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/MockObjects.md#MockObjects_Execute
+            - name: TestStrings
+              href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/TestStrings.md
+            - name: AlgorithmTestFixture
+              href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/AlgorithmTestFixture.md
+          - name: AlgorithmException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmException.md
+          - name: BoundsMustBeSpecifiedException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/BoundsMustBeSpecifiedException.md
+          - name: BoundsNotSupportedException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/BoundsNotSupportedException.md
+          - name: DesignComparer
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/DesignComparer.md
+          - name: DesignVariable
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/DesignVariable.md
+          - name: EarlyTerminationException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/EarlyTerminationException.md
+          - name: HaltedException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/HaltedException.md
+          - name: HelpResourceStringAttribute
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/HelpResourceStringAttribute.md
+          - name: IAlgorithm
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md
+          - name: IAlgorithmCatalogEntry
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithmCatalogEntry.md
+          - name: IAlgorithmHost
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithmHost.md
+          - name: IConvergingMultiObjectiveAlgorithm
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IConvergingMultiObjectiveAlgorithm.md
+          - name: IDetailsSerializer
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IDetailsSerializer.md
+          - name: IDynamicAlgorithmProvider
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IDynamicAlgorithmProvider.md
+          - name: IEvaluator
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IEvaluator.md
+          - name: IFeasibilityProvider
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IFeasibilityProvider.md
+          - name: ISerializableAlgorithm
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/ISerializableAlgorithm.md
+          - name: IVariableName
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IVariableName.md
+          - name: IWarmStartAlgorithm
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/IWarmStartAlgorithm.md
+          - name: MaxFunctionEvaluationsException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/MaxFunctionEvaluationsException.md
+          - name: MaxGenerationsException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/MaxGenerationsException.md
+          - name: MaxIterationsException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/MaxIterationsException.md
+          - name: ModelEvaluation
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/ModelEvaluation.md
+          - name: NoFeasiblePointFoundException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/NoFeasiblePointFoundException.md
+          - name: Objective
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/Objective.md
+          - name: OptConstraint
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/OptConstraint.md
+          - name: OptimizationException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/OptimizationException.md
+          - name: ResponseVarArr
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/ResponseVarArr.md
+          - name: ResponseVariable
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/ResponseVariable.md
+          - name: RunFailureException
+            href: api/Namespaces/NamespaceList/Phoenix/Optimization/RunFailureException.md
+          - name: AlgorithmNumModelEvaluations
+            href: api/Namespaces/NamespaceList/Phoenix/optimization.md#AlgorithmNumModelEvaluations
+          - name: FuzzyBoolean
+            href: api/Namespaces/NamespaceList/Phoenix/optimization.md#FuzzyBoolean
+          - name: Goal
+            href: api/Namespaces/NamespaceList/Phoenix/optimization.md#Goal
+          - name: GoalType
+            href: api/Namespaces/NamespaceList/Phoenix/optimization.md#GoalType
+          - name: MessageType
+            href: api/Namespaces/NamespaceList/Phoenix/optimization.md#MessageType
+          - name: WarmStartMethod
+            href: api/Namespaces/NamespaceList/Phoenix/optimization.md#WarmStartMethod
+          - name: AreDesignsEqual
+            href: api/Namespaces/NamespaceList/Phoenix/optimization.md#AreDesignsEqual
+    - name: Classes
+      items:
+      - name: Class List
+        href: api/Namespaces/Classes/ClassList.md
+      - name: Class Index
+        href: api/Namespaces/Classes/ClassIndex.md
+- name: Changelog
+  href: changelog.md
