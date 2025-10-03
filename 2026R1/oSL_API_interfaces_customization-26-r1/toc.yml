@@ -1,55 +1,56 @@
-- name: Introduction
-  href: index.md
-- name: External Metamodel Solver Interfaces
-  href: opti_api_external_metamodel_solver_interfaces.md
-- name: Functional Mock-up Interface
-  href: opti_api_functional_mockup_interface.md
-- name: Python-Based Plugins
-  href: opti_api_python_based_plugins.md
-  items:
-  - name: Algorithms
-    href: opti_api_python_algorithms.md
-  - name: Extraction Toolkit
-    href: opti_api_python_extraction_toolkit.md
-  - name: File Access
-    href: opti_api_python_file_access.md
-  - name: Nodes
-    href: opti_api_python_nodes.md
-    items:
-    - name: Configuration Files for Nodes
-      href: opti_api_python_nodes_config_files.md
-    - name: Basic Node 
-      href: opti_api_python_nodes_basic.md
-    - name: Integration Node
-      href: opti_api_python_nodes_integration.md
-      items:
-      - name: Integration Plugin Demonstrators
-        href: opti_api_python_nodes_integration_demos.md
-        items:
-        - name: Minimalistic Demonstrators
-          href: opti_api_python_nodes_integration_demos_mini.md
-        - name: File-based Demonstrators
-          href: opti_api_python_nodes_integration_demos_file.md
-        - name: Special Demonstrators
-          href: opti_api_python_nodes_integration_demos_special.md
-    - name: MOP Node
-      href: opti_api_python_nodes_mop.md
-    - name: Generating Encryped File Sets 
-      href: opti_api_python_nodes_encrypted.md
-  - name: Post-Processing
-    href: opti_api_python_postprocessing.md
-  - name: Surrogates
-    href: opti_api_python_surrogates.md
-  - name: Wizards
-    href: opti_api_python_wizards.md
-  - name: QML Based User Interfaces
-    href: opti_api_python_qml.md
+- name: Interfaces and Customization
+  href: opti_api_interfaces.md
+  items: 
+  - name: External Metamodel Solver Interfaces
+    href: opti_api_external_metamodel_solver_interfaces.md
+  - name: Functional Mock-up Interface
+    href: opti_api_functional_mockup_interface.md
+  - name: Python-Based Plugins
+    href: opti_api_python_based_plugins.md    
     items:
     - name: Algorithms
-      href: opti_api_python_qml_algorithms.md
-    - name: Integration Node 
-      href: opti_api_python_qml_integration.md
+      href: opti_api_python_algorithms.md
+    - name: Extraction Toolkit
+      href: opti_api_python_extraction_toolkit.md
+    - name: File Access
+      href: opti_api_python_file_access.md
+    - name: Nodes
+      href: opti_api_python_nodes.md
+      items:
+      - name: Configuration Files for Nodes
+        href: opti_api_python_nodes_config_files.md
+      - name: Basic Node 
+        href: opti_api_python_nodes_basic.md
+      - name: Integration Node
+        href: opti_api_python_nodes_integration.md
+        items:
+        - name: Integration Plugin Demonstrators
+          href: opti_api_python_nodes_integration_demos.md
+          items:
+          - name: Minimalistic Demonstrators
+            href: opti_api_python_nodes_integration_demos_mini.md
+          - name: File-based Demonstrators
+            href: opti_api_python_nodes_integration_demos_file.md
+          - name: Special Demonstrators
+            href: opti_api_python_nodes_integration_demos_special.md
+      - name: MOP Node
+        href: opti_api_python_nodes_mop.md
+      - name: Generating Encryped File Sets 
+        href: opti_api_python_nodes_encrypted.md
+    - name: Post-Processing
+      href: opti_api_python_postprocessing.md
     - name: Surrogates
-      href: opti_api_python_qml_surrogates.md
+      href: opti_api_python_surrogates.md
+    - name: Wizards
+      href: opti_api_python_wizards.md
+    - name: QML Based User Interfaces
+      href: opti_api_python_qml.md
+      items:
+      - name: Algorithms
+        href: opti_api_python_qml_algorithms.md
+      - name: Integration Node 
+        href: opti_api_python_qml_integration.md
+      - name: Surrogates
+        href: opti_api_python_qml_surrogates.md
 - name: Changelog
-  href: changelog.md
+  href: Changelog.md
