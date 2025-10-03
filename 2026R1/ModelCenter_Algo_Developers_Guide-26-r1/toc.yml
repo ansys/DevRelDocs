@@ -1,4 +1,4 @@
-- name: ModelCenter Algorithm Developer Guide
+- name: Introduction
   href: index.md
 - name: Create an Algorithm
   href: create_algorithm.md
