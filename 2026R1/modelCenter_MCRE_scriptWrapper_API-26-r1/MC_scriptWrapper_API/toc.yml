@@ -86,5 +86,5 @@
     href: java_scriptwrapper_api/api/PHXVersionException.md
   - name: XPathFile
     href: java_scriptwrapper_api/api/XPathFile.md
-- name: Change Log
-  href: change_log.md
+- name: Changelog
+  href: changelog.md
