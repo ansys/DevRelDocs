@@ -1,4 +1,4 @@
-# ModelCenter Remote Execution scriptWrapper API
+# Introduction
 
 The ScriptWrapper defines a global object for all scripts called wrapper which supplies basic functionality for handling special cases with variables and methods. In addition there are objects which represent variables of various types. If you are using the Java scripting language, there is an additional File Parsing API which allows you to easily take advantage of the FileWrapper's robust file parsing capabilities programatically.
 
