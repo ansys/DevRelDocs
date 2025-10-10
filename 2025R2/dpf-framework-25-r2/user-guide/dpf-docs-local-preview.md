@@ -39,11 +39,16 @@ This guide uses the **command line** (also called terminal or PowerShell on Wind
 
 ## Create your DPF Framework HTML documentation
 
-Create a local website to view DPF Framework documentation in a user-friendly format (like a regular website with navigation and search). The DPF Framework documentation includes both general reference material and the DPF operators documentation you generated.
+Create a local website to view DPF Framework documentation in a user-friendly format (like a regular website with navigation and search).
+The DPF Framework documentation includes both general reference material and the DPF operators documentation.
+
+You first get the sources for the official documentation at https://github.com/ansys/DevRelDocs, then update them locally, and generate a local website. 
 
 ### Step 1: Install the website builder (DocFX)
 
 DocFX is a tool that converts your documentation files into a website.
+
+**Open your command line** (see instructions above if you need help).
 
 #### Check if you have .NET installed
 
@@ -51,7 +56,7 @@ First, check if your computer has the required software.
 
 **Type this command:**
 
-```bash
+```powershell
 dotnet --version
 ```
 
@@ -63,7 +68,7 @@ dotnet --version
 
 **Type this command:**
 
-```bash
+```powershell
 dotnet tool update -g docfx
 ```
 
@@ -73,7 +78,7 @@ dotnet tool update -g docfx
 
 **Verify it worked** by typing:
 
-```bash
+```powershell
 docfx --version
 ```
 
@@ -81,176 +86,55 @@ docfx --version
 
 **If you see an error:** Try the installation command again, or ask your IT support for help.
 
-### Step 2: Create your website project
 
-Create a new project that turns your documentation files into a website.
+### Step 2: Get the DPF Framework documentation source files
 
-#### Create a folder for your website
+To get the source files of the DPF Framework documentation (the basis for your custom documentation), follow these steps.
 
-1. **Create a new folder** for your website project. Type this command (replace `MyDPFDocs` with any name you prefer):
+1. **Clone the DPF Framework documentation** by typing:
 
-   ```bash
-   mkdir MyDPFDocs
-   ```
-
-   **What this does:** Creates a new folder called `MyDPFDocs`.
-
-1. **Enter your new folder** by typing:
-
-   ```bash
-   cd MyDPFDocs
-   ```
-
-   **What this does:** Moves into your new folder so all the next steps happen there.
-
-#### Set up the website structure
-
-1. **Create the website structure** by typing:
-
-   ```bash
-   docfx init
-   ```
-
-   **What this does:** Asks you questions to set up your website.
-
-2. **Answer the questions** that appear. Here's what to type for each:
-
-   - **What's the name of your site?** Type something like `My DPF Documentation` and press **Enter**.
-   - **Generate .NET API documentation? (y/n)** Type `n` and press Enter.
-   - **Where are your docs? (docs)** Just press Enter to accept the default.
-   - **Enable search? (y/n)** Type `y` and press Enter (this adds a search box to your website).
-   - **Enable PDF? (y/n)** Type `n` and press Enter (this keeps things simple).
-   - **Is this OK? (y/n)** Type `y` and press Enter.
-
-**What you'll see:** DocFX creates several files and folders for your website.
-
-**Files created:**
-
-- `docfx.json` - Website configuration.
-- `docs` folder - Where your documentation will go.
-- `toc.yml` - Website navigation menu.
-
-#### Test your website setup
-
-Let's make sure everything is working before adding DPF Framework documentation.
-
-1. **Build and start your website** by typing:
-
-   ```bash
-   docfx docfx.json --serve
-   ```
-
-   **What this does:** Creates your website and starts a local web server.
-
-   **What you'll see:** Text ending with something like "Serving at <http://localhost:8080>".
-
-2. **View your test website:**
-   - Open your web browser (Chrome, Firefox, Edge, etc.).
-   - Go to: `http://localhost:8080`.
-   - You should see a sample website with navigation.
-
-3. **Test the documentation section:**
-   - Click **docs** in the top navigation.
-   - You should see some sample documentation pages.
-
-4. **Stop the website** when you're done testing:
-   - Go back to your command line.
-   - Press `Ctrl + C` to stop the web server.
-
-### Step 3: Add DPF operators documentation
-
-Replace the sample content with your actual DPF operators documentation.
-
-#### Copy DPF operators documentation files
-
-**Copy the generated files:**
-
-1. Navigate to `pydpf-core/doc/source/operators-doc/`
-2. Copy all contents to your website's `docs` folder
-
-### Step 4: Add complete DPF Framework documentation
-
-To include the complete DPF Framework documentation (beyond just the operator specifications), follow these steps.
-
-#### Download the complete DPF Framework documentation
-
-1. **Download the full DPF Framework documentation** by typing:
-
-   ```bash
-   git clone --no-checkout https://github.com/ansys/DevRelDocs.git
+   ```powershell
+   git clone --filter=blob:none --sparse --depth 1 https://github.com/ansys/DevRelDocs.git
    cd DevRelDocs
    ```
 
-   **What this does:** Prepares to download just the DPF Framework documentation from the full repository.
+   **What this does:** Prepares to download just the DPF Framework documentation from the repository.
 
-2. **Set up to download only what you need** by typing:
+2. **Download the files** by typing:
 
-   ```bash
-   git sparse-checkout init --cone
+   ```powershell
+   git sparse-checkout add 2025R2/dpf-framework-25-r2
+   cd 2025R2/dpf-framework-25-r2
    ```
 
-3. **Choose which documentation to download** by typing:
+   **What this does:** Actually downloads the documentation files of interest and puts you at the documentation root.
 
-   ```bash
-   git sparse-checkout set 2025R2/dpf-framework-25-r2
-   ```
+### Step 3: Generate a local website
 
-   **What this does:** Tells Git to only download the DPF Framework documentation folder.
+Turn your documentation files into a viewable website.
 
-4. **Download the files** by typing:
+A default DocFX configuration file ``docfx_local.json`` is available for local documentation generation.
+You can edit it to change [DocFX configuration options](https://dotnet.github.io/docfx/reference/docfx-json-reference.html) for your custom website.
 
-   ```bash
-   git checkout
-   ```
+1. **Build and start your website** by typing:
 
-   **What this does:** Actually downloads the documentation files.
-
-#### Combine with your DPF operators documentation
-
-1. **Open File Explorer and navigate to:**
-   - Your `DevRelDocs/2025R2/dpf-framework-25-r2` folder (source).
-   - Your website project's `docs` folder (destination).
-
-2. **Copy the documentation carefully:**
-   - **Important:** Do NOT copy the `operator-specifications` folder from the source, as this would overwrite your custom DPF operators documentation.
-   - Select all other files and folders from the source (excluding `operator-specifications`).
-   - Copy and paste them into your website's `docs` folder.
-
-**Result:** You now have complete DPF Framework documentation plus your custom operator specifications.
-
-### Step 5: Build and view your final documentation
-
-Now you're ready to create and view your complete documentation website.
-
-1. **Make sure you're in your website folder** by typing:
-
-   ```bash
-   cd MyDPFDocs
-   ```
-
-   (Replace `MyDPFDocs` with your actual folder name if different).
-
-2. **Build and start your documentation website** by typing:
-
-   ```bash
-   docfx docfx.json --serve
+   ```powershell
+   docfx docfx_local.json --serve
    ```
 
    **What this does:**
    - Converts all your documentation files into a website.
    - Starts a web server so you can view it.
-   - Creates search functionality.
 
-3. **View your documentation:**
+2. **View your documentation:**
    - Open your web browser.
    - Go to: <http://localhost:8080>.
-   - Click **docs** to browse your documentation.
    - Use the search box to find specific operators or topics.
 
-4. **When you're done viewing:**
+3. **When you're done viewing:**
    - Press `Ctrl + C` in the command line to stop the web server.
 
-## Update the "Operator specifications" section
+## How to update the "Operator specifications" section
 
 Follow these steps to create DPF operators documentation files. These are the Markdown source files for the DPF operators section of the documentation.
 
@@ -272,7 +156,7 @@ This step prepares your computer with the necessary software and files.
 
 3. **Download the pydpf-core** by typing:
 
-   ```bash
+   ```powershell
    git clone https://github.com/ansys/pydpf-core.git
    ```
 
@@ -284,7 +168,7 @@ Python environments keep your project separate from other Python installations o
 
 1. **Create a new Python environment** by typing:
 
-   ```bash
+   ```powershell
    python -m venv .venv
    ```
 
@@ -326,7 +210,7 @@ Next, install the main pydpf-core software and a tool needed for documentation g
 
 1. **Move to the pydpf-core foler** by typing:
 
-   ```bash
+   ```powershell
    cd pydpf-core
    ```
 
@@ -334,7 +218,7 @@ Next, install the main pydpf-core software and a tool needed for documentation g
 
 2. **Install pydpf-core** by typing:
 
-   ```bash
+   ```powershell
    pip install -e .
    ```
 
@@ -344,7 +228,7 @@ Next, install the main pydpf-core software and a tool needed for documentation g
 
 3. **Install the documentation tool** by typing:
 
-   ```bash
+   ```powershell
    pip install jinja2
    ```
 
@@ -362,7 +246,7 @@ This creates documentation for all DPF operators (recommended for most users).
 
 **Type this command:**
 
-```bash
+```powershell
 python .\.ci\generate_operators_doc.py
 ```
 
@@ -378,7 +262,7 @@ This creates DPF operators documentation for only one plugin (faster, but incomp
 
 **Type this command:**
 
-```bash
+```powershell
 python .\.ci\generate_operators_doc.py --plugin "<plugin_name>"
 ```
 
@@ -388,13 +272,13 @@ python .\.ci\generate_operators_doc.py --plugin "<plugin_name>"
 
 For the CFF plugin:
 
-```bash
+```powershell
 python .\.ci\generate_operators_doc.py --plugin "cff"
 ```
 
 For the Mesh plugin:
 
-```bash
+```powershell
 python .\.ci\generate_operators_doc.py --plugin "mesh"
 ```
 
