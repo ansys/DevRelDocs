@@ -37,183 +37,7 @@ This guide uses the **command line** (also called terminal or PowerShell on Wind
 - Press **Enter** after typing each command.
 - If you see an error, double-check your typing and try again.
 
-## Generate DPF operators documentation
-
-Follow these steps to create DPF operators documentation files. These are the Markdown source files for the DPF operators section of the documentation.
-
-### Step 1: Set up your working environment
-
-This step prepares your computer with the necessary software and files.
-
-#### Download the pydpf-core project
-
-1. **Open your command line** (see instructions above if you need help).
-
-2. **Navigate to a folder where you want to work**. For example, to work in your tmp folder, type:
-
-   ```powershell
-   cd C:\Users\$env:USERNAME\tmp
-   ```
-
-   **What this does:** Changes your current location to your tmp folder.
-
-3. **Download the pydpf-core** by typing:
-
-   ```bash
-   git clone https://github.com/ansys/pydpf-core.git
-   ```
-
-   **What this does:** Downloads all the pydpf-core source code to your computer.
-
-#### Create a Python environment
-
-Python environments keep your project separate from other Python installations on your computer.
-
-1. **Create a new Python environment** by typing:
-
-   ```bash
-   python -m venv .venv
-   ```
-
-   **What this does:** Creates a folder called `.venv` with a clean Python environment
-
-2. **Activate your Python environment** by typing:
-
-   ```powershell
-   .venv\Scripts\activate.ps1
-   ```
-
-   **What this does:** Switches to using your new Python environment.
-
-   **What you'll see:** Your command prompt will now show `(.venv)` at the beginning.
-
-#### Set up DPF permissions
-
-1. **Tell DPF you accept the licensing terms** by typing:
-
-   ```powershell
-   $env:ANSYS_DPF_ACCEPT_LA = "Y"
-   ```
-
-1. **Set your license server** by typing:
-
-   ```powershell
-   $env:ANSYSLMD_LICENSE_FILE = "1055@your-license-address" 
-   ```
-
-   **What these do:** Configure DPF to work with your license and permissions. See [Licensing](../getting-started/licensing.md) section for more information.
-
-### Step 2: Install DPF server
-
-You need to install the DPF server software. Select the installation method that best fits your setup. For detailed instructions, see [Installation](../getting-started/installation.md).
-
-### Step 3: Install pydpf-core and required tools
-
-Next, install the main pydpf-core software and a tool needed for documentation generation.
-
-1. **Move to the pydpf-core foler** by typing:
-
-   ```bash
-   cd pydpf-core
-   ```
-
-   **What this does:** Moves down one level to the `pydpf-core` folder
-
-2. **Install pydpf-core** by typing:
-
-   ```bash
-   pip install -e .
-   ```
-
-   **What this does:** Installs pydpf-core in development mode so you can generate DPF operators documentation.
-
-   **What you'll see:** Text showing installation progress, which may take a few minutes.
-
-3. **Install the documentation tool** by typing:
-
-   ```bash
-   pip install jinja2
-   ```
-
-   **What this does:** Installs Jinja2, which is needed to create the documentation files.
-
-   **What you'll see:** Confirmation that Jinja2 was installed successfully.
-
-### Step 4: Generate DPF operators documentation
-
-Next, generate the DPF operators Markdown documentation files. Choose the option that fits your needs.
-
-#### Option A: Generate DPF operators documentation for everything
-
-This creates documentation for all DPF operators (recommended for most users).
-
-**Type this command:**
-
-```bash
-python .\.ci\generate_operators_doc.py
-```
-
-**What this does:** Creates documentation files for all available DPF operators.
-
-**What you'll see:** Text showing progress as each operator is processed. This may take several minutes.
-
-**Wait for completion:** The command is finished when you see your command prompt again (with `(.venv)` at the beginning).
-
-#### Option B: Generate DPF operators documentation for one specific plugin
-
-This creates DPF operators documentation for only one plugin (faster, but incomplete).
-
-**Type this command:**
-
-```bash
-python .\.ci\generate_operators_doc.py --plugin "<plugin_name>"
-```
-
-**Important:** Replace `<plugin_name>` with your actual plugin name (keep the quotes).
-
-**Examples:**
-
-For the CFF plugin:
-
-```bash
-python .\.ci\generate_operators_doc.py --plugin "cff"
-```
-
-For the Mesh plugin:
-
-```bash
-python .\.ci\generate_operators_doc.py --plugin "mesh"
-```
-
-**What this does:** Creates documentation only for the specified plugin.
-
-**What you'll see:** Progress text, but much faster than generating all operators.
-
-### Step 5: Find the DPF operators generated documentation
-
-DPF operators new documentation files have been created. Here's where to find them.
-
-**DPF operators documentation is located in:**
-
-```text
-pydpf-core/doc/source/operators-doc/
-```
-
-**What's in this folder:**
-
-- An `operator-specifications` folder containing multiple `.md` files (these contain your operator documentation).
-- A `toc.yml` file (this creates the table of contents for your website).
-
-**To see these files:**
-
-1. Open File Explorer (Windows key + E).
-2. Navigate to your pydpf-core folder.
-3. Open the folders: `pydpf-core` → `source` → `operators-doc`→ `operator-specifications`.
-4. You should see many `.md` files with names like operator names.
-
-**Next step:** Create a website to view these files in a user-friendly format.
-
-## Create DPF Framework HTML documentation
+## Create your DPF Framework HTML documentation
 
 Create a local website to view DPF Framework documentation in a user-friendly format (like a regular website with navigation and search). The DPF Framework documentation includes both general reference material and the DPF operators documentation you generated.
 
@@ -425,6 +249,180 @@ Now you're ready to create and view your complete documentation website.
 
 4. **When you're done viewing:**
    - Press `Ctrl + C` in the command line to stop the web server.
+
+## Update the "Operator specifications" section
+
+Follow these steps to create DPF operators documentation files. These are the Markdown source files for the DPF operators section of the documentation.
+
+### Step 1: Set up your working environment
+
+This step prepares your computer with the necessary software and files.
+
+#### Download the pydpf-core project
+
+1. **Open your command line** (see instructions above if you need help).
+
+2. **Navigate to a folder where you want to work**. For example, to work in your tmp folder, type:
+
+   ```powershell
+   cd C:\Users\$env:USERNAME\tmp
+   ```
+
+   **What this does:** Changes your current location to your tmp folder.
+
+3. **Download the pydpf-core** by typing:
+
+   ```bash
+   git clone https://github.com/ansys/pydpf-core.git
+   ```
+
+   **What this does:** Downloads all the pydpf-core source code to your computer.
+
+#### Create a Python environment
+
+Python environments keep your project separate from other Python installations on your computer.
+
+1. **Create a new Python environment** by typing:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+   **What this does:** Creates a folder called `.venv` with a clean Python environment
+
+2. **Activate your Python environment** by typing:
+
+   ```powershell
+   .venv\Scripts\activate.ps1
+   ```
+
+   **What this does:** Switches to using your new Python environment.
+
+   **What you'll see:** Your command prompt will now show `(.venv)` at the beginning.
+
+#### Set up DPF permissions
+
+1. **Tell DPF you accept the licensing terms** by typing:
+
+   ```powershell
+   $env:ANSYS_DPF_ACCEPT_LA = "Y"
+   ```
+
+1. **Set your license server** by typing:
+
+   ```powershell
+   $env:ANSYSLMD_LICENSE_FILE = "1055@your-license-address" 
+   ```
+
+   **What these do:** Configure DPF to work with your license and permissions. See [Licensing](../getting-started/licensing.md) section for more information.
+
+### Step 2: Install DPF server
+
+You need to install the DPF server software. Select the installation method that best fits your setup. For detailed instructions, see [Installation](../getting-started/installation.md).
+
+### Step 3: Install pydpf-core and required tools
+
+Next, install the main pydpf-core software and a tool needed for documentation generation.
+
+1. **Move to the pydpf-core foler** by typing:
+
+   ```bash
+   cd pydpf-core
+   ```
+
+   **What this does:** Moves down one level to the `pydpf-core` folder
+
+2. **Install pydpf-core** by typing:
+
+   ```bash
+   pip install -e .
+   ```
+
+   **What this does:** Installs pydpf-core in development mode so you can generate DPF operators documentation.
+
+   **What you'll see:** Text showing installation progress, which may take a few minutes.
+
+3. **Install the documentation tool** by typing:
+
+   ```bash
+   pip install jinja2
+   ```
+
+   **What this does:** Installs Jinja2, which is needed to create the documentation files.
+
+   **What you'll see:** Confirmation that Jinja2 was installed successfully.
+
+### Step 4: Generate DPF operators documentation
+
+Next, generate the DPF operators Markdown documentation files. Choose the option that fits your needs.
+
+#### Option A: Generate DPF operators documentation for everything
+
+This creates documentation for all DPF operators (recommended for most users).
+
+**Type this command:**
+
+```bash
+python .\.ci\generate_operators_doc.py
+```
+
+**What this does:** Creates documentation files for all available DPF operators.
+
+**What you'll see:** Text showing progress as each operator is processed. This may take several minutes.
+
+**Wait for completion:** The command is finished when you see your command prompt again (with `(.venv)` at the beginning).
+
+#### Option B: Generate DPF operators documentation for one specific plugin
+
+This creates DPF operators documentation for only one plugin (faster, but incomplete).
+
+**Type this command:**
+
+```bash
+python .\.ci\generate_operators_doc.py --plugin "<plugin_name>"
+```
+
+**Important:** Replace `<plugin_name>` with your actual plugin name (keep the quotes).
+
+**Examples:**
+
+For the CFF plugin:
+
+```bash
+python .\.ci\generate_operators_doc.py --plugin "cff"
+```
+
+For the Mesh plugin:
+
+```bash
+python .\.ci\generate_operators_doc.py --plugin "mesh"
+```
+
+**What this does:** Creates documentation only for the specified plugin.
+
+**What you'll see:** Progress text, but much faster than generating all operators.
+
+### Step 5: Find the DPF operators generated documentation
+
+DPF operators new documentation files have been created. Here's where to find them.
+
+**DPF operators documentation is located in:**
+
+```text
+pydpf-core/doc/source/operators-doc/
+```
+
+**What's in this folder:**
+
+- An `operator-specifications` folder containing multiple `.md` files (these contain your operator documentation).
+- A `toc.yml` file (this creates the table of contents for your website).
+
+**To see these files:**
+
+1. Open File Explorer (Windows key + E).
+2. Navigate to your pydpf-core folder.
+3. Open the folders: `pydpf-core` → `source` → `operators-doc`→ `operator-specifications`.
+4. You should see many `.md` files with names like operator names.
 
 ## Troubleshooting
 
