@@ -1,6 +1,6 @@
 # Generate and preview DPF Framework documentation locally
 
-This guide shows you how to create your own local copy of DPF Framework documentation that includes specifications for custom operators and development versions.
+This guide shows you how to create your own local copy of the DPF Framework documentation that includes specifications for custom operators and development versions.
 
 ## Before you begin
 
@@ -11,14 +11,15 @@ This guide shows you how to create your own local copy of DPF Framework document
 - Document custom operators you've developed.
 - Work with plugins that don't have published documentation.
 - View documentation for development versions of DPF.
+- Test changes to the DPF Framework documentation.
 
 ## What this guide covers
 
 This step-by-step guide walks you through:
 
-- How to generate DPF operators documentation files on your computer.
-- How to create a local website to view your documentation.
 - How to use basic command-line tools.
+- How to create a local website to view your custom documentation.
+- How to update the "Operator specifications" section of your documentation based on a custom DPF installation.
 
 ## About the command line
 
