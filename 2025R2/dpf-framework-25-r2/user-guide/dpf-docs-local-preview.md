@@ -136,53 +136,78 @@ You can edit it to change [DocFX configuration options](https://dotnet.github.io
 
 ## How to update the "Operator specifications" section
 
-Follow these steps to create DPF operators documentation files. These are the Markdown source files for the DPF operators section of the documentation.
+Follow these steps to update the documentation section for DPF operators.
 
-### Step 1: Set up your working environment
+It shows how to generate up-to-date Markdown source files for the DPF operators based on a given DPF installation using CPython and the ansys-dpf-core library.
+
+### Step 1: Install ansys-dpf-core
 
 This step prepares your computer with the necessary software and files.
 
-#### Download the pydpf-core project
+#### Install Python
 
-1. **Open your command line** (see instructions above if you need help).
+Download and install the latest stable version of Python from the https://www.python.org/downloads.
 
-2. **Navigate to a folder where you want to work**. For example, to work in your tmp folder, type:
+If you want to use older versions of Python, the minimum version supported by ansys-dpf-core is 3.10.
 
-   ```powershell
-   cd C:\Users\$env:USERNAME\tmp
-   ```
-
-   **What this does:** Changes your current location to your tmp folder.
-
-3. **Download the pydpf-core** by typing:
+1. **Test your Python installation** by typing:
 
    ```powershell
-   git clone https://github.com/ansys/pydpf-core.git
+   python --version
    ```
 
-   **What this does:** Downloads all the pydpf-core source code to your computer.
+   **What this does:** Shows the version of your current default Python interpreter.
 
-#### Create a Python environment
+#### Create a Python virtual environment
 
-Python environments keep your project separate from other Python installations on your computer.
+Python virtual environments keep your projects separate from other Python installations on your computer.
+It removes the risk from incompatibilities between dependencies.
 
 1. **Create a new Python environment** by typing:
 
    ```powershell
-   python -m venv .venv
+   python -m venv .my_venv
    ```
 
-   **What this does:** Creates a folder called `.venv` with a clean Python environment
+   **What this does:** Creates a folder called `.my_venv` with a clean Python environment
 
 2. **Activate your Python environment** by typing:
 
    ```powershell
-   .venv\Scripts\activate.ps1
+   .my_venv\Scripts\activate.ps1
    ```
 
    **What this does:** Switches to using your new Python environment.
 
-   **What you'll see:** Your command prompt will now show `(.venv)` at the beginning.
+   **What you'll see:** Your command prompt will now show `(.my_venv)` at the beginning.
+
+
+#### Install ansys-dpf-core
+
+1. **Install the latest stable version of PyDPF-Core** by typing:
+
+   ```powershell
+   pip install ansys-dpf-core[operator_doc]
+   ```
+
+This installs the ansys-dpf-core Python package with its dependencies for generating the operator documentation files.
+It also enables a command on the terminal to generate the operator documentation (see the next step).
+
+See the [PyDPF-Core documentation](https://dpf.docs.pyansys.com/version/stable/getting_started/install.html) for further details on how you can install ansys-dpf-core. 
+
+2. **Check your installation** with:
+
+   ```powershell
+   dpf_generate_operators_doc.exe -h
+   ```
+
+   **What this does:** Checks the command for generating the operator documentation is correctly installed by ansys-dpf-core.
+
+   **What you'll see:** Your terminal shows a description and available options for the command.
+
+### Step 2: Install DPF server
+
+You need to install the DPF server software. Select the installation method that best fits your setup. For detailed instructions, see [Installation](../getting-started/installation.md).
 
 #### Set up DPF permissions
 
@@ -200,113 +225,114 @@ Python environments keep your project separate from other Python installations o
 
    **What these do:** Configure DPF to work with your license and permissions. See [Licensing](../getting-started/licensing.md) section for more information.
 
-### Step 2: Install DPF server
-
-You need to install the DPF server software. Select the installation method that best fits your setup. For detailed instructions, see [Installation](../getting-started/installation.md).
-
-### Step 3: Install pydpf-core and required tools
-
-Next, install the main pydpf-core software and a tool needed for documentation generation.
-
-1. **Move to the pydpf-core foler** by typing:
-
-   ```powershell
-   cd pydpf-core
-   ```
-
-   **What this does:** Moves down one level to the `pydpf-core` folder
-
-2. **Install pydpf-core** by typing:
-
-   ```powershell
-   pip install -e .
-   ```
-
-   **What this does:** Installs pydpf-core in development mode so you can generate DPF operators documentation.
-
-   **What you'll see:** Text showing installation progress, which may take a few minutes.
-
-3. **Install the documentation tool** by typing:
-
-   ```powershell
-   pip install jinja2
-   ```
-
-   **What this does:** Installs Jinja2, which is needed to create the documentation files.
-
-   **What you'll see:** Confirmation that Jinja2 was installed successfully.
-
-### Step 4: Generate DPF operators documentation
+### Step 4: Update the DPF operators documentation
 
 Next, generate the DPF operators Markdown documentation files. Choose the option that fits your needs.
 
-#### Option A: Generate DPF operators documentation for everything
 
-This creates documentation for all DPF operators (recommended for most users).
+**Update the current documentation with the default DPF installation:**
 
-**Type this command:**
+Move to the root folder of the ``dpf-framework`` documentation downloaded in section ``Create your DPF Framework HTML documentation``, step ``Get the DPF Framework documentation source files``.
 
 ```powershell
-python .\.ci\generate_operators_doc.py
+dpf_generate_operators_doc.exe -v
 ```
 
-**What this does:** Creates documentation files for all available DPF operators.
+**What this does:** Creates documentation files at the current location for all DPF operators of the default DPF installation picked by PyDPF-Core.
 
 **What you'll see:** Text showing progress as each operator is processed. This may take several minutes.
 
 **Wait for completion:** The command is finished when you see your command prompt again (with `(.venv)` at the beginning).
 
-#### Option B: Generate DPF operators documentation for one specific plugin
+The ``-v`` argument is used here to show progress information but can be omitted for the command to run without any output to the terminal.
+
+When targeting the location of the DPF Framework documentation, it updates the source files for the DPF operator specifications section.
+
+To learn how PyDPF-Core selects the default DPF installation, see the [PyDPF-Core documentation](https://dpf.docs.pyansys.com/version/stable/getting_started/dpf_server.html#manage-multiple-dpf-server-installations).
+
+#### Optional: Select the DPF installation of interest
+
+Update the documentation for operators of a specific DPF installation with the ``--ansys_path`` command argument:
+
+```powershell
+dpf_generate_operators_doc.exe --ansys_path "%PATH_TO_MY_DPF_INSTALL%"
+```
+
+**What this does:** Creates documentation files for available DPF operators of a given DPF installation.
+
+#### Optional: Set the output path
+
+Generate the output files at a location different than the current folder with the ``--output_path`` command argument:
+
+```powershell
+dpf_generate_operators_doc.exe --output_path "%PATH_TO_OUTPUT%"
+```
+
+**What this does:** Creates documentation files for available DPF operators in the default DPF installation at the given location.
+
+#### Optional: Document private operators
+
+Generate the output files for all operators including private operators with the ``--include_private`` command argument:
+
+```powershell
+dpf_generate_operators_doc.exe --include_private
+```
+
+#### Optional: Document composites operators
+
+Generate the output files for all operators including operators of the ``Composites`` DPF plugin with the ``--include_composites`` command argument:
+
+```powershell
+dpf_generate_operators_doc.exe --include_composites
+```
+
+This is useful for installations where the ``Composites`` plugin is present but not loaded by default.
+This tells the script to try and load the plugin when starting DPF.
+
+#### Optional: Document composites operators
+
+Generate the output files for all operators including operators of the ``Sound`` DPF plugin with the ``--include_sound`` command argument:
+
+```powershell
+dpf_generate_operators_doc.exe --include_sound
+```
+
+This is useful for installations where the ``Sound`` plugin is present but not loaded by default.
+This tells the script to try and load the plugin when starting DPF.
+
+#### Optional: Document operators of a specific plugin
 
 This creates DPF operators documentation for only one plugin (faster, but incomplete).
 
 **Type this command:**
 
 ```powershell
-python .\.ci\generate_operators_doc.py --plugin "<plugin_name>"
+dpf_generate_operators_doc.exe --plugin "<plugin_name>"
 ```
 
 **Important:** Replace `<plugin_name>` with your actual plugin name (keep the quotes).
 
+You can find the name of the plugin an operator belongs to on its page in the [Operator specifications](https://developer.ansys.com/docs/dpf-framework-2025-r2/operator-specifications/operator-specifications.md) section of the DPF Framework documentation under property ``plugin``.
+
 **Examples:**
 
-For the CFF plugin:
+For the ``CFF`` plugin:
 
 ```powershell
-python .\.ci\generate_operators_doc.py --plugin "cff"
+dpf_generate_operators_doc.exe --plugin "cff"
 ```
 
-For the Mesh plugin:
+For the ``Mesh`` plugin:
 
 ```powershell
-python .\.ci\generate_operators_doc.py --plugin "mesh"
+dpf_generate_operators_doc.exe --plugin "mesh"
 ```
 
 **What this does:** Creates documentation only for the specified plugin.
 
-**What you'll see:** Progress text, but much faster than generating all operators.
+### Step 5: Rebuild the documentation
 
-### Step 5: Find the DPF operators generated documentation
-
-DPF operators new documentation files have been created. Here's where to find them.
-
-**DPF operators documentation is located in:**
-
-```text
-pydpf-core/doc/source/operators-doc/
-```
-
-**What's in this folder:**
-
-- An `operator-specifications` folder containing multiple `.md` files (these contain your operator documentation).
-- A `toc.yml` file (this creates the table of contents for your website).
-
-**To see these files:**
-
-1. Open File Explorer (Windows key + E).
-2. Navigate to your pydpf-core folder.
-3. Open the folders: `pydpf-core` → `source` → `operators-doc`→ `operator-specifications`.
-4. You should see many `.md` files with names like operator names.
+Refer to the previous main section "Create your DPF Framework HTML documentation" and "Step 3: Generate a local website" to update the HTML documentation with the new content for DPF operators.
 
 ## Troubleshooting
 
