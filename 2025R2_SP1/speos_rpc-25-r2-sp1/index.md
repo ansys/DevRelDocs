@@ -82,6 +82,32 @@ The option --help is available to know more about possible arguments, and also t
 ./SpeosRPC_Server.exe --help
 ```
 
+SpeosRPC_Server supports several secure transport protocols. Here are examples to start the server:
+
+- mutual TLS transport protocol
+
+```bash
+./SpeosRPC_Server.exe --transport_tls <SERVER_KEY>,<SERVER_CERTIFICATE>,<SERVER_CLIENT_CA> # Start server with TLS transport
+```
+
+- Unix Domain Socket transport protocol
+
+```bash
+./SpeosRPC_Server.exe --transport_uds <UDSPATH> # Start server with Unix Domain Socket transport
+```
+
+- Windows Named User Authentication transport protocol
+
+```bash
+./SpeosRPC_Server.exe --transport_wnua  # Start server with Windows user-based authentication transport
+```
+
+- Insecure transport protocol (not recommended)
+
+```bash
+./SpeosRPC_Server.exe --transport_insecure # Start server with insecure transport (not recommended)
+```
+
 Example of how to properly shutdown a server started on port 50053:
 
 ```bash
