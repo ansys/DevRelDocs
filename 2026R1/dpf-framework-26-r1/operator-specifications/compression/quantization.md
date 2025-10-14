@@ -10,14 +10,14 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Applies scaling to precision to all the values from field input, then rounding to the unit.
+Scales a field to a given precision threshold, then rounds all the values to the unit.
 
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_field |[`field`](../../core-concepts/dpf-types.md#field) | Input field |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  threshold |[`double`](../../core-concepts/dpf-types.md#standard-types) | Threshold (precision) desired. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_field |[`field`](../../core-concepts/dpf-types.md#field) | Field to quantize. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  threshold |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field) | Precision threshold desired.<br>Case double : the threshold is applied on all the input field.<br>Case field with one value : the threshold is applied on all the input field.<br>Case field with "numComp" values : each threhsold is applied to the corresponding component of the input field.<br>Case field with the same number of values than the input field : quantization is performed component-wise.<br> |
 
 ## Outputs
 
