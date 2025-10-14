@@ -1,4 +1,29 @@
 # Changelog
+
+This changelog is organized by category, with sections for new features, changes, fixes, and performance improvements. The following table shows which components have updates in each category.
+
+| Component | Features | Changes | Fixes | Performance |
+|-----------|----------|---------|-------|-------------|
+| Framework | ✅ [15 items](#features_framework) | ✅ [4 items](#changes_framework) | ✅ [33 items](#fixes_framework) | ✅ [9 items](#performance_framework) |
+| HGP | ✅ [4 items](#features_hgp) | ✅ [1 item](#changes_hgp) | ✅ [6 items](#fixes_hgp) | ✅ [2 items](#performance_hgp) |
+| MAPDL | ✅ [11 items](#features_mapdl) | ✅ [3 items](#changes_mapdl) | ✅ [29 items](#fixes_mapdl) | ✅ [3 items](#performance_mapdl) |
+| LSDYNA | ✅ [2 items](#features_lsdyna) | ✅ [2 items](#changes_lsdyna) | ✅ [8 items](#fixes_lsdyna) | ❌ |
+| Math | ✅ [1 item](#features_math) | ✅ [2 items](#changes_math) | ✅ [1 item](#fixes_math) | ❌ |
+| HDF5 | ✅ [3 items](#features_hdf5) | ✅ [1 item](#changes_hdf5) | ✅ [8 items](#fixes_hdf5) | ❌ |
+| CFF | ❌ | ✅ [1 item](#changes_cff) | ✅ [2 items](#fixes_cff) | ❌ |
+| Compression | ✅ [1 item](#features_compression) | ❌ | ❌ | ✅ [1 item](#performance_compression) |
+| Documentation | ✅ [1 item](#features_documentation) | ❌ | ❌ | ❌ |
+| Motion | ✅ [1 item](#features_motion) | ❌ | ❌ | ❌ |
+| CGNS | ✅ [1 item](#features_cgns) | ❌ | ❌ | ❌ |
+| Engineering Data | ❌ | ✅ [1 item](#changes_engineering_data) | ❌ | ❌ |
+| VTK | ❌ | ❌ | ✅ [1 item](#fixes_vtk) | ❌ |
+
+**Legend:**
+
+- ✅ = Updates available in this category
+- ❌ = No updates in this category
+- Numbers in brackets indicate the count of items in each section
+
 ## Table of contents
 ### Features categories
   * [Framework](#features_framework)
@@ -27,7 +52,7 @@
   * [HGP](#fixes_hgp)
   * [MAPDL](#fixes_mapdl)
   * [CFF](#fixes_cff)
-  * [LSDYNA](#fixes_lsdyna)
+  * [LSDYNA](#changes_lsdyna)
   * [Math](#fixes_math)
   * [HDF5](#fixes_hdf5)
   * [VTK](#fixes_vtk)
