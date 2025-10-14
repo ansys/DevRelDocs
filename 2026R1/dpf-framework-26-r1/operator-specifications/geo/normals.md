@@ -1,7 +1,7 @@
 ---
 category: geo
 plugin: core
-license: any_dpf_supported_increments
+license: None
 ---
 
 # geo:scoping normals
@@ -16,21 +16,21 @@ compute the normals at the given nodes or element scoping based on the given mes
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  mesh |[`abstract_meshed_region`](./../../core-concepts/dpf-types.md#meshed-region) |  |
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](./../../core-concepts/dpf-types.md#scoping) |  |
-| <strong>Pin 3</strong>|  field |[`field`](./../../core-concepts/dpf-types.md#field) |  |
+| <strong>Pin 0</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
+| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
+| <strong>Pin 3</strong>|  field |[`field`](../../core-concepts/dpf-types.md#field) |  |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](./../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
@@ -44,7 +44,7 @@ compute the normals at the given nodes or element scoping based on the given mes
 
  **Internal name**: normals_provider
 
- **License**: any_dpf_supported_increments
+ **License**: None
 
 
 ## Changelog

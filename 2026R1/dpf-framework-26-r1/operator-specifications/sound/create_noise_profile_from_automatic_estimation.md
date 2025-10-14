@@ -16,20 +16,20 @@ Automatic XTRACT noise profile estimation from a signal.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](./../../core-concepts/dpf-types.md#field) | Signal (field) from which to estimate the noise profile. |
-| <strong>Pin 1</strong>|  window_length |[`int32`](./../../core-concepts/dpf-types.md#standard-types) | (Optional) Window length for the noise level estimation in ms. Default is 50 ms. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | Signal (field) from which to estimate the noise profile. |
+| <strong>Pin 1</strong>|  window_length |[`int32`](../../core-concepts/dpf-types.md#standard-types) | (Optional) Window length for the noise level estimation in ms. Default is 50 ms. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| noise_profile |[`field`](./../../core-concepts/dpf-types.md#field) | Noise profile (field), to be used as input for the XTRACT denoiser operator. |
+|  **Pin 0**| noise_profile |[`field`](../../core-concepts/dpf-types.md#field) | Noise profile (field), to be used as input for the XTRACT denoiser operator. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
