@@ -16,6 +16,7 @@ Generate a dpf result file from provided information.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
+| <strong>Pin -7</strong>|  h5_chunk_size |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Size of each HDF5 chunk in kilobytes (KB). Default: 1 MB when compression is enabled; for uncompressed datasets, the default is the full dataset size x dimension. |
 | <strong>Pin -6</strong>|  append_mode |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Experimental: Allow appending chunked data to the file. This disables fields container content deduplication. |
 | <strong>Pin -5</strong>|  dataset_size_compression_threshold |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Integer value that defines the minimum dataset size (in bytes) to use h5 native compression Applicable for arrays of floats, doubles and integers. |
 | <strong>Pin -2</strong>|  h5_native_compression |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) | Integer value / DataTree that defines the h5 native compression used For Integer Input {0: No Compression (default); 1-9: GZIP Compression : 9 provides maximum compression but at the slowest speed.}For DataTree Input {type: None / GZIP / ZSTD; level: GZIP (1-9) / ZSTD (1-20); num_threads: ZSTD (>0)} |
