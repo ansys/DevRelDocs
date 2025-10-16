@@ -22,6 +22,7 @@ Set the required data for the invariant terms computation (reduced matrices, lum
 | <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  model_data |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | data describing the finite element model |
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field_coordinates |[`field`](../../core-concepts/dpf-types.md#field) | coordinates of all nodes |
 | <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  nod |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |  |
+| <strong>Pin 6</strong>|  phi_ortho |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Orthonormalizated modes transformation |
 
 ## Outputs
 
