@@ -57,7 +57,8 @@ Read/compute element nodal equivalent plastic strain by calling the readers defi
 | <strong>Pin 9</strong>|  requested_location |[`string`](../../core-concepts/dpf-types.md#standard-types) | requested location Nodal, Elemental or ElementalNodal |
 | <strong>Pin 22</strong>|  read_beams |[`bool`](../../core-concepts/dpf-types.md#standard-types) | elemental nodal beam results are read if this pin is set to true (default is false) |
 | <strong>Pin 26</strong>|  split_shells |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true, this pin forces the results to be split by element shape, indicated by the presence of the 'elshape' label in the output. If false, the results for all elements shapes are combined. Default value is false if averaging is not required and true if averaging is required. |
-| <strong>Pin 27</strong>|  shell_layer |[`int32`](../../core-concepts/dpf-types.md#standard-types) | If connected, this pin allows you to extract the result only on the selected shell layer(s). The available values are: 0: Top, 1: Bottom, 2: TopBottom, 3: Mid, 4: TopBottomMid. |
+| <strong>Pin 27</strong>|  shell_layer |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If connected, this pin allows you to extract the result only on the selected shell layer(s). The available values are: 0: Top, 1: Bottom, 2: TopBottom, 3: Mid, 4: TopBottomMid. |
+| <strong>Pin 28</strong>|  extend_to_mid_nodes |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Compute mid nodes (when available) by averaging the neighbour corner nodes. Default: True |
 
 ## Outputs
 
