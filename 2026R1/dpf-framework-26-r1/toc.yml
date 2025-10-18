@@ -1752,6 +1752,8 @@
       href: operator-specifications/utility/compute_time_scoping.md
     - name: customtypefield get attribute
       href: operator-specifications/utility/customtypefield_get_attribute.md
+    - name: cyclic support get attribute
+      href: operator-specifications/utility/cyclic_support_get_attribute.md
     - name: default value
       href: operator-specifications/utility/default_value.md
     - name: delegate to operator
