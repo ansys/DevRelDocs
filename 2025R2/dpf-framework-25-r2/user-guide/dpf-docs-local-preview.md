@@ -18,7 +18,7 @@ This guide shows you how to create your own local copy of the DPF Framework docu
 This step-by-step guide walks you through:
 
 - How to use basic command-line tools.
-- How to create a local website to view your custom documentation.
+- How to create a local website to view your DPF Framework HTML documentation.
 - How to update the "Operator specifications" section of your documentation based on a custom DPF installation.
 
 ## About the command line
@@ -42,7 +42,8 @@ This guide uses the **command line** (also called terminal or PowerShell on Wind
 Create a local website to view DPF Framework documentation in a user-friendly format (like a regular website with navigation and search).
 The DPF Framework documentation includes both general reference material and the DPF operators documentation.
 
-You first get the sources for the official documentation at https://github.com/ansys/DevRelDocs, then update them locally, and generate a local website. 
+First, install the DocFX website builder. Next, clone the official documentation source from [github.com/ansys/DevRelDocs](https://github.com/ansys/DevRelDocs). Use DocFX to generate a local version of the website.
+
 
 ### Step 1: Install the website builder (DocFX)
 
@@ -150,7 +151,7 @@ Download and install the latest stable version of Python from the https://www.py
 
 If you want to use older versions of Python, the minimum version supported by ansys-dpf-core is 3.10.
 
-1. **Test your Python installation** by typing:
+ **Test your Python installation** by typing:
 
    ```powershell
    python --version
@@ -217,7 +218,7 @@ You need to install the DPF server software. Select the installation method that
    $env:ANSYS_DPF_ACCEPT_LA = "Y"
    ```
 
-1. **Set your license server** by typing:
+2. **Set your license server** by typing:
 
    ```powershell
    $env:ANSYSLMD_LICENSE_FILE = "1055@your-license-address" 
@@ -225,10 +226,9 @@ You need to install the DPF server software. Select the installation method that
 
    **What these do:** Configure DPF to work with your license and permissions. See [Licensing](../getting-started/licensing.md) section for more information.
 
-### Step 4: Update the DPF operators documentation
+### Step 3: Update the DPF operators documentation
 
 Next, generate the DPF operators Markdown documentation files. Choose the option that fits your needs.
-
 
 **Update the current documentation with the default DPF installation:**
 
@@ -278,7 +278,7 @@ Generate the output files for all operators including private operators with the
 dpf_generate_operators_doc.exe --include_private
 ```
 
-#### Optional: Document composites operators
+#### Optional: Document Composites operators
 
 Generate the output files for all operators including operators of the ``Composites`` DPF plugin with the ``--include_composites`` command argument:
 
@@ -289,7 +289,7 @@ dpf_generate_operators_doc.exe --include_composites
 This is useful for installations where the ``Composites`` plugin is present but not loaded by default.
 This tells the script to try and load the plugin when starting DPF.
 
-#### Optional: Document composites operators
+#### Optional: Document Sound operators
 
 Generate the output files for all operators including operators of the ``Sound`` DPF plugin with the ``--include_sound`` command argument:
 
@@ -330,9 +330,9 @@ dpf_generate_operators_doc.exe --plugin "mesh"
 
 **What this does:** Creates documentation only for the specified plugin.
 
-### Step 5: Rebuild the documentation
+### Step 4: Rebuild the documentation
 
-Refer to the previous main section "Create your DPF Framework HTML documentation" and "Step 3: Generate a local website" to update the HTML documentation with the new content for DPF operators.
+Refer to the previous main section [Create your DPF Framework HTML documentation](#create-your-dpf-framework-html-documentation) and **Step 3: Generate a local website** to update the HTML documentation with the new content for DPF operators.
 
 ## Troubleshooting
 
