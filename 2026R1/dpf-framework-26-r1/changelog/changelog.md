@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-20).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-22).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,14 +8,15 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
+| expansion | [1 item](#Features_expansion) | |
+| misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
+| math | [5 items](#Features_math) | |
 | mapdl | [8 items](#Features_mapdl) |[13 items](#Fixes_mapdl) |
-| misc | [11 items](#Features_misc) |[18 items](#Fixes_misc) |
 | hdf5 | [4 items](#Features_hdf5) | |
 | compression | [2 items](#Features_compression) | |
 | native |  |[1 item](#Fixes_native) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | kernel | [1 item](#Features_kernel) |[1 item](#Fixes_kernel) |
-| math | [4 items](#Features_math) | |
 | hgp | [2 items](#Features_hgp) | |
 | mechanical | [1 item](#Features_mechanical) |[2 items](#Fixes_mechanical) |
 | h5dpf |  |[1 item](#Fixes_h5dpf) |
@@ -39,6 +40,350 @@ The following table shows which components have updates in each category.
 | workflows |  |[1 item](#Fixes_workflows) |
 | cff | [2 items](#Features_cff) | |
 
+
+## expansion
+### <a id="Features_expansion"></a> Features
+
+- Addition of chunk option to modal superposition:
+  > Addition of mode chunking option to modal superposition workflow.
+  >
+  > 
+  >
+  > 
+
+## misc
+### <a id="Features_misc"></a> Features
+
+- Adapt operator for Cyclic Modal StructOpt:
+  > 
+  >
+  > Improve ints_to_scoping/"scopingify" with additional optional pin to define a range scoping to be created.
+  >
+  > 
+  >
+  > Creation of cyclic_support_get_attribute/"cyclic_support::get_attribute" operator to retrieve element & node duplicate offset.
+  >
+  > 
+  >
+  > Add new property name "step_id_from_harmonic_index" for time_freq_support_get_attribute/"timefreqsupport::get_attribute" operator, returning a int corresponding to the load step of a Harmonic Index.
+  >
+  > 
+  >
+  > 
+
+- Support of layers in APDLElementDescriptor:
+  > 
+  >
+  > Add Management of ShellLayers to `ApdlElementDescriptor`
+  >
+  > Add Shell Layer functors to handle elements `SHELL43-63-93`, `SHELL131&132`, `SHELL181-281-208-209`, `SOLSH190`, `SHELL294`, `SOLID185-186`, `SOLID278-279`, `ELBOw290`
+  >
+  > Add corresponding element descriptors and new unit tests for those elements
+  >
+  > Add Testing of Shell layers in unit tests
+  >
+  > Refactor the ApdlElementDescriptorTest.cpp for better readability
+  >
+  > Add new class `APDLSectionDetails` in `ApdlElementDescriptor` to handle section data
+  >
+  > Add new struct `SectionTypeProperties`, `BeamSectionProperties`, `ShellSectionProperties` and `LayerProperties`  in MapdlCommonDefs.h to better handle section data
+  >
+  > Updated function isLayeredElement to use ApdlElementDescriptors.
+  >
+  > 
+  >
+  > 
+
+- Added support for more material properties:
+  > 
+  >
+  > Add support for material properties
+  >
+  > Correct previous behavior of sending 0 if the material property wasn't found for a material Id.
+  >
+  > 
+  >
+  > 
+
+- Rework mesh providers to allow for adaptive meshes:
+  > 
+  >
+  > When conducting Crack Growth analysis or some NLAD analysis, an adaptive remeshing process creates new meshes at some time steps.
+  >
+  > 
+  >
+  > This PR aims to change mesh getters (readMeshes, MeshProvider, meshes_provider) to allow them to read the correct mesh(es).
+  >
+  > 
+  >
+  > 
+
+- Enable rotation of fluid velocities:
+  > 
+  >
+  > Enable rotation of fluid velocities
+  >
+  > 
+  >
+  > 
+
+- Expose pressure and fluid velocity results:
+  > 
+  >
+  > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
+  >
+  > 
+  >
+  > 
+
+- Creep strain results:
+  > 
+  >
+  > 
+  >
+  > 
+
+- Refactor of Euler Angles Filter Functions using ApdlElementDescriptor:
+  > 
+  >
+  > 
+  >
+  > - Modify the FilterElementResultsEUL so the function use the apdl_elements_library and get information about elements directly from it.
+  >
+  > - Instead of having plenty of if conditions, move the checks to the ApdlElementDescriptor Class to simplify
+  >
+  > - Use the node_mapping from ApdlElementDescriptor to simplify the iteration through degenerate elements
+  >
+  > 
+  >
+  > 
+
+- Support header in field::get_attribute operator and expose propertyfield/customtypefield::get_attribute:
+  > 
+  >
+  > 
+  >
+  > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operatos are created mimicking the behavior of the other one.
+  >
+  > 
+  >
+  > 
+
+- Change licensing behavior of normals_provider_nl operator (second round):
+  > 
+  >
+  > 
+  >
+  > The `normals_provider_nl` is changed to require a license check (it was previously requiring checkout).
+  >
+  > 
+  >
+  > 
+
+- Change licensing behavior of normals_provider_nl operator:
+  > 
+  >
+  > 
+  >
+  > The `normals_provider_nl` is changed to require a license check (it was previously requiring checkout).
+  >
+  > 
+  >
+  > 
+
+### <a id="Fixes_misc"></a> Fixes
+
+- EShellLayerPin correct bool to int:
+  > Correct a bug from previous PR merge this pin is an int, not a bool
+  >
+  > 
+  >
+  > 
+
+- Performance issue with transpose scoping:
+  > Improving performance of the `transpose_scoping` operator for cases with multiple scopings at a specific ratio with the length of the mesh.
+  >
+  > 
+
+- Fix materials properties names:
+  > 
+  >
+  > 
+
+- Performance issue with solid to skin operator with ElementalNodal and Elemental:
+  > Improving performance of the `solid_to_skin_fc` operator for `Elemental` and `ElementalNodal` locations.
+  >
+  > 
+
+- Issue with empty fields in solid_to_skin_fc operator:
+  > Fix issue with empty fields in the solid_to_skin_fc operator.
+  >
+  > 
+
+- Fix nodes and elements scoping from mesh operators, previously the location of the retrieved scoping was empty:
+  > fix: Fix nodes and elements scoping from mesh operators, previously the location of the retrieved scoping was empty
+  >
+  > 
+
+- Performance issue of mapping solid to skin with Nodal locations:
+  > Improvement of performance of `solid_to_skin_fc` for Nodal results. Parallelization is now available for this operator.
+  >
+  > 
+
+- Undefined behavior with custom property fields in mesh::by_scoping:
+  > Fixed undefined behavior with `mesh::by_scoping` when we create custom property fields.
+  >
+  > 
+
+- Crash when querying skin mesh:
+  > Fix issue when querying skin mesh.
+  >
+  > 
+
+- Updated specification of min_max_over_time_by_entity:
+  > 
+  >
+  > 
+  >
+  > Clarified the condition for output pins 2 & 3 presence.
+  >
+  > Explicitly wrote, compute_amplitude is only relevant for complex fields_container.
+  >
+  > 
+  >
+  > 
+
+- Support heterogeneous ShellLayer fields that have already undergone a change_shell_layer operation in entity_average:
+  > 
+  >
+  > 
+  >
+  > An issue was present in heterogeneous ShellLayer fields that have already undergone a `change_shell_layer` operation when then an `entity_average` operation is concatenated. This is now fixed.
+  >
+  > 
+  >
+  > 
+
+- .ansys folder creation in home folder:
+  > 
+  >
+  > 
+  >
+  > fix: .ansys folder creation in home folder
+  >
+  > 
+  >
+  > 
+
+- Support heterogeneous shell layer fields in the elemental_to_nodal operator.:
+  > 
+  >
+  > 
+  >
+  > Support heterogeneous shell layer fields in the `elemental_to_nodal` operator.
+  >
+  > 
+  >
+  > 
+
+- Support heterogeneous ShellLayers Fields in all averaging operators:
+  > 
+  >
+  > 
+  >
+  > Fields with heterogeneous shell layers (e.g. entities that have a different number of shell layers to the one reflected by the FieldDefinition ShellLayers) had a wrong behavior in different averaging operators. This is now fixed.
+  >
+  > 
+  >
+  > 
+
+- Proper itialization of variable in skin operator:
+  > 
+
+- Fix connectivity of Line3 elements in skin mesh:
+  > 
+  >
+  > 
+  >
+  > With a previous change, Line3 elements were shipped with only 2 nodes after a skin exraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
+  >
+  > 
+  >
+  > 
+
+- Fix scripting names of merge::solid_shell_fields and incremental::merge operators:
+  > 
+  >
+  > 
+  >
+  > The operators `merge::solid_shell_fields` and `incremental::merge::xxx` had an inconsistent scripting name with the one generated in pydpf-core. This is now fixed.
+  >
+  > 
+  >
+  > 
+
+- Support Beam3 elements in skin and mesh_to_pyvista operators:
+  > 
+  >
+  > 
+  >
+  > The `"skin"` operator was only transferring Line2 and Line3 elements to the output mesh. Beam3 elements are supported now as well.
+  >
+  > 
+  >
+  > Similarly, the `"mesh_to_pyvista"` operator was not handling Beam3 elements. They are now correctly treated.
+  >
+  > 
+  >
+  > 
+
+- Make load library on local core possible after plugin already loaded:
+  > 
+  >
+  > 
+  >
+  > fix: possibility to load a plugin on a specific registry after loading it once
+  >
+  > 
+  >
+  > 
+## math
+### <a id="Features_math"></a> Features
+
+- Add input_dof_index support in make_tf_input+modal_solve workflow:
+  > 
+  >
+  > 
+
+- Support nodal/element scopings container and summation fields container in force summation operators:
+  > - Input mesh scopings container are now supported in force_summation and force_summation_psd operators
+  >
+  > - Input fields container for summation point are now supported in force_summation, torque and force_summation_psd operators
+  >
+  > 
+  >
+  > 
+
+- Add new operator (connectivity matrix) for Transfer Path Analysis:
+  > 
+  >
+  > feat(math): Add new operator (connectivity matrix) for Transfer Path Analysis
+  >
+  > 
+  >
+  > 
+
+- Create a new wrapper for MKL QR solve (DGELS/ZGELS routines):
+  > 
+
+- Create new wrappers for eigenvalue analysis:
+  > 
+  >
+  > feat(math) - Create new wrappers for eigenvalue analysis
+  >
+  > 
+  >
+  > 
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
@@ -203,295 +548,6 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
-## misc
-### <a id="Features_misc"></a> Features
-
-- Adapt operator for Cyclic Modal StructOpt:
-  > 
-  >
-  > Improve ints_to_scoping/"scopingify" with additional optional pin to define a range scoping to be created.
-  >
-  > 
-  >
-  > Creation of cyclic_support_get_attribute/"cyclic_support::get_attribute" operator to retrieve element & node duplicate offset.
-  >
-  > 
-  >
-  > Add new property name "step_id_from_harmonic_index" for time_freq_support_get_attribute/"timefreqsupport::get_attribute" operator, returning a int corresponding to the load step of a Harmonic Index.
-  >
-  > 
-  >
-  > 
-
-- Support of layers in APDLElementDescriptor:
-  > 
-  >
-  > Add Management of ShellLayers to `ApdlElementDescriptor`
-  >
-  > Add Shell Layer functors to handle elements `SHELL43-63-93`, `SHELL131&132`, `SHELL181-281-208-209`, `SOLSH190`, `SHELL294`, `SOLID185-186`, `SOLID278-279`, `ELBOw290`
-  >
-  > Add corresponding element descriptors and new unit tests for those elements
-  >
-  > Add Testing of Shell layers in unit tests
-  >
-  > Refactor the ApdlElementDescriptorTest.cpp for better readability
-  >
-  > Add new class `APDLSectionDetails` in `ApdlElementDescriptor` to handle section data
-  >
-  > Add new struct `SectionTypeProperties`, `BeamSectionProperties`, `ShellSectionProperties` and `LayerProperties`  in MapdlCommonDefs.h to better handle section data
-  >
-  > Updated function isLayeredElement to use ApdlElementDescriptors.
-  >
-  > 
-  >
-  > 
-
-- Added support for more material properties:
-  > 
-  >
-  > Add support for material properties
-  >
-  > Correct previous behavior of sending 0 if the material property wasn't found for a material Id.
-  >
-  > 
-  >
-  > 
-
-- Rework mesh providers to allow for adaptive meshes:
-  > 
-  >
-  > When conducting Crack Growth analysis or some NLAD analysis, an adaptive remeshing process creates new meshes at some time steps.
-  >
-  > 
-  >
-  > This PR aims to change mesh getters (readMeshes, MeshProvider, meshes_provider) to allow them to read the correct mesh(es).
-  >
-  > 
-  >
-  > 
-
-- Enable rotation of fluid velocities:
-  > 
-  >
-  > Enable rotation of fluid velocities
-  >
-  > 
-  >
-  > 
-
-- Expose pressure and fluid velocity results:
-  > 
-  >
-  > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
-  >
-  > 
-  >
-  > 
-
-- Creep strain results:
-  > 
-  >
-  > 
-  >
-  > 
-
-- Refactor of Euler Angles Filter Functions using ApdlElementDescriptor:
-  > 
-  >
-  > 
-  >
-  > - Modify the FilterElementResultsEUL so the function use the apdl_elements_library and get information about elements directly from it.
-  >
-  > - Instead of having plenty of if conditions, move the checks to the ApdlElementDescriptor Class to simplify
-  >
-  > - Use the node_mapping from ApdlElementDescriptor to simplify the iteration through degenerate elements
-  >
-  > 
-  >
-  > 
-
-- Support header in field::get_attribute operator and expose propertyfield/customtypefield::get_attribute:
-  > 
-  >
-  > 
-  >
-  > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operatos are created mimicking the behavior of the other one.
-  >
-  > 
-  >
-  > 
-
-- Change licensing behavior of normals_provider_nl operator (second round):
-  > 
-  >
-  > 
-  >
-  > The `normals_provider_nl` is changed to require a license check (it was previously requiring checkout).
-  >
-  > 
-  >
-  > 
-
-- Change licensing behavior of normals_provider_nl operator:
-  > 
-  >
-  > 
-  >
-  > The `normals_provider_nl` is changed to require a license check (it was previously requiring checkout).
-  >
-  > 
-  >
-  > 
-
-### <a id="Fixes_misc"></a> Fixes
-
-- Performance issue with transpose scoping:
-  > Improving performance of the `transpose_scoping` operator for cases with multiple scopings at a specific ratio with the length of the mesh.
-  >
-  > 
-
-- Fix materials properties names:
-  > 
-  >
-  > 
-
-- Performance issue with solid to skin operator with ElementalNodal and Elemental:
-  > Improving performance of the `solid_to_skin_fc` operator for `Elemental` and `ElementalNodal` locations.
-  >
-  > 
-
-- Issue with empty fields in solid_to_skin_fc operator:
-  > Fix issue with empty fields in the solid_to_skin_fc operator.
-  >
-  > 
-
-- Fix nodes and elements scoping from mesh operators, previously the location of the retrieved scoping was empty:
-  > fix: Fix nodes and elements scoping from mesh operators, previously the location of the retrieved scoping was empty
-  >
-  > 
-
-- Performance issue of mapping solid to skin with Nodal locations:
-  > Improvement of performance of `solid_to_skin_fc` for Nodal results. Parallelization is now available for this operator.
-  >
-  > 
-
-- Undefined behavior with custom property fields in mesh::by_scoping:
-  > Fixed undefined behavior with `mesh::by_scoping` when we create custom property fields.
-  >
-  > 
-
-- Crash when querying skin mesh:
-  > Fix issue when querying skin mesh.
-  >
-  > 
-
-- Updated specification of min_max_over_time_by_entity:
-  > 
-  >
-  > 
-  >
-  > Clarified the condition for output pins 2 & 3 presence.
-  >
-  > Explicitly wrote, compute_amplitude is only relevant for complex fields_container.
-  >
-  > 
-  >
-  > 
-
-- Support heterogeneous ShellLayer fields that have already undergone a change_shell_layer operation in entity_average:
-  > 
-  >
-  > 
-  >
-  > An issue was present in heterogeneous ShellLayer fields that have already undergone a `change_shell_layer` operation when then an `entity_average` operation is concatenated. This is now fixed.
-  >
-  > 
-  >
-  > 
-
-- .ansys folder creation in home folder:
-  > 
-  >
-  > 
-  >
-  > fix: .ansys folder creation in home folder
-  >
-  > 
-  >
-  > 
-
-- Support heterogeneous shell layer fields in the elemental_to_nodal operator.:
-  > 
-  >
-  > 
-  >
-  > Support heterogeneous shell layer fields in the `elemental_to_nodal` operator.
-  >
-  > 
-  >
-  > 
-
-- Support heterogeneous ShellLayers Fields in all averaging operators:
-  > 
-  >
-  > 
-  >
-  > Fields with heterogeneous shell layers (e.g. entities that have a different number of shell layers to the one reflected by the FieldDefinition ShellLayers) had a wrong behavior in different averaging operators. This is now fixed.
-  >
-  > 
-  >
-  > 
-
-- Proper itialization of variable in skin operator:
-  > 
-
-- Fix connectivity of Line3 elements in skin mesh:
-  > 
-  >
-  > 
-  >
-  > With a previous change, Line3 elements were shipped with only 2 nodes after a skin exraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
-  >
-  > 
-  >
-  > 
-
-- Fix scripting names of merge::solid_shell_fields and incremental::merge operators:
-  > 
-  >
-  > 
-  >
-  > The operators `merge::solid_shell_fields` and `incremental::merge::xxx` had an inconsistent scripting name with the one generated in pydpf-core. This is now fixed.
-  >
-  > 
-  >
-  > 
-
-- Support Beam3 elements in skin and mesh_to_pyvista operators:
-  > 
-  >
-  > 
-  >
-  > The `"skin"` operator was only transferring Line2 and Line3 elements to the output mesh. Beam3 elements are supported now as well.
-  >
-  > 
-  >
-  > Similarly, the `"mesh_to_pyvista"` operator was not handling Beam3 elements. They are now correctly treated.
-  >
-  > 
-  >
-  > 
-
-- Make load library on local core possible after plugin already loaded:
-  > 
-  >
-  > 
-  >
-  > fix: possibility to load a plugin on a specific registry after loading it once
-  >
-  > 
-  >
-  > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
@@ -574,39 +630,6 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
-## math
-### <a id="Features_math"></a> Features
-
-- Support nodal/element scopings container and summation fields container in force summation operators:
-  > - Input mesh scopings container are now supported in force_summation and force_summation_psd operators
-  >
-  > - Input fields container for summation point are now supported in force_summation, torque and force_summation_psd operators
-  >
-  > 
-  >
-  > 
-
-- Add new operator (connectivity matrix) for Transfer Path Analysis:
-  > 
-  >
-  > feat(math): Add new operator (connectivity matrix) for Transfer Path Analysis
-  >
-  > 
-  >
-  > 
-
-- Create a new wrapper for MKL QR solve (DGELS/ZGELS routines):
-  > 
-
-- Create new wrappers for eigenvalue analysis:
-  > 
-  >
-  > feat(math) - Create new wrappers for eigenvalue analysis
-  >
-  > 
-  >
-  > 
-
 ## hgp
 ### <a id="Features_hgp"></a> Features
 
@@ -973,3 +996,790 @@ The following table shows which components have updates in each category.
   >
   > 
 
+## Operator changes
+
+### New operators
+
+#### compression
+
+- [quantization](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization.md):
+  > Scales a field to a given precision threshold, then rounds all the values to the unit.
+
+- [quantization_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization_fc.md):
+  > Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
+
+
+#### mapping
+
+- [create_sc_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_sc_mapping_workflow.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [mech_kriging_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mech_kriging_wf.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [mech_point_cloud_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mech_point_cloud_wf.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [mech_shape_function_surf_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mech_shape_function_surf_wf.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [mech_shape_function_vol_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mech_shape_function_vol_wf.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [mechanical_native_mapping::apply](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mechanical_native_mapping::apply.md):
+  > Maps source data from source mesh to target mesh (computes interpolation).This operator needs to be used with the prepare mechanical native mapping associated one.
+
+- [mechanical_native_mapping::prepare](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mechanical_native_mapping::prepare.md):
+  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator needs to be used with the apply mechanical native mapping associated one. At least one of the optional DataTree inputs need to be set, in order to chose the mapping algorithm and set the mapping options.
+
+- [mechanical_native_mapping::prepare::kriging](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mechanical_native_mapping::prepare::kriging.md):
+  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point kriging algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
+
+- [mechanical_native_mapping::prepare::point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mechanical_native_mapping::prepare::point_cloud.md):
+  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point cloud based algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
+
+- [mechanical_native_mapping::prepare::shape_function_surfaces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mechanical_native_mapping::prepare::shape_function_surfaces.md):
+  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
+
+- [mechanical_native_mapping::prepare::shape_function_volumes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mechanical_native_mapping::prepare::shape_function_volumes.md):
+  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for volume elements but can also be used with surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
+
+- [sc_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/sc_mapping.md):
+  > Apply System Coupling to map data from an input mesh to a target mesh.
+
+- [sysc_point_cloud_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/sysc_point_cloud_wf.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [sysc_shape_function_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/sysc_shape_function_wf.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+
+#### mesh
+
+- [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/morphed_field.md):
+  > Computes the displacement to apply on input coordinates (in 2) if a morphing field (in 0) is applied on coordinates (in 1)
+
+- [morphing](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/morphing.md):
+  > Applies morphing on a meshed region depending on an input displacement field.
+
+- [prepare_morphing](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/prepare_morphing.md):
+  > Prepare morphing on a meshed region depending on an input displacement field.
+
+
+#### result
+
+- [DMG](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/DMG.md):
+  > Read/compute nodal rotational acceleration by calling the readers defined by the datasources.
+
+- [DMGX](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/DMGX.md):
+  > Read/compute nodal rotational acceleration X component of the vector (1st component) by calling the readers defined by the datasources.
+
+- [DMGY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/DMGY.md):
+  > Read/compute nodal rotational acceleration Y component of the vector (2nd component) by calling the readers defined by the datasources.
+
+- [DMGZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/DMGZ.md):
+  > Read/compute nodal rotational acceleration Z component of the vector (3rd component) by calling the readers defined by the datasources.
+
+- [EPCR](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCR.md):
+  > Read/compute element nodal component creep strains by calling the readers defined by the datasources.
+  > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
+  > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
+  > 
+  > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
+  > |---------------------|---------------------|---------------|-----------------|
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > - The available 'elshape' values are:
+  > 
+  > | elshape | Related elements |
+  > |---------|------------------|
+  > | 1       | Shell (generic)  |
+  > | 2       | Solid            |
+  > | 3       | Beam             |
+  > | 4       | Skin             |
+  > | 5       | Contact          |
+  > | 6       | Load             |
+  > | 7       | Point            |
+  > | 8       | Shell with 1 result across thickness (membrane) |
+  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
+  > | 11      | Gasket          |
+  > | 12      | Multi-Point Constraint |
+  > | 13      | Pretension      |
+  > 
+
+- [EPCR1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCR1.md):
+  > Read/compute element nodal component creep strains 1st principal component by calling the readers defined by the datasources and computing its eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
+
+- [EPCR2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCR2.md):
+  > Read/compute element nodal component creep strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
+
+- [EPCR3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCR3.md):
+  > Read/compute element nodal component creep strains 3rd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
+
+- [EPCRX](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCRX.md):
+  > Read/compute element nodal component creep strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [EPCRXY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCRXY.md):
+  > Read/compute element nodal component creep strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [EPCRXZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCRXZ.md):
+  > Read/compute element nodal component creep strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [EPCRY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCRY.md):
+  > Read/compute element nodal component creep strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [EPCRYZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCRYZ.md):
+  > Read/compute element nodal component creep strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [EPCRZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCRZ.md):
+  > Read/compute element nodal component creep strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [EPCR_EQV](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCR_EQV.md):
+  > Read/compute element nodal equivalent component creep strains by calling the readers defined by the datasources.
+  > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
+  > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
+  > 
+  > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
+  > |---------------------|---------------------|---------------|-----------------|
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > - The available 'elshape' values are:
+  > 
+  > | elshape | Related elements |
+  > |---------|------------------|
+  > | 1       | Shell (generic)  |
+  > | 2       | Solid            |
+  > | 3       | Beam             |
+  > | 4       | Skin             |
+  > | 5       | Contact          |
+  > | 6       | Load             |
+  > | 7       | Point            |
+  > | 8       | Shell with 1 result across thickness (membrane) |
+  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
+  > | 11      | Gasket          |
+  > | 12      | Multi-Point Constraint |
+  > | 13      | Pretension      |
+  > 
+
+- [EPCR_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCR_intensity.md):
+  > Reads/computes element nodal component creep strains, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [EPCR_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPCR_max_shear.md):
+  > Reads/computes element nodal component creep strains, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [FV](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/FV.md):
+  > Read/compute FV by calling the readers defined by the datasources.
+
+- [MAF](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/MAF.md):
+  > Read/compute modal acceleration by calling the readers defined by the datasources.
+
+- [MCF](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/MCF.md):
+  > Read/compute modal coordinate by calling the readers defined by the datasources.
+
+- [MVF](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/MVF.md):
+  > Read/compute modal velocity by calling the readers defined by the datasources.
+
+- [OMG](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/OMG.md):
+  > Read/compute nodal rotational velocity by calling the readers defined by the datasources.
+
+- [OMGX](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/OMGX.md):
+  > Read/compute nodal rotational velocity X component of the vector (1st component) by calling the readers defined by the datasources.
+
+- [OMGY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/OMGY.md):
+  > Read/compute nodal rotational velocity Y component of the vector (2nd component) by calling the readers defined by the datasources.
+
+- [OMGZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/OMGZ.md):
+  > Read/compute nodal rotational velocity Z component of the vector (3rd component) by calling the readers defined by the datasources.
+
+- [ROT](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ROT.md):
+  > Read/compute nodal rotation by calling the readers defined by the datasources.
+
+- [ROTX](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ROTX.md):
+  > Read/compute nodal rotation X component of the vector (1st component) by calling the readers defined by the datasources.
+
+- [ROTY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ROTY.md):
+  > Read/compute nodal rotation Y component of the vector (2nd component) by calling the readers defined by the datasources.
+
+- [ROTZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ROTZ.md):
+  > Read/compute nodal rotation Z component of the vector (3rd component) by calling the readers defined by the datasources.
+
+
+#### serialization
+
+- [serialization::export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/serialization/serialization::export_mesh_with_prime.md):
+  > Transfer DPF's meshed region into an external layer prime model and serialize it into a given file format.
+
+
+#### utility
+
+- [customtypefield::get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/customtypefield::get_attribute.md):
+  > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
+
+- [cyclic_support::get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/cyclic_support::get_attribute.md):
+  > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
+
+- [operator_changelog](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/operator_changelog.md):
+  > Return a GenericDataContainer used to instantiate the Changelog of an operator based on its name.
+
+- [propertyfield::get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/propertyfield::get_attribute.md):
+  > Gets a property from an input field/field container. A PropertyFieldin pin 0, a property name (string) in pin 1 are expected as inputs
+
+
+
+### Changed operators
+
+#### averaging
+
+- [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation.md)
+
+  > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
+
+
+- [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation_psd.md)
+
+  > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
+
+
+
+#### geo
+
+- [normals_provider_nl](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/geo/normals_provider_nl.md)
+
+  > 0.0.1: Bug fixed for input mesh type containing solid elements.
+
+  > 1.0.0: Fixed reference coordinate-system on which normals are calculated.
+
+
+- [transform_cylindricalCS](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/geo/transform_cylindricalCS.md)
+
+  > 1.0.0: Fix bug for the rotation of strain fields with a cylindrical system whose axis is rotated.
+
+
+
+#### logic
+
+- [elementary_data_selector](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/logic/elementary_data_selector.md)
+
+  > 0.1.0: fix of crash when input field data pointer is empty, the operator will output an empty field in this case moving forward.
+
+
+
+#### mapping
+
+- [mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/mapping.md)
+
+  > 0.1.0: Performance improvement.
+
+
+- [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin.md)
+
+  > 0.1.0: Improving performance for Nodal locations.
+
+  > 0.2.0: Improving performance for ElementalNodal and Elemental locations.
+
+
+- [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin_fc.md)
+
+  > 0.1.0: Improving performance for Nodal locations. Added parallelization
+
+  > 0.1.1: Bug fixed for empty fields container
+
+  > 0.2.0: Improving performance for ElementalNodal and Elemental locations
+
+
+
+#### math
+
+- [error_norm_calc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/error_norm_calc.md)
+
+  > 0.1.0: Support generic labels (not only time) in the input FieldsContainer
+
+  > 0.1.1: Fixed the size of output scaling factors for the absolute normalization
+
+
+- [expansion::psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/expansion::psd.md)
+
+  > 0.0.1: Fix handling of empty fields in mode shapes.
+
+
+- [sweeping_phase](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/sweeping_phase.md)
+
+  > 0.0.1: Clarify the documentation.
+
+
+- [sweeping_phase_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/sweeping_phase_fc.md)
+
+  > 0.0.1: Clarify the documentation.
+
+
+
+#### mesh
+
+- [mesh::by_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/mesh::by_scoping.md)
+
+  > 0.1.0: Improvement in the performance.
+
+  > 0.1.1: Fixed bug when the scoping of a property field and its mesh are different.
+
+  > 0.1.2: Fixed bug when some of the ids of the desired new scoping is not present in the property field or in the mesh.
+
+  > 0.1.3: Fixed undefined behavior with custom property fields.
+
+
+- [meshed_skin_sector](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/meshed_skin_sector.md)
+
+  > 0.0.1: Fixing issue related to share pointers of property fields and mesh.
+
+  > 0.0.2: Internal change to share pointers of property fields and mesh.
+
+
+- [meshes::by_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/meshes::by_scopings.md)
+
+  > 0.0.1: Improvement in the performance.
+
+  > 0.0.2: Fixing issue with connectivity.
+
+
+- [split_mesh](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/split_mesh.md)
+
+  > 0.0.1: Improvement in the performance.
+
+  > 0.0.2: Fixing issue with connectivity
+
+
+
+#### metadata
+
+- [timefreqsupport::get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/timefreqsupport::get_attribute.md)
+
+  > 0.1.0: Add new supported property name 'step_id_from_harmonic_index' returning an int.
+
+
+
+#### result
+
+- [BFE](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/BFE.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [B_EL](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_EL.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [B_M1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_M1.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [B_M2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_M2.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [B_MT](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_MT.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [B_N](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_N.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [B_SN](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_SN.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [B_T1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_T1.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [B_T2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/B_T2.md)
+
+  > 0.1.0: MAPDL results supported.
+
+
+- [ECT_CNOS](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_CNOS.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_FLUX](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_FLUX.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_FRES](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_FRES.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_GAP](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_GAP.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_PENE](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_PENE.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_PRES](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_PRES.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_SFRIC](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_SFRIC.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_SLIDE](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_SLIDE.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_STAT](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_STAT.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ECT_STOT](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ECT_STOT.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EF](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EF.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EFD](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EFD.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENF](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENF.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_CREQ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_CREQ.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_CRWK](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_CRWK.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_ELENG](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_ELENG.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_EPEQ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_EPEQ.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_HPRES](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_HPRES.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_PLWK](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_PLWK.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_PSV](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_PSV.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_SEPL](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_SEPL.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ENL_SRAT](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ENL_SRAT.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EPEL](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPEL.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EPEL1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPEL1.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPEL2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPEL2.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPEL3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPEL3.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPEL_EQV](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPEL_EQV.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EPEL_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPEL_intensity.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPEL_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPEL_max_shear.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPPL](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPPL.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EPPL1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPPL1.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPPL2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPPL2.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPPL3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPPL3.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPPL_EQV](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPPL_EQV.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EPPL_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPPL_intensity.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [EPPL_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EPPL_max_shear.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [ESV](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ESV.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ETH](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ETH.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ETH1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ETH1.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [ETH2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ETH2.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [ETH3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ETH3.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [ETH_EQV](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ETH_EQV.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [ETH_SWL](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/ETH_SWL.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [EUL](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/EUL.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [GKD](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/GKD.md)
+
+  > 1.0.0: Name changed from gasket deformation to gasket total closure
+
+  > 1.0.1: adds the thermal and inelastic closure instead of returning only the inelastic closure
+
+
+- [GKDI](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/GKDI.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [GKS](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/GKS.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [GKTH](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/GKTH.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [MF](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/MF.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [MFD](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/MFD.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [S](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/S.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [S1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/S1.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [S2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/S2.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [S3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/S3.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [S_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/S_eqv.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [S_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/S_intensity.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [S_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/S_max_shear.md)
+
+  > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [TF](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/TF.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [TG](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/TG.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [U](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/U.md)
+
+  > 1.0.0: Modal coordinates from RFRQ, RDSP and DSUB files can't be extracted through displacement operator anymore, user can use modal_coordinate operator instead.
+
+
+- [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
+
+  > 0.1.0: Addition of is_constant pin
+
+
+- [torque](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/torque.md)
+
+  > 0.1.0: Fields container supported on pin 1. Pin 1 name changed.
+
+
+
+#### scoping
+
+- [Rescope](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/Rescope.md)
+
+  > 0.1.0: Performance improvement.
+
+
+- [Rescope_ctf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/Rescope_ctf.md)
+
+  > 0.1.0: Performance improvement.
+
+
+- [Rescope_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/Rescope_fc.md)
+
+  > 0.1.0: Performance improvement.
+
+
+- [Rescope_pf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/Rescope_pf.md)
+
+  > 0.1.0: Performance improvement.
+
+
+- [transpose_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/transpose_scoping.md)
+
+  > 0.1.0: Improvement of performance
+
+
+
+#### utility
+
+- [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/html_doc.md)
+
+  > 0.1.0: Show operator version and changelog.
+
+
+- [producer_consumer_for_each](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/producer_consumer_for_each.md)
+
+  > 0.1.0: Addition of events to monitor the status of the operator.
+
+
+- [scopingify](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/scopingify.md)
+
+  > 0.1.0: Add input pin 2 to specify an upper bound to create a scoping for a given range (taking single input in pin 0 as the lower bound).
+
+
+
+
+### Deleted operators
