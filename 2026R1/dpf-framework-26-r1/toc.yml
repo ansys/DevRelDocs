@@ -31,6 +31,7 @@
   - name: Operator specifications
     href: operator-specifications/operator-specifications.md
   - name: averaging
+    href: operator-specifications/averaging/averaging_category.md
     items:
     - name: elemental difference
       href: operator-specifications/averaging/elemental_difference.md
@@ -91,6 +92,7 @@
     - name: to nodal fc
       href: operator-specifications/averaging/to_nodal_fc.md
   - name: composite
+    href: operator-specifications/composite/composite_category.md
     items:
     - name: add default data
       href: operator-specifications/composite/add_default_data.md
@@ -183,6 +185,7 @@
     - name: von mises operator
       href: operator-specifications/composite/von_mises_operator.md
   - name: compression
+    href: operator-specifications/compression/compression_category.md
     items:
     - name: apply svd
       href: operator-specifications/compression/apply_svd.md
@@ -197,6 +200,7 @@
     - name: zfp decompress
       href: operator-specifications/compression/zfp_decompress.md
   - name: filter
+    href: operator-specifications/filter/filter_category.md
     items:
     - name: abc weightings
       href: operator-specifications/filter/abc_weightings.md
@@ -243,6 +247,7 @@
     - name: timescoping signed high pass
       href: operator-specifications/filter/timescoping_signed_high_pass.md
   - name: geo
+    href: operator-specifications/geo/geo_category.md
     items:
     - name: cartesian to spherical
       href: operator-specifications/geo/cartesian_to_spherical.md
@@ -281,6 +286,7 @@
     - name: to polar coordinates
       href: operator-specifications/geo/to_polar_coordinates.md
   - name: invariant
+    href: operator-specifications/invariant/invariant_category.md
     items:
     - name: convertnum bcs to nod
       href: operator-specifications/invariant/convertnum_bcs_to_nod.md
@@ -313,6 +319,7 @@
     - name: von mises eqv fc
       href: operator-specifications/invariant/von_mises_eqv_fc.md
   - name: logic
+    href: operator-specifications/logic/logic_category.md
     items:
     - name: ascending sort
       href: operator-specifications/logic/ascending_sort.md
@@ -369,6 +376,7 @@
     - name: split streams
       href: operator-specifications/logic/split_streams.md
   - name: mapping
+    href: operator-specifications/mapping/mapping_category.md
     items:
     - name: apply mechanical native mapping
       href: operator-specifications/mapping/apply_mechanical_native_mapping.md
@@ -417,6 +425,7 @@
     - name: sysc shape function wf
       href: operator-specifications/mapping/sysc_shape_function_wf.md
   - name: math
+    href: operator-specifications/math/math_category.md
     items:
     - name: absolute value by component
       href: operator-specifications/math/absolute_value_by_component.md
@@ -629,6 +638,7 @@
     - name: window welch fc
       href: operator-specifications/math/window_welch_fc.md
   - name: mesh
+    href: operator-specifications/mesh/mesh_category.md
     items:
     - name: acmo mesh provider
       href: operator-specifications/mesh/acmo_mesh_provider.md
@@ -701,6 +711,7 @@
     - name: wireframe
       href: operator-specifications/mesh/wireframe.md
   - name: metadata
+    href: operator-specifications/metadata/metadata_category.md
     items:
     - name: boundary condition provider
       href: operator-specifications/metadata/boundary_condition_provider.md
@@ -741,6 +752,7 @@
     - name: time freq support get attribute
       href: operator-specifications/metadata/time_freq_support_get_attribute.md
   - name: min_max
+    href: operator-specifications/min_max/min_max_category.md
     items:
     - name: max by component
       href: operator-specifications/min_max/max_by_component.md
@@ -775,6 +787,7 @@
     - name: time of min by entity
       href: operator-specifications/min_max/time_of_min_by_entity.md
   - name: result
+    href: operator-specifications/result/result_category.md
     items:
     - name: acceleration
       href: operator-specifications/result/acceleration.md
@@ -1497,6 +1510,7 @@
     - name: y plus
       href: operator-specifications/result/y_plus.md
   - name: scoping
+    href: operator-specifications/scoping/scoping_category.md
     items:
     - name: adapt with scopings container
       href: operator-specifications/scoping/adapt_with_scopings_container.md
@@ -1537,6 +1551,7 @@
     - name: transpose
       href: operator-specifications/scoping/transpose.md
   - name: serialization
+    href: operator-specifications/serialization/serialization_category.md
     items:
     - name: csv to field
       href: operator-specifications/serialization/csv_to_field.md
@@ -1587,12 +1602,14 @@
     - name: workflow to workflow topology
       href: operator-specifications/serialization/workflow_to_workflow_topology.md
   - name: server
+    href: operator-specifications/server/server_category.md
     items:
     - name: grpc shutdown server
       href: operator-specifications/server/grpc_shutdown_server.md
     - name: grpc start server
       href: operator-specifications/server/grpc_start_server.md
   - name: sound
+    href: operator-specifications/sound/sound_category.md
     items:
     - name: append zeros to signal
       href: operator-specifications/sound/append_zeros_to_signal.md
@@ -1731,6 +1748,7 @@
     - name: xtract transient
       href: operator-specifications/sound/xtract_transient.md
   - name: utility
+    href: operator-specifications/utility/utility_category.md
     items:
     - name: assemble scalars to matrices
       href: operator-specifications/utility/assemble_scalars_to_matrices.md
