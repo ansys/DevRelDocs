@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-22).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,31 +9,32 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | cff | [2 items](#Features_cff) | |
+| cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) | |
 | ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
 | compression | [2 items](#Features_compression) | |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) | |
-| dpf |  |[1 item](#Fixes_dpf) |
+| dpf | [2 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
 | femutils |  |[2 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[1 item](#Fixes_grpc) |
-| h5dpf |  |[1 item](#Fixes_h5dpf) |
-| h5dpf,cgns | [1 item](#Features_h5dpf,cgns) | |
+| h5dpf | [1 item](#Features_h5dpf) |[1 item](#Fixes_h5dpf) |
 | hdf5 | [4 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [1 item](#Features_kernel) |[1 item](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [8 items](#Features_mapdl) |[13 items](#Fixes_mapdl) |
-| math | [5 items](#Features_math) | |
-| mechanical | [1 item](#Features_mechanical) |[2 items](#Fixes_mechanical) |
+| mapdl | [11 items](#Features_mapdl) |[14 items](#Fixes_mapdl) |
+| mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
+| math | [6 items](#Features_math) | |
+| mechanical | [1 item](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[1 item](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
-| native |  |[1 item](#Fixes_native) |
+| native |  |[2 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) | |
 | prime | [2 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -57,6 +58,18 @@ The following table shows which components have updates in each category.
   > 
   >
   > Previously, only a selected set of results could be retrieved from Fluid files (velocity, pressure...). With this enhancement, all results contained in a Fluent/CFX result file can be retrieved.
+  >
+  > 
+  >
+  > 
+
+## cgns
+### <a id="Features_cgns"></a> Features
+
+- Expose is_mesh_available operator:
+  > 
+  >
+  > Expose `is_mesh_available` for cgns and h5dpf files.
   >
   > 
   >
@@ -160,6 +173,17 @@ The following table shows which components have updates in each category.
   > 
 
 ## dpf
+### <a id="Features_dpf"></a> Features
+
+- Improvement of indexById performance.':
+  > 
+
+- Improvement of indexById performance.:
+  > feat(dpf): Improvement of indexById performance.
+  >
+  > 
+  >
+  > 
 
 ### <a id="Fixes_dpf"></a> Fixes
 
@@ -287,17 +311,7 @@ The following table shows which components have updates in each category.
   >
   > 
 ## h5dpf
-
-### <a id="Fixes_h5dpf"></a> Fixes
-
-- Fix thickness extraction from SMISC/NMISC from h5dpf file:
-  > Fix thickness extraction from SMISC/NMISC from h5dpf file
-  >
-  > 
-  >
-  > 
-## h5dpf,cgns
-### <a id="Features_h5dpf,cgns"></a> Features
+### <a id="Features_h5dpf"></a> Features
 
 - Expose is_mesh_available operator:
   > 
@@ -308,6 +322,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_h5dpf"></a> Fixes
+
+- Fix thickness extraction from SMISC/NMISC from h5dpf file:
+  > Fix thickness extraction from SMISC/NMISC from h5dpf file
+  >
+  > 
+  >
+  > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
@@ -395,6 +417,31 @@ The following table shows which components have updates in each category.
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
+- Refactor ElementType handling to increase performance:
+  > 
+  >
+  > Refactor the way ElementTypes are handled inside DPF mapdl Operators.
+  >
+  > 
+  >
+  > 
+
+- Nodal results on changing meshes:
+  > Allow to read nodal results on changing meshes (adaptive model with NLAD or SMART Crack growth)
+  >
+  > 
+  >
+  > 
+
+- Add ability to record all the skipped mesh elements:
+  > 
+  >
+  > The mesh provider of MAPDL result file now has the ability to record any skipped element, and debug log will log skipped elements during result reading
+  >
+  > 
+  >
+  > 
+
 - Add eExtendMidNodesPin in Source Operator for ElementalNodal Operators:
   > Add a pin `eExtendMidNodesPin` in source operators to allow to remove mid-nodes when averaging from `ElementalNodal` to `Nodal`
   >
@@ -458,6 +505,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix expansion of element nodal forces (ENF):
+  > Fix the expansion of inertial element nodal forces
+  >
+  > 
+  >
+  > 
 
 - Avoid reading MCF at each chunk computation:
   > Bug fix to enhance performance on MCF requests.
@@ -555,8 +609,25 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## mapdlpluggin
+
+### <a id="Fixes_mapdlpluggin"></a> Fixes
+
+- Pluggin stream name db_live need to be in GetFirstStream:
+  > add db_live to GetFirstStream for generic operators
+  >
+  > 
+  >
+  > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Create new operator to do QR solve with fields containers:
+  > Create a new operator to perform QR solve with fields containers
+  >
+  > 
+  >
+  > 
 
 - Add input_dof_index support in make_tf_input+modal_solve workflow:
   > 
@@ -602,6 +673,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mechanical"></a> Fixes
+
+- Fix error with multiRPM cases and cutoff frequency:
+  > Fix error with multiRPM cases and cutoff frequency.
+  >
+  > 
 
 - Fix issue with unordered source times in mechanical::time_freq:interpolation:
   > 
@@ -919,6 +995,13 @@ The following table shows which components have updates in each category.
 ## native
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix shell layers support for scale_by_field operator:
+  > Scale_by_field operator supports now fields with shell layers.
+  >
+  > 
+  >
+  > 
 
 - Scaling factors for absolute normalization in ErrorAndNorm have a wrong size:
   > Absolute normalization in ErrorAndNorm ("error_and_norm") operator was exporting scaling factors with a size of the original data instead of having only one unit value per field.
@@ -1321,6 +1404,16 @@ The following table shows which components have updates in each category.
   > 0.0.1: Fix handling of empty fields in mode shapes.
 
 
+- [scale_by_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/scale_by_field.md)
+
+  > 0.0.1: Add support of fields with shell layers
+
+
+- [scale_by_field_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/scale_by_field_fc.md)
+
+  > 0.0.1: Add support of fields with shell layers
+
+
 - [sweeping_phase](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/sweeping_phase.md)
 
   > 0.0.1: Clarify the documentation.
@@ -1368,6 +1461,11 @@ The following table shows which components have updates in each category.
 
 
 #### metadata
+
+- [element_types_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/element_types_provider.md)
+
+  > 0.1.0: Added the possibility to output a PropertyField.
+
 
 - [timefreqsupport::get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/timefreqsupport::get_attribute.md)
 
