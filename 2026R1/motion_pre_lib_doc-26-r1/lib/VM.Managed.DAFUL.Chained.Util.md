@@ -1,4 +1,5 @@
-#  Class Util
+# Class Util
+<a id="VM_Managed_DAFUL_Chained_Util"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,7 +12,7 @@ public class Util
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Util](VM.Managed.DAFUL.Chained.Util.md)
 
 #### Extension Methods
@@ -40,11 +41,11 @@ public static void AddAttributeOfMeshFree(XmlDocument xmlDoc, SolidBody sb)
 
 #### Parameters
 
-`xmlDoc` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDoc` XmlDocument
 
 The xml information.
 
-`sb` SolidBody
+`sb` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The Solid body.
 
@@ -58,7 +59,7 @@ public static void UpdateNavForFaceset(SetFace faceset, Document doc)
 
 #### Parameters
 
-`faceset` SetFace
+`faceset` [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 The faceset.
 

@@ -1,4 +1,5 @@
-#  Class CommandBase
+# Class CommandBase
+<a id="VM_CommandBase"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +10,7 @@ public abstract class CommandBase : ObservableObject, IObservableObject, IDispos
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableObject](VM.ObservableObject.md) ← 
 [CommandBase](VM.CommandBase.md)
 
@@ -48,7 +49,7 @@ public CommandBase(Func<object, bool> canExecute)
 
 #### Parameters
 
-`canExecute` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[object](https://learn.microsoft.com/dotnet/api/system.object), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`canExecute` Func<object, bool\>
 
 ## Properties
 
@@ -60,7 +61,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CommandBase_IsExecuting"></a> IsExecuting
 
@@ -70,7 +71,7 @@ protected bool IsExecuting { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -82,11 +83,11 @@ public bool CanExecute(object parameter)
 
 #### Parameters
 
-`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`parameter` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CommandBase_OnCanExecuteChanged"></a> OnCanExecuteChanged\(\)
 
@@ -108,7 +109,7 @@ public virtual event EventHandler CanExecuteChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="VM_CommandBase_ShouldExecute"></a> ShouldExecute
 
@@ -118,5 +119,5 @@ public event EventHandler ShouldExecute
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 

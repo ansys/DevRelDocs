@@ -1,9 +1,10 @@
-#  Interface IHasParent
+# Interface IHasParent
+<a id="VM_IHasParent"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IHasParent
 ```
 
@@ -11,12 +12,11 @@ public interface IHasParent
 
 ### <a id="VM_IHasParent_Parent"></a> Parent
 
-```python
+```csharp
 object Parent { get; }
 ```
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
-
+ object
 

@@ -1,4 +1,5 @@
-#  Class GeneralJointSetting
+# Class GeneralJointSetting
+<a id="VM_Models_Pre_Connections_GeneralJointSetting"></a>
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -11,12 +12,12 @@ public class GeneralJointSetting : ToolkitMultiSelectionSettingBase<PropertyGene
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-ToolKitSettingBase ← 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\> ← 
+[ToolKitSettingBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolKitSettingBase.cs) ← 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs) ← 
 [GeneralJointSetting](VM.Models.Pre.Connections.GeneralJointSetting.md)
 
 #### Implements
@@ -34,19 +35,19 @@ IVerifiable
 
 #### Inherited Members
 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Add\(ObjectBase\), 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Remove\(ObjectBase\), 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Contains\(ObjectBase\), 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Replace\(ObjectBase, ObjectBase\), 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Add\(ObjectBase, PropertyGeneral.ConnectorType\), 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.SetSelection\(ObjectBase, PropertyGeneral.ConnectorType\), 
-ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.GetSelection\(ObjectBase\), 
-ToolKitSettingBase.Add\(ObjectBase\), 
-ToolKitSettingBase.Remove\(ObjectBase\), 
-ToolKitSettingBase.Contains\(ObjectBase\), 
-ToolKitSettingBase.Replace\(ObjectBase, ObjectBase\), 
-ToolKitSettingBase.PostDeserialize\(Configuration\), 
-ToolKitSettingBase.Clear\(\), 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Add\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs), 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Remove\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs), 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Contains\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs), 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Replace\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs), 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.Add\(ObjectBase, PropertyGeneral.ConnectorType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs), 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.SetSelection\(ObjectBase, PropertyGeneral.ConnectorType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs), 
+[ToolkitMultiSelectionSettingBase<PropertyGeneral.ConnectorType\>.GetSelection\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolkitMultiSelectionSettingBase.cs), 
+[ToolKitSettingBase.Add\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolKitSettingBase.cs), 
+[ToolKitSettingBase.Remove\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolKitSettingBase.cs), 
+[ToolKitSettingBase.Contains\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolKitSettingBase.cs), 
+[ToolKitSettingBase.Replace\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolKitSettingBase.cs), 
+[ToolKitSettingBase.PostDeserialize\(Configuration\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolKitSettingBase.cs), 
+[ToolKitSettingBase.Clear\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ToolKitSettingBase.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -90,7 +91,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -149,7 +150,7 @@ public bool CheckData()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Connections_GeneralJointSetting_Clear"></a> Clear\(\)
 
@@ -175,7 +176,7 @@ The connector object to find.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether it contains the connector object.
 
@@ -187,11 +188,11 @@ public bool ContainsKey(UIntPtr keyObject)
 
 #### Parameters
 
-`keyObject` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`keyObject` UIntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Connections_GeneralJointSetting_GetSelection_VM_Managed_ObjectBase_"></a> GetSelection\(ObjectBase\)
 
@@ -229,7 +230,7 @@ The connector object to remove.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether it is success to remove the connector object.
 
@@ -253,7 +254,7 @@ The ConnectorType of the connector object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether it is success to set the ConnectorType.
 

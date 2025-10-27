@@ -1,4 +1,5 @@
-#  Class ControlDocument
+# Class ControlDocument
+<a id="VM_Managed_ControlDocument"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class ControlDocument : Document, IObservableObject, IDisposableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Container](VM.Managed.Container.md) ← 
 [Document](VM.Managed.Document.md) ← 
@@ -35,7 +36,7 @@ IOwned,
 IHasID, 
 [IEnableManager](VM.Managed.IEnableManager.md), 
 [IRelatedDocument](VM.Managed.IRelatedDocument.md), 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IControlDocument](VM.Managed.IControlDocument.md)
 
 #### Inherited Members
@@ -234,7 +235,7 @@ IHistorySupport,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -273,7 +274,7 @@ public override bool CanClose { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ControlDocument_IsPropertySupport"></a> IsPropertySupport
 
@@ -283,7 +284,7 @@ public virtual bool IsPropertySupport { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ControlDocument_IsReload"></a> IsReload
 
@@ -293,7 +294,7 @@ public virtual bool IsReload { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ControlDocument_Modified"></a> Modified
 
@@ -305,7 +306,7 @@ public override bool Modified { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -331,7 +332,7 @@ public override View CreateView(UIntPtr hWnd)
 
 #### Parameters
 
-`hWnd` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`hWnd` UIntPtr
 
 The view handle.
 
@@ -349,7 +350,7 @@ public override IObjectBase FindLocal(string A_0)
 
 #### Parameters
 
-`A_0` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`A_0` string
 
 #### Returns
 
@@ -371,7 +372,7 @@ public override bool IsEnabledImpl(ObjectBase A_0)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
@@ -385,7 +386,7 @@ public override void IsTypeSupported(Type A_0)
 
 #### Parameters
 
-`A_0` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`A_0` Type
 
 ### <a id="VM_Managed_ControlDocument_Load_System_String_"></a> Load\(string\)
 
@@ -395,7 +396,7 @@ public virtual void Load(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 ### <a id="VM_Managed_ControlDocument_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
 
@@ -419,7 +420,7 @@ public override void Save(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The path to save.
 
@@ -435,7 +436,7 @@ public override void SetEnableImpl(ObjectBase A_0, bool A_1)
 
 `A_0` [ObjectBase](VM.Managed.ObjectBase.md)
 
-`A_1` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_1` bool
 
 ### <a id="VM_Managed_ControlDocument_SetUnit_VM_Unit_"></a> SetUnit\(Unit\)
 
@@ -471,5 +472,5 @@ public override void UpdateEnable(ObjectBase A_0, bool A_1)
 
 `A_0` [ObjectBase](VM.Managed.ObjectBase.md)
 
-`A_1` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_1` bool
 

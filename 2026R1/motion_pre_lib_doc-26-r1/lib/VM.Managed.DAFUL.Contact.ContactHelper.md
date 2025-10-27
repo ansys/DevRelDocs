@@ -1,4 +1,5 @@
-#  Class ContactHelper
+# Class ContactHelper
+<a id="VM_Managed_DAFUL_Contact_ContactHelper"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -11,7 +12,7 @@ public class ContactHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ContactHelper](VM.Managed.DAFUL.Contact.ContactHelper.md)
 
 #### Extension Methods

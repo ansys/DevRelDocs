@@ -1,4 +1,5 @@
-#  Class GroupAutoConnector
+# Class GroupAutoConnector
+<a id="VM_Managed_DAFUL_Operation_GroupAutoConnector"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class GroupAutoConnector : UniteConnector, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UniteConnector](VM.Managed.DAFUL.Operation.UniteConnector.md) ← 
 [GroupAutoConnector](VM.Managed.DAFUL.Operation.GroupAutoConnector.md)
@@ -107,7 +108,7 @@ public GroupAutoConnector(Document doc, IEnumerable<string> groupNames)
 
 `doc` Document
 
-`groupNames` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`groupNames` IEnumerable<string\>
 
 ### <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector__ctor_VM_Managed_Operation_JournalParameter_"></a> GroupAutoConnector\(JournalParameter\)
 
@@ -131,7 +132,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -151,5 +152,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

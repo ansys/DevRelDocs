@@ -1,4 +1,5 @@
-#  Class AssemblyDocInfo
+# Class AssemblyDocInfo
+<a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class AssemblyDocInfo : DocInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md) ← 
 [AssemblyDocInfo](VM.Managed.DAFUL.Pre.AssemblyDocInfo.md)
 
@@ -75,7 +76,7 @@ public string BuilderType
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_Format"></a> Format
 
@@ -113,7 +114,7 @@ public string CategoryName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForCADExport"></a> ChangeUsageForCADExport
 
@@ -125,7 +126,7 @@ public bool ChangeUsageForCADExport { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForCADImport"></a> ChangeUsageForCADImport
 
@@ -137,7 +138,7 @@ public bool ChangeUsageForCADImport { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForFEImport"></a> ChangeUsageForFEImport
 
@@ -149,7 +150,7 @@ public bool ChangeUsageForFEImport { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForMeshAssembly"></a> ChangeUsageForMeshAssembly
 
@@ -161,7 +162,7 @@ public bool ChangeUsageForMeshAssembly { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForPartAssembly"></a> ChangeUsageForPartAssembly
 
@@ -173,7 +174,7 @@ public bool ChangeUsageForPartAssembly { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForSubsystemAssembly"></a> ChangeUsageForSubsystemAssembly
 
@@ -185,7 +186,7 @@ public bool ChangeUsageForSubsystemAssembly { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_IconFiles"></a> IconFiles
 
@@ -197,7 +198,7 @@ public static string[] IconFiles { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_PriorityType"></a> PriorityType
 

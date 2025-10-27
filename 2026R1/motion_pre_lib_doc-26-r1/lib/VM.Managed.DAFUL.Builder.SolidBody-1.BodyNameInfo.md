@@ -1,4 +1,5 @@
-#  Class SolidBody<T\>.BodyNameInfo
+# Class SolidBody<T\>.BodyNameInfo
+<a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class SolidBody<T>.BodyNameInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SolidBody<T\>.BodyNameInfo](VM.Managed.DAFUL.Builder.SolidBody\-1.BodyNameInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string BooleanOption { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo_Color"></a> Color
 
@@ -46,7 +47,7 @@ public string Color { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo_CreateOption"></a> CreateOption
 
@@ -56,7 +57,7 @@ public string CreateOption { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo_Name"></a> Name
 
@@ -66,5 +67,5 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

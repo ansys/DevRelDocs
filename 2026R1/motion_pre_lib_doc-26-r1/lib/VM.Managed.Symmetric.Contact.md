@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Symmetric.Contact
+# Namespace VM.Managed.Symmetric.Contact
+<a id="VM_Managed_Symmetric_Contact"></a>
 
 ### Classes
 

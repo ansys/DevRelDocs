@@ -1,4 +1,5 @@
-#  Enum ObjectStateType
+# Enum ObjectStateType
+<a id="VM_Managed_ObjectStateType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

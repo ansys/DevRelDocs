@@ -1,4 +1,5 @@
-#  Class FullCarLoadCase
+# Class FullCarLoadCase
+<a id="VM_Managed_DAFUL_Car_Force_FullCarLoadCase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class FullCarLoadCase : LoadCaseBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LoadCaseBase](VM.Managed.DAFUL.Car.LoadCaseBase.md) ← 
 [FullCarLoadCase](VM.Managed.DAFUL.Car.Force.FullCarLoadCase.md)
 

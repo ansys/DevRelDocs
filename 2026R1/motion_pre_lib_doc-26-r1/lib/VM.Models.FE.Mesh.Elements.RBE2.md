@@ -1,4 +1,5 @@
-#  Class RBE2
+# Class RBE2
+<a id="VM_Models_FE_Mesh_Elements_RBE2"></a>
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -10,7 +11,7 @@ public class RBE2 : HasMultipleNodes, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [HasMultipleNodes](VM.Models.FE.Mesh.HasMultipleNodes.md) ← 
 [RBE2](VM.Models.FE.Mesh.Elements.RBE2.md)
@@ -56,7 +57,7 @@ public int MasterNodeId { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Elements_RBE2_NodeIdsWrapper"></a> NodeIdsWrapper
 
@@ -67,7 +68,7 @@ public byte[] NodeIdsWrapper { get; set; }
 
 #### Property Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
+ byte\[\]
 
 ## Methods
 
@@ -79,11 +80,11 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Mesh_Elements_RBE2_GetHashCode"></a> GetHashCode\(\)
 
@@ -93,5 +94,5 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

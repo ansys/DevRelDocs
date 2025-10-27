@@ -1,4 +1,5 @@
-#  Class ApplySlidingBearing
+# Class ApplySlidingBearing
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ApplySlidingBearing : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplySlidingBearing](VM.Managed.DAFUL.GearTrain.Operation.ApplySlidingBearing.md)
 
@@ -87,11 +88,11 @@ public ApplySlidingBearing(HiddenSlidingBearingDocument hiddenSlidingBearingDocu
 
 #### Parameters
 
-`hiddenSlidingBearingDocument1` HiddenSlidingBearingDocument
+`hiddenSlidingBearingDocument1` [HiddenSlidingBearingDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenBearingDocument.cs)
 
 The hidden sliding bearing document
 
-`slidingBearing` SlidingBearing
+`slidingBearing` [SlidingBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/SlidingBearing.cs)
 
 The sliding bearing
 
@@ -121,11 +122,11 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ## Methods
 
@@ -139,7 +140,7 @@ public override void Execute()
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

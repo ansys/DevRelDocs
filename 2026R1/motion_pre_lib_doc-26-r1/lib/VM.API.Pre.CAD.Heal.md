@@ -1,4 +1,5 @@
-#  Class Heal
+# Class Heal
+<a id="VM_API_Pre_CAD_Heal"></a>
 
 Namespace: [VM.API.Pre.CAD](VM.API.Pre.CAD.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class Heal
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Heal](VM.API.Pre.CAD.Heal.md)
 
 #### Extension Methods
@@ -36,17 +37,17 @@ public static int HasDefect(this Body body, Action<string> actOutMessage = null,
 
 The target body to check the defect.
 
-`actOutMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actOutMessage` Action<string\>
 
 The action delegate for output message.
 
-`bShowDetailedInformation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShowDetailedInformation` bool
 
 The flag whether showing the detailed information.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The error type.
 
@@ -64,17 +65,17 @@ public static int HasDefect(this IGeometryContainer geometryContainer, Action<st
 
 The geometry container to check the defect.
 
-`actOutMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actOutMessage` Action<string\>
 
 The action delegate for output message.
 
-`bShowDetailedInformation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShowDetailedInformation` bool
 
 The flag whether showing the detailed information.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The error type.
 
@@ -89,13 +90,13 @@ public static int HasDefect(Obj entity, Action<string> actOutMessage = null, boo
 
 `entity` [Obj](VM.API.Pre.Obj.md)
 
-`actOutMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actOutMessage` Action<string\>
 
-`bShowDetailedInformation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShowDetailedInformation` bool
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_API_Pre_CAD_Heal_Repair_VM_Managed_CAD_Body_System_Action_System_String__"></a> Repair\(Body, Action<string\>\)
 
@@ -111,13 +112,13 @@ public static int Repair(this Body body, Action<string> actOutMessage = null)
 
 The target body to repair.
 
-`actOutMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actOutMessage` Action<string\>
 
 The action delegate for output message.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The error type.
 
@@ -135,13 +136,13 @@ public static int Repair(this IGeometryContainer geometryContainer, Action<strin
 
 The target geometry container to repair.
 
-`actOutMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actOutMessage` Action<string\>
 
 The action delegate for output message.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The error type.
 
@@ -156,9 +157,9 @@ public static int Repair(Obj entity, Action<string> actOutMessage = null)
 
 `entity` [Obj](VM.API.Pre.Obj.md)
 
-`actOutMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actOutMessage` Action<string\>
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

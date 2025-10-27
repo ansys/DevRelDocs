@@ -1,4 +1,5 @@
-#  Struct AdvancedRestriction
+# Struct AdvancedRestriction
+<a id="VM_API_Pre_AdvancedRestriction"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -29,19 +30,19 @@ public AdvancedRestriction(ExpressionValueVariable stiffnessCoefficient, Express
 
 #### Parameters
 
-`stiffnessCoefficient` ExpressionValueVariable
+`stiffnessCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffnessCoefficient.
 
-`exponentOfPenetration` ExpressionValueVariable
+`exponentOfPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The exponentOfPenetration.
 
-`maxDampingCoefficient` ExpressionValueVariable
+`maxDampingCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The maxDampingCoefficient.
 
-`boundaryPenetration` ExpressionValueVariable
+`boundaryPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The boundaryPenetration.
 
@@ -57,7 +58,7 @@ public ExpressionValueVariable BoundaryPenetration { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_AdvancedRestriction_ExponentOfPenetration"></a> ExponentOfPenetration
 
@@ -69,7 +70,7 @@ public ExpressionValueVariable ExponentOfPenetration { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_AdvancedRestriction_MaxDampingCoefficient"></a> MaxDampingCoefficient
 
@@ -81,7 +82,7 @@ public ExpressionValueVariable MaxDampingCoefficient { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_AdvancedRestriction_StiffnessCoefficient"></a> StiffnessCoefficient
 
@@ -93,5 +94,5 @@ public ExpressionValueVariable StiffnessCoefficient { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

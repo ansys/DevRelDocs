@@ -1,4 +1,5 @@
-#  Class PythonCodeAPI
+# Class PythonCodeAPI
+<a id="VM_API_Pre_PythonCodeAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class PythonCodeAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PythonCodeAPI](VM.API.Pre.PythonCodeAPI.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public static Obj[] ImportPythonCode(this Document document, params string[] add
 
 The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> to import python code
 
-`additionalCodes` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`additionalCodes` string\[\]
 
 Additional pathes to python codes.
 
@@ -48,7 +49,7 @@ Array of the created <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Raised when document or codes are null or empty.
 
@@ -66,7 +67,7 @@ public static Obj[] ImportPythonCode(this Document document, IEnumerable<string>
 
 The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> to import python code
 
-`codes` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`codes` IEnumerable<string\>
 
 Pathes to python codes.
 
@@ -78,7 +79,7 @@ Array of the created <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Raised when document or codes are null or empty.
 

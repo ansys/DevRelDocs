@@ -1,4 +1,5 @@
-#  Class Relation
+# Class Relation
+<a id="VM_Managed_DAFUL_Operation_Relation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class Relation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [Relation](VM.Managed.DAFUL.Operation.Relation.md)
 
@@ -97,7 +98,7 @@ public Relation(IDocument doc, SolidBody selectedBody)
 
 `doc` IDocument
 
-`selectedBody` SolidBody
+`selectedBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Relation__ctor_VM_Models_Pre_IDocument_VM_Managed_DAFUL_SolidBody_System_Double_"></a> Relation\(IDocument, SolidBody, double\)
 
@@ -109,9 +110,9 @@ public Relation(IDocument doc, SolidBody selectedBody, double dTolerance)
 
 `doc` IDocument
 
-`selectedBody` SolidBody
+`selectedBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 ## Properties
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_Relation_SeedBody"></a> SeedBody
 
@@ -135,7 +136,7 @@ public SolidBody SeedBody { get; set; }
 
 #### Property Value
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Relation_SelectedBody"></a> SelectedBody
 
@@ -145,7 +146,7 @@ public ICollection<SolidBody> SelectedBody { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<SolidBody\>
+ ICollection<[SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)\>
 
 ### <a id="VM_Managed_DAFUL_Operation_Relation_Tolerance"></a> Tolerance
 
@@ -155,7 +156,7 @@ public double Tolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -177,7 +178,7 @@ protected void ExecuteAutoPicker(Document3D doc3D, string strKey, string strTol)
 
 `doc3D` Document3D
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
-`strTol` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTol` string
 

@@ -1,4 +1,5 @@
-#  Class Topology
+# Class Topology
+<a id="VM_CAD_Kernel_Topology"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public abstract class Topology : Entity, ITopology, IHasID, ISelected
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Entity](VM.CAD.Kernel.Entity.md) ← 
 [Topology](VM.CAD.Kernel.Topology.md)
@@ -55,9 +56,9 @@ protected Topology(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Properties
 
@@ -69,7 +70,7 @@ public bool IsSelected { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_Topology_ParentBodyKey"></a> ParentBodyKey
 
@@ -79,7 +80,7 @@ public UIntPtr ParentBodyKey { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ## Methods
 
@@ -107,7 +108,7 @@ public static TopologyType GetTopologyType(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 

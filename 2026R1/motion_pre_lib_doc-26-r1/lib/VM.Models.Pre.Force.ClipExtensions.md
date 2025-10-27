@@ -1,4 +1,5 @@
-#  Class ClipExtensions
+# Class ClipExtensions
+<a id="VM_Models_Pre_Force_ClipExtensions"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class ClipExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ClipExtensions](VM.Models.Pre.Force.ClipExtensions.md)
 
 #### Extension Methods
@@ -38,19 +39,19 @@ public static double GetDistanceToCenterBoltbymodifiedLeafnumberatbottom(LeafInf
 
 `leaves` [LeafInfo](VM.Models.Pre.Force.LeafInfo.md)\[\]
 
-`numberofleaf` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberofleaf` int
 
-`iLeafnumberatbottom` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`iLeafnumberatbottom` int
 
 `clips` [ClipInfo](VM.Models.Pre.Force.ClipInfo.md)\[\]
 
-`frontInactiveLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frontInactiveLength` double
 
-`rearInactiveLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`rearInactiveLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_ClipExtensions_GetHeightbymodifiedLeafnumberatbottom_VM_Models_Pre_Force_LeafInfo___System_Double_System_Int32_System_Int32_"></a> GetHeightbymodifiedLeafnumberatbottom\(LeafInfo\[\], double, int, int\)
 
@@ -62,15 +63,15 @@ public static double GetHeightbymodifiedLeafnumberatbottom(LeafInfo[] leaves, do
 
 `leaves` [LeafInfo](VM.Models.Pre.Force.LeafInfo.md)\[\]
 
-`distanceToCenterBolt` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`distanceToCenterBolt` double
 
-`iLeafnumberattop` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`iLeafnumberattop` int
 
-`iLeafnumberatbottom` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`iLeafnumberatbottom` int
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_ClipExtensions_GetInitialDistanceToCenterBolt_System_Double_System_Double_System_Int32_VM_Models_Pre_Force_ClipInfo___System_Double_System_Double_"></a> GetInitialDistanceToCenterBolt\(double, double, int, ClipInfo\[\], double, double\)
 
@@ -80,21 +81,21 @@ public static double GetInitialDistanceToCenterBolt(double lastLeafFirstProfileX
 
 #### Parameters
 
-`lastLeafFirstProfileX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`lastLeafFirstProfileX` double
 
-`lastLeafLastProfileX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`lastLeafLastProfileX` double
 
-`numberofleafs` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberofleafs` int
 
 `clips` [ClipInfo](VM.Models.Pre.Force.ClipInfo.md)\[\]
 
-`frontInactiveLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frontInactiveLength` double
 
-`rearInactiveLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`rearInactiveLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_ClipExtensions_GetInitialHeight_VM_Models_Pre_Force_LeafInfo___System_Double_"></a> GetInitialHeight\(LeafInfo\[\], double\)
 
@@ -106,11 +107,11 @@ public static double GetInitialHeight(LeafInfo[] leaves, double distanceToCenter
 
 `leaves` [LeafInfo](VM.Models.Pre.Force.LeafInfo.md)\[\]
 
-`distanceToCenterBolt` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`distanceToCenterBolt` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_ClipExtensions_GetWidth_VM_Models_Pre_Force_LeafInfo___"></a> GetWidth\(LeafInfo\[\]\)
 
@@ -124,7 +125,7 @@ public static double GetWidth(LeafInfo[] leaves)
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_ClipExtensions_ValidationDistanceToCenterBoltOfCurrentClip_VM_Models_Pre_Force_LeafInfo___VM_Models_Pre_Force_ClipInfo_System_Double__System_Double__"></a> ValidationDistanceToCenterBoltOfCurrentClip\(LeafInfo\[\], ClipInfo, out double, out double\)
 
@@ -138,13 +139,13 @@ public static bool ValidationDistanceToCenterBoltOfCurrentClip(LeafInfo[] leaves
 
 `curuentclip` [ClipInfo](VM.Models.Pre.Force.ClipInfo.md)
 
-`from` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`from` double
 
-`to` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`to` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Force_ClipExtensions_ValidationHeightOfCurrentClip_VM_Models_Pre_Force_LeafInfo___VM_Models_Pre_Force_ClipInfo_System_Double__"></a> ValidationHeightOfCurrentClip\(LeafInfo\[\], ClipInfo, out double\)
 
@@ -158,9 +159,9 @@ public static bool ValidationHeightOfCurrentClip(LeafInfo[] leaves, ClipInfo cur
 
 `curentclip` [ClipInfo](VM.Models.Pre.Force.ClipInfo.md)
 
-`minimumheight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`minimumheight` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

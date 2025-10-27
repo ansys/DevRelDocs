@@ -1,4 +1,5 @@
-#  Struct FEConstraintRBE
+# Struct FEConstraintRBE
+<a id="VM_Models_FE_Utilities_FEConstraintRBE"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEConstraintRBE_MasterNodeSequence"></a> MasterNodeSequence
 
@@ -27,7 +28,7 @@ public uint MasterNodeSequence { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEConstraintRBE_Name"></a> Name
 
@@ -37,7 +38,7 @@ public string Name { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_FE_Utilities_FEConstraintRBE_NumberOfSlaveNode"></a> NumberOfSlaveNode
 
@@ -47,7 +48,7 @@ public uint NumberOfSlaveNode { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEConstraintRBE_SlaveNodeSequences"></a> SlaveNodeSequences
 
@@ -57,7 +58,7 @@ public uint[] SlaveNodeSequences { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_Models_FE_Utilities_FEConstraintRBE_TypeOfRBE"></a> TypeOfRBE
 

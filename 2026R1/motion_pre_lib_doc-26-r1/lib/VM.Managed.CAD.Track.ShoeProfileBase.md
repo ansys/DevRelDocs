@@ -1,4 +1,5 @@
-#  Class ShoeProfileBase
+# Class ShoeProfileBase
+<a id="VM_Managed_CAD_Track_ShoeProfileBase"></a>
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +12,7 @@ public abstract class ShoeProfileBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShoeProfileBase](VM.Managed.CAD.Track.ShoeProfileBase.md)
 
 #### Derived
@@ -47,7 +48,7 @@ protected List<VectorBase> m_lstPtOrigin
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileBase_m_lstPtWorkPlane"></a> m\_lstPtWorkPlane
 
@@ -59,7 +60,7 @@ protected List<VectorBase> m_lstPtWorkPlane
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ## Properties
 
@@ -73,7 +74,7 @@ public double BasePlateHeight { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileBase_ShoeLength"></a> ShoeLength
 
@@ -85,7 +86,7 @@ public double ShoeLength { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -107,7 +108,7 @@ protected virtual bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileBase_GetPointData_For_XYPlane"></a> GetPointData\_For\_XYPlane\(\)
 
@@ -119,7 +120,7 @@ public List<VectorBase> GetPointData_For_XYPlane()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileBase_GetWorkPlaneData"></a> GetWorkPlaneData\(\)
 

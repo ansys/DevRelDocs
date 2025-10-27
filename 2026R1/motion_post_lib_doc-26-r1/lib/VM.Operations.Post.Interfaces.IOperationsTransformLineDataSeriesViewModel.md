@@ -1,11 +1,12 @@
-#  Interface IOperationsTransformLineDataSeriesViewModel
+# Interface IOperationsTransformLineDataSeriesViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents a view model for the transform line data series.
 
-```python
+```csharp
 public interface IOperationsTransformLineDataSeriesViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsTransformLineDataSeriesViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsTransformLineDataSeriesViewModel.py
+```python
+# IOperationsTransformLineDataSeriesViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,12 +37,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set array about combination of characteristic and component
@@ -46,7 +55,11 @@ curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 curvePaths.Add(r'Displacement/Z')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -96,7 +109,7 @@ page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -104,7 +117,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the type of alignment.
 
-```python
+```csharp
 AlignType Align { get; set; }
 ```
 
@@ -126,13 +139,13 @@ The supported types are:
 
 Gets or sets the base of the logarithm.
 
-```python
+```csharp
 string Base { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -153,13 +166,13 @@ Supported values are:
 
 Gets or sets the coefficient of the logarithm.
 
-```python
+```csharp
 double Coefficient { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -173,13 +186,13 @@ Use this property to specify or retrieve the coefficient value for the logarithm
 
 Gets or sets a value indicating whether the decibel scale is used.
 
-```python
+```csharp
 bool IsDecibel { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -193,13 +206,13 @@ Use this property to specify or retrieve whether the decibel scale is used.
 
 Gets or sets the value for the X offset.
 
-```python
+```csharp
 double OffsetX { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -213,13 +226,13 @@ Use this property to specify or retrieve the value for the X offset.
 
 Gets or sets the value for the Y offset.
 
-```python
+```csharp
 double OffsetY { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -233,13 +246,13 @@ Use this property to specify or retrieve the value for the Y offset.
 
 Gets or sets the value for the X scale.
 
-```python
+```csharp
 double ScaleX { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -253,13 +266,13 @@ Use this property to specify or retrieve the value for the X scale.
 
 Gets or sets the value for the Y scale.
 
-```python
+```csharp
 double ScaleY { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -273,13 +286,13 @@ Use this property to specify or retrieve the value for the Y scale.
 
 Gets or sets the type of transform.
 
-```python
+```csharp
 string SelectedTransformType { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -295,7 +308,7 @@ The supported types are:
 
 Gets or sets the type of sign.
 
-```python
+```csharp
 SignType Sign { get; set; }
 ```
 
@@ -312,5 +325,4 @@ For an example that includes this property, see the [Interface IOperationsTransf
 Use this property to specify or retrieve the type of sign.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SignType.Positive" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SignType.Negative" data-throw-if-not-resolved="false"></xref></li></ul>
-
 

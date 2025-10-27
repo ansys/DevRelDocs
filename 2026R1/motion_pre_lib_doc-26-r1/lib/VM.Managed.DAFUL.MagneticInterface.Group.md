@@ -1,4 +1,5 @@
-#  Class MagneticInterface.Group
+# Class MagneticInterface.Group
+<a id="VM_Managed_DAFUL_MagneticInterface_Group"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMAppCore.dll  
@@ -9,7 +10,7 @@ public class MagneticInterface.Group
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MagneticInterface.Group](VM.Managed.DAFUL.MagneticInterface.Group.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string Name
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_Group_Objects"></a> Objects
 
@@ -46,7 +47,7 @@ public string[] Objects
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_Group_Transform"></a> Transform
 
@@ -56,5 +57,5 @@ public ValueType Transform
 
 #### Field Value
 
- [ValueType](https://learn.microsoft.com/dotnet/api/system.valuetype)
+ ValueType
 

@@ -1,4 +1,5 @@
-#  Interface IHasRoadFile
+# Interface IHasRoadFile
+<a id="VM_Managed_DAFUL_Car_IHasRoadFile"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -27,7 +28,7 @@ string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_Offset"></a> Offset
 
@@ -51,7 +52,7 @@ string ReferenceBodyFullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_RoadDataPath"></a> RoadDataPath
 
@@ -63,7 +64,7 @@ string RoadDataPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_RoadRefFrameName"></a> RoadRefFrameName
 
@@ -75,7 +76,7 @@ string RoadRefFrameName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_RoadReferencePosition"></a> RoadReferencePosition
 
@@ -99,5 +100,5 @@ double RotationAngle { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

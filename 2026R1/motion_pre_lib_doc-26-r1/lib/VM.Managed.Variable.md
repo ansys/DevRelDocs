@@ -1,4 +1,5 @@
-#  Class Variable
+# Class Variable
+<a id="VM_Managed_Variable"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,9 +13,9 @@ public class Variable : Expression, IObservableObject, IDisposableObject, ILinka
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Expression](VM.Managed.Expression.md) ← 
 [Variable](VM.Managed.Variable.md)
@@ -96,7 +97,7 @@ IEventProvider
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -127,11 +128,11 @@ public Variable(double dValue, bool bRoundUp)
 
 #### Parameters
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The value of Variable(double type).
 
-`bRoundUp` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRoundUp` bool
 
 Determines whether is value without limiting the precision.
 
@@ -145,7 +146,7 @@ public Variable(double dValue)
 
 #### Parameters
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The value of Variable(double type). This value will be rounded.
 
@@ -159,7 +160,7 @@ public Variable(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value of Variable(string type).
 
@@ -181,7 +182,7 @@ public bool DontUpdateByReferenceObject { set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Variable_IsSimpleValue"></a> IsSimpleValue
 
@@ -193,7 +194,7 @@ public virtual bool IsSimpleValue { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Variable_PreciseValue"></a> PreciseValue
 
@@ -205,7 +206,7 @@ public double PreciseValue { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Variable_Value"></a> Value
 
@@ -217,7 +218,7 @@ public virtual double Value { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -229,7 +230,7 @@ public virtual object Clone()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_Variable_ConvertToValue_System_String_"></a> ConvertToValue\(string\)
 
@@ -241,13 +242,13 @@ protected override bool ConvertToValue(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The string.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Variable_GetFullName"></a> GetFullName\(\)
 
@@ -257,7 +258,7 @@ public virtual string GetFullName()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Variable_GetNumericValue"></a> GetNumericValue\(\)
 
@@ -269,7 +270,7 @@ protected override double GetNumericValue()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Variable_GetSchema"></a> GetSchema\(\)
 
@@ -284,7 +285,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_Variable_GetValue_System_String_"></a> GetValue\(string\)
 
@@ -294,11 +295,11 @@ public static double GetValue(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Variable_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
@@ -310,7 +311,7 @@ protected override void LinkRequestDestroying(object obNotifier, LinkEventArgs a
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -326,7 +327,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -344,7 +345,7 @@ protected override void ParseToValue(char* wstrValue)
 
 #### Parameters
 
-`wstrValue` [char](https://learn.microsoft.com/dotnet/api/system.char)\*
+`wstrValue` char\*
 
 The string.
 
@@ -358,7 +359,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -372,7 +373,7 @@ protected override void SetDefaultString(ref string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value holds default string.
 
@@ -386,7 +387,7 @@ public virtual void SetExpression(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value.
 
@@ -400,7 +401,7 @@ public override void UpdateByReferenceObject(object obj, LinkEventArgs arg)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The reference object.
 
@@ -418,7 +419,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 
@@ -440,7 +441,7 @@ The Variable.
 
 #### Returns
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Variable_op_Implicit_VM_Models_Pre_ExpressionValueVariable__VM_Managed_Variable"></a> implicit operator Variable\(ExpressionValueVariable\)
 
@@ -452,7 +453,7 @@ public static implicit operator Variable(ExpressionValueVariable expressionValue
 
 #### Parameters
 
-`expressionValue` ExpressionValueVariable
+`expressionValue` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The ExpressionValue.
 

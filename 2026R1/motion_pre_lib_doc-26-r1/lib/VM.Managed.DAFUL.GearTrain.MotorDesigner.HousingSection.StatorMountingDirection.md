@@ -1,4 +1,5 @@
-#  Enum MotorDesigner.HousingSection.StatorMountingDirection
+# Enum MotorDesigner.HousingSection.StatorMountingDirection
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_StatorMountingDirection"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

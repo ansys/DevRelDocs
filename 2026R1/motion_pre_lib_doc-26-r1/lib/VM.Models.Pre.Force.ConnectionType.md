@@ -1,4 +1,5 @@
-#  Enum ConnectionType
+# Enum ConnectionType
+<a id="VM_Models_Pre_Force_ConnectionType"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

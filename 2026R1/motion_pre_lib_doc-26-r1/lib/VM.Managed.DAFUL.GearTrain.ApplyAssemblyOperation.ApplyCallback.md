@@ -1,4 +1,5 @@
-#  Delegate ApplyAssemblyOperation.ApplyCallback
+# Delegate ApplyAssemblyOperation.ApplyCallback
+<a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation_ApplyCallback"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public delegate bool ApplyAssemblyOperation.ApplyCallback()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

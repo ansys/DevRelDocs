@@ -1,4 +1,5 @@
-#  Class MeshDocumentAPI
+# Class MeshDocumentAPI
+<a id="VM_API_Pre_FE_MeshDocumentAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class MeshDocumentAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MeshDocumentAPI](VM.API.Pre.FE.MeshDocumentAPI.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public static MeshDocument CreateNewMeshDocument(string newMeshFilePath, string 
 
 #### Parameters
 
-`newMeshFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newMeshFilePath` string
 
 The file path of new mesh.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -45,7 +46,7 @@ The name of document.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -57,7 +58,7 @@ The new SubSystemDocument object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newMeshFilePath' argument is empty.
 
@@ -77,39 +78,39 @@ public static Obj ImportMesh(this MeshDocument doc, string feDataFilePath, strin
 
 The <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> to import external mesh file.
 
-`feDataFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`feDataFilePath` string
 
 The path to the external mesh file.
 
-`modalDataFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`modalDataFileName` string
 
 The path to the modal data file.
 
-`meshColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`meshColor` Color?
 
 The <xref href="System.Drawing.Color" data-throw-if-not-resolved="false"></xref> of the new mesh,
 
-`degenerateElement` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`degenerateElement` bool
 
 The flag for degenerate element.
 
-`importOnlyRBEIncludingStaticCorrectionMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`importOnlyRBEIncludingStaticCorrectionMode` bool
 
 The flag for import only rbe including static correction mode.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.FE.Mesh" data-throw-if-not-resolved="false"></xref> object.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown when doc or feDataFilePath is null,
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if feDataFilePath file is not exist.
 
@@ -120,7 +121,7 @@ Create <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved=
 ```csharp
 [NotNull(new string[] { "doc" })]
 [ExistFile(new string[] { "strModalFile" })]
-public static void ModifyModal(this MeshDocument doc, string strModalFile, Unit unit, bool bOnlyDelete)
+public static void ModifyModal(this MeshDocument doc, string strModalFile, Unit unit = null, bool bOnlyDelete = false)
 ```
 
 #### Parameters
@@ -129,7 +130,7 @@ public static void ModifyModal(this MeshDocument doc, string strModalFile, Unit 
 
 The <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> to modify modal.
 
-`strModalFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModalFile` string
 
 The path to the external modal file.
 
@@ -137,17 +138,17 @@ The path to the external modal file.
 
 The unit information.
 
-`bOnlyDelete` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bOnlyDelete` bool
 
 The flag of deleting old modal data.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown when doc is null,
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if strModalFile file is not exist.
 

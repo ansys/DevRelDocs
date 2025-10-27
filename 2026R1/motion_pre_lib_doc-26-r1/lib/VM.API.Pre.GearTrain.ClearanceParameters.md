@@ -1,4 +1,5 @@
-#  Struct ClearanceParameters
+# Struct ClearanceParameters
+<a id="VM_API_Pre_GearTrain_ClearanceParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -31,7 +32,7 @@ public ClearanceInfo.AxialType AxialClearance { readonly get; set; }
 
 #### Property Value
 
- ClearanceInfo.AxialType
+ [ClearanceInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryInfoBase.cs).[AxialType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryInfoBase.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_DampingRatio"></a> DampingRatio
 
@@ -43,7 +44,7 @@ public ExpressionValueVariable DampingRatio { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_LeftAxial"></a> LeftAxial
 
@@ -55,7 +56,7 @@ public ExpressionValueVariable LeftAxial { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_Penalty"></a> Penalty
 
@@ -67,7 +68,7 @@ public ExpressionValueVariable Penalty { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_PreloadAxial"></a> PreloadAxial
 
@@ -79,7 +80,7 @@ public ExpressionValueVariable PreloadAxial { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_PreloadRadial"></a> PreloadRadial
 
@@ -91,7 +92,7 @@ public ExpressionValueVariable PreloadRadial { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_Radial"></a> Radial
 
@@ -103,7 +104,7 @@ public ExpressionValueVariable Radial { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_RadialClearance"></a> RadialClearance
 
@@ -115,7 +116,7 @@ public ClearanceInfo.RadialType RadialClearance { readonly get; set; }
 
 #### Property Value
 
- ClearanceInfo.RadialType
+ [ClearanceInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryInfoBase.cs).[RadialType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryInfoBase.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ClearanceParameters_RightAxial"></a> RightAxial
 
@@ -127,5 +128,5 @@ public ExpressionValueVariable RightAxial { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

@@ -1,4 +1,5 @@
-#  Class LinkAttribute
+# Class LinkAttribute
+<a id="VM_Models_Pre_LinkAttribute"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -13,8 +14,8 @@ public class LinkAttribute : LinkBaseAttribute, ILinkOwner, ILinkAttribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [LinkBaseAttribute](VM.Models.Pre.LinkBaseAttribute.md) ← 
 [LinkAttribute](VM.Models.Pre.LinkAttribute.md)
 
@@ -56,7 +57,7 @@ public LinkAttribute(bool isChild = false)
 
 #### Parameters
 
-`isChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isChild` bool
 
 ## Fields
 
@@ -82,7 +83,7 @@ public bool? IsChild { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)?
+ bool?
 
 ## Methods
 
@@ -95,15 +96,15 @@ public virtual void AfterSetter(object owner, Type declaringType, string propert
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`declaringType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`declaringType` Type
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`values` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`values` object\[\]
 
-`triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
+`triggers` Attribute\[\]
 
 ### <a id="VM_Models_Pre_LinkAttribute_BeforeSetter_System_Object_System_Type_System_String_System_Attribute___"></a> BeforeSetter\(object, Type, string, Attribute\[\]\)
 
@@ -114,13 +115,13 @@ public virtual void BeforeSetter(object owner, Type declaringType, string proper
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`declaringType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`declaringType` Type
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
+`triggers` Attribute\[\]
 
 ### <a id="VM_Models_Pre_LinkAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
@@ -130,7 +131,7 @@ protected override void InitializeProperty(object owner, IEnumerable<PropertyInf
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+`propertyInfos` IEnumerable<PropertyInfo\>
 

@@ -1,4 +1,5 @@
-#  Class AttributeMeshFreeGeometryOutputProperty
+# Class AttributeMeshFreeGeometryOutputProperty
+<a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,9 +13,9 @@ public class AttributeMeshFreeGeometryOutputProperty : AttributeFacetRefinementB
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [AttributeBase](VM.Managed.AttributeBase.md) ← 
 [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md) ← 
@@ -128,7 +129,7 @@ IEventProvider,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -175,31 +176,31 @@ The angular tolerance.
 
 The facet aspect ratio.
 
-`bUseMaximumGridLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumGridLine` bool
 
 if set to <code>true</code> [use maximum grid line].
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [unuse GRID_TO_EDGE.
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [unuse approximated evaluation].
 
-`bUseDefaultSetting` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDefaultSetting` bool
 
 if set to <code>true</code> [use default setting values].
 
@@ -229,27 +230,27 @@ The angular tolerance.
 
 The facet aspect ratio.
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [unuse GRID_TO_EDGE.
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [unuse approximated evaluation].
 
-`bUseDefaultSetting` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDefaultSetting` bool
 
 if set to <code>true</code> [use default setting values].
 
@@ -275,7 +276,7 @@ protected bool m_bUseDefaultSetting
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty_m_eOutputType"></a> m\_eOutputType
 
@@ -311,5 +312,5 @@ public bool UseDefaultSetting { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

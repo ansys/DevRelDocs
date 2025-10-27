@@ -1,4 +1,5 @@
-#  Class DurabilityData.ContactInfo
+# Class DurabilityData.ContactInfo
+<a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -9,7 +10,7 @@ public class DurabilityData.ContactInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DurabilityData.ContactInfo](VM.Models.Pre.Durability.DurabilityData.ContactInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string ContactName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_FrameInformation"></a> FrameInformation
 

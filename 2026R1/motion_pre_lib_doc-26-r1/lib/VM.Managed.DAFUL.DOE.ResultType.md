@@ -1,4 +1,5 @@
-#  Enum ResultType
+# Enum ResultType
+<a id="VM_Managed_DAFUL_DOE_ResultType"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  

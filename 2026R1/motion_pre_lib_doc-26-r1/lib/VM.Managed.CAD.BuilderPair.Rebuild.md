@@ -1,4 +1,5 @@
-#  Struct BuilderPair.Rebuild
+# Struct BuilderPair.Rebuild
+<a id="VM_Managed_CAD_BuilderPair_Rebuild"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

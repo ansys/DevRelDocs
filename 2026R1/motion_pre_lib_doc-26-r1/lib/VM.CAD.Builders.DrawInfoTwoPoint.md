@@ -1,4 +1,5 @@
-#  Class DrawInfoTwoPoint
+# Class DrawInfoTwoPoint
+<a id="VM_CAD_Builders_DrawInfoTwoPoint"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public abstract class DrawInfoTwoPoint : DrawInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DrawInfo](VM.CAD.Builders.DrawInfo.md) ← 
 [DrawInfoTwoPoint](VM.CAD.Builders.DrawInfoTwoPoint.md)
 

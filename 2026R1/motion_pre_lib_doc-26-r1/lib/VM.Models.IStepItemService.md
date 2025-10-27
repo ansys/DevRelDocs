@@ -1,4 +1,5 @@
-#  Interface IStepItemService
+# Interface IStepItemService
+<a id="VM_Models_IStepItemService"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -25,9 +26,9 @@ void Add(IStepItemSet stepItemSet, Type stepType, Func<IEnumerable<IStepItem>> f
 
 `stepItemSet` [IStepItemSet](VM.Models.IStepItemSet.md)
 
-`stepType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`stepType` Type
 
-`factory` [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>\>
+`factory` Func<IEnumerable<[IStepItem](VM.Models.IStepItem.md)\>\>
 
 ### <a id="VM_Models_IStepItemService_Clear"></a> Clear\(\)
 
@@ -43,7 +44,7 @@ void Compose(IEnumerable<Assembly> assemblies)
 
 #### Parameters
 
-`assemblies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)\>
+`assemblies` IEnumerable<Assembly\>
 
 ### <a id="VM_Models_IStepItemService_GetItems_System_Type_VM_Models_IStep_"></a> GetItems\(Type, IStep\)
 
@@ -53,11 +54,11 @@ IEnumerable<IStepItem> GetItems(Type scenarioType, IStep parent)
 
 #### Parameters
 
-`scenarioType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`scenarioType` Type
 
 `parent` [IStep](VM.Models.IStep.md)
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>
+ IEnumerable<[IStepItem](VM.Models.IStepItem.md)\>
 

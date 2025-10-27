@@ -1,4 +1,5 @@
-#  Class Power
+# Class Power
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,9 +10,9 @@ public sealed class Power : ValidatableBase, IObservableObject, IDisposableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ValidatableBase ← 
+[ValidatableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs) ← 
 [Power](VM.Models.Pre.Drivetrain.VehicleSimulator.Power.md)
 
 #### Implements
@@ -24,17 +25,17 @@ IHasGuid
 
 #### Inherited Members
 
-ValidatableBase.RaisePropertyChanged\(string\), 
-ValidatableBase.SuspendValidate\(\), 
-ValidatableBase.Validate\(\), 
-ValidatableBase.Validate\(ValidationContext\), 
-ValidatableBase.CanValidate, 
-ValidatableBase.Errors, 
-ValidatableBase.HasValidationAttribute, 
-ValidatableBase.HasValidator, 
-ValidatableBase.IsValid, 
-ValidatableBase.ValidateTrigger, 
-ValidatableBase.ErrorsChanged, 
+[ValidatableBase.RaisePropertyChanged\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.SuspendValidate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(ValidationContext\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.CanValidate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Errors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidator](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ValidateTrigger](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ErrorsChanged](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -61,9 +62,9 @@ public Power(Guid guid, string name)
 
 #### Parameters
 
-`guid` [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+`guid` Guid
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 ## Properties
 
@@ -75,7 +76,7 @@ public double ClutchStiffness { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DampingRatio"></a> DampingRatio
 
@@ -85,7 +86,7 @@ public double DampingRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisengageDuration"></a> DisengageDuration
 
@@ -95,7 +96,7 @@ public double DisengageDuration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisengageShiftPattern"></a> DisengageShiftPattern
 
@@ -105,7 +106,7 @@ public ObservableCollection<DataPoint> DisengageShiftPattern { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
+ ObservableCollection<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisengageShiftPatternCount"></a> DisengageShiftPatternCount
 
@@ -116,7 +117,7 @@ public int? DisengageShiftPatternCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisplayName"></a> DisplayName
 
@@ -126,7 +127,7 @@ public string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DistributionRatios"></a> DistributionRatios
 
@@ -138,7 +139,7 @@ public ObservableCollection<DataPoint> DistributionRatios { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
+ ObservableCollection<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EnableClutch"></a> EnableClutch
 
@@ -148,7 +149,7 @@ public bool EnableClutch { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EngageDuration"></a> EngageDuration
 
@@ -158,7 +159,7 @@ public double EngageDuration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EngageShiftPattern"></a> EngageShiftPattern
 
@@ -168,7 +169,7 @@ public ObservableCollection<DataPoint> EngageShiftPattern { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
+ ObservableCollection<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EngageShiftPatternCount"></a> EngageShiftPatternCount
 
@@ -179,7 +180,7 @@ public int? EngageShiftPatternCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_FullName"></a> FullName
 
@@ -189,7 +190,7 @@ public string FullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_GearRatio"></a> GearRatio
 
@@ -199,7 +200,7 @@ public ObservableCollection<double> GearRatio { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ ObservableCollection<double\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_Guid"></a> Guid
 
@@ -209,7 +210,7 @@ public Guid Guid { get; }
 
 #### Property Value
 
- [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+ Guid
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_IsRegenerativeBrakeRole"></a> IsRegenerativeBrakeRole
 
@@ -220,7 +221,7 @@ public bool IsRegenerativeBrakeRole { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_IsValid"></a> IsValid
 
@@ -230,7 +231,7 @@ public override bool IsValid { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_MomentOfInertia"></a> MomentOfInertia
 
@@ -240,7 +241,7 @@ public double MomentOfInertia { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_Name"></a> Name
 
@@ -250,7 +251,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_RegenerativeBrakeRatio"></a> RegenerativeBrakeRatio
 
@@ -260,7 +261,7 @@ public ObservableCollection<DataPoint> RegenerativeBrakeRatio { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
+ ObservableCollection<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_Role"></a> Role
 
@@ -280,7 +281,7 @@ public double ShiftDuration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_TorqueMap"></a> TorqueMap
 

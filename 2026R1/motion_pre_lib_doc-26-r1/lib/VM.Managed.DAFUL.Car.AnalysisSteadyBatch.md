@@ -1,4 +1,5 @@
-#  Class AnalysisSteadyBatch
+# Class AnalysisSteadyBatch
+<a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisSteadyBatch : TireAnalysisBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [TireAnalysisBase](VM.Managed.DAFUL.Car.TireAnalysisBase.md) ← 
 [AnalysisSteadyBatch](VM.Managed.DAFUL.Car.AnalysisSteadyBatch.md)
@@ -101,7 +102,7 @@ protected override double InitialVelocity { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsCamberAngle"></a> IsCamberAngle
 
@@ -113,7 +114,7 @@ public bool IsCamberAngle { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsSlipAngle"></a> IsSlipAngle
 
@@ -125,7 +126,7 @@ public bool IsSlipAngle { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsSlipRatio"></a> IsSlipRatio
 
@@ -137,7 +138,7 @@ public bool IsSlipRatio { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsVerticalLoad"></a> IsVerticalLoad
 
@@ -149,7 +150,7 @@ public bool IsVerticalLoad { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_SlipAngleIncrement_SlipRatio"></a> SlipAngleIncrement\_SlipRatio
 
@@ -161,7 +162,7 @@ public double SlipAngleIncrement_SlipRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_SlipAngleIncrement_VerticalLoad"></a> SlipAngleIncrement\_VerticalLoad
 
@@ -173,7 +174,7 @@ public double SlipAngleIncrement_VerticalLoad { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_SlipAngleInfo"></a> SlipAngleInfo
 
@@ -233,7 +234,7 @@ public double VerticalLoadIncrement_CamberAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_VerticalLoadIncrement_SlipAngle"></a> VerticalLoadIncrement\_SlipAngle
 
@@ -245,7 +246,7 @@ public double VerticalLoadIncrement_SlipAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_VerticalLoadInfo"></a> VerticalLoadInfo
 
@@ -277,7 +278,7 @@ The type of batch.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
@@ -289,7 +290,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 
@@ -307,7 +308,7 @@ public void GetTestRigMotionUSUBArgument(AnalysisSteadyBatch.BatchType type, str
 
 The type.
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The ar parameter.
 

@@ -1,4 +1,5 @@
-#  Class KernelOperationGetSlicePoints
+# Class KernelOperationGetSlicePoints
+<a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -11,7 +12,7 @@ public class KernelOperationGetSlicePoints
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelOperationGetSlicePoints](VM.Managed.DAFUL.KernelOperationGetSlicePoints.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public double CuttingPlaneRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints_Points"></a> Points
 
@@ -52,7 +53,7 @@ public List<Vector> Points { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints_SliceInfos"></a> SliceInfos
 
@@ -64,7 +65,7 @@ public List<XmlSliceInfo> SliceInfos { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[XmlSliceInfo](VM.Managed.DAFUL.XmlSliceInfo.md)\>
+ List<[XmlSliceInfo](VM.Managed.DAFUL.XmlSliceInfo.md)\>
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints_TargetBody"></a> TargetBody
 

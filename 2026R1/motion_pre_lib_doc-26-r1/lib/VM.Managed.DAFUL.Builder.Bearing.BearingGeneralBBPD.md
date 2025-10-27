@@ -1,4 +1,5 @@
-#  Class BearingGeneralBBPD
+# Class BearingGeneralBBPD
+<a id="VM_Managed_DAFUL_Builder_Bearing_BearingGeneralBBPD"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Bearing](VM.Managed.DAFUL.Builder.Bearing.md)  
 Assembly: VMBldBearing.dll  
@@ -9,11 +10,11 @@ public class BearingGeneralBBPD : Connector<BearingGeneral, PropertyBearingGener
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<BearingGeneral\> ← 
-BuilderSymmetric<BearingGeneral\> ← 
-BuilderNamed<BearingGeneral\> ← 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\> ← 
+object ← 
+[BuilderBase<BearingGeneral\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<BearingGeneral\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<BearingGeneral\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs) ← 
 [BearingGeneralBBPD](VM.Managed.DAFUL.Builder.Bearing.BearingGeneralBBPD.md)
 
 #### Implements
@@ -22,36 +23,36 @@ IBuilder
 
 #### Inherited Members
 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.HookBeforeReplace\(Property\), 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.OnPostBuild\(ObjectBase, Document\), 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.OnPostAddDoc\(ObjectBase\), 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.BaseConnectable, 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.ActionConnectable, 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.AddToDoc, 
-Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.BuildObject, 
-BuilderNamed<BearingGeneral\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<BearingGeneral\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<BearingGeneral\>.Name, 
-BuilderSymmetric<BearingGeneral\>.Build\(Document\), 
-BuilderSymmetric<BearingGeneral\>.Symmetric, 
-BuilderSymmetric<BearingGeneral\>.CurrentSymmetric, 
-BuilderBase<BearingGeneral\>.m\_bSuccess, 
-BuilderBase<BearingGeneral\>.Build\(Document\), 
-BuilderBase<BearingGeneral\>.Build\(Document, List<string\>\), 
-BuilderBase<BearingGeneral\>.Validate\(IList<string\>\), 
-BuilderBase<BearingGeneral\>.Success\(\), 
-BuilderBase<BearingGeneral\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<BearingGeneral\>.OnFinalBuild\(string, Document\), 
-BuilderBase<BearingGeneral\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<BearingGeneral\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<BearingGeneral\>.Parameters, 
-BuilderBase<BearingGeneral\>.AddToDoc, 
-BuilderBase<BearingGeneral\>.UseChangedObject, 
-BuilderBase<BearingGeneral\>.SetPointKey, 
-BuilderBase<BearingGeneral\>.BuildObject, 
-BuilderBase<BearingGeneral\>.BuildDocument, 
-BuilderBase<BearingGeneral\>.UseInterface, 
-BuilderBase<BearingGeneral\>.ErrorMessage
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.HookBeforeReplace\(Property\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.BaseConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.ActionConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<BearingGeneral, PropertyBearingGeneral, OnePointPosition, OneDirection, NoneOrientation\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[BuilderNamed<BearingGeneral\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<BearingGeneral\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<BearingGeneral\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<BearingGeneral\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<BearingGeneral\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<BearingGeneral\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BearingGeneral\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 

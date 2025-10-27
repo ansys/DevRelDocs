@@ -1,4 +1,5 @@
-#  Class FlowValidator
+# Class FlowValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_FlowValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class FlowValidator : AbstractValidator<Flow>, IValidator<Flow>, IValidat
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<Flow\> ← 
 [FlowValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.FlowValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<Flow\>.GetEnumerator\(\),
 AbstractValidator<Flow\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<Flow\>.PreValidate\(ValidationContext<Flow\>, ValidationResult\), 
 AbstractValidator<Flow\>.RaiseValidationException\(ValidationContext<Flow\>, ValidationResult\), 
+AbstractValidator<Flow\>.OnRuleAdded\(IValidationRule<Flow\>\), 
 AbstractValidator<Flow\>.CascadeMode, 
 AbstractValidator<Flow\>.ClassLevelCascadeMode, 
 AbstractValidator<Flow\>.RuleLevelCascadeMode

@@ -1,4 +1,5 @@
-#  Class AttributeCADBodyNameProperty
+# Class AttributeCADBodyNameProperty
+<a id="VM_Managed_AttributeCADBodyNameProperty"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public sealed class AttributeCADBodyNameProperty : AttributeBase, IObservableObj
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [AttributeBase](VM.Managed.AttributeBase.md) ← 
 [AttributeCADBodyNameProperty](VM.Managed.AttributeCADBodyNameProperty.md)
@@ -83,7 +84,7 @@ public AttributeCADBodyNameProperty(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 ### <a id="VM_Managed_AttributeCADBodyNameProperty__ctor"></a> AttributeCADBodyNameProperty\(\)
 
@@ -101,5 +102,5 @@ public virtual string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

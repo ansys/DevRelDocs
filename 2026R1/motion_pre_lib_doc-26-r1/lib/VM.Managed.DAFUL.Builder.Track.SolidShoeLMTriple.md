@@ -1,4 +1,5 @@
-#  Class SolidShoeLMTriple
+# Class SolidShoeLMTriple
+<a id="VM_Managed_DAFUL_Builder_Track_SolidShoeLMTriple"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -9,8 +10,8 @@ public class SolidShoeLMTriple : SolidShoe, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<BodyShoe\> ← 
+object ← 
+[BuilderBase<BodyShoe\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
 [SolidShoe](VM.Managed.DAFUL.Builder.Track.SolidShoe.md) ← 
 [SolidShoeLMTriple](VM.Managed.DAFUL.Builder.Track.SolidShoeLMTriple.md)
 
@@ -26,23 +27,23 @@ IBuilder
 [SolidShoe.Color](VM.Managed.DAFUL.Builder.Track.SolidShoe.md\#VM\_Managed\_DAFUL\_Builder\_Track\_SolidShoe\_Color), 
 [SolidShoe.LDForShoeSombination](VM.Managed.DAFUL.Builder.Track.SolidShoe.md\#VM\_Managed\_DAFUL\_Builder\_Track\_SolidShoe\_LDForShoeSombination), 
 [SolidShoe.AddToDoc](VM.Managed.DAFUL.Builder.Track.SolidShoe.md\#VM\_Managed\_DAFUL\_Builder\_Track\_SolidShoe\_AddToDoc), 
-BuilderBase<BodyShoe\>.m\_bSuccess, 
-BuilderBase<BodyShoe\>.Build\(Document\), 
-BuilderBase<BodyShoe\>.Build\(Document, List<string\>\), 
-BuilderBase<BodyShoe\>.Validate\(IList<string\>\), 
-BuilderBase<BodyShoe\>.Success\(\), 
-BuilderBase<BodyShoe\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<BodyShoe\>.OnFinalBuild\(string, Document\), 
-BuilderBase<BodyShoe\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<BodyShoe\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<BodyShoe\>.Parameters, 
-BuilderBase<BodyShoe\>.AddToDoc, 
-BuilderBase<BodyShoe\>.UseChangedObject, 
-BuilderBase<BodyShoe\>.SetPointKey, 
-BuilderBase<BodyShoe\>.BuildObject, 
-BuilderBase<BodyShoe\>.BuildDocument, 
-BuilderBase<BodyShoe\>.UseInterface, 
-BuilderBase<BodyShoe\>.ErrorMessage
+[BuilderBase<BodyShoe\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyShoe\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 

@@ -1,4 +1,5 @@
-#  Class HighlightProperty
+# Class HighlightProperty
+<a id="VM_Managed_Operation_HighlightProperty"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  
@@ -9,7 +10,7 @@ public class HighlightProperty : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [HighlightProperty](VM.Managed.Operation.HighlightProperty.md)
 
@@ -83,7 +84,7 @@ public HighlightProperty(List<object> lstParam)
 
 #### Parameters
 
-`lstParam` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`lstParam` List<object\>
 
 ## Properties
 
@@ -97,7 +98,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

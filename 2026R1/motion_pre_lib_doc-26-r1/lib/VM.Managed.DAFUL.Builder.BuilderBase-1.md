@@ -1,4 +1,5 @@
-#  Class BuilderBase<T\>
+# Class BuilderBase<T\>
+<a id="VM_Managed_DAFUL_Builder_BuilderBase_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class BuilderBase<T> : IBuilder where T : ObjectBase, new()
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<T\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md)
 
 #### Implements
@@ -44,7 +45,7 @@ protected bool m_bSuccess
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -56,7 +57,7 @@ protected virtual bool AddToDoc { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_BuildDocument"></a> BuildDocument
 
@@ -86,7 +87,7 @@ protected string ErrorMessage { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Parameters"></a> Parameters
 
@@ -106,7 +107,7 @@ protected List<SetPoint> SetPointKey { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SetPoint\>
+ List<[SetPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetPoint.cs)\>
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_UseChangedObject"></a> UseChangedObject
 
@@ -116,7 +117,7 @@ protected virtual bool UseChangedObject { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_UseInterface"></a> UseInterface
 
@@ -126,7 +127,7 @@ protected bool UseInterface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -150,7 +151,7 @@ public virtual void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `docToAdd` Document
 
-`lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSetPointKeys` List<string\>
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_OnFinalBuild_System_String_VM_Managed_Document_"></a> OnFinalBuild\(string, Document\)
 
@@ -160,7 +161,7 @@ protected virtual ObjectBase OnFinalBuild(string strObjName, Document doc)
 
 #### Parameters
 
-`strObjName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strObjName` string
 
 `doc` Document
 
@@ -176,7 +177,7 @@ protected virtual ObjectBase OnObjectChangeBuild(string strObjName, Document doc
 
 #### Parameters
 
-`strObjName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strObjName` string
 
 `doc` Document
 
@@ -208,7 +209,7 @@ protected virtual bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Success"></a> Success\(\)
 
@@ -218,7 +219,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -228,9 +229,9 @@ public virtual bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Struct Configuration.ResultRecord
+# Struct Configuration.ResultRecord
+<a id="VM_Managed_Simulation_Configuration_ResultRecord"></a>
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -21,7 +22,7 @@ public bool Constraints { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Contacts"></a> Contacts
 
@@ -33,7 +34,7 @@ public bool Contacts { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_ResultRecord_EHDBearing"></a> EHDBearing
 
@@ -45,7 +46,7 @@ public bool EHDBearing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_ResultRecord_ExternalLoad"></a> ExternalLoad
 
@@ -55,7 +56,7 @@ public bool ExternalLoad { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Forces"></a> Forces
 
@@ -67,7 +68,7 @@ public bool Forces { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_ResultRecord_MotorEMForce"></a> MotorEMForce
 
@@ -79,7 +80,7 @@ public bool MotorEMForce { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_ResultRecord_SubEntities"></a> SubEntities
 
@@ -91,7 +92,7 @@ public bool SubEntities { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_ResultRecord_WriteToOutFile"></a> WriteToOutFile
 
@@ -103,7 +104,7 @@ public bool WriteToOutFile { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -117,13 +118,13 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 <p>Object to compare</p>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two objects are equal. Otherwise false.</p>
 
@@ -143,7 +144,7 @@ public bool Equals(Configuration.ResultRecord other)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two objects are equal. Otherwise false.</p>
 
@@ -157,7 +158,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 <p>The hash code</p>
 
@@ -191,7 +192,7 @@ public static bool operator ==(Configuration.ResultRecord left, Configuration.Re
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two arguments are same. Otherwise false.</p>
 
@@ -215,7 +216,7 @@ public static bool operator !=(Configuration.ResultRecord left, Configuration.Re
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two arguments are not same. Otherwise false.</p>
 

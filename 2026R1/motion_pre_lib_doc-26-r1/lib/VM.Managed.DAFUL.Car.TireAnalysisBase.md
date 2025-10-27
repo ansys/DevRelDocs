@@ -1,4 +1,5 @@
-#  Class TireAnalysisBase
+# Class TireAnalysisBase
+<a id="VM_Managed_DAFUL_Car_TireAnalysisBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class TireAnalysisBase : AnalysisBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [TireAnalysisBase](VM.Managed.DAFUL.Car.TireAnalysisBase.md)
 
@@ -81,7 +82,7 @@ protected virtual double InitialVelocity { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase_TypeOfSimulation"></a> TypeOfSimulation
 
@@ -113,7 +114,7 @@ The type.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase_GetTestRigMotionUSUBArgumentCore_System_String_System_String_VM_Managed_DAFUL_Car_AnalysisInfo_System_String___"></a> GetTestRigMotionUSUBArgumentCore\(string, string, AnalysisInfo, string\[\]\)
 
@@ -125,11 +126,11 @@ protected void GetTestRigMotionUSUBArgumentCore(string strAnaCat, string strAnaT
 
 #### Parameters
 
-`strAnaCat` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAnaCat` string
 
 The STR ana cat.
 
-`strAnaType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAnaType` string
 
 Type of the STR ana.
 
@@ -137,7 +138,7 @@ Type of the STR ana.
 
 The info.
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The ar parameter.
 

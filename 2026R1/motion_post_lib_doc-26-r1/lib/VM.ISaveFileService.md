@@ -1,9 +1,10 @@
-#  Interface ISaveFileService
+# Interface ISaveFileService
+<a id="VM_ISaveFileService"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface ISaveFileService : IFileSupport
 ```
 
@@ -15,12 +16,11 @@ public interface ISaveFileService : IFileSupport
 
 ### <a id="VM_ISaveFileService_ShowDialog"></a> ShowDialog\(\)
 
-```python
+```csharp
 bool ShowDialog()
 ```
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

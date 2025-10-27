@@ -1,4 +1,5 @@
-#  Struct ActuatorInfo
+# Struct ActuatorInfo
+<a id="VM_Managed_DAFUL_Car_ActuatorInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -21,11 +22,11 @@ public ActuatorInfo(Type type, string actuator)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
-`actuator` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`actuator` string
 
 The actuator.
 
@@ -41,7 +42,7 @@ public string Actuator
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_ActuatorInfo_ActuatorType"></a> ActuatorType
 
@@ -53,7 +54,7 @@ public Type ActuatorType
 
 #### Field Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ## Methods
 
@@ -85,5 +86,5 @@ The obj.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

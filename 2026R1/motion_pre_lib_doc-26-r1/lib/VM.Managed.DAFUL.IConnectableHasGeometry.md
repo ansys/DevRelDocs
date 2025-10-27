@@ -1,4 +1,5 @@
-#  Interface IConnectableHasGeometry
+# Interface IConnectableHasGeometry
+<a id="VM_Managed_DAFUL_IConnectableHasGeometry"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -34,5 +35,5 @@ List<Body> Geometry { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
+ List<Body\>
 

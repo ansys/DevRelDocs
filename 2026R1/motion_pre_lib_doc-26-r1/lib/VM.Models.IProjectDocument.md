@@ -1,4 +1,5 @@
-#  Interface IProjectDocument
+# Interface IProjectDocument
+<a id="VM_Models_IProjectDocument"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -30,7 +31,7 @@ IEnumerable<IScenario> Items { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IScenario](VM.Models.IScenario.md)\>
+ IEnumerable<[IScenario](VM.Models.IScenario.md)\>
 
 ### <a id="VM_Models_IProjectDocument_RootPath"></a> RootPath
 
@@ -40,7 +41,7 @@ string RootPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_IProjectDocument_ScenarioCount"></a> ScenarioCount
 
@@ -50,7 +51,7 @@ int ScenarioCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_IProjectDocument_Item_VM_Identifier_"></a> this\[Identifier\]
 
@@ -96,7 +97,7 @@ bool CanRegisterID(Identifier identifier)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IProjectDocument_CanRegisterName_System_String_"></a> CanRegisterName\(string\)
 
@@ -106,11 +107,11 @@ bool CanRegisterName(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IProjectDocument_Contains_VM_Models_IScenario_"></a> Contains\(IScenario\)
 
@@ -124,7 +125,7 @@ bool Contains(IScenario item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IProjectDocument_ContainsID_VM_Identifier_"></a> ContainsID\(Identifier\)
 
@@ -138,7 +139,7 @@ bool ContainsID(Identifier identifier)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IProjectDocument_ContainsName_VM_Models_IProjectObject_"></a> ContainsName\(IProjectObject\)
 
@@ -152,7 +153,7 @@ bool ContainsName(IProjectObject item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IProjectDocument_RegisterID_VM_Models_IProjectObject_"></a> RegisterID\(IProjectObject\)
 
@@ -204,7 +205,7 @@ bool TryGetValue(Identifier identifier, out IScenario scenario)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IProjectDocument_TryGetValue_System_String_VM_Models_IScenario__"></a> TryGetValue\(string, out IScenario\)
 
@@ -214,13 +215,13 @@ bool TryGetValue(string name, out IScenario scenario)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 `scenario` [IScenario](VM.Models.IScenario.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IProjectDocument_UnregisterID_VM_Models_IProjectObject_"></a> UnregisterID\(IProjectObject\)
 

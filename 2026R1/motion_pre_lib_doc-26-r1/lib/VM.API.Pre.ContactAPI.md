@@ -1,4 +1,5 @@
-#  Class ContactAPI
+# Class ContactAPI
+<a id="VM_API_Pre_ContactAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class ContactAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ContactAPI](VM.API.Pre.ContactAPI.md)
 
 #### Extension Methods
@@ -31,13 +32,13 @@ public static Obj CreateAutoContact(this SubSystemDocument subSystemDocument, IE
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`objectList` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`objectList` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`maximumDistance` ExpressionValueVariable?
+`maximumDistance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -54,21 +55,21 @@ public static Obj CreateCVCV(this SubSystemDocument subSystemDocument, Obj baseC
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `baseCurveset` [Obj](VM.API.Pre.Obj.md)
 
 `actionCurveset` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 `friction` [FrictionContact](VM.API.Pre.FrictionContact.md)
 
-`baseClearance` ExpressionValueVariable?
+`baseClearance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`actionClearance` ExpressionValueVariable?
+`actionClearance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`stiffScaleFactor` ExpressionValueVariable?
+`stiffScaleFactor` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 #### Returns
 
@@ -84,13 +85,13 @@ public static Obj CreateColorCurveSet(this SubSystemDocument subSystemDocument, 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `body` [Obj](VM.API.Pre.Obj.md)
 
-`colors` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+`colors` IEnumerable<Color\>
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -108,7 +109,7 @@ public static Obj CreateColorCurveSet(this PartDocument document, Obj body, IEnu
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref> to create a curve set by color.
 
@@ -116,11 +117,11 @@ The <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false
 
 The body of a curve set.
 
-`colors` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+`colors` IEnumerable<Color\>
 
 The colors of edges.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a curve set. If empty, default name starts with 'CURVESET' will be generated and used.
 
@@ -132,11 +133,11 @@ The new <xref href="VM.Managed.DAFUL.PartSetCurveForEdges" data-throw-if-not-res
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'colors', 'body' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not equal to <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -150,13 +151,13 @@ public static Obj CreateColorFaceSet(this SubSystemDocument subSystemDocument, O
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `body` [Obj](VM.API.Pre.Obj.md)
 
-`colors` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+`colors` IEnumerable<Color\>
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -174,7 +175,7 @@ public static Obj CreateColorFaceSet(this PartDocument document, Obj body, IEnum
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref> to create a face set by color.
 
@@ -182,11 +183,11 @@ The <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false
 
 The body of a face set.
 
-`colors` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+`colors` IEnumerable<Color\>
 
 The colors of faces.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a face set. If empty, default name starts with 'FACESET_' will be generated and used.
 
@@ -198,11 +199,11 @@ The new <xref href="VM.Managed.DAFUL.PartSetFace" data-throw-if-not-resolved="fa
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'colors', 'body' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not equal to <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -217,21 +218,21 @@ public static void CreateContactTolerance(this SubSystemDocument subSystemDocume
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create contact tolerances.
 
-`objectList` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`objectList` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The object list of contacts.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'objectList' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'objectList' is not equal to <xref href="VM.Managed.DAFUL.IGapSupport" data-throw-if-not-resolved="false"></xref>.
 
@@ -244,11 +245,11 @@ public static Obj CreateCurveSet(this SubSystemDocument subSystemDocument, IEnum
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`edges` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`edges` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -265,13 +266,13 @@ public static Obj CreateCurveSet(this SubSystemDocument subSystemDocument, strin
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 `body` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -288,15 +289,15 @@ public static Obj CreateCurveSet(this PartDocument document, IEnumerable<Obj> ed
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref> to create a curve set by edges.
 
-`edges` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`edges` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The edges of a curve set.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a curve set. If empty, default name starts with 'CURVESET' will be generated and used.
 
@@ -308,11 +309,11 @@ The new <xref href="VM.Managed.DAFUL.PartSetCurveForEdges" data-throw-if-not-res
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'edges' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'edges' is not equal to <xref href="VM.Managed.CAD.Edge" data-throw-if-not-resolved="false"></xref>.
 
@@ -329,11 +330,11 @@ public static Obj CreateCurveSet(this PartDocument document, string filePath, Ob
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref> to create a curve set by file import.
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The file path about points of a curve set.
 
@@ -341,7 +342,7 @@ The file path about points of a curve set.
 
 The body of a curve set.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a curve set. If empty, default name starts with 'CURVESET' will be generated and used.
 
@@ -353,11 +354,11 @@ The new <xref href="VM.Managed.DAFUL.PartSetCurveForImport" data-throw-if-not-re
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'body' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not equal to <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -371,13 +372,13 @@ public static Obj CreateCylinderToMultiCurveContact(this SubSystemDocument subSy
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`baseGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`baseGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 `actionGeomerty` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -393,9 +394,9 @@ public static Obj CreateCylinderToMultiCurveContact(this SubSystemDocument subSy
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`baseGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`baseGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 `actionGeomerty` [Obj](VM.API.Pre.Obj.md)
 
@@ -403,9 +404,9 @@ public static Obj CreateCylinderToMultiCurveContact(this SubSystemDocument subSy
 
 `topPosition` Vector
 
-`radius` ExpressionValueVariable?
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -421,21 +422,21 @@ public static void CreateExtractFaceSet(this SubSystemDocument subSystemDocument
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `firstBody` [Obj](VM.API.Pre.Obj.md)
 
 `secondBody` [Obj](VM.API.Pre.Obj.md)
 
-`unused` ExpressionValueVariable?
+`unused` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`firstFacesetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`firstFacesetName` string
 
-`splitFirstBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`splitFirstBody` bool
 
-`secondFacesetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`secondFacesetName` string
 
-`splitSecondBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`splitSecondBody` bool
 
 ### <a id="VM_API_Pre_ContactAPI_CreateExtractFaceSet_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_System_Boolean_System_String_System_Boolean_"></a> CreateExtractFaceSet\(SubSystemDocument, IEnumerable<Obj\>, Obj, ExpressionValueVariable?, string, bool, string, bool\)
 
@@ -447,21 +448,21 @@ public static void CreateExtractFaceSet(this SubSystemDocument subSystemDocument
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`faces` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`faces` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 `secondBody` [Obj](VM.API.Pre.Obj.md)
 
-`tolerance` ExpressionValueVariable?
+`tolerance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`firstFacesetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`firstFacesetName` string
 
-`splitFirstBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`splitFirstBody` bool
 
-`secondFacesetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`secondFacesetName` string
 
-`splitSecondBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`splitSecondBody` bool
 
 ### <a id="VM_API_Pre_ContactAPI_CreateFaceSet_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateFaceSet\(SubSystemDocument, IEnumerable<Obj\>, string\)
 
@@ -472,11 +473,11 @@ public static Obj CreateFaceSet(this SubSystemDocument subSystemDocument, IEnume
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`faces` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`faces` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -493,15 +494,15 @@ public static Obj CreateFaceSet(this PartDocument document, IEnumerable<Obj> fac
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref> to create a face set.
 
-`faces` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`faces` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The faces of a face set.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a face set. If empty, default name starts with 'FACESET_' will be generated and used.
 
@@ -513,11 +514,11 @@ The new <xref href="VM.Managed.DAFUL.PartSetFace" data-throw-if-not-resolved="fa
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'faces' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'faces' is not equal to <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
 
@@ -537,7 +538,7 @@ public static Obj CreateGeneralContact(this IDocument document, Obj baseEntity, 
 
 `actionEntity` [Obj](VM.API.Pre.Obj.md)
 
-`contactName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`contactName` string
 
 #### Returns
 
@@ -554,11 +555,11 @@ public static Obj CreateGeneralContactWithFaces(this IDocument document, IEnumer
 
 `document` IDocument
 
-`baseFaces` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`baseFaces` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`actionFaces` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`actionFaces` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`contactName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`contactName` string
 
 #### Returns
 
@@ -575,19 +576,19 @@ public static Obj CreateMbyNContact(this SubSystemDocument subSystemDocument, IE
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create M by N contacts.
 
-`baseGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`baseGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The base geomerty of M by N contacts.
 
-`actionGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`actionGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The action geomerty of M by N contacts.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of M by N contacts. If empty, default name starts with 'MbyN' will be generated and used.
 
@@ -599,11 +600,11 @@ The new <xref href="VM.Managed.DAFUL.Contact.MbyNContact" data-throw-if-not-reso
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseGeomerty', 'actionGeomerty' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseGeomerty', 'actionGeomerty' is not equal to <xref href="VM.Managed.DAFUL.IContactable3D" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -616,13 +617,13 @@ public static Obj CreateMultiCurveToMultiCurveContact(this SubSystemDocument sub
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`baseGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`baseGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`actionGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`actionGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -639,15 +640,15 @@ public static Obj CreateNCombinationContact(this SubSystemDocument subSystemDocu
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create N combination contacts.
 
-`geomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`geomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The geomerty of N combination contacts.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of N combination contacts. If empty, default name starts with 'NCombi' will be generated and used.
 
@@ -659,11 +660,11 @@ The new <xref href="VM.Managed.DAFUL.Contact.NCombinationContact" data-throw-if-
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'geomerty' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'geomerty' is not equal to <xref href="VM.Managed.DAFUL.IContactable3D" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -678,7 +679,7 @@ public static Obj CreatePTCV(this SubSystemDocument subSystemDocument, Obj baseC
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `baseCurveset` [Obj](VM.API.Pre.Obj.md)
 
@@ -686,15 +687,15 @@ public static Obj CreatePTCV(this SubSystemDocument subSystemDocument, Obj baseC
 
 `actionPosition` Vector
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 `relative` [Relative](VM.API.Pre.Relative.md)
 
 `friction` [FrictionContact](VM.API.Pre.FrictionContact.md)
 
-`baseClearance` ExpressionValueVariable?
+`baseClearance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`stiffScaleFactor` ExpressionValueVariable?
+`stiffScaleFactor` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 #### Returns
 
@@ -710,13 +711,13 @@ public static Obj CreateSphereToMultiCurveContact(this SubSystemDocument subSyst
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`baseGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`baseGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 `actionGeomerty` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -732,17 +733,17 @@ public static Obj CreateSphereToMultiCurveContact(this SubSystemDocument subSyst
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`baseGeomerty` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`baseGeomerty` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 `actionGeomerty` [Obj](VM.API.Pre.Obj.md)
 
 `centerPosition` Vector
 
-`radius` ExpressionValueVariable?
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 

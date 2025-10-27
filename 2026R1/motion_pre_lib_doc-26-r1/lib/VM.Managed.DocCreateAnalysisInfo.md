@@ -1,4 +1,5 @@
-#  Class DocCreateAnalysisInfo
+# Class DocCreateAnalysisInfo
+<a id="VM_Managed_DocCreateAnalysisInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class DocCreateAnalysisInfo : DocCreate3DInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocCreate3DInfo ← 
 [DocCreateAnalysisInfo](VM.Managed.DocCreateAnalysisInfo.md)
@@ -54,7 +55,7 @@ public double GravityX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DocCreateAnalysisInfo_GravityY"></a> GravityY
 
@@ -66,7 +67,7 @@ public double GravityY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DocCreateAnalysisInfo_GravityZ"></a> GravityZ
 
@@ -78,7 +79,7 @@ public double GravityZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DocCreateAnalysisInfo_IncrementTime"></a> IncrementTime
 
@@ -90,7 +91,7 @@ public double IncrementTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DocCreateAnalysisInfo_UseIncrementTime"></a> UseIncrementTime
 
@@ -102,5 +103,5 @@ public bool UseIncrementTime { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

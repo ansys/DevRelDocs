@@ -1,4 +1,5 @@
-#  Class Pyra13
+# Class Pyra13
+<a id="VM_Models_FE_Mesh_Elements_Pyra13"></a>
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -10,7 +11,7 @@ public class Pyra13 : Element13Nodes, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [Element](VM.Models.FE.Mesh.Elements.Element.md) ← 
 [Element2Nodes](VM.Models.FE.Mesh.Elements.Element2Nodes.md) ← 

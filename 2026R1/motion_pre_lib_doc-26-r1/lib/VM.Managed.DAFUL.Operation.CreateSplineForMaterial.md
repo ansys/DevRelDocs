@@ -1,4 +1,5 @@
-#  Class CreateSplineForMaterial
+# Class CreateSplineForMaterial
+<a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateSplineForMaterial : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateSplineForMaterial](VM.Managed.DAFUL.Operation.CreateSplineForMaterial.md)
 
@@ -87,11 +88,11 @@ public CreateSplineForMaterial(Document3D doc3D, List<double> lstX, List<double>
 
 `doc3D` Document3D
 
-`lstX` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstX` List<double\>
 
-`lstY` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstY` List<double\>
 
-`MaterialName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`MaterialName` string
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateSplineForMaterial\(JournalParameter\)
 
@@ -113,7 +114,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial_Name"></a> Name
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial_Spline"></a> Spline
 
@@ -155,5 +156,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

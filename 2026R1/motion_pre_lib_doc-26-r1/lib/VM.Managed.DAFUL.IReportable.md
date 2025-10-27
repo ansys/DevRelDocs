@@ -1,4 +1,5 @@
-#  Interface IReportable
+# Interface IReportable
+<a id="VM_Managed_DAFUL_IReportable"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -23,7 +24,7 @@ bool CanWriteToOutFile { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_IReportable_MultiEntityName"></a> MultiEntityName
 
@@ -33,7 +34,7 @@ List<string> MultiEntityName { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_IReportable_ReportType"></a> ReportType
 

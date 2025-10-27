@@ -1,4 +1,5 @@
-#  Interface IGeneralContact
+# Interface IGeneralContact
+<a id="VM_Managed_DAFUL_IGeneralContact"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -33,7 +34,7 @@ The faceset.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if faceset's geometry type is sphere and it will be ignored; otherwise, <code>false</code>.
 

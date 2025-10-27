@@ -1,4 +1,5 @@
-#  Class MultiObjectContainer1ToNConnector
+# Class MultiObjectContainer1ToNConnector
+<a id="VM_Managed_DAFUL_Chained_MultiObjectContainer1ToNConnector"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,11 +12,11 @@ public class MultiObjectContainer1ToNConnector : MultiObjectContainer, IObservab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-MultiObjectContainer ← 
+[MultiObjectContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs) ← 
 [MultiObjectContainer1ToNConnector](VM.Managed.DAFUL.Chained.MultiObjectContainer1ToNConnector.md)
 
 #### Implements
@@ -33,15 +34,15 @@ IVerifiable
 
 #### Inherited Members
 
-MultiObjectContainer.GetEnumerator\(\), 
-MultiObjectContainer.LinkRequestUpdate\(object, LinkEventArgs\), 
-MultiObjectContainer.OnDeserialization\(object\), 
-MultiObjectContainer.SwapActionBase, 
-MultiObjectContainer.Collection, 
-MultiObjectContainer.Count, 
-MultiObjectContainer.Objects, 
-MultiObjectContainer.ObjectList, 
-MultiObjectContainer.ObjectBaseList, 
+[MultiObjectContainer.GetEnumerator\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.SwapActionBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.Collection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.Count](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.Objects](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.ObjectList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.ObjectBaseList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -85,7 +86,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -116,7 +117,7 @@ public MultiObjectContainer1ToNConnector(ICollection collection)
 
 #### Parameters
 
-`collection` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.icollection)
+`collection` ICollection
 
 The collection of objects.
 
@@ -130,11 +131,11 @@ public MultiObjectContainer1ToNConnector(ICollection collection, bool isClosed)
 
 #### Parameters
 
-`collection` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.icollection)
+`collection` ICollection
 
 The collection of objects.
 
-`isClosed` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isClosed` bool
 
 <code>true</code> if chained object makes closed loop; otherwise, <code>false</code>;
 
@@ -150,7 +151,7 @@ public bool ClosedState { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainer1ToNConnector_Count"></a> Count
 
@@ -162,7 +163,7 @@ protected override int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -176,7 +177,7 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<MultiObjectTarget\>
+ IEnumerator<[MultiObjectTarget](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs)\>
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
 

@@ -1,4 +1,5 @@
-#  Interface IFlip
+# Interface IFlip
+<a id="VM_Models_Pre_IFlip"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -27,7 +28,7 @@ bool CanSwitch { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

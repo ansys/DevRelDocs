@@ -1,4 +1,5 @@
-#  Class GearShapeBase.Spec
+# Class GearShapeBase.Spec
+<a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class GearShapeBase.Spec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearShapeBase.Spec](VM.Managed.DAFUL.GearTrain.GearShapeBase.Spec.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public double[] AccumulateCenter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ActiveRootDiameter"></a> ActiveRootDiameter
 
@@ -52,7 +53,7 @@ public double ActiveRootDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ActiveTipDiameter"></a> ActiveTipDiameter
 
@@ -64,7 +65,7 @@ public double ActiveTipDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_BCD"></a> BCD
 
@@ -76,7 +77,7 @@ public double BCD { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_BCR"></a> BCR
 
@@ -88,7 +89,7 @@ public double BCR { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_BackLash"></a> BackLash
 
@@ -100,7 +101,7 @@ public double BackLash { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Center"></a> Center
 
@@ -112,7 +113,7 @@ public double[] Center { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DatFile"></a> DatFile
 
@@ -124,7 +125,7 @@ public string DatFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DensityForKissSoft"></a> DensityForKissSoft
 
@@ -134,7 +135,7 @@ public double DensityForKissSoft { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DiameterNA"></a> DiameterNA
 
@@ -146,7 +147,7 @@ public double DiameterNA { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DiameterNF"></a> DiameterNF
 
@@ -158,7 +159,7 @@ public double DiameterNF { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Drack"></a> Drack
 
@@ -170,7 +171,7 @@ public double Drack { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_EndPosY"></a> EndPosY
 
@@ -182,7 +183,7 @@ public double EndPosY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_FaceWidth"></a> FaceWidth
 
@@ -194,7 +195,7 @@ public double FaceWidth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_HelixAngle"></a> HelixAngle
 
@@ -206,7 +207,7 @@ public double HelixAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_HelixDirection"></a> HelixDirection
 
@@ -218,7 +219,7 @@ public double HelixDirection { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Hrack"></a> Hrack
 
@@ -230,7 +231,7 @@ public double Hrack { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ModuleT"></a> ModuleT
 
@@ -242,7 +243,7 @@ public double ModuleT { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_NumberOfInvolutePoint"></a> NumberOfInvolutePoint
 
@@ -254,7 +255,7 @@ public uint NumberOfInvolutePoint { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_NumberOfTeeth"></a> NumberOfTeeth
 
@@ -266,7 +267,7 @@ public uint NumberOfTeeth { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_NumberOfTrochoid"></a> NumberOfTrochoid
 
@@ -278,7 +279,7 @@ public int NumberOfTrochoid { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Orientation"></a> Orientation
 
@@ -302,7 +303,7 @@ public double PCD { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_PCR"></a> PCR
 
@@ -314,7 +315,7 @@ public double PCR { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ProfileShift"></a> ProfileShift
 
@@ -326,7 +327,7 @@ public double ProfileShift { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RCD"></a> RCD
 
@@ -338,7 +339,7 @@ public double RCD { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RCR"></a> RCR
 
@@ -350,7 +351,7 @@ public double RCR { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RadiusNF"></a> RadiusNF
 
@@ -362,7 +363,7 @@ public double RadiusNF { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RotationAngle"></a> RotationAngle
 
@@ -374,7 +375,7 @@ public double RotationAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_SliceSize"></a> SliceSize
 
@@ -386,7 +387,7 @@ public double SliceSize { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_TCD"></a> TCD
 
@@ -398,7 +399,7 @@ public double TCD { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_TCR"></a> TCR
 
@@ -410,7 +411,7 @@ public double TCR { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ToothHeight"></a> ToothHeight
 
@@ -422,7 +423,7 @@ public double ToothHeight { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_WholeDepth"></a> WholeDepth
 
@@ -434,5 +435,5 @@ public double WholeDepth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

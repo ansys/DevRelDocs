@@ -1,4 +1,5 @@
-#  Enum PropertyHDBearing.AnalysisMethodType
+# Enum PropertyHDBearing.AnalysisMethodType
+<a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_AnalysisMethodType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

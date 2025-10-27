@@ -1,4 +1,5 @@
-#  Class AttributeMeshFreeGeometryOutputProperty
+# Class AttributeMeshFreeGeometryOutputProperty
+<a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,9 +12,9 @@ public abstract class AttributeMeshFreeGeometryOutputProperty : AttributeFacetRe
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 AttributeFacetRefinementBase ← 
@@ -131,7 +132,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -182,27 +183,27 @@ The var angular tolerance.
 
 The var facet aspect ratio.
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [b use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [b use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [b use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [b do not use GRI d_ T o_ EDGES].
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [b do not use approx_eval].
 
-`bUseDefaultSetting` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDefaultSetting` bool
 
 if set to <code>true</code> [b use default setting].
 
@@ -210,7 +211,7 @@ if set to <code>true</code> [b use default setting].
 
 Type of the e output.
 
-`bUseUserDefinedDistance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseUserDefinedDistance` bool
 
 if set to <code>true</code> [b use user defined distance].
 
@@ -256,31 +257,31 @@ The var angular tolerance.
 
 The var facet aspect ratio.
 
-`bUseMaximumGridLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumGridLine` bool
 
 if set to <code>true</code> [b use maximum grid line].
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [b use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [b use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [b use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [b do not use GRI d_ T o_ EDGES].
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [b do not use approx_eval].
 
-`bUseDefaultSetting` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDefaultSetting` bool
 
 if set to <code>true</code> [b use default setting].
 
@@ -288,7 +289,7 @@ if set to <code>true</code> [b use default setting].
 
 Type of the e output.
 
-`bUseUserDefinedDistance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseUserDefinedDistance` bool
 
 if set to <code>true</code> [b use user defined distance].
 
@@ -320,7 +321,7 @@ public string GINFPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_GeomPrecision"></a> GeomPrecision
 
@@ -332,7 +333,7 @@ public uint GeomPrecision { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_IsUseUserDefinedDistance"></a> IsUseUserDefinedDistance
 
@@ -344,7 +345,7 @@ public bool IsUseUserDefinedDistance { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_ReferenceFrame"></a> ReferenceFrame
 
@@ -393,7 +394,7 @@ public bool UseDefaultSetting { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_UserDefinedDistanceX"></a> UserDefinedDistanceX
 
@@ -405,7 +406,7 @@ public ExpressionValueVariable UserDefinedDistanceX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_UserDefinedDistanceY"></a> UserDefinedDistanceY
 
@@ -417,7 +418,7 @@ public ExpressionValueVariable UserDefinedDistanceY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_UserDefinedDistanceZ"></a> UserDefinedDistanceZ
 
@@ -429,7 +430,7 @@ public ExpressionValueVariable UserDefinedDistanceZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 

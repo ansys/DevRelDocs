@@ -1,4 +1,5 @@
-#  Class AttributeMbyNContact
+# Class AttributeMbyNContact
+<a id="VM_Models_Pre_FE_AttributeMbyNContact"></a>
 
 Namespace: [VM.Models.Pre.FE](VM.Models.Pre.FE.md)  
 Assembly: VM.Models.Pre.FE.dll  
@@ -9,9 +10,9 @@ public class AttributeMbyNContact : AttributeBase, IObservableObject, IDisposabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 [AttributeMbyNContact](VM.Models.Pre.FE.AttributeMbyNContact.md)
@@ -76,7 +77,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -113,5 +114,5 @@ public IList<AttributeMbyNContactData> AttributeMbyNContactData { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[AttributeMbyNContactData](VM.Models.Pre.FE.AttributeMbyNContactData.md)\>
+ IList<[AttributeMbyNContactData](VM.Models.Pre.FE.AttributeMbyNContactData.md)\>
 

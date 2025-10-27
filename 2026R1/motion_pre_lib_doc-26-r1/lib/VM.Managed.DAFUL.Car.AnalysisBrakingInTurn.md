@@ -1,4 +1,5 @@
-#  Class AnalysisBrakingInTurn
+# Class AnalysisBrakingInTurn
+<a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisBrakingInTurn : CorneringBase, IHasInitialVel, IHasLengthUn
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [CorneringBase](VM.Managed.DAFUL.Car.CorneringBase.md) ← 
@@ -85,7 +86,7 @@ public double BrakeDeceler { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_InitialVelocityCornering"></a> InitialVelocityCornering
 
@@ -97,7 +98,7 @@ public override double InitialVelocityCornering { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_LateralAcc"></a> LateralAcc
 
@@ -109,7 +110,7 @@ public double LateralAcc { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_MaxBrakeDuration"></a> MaxBrakeDuration
 
@@ -121,7 +122,7 @@ public double MaxBrakeDuration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_SteeringInputType"></a> SteeringInputType
 
@@ -145,7 +146,7 @@ public override int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_TurnRadius"></a> TurnRadius
 
@@ -157,7 +158,7 @@ public double TurnRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_UnitOfLength"></a> UnitOfLength
 
@@ -183,7 +184,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

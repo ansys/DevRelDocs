@@ -1,4 +1,5 @@
-#  Class GetRelationInfoEventArgs
+# Class GetRelationInfoEventArgs
+<a id="VM_Managed_GetRelationInfoEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public sealed class GetRelationInfoEventArgs : LinkEventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [LinkEventArgs](VM.Managed.LinkEventArgs.md) ← 
 [GetRelationInfoEventArgs](VM.Managed.GetRelationInfoEventArgs.md)
 
@@ -57,7 +58,7 @@ public List<ObjectBase> RelationList { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_GetRelationInfoEventArgs_SubEntityList"></a> SubEntityList
 
@@ -69,7 +70,7 @@ public List<ObjectBase> SubEntityList { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ## Methods
 

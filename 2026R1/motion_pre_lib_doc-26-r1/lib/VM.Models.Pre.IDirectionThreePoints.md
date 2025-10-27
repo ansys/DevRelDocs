@@ -1,4 +1,5 @@
-#  Interface IDirectionThreePoints
+# Interface IDirectionThreePoints
+<a id="VM_Models_Pre_IDirectionThreePoints"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

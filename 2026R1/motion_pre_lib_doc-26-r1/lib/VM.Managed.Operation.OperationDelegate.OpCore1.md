@@ -1,4 +1,5 @@
-#  Delegate OperationDelegate.OpCore1
+# Delegate OperationDelegate.OpCore1
+<a id="VM_Managed_Operation_OperationDelegate_OpCore1"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public delegate void OperationDelegate.OpCore1(object obParam)
 
 #### Parameters
 
-`obParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obParam` object
 
 The operation parameter.
 

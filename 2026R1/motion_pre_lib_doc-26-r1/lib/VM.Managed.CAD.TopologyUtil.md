@@ -1,4 +1,5 @@
-#  Class TopologyUtil
+# Class TopologyUtil
+<a id="VM_Managed_CAD_TopologyUtil"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -9,7 +10,7 @@ public class TopologyUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TopologyUtil](VM.Managed.CAD.TopologyUtil.md)
 
 #### Extension Methods
@@ -38,11 +39,11 @@ public static IBody.enToplogyType GetTopologyType(Body body, UIntPtr ptrEntityKe
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-`ptrEntityKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`ptrEntityKey` UIntPtr
 
 #### Returns
 
- [IBody](VM.CAD.IBody.md).[enToplogyType](VM.CAD.IBody.enToplogyType.md)
+ IBody.enToplogyType
 
 ### <a id="VM_Managed_CAD_TopologyUtil_GetVMPID_VM_Managed_CAD_Body_System_UIntPtr_"></a> GetVMPID\(Body, UIntPtr\)
 
@@ -54,9 +55,9 @@ public static int GetVMPID(Body body, UIntPtr ptrEntityKey)
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-`ptrEntityKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`ptrEntityKey` UIntPtr
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

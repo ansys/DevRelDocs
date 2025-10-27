@@ -1,4 +1,5 @@
-#  Class OpenToeCamberDialog.ApplyOperation
+# Class OpenToeCamberDialog.ApplyOperation
+<a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class OpenToeCamberDialog.ApplyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OpenToeCamberDialog.ApplyOperation](VM.Managed.DAFUL.Car.Operation.OpenToeCamberDialog.ApplyOperation.md)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation_Result"></a> Result
 
@@ -121,7 +122,7 @@ public bool Result { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -141,5 +142,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

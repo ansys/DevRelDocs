@@ -1,4 +1,5 @@
-#  Class AnalysisFourPostRideInfo
+# Class AnalysisFourPostRideInfo
+<a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisFourPostRideInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisFourPostRideInfo](VM.Managed.DAFUL.Car.AnalysisFourPostRideInfo.md)
 
 #### Extension Methods
@@ -104,7 +105,7 @@ public double AmplitudeValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_BasisForNumOfOutputSteps"></a> BasisForNumOfOutputSteps
 
@@ -128,7 +129,7 @@ public double Calculated_TimeLag { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Calculated_Wheelbase"></a> Calculated\_Wheelbase
 
@@ -140,7 +141,7 @@ public double Calculated_Wheelbase { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_DispUnit"></a> DispUnit
 
@@ -164,7 +165,7 @@ public double End_Frequency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Excitation_Mode"></a> Excitation\_Mode
 
@@ -224,7 +225,7 @@ public string LFront { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_LRear"></a> LRear
 
@@ -236,7 +237,7 @@ public string LRear { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_MinNo_OutputStepsPerInput"></a> MinNo\_OutputStepsPerInput
 
@@ -248,7 +249,7 @@ public double MinNo_OutputStepsPerInput { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_NumOfOutputsSteps"></a> NumOfOutputsSteps
 
@@ -260,7 +261,7 @@ public double NumOfOutputsSteps { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Output_Frequency"></a> Output\_Frequency
 
@@ -272,7 +273,7 @@ public double Output_Frequency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Output_Interval"></a> Output\_Interval
 
@@ -284,7 +285,7 @@ public double Output_Interval { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_RFront"></a> RFront
 
@@ -296,7 +297,7 @@ public string RFront { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_RRear"></a> RRear
 
@@ -308,7 +309,7 @@ public string RRear { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Spline_File"></a> Spline\_File
 
@@ -320,7 +321,7 @@ public string Spline_File { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Start_Frequency"></a> Start\_Frequency
 
@@ -332,7 +333,7 @@ public double Start_Frequency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_TargetValue_Basis"></a> TargetValue\_Basis
 
@@ -344,7 +345,7 @@ public double TargetValue_Basis { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Vechile_Speed"></a> Vechile\_Speed
 
@@ -356,7 +357,7 @@ public double Vechile_Speed { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_VelUnit"></a> VelUnit
 

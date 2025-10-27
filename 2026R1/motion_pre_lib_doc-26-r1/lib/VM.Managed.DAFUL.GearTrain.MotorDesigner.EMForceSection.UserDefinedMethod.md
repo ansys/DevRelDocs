@@ -1,4 +1,5 @@
-#  Class MotorDesigner.EMForceSection.UserDefinedMethod
+# Class MotorDesigner.EMForceSection.UserDefinedMethod
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class MotorDesigner.EMForceSection.UserDefinedMethod : MotorDesigner.EMFo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MotorDesigner.EMForceSection.MethodBase](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.MethodBase.md) ← 
 [MotorDesigner.EMForceSection.UserDefinedMethod](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.UserDefinedMethod.md)
@@ -81,7 +82,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -134,7 +135,7 @@ public ExpressionValueVariable NumberOfMagnetPole { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_NumberOfPhase"></a> NumberOfPhase
 
@@ -146,7 +147,7 @@ public ExpressionValueVariable NumberOfPhase { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_RotorVectorSet"></a> RotorVectorSet
 
@@ -182,7 +183,7 @@ public Spline TNCurveSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_TNCurveValue"></a> TNCurveValue
 
@@ -194,7 +195,7 @@ public SplineValue TNCurveValue { get; set; }
 
 #### Property Value
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
 
@@ -220,13 +221,13 @@ protected override bool CanBeDestroy(object objNotifier)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The destroy object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -252,7 +253,7 @@ protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs 
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 

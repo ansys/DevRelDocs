@@ -1,9 +1,10 @@
-#  Class ObservableKeyedCollection<TKey, TItem\>
+# Class ObservableKeyedCollection<TKey, TItem\>
+<a id="VM_Collections_ObservableKeyedCollection_2"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class ObservableKeyedCollection<TKey, TItem> : ObservableKeyedCollectionBase<TKey, TItem>
 ```
 
@@ -15,9 +16,9 @@ public class ObservableKeyedCollection<TKey, TItem> : ObservableKeyedCollectionB
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Collection<TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ← 
-[KeyedCollection<TKey, TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.keyedcollection\-2) ← 
+object ← 
+Collection<TItem\> ← 
+KeyedCollection<TKey, TItem\> ← 
 [ObservableKeyedCollectionBase<TKey, TItem\>](VM.Collections.ObservableKeyedCollectionBase\-2.md) ← 
 [ObservableKeyedCollection<TKey, TItem\>](VM.Collections.ObservableKeyedCollection\-2.md)
 
@@ -38,19 +39,19 @@ public class ObservableKeyedCollection<TKey, TItem> : ObservableKeyedCollectionB
 
 ### <a id="VM_Collections_ObservableKeyedCollection_2__ctor_System_Func__1__0__"></a> ObservableKeyedCollection\(Func<TItem, TKey\>\)
 
-```python
+```csharp
 public ObservableKeyedCollection(Func<TItem, TKey> getKeyForItem)
 ```
 
 #### Parameters
 
-`getKeyForItem` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<TItem, TKey\>
+`getKeyForItem` Func<TItem, TKey\>
 
 ## Methods
 
 ### <a id="VM_Collections_ObservableKeyedCollection_2_GetKeyForItem__1_"></a> GetKeyForItem\(TItem\)
 
-```python
+```csharp
 protected override TKey GetKeyForItem(TItem item)
 ```
 
@@ -61,5 +62,4 @@ protected override TKey GetKeyForItem(TItem item)
 #### Returns
 
  TKey
-
 

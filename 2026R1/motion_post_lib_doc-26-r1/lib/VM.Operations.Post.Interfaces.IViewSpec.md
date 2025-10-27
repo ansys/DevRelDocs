@@ -1,24 +1,28 @@
-#  Interface IViewSpec
+# Interface IViewSpec
+<a id="VM_Operations_Post_Interfaces_IViewSpec"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents a specification for a view in a 3D space, providing properties to control the camera's position, target, and orientation.
 
-```python
+```csharp
 public interface IViewSpec
 ```
 
 ## Examples
 
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IViewSpec.py
+```python
+# IViewSpec.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -32,9 +36,12 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -55,14 +62,15 @@ if viewCount > 0 :
     viewSpec.UpVector = Vector(1, 0, 0)
     animationview.SetViewSpec(viewSpec)
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -70,7 +78,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the position of the camera in a 3D space.
 
-```python
+```csharp
 Vector Eye { get; set; }
 ```
 
@@ -91,7 +99,7 @@ This property is essential for controlling the viewpoint from which the 3D scene
 
 Gets or sets the position of the target that the camera is looking at.
 
-```python
+```csharp
 Vector Target { get; set; }
 ```
 
@@ -102,7 +110,8 @@ Vector Target { get; set; }
 #### Examples
 
 The following example demonstrates how to use the <code>Target</code> property:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IViewSpec](VM.Operations.Post.Interfaces.IViewSpec.md).</code></pre>
+```python
+For an example that includes this property, see the [Interface IViewSpec](VM.Operations.Post.Interfaces.IViewSpec.md).```
 
 #### Remarks
 
@@ -113,7 +122,7 @@ This property is essential for defining the direction the camera is pointed towa
 
 Gets or sets the up direction vector of the camera in a 3D space.
 
-```python
+```csharp
 Vector UpVector { get; set; }
 ```
 
@@ -129,5 +138,4 @@ For an example that includes this property, see the [Interface IViewSpec](VM.Ope
 
 The <xref href="VM.Operations.Post.Interfaces.IViewSpec.UpVector" data-throw-if-not-resolved="false"></xref> property allows you to get or set the up direction vector of the camera in a 3D space.
 This vector determines whether the camera's direction is standard (upright) or inverted.
-
 

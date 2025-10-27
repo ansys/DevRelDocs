@@ -1,4 +1,5 @@
-#  Enum SuspensionAnalysisType
+# Enum SuspensionAnalysisType
+<a id="VM_Managed_DAFUL_Car_SuspensionAnalysisType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

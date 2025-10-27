@@ -1,4 +1,5 @@
-#  Class LinkBehaviorArgument
+# Class LinkBehaviorArgument
+<a id="VM_Models_Pre_LinkBehaviorArgument"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -10,8 +11,8 @@ public class LinkBehaviorArgument : Attribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [LinkBehaviorArgument](VM.Models.Pre.LinkBehaviorArgument.md)
 
 #### Extension Methods

@@ -1,4 +1,5 @@
-#  Class GroupItem
+# Class GroupItem
+<a id="VM_Managed_DAFUL_Pre_GroupItem"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class GroupItem
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GroupItem](VM.Managed.DAFUL.Pre.GroupItem.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public string Extension { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_GroupItem_Name"></a> Name
 
@@ -54,7 +55,7 @@ public string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_GroupItem_RelativePath"></a> RelativePath
 
@@ -66,7 +67,7 @@ public string RelativePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -80,13 +81,13 @@ public string GetFullPath(string strRefDir)
 
 #### Parameters
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The full path.
 

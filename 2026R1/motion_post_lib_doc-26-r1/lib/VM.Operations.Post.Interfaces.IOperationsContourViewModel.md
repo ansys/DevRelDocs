@@ -1,11 +1,12 @@
-#  Interface IOperationsContourViewModel
+# Interface IOperationsContourViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Interface representing information for the contour view model.
 
-```python
+```csharp
 public interface IOperationsContourViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsContourViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsContourViewModel.py
+```python
+# IOperationsContourViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,9 +37,12 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -46,8 +53,14 @@ for page in pages :
         if animationView.DocumentFilePath == result_file_path and animationView.AnalysisResultType == AnalysisResultType.Dynamics :
             findViews.append(animationView)
 
-
+# result_file_path - Get the document from the result file path.
 document = applicationHandler.GetDocument(result_file_path)
+
+# This retrieves the analysis result from the document.
+# Types of Analysis Results
+# - Dynamics
+# - Eigenvalue
+# - Statics
 dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 dynamic_analysis.SetAnimationFrame(10)
 
@@ -55,7 +68,23 @@ dynamic_analysis.SetAnimationFrame(10)
 targetentities = dynamic_analysis.GetContourables(ContourMappingType.FENode)
 
 # Create Contour
+# targetentities - Set the entity as the target for export
+# Set Contour Mapping Type
+# ContourMappingType can be one of the following:
+# - ContourMappingType.None - None
+# - ContourMappingType.FENode - Node (Averaged across body)
+# - ContourMappingType.FEElement - Element (Unaveraged)
+# - ContourMappingType.FEElementNode - Node (Unaveraged)
+# - ContourMappingType.FEMaterial - Node (Averaged within material)
+# - ContourMappingType.BeamGroup - Beam Group
+# - ContourMappingType.Contact - Contact
+# - ContourMappingType.ChainedSystem - Chained System
+# - ContourMappingType.Usersubroutine - Usersubroutine
+# characteristic_path - The path to the characteristic for which the contour will be created.
+# component_path - The path to the component for which the contour will be created.
 contour = dynamic_analysis.CreateContour(targetentities, ContourMappingType.FENode, "Displacement", "X")
+
+# Set properties for the contour
 contour.LegendColorScheme = ColorSchemeType.BLACK_TO_WHITE
 contour.AutoRange = False
 if contour.AutoRange == False:
@@ -71,14 +100,15 @@ contour.FullName = "FEBody_01_Contour_Z"
 contour.MinMaxTargetType = ExtremalValueType.Part
 contour.IsEnabled = False
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -86,13 +116,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets a value indicating whether the maximum and minimum range values are set automatically.
 
-```python
+```csharp
 bool AutoRange { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -106,13 +136,13 @@ Use this property to specify or retrieve whether the maximum and minimum values 
 
 Gets or sets the contour component.
 
-```python
+```csharp
 string Component { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -126,13 +156,13 @@ Use this property to specify or retrieve the contour component. The available co
 
 Gets the list of available components.
 
-```python
+```csharp
 IEnumerable<string> ComponentList { get; }
 ```
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 
 #### Examples
 
@@ -146,13 +176,13 @@ Use this property to retrieve the list of available components.
 
 Gets or sets a value indicating whether to allow gradation between colors.
 
-```python
+```csharp
 bool Continuous { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -166,13 +196,13 @@ Use this property to specify or retrieve whether color gradation is allowed.
 
 Gets or sets the full name of the contour.
 
-```python
+```csharp
 string FullName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -186,13 +216,13 @@ Use this property to specify or retrieve the full name of the contour.
 
 Gets or sets a value indicating whether the contour is enabled.
 
-```python
+```csharp
 bool IsEnabled { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -206,7 +236,7 @@ Use this property to specify or retrieve whether the contour is enabled.
 
 Gets or sets the color scheme of the legend.
 
-```python
+```csharp
 ColorSchemeType LegendColorScheme { get; set; }
 ```
 
@@ -232,13 +262,13 @@ This property allows you to set the color scheme of the legend. The available co
 
 Gets or sets the font color of the contour legend.
 
-```python
+```csharp
 Color LegendFontColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -252,13 +282,13 @@ Use this property to specify or retrieve the font color of the contour legend.
 
 Gets or sets a value indicating whether the legend is visible.
 
-```python
+```csharp
 bool LegendVisibility { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -272,13 +302,13 @@ Use this property to specify or retrieve whether the legend is displayed or hidd
 
 Gets or sets a value indicating whether to scale the values using a logarithmic function.
 
-```python
+```csharp
 bool LogScale { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -292,13 +322,13 @@ Use this property to specify or retrieve whether the values are scaled using a l
 
 Gets or sets the maximum value of the contour.
 
-```python
+```csharp
 double Max { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -312,13 +342,13 @@ Use this property to specify or retrieve the maximum value of the contour when t
 
 Gets or sets the minimum value of the contour.
 
-```python
+```csharp
 double Min { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -332,7 +362,7 @@ Use this property to specify or retrieve the minimum value of the contour when t
 
 Gets or sets the type of extremal values to be displayed.
 
-```python
+```csharp
 ExtremalValueType MinMaxTargetType { get; set; }
 ```
 
@@ -350,5 +380,4 @@ This property allows you to change the visible state of extremes by selecting on
 In the UI, this is represented as "Visible" in the "Min/Max Value" category.
 The available options are:
 <ul><li><xref href="VM.Models.Post.ExtremalValueType.None" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ExtremalValueType.Part" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ExtremalValueType.Whole" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ExtremalValueType.FEProperty" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ExtremalValueType.ElementSet" data-throw-if-not-resolved="false"></xref></li></ul>
-
 

@@ -1,4 +1,5 @@
-#  Class MultiBodyCalculation
+# Class MultiBodyCalculation
+<a id="VM_Managed_DAFUL_MultiBodyCalculation"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public class MultiBodyCalculation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MultiBodyCalculation](VM.Managed.DAFUL.MultiBodyCalculation.md)
 
 #### Extension Methods
@@ -40,27 +41,27 @@ public static bool GetTotalMassInertia(List<VectorBase> lstGlobalCMPos, List<OMa
 
 #### Parameters
 
-`lstGlobalCMPos` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+`lstGlobalCMPos` List<VectorBase\>
 
 The global CM pos.
 
-`lstGlobalTensor` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstGlobalTensor` List<OMatrix\>
 
 The global tensor.
 
-`lstGlobalMass` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstGlobalMass` List<double\>
 
 The global mass.
 
-`lstSrcUnit` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Unit\>
+`lstSrcUnit` List<Unit\>
 
 The unit of source document.
 
-`lstDstUnit` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Unit\>
+`lstDstUnit` List<Unit\>
 
 The unit of current document.
 
-`nNumberOfBody` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumberOfBody` int
 
 The number of body.
 
@@ -74,7 +75,7 @@ The body info.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MultiBodyCalculation_GetTotalMassInertia_System_Collections_Generic_List_VM_Managed_VectorBase__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_System_Double__System_Int32_VM_Managed_VectorBase_VM_Managed_DAFUL_MultiBodyCalculation_BodyInf__"></a> GetTotalMassInertia\(List<VectorBase\>, List<OMatrix\>, List<double\>, int, VectorBase, ref BodyInf\)
 
@@ -86,19 +87,19 @@ public static bool GetTotalMassInertia(List<VectorBase> lstGlobalCMPos, List<OMa
 
 #### Parameters
 
-`lstGlobalCMPos` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+`lstGlobalCMPos` List<VectorBase\>
 
 The global CM pos.
 
-`lstGlobalTensor` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstGlobalTensor` List<OMatrix\>
 
 The global tensor.
 
-`lstGlobalMass` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstGlobalMass` List<double\>
 
 The global mass.
 
-`nNumberOfBody` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumberOfBody` int
 
 The number of body.
 
@@ -112,5 +113,27 @@ The body info.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
+
+### <a id="VM_Managed_DAFUL_MultiBodyCalculation_GetTotalMassInertiaForAseembledBody_System_Collections_Generic_List_VM_Managed_VectorBase__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_System_Double__System_Int32_VM_Managed_DAFUL_MultiBodyCalculation_BodyInf__"></a> GetTotalMassInertiaForAseembledBody\(List<VectorBase\>, List<OMatrix\>, List<double\>, int, ref BodyInf\)
+
+```csharp
+public static bool GetTotalMassInertiaForAseembledBody(List<VectorBase> lstGlobalCMPos, List<OMatrix> lstGlobalTensor, List<double> lstGlobalMass, int nNumberOfBody, ref MultiBodyCalculation.BodyInf bodyInf)
+```
+
+#### Parameters
+
+`lstGlobalCMPos` List<VectorBase\>
+
+`lstGlobalTensor` List<OMatrix\>
+
+`lstGlobalMass` List<double\>
+
+`nNumberOfBody` int
+
+`bodyInf` [MultiBodyCalculation](VM.Managed.DAFUL.MultiBodyCalculation.md).[BodyInf](VM.Managed.DAFUL.MultiBodyCalculation.BodyInf.md)
+
+#### Returns
+
+ bool
 

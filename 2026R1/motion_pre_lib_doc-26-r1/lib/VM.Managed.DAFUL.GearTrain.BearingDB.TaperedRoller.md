@@ -1,4 +1,5 @@
-#  Class TaperedRoller
+# Class TaperedRoller
+<a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class TaperedRoller : DBRecordForBearing
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Record ← 
-DBRecord ← 
+object ← 
+[Record](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
+[DBRecord](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
 [DBRecordForBearing](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md) ← 
 [TaperedRoller](VM.Managed.DAFUL.GearTrain.BearingDB.TaperedRoller.md)
 
@@ -26,7 +27,7 @@ DBRecord ←
 [DBRecordForBearing.Bore](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Bore), 
 [DBRecordForBearing.OutDia](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_OutDia), 
 [DBRecordForBearing.Width](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Width), 
-Record.RecordNo
+[Record.RecordNo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs)
 
 #### Extension Methods
 
@@ -55,7 +56,7 @@ public double? ActionP
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Alpha"></a> Alpha
 
@@ -68,7 +69,7 @@ public double? Alpha
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Beta"></a> Beta
 
@@ -81,7 +82,7 @@ public double? Beta
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_C0r"></a> C0r
 
@@ -94,7 +95,7 @@ public double? C0r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_ConeW"></a> ConeW
 
@@ -107,7 +108,7 @@ public double? ConeW
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Cr"></a> Cr
 
@@ -120,7 +121,7 @@ public double? Cr
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_CupW"></a> CupW
 
@@ -133,7 +134,7 @@ public double? CupW
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Mass"></a> Mass
 
@@ -146,7 +147,7 @@ public double? Mass
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolCP"></a> RolCP
 
@@ -159,7 +160,7 @@ public double? RolCP
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolDia"></a> RolDia
 
@@ -172,7 +173,7 @@ public double? RolDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolLen"></a> RolLen
 
@@ -185,7 +186,7 @@ public double? RolLen
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolPR"></a> RolPR
 
@@ -198,7 +199,7 @@ public double? RolPR
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RoundR1"></a> RoundR1
 
@@ -211,7 +212,7 @@ public double? RoundR1
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RoundR2"></a> RoundR2
 
@@ -224,7 +225,7 @@ public double? RoundR2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Y"></a> Y
 
@@ -237,7 +238,7 @@ public double? Y
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Y0"></a> Y0
 
@@ -250,7 +251,7 @@ public double? Y0
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_d1"></a> d1
 
@@ -263,7 +264,7 @@ public double? d1
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_e"></a> e
 
@@ -276,7 +277,7 @@ public double? e
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_nRoller"></a> nRoller
 
@@ -289,7 +290,7 @@ public int? nRoller
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ## Methods
 
@@ -345,15 +346,15 @@ public void UnitConvert(ref TaperedRoller br, double dLengthFactor, double dForc
 
 The target bearing.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
-`dForceFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dForceFactor` double
 
 The force factor.
 
-`dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMassFactor` double
 
 The mass factor.
 

@@ -1,4 +1,5 @@
-#  Class DesignVariableAPI
+# Class DesignVariableAPI
+<a id="VM_API_Pre_DesignVariableAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class DesignVariableAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DesignVariableAPI](VM.API.Pre.DesignVariableAPI.md)
 
 #### Extension Methods
@@ -37,11 +38,11 @@ public static Obj CreateDesignVariable(this IDocument document, string name, Exp
 
 The document to create the design variable.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the design variable.
 
-`value` ExpressionValueVariable
+`value` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The value to create the design variable.
 
@@ -57,7 +58,7 @@ The new <xref href="VM.Managed.DesignVariable" data-throw-if-not-resolved="false
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'value' argument is null.
 

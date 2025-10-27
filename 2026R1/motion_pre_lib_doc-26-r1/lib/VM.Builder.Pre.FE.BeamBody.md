@@ -1,4 +1,5 @@
-#  Class BeamBody
+# Class BeamBody
+<a id="VM_Builder_Pre_FE_BeamBody"></a>
 
 Namespace: [VM.Builder.Pre.FE](VM.Builder.Pre.FE.md)  
 Assembly: VM.Builder.Pre.FE.dll  
@@ -9,7 +10,7 @@ public class BeamBody : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BeamBody](VM.Builder.Pre.FE.BeamBody.md)
 
 #### Implements
@@ -50,7 +51,7 @@ public string MeshFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Builder_Pre_FE_BeamBody_Name"></a> Name
 
@@ -60,7 +61,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Builder_Pre_FE_BeamBody_NoOfBeamNodes"></a> NoOfBeamNodes
 
@@ -70,7 +71,7 @@ public int NoOfBeamNodes { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Builder_Pre_FE_BeamBody_NoOfCircularNodes"></a> NoOfCircularNodes
 
@@ -80,7 +81,7 @@ public int NoOfCircularNodes { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Builder_Pre_FE_BeamBody_NodalBody"></a> NodalBody
 
@@ -100,7 +101,7 @@ public PickedResult[] Parameters { get; set; }
 
 #### Property Value
 
- PickedResult\[\]
+ [PickedResult](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/PickedResult.cs)\[\]
 
 ### <a id="VM_Builder_Pre_FE_BeamBody_Radius"></a> Radius
 
@@ -110,7 +111,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Builder_Pre_FE_BeamBody_StartPoint"></a> StartPoint
 

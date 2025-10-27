@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Collections
+# Namespace VM.Managed.Collections
+<a id="VM_Managed_Collections"></a>
 
 ### Classes
 

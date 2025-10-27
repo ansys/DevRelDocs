@@ -1,4 +1,5 @@
-#  Delegate OnApplyOperation.OnApplyCallback
+# Delegate OnApplyOperation.OnApplyCallback
+<a id="VM_Managed_OnApplyOperation_OnApplyCallback"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public delegate bool OnApplyOperation.OnApplyCallback()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

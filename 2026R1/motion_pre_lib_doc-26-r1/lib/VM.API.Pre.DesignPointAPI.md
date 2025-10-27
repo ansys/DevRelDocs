@@ -1,4 +1,5 @@
-#  Class DesignPointAPI
+# Class DesignPointAPI
+<a id="VM_API_Pre_DesignPointAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class DesignPointAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DesignPointAPI](VM.API.Pre.DesignPointAPI.md)
 
 #### Extension Methods
@@ -37,7 +38,7 @@ public static Obj CreateDesignPoint(this IDocument document, string name, Vector
 
 The document to create the design point.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the design point.
 
@@ -57,7 +58,7 @@ The new <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"><
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'position' argument is null.
 
@@ -76,7 +77,7 @@ public static Obj CreateDesignPoint(this IDocument document, string name, PointB
 
 The document to create the design point.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the design point.
 
@@ -96,7 +97,7 @@ The new <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"><
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'position' argument is null.
 

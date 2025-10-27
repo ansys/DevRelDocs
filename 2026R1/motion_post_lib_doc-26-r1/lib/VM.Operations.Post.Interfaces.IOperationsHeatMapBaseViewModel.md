@@ -1,11 +1,12 @@
-#  Interface IOperationsHeatMapBaseViewModel
+# Interface IOperationsHeatMapBaseViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Base interface for managing operations related to the STFT (Short-Time Fourier Transform) view.
 
-```python
+```csharp
 public interface IOperationsHeatMapBaseViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsHeatMapBaseViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsHeatMapBaseViewModel.py
+```python
+# IOperationsHeatMapBaseViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,19 +37,28 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set array about combination of characteristic and component
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -109,7 +122,7 @@ page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -117,13 +130,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets a value indicating whether the Min and Max values of the legend are set automatically.
 
-```python
+```csharp
 bool IsAutoRange { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -139,13 +152,13 @@ In the UI, this property is represented under the "Legend" category with the pro
 
 Gets or sets the font color of the legend.
 
-```python
+```csharp
 Color LegendFontColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -160,13 +173,13 @@ In the UI, this property is represented under the "Legend" category with the pro
 
 Gets or sets the font size of the legend.
 
-```python
+```csharp
 double LegendFontSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -181,13 +194,13 @@ In the UI, this property is represented under the "Legend" category with the pro
 
 Gets or sets the maximum value of the legend.
 
-```python
+```csharp
 double Max { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -203,13 +216,13 @@ In the UI, this property is represented under the "Legend" category with the pro
 
 Gets or sets the minimum value of the legend.
 
-```python
+```csharp
 double Min { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -227,13 +240,13 @@ In the UI, this property is represented under the "Legend" category with the pro
 
 Exports all curves contained in the chart to the specified file path without displaying a file save dialog.
 
-```python
+```csharp
 void ExportAllCurves(string filepath)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The file path where the curves will be saved.
 
@@ -252,7 +265,7 @@ requiring automation.
 
 Exports all data series included in the chart.
 
-```python
+```csharp
 void ExportAllDataSeries()
 ```
 
@@ -266,5 +279,4 @@ This method exports all curves contained in the chart. When used via the Operati
 on the screen to specify the file save location. Therefore, it is not recommended for repetitive tasks or 
 scenarios requiring automation. Instead, it is recommended to use the <xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportAllCurves(System.String)" data-throw-if-not-resolved="false"></xref> method, 
 which does not display a file save dialog.
-
 

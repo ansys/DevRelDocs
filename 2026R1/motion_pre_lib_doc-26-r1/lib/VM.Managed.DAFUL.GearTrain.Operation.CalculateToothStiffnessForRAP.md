@@ -1,4 +1,5 @@
-#  Class CalculateToothStiffnessForRAP
+# Class CalculateToothStiffnessForRAP
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForRAP"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class CalculateToothStiffnessForRAP : CalculateToothStiffness, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculateToothStiffness](VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness.md) ← 
 [CalculateToothStiffnessForRAP](VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffnessForRAP.md)
@@ -108,15 +109,15 @@ public CalculateToothStiffnessForRAP(string strDocInfo, string strDatFile, doubl
 
 #### Parameters
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDatFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDatFile` string
 
 the string dat file.
 
-`dEndPosY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndPosY` double
 
 The d end position y.
 
@@ -124,15 +125,15 @@ The d end position y.
 
 The ar teeth position.
 
-`nNumberOfMarker` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfMarker` uint
 
 The n number of marker.
 
-`nGearIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nGearIdx` int
 
 Index of the n gear.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 
@@ -150,15 +151,15 @@ public CalculateToothStiffnessForRAP(Document3D doc, string strDocInfo, string s
 
 The document.
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDatFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDatFile` string
 
 the string dat file.
 
-`dEndPosY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndPosY` double
 
 The d end position y.
 
@@ -166,15 +167,15 @@ The d end position y.
 
 The ar teeth position.
 
-`nNumberOfMarker` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfMarker` uint
 
 The n number of marker.
 
-`nGearIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nGearIdx` int
 
 Index of the n gear.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 
@@ -208,11 +209,11 @@ protected override bool CreateSetNode(MeshDocument docMesh, string strName)
 
 The doc.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

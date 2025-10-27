@@ -1,4 +1,5 @@
-#  Class ApplyProperty
+# Class ApplyProperty
+<a id="VM_Managed_DAFUL_Operation_ApplyProperty"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ApplyProperty : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyProperty](VM.Managed.DAFUL.Operation.ApplyProperty.md)
 
@@ -85,7 +86,7 @@ public ApplyProperty(string xmlString, Document doc)
 
 #### Parameters
 
-`xmlString` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`xmlString` string
 
 `doc` Document
 
@@ -97,17 +98,17 @@ public ApplyProperty(string xmlString, Document doc, TabControl pzTabBase, XmlDo
 
 #### Parameters
 
-`xmlString` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`xmlString` string
 
 `doc` Document
 
-`pzTabBase` [TabControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.tabcontrol)
+`pzTabBase` TabControl
 
-`Result` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`Result` XmlDocument
 
-`bCheckSym` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCheckSym` bool
 
-`bMulti` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bMulti` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ApplyProperty__ctor_System_String_VM_Managed_Document_System_Windows_Forms_TabControl_System_Xml_XmlDocument_System_Boolean_System_Boolean_System_String_System_String_System_Boolean_"></a> ApplyProperty\(string, Document, TabControl, XmlDocument, bool, bool, string, string, bool\)
 
@@ -117,23 +118,23 @@ public ApplyProperty(string xmlString, Document doc, TabControl pzTabBase, XmlDo
 
 #### Parameters
 
-`xmlString` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`xmlString` string
 
 `doc` Document
 
-`pzTabBase` [TabControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.tabcontrol)
+`pzTabBase` TabControl
 
-`Result` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`Result` XmlDocument
 
-`bCheckSym` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCheckSym` bool
 
-`bMulti` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bMulti` bool
 
-`strOppName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOppName` string
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
-`bModified` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModified` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ApplyProperty__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyProperty\(JournalParameter\)
 
@@ -155,7 +156,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ApplyProperty_Name"></a> Name
 
@@ -167,7 +168,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -187,7 +188,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_Operation_ApplyProperty_ReloadData"></a> ReloadData\(\)
 

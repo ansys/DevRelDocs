@@ -1,4 +1,5 @@
-#  Enum InterpolationType
+# Enum InterpolationType
+<a id="VM_Managed_DAFUL_InterpolationType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

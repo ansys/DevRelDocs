@@ -1,4 +1,5 @@
-#  Interface IGearBuilder
+# Interface IGearBuilder
+<a id="VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -31,7 +32,7 @@ double MateAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder_Position"></a> Position
 

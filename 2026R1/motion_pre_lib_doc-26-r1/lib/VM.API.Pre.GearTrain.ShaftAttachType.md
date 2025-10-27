@@ -1,4 +1,5 @@
-#  Enum ShaftAttachType
+# Enum ShaftAttachType
+<a id="VM_API_Pre_GearTrain_ShaftAttachType"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  

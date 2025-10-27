@@ -1,4 +1,5 @@
-#  Class IFilePropertyImpl
+# Class IFilePropertyImpl
+<a id="VM_Managed_IFilePropertyImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public sealed class IFilePropertyImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IFilePropertyImpl](VM.Managed.IFilePropertyImpl.md)
 
 #### Extension Methods
@@ -46,7 +47,7 @@ The property.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The absulute path
 
@@ -112,13 +113,13 @@ public static string GetRelativePath<T>(T TProp, string strRefDir) where T : Pro
 
 The property.
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The relative path
 

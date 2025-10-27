@@ -1,4 +1,5 @@
-#  Class StreamFooter
+# Class StreamFooter
+<a id="VM_Managed_StreamFooter"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class StreamFooter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [StreamFooter](VM.Managed.StreamFooter.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public string GetComment()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_StreamFooter_GetPointerSize"></a> GetPointerSize\(\)
 
@@ -54,7 +55,7 @@ public long GetPointerSize()
 
 #### Returns
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Managed_StreamFooter_GetStreamHead"></a> GetStreamHead\(\)
 
@@ -66,7 +67,7 @@ public long GetStreamHead()
 
 #### Returns
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Managed_StreamFooter_GetVersionInfo"></a> GetVersionInfo\(\)
 
@@ -78,7 +79,7 @@ public string GetVersionInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_StreamFooter_GetVersionInfoSignature"></a> GetVersionInfoSignature\(\)
 
@@ -90,7 +91,7 @@ public static long GetVersionInfoSignature()
 
 #### Returns
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Managed_StreamFooter_GetVersionInfoSize"></a> GetVersionInfoSize\(\)
 
@@ -102,7 +103,7 @@ public static long GetVersionInfoSize()
 
 #### Returns
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Managed_StreamFooter_Read_System_IO_Stream_"></a> Read\(Stream\)
 
@@ -114,7 +115,7 @@ public void Read(Stream stream)
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
@@ -128,15 +129,15 @@ public static void Write_V1(Stream stream, long posStreamHead, long sizePointer)
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
@@ -150,19 +151,19 @@ public static void Write_V2(Stream stream, long posStreamHead, long sizePointer,
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 
@@ -176,19 +177,19 @@ public static void Write_V3(Stream stream, long posStreamHead, long sizePointer,
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 
@@ -202,23 +203,23 @@ protected static void Write_V3Impl(Stream stream, long posStreamHead, long sizeP
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 
-`nVersion` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`nVersion` long
 
 The footer version.
 
@@ -232,19 +233,19 @@ public static void Write_V4(Stream stream, long posStreamHead, long sizePointer,
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 
@@ -258,19 +259,19 @@ public static void Write_V5(Stream stream, long posStreamHead, long sizePointer,
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 
@@ -284,19 +285,19 @@ public static void Write_V6(Stream stream, long posStreamHead, long sizePointer,
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 
@@ -310,19 +311,19 @@ public static void Write_V7(Stream stream, long posStreamHead, long sizePointer,
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
-`posStreamHead` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`posStreamHead` long
 
 The position stream head.
 
-`sizePointer` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`sizePointer` long
 
 The size pointer.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 

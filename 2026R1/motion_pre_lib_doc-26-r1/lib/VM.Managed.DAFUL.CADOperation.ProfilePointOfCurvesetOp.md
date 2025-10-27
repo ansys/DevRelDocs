@@ -1,4 +1,5 @@
-#  Class CADOperation.ProfilePointOfCurvesetOp
+# Class CADOperation.ProfilePointOfCurvesetOp
+<a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation.ProfilePointOfCurvesetOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADOperation.ProfilePointOfCurvesetOp](VM.Managed.DAFUL.CADOperation.ProfilePointOfCurvesetOp.md)
 
@@ -111,7 +112,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp_Name"></a> Name
 
@@ -123,7 +124,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -145,17 +146,17 @@ public int GetProfileResult(ref bool bCloseLoop, ref List<VectorBase> lst)
 
 #### Parameters
 
-`bCloseLoop` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCloseLoop` bool
 
 true if closed loop, otherwise false.
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+`lst` List<VectorBase\>
 
 The list of points
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The number of profiles
 

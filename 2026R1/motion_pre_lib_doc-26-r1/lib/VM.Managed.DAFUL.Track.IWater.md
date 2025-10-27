@@ -1,4 +1,5 @@
-#  Interface IWater
+# Interface IWater
+<a id="VM_Managed_DAFUL_Track_IWater"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -27,7 +28,7 @@ double Density { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_IWater_ReferenceFrame"></a> ReferenceFrame
 
@@ -39,7 +40,7 @@ Marker ReferenceFrame { get; }
 
 #### Property Value
 
- Marker
+ [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 ### <a id="VM_Managed_DAFUL_Track_IWater_WaterContainerBody"></a> WaterContainerBody
 

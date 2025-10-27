@@ -1,4 +1,5 @@
-#  Class MakeBearingStiffnessSpline
+# Class MakeBearingStiffnessSpline
+<a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class MakeBearingStiffnessSpline : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [MakeBearingStiffnessSpline](VM.Managed.DAFUL.GearTrain.Operation.MakeBearingStiffnessSpline.md)
@@ -94,27 +95,27 @@ public MakeBearingStiffnessSpline(List<double[]> lstRadialStifnessSplineData, Li
 
 #### Parameters
 
-`lstRadialStifnessSplineData` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`lstRadialStifnessSplineData` List<double\[\]\>
 
 The radial stiffness spline value.
 
-`lstAxialStifnessSplineData` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`lstAxialStifnessSplineData` List<double\[\]\>
 
 The axial stiffness spline value.
 
-`lstTiltStifnessSplineData` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`lstTiltStifnessSplineData` List<double\[\]\>
 
 The tilt stiffness spline value.
 
-`strMaxRadialStiffnessValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMaxRadialStiffnessValue` string
 
 The maximum roational stiffness value.
 
-`strMaxAxialStiffnessValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMaxAxialStiffnessValue` string
 
 The maximum axial stiffness value.
 
-`strMaxTiltStiffnessValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMaxTiltStiffnessValue` string
 
 The maximum tilt stiffness value.
 
@@ -144,7 +145,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -166,7 +167,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

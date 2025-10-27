@@ -1,9 +1,10 @@
-#  Interface IObservableObject
+# Interface IObservableObject
+<a id="VM_IObservableObject"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IObservableObject : IDisposableObject
 ```
 
@@ -15,26 +16,25 @@ public interface IObservableObject : IDisposableObject
 
 ### <a id="VM_IObservableObject_RaisePropertyChanged_System_String_"></a> RaisePropertyChanged\(string\)
 
-```python
+```csharp
 void RaisePropertyChanged(string propertyName)
 ```
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 ### <a id="VM_IObservableObject_RaisePropertyChanged_System_String_System_Object_System_Object_"></a> RaisePropertyChanged\(string, object, object\)
 
-```python
+```csharp
 void RaisePropertyChanged(string propertyName, object oldValue, object newValue)
 ```
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`oldValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`oldValue` object
 
-`newValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
-
+`newValue` object
 

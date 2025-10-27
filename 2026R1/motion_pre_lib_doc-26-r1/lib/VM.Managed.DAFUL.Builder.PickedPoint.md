@@ -1,4 +1,5 @@
-#  Class PickedPoint
+# Class PickedPoint
+<a id="VM_Managed_DAFUL_Builder_PickedPoint"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class PickedPoint : PickedResult
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md) ← 
 [PickedPoint](VM.Managed.DAFUL.Builder.PickedPoint.md)
 

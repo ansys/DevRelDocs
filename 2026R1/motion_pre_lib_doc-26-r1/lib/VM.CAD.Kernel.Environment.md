@@ -1,4 +1,5 @@
-#  Class Environment
+# Class Environment
+<a id="VM_CAD_Kernel_Environment"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Environment
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Environment](VM.CAD.Kernel.Environment.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public bool isMerge { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_Environment_isRelatePath"></a> isRelatePath
 
@@ -48,7 +49,7 @@ public bool isRelatePath { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_Environment_mergeSeparator"></a> mergeSeparator
 
@@ -58,7 +59,7 @@ public string mergeSeparator { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Environment_name"></a> name
 
@@ -68,7 +69,7 @@ public string name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Environment_value"></a> value
 
@@ -78,5 +79,5 @@ public string value { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

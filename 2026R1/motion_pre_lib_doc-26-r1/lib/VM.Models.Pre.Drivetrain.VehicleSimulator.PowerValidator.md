@@ -1,4 +1,5 @@
-#  Class PowerValidator
+# Class PowerValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_PowerValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class PowerValidator : AbstractValidator<Power>, IValidator<Power>, IVali
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<Power\> ← 
 [PowerValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.PowerValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<Power\>.GetEnumerator\(\),
 AbstractValidator<Power\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<Power\>.PreValidate\(ValidationContext<Power\>, ValidationResult\), 
 AbstractValidator<Power\>.RaiseValidationException\(ValidationContext<Power\>, ValidationResult\), 
+AbstractValidator<Power\>.OnRuleAdded\(IValidationRule<Power\>\), 
 AbstractValidator<Power\>.CascadeMode, 
 AbstractValidator<Power\>.ClassLevelCascadeMode, 
 AbstractValidator<Power\>.RuleLevelCascadeMode

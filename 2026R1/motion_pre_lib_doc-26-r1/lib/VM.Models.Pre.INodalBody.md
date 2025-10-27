@@ -1,4 +1,5 @@
-#  Interface INodalBody
+# Interface INodalBody
+<a id="VM_Models_Pre_INodalBody"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -51,7 +52,7 @@ The updated position.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The success flag
 
@@ -77,13 +78,13 @@ The reference
 
 The matrix
 
-`scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scale` double
 
 The scale
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The success flag
 

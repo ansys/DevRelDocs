@@ -1,4 +1,5 @@
-#  Class RelativeInitialCondition
+# Class RelativeInitialCondition
+<a id="VM_API_Pre_RelativeInitialCondition"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public class RelativeInitialCondition : Relative
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Relative](VM.API.Pre.Relative.md) ← 
 [RelativeInitialCondition](VM.API.Pre.RelativeInitialCondition.md)
 
@@ -45,11 +46,11 @@ public RelativeInitialCondition(ExpressionValueVariable initAngle, ExpressionVal
 
 #### Parameters
 
-`initAngle` ExpressionValueVariable
+`initAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The initial angle of the relative.
 
-`initAngularVel` ExpressionValueVariable
+`initAngularVel` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The init angular vel of the relative.
 
@@ -65,7 +66,7 @@ public ExpressionValueVariable InitAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_RelativeInitialCondition_InitAngularVel"></a> InitAngularVel
 
@@ -77,5 +78,5 @@ public ExpressionValueVariable InitAngularVel { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

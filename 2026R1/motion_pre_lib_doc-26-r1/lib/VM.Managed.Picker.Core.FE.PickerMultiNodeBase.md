@@ -1,4 +1,5 @@
-#  Class PickerMultiNodeBase
+# Class PickerMultiNodeBase
+<a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase"></a>
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public abstract class PickerMultiNodeBase : PickerMulti
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 PickerBase ← 
 PickerMulti ← 
 [PickerMultiNodeBase](VM.Managed.Picker.Core.FE.PickerMultiNodeBase.md)
@@ -100,7 +101,7 @@ protected IMesh* GetMesh()
 
 #### Returns
 
- [IMesh](VM.DAFUL.FE.IMesh.md)\*
+ IMesh\*
 
 The mesh.
 
@@ -114,13 +115,13 @@ public uint GetNodeID(uint nNodeIndex)
 
 #### Parameters
 
-`nNodeIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNodeIndex` uint
 
 The node index.
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 The node ID.
 
@@ -134,7 +135,7 @@ public void SetOwnerMesh(UIntPtr keyMesh)
 
 #### Parameters
 
-`keyMesh` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`keyMesh` UIntPtr
 
 The mesh proxy.
 

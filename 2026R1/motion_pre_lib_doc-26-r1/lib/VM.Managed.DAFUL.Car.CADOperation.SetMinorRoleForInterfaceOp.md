@@ -1,4 +1,5 @@
-#  Class CADOperation.SetMinorRoleForInterfaceOp
+# Class CADOperation.SetMinorRoleForInterfaceOp
+<a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class CADOperation.SetMinorRoleForInterfaceOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADOperation.SetMinorRoleForInterfaceOp](VM.Managed.DAFUL.Car.CADOperation.SetMinorRoleForInterfaceOp.md)
 
@@ -95,7 +96,7 @@ public SetMinorRoleForInterfaceOp(Dictionary<string, MinorRole> dic)
 
 #### Parameters
 
-`dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)\>
+`dic` Dictionary<string, [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)\>
 
 The objectbase and minor role.
 
@@ -111,7 +112,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp_Name"></a> Name
 
@@ -123,7 +124,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

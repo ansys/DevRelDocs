@@ -1,4 +1,5 @@
-#  Class SymmetricManager.SymmetricFactory<T\>
+# Class SymmetricManager.SymmetricFactory<T\>
+<a id="VM_Managed_SymmetricManager_SymmetricFactory_1"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -15,7 +16,7 @@ public class SymmetricManager.SymmetricFactory<T>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SymmetricManager.SymmetricFactory<T\>](VM.Managed.SymmetricManager.SymmetricFactory\-1.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public SymmetricFactory(XmlNodeList nodeInitialInfo)
 
 #### Parameters
 
-`nodeInitialInfo` [XmlNodeList](https://learn.microsoft.com/dotnet/api/system.xml.xmlnodelist)
+`nodeInitialInfo` XmlNodeList
 
 The node initial information.
 
@@ -78,7 +79,7 @@ public void Add(Type type, T value)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type of symmetric object.
 

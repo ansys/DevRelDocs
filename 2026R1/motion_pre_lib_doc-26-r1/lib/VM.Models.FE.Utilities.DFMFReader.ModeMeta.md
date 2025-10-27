@@ -1,4 +1,5 @@
-#  Enum DFMFReader.ModeMeta
+# Enum DFMFReader.ModeMeta
+<a id="VM_Models_FE_Utilities_DFMFReader_ModeMeta"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -20,6 +21,8 @@ public enum DFMFReader.ModeMeta
 `Eigenvalue = 3` 
 
 `Grid = 2` 
+
+`HashInformation = 27` 
 
 `InterPoint = 10` 
 

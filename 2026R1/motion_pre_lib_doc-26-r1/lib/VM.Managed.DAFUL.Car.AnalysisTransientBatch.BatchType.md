@@ -1,4 +1,5 @@
-#  Enum AnalysisTransientBatch.BatchType
+# Enum AnalysisTransientBatch.BatchType
+<a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_BatchType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

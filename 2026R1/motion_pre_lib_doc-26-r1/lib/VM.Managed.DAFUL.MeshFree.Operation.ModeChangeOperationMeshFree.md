@@ -1,4 +1,5 @@
-#  Class ModeChangeOperationMeshFree
+# Class ModeChangeOperationMeshFree
+<a id="VM_Managed_DAFUL_MeshFree_Operation_ModeChangeOperationMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -11,7 +12,7 @@ public class ModeChangeOperationMeshFree : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ModeChangeOperationMeshFree](VM.Managed.DAFUL.MeshFree.Operation.ModeChangeOperationMeshFree.md)
 
@@ -109,7 +110,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

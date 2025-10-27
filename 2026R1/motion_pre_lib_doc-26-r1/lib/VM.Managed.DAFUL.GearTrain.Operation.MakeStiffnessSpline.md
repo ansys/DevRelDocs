@@ -1,4 +1,5 @@
-#  Class MakeStiffnessSpline
+# Class MakeStiffnessSpline
+<a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class MakeStiffnessSpline : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [MakeStiffnessSpline](VM.Managed.DAFUL.GearTrain.Operation.MakeStiffnessSpline.md)
 
@@ -87,19 +88,19 @@ public MakeStiffnessSpline(List<double[]> lstDeform, List<string> lstMethodType,
 
 #### Parameters
 
-`lstDeform` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`lstDeform` List<double\[\]\>
 
 The deform.
 
-`lstMethodType` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstMethodType` List<string\>
 
 Type of the method.
 
-`lstSelName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSelName` List<string\>
 
 Type of the name.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 
@@ -117,19 +118,19 @@ public MakeStiffnessSpline(Document3D doc, List<double[]> lstDeform, List<string
 
 The document.
 
-`lstDeform` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`lstDeform` List<double\[\]\>
 
 The deform.
 
-`lstMethodType` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstMethodType` List<string\>
 
 Type of the method.
 
-`lstSelName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSelName` List<string\>
 
 Type of the name.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 
@@ -159,7 +160,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -181,7 +182,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

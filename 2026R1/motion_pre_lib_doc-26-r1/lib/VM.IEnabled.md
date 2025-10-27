@@ -1,4 +1,5 @@
-#  Interface IEnabled
+# Interface IEnabled
+<a id="VM_IEnabled"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,5 +24,5 @@ bool IsEnabled { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

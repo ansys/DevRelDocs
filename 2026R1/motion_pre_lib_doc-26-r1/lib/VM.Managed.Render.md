@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Render
+# Namespace VM.Managed.Render
+<a id="VM_Managed_Render"></a>
 
 ### Interfaces
 

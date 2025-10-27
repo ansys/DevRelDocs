@@ -1,4 +1,5 @@
-#  Class UpdateSlidingBearing
+# Class UpdateSlidingBearing
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearing"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateSlidingBearing : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateSlidingBearing](VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearing.md)
@@ -140,7 +141,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

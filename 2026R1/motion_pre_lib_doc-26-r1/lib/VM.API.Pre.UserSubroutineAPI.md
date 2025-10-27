@@ -1,4 +1,5 @@
-#  Class UserSubroutineAPI
+# Class UserSubroutineAPI
+<a id="VM_API_Pre_UserSubroutineAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class UserSubroutineAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [UserSubroutineAPI](VM.API.Pre.UserSubroutineAPI.md)
 
 #### Extension Methods
@@ -34,35 +35,35 @@ public static Obj CreateUserSubroutine(this SubSystemDocument document, string f
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create a user subroutine.
 
-`functionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`functionName` string
 
 The function name of a user subroutine.
 
-`dllName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`dllName` string
 
 The dll name of the user subroutine. the input file type is 'dll' or 'so'.
 
-`parameter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`parameter` string
 
 The parameter of a user subroutine..
 
-`results` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[UserSubroutineResult](VM.API.Pre.UserSubroutineResult.md)\>
+`results` IEnumerable<[UserSubroutineResult](VM.API.Pre.UserSubroutineResult.md)\>
 
 The results of a user subroutine.
 
-`arguments` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`arguments` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The expressions of a user subroutine..
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a user subroutine.
 
-`isReportOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isReportOnly` bool
 
 'true' if it is report Only. Otherwise, 'false'.
 
@@ -70,7 +71,7 @@ The name of a user subroutine.
 
 The symmetric type of the new <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
@@ -82,15 +83,15 @@ The new <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved=
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'functionName', 'dllName' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the extension of 'dllName' is not 'dll', 'so'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'arguement' is not <xref href="VM.Models.Pre.IArgument" data-throw-if-not-resolved="false"></xref>.
 

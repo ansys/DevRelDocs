@@ -1,4 +1,5 @@
-#  Class SignalValidator
+# Class SignalValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SignalValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class SignalValidator : AbstractValidator<Signal>, IValidator<Signal>, IV
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<Signal\> ← 
 [SignalValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.SignalValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<Signal\>.GetEnumerator\(\),
 AbstractValidator<Signal\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<Signal\>.PreValidate\(ValidationContext<Signal\>, ValidationResult\), 
 AbstractValidator<Signal\>.RaiseValidationException\(ValidationContext<Signal\>, ValidationResult\), 
+AbstractValidator<Signal\>.OnRuleAdded\(IValidationRule<Signal\>\), 
 AbstractValidator<Signal\>.CascadeMode, 
 AbstractValidator<Signal\>.ClassLevelCascadeMode, 
 AbstractValidator<Signal\>.RuleLevelCascadeMode

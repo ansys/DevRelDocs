@@ -1,4 +1,5 @@
-#  Struct LinkContainer.Update
+# Struct LinkContainer.Update
+<a id="VM_Managed_LinkContainer_Update"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

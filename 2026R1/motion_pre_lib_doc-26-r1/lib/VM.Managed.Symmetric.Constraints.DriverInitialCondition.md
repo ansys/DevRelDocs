@@ -1,4 +1,5 @@
-#  Class DriverInitialCondition
+# Class DriverInitialCondition
+<a id="VM_Managed_Symmetric_Constraints_DriverInitialCondition"></a>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  
@@ -9,7 +10,7 @@ public class DriverInitialCondition : Driver, ISymmetricBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Driver](VM.Managed.Symmetric.Constraints.Driver.md) ← 
 [DriverInitialCondition](VM.Managed.Symmetric.Constraints.DriverInitialCondition.md)
 
@@ -48,7 +49,7 @@ public override object Build(object tool, SymmetricType sym_type, Plane sym_plan
 
 #### Parameters
 
-`tool` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`tool` object
 
 The object.
 
@@ -64,7 +65,7 @@ Plane of symmetric.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The new object of symmetric.
 

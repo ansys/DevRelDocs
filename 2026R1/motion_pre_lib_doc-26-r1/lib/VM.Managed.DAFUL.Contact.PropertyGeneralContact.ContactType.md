@@ -1,4 +1,5 @@
-#  Enum PropertyGeneralContact.ContactType
+# Enum PropertyGeneralContact.ContactType
+<a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact_ContactType"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

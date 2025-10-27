@@ -1,4 +1,5 @@
-#  Interface ITopologyset
+# Interface ITopologyset
+<a id="VM_Managed_ITopologyset"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

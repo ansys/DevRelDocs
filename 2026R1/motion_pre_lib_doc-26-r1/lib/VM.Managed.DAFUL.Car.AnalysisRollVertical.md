@@ -1,4 +1,5 @@
-#  Class AnalysisRollVertical
+# Class AnalysisRollVertical
+<a id="VM_Managed_DAFUL_Car_AnalysisRollVertical"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisRollVertical : SuspensionAnalysisBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [SuspensionAnalysisBase](VM.Managed.DAFUL.Car.SuspensionAnalysisBase.md) ← 
 [AnalysisRollVertical](VM.Managed.DAFUL.Car.AnalysisRollVertical.md)
@@ -77,7 +78,7 @@ public double RollAngleLowerValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_RollAngleUpperValue"></a> RollAngleUpperValue
 
@@ -89,7 +90,7 @@ public double RollAngleUpperValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_SteeringFunctionArgument"></a> SteeringFunctionArgument
 
@@ -101,7 +102,7 @@ public override string SteeringFunctionArgument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_SteeringPosition"></a> SteeringPosition
 
@@ -113,7 +114,7 @@ public double SteeringPosition { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_TotalVerticalForceValue"></a> TotalVerticalForceValue
 
@@ -125,7 +126,7 @@ public double TotalVerticalForceValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -139,11 +140,11 @@ public override void GetDataForLoadCase(int nStep, Dictionary<SuspensionLoadCase
 
 #### Parameters
 
-`nStep` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStep` int
 
 The step.
 
-`dicCol` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[SuspensionLoadCase](VM.Managed.DAFUL.Car.SuspensionLoadCase.md).[Column](VM.Managed.DAFUL.Car.SuspensionLoadCase.Column.md), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`dicCol` Dictionary<[SuspensionLoadCase](VM.Managed.DAFUL.Car.SuspensionLoadCase.md).[Column](VM.Managed.DAFUL.Car.SuspensionLoadCase.Column.md), double\[\]\>
 
 The column information.
 
@@ -161,7 +162,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 
@@ -175,7 +176,7 @@ public override void GetXmlData(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -203,7 +204,7 @@ public override void SetXmlData(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 

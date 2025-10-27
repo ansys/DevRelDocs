@@ -1,4 +1,5 @@
-#  Class StringAPI
+# Class StringAPI
+<a id="VM_API_Pre_StringAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class StringAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [StringAPI](VM.API.Pre.StringAPI.md)
 
 #### Extension Methods
@@ -33,23 +34,23 @@ public static Obj CreateString(this SubSystemDocument document, string name = ""
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the string.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of string.
 
-`folderPath` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`folderPath` bool
 
 The flag of folder path.
 
-`stringVal` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringVal` string
 
 The value of string.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 The flag of interface.
 
@@ -61,7 +62,7 @@ The new <xref href="VM.Managed.DAFUL.Array" data-throw-if-not-resolved="false"><
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 

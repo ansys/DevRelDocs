@@ -1,4 +1,5 @@
-#  Struct InterfaceManager.InterfaceInfoForUndo
+# Struct InterfaceManager.InterfaceInfoForUndo
+<a id="VM_Managed_InterfaceManager_InterfaceInfoForUndo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -21,11 +22,11 @@ public InterfaceInfoForUndo(UIntPtr interfaceObjectKey, List<string> interfaceNa
 
 #### Parameters
 
-`interfaceObjectKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`interfaceObjectKey` UIntPtr
 
 The interface object key.
 
-`interfaceNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`interfaceNames` List<string\>
 
 The interface names.
 

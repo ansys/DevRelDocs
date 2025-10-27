@@ -1,4 +1,5 @@
-#  Interface IArgument
+# Interface IArgument
+<a id="VM_Models_Pre_IArgument"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -39,5 +40,5 @@ string ReferenceType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

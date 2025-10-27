@@ -1,4 +1,5 @@
-#  Enum RacewayGeometryInfo.RacewayType
+# Enum RacewayGeometryInfo.RacewayType
+<a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

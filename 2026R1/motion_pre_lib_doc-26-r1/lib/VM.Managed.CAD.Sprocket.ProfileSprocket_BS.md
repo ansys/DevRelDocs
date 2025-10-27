@@ -1,4 +1,5 @@
-#  Class ProfileSprocket\_BS
+# Class ProfileSprocket\_BS
+<a id="VM_Managed_CAD_Sprocket_ProfileSprocket_BS"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -11,7 +12,7 @@ public class ProfileSprocket_BS : ProfileSprocketBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ProfileSprocketBase](VM.Managed.CAD.Sprocket.ProfileSprocketBase.md) ← 
 [ProfileSprocket\_BS](VM.Managed.CAD.Sprocket.ProfileSprocket\_BS.md)
 
@@ -71,7 +72,7 @@ protected override bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocket_BS_Validation"></a> Validation\(\)
 
@@ -81,5 +82,5 @@ protected override bool Validation()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Interface IIdentifierManager
+# Interface IIdentifierManager
+<a id="VM_Models_Pre_IIdentifierManager"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

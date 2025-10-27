@@ -1,4 +1,5 @@
-#  Class ShimmyJudderReAssembly
+# Class ShimmyJudderReAssembly
+<a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderReAssembly"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -11,9 +12,9 @@ public class ShimmyJudderReAssembly : FullCarReAssembly, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
-DialogOperation ← 
+[DialogOperation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs) ← 
 [FullCarReAssembly](VM.Managed.DAFUL.Car.Operation.FullCarReAssembly.md) ← 
 [ShimmyJudderReAssembly](VM.Managed.DAFUL.Car.Operation.ShimmyJudderReAssembly.md)
 
@@ -30,11 +31,11 @@ IOperation
 [FullCarReAssembly.UpdateUI\(IUIUpdate, Document\)](VM.Managed.DAFUL.Car.Operation.FullCarReAssembly.md\#VM\_Managed\_DAFUL\_Car\_Operation\_FullCarReAssembly\_UpdateUI\_VM\_Managed\_UI\_IUIUpdate\_VM\_Managed\_Document\_), 
 [FullCarReAssembly.OnApply\(object, CancelEventArgs\)](VM.Managed.DAFUL.Car.Operation.FullCarReAssembly.md\#VM\_Managed\_DAFUL\_Car\_Operation\_FullCarReAssembly\_OnApply\_System\_Object\_System\_ComponentModel\_CancelEventArgs\_), 
 [FullCarReAssembly.Name](VM.Managed.DAFUL.Car.Operation.FullCarReAssembly.md\#VM\_Managed\_DAFUL\_Car\_Operation\_FullCarReAssembly\_Name), 
-DialogOperation.Execute\(\), 
-DialogOperation.OnApply\(object, CancelEventArgs\), 
-DialogOperation.IsConainOpenedDic\(Document\), 
-DialogOperation.Name, 
-DialogOperation.OpDialog, 
+[DialogOperation.Execute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.OnApply\(object, CancelEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.IsConainOpenedDic\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.OpDialog](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
 OperationBase.g\_bRedrawKernel, 
 OperationBase.g\_bVerify, 
 OperationBase.g\_bSkipAddEvent, 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

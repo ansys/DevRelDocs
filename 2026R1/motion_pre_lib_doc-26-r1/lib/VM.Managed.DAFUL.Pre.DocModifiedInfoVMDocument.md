@@ -1,4 +1,5 @@
-#  Class DocModifiedInfoVMDocument
+# Class DocModifiedInfoVMDocument
+<a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class DocModifiedInfoVMDocument : DocModifiedInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocModifiedInfo](VM.Managed.DAFUL.Pre.DocModifiedInfo.md) ← 
 [DocModifiedInfoVMDocument](VM.Managed.DAFUL.Pre.DocModifiedInfoVMDocument.md)
 
@@ -56,7 +57,7 @@ public List<Document> DependentDocuments { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document\>
+ List<Document\>
 
 ### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument_Document"></a> Document
 
@@ -80,7 +81,7 @@ public override string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -102,7 +103,7 @@ public void OnDependentAdded(object o, DependentDocEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
 The object.
 
@@ -120,7 +121,7 @@ public void OnDependentRemoved(object o, DependentDocEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
 The object.
 

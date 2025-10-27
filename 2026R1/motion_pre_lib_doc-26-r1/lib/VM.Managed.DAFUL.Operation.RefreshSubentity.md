@@ -1,4 +1,5 @@
-#  Class RefreshSubentity
+# Class RefreshSubentity
+<a id="VM_Managed_DAFUL_Operation_RefreshSubentity"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class RefreshSubentity : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [RefreshSubentity](VM.Managed.DAFUL.Operation.RefreshSubentity.md)
 
@@ -91,9 +92,9 @@ public RefreshSubentity(string strSubentityName, string strSubentityViewName)
 
 #### Parameters
 
-`strSubentityName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSubentityName` string
 
-`strSubentityViewName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSubentityViewName` string
 
 ### <a id="VM_Managed_DAFUL_Operation_RefreshSubentity__ctor_VM_Managed_Operation_JournalParameter_"></a> RefreshSubentity\(JournalParameter\)
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -137,5 +138,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

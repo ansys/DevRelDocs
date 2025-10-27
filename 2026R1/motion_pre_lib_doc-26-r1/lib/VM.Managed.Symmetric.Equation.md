@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Symmetric.Equation
+# Namespace VM.Managed.Symmetric.Equation
+<a id="VM_Managed_Symmetric_Equation"></a>
 
 ### Classes
 

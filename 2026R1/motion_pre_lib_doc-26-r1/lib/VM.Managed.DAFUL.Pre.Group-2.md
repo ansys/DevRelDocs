@@ -1,4 +1,5 @@
-#  Class Group<TGroup, TItem\>
+# Class Group<TGroup, TItem\>
+<a id="VM_Managed_DAFUL_Pre_Group_2"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -21,7 +22,7 @@ The type of the item.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Group<TGroup, TItem\>](VM.Managed.DAFUL.Pre.Group\-2.md)
 
 #### Extension Methods
@@ -50,7 +51,7 @@ public Group(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of group.
 
@@ -66,7 +67,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Group_2_SubGroups"></a> SubGroups
 
@@ -78,7 +79,7 @@ public List<TGroup> SubGroups { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<TGroup\>
+ List<TGroup\>
 
 ### <a id="VM_Managed_DAFUL_Pre_Group_2_SubItems"></a> SubItems
 
@@ -90,7 +91,7 @@ public List<TItem> SubItems { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<TItem\>
+ List<TItem\>
 
 ## Methods
 

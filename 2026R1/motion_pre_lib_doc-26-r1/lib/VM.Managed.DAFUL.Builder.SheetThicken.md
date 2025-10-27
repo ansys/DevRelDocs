@@ -1,4 +1,5 @@
-#  Class SheetThicken
+# Class SheetThicken
+<a id="VM_Managed_DAFUL_Builder_SheetThicken"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class SheetThicken : BooleanBase<BuilderSheetThicken>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<BuilderSheetThicken\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [SheetThicken](VM.Managed.DAFUL.Builder.SheetThicken.md)
 
@@ -69,7 +70,7 @@ protected override string Argument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_SheetThicken_InputArray"></a> InputArray
 
@@ -79,7 +80,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_SheetThicken_SheetNames"></a> SheetNames
 
@@ -89,7 +90,7 @@ public string[] SheetNames { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_SheetThicken_Thickness"></a> Thickness
 
@@ -109,7 +110,7 @@ protected override string Type { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -131,9 +132,9 @@ public override bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

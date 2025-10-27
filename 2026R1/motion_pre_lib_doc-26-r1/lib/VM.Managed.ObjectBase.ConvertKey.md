@@ -1,4 +1,5 @@
-#  Struct ObjectBase.ConvertKey
+# Struct ObjectBase.ConvertKey
+<a id="VM_Managed_ObjectBase_ConvertKey"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +22,7 @@ public ConvertKey(ulong key)
 
 #### Parameters
 
-`key` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`key` ulong
 
 The key.
 
@@ -35,7 +36,7 @@ public ConvertKey(UIntPtr ptrKey)
 
 #### Parameters
 
-`ptrKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`ptrKey` UIntPtr
 
 The key.
 
@@ -49,7 +50,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_ObjectBase_ConvertKey_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -59,7 +60,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 ### <a id="VM_Managed_ObjectBase_ConvertKey_ToString"></a> ToString\(\)
 
@@ -69,7 +70,7 @@ public override sealed string ToString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_ObjectBase_ConvertKey_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -79,7 +80,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ## Operators
 
@@ -99,7 +100,7 @@ The key.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Managed_ObjectBase_ConvertKey_op_Implicit_System_UIntPtr__VM_Managed_ObjectBase_ConvertKey"></a> implicit operator ConvertKey\(UIntPtr\)
 
@@ -111,7 +112,7 @@ public static implicit operator ObjectBase.ConvertKey(UIntPtr ptrKey)
 
 #### Parameters
 
-`ptrKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`ptrKey` UIntPtr
 
 The key.
 

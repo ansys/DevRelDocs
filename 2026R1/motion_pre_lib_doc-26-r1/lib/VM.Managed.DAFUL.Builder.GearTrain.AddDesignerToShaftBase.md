@@ -1,4 +1,5 @@
-#  Class AddDesignerToShaftBase
+# Class AddDesignerToShaftBase
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddDesignerToShaftBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class AddDesignerToShaftBase : AddEntityBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddDesignerToShaftBase](VM.Managed.DAFUL.Builder.GearTrain.AddDesignerToShaftBase.md)
 
@@ -68,7 +69,7 @@ protected GearTrainDocument m_docGT
 
 #### Field Value
 
- GearTrainDocument
+ [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddDesignerToShaftBase_m_docShaftSet"></a> m\_docShaftSet
 
@@ -78,7 +79,7 @@ protected HiddenShaftSetDocument m_docShaftSet
 
 #### Field Value
 
- HiddenShaftSetDocument
+ [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 ## Methods
 

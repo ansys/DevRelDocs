@@ -1,4 +1,5 @@
-#  Class AnalysisStaticLoad.AligningTorque
+# Class AnalysisStaticLoad.AligningTorque
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_AligningTorque"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisStaticLoad.AligningTorque : AnalysisStaticLoad.StaticRoadBa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisStaticLoad.StaticRoadBaseInfo](VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBaseInfo.md) ← 
 [AnalysisStaticLoad.AligningTorque](VM.Managed.DAFUL.Car.AnalysisStaticLoad.AligningTorque.md)
 

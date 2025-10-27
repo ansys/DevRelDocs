@@ -1,4 +1,5 @@
-#  Class Contact<T, TProp\>
+# Class Contact<T, TProp\>
+<a id="VM_Managed_Symmetric_Contact_Contact_2"></a>
 
 Namespace: [VM.Managed.Symmetric.Contact](VM.Managed.Symmetric.Contact.md)  
 Assembly: VMSymCt.dll  
@@ -15,8 +16,8 @@ public class Contact<T, TProp> : Named<T>, ISymmetricUpdater where T : Contact<T
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<T\> ← 
+object ← 
+[Named<T\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
 [Contact<T, TProp\>](VM.Managed.Symmetric.Contact.Contact\-2.md)
 
 #### Implements
@@ -25,10 +26,10 @@ ISymmetricUpdater
 
 #### Inherited Members
 
-Named<T\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<T\>.Initialize\(ISymmetricManager\), 
-Named<T\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<T\>.SymmetricManager
+[Named<T\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<T\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<T\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<T\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -76,7 +77,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

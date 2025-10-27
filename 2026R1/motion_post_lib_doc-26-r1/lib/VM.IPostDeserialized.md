@@ -1,9 +1,10 @@
-#  Interface IPostDeserialized
+# Interface IPostDeserialized
+<a id="VM_IPostDeserialized"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IPostDeserialized
 ```
 
@@ -11,12 +12,11 @@ public interface IPostDeserialized
 
 ### <a id="VM_IPostDeserialized_OnPostDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnPostDeserialized\(StreamingContext\)
 
-```python
+```csharp
 void OnPostDeserialized(StreamingContext context)
 ```
 
 #### Parameters
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
-
+`context` StreamingContext
 

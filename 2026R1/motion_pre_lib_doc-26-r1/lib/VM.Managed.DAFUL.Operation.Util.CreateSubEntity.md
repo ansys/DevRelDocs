@@ -1,4 +1,5 @@
-#  Class CreateSubEntity
+# Class CreateSubEntity
+<a id="VM_Managed_DAFUL_Operation_Util_CreateSubEntity"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateSubEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateSubEntity](VM.Managed.DAFUL.Operation.Util.CreateSubEntity.md)
 
 #### Extension Methods
@@ -44,17 +45,17 @@ public static Array CreateArray(Document3D document, int size, bool isInterface)
 
 The document.
 
-`size` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`size` int
 
 The number of array size.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 The flag of interface.
 
 #### Returns
 
- Array
+ [Array](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/Array.cs)
 
 The new array.
 
@@ -72,21 +73,21 @@ public static Array CreateArray(Document3D activeDocument, int nSize, bool bInte
 
 The active document.
 
-`nSize` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nSize` int
 
 The number of array size.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The array name.
 
 #### Returns
 
- Array
+ [Array](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/Array.cs)
 
 The new array.
 
@@ -104,29 +105,29 @@ public static Differential1 CreateDifferential1Equation(Document3D activeDocumen
 
 The active document.
 
-`function` Function
+`function` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 The function.
 
-`initialDisplacement` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialDisplacement` double
 
 The initial value.
 
-`initialVelocity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialVelocity` double
 
 The initial velocity.
 
-`differentialFunctionType` EquationFunctionDiff.FunctionEquType
+`differentialFunctionType` [EquationFunctionDiff](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs).[FunctionEquType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The differential function type.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The variable equation name.
 
 #### Returns
 
- Differential1
+ [Differential1](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The new variable equation.
 
@@ -144,29 +145,29 @@ public static Differential1 CreateDifferential1Equation(Document3D activeDocumen
 
 The active document.
 
-`userSubroutine` UserSubroutine
+`userSubroutine` [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
 The function.
 
-`initialDisplacement` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialDisplacement` double
 
 The initial value.
 
-`initialVelocity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialVelocity` double
 
 The initial velocity.
 
-`differentialFunctionType` EquationFunctionDiff.FunctionEquType
+`differentialFunctionType` [EquationFunctionDiff](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs).[FunctionEquType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The differential function type.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The variable equation name.
 
 #### Returns
 
- Differential1
+ [Differential1](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The new variable equation.
 
@@ -184,29 +185,29 @@ public static Differential2 CreateDifferential2Equation(Document3D activeDocumen
 
 The active document.
 
-`function` Function
+`function` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 The function.
 
-`initialDisplacement` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialDisplacement` double
 
 The initial value.
 
-`initialVelocity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialVelocity` double
 
 The initial velocity.
 
-`differentialFunctionType` EquationFunctionDiff.FunctionEquType
+`differentialFunctionType` [EquationFunctionDiff](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs).[FunctionEquType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The differential function type.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The variable equation name.
 
 #### Returns
 
- Differential2
+ [Differential2](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential2.cs)
 
 The new variable equation.
 
@@ -224,29 +225,29 @@ public static Differential2 CreateDifferential2Equation(Document3D activeDocumen
 
 The active document.
 
-`userSubroutine` UserSubroutine
+`userSubroutine` [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
 The function.
 
-`initialDisplacement` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialDisplacement` double
 
 The initial value.
 
-`initialVelocity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialVelocity` double
 
 The initial velocity.
 
-`differentialFunctionType` EquationFunctionDiff.FunctionEquType
+`differentialFunctionType` [EquationFunctionDiff](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs).[FunctionEquType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The differential function type.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The variable equation name.
 
 #### Returns
 
- Differential2
+ [Differential2](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential2.cs)
 
 The new variable equation.
 
@@ -262,19 +263,19 @@ public static Function CreateFunction(Document3D document, string expression, IA
 
 `document` Document3D
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 `arguments` IArgument\[\]
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubEntity_CreateFunction_VM_Managed_Document3D_System_String_System_String_"></a> CreateFunction\(Document3D, string, string\)
 
@@ -288,13 +289,13 @@ public static Function CreateFunction(Document3D document, string expression, st
 
 `document` Document3D
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubEntity_CreateFunctionSimple_VM_Managed_Document_System_String_System_Boolean_System_String_System_Boolean_"></a> CreateFunctionSimple\(Document, string, bool, string, bool\)
 
@@ -310,25 +311,25 @@ public static Function CreateFunctionSimple(Document document, string strExpress
 
 The active document.
 
-`strExpression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExpression` string
 
 The expression of function.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The function name.
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 The new function.
 
@@ -346,25 +347,25 @@ public static Function CreateFunctionSimple(Document3D activeDocument, string st
 
 The active document.
 
-`strExpression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExpression` string
 
 The expression of function.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The function name.
 
-`strMatchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMatchName` string
 
 Name of the STR match.
 
 #### Returns
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 The new function.
 
@@ -382,29 +383,29 @@ public static Function CreateFunctionWithArguments(Document document, string str
 
 The active document.
 
-`strExpression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExpression` string
 
 The expression of function.
 
-`lstArgument` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IArgument\>
+`lstArgument` IEnumerable<IArgument\>
 
 The list of argument.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The function name.
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 The new function.
 
@@ -422,29 +423,29 @@ public static Function CreateFunctionWithArguments(Document document, string str
 
 The active document.
 
-`strExpression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExpression` string
 
 The expression of function.
 
-`lstArgument` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string), IArgument\)\>
+`lstArgument` IEnumerable<\(string, IArgument\)\>
 
 The list of argument.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The function name.
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 The new function.
 
@@ -462,13 +463,13 @@ public static Group CreateGroup(Document3D docSub, string strName)
 
 The active document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The group name
 
 #### Returns
 
- Group
+ [Group](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubEntity_CreateScenario_VM_Managed_Document_VM_Managed_Simulation_Scenario_Sensor_VM_Managed_Simulation_Scenario_Sign_VM_Managed_Simulation_Scenario_Action_System_Double_VM_Managed_ObjectBase_System_Double_System_String_VM_Managed_ObjectBase_VM_Managed_Simulation_Scenario_Motion_System_String_"></a> CreateScenario\(Document, Sensor, Sign, Action, double, ObjectBase, double, string, ObjectBase, Motion, string\)
 
@@ -484,19 +485,19 @@ public static Scenario CreateScenario(Document document, Scenario.Sensor sensor,
 
 The document
 
-`sensor` Scenario.Sensor
+`sensor` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sensor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sensor
 
-`sign` Scenario.Sign
+`sign` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sign](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sign
 
-`action` Scenario.Action
+`action` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Action](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The action
 
-`dActionValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dActionValue` double
 
 The action value
 
@@ -504,11 +505,11 @@ The action value
 
 The function
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The value
 
-`strICFPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strICFPath` string
 
 The icf path
 
@@ -516,17 +517,17 @@ The icf path
 
 The enable target
 
-`targetOfMotion` Scenario.Motion
+`targetOfMotion` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Motion](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The motion
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The prefix name
 
 #### Returns
 
- Scenario
+ [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubEntity_CreateSpline_VM_Managed_Document3D_System_Collections_Generic_IEnumerable_VM_DataPoint__System_String_"></a> CreateSpline\(Document3D, IEnumerable<DataPoint\>, string\)
 
@@ -540,17 +541,17 @@ public static Spline CreateSpline(Document3D document, IEnumerable<DataPoint> da
 
 The active document.
 
-`dataPoints` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<DataPoint\>
+`dataPoints` IEnumerable<DataPoint\>
 
 The spline data
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The spline name.
 
 #### Returns
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The new spline.
 
@@ -566,17 +567,17 @@ public static Spline CreateSpline(Document3D document, SplineValue splineValue, 
 
 The active document.
 
-`splineValue` SplineValue
+`splineValue` [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The spline value
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The spline name.
 
 #### Returns
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The new spline.
 
@@ -592,17 +593,17 @@ public static Spline CreateSplineFromFile(Document3D activeDocument, string strD
 
 The active document.
 
-`strDataFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDataFilePath` string
 
 The path of spline data file.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The spline name.
 
 #### Returns
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The new spline.
 
@@ -618,21 +619,21 @@ public static Spline CreateSplineFromValue(Document3D activeDocument, List<strin
 
 The active document.
 
-`points` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\[\]\>
+`points` List<string\[\]\>
 
 The data of spline value.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The spline name.
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The new spline.
 
@@ -650,17 +651,17 @@ public static StringValue CreateStringValue(Document3D document, string stringVa
 
 The document.
 
-`stringValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringValue` string
 
 The string value.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 The flag of interface.
 
 #### Returns
 
- StringValue
+ [StringValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/StringValue.cs)
 
 The new string value.
 
@@ -678,21 +679,21 @@ public static StringValue CreateStringValue(Document3D activeDocument, string st
 
 The active document.
 
-`stringValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringValue` string
 
 The number of array size.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The array name.
 
 #### Returns
 
- StringValue
+ [StringValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/StringValue.cs)
 
 The new array.
 
@@ -710,33 +711,33 @@ public static UserSubroutine CreateUserSubroutine(Document3D document, string dl
 
 The active document.
 
-`dllName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`dllName` string
 
 The DLL file name.
 
-`functionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`functionName` string
 
 The function name.
 
-`resultValue` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`resultValue` int
 
 The number of result value.
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 The expression of user-subroutine.
 
-`interface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`interface` bool
 
 The flag of interface.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The user-subroutine name.
 
 #### Returns
 
- UserSubroutine
+ [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
 The new user-subroutine.
 
@@ -754,41 +755,41 @@ public static UserSubroutine CreateUserSubroutineWithArguments(Document document
 
 The active document.
 
-`dllName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`dllName` string
 
 The DLL file name.
 
-`functionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`functionName` string
 
 The function name.
 
-`resultValue` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`resultValue` int
 
 The number of result value.
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 The expression of user-subroutine.
 
-`arguments` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IArgument\>
+`arguments` IEnumerable<IArgument\>
 
 The list of argument.
 
-`interface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`interface` bool
 
 The flag of interface.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The user-subroutine name.
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
 #### Returns
 
- UserSubroutine
+ [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
 The new user-subroutine.
 
@@ -806,21 +807,21 @@ public static VariableEq CreateVariableEquation(Document3D activeDocument, Funct
 
 The active document.
 
-`function` Function
+`function` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 The function.
 
-`dInitialValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dInitialValue` double
 
 The intial value.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The variable equation name.
 
 #### Returns
 
- VariableEq
+ [VariableEq](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/VariableEq.cs)
 
 The new variable equation.
 
@@ -838,21 +839,21 @@ public static VariableEq CreateVariableEquation(Document3D document, UserSubrout
 
 The active document.
 
-`userSubroutine` UserSubroutine
+`userSubroutine` [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
 The UserSubroutine.
 
-`initialValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`initialValue` double
 
 The intial value.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The variable equation name.
 
 #### Returns
 
- VariableEq
+ [VariableEq](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/VariableEq.cs)
 
 The new variable equation.
 

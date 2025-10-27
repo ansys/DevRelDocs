@@ -1,4 +1,5 @@
-#  Interface IOrientationEulerAngle
+# Interface IOrientationEulerAngle
+<a id="VM_Models_Pre_IOrientationEulerAngle"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

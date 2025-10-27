@@ -1,4 +1,5 @@
-#  Struct UserSubroutineResult
+# Struct UserSubroutineResult
+<a id="VM_API_Pre_UserSubroutineResult"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -29,11 +30,11 @@ public UserSubroutineResult(string name, bool usePerformanceIndex)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name.
 
-`usePerformanceIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`usePerformanceIndex` bool
 
 The use performanceIndex.
 
@@ -49,7 +50,7 @@ public string Name { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_UserSubroutineResult_UsePerformanceIndex"></a> UsePerformanceIndex
 
@@ -61,5 +62,5 @@ public bool UsePerformanceIndex { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

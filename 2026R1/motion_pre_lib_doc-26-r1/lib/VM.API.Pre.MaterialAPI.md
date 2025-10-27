@@ -1,4 +1,5 @@
-#  Class MaterialAPI
+# Class MaterialAPI
+<a id="VM_API_Pre_MaterialAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class MaterialAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MaterialAPI](VM.API.Pre.MaterialAPI.md)
 
 #### Extension Methods
@@ -37,31 +38,31 @@ public static Obj CreateArrudaBoyce(this IDocument document, string name, Expres
 
 The document to create the arruda-boyce material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the arruda-boyce material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the arruda-boyce material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
-`mu` ExpressionValueVariable
+`mu` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The mu to set the elastic constant which is corresponding to the shear modulus in the linear material.
 
-`lambda` ExpressionValueVariable
+`lambda` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The lambda to set the locking stretch.
 
-`d` ExpressionValueVariable
+`d` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The d to set the incompressibility parameter to determine a penalty of the volume constraint.
 
@@ -73,11 +74,11 @@ The new <xref href="VM.Managed.Material.ArrudaBoyce" data-throw-if-not-resolved=
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio' values less than 0.
 
@@ -95,7 +96,7 @@ public static Obj CreateArrudaBoyce(this IDocument document, string name)
 
 The document to create the arruda-boyce material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the arruda-boyce material.
 
@@ -120,23 +121,23 @@ public static Obj CreateFoam(this IDocument document, string name, ExpressionVal
 
 The document to create the foam material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the foam material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the foam material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
-`youngsModulus` ExpressionValueVariable
+`youngsModulus` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The Young's modulus of the foam material.
 
@@ -152,15 +153,15 @@ The new <xref href="VM.Managed.Material.Foam" data-throw-if-not-resolved="false"
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio', 'youngsModulus' values less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'spline' is not <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref>.
 
@@ -178,7 +179,7 @@ public static Obj CreateFoam(this IDocument document, string name)
 
 The document to create the foam material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the foam material.
 
@@ -205,47 +206,47 @@ public static Obj CreateISO(this IDocument document, string name, ExpressionValu
 
 The document to create the iso material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the iso material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the iso material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
-`youngsModulus` ExpressionValueVariable
+`youngsModulus` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The Young's modulus of the iso material.
 
-`shearModulus` ExpressionValueVariable
+`shearModulus` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The shear modulus of the iso material.
 
-`poissonRatio` ExpressionValueVariable
+`poissonRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The Poisson's ratio of the iso material.
 
-`thermalExpansionCoefficient` ExpressionValueVariable
+`thermalExpansionCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The thermal expansion coefficient of the iso material.
 
-`thermalConductivity` ExpressionValueVariable
+`thermalConductivity` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The thermal conductivity of the iso material.
 
-`specificHeat` ExpressionValueVariable
+`specificHeat` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The specific heat of the iso material.
 
-`referenceTemperature` ExpressionValueVariable
+`referenceTemperature` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The initial temperature of the iso material.
 
@@ -257,15 +258,15 @@ The new <xref href="VM.Managed.Material.ISO" data-throw-if-not-resolved="false">
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio', 'youngsModulus', 'shearModulus', 'poissonRatio' values less than 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'poissonRatio' value is less than 0 or equal to 0.5 or more than 0.5.
 
@@ -283,7 +284,7 @@ public static Obj CreateISO(this IDocument document, string name)
 
 The document to create the iso material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the iso material.
 
@@ -310,19 +311,19 @@ public static Obj CreateISONonlinearThermal(this IDocument document, string name
 
 The document to create the iso nonlinear thermal material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the iso nonlinear thermal material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the iso nonlinear thermal material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
@@ -330,7 +331,7 @@ A value indicating whether to disable H Scale factor or not.
 
 The Young's modulus spline of the iso nonlinear thermal material.
 
-`poissonRatio` ExpressionValueVariable
+`poissonRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The Poisson's ratio of the iso nonlinear thermal material.
 
@@ -346,7 +347,7 @@ The thermal conductivity spline of the iso nonlinear thermal material.
 
 The specific heat spline of the iso nonlinear thermal material.
 
-`referenceTemperature` ExpressionValueVariable
+`referenceTemperature` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The initial temperature of the iso nonlinear thermal material.
 
@@ -358,15 +359,15 @@ The new <xref href="VM.Managed.Material.ISONonlinearThermal" data-throw-if-not-r
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio', 'poissonRatio' values less than 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'poissonRatio' value is less than 0 or equal to 0.5 or more than 0.5.
 
@@ -384,7 +385,7 @@ public static Obj CreateISONonlinearThermal(this IDocument document, string name
 
 The document to create the iso nonlinear thermal material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the iso nonlinear thermal material.
 
@@ -425,31 +426,31 @@ public static Obj CreateMooneyRivlin(this IDocument document, string name, Expre
 
 The document to create the mooney-rivlin material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the mooney-rivlin material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the mooney-rivlin material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
-`c10` ExpressionValueVariable
+`c10` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The c10 to set the elastic constant which is corresponding to the Young’s modulus in the linear material.
 
-`c01` ExpressionValueVariable
+`c01` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The c01 to set the 2nd elastic constant which is corresponding to the Young’s modulus in the linear material.
 
-`d` ExpressionValueVariable
+`d` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The d to set the incompressibility parameter to determine a penalty of the volume constraint.
 
@@ -461,11 +462,11 @@ The new <xref href="VM.Managed.Material.MooneyRivlin" data-throw-if-not-resolved
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio', 'c10' 'c01' values less than 0.
             Will be thrown if 'd' value equal to or less than 0.
@@ -485,7 +486,7 @@ public static Obj CreateMooneyRivlin(this IDocument document, string name)
 
 The document to create the mooney-rivlin material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the mooney-rivlin material.
 
@@ -510,27 +511,27 @@ public static Obj CreateNeoHookean(this IDocument document, string name, Express
 
 The document to create the neo-hookean material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the neo-hookean material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the neo-hookean material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
-`c10` ExpressionValueVariable
+`c10` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The c10 to set the elastic constant which is corresponding to the Young’s modulus in the linear material.
 
-`d` ExpressionValueVariable
+`d` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The d to set the incompressibility parameter to determine a penalty of the volume constraint.
 
@@ -542,11 +543,11 @@ The new <xref href="VM.Managed.Material.NeoHookean" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio', 'c10' values less than 0.
 
@@ -564,7 +565,7 @@ public static Obj CreateNeoHookean(this IDocument document, string name)
 
 The document to create the neo-hookean material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the neo-hookean material.
 
@@ -591,55 +592,55 @@ public static Obj CreateORTHO(this IDocument document, string name, ExpressionVa
 
 The document to create the orthotropic material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the orthotropic material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the orthotropic material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
-`youngsModulusX` ExpressionValueVariable
+`youngsModulusX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The Young's modulus of x-direction of the orthotropic material.
 
-`youngsModulusY` ExpressionValueVariable
+`youngsModulusY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The Young's modulus of y-direction of the orthotropic material.
 
-`youngsModulusZ` ExpressionValueVariable
+`youngsModulusZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The Young's modulus of z-direction of the orthotropic material.
 
-`poissonRatioXY` ExpressionValueVariable
+`poissonRatioXY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The xy-Poisson’s ratio of the orthotropic material.
 
-`poissonRatioYZ` ExpressionValueVariable
+`poissonRatioYZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The yz-Poisson’s ratio of the orthotropic material.
 
-`poissonRatioXZ` ExpressionValueVariable
+`poissonRatioXZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The xz-Poisson’s ratio of the orthotropic material.
 
-`shearModulusXY` ExpressionValueVariable
+`shearModulusXY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The xy-Shear modulus of the orthotropic material.
 
-`shearModulusYZ` ExpressionValueVariable
+`shearModulusYZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The yz-Shear modulus of the orthotropic material.
 
-`shearModulusXZ` ExpressionValueVariable
+`shearModulusXZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The xz-Shear modulus of the orthotropic material.
 
@@ -651,16 +652,16 @@ The new <xref href="VM.Managed.Material.Ortho" data-throw-if-not-resolved="false
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio', 'youngsModulusX', 'youngsModulusY', 'youngsModulusZ',
             'poissonRatioXY', 'poissonRatioYZ', 'poissonRatioXZ', 'shearModulusXY', 'shearModulusYZ', 'shearModulusXZ' values less than 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'poissonRatioXY', 'poissonRatioYZ', 'poissonRatioXZ' value is less than 0 or equal to 0.5 or more than 0.5.
 
@@ -678,7 +679,7 @@ public static Obj CreateORTHO(this IDocument document, string name)
 
 The document to create the orthotropic material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the orthotropic material.
 
@@ -703,23 +704,23 @@ public static Obj CreateOgden(this IDocument document, string name, ExpressionVa
 
 The document to create the ogden material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the ogden material.
 
-`density` ExpressionValueVariable
+`density` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The density of the ogden material.
 
-`dampingRatio` ExpressionValueVariable
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness proportional damping ratio for the nodal flexible and EasyFlex bodies.
 
-`disableHScaleFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disableHScaleFactor` bool
 
 A value indicating whether to disable H Scale factor or not.
 
-`ogdenContents` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[OgdenContents](VM.API.Pre.OgdenContents.md)\>
+`ogdenContents` IEnumerable<[OgdenContents](VM.API.Pre.OgdenContents.md)\>
 
 The ogden contents array.
 
@@ -731,11 +732,11 @@ The new <xref href="VM.Managed.Material.Ogden" data-throw-if-not-resolved="false
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'density', 'dampingRatio' values less than 0.
 
@@ -753,7 +754,7 @@ public static Obj CreateOgden(this IDocument document, string name)
 
 The document to create the ogden material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the ogden material.
 
@@ -780,7 +781,7 @@ public static Obj CreatePlasticBilinear(this IDocument document, string name, Ob
 
 The document to create the plastic bi-linear material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the plastic bi-linear material.
 
@@ -788,15 +789,15 @@ The name of the plastic bi-linear material.
 
 The linear elastic material.
 
-`et` ExpressionValueVariable
+`et` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The plastic hardening modulus.
 
-`initialYieldingStress` ExpressionValueVariable
+`initialYieldingStress` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The initial yielding stress.
 
-`linearKinematicHardening` ExpressionValueVariable
+`linearKinematicHardening` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The hardening type.
 
@@ -808,11 +809,11 @@ The new <xref href="VM.Managed.Material.PlasticBilinear" data-throw-if-not-resol
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'plasticHardeningModulus', 'initialYieldingStress', 'hardeningParameter' values less than 0.
 
@@ -830,7 +831,7 @@ public static Obj CreatePlasticBilinear(this IDocument document, string name, Ob
 
 The document to create the plastic bi-linear material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the plastic bi-linear material.
 
@@ -861,7 +862,7 @@ public static Obj CreatePlasticMultilinear(this IDocument document, string name,
 
 The document to create the plastic multi-linear material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the plastic multi-linear material.
 
@@ -869,11 +870,11 @@ The name of the plastic multi-linear material.
 
 The linear elastic material.
 
-`initialYieldingStress` ExpressionValueVariable
+`initialYieldingStress` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The initial yielding stress.
 
-`linearKinematicHardening` ExpressionValueVariable
+`linearKinematicHardening` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The hardening type.
 
@@ -889,15 +890,15 @@ The new <xref href="VM.Managed.Material.PlasticMultilinear" data-throw-if-not-re
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'plasticHardeningModulus', 'initialYieldingStress', 'hardeningParameter' values less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'spline' is not <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref>.
 
@@ -915,7 +916,7 @@ public static Obj CreatePlasticMultilinear(this IDocument document, string name,
 
 The document to create the plastic multi-linear material.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the plastic multi-linear material.
 
@@ -944,7 +945,7 @@ public static Obj CreateSplineForMaterial(this Obj material, IEnumerable<SplineD
 
 The material to be updated.
 
-`data` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<SplineData.Point\>
+`data` IEnumerable<[SplineData](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[Point](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\>
 
 The data of spline X, Y.
 
@@ -956,19 +957,19 @@ The new <xref href="VM.API.Pre.Obj" data-throw-if-not-resolved="false"></xref> o
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'material' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'material' argument is not empty and type of 'body' is not SolidBody or Body.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'material' is not <xref href="VM.Managed.Material.PlasticMultilinear" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.Material.Foam" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the document type of 'material' is not <xref href="VM.Managed.Document3D" data-throw-if-not-resolved="false"></xref>.
 

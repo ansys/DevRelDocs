@@ -1,4 +1,5 @@
-#  Class MbyNContact
+# Class MbyNContact
+<a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -9,10 +10,10 @@ public class MbyNContact : MultipleContactBase<MbyNContact>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<MbyNContact\> ← 
-BuilderSymmetric<MbyNContact\> ← 
-BuilderNamed<MbyNContact\> ← 
+object ← 
+[BuilderBase<MbyNContact\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<MbyNContact\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<MbyNContact\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [MultipleContactBase<MbyNContact\>](VM.Managed.DAFUL.Builder.Contact.MultipleContactBase\-1.md) ← 
 [MbyNContact](VM.Managed.DAFUL.Builder.Contact.MbyNContact.md)
 
@@ -26,29 +27,29 @@ IBuilder
 [MultipleContactBase<MbyNContact\>.GetContactType\(\)](VM.Managed.DAFUL.Builder.Contact.MultipleContactBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Contact\_MultipleContactBase\_1\_GetContactType), 
 [MultipleContactBase<MbyNContact\>.GetMultipleInfoList\(List<IContactable\>\)](VM.Managed.DAFUL.Builder.Contact.MultipleContactBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Contact\_MultipleContactBase\_1\_GetMultipleInfoList\_System\_Collections\_Generic\_List\_VM\_Managed\_DAFUL\_IContactable\_\_), 
 [MultipleContactBase<MbyNContact\>.IsAllowSwitch](VM.Managed.DAFUL.Builder.Contact.MultipleContactBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Contact\_MultipleContactBase\_1\_IsAllowSwitch), 
-BuilderNamed<MbyNContact\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<MbyNContact\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<MbyNContact\>.Name, 
-BuilderSymmetric<MbyNContact\>.Build\(Document\), 
-BuilderSymmetric<MbyNContact\>.Symmetric, 
-BuilderSymmetric<MbyNContact\>.CurrentSymmetric, 
-BuilderBase<MbyNContact\>.m\_bSuccess, 
-BuilderBase<MbyNContact\>.Build\(Document\), 
-BuilderBase<MbyNContact\>.Build\(Document, List<string\>\), 
-BuilderBase<MbyNContact\>.Validate\(IList<string\>\), 
-BuilderBase<MbyNContact\>.Success\(\), 
-BuilderBase<MbyNContact\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<MbyNContact\>.OnFinalBuild\(string, Document\), 
-BuilderBase<MbyNContact\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<MbyNContact\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<MbyNContact\>.Parameters, 
-BuilderBase<MbyNContact\>.AddToDoc, 
-BuilderBase<MbyNContact\>.UseChangedObject, 
-BuilderBase<MbyNContact\>.SetPointKey, 
-BuilderBase<MbyNContact\>.BuildObject, 
-BuilderBase<MbyNContact\>.BuildDocument, 
-BuilderBase<MbyNContact\>.UseInterface, 
-BuilderBase<MbyNContact\>.ErrorMessage
+[BuilderNamed<MbyNContact\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<MbyNContact\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<MbyNContact\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<MbyNContact\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<MbyNContact\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<MbyNContact\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MbyNContact\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ public string[] ActionList { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact_BaseList"></a> BaseList
 
@@ -84,7 +85,7 @@ public string[] BaseList { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact_IsAllowSwitch"></a> IsAllowSwitch
 
@@ -94,7 +95,7 @@ protected override bool IsAllowSwitch { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -112,5 +113,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

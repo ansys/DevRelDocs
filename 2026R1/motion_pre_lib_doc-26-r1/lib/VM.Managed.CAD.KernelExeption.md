@@ -1,4 +1,5 @@
-#  Class KernelExeption
+# Class KernelExeption
+<a id="VM_Managed_CAD_KernelExeption"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class KernelExeption : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [KernelExeption](VM.Managed.CAD.KernelExeption.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public KernelExeption(Exception innerException)
 
 #### Parameters
 
-`innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`innerException` Exception
 
 The inner exception.
 

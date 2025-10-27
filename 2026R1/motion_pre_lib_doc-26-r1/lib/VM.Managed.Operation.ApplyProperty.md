@@ -1,4 +1,5 @@
-#  Class ApplyProperty
+# Class ApplyProperty
+<a id="VM_Managed_Operation_ApplyProperty"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class ApplyProperty : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyProperty](VM.Managed.Operation.ApplyProperty.md)
 
@@ -85,7 +86,7 @@ public ApplyProperty(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 ## Properties
 
@@ -99,7 +100,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

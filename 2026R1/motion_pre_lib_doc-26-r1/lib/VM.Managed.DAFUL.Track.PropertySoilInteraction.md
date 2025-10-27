@@ -1,4 +1,5 @@
-#  Class PropertySoilInteraction
+# Class PropertySoilInteraction
+<a id="VM_Managed_DAFUL_Track_PropertySoilInteraction"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,13 +12,13 @@ public class PropertySoilInteraction : Property, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertySoilInteraction](VM.Managed.DAFUL.Track.PropertySoilInteraction.md)
 
 #### Implements
@@ -31,7 +32,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -40,12 +41,12 @@ IHasID
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -144,7 +145,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -189,7 +190,7 @@ public DynamicSinkageDefinition DynamicSinkage { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Dynamic Sinkage is null.
 
@@ -207,7 +208,7 @@ public NormalPressureFormulationBase NormalPressureFormulation { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Normal Pressure Formulation is null.
 
@@ -225,7 +226,7 @@ public ShearPressureFormulationBase ShearPressureFormulation { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Shear Pressure Formulation is null.
 
@@ -239,7 +240,7 @@ public string TypeOfSoil { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -257,13 +258,13 @@ public bool GenerateRDFFile(IDocument doc, string strFilePath)
 
 The document.
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_GenerateRDFFile_VM_Models_Pre_IDocument_VM_Models_Pre_IDocument_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_System_Double___VM_Managed_DAFUL_IContactableRigid3D_VM_Managed_DirectionBase_"></a> GenerateRDFFile\(IDocument, IDocument, string, string, Dictionary<string, List<double\>\>, IContactableRigid3D, DirectionBase\)
 
@@ -283,15 +284,15 @@ The current document.
 
 The soil document.
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path.
 
-`strSoilType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSoilType` string
 
 The soil type.
 
-`dicProperty` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
+`dicProperty` Dictionary<string, List<double\>\>
 
 The property information.
 
@@ -305,7 +306,7 @@ The vertical direction.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_GetSoilTypesFromInteractionFile_System_Collections_Generic_List_System_String___"></a> GetSoilTypesFromInteractionFile\(ref List<string\>\)
 
@@ -317,13 +318,13 @@ public static bool GetSoilTypesFromInteractionFile(ref List<string> lstSoilType)
 
 #### Parameters
 
-`lstSoilType` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSoilType` List<string\>
 
 The solid types
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -353,31 +354,31 @@ public static bool ReadInteractionFile(IDocument doc, ref string strSoilType, re
 
 The document
 
-`strSoilType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSoilType` string
 
 The soil type
 
-`nodeSoilParameter` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`nodeSoilParameter` XmlNode
 
 The soil paramter node
 
-`dFactorPressure` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFactorPressure` double
 
 The pressure factor(F/L^2)
 
-`dFactorSlope` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFactorSlope` double
 
 The slope factor(F/L)
 
-`dFactorLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFactorLength` double
 
 The length factor
 
-`dFactorForce` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFactorForce` double
 
 The force factor
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

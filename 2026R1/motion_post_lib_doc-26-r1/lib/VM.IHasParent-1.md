@@ -1,9 +1,10 @@
-#  Interface IHasParent<T\>
+# Interface IHasParent<T\>
+<a id="VM_IHasParent_1"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IHasParent<T>
 ```
 
@@ -15,12 +16,11 @@ public interface IHasParent<T>
 
 ### <a id="VM_IHasParent_1_Parent"></a> Parent
 
-```python
+```csharp
 T Parent { get; }
 ```
 
 #### Property Value
 
  T
-
 

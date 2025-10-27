@@ -8,10 +8,12 @@ This example demonstrates how to create a page.
 # OperationAPI_CreatingAPage.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -25,12 +27,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Add a new page
+# This will create a new page and activate it.
+# You can specify the page name when the page is created.
 page = applicationHandler.AddPage("FirstPage")
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
@@ -46,10 +53,12 @@ This example demonstrates how to find and delete a created page.
 # OperationAPI_FindingAndDeletingAPage.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -63,9 +72,13 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Create a page
+# Add a new page
+# This will create a new page and activate it.
+# You can specify the page name when the page is created.
 applicationHandler.AddPage("FirstPage")
 
 # Find a page
@@ -74,7 +87,8 @@ page = applicationHandler.GetPage("FirstPage")
 # Close a page
 applicationHandler.ClosePage(page.ID)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -85,7 +99,8 @@ for page in pages :
         if animationView.DocumentFilePath == result_file_path and animationView.AnalysisResultType == AnalysisResultType.Dynamics :
             findViews.append(animationView)
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
@@ -101,10 +116,12 @@ This example demonstrates how to move a view within a page.
 # OperationAPI_MovingAView.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -118,15 +135,31 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create View
+# result_file_path - Get the document from the result file path.
 document = applicationHandler.GetDocument(result_file_path)
+
+# This retrieves the analysis result from the document.
+# Types of Analysis Results
+# - Dynamics
+# - Eigenvalue
+# - Statics
 dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
+
+# Create an Animation View on the active page
+# This will create an animation view based on the dynamic analysis.
 animation = page.CreateAnimation(dynamic_analysis, "ResultAnimation")
+
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chart = page.CreateChart("Chart")
 
 # Moving a View

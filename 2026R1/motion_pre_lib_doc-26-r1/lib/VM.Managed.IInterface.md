@@ -1,4 +1,5 @@
-#  Interface IInterface
+# Interface IInterface
+<a id="VM_Managed_IInterface"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -27,7 +28,7 @@ bool IsInterface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

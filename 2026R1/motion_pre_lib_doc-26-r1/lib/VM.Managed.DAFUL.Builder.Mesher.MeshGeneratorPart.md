@@ -1,4 +1,5 @@
-#  Class MeshGeneratorPart
+# Class MeshGeneratorPart
+<a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Mesher](VM.Managed.DAFUL.Builder.Mesher.md)  
 Assembly: VMBldMesher.dll  
@@ -9,7 +10,7 @@ public class MeshGeneratorPart : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MeshGeneratorPart](VM.Managed.DAFUL.Builder.Mesher.MeshGeneratorPart.md)
 
 #### Implements
@@ -40,7 +41,7 @@ public bool AddToModelFlag { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_BuildObject"></a> BuildObject
 
@@ -60,7 +61,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_MeshFilePath"></a> MeshFilePath
 
@@ -70,7 +71,7 @@ public string MeshFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -94,7 +95,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `docToAdd` Document
 
-`lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSetPointKeys` List<string\>
 
 ### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_Success"></a> Success\(\)
 
@@ -104,7 +105,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -114,9 +115,9 @@ public bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

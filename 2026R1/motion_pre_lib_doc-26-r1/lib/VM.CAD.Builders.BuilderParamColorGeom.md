@@ -1,4 +1,5 @@
-#  Class BuilderParamColorGeom
+# Class BuilderParamColorGeom
+<a id="VM_CAD_Builders_BuilderParamColorGeom"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public abstract class BuilderParamColorGeom : BuilderParamBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md)
 

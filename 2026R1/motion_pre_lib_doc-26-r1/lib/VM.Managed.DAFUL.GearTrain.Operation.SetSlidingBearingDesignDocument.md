@@ -1,4 +1,5 @@
-#  Class SetSlidingBearingDesignDocument
+# Class SetSlidingBearingDesignDocument
+<a id="VM_Managed_DAFUL_GearTrain_Operation_SetSlidingBearingDesignDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class SetSlidingBearingDesignDocument : SetDesignDocumentBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SetDesignDocumentBase](VM.Managed.DAFUL.GearTrain.Operation.SetDesignDocumentBase.md) ← 
 [SetSlidingBearingDesignDocument](VM.Managed.DAFUL.GearTrain.Operation.SetSlidingBearingDesignDocument.md)
@@ -97,7 +98,7 @@ public SetSlidingBearingDesignDocument(SlidingBearing bearing)
 
 #### Parameters
 
-`bearing` SlidingBearing
+`bearing` [SlidingBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/SlidingBearing.cs)
 
 The bearing.
 

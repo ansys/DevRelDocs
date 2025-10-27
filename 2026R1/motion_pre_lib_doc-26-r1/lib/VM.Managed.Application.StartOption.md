@@ -1,4 +1,5 @@
-#  Class Application.StartOption
+# Class Application.StartOption
+<a id="VM_Managed_Application_StartOption"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public sealed class Application.StartOption
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Application.StartOption](VM.Managed.Application.StartOption.md)
 
 #### Extension Methods
@@ -32,15 +33,15 @@ public StartOption(string strTranslatorDirectory, string strKernelCoreModulePath
 
 #### Parameters
 
-`strTranslatorDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTranslatorDirectory` string
 
 The translator directory.
 
-`strKernelCoreModulePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKernelCoreModulePath` string
 
 The kernel core module path.
 
-`strHoopsExchangeDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strHoopsExchangeDirectory` string
 
 The Hoops Exchange path.
 
@@ -64,7 +65,7 @@ public bool GenerateHoopsCode { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Application_StartOption_HoopsExchangeDirectory"></a> HoopsExchangeDirectory
 
@@ -76,7 +77,7 @@ public string HoopsExchangeDirectory { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_StartOption_KernelCoreModulePath"></a> KernelCoreModulePath
 
@@ -88,7 +89,7 @@ public string KernelCoreModulePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_StartOption_KernelMessageCallback"></a> KernelMessageCallback
 
@@ -112,7 +113,7 @@ public int KernelMessageLogLevel { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Application_StartOption_StrideConvertPath"></a> StrideConvertPath
 
@@ -124,7 +125,7 @@ public string StrideConvertPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_StartOption_StrideDependencies"></a> StrideDependencies
 
@@ -136,7 +137,7 @@ public string StrideDependencies { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_StartOption_TranslatorDirectory"></a> TranslatorDirectory
 
@@ -148,7 +149,7 @@ public string TranslatorDirectory { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_StartOption_TranslatorMessageCallback"></a> TranslatorMessageCallback
 
@@ -172,7 +173,7 @@ public int TranslatorMessageLogLevel { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Application_StartOption_UsePID"></a> UsePID
 
@@ -184,5 +185,5 @@ public bool UsePID { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

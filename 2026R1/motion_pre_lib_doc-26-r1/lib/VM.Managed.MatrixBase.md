@@ -1,4 +1,5 @@
-#  Class MatrixBase
+# Class MatrixBase
+<a id="VM_Managed_MatrixBase"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class MatrixBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MatrixBase](VM.Managed.MatrixBase.md)
 
 #### Derived

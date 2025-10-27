@@ -1,4 +1,5 @@
-#  Class StepItemMetadataAttribute
+# Class StepItemMetadataAttribute
+<a id="VM_Models_StepItemMetadataAttribute"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -11,9 +12,9 @@ public class StepItemMetadataAttribute : ExportAttribute, IStepItemMetadata
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
-[ExportAttribute](https://learn.microsoft.com/dotnet/api/system.composition.exportattribute) ← 
+object ← 
+Attribute ← 
+ExportAttribute ← 
 [StepItemMetadataAttribute](VM.Models.StepItemMetadataAttribute.md)
 
 #### Implements
@@ -36,7 +37,7 @@ public StepItemMetadataAttribute(Type stepType)
 
 #### Parameters
 
-`stepType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`stepType` Type
 
 ## Properties
 
@@ -48,5 +49,5 @@ public Type StepType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 

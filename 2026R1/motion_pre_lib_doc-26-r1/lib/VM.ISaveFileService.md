@@ -1,4 +1,5 @@
-#  Interface ISaveFileService
+# Interface ISaveFileService
+<a id="VM_ISaveFileService"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -27,5 +28,5 @@ bool ShowDialog()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

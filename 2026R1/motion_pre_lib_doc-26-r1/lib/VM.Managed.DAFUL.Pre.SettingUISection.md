@@ -1,4 +1,5 @@
-#  Class SettingUISection
+# Class SettingUISection
+<a id="VM_Managed_DAFUL_Pre_SettingUISection"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class SettingUISection
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SettingUISection](VM.Managed.DAFUL.Pre.SettingUISection.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public string Page { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingUISection_PageType"></a> PageType
 
@@ -54,7 +55,7 @@ public Type PageType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingUISection_SettingType"></a> SettingType
 
@@ -66,7 +67,7 @@ public Type SettingType { get; set; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingUISection_SubSections"></a> SubSections
 

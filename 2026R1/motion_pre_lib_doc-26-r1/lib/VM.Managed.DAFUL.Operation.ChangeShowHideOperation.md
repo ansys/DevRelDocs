@@ -1,4 +1,5 @@
-#  Class ChangeShowHideOperation
+# Class ChangeShowHideOperation
+<a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ChangeShowHideOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ChangeShowHideOperation](VM.Managed.DAFUL.Operation.ChangeShowHideOperation.md)
 
@@ -85,9 +86,9 @@ public ChangeShowHideOperation(bool bVisible, bool bGround)
 
 #### Parameters
 
-`bVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bVisible` bool
 
-`bGround` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGround` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeShowHideOperation\(JournalParameter\)
 
@@ -109,7 +110,7 @@ protected override bool ExecutableOnHold { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation_Name"></a> Name
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -141,5 +142,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

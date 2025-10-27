@@ -1,4 +1,5 @@
-#  Enum MotorDesigner.HousingSection.Rib
+# Enum MotorDesigner.HousingSection.Rib
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_Rib"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

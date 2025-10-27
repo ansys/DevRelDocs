@@ -1,4 +1,5 @@
-#  Interface IOrientationBase
+# Interface IOrientationBase
+<a id="VM_IOrientationBase"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -33,7 +34,7 @@ IList<double> RotationAngles { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ IList<double\>
 
 ### <a id="VM_IOrientationBase_RotationAxes"></a> RotationAxes
 

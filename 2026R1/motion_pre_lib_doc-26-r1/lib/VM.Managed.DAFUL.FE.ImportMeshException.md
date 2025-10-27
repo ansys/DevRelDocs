@@ -1,4 +1,5 @@
-#  Class ImportMeshException
+# Class ImportMeshException
+<a id="VM_Managed_DAFUL_FE_ImportMeshException"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,8 +12,8 @@ public class ImportMeshException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [ImportMeshException](VM.Managed.DAFUL.FE.ImportMeshException.md)
 
 #### Extension Methods
@@ -31,5 +32,5 @@ public ImportMeshException(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 

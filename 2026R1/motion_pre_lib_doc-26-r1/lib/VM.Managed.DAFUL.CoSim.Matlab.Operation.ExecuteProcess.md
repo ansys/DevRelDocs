@@ -1,4 +1,5 @@
-#  Class ExecuteProcess
+# Class ExecuteProcess
+<a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExecuteProcess"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab.Operation](VM.Managed.DAFUL.CoSim.Matlab.Operation.md)  
 Assembly: VMOpCoSimMatlab.dll  
@@ -9,7 +10,7 @@ public class ExecuteProcess : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ExecuteProcess](VM.Managed.DAFUL.CoSim.Matlab.Operation.ExecuteProcess.md)
 
@@ -95,19 +96,19 @@ public ExecuteProcess(Document doc, string strInterfaceTimeStep, string strMFile
 
 `doc` Document
 
-`strInterfaceTimeStep` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfaceTimeStep` string
 
-`strMFileFullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMFileFullPath` string
 
-`lstInputSeq` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstInputSeq` IEnumerable<int\>
 
-`lstOutputSeq` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstOutputSeq` IEnumerable<int\>
 
-`strSInput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSInput` string
 
-`strSOutput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSOutput` string
 
-`strInterfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfacePath` string
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExecuteProcess__ctor_VM_Managed_Document_System_String_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Collections_Generic_IEnumerable_System_Int32__System_String_System_String_System_String_System_String_System_String_"></a> ExecuteProcess\(Document, string, string, IEnumerable<int\>, IEnumerable<int\>, string, string, string, string, string\)
 
@@ -119,23 +120,23 @@ public ExecuteProcess(Document doc, string strInterfaceTimeStep, string strMFile
 
 `doc` Document
 
-`strInterfaceTimeStep` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfaceTimeStep` string
 
-`strMFileFullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMFileFullPath` string
 
-`lstInputSeq` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstInputSeq` IEnumerable<int\>
 
-`lstOutputSeq` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstOutputSeq` IEnumerable<int\>
 
-`strSInput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSInput` string
 
-`strSOutput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSOutput` string
 
-`strInterfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfacePath` string
 
-`strScaleFactor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strScaleFactor` string
 
-`strMessageLevel` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessageLevel` string
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExecuteProcess__ctor_VM_Managed_Document_System_String_System_String_System_Collections_Generic_List_System_Int32__System_Collections_Generic_List_System_Int32__System_String_System_String_System_Boolean_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__"></a> ExecuteProcess\(Document, string, string, List<int\>, List<int\>, string, string, bool, List<string\>, List<string\>\)
 
@@ -147,23 +148,23 @@ public ExecuteProcess(Document doc, string strInterfaceTimeStep, string strMFile
 
 `doc` Document
 
-`strInterfaceTimeStep` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfaceTimeStep` string
 
-`strMFileFullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMFileFullPath` string
 
-`lstInputSeq` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstInputSeq` List<int\>
 
-`lstOutputSeq` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstOutputSeq` List<int\>
 
-`strSInput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSInput` string
 
-`strSOutput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSOutput` string
 
-`bExternalCall` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bExternalCall` bool
 
-`lstExternalSInputNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstExternalSInputNames` List<string\>
 
-`lstExternalSOutputNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstExternalSOutputNames` List<string\>
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExecuteProcess__ctor_VM_Managed_Document_System_String_System_String_System_Collections_Generic_List_System_Int32__System_Collections_Generic_List_System_Int32__System_String_System_String_System_Boolean_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__System_String_System_String_"></a> ExecuteProcess\(Document, string, string, List<int\>, List<int\>, string, string, bool, List<string\>, List<string\>, string, string\)
 
@@ -175,27 +176,27 @@ public ExecuteProcess(Document doc, string strInterfaceTimeStep, string strMFile
 
 `doc` Document
 
-`strInterfaceTimeStep` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfaceTimeStep` string
 
-`strMFileFullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMFileFullPath` string
 
-`lstInputSeq` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstInputSeq` List<int\>
 
-`lstOutputSeq` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstOutputSeq` List<int\>
 
-`strSInput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSInput` string
 
-`strSOutput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSOutput` string
 
-`bExternalCall` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bExternalCall` bool
 
-`lstExternalSInputNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstExternalSInputNames` List<string\>
 
-`lstExternalSOutputNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstExternalSOutputNames` List<string\>
 
-`strScaleFactor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strScaleFactor` string
 
-`strMessageLevel` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessageLevel` string
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExecuteProcess__ctor_VM_Managed_Operation_JournalParameter_"></a> ExecuteProcess\(JournalParameter\)
 
@@ -219,7 +220,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -239,7 +240,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExecuteProcess_Success"></a> Success\(\)
 
@@ -251,5 +252,5 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

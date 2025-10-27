@@ -1,4 +1,5 @@
-#  Class Filter
+# Class Filter
+<a id="VM_CAD_Kernel_Filter"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Filter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Filter](VM.CAD.Kernel.Filter.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public string description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Filter_extension"></a> extension
 

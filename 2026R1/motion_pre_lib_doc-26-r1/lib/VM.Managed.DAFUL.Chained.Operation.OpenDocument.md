@@ -1,4 +1,5 @@
-#  Class OpenDocument
+# Class OpenDocument
+<a id="VM_Managed_DAFUL_Chained_Operation_OpenDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class OpenDocument : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OpenDocument](VM.Managed.DAFUL.Chained.Operation.OpenDocument.md)
 
@@ -87,11 +88,11 @@ public OpenDocument(string strFullPath, bool bDuplication, UCTrackPlacing placin
 
 #### Parameters
 
-`strFullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullPath` string
 
 The string full path.
 
-`bDuplication` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDuplication` bool
 
 if set to <code>true</code> [b duplication].
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,7 +134,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

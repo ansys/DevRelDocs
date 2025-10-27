@@ -1,4 +1,5 @@
-#  Class AnalysisStaticLoad.OverturningTorque
+# Class AnalysisStaticLoad.OverturningTorque
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_OverturningTorque"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisStaticLoad.OverturningTorque : AnalysisStaticLoad.StaticRoa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisStaticLoad.StaticRoadBaseInfo](VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBaseInfo.md) ← 
 [AnalysisStaticLoad.OverturningTorque](VM.Managed.DAFUL.Car.AnalysisStaticLoad.OverturningTorque.md)
 

@@ -1,4 +1,5 @@
-#  Class ObjectBase
+# Class ObjectBase
+<a id="VM_Managed_ObjectBase"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public abstract class ObjectBase : LinkableBase, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md)
 
 #### Derived
@@ -34,11 +35,11 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs)
 
 #### Inherited Members
 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -77,11 +78,11 @@ protected ObjectBase(SerializationInfo info, StreamingContext __unnamed001)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`__unnamed001` StreamingContext
 
 ## Properties
 
@@ -95,7 +96,7 @@ virtual bool ClearChildInfoBeforeDeserialize { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectBase_Container"></a> Container
 
@@ -143,7 +144,7 @@ virtual bool IsChildExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectBase_IsExternable"></a> IsExternable
 
@@ -155,7 +156,7 @@ virtual bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectBase_KernelKey"></a> KernelKey
 
@@ -189,7 +190,7 @@ UIntPtr KeyImpl { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Managed_ObjectBase_ObjectState"></a> ObjectState
 
@@ -237,7 +238,7 @@ protected bool SkipModified { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectBase_TopologyEntityTypeName"></a> TopologyEntityTypeName
 
@@ -249,7 +250,7 @@ public virtual string TopologyEntityTypeName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_ObjectBase_UntypedEventCore"></a> UntypedEventCore
 
@@ -275,7 +276,7 @@ protected void AddPostDeserialize(StreamingContext context)
 
 #### Parameters
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The <xref href="System.Runtime.Serialization.StreamingContext" data-throw-if-not-resolved="false"></xref>.
 
@@ -287,7 +288,7 @@ protected virtual void CheckAndUpdateLink(HashSet<ObjectBase> lstObj)
 
 #### Parameters
 
-`lstObj` [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstObj` HashSet<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_ObjectBase_ConnectProxy"></a> ConnectProxy\(\)
 
@@ -303,7 +304,7 @@ protected void CreateEntityWhenUpdateContents(Action action)
 
 #### Parameters
 
-`action` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`action` Action
 
 ### <a id="VM_Managed_ObjectBase_CustomGetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> CustomGetObjectData\(SerializationInfo, StreamingContext\)
 
@@ -315,11 +316,11 @@ protected virtual void CustomGetObjectData(SerializationInfo info, StreamingCont
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -333,7 +334,7 @@ public void DestroyObject(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The event notifier.
 
@@ -372,7 +373,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_ObjectBase_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
@@ -400,7 +401,7 @@ public static ObjectBase FindObjectOnXmlDeserialize(string strFullName)
 
 #### Parameters
 
-`strFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullName` string
 
 The fullname.
 
@@ -426,7 +427,7 @@ The old object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -438,7 +439,7 @@ public virtual void GetArgumentList(LinkedList<ObjectBase> lstObj)
 
 #### Parameters
 
-`lstObj` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstObj` LinkedList<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_ObjectBase_GetDestroyEventExtraData"></a> GetDestroyEventExtraData\(\)
 
@@ -448,7 +449,7 @@ protected virtual object GetDestroyEventExtraData()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_ObjectBase_GetObjectByKey_System_UIntPtr_"></a> GetObjectByKey\(UIntPtr\)
 
@@ -460,7 +461,7 @@ public static ObjectBase GetObjectByKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key.
 
@@ -480,7 +481,7 @@ virtual List<IEventProvider> GetTargetListForUpdate()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
+ List<IEventProvider\>
 
 ### <a id="VM_Managed_ObjectBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -516,7 +517,7 @@ The array B.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 
@@ -530,13 +531,13 @@ public static bool IsEqualList(List<double> lstA, List<double> lstB)
 
 #### Parameters
 
-`lstA` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstA` List<double\>
 
-`lstB` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstB` List<double\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectBase_IsSerializableEvent_System_Delegate_"></a> IsSerializableEvent\(Delegate\)
 
@@ -548,13 +549,13 @@ protected virtual bool IsSerializableEvent(Delegate del)
 
 #### Parameters
 
-`del` [Delegate](https://learn.microsoft.com/dotnet/api/system.delegate)
+`del` Delegate
 
 The delegate.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [serializable event] [the specified delegate]; otherwise, <code>false</code>.
 
@@ -568,7 +569,7 @@ protected virtual void LinkAddedToDocument(object objNotifier, AddToDocEventArgs
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -586,7 +587,7 @@ protected virtual void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
 
 `owner` IOwned
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ### <a id="VM_Managed_ObjectBase_LinkRemovedFromDocument_System_Object_VM_Managed_RemoveFromDocEventArgs_"></a> LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
 
@@ -598,7 +599,7 @@ protected virtual void LinkRemovedFromDocument(object objNotifier, RemoveFromDoc
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -616,7 +617,7 @@ protected virtual void LinkRequestDestroy(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -634,7 +635,7 @@ protected virtual void LinkRequestDestroying(object objNotifier, LinkEventArgs a
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -652,7 +653,7 @@ protected virtual void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -670,7 +671,7 @@ protected virtual void LinkRequestUpdating(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -688,7 +689,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -702,9 +703,9 @@ protected virtual void OnLinkReserved(ILink A_0, object A_1, EventArgs A_2)
 
 `A_0` [ILink](VM.Managed.ILink.md)
 
-`A_1` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`A_1` object
 
-`A_2` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`A_2` EventArgs
 
 ### <a id="VM_Managed_ObjectBase_PostAddToDocument"></a> PostAddToDocument\(\)
 
@@ -765,7 +766,7 @@ public virtual void SetContainer(IOwned obOwner, bool bBackup)
 
 `obOwner` IOwned
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ### <a id="VM_Managed_ObjectBase_SetFlagWhenXMLFile_System_String_System_Boolean_"></a> SetFlagWhenXMLFile\(string, bool\)
 
@@ -777,11 +778,11 @@ public static void SetFlagWhenXMLFile(string strFilePath, bool bValue)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path.
 
-`bValue` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bValue` bool
 
 The flag.
 
@@ -795,7 +796,7 @@ public virtual void SetIconColor(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 
@@ -875,7 +876,7 @@ virtual bool SkipUpdateObjectImpl()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectBase_UpdateContents_System_Xml_XmlReader_VM_Managed_ObjectBase_System_String_"></a> UpdateContents\(XmlReader, ObjectBase, string\)
 
@@ -887,7 +888,7 @@ public static ObjectBase UpdateContents(XmlReader reader, ObjectBase obOld, stri
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader for object information.
 
@@ -895,7 +896,7 @@ The reader for object information.
 
 The old object.
 
-`strRootElement` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRootElement` string
 
 The root element name.
 
@@ -915,7 +916,7 @@ public static ObjectBase UpdateContents(XmlReader reader, ObjectBase obOld)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader for object information.
 
@@ -939,11 +940,11 @@ public static ObjectBase UpdateContents(string strXml, string strRootElement)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The xml for object information.
 
-`strRootElement` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRootElement` string
 
 The root element name.
 
@@ -963,7 +964,7 @@ public static ObjectBase UpdateContents(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The xml for object information.
 
@@ -995,7 +996,7 @@ public void raise_Destroying(object sender, Identifier args)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 `args` Identifier
 
@@ -1007,7 +1008,7 @@ public void raise_OnAdded(object objNotifier, AddToDocEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)
 
@@ -1019,9 +1020,9 @@ protected void raise_OnContentsUpdated(object value0, EventArgs value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
-`value1` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`value1` EventArgs
 
 ### <a id="VM_Managed_ObjectBase_raise_OnDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> raise\_OnDestroy\(object, LinkEventArgs\)
 
@@ -1031,7 +1032,7 @@ public void raise_OnDestroy(object objNotifier, LinkEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -1043,7 +1044,7 @@ public void raise_OnDestroying(object objNotifier, LinkEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -1055,7 +1056,7 @@ public void raise_OnRemoved(object obj, RemoveFromDocEventArgs args)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 `args` [RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)
 
@@ -1067,7 +1068,7 @@ public void raise_OnUpdate(object objNotifier, LinkEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -1079,7 +1080,7 @@ public void raise_OnUpdating(object objNotifier, LinkEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -1093,7 +1094,7 @@ public event EventHandler<Identifier> Destroying
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Managed_ObjectBase_OnAdded"></a> OnAdded
 
@@ -1105,7 +1106,7 @@ public event EventHandler<AddToDocEventArgs> OnAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)\>
+ EventHandler<[AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)\>
 
 ### <a id="VM_Managed_ObjectBase_OnContentsUpdated"></a> OnContentsUpdated
 
@@ -1115,7 +1116,7 @@ public event EventHandler OnContentsUpdated
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="VM_Managed_ObjectBase_OnDestroy"></a> OnDestroy
 
@@ -1127,7 +1128,7 @@ public event EventHandler<LinkEventArgs> OnDestroy
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ObjectBase_OnDestroying"></a> OnDestroying
 
@@ -1139,7 +1140,7 @@ public event EventHandler<LinkEventArgs> OnDestroying
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ObjectBase_OnRemoved"></a> OnRemoved
 
@@ -1151,7 +1152,7 @@ public event EventHandler<RemoveFromDocEventArgs> OnRemoved
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)\>
+ EventHandler<[RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)\>
 
 ### <a id="VM_Managed_ObjectBase_OnUpdate"></a> OnUpdate
 
@@ -1163,7 +1164,7 @@ public event EventHandler<LinkEventArgs> OnUpdate
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ObjectBase_OnUpdating"></a> OnUpdating
 
@@ -1175,7 +1176,7 @@ public event EventHandler<LinkEventArgs> OnUpdating
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ## Operators
 
@@ -1189,7 +1190,7 @@ public static implicit operator ObjectBase(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key.
 
@@ -1213,5 +1214,5 @@ The object.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 

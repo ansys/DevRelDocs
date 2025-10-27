@@ -1,11 +1,12 @@
-#  Enum AdditionModes
+# Enum AdditionModes
+<a id="VM_AdditionModes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 This enumerator represent the selection mode of the picker
 
-```python
+```csharp
 public enum AdditionModes
 ```
 
@@ -32,7 +33,6 @@ Subtract from current selection mode
 `Toggle = 3` 
 
 Toggle selection mode
-
 
 
 

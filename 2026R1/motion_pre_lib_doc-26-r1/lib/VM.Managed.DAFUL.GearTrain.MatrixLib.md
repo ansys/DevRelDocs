@@ -1,4 +1,5 @@
-#  Class MatrixLib
+# Class MatrixLib
+<a id="VM_Managed_DAFUL_GearTrain_MatrixLib"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -9,7 +10,7 @@ public class MatrixLib
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MatrixLib](VM.Managed.DAFUL.GearTrain.MatrixLib.md)
 
 #### Extension Methods

@@ -1,4 +1,5 @@
-#  Class BodyLink
+# Class BodyLink
+<a id="VM_Managed_CAD_Track_BodyLink"></a>
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,9 +12,9 @@ public class BodyLink : Body, IObservableObject, IDisposableObject, ILinkable, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Body ← 
@@ -30,7 +31,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IReferencable, 
 ITransformable, 
@@ -269,7 +270,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -322,11 +323,11 @@ public override bool CheckValidationAboutBuild(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Track_BodyLink_GetFaceList_Bush"></a> GetFaceList\_Bush\(\)
 
@@ -338,7 +339,7 @@ public List<Face> GetFaceList_Bush()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Face\>
+ List<Face\>
 
 The list of face
 
@@ -352,7 +353,7 @@ public List<Face> GetFaceList_Flange()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Face\>
+ List<Face\>
 
 The list of face
 
@@ -366,7 +367,7 @@ public List<Face> GetFaceList_Tread()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Face\>
+ List<Face\>
 
 The list of face
 
@@ -380,7 +381,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The obj notifier.
 
@@ -398,7 +399,7 @@ public BodyLink ReGenerateBodyInformation(XmlDocument dom)
 
 #### Parameters
 
-`dom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`dom` XmlDocument
 
 The data xml of roller
 
@@ -418,7 +419,7 @@ protected override void RebuildGeometry(object objBuilder, LinkEventArgs args)
 
 #### Parameters
 
-`objBuilder` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objBuilder` object
 
 The builder.
 

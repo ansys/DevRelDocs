@@ -1,4 +1,5 @@
-#  Class DocCreateFullCarAnalysisInfoExceptWheel
+# Class DocCreateFullCarAnalysisInfoExceptWheel
+<a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class DocCreateFullCarAnalysisInfoExceptWheel : DocCreateCarAnal
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocFromTemplateInfo ← 
 [DocCreateCarAnalysisInfo](VM.Managed.DAFUL.Car.DocCreateCarAnalysisInfo.md) ← 
@@ -62,7 +63,7 @@ public string AssemblyPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_BodyPath"></a> BodyPath
 
@@ -74,7 +75,7 @@ public string BodyPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_BrakePath"></a> BrakePath
 
@@ -86,7 +87,7 @@ public string BrakePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_FrontSuspensionPath"></a> FrontSuspensionPath
 
@@ -98,7 +99,7 @@ public string FrontSuspensionPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_IsBreak"></a> IsBreak
 
@@ -110,7 +111,7 @@ public bool IsBreak { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_IsOther"></a> IsOther
 
@@ -122,7 +123,7 @@ public bool IsOther { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_IsPowerTrain"></a> IsPowerTrain
 
@@ -134,7 +135,7 @@ public bool IsPowerTrain { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_OtherPath"></a> OtherPath
 
@@ -146,7 +147,7 @@ public string OtherPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_PowerTrainPath"></a> PowerTrainPath
 
@@ -158,7 +159,7 @@ public string PowerTrainPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_RearSuspensionPath"></a> RearSuspensionPath
 
@@ -170,7 +171,7 @@ public string RearSuspensionPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_SteeringPath"></a> SteeringPath
 
@@ -182,7 +183,7 @@ public string SteeringPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_TestRigPath"></a> TestRigPath
 
@@ -194,5 +195,5 @@ public string TestRigPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

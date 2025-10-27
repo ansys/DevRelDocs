@@ -1,4 +1,5 @@
-#  Class UpdatePointEntity
+# Class UpdatePointEntity
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntity"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdatePointEntity : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdatePointEntity](VM.Managed.DAFUL.GearTrain.Operation.UpdatePointEntity.md)
@@ -94,7 +95,7 @@ public UpdatePointEntity(PointEntityOnShaftSet pl)
 
 #### Parameters
 
-`pl` PointEntityOnShaftSet
+`pl` [PointEntityOnShaftSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntity__ctor_VM_Managed_Document3D_VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_"></a> UpdatePointEntity\(Document3D, PointEntityOnShaftSet\)
 
@@ -110,7 +111,7 @@ public UpdatePointEntity(Document3D document3D, PointEntityOnShaftSet pl)
 
 The document.
 
-`pl` PointEntityOnShaftSet
+`pl` [PointEntityOnShaftSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs)
 
 The point entity.
 
@@ -148,7 +149,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

@@ -1,4 +1,5 @@
-#  Class SolidBodyMultiUnite
+# Class SolidBodyMultiUnite
+<a id="VM_Managed_Symmetric_CAD_SolidBodyMultiUnite"></a>
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class SolidBodyMultiUnite : SolidBodyMulti, ISymmetricMultiBuilder, ISymm
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SolidBodyMulti](VM.Managed.Symmetric.CAD.SolidBodyMulti.md) ← 
 [SolidBodyMultiUnite](VM.Managed.Symmetric.CAD.SolidBodyMultiUnite.md)
 
@@ -52,7 +53,7 @@ public virtual bool Initialize(ISymmetricManager Manager)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -86,7 +87,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

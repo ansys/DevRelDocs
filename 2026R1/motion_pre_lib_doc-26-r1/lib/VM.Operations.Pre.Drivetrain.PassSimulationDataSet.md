@@ -1,4 +1,5 @@
-#  Class PassSimulationDataSet
+# Class PassSimulationDataSet
+<a id="VM_Operations_Pre_Drivetrain_PassSimulationDataSet"></a>
 
 Namespace: [VM.Operations.Pre.Drivetrain](VM.Operations.Pre.Drivetrain.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class PassSimulationDataSet : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [PassSimulationDataSet](VM.Operations.Pre.Drivetrain.PassSimulationDataSet.md)
 
@@ -83,9 +84,9 @@ public PassSimulationDataSet(string documentPath, string jsonPath)
 
 #### Parameters
 
-`documentPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentPath` string
 
-`jsonPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`jsonPath` string
 
 ## Properties
 
@@ -107,7 +108,7 @@ public string JsonPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Operations_Pre_Drivetrain_PassSimulationDataSet_Name"></a> Name
 
@@ -119,7 +120,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

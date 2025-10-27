@@ -1,4 +1,5 @@
-#  Interface ISession
+# Interface ISession
+<a id="VM_CAD_Kernel_ISession"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

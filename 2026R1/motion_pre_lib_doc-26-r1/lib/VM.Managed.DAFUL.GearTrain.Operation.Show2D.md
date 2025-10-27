@@ -1,4 +1,5 @@
-#  Class Show2D
+# Class Show2D
+<a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class Show2D : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [Show2D](VM.Managed.DAFUL.GearTrain.Operation.Show2D.md)
 
@@ -109,7 +110,7 @@ public Show2D(XmlElement nodeArg)
 
 #### Parameters
 
-`nodeArg` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`nodeArg` XmlElement
 
 The node argument.
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -147,7 +148,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

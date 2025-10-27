@@ -1,4 +1,5 @@
-#  Class FilteringTarget
+# Class FilteringTarget
+<a id="VM_Managed_Picker_Core_FilteringTarget"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class FilteringTarget
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FilteringTarget](VM.Managed.Picker.Core.FilteringTarget.md)
 
 #### Extension Methods
@@ -46,7 +47,7 @@ public bool IsReplace { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_FilteringTarget_OriginalObject"></a> OriginalObject
 

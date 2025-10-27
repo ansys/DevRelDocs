@@ -1,4 +1,5 @@
-#  Interface IHasParent
+# Interface IHasParent
+<a id="VM_IHasParent"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,5 +24,5 @@ object Parent { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 

@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.MeshFree.Operation
+# Namespace VM.Managed.DAFUL.MeshFree.Operation
+<a id="VM_Managed_DAFUL_MeshFree_Operation"></a>
 
 ### Classes
 
@@ -57,6 +58,10 @@ The export post dfg file operation
  [PartExportDFS](VM.Managed.DAFUL.MeshFree.Operation.PartExportDFS.md)
 
 The export post dfs file operation
+
+ [PartExportFiles](VM.Managed.DAFUL.MeshFree.Operation.PartExportFiles.md)
+
+ [PartExportMotionFiles](VM.Managed.DAFUL.MeshFree.Operation.PartExportMotionFiles.md)
 
  [PartExportXML](VM.Managed.DAFUL.MeshFree.Operation.PartExportXML.md)
 

@@ -1,4 +1,5 @@
-#  Interface IUpdateNavigator
+# Interface IUpdateNavigator
+<a id="VM_Managed_DAFUL_Pre_IUpdateNavigator"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

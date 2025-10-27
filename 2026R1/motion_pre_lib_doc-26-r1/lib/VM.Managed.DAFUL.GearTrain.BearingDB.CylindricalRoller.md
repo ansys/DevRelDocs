@@ -1,4 +1,5 @@
-#  Class CylindricalRoller
+# Class CylindricalRoller
+<a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class CylindricalRoller : DBRecordForBearing
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Record ← 
-DBRecord ← 
+object ← 
+[Record](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
+[DBRecord](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
 [DBRecordForBearing](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md) ← 
 [CylindricalRoller](VM.Managed.DAFUL.GearTrain.BearingDB.CylindricalRoller.md)
 
@@ -26,7 +27,7 @@ DBRecord ←
 [DBRecordForBearing.Bore](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Bore), 
 [DBRecordForBearing.OutDia](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_OutDia), 
 [DBRecordForBearing.Width](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Width), 
-Record.RecordNo
+[Record.RecordNo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs)
 
 #### Extension Methods
 
@@ -55,7 +56,7 @@ public double? C0r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_Cr"></a> Cr
 
@@ -68,7 +69,7 @@ public double? Cr
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_IRSDia"></a> IRSDia
 
@@ -81,7 +82,7 @@ public double? IRSDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_LS"></a> LS
 
@@ -94,7 +95,7 @@ public double? LS
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_Mass"></a> Mass
 
@@ -107,7 +108,7 @@ public double? Mass
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_ORSBore"></a> ORSBore
 
@@ -120,7 +121,7 @@ public double? ORSBore
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_Pu"></a> Pu
 
@@ -133,7 +134,7 @@ public double? Pu
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RS"></a> RS
 
@@ -146,7 +147,7 @@ public double? RS
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RolDia"></a> RolDia
 
@@ -159,7 +160,7 @@ public double? RolDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RolLen"></a> RolLen
 
@@ -172,7 +173,7 @@ public double? RolLen
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RolPDia"></a> RolPDia
 
@@ -185,7 +186,7 @@ public double? RolPDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RoundR"></a> RoundR
 
@@ -198,7 +199,7 @@ public double? RoundR
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_nRoller"></a> nRoller
 
@@ -211,7 +212,7 @@ public int? nRoller
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ## Methods
 
@@ -267,15 +268,15 @@ public void UnitConvert(ref CylindricalRoller br, double dLengthFactor, double d
 
 The target bearing.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
-`dForceFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dForceFactor` double
 
 The force factor.
 
-`dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMassFactor` double
 
 The mass factor.
 

@@ -1,9 +1,10 @@
-#  Interface IHasFilterPropertyName
+# Interface IHasFilterPropertyName
+<a id="VM_IHasFilterPropertyName"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IHasFilterPropertyName
 ```
 
@@ -11,12 +12,11 @@ public interface IHasFilterPropertyName
 
 ### <a id="VM_IHasFilterPropertyName_FilterPropertyName"></a> FilterPropertyName
 
-```python
+```csharp
 string FilterPropertyName { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
+ string
 

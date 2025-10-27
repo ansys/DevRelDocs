@@ -1,4 +1,5 @@
-#  Class XmlSliceInfo
+# Class XmlSliceInfo
+<a id="VM_Managed_DAFUL_XmlSliceInfo"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -11,7 +12,7 @@ public class XmlSliceInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [XmlSliceInfo](VM.Managed.DAFUL.XmlSliceInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public double MaxAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_XmlSliceInfo_MaxLength"></a> MaxLength
 
@@ -52,7 +53,7 @@ public double MaxLength { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_XmlSliceInfo_MaxTolerance"></a> MaxTolerance
 
@@ -64,7 +65,7 @@ public double MaxTolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_XmlSliceInfo_StrMaxAngle"></a> StrMaxAngle
 
@@ -76,7 +77,7 @@ public string StrMaxAngle { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_XmlSliceInfo_StrMaxLength"></a> StrMaxLength
 
@@ -88,7 +89,7 @@ public string StrMaxLength { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_XmlSliceInfo_StrMaxTolerance"></a> StrMaxTolerance
 
@@ -100,5 +101,5 @@ public string StrMaxTolerance { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

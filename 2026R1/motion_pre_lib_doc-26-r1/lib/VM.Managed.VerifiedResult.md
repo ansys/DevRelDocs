@@ -1,4 +1,5 @@
-#  Class VerifiedResult
+# Class VerifiedResult
+<a id="VM_Managed_VerifiedResult"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class VerifiedResult
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [VerifiedResult](VM.Managed.VerifiedResult.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public int Level { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_VerifiedResult_TypeOfResult"></a> TypeOfResult
 
@@ -82,7 +83,7 @@ public string[] GetAllErrors()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 The error list.
 

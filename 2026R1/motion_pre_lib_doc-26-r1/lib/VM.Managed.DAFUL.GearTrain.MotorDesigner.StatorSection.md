@@ -1,4 +1,5 @@
-#  Class MotorDesigner.StatorSection
+# Class MotorDesigner.StatorSection
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class MotorDesigner.StatorSection : LinkContainer, IObservableObject, IDi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MotorDesigner.StatorSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -206,31 +207,31 @@ public void GetRelatedHousingBuilderInfo(out Vector StartPosition, out double De
 
 The start position
 
-`Depth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`Depth` double
 
 The depth
 
-`IsExistMounting` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`IsExistMounting` bool
 
 The mounting exist flag
 
-`NumberOfSlot` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NumberOfSlot` int
 
 The number of slot
 
-`NumberOfMounting` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NumberOfMounting` int
 
 The number of mounting
 
-`MPCR` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`MPCR` double
 
 The MPCR
 
-`Rmo` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`Rmo` double
 
 The Rmo
 
-`RotateAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`RotateAngle` double
 
 The Rotate angle
 

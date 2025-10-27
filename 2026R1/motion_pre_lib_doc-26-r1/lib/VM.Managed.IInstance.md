@@ -1,4 +1,5 @@
-#  Interface IInstance
+# Interface IInstance
+<a id="VM_Managed_IInstance"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -45,7 +46,7 @@ void AddNewReferences(ObjectBase[] arObjNew, string strCetegory)
 
 The object array.
 
-`strCetegory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCetegory` string
 
 The category name.
 

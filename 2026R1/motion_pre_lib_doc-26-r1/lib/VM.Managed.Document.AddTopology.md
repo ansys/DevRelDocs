@@ -1,4 +1,5 @@
-#  Delegate Document.AddTopology
+# Delegate Document.AddTopology
+<a id="VM_Managed_Document_AddTopology"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,11 +12,11 @@ public delegate bool Document.AddTopology(string strAddInfo)
 
 #### Parameters
 
-`strAddInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAddInfo` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

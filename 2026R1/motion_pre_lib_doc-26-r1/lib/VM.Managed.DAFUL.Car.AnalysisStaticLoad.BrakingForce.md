@@ -1,4 +1,5 @@
-#  Class AnalysisStaticLoad.BrakingForce
+# Class AnalysisStaticLoad.BrakingForce
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_BrakingForce"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisStaticLoad.BrakingForce : AnalysisStaticLoad.StaticRoadBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisStaticLoad.StaticRoadBaseInfo](VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBaseInfo.md) ← 
 [AnalysisStaticLoad.BrakingForce](VM.Managed.DAFUL.Car.AnalysisStaticLoad.BrakingForce.md)
 

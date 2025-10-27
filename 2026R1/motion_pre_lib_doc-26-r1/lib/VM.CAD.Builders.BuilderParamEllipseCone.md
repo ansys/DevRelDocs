@@ -1,4 +1,5 @@
-#  Class BuilderParamEllipseCone
+# Class BuilderParamEllipseCone
+<a id="VM_CAD_Builders_BuilderParamEllipseCone"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class BuilderParamEllipseCone : BuilderParamCone
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamCylinder](VM.CAD.Builders.BuilderParamCylinder.md) ← 
@@ -54,5 +55,5 @@ public double RadiusMinor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

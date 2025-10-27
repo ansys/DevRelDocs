@@ -1,4 +1,5 @@
-#  Interface IFEFilm
+# Interface IFEFilm
+<a id="VM_Models_Pre_IFEFilm"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -107,7 +108,7 @@ int NumberOfElement { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_NumberOfElementsLateral"></a> NumberOfElementsLateral
 
@@ -117,7 +118,7 @@ int NumberOfElementsLateral { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_NumberOfEndRevolution"></a> NumberOfEndRevolution
 
@@ -127,7 +128,7 @@ int NumberOfEndRevolution { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_NumberOfNode"></a> NumberOfNode
 
@@ -137,7 +138,7 @@ int NumberOfNode { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_NumberOfStartRevolution"></a> NumberOfStartRevolution
 
@@ -147,7 +148,7 @@ int NumberOfStartRevolution { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_RotationAxis"></a> RotationAxis
 
@@ -157,7 +158,7 @@ string RotationAxis { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IFEFilm_StartAngle"></a> StartAngle
 
@@ -197,7 +198,7 @@ bool UseNumberOfEndRevolution { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IFEFilm_UseNumberOfStartRevolution"></a> UseNumberOfStartRevolution
 
@@ -207,7 +208,7 @@ bool UseNumberOfStartRevolution { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IFEFilm_UseTabShape"></a> UseTabShape
 
@@ -217,7 +218,7 @@ bool UseTabShape { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IFEFilm_Width"></a> Width
 

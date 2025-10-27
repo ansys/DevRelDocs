@@ -1,4 +1,5 @@
-#  Class Export
+# Class Export
+<a id="VM_CAD_Kernel_Export"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Export
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Export](VM.CAD.Kernel.Export.md)
 
 #### Extension Methods

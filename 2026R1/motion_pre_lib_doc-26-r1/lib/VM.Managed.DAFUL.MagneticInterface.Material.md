@@ -1,4 +1,5 @@
-#  Class MagneticInterface.Material
+# Class MagneticInterface.Material
+<a id="VM_Managed_DAFUL_MagneticInterface_Material"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMAppCore.dll  
@@ -9,7 +10,7 @@ public class MagneticInterface.Material
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MagneticInterface.Material](VM.Managed.DAFUL.MagneticInterface.Material.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string Name
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_Material_X"></a> X
 
@@ -46,7 +47,7 @@ public double X
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_Material_Y"></a> Y
 
@@ -56,7 +57,7 @@ public double Y
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_Material_Z"></a> Z
 
@@ -66,5 +67,5 @@ public double Z
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

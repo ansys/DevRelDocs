@@ -1,4 +1,5 @@
-#  Class KissSoftInterface
+# Class KissSoftInterface
+<a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class KissSoftInterface
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KissSoftInterface](VM.Managed.DAFUL.GearTrain.KissSoftInterface.md)
 
 #### Extension Methods
@@ -62,7 +63,7 @@ The document
 
 The input data
 
-`bIsInternal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIsInternal` bool
 
 The internal flag
 
@@ -72,5 +73,5 @@ The output data
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

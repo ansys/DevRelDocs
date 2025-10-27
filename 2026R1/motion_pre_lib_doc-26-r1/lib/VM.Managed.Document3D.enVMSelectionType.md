@@ -1,4 +1,5 @@
-#  Enum Document3D.enVMSelectionType
+# Enum Document3D.enVMSelectionType
+<a id="VM_Managed_Document3D_enVMSelectionType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

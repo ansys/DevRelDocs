@@ -1,4 +1,5 @@
-#  Enum ConcentratedLoadStandard.DirectionType
+# Enum ConcentratedLoadStandard.DirectionType
+<a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_DirectionType"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  

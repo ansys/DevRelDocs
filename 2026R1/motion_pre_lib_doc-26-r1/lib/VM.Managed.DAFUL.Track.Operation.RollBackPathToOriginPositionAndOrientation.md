@@ -1,4 +1,5 @@
-#  Class RollBackPathToOriginPositionAndOrientation
+# Class RollBackPathToOriginPositionAndOrientation
+<a id="VM_Managed_DAFUL_Track_Operation_RollBackPathToOriginPositionAndOrientation"></a>
 
 Namespace: [VM.Managed.DAFUL.Track.Operation](VM.Managed.DAFUL.Track.Operation.md)  
 Assembly: VMOpTrack.dll  
@@ -9,7 +10,7 @@ public class RollBackPathToOriginPositionAndOrientation : OperationBase, IOperat
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [RollBackPathToOriginPositionAndOrientation](VM.Managed.DAFUL.Track.Operation.RollBackPathToOriginPositionAndOrientation.md)
 
@@ -83,9 +84,9 @@ public RollBackPathToOriginPositionAndOrientation(Dictionary<int, object> dicPat
 
 #### Parameters
 
-`dicPath` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`dicPath` Dictionary<int, object\>
 
-`dicPos` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), TMatrix\>
+`dicPos` Dictionary<int, TMatrix\>
 
 ## Properties
 
@@ -97,7 +98,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_Operation_RollBackPathToOriginPositionAndOrientation_Name"></a> Name
 
@@ -109,7 +110,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

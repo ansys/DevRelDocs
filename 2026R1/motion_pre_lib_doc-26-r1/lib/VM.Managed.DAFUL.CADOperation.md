@@ -1,4 +1,5 @@
-#  Class CADOperation
+# Class CADOperation
+<a id="VM_Managed_DAFUL_CADOperation"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADOperation](VM.Managed.DAFUL.CADOperation.md)
 
 #### Extension Methods
@@ -50,7 +51,7 @@ The design frame.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 The bounding box.
 
@@ -68,17 +69,17 @@ public static int GetProfilePointOfCurveset(IContactableRigid2D curveset, ref bo
 
 The curveset.
 
-`bCloseLoop` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCloseLoop` bool
 
 The close loop.
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+`lst` List<VectorBase\>
 
 The profile point list.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The number of profile point.
 

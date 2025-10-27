@@ -1,4 +1,5 @@
-#  Class WheelBodyBase.CreateInfo
+# Class WheelBodyBase.CreateInfo
+<a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  
@@ -11,7 +12,7 @@ public class WheelBodyBase.CreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [WheelBodyBase.CreateInfo](VM.Managed.DAFUL.Tire.WheelBodyBase.CreateInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public double CMOffset { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_Color"></a> Color
 
@@ -52,7 +53,7 @@ public string Color { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_Transform"></a> Transform
 
@@ -76,5 +77,5 @@ public double WheelCenterOffset { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

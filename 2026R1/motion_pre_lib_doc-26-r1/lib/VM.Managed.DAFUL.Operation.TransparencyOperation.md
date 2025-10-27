@@ -1,4 +1,5 @@
-#  Class TransparencyOperation
+# Class TransparencyOperation
+<a id="VM_Managed_DAFUL_Operation_TransparencyOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class TransparencyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [TransparencyOperation](VM.Managed.DAFUL.Operation.TransparencyOperation.md)
 
@@ -85,7 +86,7 @@ public TransparencyOperation(double dTransparency, ObjectBase body, Document3D d
 
 #### Parameters
 
-`dTransparency` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTransparency` double
 
 `body` ObjectBase
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,5 +134,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

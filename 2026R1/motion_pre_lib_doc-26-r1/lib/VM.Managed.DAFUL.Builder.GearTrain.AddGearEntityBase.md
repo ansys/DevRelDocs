@@ -1,4 +1,5 @@
-#  Class AddGearEntityBase
+# Class AddGearEntityBase
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearEntityBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public abstract class AddGearEntityBase : AddEntityBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddGearEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddGearEntityBase.md)
 
@@ -68,7 +69,7 @@ protected void AddPairGeneralGear(List<IGearBuilder> lstRes, IGearSet gearSet, B
 
 #### Parameters
 
-`lstRes` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IGearBuilder\>
+`lstRes` List<IGearBuilder\>
 
 `gearSet` IGearSet
 

@@ -1,4 +1,5 @@
-#  Class DataPoint
+# Class DataPoint
+<a id="VM_DataPoint"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +10,7 @@ public class DataPoint : ObservableObject, IObservableObject, IDisposableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableObject](VM.ObservableObject.md) ← 
 [DataPoint](VM.DataPoint.md)
 
@@ -57,7 +58,7 @@ public double X { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_DataPoint_Y"></a> Y
 
@@ -67,5 +68,5 @@ public double Y { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

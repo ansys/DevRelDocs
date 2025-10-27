@@ -1,4 +1,5 @@
-#  Struct ObjectBase.Update
+# Struct ObjectBase.Update
+<a id="VM_Managed_ObjectBase_Update"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

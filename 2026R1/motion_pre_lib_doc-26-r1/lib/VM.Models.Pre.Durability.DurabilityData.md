@@ -1,4 +1,5 @@
-#  Class DurabilityData
+# Class DurabilityData
+<a id="VM_Models_Pre_Durability_DurabilityData"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -9,7 +10,7 @@ public class DurabilityData
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md)
 
 #### Extension Methods
@@ -28,29 +29,29 @@ public DurabilityData(string strBodyName, DurabilityData.BodyType typeOfBody, TM
 
 #### Parameters
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 `typeOfBody` [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[BodyType](VM.Models.Pre.Durability.DurabilityData.BodyType.md)
 
 `matCenter` TMatrix
 
-`nEFLevel` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nEFLevel` uint
 
-`strFatigueMaterialName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFatigueMaterialName` string
 
-`strDTEntityName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDTEntityName` string
 
-`strPostReaderName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPostReaderName` string
 
 `connectorInfos` [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[ConnectorInfo](VM.Models.Pre.Durability.DurabilityData.ConnectorInfo.md)\[\]
 
 `contactInfos` [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[ContactInfo](VM.Models.Pre.Durability.DurabilityData.ContactInfo.md)\[\]
 
-`bUseFatigue` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFatigue` bool
 
 `typeOfFatigueStress` [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[FatigueStressType](VM.Models.Pre.Durability.DurabilityData.FatigueStressType.md)
 
-`nDynamicSimulationStep` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nDynamicSimulationStep` uint
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData__ctor_System_String_VM_TMatrix_System_UInt32_System_String_System_String_System_String_VM_Models_Pre_Durability_DurabilityData_ConnectorInfo___VM_Models_Pre_Durability_DurabilityData_ContactInfo___VM_Models_Pre_Durability_DurabilityData_ContourStressType_System_UInt32_"></a> DurabilityData\(string, TMatrix, uint, string, string, string, ConnectorInfo\[\], ContactInfo\[\], ContourStressType, uint\)
 
@@ -60,17 +61,17 @@ public DurabilityData(string strBodyName, TMatrix matCenter, uint nEFLevel, stri
 
 #### Parameters
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 `matCenter` TMatrix
 
-`nEFLevel` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nEFLevel` uint
 
-`strFatigueMaterialName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFatigueMaterialName` string
 
-`strDTEntityName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDTEntityName` string
 
-`strPostReaderName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPostReaderName` string
 
 `connectorInfos` [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[ConnectorInfo](VM.Models.Pre.Durability.DurabilityData.ConnectorInfo.md)\[\]
 
@@ -78,7 +79,7 @@ public DurabilityData(string strBodyName, TMatrix matCenter, uint nEFLevel, stri
 
 `typeOfStress` [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[ContourStressType](VM.Models.Pre.Durability.DurabilityData.ContourStressType.md)
 
-`nDynamicSimulationStep` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nDynamicSimulationStep` uint
 
 ## Properties
 
@@ -90,7 +91,7 @@ public string BodyName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_Center"></a> Center
 
@@ -130,7 +131,7 @@ public string DTEntityName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_DynamicSimulationStep"></a> DynamicSimulationStep
 
@@ -140,7 +141,7 @@ public uint DynamicSimulationStep { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_EFLevel"></a> EFLevel
 
@@ -150,7 +151,7 @@ public uint EFLevel { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_FatigueMaterialName"></a> FatigueMaterialName
 
@@ -160,7 +161,7 @@ public string FatigueMaterialName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_FlankStress"></a> FlankStress
 
@@ -170,7 +171,7 @@ public double FlankStress { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_PostReaderName"></a> PostReaderName
 
@@ -180,7 +181,7 @@ public string PostReaderName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_RootStress"></a> RootStress
 
@@ -190,7 +191,7 @@ public double RootStress { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_TypeOfBody"></a> TypeOfBody
 
@@ -240,7 +241,7 @@ public bool UseFatigue { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_UseFlankStress"></a> UseFlankStress
 
@@ -250,7 +251,7 @@ public bool UseFlankStress { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_UseRootStress"></a> UseRootStress
 
@@ -260,5 +261,5 @@ public bool UseRootStress { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

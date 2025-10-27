@@ -1,4 +1,5 @@
-#  Class PropertyGeneralContact
+# Class PropertyGeneralContact
+<a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -11,13 +12,13 @@ public class PropertyGeneralContact : PropertyContact3D, IObservableObject, IDis
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyContact](VM.Managed.DAFUL.Contact.PropertyContact.md) ← 
 [PropertyContact3D](VM.Managed.DAFUL.Contact.PropertyContact3D.md) ← 
 [PropertyGeneralContact](VM.Managed.DAFUL.Contact.PropertyGeneralContact.md)
@@ -33,7 +34,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -61,12 +62,12 @@ IHasID
 [PropertyContact.IsActionGeometryFrontDirection](VM.Managed.DAFUL.Contact.PropertyContact.md\#VM\_Managed\_DAFUL\_Contact\_PropertyContact\_IsActionGeometryFrontDirection), 
 [PropertyContact.IsBaseGeometryDisplayNormalDirection](VM.Managed.DAFUL.Contact.PropertyContact.md\#VM\_Managed\_DAFUL\_Contact\_PropertyContact\_IsBaseGeometryDisplayNormalDirection), 
 [PropertyContact.IsActionGeometryDisplayNormalDirection](VM.Managed.DAFUL.Contact.PropertyContact.md\#VM\_Managed\_DAFUL\_Contact\_PropertyContact\_IsActionGeometryDisplayNormalDirection), 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -165,7 +166,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -200,24 +201,24 @@ public PropertyGeneralContact()
 
 <p>Gets and sets the type of contact.</p>
 <p>
-        Type : VM.Managed.DAFUL.Contact.ContactType
-        LinkRequestUpdate 시 처리 : N/A
-        LinkRequestDestroy 시 처리 :
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Contact Type
-        Control Type : ComboBox
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Characteristic
-        Category Index : 1
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : VM.Managed.DAFUL.Contact.ContactType
+LinkRequestUpdate 시 처리 : N/A
+LinkRequestDestroy 시 처리 :
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Contact Type
+Control Type : ComboBox
+ToolTip : N/A
+Error Message : N/A
+Category : Characteristic
+Category Index : 1
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public PropertyGeneralContact.ContactType TypeOfContact { get; set; }
@@ -253,7 +254,7 @@ public override PropertyContact3D.PointCheckType LoadOldVersion(bool bCrossCheck
 
 #### Parameters
 
-`bCrossCheck` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCrossCheck` bool
 
 The cross check flag.
 

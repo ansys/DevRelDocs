@@ -1,4 +1,5 @@
-#  Class ShowGearDurability
+# Class ShowGearDurability
+<a id="VM_Operations_Pre_Durability_ShowGearDurability"></a>
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  
@@ -11,9 +12,9 @@ public class ShowGearDurability : ShowBodyDurability, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
-DialogOperation ← 
+[DialogOperation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs) ← 
 [ShowBodyDurability](VM.Operations.Pre.Durability.ShowBodyDurability.md) ← 
 [ShowGearDurability](VM.Operations.Pre.Durability.ShowGearDurability.md)
 
@@ -28,11 +29,11 @@ IOperation
 [ShowBodyDurability.UpdateUI\(IUIUpdate, Document\)](VM.Operations.Pre.Durability.ShowBodyDurability.md\#VM\_Operations\_Pre\_Durability\_ShowBodyDurability\_UpdateUI\_VM\_Managed\_UI\_IUIUpdate\_VM\_Managed\_Document\_), 
 [ShowBodyDurability.ShowDialog\(\)](VM.Operations.Pre.Durability.ShowBodyDurability.md\#VM\_Operations\_Pre\_Durability\_ShowBodyDurability\_ShowDialog), 
 [ShowBodyDurability.Name](VM.Operations.Pre.Durability.ShowBodyDurability.md\#VM\_Operations\_Pre\_Durability\_ShowBodyDurability\_Name), 
-DialogOperation.Execute\(\), 
-DialogOperation.OnApply\(object, CancelEventArgs\), 
-DialogOperation.IsConainOpenedDic\(Document\), 
-DialogOperation.Name, 
-DialogOperation.OpDialog, 
+[DialogOperation.Execute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.OnApply\(object, CancelEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.IsConainOpenedDic\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.OpDialog](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
 OperationBase.g\_bRedrawKernel, 
 OperationBase.g\_bVerify, 
 OperationBase.g\_bSkipAddEvent, 

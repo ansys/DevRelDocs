@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Simulation
+# Namespace VM.Managed.Simulation
+<a id="VM_Managed_Simulation"></a>
 
 ### Classes
 
@@ -15,6 +16,10 @@ This class is to represent the extra simulation configuration collection.
 This class is to represent the scenario.
 
 ### Structs
+
+ [Configuration.ExportModuleInformation](VM.Managed.Simulation.Configuration.ExportModuleInformation.md)
+
+This struct is to represent the export module information.
 
  [Configuration.ResultRecord](VM.Managed.Simulation.Configuration.ResultRecord.md)
 
@@ -37,6 +42,10 @@ Specifies type for a criterion.
  [Configuration.CriterionSub](VM.Managed.Simulation.Configuration.CriterionSub.md)
 
 Specifies sub-type for a criterion.
+
+ [Configuration.ExportModuleInformation.ExportFormat](VM.Managed.Simulation.Configuration.ExportModuleInformation.ExportFormat.md)
+
+Specifies export format types.
 
  [Configuration.Jacobian](VM.Managed.Simulation.Configuration.Jacobian.md)
 

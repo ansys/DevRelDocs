@@ -1,4 +1,5 @@
-#  Class IdentifierManager
+# Class IdentifierManager
+<a id="VM_Models_Pre_IdentifierManager"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public class IdentifierManager : IIdentifierManager
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IdentifierManager](VM.Models.Pre.IdentifierManager.md)
 
 #### Implements
@@ -38,9 +39,9 @@ public IdentifierManager(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ## Properties
 

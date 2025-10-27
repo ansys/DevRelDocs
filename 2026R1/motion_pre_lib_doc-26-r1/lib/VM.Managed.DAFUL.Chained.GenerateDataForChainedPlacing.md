@@ -1,4 +1,5 @@
-#  Class GenerateDataForChainedPlacing
+# Class GenerateDataForChainedPlacing
+<a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,7 +12,7 @@ public class GenerateDataForChainedPlacing
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GenerateDataForChainedPlacing](VM.Managed.DAFUL.Chained.GenerateDataForChainedPlacing.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public bool m_FirstCheckCrossTangent
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -82,7 +83,7 @@ public bool CalculatePositionAndOrietationOfSegment(int _pznSegment, ref Segment
 
 #### Parameters
 
-`_pznSegment` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`_pznSegment` int
 
 The number of segment.
 
@@ -92,7 +93,7 @@ The array including data for placing.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if the position and orientation of segments are calculated successfully, it is true.
 
@@ -106,17 +107,17 @@ public bool Calculate_Gap(int nTotalNoOfSegment, ref double dGap)
 
 #### Parameters
 
-`nTotalNoOfSegment` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nTotalNoOfSegment` int
 
 The Number of segment.
 
-`dGap` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGap` double
 
 The gap.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if the gap is calculated successfully, it is true.
 
@@ -130,17 +131,17 @@ public bool Calculate_NoOfSegmentAndGap(ref int nSegment, ref double dGap)
 
 #### Parameters
 
-`nSegment` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nSegment` int
 
 Number of segment.Initial value must be -1.
 
-`dGap` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGap` double
 
 The gap.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if the number of segment and gap are calculated successfully, it is true.
 
@@ -154,7 +155,7 @@ public PathInfo GetNthPathInfo(int Nth)
 
 #### Parameters
 
-`Nth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`Nth` int
 
 The Index.
 
@@ -174,7 +175,7 @@ public SegmentInfo GetNthSegmentInfo(int Nth)
 
 #### Parameters
 
-`Nth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`Nth` int
 
 The index.
 
@@ -224,23 +225,23 @@ public SegmentPlacingInfo[] Positioning_Algorithm(ref int _NoOfSegment, ref doub
 
 #### Parameters
 
-`_NoOfSegment` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`_NoOfSegment` int
 
 The number of segment.
 
-`_Gap` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_Gap` double
 
 The total distance between segment and segment.
 
-`_ErrorGapPerSegment` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_ErrorGapPerSegment` double
 
 The average distance per segment between segment and segment.
 
-`_bFixedNo` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`_bFixedNo` bool
 
 <code>true</code> if [Fixed the number of segment]; otherwise, <code>false</code>
 
-`_nIteration` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`_nIteration` int
 
 The number of iteration.
 

@@ -1,4 +1,5 @@
-#  Interface ICustomFullName
+# Interface ICustomFullName
+<a id="VM_Managed_DAFUL_ICustomFullName"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -33,5 +34,5 @@ The document
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

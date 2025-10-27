@@ -1,4 +1,5 @@
-#  Class DocumentAPI
+# Class DocumentAPI
+<a id="VM_API_Pre_DocumentAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class DocumentAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocumentAPI](VM.API.Pre.DocumentAPI.md)
 
 #### Extension Methods
@@ -39,7 +40,7 @@ The document to be saved.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is null.
 
@@ -53,11 +54,11 @@ public static PartDocument CreateNewPartDocument(string newPartFilePath, string 
 
 #### Parameters
 
-`newPartFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newPartFilePath` string
 
 The file path of new part.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -65,7 +66,7 @@ The name of document.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -75,7 +76,7 @@ This parameter is unused.
 
 #### Returns
 
- PartDocument
+ [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -89,11 +90,11 @@ public static SubSystemDocument CreateNewSubsystemDocument(string newSubsystemFi
 
 #### Parameters
 
-`newSubsystemFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSubsystemFilePath` string
 
 The file path of new subsystem.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -105,11 +106,11 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
-`advancedMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`advancedMode` bool
 
 The flag whether using advanced mode.
 
@@ -117,7 +118,7 @@ The flag whether using advanced mode.
 
 The symetric plane.
 
-`useSymmetric` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useSymmetric` bool
 
 The flag whether using symmetric.
 
@@ -127,7 +128,7 @@ This parameter is unused.
 
 #### Returns
 
- SubSystemDocument
+ [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -141,17 +142,17 @@ public static SubSystemDocument CreateNewSubsystemFromTemplateDocument(string ne
 
 #### Parameters
 
-`newSubsystemFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSubsystemFromTemplateFilePath` string
 
 The file path of new subsystem from template file path.
 
-`existedSubsystemTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedSubsystemTemplateFilePath` string
 
 The file path of existed subsystem template file path.
 
 #### Returns
 
- SubSystemDocument
+ [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -166,11 +167,11 @@ public static SubSystemDocument CreateNewTemplateDocument(string newSubsystemTem
 
 #### Parameters
 
-`newSubsystemTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSubsystemTemplateFilePath` string
 
 The file path of new subsystem template.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -182,11 +183,11 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
-`advancedMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`advancedMode` bool
 
 The flag whether using advanced mode.
 
@@ -194,7 +195,7 @@ The flag whether using advanced mode.
 
 The symetric plane.
 
-`useSymmetric` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useSymmetric` bool
 
 The flag whether using symmetric.
 
@@ -204,7 +205,7 @@ This parameter is unused.
 
 #### Returns
 
- SubSystemDocument
+ [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -228,17 +229,17 @@ The document to modify the simulation scenario.
 
 The simulation scenario.
 
-`use` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`use` bool
 
 The use flag to modify the simulation scenario.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'scenario' is not Scenario.
 
@@ -259,7 +260,7 @@ The document to be saved.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is null.
 
@@ -279,13 +280,13 @@ public static void SaveDocument(this IDocument document, string filePath)
 
 The document to be saved.
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The document file path to be saved
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'filePath' arguments are null.
 

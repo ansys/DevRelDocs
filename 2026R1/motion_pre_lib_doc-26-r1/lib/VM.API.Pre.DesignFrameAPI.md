@@ -1,4 +1,5 @@
-#  Class DesignFrameAPI
+# Class DesignFrameAPI
+<a id="VM_API_Pre_DesignFrameAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class DesignFrameAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DesignFrameAPI](VM.API.Pre.DesignFrameAPI.md)
 
 #### Extension Methods
@@ -37,7 +38,7 @@ public static Obj CreateDesignFrame(this IDocument document, string name, TMatri
 
 The document to create the design frame.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the design frame.
 
@@ -53,7 +54,7 @@ The new <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"><
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'transform' argument is null.
 
@@ -72,7 +73,7 @@ public static Obj CreateDesignFrame(this IDocument document, string name, Transf
 
 The document to create the design frame.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the design frame.
 
@@ -92,7 +93,7 @@ The new <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"><
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'transform' argument is null.
 

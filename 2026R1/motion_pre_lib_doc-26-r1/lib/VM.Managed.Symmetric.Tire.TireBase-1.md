@@ -1,4 +1,5 @@
-#  Class TireBase<T\>
+# Class TireBase<T\>
+<a id="VM_Managed_Symmetric_Tire_TireBase_1"></a>
 
 Namespace: [VM.Managed.Symmetric.Tire](VM.Managed.Symmetric.Tire.md)  
 Assembly: VMSymTire.dll  
@@ -13,10 +14,10 @@ public abstract class TireBase<T> : Force<T, PropertyTire>, ISymmetricUpdater, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<T\> ← 
-Connector<T, PropertyTire\> ← 
-Force<T, PropertyTire\> ← 
+object ← 
+[Named<T\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<T, PropertyTire\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
+[Force<T, PropertyTire\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs) ← 
 [TireBase<T\>](VM.Managed.Symmetric.Tire.TireBase\-1.md)
 
 #### Implements
@@ -26,12 +27,12 @@ ISymmetricUpdaterAfterAddDoc
 
 #### Inherited Members
 
-Force<T, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Connector<T, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<T\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<T\>.Initialize\(ISymmetricManager\), 
-Named<T\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<T\>.SymmetricManager
+[Force<T, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs), 
+[Connector<T, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<T\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<T\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<T\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<T\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -79,7 +80,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

@@ -1,4 +1,5 @@
-#  Class Module
+# Class Module
+<a id="VM_Managed_DAFUL_Pre_Module"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Module
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Module](VM.Managed.DAFUL.Pre.Module.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public List<Module.Command> DocumentCommands { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Module](VM.Managed.DAFUL.Pre.Module.md).[Command](VM.Managed.DAFUL.Pre.Module.Command.md)\>
+ List<[Module](VM.Managed.DAFUL.Pre.Module.md).[Command](VM.Managed.DAFUL.Pre.Module.Command.md)\>
 
 ### <a id="VM_Managed_DAFUL_Pre_Module_IsOverlap"></a> IsOverlap
 
@@ -52,7 +53,7 @@ public bool IsOverlap { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Module_Name"></a> Name
 
@@ -64,7 +65,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Module_ParentModule"></a> ParentModule
 
@@ -76,7 +77,7 @@ public string ParentModule { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Module_Toolkit"></a> Toolkit
 
@@ -88,7 +89,7 @@ public string Toolkit { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Module_ViewCommands"></a> ViewCommands
 
@@ -100,5 +101,5 @@ public List<Module.Command> ViewCommands { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Module](VM.Managed.DAFUL.Pre.Module.md).[Command](VM.Managed.DAFUL.Pre.Module.Command.md)\>
+ List<[Module](VM.Managed.DAFUL.Pre.Module.md).[Command](VM.Managed.DAFUL.Pre.Module.Command.md)\>
 

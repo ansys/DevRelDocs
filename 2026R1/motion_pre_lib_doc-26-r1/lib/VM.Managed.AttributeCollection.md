@@ -1,4 +1,5 @@
-#  Class AttributeCollection
+# Class AttributeCollection
+<a id="VM_Managed_AttributeCollection"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public sealed class AttributeCollection : LinkContainer, IObservableObject, IDis
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [AttributeCollection](VM.Managed.AttributeCollection.md)
 
@@ -93,7 +94,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_AttributeCollection_IsExternable"></a> IsExternable
 
@@ -105,7 +106,7 @@ public override bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeCollection_Keys"></a> Keys
 
@@ -117,7 +118,7 @@ public ICollection<string> Keys { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ ICollection<string\>
 
 ### <a id="VM_Managed_AttributeCollection_Values"></a> Values
 
@@ -129,7 +130,7 @@ public ICollection<AttributeBase> Values { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[AttributeBase](VM.Managed.AttributeBase.md)\>
+ ICollection<[AttributeBase](VM.Managed.AttributeBase.md)\>
 
 ### <a id="VM_Managed_AttributeCollection_Item_System_String_"></a> this\[string\]
 
@@ -153,7 +154,7 @@ public void Add(string strKey, AttributeBase attr)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 The object to use as the key of the element to add.
 
@@ -163,15 +164,15 @@ The object to use as the value of the element to add.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 <code class="paramref">strKey</code> is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 An element with the same key already exists in the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
- [NotSupportedException](https://learn.microsoft.com/dotnet/api/system.notsupportedexception)
+ NotSupportedException
 
 The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -185,7 +186,7 @@ public void Clear()
 
 #### Exceptions
 
- [NotSupportedException](https://learn.microsoft.com/dotnet/api/system.notsupportedexception)
+ NotSupportedException
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -199,19 +200,19 @@ public bool ContainsKey(string strKey)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 The key to locate in the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the key; otherwise, false.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 <code class="paramref">strKey</code> is null.
 
@@ -225,7 +226,7 @@ public IEnumerator<KeyValuePair<string, AttributeBase>> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<[KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [AttributeBase](VM.Managed.AttributeBase.md)\>\>
+ IEnumerator<KeyValuePair<string, [AttributeBase](VM.Managed.AttributeBase.md)\>\>
 
 A <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> that can be used to iterate through the collection.
 
@@ -242,7 +243,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -256,7 +257,7 @@ protected override sealed void LinkRequestDestroy(object obNotifier, LinkEventAr
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 
@@ -274,7 +275,7 @@ protected override sealed void LinkRequestUpdate(object obNotifier, LinkEventArg
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 
@@ -292,7 +293,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -306,23 +307,23 @@ public bool Remove(string strKey)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 The key of the element to remove.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the element is successfully removed; otherwise, false.  This method also returns false if <code class="paramref">strKey</code> was not found in the original <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 <code class="paramref">strKey</code> is null.
 
- [NotSupportedException](https://learn.microsoft.com/dotnet/api/system.notsupportedexception)
+ NotSupportedException
 
 The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -336,7 +337,7 @@ public bool TryGetValue(string strKey, out AttributeBase value)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 The key whose value to get.
 
@@ -346,13 +347,13 @@ When this method returns, the value associated with the specified key, if the ke
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the object that implements <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the specified key; otherwise, false.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 <code class="paramref">strKey</code> is null.
 
@@ -366,7 +367,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

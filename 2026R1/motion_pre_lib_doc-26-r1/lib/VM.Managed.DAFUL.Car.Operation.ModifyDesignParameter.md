@@ -1,4 +1,5 @@
-#  Class ModifyDesignParameter
+# Class ModifyDesignParameter
+<a id="VM_Managed_DAFUL_Car_Operation_ModifyDesignParameter"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,9 +12,9 @@ public class ModifyDesignParameter : DialogOperation, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
-DialogOperation ← 
+[DialogOperation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs) ← 
 [ModifyDesignParameter](VM.Managed.DAFUL.Car.Operation.ModifyDesignParameter.md)
 
 #### Implements
@@ -22,11 +23,11 @@ IOperation
 
 #### Inherited Members
 
-DialogOperation.Execute\(\), 
-DialogOperation.OnApply\(object, CancelEventArgs\), 
-DialogOperation.IsConainOpenedDic\(Document\), 
-DialogOperation.Name, 
-DialogOperation.OpDialog, 
+[DialogOperation.Execute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.OnApply\(object, CancelEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.IsConainOpenedDic\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
+[DialogOperation.OpDialog](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/DialogOperation.cs), 
 OperationBase.g\_bRedrawKernel, 
 OperationBase.g\_bVerify, 
 OperationBase.g\_bSkipAddEvent, 
@@ -105,7 +106,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -127,11 +128,11 @@ protected override void OnApply(object sender, CancelEventArgs arg)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
-`arg` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
+`arg` CancelEventArgs
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 

@@ -1,4 +1,5 @@
-#  Enum DurabilityData.ContourStressType
+# Enum DurabilityData.ContourStressType
+<a id="VM_Models_Pre_Durability_DurabilityData_ContourStressType"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

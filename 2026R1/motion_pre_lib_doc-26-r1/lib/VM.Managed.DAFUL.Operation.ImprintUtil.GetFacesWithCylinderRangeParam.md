@@ -1,4 +1,5 @@
-#  Class ImprintUtil.GetFacesWithCylinderRangeParam
+# Class ImprintUtil.GetFacesWithCylinderRangeParam
+<a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class ImprintUtil.GetFacesWithCylinderRangeParam
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ImprintUtil.GetFacesWithCylinderRangeParam](VM.Managed.DAFUL.Operation.ImprintUtil.GetFacesWithCylinderRangeParam.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public KeyInfo Body { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam_Radius"></a> Radius
 
@@ -52,7 +53,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam_Transform"></a> Transform
 

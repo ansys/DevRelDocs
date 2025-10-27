@@ -1,4 +1,5 @@
-#  Enum AnalysisStaticLoad.VerticalInputType
+# Enum AnalysisStaticLoad.VerticalInputType
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_VerticalInputType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

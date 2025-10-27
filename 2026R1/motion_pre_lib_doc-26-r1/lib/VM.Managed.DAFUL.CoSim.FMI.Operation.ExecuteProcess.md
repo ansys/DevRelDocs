@@ -1,4 +1,5 @@
-#  Class ExecuteProcess
+# Class ExecuteProcess
+<a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExecuteProcess"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim.FMI.Operation](VM.Managed.DAFUL.CoSim.FMI.Operation.md)  
 Assembly: VMOpCoSimFMI.dll  
@@ -9,7 +10,7 @@ public class ExecuteProcess : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ExecuteProcess](VM.Managed.DAFUL.CoSim.FMI.Operation.ExecuteProcess.md)
 
@@ -95,7 +96,7 @@ public ExecuteProcess(Document doc, string strFilePath)
 
 `doc` Document
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 ### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExecuteProcess__ctor_VM_Managed_Document_System_String_System_String_"></a> ExecuteProcess\(Document, string, string\)
 
@@ -107,9 +108,9 @@ public ExecuteProcess(Document doc, string strFilePath, string strInterfacePath)
 
 `doc` Document
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
-`strInterfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfacePath` string
 
 ### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExecuteProcess__ctor_VM_Managed_Operation_JournalParameter_"></a> ExecuteProcess\(JournalParameter\)
 
@@ -133,7 +134,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -153,5 +154,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

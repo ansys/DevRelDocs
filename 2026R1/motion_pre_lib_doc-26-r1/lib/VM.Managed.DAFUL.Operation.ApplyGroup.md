@@ -1,4 +1,5 @@
-#  Class ApplyGroup
+# Class ApplyGroup
+<a id="VM_Managed_DAFUL_Operation_ApplyGroup"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ApplyGroup : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyGroup](VM.Managed.DAFUL.Operation.ApplyGroup.md)
 
@@ -85,11 +86,11 @@ public ApplyGroup(SubSystemDocument doc, string strName, string[] arObjectName)
 
 #### Parameters
 
-`doc` SubSystemDocument
+`doc` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`arObjectName` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arObjectName` string\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_ApplyGroup__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyGroup\(JournalParameter\)
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,5 +134,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

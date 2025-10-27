@@ -1,4 +1,5 @@
-#  Class ApplyPlacingOperation
+# Class ApplyPlacingOperation
+<a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,7 +12,7 @@ public class ApplyPlacingOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyPlacingOperation](VM.Managed.DAFUL.Chained.ApplyPlacingOperation.md)
 
@@ -88,7 +89,7 @@ public ApplyPlacingOperation(bool bHistoryMerge)
 
 #### Parameters
 
-`bHistoryMerge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHistoryMerge` bool
 
 ## Fields
 
@@ -116,7 +117,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation_Success"></a> Success
 
@@ -128,7 +129,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

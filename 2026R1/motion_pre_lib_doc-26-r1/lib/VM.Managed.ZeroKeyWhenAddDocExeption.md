@@ -1,4 +1,5 @@
-#  Class ZeroKeyWhenAddDocExeption
+# Class ZeroKeyWhenAddDocExeption
+<a id="VM_Managed_ZeroKeyWhenAddDocExeption"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class ZeroKeyWhenAddDocExeption : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [ZeroKeyWhenAddDocExeption](VM.Managed.ZeroKeyWhenAddDocExeption.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public ZeroKeyWhenAddDocExeption(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The error message.
 

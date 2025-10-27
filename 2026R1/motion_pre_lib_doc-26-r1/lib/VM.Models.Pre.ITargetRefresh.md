@@ -1,4 +1,5 @@
-#  Interface ITargetRefresh
+# Interface ITargetRefresh
+<a id="VM_Models_Pre_ITargetRefresh"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -21,5 +22,5 @@ event EventHandler<EventArgs> OnRefresh
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)\>
+ EventHandler<EventArgs\>
 

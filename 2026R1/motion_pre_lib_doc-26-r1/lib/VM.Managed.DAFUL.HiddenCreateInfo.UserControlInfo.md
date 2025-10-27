@@ -1,4 +1,5 @@
-#  Class HiddenCreateInfo.UserControlInfo
+# Class HiddenCreateInfo.UserControlInfo
+<a id="VM_Managed_DAFUL_HiddenCreateInfo_UserControlInfo"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public class HiddenCreateInfo.UserControlInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [HiddenCreateInfo.UserControlInfo](VM.Managed.DAFUL.HiddenCreateInfo.UserControlInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public List<HiddenCreateInfo.Page> Pages
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[HiddenCreateInfo](VM.Managed.DAFUL.HiddenCreateInfo.md).[Page](VM.Managed.DAFUL.HiddenCreateInfo.Page.md)\>
+ List<[HiddenCreateInfo](VM.Managed.DAFUL.HiddenCreateInfo.md).[Page](VM.Managed.DAFUL.HiddenCreateInfo.Page.md)\>
 
 ### <a id="VM_Managed_DAFUL_HiddenCreateInfo_UserControlInfo_Type"></a> Type
 
@@ -52,5 +53,5 @@ public string Type
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

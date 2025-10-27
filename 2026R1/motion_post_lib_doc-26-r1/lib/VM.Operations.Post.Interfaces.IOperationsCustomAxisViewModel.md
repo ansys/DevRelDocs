@@ -1,11 +1,12 @@
-#  Interface IOperationsCustomAxisViewModel
+# Interface IOperationsCustomAxisViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Defines the properties for a custom axis view model in an operations.
 
-```python
+```csharp
 public interface IOperationsCustomAxisViewModel : IOperationsAxisViewModelBase
 ```
 
@@ -17,13 +18,16 @@ public interface IOperationsCustomAxisViewModel : IOperationsAxisViewModelBase
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsCustomAxisViewModel.py
+```python
+# IOperationsCustomAxisViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -37,12 +41,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set Background
@@ -71,7 +80,7 @@ page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -79,7 +88,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the scale type for the axis.
 
-```python
+```csharp
 AxisType AxisType { get; set; }
 ```
 
@@ -100,13 +109,13 @@ Use this property to specify or retrieve the scale type for the axis. The availa
 
 Gets or sets the number of decimal places for the labels on the axis.
 
-```python
+```csharp
 int Decimal { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Examples
 
@@ -120,13 +129,13 @@ Use this property to specify or retrieve the number of decimal places displayed 
 
 Gets or sets a value indicating whether the decimal value for the axis labels is set automatically or manually.
 
-```python
+```csharp
 bool Default { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -141,13 +150,13 @@ If set to <code>false</code>, you can manually set the <xref href="VM.Operations
 
 Gets or sets the color of the labels on the axis.
 
-```python
+```csharp
 Color FontColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -161,13 +170,13 @@ Use this property to specify or retrieve the color of the labels displayed on th
 
 Gets or sets the font family for the axis labels.
 
-```python
+```csharp
 FontFamily FontFace { get; set; }
 ```
 
 #### Property Value
 
- [FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.media.fontfamily)
+ FontFamily
 
 #### Examples
 
@@ -181,13 +190,13 @@ Use this property to specify or retrieve the font family used for the labels on 
 
 Gets or sets a value indicating whether the axis range intervals are set automatically or manually.
 
-```python
+```csharp
 bool IsAuto { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -202,7 +211,7 @@ If set to <code>false</code>, you can manually set the intervals for the axis ra
 
 Gets or sets the format type for the labels on the axis.
 
-```python
+```csharp
 LabelFormatType LabelFormatType { get; set; }
 ```
 
@@ -224,13 +233,13 @@ The available options are:
 
 Gets or sets the font size of the labels on the axis.
 
-```python
+```csharp
 double LabelSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -244,13 +253,13 @@ Use this property to specify or retrieve the font size of the labels displayed o
 
 Gets or sets the font weight of the labels on the axis.
 
-```python
+```csharp
 FontWeight LabelWeight { get; set; }
 ```
 
 #### Property Value
 
- [FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.fontweight)
+ FontWeight
 
 #### Examples
 
@@ -266,13 +275,13 @@ The available options are:
 
 Gets or sets the base for the logarithmic scale of the axis.
 
-```python
+```csharp
 string LogarithmicBase { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -294,13 +303,13 @@ Supported values are:
 
 Gets or sets the scale interval of the axis.
 
-```python
+```csharp
 double ScaleInterval { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -315,13 +324,13 @@ Use this property to manually set the intervals for the axis range.
 
 Gets or sets the maximum value of the axis scale.
 
-```python
+```csharp
 double ScaleMax { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -336,13 +345,13 @@ Use this property to manually set the maximum value for the axis scale.
 
 Gets or sets the minimum value of the axis scale.
 
-```python
+```csharp
 double ScaleMin { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -357,13 +366,13 @@ Use this property to manually set the minimum value for the axis scale.
 
 Gets or sets the font style for the axis.
 
-```python
+```csharp
 FontStyle Style { get; set; }
 ```
 
 #### Property Value
 
- [FontStyle](https://learn.microsoft.com/dotnet/api/system.windows.fontstyle)
+ FontStyle
 
 #### Examples
 
@@ -379,13 +388,13 @@ The available options are:
 
 Gets the unit of the axis.
 
-```python
+```csharp
 string Unit { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -394,5 +403,4 @@ For an example that includes this property, see the [Interface IOperationsCustom
 #### Remarks
 
 Use this property to specify or retrieve the unit displayed on the axis.
-
 

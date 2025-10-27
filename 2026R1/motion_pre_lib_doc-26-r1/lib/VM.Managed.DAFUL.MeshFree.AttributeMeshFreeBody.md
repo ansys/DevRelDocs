@@ -1,4 +1,5 @@
-#  Class AttributeMeshFreeBody
+# Class AttributeMeshFreeBody
+<a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,9 +12,9 @@ public class AttributeMeshFreeBody : AttributeMeshFreeGeometryOutputProperty, IO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 AttributeFacetRefinementBase ← 
@@ -140,7 +141,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -194,7 +195,7 @@ public AttributeEigenvalueAnalysisParameter AnalysisParameter { get; set; }
 
 #### Property Value
 
- AttributeEigenvalueAnalysisParameter
+ [AttributeEigenvalueAnalysisParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/AttributeEigenvalueAnalysisParameter.cs)
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_DrawGlobalBody"></a> DrawGlobalBody
 
@@ -206,7 +207,7 @@ public override bool DrawGlobalBody { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_LevelGroupOfAnalysis"></a> LevelGroupOfAnalysis
 
@@ -228,7 +229,7 @@ public double RecommendDistanceX { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_RecommendDistanceY"></a> RecommendDistanceY
 
@@ -240,7 +241,7 @@ public double RecommendDistanceY { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_RecommendDistanceZ"></a> RecommendDistanceZ
 
@@ -252,7 +253,7 @@ public double RecommendDistanceZ { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_XScale"></a> XScale
 
@@ -264,7 +265,7 @@ public double XScale { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_YScale"></a> YScale
 
@@ -276,7 +277,7 @@ public double YScale { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_ZScale"></a> ZScale
 
@@ -288,7 +289,7 @@ public double ZScale { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -318,7 +319,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -358,7 +359,7 @@ public void SetDefaultValue(ObjectBase objContainer, bool useDefault)
 
 The container.
 
-`useDefault` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useDefault` bool
 
 The useDefault.
 

@@ -1,4 +1,5 @@
-#  Class PropertyChangedExtendedEventArgs
+# Class PropertyChangedExtendedEventArgs
+<a id="VM_PropertyChangedExtendedEventArgs"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,9 +10,9 @@ public class PropertyChangedExtendedEventArgs : PropertyChangedEventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
-[PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs) ← 
+object ← 
+EventArgs ← 
+PropertyChangedEventArgs ← 
 [PropertyChangedExtendedEventArgs](VM.PropertyChangedExtendedEventArgs.md)
 
 #### Extension Methods
@@ -30,11 +31,11 @@ public PropertyChangedExtendedEventArgs(string propertyName, object oldValue, ob
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`oldValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`oldValue` object
 
-`newValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`newValue` object
 
 ## Properties
 
@@ -46,7 +47,7 @@ public virtual object NewValue { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_PropertyChangedExtendedEventArgs_OldValue"></a> OldValue
 
@@ -56,5 +57,5 @@ public virtual object OldValue { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 

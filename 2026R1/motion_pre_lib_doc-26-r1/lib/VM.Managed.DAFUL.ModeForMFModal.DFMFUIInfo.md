@@ -1,4 +1,5 @@
-#  Struct ModeForMFModal.DFMFUIInfo
+# Struct ModeForMFModal.DFMFUIInfo
+<a id="VM_Managed_DAFUL_ModeForMFModal_DFMFUIInfo"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -21,11 +22,11 @@ public DFMFUIInfo(int nNode, int[] arnLevel)
 
 #### Parameters
 
-`nNode` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNode` int
 
 The n node.
 
-`arnLevel` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arnLevel` int\[\]
 
 The level array.
 
@@ -41,7 +42,7 @@ public int[] Levels { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+ int\[\]
 
 ### <a id="VM_Managed_DAFUL_ModeForMFModal_DFMFUIInfo_NumNode"></a> NumNode
 
@@ -53,5 +54,5 @@ public int NumNode { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

@@ -1,4 +1,5 @@
-#  Class SetNameAttributeOp
+# Class SetNameAttributeOp
+<a id="VM_Managed_CAD_SetNameAttributeOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class SetNameAttributeOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [SetNameAttributeOp](VM.Managed.CAD.SetNameAttributeOp.md)
 
@@ -87,11 +88,11 @@ public SetNameAttributeOp(Body body, string strName, bool bUseAttribute, string 
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`bUseAttribute` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseAttribute` bool
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 ### <a id="VM_Managed_CAD_SetNameAttributeOp__ctor"></a> SetNameAttributeOp\(\)
 
@@ -111,7 +112,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_SetNameAttributeOp_Name"></a> Name
 
@@ -123,7 +124,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

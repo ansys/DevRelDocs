@@ -1,4 +1,5 @@
-#  Class CreateMarkerForJournal
+# Class CreateMarkerForJournal
+<a id="VM_Managed_DAFUL_Operation_CreateMarkerForJournal"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateMarkerForJournal : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateMarkerForJournal](VM.Managed.DAFUL.Operation.CreateMarkerForJournal.md)
 
@@ -85,11 +86,11 @@ public CreateMarkerForJournal(string strXML, string strType, string strBodyName)
 
 #### Parameters
 
-`strXML` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXML` string
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateMarkerForJournal__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateMarkerForJournal\(JournalParameter\)
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,5 +134,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

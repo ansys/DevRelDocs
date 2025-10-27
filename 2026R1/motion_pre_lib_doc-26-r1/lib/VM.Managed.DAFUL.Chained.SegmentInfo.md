@@ -1,4 +1,5 @@
-#  Class SegmentInfo
+# Class SegmentInfo
+<a id="VM_Managed_DAFUL_Chained_SegmentInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,7 +12,7 @@ public class SegmentInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SegmentInfo](VM.Managed.DAFUL.Chained.SegmentInfo.md)
 
 #### Extension Methods
@@ -64,7 +65,7 @@ public double m_dHeight1
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_dHeight2"></a> m\_dHeight2
 
@@ -76,7 +77,7 @@ public double m_dHeight2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_dLength"></a> m\_dLength
 
@@ -88,7 +89,7 @@ public double m_dLength
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_dOriginalLength"></a> m\_dOriginalLength
 
@@ -100,7 +101,7 @@ public double m_dOriginalLength
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 

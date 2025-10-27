@@ -1,4 +1,5 @@
-#  Class ObservableConcurrentDictionary<TKey, TValue\>
+# Class ObservableConcurrentDictionary<TKey, TValue\>
+<a id="VM_Collections_ObservableConcurrentDictionary_2"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -15,7 +16,7 @@ public class ObservableConcurrentDictionary<TKey, TValue>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableConcurrentDictionary<TKey, TValue\>](VM.Collections.ObservableConcurrentDictionary\-2.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_IsReadOnly"></a> IsReadOnly
 
@@ -52,7 +53,7 @@ public bool IsReadOnly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Keys"></a> Keys
 
@@ -62,7 +63,7 @@ public ICollection<TKey> Keys { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TKey\>
+ ICollection<TKey\>
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Values"></a> Values
 
@@ -72,7 +73,7 @@ public ICollection<TValue> Values { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TValue\>
+ ICollection<TValue\>
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Item__0_"></a> this\[TKey\]
 
@@ -94,7 +95,7 @@ protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
 
 #### Parameters
 
-`eventArgs` [PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs)
+`eventArgs` PropertyChangedEventArgs
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Add__0__1_"></a> Add\(TKey, TValue\)
 
@@ -122,11 +123,11 @@ public bool Contains(KeyValuePair<TKey, TValue> item)
 
 #### Parameters
 
-`item` [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<TKey, TValue\>
+`item` KeyValuePair<TKey, TValue\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_ContainsKey__0_"></a> ContainsKey\(TKey\)
 
@@ -140,7 +141,7 @@ public bool ContainsKey(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_"></a> CopyTo\(KeyValuePair<TKey, TValue\>\[\], int\)
 
@@ -150,9 +151,9 @@ public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 
 #### Parameters
 
-`array` [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<TKey, TValue\>\[\]
+`array` KeyValuePair<TKey, TValue\>\[\]
 
-`arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`arrayIndex` int
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_GetEnumerator"></a> GetEnumerator\(\)
 
@@ -162,7 +163,7 @@ public IEnumerator GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
+ IEnumerator
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Remove__0_"></a> Remove\(TKey\)
 
@@ -176,7 +177,7 @@ public bool Remove(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_TryGetValue__0__1__"></a> TryGetValue\(TKey, out TValue\)
 
@@ -192,7 +193,7 @@ public bool TryGetValue(TKey key, out TValue value)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_CollectionChanged"></a> CollectionChanged
 
@@ -202,7 +203,7 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 
 #### Event Type
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+ NotifyCollectionChangedEventHandler
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_PropertyChanged"></a> PropertyChanged
 
@@ -212,5 +213,5 @@ public event PropertyChangedEventHandler PropertyChanged
 
 #### Event Type
 
- [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
+ PropertyChangedEventHandler
 

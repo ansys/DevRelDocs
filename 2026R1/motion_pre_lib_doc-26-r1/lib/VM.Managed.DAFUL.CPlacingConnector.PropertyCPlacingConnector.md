@@ -1,4 +1,5 @@
-#  Class PropertyCPlacingConnector
+# Class PropertyCPlacingConnector
+<a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector"></a>
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -11,13 +12,13 @@ public class PropertyCPlacingConnector : Property, IObservableObject, IDisposabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyCPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.PropertyCPlacingConnector.md)
 
 #### Implements
@@ -31,7 +32,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -40,12 +41,12 @@ IHasID
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -144,7 +145,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -223,15 +224,15 @@ public static void FindConnectable(DocumentAnalysis document, ref Dictionary<ICo
 
 #### Parameters
 
-`document` DocumentAnalysis
+`document` [DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs)
 
 The document
 
-`baseConnectables` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<IConnectable, TMatrix\>
+`baseConnectables` Dictionary<IConnectable, TMatrix\>
 
 The base connectable entity
 
-`actionConnectables` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<IConnectable, TMatrix\>
+`actionConnectables` Dictionary<IConnectable, TMatrix\>
 
 The action connectable entity
 
@@ -245,15 +246,15 @@ public static void FindConnectable(DocumentAnalysis document, Func<string, bool>
 
 #### Parameters
 
-`document` DocumentAnalysis
+`document` [DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs)
 
 The document
 
-`funcFilter` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`funcFilter` Func<string, bool\>
 
 The filter function
 
-`connectables` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<IConnectable, TMatrix\>
+`connectables` Dictionary<IConnectable, TMatrix\>
 
 The connectable entity
 
@@ -271,17 +272,17 @@ public static List<Reference> FindReference(IInstanceContainer instanceContainer
 
 The subsystem
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type
 
-`lstConnectable` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IConnectable\>
+`lstConnectable` List<IConnectable\>
 
 The connectable
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Reference\>
+ List<Reference\>
 
 ### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_FindReferenceInCurrentDocument_VM_Managed_DAFUL_DocumentAnalysis_VM_Managed_InstanceContainer_VM_Managed_DAFUL_IConnectable_VM_Managed_TMatrix__"></a> FindReferenceInCurrentDocument\(DocumentAnalysis, InstanceContainer, IConnectable, ref TMatrix\)
 
@@ -293,11 +294,11 @@ public static IConnectable FindReferenceInCurrentDocument(DocumentAnalysis docum
 
 #### Parameters
 
-`document` DocumentAnalysis
+`document` [DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs)
 
 The document
 
-`instance` InstanceContainer
+`instance` [InstanceContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs)
 
 The instance
 
