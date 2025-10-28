@@ -1,17 +1,4 @@
-# PyAnsys use case
-
-That’s a great initiative — adding **use cases** to your developer portal will make it far more engaging and valuable for both technical and executive audiences.
-
-Here’s a clear, flexible **structure** you can use that works well for **developer + executive readers**:
-
-## 🧩 **Recommended Structure for Developer Portal Use Cases**
-
-* Short, action-oriented, and specific.
-  → *Example:* “Automating Report Generation Using the ModelCenter API”
-
----
-
-### 2. **Summary (Executive View)**
+# Summary
 
 * 2–3 sentences summarizing **what the use case achieves** and **why it matters**.
 * Focus on **business impact**: time saved, cost reduction, or improved efficiency.
@@ -19,7 +6,7 @@ Here’s a clear, flexible **structure** you can use that works well for **devel
 
 ---
 
-### 3. **Problem / Challenge**
+## Problem / Challenge
 
 * Describe the issue or inefficiency faced before the solution.
 * Make it relatable to the reader’s context (operational, business, or technical).
@@ -27,7 +14,7 @@ Here’s a clear, flexible **structure** you can use that works well for **devel
 
 ---
 
-### 4. **Solution Overview**
+## Solution Overview
 
 * Summarize how your product (API, SDK, service, etc.) solves the problem.
 * Include a high-level architecture diagram or workflow if relevant.
@@ -35,7 +22,7 @@ Here’s a clear, flexible **structure** you can use that works well for **devel
 
 ---
 
-### 5. **Implementation Details (Developer View)**
+## Implementation Details (Developer View)
 
 Break this down into short, clear sections:
 
@@ -48,7 +35,7 @@ Break this down into short, clear sections:
 
 ---
 
-### 6. **Results / Benefits**
+## Results / Benefits
 
 * Quantify improvements where possible.
 * Include both **technical** and **business** metrics.
@@ -59,7 +46,7 @@ Break this down into short, clear sections:
 
 ---
 
-### 7. **Key Takeaways / Lessons Learned**
+## Key Takeaways / Lessons Learned
 
 * 2–3 bullet points summarizing what users should remember.
   → *Example:*
@@ -69,7 +56,7 @@ Break this down into short, clear sections:
 
 ---
 
-### 8. **Resources / References**
+## Resources / References
 
 * Link to:
 
@@ -80,7 +67,7 @@ Break this down into short, clear sections:
 
 ---
 
-### 9. **Optional: Executive Snapshot**
+## Optional: Executive Snapshot
 
 If your portal serves mixed audiences, you can provide a **summary box** at the top (or side) that highlights:
 
@@ -89,21 +76,3 @@ If your portal serves mixed audiences, you can provide a **summary box** at the 
 * **Estimated implementation time**
 * **Main API used**
 
----
-
-## Example Headings Template
-
-```
-# Use Case: Automating Report Creation with ModelCenter API
-## Summary
-## Problem
-## Solution
-## Implementation Details
-## Results
-## Key Takeaways
-## Resources
-```
-
----
-
-Would you like me to create a **sample filled-out use case** (e.g., for the “report automation with API” you mentioned earlier) using this structure? That way you can see how it reads in practice for both developers and executives.
