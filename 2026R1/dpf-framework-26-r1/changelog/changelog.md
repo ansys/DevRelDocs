@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-24).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-27).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -16,7 +16,7 @@ The following table shows which components have updates in each category.
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) | |
-| dpf | [2 items](#Features_dpf) |[1 item](#Fixes_dpf) |
+| dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
@@ -174,6 +174,13 @@ The following table shows which components have updates in each category.
 
 ## dpf
 ### <a id="Features_dpf"></a> Features
+
+- Improvement of indexById performance:
+  > feat(dpf): Improvement of indexById performance.
+  >
+  > 
+  >
+  > 
 
 - Improvement of indexById performance.':
   > 
