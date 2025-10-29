@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-24).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-28).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -16,11 +16,11 @@ The following table shows which components have updates in each category.
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) | |
-| dpf | [2 items](#Features_dpf) |[1 item](#Fixes_dpf) |
+| dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[2 items](#Fixes_femutils) |
+| femutils |  |[3 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[1 item](#Fixes_grpc) |
 | h5dpf | [1 item](#Features_h5dpf) |[1 item](#Fixes_h5dpf) |
@@ -175,6 +175,13 @@ The following table shows which components have updates in each category.
 ## dpf
 ### <a id="Features_dpf"></a> Features
 
+- Improvement of indexById performance:
+  > feat(dpf): Improvement of indexById performance.
+  >
+  > 
+  >
+  > 
+
 - Improvement of indexById performance.':
   > 
 
@@ -235,6 +242,13 @@ The following table shows which components have updates in each category.
 ## femutils
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Performance and result issue with split_fields:
+  > 
+  >
+  > Performance issue with the `split_fields` operator when several meshes are the input.
+  >
+  > 
 
 - BugFix in op normals_provider_nl:
   > 
