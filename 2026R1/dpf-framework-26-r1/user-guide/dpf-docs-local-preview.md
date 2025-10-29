@@ -191,10 +191,10 @@ It removes the risk from incompatibilities between dependencies.
    pip install ansys-dpf-core[operator_doc]
    ```
 
-This installs the ansys-dpf-core Python package with its dependencies for generating the operator documentation files.
-It also enables a command on the terminal to generate the operator documentation (see the next step).
+    This installs the ansys-dpf-core Python package with its dependencies for generating the operator documentation files.
+    It also enables a command on the terminal to generate the operator documentation (see the next step).
 
-See the [PyDPF-Core documentation](https://dpf.docs.pyansys.com/version/stable/getting_started/install.html) for further details on how you can install ansys-dpf-core. 
+    See the [PyDPF-Core documentation](https://dpf.docs.pyansys.com/version/stable/getting_started/install.html) for further details on how you can install ansys-dpf-core. 
 
 2. **Check your installation** with:
 
