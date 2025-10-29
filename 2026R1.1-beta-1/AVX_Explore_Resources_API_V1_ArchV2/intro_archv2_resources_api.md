@@ -306,10 +306,9 @@ You will find an JSON example below:
 
 You need to get the Application ID on which you want to run the job. 
 
-To get this, click **Execute** on the GET/Application command (below):
+To get this, click **Execute** on the GET/Applications command (below) on the Resource REST API:
 ```bash
-https://explore.aws-stage.apps.frisbeedev.com/api/resources/v1/docs
-GET https://explore.{{ environment }}.{{ domain }}/api/resources/v1/applications
+https://explore.{{ environment }}.{{ domain }}/api/resources/v1/applications
 ```
 
 ![Alt text](./app-id-1.png)
