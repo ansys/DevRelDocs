@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-28).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-29).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -34,8 +34,8 @@ The following table shows which components have updates in each category.
 | mechanical | [1 item](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[1 item](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
-| native |  |[2 items](#Fixes_native) |
-| perf | [2 items](#Features_perf) | |
+| native |  |[3 items](#Fixes_native) |
+| perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [2 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
@@ -1010,6 +1010,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Fix issue with empty label and crash:
+  > Fix issue with empty label and crash.
+  >
+  > 
+
 - Fix shell layers support for scale_by_field operator:
   > Scale_by_field operator supports now fields with shell layers.
   >
@@ -1044,6 +1049,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_perf"></a> Fixes
+
+- Fix performance on averaging and filling fc for huge number of solutions on msup:
+  > Fix performance on averaging and filling fc for huge number of solutions on msup
+  >
+  > 
+  >
+  > 
 ## prime
 ### <a id="Features_prime"></a> Features
 
