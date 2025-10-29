@@ -30,13 +30,15 @@ The AVxcelerate python APIs are hosted as a python package on a cluster as part 
 
 The python package is hosted as PyPi compliant registry on each deployed cluster. The registry URL is like this:
 
+```bash
 https://explore.{{ domain }}/api/explore/pypi
+```
 
 ## Usage example
 
 Pre-requisites:
 
-We assume that on the system is running with the **Ubuntu 22.04** version, and that the following tools are already installed:
+We assume that the system is running with the **Ubuntu 22.04** version, and that the following tools are already installed:
 
 - python 3.10
 - pip 25.1
@@ -120,7 +122,7 @@ Once this limit is configured, the system will only launch up to the specified n
 
 ### Example
 
-* If The *maximum_allowed_worker_instances* parameter is set to 10 for the queue named *local*. 
+* If The *maximum_allowed_worker_instances* parameter is set to 10 for the queue named *Default*. 
 * Two jobs are created: 
    
    a. Job (1) with 10 worker instances 
