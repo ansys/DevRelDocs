@@ -1929,6 +1929,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: Addition of events to monitor the status of the operator.
 
+  > 0.2.0: Moving event of progress bar at the beggining of the loop and changing input stream.
+
 
 - [scopingify](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/scopingify.md)
 
