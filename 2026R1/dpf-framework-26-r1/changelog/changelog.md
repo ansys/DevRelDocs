@@ -30,7 +30,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapdl | [11 items](#Features_mapdl) |[14 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| math | [6 items](#Features_math) | |
+| math | [7 items](#Features_math) | |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[1 item](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
@@ -635,6 +635,11 @@ The following table shows which components have updates in each category.
   > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Add new operator (matrices assembly) for Transfer Path Analysis:
+  > 
+  >
+  > 
 
 - Create new operator to do QR solve with fields containers:
   > Create a new operator to perform QR solve with fields containers
