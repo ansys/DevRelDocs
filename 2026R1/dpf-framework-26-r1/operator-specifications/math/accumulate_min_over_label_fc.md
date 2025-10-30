@@ -17,7 +17,7 @@ Compute the component-wise sum over all the fields that have the same ID as the 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-| <strong>Pin 1</strong>|  label |[`string`](../../core-concepts/dpf-types.md#standard-types) | Label of the fields container where it should operate. |
+| <strong>Pin 1</strong>|  label |[`string`](../../core-concepts/dpf-types.md#standard-types) | Label of the fields container where it should operate. If not defined and the input Fields Container has only one Label, the operation will be done over all the fields. |
 
 ## Outputs
 
