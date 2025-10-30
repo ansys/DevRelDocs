@@ -31,7 +31,7 @@ The following table shows which components have updates in each category.
 | mapdl | [11 items](#Features_mapdl) |[14 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [6 items](#Features_math) | |
-| mechanical | [1 item](#Features_mechanical) |[3 items](#Fixes_mechanical) |
+| mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[1 item](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | native |  |[3 items](#Fixes_native) |
@@ -680,6 +680,11 @@ The following table shows which components have updates in each category.
 
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
+
+- Adding feedback from the Mechanical Team:
+  > Moving event of progress bar at the beginning of the loop and changing input stream.
+  >
+  > 
 
 - Addition of events to monitor the status of producer_consumer_for_each operator:
   > Addition of events to monitor the status of producer_consumer_for_each operator.
@@ -1418,6 +1423,26 @@ The following table shows which components have updates in each category.
 
 
 #### math
+
+- [accumulate_level_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_level_over_label_fc.md)
+
+  > 0.0.1: Fixed issue with crash due to empty label.
+
+
+- [accumulate_min_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_min_over_label_fc.md)
+
+  > 0.0.1: Fixed issue with crash due to empty label.
+
+
+- [accumulate_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_over_label_fc.md)
+
+  > 0.0.1: Fixed issue with crash due to empty label.
+
+
+- [average_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/average_over_label_fc.md)
+
+  > 0.0.1: Fixed issue with crash due to empty label.
+
 
 - [error_norm_calc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/error_norm_calc.md)
 
