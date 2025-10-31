@@ -11,20 +11,30 @@ license: None
 ## Description
 
 Reads element types data from the result files contained in the streams or data sources.
+- If the output is a GenericDataContainer, its class_name is ElementTypesProperties and it contains the following property fields:
+  - element_routine_number: Element routine number. E.g 186 for SOLID186.
+  - keyopts: Element type option keys.
+  - kdofs: DOF/node for this element type. This is a bit mapping.
+  - nodelm: Number of nodes for this element type.
+  - nodfor: Number of nodes per element having nodal forces.
+  - nodstr: Number of nodes per element having nodal stresses.
+  - new_gen_element: Element of new generation.
+- If the output is a PropertyField, it contains the 200 possible ElementTypesProperties for each solver element type id. These properties are in the order documented in ansys/customize/include/echprm.inc and have the meaning documented in ansys/customize/include/elccmt.inc.
 
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 1</strong>|  solver_element_types_ids |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | Element Type ids to recover used by the solver. If not set, all available element types to be recovered. |
+| <strong>Pin 1</strong>|  solver_element_types_ids |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | Element Type ids to recover used by the solver. If not set, all available element types are recovered. |
 | <strong>Pin 3</strong>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Result file container allowed to be kept open to cache data. |
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Result file path container, used if no streams are set. |
+| <strong>Pin 200</strong>|  output_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Get the output as a GenericDataContainer (pin value 1, default) or as a PropertyField (pin value 2). |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| element_types_data |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) | The generic_data_container has a class_name: ElementTypesProperties. It contains the following property fields: element_routine_number: Element routine number. E.g 186 for SOLID186, keyopts: Element type option keys, kdofs: DOF/node for this element type.This is a bit mapping, nodelm: Number of nodes for this element type, nodfor: Number of nodes per element having nodal forces, nodstr: Number of nodes per element having nodal stresses, new_gen_element: Element of new generation. |
+|  **Pin 0**| element_types_data |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container), [`property_field`](../../core-concepts/dpf-types.md#property-field) |  |
 
 ## Configurations
 
