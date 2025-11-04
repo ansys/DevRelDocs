@@ -1267,6 +1267,14 @@
       href: operator-specifications/result/nodal_rotation_Z.md
     - name: nodal to global
       href: operator-specifications/result/nodal_to_global.md
+    - name: node orientations
+      href: operator-specifications/result/node_orientations.md
+    - name: node orientations X
+      href: operator-specifications/result/node_orientations_X.md
+    - name: node orientations Y
+      href: operator-specifications/result/node_orientations_Y.md
+    - name: node orientations Z
+      href: operator-specifications/result/node_orientations_Z.md
     - name: normal contact force
       href: operator-specifications/result/normal_contact_force.md
     - name: normal contact moment

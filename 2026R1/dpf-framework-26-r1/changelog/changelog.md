@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-10-31).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-03).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -12,10 +12,11 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
-| compression | [2 items](#Features_compression) | |
+| compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) | |
+| documentation | [1 item](#Features_documentation) | |
 | dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
@@ -26,9 +27,9 @@ The following table shows which components have updates in each category.
 | h5dpf | [1 item](#Features_h5dpf) |[1 item](#Fixes_h5dpf) |
 | hdf5 | [4 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
-| kernel | [1 item](#Features_kernel) |[1 item](#Fixes_kernel) |
+| kernel | [2 items](#Features_kernel) |[1 item](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [11 items](#Features_mapdl) |[14 items](#Fixes_mapdl) |
+| mapdl | [12 items](#Features_mapdl) |[14 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) | |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -92,6 +93,8 @@ The following table shows which components have updates in each category.
 
 - Use scripting name in operator changelog:
   > 
+  >
+  > 
 ## ci
 ### <a id="Features_ci"></a> Features
 
@@ -127,6 +130,14 @@ The following table shows which components have updates in each category.
 - Scale and Round Operator:
   > 
 
+### <a id="Fixes_compression"></a> Fixes
+
+- Quantization loss of performance:
+  > The quantization ("quantization") operator has became super slow since its last modification.
+  >
+  > 
+  >
+  > 
 ## core
 
 ### <a id="Fixes_core"></a> Fixes
@@ -171,6 +182,20 @@ The following table shows which components have updates in each category.
   > Operator "html_doc" now displays information about supported file types if available.
   >
   > new operator "info::router_discovery" allows to access information through DataTree.
+  >
+  > 
+  >
+  > 
+
+## documentation
+### <a id="Features_documentation"></a> Features
+
+- Add Markdown and LaTeX example operator:
+  > This PR adds an example operator ``markdown_latex_example`` to ``Ans.Dpf.Documentation`` where usage of supported Markdown and LaTeX is showcased.
+  >
+  > It also allows to test whether the operator is properly exposed in all clients and pipelines.
+  >
+  > We take the opportunity to fix support for multiline descriptions in output pins during generation of operator classes in C#.
   >
   > 
   >
@@ -403,6 +428,15 @@ The following table shows which components have updates in each category.
 ## kernel
 ### <a id="Features_kernel"></a> Features
 
+- Add Unit string to express British ton:
+  > 
+  >
+  > The string `"ton"` in DPF units denotes the Metric Ton (1000 kg). The string `"tonuk"` now denotes the British ton (also known as Long ton, approximately 1016.05 kg or 2240 pounds of mass).
+  >
+  > 
+  >
+  > 
+
 - Establish thread safety and STL compliance for scopingIterators:
   > - Test for thread safety when using scoping Iterators for read access within parallel regions (over fields, over scoping etc).
   >
@@ -434,6 +468,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Adding new operator and result for Nodal Orientations:
+  > Adding new operator and result for Nodal Orientations
+  >
+  > 
+  >
+  > 
 
 - Refactor ElementType handling to increase performance:
   > 
@@ -1358,6 +1399,18 @@ The following table shows which components have updates in each category.
 - [nodal_rotational_velocity_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity_Z.md):
   > Read/compute nodal rotational velocity Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
+- [node_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations.md):
+  > Read/compute node euler angles by calling the readers defined by the datasources.
+
+- [node_orientations_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_X.md):
+  > Read/compute node euler angles X component of the vector (1st component) by calling the readers defined by the datasources.
+
+- [node_orientations_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_Y.md):
+  > Read/compute node euler angles Y component of the vector (2nd component) by calling the readers defined by the datasources.
+
+- [node_orientations_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_Z.md):
+  > Read/compute node euler angles Z component of the vector (3rd component) by calling the readers defined by the datasources.
+
 
 #### serialization
 
@@ -1806,6 +1859,16 @@ The following table shows which components have updates in each category.
 - [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
 
   > 0.1.0: Addition of is_constant pin
+
+
+- [remove_rigid_body_motion](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/remove_rigid_body_motion.md)
+
+  > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
+
+
+- [remove_rigid_body_motion_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/remove_rigid_body_motion_fc.md)
+
+  > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
 
 
 - [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/state_variable.md)
