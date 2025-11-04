@@ -10,6 +10,10 @@
         "programming language": "C++",
         "product collection": "Structures",
         "physics": "Structures",
+        "_disableNavbar": false,
+        "_disableToc": false,
+        "_disableTocFilter": false,
+        "_disableAffix": false,
         "_enableSearch": true,
         "pdf": false
       },
