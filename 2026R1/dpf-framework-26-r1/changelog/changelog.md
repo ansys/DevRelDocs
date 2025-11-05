@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-03).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,7 +8,7 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
-| cff | [2 items](#Features_cff) | |
+| cff | [2 items](#Features_cff) |[1 item](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
@@ -29,7 +29,7 @@ The following table shows which components have updates in each category.
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[1 item](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [12 items](#Features_mapdl) |[14 items](#Fixes_mapdl) |
+| mapdl | [12 items](#Features_mapdl) |[15 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) | |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -64,6 +64,12 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_cff"></a> Fixes
+
+- Set proper names for User-Defined Memory variables:
+  > 
+  >
+  > 
 ## cgns
 ### <a id="Features_cgns"></a> Features
 
@@ -564,6 +570,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix crash caused by invalid iterator when reading shell data:
+  > 
+  >
+  > Fix an access violation when reading shell elements in pres_to_field op.
+  >
+  > 
 
 - Fix expansion of element nodal forces (ENF):
   > Fix the expansion of inertial element nodal forces
@@ -1174,6 +1187,98 @@ The following table shows which components have updates in each category.
   > Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
 
 
+#### info
+
+- [markdown_latex_example](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/info/markdown_latex_example.md):
+  > This operator showcases the use of Markdown and LaTeX in operator and pin descriptions:
+  > # Headings
+  > ## h2
+  > ### h3
+  > #### h4
+  > ##### h5
+  > 
+  > # Text
+  > This should result in a paragraph
+  > it's that simple.
+  > 
+  > 
+  > *italic*, **bold**
+  > 
+  > # Lists
+  > * an *unordered list*
+  >   * with **some hierarchy**
+  >     1. and an ordered
+  >     2. mixed
+  >     * list
+  >     * directly
+  >   * inside
+  > 
+  > # Code
+  > ## Code block
+  > ```c
+  > std::string a = 'test';
+  > ```
+  > ```js
+  > var a = 'test';
+  > ```
+  > ```python
+  > a: str = 'test'
+  > ```
+  > ## Inline code
+  > And well `inline code` should also work.
+  > 
+  > # Quotes
+  > 
+  > > A Quote
+  > >
+  > > With *some text* **blocks inside**
+  > >
+  > > * even a list
+  > > * should be
+  > > * possible
+  > 
+  > ## Links
+  > Links such as [link](https://docs.pyansys.com/).
+  > 
+  > ## Images
+  > ![an image](https://docs.pyansys.com/version/dev/_static/pyansys_logo_transparent_white.png)
+  > 
+  > 
+  > ## Separations
+  > 
+  > ---
+  > 
+  > ## Checklists
+  > 
+  > - [ ] how
+  > - [ ] about
+  >   - [ ] a
+  >   - [x] nice
+  > - [x] check
+  > - [ ] list
+  > 
+  > ## Tables
+  > 
+  > | Left header | middle header | last header |
+  > |-------------|---------------|-------------|
+  > | cell 1      | cell **2**    | cell 3      |
+  > | cell 4      | cell 5        | cell 6      |
+  > 
+  > 
+  > ## LaTeX
+  > 
+  > An inline equation $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$ using LaTeX dollar delimiters.
+  > 
+  > An inline equation \(x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.\) using LaTeX parenthesis delimiters.
+  > 
+  > An equation on its own using dollar delimiters:
+  > $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$$
+  > 
+  > An equation on its own using square bracket delimiters:
+  > \[x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.\]
+  > 
+
+
 #### mapping
 
 - [apply_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/apply_mechanical_native_mapping.md):
@@ -1354,6 +1459,9 @@ The following table shows which components have updates in each category.
 - [gasket_total_closure_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_XZ.md):
   > Read/compute elemental gasket total closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
+- [layer_orientation_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/layer_orientation_provider.md):
+  > Read the layer orientations.
+
 - [modal_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/modal_acceleration.md):
   > Read/compute modal acceleration by calling the readers defined by the datasources.
 
@@ -1485,6 +1593,8 @@ The following table shows which components have updates in each category.
 
   > 0.2.0: Improving performance for ElementalNodal and Elemental locations.
 
+  > 0.2.1: Removing unnedeed output hidden pin.
+
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
@@ -1493,6 +1603,8 @@ The following table shows which components have updates in each category.
   > 0.1.1: Bug fixed for empty fields container
 
   > 0.2.0: Improving performance for ElementalNodal and Elemental locations
+
+  > 0.2.1: Fixed issue with different scopings in the input field.
 
 
 
@@ -1804,6 +1916,11 @@ The following table shows which components have updates in each category.
 - [magnetic_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_flux_density.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [mapdl.pres_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/mapdl.pres_to_field.md)
+
+  > 0.0.1: Fix crash caused by invalid iterator when reading shell data.
 
 
 - [num_surface_status_changes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/num_surface_status_changes.md)

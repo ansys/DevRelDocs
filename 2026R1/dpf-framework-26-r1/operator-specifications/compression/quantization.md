@@ -4,7 +4,7 @@ plugin: N/A
 license: any_dpf_supported_increments
 ---
 
-# compression:quantization field
+# compression:quantization (field)
 
 **Version: 0.0.0**
 
