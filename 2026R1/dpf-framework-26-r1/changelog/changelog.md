@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-04).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-05).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -29,7 +29,7 @@ The following table shows which components have updates in each category.
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[1 item](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [12 items](#Features_mapdl) |[15 items](#Fixes_mapdl) |
+| mapdl | [13 items](#Features_mapdl) |[15 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) | |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -37,7 +37,7 @@ The following table shows which components have updates in each category.
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | native |  |[3 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
-| prime | [2 items](#Features_prime) | |
+| prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | workflows |  |[1 item](#Fixes_workflows) |
@@ -474,6 +474,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Source Operators for Acoustic Ops:
+  > Adding Source Operators for Acoustic Operators in complement of previous PR 630503
+  >
+  > 
+  >
+  > 
 
 - Adding new operator and result for Nodal Orientations:
   > Adding new operator and result for Nodal Orientations
@@ -1127,6 +1134,11 @@ The following table shows which components have updates in each category.
   > 
 ## prime
 ### <a id="Features_prime"></a> Features
+
+- Add TimeFreqSupport as input in morph_field_from_files operator:
+  > 
+  >
+  > 
 
 - Implement morph_field_from_files operator:
   > 

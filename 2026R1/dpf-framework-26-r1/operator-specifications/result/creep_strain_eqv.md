@@ -43,6 +43,13 @@ Read/compute element nodal equivalent component creep strains by calling the rea
 | 13      | Pretension      |
 
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+- mapdl: rst, rstp 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

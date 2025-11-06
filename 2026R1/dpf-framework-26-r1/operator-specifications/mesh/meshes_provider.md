@@ -12,6 +12,16 @@ license: None
 
 Reads meshes from result files. Meshes can be spatially or temporally varying.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
+- cgns: cgns 
+- hdf5: h5dpf 
+- lsdyna: binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3spcm, d3ssd, moddynout 
+- mapdl: cms, dsub, mode, rdsp, rfrq, rst 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
