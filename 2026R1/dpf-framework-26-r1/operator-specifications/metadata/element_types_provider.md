@@ -21,6 +21,12 @@ Reads element types data from the result files contained in the streams or data 
   - new_gen_element: Element of new generation.
 - If the output is a PropertyField, it contains the 200 possible ElementTypesProperties for each solver element type id. These properties are in the order documented in ansys/customize/include/echprm.inc and have the meaning documented in ansys/customize/include/elccmt.inc.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst, rstp, rth 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

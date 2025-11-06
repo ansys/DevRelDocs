@@ -12,6 +12,12 @@ license: None
 
 Read/compute Temperature Gradient X component of the vector (1st component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

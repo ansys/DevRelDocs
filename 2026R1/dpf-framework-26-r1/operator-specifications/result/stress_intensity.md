@@ -13,6 +13,13 @@ license: None
 Reads/computes element nodal component stresses, average it on nodes (by default) and computes its invariants.
 This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+- mapdl: rst, rstp 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
