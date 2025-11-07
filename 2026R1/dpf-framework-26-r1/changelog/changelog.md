@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-05).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-06).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -24,7 +24,8 @@ The following table shows which components have updates in each category.
 | femutils |  |[3 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[1 item](#Fixes_grpc) |
-| h5dpf | [1 item](#Features_h5dpf) |[1 item](#Fixes_h5dpf) |
+| grpcclient |  |[1 item](#Fixes_grpcclient) |
+| h5dpf | [1 item](#Features_h5dpf) |[2 items](#Fixes_h5dpf) |
 | hdf5 | [4 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[1 item](#Fixes_kernel) |
@@ -359,6 +360,14 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## grpcclient
+
+### <a id="Fixes_grpcclient"></a> Fixes
+
+- Fix undefined symbol on Linux:
+  > 
+  >
+  > 
 ## h5dpf
 ### <a id="Features_h5dpf"></a> Features
 
@@ -372,6 +381,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_h5dpf"></a> Fixes
+
+- Correction of meshes_provider from h5dpf:
+  > Correction of meshes_provider from h5dpf to not split mesh.
+  >
+  > 
+  >
+  > 
 
 - Fix thickness extraction from SMISC/NMISC from h5dpf file:
   > Fix thickness extraction from SMISC/NMISC from h5dpf file
@@ -1350,6 +1366,12 @@ The following table shows which components have updates in each category.
 
 #### result
 
+- [PL2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/PL2.md):
+  > Read/compute PL2 by calling the readers defined by the datasources.
+
+- [acoustic_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/acoustic_energy_density.md):
+  > Read/compute AED by calling the readers defined by the datasources.
+
 - [creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain.md):
   > Read/compute element nodal component creep strains by calling the readers defined by the datasources.
   > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
@@ -1471,6 +1493,9 @@ The following table shows which components have updates in each category.
 - [gasket_total_closure_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_XZ.md):
   > Read/compute elemental gasket total closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
+- [input_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/input_sound_power.md):
+  > Read/compute PINC by calling the readers defined by the datasources.
+
 - [layer_orientation_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/layer_orientation_provider.md):
   > Read the layer orientations.
 
@@ -1530,6 +1555,9 @@ The following table shows which components have updates in each category.
 
 - [node_orientations_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_Z.md):
   > Read/compute node euler angles Z component of the vector (3rd component) by calling the readers defined by the datasources.
+
+- [output_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/output_sound_power.md):
+  > Read/compute POUT by calling the readers defined by the datasources.
 
 
 #### serialization
