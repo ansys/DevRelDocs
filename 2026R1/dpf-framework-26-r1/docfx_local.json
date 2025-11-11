@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+    "build": {
+      "globalMetadata": {
+        "_appName": "DPF Framework 2026 R1",
+        "_appTitle": "DPF Framework 2026 R1",
+        "summary": "",
+        "version": "2026 R1",
+        "product": "DPF",
+        "programming language": "C++",
+        "product collection": "Structures",
+        "physics": "Structures",
+        "_disableNavbar": false,
+        "_disableToc": false,
+        "_disableTocFilter": false,
+        "_disableAffix": false,
+        "_enableSearch": true,
+        "pdf": false
+      },
+      "content": [
+        {
+          "files": [
+            "**/*.{md,yml}"
+          ],
+          "exclude": [
+            "_site/**"
+          ]
+        }
+      ],
+      "resource": [
+        {
+          "files": [
+            "images/**"
+          ]
+        }
+      ],
+      "output": "_site",
+      "template": [
+        "default",
+        "modern"
+      ]
+    }
+  }
+  

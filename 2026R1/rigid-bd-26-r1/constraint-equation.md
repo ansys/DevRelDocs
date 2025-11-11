@@ -53,9 +53,8 @@ commands is shown below. A description of these commands follows.
     ```
 
     The first argument is the joint object. The second argument defines the DOF
-    (degrees of freedom) of the joint that are involved in the relation. Here, `0`
-    represents the rotation, which is the joint's first and only DOF is the
-    rotation.
+    (degrees of freedom) of the joints that are involved in the relation. Here, `0`
+    represents the rotation, which is the joint's first and only DOF.
 
 5. The second term and right hand side are introduced in the same manner:
 

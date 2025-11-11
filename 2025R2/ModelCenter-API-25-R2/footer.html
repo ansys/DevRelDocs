@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Footer</title>
+    <style>
+      #footer {
+      padding: 10px;
+      }
+        .pdf-footer {
+            font-family: SourceSansPro, Helvetica, Arial, sans-serif;
+            font-size: 10px;
+            color: #7f8c8d;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .copyright {
+            font-weight: 500;
+        }
+        .pageNumber::after {
+            content: counter(page);
+        }
+    </style>
+</head>
+<body>
+    <div class="pdf-footer">
+        <span class="copyright">© ANSYS, Inc. All rights reserved.</span> | Page <span class="pageNumber"></span>
+    </div>
+</body>
+</html>

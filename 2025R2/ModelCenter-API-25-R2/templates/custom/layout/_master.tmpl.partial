@@ -1,0 +1,63 @@
+{{!Licensed to the .NET Foundation under one or more agreements.}}
+{{!The .NET Foundation licenses this file to you under the MIT license.}}
+
+<!DOCTYPE html>
+<html {{#_lang}}lang="{{_lang}}"{{/_lang}}>
+<head>
+  <meta charset="utf-8">
+  {{#redirect_url}}
+    <meta http-equiv="refresh" content="0;URL='{{redirect_url}}'">
+  {{/redirect_url}}
+  {{^redirect_url}}
+    <title>{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}">
+    {{#_description}}<meta name="description" content="{{_description}}">{{/_description}}
+    <link rel="icon" href="{{_rel}}{{{_appFaviconPath}}}{{^_appFaviconPath}}favicon.ico{{/_appFaviconPath}}">
+    <link rel="stylesheet" href="{{_rel}}styles/docfx.vendor.css">
+    <link rel="stylesheet" href="{{_rel}}styles/docfx.css">
+    <link rel="stylesheet" href="{{_rel}}styles/main.css">
+    <meta name="docfx:navrel" content="{{_navRel}}">
+    <meta name="docfx:tocrel" content="{{_tocRel}}">
+    {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
+    {{#_enableSearch}}<meta name="searchOption" content="show">{{/_enableSearch}}
+  {{/redirect_url}}
+</head>
+
+{{^redirect_url}}
+<body data-spy="scroll" data-target="#affix" data-offset="50">
+  <div id="wrapper">
+    <header>
+      {{>partials/navbar}}
+    </header>
+    {{#_enableSearch}}
+    <div class="container body-content">
+      {{>partials/searchResults}}
+    </div>
+    {{/_enableSearch}}
+    <div role="main" class="container body-content hide-when-search">
+      {{>partials/breadcrumb}}
+      <div class="row">
+        {{#_tocPath}}
+        <div class="col-md-2 sidebar">
+          <div class="sticky-top">
+            {{>partials/toc}}
+          </div>
+        </div>
+        <div class="col-md-10 article">
+        {{/_tocPath}}
+        {{^_tocPath}}
+        <div class="col-12 article">
+        {{/_tocPath}}
+          <article class="content wrap" id="_content" data-uid="{{uid}}">
+            {{!body}}
+          </article>
+        </div>
+      </div>
+    </div>
+    {{>partials/footer}}
+  </div>
+  {{>partials/scripts}}
+</body>
+{{/redirect_url}}
+</html>

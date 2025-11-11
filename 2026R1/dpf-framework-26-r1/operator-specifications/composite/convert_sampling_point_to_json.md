@@ -22,13 +22,13 @@ Converts a sampling point object into a sampling point json string.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| string |[`string`](./../../core-concepts/dpf-types.md#standard-types) | Sampling point json |
+|  **Pin 0**| string |[`string`](../../core-concepts/dpf-types.md#standard-types) | Sampling point json |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

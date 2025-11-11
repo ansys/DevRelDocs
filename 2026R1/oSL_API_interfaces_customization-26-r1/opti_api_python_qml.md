@@ -1,5 +1,4 @@
 # QML Based User Interfaces
-
 Qt Modeling Language (QML) is a user interface markup language that is declarative, similar to CSS and JSON.
 
 Using QML to create custom user interfaces allows you to:

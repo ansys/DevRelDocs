@@ -1,0 +1,181 @@
+/* Custom ANSYS-branded styling for DocFX PDF generation */
+
+/* Override global font family */
+* {
+    font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+body {
+    font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    line-height: 1.6 !important;
+}
+
+/* PDF-specific styling with increased margins */
+@media print {
+    @page {
+        margin: 4cm 3cm 4cm 3cm !important;
+        size: A4 !important;
+    }
+    
+    body {
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-size: 11pt !important;
+        line-height: 1.5 !important;
+        color: #333 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Content area with proper spacing */
+    .container, .container-fluid {
+        padding: 1.5rem !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    .main-panel {
+        margin: 0 !important;
+        padding: 1rem !important;
+    }
+    
+    .content {
+        margin: 0 !important;
+        padding: 1rem !important;
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+    
+    /* Article content styling */
+    article {
+        margin: 0 !important;
+        padding: 1rem !important;
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+    
+    /* ANSYS branding for headings */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        color: #2c3e50 !important;
+        font-weight: 600 !important;
+        page-break-after: avoid !important;
+    }
+    
+    h1 {
+        font-size: 2em !important;
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+        border-bottom: 2px solid #2c3e50 !important;
+        padding-bottom: 0.5rem !important;
+    }
+    
+    h2 {
+        font-size: 1.5em !important;
+        margin-top: 1.5rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+    
+    h3 {
+        font-size: 1.25em !important;
+        margin-top: 1.25rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    /* Paragraph and text styling */
+    p {
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-size: 11pt !important;
+        line-height: 1.6 !important;
+        margin-bottom: 1rem !important;
+        page-break-inside: avoid !important;
+    }
+    
+    /* Code blocks styling */
+    pre, code {
+        font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+        font-size: 10pt !important;
+    }
+    
+    pre {
+        background-color: #f8f9fa !important;
+        border: 1px solid #e9ecef !important;
+        border-radius: 4px !important;
+        padding: 1rem !important;
+        margin: 1rem 0 !important;
+        page-break-inside: avoid !important;
+        overflow: visible !important;
+        white-space: pre-wrap !important;
+    }
+    
+    code {
+        background-color: #f8f9fa !important;
+        color: #2c3e50 !important;
+        padding: 0.2rem 0.4rem !important;
+        border-radius: 3px !important;
+    }
+    
+    /* Table styling */
+    table {
+        border-collapse: collapse !important;
+        width: 100% !important;
+        margin: 1rem 0 !important;
+        page-break-inside: avoid !important;
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-size: 10pt !important;
+    }
+    
+    th, td {
+        border: 1px solid #ddd !important;
+        padding: 0.5rem !important;
+        text-align: left !important;
+    }
+    
+    th {
+        background-color: #f2f2f2 !important;
+        font-weight: 600 !important;
+        color: #2c3e50 !important;
+    }
+    
+    /* List styling */
+    ul, ol {
+        margin: 1rem 0 !important;
+        padding-left: 2rem !important;
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+    
+    li {
+        margin-bottom: 0.5rem !important;
+        line-height: 1.5 !important;
+    }
+    
+    /* Ensure good page breaks */
+    .page-break {
+        page-break-before: always !important;
+    }
+    
+    /* Hide navigation and other web-only elements */
+    .navbar, .nav, .sidetoc, .sidebar, .footer, .breadcrumb {
+        display: none !important;
+    }
+    
+    /* Adjust content width for PDF */
+    .col-md-10, .col-lg-10, .col-xl-10 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+    }
+}
+
+/* Web view styling (non-print) */
+@media screen {
+    body {
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        color: #2c3e50 !important;
+    }
+    
+    .content {
+        font-family: 'SourceSansPro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+}

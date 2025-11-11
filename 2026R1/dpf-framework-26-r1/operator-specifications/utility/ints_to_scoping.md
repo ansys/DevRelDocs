@@ -16,20 +16,21 @@ take a int or a vector of int and transform it in a one entity field of location
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  int_or_vector_int |[`int32`](./../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](./../../core-concepts/dpf-types.md#standard-types) | int or vector of int |
-| <strong>Pin 1</strong>|  location |[`string`](./../../core-concepts/dpf-types.md#standard-types) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  int_or_vector_int |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping) | int or single value scoping or vector of int |
+| <strong>Pin 1</strong>|  location |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
+| <strong>Pin 2</strong>|  upper_bound |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping) | Define the upper bound to create a scoping that will contain a range from the single value input in pin 0 to the upper bound defined in this pin. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| scoping |[`scoping`](./../../core-concepts/dpf-types.md#scoping) |  |
+|  **Pin 0**| scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

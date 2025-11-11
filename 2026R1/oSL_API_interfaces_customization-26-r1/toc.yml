@@ -5,7 +5,7 @@
 - name: Functional Mock-up Interface
   href: opti_api_functional_mockup_interface.md
 - name: Python-Based Plugins
-  href: opti_api_python_based_plugins.md
+  href: opti_api_python_based_plugins.md    
   items:
   - name: Algorithms
     href: opti_api_python_algorithms.md
@@ -52,4 +52,4 @@
     - name: Surrogates
       href: opti_api_python_qml_surrogates.md
 - name: Changelog
-  href: changelog.md
+  href: Changelog.md

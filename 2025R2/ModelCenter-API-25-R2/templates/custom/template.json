@@ -1,0 +1,9 @@
+{
+  "name": "custom",
+  "version": "1.0.0",
+  "description": "Custom ANSYS-branded template extending modern template",
+  "base": ["default", "modern"],
+  "redirection": {
+    "main.css": "styles/main.css"
+  }
+}

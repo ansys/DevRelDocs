@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "PyAnsys use case",
+        "summary": "",
+        "version": "2025 R2",
+        "product": "PyAnsys",
+        "programming language": "",
+        "physics": "Shared Components"
+      }
+    }
+ }
