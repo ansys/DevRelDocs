@@ -43,6 +43,12 @@ Read/compute Magnetic Flux Density by calling the readers defined by the datasou
 | 13      | Pretension      |
 
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst, rstp 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

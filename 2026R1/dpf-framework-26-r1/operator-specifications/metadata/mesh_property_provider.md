@@ -12,6 +12,16 @@ license: None
 
 Reads a property related to the mesh, defined by its name, by calling the readers defined by the data sources. These properties can be used to fill in the mesh.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
+- cgns: cgns 
+- hdf5: h5dpf 
+- lsdyna: d3plot 
+- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rstp, rth 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

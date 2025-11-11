@@ -285,6 +285,11 @@
       href: operator-specifications/geo/spherical_to_cartesian_fc.md
     - name: to polar coordinates
       href: operator-specifications/geo/to_polar_coordinates.md
+  - name: info
+    href: operator-specifications/info/info_category.md
+    items:
+    - name: markdown latex example
+      href: operator-specifications/info/markdown_latex_example.md
   - name: invariant
     href: operator-specifications/invariant/invariant_category.md
     items:
@@ -1169,6 +1174,8 @@
       href: operator-specifications/result/joint_relative_velocity.md
     - name: kinetic energy
       href: operator-specifications/result/kinetic_energy.md
+    - name: layer orientation provider
+      href: operator-specifications/result/layer_orientation_provider.md
     - name: mach number
       href: operator-specifications/result/mach_number.md
     - name: magnetic field

@@ -15,6 +15,9 @@
 - [Geo operators](geo/geo_category.md)
 
 
+- [Info operators](info/info_category.md)
+
+
 - [Invariant operators](invariant/invariant_category.md)
 
 
