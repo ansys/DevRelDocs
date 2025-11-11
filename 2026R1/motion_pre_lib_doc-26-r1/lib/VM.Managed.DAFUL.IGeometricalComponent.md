@@ -1,4 +1,5 @@
-#  Interface IGeometricalComponent
+# Interface IGeometricalComponent
+<a id="VM_Managed_DAFUL_IGeometricalComponent"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -27,17 +28,17 @@ bool GetGeometryNavigatorInformation(XmlDocument xmlDom, XmlElement xmlEle)
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument information.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -65,7 +66,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

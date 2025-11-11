@@ -1,4 +1,5 @@
-#  Class BuilderColor
+# Class BuilderColor
+<a id="VM_Managed_CAD_BuilderColor"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class BuilderColor
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderColor](VM.Managed.CAD.BuilderColor.md)
 
 #### Extension Methods
@@ -32,19 +33,19 @@ public BuilderColor(byte bA, byte bR, byte bG, byte bB)
 
 #### Parameters
 
-`bA` [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+`bA` byte
 
 The alpha.
 
-`bR` [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+`bR` byte
 
 The red.
 
-`bG` [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+`bG` byte
 
 The green.
 
-`bB` [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+`bB` byte
 
 The blue.
 
@@ -58,7 +59,7 @@ public BuilderColor(Color color)
 
 #### Parameters
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The color
 
@@ -82,7 +83,7 @@ public int ColorA { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_BuilderColor_ColorB"></a> ColorB
 
@@ -94,7 +95,7 @@ public int ColorB { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_BuilderColor_ColorG"></a> ColorG
 
@@ -106,7 +107,7 @@ public int ColorG { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_BuilderColor_ColorR"></a> ColorR
 
@@ -118,7 +119,7 @@ public int ColorR { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_BuilderColor_EdgeColorInfo"></a> EdgeColorInfo
 
@@ -159,7 +160,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -173,7 +174,7 @@ virtual void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -187,7 +188,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -201,7 +202,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

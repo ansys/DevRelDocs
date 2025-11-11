@@ -1,4 +1,5 @@
-#  Class PropertyDocument<TProp\>
+# Class PropertyDocument<TProp\>
+<a id="VM_Managed_PropertyDocument_1"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,9 +18,9 @@ The type of the property.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 Document ← 
@@ -42,7 +43,7 @@ IOwned,
 IHasID, 
 IEnableManager, 
 IRelatedDocument, 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IPropertyDocument](VM.Managed.IPropertyDocument.md), 
 [IUnitChange](VM.Managed.IUnitChange.md), 
 IXMLFormatable
@@ -276,7 +277,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -341,7 +342,7 @@ protected override Type PropertyType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_Managed_PropertyDocument_1_UntypedProperty"></a> UntypedProperty
 
@@ -379,7 +380,7 @@ public override void Load(TextReader reader)
 
 #### Parameters
 
-`reader` [TextReader](https://learn.microsoft.com/dotnet/api/system.io.textreader)
+`reader` TextReader
 
 The reader.
 
@@ -407,7 +408,7 @@ public override void Save(TextWriter writer)
 
 #### Parameters
 
-`writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
+`writer` TextWriter
 
 The writer.
 

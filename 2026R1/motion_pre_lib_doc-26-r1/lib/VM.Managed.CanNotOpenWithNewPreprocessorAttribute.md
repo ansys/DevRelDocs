@@ -1,4 +1,5 @@
-#  Class CanNotOpenWithNewPreprocessorAttribute
+# Class CanNotOpenWithNewPreprocessorAttribute
+<a id="VM_Managed_CanNotOpenWithNewPreprocessorAttribute"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -9,8 +10,8 @@ public class CanNotOpenWithNewPreprocessorAttribute : Attribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [CanNotOpenWithNewPreprocessorAttribute](VM.Managed.CanNotOpenWithNewPreprocessorAttribute.md)
 
 #### Extension Methods

@@ -1,4 +1,5 @@
-#  Class CADOperation.SetMarkerTramsformOp
+# Class CADOperation.SetMarkerTramsformOp
+<a id="VM_Managed_CADOperation_SetMarkerTramsformOp"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation.SetMarkerTramsformOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADOperation.SetMarkerTramsformOp](VM.Managed.CADOperation.SetMarkerTramsformOp.md)
 
@@ -115,7 +116,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CADOperation_SetMarkerTramsformOp_Name"></a> Name
 
@@ -127,7 +128,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

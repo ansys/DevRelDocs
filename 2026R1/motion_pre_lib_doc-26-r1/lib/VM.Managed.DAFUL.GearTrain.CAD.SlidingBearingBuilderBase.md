@@ -1,4 +1,5 @@
-#  Class SlidingBearingBuilderBase
+# Class SlidingBearingBuilderBase
+<a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,14 +7,14 @@ Assembly: VMDGearTrain.dll
 Sliding Bearing Builder Base
 
 ```csharp
-public class SlidingBearingBuilderBase : BuilderMultiSubtractSimple, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IGeometryBuilder, IPostDeserialized
+public class SlidingBearingBuilderBase : BuilderMultiSubtractSimple, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity, IGeometryBuilder, IPostDeserialized
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -44,8 +45,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
+IHasReplaceableEntity, 
 [IGeometryBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGeometryBuilder.md), 
 IPostDeserialized
 
@@ -67,6 +69,8 @@ BuilderMulti.GetUnnamedObjectName\(object\),
 BuilderMulti.FindLocal\(string\), 
 BuilderMulti.Contains\(Type\), 
 BuilderMulti.CopyFilePathWhenImportBuilder\(Builder\), 
+BuilderMulti.HasReplaceableEntity\(IObjectBase\), 
+BuilderMulti.ReplaceEntity\(IObjectBase, IObjectBase\), 
 BuilderMulti.FillParameter\(BuilderParamBase\), 
 BuilderMulti.OnDeserializationImpl\(ref List<Child<Builder, ObjectBase.Update\>\>\), 
 BuilderMulti.ReadXmlImpl\(XmlReader\), 
@@ -103,6 +107,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -206,7 +212,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -273,7 +279,7 @@ public virtual double OffsetToAxisDirection { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_Radius"></a> Radius
 
@@ -285,7 +291,7 @@ protected double Radius { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -297,11 +303,11 @@ protected virtual bool DeleteCondition(object objNotifier)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
@@ -311,7 +317,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_GetCenterPosition"></a> GetCenterPosition\(\)
 
@@ -349,7 +355,7 @@ protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs 
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -367,7 +373,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -401,7 +407,7 @@ The builder.
 
 The geom info.
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 
@@ -427,11 +433,11 @@ The builder.
 
 The geom info.
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 
-`bUseDSDL` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDSDL` bool
 
 The DSDL use flag.
 
@@ -475,7 +481,7 @@ The Transform Matrix.
 
 The geom info.
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 

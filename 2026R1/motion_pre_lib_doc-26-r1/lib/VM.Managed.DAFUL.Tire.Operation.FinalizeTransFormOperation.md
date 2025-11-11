@@ -1,4 +1,5 @@
-#  Class FinalizeTransFormOperation
+# Class FinalizeTransFormOperation
+<a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Tire.Operation](VM.Managed.DAFUL.Tire.Operation.md)  
 Assembly: VMOpTire.dll  
@@ -11,7 +12,7 @@ public class FinalizeTransFormOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [FinalizeTransFormOperation](VM.Managed.DAFUL.Tire.Operation.FinalizeTransFormOperation.md)
 
@@ -85,7 +86,7 @@ public FinalizeTransFormOperation(WheelBodyBase wheelBody)
 
 #### Parameters
 
-`wheelBody` WheelBodyBase
+`wheelBody` [WheelBodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs)
 
 ### <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> FinalizeTransFormOperation\(JournalParameter\)
 
@@ -109,7 +110,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -129,5 +130,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

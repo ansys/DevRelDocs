@@ -1,4 +1,5 @@
-#  Class Boolean<T\>
+# Class Boolean<T\>
+<a id="VM_Managed_DAFUL_Builder_Boolean_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class Boolean<T> : BooleanBase<T>, IBuilder where T : Builder, n
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<T\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [Boolean<T\>](VM.Managed.DAFUL.Builder.Boolean\-1.md)
 
@@ -85,7 +86,7 @@ protected override string Argument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Boolean_1_ReserveToolBody"></a> ReserveToolBody
 
@@ -95,7 +96,7 @@ public bool ReserveToolBody { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Boolean_1_ToolBodiesName"></a> ToolBodiesName
 
@@ -105,7 +106,7 @@ public string[] ToolBodiesName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Boolean_1_ToolConnectable"></a> ToolConnectable
 
@@ -163,11 +164,11 @@ protected virtual bool CheckValid(Document doc, List<Body> lstBodies)
 
 `doc` Document
 
-`lstBodies` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
+`lstBodies` List<Body\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Boolean_1_DeleteToolBody"></a> DeleteToolBody\(\)
 

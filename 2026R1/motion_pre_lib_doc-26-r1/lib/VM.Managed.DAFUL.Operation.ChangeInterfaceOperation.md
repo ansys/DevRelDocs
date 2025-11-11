@@ -1,4 +1,5 @@
-#  Class ChangeInterfaceOperation
+# Class ChangeInterfaceOperation
+<a id="VM_Managed_DAFUL_Operation_ChangeInterfaceOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ChangeInterfaceOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ChangeInterfaceOperation](VM.Managed.DAFUL.Operation.ChangeInterfaceOperation.md)
 
@@ -87,7 +88,7 @@ public ChangeInterfaceOperation(IInterface itf, bool bInterface, Document doc)
 
 `itf` IInterface
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 `doc` Document
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,5 +134,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

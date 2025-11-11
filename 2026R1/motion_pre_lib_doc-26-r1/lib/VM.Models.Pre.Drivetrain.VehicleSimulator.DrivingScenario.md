@@ -1,4 +1,5 @@
-#  Class DrivingScenario
+# Class DrivingScenario
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,9 +10,9 @@ public class DrivingScenario : ValidatableBase, IObservableObject, IDisposableOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ValidatableBase ← 
+[ValidatableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs) ← 
 [DrivingScenario](VM.Models.Pre.Drivetrain.VehicleSimulator.DrivingScenario.md)
 
 #### Implements
@@ -22,18 +23,18 @@ IValidatable
 
 #### Inherited Members
 
-ValidatableBase.RaisePropertyChanged\(string\), 
-ValidatableBase.SuspendValidate\(\), 
-ValidatableBase.Validate\(\), 
-ValidatableBase.Validate\(ValidationContext\), 
-ValidatableBase.DisposeManagedResources\(\), 
-ValidatableBase.CanValidate, 
-ValidatableBase.Errors, 
-ValidatableBase.HasValidationAttribute, 
-ValidatableBase.HasValidator, 
-ValidatableBase.IsValid, 
-ValidatableBase.ValidateTrigger, 
-ValidatableBase.ErrorsChanged, 
+[ValidatableBase.RaisePropertyChanged\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.SuspendValidate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(ValidationContext\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.DisposeManagedResources\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.CanValidate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Errors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidator](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ValidateTrigger](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ErrorsChanged](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -81,7 +82,7 @@ public ObservableCollection<DataPoint> AccelerationPedalScenarioSignal { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
+ ObservableCollection<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_BrakePedalScenario"></a> BrakePedalScenario
 
@@ -102,7 +103,7 @@ public ObservableCollection<DataPoint> BrakePedalScenarioSignal { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
+ ObservableCollection<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_EndTime"></a> EndTime
 
@@ -112,7 +113,7 @@ public double? EndTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_IsValid"></a> IsValid
 
@@ -122,5 +123,5 @@ public override bool IsValid { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

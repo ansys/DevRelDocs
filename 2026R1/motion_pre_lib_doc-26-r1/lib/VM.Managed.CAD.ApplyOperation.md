@@ -1,4 +1,5 @@
-#  Class ApplyOperation
+# Class ApplyOperation
+<a id="VM_Managed_CAD_ApplyOperation"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ApplyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [ApplyOperation](VM.Managed.CAD.ApplyOperation.md)
 
@@ -85,7 +86,7 @@ public ApplyOperation(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 ## Fields
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_ApplyOperation_Success"></a> Success
 
@@ -123,7 +124,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Class DoubleClickOperation
+# Class DoubleClickOperation
+<a id="VM_Managed_DAFUL_Operation_DoubleClickOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class DoubleClickOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [DoubleClickOperation](VM.Managed.DAFUL.Operation.DoubleClickOperation.md)
 
@@ -103,7 +104,7 @@ protected override bool ExecutableOnHold { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -115,7 +116,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation_Name"></a> Name
 
@@ -127,7 +128,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

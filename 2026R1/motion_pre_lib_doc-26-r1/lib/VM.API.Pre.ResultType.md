@@ -1,4 +1,5 @@
-#  Enum ResultType
+# Enum ResultType
+<a id="VM_API_Pre_ResultType"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

@@ -1,4 +1,5 @@
-#  Class MagneticInterface
+# Class MagneticInterface
+<a id="VM_Managed_DAFUL_MagneticInterface"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMAppCore.dll  
@@ -9,7 +10,7 @@ public class MagneticInterface
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MagneticInterface](VM.Managed.DAFUL.MagneticInterface.md)
 
 #### Extension Methods
@@ -30,11 +31,11 @@ public MagneticInterface(string strPath, string targetMaxwellVersion)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The interface dll path.
 
-`targetMaxwellVersion` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetMaxwellVersion` string
 
 The target Maxwell version. (eg. 2025.2)
 
@@ -48,7 +49,7 @@ public MagneticInterface(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The interface dll path.
 
@@ -62,7 +63,7 @@ public bool CloseProject()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_CreateProject_System_String_System_String_"></a> CreateProject\(string, string\)
 
@@ -72,13 +73,13 @@ public bool CreateProject(string projectFilePath, string geometryFilePath)
 
 #### Parameters
 
-`projectFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`projectFilePath` string
 
-`geometryFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`geometryFilePath` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
@@ -89,7 +90,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_Dispose"></a> Dispose\(\)
 
@@ -114,13 +115,13 @@ public bool GetMaxwellDesigns(string projectFilePath, ref string[] designList)
 
 #### Parameters
 
-`projectFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`projectFilePath` string
 
-`designList` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`designList` string\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_GetMessages_System_String____"></a> GetMessages\(ref string\[\]\)
 
@@ -130,11 +131,11 @@ public bool GetMessages(ref string[] arMessage)
 
 #### Parameters
 
-`arMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arMessage` string\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_InitGeometry_System_String_"></a> InitGeometry\(string\)
 
@@ -144,11 +145,11 @@ public bool InitGeometry(string geometryFilePath)
 
 #### Parameters
 
-`geometryFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`geometryFilePath` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_InitMagneticObjects_VM_Managed_DAFUL_MagneticInterface_Group___System_Collections_Generic_Dictionary_System_String_VM_Managed_DAFUL_MagneticInterface_Material__"></a> InitMagneticObjects\(Group\[\], Dictionary<string, Material\>\)
 
@@ -160,11 +161,11 @@ public bool InitMagneticObjects(MagneticInterface.Group[] groups, Dictionary<str
 
 `groups` [MagneticInterface](VM.Managed.DAFUL.MagneticInterface.md).[Group](VM.Managed.DAFUL.MagneticInterface.Group.md)\[\]
 
-`materialInfo` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [MagneticInterface](VM.Managed.DAFUL.MagneticInterface.md).[Material](VM.Managed.DAFUL.MagneticInterface.Material.md)\>
+`materialInfo` Dictionary<string, [MagneticInterface](VM.Managed.DAFUL.MagneticInterface.md).[Material](VM.Managed.DAFUL.MagneticInterface.Material.md)\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_InitMagneticObjects_VM_Managed_DAFUL_MagneticInterface_Group___"></a> InitMagneticObjects\(Group\[\]\)
 
@@ -178,7 +179,7 @@ public bool InitMagneticObjects(MagneticInterface.Group[] groups)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_OpenProject_System_String_System_String_"></a> OpenProject\(string, string\)
 
@@ -188,13 +189,13 @@ public bool OpenProject(string projectFilePath, string designName)
 
 #### Parameters
 
-`projectFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`projectFilePath` string
 
-`designName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`designName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_QuitApplication"></a> QuitApplication\(\)
 
@@ -204,7 +205,7 @@ public bool QuitApplication()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_ReleaseApplication"></a> ReleaseApplication\(\)
 
@@ -214,7 +215,7 @@ public bool ReleaseApplication()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MagneticInterface_SaveProject"></a> SaveProject\(\)
 
@@ -224,5 +225,5 @@ public bool SaveProject()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

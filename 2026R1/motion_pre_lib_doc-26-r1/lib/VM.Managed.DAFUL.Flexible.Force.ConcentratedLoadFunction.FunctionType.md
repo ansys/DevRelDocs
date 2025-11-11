@@ -1,4 +1,5 @@
-#  Enum ConcentratedLoadFunction.FunctionType
+# Enum ConcentratedLoadFunction.FunctionType
+<a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction_FunctionType"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  

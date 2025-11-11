@@ -1,4 +1,5 @@
-#  Class DeleteBuilderOperation
+# Class DeleteBuilderOperation
+<a id="VM_Managed_CAD_DeleteBuilderOperation"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class DeleteBuilderOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [DeleteBuilderOperation](VM.Managed.CAD.DeleteBuilderOperation.md)
 
@@ -85,11 +86,11 @@ public DeleteBuilderOperation(List<ObjectBase> lstDeletedBuilder, Document doc, 
 
 #### Parameters
 
-`lstDeletedBuilder` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstDeletedBuilder` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 `doc` [Document](VM.Managed.Document.md)
 
-`bModified` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModified` bool
 
 ## Properties
 
@@ -103,7 +104,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_DeleteBuilderOperation_Name"></a> Name
 
@@ -115,7 +116,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

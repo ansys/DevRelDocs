@@ -1,4 +1,5 @@
-#  Class SectionInfo
+# Class SectionInfo
+<a id="VM_Managed_DAFUL_Builder_GearTrain_SectionInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class SectionInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SectionInfo](VM.Managed.DAFUL.Builder.GearTrain.SectionInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string CrossSection { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionInfo_CrossSectionValueInfo"></a> CrossSectionValueInfo
 
@@ -46,5 +47,5 @@ public string[] CrossSectionValueInfo { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 

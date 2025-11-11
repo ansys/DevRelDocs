@@ -1,4 +1,5 @@
-#  Class HasMultipleNodes
+# Class HasMultipleNodes
+<a id="VM_Models_FE_Mesh_HasMultipleNodes"></a>
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public class HasMultipleNodes : Entity, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [HasMultipleNodes](VM.Models.FE.Mesh.HasMultipleNodes.md)
 
@@ -54,7 +55,7 @@ public int[] NodeIds { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+ int\[\]
 
 ## Methods
 
@@ -66,11 +67,11 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Mesh_HasMultipleNodes_GetHashCode"></a> GetHashCode\(\)
 
@@ -80,5 +81,5 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

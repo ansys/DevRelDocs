@@ -1,4 +1,5 @@
-#  Class AttributeBodyInformation
+# Class AttributeBodyInformation
+<a id="VM_Managed_CAD_AttributeBodyInformation"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class AttributeBodyInformation : AttributeBase, IObservableObject, IDispo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [AttributeBase](VM.Managed.AttributeBase.md) ← 
 [AttributeBodyInformation](VM.Managed.CAD.AttributeBodyInformation.md)
@@ -78,7 +79,7 @@ IEventProvider,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -109,7 +110,7 @@ public AttributeBodyInformation(int nIndex)
 
 #### Parameters
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 The index.
 
@@ -133,5 +134,5 @@ public int Index { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

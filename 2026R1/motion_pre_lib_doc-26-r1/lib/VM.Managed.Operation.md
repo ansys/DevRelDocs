@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Operation
+# Namespace VM.Managed.Operation
+<a id="VM_Managed_Operation"></a>
 
 ### Classes
 
@@ -41,6 +42,8 @@ The create curveset by color operation
  [CreateFacesetByColor](VM.Managed.Operation.CreateFacesetByColor.md)
 
 The faceset creation by color operation
+
+ [GenerateFEFilm](VM.Managed.Operation.GenerateFEFilm.md)
 
  [HighlightProperty](VM.Managed.Operation.HighlightProperty.md)
 

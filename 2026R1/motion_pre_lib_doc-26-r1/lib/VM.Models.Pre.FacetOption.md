@@ -1,4 +1,5 @@
-#  Class FacetOption
+# Class FacetOption
+<a id="VM_Models_Pre_FacetOption"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -11,7 +12,7 @@ public class FacetOption
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FacetOption](VM.Models.Pre.FacetOption.md)
 
 #### Extension Methods
@@ -40,15 +41,15 @@ public FacetOption(double maxEdgeLength, double surfaceTolerance, double normalT
 
 #### Parameters
 
-`maxEdgeLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`maxEdgeLength` double
 
 The maximum edge length.
 
-`surfaceTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`surfaceTolerance` double
 
 The surface tolerance.
 
-`normalTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`normalTolerance` double
 
 The normal tolerance.
 
@@ -64,7 +65,7 @@ public double MaxEdgeLength { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_FacetOption_NormalTolerance"></a> NormalTolerance
 
@@ -76,7 +77,7 @@ public double NormalTolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_FacetOption_SurfaceTolerance"></a> SurfaceTolerance
 
@@ -88,5 +89,5 @@ public double SurfaceTolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

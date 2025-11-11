@@ -1,4 +1,5 @@
-#  Enum Tool.ToolDataType
+# Enum Tool.ToolDataType
+<a id="VM_Managed_DAFUL_GearTrain_Tool_ToolDataType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

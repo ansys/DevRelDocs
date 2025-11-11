@@ -1,4 +1,5 @@
-#  Interface ISubEntityGridView
+# Interface ISubEntityGridView
+<a id="VM_Managed_DAFUL_Pre_ISubEntityGridView"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,7 +28,7 @@ void ActiveSubentityGridView(string strGridViewType)
 
 #### Parameters
 
-`strGridViewType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGridViewType` string
 
 Type of the grid view.
 
@@ -69,7 +70,7 @@ void RefreshGridView(string strGridViewType, ObjectBase ob)
 
 #### Parameters
 
-`strGridViewType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGridViewType` string
 
 Type of the grid view.
 
@@ -127,7 +128,7 @@ void SetEnableDisable(string strGridViewType, ObjectBase ob)
 
 #### Parameters
 
-`strGridViewType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGridViewType` string
 
 Type of the grid view.
 

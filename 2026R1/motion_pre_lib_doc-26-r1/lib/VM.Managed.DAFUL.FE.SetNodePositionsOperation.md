@@ -1,4 +1,5 @@
-#  Class SetNodePositionsOperation
+# Class SetNodePositionsOperation
+<a id="VM_Managed_DAFUL_FE_SetNodePositionsOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class SetNodePositionsOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SetNodePositionsOperation](VM.Managed.DAFUL.FE.SetNodePositionsOperation.md)
 
@@ -91,7 +92,7 @@ public SetNodePositionsOperation(NodalBody nb, string strDFNPath)
 
 The nodal body.
 
-`strDFNPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFNPath` string
 
 The dfn path.
 
@@ -107,7 +108,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

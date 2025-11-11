@@ -1,4 +1,5 @@
-#  Class UpdateAssemblyManager
+# Class UpdateAssemblyManager
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateAssemblyManager"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateAssemblyManager : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateAssemblyManager](VM.Managed.DAFUL.GearTrain.Operation.UpdateAssemblyManager.md)
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -147,7 +148,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

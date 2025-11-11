@@ -1,4 +1,5 @@
-#  Class PropertyMotorEMForce
+# Class PropertyMotorEMForce
+<a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public class PropertyMotorEMForce : Property, IObservableObject, IDisposableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md)
 
 #### Implements
@@ -31,7 +32,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -40,12 +41,12 @@ IHasID
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -144,7 +145,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -185,11 +186,11 @@ public ExpressionValueVariable Depth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Depth is null.
 
@@ -239,11 +240,11 @@ public ExpressionValueVariable InitialPositionAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Initial position angle is null.
 
@@ -257,7 +258,7 @@ public string MaxwellForceFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellGeometryFile"></a> MaxwellGeometryFile
 
@@ -269,7 +270,7 @@ public string MaxwellGeometryFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_NumberOfLayer"></a> NumberOfLayer
 
@@ -281,11 +282,11 @@ public ExpressionValueVariable NumberOfLayer { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Number of layer is null.
 
@@ -323,7 +324,7 @@ public string ResultFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_Scale"></a> Scale
 
@@ -349,9 +350,9 @@ public static void CheckAMGeometryAndForceFile(Document doc, string strGeometryA
 
 `doc` Document
 
-`strGeometryAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGeometryAMFilePath` string
 
-`strForceAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strForceAMFilePath` string
 
 `transform` TMatrix
 
@@ -365,11 +366,11 @@ public static bool CheckResultAMFile(string strResultAMFilePath)
 
 #### Parameters
 
-`strResultAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultAMFilePath` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_CheckUNVFiles_VM_Managed_Document_System_Collections_Generic_IEnumerable_System_String__VM_Managed_TMatrix_"></a> CheckUNVFiles\(Document, IEnumerable<string\>, TMatrix\)
 
@@ -385,7 +386,7 @@ public static void CheckUNVFiles(Document document, IEnumerable<string> filesPat
 
 The document.
 
-`filesPath` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`filesPath` IEnumerable<string\>
 
 The force UNV files.
 
@@ -407,11 +408,11 @@ public static void CheckUNVFiles(Document doc, string strGeometryUNVFilePath, st
 
 The document.
 
-`strGeometryUNVFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGeometryUNVFilePath` string
 
 The geometry UNV file.
 
-`arForceUNVFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arForceUNVFilePath` string\[\]
 
 The force UNV files.
 
@@ -451,15 +452,15 @@ public static Tuple<int, int> GetNodeCountFromAMFile(Document doc, string strGeo
 
 `doc` Document
 
-`strGeometryAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGeometryAMFilePath` string
 
-`strForceAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strForceAMFilePath` string
 
 `transform` TMatrix
 
 #### Returns
 
- [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ Tuple<int, int\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetNodeCountFromUNVFile_VM_Managed_Document_System_String_VM_Managed_TMatrix_"></a> GetNodeCountFromUNVFile\(Document, string, TMatrix\)
 
@@ -475,7 +476,7 @@ public static int GetNodeCountFromUNVFile(Document document, string forceUNVFile
 
 The document.
 
-`forceUNVFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`forceUNVFilePath` string
 
 The force UNV file.
 
@@ -485,7 +486,7 @@ The transform.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetNodeCountFromUNVFile_VM_Managed_Document_System_String_System_String_VM_Managed_TMatrix_"></a> GetNodeCountFromUNVFile\(Document, string, string, TMatrix\)
 
@@ -501,11 +502,11 @@ public static int GetNodeCountFromUNVFile(Document doc, string strGeometryUNVFil
 
 The document.
 
-`strGeometryUNVFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGeometryUNVFilePath` string
 
 The geometry UNV file.
 
-`strForceUNVFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strForceUNVFilePath` string
 
 The force UNV file.
 
@@ -515,7 +516,7 @@ The transform.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetRotorPosition_VM_Managed_Document_System_String_System_Int32_System_Int32_"></a> GetRotorPosition\(Document, string, int, int\)
 
@@ -531,15 +532,15 @@ public Vector GetRotorPosition(Document doc, string strResultFile, int nIndexRot
 
 The document
 
-`strResultFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultFile` string
 
 The result file
 
-`nIndexRotor` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndexRotor` int
 
 The rotor index
 
-`nTotalRotor` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nTotalRotor` int
 
 The total rotor number
 
@@ -561,7 +562,7 @@ public static Vector GetRotorPosition(Document doc, string strResultFile, TMatri
 
 The document
 
-`strResultFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultFile` string
 
 The result file
 
@@ -569,11 +570,11 @@ The result file
 
 The reference matrix
 
-`nIndexRotor` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndexRotor` int
 
 The rotor index
 
-`nTotalRotor` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nTotalRotor` int
 
 The total rotor number
 
@@ -605,7 +606,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -623,11 +624,11 @@ public static void ReadAMGeometryAndForceFile(Document doc, string strGeometryAM
 
 The document.
 
-`strGeometryAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGeometryAMFilePath` string
 
 The AM geometry file path
 
-`strForceAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strForceAMFilePath` string
 
 The AM force file path
 
@@ -635,11 +636,11 @@ The AM force file path
 
 The transform
 
-`startToEndPointStator` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<VectorBase, VectorBase\>
+`startToEndPointStator` Dictionary<VectorBase, VectorBase\>
 
 The stator start and end point container.
 
-`startToEndPointRotor` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<VectorBase, VectorBase\>
+`startToEndPointRotor` Dictionary<VectorBase, VectorBase\>
 
 The rotor start and end point container.
 
@@ -657,7 +658,7 @@ public static void ReadResultAMFile(Document doc, string strResultAMFilePath, ou
 
 The document.
 
-`strResultAMFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultAMFilePath` string
 
 The force file path.
 
@@ -679,7 +680,7 @@ public static IEnumerable<Dictionary<VectorBase, VectorBase>> ReadUNVFile(Docume
 
 The document.
 
-`filesPath` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`filesPath` IEnumerable<string\>
 
 The force UNV files.
 
@@ -689,7 +690,7 @@ The transform.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<VectorBase, VectorBase\>\>
+ IEnumerable<Dictionary<VectorBase, VectorBase\>\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ReadUNVFile_VM_Managed_Document_System_String_System_String___VM_Managed_TMatrix_System_Collections_Generic_Dictionary_VM_Managed_VectorBase_VM_Managed_VectorBase_____"></a> ReadUNVFile\(Document, string, string\[\], TMatrix, out Dictionary<VectorBase, VectorBase\>\[\]\)
 
@@ -705,11 +706,11 @@ public static void ReadUNVFile(Document doc, string strGeometryUNVFilePath, stri
 
 The document.
 
-`strGeometryUNVFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGeometryUNVFilePath` string
 
 The geometry UNV file.
 
-`arForceUNVFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arForceUNVFilePath` string\[\]
 
 The force UNV files.
 
@@ -717,7 +718,7 @@ The force UNV files.
 
 The transform.
 
-`startToEndPoint` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<VectorBase, VectorBase\>\[\]
+`startToEndPoint` Dictionary<VectorBase, VectorBase\>\[\]
 
 The start and end point container.
 

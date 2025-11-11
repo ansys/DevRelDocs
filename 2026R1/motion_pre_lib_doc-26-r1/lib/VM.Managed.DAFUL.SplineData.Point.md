@@ -1,4 +1,5 @@
-#  Struct SplineData.Point
+# Struct SplineData.Point
+<a id="VM_Managed_DAFUL_SplineData_Point"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -25,11 +26,11 @@ public Point(double dx, double dy)
 
 #### Parameters
 
-`dx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dx` double
 
 <p>The dx.</p>
 
-`dy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dy` double
 
 <p>The dy.</p>
 
@@ -39,17 +40,17 @@ public Point(double dx, double dy)
 
 <p>Gets or sets the X value.</p>
 <p>
-        Type : double
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : N/A
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : No
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : double
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : N/A
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : No
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public double X { get; set; }
@@ -57,23 +58,23 @@ public double X { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_SplineData_Point_Y"></a> Y
 
 <p>Gets or sets the Y value.</p>
 <p>
-        Type : double
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : N/A
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : No
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : double
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : N/A
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : No
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public double Y { get; set; }
@@ -81,7 +82,7 @@ public double Y { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Operators
 

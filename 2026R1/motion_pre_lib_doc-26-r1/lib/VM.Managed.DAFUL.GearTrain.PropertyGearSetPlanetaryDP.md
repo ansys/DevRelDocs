@@ -1,4 +1,5 @@
-#  Class PropertyGearSetPlanetaryDP
+# Class PropertyGearSetPlanetaryDP
+<a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public class PropertyGearSetPlanetaryDP : PropertyGearSetBase, IObservableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyGearSetBase](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md) ← 
 [PropertyGearSetPlanetaryDP](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.md)
 
@@ -32,7 +33,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -85,12 +86,12 @@ IPostDeserialized
 [PropertyGearSetBase.KissSoftInterfaceFilePath](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md\#VM\_Managed\_DAFUL\_GearTrain\_PropertyGearSetBase\_KissSoftInterfaceFilePath), 
 [PropertyGearSetBase.CreationMethod](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md\#VM\_Managed\_DAFUL\_GearTrain\_PropertyGearSetBase\_CreationMethod), 
 [PropertyGearSetBase.AdvancedGearGeometry](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md\#VM\_Managed\_DAFUL\_GearTrain\_PropertyGearSetBase\_AdvancedGearGeometry), 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -189,7 +190,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -256,7 +257,7 @@ public int NumberOfPinion { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_Output"></a> Output
 
@@ -283,23 +284,23 @@ public void GetGRFAndTRFOrientation(int nP, double dX, double dY, double distP1P
 
 #### Parameters
 
-`nP` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nP` int
 
 The number of pinion.
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The x position.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The y position.
 
-`distP1P2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`distP1P2` double
 
 The x position.
 
-`rP2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`rP2` double
 
 The y position.
 
@@ -311,55 +312,55 @@ The Z Vector.
 
 The X Vector.
 
-`lstSunGRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstSunGRFEx` List<OMatrix\>
 
 The external sun gear GRF array.
 
-`lstSunTRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstSunTRFEx` List<OMatrix\>
 
 The external sun gear TRF array.
 
-`lstPinionGRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionGRFEx` List<OMatrix\>
 
 The external pinion gear GRF array.
 
-`lstPinionTRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionTRFEx` List<OMatrix\>
 
 The external pinion gear TRF array.
 
-`lstPinionInGRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionInGRFEx` List<OMatrix\>
 
 The external pinion gear GRF array.
 
-`lstPinionInTRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionInTRFEx` List<OMatrix\>
 
 The external pinion gear TRF array.
 
-`lstPinionOutGRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionOutGRFEx` List<OMatrix\>
 
 The external pinion gear GRF array.
 
-`lstPinionOutTRFEx` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionOutTRFEx` List<OMatrix\>
 
 The external pinion gear TRF array.
 
-`lstRingGRFIn` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstRingGRFIn` List<OMatrix\>
 
 The internal ring gear GRF array.
 
-`lstRingTRFIn` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstRingTRFIn` List<OMatrix\>
 
 The internal ring gear TRF array.
 
-`lstPinionGRFIn` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionGRFIn` List<OMatrix\>
 
 The internal pinion gear GRF array.
 
-`lstPinionTRFIn` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<OMatrix\>
+`lstPinionTRFIn` List<OMatrix\>
 
 The internal pinion gear TRF array.
 
-`IsContactAnalysis` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`IsContactAnalysis` bool
 
 The flag of contact analysis.
 
@@ -373,7 +374,7 @@ public override GearGeometryInfo GetSelectedGearInfo(string strText, GearGeometr
 
 #### Parameters
 
-`strText` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strText` string
 
 The text
 
@@ -403,7 +404,7 @@ protected override void ReadResultCore(XmlDocument xmlDoc)
 
 #### Parameters
 
-`xmlDoc` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDoc` XmlDocument
 
 The XML document.
 
@@ -431,7 +432,7 @@ public void SetNumberOfPinion(int nNum)
 
 #### Parameters
 
-`nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNum` int
 
 The number of pinion.
 

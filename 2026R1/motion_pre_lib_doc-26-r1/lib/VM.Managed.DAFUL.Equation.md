@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Equation
+# Namespace VM.Managed.DAFUL.Equation
+<a id="VM_Managed_DAFUL_Equation"></a>
 
 ### Classes
 

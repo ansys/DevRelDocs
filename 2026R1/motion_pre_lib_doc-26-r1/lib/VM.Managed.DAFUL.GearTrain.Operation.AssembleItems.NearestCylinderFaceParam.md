@@ -1,4 +1,5 @@
-#  Class AssembleItems.NearestCylinderFaceParam
+# Class AssembleItems.NearestCylinderFaceParam
+<a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_NearestCylinderFaceParam"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class AssembleItems.NearestCylinderFaceParam
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AssembleItems.NearestCylinderFaceParam](VM.Managed.DAFUL.GearTrain.Operation.AssembleItems.NearestCylinderFaceParam.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public KeyInfo TargetBody { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_NearestCylinderFaceParam_Tolerance"></a> Tolerance
 
@@ -52,7 +53,7 @@ public double Tolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_NearestCylinderFaceParam_ToolBody"></a> ToolBody
 
@@ -64,5 +65,5 @@ public KeyInfo ToolBody { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 

@@ -1,4 +1,5 @@
-#  Class InterfaceManagerForCar
+# Class InterfaceManagerForCar
+<a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,12 +12,12 @@ public class InterfaceManagerForCar : InterfaceManager, IObservableObject, IDisp
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-InterfaceManager ← 
+[InterfaceManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs) ← 
 [InterfaceManagerForCar](VM.Managed.DAFUL.Car.InterfaceManagerForCar.md)
 
 #### Implements
@@ -33,25 +34,25 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer
 
 #### Inherited Members
 
-InterfaceManager.AddInterface\(IInterface\), 
-InterfaceManager.RemoveInterface\(IInterface\), 
-InterfaceManager.Add\(IInterface\), 
-InterfaceManager.IsInterface\(IInterface\), 
-InterfaceManager.MakeXml\(object\), 
-InterfaceManager.GetInterfaceNames\(IInterface\), 
-InterfaceManager.GetInterfaceNames\(string\), 
-InterfaceManager.SetInterfaceNames\(IInterface, ICollection<string\>\), 
-InterfaceManager.SetInterfaceNames\(IInterface, ArraySegment<string\>\), 
-InterfaceManager.LinkRequestUpdate\(object, LinkEventArgs\), 
-InterfaceManager.GetNumInterfaceObject\(\), 
-InterfaceManager.IsExternable, 
-InterfaceManager.InterfaceInfos, 
-InterfaceManager.Interfaces, 
+[InterfaceManager.AddInterface\(IInterface\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.RemoveInterface\(IInterface\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.Add\(IInterface\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.IsInterface\(IInterface\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.MakeXml\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.GetInterfaceNames\(IInterface\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.GetInterfaceNames\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.SetInterfaceNames\(IInterface, ICollection<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.SetInterfaceNames\(IInterface, ArraySegment<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.GetNumInterfaceObject\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.IsExternable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.InterfaceInfos](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
+[InterfaceManager.Interfaces](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -144,7 +145,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -183,7 +184,7 @@ public InterfaceManagerForCar(InterfaceManager itfMgr)
 
 #### Parameters
 
-`itfMgr` InterfaceManager
+`itfMgr` [InterfaceManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs)
 
 The itf MGR.
 
@@ -223,7 +224,7 @@ The role.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar_RemoveInterface_VM_Managed_IInterface_"></a> RemoveInterface\(IInterface\)
 
@@ -259,5 +260,5 @@ The role.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Interface IDesignParameter
+# Interface IDesignParameter
+<a id="VM_Models_Pre_IDesignParameter"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -27,7 +28,7 @@ string GetFullName()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 <p>Full Name</p>
 

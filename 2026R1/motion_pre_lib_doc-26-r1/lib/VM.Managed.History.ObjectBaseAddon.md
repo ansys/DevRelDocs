@@ -1,4 +1,5 @@
-#  Class ObjectBaseAddon
+# Class ObjectBaseAddon
+<a id="VM_Managed_History_ObjectBaseAddon"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -9,8 +10,8 @@ public abstract class ObjectBaseAddon : HistoryManagerAddon
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryManagerAddon ← 
+object ← 
+[HistoryManagerAddon](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs) ← 
 [ObjectBaseAddon](VM.Managed.History.ObjectBaseAddon.md)
 
 #### Derived
@@ -23,20 +24,20 @@ HistoryManagerAddon ←
 
 #### Inherited Members
 
-HistoryManagerAddon.BeforeUndo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterUndo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.BeforeRedo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterRedo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.BeforeRollback\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterRollback\(object, HistoryEventArgs\), 
-HistoryManagerAddon.BeforeRecord\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterRecord\(object, HistoryEventArgs\), 
-HistoryManagerAddon.Register\(HistoryManager\), 
-HistoryManagerAddon.ClearMarkCollection\(ICollection<HistoryMark\>\), 
-HistoryManagerAddon.ClearMark\(HistoryMark\), 
-HistoryManagerAddon.Parent, 
-HistoryManagerAddon.DoneList, 
-HistoryManagerAddon.UndoneList
+[HistoryManagerAddon.BeforeUndo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterUndo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.BeforeRedo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterRedo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.BeforeRollback\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterRollback\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.BeforeRecord\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterRecord\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.Register\(HistoryManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.ClearMarkCollection\(ICollection<HistoryMark\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.ClearMark\(HistoryMark\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.Parent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.DoneList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.UndoneList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs)
 
 #### Extension Methods
 
@@ -62,7 +63,7 @@ protected IEnumerable<UIntPtr> List { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+ IEnumerable<UIntPtr\>
 
 ## Methods
 
@@ -74,7 +75,7 @@ public void AddEntity(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_AfterRedo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(object, HistoryEventArgs\)
 
@@ -84,9 +85,9 @@ protected override sealed void AfterRedo(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_AfterRollback_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterRollback\(object, HistoryEventArgs\)
 
@@ -96,9 +97,9 @@ protected override sealed void AfterRollback(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_AfterUndo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(object, HistoryEventArgs\)
 
@@ -108,9 +109,9 @@ protected override sealed void AfterUndo(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_BeforeRedo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeRedo\(object, HistoryEventArgs\)
 
@@ -120,9 +121,9 @@ protected override sealed void BeforeRedo(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_BeforeRollback_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeRollback\(object, HistoryEventArgs\)
 
@@ -132,9 +133,9 @@ protected override sealed void BeforeRollback(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_BeforeUndo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeUndo\(object, HistoryEventArgs\)
 
@@ -144,9 +145,9 @@ protected override sealed void BeforeUndo(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_Init_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Init\(object, HistoryEventArgs\)
 
@@ -156,9 +157,9 @@ protected virtual void Init(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
 
@@ -168,9 +169,9 @@ protected virtual void Process(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_ObjectBaseAddon_RemoveEntity_System_UIntPtr_"></a> RemoveEntity\(UIntPtr\)
 
@@ -180,5 +181,5 @@ public void RemoveEntity(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 

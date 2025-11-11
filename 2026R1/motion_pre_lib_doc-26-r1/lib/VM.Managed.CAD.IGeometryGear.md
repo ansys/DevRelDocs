@@ -1,4 +1,5 @@
-#  Interface IGeometryGear
+# Interface IGeometryGear
+<a id="VM_Managed_CAD_IGeometryGear"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

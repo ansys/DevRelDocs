@@ -1,4 +1,5 @@
-#  Class FlexibleBaseHelper
+# Class FlexibleBaseHelper
+<a id="VM_Managed_DAFUL_Flexible_FlexibleBaseHelper"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
@@ -11,7 +12,7 @@ public static class FlexibleBaseHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FlexibleBaseHelper](VM.Managed.DAFUL.Flexible.FlexibleBaseHelper.md)
 
 #### Extension Methods
@@ -34,5 +35,5 @@ public static FacetOption GetFacetOptionFromContainer(IAttributeContainer contai
 
 #### Returns
 
- FacetOption
+ [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 

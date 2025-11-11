@@ -1,4 +1,5 @@
-#  Class GearShapeBase
+# Class GearShapeBase
+<a id="VM_Managed_DAFUL_GearTrain_GearShapeBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public abstract class GearShapeBase : LinkContainer, IObservableObject, IDisposa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md)
 
@@ -84,7 +85,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -125,7 +126,7 @@ public virtual bool AddToProperty { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_AddToShaft"></a> AddToShaft
 
@@ -137,7 +138,7 @@ public virtual bool AddToShaft { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_ExtraRotateAngle"></a> ExtraRotateAngle
 
@@ -149,7 +150,7 @@ public virtual double ExtraRotateAngle { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GearDepth"></a> GearDepth
 
@@ -161,7 +162,7 @@ public double GearDepth { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GraphicInvolutePointList"></a> GraphicInvolutePointList
 
@@ -173,7 +174,7 @@ public List<GearShapeBase.InvolutePoint> GraphicInvolutePointList { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[InvolutePoint](VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint.md)\>
+ List<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[InvolutePoint](VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint.md)\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePointList"></a> InvolutePointList
 
@@ -185,7 +186,7 @@ public List<GearShapeBase.InvolutePoint> InvolutePointList { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[InvolutePoint](VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint.md)\>
+ List<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[InvolutePoint](VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint.md)\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHideBCD"></a> IsHideBCD
 
@@ -197,7 +198,7 @@ public bool IsHideBCD { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHidePCD"></a> IsHidePCD
 
@@ -209,7 +210,7 @@ public bool IsHidePCD { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHideRCD"></a> IsHideRCD
 
@@ -221,7 +222,7 @@ public bool IsHideRCD { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHideTCD"></a> IsHideTCD
 
@@ -233,7 +234,7 @@ public bool IsHideTCD { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_MBCDList"></a> MBCDList
 
@@ -245,7 +246,7 @@ public List<Vector> MBCDList { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_ModificationGraphSplineValues"></a> ModificationGraphSplineValues
 
@@ -257,11 +258,11 @@ public SplineValue[] ModificationGraphSplineValues { get; set; }
 
 #### Property Value
 
- SplineValue\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 SplineValue list is null.
 or
@@ -279,7 +280,7 @@ public List<Vector> NodesetPointList { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_ResultSpecification"></a> ResultSpecification
 
@@ -315,7 +316,7 @@ public List<GearShapeBase.Tolerance> ToleranceList { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[Tolerance](VM.Managed.DAFUL.GearTrain.GearShapeBase.Tolerance.md)\>
+ List<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[Tolerance](VM.Managed.DAFUL.GearTrain.GearShapeBase.Tolerance.md)\>
 
 ## Methods
 
@@ -327,13 +328,13 @@ protected void FillSpline(IEnumerable<Vector> source, List<Vector> target, doubl
 
 #### Parameters
 
-`source` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Vector\>
+`source` IEnumerable<Vector\>
 
-`target` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+`target` List<Vector\>
 
-`factorLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`factorLength` double
 
-`offset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offset` double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GetFactorForLength"></a> GetFactorForLength\(\)
 
@@ -345,7 +346,7 @@ protected double GetFactorForLength()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GetInvolutePointFor2D"></a> GetInvolutePointFor2D\(\)
 
@@ -369,11 +370,11 @@ public virtual void GetLengthAndHeight(ref double dLength, ref double dHeight)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 Height of the d.
 
@@ -399,7 +400,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -413,11 +414,11 @@ public virtual void SetInvolutePoints(List<XmlNode[]> lstPoint, bool bGraphic = 
 
 #### Parameters
 
-`lstPoint` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)\[\]\>
+`lstPoint` List<XmlNode\[\]\>
 
 The LST point.
 
-`bGraphic` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGraphic` bool
 
 The Graphic flag.
 
@@ -439,11 +440,11 @@ The left point.
 
 The right point.
 
-`nTooth` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nTooth` uint
 
 The No. tooth.
 
-`nSlice` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nSlice` uint
 
 The No. slice.
 
@@ -457,7 +458,7 @@ public virtual void SetNodesetPoints(List<XmlNode> lstPoint)
 
 #### Parameters
 
-`lstPoint` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)\>
+`lstPoint` List<XmlNode\>
 
 The LST point.
 
@@ -471,7 +472,7 @@ public virtual void SetResultSpec(XmlNode node)
 
 #### Parameters
 
-`node` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`node` XmlNode
 
 The node.
 
@@ -489,27 +490,27 @@ public void SetResultSpec(KissSoftInterface.GearData gearData, uint nNumInvolute
 
 The gear data.
 
-`nNumInvolute` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumInvolute` uint
 
 The No. Involute.
 
-`nNumTrochoid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumTrochoid` uint
 
 The No. Trochoid.
 
-`nNumSlice` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumSlice` uint
 
 The No. Slice.
 
-`dHelixAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHelixAngle` double
 
 The helix angle.
 
-`dCenterDistance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dCenterDistance` double
 
 The center distance.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 The density.
 
@@ -523,7 +524,7 @@ public void SetResultSummary(XmlNode node)
 
 #### Parameters
 
-`node` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`node` XmlNode
 
 The node.
 
@@ -541,15 +542,15 @@ public void SetResultSummary(KissSoftInterface.GearData gearData, double dNormal
 
 The gear data.
 
-`dNormalModule` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dNormalModule` double
 
 The normal module.
 
-`dNormalPressureAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dNormalPressureAngle` double
 
 The normal pressure angle.
 
-`dHelixAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHelixAngle` double
 
 The helix angle.
 
@@ -563,7 +564,7 @@ public virtual void Show2D(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 
@@ -577,7 +578,7 @@ protected void Show2DCore(Canvas canvas, OMatrix oMatrix)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 

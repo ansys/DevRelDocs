@@ -1,4 +1,5 @@
-#  Class TrapezoidCleat
+# Class TrapezoidCleat
+<a id="VM_Managed_DAFUL_Car_TrapezoidCleat"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class TrapezoidCleat : CleatShape
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CleatShape](VM.Managed.DAFUL.Car.CleatShape.md) ← 
 [TrapezoidCleat](VM.Managed.DAFUL.Car.TrapezoidCleat.md)
 
@@ -63,7 +64,7 @@ public double BottomLength { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_Height"></a> Height
 
@@ -75,7 +76,7 @@ public double Height { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_TopLength"></a> TopLength
 
@@ -87,7 +88,7 @@ public double TopLength { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_TypeOfCleatShape"></a> TypeOfCleatShape
 
@@ -113,11 +114,11 @@ public override string GetXZData(double dEndTime)
 
 #### Parameters
 
-`dEndTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndTime` double
 
 The d end time.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

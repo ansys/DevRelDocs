@@ -1,4 +1,5 @@
-#  Namespace VM.API.Pre
+# Namespace VM.API.Pre
+<a id="VM_API_Pre"></a>
 
 ### Namespaces
 
@@ -143,6 +144,10 @@ This class implements attribute for Object of argument <xref href="VM.API.Pre.Ob
  [MaterialAPI](VM.API.Pre.MaterialAPI.md)
 
 This class implements APIs for material class.
+
+ [MeaureAPI](VM.API.Pre.MeaureAPI.md)
+
+This class implements APIs for measure.
 
  [NotNullObjAttribute](VM.API.Pre.NotNullObjAttribute.md)
 

@@ -1,4 +1,5 @@
-#  Class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TValueConverter\>
+# Class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TValueConverter\>
+<a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +22,7 @@ public class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TVa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TValueConverter\>](VM.Managed.Collections.DictionaryCollectionEnumerator\-5.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public DictionaryCollectionEnumerator(IEnumerator enumerator)
 
 #### Parameters
 
-`enumerator` [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
+`enumerator` IEnumerator
 
 ## Properties
 
@@ -52,7 +53,7 @@ public virtual KeyValuePair<T, TValue> Current { get; }
 
 #### Property Value
 
- [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<T, TValue\>
+ KeyValuePair<T, TValue\>
 
 ### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_CurrentImp"></a> CurrentImp
 
@@ -62,7 +63,7 @@ override sealed object CurrentImp { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ## Methods
 
@@ -74,7 +75,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_Dispose"></a> Dispose\(\)
 
@@ -96,7 +97,7 @@ public virtual bool MoveNext()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_Reset"></a> Reset\(\)
 

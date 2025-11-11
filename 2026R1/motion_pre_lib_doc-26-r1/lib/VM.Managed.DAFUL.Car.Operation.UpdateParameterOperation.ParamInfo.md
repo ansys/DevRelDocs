@@ -1,4 +1,5 @@
-#  Struct UpdateParameterOperation.ParamInfo
+# Struct UpdateParameterOperation.ParamInfo
+<a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -17,7 +18,7 @@ public string Name
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_SymState"></a> SymState
 
@@ -27,7 +28,7 @@ public bool SymState
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Type"></a> Type
 
@@ -37,7 +38,7 @@ public string Type
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_UseSym"></a> UseSym
 
@@ -47,7 +48,7 @@ public bool UseSym
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Value"></a> Value
 
@@ -57,7 +58,7 @@ public string Value
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_X"></a> X
 
@@ -67,7 +68,7 @@ public string X
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Y"></a> Y
 
@@ -77,7 +78,7 @@ public string Y
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Z"></a> Z
 
@@ -87,5 +88,5 @@ public string Z
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

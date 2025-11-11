@@ -1,4 +1,5 @@
-#  Class GeometryAPI
+# Class GeometryAPI
+<a id="VM_API_Pre_GeometryAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class GeometryAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GeometryAPI](VM.API.Pre.GeometryAPI.md)
 
 #### Extension Methods
@@ -38,33 +39,33 @@ public static void ExportCAD(this IDocument document, string filePath, IEnumerab
 
 The document to export the geometry.
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The file path of the geometry.
 
-`objectList` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`objectList` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The result type of the geometry.
 
-`value` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`value` string
 
 The unit type of the geometry.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'filePath' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the exetension of 'filePath' is not 'sab', '.sat', 'CATPart', 'CATProduct', 'x_t', 'x_b', 'stp', 'step'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'objectList' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref>.
 
@@ -84,7 +85,7 @@ public static void ImportCAD(this IDocument document, string filePath, ResultTyp
 
 The document to import the geometry.
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The file path of the geometry.
 
@@ -96,7 +97,7 @@ The result type of the geometry.
 
 This parameter is unused.
 
-`useHealing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useHealing` bool
 
 The flag of use healing of geometry.
 
@@ -104,25 +105,25 @@ The flag of use healing of geometry.
 
 The color type of the geometry.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the geometry.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'filePath' file is not exist.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the exetension of 'filePath' is not 'sab', '.sat', 'CATPart', 'CATProduct', 'x_t', 'x_b', 'stp', 'step'.
 
@@ -142,7 +143,7 @@ public static void ReplaceCAD(this IDocument document, string filePath, ResultTy
 
 The document to replace the geometry.
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The file path of the geometry.
 
@@ -154,7 +155,7 @@ The result type of the geometry.
 
 This parameter is unused.
 
-`useHealing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useHealing` bool
 
 The flag of use healing of geometry.
 
@@ -162,33 +163,33 @@ The flag of use healing of geometry.
 
 The color type of the geometry.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the geometry.
 
-`replaceAllGeometries` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`replaceAllGeometries` bool
 
 The flag of replace all geometries of geometry.
 
-`attributes` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`attributes` string\[\]
 
 The attributes of geometry.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'filePath' file is not exist.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the exetension of 'filePath' is not 'sab', '.sat', 'CATPart', 'CATProduct', 'x_t', 'x_b', 'stp', 'step'.
 

@@ -1,4 +1,5 @@
-#  Class CreateDTEntityUtil
+# Class CreateDTEntityUtil
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public static class CreateDTEntityUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md)
 
 #### Extension Methods
@@ -28,15 +29,15 @@ public static Bearing CreateBearing(this GearTrainDocument gearTrainDocument, st
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[BearingCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.BearingCreateInfo.md)
 
 #### Returns
 
- Bearing
+ [Bearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateCrossHelicalGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCrossHelicalCreateInfo_"></a> CreateCrossHelicalGearset\(GearTrainDocument, string, GearSetCrossHelicalCreateInfo\)
 
@@ -46,15 +47,15 @@ public static GearSetCrossHelical CreateCrossHelicalGearset(this GearTrainDocume
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetCrossHelicalCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCrossHelicalCreateInfo.md)
 
 #### Returns
 
- GearSetCrossHelical
+ [GearSetCrossHelical](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetCrossHelical.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateCustomGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreateCustomGearset\(GearTrainDocument, string, GearSetCreateInfo\)
 
@@ -64,15 +65,15 @@ public static GearSetCustom CreateCustomGearset(this GearTrainDocument gearTrain
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md)
 
 #### Returns
 
- GearSetCustom
+ [GearSetCustom](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetCustom.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateCycloidPinGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_"></a> CreateCycloidPinGearset\(GearTrainDocument, string, GearSetCycloidPinCreateInfo\)
 
@@ -82,15 +83,15 @@ public static GearSetCycloidPin CreateCycloidPinGearset(this GearTrainDocument g
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetCycloidPinCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCycloidPinCreateInfo.md)
 
 #### Returns
 
- GearSetCycloidPin
+ [GearSetCycloidPin](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetCycloidPin.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreateGearset\(GearTrainDocument, string, int, GearSetCreateInfo\)
 
@@ -100,17 +101,17 @@ public static GearSet CreateGearset(this GearTrainDocument gearTrainDocument, st
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`nNumGear` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumGear` int
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md)
 
 #### Returns
 
- GearSet
+ [GearSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSet.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateInternalGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreateInternalGearset\(GearTrainDocument, string, GearSetCreateInfo\)
 
@@ -120,15 +121,15 @@ public static GearSetInternal CreateInternalGearset(this GearTrainDocument gearT
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md)
 
 #### Returns
 
- GearSetInternal
+ [GearSetInternal](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetInternal.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreatePlanetaryDPGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo_"></a> CreatePlanetaryDPGearset\(GearTrainDocument, string, int, GearSetPlanetaryDPCreateInfo\)
 
@@ -138,17 +139,17 @@ public static GearSetPlanetaryDP CreatePlanetaryDPGearset(this GearTrainDocument
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`nNumPinionGear` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumPinionGear` int
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetPlanetaryDPCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo.md)
 
 #### Returns
 
- GearSetPlanetaryDP
+ [GearSetPlanetaryDP](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetPlanetaryDP.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreatePlanetaryGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreatePlanetaryGearset\(GearTrainDocument, string, int, GearSetCreateInfo\)
 
@@ -158,17 +159,17 @@ public static GearSetPlanetary CreatePlanetaryGearset(this GearTrainDocument gea
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`nNumPinionGear` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumPinionGear` int
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md)
 
 #### Returns
 
- GearSetPlanetary
+ [GearSetPlanetary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetPlanetary.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateRackAndPinionGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_"></a> CreateRackAndPinionGearset\(GearTrainDocument, string, GearSetRackAndPinionCreateInfo\)
 
@@ -178,15 +179,15 @@ public static GearSetRackAndPinion CreateRackAndPinionGearset(this GearTrainDocu
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetRackAndPinionCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetRackAndPinionCreateInfo.md)
 
 #### Returns
 
- GearSetRackAndPinion
+ [GearSetRackAndPinion](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetRackAndPinion.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateSimpleShaftset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Vector_VM_Vector_System_Double_System_Double_System_Int32_"></a> CreateSimpleShaftset\(GearTrainDocument, string, Vector, Vector, double, double, int\)
 
@@ -196,23 +197,23 @@ public static ShaftSet CreateSimpleShaftset(this GearTrainDocument gearTrainDocu
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `position` Vector
 
 `rotateAxis` Vector
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
-`dDiameter` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDiameter` double
 
-`nNumSection` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumSection` int
 
 #### Returns
 
- ShaftSet
+ [ShaftSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/ShaftSet.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateSlidingBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_"></a> CreateSlidingBearing\(GearTrainDocument, string, SlidingBearingCreateInfo\)
 
@@ -222,15 +223,15 @@ public static SlidingBearing CreateSlidingBearing(this GearTrainDocument gearTra
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[SlidingBearingCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.SlidingBearingCreateInfo.md)
 
 #### Returns
 
- SlidingBearing
+ [SlidingBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/SlidingBearing.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateStiffnessBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_"></a> CreateStiffnessBearing\(GearTrainDocument, string, StiffnessBearingCreateInfo\)
 
@@ -240,15 +241,15 @@ public static Bearing CreateStiffnessBearing(this GearTrainDocument gearTrainDoc
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[StiffnessBearingCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.StiffnessBearingCreateInfo.md)
 
 #### Returns
 
- Bearing
+ [Bearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateWormAndWormWheelGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_"></a> CreateWormAndWormWheelGearset\(GearTrainDocument, string, GearSetWormAndWormWheelCreateInfo\)
 
@@ -258,15 +259,15 @@ public static GearSetWormAndWormWheel CreateWormAndWormWheelGearset(this GearTra
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `info` [CreateDTEntityUtil](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.md).[GearSetWormAndWormWheelCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo.md)
 
 #### Returns
 
- GearSetWormAndWormWheel
+ [GearSetWormAndWormWheel](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetWormAndWormWheel.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_OpenHiddenDocument_System_Object_"></a> OpenHiddenDocument\(object\)
 
@@ -276,7 +277,7 @@ public static Document3D OpenHiddenDocument(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 

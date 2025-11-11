@@ -1,4 +1,5 @@
-#  Interface IPostOpenDocumentForContact
+# Interface IPostOpenDocumentForContact
+<a id="VM_Managed_IPostOpenDocumentForContact"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -25,5 +26,5 @@ void ChangeForCompatibility(Dictionary<ObjectBase, bool> facesets)
 
 #### Parameters
 
-`facesets` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[ObjectBase](VM.Managed.ObjectBase.md), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`facesets` Dictionary<[ObjectBase](VM.Managed.ObjectBase.md), bool\>
 

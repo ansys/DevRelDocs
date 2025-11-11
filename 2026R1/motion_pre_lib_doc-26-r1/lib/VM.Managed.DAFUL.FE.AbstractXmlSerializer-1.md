@@ -1,4 +1,5 @@
-#  Class AbstractXmlSerializer<AbstractType\>
+# Class AbstractXmlSerializer<AbstractType\>
+<a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -15,7 +16,7 @@ public class AbstractXmlSerializer<AbstractType>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AbstractXmlSerializer<AbstractType\>](VM.Managed.DAFUL.FE.AbstractXmlSerializer\-1.md)
 
 #### Extension Methods
@@ -64,7 +65,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -74,7 +75,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 ### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -84,7 +85,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ## Operators
 

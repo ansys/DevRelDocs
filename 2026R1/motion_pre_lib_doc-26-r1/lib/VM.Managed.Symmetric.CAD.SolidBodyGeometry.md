@@ -1,4 +1,5 @@
-#  Class SolidBodyGeometry
+# Class SolidBodyGeometry
+<a id="VM_Managed_Symmetric_CAD_SolidBodyGeometry"></a>
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class SolidBodyGeometry : ISymmetricUpdater, ISymmetricMultiBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SolidBodyGeometry](VM.Managed.Symmetric.CAD.SolidBodyGeometry.md)
 
 #### Derived
@@ -53,7 +54,7 @@ public virtual bool Initialize(ISymmetricManager Manager)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -87,7 +88,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -121,7 +122,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

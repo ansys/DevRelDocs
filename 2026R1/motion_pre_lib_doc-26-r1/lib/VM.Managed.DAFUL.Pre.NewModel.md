@@ -1,4 +1,5 @@
-#  Class NewModel
+# Class NewModel
+<a id="VM_Managed_DAFUL_Pre_NewModel"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class NewModel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NewModel](VM.Managed.DAFUL.Pre.NewModel.md)
 
 #### Extension Methods
@@ -52,7 +53,7 @@ public string ModelPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_NewModel_WorkCreate"></a> WorkCreate
 
@@ -76,5 +77,5 @@ public string WorkPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

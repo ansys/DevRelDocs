@@ -1,4 +1,5 @@
-#  Class Assembly
+# Class Assembly
+<a id="VM_Managed_Assembly"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public abstract class Assembly : Object<ObjectEventCore>, IObservableObject, IDi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [Assembly](VM.Managed.Assembly.md)
@@ -32,7 +33,7 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IAttributeContainer](VM.Managed.IAttributeContainer.md)
 
 #### Inherited Members
@@ -129,7 +130,7 @@ IHistoryObjectSerializable,
 [ObjectBase.OnDestroying](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnDestroying), 
 [ObjectBase.OnUpdate](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdate), 
 [ObjectBase.OnUpdating](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -174,11 +175,11 @@ protected Assembly(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -194,7 +195,7 @@ protected override bool ClearChildInfoBeforeDeserialize { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Assembly_OriginalDocument"></a> OriginalDocument
 
@@ -218,9 +219,9 @@ public static void AddReplacedFile(string strSourceFile, string strReplacingFile
 
 #### Parameters
 
-`strSourceFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSourceFile` string
 
-`strReplacingFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReplacingFile` string
 
 ### <a id="VM_Managed_Assembly_Instantiate_System_String_"></a> Instantiate\(string\)
 
@@ -232,13 +233,13 @@ public virtual LinkedList<Reference> Instantiate(string strCategory)
 
 #### Parameters
 
-`strCategory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategory` string
 
 The category name.
 
 #### Returns
 
- [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[Reference](VM.Managed.Reference.md)\>
+ LinkedList<[Reference](VM.Managed.Reference.md)\>
 
 ### <a id="VM_Managed_Assembly_Instantiate"></a> Instantiate\(\)
 
@@ -250,7 +251,7 @@ public virtual LinkedList<Reference> Instantiate()
 
 #### Returns
 
- [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[Reference](VM.Managed.Reference.md)\>
+ LinkedList<[Reference](VM.Managed.Reference.md)\>
 
 ### <a id="VM_Managed_Assembly_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
 
@@ -262,7 +263,7 @@ protected override void LinkAddedToDocument(object objNotifier, AddToDocEventArg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -280,7 +281,7 @@ protected override void LinkRequestDestroy(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 
@@ -298,7 +299,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 
@@ -314,5 +315,5 @@ public static void RemoveReplacedFile(string strFile)
 
 #### Parameters
 
-`strFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFile` string
 

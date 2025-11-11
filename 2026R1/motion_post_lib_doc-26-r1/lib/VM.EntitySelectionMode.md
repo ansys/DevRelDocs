@@ -1,11 +1,12 @@
-#  Enum EntitySelectionMode
+# Enum EntitySelectionMode
+<a id="VM_EntitySelectionMode"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 This enumerator represent the selection mode of the view
 
-```python
+```csharp
 public enum EntitySelectionMode
 ```
 
@@ -20,7 +21,6 @@ Normal selection mode
 `Pick = 1` 
 
 Pick mode
-
 
 
 

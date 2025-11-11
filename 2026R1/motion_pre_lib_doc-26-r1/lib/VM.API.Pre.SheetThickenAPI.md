@@ -1,4 +1,5 @@
-#  Class SheetThickenAPI
+# Class SheetThickenAPI
+<a id="VM_API_Pre_SheetThickenAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class SheetThickenAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SheetThickenAPI](VM.API.Pre.SheetThickenAPI.md)
 
 #### Extension Methods
@@ -33,9 +34,9 @@ public static void GenerateSolidFromSheet(this IDocument document, IEnumerable<O
 
 `document` IDocument
 
-`sheets` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`sheets` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`thickness` ExpressionValueVariable?
+`thickness` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 `direction` BuilderSheetThicken.DirectionType
 

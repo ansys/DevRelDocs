@@ -1,4 +1,5 @@
-#  Class AnalysisRideGeneral
+# Class AnalysisRideGeneral
+<a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisRideGeneral : TireAnalysisBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [TireAnalysisBase](VM.Managed.DAFUL.Car.TireAnalysisBase.md) ← 
 [AnalysisRideGeneral](VM.Managed.DAFUL.Car.AnalysisRideGeneral.md)
@@ -89,7 +90,7 @@ protected override double InitialVelocity { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral_RoadFile"></a> RoadFile
 
@@ -101,7 +102,7 @@ public string RoadFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -115,7 +116,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

@@ -1,4 +1,5 @@
-#  Class CustomContractResolver
+# Class CustomContractResolver
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomContractResolver"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class CustomContractResolver : DefaultContractResolver, IContractResolver
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DefaultContractResolver ← 
 [CustomContractResolver](VM.Models.Pre.Drivetrain.VehicleSimulator.CustomContractResolver.md)
 
@@ -79,21 +80,15 @@ public static readonly CustomContractResolver Instance
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomContractResolver_GetSerializableMembers_System_Type_"></a> GetSerializableMembers\(Type\)
 
-Gets the serializable members for the type.
-
 ```csharp
 protected override List<MemberInfo> GetSerializableMembers(Type objectType)
 ```
 
 #### Parameters
 
-`objectType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
-
-The type to get serializable members for.
+`objectType` Type
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[MemberInfo](https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo)\>
-
-The serializable members for the type.
+ List<MemberInfo\>
 

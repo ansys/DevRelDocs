@@ -1,4 +1,5 @@
-#  Struct GearSetParameters
+# Struct GearSetParameters
+<a id="VM_API_Pre_GearTrain_GearSetParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -29,11 +30,11 @@ public GearSetParameters(string bodyName, string gearSetName, Vector position)
 
 #### Parameters
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The bodyName of the gearset parameters.
 
-`gearSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearSetName` string
 
 The gearSetName of the gearset parameters.
 
@@ -53,7 +54,7 @@ public string BodyName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_GearSetParameters_GearSetName"></a> GearSetName
 
@@ -65,7 +66,7 @@ public string GearSetName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_GearSetParameters_Position"></a> Position
 

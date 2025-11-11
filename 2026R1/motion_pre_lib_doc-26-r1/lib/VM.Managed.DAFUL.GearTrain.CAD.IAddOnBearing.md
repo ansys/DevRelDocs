@@ -1,4 +1,5 @@
-#  Interface IAddOnBearing
+# Interface IAddOnBearing
+<a id="VM_Managed_DAFUL_GearTrain_CAD_IAddOnBearing"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -39,7 +40,7 @@ double ReferenceOffset { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddOnBearing_ReferencePoint"></a> ReferencePoint
 

@@ -1,4 +1,5 @@
-#  Struct Restriction
+# Struct Restriction
+<a id="VM_API_Pre_Restriction"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -29,11 +30,11 @@ public Restriction(ExpressionValueVariable plus, ExpressionValueVariable minus)
 
 #### Parameters
 
-`plus` ExpressionValueVariable
+`plus` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The plus.
 
-`minus` ExpressionValueVariable
+`minus` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The minus.
 
@@ -49,7 +50,7 @@ public ExpressionValueVariable Minus { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_Restriction_Plus"></a> Plus
 
@@ -61,5 +62,5 @@ public ExpressionValueVariable Plus { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

@@ -1,4 +1,5 @@
-#  Interface IHasProperty
+# Interface IHasProperty
+<a id="VM_Managed_IHasProperty"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -27,7 +28,7 @@ EventHandler<LinkEventArgs> EntityRequestPropertyUpdate { get; }
 
 #### Property Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<LinkEventArgs\>
+ EventHandler<LinkEventArgs\>
 
 ## Methods
 
@@ -55,7 +56,7 @@ void RegisterPropertyEvent(ObjectBase objProperty, bool bBackup)
 
 `objProperty` ObjectBase
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ### <a id="VM_Managed_IHasProperty_UnregisterPropertyEvent_VM_Managed_ObjectBase_System_Boolean_"></a> UnregisterPropertyEvent\(ObjectBase, bool\)
 
@@ -69,5 +70,5 @@ void UnregisterPropertyEvent(ObjectBase objProperty, bool bBackup)
 
 `objProperty` ObjectBase
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 

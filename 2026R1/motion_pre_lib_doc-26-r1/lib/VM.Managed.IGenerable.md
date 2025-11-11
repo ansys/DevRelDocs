@@ -1,4 +1,5 @@
-#  Interface IGenerable
+# Interface IGenerable
+<a id="VM_Managed_IGenerable"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ bool Generable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

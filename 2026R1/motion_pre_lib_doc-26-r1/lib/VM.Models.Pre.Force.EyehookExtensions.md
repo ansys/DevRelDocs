@@ -1,4 +1,5 @@
-#  Class EyehookExtensions
+# Class EyehookExtensions
+<a id="VM_Models_Pre_Force_EyehookExtensions"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class EyehookExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EyehookExtensions](VM.Models.Pre.Force.EyehookExtensions.md)
 
 #### Extension Methods
@@ -40,15 +41,15 @@ public static (double X, double Z) GetLocation(EyePositionType where, EyeShapeTy
 
 `shape` [EyeShapeType](VM.Models.Pre.Force.EyeShapeType.md)
 
-`endPosition` \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+`endPosition` \(double X, double Z\)
 
-`nextPosition` \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+`nextPosition` \(double X, double Z\)
 
-`mainLeafThickness` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainLeafThickness` double
 
-`radius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`radius` double
 
 #### Returns
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+ \(double X, double Z\)
 

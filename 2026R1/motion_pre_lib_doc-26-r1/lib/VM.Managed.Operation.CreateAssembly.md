@@ -1,4 +1,5 @@
-#  Class CreateAssembly
+# Class CreateAssembly
+<a id="VM_Managed_Operation_CreateAssembly"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class CreateAssembly : Create, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [Create](VM.Managed.Operation.Create.md) ← 
 [CreateAssembly](VM.Managed.Operation.CreateAssembly.md)
@@ -105,7 +106,7 @@ public CreateAssembly(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 ## Fields
 
@@ -117,7 +118,7 @@ protected static string g_strMeshFilters
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_CreateAssembly_g_strPartFilters"></a> g\_strPartFilters
 
@@ -127,7 +128,7 @@ protected static string g_strPartFilters
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_CreateAssembly_g_strSubsystemFilters"></a> g\_strSubsystemFilters
 
@@ -137,7 +138,7 @@ protected static string g_strSubsystemFilters
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

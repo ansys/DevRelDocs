@@ -1,4 +1,5 @@
-#  Class Vector
+# Class Vector
+<a id="VM_Managed_Vector"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public sealed class Vector : VectorBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [VectorBase](VM.Managed.VectorBase.md) ← 
 [Vector](VM.Managed.Vector.md)
 
@@ -61,7 +62,7 @@ public Vector(double[] arVec)
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The arVec.
 
@@ -75,15 +76,15 @@ public Vector(double dX, double dY, double dZ)
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y.
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z.
 
@@ -119,11 +120,11 @@ protected Vector(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -139,7 +140,7 @@ public override double Magnitude { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Vector_X"></a> X
 
@@ -151,7 +152,7 @@ public override double X { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Vector_Y"></a> Y
 
@@ -163,7 +164,7 @@ public override double Y { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Vector_Z"></a> Z
 
@@ -175,7 +176,7 @@ public override double Z { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Vector_Item_System_UInt32_"></a> this\[uint\]
 
@@ -185,7 +186,7 @@ public override double this[uint n] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Vector_Item_VM_Coordinate_"></a> this\[Coordinate\]
 
@@ -195,7 +196,7 @@ public override double this[Coordinate n] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -209,7 +210,7 @@ public override sealed object Clone()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The clone.
 
@@ -249,7 +250,7 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 Result of product
 
@@ -263,7 +264,7 @@ public override sealed double[] GetArray()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 The array.
 
@@ -283,7 +284,7 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The distance
 
@@ -297,11 +298,11 @@ public override sealed void GetObjectData(SerializationInfo info, StreamingConte
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`__unnamed001` StreamingContext
 
 ### <a id="VM_Managed_Vector_GetOrthoVector_VM_Managed_VectorBase_"></a> GetOrthoVector\(VectorBase\)
 
@@ -350,7 +351,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_Vector_MakeUnitVector"></a> MakeUnitVector\(\)
 
@@ -370,7 +371,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -384,15 +385,15 @@ public override sealed void Set(double dX, double dY, double dZ)
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y.
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z.
 
@@ -406,7 +407,7 @@ public override sealed void Set(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The arr.
 
@@ -434,7 +435,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

@@ -1,4 +1,5 @@
-#  Class BeamElement
+# Class BeamElement
+<a id="VM_Managed_DAFUL_Beam_BeamElement"></a>
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VMDBeamGroup.dll  
@@ -11,9 +12,9 @@ public class BeamElement : LinkContainer, IObservableObject, IDisposableObject, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [BeamElement](VM.Managed.DAFUL.Beam.BeamElement.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -116,7 +117,7 @@ public SolidBody ActionBody { get; set; }
 
 #### Property Value
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyMass"></a> ActionBodyMass
 
@@ -128,7 +129,7 @@ public ExpressionValueVariable ActionBodyMass { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyMomentOfInertia"></a> ActionBodyMomentOfInertia
 
@@ -152,7 +153,7 @@ public double[] ActionBodyOrientationArray { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyPosition"></a> ActionBodyPosition
 
@@ -176,7 +177,7 @@ public double ActionBodyRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyTransformationMatrix"></a> ActionBodyTransformationMatrix
 
@@ -188,7 +189,7 @@ public double[] ActionBodyTransformationMatrix { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_AngleArrayBetweenTwoBodies"></a> AngleArrayBetweenTwoBodies
 
@@ -200,7 +201,7 @@ public double[] AngleArrayBetweenTwoBodies { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_Area"></a> Area
 
@@ -212,7 +213,7 @@ public ExpressionValueVariable Area { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_Asy"></a> Asy
 
@@ -224,7 +225,7 @@ public ExpressionValueVariable Asy { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_Asz"></a> Asz
 
@@ -236,7 +237,7 @@ public ExpressionValueVariable Asz { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBody"></a> BaseBody
 
@@ -248,7 +249,7 @@ public SolidBody BaseBody { get; set; }
 
 #### Property Value
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyMass"></a> BaseBodyMass
 
@@ -260,7 +261,7 @@ public ExpressionValueVariable BaseBodyMass { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyMomentOfInertia"></a> BaseBodyMomentOfInertia
 
@@ -284,7 +285,7 @@ public double[] BaseBodyOrientationArray { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyPosition"></a> BaseBodyPosition
 
@@ -308,7 +309,7 @@ public double BaseBodyRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyTransformationMatrix"></a> BaseBodyTransformationMatrix
 
@@ -320,7 +321,7 @@ public double[] BaseBodyTransformationMatrix { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_IsFirstBeamElement"></a> IsFirstBeamElement
 
@@ -332,7 +333,7 @@ public bool IsFirstBeamElement { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_IsLastBeamElement"></a> IsLastBeamElement
 
@@ -344,7 +345,7 @@ public bool IsLastBeamElement { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_Ixx"></a> Ixx
 
@@ -356,7 +357,7 @@ public ExpressionValueVariable Ixx { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_Iyy"></a> Iyy
 
@@ -368,7 +369,7 @@ public ExpressionValueVariable Iyy { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_Iyz"></a> Iyz
 
@@ -380,7 +381,7 @@ public ExpressionValueVariable Iyz { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_Izz"></a> Izz
 
@@ -392,7 +393,7 @@ public ExpressionValueVariable Izz { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement_LengthBetweenTwoBodies"></a> LengthBetweenTwoBodies
 
@@ -404,7 +405,7 @@ public double LengthBetweenTwoBodies { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement__ActionBody"></a> \_ActionBody
 
@@ -416,7 +417,7 @@ public Linker<SolidBody> _ActionBody { get; set; }
 
 #### Property Value
 
- Linker<SolidBody\>
+ Linker<[SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)\>
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamElement__BaseBody"></a> \_BaseBody
 
@@ -428,7 +429,7 @@ public Linker<SolidBody> _BaseBody { get; set; }
 
 #### Property Value
 
- Linker<SolidBody\>
+ Linker<[SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)\>
 
 ## Methods
 
@@ -442,7 +443,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 

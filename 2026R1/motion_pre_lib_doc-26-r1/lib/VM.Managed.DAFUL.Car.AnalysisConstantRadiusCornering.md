@@ -1,4 +1,5 @@
-#  Class AnalysisConstantRadiusCornering
+# Class AnalysisConstantRadiusCornering
+<a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisConstantRadiusCornering : CorneringBase, IHasInitialVel, IH
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [CorneringBase](VM.Managed.DAFUL.Car.CorneringBase.md) ← 
@@ -109,7 +110,7 @@ public double DurationManeuver { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_FinalAcceleration"></a> FinalAcceleration
 
@@ -121,7 +122,7 @@ public double FinalAcceleration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_FinalVelocity"></a> FinalVelocity
 
@@ -133,7 +134,7 @@ public double FinalVelocity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_InitialAcceleration"></a> InitialAcceleration
 
@@ -145,7 +146,7 @@ public double InitialAcceleration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_InitialVelocity"></a> InitialVelocity
 
@@ -157,7 +158,7 @@ public double InitialVelocity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_InitialVelocityCornering"></a> InitialVelocityCornering
 
@@ -169,7 +170,7 @@ public override double InitialVelocityCornering { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_IsSiftGears"></a> IsSiftGears
 
@@ -181,7 +182,7 @@ public bool IsSiftGears { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_TireRadiusPosition"></a> TireRadiusPosition
 
@@ -193,7 +194,7 @@ public override int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_TurnRadius"></a> TurnRadius
 
@@ -205,7 +206,7 @@ public double TurnRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_UnitOfLength"></a> UnitOfLength
 
@@ -243,7 +244,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

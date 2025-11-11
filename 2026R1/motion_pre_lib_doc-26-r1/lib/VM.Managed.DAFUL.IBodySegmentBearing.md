@@ -1,4 +1,5 @@
-#  Interface IBodySegmentBearing
+# Interface IBodySegmentBearing
+<a id="VM_Managed_DAFUL_IBodySegmentBearing"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

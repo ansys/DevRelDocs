@@ -1,4 +1,5 @@
-#  Class BuilderNut
+# Class BuilderNut
+<a id="VM_Managed_DAFUL_BuilderNut"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -6,14 +7,14 @@ Assembly: VMDBallPlacing.dll
 The class for nut builder.
 
 ```csharp
-public class BuilderNut : BuilderColorGeom, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public class BuilderNut : BuilderColorGeom, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -35,8 +36,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
-IAttributeContainer
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IAttributeContainer, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -69,6 +71,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -172,7 +176,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -223,7 +227,7 @@ public bool IsRight { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_BuilderNut_Lead"></a> Lead
 
@@ -489,7 +493,7 @@ protected override BuilderParamBase CreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_BuilderNut_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
@@ -501,5 +505,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 

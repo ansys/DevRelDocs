@@ -1,4 +1,5 @@
-#  Interface IRequestEntity
+# Interface IRequestEntity
+<a id="VM_Models_Pre_IRequestEntity"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -35,5 +36,5 @@ bool WriteToOutFile { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

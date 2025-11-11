@@ -1,4 +1,5 @@
-#  Class CylindricalBBPD
+# Class CylindricalBBPD
+<a id="VM_Managed_DAFUL_Builder_Constraints_CylindricalBBPD"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCB.dll  
@@ -9,11 +10,11 @@ public class CylindricalBBPD : Connector<Cylindrical, PropertyCylindrical, OnePo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<Cylindrical\> ← 
-BuilderSymmetric<Cylindrical\> ← 
-BuilderNamed<Cylindrical\> ← 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\> ← 
+object ← 
+[BuilderBase<Cylindrical\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<Cylindrical\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<Cylindrical\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs) ← 
 [CylindricalBBPD](VM.Managed.DAFUL.Builder.Constraints.CylindricalBBPD.md)
 
 #### Implements
@@ -22,36 +23,36 @@ IBuilder
 
 #### Inherited Members
 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.HookBeforeReplace\(Property\), 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.OnPostBuild\(ObjectBase, Document\), 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.OnPostAddDoc\(ObjectBase\), 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.BaseConnectable, 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.ActionConnectable, 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.AddToDoc, 
-Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.BuildObject, 
-BuilderNamed<Cylindrical\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<Cylindrical\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<Cylindrical\>.Name, 
-BuilderSymmetric<Cylindrical\>.Build\(Document\), 
-BuilderSymmetric<Cylindrical\>.Symmetric, 
-BuilderSymmetric<Cylindrical\>.CurrentSymmetric, 
-BuilderBase<Cylindrical\>.m\_bSuccess, 
-BuilderBase<Cylindrical\>.Build\(Document\), 
-BuilderBase<Cylindrical\>.Build\(Document, List<string\>\), 
-BuilderBase<Cylindrical\>.Validate\(IList<string\>\), 
-BuilderBase<Cylindrical\>.Success\(\), 
-BuilderBase<Cylindrical\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<Cylindrical\>.OnFinalBuild\(string, Document\), 
-BuilderBase<Cylindrical\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<Cylindrical\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<Cylindrical\>.Parameters, 
-BuilderBase<Cylindrical\>.AddToDoc, 
-BuilderBase<Cylindrical\>.UseChangedObject, 
-BuilderBase<Cylindrical\>.SetPointKey, 
-BuilderBase<Cylindrical\>.BuildObject, 
-BuilderBase<Cylindrical\>.BuildDocument, 
-BuilderBase<Cylindrical\>.UseInterface, 
-BuilderBase<Cylindrical\>.ErrorMessage
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.HookBeforeReplace\(Property\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.BaseConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.ActionConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Cylindrical, PropertyCylindrical, OnePointPosition, OneDirection, NoneOrientation\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[BuilderNamed<Cylindrical\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Cylindrical\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Cylindrical\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<Cylindrical\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Cylindrical\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Cylindrical\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Cylindrical\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 

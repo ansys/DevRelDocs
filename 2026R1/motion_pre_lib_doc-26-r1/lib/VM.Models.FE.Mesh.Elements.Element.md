@@ -1,4 +1,5 @@
-#  Class Element
+# Class Element
+<a id="VM_Models_FE_Mesh_Elements_Element"></a>
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public abstract class Element : Entity, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [Element](VM.Models.FE.Mesh.Elements.Element.md)
 
@@ -65,7 +66,7 @@ public int Node1Id { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Elements_Element_NodeIds"></a> NodeIds
 
@@ -75,7 +76,7 @@ public IList<int> NodeIds { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ IList<int\>
 
 ### <a id="VM_Models_FE_Mesh_Elements_Element_NumberOfNodes"></a> NumberOfNodes
 
@@ -85,7 +86,7 @@ protected abstract int NumberOfNodes { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Elements_Element_PropertyId"></a> PropertyId
 
@@ -96,7 +97,7 @@ public int PropertyId { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -108,9 +109,9 @@ public override sealed bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

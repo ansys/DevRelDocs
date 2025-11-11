@@ -1,4 +1,5 @@
-#  Class Edge
+# Class Edge
+<a id="VM_Managed_CAD_Edge"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class Edge : Topology, IObservableObject, IDisposableObject, ILinkable, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [Topology](VM.Managed.CAD.Topology.md) ← 
@@ -33,7 +34,7 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IAttributeContainer](VM.Managed.IAttributeContainer.md), 
 [ITopology](VM.Managed.ITopology.md)
 
@@ -145,7 +146,7 @@ IHistoryObjectSerializable,
 [ObjectBase.OnDestroying](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnDestroying), 
 [ObjectBase.OnUpdate](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdate), 
 [ObjectBase.OnUpdating](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -186,7 +187,7 @@ public void Draw(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas has icon information.
 
@@ -206,7 +207,7 @@ The vector holds center position.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -230,7 +231,7 @@ The vector holds direction.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -244,11 +245,11 @@ public Vector[] GetEdgePoints(double dTol, double dLen, double dAngle)
 
 #### Parameters
 
-`dTol` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTol` double
 
-`dLen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLen` double
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 #### Returns
 
@@ -266,7 +267,7 @@ public Vector[] GetEdgePoints(uint nNum)
 
 #### Parameters
 
-`nNum` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNum` uint
 
 The number of edge points.
 
@@ -286,7 +287,7 @@ public double GetLength()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Edge_GetNumOfEdgePoint"></a> GetNumOfEdgePoint\(\)
 
@@ -298,7 +299,7 @@ public uint GetNumOfEdgePoint()
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 The number of edge point.
 
@@ -310,19 +311,19 @@ public static List<VectorBase> GetPiecewiseCurve(List<Edge> lstEdges, double dTo
 
 #### Parameters
 
-`lstEdges` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Edge](VM.Managed.CAD.Edge.md)\>
+`lstEdges` List<[Edge](VM.Managed.CAD.Edge.md)\>
 
-`dTol` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTol` double
 
-`dLen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLen` double
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
-`bCloseLoop` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCloseLoop` bool
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+ List<[VectorBase](VM.Managed.VectorBase.md)\>
 
 ### <a id="VM_Managed_CAD_Edge_GetTypeName"></a> GetTypeName\(\)
 
@@ -334,7 +335,7 @@ public override string GetTypeName()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The name of topology
 
@@ -348,7 +349,7 @@ public bool IsOpen()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if open; otherwise, <code>false</code>.
 

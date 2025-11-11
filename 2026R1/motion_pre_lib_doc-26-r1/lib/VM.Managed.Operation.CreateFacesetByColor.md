@@ -1,4 +1,5 @@
-#  Class CreateFacesetByColor
+# Class CreateFacesetByColor
+<a id="VM_Managed_Operation_CreateFacesetByColor"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class CreateFacesetByColor : Create, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [Create](VM.Managed.Operation.Create.md) ← 
 [CreateFacesetByColor](VM.Managed.Operation.CreateFacesetByColor.md)
@@ -103,7 +104,7 @@ public CreateFacesetByColor(string strInitializerXml)
 
 #### Parameters
 
-`strInitializerXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitializerXml` string
 
 The STR initializer XML.
 

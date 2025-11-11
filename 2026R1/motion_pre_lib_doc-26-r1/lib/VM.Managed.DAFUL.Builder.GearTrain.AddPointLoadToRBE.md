@@ -1,4 +1,5 @@
-#  Class AddPointLoadToRBE
+# Class AddPointLoadToRBE
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointLoadToRBE"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,10 +10,10 @@ public class AddPointLoadToRBE : AddPointEntityToRBE<PseudoPointLoadOnRBE>, IBui
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<PseudoPointLoadOnRBE\> ← 
-BuilderSymmetric<PseudoPointLoadOnRBE\> ← 
-BuilderNamed<PseudoPointLoadOnRBE\> ← 
+object ← 
+[BuilderBase<PseudoPointLoadOnRBE\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<PseudoPointLoadOnRBE\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<PseudoPointLoadOnRBE\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [AddPointEntityToRBE<PseudoPointLoadOnRBE\>](VM.Managed.DAFUL.Builder.GearTrain.AddPointEntityToRBE\-1.md) ← 
 [AddPointLoadToRBE](VM.Managed.DAFUL.Builder.GearTrain.AddPointLoadToRBE.md)
 
@@ -26,29 +27,29 @@ IBuilder
 [AddPointEntityToRBE<PseudoPointLoadOnRBE\>.Validate\(IList<string\>\)](VM.Managed.DAFUL.Builder.GearTrain.AddPointEntityToRBE\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_AddPointEntityToRBE\_1\_Validate\_System\_Collections\_Generic\_IList\_System\_String\_\_), 
 [AddPointEntityToRBE<PseudoPointLoadOnRBE\>.RBEConnectable](VM.Managed.DAFUL.Builder.GearTrain.AddPointEntityToRBE\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_AddPointEntityToRBE\_1\_RBEConnectable), 
 [AddPointEntityToRBE<PseudoPointLoadOnRBE\>.InputArray](VM.Managed.DAFUL.Builder.GearTrain.AddPointEntityToRBE\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_AddPointEntityToRBE\_1\_InputArray), 
-BuilderNamed<PseudoPointLoadOnRBE\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<PseudoPointLoadOnRBE\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<PseudoPointLoadOnRBE\>.Name, 
-BuilderSymmetric<PseudoPointLoadOnRBE\>.Build\(Document\), 
-BuilderSymmetric<PseudoPointLoadOnRBE\>.Symmetric, 
-BuilderSymmetric<PseudoPointLoadOnRBE\>.CurrentSymmetric, 
-BuilderBase<PseudoPointLoadOnRBE\>.m\_bSuccess, 
-BuilderBase<PseudoPointLoadOnRBE\>.Build\(Document\), 
-BuilderBase<PseudoPointLoadOnRBE\>.Build\(Document, List<string\>\), 
-BuilderBase<PseudoPointLoadOnRBE\>.Validate\(IList<string\>\), 
-BuilderBase<PseudoPointLoadOnRBE\>.Success\(\), 
-BuilderBase<PseudoPointLoadOnRBE\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<PseudoPointLoadOnRBE\>.OnFinalBuild\(string, Document\), 
-BuilderBase<PseudoPointLoadOnRBE\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<PseudoPointLoadOnRBE\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<PseudoPointLoadOnRBE\>.Parameters, 
-BuilderBase<PseudoPointLoadOnRBE\>.AddToDoc, 
-BuilderBase<PseudoPointLoadOnRBE\>.UseChangedObject, 
-BuilderBase<PseudoPointLoadOnRBE\>.SetPointKey, 
-BuilderBase<PseudoPointLoadOnRBE\>.BuildObject, 
-BuilderBase<PseudoPointLoadOnRBE\>.BuildDocument, 
-BuilderBase<PseudoPointLoadOnRBE\>.UseInterface, 
-BuilderBase<PseudoPointLoadOnRBE\>.ErrorMessage
+[BuilderNamed<PseudoPointLoadOnRBE\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<PseudoPointLoadOnRBE\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<PseudoPointLoadOnRBE\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<PseudoPointLoadOnRBE\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<PseudoPointLoadOnRBE\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<PseudoPointLoadOnRBE\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<PseudoPointLoadOnRBE\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -80,5 +81,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

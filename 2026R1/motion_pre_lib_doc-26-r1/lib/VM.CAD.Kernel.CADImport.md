@@ -1,4 +1,5 @@
-#  Class CADImport
+# Class CADImport
+<a id="VM_CAD_Kernel_CADImport"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public static class CADImport
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADImport](VM.CAD.Kernel.CADImport.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public static string GetTranslateFilter()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The filter for CADImport
 

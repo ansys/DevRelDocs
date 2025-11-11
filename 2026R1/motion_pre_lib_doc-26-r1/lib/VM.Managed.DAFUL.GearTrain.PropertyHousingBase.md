@@ -1,4 +1,5 @@
-#  Class PropertyHousingBase
+# Class PropertyHousingBase
+<a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public abstract class PropertyHousingBase : Property, IObservableObject, IDispos
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyHousingBase](VM.Managed.DAFUL.GearTrain.PropertyHousingBase.md)
 
 #### Derived
@@ -38,7 +39,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -47,12 +48,12 @@ IHasID
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -151,7 +152,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -228,7 +229,7 @@ public SubEntity[] PointLoads { get; set; }
 
 #### Property Value
 
- SubEntity\[\]
+ [SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_UnbalanceMasses"></a> UnbalanceMasses
 
@@ -240,7 +241,7 @@ public SubEntity[] UnbalanceMasses { get; set; }
 
 #### Property Value
 
- SubEntity\[\]
+ [SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs)\[\]
 
 ## Methods
 
@@ -286,7 +287,7 @@ public IGTBuilder FindAddedBuilderFromGeomInfo(GeometryInfoBase info, string str
 
 The information.
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 Name of the string category.
 
@@ -304,7 +305,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -346,7 +347,7 @@ protected virtual void GetGlobalAxisCore(Body[] arBody, ref List<VectorBase[]> l
 
 The body list.
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\[\]\>
+`lst` List<VectorBase\[\]\>
 
 vector list.
 
@@ -360,17 +361,17 @@ protected string GetNewNameFromChildEntityCore(List<string> lstName, string strP
 
 #### Parameters
 
-`lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstName` List<string\>
 
 Name of the LST.
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The string prefix.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetNewNameFromPointLoad_System_String_"></a> GetNewNameFromPointLoad\(string\)
 
@@ -382,13 +383,13 @@ public string GetNewNameFromPointLoad(string strPrefix)
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The STR prefix.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetNewNameFromUnbalanceMass_System_String_"></a> GetNewNameFromUnbalanceMass\(string\)
 
@@ -400,13 +401,13 @@ public string GetNewNameFromUnbalanceMass(string strPrefix)
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The STR prefix.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetPointLoadPoint"></a> GetPointLoadPoint\(\)
 
@@ -418,7 +419,7 @@ public List<Vector> GetPointLoadPoint()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetUnbalanceMassPoint"></a> GetUnbalanceMassPoint\(\)
 
@@ -430,7 +431,7 @@ public List<Vector> GetUnbalanceMassPoint()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
@@ -442,13 +443,13 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 The ob unnamed.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -478,7 +479,7 @@ public bool IsAvaiableToAddOrModifyCrossHelicalGearWithAxis(GearTrainDocument do
 
 The document gt.
 
-`strExistShaftsetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExistShaftsetName` string
 
 Name of the string exist shaftset.
 
@@ -496,7 +497,7 @@ The added gear information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsAvaiableToAddOrModifyGearWithAxis_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> IsAvaiableToAddOrModifyGearWithAxis\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
 
@@ -512,7 +513,7 @@ public bool IsAvaiableToAddOrModifyGearWithAxis(GearTrainDocument docGT, string 
 
 The document gt.
 
-`strExistShaftsetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExistShaftsetName` string
 
 Name of the string exist shaftset.
 
@@ -530,7 +531,7 @@ The added gear information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsAvaiableToAddOrModifyGearWithCenterDistance_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> IsAvaiableToAddOrModifyGearWithCenterDistance\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
 
@@ -546,7 +547,7 @@ public bool IsAvaiableToAddOrModifyGearWithCenterDistance(GearTrainDocument docG
 
 The document gt.
 
-`strExistShaftsetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExistShaftsetName` string
 
 Name of the string exist shaftset.
 
@@ -564,7 +565,7 @@ The gear geometry information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsContainsNameOfPointLoad_System_String_"></a> IsContainsNameOfPointLoad\(string\)
 
@@ -576,13 +577,13 @@ public bool IsContainsNameOfPointLoad(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the STR.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if [is contains name of point load] [the specified STR name]; otherwise, <code>false</code>.
 
@@ -596,13 +597,13 @@ public bool IsContainsNameOfUnbalanceMass(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the STR.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if [is contains name of unbalance mass] [the specified STR name]; otherwise, <code>false</code>.
 
@@ -616,13 +617,13 @@ public bool IsContainsOffsetOfPointLoad(double dOffset)
 
 #### Parameters
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if [is contains offset of point load] [the specified d offset]; otherwise, <code>false</code>.
 
@@ -636,13 +637,13 @@ public bool IsContainsOffsetOfUnbalanceMass(double dOffset)
 
 #### Parameters
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if [is contains offset of unbalance mass] [the specified d offset]; otherwise, <code>false</code>.
 
@@ -656,7 +657,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

@@ -1,4 +1,5 @@
-#  Class FrictionTranslational
+# Class FrictionTranslational
+<a id="VM_API_Pre_FrictionTranslational"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public class FrictionTranslational : Friction
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Friction](VM.API.Pre.Friction.md) ← 
 [FrictionTranslational](VM.API.Pre.FrictionTranslational.md)
 
@@ -52,47 +53,47 @@ public FrictionTranslational(ExpressionValueVariable frictionCoefficient, Expres
 
 #### Parameters
 
-`frictionCoefficient` ExpressionValueVariable
+`frictionCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The friction coefficient.
 
-`staticFrictionCoefficient` ExpressionValueVariable
+`staticFrictionCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The static friction coefficient.
 
-`dynamicsThreshold` ExpressionValueVariable
+`dynamicsThreshold` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The dynamics threshold.
 
-`stictionVelocity` ExpressionValueVariable
+`stictionVelocity` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiction velocity.
 
-`maxStictionDeformation` ExpressionValueVariable
+`maxStictionDeformation` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The max stiction deformation.
 
-`frictionEffect` Friction.EffectType
+`frictionEffect` [Friction](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Friction.cs).[EffectType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Friction.cs)
 
 The friction effect.
 
-`reactionForce` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`reactionForce` bool
 
 The reaction force.
 
-`bendingMoment` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bendingMoment` bool
 
 The bending moment.
 
-`reactionArm` ExpressionValueVariable
+`reactionArm` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The reaction arm.
 
-`preForce` ExpressionValueVariable
+`preForce` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The pre force.
 
-`initialOverlap` ExpressionValueVariable
+`initialOverlap` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The initial overlap.
 
@@ -100,7 +101,7 @@ The initial overlap.
 
 The overlap option.
 
-`torsionalMoment` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`torsionalMoment` bool
 
 The torsional moment.
 
@@ -116,7 +117,7 @@ public ExpressionValueVariable InitialOverlap { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_FrictionTranslational_OverlapOption"></a> OverlapOption
 
@@ -140,7 +141,7 @@ public ExpressionValueVariable PreForce { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_FrictionTranslational_ReactionArm"></a> ReactionArm
 
@@ -152,7 +153,7 @@ public ExpressionValueVariable ReactionArm { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_FrictionTranslational_TorsionalMoment"></a> TorsionalMoment
 
@@ -164,5 +165,5 @@ public bool TorsionalMoment { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

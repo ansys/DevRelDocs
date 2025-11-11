@@ -1,4 +1,5 @@
-#  Delegate Document.BrowseFile
+# Delegate Document.BrowseFile
+<a id="VM_Managed_Document_BrowseFile"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,13 +12,13 @@ public delegate string Document.BrowseFile(string strOriginalFileName, string st
 
 #### Parameters
 
-`strOriginalFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOriginalFileName` string
 
-`strFilter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilter` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Extension Methods
 

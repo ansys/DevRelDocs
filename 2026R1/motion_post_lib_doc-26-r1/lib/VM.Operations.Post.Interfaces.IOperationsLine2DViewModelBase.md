@@ -1,30 +1,33 @@
-#  Interface IOperationsLine2DViewModelBase
+# Interface IOperationsLine2DViewModelBase
+<a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents the base interface for properties and methods that make up a 2D chart view.
 
-```python
-public interface IOperationsLine2DViewModelBase : IOperationsChartViewModel, IView, IOperationsBase
+```csharp
+public interface IOperationsLine2DViewModelBase : IOperationsChartViewModel, IView
 ```
 
 #### Implements
 
 [IOperationsChartViewModel](VM.Operations.Post.Interfaces.IOperationsChartViewModel.md), 
-[IView](VM.Operations.Post.Interfaces.IView.md), 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+[IView](VM.Operations.Post.Interfaces.IView.md)
 
 ## Examples
 
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsLine2DViewModelBase.py
+```python
+# IOperationsLine2DViewModelBase.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -38,12 +41,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 chartView.Background = Colors.Gray
 chartView.BorderColor = Colors.Red
@@ -63,7 +71,11 @@ curvePaths.Add(r'Displacement/X')
 curvePaths.Add(r'Displacement/Y')
 curvePaths.Add(r'Displacement/Z')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -113,7 +125,7 @@ page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -121,13 +133,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the background color of the chart view.
 
-```python
+```csharp
 Color Background { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -142,13 +154,13 @@ In the UI, this property is represented under the "Color" category with the prop
 
 Gets or sets the border color of the chart view.
 
-```python
+```csharp
 Color BorderColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -163,7 +175,7 @@ In the UI, this property is represented under the "Color" category with the prop
 
 Gets or sets the axis type of the chart, indicating whether to display the chart's axis as single or multiple.
 
-```python
+```csharp
 ChartAxisType ChartAxisType { get; set; }
 ```
 
@@ -186,13 +198,13 @@ The available options are:
 
 Gets or sets the title of the chart view.
 
-```python
+```csharp
 string ChartTitle { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -207,13 +219,13 @@ In the UI, this property is represented under the "Chart" category with the prop
 
 Gets or sets the font color of the chart view's title.
 
-```python
+```csharp
 Color FontColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -228,13 +240,13 @@ In the UI, this property is represented under the "Chart" category with the prop
 
 Gets or sets the font face of the chart title.
 
-```python
+```csharp
 FontFamily FontFace { get; set; }
 ```
 
 #### Property Value
 
- [FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.media.fontfamily)
+ FontFamily
 
 #### Examples
 
@@ -249,13 +261,13 @@ In the UI, this property is represented under the "Font" category with the prope
 
 Gets or sets the font size of the chart title.
 
-```python
+```csharp
 double FontSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -270,13 +282,13 @@ In the UI, this property is represented under the "Font" category with the prope
 
 Gets or sets the font style of the chart title.
 
-```python
+```csharp
 FontStyle FontStyle { get; set; }
 ```
 
 #### Property Value
 
- [FontStyle](https://learn.microsoft.com/dotnet/api/system.windows.fontstyle)
+ FontStyle
 
 #### Examples
 
@@ -293,13 +305,13 @@ The supported types are:
 
 Gets or sets the font weight of the chart title.
 
-```python
+```csharp
 FontWeight FontWeight { get; set; }
 ```
 
 #### Property Value
 
- [FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.fontweight)
+ FontWeight
 
 #### Examples
 
@@ -316,19 +328,19 @@ The available options are:
 
 ### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_AddCurves_System_String_VM_Models_OutputReader_PlotParameters_"></a> AddCurves\(string, PlotParameters\)
 
-Adds curves to the chart by reading data from the specified file path and using the given plot parameters. Please refer to this [here](./../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
+Adds curves to the chart by reading data from the specified file path and using the given plot parameters. Please refer to this [here](../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
 
-```python
+```csharp
 IOperationsLineDataSeriesViewModelBase[] AddCurves(string filepath, PlotParameters parameters)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The path to the file containing the curve data.
 
-`parameters` PlotParameters
+`parameters` [PlotParameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Models/PlotParameters.cs)
 
 The parameters used for plotting the curves, including target entity, data paths, coordinate system, and plot data type.
 <ul><li><xref href="VM.Models.OutputReader.PlotParameters.Target" data-throw-if-not-resolved="false"></xref> - The target entity for plotting the curves.</li><li><xref href="VM.Models.OutputReader.PlotParameters.PlotDataType" data-throw-if-not-resolved="false"></xref> - Default or Plot Data.</li><li><xref href="VM.Models.OutputReader.PlotParameters.Paths" data-throw-if-not-resolved="false"></xref> - An Paths representing the paths to the data to be read. This is a combination of characteristic and component.</li><li><xref href="VM.Models.OutputReader.PlotParameters.CSYS" data-throw-if-not-resolved="false"></xref> - The coordinate system to be used.</li></ul>
@@ -351,13 +363,13 @@ This method reads data from the specified file path and adds curves to the chart
 
 Exports all curves contained in the chart to the specified file path without displaying a file save dialog.
 
-```python
+```csharp
 void ExportAllCurves(string filepath)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The file path where the curves will be saved.
 
@@ -376,7 +388,7 @@ requiring automation.
 
 Exports all data series included in the chart.
 
-```python
+```csharp
 void ExportAllDataSeries()
 ```
 
@@ -395,13 +407,13 @@ which does not display a file save dialog.
 
 Retrieves an axis by its name.
 
-```python
+```csharp
 IOperationsAxisViewModelBase GetAxis(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the axis to be retrieved.
 
@@ -425,13 +437,13 @@ If no axis with the specified name is found, the method returns <code>null</code
 
 Gets a curve from the chart by its name.
 
-```python
+```csharp
 IOperationsLineDataSeriesViewModelBase GetCurve(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the curve to retrieve.
 
@@ -453,13 +465,13 @@ This method searches for and returns the curve with the given name from the char
 
 Gets a curve from the chart by its ID.
 
-```python
+```csharp
 IOperationsLineDataSeriesViewModelBase GetCurveByID(string id)
 ```
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 The ID of the curve to retrieve.
 
@@ -481,13 +493,13 @@ This method searches for and returns the curve with the given ID from the chart.
 
 Gets a list of names of all curves in the chart view.
 
-```python
+```csharp
 IEnumerable<string> GetCurveNameList()
 ```
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 
 A collection of the names of all curves currently displayed in the chart view.
 
@@ -503,13 +515,13 @@ This method retrieves the names of all the curves that are currently displayed i
 
 Gets all the curves currently included in the chart view.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> GetCurves()
 ```
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of all the curves currently displayed in the chart view.
 
@@ -525,19 +537,19 @@ This method retrieves all the curves that are currently displayed in the chart v
 
 Gets all curves from the chart view that contain the specified substring in their names.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> GetCurves(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 A substring to search for within the curve names.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of all curves whose names contain the specified substring.
 
@@ -554,7 +566,7 @@ If no such curves are found, an empty collection is returned.
 
 Gets the most recently added curve from the chart view.
 
-```python
+```csharp
 IOperationsLineDataSeriesViewModelBase GetLastCurve()
 ```
 
@@ -576,13 +588,13 @@ This method retrieves the curve that was added last to the chart view. If no cur
 
 Removes a curve from the chart by its id.
 
-```python
+```csharp
 void Remove(string id)
 ```
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 The id of the curve to be removed.
 
@@ -598,7 +610,7 @@ This method deletes the curve with the specified id from the chart. If no curve 
 
 Removes a curve from the chart by its instance.
 
-```python
+```csharp
 void Remove(IOperationsLineDataSeriesViewModelBase curve)
 ```
 
@@ -615,5 +627,4 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 #### Remarks
 
 This method deletes the specified curve instance from the chart. If the provided curve instance does not exist in the chart, no action is taken.
-
 

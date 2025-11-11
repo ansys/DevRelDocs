@@ -1,4 +1,5 @@
-#  Class SolidTriPlateSimple
+# Class SolidTriPlateSimple
+<a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class SolidTriPlateSimple : Solid<BuilderTriPlateSimple>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<Body\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [Solid<BuilderTriPlateSimple\>](VM.Managed.DAFUL.Builder.Solid\-1.md) ← 
 [SolidTriPlateSimple](VM.Managed.DAFUL.Builder.SolidTriPlateSimple.md)

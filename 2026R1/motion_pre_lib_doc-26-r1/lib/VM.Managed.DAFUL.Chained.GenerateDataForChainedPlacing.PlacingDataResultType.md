@@ -1,4 +1,5 @@
-#  Enum GenerateDataForChainedPlacing.PlacingDataResultType
+# Enum GenerateDataForChainedPlacing.PlacingDataResultType
+<a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_PlacingDataResultType"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

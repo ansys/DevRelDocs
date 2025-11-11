@@ -1,9 +1,10 @@
-#  Interface IHasID
+# Interface IHasID
+<a id="VM_IHasID"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IHasID
 ```
 
@@ -11,12 +12,11 @@ public interface IHasID
 
 ### <a id="VM_IHasID_ID"></a> ID
 
-```python
+```csharp
 Identifier ID { get; }
 ```
 
 #### Property Value
 
  [Identifier](VM.Identifier.md)
-
 

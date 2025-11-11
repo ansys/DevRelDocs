@@ -1,4 +1,5 @@
-#  Class AnalysisLevel
+# Class AnalysisLevel
+<a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,9 +12,9 @@ public class AnalysisLevel : LinkContainer, IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [AnalysisLevel](VM.Managed.DAFUL.MeshFree.AnalysisLevel.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -114,7 +115,7 @@ public AnalysisLevel(uint level)
 
 #### Parameters
 
-`level` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`level` uint
 
 Level Number.
 
@@ -130,7 +131,7 @@ public uint Level { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_LocalRefinementRatio"></a> LocalRefinementRatio
 
@@ -142,7 +143,7 @@ public double LocalRefinementRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeCount"></a> NodeCount
 
@@ -154,7 +155,7 @@ public uint NodeCount { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistance"></a> NodeDistance
 
@@ -167,11 +168,11 @@ public double NodeDistance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 The node distance should be same as 0 or bigger than 0.
 
@@ -185,7 +186,7 @@ public double NodeDistanceOriginalX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceOriginalY"></a> NodeDistanceOriginalY
 
@@ -197,11 +198,11 @@ public double NodeDistanceOriginalY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 The node distance should be same as 0 or bigger than 0.
 
@@ -215,7 +216,7 @@ public double NodeDistanceOriginalZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceX"></a> NodeDistanceX
 
@@ -227,7 +228,7 @@ public double NodeDistanceX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceY"></a> NodeDistanceY
 
@@ -239,11 +240,11 @@ public double NodeDistanceY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 The node distance should be same as 0 or bigger than 0.
 
@@ -257,7 +258,7 @@ public double NodeDistanceZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_UseThisLevel"></a> UseThisLevel
 
@@ -269,7 +270,7 @@ public bool UseThisLevel { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

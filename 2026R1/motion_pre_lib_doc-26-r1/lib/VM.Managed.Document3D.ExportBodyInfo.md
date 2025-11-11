@@ -1,4 +1,5 @@
-#  Class Document3D.ExportBodyInfo
+# Class Document3D.ExportBodyInfo
+<a id="VM_Managed_Document3D_ExportBodyInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Document3D.ExportBodyInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Document3D.ExportBodyInfo](VM.Managed.Document3D.ExportBodyInfo.md)
 
 #### Extension Methods
@@ -40,11 +41,11 @@ The body.
 
 The transform.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
@@ -66,7 +67,7 @@ The body.
 
 The transform.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
@@ -110,7 +111,7 @@ public double LengthFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Document3D_ExportBodyInfo_Name"></a> Name
 
@@ -120,7 +121,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_ExportBodyInfo_Transform"></a> Transform
 

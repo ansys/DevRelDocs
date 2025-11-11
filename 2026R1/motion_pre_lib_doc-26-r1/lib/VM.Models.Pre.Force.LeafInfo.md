@@ -1,4 +1,5 @@
-#  Class LeafInfo
+# Class LeafInfo
+<a id="VM_Models_Pre_Force_LeafInfo"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class LeafInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LeafInfo](VM.Models.Pre.Force.LeafInfo.md)
 
 #### Extension Methods
@@ -28,15 +29,15 @@ public LeafInfo(double LeafWidth, int NofContactFront, int NofContactRear, int N
 
 #### Parameters
 
-`LeafWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`LeafWidth` double
 
-`NofContactFront` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NofContactFront` int
 
-`NofContactRear` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NofContactRear` int
 
-`NofEelementFront` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NofEelementFront` int
 
-`NofEelementRear` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NofEelementRear` int
 
 `LeafProfiles` [Leaf3D](VM.Models.Pre.Force.Leaf3D.md)\[\]
 
@@ -50,7 +51,7 @@ public List<Leaf4D> BeamProfiles { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Leaf4D](VM.Models.Pre.Force.Leaf4D.md)\>
+ List<[Leaf4D](VM.Models.Pre.Force.Leaf4D.md)\>
 
 ### <a id="VM_Models_Pre_Force_LeafInfo_Profiles"></a> Profiles
 

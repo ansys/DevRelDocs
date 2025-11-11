@@ -1,4 +1,5 @@
-#  Class HydroDynamicAPI
+# Class HydroDynamicAPI
+<a id="VM_API_Pre_Links_HydroDynamicAPI"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +12,7 @@ public static class HydroDynamicAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [HydroDynamicAPI](VM.API.Pre.Links.HydroDynamicAPI.md)
 
 #### Extension Methods
@@ -32,19 +33,19 @@ public static Obj CreateHydroForce(this SubSystemDocument document, Obj baseWate
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`baseWater` Obj
+`baseWater` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
-`hullBody` Obj
+`hullBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
-`actionEntities` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`actionEntities` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 ### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateMasslessTrackLink_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Links_PathData__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateMasslessTrackLink\(SubSystemDocument, Obj, Obj, IEnumerable<PathData\>, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
@@ -59,67 +60,67 @@ public static Obj CreateMasslessTrackLink(this SubSystemDocument document, Obj b
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the massless track link.
 
-`baseEntity` Obj
+`baseEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity.
 
-`hullMarker` Obj
+`hullMarker` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The hull marker.
 
-`paths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PathData](VM.API.Pre.Links.PathData.md)\>
+`paths` IEnumerable<[PathData](VM.API.Pre.Links.PathData.md)\>
 
 The path information.
 
-`thickness` ExpressionValueVariable?
+`thickness` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The thickness.
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.MTL" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'MTL_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.MTL" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity', 'hullMarker' are null.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'paths' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'baseEntity' is not <xref href="VM.Managed.DAFUL.IContactableRigid3D" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'hullMarker' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'thickness', 'width' value equal to or less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'Marker' of paths is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if type of 'WindingRadius' of paths value equal to or less than 0.
 
@@ -136,61 +137,61 @@ public static void CreateMultiMasslessTrackLink(this SubSystemDocument document,
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the massless track link.
 
-`baseEntities` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`baseEntities` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The base entities.
 
-`hullMarker` Obj
+`hullMarker` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The hull marker.
 
-`paths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PathData](VM.API.Pre.Links.PathData.md)\>
+`paths` IEnumerable<[PathData](VM.API.Pre.Links.PathData.md)\>
 
 The path information.
 
-`thickness` ExpressionValueVariable?
+`thickness` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The thickness.
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.MTL" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'MTL_' will be generated and used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntities', 'hullMarker' are null.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'paths' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of Obj of 'baseEntities' is not <xref href="VM.Managed.DAFUL.IContactableRigid3D" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'hullMarker' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'thickness', 'width' value equal to or less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'Marker' of paths is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if type of 'WindingRadius' of paths value equal to or less than 0.
 
@@ -206,39 +207,39 @@ public static Obj CreateSoilInteraction(this SubSystemDocument document, Obj bas
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the soil interaction.
 
-`baseEntity` Obj
+`baseEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity.
 
-`actionEntities` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`actionEntities` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The action entities.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.SoilInteraction" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'SoilInteraction_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.SoilInteraction" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity' are null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'baseEntity' is not <xref href="VM.Managed.DAFUL.IContactableRigid3D" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'actionEntities' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
@@ -253,21 +254,21 @@ public static Obj CreateThrustForce(this SubSystemDocument document, Obj baseWat
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`baseWater` Obj
+`baseWater` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
-`body` Obj
+`body` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 `position` Vector
 
 `thrustingAxis` Vector
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 ### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateWater_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateWater\(SubSystemDocument, Obj, Vector, Vector, Vector, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
@@ -282,11 +283,11 @@ public static Obj CreateWater(this SubSystemDocument document, Obj body, Vector 
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the water.
 
-`body` Obj
+`body` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The body.
 
@@ -302,51 +303,51 @@ The z axis.
 
 The x axis.
 
-`lengthInXAxis` ExpressionValueVariable?
+`lengthInXAxis` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The length in x axis.
 
-`widthInYAxis` ExpressionValueVariable?
+`widthInYAxis` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width in y axis.
 
-`depthOfDeepWater` ExpressionValueVariable?
+`depthOfDeepWater` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The depth of deep water.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.Water" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'Water_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.Water" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity' are null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'baseEntity' is not <xref href="VM.Managed.DAFUL.IContactableRigid3D" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'actionEntities' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'axisZ'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'axisX'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'axisZ' is equal to 'axisX'.
 

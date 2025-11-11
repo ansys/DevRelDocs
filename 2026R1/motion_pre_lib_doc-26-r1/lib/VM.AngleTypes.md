@@ -1,4 +1,5 @@
-#  Enum AngleTypes
+# Enum AngleTypes
+<a id="VM_AngleTypes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

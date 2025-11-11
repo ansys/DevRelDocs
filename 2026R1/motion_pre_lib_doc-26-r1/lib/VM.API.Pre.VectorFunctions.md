@@ -1,4 +1,5 @@
-#  Struct VectorFunctions
+# Struct VectorFunctions
+<a id="VM_API_Pre_VectorFunctions"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -31,7 +32,7 @@ public Function FunctionFX { readonly get; set; }
 
 #### Property Value
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 ### <a id="VM_API_Pre_VectorFunctions_FunctionFY"></a> FunctionFY
 
@@ -43,7 +44,7 @@ public Function FunctionFY { readonly get; set; }
 
 #### Property Value
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 ### <a id="VM_API_Pre_VectorFunctions_FunctionFZ"></a> FunctionFZ
 
@@ -55,7 +56,7 @@ public Function FunctionFZ { readonly get; set; }
 
 #### Property Value
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 ### <a id="VM_API_Pre_VectorFunctions_FunctionTX"></a> FunctionTX
 
@@ -67,7 +68,7 @@ public Function FunctionTX { readonly get; set; }
 
 #### Property Value
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 ### <a id="VM_API_Pre_VectorFunctions_FunctionTY"></a> FunctionTY
 
@@ -79,7 +80,7 @@ public Function FunctionTY { readonly get; set; }
 
 #### Property Value
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 ### <a id="VM_API_Pre_VectorFunctions_FunctionTZ"></a> FunctionTZ
 
@@ -91,5 +92,5 @@ public Function FunctionTZ { readonly get; set; }
 
 #### Property Value
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 

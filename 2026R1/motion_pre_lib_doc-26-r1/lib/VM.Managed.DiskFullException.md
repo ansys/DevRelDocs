@@ -1,4 +1,5 @@
-#  Class DiskFullException
+# Class DiskFullException
+<a id="VM_Managed_DiskFullException"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class DiskFullException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [DiskFullException](VM.Managed.DiskFullException.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public DiskFullException(Exception e)
 
 #### Parameters
 
-`e` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`e` Exception
 
 ## Properties
 
@@ -47,7 +48,7 @@ public override string Message { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -59,9 +60,9 @@ public static bool IsDiskFull(Exception e)
 
 #### Parameters
 
-`e` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`e` Exception
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

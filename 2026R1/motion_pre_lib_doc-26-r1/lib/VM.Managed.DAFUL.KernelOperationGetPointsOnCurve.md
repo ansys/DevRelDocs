@@ -1,4 +1,5 @@
-#  Class KernelOperationGetPointsOnCurve
+# Class KernelOperationGetPointsOnCurve
+<a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -11,7 +12,7 @@ public class KernelOperationGetPointsOnCurve
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelOperationGetPointsOnCurve](VM.Managed.DAFUL.KernelOperationGetPointsOnCurve.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public string BallSpacingMethod { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_Count"></a> Count
 
@@ -52,7 +53,7 @@ public int Count { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_Distance"></a> Distance
 
@@ -64,7 +65,7 @@ public double Distance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_IsClosed"></a> IsClosed
 
@@ -76,7 +77,7 @@ public bool IsClosed { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_Points"></a> Points
 
@@ -88,7 +89,7 @@ public List<Vector> Points { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_ShiftOfStartPosition"></a> ShiftOfStartPosition
 
@@ -100,5 +101,5 @@ public double ShiftOfStartPosition { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

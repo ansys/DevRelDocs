@@ -1,4 +1,5 @@
-#  Class CADImport
+# Class CADImport
+<a id="VM_Managed_DAFUL_Builder_CADImport"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class CADImport : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADImport](VM.Managed.DAFUL.Builder.CADImport.md)
 
 #### Derived
@@ -44,7 +45,7 @@ protected bool m_bSuccess
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -66,7 +67,7 @@ public bool Healing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_CADImport_InputArray"></a> InputArray
 
@@ -76,7 +77,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_CADImport_PropertyFilePath"></a> PropertyFilePath
 
@@ -86,7 +87,7 @@ public string PropertyFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_CADImport_ResultType"></a> ResultType
 
@@ -96,7 +97,7 @@ public string ResultType { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_CADImport_UnitType"></a> UnitType
 
@@ -130,7 +131,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `docToAdd` Document
 
-`lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSetPointKeys` List<string\>
 
 ### <a id="VM_Managed_DAFUL_Builder_CADImport_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
 
@@ -150,7 +151,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_CADImport_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -160,9 +161,9 @@ public bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

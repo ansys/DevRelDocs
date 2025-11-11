@@ -1,4 +1,5 @@
-#  Class ModuleInfo
+# Class ModuleInfo
+<a id="VM_Managed_DAFUL_Pre_ModuleInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class ModuleInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ModuleInfo](VM.Managed.DAFUL.Pre.ModuleInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static Dictionary<string, Module> GetAllModules()
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [Module](VM.Managed.DAFUL.Pre.Module.md)\>
+ Dictionary<string, [Module](VM.Managed.DAFUL.Pre.Module.md)\>
 
 The modules.
 
@@ -54,7 +55,7 @@ public static void LoadAllModuleFiles(string strModuleDir)
 
 #### Parameters
 
-`strModuleDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModuleDir` string
 
 The STR module dir.
 

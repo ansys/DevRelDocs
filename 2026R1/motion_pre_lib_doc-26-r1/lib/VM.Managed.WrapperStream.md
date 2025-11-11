@@ -1,4 +1,5 @@
-#  Class WrapperStream
+# Class WrapperStream
+<a id="VM_Managed_WrapperStream"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class WrapperStream : Stream
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[MarshalByRefObject](https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject) ← 
-[Stream](https://learn.microsoft.com/dotnet/api/system.io.stream) ← 
+object ← 
+MarshalByRefObject ← 
+Stream ← 
 [WrapperStream](VM.Managed.WrapperStream.md)
 
 #### Extension Methods
@@ -34,15 +35,15 @@ public WrapperStream(string strFileName, FileMode mode, string comment)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the string file.
 
-`mode` [FileMode](https://learn.microsoft.com/dotnet/api/system.io.filemode)
+`mode` FileMode
 
 The mode.
 
-`comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comment` string
 
 The comment.
 
@@ -58,7 +59,7 @@ public override bool CanRead { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_WrapperStream_CanSeek"></a> CanSeek
 
@@ -70,7 +71,7 @@ public override bool CanSeek { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_WrapperStream_CanWrite"></a> CanWrite
 
@@ -82,7 +83,7 @@ public override bool CanWrite { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_WrapperStream_Comment"></a> Comment
 
@@ -94,7 +95,7 @@ public string Comment { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_WrapperStream_Length"></a> Length
 
@@ -106,7 +107,7 @@ public override long Length { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Managed_WrapperStream_PointerSize"></a> PointerSize
 
@@ -118,7 +119,7 @@ public long PointerSize { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Managed_WrapperStream_Position"></a> Position
 
@@ -130,7 +131,7 @@ public override long Position { get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ## Methods
 
@@ -160,21 +161,21 @@ public override int Read(byte[] buffer, int offset, int count)
 
 #### Parameters
 
-`buffer` [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
+`buffer` byte\[\]
 
 The buffer.
 
-`offset` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`offset` int
 
 The offset.
 
-`count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`count` int
 
 The count.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_WrapperStream_Seek_System_Int64_System_IO_SeekOrigin_"></a> Seek\(long, SeekOrigin\)
 
@@ -186,17 +187,17 @@ public override long Seek(long offset, SeekOrigin origin)
 
 #### Parameters
 
-`offset` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`offset` long
 
 The offset.
 
-`origin` [SeekOrigin](https://learn.microsoft.com/dotnet/api/system.io.seekorigin)
+`origin` SeekOrigin
 
 The origin.
 
 #### Returns
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Managed_WrapperStream_SetLength_System_Int64_"></a> SetLength\(long\)
 
@@ -208,7 +209,7 @@ public override void SetLength(long len)
 
 #### Parameters
 
-`len` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`len` long
 
 The length.
 
@@ -222,15 +223,15 @@ public override void Write(byte[] buffer, int offset, int count)
 
 #### Parameters
 
-`buffer` [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
+`buffer` byte\[\]
 
 The buffer.
 
-`offset` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`offset` int
 
 The offset.
 
-`count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`count` int
 
 The count.
 

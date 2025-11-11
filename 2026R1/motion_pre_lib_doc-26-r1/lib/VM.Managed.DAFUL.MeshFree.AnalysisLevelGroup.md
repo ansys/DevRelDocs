@@ -1,4 +1,5 @@
-#  Class AnalysisLevelGroup
+# Class AnalysisLevelGroup
+<a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,9 +12,9 @@ public class AnalysisLevelGroup : LinkContainer, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [AnalysisLevelGroup](VM.Managed.DAFUL.MeshFree.AnalysisLevelGroup.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -114,7 +115,7 @@ public AnalysisLevelGroup(uint levelCount)
 
 #### Parameters
 
-`levelCount` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`levelCount` uint
 
 ## Properties
 
@@ -152,7 +153,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_IsUseLocalRefinement"></a> IsUseLocalRefinement
 
@@ -164,7 +165,7 @@ public bool IsUseLocalRefinement { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_RefineSurface"></a> RefineSurface
 
@@ -176,7 +177,7 @@ public int RefineSurface { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_Item_System_Int32_"></a> this\[int\]
 
@@ -202,7 +203,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

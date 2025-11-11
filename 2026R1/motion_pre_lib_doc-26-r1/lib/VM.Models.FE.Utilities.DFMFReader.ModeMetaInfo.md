@@ -1,4 +1,5 @@
-#  Struct DFMFReader.ModeMetaInfo
+# Struct DFMFReader.ModeMetaInfo
+<a id="VM_Models_FE_Utilities_DFMFReader_ModeMetaInfo"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,9 +18,9 @@ public ModeMetaInfo(string name, long contentSize)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`contentSize` [long](https://learn.microsoft.com/dotnet/api/system.int64)
+`contentSize` long
 
 ## Properties
 
@@ -31,7 +32,7 @@ public long ContentsSize { readonly get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="VM_Models_FE_Utilities_DFMFReader_ModeMetaInfo_Name"></a> Name
 
@@ -41,5 +42,5 @@ public string Name { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

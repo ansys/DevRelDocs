@@ -1,4 +1,5 @@
-#  Class EquationUserSubroutine
+# Class EquationUserSubroutine
+<a id="VM_Managed_Symmetric_Equation_EquationUserSubroutine"></a>
 
 Namespace: [VM.Managed.Symmetric.Equation](VM.Managed.Symmetric.Equation.md)  
 Assembly: VMSymEq.dll  
@@ -9,7 +10,7 @@ public class EquationUserSubroutine : ISymmetricBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EquationUserSubroutine](VM.Managed.Symmetric.Equation.EquationUserSubroutine.md)
 
 #### Implements
@@ -42,7 +43,7 @@ public object Build(object tool, SymmetricType sym_type, Plane sym_plane, Docume
 
 #### Parameters
 
-`tool` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`tool` object
 
 The object.
 
@@ -58,7 +59,7 @@ Plane of symmetric.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The new object of symmetric.
 

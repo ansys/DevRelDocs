@@ -1,4 +1,5 @@
-#  Struct RequestKinematic.OutputType
+# Struct RequestKinematic.OutputType
+<a id="VM_Managed_DAFUL_RequestKinematic_OutputType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -21,7 +22,7 @@ public bool AccelerationMagnitude
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AccelerationX"></a> AccelerationX
 
@@ -33,7 +34,7 @@ public bool AccelerationX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AccelerationY"></a> AccelerationY
 
@@ -45,7 +46,7 @@ public bool AccelerationY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AccelerationZ"></a> AccelerationZ
 
@@ -57,7 +58,7 @@ public bool AccelerationZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AnglePitch"></a> AnglePitch
 
@@ -69,7 +70,7 @@ public bool AnglePitch
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleRoll"></a> AngleRoll
 
@@ -81,7 +82,7 @@ public bool AngleRoll
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleX"></a> AngleX
 
@@ -93,7 +94,7 @@ public bool AngleX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleY"></a> AngleY
 
@@ -105,7 +106,7 @@ public bool AngleY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleYaw"></a> AngleYaw
 
@@ -117,7 +118,7 @@ public bool AngleYaw
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleZ"></a> AngleZ
 
@@ -129,7 +130,7 @@ public bool AngleZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationMagnitude"></a> AngularAccelerationMagnitude
 
@@ -141,7 +142,7 @@ public bool AngularAccelerationMagnitude
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationX"></a> AngularAccelerationX
 
@@ -153,7 +154,7 @@ public bool AngularAccelerationX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationY"></a> AngularAccelerationY
 
@@ -165,7 +166,7 @@ public bool AngularAccelerationY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationZ"></a> AngularAccelerationZ
 
@@ -177,7 +178,7 @@ public bool AngularAccelerationZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityMagnitude"></a> AngularVelocityMagnitude
 
@@ -189,7 +190,7 @@ public bool AngularVelocityMagnitude
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityR"></a> AngularVelocityR
 
@@ -201,7 +202,7 @@ public bool AngularVelocityR
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityX"></a> AngularVelocityX
 
@@ -213,7 +214,7 @@ public bool AngularVelocityX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityY"></a> AngularVelocityY
 
@@ -225,7 +226,7 @@ public bool AngularVelocityY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityZ"></a> AngularVelocityZ
 
@@ -237,7 +238,7 @@ public bool AngularVelocityZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationMagnitude"></a> DeformationMagnitude
 
@@ -249,7 +250,7 @@ public bool DeformationMagnitude
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationX"></a> DeformationX
 
@@ -261,7 +262,7 @@ public bool DeformationX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationY"></a> DeformationY
 
@@ -273,7 +274,7 @@ public bool DeformationY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationZ"></a> DeformationZ
 
@@ -285,7 +286,7 @@ public bool DeformationZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementMagnitude"></a> DisplacementMagnitude
 
@@ -297,7 +298,7 @@ public bool DisplacementMagnitude
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementX"></a> DisplacementX
 
@@ -309,7 +310,7 @@ public bool DisplacementX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementY"></a> DisplacementY
 
@@ -321,7 +322,7 @@ public bool DisplacementY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementZ"></a> DisplacementZ
 
@@ -333,7 +334,7 @@ public bool DisplacementZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityMagnitude"></a> VelocityMagnitude
 
@@ -345,7 +346,7 @@ public bool VelocityMagnitude
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityR"></a> VelocityR
 
@@ -357,7 +358,7 @@ public bool VelocityR
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityX"></a> VelocityX
 
@@ -369,7 +370,7 @@ public bool VelocityX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityY"></a> VelocityY
 
@@ -381,7 +382,7 @@ public bool VelocityY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityZ"></a> VelocityZ
 
@@ -393,7 +394,7 @@ public bool VelocityZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -407,13 +408,13 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 <p>Object to compare</p>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two objects are equal. Otherwise false.</p>
 
@@ -433,7 +434,7 @@ public bool Equals(RequestKinematic.OutputType other)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two objects are equal. Otherwise false.</p>
 
@@ -447,7 +448,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 <p>The hash code</p>
 
@@ -473,7 +474,7 @@ public static bool operator ==(RequestKinematic.OutputType left, RequestKinemati
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two arguments are same. Otherwise false.</p>
 
@@ -497,7 +498,7 @@ public static bool operator !=(RequestKinematic.OutputType left, RequestKinemati
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two arguments are not same. Otherwise false.</p>
 

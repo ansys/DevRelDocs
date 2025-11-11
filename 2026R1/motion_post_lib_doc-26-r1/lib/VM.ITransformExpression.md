@@ -1,9 +1,10 @@
-#  Interface ITransformExpression
+# Interface ITransformExpression
+<a id="VM_ITransformExpression"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface ITransformExpression : ITransformBase, IExpression
 ```
 
@@ -11,5 +12,4 @@ public interface ITransformExpression : ITransformBase, IExpression
 
 [ITransformBase](VM.ITransformBase.md), 
 [IExpression](VM.IExpression.md)
-
 

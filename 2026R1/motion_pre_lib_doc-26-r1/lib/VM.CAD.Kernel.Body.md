@@ -1,4 +1,5 @@
-#  Class Body
+# Class Body
+<a id="VM_CAD_Kernel_Body"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public sealed class Body : Entity, IHasID, IFacetable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Entity](VM.CAD.Kernel.Entity.md) ← 
 [Body](VM.CAD.Kernel.Body.md)
@@ -42,7 +43,7 @@ public Body(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 ## Methods
 
@@ -62,7 +63,7 @@ public void GetEdgeKernelProxy(Identifier pid, out UIntPtr edgeProxy)
 
 `pid` Identifier
 
-`edgeProxy` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`edgeProxy` UIntPtr
 
 ### <a id="VM_CAD_Kernel_Body_GetFaceKernelProxy_VM_Identifier_System_UIntPtr__"></a> GetFaceKernelProxy\(Identifier, out UIntPtr\)
 
@@ -74,7 +75,7 @@ public void GetFaceKernelProxy(Identifier nPID, out UIntPtr faceProxy)
 
 `nPID` Identifier
 
-`faceProxy` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`faceProxy` UIntPtr
 
 ### <a id="VM_CAD_Kernel_Body_GetGeomInfo_System_Double_VM_Vector____System_UInt32____System_Boolean_"></a> GetGeomInfo\(double, out Vector\[\], out uint\[\], bool\)
 
@@ -84,17 +85,17 @@ public bool GetGeomInfo(double lengthFactor, out Vector[] position, out uint[] c
 
 #### Parameters
 
-`lengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`lengthFactor` double
 
 `position` Vector\[\]
 
-`connectivities` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`connectivities` uint\[\]
 
-`bCreateFacetDictionary` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCreateFacetDictionary` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_Body_GetVoidCount"></a> GetVoidCount\(\)
 
@@ -104,7 +105,7 @@ public uint GetVoidCount()
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_CAD_Kernel_Body_GetVoidPoints_System_Double_System_UInt32__"></a> GetVoidPoints\(double, out uint\)
 
@@ -114,9 +115,9 @@ public Vector[] GetVoidPoints(double offset, out uint countFailed)
 
 #### Parameters
 
-`offset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offset` double
 
-`countFailed` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`countFailed` uint
 
 #### Returns
 
@@ -130,13 +131,13 @@ public int HasDefect(Action<string> actWriteMessage, bool bDetailedInformation =
 
 #### Parameters
 
-`actWriteMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actWriteMessage` Action<string\>
 
-`bDetailedInformation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDetailedInformation` bool
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Kernel_Body_RemoveUnusedPoints_VM_Vector___System_UInt32___"></a> RemoveUnusedPoints\(Vector\[\], uint\[\]\)
 
@@ -148,7 +149,7 @@ public void RemoveUnusedPoints(Vector[] aryPosTria, uint[] aryConTria)
 
 `aryPosTria` Vector\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
 ### <a id="VM_CAD_Kernel_Body_Repair_VM_CAD_Kernel_SimplifyOption_VM_CAD_Kernel_SimplifyOption_System_Double_System_Action_System_String__System_Boolean_"></a> Repair\(SimplifyOption, SimplifyOption, double, Action<string\>, bool\)
 
@@ -162,15 +163,15 @@ public int Repair(SimplifyOption simplifySurface = SimplifyOption.ForceSimplify,
 
 `simplifyCurve` [SimplifyOption](VM.CAD.Kernel.SimplifyOption.md)
 
-`dDesiredGap` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDesiredGap` double
 
-`actWriteMessage` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`actWriteMessage` Action<string\>
 
-`bDetailedInformation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDetailedInformation` bool
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Kernel_Body_UpdateDisplay"></a> UpdateDisplay\(\)
 

@@ -1,4 +1,5 @@
-#  Class RacewayBuilderForRBEInMeshFree
+# Class RacewayBuilderForRBEInMeshFree
+<a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,14 +7,14 @@ Assembly: VMDGearTrain.dll
 The raceway builder for rbe in meshfree
 
 ```csharp
-public class RacewayBuilderForRBEInMeshFree : RacewayBuilderForRBEInFE, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IGeometryBuilder, IRacewayBuilder, IGTBuilder
+public class RacewayBuilderForRBEInMeshFree : RacewayBuilderForRBEInFE, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity, IGeometryBuilder, IRacewayBuilder, IGTBuilder
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -45,8 +46,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
+IHasReplaceableEntity, 
 [IGeometryBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGeometryBuilder.md), 
 [IRacewayBuilder](VM.Managed.DAFUL.GearTrain.CAD.IRacewayBuilder.md), 
 [IGTBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGTBuilder.md)
@@ -88,6 +90,8 @@ BuilderMulti.GetUnnamedObjectName\(object\),
 BuilderMulti.FindLocal\(string\), 
 BuilderMulti.Contains\(Type\), 
 BuilderMulti.CopyFilePathWhenImportBuilder\(Builder\), 
+BuilderMulti.HasReplaceableEntity\(IObjectBase\), 
+BuilderMulti.ReplaceEntity\(IObjectBase, IObjectBase\), 
 BuilderMulti.FillParameter\(BuilderParamBase\), 
 BuilderMulti.OnDeserializationImpl\(ref List<Child<Builder, ObjectBase.Update\>\>\), 
 BuilderMulti.ReadXmlImpl\(XmlReader\), 
@@ -124,6 +128,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -227,7 +233,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 

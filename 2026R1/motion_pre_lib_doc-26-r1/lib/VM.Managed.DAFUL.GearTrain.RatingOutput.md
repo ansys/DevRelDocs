@@ -1,4 +1,5 @@
-#  Struct RatingOutput
+# Struct RatingOutput
+<a id="VM_Managed_DAFUL_GearTrain_RatingOutput"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +22,7 @@ public double ContactStress
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_FlankSafety"></a> FlankSafety
 
@@ -33,7 +34,7 @@ public double FlankSafety
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_RootSafety"></a> RootSafety
 
@@ -45,7 +46,7 @@ public double RootSafety
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_RootStress"></a> RootStress
 
@@ -57,7 +58,7 @@ public double RootStress
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 

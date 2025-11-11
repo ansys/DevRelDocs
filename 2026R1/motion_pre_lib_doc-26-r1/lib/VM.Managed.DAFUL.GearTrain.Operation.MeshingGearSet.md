@@ -1,4 +1,5 @@
-#  Class MeshingGearSet
+# Class MeshingGearSet
+<a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class MeshingGearSet : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [MeshingGearSet](VM.Managed.DAFUL.GearTrain.Operation.MeshingGearSet.md)
 
@@ -87,7 +88,7 @@ public MeshingGearSet(List<string> lstSelGearSet)
 
 #### Parameters
 
-`lstSelGearSet` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSelGearSet` List<string\>
 
 The selectd gearset list.
 
@@ -105,7 +106,7 @@ public MeshingGearSet(Document doc, List<string> lstSelGearSet)
 
 The document.
 
-`lstSelGearSet` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSelGearSet` List<string\>
 
 The selectd gearset list.
 
@@ -135,7 +136,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet_Result"></a> Result
 
@@ -147,7 +148,7 @@ public Dictionary<string, bool> Result { get; set; }
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Dictionary<string, bool\>
 
 ## Methods
 
@@ -169,7 +170,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

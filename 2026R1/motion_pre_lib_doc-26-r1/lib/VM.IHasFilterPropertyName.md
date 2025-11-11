@@ -1,4 +1,5 @@
-#  Interface IHasFilterPropertyName
+# Interface IHasFilterPropertyName
+<a id="VM_IHasFilterPropertyName"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,5 +24,5 @@ string FilterPropertyName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

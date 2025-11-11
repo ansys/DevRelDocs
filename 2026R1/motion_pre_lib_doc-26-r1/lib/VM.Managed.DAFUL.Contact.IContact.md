@@ -1,4 +1,5 @@
-#  Interface IContact
+# Interface IContact
+<a id="VM_Managed_DAFUL_Contact_IContact"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -55,5 +56,5 @@ Property Property { get; set; }
 
 #### Property Value
 
- Property
+ [Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs)
 

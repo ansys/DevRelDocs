@@ -1,4 +1,5 @@
-#  Class HiddenDocInfo
+# Class HiddenDocInfo
+<a id="VM_Managed_DAFUL_Pre_HiddenDocInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class HiddenDocInfo : AssemblyDocInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md) ← 
 [AssemblyDocInfo](VM.Managed.DAFUL.Pre.AssemblyDocInfo.md) ← 
 [HiddenDocInfo](VM.Managed.DAFUL.Pre.HiddenDocInfo.md)

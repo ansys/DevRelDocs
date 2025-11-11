@@ -1,4 +1,5 @@
-#  Class Properties
+# Class Properties
+<a id="VM_Managed_DAFUL_FE_Property_Properties"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -11,9 +12,9 @@ public class Properties : Container, IObservableObject, IDisposableObject, ILink
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 [Properties](VM.Managed.DAFUL.FE.Property.Properties.md)
@@ -83,7 +84,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -124,7 +125,7 @@ public NamedObjectDictionary<BeamL> BeamLs { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[BeamL](VM.Managed.DAFUL.FE.Property.BeamL.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[BeamL](VM.Managed.DAFUL.FE.Property.BeamL.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_Property_Properties_Beams"></a> Beams
 
@@ -136,7 +137,7 @@ public NamedObjectDictionary<Beam> Beams { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[Beam](VM.Managed.DAFUL.FE.Property.Beam.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[Beam](VM.Managed.DAFUL.FE.Property.Beam.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_Property_Properties_Shells"></a> Shells
 
@@ -148,7 +149,7 @@ public NamedObjectDictionary<Shell> Shells { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[Shell](VM.Managed.DAFUL.FE.Property.Shell.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[Shell](VM.Managed.DAFUL.FE.Property.Shell.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_Property_Properties_Solids"></a> Solids
 
@@ -160,7 +161,7 @@ public NamedObjectDictionary<Solid> Solids { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[Solid](VM.Managed.DAFUL.FE.Property.Solid.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[Solid](VM.Managed.DAFUL.FE.Property.Solid.md)\>
 
 ## Methods
 
@@ -174,7 +175,7 @@ public void Add(object ob)
 
 #### Parameters
 
-`ob` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`ob` object
 
 The property.
 
@@ -188,7 +189,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -208,7 +209,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -230,7 +231,7 @@ public override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -244,7 +245,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
@@ -258,7 +259,7 @@ public void Remove(object ob)
 
 #### Parameters
 
-`ob` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`ob` object
 
 The property.
 
@@ -272,7 +273,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
 

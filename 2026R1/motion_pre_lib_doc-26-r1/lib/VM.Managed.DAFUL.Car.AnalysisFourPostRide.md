@@ -1,4 +1,5 @@
-#  Class AnalysisFourPostRide
+# Class AnalysisFourPostRide
+<a id="VM_Managed_DAFUL_Car_AnalysisFourPostRide"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -11,22 +12,22 @@ public class AnalysisFourPostRide : FourPostAnalysisBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-AnalysisBase ← 
+object ← 
+[AnalysisBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs) ← 
 [FourPostAnalysisBase](VM.Managed.DAFUL.Car.FourPostAnalysisBase.md) ← 
 [AnalysisFourPostRide](VM.Managed.DAFUL.Car.AnalysisFourPostRide.md)
 
 #### Inherited Members
 
 [FourPostAnalysisBase.GetTestRigMotionUSUBArgumentCore\(string, AnalysisFourPostRideInfo, string\[\]\)](VM.Managed.DAFUL.Car.FourPostAnalysisBase.md\#VM\_Managed\_DAFUL\_Car\_FourPostAnalysisBase\_GetTestRigMotionUSUBArgumentCore\_System\_String\_VM\_Managed\_DAFUL\_Car\_AnalysisFourPostRideInfo\_System\_String\_\_\_), 
-AnalysisBase.m\_pLnkContainer, 
-AnalysisBase.SetModified\(\), 
-AnalysisBase.GetTestRigMotionUSUBArgument\(string\[\]\), 
-AnalysisBase.GetConvertUnit\(LengthUnitType\), 
-AnalysisBase.GetGravity\(\), 
-AnalysisBase.GetConvertUnit\(VelocityUnitType\), 
-AnalysisBase.GetConvertUnit\(AccelerationUnitType\), 
-AnalysisBase.IsSim
+[AnalysisBase.m\_pLnkContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.SetModified\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetTestRigMotionUSUBArgument\(string\[\]\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetConvertUnit\(LengthUnitType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetGravity\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetConvertUnit\(VelocityUnitType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetConvertUnit\(AccelerationUnitType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.IsSim](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs)
 
 #### Extension Methods
 
@@ -84,7 +85,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 
@@ -98,11 +99,11 @@ public bool MakeSpline(List<double[]>[] arSpl)
 
 #### Parameters
 
-`arSpl` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>\[\]
+`arSpl` List<double\[\]\>\[\]
 
 The ar SPL.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

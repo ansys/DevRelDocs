@@ -1,4 +1,5 @@
-#  Class MeshFreeConfiguration
+# Class MeshFreeConfiguration
+<a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,11 +12,11 @@ public class MeshFreeConfiguration : SimulationConfigurationExtraBase, IObservab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-SimulationConfigurationExtraBase ← 
+[SimulationConfigurationExtraBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs) ← 
 [MeshFreeConfiguration](VM.Managed.DAFUL.MeshFree.MeshFreeConfiguration.md)
 
 #### Implements
@@ -33,8 +34,8 @@ IVerifiable
 
 #### Inherited Members
 
-SimulationConfigurationExtraBase.GetExtraInformation\(\), 
-SimulationConfigurationExtraBase.IsUse, 
+[SimulationConfigurationExtraBase.GetExtraInformation\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs), 
+[SimulationConfigurationExtraBase.IsUse](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -78,7 +79,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -132,7 +133,7 @@ public bool IsUseAllBodySettings { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration_LevelGroupOfAnalysis"></a> LevelGroupOfAnalysis
 
@@ -158,7 +159,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

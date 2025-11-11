@@ -1,4 +1,5 @@
-#  Class BooleanBase<T\>
+# Class BooleanBase<T\>
+<a id="VM_Managed_DAFUL_Builder_BooleanBase_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class BooleanBase<T> : IBuilder where T : Builder, new()
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<T\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md)
 
 #### Implements
@@ -44,7 +45,7 @@ protected bool m_bSuccess
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_m_bSym"></a> m\_bSym
 
@@ -54,7 +55,7 @@ protected bool m_bSym
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -66,7 +67,7 @@ protected virtual string Argument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_AvailableOperation"></a> AvailableOperation
 
@@ -76,7 +77,7 @@ public bool AvailableOperation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_BuildObject"></a> BuildObject
 
@@ -96,7 +97,7 @@ protected virtual string ExtraArgument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Parameters"></a> Parameters
 
@@ -136,7 +137,7 @@ protected abstract string Type { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -160,7 +161,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `docToAdd` Document
 
-`lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSetPointKeys` List<string\>
 
 ### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_BuildCoreCore_VM_Managed_Document_"></a> BuildCoreCore\(Document\)
 
@@ -194,11 +195,11 @@ protected int CheckSymmetric(Document doc, List<Body> lstBody)
 
 `doc` Document
 
-`lstBody` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
+`lstBody` List<Body\>
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_DeleteToolAllBody"></a> DeleteToolAllBody\(\)
 
@@ -294,7 +295,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -304,9 +305,9 @@ public virtual bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

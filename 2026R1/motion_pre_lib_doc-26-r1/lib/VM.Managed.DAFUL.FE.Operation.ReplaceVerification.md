@@ -1,4 +1,5 @@
-#  Class ReplaceVerification
+# Class ReplaceVerification
+<a id="VM_Managed_DAFUL_FE_Operation_ReplaceVerification"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -11,7 +12,7 @@ public class ReplaceVerification : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ReplaceVerification](VM.Managed.DAFUL.FE.Operation.ReplaceVerification.md)
 
@@ -88,7 +89,7 @@ public ReplaceVerification(Dictionary<string, SortedSet<string>> values)
 
 #### Parameters
 
-`values` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [SortedSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
+`values` Dictionary<string, SortedSet<string\>\>
 
 ## Properties
 
@@ -100,7 +101,7 @@ public bool Continue { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ReplaceVerification_Name"></a> Name
 
@@ -112,7 +113,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

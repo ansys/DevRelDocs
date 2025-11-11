@@ -1,4 +1,5 @@
-#  Struct MultiDialogInfo
+# Struct MultiDialogInfo
+<a id="VM_NX_Dialog_Factory_MultiDialogInfo"></a>
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDIDef.dll  
@@ -17,11 +18,11 @@ public MultiDialogInfo(bool bReadOnly, string strTypeFullName, string strPropert
 
 #### Parameters
 
-`bReadOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReadOnly` bool
 
-`strTypeFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTypeFullName` string
 
-`strPropertyXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyXml` string
 
 ## Fields
 
@@ -33,7 +34,7 @@ public string PropertyXml
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_NX_Dialog_Factory_MultiDialogInfo_ReadOnly"></a> ReadOnly
 
@@ -43,7 +44,7 @@ public bool ReadOnly
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_Factory_MultiDialogInfo_TypeFullName"></a> TypeFullName
 
@@ -53,5 +54,5 @@ public string TypeFullName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

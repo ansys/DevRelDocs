@@ -1,4 +1,5 @@
-#  Class CreateNodalBody
+# Class CreateNodalBody
+<a id="VM_Managed_DAFUL_FE_Operation_CreateNodalBody"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -9,7 +10,7 @@ public class CreateNodalBody : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateNodalBody](VM.Managed.DAFUL.FE.Operation.CreateNodalBody.md)
 
@@ -83,7 +84,7 @@ public CreateNodalBody(List<object> lstInfo)
 
 #### Parameters
 
-`lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`lstInfo` List<object\>
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodalBody__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateNodalBody\(JournalParameter\)
 
@@ -107,7 +108,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -127,5 +128,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

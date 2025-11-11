@@ -1,4 +1,5 @@
-#  Class MeshFreeAnalysisLevelGroup
+# Class MeshFreeAnalysisLevelGroup
+<a id="VM_Managed_MeshFreeAnalysisLevelGroup"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,9 +13,9 @@ public class MeshFreeAnalysisLevelGroup : LinkContainer, IObservableObject, IDis
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [MeshFreeAnalysisLevelGroup](VM.Managed.MeshFreeAnalysisLevelGroup.md)
 
@@ -76,7 +77,7 @@ IEventProvider,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -107,7 +108,7 @@ public MeshFreeAnalysisLevelGroup(uint levelCount)
 
 #### Parameters
 
-`levelCount` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`levelCount` uint
 
 ### <a id="VM_Managed_MeshFreeAnalysisLevelGroup__ctor"></a> MeshFreeAnalysisLevelGroup\(\)
 
@@ -149,7 +150,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_MeshFreeAnalysisLevelGroup_UseLocalRefinement"></a> UseLocalRefinement
 
@@ -161,7 +162,7 @@ public bool UseLocalRefinement { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_MeshFreeAnalysisLevelGroup_Item_System_Int32_"></a> this\[int\]
 

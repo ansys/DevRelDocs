@@ -1,4 +1,5 @@
-#  Class BuilderParamSphere
+# Class BuilderParamSphere
+<a id="VM_CAD_Builders_BuilderParamSphere"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class BuilderParamSphere : BuilderParamColorGeom
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamSphere](VM.CAD.Builders.BuilderParamSphere.md)
@@ -58,5 +59,5 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

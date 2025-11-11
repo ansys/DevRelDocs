@@ -1,4 +1,5 @@
-#  Class CalculateSegmentStiffness.MultiKey
+# Class CalculateSegmentStiffness.MultiKey
+<a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_MultiKey"></a>
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -11,7 +12,7 @@ public class CalculateSegmentStiffness.MultiKey
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CalculateSegmentStiffness.MultiKey](VM.Managed.DAFUL.CPlacingConnector.Operation.CalculateSegmentStiffness.MultiKey.md)
 
 #### Extension Methods
@@ -40,5 +41,5 @@ public List<KeyInfo> ToolKey { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<KeyInfo\>
+ List<[KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)\>
 

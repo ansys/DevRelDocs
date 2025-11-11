@@ -1,4 +1,5 @@
-#  Class DesignParameterInfo
+# Class DesignParameterInfo
+<a id="VM_Managed_DAFUL_DOE_DesignParameterInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -9,9 +10,9 @@ public class DesignParameterInfo : DOEInformationBase, IObservableObject, IDispo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [DOEInformationBase](VM.Managed.DAFUL.DOE.DOEInformationBase.md) ← 
 [DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md)
@@ -79,7 +80,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -116,7 +117,7 @@ public List<DesignParameterCase> Cases { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DesignParameterCase](VM.Managed.DAFUL.DOE.DesignParameterCase.md)\>
+ List<[DesignParameterCase](VM.Managed.DAFUL.DOE.DesignParameterCase.md)\>
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_Current"></a> Current
 
@@ -126,7 +127,7 @@ public double Current { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_TypeOfValue"></a> TypeOfValue
 
@@ -146,7 +147,7 @@ public double[] Values { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo__Lower"></a> \_Lower
 
@@ -156,7 +157,7 @@ public double _Lower { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo__Upper"></a> \_Upper
 
@@ -166,7 +167,7 @@ public double _Upper { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -180,15 +181,15 @@ public static Dictionary<DesignParameterInfo, List<int>> CalculateDesigns(DOETyp
 
 `type` [DOEType](VM.Managed.DAFUL.DOE.DOEType.md)
 
-`lstDP` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md)\>
+`lstDP` List<[DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md)\>
 
-`nLevel` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nLevel` int
 
-`nRun` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRun` int
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>\>
+ Dictionary<[DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md), List<int\>\>
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_ChangeCaseValue_System_Collections_Generic_List_System_Int32__System_UInt32_"></a> ChangeCaseValue\(List<int\>, uint\)
 
@@ -198,9 +199,9 @@ public void ChangeCaseValue(List<int> case_format, uint nLevel)
 
 #### Parameters
 
-`case_format` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`case_format` List<int\>
 
-`nLevel` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nLevel` uint
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_ChangeTargetValue_System_Double_"></a> ChangeTargetValue\(double\)
 
@@ -210,11 +211,11 @@ public bool ChangeTargetValue(double dValue)
 
 #### Parameters
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_GetCaseFormat_System_Collections_Generic_List_System_Int32__"></a> GetCaseFormat\(List<int\>\)
 
@@ -224,11 +225,11 @@ public static List<int> GetCaseFormat(List<int> lst)
 
 #### Parameters
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lst` List<int\>
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ List<int\>
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_GetCases"></a> GetCases\(\)
 
@@ -238,7 +239,7 @@ public List<int> GetCases()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ List<int\>
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_IsSameCases_System_Collections_Generic_List_System_Int32__"></a> IsSameCases\(List<int\>\)
 
@@ -248,11 +249,11 @@ public bool IsSameCases(List<int> lst)
 
 #### Parameters
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lst` List<int\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_IsSameCasesForUserInput_System_Collections_Generic_List_System_Int32__"></a> IsSameCasesForUserInput\(List<int\>\)
 
@@ -262,11 +263,11 @@ public bool IsSameCasesForUserInput(List<int> lst)
 
 #### Parameters
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lst` List<int\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
@@ -278,7 +279,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 

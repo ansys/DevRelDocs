@@ -1,9 +1,10 @@
-#  Interface IDeletable
+# Interface IDeletable
+<a id="VM_IDeletable"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IDeletable
 ```
 
@@ -11,12 +12,11 @@ public interface IDeletable
 
 ### <a id="VM_IDeletable_CanDelete"></a> CanDelete
 
-```python
+```csharp
 bool CanDelete { get; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

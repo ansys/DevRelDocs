@@ -1,4 +1,5 @@
-#  Class AddEntityBase
+# Class AddEntityBase
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class AddEntityBase : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md)
 
 #### Derived
@@ -47,7 +48,7 @@ protected bool m_bSuccess
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -59,7 +60,7 @@ public static bool AllowCheckError { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_BuildObject"></a> BuildObject
 
@@ -79,7 +80,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_Parameters"></a> Parameters
 
@@ -89,7 +90,7 @@ public PickedResult[] Parameters { get; set; }
 
 #### Property Value
 
- PickedResult\[\]
+ [PickedResult](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/PickedResult.cs)\[\]
 
 ## Methods
 
@@ -121,25 +122,25 @@ protected bool CheckMissShaft(string strRP, double dOffset, double dDepth, doubl
 
 #### Parameters
 
-`strRP` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRP` string
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
-`dDepth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDepth` double
 
-`shaftLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`shaftLength` double
 
-`strError` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strError` string
 
-`strCaption` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCaption` string
 
-`dTotalOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTotalOffset` double
 
 `typeRP` ReferencePointType
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_CheckNodesetWithTreatRBE_VM_Managed_DAFUL_HiddenDocument_System_String_"></a> CheckNodesetWithTreatRBE\(HiddenDocument, string\)
 
@@ -149,13 +150,13 @@ protected bool CheckNodesetWithTreatRBE(HiddenDocument hiddenDoc, string strRBE)
 
 #### Parameters
 
-`hiddenDoc` HiddenDocument
+`hiddenDoc` [HiddenDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/HiddenDocument.cs)
 
-`strRBE` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBE` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_CheckOverlap_System_Collections_Generic_List_System_Double____System_Double_System_Double_System_String_System_String_"></a> CheckOverlap\(List<double\[\]\>, double, double, string, string\)
 
@@ -165,19 +166,19 @@ protected bool CheckOverlap(List<double[]> lstOverlap, double dTotalOffset, doub
 
 #### Parameters
 
-`lstOverlap` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`lstOverlap` List<double\[\]\>
 
-`dTotalOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTotalOffset` double
 
-`dDepth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDepth` double
 
-`strError` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strError` string
 
-`strCaption` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCaption` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_CheckSection_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_"></a> CheckSection\(HiddenShaftSetDocument, string\)
 
@@ -187,13 +188,13 @@ protected bool CheckSection(HiddenShaftSetDocument hiddenDoc, string strCaption)
 
 #### Parameters
 
-`hiddenDoc` HiddenShaftSetDocument
+`hiddenDoc` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
-`strCaption` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCaption` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_GetGearInfo_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_GearTrain_GearGeometryInfo__VM_Managed_DAFUL_GearTrain_IGearSet__VM_Managed_DAFUL_GearTrain_WebPropertyValue__"></a> GetGearInfo\(GearTrainDocument, ref GearGeometryInfo, ref IGearSet, ref WebPropertyValue\)
 
@@ -203,13 +204,13 @@ protected void GetGearInfo(GearTrainDocument docGT, ref GearGeometryInfo ggInfo,
 
 #### Parameters
 
-`docGT` GearTrainDocument
+`docGT` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`ggInfo` GearGeometryInfo
+`ggInfo` [GearGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearGeometryInfo.cs)
 
 `gearSet` IGearSet
 
-`webValue` WebPropertyValue
+`webValue` [WebPropertyValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearInfo.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_GetRollingBearingInfo_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo__VM_Managed_DAFUL_GearTrain_Bearing__"></a> GetRollingBearingInfo\(GearTrainDocument, ref RacewayGeometryInfo, ref Bearing\)
 
@@ -219,11 +220,11 @@ protected void GetRollingBearingInfo(GearTrainDocument docGT, ref RacewayGeometr
 
 #### Parameters
 
-`docGT` GearTrainDocument
+`docGT` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`geom_info` RacewayGeometryInfo
+`geom_info` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
-`bearing` Bearing
+`bearing` [Bearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_GetSlidingBearingInfo_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_GearTrain_SBGeometryInfo__VM_Managed_DAFUL_GearTrain_SlidingBearing__VM_Managed_DAFUL_GearTrain_enSBContactType__"></a> GetSlidingBearingInfo\(GearTrainDocument, ref SBGeometryInfo, ref SlidingBearing, ref enSBContactType\)
 
@@ -233,11 +234,11 @@ protected void GetSlidingBearingInfo(GearTrainDocument docGT, ref SBGeometryInfo
 
 #### Parameters
 
-`docGT` GearTrainDocument
+`docGT` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`geom_info` SBGeometryInfo
+`geom_info` [SBGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/SlidingBearing.cs)
 
-`bearing` SlidingBearing
+`bearing` [SlidingBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/SlidingBearing.cs)
 
 `enCType` enSBContactType
 
@@ -251,7 +252,7 @@ protected void MatchGear(IGearSet gearSet, List<IGearBuilder> lstRes)
 
 `gearSet` IGearSet
 
-`lstRes` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IGearBuilder\>
+`lstRes` List<IGearBuilder\>
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_SetClearance_VM_Managed_DAFUL_GearTrain_ClearanceInfo_"></a> SetClearance\(ClearanceInfo\)
 
@@ -261,7 +262,7 @@ protected void SetClearance(ClearanceInfo cInfo)
 
 #### Parameters
 
-`cInfo` ClearanceInfo
+`cInfo` [ClearanceInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryInfoBase.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_SetColor_VM_Managed_CAD_BuilderColor_VM_Managed_CAD_BuilderColorGeom_VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder_"></a> SetColor\(BuilderColor, BuilderColorGeom, AddedWebBuilder\)
 
@@ -275,7 +276,7 @@ protected void SetColor(BuilderColor color, BuilderColorGeom gearsetBuilder, Add
 
 `gearsetBuilder` BuilderColorGeom
 
-`webBuilder` AddedWebBuilder
+`webBuilder` [AddedWebBuilder](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/WebBuilder.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_Success"></a> Success\(\)
 
@@ -285,7 +286,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddEntityBase_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -295,9 +296,9 @@ public virtual bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

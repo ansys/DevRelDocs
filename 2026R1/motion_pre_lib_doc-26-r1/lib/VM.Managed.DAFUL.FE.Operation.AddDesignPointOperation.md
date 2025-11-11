@@ -1,4 +1,5 @@
-#  Class AddDesignPointOperation
+# Class AddDesignPointOperation
+<a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -11,7 +12,7 @@ public class AddDesignPointOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [AddDesignPointOperation](VM.Managed.DAFUL.FE.Operation.AddDesignPointOperation.md)
 
@@ -109,7 +110,7 @@ public DesignPoint CreatedDesignPoint { get; }
 
 #### Property Value
 
- DesignPoint
+ [DesignPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignPoint.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation_Name"></a> Name
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -141,5 +142,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

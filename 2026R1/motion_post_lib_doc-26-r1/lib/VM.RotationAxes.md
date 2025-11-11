@@ -1,11 +1,12 @@
-#  Enum RotationAxes
+# Enum RotationAxes
+<a id="VM_RotationAxes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 Specifies type for rotation axes.
 
-```python
+```csharp
 public enum RotationAxes
 ```
 
@@ -80,7 +81,6 @@ ZYX.
 `ZYZ = 131330` 
 
 ZYZ.
-
 
 
 

@@ -1,4 +1,5 @@
-#  Class TScalar
+# Class TScalar
+<a id="VM_Managed_Symmetric_Force_TScalar"></a>
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFP.dll  
@@ -9,10 +10,10 @@ public class TScalar : Force<TScalar, PropertyTScalar>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<TScalar\> ← 
-Connector<TScalar, PropertyTScalar\> ← 
-Force<TScalar, PropertyTScalar\> ← 
+object ← 
+[Named<TScalar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<TScalar, PropertyTScalar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
+[Force<TScalar, PropertyTScalar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs) ← 
 [TScalar](VM.Managed.Symmetric.Force.TScalar.md)
 
 #### Implements
@@ -21,12 +22,12 @@ ISymmetricUpdater
 
 #### Inherited Members
 
-Force<TScalar, PropertyTScalar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Connector<TScalar, PropertyTScalar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<TScalar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<TScalar\>.Initialize\(ISymmetricManager\), 
-Named<TScalar\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<TScalar\>.SymmetricManager
+[Force<TScalar, PropertyTScalar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs), 
+[Connector<TScalar, PropertyTScalar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<TScalar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TScalar\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TScalar\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TScalar\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

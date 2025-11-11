@@ -1,4 +1,5 @@
-#  Class extension
+# Class extension
+<a id="VM_CAD_Kernel_extension"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class extension
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [extension](VM.CAD.Kernel.extension.md)
 
 #### Extension Methods
@@ -38,5 +39,5 @@ public string value { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

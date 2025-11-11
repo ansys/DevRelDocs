@@ -1,4 +1,5 @@
-#  Class ModifyScenarioOp
+# Class ModifyScenarioOp
+<a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ModifyScenarioOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ModifyScenarioOp](VM.Managed.DAFUL.Operation.ModifyScenarioOp.md)
 
@@ -95,15 +96,15 @@ public ModifyScenarioOp(DocumentAnalysis doc, Scenario scenario, bool bUse)
 
 #### Parameters
 
-`doc` DocumentAnalysis
+`doc` [DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs)
 
 The document.
 
-`scenario` Scenario
+`scenario` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The scenario.
 
-`bUse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUse` bool
 
 The use.
 
@@ -133,7 +134,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp_Name"></a> Name
 
@@ -145,7 +146,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -167,7 +168,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer
 

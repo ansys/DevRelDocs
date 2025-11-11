@@ -1,4 +1,5 @@
-#  Class Module.Command
+# Class Module.Command
+<a id="VM_Managed_DAFUL_Pre_Module_Command"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Module.Command
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Module.Command](VM.Managed.DAFUL.Pre.Module.Command.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Module_Command_Operation"></a> Operation
 
@@ -52,7 +53,7 @@ public string Operation { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Module_Command_Parameters"></a> Parameters
 
@@ -64,7 +65,7 @@ public XmlElement Parameters { get; set; }
 
 #### Property Value
 
- [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+ XmlElement
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Class ExtendedObservableCollection<T\>
+# Class ExtendedObservableCollection<T\>
+<a id="VM_Collections_ExtendedObservableCollection_1"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -13,9 +14,9 @@ public class ExtendedObservableCollection<T> : ObservableCollection<T>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Collection<T\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ← 
-[ObservableCollection<T\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1) ← 
+object ← 
+Collection<T\> ← 
+ObservableCollection<T\> ← 
 [ExtendedObservableCollection<T\>](VM.Collections.ExtendedObservableCollection\-1.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public ExtendedObservableCollection(bool isResetToRemove = false)
 
 #### Parameters
 
-`isResetToRemove` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isResetToRemove` bool
 
 ## Properties
 
@@ -46,7 +47,7 @@ public bool IsResetToRemove { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -58,7 +59,7 @@ public void AddRange(IEnumerable<T> collection)
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ### <a id="VM_Collections_ExtendedObservableCollection_1_ClearItems"></a> ClearItems\(\)
 
@@ -74,7 +75,7 @@ protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
 
 #### Parameters
 
-`e` [NotifyCollectionChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs)
+`e` NotifyCollectionChangedEventArgs
 
 ### <a id="VM_Collections_ExtendedObservableCollection_1_SuspendNotifications"></a> SuspendNotifications\(\)
 
@@ -84,7 +85,7 @@ public IDisposable SuspendNotifications()
 
 #### Returns
 
- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+ IDisposable
 
 ### <a id="VM_Collections_ExtendedObservableCollection_1_CollectionChanged"></a> CollectionChanged
 
@@ -94,5 +95,5 @@ public override event NotifyCollectionChangedEventHandler CollectionChanged
 
 #### Event Type
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+ NotifyCollectionChangedEventHandler
 

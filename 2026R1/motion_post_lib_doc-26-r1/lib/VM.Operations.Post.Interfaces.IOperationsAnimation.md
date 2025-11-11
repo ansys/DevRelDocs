@@ -1,30 +1,33 @@
-#  Interface IOperationsAnimation
+# Interface IOperationsAnimation
+<a id="VM_Operations_Post_Interfaces_IOperationsAnimation"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
-Interface for Animation View related operations.
+Interface for Animation View.
 
-```python
-public interface IOperationsAnimation : IView, IOperationsBase
+```csharp
+public interface IOperationsAnimation : IView
 ```
 
 #### Implements
 
-[IView](VM.Operations.Post.Interfaces.IView.md), 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+[IView](VM.Operations.Post.Interfaces.IView.md)
 
 ## Examples
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsAnimation.py
+```python
+# IOperationsAnimation.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -38,9 +41,12 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -69,22 +75,46 @@ if viewCount > 0 :
     animationView.TextColorStateInfo = Colors.Blue
 
     # Creating a CoordinateSystem
+    # Name - Set the name of the instance.
+    # ParentInfo - Specifies The path of an parent entity.
     animationview.CreateCoordinateSystem("Microphone", "Ground")
 
+    # Get instance of entity
+    # The GetViewModelByName method retrieves the target by its name.
     microphone = animationview.GetViewModelByName("Microphone")
     microphone.TransformationOffsetPosition = Vector(0,300,0)
 
+    # Get instance of entity
+    # The GetViewModelByName method retrieves the target by its name.
+    febody = animationview.GetViewModelByName("FEBody_01")
+
     bodynames = List[str](1)
-    bodynames.Add(r'FEBody_01')
+    bodynames.Add(febody.FullName)
     microphoneNames = List[str](1)
-    microphoneNames.Add(r'Microphone')
+    microphoneNames.Add(microphone.FullName)
 
     # Creating a SoundPressure
     animationview.CreateSoundPressure(bodynames, microphoneNames, 10.0, 100.0, 3.0, 1.21E-09, 343000.0, 2000.0, 1, 10, False)
 
+    # result_file_path - Get the document from the result file path.
     document = applicationHandler.GetDocument(result_file_path)
+
+    # This retrieves the analysis result from the document.
+    # Types of Analysis Results
+    # - Dynamics
+    # - Eigenvalue
+    # - Statics
     dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
     dynamic_analysis.SetAnimationFrame(11)
+
+    # Hides all entities except the specified ones.
+    animationview.HideOthers(febody.FullName)
+
+    # Fit the view to the current selection.
+    animationview.Fit()
+
+    # Show all entities in the view.
+    animationView.ShowAll()
 
     # Following Camera
     # Translation
@@ -145,14 +175,20 @@ if viewCount > 0 :
     
     animationview.SetViewSpec(viewSpec)
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
+
+## Remarks
+
+This interface provides functionalities for managing and interacting with animation views.
+It includes properties and methods to control the appearance, behavior, and data associated with animation views.
 
 ## Properties
 
@@ -160,7 +196,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets the type of analysis result for the currently created animation view.
 
-```python
+```csharp
 AnalysisResultType AnalysisResultType { get; }
 ```
 
@@ -182,13 +218,13 @@ The available options are:
 
 Gets or sets the bottom color of the view's background.
 
-```python
+```csharp
 Color BottomColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -203,13 +239,13 @@ In the UI, this property is represented under the "Background" category with the
 
 Gets the file path that contains the information of the simulation results.
 
-```python
+```csharp
 string DocumentFilePath { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -224,13 +260,13 @@ The file path is read-only and is determined by the simulation process.
 
 Gets or sets a value that activates the following camera.
 
-```python
+```csharp
 bool IsFollowingCameraActive { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -246,13 +282,13 @@ If set to <code>false</code>, the camera will remain stationary and will not tra
 
 Gets or sets a value that determines whether the component follows the orientation of the target along the X-axis.
 
-```python
+```csharp
 bool IsFollowingRotXAxis { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -268,13 +304,13 @@ When set to <code>false</code>, the component will not follow the X-axis rotatio
 
 Gets or sets a value that determines whether the component follows the orientation of the target along the Y-axis.
 
-```python
+```csharp
 bool IsFollowingRotYAxis { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -290,13 +326,13 @@ When set to <code>false</code>, the component will not follow the Y-axis rotatio
 
 Gets or sets a value that determines whether the component follows the orientation of the target along the Z-axis.
 
-```python
+```csharp
 bool IsFollowingRotZAxis { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -312,13 +348,13 @@ When set to <code>false</code>, the component will not follow the Z-axis rotatio
 
 Gets or sets a value that determines whether the component follows the position of the target along the X-axis.
 
-```python
+```csharp
 bool IsFollowingXAxis { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -334,13 +370,13 @@ When set to <code>false</code>, the component will not follow the X position of 
 
 Gets or sets a value that determines whether the component follows the position of the target along the Y-axis.
 
-```python
+```csharp
 bool IsFollowingYAxis { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -356,13 +392,13 @@ When set to <code>false</code>, the component will not follow the Y position of 
 
 Gets or sets a value that determines whether the component follows the position of the target along the Z-axis.
 
-```python
+```csharp
 bool IsFollowingZAxis { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -378,13 +414,13 @@ When set to <code>false</code>, the component will not follow the Z position of 
 
 Gets or sets a value indicating whether the logo is visible.
 
-```python
+```csharp
 bool IsVisibleLogo { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -399,13 +435,13 @@ In the UI, this property is represented under the "Logo" category with the prope
 
 Gets or sets a value indicating whether the navigation cube is visible.
 
-```python
+```csharp
 bool IsVisibleNavigationCube { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -420,13 +456,13 @@ In the UI, this property is represented under the "Navigation Cube" category wit
 
 Gets or sets a value indicating whether the state information is visible.
 
-```python
+```csharp
 bool IsVisibleStateInfo { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -441,13 +477,13 @@ In the UI, this property is represented under the "StateInfo" category with the 
 
 Gets or sets the height of the logo image.
 
-```python
+```csharp
 uint LogoHeight { get; set; }
 ```
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 #### Examples
 
@@ -462,13 +498,13 @@ In the UI, this property is represented under the "Logo" category with the prope
 
 Gets or sets the file path of the logo image.
 
-```python
+```csharp
 string LogoPath { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -483,7 +519,7 @@ In the UI, this property is represented under the "Logo" category with the prope
 
 Gets or sets the position of the logo.
 
-```python
+```csharp
 Layout LogoPosition { get; set; }
 ```
 
@@ -505,13 +541,13 @@ In the UI, this property is represented under the "Logo" category with the prope
 
 Gets or sets the width of the logo image.
 
-```python
+```csharp
 uint LogoWidth { get; set; }
 ```
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 #### Examples
 
@@ -526,7 +562,7 @@ In the UI, this property is represented under the "Logo" category with the prope
 
 Gets or sets the position of the navigation cube.
 
-```python
+```csharp
 Layout NavigationCubePosition { get; set; }
 ```
 
@@ -548,13 +584,13 @@ In the UI, this property is represented under the "Navigation Cube" category wit
 
 Gets or sets the opacity of the logo.
 
-```python
+```csharp
 double Opacity { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -569,7 +605,7 @@ In the UI, this property is represented under the "Logo" category with the prope
 
 Gets or sets the position of the state information.
 
-```python
+```csharp
 Layout StateInfoPosition { get; set; }
 ```
 
@@ -591,13 +627,13 @@ In the UI, this property is represented under the "StateInfo" category with the 
 
 Gets or sets the font color of the state information.
 
-```python
+```csharp
 Color TextColorStateInfo { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -612,13 +648,13 @@ In the UI, this property is represented under the "StateInfo" category with the 
 
 Gets or sets the top color of the view's background.
 
-```python
+```csharp
 Color TopColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -633,7 +669,7 @@ In the UI, this property is represented under the "Background" category with the
 
 Gets or sets the transformation type that determines the following directions of the camera.
 
-```python
+```csharp
 TransformationType TransformationType { get; set; }
 ```
 
@@ -657,17 +693,17 @@ The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.Transformatio
 
 Creates a coordinate system for analyzing a position on a body.
 
-```python
+```csharp
 IOperationsCSYSViewModel CreateCoordinateSystem(string name, string parentInfo = "Ground")
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the coordinate system to be created.
 
-`parentInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`parentInfo` string
 
 The parent entity for the coordinate system.
 Define the parent body or node in coordinate system.
@@ -692,59 +728,59 @@ If the parent entity is not specified, the coordinate system is assigned to the 
 
 Creates sound pressure data based on the Rayleigh Integral for analyzing sound pressure generated by vibrations on the system surface.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateSoundPressure(IList<string> bodyNames, IList<string> coordinateNames, double coarseningRate, double maxAreaFactor, double maxAspectRatio, double airDensity, double soundVelocity, double frequency, int start, int end, bool isDeicbelScale)
 ```
 
 #### Parameters
 
-`bodyNames` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`bodyNames` IList<string\>
 
 The list of entity names whose surfaces generate the sound pressure.
 
-`coordinateNames` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`coordinateNames` IList<string\>
 
 The list of coordinate system names used in the analysis.
 
-`coarseningRate` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`coarseningRate` double
 
 Percentage of the number of nodes remaining in the sampling result with respect to the initial number of nodes.
 
-`maxAreaFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`maxAreaFactor` double
 
 Maximum allowable area of each element generated by the sampling result. It sets the condition that the area of each element cannot be greater than (Max Area Factor) * (Average element area).
 
-`maxAspectRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`maxAspectRatio` double
 
 Maximum allowable aspect ratio of each element generated by the sampling result.
 
-`airDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`airDensity` double
 
 Density of the air.
 
-`soundVelocity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`soundVelocity` double
 
 Speed of sound in air.
 
-`frequency` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frequency` double
 
 The number of analysis results per second is determined as 10*analysis frequency.
 
-`start` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`start` int
 
 The start frame for the time range to be analyzed.
 
-`end` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`end` int
 
 The end frame for the time range to be analyzed.
 
-`isDeicbelScale` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isDeicbelScale` bool
 
 The decibel scale.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of sound pressure data series.
 
@@ -756,17 +792,35 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 
 This method uses the Rayleigh Integral to analyze the sound pressure generated by the vibrations on the system surface.
 
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_Fit"></a> Fit\(\)
+
+Adjusts the view to fit all visible entities within the current viewport.
+
+```csharp
+void Fit()
+```
+
+#### Examples
+
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
+
+#### Remarks
+
+The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.Fit" data-throw-if-not-resolved="false"></xref> method ensures that all visible entities are scaled and positioned
+to fit within the current viewport. This is useful for resetting the view to include
+all entities after zooming or panning.
+
 ### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_GetViewModelByName_System_String_"></a> GetViewModelByName\(string\)
 
 Retrieves an instance of an entity based on the provided name.
 
-```python
+```csharp
 IEntityBaseViewModel GetViewModelByName(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the entity to be retrieved.
 
@@ -790,7 +844,7 @@ If no entity with the specified name is found, the method returns <code>null</co
 
 Retrieves an array of view specifications corresponding to the number of loaded animation frames.
 
-```python
+```csharp
 IViewSpec[] GetViewSpecs()
 ```
 
@@ -811,11 +865,57 @@ This method returns an array where each element corresponds to a specific frame 
 allowing for the configuration of the animation camera's position for each frame. If no frames are loaded,
 the method returns <code>null</code>.
 
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_HideOthers_System_String___"></a> HideOthers\(params string\[\]\)
+
+Hides all entities except the specified ones.
+
+```csharp
+void HideOthers(params string[] names)
+```
+
+#### Parameters
+
+`names` string\[\]
+
+An array of entity names to remain visible. All other entities will be hidden.
+
+#### Examples
+
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
+
+#### Remarks
+
+The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.HideOthers(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref> method is used to hide all entities in the current view except for those specified in the <code class="paramref">names</code> parameter.
+This is useful for focusing on specific entities while temporarily hiding others.
+
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_HideOthers_System_Guid___"></a> HideOthers\(params Guid\[\]\)
+
+Hides all entities except the specified ones.
+
+```csharp
+void HideOthers(params Guid[] entityIDs)
+```
+
+#### Parameters
+
+`entityIDs` Guid\[\]
+
+An array of entity ids to remain visible. All other entities will be hidden.
+
+#### Examples
+
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
+
+#### Remarks
+
+The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.HideOthers(System.Guid%5b%5d)" data-throw-if-not-resolved="false"></xref> method is used to hide all entities in the current view except for those specified in the <code class="paramref">entityIDs</code> parameter.
+This is useful for focusing on specific entities while temporarily hiding others.
+
 ### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_PlayAnimation"></a> PlayAnimation\(\)
 
 Plays the loaded animation frames.
 
-```python
+```csharp
 void PlayAnimation()
 ```
 
@@ -832,13 +932,13 @@ the method should handle this scenario appropriately, such as by displaying an e
 
 Records the loaded animation frames to a file.
 
-```python
+```csharp
 void RecordingAnimation(string filePath, RecordingType recordingType, RecordingRangeType rangeType, int frameRate = 10, IViewSpec[] viewSpecs = null)
 ```
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The file path where the recording will be saved.
 
@@ -852,7 +952,7 @@ The range of the recording. Supported options are <xref href="VM.Models.Post.Rec
 for the currently active view, and <xref href="VM.Models.Post.RecordingRangeType.ActiveGroup" data-throw-if-not-resolved="false"></xref>
 for the page containing the active view.
 
-`frameRate` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`frameRate` int
 
 The frame rate of the recording. The default value is 10 frames per second.
 
@@ -875,13 +975,13 @@ and custom camera positions for each frame can be set through the <code class="p
 
 Sets the target body for the camera. The camera's position and orientation will follow those of the target body.
 
-```python
+```csharp
 void SetFollowingCameraTarget(string targetName)
 ```
 
 #### Parameters
 
-`targetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetName` string
 
 The names of the target entity. The target entities are Body, Marker, Node.
 
@@ -899,7 +999,7 @@ If the target body is a ResultMarker and its <code>IsVisible</code> property is 
 
 Updates the camera information for the current animation frame position.
 
-```python
+```csharp
 void SetViewSpec(IViewSpec viewSpec)
 ```
 
@@ -917,11 +1017,28 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 
 This method updates the camera information for the current position in the animation frames using the provided <code class="paramref">viewSpec</code>.
 
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_ShowAll"></a> ShowAll\(\)
+
+Makes all entities visible in the current view.
+
+```csharp
+void ShowAll()
+```
+
+#### Examples
+
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
+
+#### Remarks
+
+The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.ShowAll" data-throw-if-not-resolved="false"></xref> method is used to make all entities in the current view visible.
+This is useful for resetting the view to display all entities after some have been hidden.
+
 ### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_StopAnimation"></a> StopAnimation\(\)
 
 Stops the currently playing animation.
 
-```python
+```csharp
 void StopAnimation()
 ```
 
@@ -933,5 +1050,4 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 
 This method stops the playback of the animation frames that are currently playing. If no animation is currently playing,
 the method should handle this scenario appropriately, such as by displaying an error message or logging the issue.
-
 

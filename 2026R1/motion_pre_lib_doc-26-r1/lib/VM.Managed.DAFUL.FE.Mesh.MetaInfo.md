@@ -1,4 +1,5 @@
-#  Struct Mesh.MetaInfo
+# Struct Mesh.MetaInfo
+<a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -21,19 +22,19 @@ public MetaInfo(string strName, uint nVer, string strPrefix, Type type)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name of MetaInfo.
 
-`nVer` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nVer` uint
 
 The version.
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The prefix.
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
@@ -49,7 +50,7 @@ public ConstructorInfo m_csi
 
 #### Field Value
 
- [ConstructorInfo](https://learn.microsoft.com/dotnet/api/system.reflection.constructorinfo)
+ ConstructorInfo
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo_m_nVersion"></a> m\_nVersion
 
@@ -61,7 +62,7 @@ public uint m_nVersion
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo_m_strName"></a> m\_strName
 
@@ -73,7 +74,7 @@ public string m_strName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo_m_strNewNamePrefix"></a> m\_strNewNamePrefix
 
@@ -85,5 +86,5 @@ public string m_strNewNamePrefix
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -1,4 +1,5 @@
-#  Enum ContactAnalysis.AnalysisType
+# Enum ContactAnalysis.AnalysisType
+<a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_AnalysisType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

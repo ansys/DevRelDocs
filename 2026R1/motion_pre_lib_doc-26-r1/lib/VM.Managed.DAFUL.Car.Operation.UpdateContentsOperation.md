@@ -1,4 +1,5 @@
-#  Class UpdateContentsOperation
+# Class UpdateContentsOperation
+<a id="VM_Managed_DAFUL_Car_Operation_UpdateContentsOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class UpdateContentsOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateContentsOperation](VM.Managed.DAFUL.Car.Operation.UpdateContentsOperation.md)
 
@@ -85,9 +86,9 @@ public UpdateContentsOperation(string strContents, SymmetricManager symMgr, Obje
 
 #### Parameters
 
-`strContents` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strContents` string
 
-`symMgr` SymmetricManager
+`symMgr` [SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SymmetricManager.cs)
 
 `obj` ObjectBase
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,5 +134,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

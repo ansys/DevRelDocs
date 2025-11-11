@@ -1,4 +1,5 @@
-#  Class RadialInternalClearance
+# Class RadialInternalClearance
+<a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class RadialInternalClearance
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RadialInternalClearance](VM.Managed.DAFUL.GearTrain.RadialInternalClearance.md)
 
 #### Extension Methods
@@ -32,13 +33,13 @@ public static double GetC2(double dBore)
 
 #### Parameters
 
-`dBore` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBore` double
 
 The bore value.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetC3_System_Double_"></a> GetC3\(double\)
 
@@ -50,13 +51,13 @@ public static double GetC3(double dBore)
 
 #### Parameters
 
-`dBore` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBore` double
 
 The bore value.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetC4_System_Double_"></a> GetC4\(double\)
 
@@ -68,13 +69,13 @@ public static double GetC4(double dBore)
 
 #### Parameters
 
-`dBore` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBore` double
 
 The bore value.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetC5_System_Double_"></a> GetC5\(double\)
 
@@ -86,13 +87,13 @@ public static double GetC5(double dBore)
 
 #### Parameters
 
-`dBore` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBore` double
 
 The bore value.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetCN_System_Double_"></a> GetCN\(double\)
 
@@ -104,11 +105,11 @@ public static double GetCN(double dBore)
 
 #### Parameters
 
-`dBore` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBore` double
 
 The bore value.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

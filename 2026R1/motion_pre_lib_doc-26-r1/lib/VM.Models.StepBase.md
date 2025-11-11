@@ -1,4 +1,5 @@
-#  Class StepBase
+# Class StepBase
+<a id="VM_Models_StepBase"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -9,7 +10,7 @@ public abstract class StepBase : ProjectObjectBase, IObservableObject, IStep, IP
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
 [ProjectObjectBase](VM.Models.ProjectObjectBase.md) ← 
 [StepBase](VM.Models.StepBase.md)
@@ -73,7 +74,7 @@ public ICommand DefaultCommand { get; protected set; }
 
 #### Property Value
 
- [ICommand](https://learn.microsoft.com/dotnet/api/system.windows.input.icommand)
+ ICommand
 
 ### <a id="VM_Models_StepBase_FilePath"></a> FilePath
 
@@ -83,7 +84,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_StepBase_IsSelected"></a> IsSelected
 
@@ -94,7 +95,7 @@ public bool IsSelected { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_StepBase_Items"></a> Items
 
@@ -104,7 +105,7 @@ public IEnumerable<IStepItem> Items { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>
+ IEnumerable<[IStepItem](VM.Models.IStepItem.md)\>
 
 ### <a id="VM_Models_StepBase_Parent"></a> Parent
 
@@ -224,7 +225,7 @@ public virtual bool CanRelation(IStep source)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_StepBase_ContainsTarget_VM_Models_IStep_"></a> ContainsTarget\(IStep\)
 
@@ -238,7 +239,7 @@ public bool ContainsTarget(IStep item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_StepBase_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
@@ -254,7 +255,7 @@ public override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 ### <a id="VM_Models_StepBase_RemoveTarget_VM_Models_IStep_"></a> RemoveTarget\(IStep\)
 

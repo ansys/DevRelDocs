@@ -1,4 +1,5 @@
-#  Interface IPointThreePointsCircleCenter
+# Interface IPointThreePointsCircleCenter
+<a id="VM_Models_Pre_IPointThreePointsCircleCenter"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

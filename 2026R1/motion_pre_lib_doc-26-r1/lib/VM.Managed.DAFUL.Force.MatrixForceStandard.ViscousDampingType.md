@@ -1,4 +1,5 @@
-#  Enum MatrixForceStandard.ViscousDampingType
+# Enum MatrixForceStandard.ViscousDampingType
+<a id="VM_Managed_DAFUL_Force_MatrixForceStandard_ViscousDampingType"></a>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  

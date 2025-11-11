@@ -1,4 +1,5 @@
-#  Class ExtractFaceSet
+# Class ExtractFaceSet
+<a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSet"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -9,7 +10,7 @@ public class ExtractFaceSet : ExtractFaceSetBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExtractFaceSetBase](VM.Managed.DAFUL.Builder.Contact.ExtractFaceSetBase.md) ← 
 [ExtractFaceSet](VM.Managed.DAFUL.Builder.Contact.ExtractFaceSet.md)
 

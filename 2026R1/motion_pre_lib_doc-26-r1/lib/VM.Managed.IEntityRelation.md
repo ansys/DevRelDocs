@@ -1,4 +1,5 @@
-#  Interface IEntityRelation
+# Interface IEntityRelation
+<a id="VM_Managed_IEntityRelation"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -25,5 +26,5 @@ IEnumerable<ObjectBase> GetChildList()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ IEnumerable<[ObjectBase](VM.Managed.ObjectBase.md)\>
 

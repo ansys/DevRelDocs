@@ -1,4 +1,5 @@
-#  Class Expression
+# Class Expression
+<a id="VM_Managed_Expression"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class Expression : LinkContainer, IObservableObject, IDisposableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Expression](VM.Managed.Expression.md)
 
@@ -84,7 +85,7 @@ IExpression
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -121,7 +122,7 @@ public static bool g_bSkipUpdate
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Expression_m_dicReferenceObject"></a> m\_dicReferenceObject
 
@@ -132,7 +133,7 @@ protected Dictionary<UIntPtr, Link<INamed, LinkContainer.Update, LinkContainer.D
 
 #### Field Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr), [Link](VM.Managed.Link\-4.md)<[INamed](VM.Managed.INamed.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>\>
+ Dictionary<UIntPtr, [Link](VM.Managed.Link\-4.md)<[INamed](VM.Managed.INamed.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>\>
 
 ### <a id="VM_Managed_Expression_m_linkCollectionReferenceObject"></a> m\_linkCollectionReferenceObject
 
@@ -153,7 +154,7 @@ protected List<Link<INamed, LinkContainer.Update, LinkContainer.Destroy, LinkCon
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Link](VM.Managed.Link\-4.md)<[INamed](VM.Managed.INamed.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>\>
+ List<[Link](VM.Managed.Link\-4.md)<[INamed](VM.Managed.INamed.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>\>
 
 ### <a id="VM_Managed_Expression_m_pExpressionHandler"></a> m\_pExpressionHandler
 
@@ -163,7 +164,7 @@ protected static ExpressionHandler* m_pExpressionHandler
 
 #### Field Value
 
- [ExpressionHandler](ExpressionHandler.md)\*
+ ExpressionHandler\*
 
 ### <a id="VM_Managed_Expression_m_strValue"></a> m\_strValue
 
@@ -173,7 +174,7 @@ protected string m_strValue
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -187,7 +188,7 @@ public virtual string String { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -201,13 +202,13 @@ public bool AddReferenceObject(UIntPtr ptrEntityKey)
 
 #### Parameters
 
-`ptrEntityKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`ptrEntityKey` UIntPtr
 
 The reference object key.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if added object; already contained, <code>false</code>.
 
@@ -229,13 +230,13 @@ protected virtual bool ConvertToValue(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The string.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Expression_GetNumericValue"></a> GetNumericValue\(\)
 
@@ -247,7 +248,7 @@ protected virtual double GetNumericValue()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Expression_Initialize"></a> Initialize\(\)
 
@@ -267,7 +268,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -281,7 +282,7 @@ protected virtual void ParseToValue(char* wstrValue)
 
 #### Parameters
 
-`wstrValue` [char](https://learn.microsoft.com/dotnet/api/system.char)\*
+`wstrValue` char\*
 
 The string.
 
@@ -295,7 +296,7 @@ protected virtual void SetDefaultString(ref string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value holds default string.
 
@@ -317,7 +318,7 @@ public virtual void UpdateByReferenceObject(object obj, LinkEventArgs arg)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The reference object.
 

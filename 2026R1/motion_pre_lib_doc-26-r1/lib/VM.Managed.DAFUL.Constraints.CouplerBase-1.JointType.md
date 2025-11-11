@@ -1,4 +1,5 @@
-#  Enum CouplerBase<TProperty\>.JointType
+# Enum CouplerBase<TProperty\>.JointType
+<a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_JointType"></a>
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  

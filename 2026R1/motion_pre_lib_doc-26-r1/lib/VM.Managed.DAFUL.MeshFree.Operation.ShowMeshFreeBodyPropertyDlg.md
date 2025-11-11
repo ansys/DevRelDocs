@@ -1,4 +1,5 @@
-#  Class ShowMeshFreeBodyPropertyDlg
+# Class ShowMeshFreeBodyPropertyDlg
+<a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeBodyPropertyDlg"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -11,7 +12,7 @@ public class ShowMeshFreeBodyPropertyDlg : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ShowMeshFreeBodyPropertyDlg](VM.Managed.DAFUL.MeshFree.Operation.ShowMeshFreeBodyPropertyDlg.md)
 
@@ -99,7 +100,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

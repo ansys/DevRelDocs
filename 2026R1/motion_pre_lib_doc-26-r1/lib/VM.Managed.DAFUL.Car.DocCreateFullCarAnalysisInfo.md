@@ -1,4 +1,5 @@
-#  Class DocCreateFullCarAnalysisInfo
+# Class DocCreateFullCarAnalysisInfo
+<a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class DocCreateFullCarAnalysisInfo : DocCreateFullCarAnalysisInfoExceptWh
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocFromTemplateInfo ← 
 [DocCreateCarAnalysisInfo](VM.Managed.DAFUL.Car.DocCreateCarAnalysisInfo.md) ← 
@@ -71,7 +72,7 @@ public string FrontWheelPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfo_RearWheelPath"></a> RearWheelPath
 
@@ -83,5 +84,5 @@ public string RearWheelPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

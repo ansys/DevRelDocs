@@ -1,4 +1,5 @@
-#  Class VectorBase
+# Class VectorBase
+<a id="VM_Managed_VectorBase"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class VectorBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [VectorBase](VM.Managed.VectorBase.md)
 
 #### Derived
@@ -44,7 +45,7 @@ public abstract double Magnitude { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_VectorBase_X"></a> X
 
@@ -56,7 +57,7 @@ public abstract double X { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_VectorBase_Y"></a> Y
 
@@ -68,7 +69,7 @@ public abstract double Y { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_VectorBase_Z"></a> Z
 
@@ -80,7 +81,7 @@ public abstract double Z { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_VectorBase_Item_System_UInt32_"></a> this\[uint\]
 
@@ -90,7 +91,7 @@ public abstract double this[uint n] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_VectorBase_Item_VM_Coordinate_"></a> this\[Coordinate\]
 
@@ -100,7 +101,7 @@ public abstract double this[Coordinate n] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -114,7 +115,7 @@ public abstract object Clone()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The clone.
 
@@ -154,7 +155,7 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 Result of product
 
@@ -166,11 +167,11 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_VectorBase_GetArray"></a> GetArray\(\)
 
@@ -182,7 +183,7 @@ public abstract double[] GetArray()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 The array.
 
@@ -202,7 +203,7 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The distance
 
@@ -216,9 +217,9 @@ public virtual void GetObjectData(SerializationInfo A_0, StreamingContext A_1)
 
 #### Parameters
 
-`A_0` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`A_0` SerializationInfo
 
-`A_1` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`A_1` StreamingContext
 
 ### <a id="VM_Managed_VectorBase_GetOrthoVector_VM_Managed_VectorBase_"></a> GetOrthoVector\(VectorBase\)
 
@@ -272,15 +273,15 @@ public abstract void Set(double dX, double dY, double dZ)
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y.
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z.
 
@@ -294,7 +295,7 @@ public abstract void Set(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The arr.
 
@@ -320,7 +321,7 @@ public override string ToString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_VectorBase_op_AdditionAssignment_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> op\_AdditionAssignment\(VectorBase, VectorBase\)
 
@@ -348,7 +349,7 @@ public static VectorBase op_DivisionAssignment(VectorBase vec1, double dVal)
 
 `vec1` [VectorBase](VM.Managed.VectorBase.md)
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 #### Returns
 
@@ -364,7 +365,7 @@ public static VectorBase op_MultiplicationAssignment(VectorBase vec1, double dVa
 
 `vec1` [VectorBase](VM.Managed.VectorBase.md)
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 #### Returns
 
@@ -430,7 +431,7 @@ public static Vector operator /(VectorBase vec1, double dVal)
 
 `vec1` [VectorBase](VM.Managed.VectorBase.md)
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 #### Returns
 
@@ -450,7 +451,7 @@ public static bool operator ==(VectorBase vec1, VectorBase vec2)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_VectorBase_op_Implicit_VM_Vector__VM_Managed_VectorBase"></a> implicit operator VectorBase\(Vector\)
 
@@ -494,7 +495,7 @@ public static bool operator !=(VectorBase vec1, VectorBase vec2)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_VectorBase_op_Multiply_VM_Managed_VectorBase_System_Double_"></a> operator \*\(VectorBase, double\)
 
@@ -506,7 +507,7 @@ public static Vector operator *(VectorBase vec1, double dVal)
 
 `vec1` [VectorBase](VM.Managed.VectorBase.md)
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 #### Returns
 

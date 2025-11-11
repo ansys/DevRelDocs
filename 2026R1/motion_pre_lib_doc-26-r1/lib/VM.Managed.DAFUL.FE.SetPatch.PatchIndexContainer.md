@@ -1,4 +1,5 @@
-#  Class SetPatch.PatchIndexContainer
+# Class SetPatch.PatchIndexContainer
+<a id="VM_Managed_DAFUL_FE_SetPatch_PatchIndexContainer"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,9 +12,9 @@ public sealed class SetPatch.PatchIndexContainer : LinkContainer, IObservableObj
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [SetPatch.PatchIndexContainer](VM.Managed.DAFUL.FE.SetPatch.PatchIndexContainer.md)
 
@@ -83,7 +84,7 @@ public uint[] PatchIndexArray { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ## Methods
 

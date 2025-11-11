@@ -1,4 +1,5 @@
-#  Class NameToEntityWhenRenameExeption
+# Class NameToEntityWhenRenameExeption
+<a id="VM_Managed_NameToEntityWhenRenameExeption"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class NameToEntityWhenRenameExeption : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [NameToEntityWhenRenameExeption](VM.Managed.NameToEntityWhenRenameExeption.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public NameToEntityWhenRenameExeption(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The error message.
 

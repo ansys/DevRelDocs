@@ -1,4 +1,5 @@
-#  Interface IHasOutputChannel
+# Interface IHasOutputChannel
+<a id="VM_Managed_DAFUL_Car_IHasOutputChannel"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -41,11 +42,11 @@ List<int> GetTotalIndex(int[] input)
 
 #### Parameters
 
-`input` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`input` int\[\]
 
 The input.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ List<int\>
 

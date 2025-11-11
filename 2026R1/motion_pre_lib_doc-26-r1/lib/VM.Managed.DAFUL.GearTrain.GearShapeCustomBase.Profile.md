@@ -1,4 +1,5 @@
-#  Class GearShapeCustomBase.Profile
+# Class GearShapeCustomBase.Profile
+<a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class GearShapeCustomBase.Profile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearShapeCustomBase.Profile](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public double Distance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_PointCount"></a> PointCount
 
@@ -54,7 +55,7 @@ public int PointCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_PointList"></a> PointList
 
@@ -66,7 +67,7 @@ public List<GearShapeCustomBase.Point2D> PointList { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Point2D](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Point2D.md)\>
+ List<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Point2D](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Point2D.md)\>
 
 ## Methods
 
@@ -86,7 +87,7 @@ public bool Equals(GearShapeCustomBase.Profile other)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two objects are equal. Otherwise false.</p>
 
@@ -104,13 +105,13 @@ public static List<GearShapeCustomBase.Point2D> GetToothProfile(GearShapeCustomB
 
 The target profile.
 
-`nTooth` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nTooth` uint
 
 The number of tooth.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Point2D](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Point2D.md)\>
+ List<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Point2D](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Point2D.md)\>
 
 The profile of a gear tooth.
 
@@ -132,13 +133,13 @@ The center point.
 
 The target profile.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The angle of maximum distance point.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The maximum distance.
 
@@ -162,7 +163,7 @@ The target profile.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The minimum distance.
 
@@ -184,13 +185,13 @@ The center point.
 
 The target profile.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The angle of maximum distance point.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The minimum distance.
 

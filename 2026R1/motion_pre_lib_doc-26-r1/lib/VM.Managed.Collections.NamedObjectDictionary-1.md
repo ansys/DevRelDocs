@@ -1,4 +1,5 @@
-#  Class NamedObjectDictionary<T\>
+# Class NamedObjectDictionary<T\>
+<a id="VM_Managed_Collections_NamedObjectDictionary_1"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMObjBase.dll  
@@ -17,9 +18,9 @@ T has name
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 [NamedObjectDictionary<T\>](VM.Managed.Collections.NamedObjectDictionary\-1.md)
@@ -92,7 +93,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -147,7 +148,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Collections_NamedObjectDictionary_1_IsExternable"></a> IsExternable
 
@@ -159,7 +160,7 @@ public override bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_NamedObjectDictionary_1_IsReadOnly"></a> IsReadOnly
 
@@ -171,7 +172,7 @@ public bool IsReadOnly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Item_System_String_"></a> this\[string\]
 
@@ -203,7 +204,7 @@ The object to add to the <xref href="System.Collections.Generic.ICollection%601"
 
 #### Exceptions
 
- [NotSupportedException](https://learn.microsoft.com/dotnet/api/system.notsupportedexception)
+ NotSupportedException
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -217,7 +218,7 @@ public void ChangeName(string strOldName, T obj)
 
 #### Parameters
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 The old name.
 
@@ -235,7 +236,7 @@ public void Clear()
 
 #### Exceptions
 
- [NotSupportedException](https://learn.microsoft.com/dotnet/api/system.notsupportedexception)
+ NotSupportedException
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -255,7 +256,7 @@ The object to locate in the <xref href="System.Collections.Generic.ICollection%6
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, false.
 
@@ -273,7 +274,7 @@ public void CopyTo(T[] array, int arrayIndex)
 
 The one-dimensional <xref href="System.Array" data-throw-if-not-resolved="false"></xref> that is the destination of the elements copied from <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>. The <xref href="System.Array" data-throw-if-not-resolved="false"></xref> must have zero-based indexing.
 
-`arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`arrayIndex` int
 
 The zero-based index in <code class="paramref">array</code> at which copying begins.
 
@@ -287,7 +288,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -307,7 +308,7 @@ public IEnumerator<T> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<T\>
+ IEnumerator<T\>
 
 A <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> that can be used to iterate through the collection.
 
@@ -321,7 +322,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -335,7 +336,7 @@ public SortedList<string, T> GetSortedEntity()
 
 #### Returns
 
- [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), T\>
+ SortedList<string, T\>
 
 ### <a id="VM_Managed_Collections_NamedObjectDictionary_1_IsSerializableEvent_System_Delegate_"></a> IsSerializableEvent\(Delegate\)
 
@@ -347,13 +348,13 @@ protected override bool IsSerializableEvent(Delegate del)
 
 #### Parameters
 
-`del` [Delegate](https://learn.microsoft.com/dotnet/api/system.delegate)
+`del` Delegate
 
 The del.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if [is serializable event] [the specified del]; otherwise, <code>false</code>.
 
@@ -367,7 +368,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -385,7 +386,7 @@ protected override void OnChildUpdated(object obj, LinkEventArgs args)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 
@@ -403,7 +404,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
@@ -417,13 +418,13 @@ public bool Remove(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The Name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -443,13 +444,13 @@ The object to remove from the <xref href="System.Collections.Generic.ICollection
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, false. This method also returns false if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
- [NotSupportedException](https://learn.microsoft.com/dotnet/api/system.notsupportedexception)
+ NotSupportedException
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -463,7 +464,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
 

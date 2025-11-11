@@ -1,4 +1,5 @@
-#  Class Object<TEventCore\>.EventCoreSerializeHelper
+# Class Object<TEventCore\>.EventCoreSerializeHelper
+<a id="VM_Managed_Object_1_EventCoreSerializeHelper"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Object<TEventCore>.EventCoreSerializeHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Object<TEventCore\>.EventCoreSerializeHelper](VM.Managed.Object\-1.EventCoreSerializeHelper.md)
 
 #### Extension Methods

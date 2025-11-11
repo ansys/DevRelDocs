@@ -1,4 +1,5 @@
-#  Class NXFormInitializer
+# Class NXFormInitializer
+<a id="VM_NX_Dialog_NXFormInitializer"></a>
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  
@@ -9,7 +10,7 @@ public class NXFormInitializer : INXFormInit
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NXFormInitializer](VM.NX.Dialog.NXFormInitializer.md)
 
 #### Implements

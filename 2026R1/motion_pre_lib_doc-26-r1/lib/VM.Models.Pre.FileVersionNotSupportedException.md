@@ -1,4 +1,5 @@
-#  Class FileVersionNotSupportedException
+# Class FileVersionNotSupportedException
+<a id="VM_Models_Pre_FileVersionNotSupportedException"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -11,8 +12,8 @@ public class FileVersionNotSupportedException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [FileVersionNotSupportedException](VM.Models.Pre.FileVersionNotSupportedException.md)
 
 #### Extension Methods
@@ -41,7 +42,7 @@ public FileVersionNotSupportedException(string version)
 
 #### Parameters
 
-`version` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`version` string
 
 The version of the save file.
 
@@ -56,11 +57,11 @@ public FileVersionNotSupportedException(string version, Exception innerException
 
 #### Parameters
 
-`version` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`version` string
 
 The version of the save file.
 
-`innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`innerException` Exception
 
 The exception that is the cause of the current exception, or a null reference
             (Nothing in Visual Basic) if no inner exception is specified.
@@ -77,7 +78,7 @@ public bool IsV242Sp3 { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_FileVersionNotSupportedException_Version"></a> Version
 
@@ -89,5 +90,5 @@ public string Version { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

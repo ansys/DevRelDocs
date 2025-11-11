@@ -1,9 +1,10 @@
-#  Struct OMatrix
+# Struct OMatrix
+<a id="VM_OMatrix"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public struct OMatrix : IOMatrix
 ```
 
@@ -17,7 +18,7 @@ public struct OMatrix : IOMatrix
 
 Copy construct orientation matrix
 
-```python
+```csharp
 public OMatrix(OMatrix mat)
 ```
 
@@ -31,7 +32,7 @@ The matrix to copy
 
 Construct orientation matrix with two principal axis
 
-```python
+```csharp
 public OMatrix(Plane type, Vector vecMaster, Vector vecSlave)
 ```
 
@@ -53,13 +54,13 @@ The slave axis
 
 Construct orientation matrix with array of double
 
-```python
+```csharp
 public OMatrix(double[] arr)
 ```
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The array contains orientation matrix
 
@@ -69,19 +70,19 @@ The array contains orientation matrix
 
 Get/Set the array of matrix value
 
-```python
+```csharp
 public double[] Array { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_OMatrix_Identity"></a> Identity
 
 Gets the Identity Orientation Matrix.
 
-```python
+```csharp
 public static OMatrix Identity { get; }
 ```
 
@@ -93,7 +94,7 @@ public static OMatrix Identity { get; }
 
 Get/Set X vector of matrix
 
-```python
+```csharp
 public Vector XVector { get; set; }
 ```
 
@@ -105,7 +106,7 @@ public Vector XVector { get; set; }
 
 Get/Set Y vector of matrix
 
-```python
+```csharp
 public Vector YVector { get; set; }
 ```
 
@@ -117,7 +118,7 @@ public Vector YVector { get; set; }
 
 Get/Set Z vector of matrix
 
-```python
+```csharp
 public Vector ZVector { get; set; }
 ```
 
@@ -129,7 +130,7 @@ public Vector ZVector { get; set; }
 
 Get/Set the specific vector of matrix
 
-```python
+```csharp
 public Vector this[int nIndex] { get; set; }
 ```
 
@@ -141,7 +142,7 @@ public Vector this[int nIndex] { get; set; }
 
 Get/Set the specific vector of matrix
 
-```python
+```csharp
 public Vector this[Coordinate enIndex] { get; set; }
 ```
 
@@ -153,25 +154,25 @@ public Vector this[Coordinate enIndex] { get; set; }
 
 Get/Set the specific value of matrix element
 
-```python
+```csharp
 public double this[int nRow, int nCol] { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_OMatrix_Item_VM_Coordinate_VM_Coordinate_"></a> this\[Coordinate, Coordinate\]
 
 Get/Set the specific value of matrix element
 
-```python
+```csharp
 public double this[Coordinate enRow, Coordinate enCol] { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -179,17 +180,17 @@ public double this[Coordinate enRow, Coordinate enCol] { get; set; }
 
 Copy matrix values to the array
 
-```python
+```csharp
 public void CopyTo(double[] arr, int nStartIndex)
 ```
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The array values copied to
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index of array
 
@@ -197,19 +198,19 @@ The start index of array
 
 Determines whether the specified object is equal to the current object.
 
-```python
+```csharp
 public override bool Equals(object obj)
 ```
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object to compare.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the objects are equal, otherwise false.
 
@@ -217,7 +218,7 @@ true if the objects are equal, otherwise false.
 
 Get the direction vector for axis.
 
-```python
+```csharp
 public Vector GetDirectionVector(Coordinate axis)
 ```
 
@@ -237,13 +238,13 @@ The direction vector.
 
 Get the direction vector for axis.
 
-```python
+```csharp
 public Vector GetDirectionVector(int axis)
 ```
 
 #### Parameters
 
-`axis` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`axis` int
 
 The type of axis.
 
@@ -257,13 +258,13 @@ The direction vector.
 
 Returns the hash code for this vector
 
-```python
+```csharp
 public override int GetHashCode()
 ```
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 A 32-bit signed integer hash code.
 
@@ -271,7 +272,7 @@ A 32-bit signed integer hash code.
 
 Initialize the Orientation Matrix
 
-```python
+```csharp
 public void Initialize()
 ```
 
@@ -279,13 +280,13 @@ public void Initialize()
 
 Normalize the Orientation Matrix
 
-```python
+```csharp
 public void Normalize()
 ```
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The normalize operation failed .
 
@@ -293,7 +294,7 @@ The normalize operation failed .
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 public void RotateAxisDeg(Coordinate c, double dAngle)
 ```
 
@@ -303,13 +304,13 @@ public void RotateAxisDeg(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -317,17 +318,17 @@ The rotate operation failed .
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 public void RotateAxisDeg(int nCoord, double dAngle)
 ```
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -335,7 +336,7 @@ The degree.
 
 To rotate counterclockwise for axis.
 
-```python
+```csharp
 public void RotateAxisDeg(Vector axis, double dAngle)
 ```
 
@@ -345,13 +346,13 @@ public void RotateAxisDeg(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -359,7 +360,7 @@ The rotate operation failed .
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 public void RotateAxisRad(Coordinate c, double dAngle)
 ```
 
@@ -369,13 +370,13 @@ public void RotateAxisRad(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -383,17 +384,17 @@ The rotate operation failed .
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 public void RotateAxisRad(int nCoord, double dAngle)
 ```
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -401,7 +402,7 @@ The radian.
 
 To rotate counterclockwise for axis.
 
-```python
+```csharp
 public void RotateAxisRad(Vector axis, double dAngle)
 ```
 
@@ -411,13 +412,13 @@ public void RotateAxisRad(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -425,19 +426,19 @@ The rotate operation failed .
 
 To rotate counterclockwise for x-axis.
 
-```python
+```csharp
 public void RotateXDeg(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -445,19 +446,19 @@ The rotate operation failed .
 
 To rotate counterclockwise for x-axis.
 
-```python
+```csharp
 public void RotateXRad(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -465,19 +466,19 @@ The rotate operation failed .
 
 To rotate counterclockwise for y-axis.
 
-```python
+```csharp
 public void RotateYDeg(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -485,19 +486,19 @@ The rotate operation failed .
 
 To rotate counterclockwise for y-axis.
 
-```python
+```csharp
 public void RotateYRad(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -505,19 +506,19 @@ The rotate operation failed .
 
 To rotate counterclockwise for z-axis.
 
-```python
+```csharp
 public void RotateZDeg(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -525,19 +526,19 @@ The rotate operation failed .
 
 To rotate counterclockwise for z-axis.
 
-```python
+```csharp
 public void RotateZRad(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -545,7 +546,7 @@ The rotate operation failed .
 
 Set data of orientation.
 
-```python
+```csharp
 public void SetOrientation(Plane type, Vector vecMaster, Vector vecSlave)
 ```
 
@@ -565,7 +566,7 @@ The vector for slave.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -573,7 +574,7 @@ The set data of orientation operation failed .
 
 Set data of orientation.
 
-```python
+```csharp
 public void SetOrientation(OMatrix mat)
 ```
 
@@ -587,13 +588,13 @@ The matrix of orientation.
 
 Set data of orientation.
 
-```python
+```csharp
 public void SetOrientation(double[] arr)
 ```
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The data of orientation.
 
@@ -601,7 +602,7 @@ The data of orientation.
 
 Set data of orientation for euler angle. Unit is degree.
 
-```python
+```csharp
 public void SetOrientationEADeg(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -611,21 +612,21 @@ public void SetOrientationEADeg(RotationAxes ea, double dAlpha, double dBeta, do
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -633,7 +634,7 @@ The set data of orientation operation failed .
 
 Set data of orientation for euler angle. Unit is radian.
 
-```python
+```csharp
 public void SetOrientationEARad(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -643,21 +644,21 @@ public void SetOrientationEARad(RotationAxes ea, double dAlpha, double dBeta, do
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -665,7 +666,7 @@ The set data of orientation operation failed .
 
 Set data of orientation for fixed angle. Unit is degree.
 
-```python
+```csharp
 public void SetOrientationFixedAngleDeg(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -675,21 +676,21 @@ public void SetOrientationFixedAngleDeg(RotationAxes ea, double dAlpha, double d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -697,7 +698,7 @@ The set data of orientation operation failed .
 
 Set data of orientation for fixed angle. Unit is radian.
 
-```python
+```csharp
 public void SetOrientationFixedAngleRad(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -707,45 +708,45 @@ public void SetOrientationFixedAngleRad(RotationAxes ea, double dAlpha, double d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
 ### <a id="VM_OMatrix_ToString"></a> ToString\(\)
 
-```python
+```csharp
 public override string ToString()
 ```
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_OMatrix_TransposeOrientation"></a> TransposeOrientation\(\)
 
 Transposed rows and columns of the matrix.
 
-```python
+```csharp
 public void TransposeOrientation()
 ```
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The transpose operation failed .
 
@@ -755,7 +756,7 @@ The transpose operation failed .
 
 Compare two orientation matrices are same or not
 
-```python
+```csharp
 public static bool operator ==(OMatrix matLeft, OMatrix matRight)
 ```
 
@@ -771,13 +772,13 @@ The right matrix to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two matrices are same, otherwise false.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The equality operation failed .
 
@@ -785,7 +786,7 @@ The equality operation failed .
 
 Compare two orientation matrices are same or not
 
-```python
+```csharp
 public static bool operator !=(OMatrix matLeft, OMatrix matRight)
 ```
 
@@ -801,13 +802,13 @@ The right matrix to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two matrices are not same, otherwise false.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The inequality operation failed .
 
@@ -815,7 +816,7 @@ The inequality operation failed .
 
 Cross product two orientation matrices.
 
-```python
+```csharp
 public static OMatrix operator *(OMatrix matA, OMatrix matB)
 ```
 
@@ -837,7 +838,7 @@ The cross product matrix.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The multiply operation failed .
 
@@ -845,7 +846,7 @@ The multiply operation failed .
 
 Multiply vector to the matrix.
 
-```python
+```csharp
 public static Vector operator *(Vector vec, OMatrix mat)
 ```
 
@@ -867,8 +868,7 @@ The Multiplied vector.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The multiply operation failed .
-
 

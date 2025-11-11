@@ -1,15 +1,16 @@
-#  Class PropertyItem
+# Class PropertyItem
+<a id="VM_PropertyItem"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class PropertyItem : MemberItem<PropertyDescriptor>
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MemberItem<PropertyDescriptor\>](VM.MemberItem\-1.md) ← 
 [PropertyItem](VM.PropertyItem.md)
 
@@ -24,110 +25,109 @@ public class PropertyItem : MemberItem<PropertyDescriptor>
 
 ### <a id="VM_PropertyItem__ctor_System_ComponentModel_PropertyDescriptor_"></a> PropertyItem\(PropertyDescriptor\)
 
-```python
+```csharp
 public PropertyItem(PropertyDescriptor propertyDescriptor)
 ```
 
 #### Parameters
 
-`propertyDescriptor` [PropertyDescriptor](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor)
+`propertyDescriptor` PropertyDescriptor
 
 ## Properties
 
 ### <a id="VM_PropertyItem_DisplayName"></a> DisplayName
 
-```python
+```csharp
 public string DisplayName { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_PropertyItem_IsBrowsable"></a> IsBrowsable
 
-```python
+```csharp
 public bool IsBrowsable { get; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_PropertyItem_IsReadOnly"></a> IsReadOnly
 
-```python
+```csharp
 public bool IsReadOnly { get; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_PropertyItem_Name"></a> Name
 
-```python
+```csharp
 public string Name { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_PropertyItem_PropertyDescriptor"></a> PropertyDescriptor
 
-```python
+```csharp
 public PropertyDescriptor PropertyDescriptor { get; }
 ```
 
 #### Property Value
 
- [PropertyDescriptor](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor)
+ PropertyDescriptor
 
 ### <a id="VM_PropertyItem_PropertyType"></a> PropertyType
 
-```python
+```csharp
 public Type PropertyType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_PropertyItem_TypeConverter"></a> TypeConverter
 
-```python
+```csharp
 public TypeConverter TypeConverter { get; }
 ```
 
 #### Property Value
 
- [TypeConverter](https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter)
+ TypeConverter
 
 ## Methods
 
 ### <a id="VM_PropertyItem_Is_System_Type_"></a> Is\(Type\)
 
-```python
+```csharp
 public bool Is(Type type)
 ```
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_PropertyItem_ToString"></a> ToString\(\)
 
-```python
+```csharp
 public override string ToString()
 ```
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
+ string
 

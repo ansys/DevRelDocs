@@ -1,4 +1,5 @@
-#  Class LinkLinkedList<T, TLink\>
+# Class LinkLinkedList<T, TLink\>
+<a id="VM_Managed_Collections_LinkLinkedList_2"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -15,7 +16,7 @@ public sealed class LinkLinkedList<T, TLink> : LinkCollection<T, TLink, LinkedLi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LinkCollection<T, TLink, LinkedList<TLink\>\>](VM.Managed.Collections.LinkCollection\-3.md) ← 
 [LinkLinkedList<T, TLink\>](VM.Managed.Collections.LinkLinkedList\-2.md)
 
@@ -70,7 +71,7 @@ public LinkLinkedList(ILinkContainer objParent, LinkedList<TLink> collection)
 
 `objParent` ILinkContainer
 
-`collection` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<TLink\>
+`collection` LinkedList<TLink\>
 
 ## Properties
 
@@ -82,7 +83,7 @@ public LinkedListNode<TLink> First { get; }
 
 #### Property Value
 
- [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
+ LinkedListNode<TLink\>
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_Last"></a> Last
 
@@ -92,7 +93,7 @@ public LinkedListNode<TLink> Last { get; }
 
 #### Property Value
 
- [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
+ LinkedListNode<TLink\>
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_UseSearchCache"></a> UseSearchCache
 
@@ -102,7 +103,7 @@ public bool UseSearchCache { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -126,7 +127,7 @@ public override sealed void Add(T item, bool bContainsDocument)
 
 `item` T
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_AddAfter__0__0_"></a> AddAfter\(T, T\)
 
@@ -142,7 +143,7 @@ public LinkedListNode<TLink> AddAfter(T item, T newItem)
 
 #### Returns
 
- [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
+ LinkedListNode<TLink\>
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_AddBefore__0__0_"></a> AddBefore\(T, T\)
 
@@ -158,7 +159,7 @@ public LinkedListNode<TLink> AddBefore(T item, T newItem)
 
 #### Returns
 
- [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
+ LinkedListNode<TLink\>
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_AddFirst__0_"></a> AddFirst\(T\)
 
@@ -172,7 +173,7 @@ public LinkedListNode<TLink> AddFirst(T item)
 
 #### Returns
 
- [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
+ LinkedListNode<TLink\>
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_AddLast__0_"></a> AddLast\(T\)
 
@@ -186,7 +187,7 @@ public LinkedListNode<TLink> AddLast(T item)
 
 #### Returns
 
- [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
+ LinkedListNode<TLink\>
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_Clear"></a> Clear\(\)
 
@@ -202,7 +203,7 @@ public override sealed void Clear(bool bContainsDocument)
 
 #### Parameters
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_Contains__0_"></a> Contains\(T\)
 
@@ -216,7 +217,7 @@ public override sealed bool Contains(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_Remove__0_"></a> Remove\(T\)
 
@@ -230,7 +231,7 @@ public override sealed bool Remove(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkLinkedList_2_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
@@ -242,9 +243,9 @@ public override sealed bool Remove(T item, bool bContainsDocument)
 
 `item` T
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

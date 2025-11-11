@@ -1,4 +1,5 @@
-#  Class ReserveAttribute
+# Class ReserveAttribute
+<a id="VM_Models_Pre_ReserveAttribute"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -10,8 +11,8 @@ public sealed class ReserveAttribute : Attribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [ReserveAttribute](VM.Models.Pre.ReserveAttribute.md)
 
 #### Extension Methods
@@ -38,9 +39,9 @@ public static IEnumerable<FieldInfo> FindReservableFieldInfos(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[FieldInfo](https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo)\>
+ IEnumerable<FieldInfo\>
 

@@ -1,4 +1,5 @@
-#  Class PropertyGearSetBase
+# Class PropertyGearSetBase
+<a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public abstract class PropertyGearSetBase : Property, IObservableObject, IDispos
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyGearSetBase](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md)
 
 #### Derived
@@ -43,7 +44,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -53,12 +54,12 @@ IPostDeserialized
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -157,7 +158,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -198,7 +199,7 @@ public bool AdvancedGearGeometry { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BasicInvoluteProperty"></a> BasicInvoluteProperty
 
@@ -223,7 +224,7 @@ public string Color { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ContactAnalysisProperty"></a> ContactAnalysisProperty
 
@@ -259,7 +260,7 @@ public Color DrawingColor { get; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_GearPairs"></a> GearPairs
 
@@ -275,7 +276,7 @@ public GearPair[] GearPairs { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 GearPair list is null.
 or
@@ -297,7 +298,7 @@ public GearGeometryInfo[] GeometryInfos { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 GeometryInfo list is null.
 or
@@ -315,7 +316,7 @@ public string KissSoftInterfaceFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_MaterialProperty"></a> MaterialProperty
 
@@ -351,7 +352,7 @@ public bool ModifiedParam { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_SimulationType"></a> SimulationType
 
@@ -412,7 +413,7 @@ public bool UseKissSoftInterface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_WebProperty"></a> WebProperty
 
@@ -458,7 +459,7 @@ public bool BuildGear()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGear_System_Boolean_"></a> BuildGear\(bool\)
 
@@ -470,11 +471,11 @@ public virtual bool BuildGear(bool bCreate)
 
 #### Parameters
 
-`bCreate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCreate` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGearCore_System_Boolean_System_String_System_String_System_String___"></a> BuildGearCore\(bool, string, string, string\[\]\)
 
@@ -486,19 +487,19 @@ protected void BuildGearCore(bool bCreate, string strInputPath, string strResult
 
 #### Parameters
 
-`bCreate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCreate` bool
 
 create state.
 
-`strInputPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInputPath` string
 
 input path.
 
-`strResultPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultPath` string
 
 result path.
 
-`arDatPath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arDatPath` string\[\]
 
 dat file path array.
 
@@ -512,13 +513,13 @@ public bool BuildGearWithKissSoftInterface(bool bCreate, KissSoftInterface.Outpu
 
 #### Parameters
 
-`bCreate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCreate` bool
 
 `outputData` [KissSoftInterface](VM.Managed.DAFUL.GearTrain.KissSoftInterface.md).[OutputData](VM.Managed.DAFUL.GearTrain.KissSoftInterface.OutputData.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGearWithKissSoftInterface_System_String_"></a> BuildGearWithKissSoftInterface\(string\)
 
@@ -530,11 +531,11 @@ public bool BuildGearWithKissSoftInterface(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGearWithKissSoftInterface"></a> BuildGearWithKissSoftInterface\(\)
 
@@ -546,7 +547,7 @@ public bool BuildGearWithKissSoftInterface()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_FindLocal_System_String_"></a> FindLocal\(string\)
 
@@ -558,7 +559,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
@@ -618,7 +619,7 @@ The finding information.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_GetSelectedGearInfo_System_String_VM_Managed_DAFUL_GearTrain_GearGeometryInfo___"></a> GetSelectedGearInfo\(string, GearGeometryInfo\[\]\)
 
@@ -630,7 +631,7 @@ public virtual GearGeometryInfo GetSelectedGearInfo(string strText, GearGeometry
 
 #### Parameters
 
-`strText` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strText` string
 
 The text
 
@@ -652,11 +653,11 @@ public virtual void InitChild(int nNum, string[] arName, Unit.ConvertFactor fact
 
 #### Parameters
 
-`nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNum` int
 
 The n number.
 
-`arName` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arName` string\[\]
 
 Name of the ar.
 
@@ -688,7 +689,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -706,7 +707,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -720,7 +721,7 @@ protected virtual void OnPostDeserializedImpl(StreamingContext context)
 
 #### Parameters
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_PostBuildGear"></a> PostBuildGear\(\)
 
@@ -740,7 +741,7 @@ protected virtual void ReadResultCore(XmlDocument xmlDoc)
 
 #### Parameters
 
-`xmlDoc` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDoc` XmlDocument
 
 The XML document.
 
@@ -754,11 +755,11 @@ protected virtual void ReadResultForDatFile(string[] arDatPath, int nIdx)
 
 #### Parameters
 
-`arDatPath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arDatPath` string\[\]
 
 The dat path array.
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 The index.
 
@@ -772,31 +773,31 @@ protected virtual void ReadResultWithKissSoftInterface(uint nNumInvolute, uint n
 
 #### Parameters
 
-`nNumInvolute` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumInvolute` uint
 
 The number of Involute
 
-`nNumTrochoid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumTrochoid` uint
 
 The number of trochoid
 
-`nNumSlice` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumSlice` uint
 
 The number of slice
 
-`dNormalModule` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dNormalModule` double
 
 The normal module
 
-`dNormalPressureAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dNormalPressureAngle` double
 
 The normal pressure angle
 
-`ardCenterDistance` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardCenterDistance` double\[\]
 
 The center distancte
 
-`dAxialCrossingAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAxialCrossingAngle` double
 
 The axial crossing angle
 
@@ -814,7 +815,7 @@ public void SetColor(string color)
 
 #### Parameters
 
-`color` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`color` string
 
 The color.
 

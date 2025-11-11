@@ -1,4 +1,5 @@
-#  Class ShiftMapValidator
+# Class ShiftMapValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMapValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class ShiftMapValidator : AbstractValidator<ShiftMap>, IValidator<ShiftMa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<ShiftMap\> ← 
 [ShiftMapValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.ShiftMapValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<ShiftMap\>.GetEnumerator\(\),
 AbstractValidator<ShiftMap\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<ShiftMap\>.PreValidate\(ValidationContext<ShiftMap\>, ValidationResult\), 
 AbstractValidator<ShiftMap\>.RaiseValidationException\(ValidationContext<ShiftMap\>, ValidationResult\), 
+AbstractValidator<ShiftMap\>.OnRuleAdded\(IValidationRule<ShiftMap\>\), 
 AbstractValidator<ShiftMap\>.CascadeMode, 
 AbstractValidator<ShiftMap\>.ClassLevelCascadeMode, 
 AbstractValidator<ShiftMap\>.RuleLevelCascadeMode

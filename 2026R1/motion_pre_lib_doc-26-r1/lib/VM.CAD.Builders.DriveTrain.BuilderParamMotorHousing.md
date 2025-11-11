@@ -1,4 +1,5 @@
-#  Class BuilderParamMotorHousing
+# Class BuilderParamMotorHousing
+<a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing"></a>
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -9,9 +10,9 @@ public class BuilderParamMotorHousing : BuilderParamMotorBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderParamBase ← 
-BuilderParamColorGeom ← 
+object ← 
+[BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs) ← 
+[BuilderParamColorGeom](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamColorGeom.cs) ← 
 [BuilderParamMotorBase](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md) ← 
 [BuilderParamMotorHousing](VM.CAD.Builders.DriveTrain.BuilderParamMotorHousing.md)
 
@@ -20,13 +21,13 @@ BuilderParamColorGeom ←
 [BuilderParamMotorBase.Depth](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md\#VM\_CAD\_Builders\_DriveTrain\_BuilderParamMotorBase\_Depth), 
 [BuilderParamMotorBase.StartPosition](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md\#VM\_CAD\_Builders\_DriveTrain\_BuilderParamMotorBase\_StartPosition), 
 [BuilderParamMotorBase.RotateAxis](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md\#VM\_CAD\_Builders\_DriveTrain\_BuilderParamMotorBase\_RotateAxis), 
-BuilderParamColorGeom.Color, 
-BuilderParamBase.ToXmlString\(\), 
-BuilderParamBase.FinalizeParameter\(\), 
-BuilderParamBase.SetTypeName\(\), 
-BuilderParamBase.Key, 
-BuilderParamBase.TypeName, 
-BuilderParamBase.Transparency
+[BuilderParamColorGeom.Color](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamColorGeom.cs), 
+[BuilderParamBase.ToXmlString\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.FinalizeParameter\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.SetTypeName\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.Key](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.TypeName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.Transparency](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 #### Extension Methods
 
@@ -52,7 +53,7 @@ public double Hr { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_IsFront"></a> IsFront
 
@@ -62,7 +63,7 @@ public bool IsFront { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_IsMeasureBottomSide"></a> IsMeasureBottomSide
 
@@ -72,7 +73,7 @@ public bool IsMeasureBottomSide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_IsMeasureRearCoverCenter"></a> IsMeasureRearCoverCenter
 
@@ -82,7 +83,7 @@ public bool IsMeasureRearCoverCenter { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_IsMeasureTopSide"></a> IsMeasureTopSide
 
@@ -92,7 +93,7 @@ public bool IsMeasureTopSide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_IsSeparated"></a> IsSeparated
 
@@ -102,7 +103,7 @@ public bool IsSeparated { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L1"></a> L1
 
@@ -112,7 +113,7 @@ public double L1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L10"></a> L10
 
@@ -122,7 +123,7 @@ public double L10 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L11"></a> L11
 
@@ -132,7 +133,7 @@ public double L11 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L2"></a> L2
 
@@ -142,7 +143,7 @@ public double L2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L3"></a> L3
 
@@ -152,7 +153,7 @@ public double L3 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L4"></a> L4
 
@@ -162,7 +163,7 @@ public double L4 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L5"></a> L5
 
@@ -172,7 +173,7 @@ public double L5 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L6"></a> L6
 
@@ -182,7 +183,7 @@ public double L6 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L7"></a> L7
 
@@ -192,7 +193,7 @@ public double L7 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L8"></a> L8
 
@@ -202,7 +203,7 @@ public double L8 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_L9"></a> L9
 
@@ -212,7 +213,7 @@ public double L9 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_MTGBoltDiameter"></a> MTGBoltDiameter
 
@@ -222,7 +223,7 @@ public double MTGBoltDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_MeasureBottomSideLowerPosition"></a> MeasureBottomSideLowerPosition
 
@@ -252,7 +253,7 @@ public double MeasureRBECircleRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_MeasureRearCoverCenterPosition"></a> MeasureRearCoverCenterPosition
 
@@ -292,7 +293,7 @@ public int NumberOfMountingBolt { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_NumberOfRib"></a> NumberOfRib
 
@@ -302,7 +303,7 @@ public int NumberOfRib { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_RibType"></a> RibType
 
@@ -312,7 +313,7 @@ public string RibType { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_StatorDepth"></a> StatorDepth
 
@@ -322,7 +323,7 @@ public double StatorDepth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_StatorIsExistMounting"></a> StatorIsExistMounting
 
@@ -332,7 +333,7 @@ public bool StatorIsExistMounting { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_StatorMPCR"></a> StatorMPCR
 
@@ -342,7 +343,7 @@ public double StatorMPCR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_StatorNumberOfMounting"></a> StatorNumberOfMounting
 
@@ -352,7 +353,7 @@ public int StatorNumberOfMounting { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_StatorRmo"></a> StatorRmo
 
@@ -362,7 +363,7 @@ public double StatorRmo { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_StatorRotateAngle"></a> StatorRotateAngle
 
@@ -372,7 +373,7 @@ public double StatorRotateAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_StatorStartPosition"></a> StatorStartPosition
 
@@ -392,7 +393,7 @@ public double T1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_T2"></a> T2
 
@@ -402,7 +403,7 @@ public double T2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_T3"></a> T3
 
@@ -412,7 +413,7 @@ public double T3 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_T4"></a> T4
 
@@ -422,7 +423,7 @@ public double T4 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_T5"></a> T5
 
@@ -432,7 +433,7 @@ public double T5 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorHousing_Wr"></a> Wr
 
@@ -442,5 +443,5 @@ public double Wr { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

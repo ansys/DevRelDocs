@@ -1,4 +1,5 @@
-#  Enum PropertyBoundaryConditionBase.BCConstrainedType
+# Enum PropertyBoundaryConditionBase.BCConstrainedType
+<a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_BCConstrainedType"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  

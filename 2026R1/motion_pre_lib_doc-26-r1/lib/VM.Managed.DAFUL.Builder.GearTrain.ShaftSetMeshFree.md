@@ -1,4 +1,5 @@
-#  Class ShaftSetMeshFree
+# Class ShaftSetMeshFree
+<a id="VM_Managed_DAFUL_Builder_GearTrain_ShaftSetMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,10 +10,10 @@ public class ShaftSetMeshFree : HousingMeshFreeBase<ShaftSetMeshFree>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<ShaftSetMeshFree\> ← 
-BuilderSymmetric<ShaftSetMeshFree\> ← 
-BuilderNamed<ShaftSetMeshFree\> ← 
+object ← 
+[BuilderBase<ShaftSetMeshFree\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<ShaftSetMeshFree\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<ShaftSetMeshFree\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [OpenDesigner<ShaftSetMeshFree\>](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md) ← 
 [HousingBase<ShaftSetMeshFree\>](VM.Managed.DAFUL.Builder.GearTrain.HousingBase\-1.md) ← 
 [HousingMeshFreeBase<ShaftSetMeshFree\>](VM.Managed.DAFUL.Builder.GearTrain.HousingMeshFreeBase\-1.md) ← 
@@ -32,29 +33,29 @@ IBuilder
 [OpenDesigner<ShaftSetMeshFree\>.HiddenDocument](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_OpenDesigner\_1\_HiddenDocument), 
 [OpenDesigner<ShaftSetMeshFree\>.AlwaysDesignerOpen](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_OpenDesigner\_1\_AlwaysDesignerOpen), 
 [OpenDesigner<ShaftSetMeshFree\>.ShowDesigner](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_OpenDesigner\_1\_ShowDesigner), 
-BuilderNamed<ShaftSetMeshFree\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<ShaftSetMeshFree\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<ShaftSetMeshFree\>.Name, 
-BuilderSymmetric<ShaftSetMeshFree\>.Build\(Document\), 
-BuilderSymmetric<ShaftSetMeshFree\>.Symmetric, 
-BuilderSymmetric<ShaftSetMeshFree\>.CurrentSymmetric, 
-BuilderBase<ShaftSetMeshFree\>.m\_bSuccess, 
-BuilderBase<ShaftSetMeshFree\>.Build\(Document\), 
-BuilderBase<ShaftSetMeshFree\>.Build\(Document, List<string\>\), 
-BuilderBase<ShaftSetMeshFree\>.Validate\(IList<string\>\), 
-BuilderBase<ShaftSetMeshFree\>.Success\(\), 
-BuilderBase<ShaftSetMeshFree\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<ShaftSetMeshFree\>.OnFinalBuild\(string, Document\), 
-BuilderBase<ShaftSetMeshFree\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<ShaftSetMeshFree\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<ShaftSetMeshFree\>.Parameters, 
-BuilderBase<ShaftSetMeshFree\>.AddToDoc, 
-BuilderBase<ShaftSetMeshFree\>.UseChangedObject, 
-BuilderBase<ShaftSetMeshFree\>.SetPointKey, 
-BuilderBase<ShaftSetMeshFree\>.BuildObject, 
-BuilderBase<ShaftSetMeshFree\>.BuildDocument, 
-BuilderBase<ShaftSetMeshFree\>.UseInterface, 
-BuilderBase<ShaftSetMeshFree\>.ErrorMessage
+[BuilderNamed<ShaftSetMeshFree\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ShaftSetMeshFree\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ShaftSetMeshFree\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<ShaftSetMeshFree\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ShaftSetMeshFree\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ShaftSetMeshFree\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ShaftSetMeshFree\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -86,5 +87,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

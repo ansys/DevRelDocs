@@ -1,4 +1,5 @@
-#  Class IInterfaceImpl
+# Class IInterfaceImpl
+<a id="VM_Managed_IInterfaceImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class IInterfaceImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IInterfaceImpl](VM.Managed.IInterfaceImpl.md)
 
 #### Extension Methods
@@ -46,7 +47,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified object is interface; otherwise, <code>false</code>.
 
@@ -64,7 +65,7 @@ public static void SetInterface(IInterface itfOb, bool bSet)
 
 The object.
 
-`bSet` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bSet` bool
 
 if set to <code>true</code> interface.
 

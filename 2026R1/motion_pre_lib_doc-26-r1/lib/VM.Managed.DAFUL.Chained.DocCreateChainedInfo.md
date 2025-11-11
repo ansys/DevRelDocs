@@ -1,4 +1,5 @@
-#  Class DocCreateChainedInfo
+# Class DocCreateChainedInfo
+<a id="VM_Managed_DAFUL_Chained_DocCreateChainedInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,19 +12,19 @@ public class DocCreateChainedInfo : DocCreateAnalysisInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocCreate3DInfo ← 
-DocCreateAnalysisInfo ← 
+[DocCreateAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs) ← 
 [DocCreateChainedInfo](VM.Managed.DAFUL.Chained.DocCreateChainedInfo.md)
 
 #### Inherited Members
 
-DocCreateAnalysisInfo.GravityX, 
-DocCreateAnalysisInfo.GravityY, 
-DocCreateAnalysisInfo.GravityZ, 
-DocCreateAnalysisInfo.IncrementTime, 
-DocCreateAnalysisInfo.UseIncrementTime, 
+[DocCreateAnalysisInfo.GravityX](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.GravityY](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.GravityZ](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.IncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.UseIncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
 DocCreate3DInfo.IconSize, 
 DocCreate3DInfo.IsAdvancedMode, 
 DocCreate3DInfo.UseSymmetric, 

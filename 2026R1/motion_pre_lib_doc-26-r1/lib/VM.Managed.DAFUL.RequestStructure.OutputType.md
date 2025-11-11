@@ -1,4 +1,5 @@
-#  Struct RequestStructure.OutputType
+# Struct RequestStructure.OutputType
+<a id="VM_Managed_DAFUL_RequestStructure_OutputType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -21,7 +22,7 @@ public bool ContactPressure
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressIntensity"></a> DesignStressIntensity
 
@@ -33,7 +34,7 @@ public bool DesignStressIntensity
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressMaximumPrinciple"></a> DesignStressMaximumPrinciple
 
@@ -45,7 +46,7 @@ public bool DesignStressMaximumPrinciple
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressMaximumShear"></a> DesignStressMaximumShear
 
@@ -57,7 +58,7 @@ public bool DesignStressMaximumShear
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressVonmises"></a> DesignStressVonmises
 
@@ -69,7 +70,7 @@ public bool DesignStressVonmises
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DirectionalHeatFluxX"></a> DirectionalHeatFluxX
 
@@ -79,7 +80,7 @@ public bool DirectionalHeatFluxX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DirectionalHeatFluxY"></a> DirectionalHeatFluxY
 
@@ -89,7 +90,7 @@ public bool DirectionalHeatFluxY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DirectionalHeatFluxZ"></a> DirectionalHeatFluxZ
 
@@ -99,7 +100,7 @@ public bool DirectionalHeatFluxZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticDesignStrainIntensity"></a> ElasticDesignStrainIntensity
 
@@ -111,7 +112,7 @@ public bool ElasticDesignStrainIntensity
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticDesignStrainVonmises"></a> ElasticDesignStrainVonmises
 
@@ -123,7 +124,7 @@ public bool ElasticDesignStrainVonmises
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticPrincipleStrainFirst"></a> ElasticPrincipleStrainFirst
 
@@ -135,7 +136,7 @@ public bool ElasticPrincipleStrainFirst
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticPrincipleStrainSecond"></a> ElasticPrincipleStrainSecond
 
@@ -147,7 +148,7 @@ public bool ElasticPrincipleStrainSecond
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticPrincipleStrainThird"></a> ElasticPrincipleStrainThird
 
@@ -159,7 +160,7 @@ public bool ElasticPrincipleStrainThird
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorX"></a> ElasticStrainTensorX
 
@@ -171,7 +172,7 @@ public bool ElasticStrainTensorX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorXY"></a> ElasticStrainTensorXY
 
@@ -183,7 +184,7 @@ public bool ElasticStrainTensorXY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorY"></a> ElasticStrainTensorY
 
@@ -195,7 +196,7 @@ public bool ElasticStrainTensorY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorYZ"></a> ElasticStrainTensorYZ
 
@@ -207,7 +208,7 @@ public bool ElasticStrainTensorYZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorZ"></a> ElasticStrainTensorZ
 
@@ -219,7 +220,7 @@ public bool ElasticStrainTensorZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorZX"></a> ElasticStrainTensorZX
 
@@ -231,7 +232,7 @@ public bool ElasticStrainTensorZX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticDesignStrainIntensity"></a> PlasticDesignStrainIntensity
 
@@ -243,7 +244,7 @@ public bool PlasticDesignStrainIntensity
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticDesignStrainVonmises"></a> PlasticDesignStrainVonmises
 
@@ -255,7 +256,7 @@ public bool PlasticDesignStrainVonmises
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticPrincipleStrainFirst"></a> PlasticPrincipleStrainFirst
 
@@ -267,7 +268,7 @@ public bool PlasticPrincipleStrainFirst
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticPrincipleStrainSecond"></a> PlasticPrincipleStrainSecond
 
@@ -279,7 +280,7 @@ public bool PlasticPrincipleStrainSecond
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticPrincipleStrainThird"></a> PlasticPrincipleStrainThird
 
@@ -291,7 +292,7 @@ public bool PlasticPrincipleStrainThird
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorX"></a> PlasticStrainTensorX
 
@@ -303,7 +304,7 @@ public bool PlasticStrainTensorX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorXY"></a> PlasticStrainTensorXY
 
@@ -315,7 +316,7 @@ public bool PlasticStrainTensorXY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorY"></a> PlasticStrainTensorY
 
@@ -327,7 +328,7 @@ public bool PlasticStrainTensorY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorYZ"></a> PlasticStrainTensorYZ
 
@@ -339,7 +340,7 @@ public bool PlasticStrainTensorYZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorZ"></a> PlasticStrainTensorZ
 
@@ -351,7 +352,7 @@ public bool PlasticStrainTensorZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorZX"></a> PlasticStrainTensorZX
 
@@ -363,7 +364,7 @@ public bool PlasticStrainTensorZX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PrincipleStressFirst"></a> PrincipleStressFirst
 
@@ -375,7 +376,7 @@ public bool PrincipleStressFirst
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PrincipleStressSecond"></a> PrincipleStressSecond
 
@@ -387,7 +388,7 @@ public bool PrincipleStressSecond
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PrincipleStressThird"></a> PrincipleStressThird
 
@@ -399,7 +400,7 @@ public bool PrincipleStressThird
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorX"></a> StressTensorX
 
@@ -411,7 +412,7 @@ public bool StressTensorX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorXY"></a> StressTensorXY
 
@@ -423,7 +424,7 @@ public bool StressTensorXY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorY"></a> StressTensorY
 
@@ -435,7 +436,7 @@ public bool StressTensorY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorYZ"></a> StressTensorYZ
 
@@ -447,7 +448,7 @@ public bool StressTensorYZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorZ"></a> StressTensorZ
 
@@ -459,7 +460,7 @@ public bool StressTensorZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorZX"></a> StressTensorZX
 
@@ -471,7 +472,7 @@ public bool StressTensorZX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_Temperature"></a> Temperature
 
@@ -481,7 +482,7 @@ public bool Temperature
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ThermalStrain"></a> ThermalStrain
 
@@ -491,7 +492,7 @@ public bool ThermalStrain
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalDesignStrainIntensity"></a> TotalDesignStrainIntensity
 
@@ -503,7 +504,7 @@ public bool TotalDesignStrainIntensity
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalDesignStrainVonmises"></a> TotalDesignStrainVonmises
 
@@ -515,7 +516,7 @@ public bool TotalDesignStrainVonmises
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalHeatFlux"></a> TotalHeatFlux
 
@@ -525,7 +526,7 @@ public bool TotalHeatFlux
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalPrincipleStrainFirst"></a> TotalPrincipleStrainFirst
 
@@ -537,7 +538,7 @@ public bool TotalPrincipleStrainFirst
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalPrincipleStrainSecond"></a> TotalPrincipleStrainSecond
 
@@ -549,7 +550,7 @@ public bool TotalPrincipleStrainSecond
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalPrincipleStrainThird"></a> TotalPrincipleStrainThird
 
@@ -561,7 +562,7 @@ public bool TotalPrincipleStrainThird
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorX"></a> TotalStrainTensorX
 
@@ -573,7 +574,7 @@ public bool TotalStrainTensorX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorXY"></a> TotalStrainTensorXY
 
@@ -585,7 +586,7 @@ public bool TotalStrainTensorXY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorY"></a> TotalStrainTensorY
 
@@ -597,7 +598,7 @@ public bool TotalStrainTensorY
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorYZ"></a> TotalStrainTensorYZ
 
@@ -609,7 +610,7 @@ public bool TotalStrainTensorYZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorZ"></a> TotalStrainTensorZ
 
@@ -621,7 +622,7 @@ public bool TotalStrainTensorZ
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorZX"></a> TotalStrainTensorZX
 
@@ -633,7 +634,7 @@ public bool TotalStrainTensorZX
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -647,13 +648,13 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 <p>Object to compare</p>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two objects are equal. Otherwise false.</p>
 
@@ -673,7 +674,7 @@ public bool Equals(RequestStructure.OutputType other)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two objects are equal. Otherwise false.</p>
 
@@ -687,7 +688,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 <p>The hash code</p>
 
@@ -713,7 +714,7 @@ public static bool operator ==(RequestStructure.OutputType left, RequestStructur
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two arguments are same. Otherwise false.</p>
 
@@ -737,7 +738,7 @@ public static bool operator !=(RequestStructure.OutputType left, RequestStructur
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <p>true if two arguments are not same. Otherwise false.</p>
 

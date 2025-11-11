@@ -1,4 +1,5 @@
-#  Class BuilderSymmetric<T\>
+# Class BuilderSymmetric<T\>
+<a id="VM_Managed_DAFUL_Builder_BuilderSymmetric_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class BuilderSymmetric<T> : BuilderBase<T>, IBuilder where T : O
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<T\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<T\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md)
 

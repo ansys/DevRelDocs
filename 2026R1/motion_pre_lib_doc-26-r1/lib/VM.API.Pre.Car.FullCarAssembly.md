@@ -1,4 +1,5 @@
-#  Struct FullCarAssembly
+# Struct FullCarAssembly
+<a id="VM_API_Pre_Car_FullCarAssembly"></a>
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -21,39 +22,39 @@ public FullCarAssembly(string frontSuspensionPath, string rearSuspensionPath, st
 
 #### Parameters
 
-`frontSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontSuspensionPath` string
 
 The front suspension path.
 
-`rearSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearSuspensionPath` string
 
 The rear suspension path.
 
-`steeringPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringPath` string
 
 The steering path.
 
-`frontWheelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontWheelPath` string
 
 The front wheel path.
 
-`rearWheelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearWheelPath` string
 
 The rear wheel path.
 
-`bodyPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyPath` string
 
 The body path.
 
-`brakePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`brakePath` string
 
 The brake path.
 
-`powerTrainPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerTrainPath` string
 
 The power train path.
 
-`otherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`otherPath` string
 
 The other path.
 
@@ -69,7 +70,7 @@ public string BodyPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_BrakePath"></a> BrakePath
 
@@ -81,7 +82,7 @@ public string BrakePath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_FrontSuspensionPath"></a> FrontSuspensionPath
 
@@ -93,7 +94,7 @@ public string FrontSuspensionPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_FrontWheelPath"></a> FrontWheelPath
 
@@ -105,7 +106,7 @@ public string FrontWheelPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_OtherPath"></a> OtherPath
 
@@ -117,7 +118,7 @@ public string OtherPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_PowerTrainPath"></a> PowerTrainPath
 
@@ -129,7 +130,7 @@ public string PowerTrainPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_RearSuspensionPath"></a> RearSuspensionPath
 
@@ -141,7 +142,7 @@ public string RearSuspensionPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_RearWheelPath"></a> RearWheelPath
 
@@ -153,7 +154,7 @@ public string RearWheelPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_Car_FullCarAssembly_SteeringPath"></a> SteeringPath
 
@@ -165,5 +166,5 @@ public string SteeringPath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

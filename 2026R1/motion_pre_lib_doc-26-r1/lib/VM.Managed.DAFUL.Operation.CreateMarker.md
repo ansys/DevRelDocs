@@ -1,4 +1,5 @@
-#  Class CreateMarker
+# Class CreateMarker
+<a id="VM_Managed_DAFUL_Operation_CreateMarker"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateMarker
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateMarker](VM.Managed.DAFUL.Operation.CreateMarker.md)
 
 #### Extension Methods
@@ -52,15 +53,15 @@ The parent body
 
 The transform
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name
 
-`isPrefix` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPrefix` bool
 
 #### Returns
 
- Marker
+ [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateMarker_CreatePartMarkerOnBody_VM_Managed_Document3D_VM_Managed_IPartMarkerParent_VM_Managed_TransformBase_System_String_"></a> CreatePartMarkerOnBody\(Document3D, IPartMarkerParent, TransformBase, string\)
 
@@ -84,11 +85,11 @@ The parent body
 
 The transform
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The pre-fix name
 
 #### Returns
 
- Marker
+ [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 

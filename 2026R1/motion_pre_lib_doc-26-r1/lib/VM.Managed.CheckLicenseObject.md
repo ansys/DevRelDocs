@@ -1,4 +1,5 @@
-#  Class CheckLicenseObject
+# Class CheckLicenseObject
+<a id="VM_Managed_CheckLicenseObject"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class CheckLicenseObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CheckLicenseObject](VM.Managed.CheckLicenseObject.md)
 
 #### Extension Methods
@@ -40,17 +41,17 @@ public static bool CheckLicense(object ob, ref string strErrorMsg)
 
 #### Parameters
 
-`ob` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`ob` object
 
 The object.
 
-`strErrorMsg` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strErrorMsg` string
 
 The error message.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CheckLicenseObject_CheckLicense_System_Type_System_String__"></a> CheckLicense\(Type, ref string\)
 
@@ -62,17 +63,17 @@ public static bool CheckLicense(Type type, ref string strErrorMsg)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The Type.
 
-`strErrorMsg` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strErrorMsg` string
 
 The error message.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CheckLicenseObject_CheckLicenseNoErrorMsg_System_Type_System_String__"></a> CheckLicenseNoErrorMsg\(Type, ref string\)
 
@@ -84,17 +85,17 @@ public static bool CheckLicenseNoErrorMsg(Type type, ref string strErrorMsg)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The Type.
 
-`strErrorMsg` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strErrorMsg` string
 
 The error message.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CheckLicenseObject_GetLicenseErrorMessage_VM_Managed_License_ILicense_"></a> GetLicenseErrorMessage\(ILicense\)
 
@@ -112,5 +113,5 @@ The License interface.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

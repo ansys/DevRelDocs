@@ -1,4 +1,5 @@
-#  Class UpdateGearInMeshFree
+# Class UpdateGearInMeshFree
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateGearInMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateGearInMeshFree : UpdateGearInFE, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateGearInFE](VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInFE.md) ← 
@@ -97,23 +98,23 @@ public UpdateGearInMeshFree(string strGearGeometryName, string strReferenceOffse
 
 #### Parameters
 
-`strGearGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearGeometryName` string
 
 Name of the string gear geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strParentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParentType` string
 
 Type of the string parent.
 
-`strRBEOrBearing` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEOrBearing` string
 
 The string rbe or bearing.
 
@@ -131,23 +132,23 @@ public UpdateGearInMeshFree(Document3D document3D, string strGearGeometryName, s
 
 The document.
 
-`strGearGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearGeometryName` string
 
 Name of the string gear geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strParentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParentType` string
 
 Type of the string parent.
 
-`strRBEOrBearing` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEOrBearing` string
 
 The string rbe or bearing.
 

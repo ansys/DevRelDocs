@@ -1,4 +1,5 @@
-#  Class DictionaryExtensions
+# Class DictionaryExtensions
+<a id="VM_Models_Pre_DictionaryExtensions"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public static class DictionaryExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DictionaryExtensions](VM.Models.Pre.DictionaryExtensions.md)
 
 #### Extension Methods
@@ -28,7 +29,7 @@ public static bool TryChangeKey<TKey, TValue>(this IDictionary<TKey, TValue> dic
 
 #### Parameters
 
-`dictionary` [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<TKey, TValue\>
+`dictionary` IDictionary<TKey, TValue\>
 
 `fromKey` TKey
 
@@ -36,7 +37,7 @@ public static bool TryChangeKey<TKey, TValue>(this IDictionary<TKey, TValue> dic
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 

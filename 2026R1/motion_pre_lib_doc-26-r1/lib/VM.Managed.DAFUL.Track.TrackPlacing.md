@@ -1,4 +1,5 @@
-#  Class TrackPlacing
+# Class TrackPlacing
+<a id="VM_Managed_DAFUL_Track_TrackPlacing"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,13 +12,13 @@ public class TrackPlacing : ChainedPlacing, IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-ChainedPlacingBase ← 
-ChainedPlacing ← 
+[ChainedPlacingBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs) ← 
+[ChainedPlacing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs) ← 
 [TrackPlacing](VM.Managed.DAFUL.Track.TrackPlacing.md)
 
 #### Implements
@@ -34,7 +35,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 INamed, 
 IEnabled, 
@@ -45,30 +46,30 @@ IPostOpenDocumentForChainedSystem
 
 #### Inherited Members
 
-ChainedPlacing.m\_Placing, 
-ChainedPlacing.m\_dicContacts, 
-ChainedPlacing.m\_dicConnectors, 
-ChainedPlacing.m\_dicMtoNContacts, 
-ChainedPlacing.Initialize\(Unit.ConvertFactor\), 
-ChainedPlacing.AddBearingFrictionLoss\(BearingFrictionLoss\), 
-ChainedPlacing.LinkRequestUpdate\(object, LinkEventArgs\), 
-ChainedPlacing.LinkRequestDestroy\(object, LinkEventArgs\), 
-ChainedPlacing.OnDeserialization\(object\), 
-ChainedPlacing.Placing, 
-ChainedPlacing.Contacts, 
-ChainedPlacing.Connectors, 
-ChainedPlacing.MtoNContacts, 
-ChainedPlacing.BearingFrictionLossList, 
-ChainedPlacing.Paths, 
-ChainedPlacingBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-ChainedPlacingBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-ChainedPlacingBase.FixUp\(ObjectBase\), 
-ChainedPlacingBase.FullName, 
-ChainedPlacingBase.Name, 
-ChainedPlacingBase.NonSymmetricName, 
-ChainedPlacingBase.IsEnabled, 
-ChainedPlacingBase.Comment, 
-ChainedPlacingBase.Paths, 
+[ChainedPlacing.m\_Placing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.m\_dicContacts](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.m\_dicConnectors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.m\_dicMtoNContacts](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.AddBearingFrictionLoss\(BearingFrictionLoss\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.LinkRequestDestroy\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.Placing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.Contacts](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.Connectors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.MtoNContacts](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.BearingFrictionLossList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacing.Paths](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
+[ChainedPlacingBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
+[ChainedPlacingBase.Paths](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacingBase.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -161,7 +162,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -201,7 +202,7 @@ public TrackPlacing(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 ## Methods
 
@@ -215,7 +216,7 @@ protected override void LinkRequestDestroy(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 

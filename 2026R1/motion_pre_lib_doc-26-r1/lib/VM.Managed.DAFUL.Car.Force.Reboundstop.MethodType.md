@@ -1,4 +1,5 @@
-#  Enum Reboundstop.MethodType
+# Enum Reboundstop.MethodType
+<a id="VM_Managed_DAFUL_Car_Force_Reboundstop_MethodType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  

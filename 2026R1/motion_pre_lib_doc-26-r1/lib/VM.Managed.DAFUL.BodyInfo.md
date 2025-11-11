@@ -1,4 +1,5 @@
-#  Class BodyInfo
+# Class BodyInfo
+<a id="VM_Managed_DAFUL_BodyInfo"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -11,7 +12,7 @@ public class BodyInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BodyInfo](VM.Managed.DAFUL.BodyInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public string Key { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_BodyInfo_TargetFaces"></a> TargetFaces
 
@@ -52,5 +53,5 @@ public List<KeyInfo> TargetFaces { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[KeyInfo](VM.Managed.DAFUL.KeyInfo.md)\>
+ List<[KeyInfo](VM.Managed.DAFUL.KeyInfo.md)\>
 

@@ -1,4 +1,5 @@
-#  Class RoadFile
+# Class RoadFile
+<a id="VM_Models_Road_RoadFile"></a>
 
 Namespace: [VM.Models.Road](VM.Models.Road.md)  
 Assembly: VM.Models.Road.dll  
@@ -9,7 +10,7 @@ public class RoadFile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RoadFile](VM.Models.Road.RoadFile.md)
 
 #### Extension Methods
@@ -28,7 +29,7 @@ public double DefaultUIncrement { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Road_RoadFile_DefaultVIncrement"></a> DefaultVIncrement
 
@@ -38,7 +39,7 @@ public double DefaultVIncrement { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Road_RoadFile_NumUPoints"></a> NumUPoints
 
@@ -48,7 +49,7 @@ public ulong NumUPoints { get; }
 
 #### Property Value
 
- [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+ ulong
 
 ### <a id="VM_Models_Road_RoadFile_NumVPoints"></a> NumVPoints
 
@@ -58,7 +59,7 @@ public ulong NumVPoints { get; }
 
 #### Property Value
 
- [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+ ulong
 
 ### <a id="VM_Models_Road_RoadFile_NumberOfNodes"></a> NumberOfNodes
 
@@ -68,7 +69,7 @@ public ulong NumberOfNodes { get; }
 
 #### Property Value
 
- [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+ ulong
 
 ### <a id="VM_Models_Road_RoadFile_NumberOfQuadElements"></a> NumberOfQuadElements
 
@@ -78,7 +79,7 @@ public ulong NumberOfQuadElements { get; }
 
 #### Property Value
 
- [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+ ulong
 
 ### <a id="VM_Models_Road_RoadFile_NumberOfTriElements"></a> NumberOfTriElements
 
@@ -88,7 +89,7 @@ public ulong NumberOfTriElements { get; }
 
 #### Property Value
 
- [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+ ulong
 
 ### <a id="VM_Models_Road_RoadFile_RoadLength"></a> RoadLength
 
@@ -98,7 +99,7 @@ public double RoadLength { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Road_RoadFile_Type"></a> Type
 
@@ -118,7 +119,7 @@ public double UEnd { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Road_RoadFile_UStart"></a> UStart
 
@@ -128,7 +129,7 @@ public double UStart { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Road_RoadFile_VEnd"></a> VEnd
 
@@ -138,7 +139,7 @@ public double VEnd { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Road_RoadFile_VStart"></a> VStart
 
@@ -148,7 +149,7 @@ public double VStart { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -166,7 +167,7 @@ protected virtual void Dispose(bool disposing)
 
 #### Parameters
 
-`disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disposing` bool
 
 ### <a id="VM_Models_Road_RoadFile_Finalize"></a> \~RoadFile\(\)
 
@@ -182,7 +183,7 @@ public (ulong U, ulong V) GetDefaultUVPointsCount()
 
 #### Returns
 
- \([ulong](https://learn.microsoft.com/dotnet/api/system.uint64) [U](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.uint64,system.uint64\-.u), [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) [V](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.uint64,system.uint64\-.v)\)
+ \(ulong U, ulong V\)
 
 ### <a id="VM_Models_Road_RoadFile_GetNodeDistanceAndUVByTargetNodeCount_System_UInt64_"></a> GetNodeDistanceAndUVByTargetNodeCount\(ulong\)
 
@@ -192,11 +193,11 @@ public (ulong U, ulong V, double Distance) GetNodeDistanceAndUVByTargetNodeCount
 
 #### Parameters
 
-`dTargetNodeCount` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`dTargetNodeCount` ulong
 
 #### Returns
 
- \([ulong](https://learn.microsoft.com/dotnet/api/system.uint64) [U](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.uint64,system.uint64,system.double\-.u), [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) [V](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.uint64,system.uint64,system.double\-.v), [double](https://learn.microsoft.com/dotnet/api/system.double) [Distance](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.uint64,system.uint64,system.double\-.distance)\)
+ \(ulong U, ulong V, double Distance\)
 
 ### <a id="VM_Models_Road_RoadFile_GetRoadMesh_System_Double_System_Boolean_System_Boolean_VM_Models_Road_RoadFile_RoadProgressCalllback_"></a> GetRoadMesh\(double, bool, bool, RoadProgressCalllback\)
 
@@ -206,17 +207,17 @@ public (Vector[] MeshPoints, int[] Connectivities) GetRoadMesh(double dTargetMes
 
 #### Parameters
 
-`dTargetMeshSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTargetMeshSize` double
 
-`bPreferQuadMesh` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bPreferQuadMesh` bool
 
-`bIncludeElementSizeInConnectivity` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIncludeElementSizeInConnectivity` bool
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
 #### Returns
 
- \(Vector\[\] [MeshPoints](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.int32\[\]\-.meshpoints), [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\] [Connectivities](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.int32\[\]\-.connectivities)\)
+ \(Vector\[\] MeshPoints, int\[\] Connectivities\)
 
 ### <a id="VM_Models_Road_RoadFile_GetRoadMeshPointsAndDeltaZsByTargetElementSize_System_UInt64__System_UInt64__System_Double_VM_Models_Road_RoadFile_RoadProgressCalllback_"></a> GetRoadMeshPointsAndDeltaZsByTargetElementSize\(out ulong, out ulong, double, RoadProgressCalllback\)
 
@@ -226,17 +227,17 @@ public (Vector[] MeshPoints, double[] DeltaZs) GetRoadMeshPointsAndDeltaZsByTarg
 
 #### Parameters
 
-`nU` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nU` ulong
 
-`nV` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nV` ulong
 
-`targetDelta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`targetDelta` double
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
 #### Returns
 
- \(Vector\[\] [MeshPoints](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.double\[\]\-.meshpoints), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\] [DeltaZs](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.double\[\]\-.deltazs)\)
+ \(Vector\[\] MeshPoints, double\[\] DeltaZs\)
 
 ### <a id="VM_Models_Road_RoadFile_GetRoadMeshPointsAndDeltaZsByUVCount_System_UInt64__System_UInt64__VM_Models_Road_RoadFile_RoadProgressCalllback_"></a> GetRoadMeshPointsAndDeltaZsByUVCount\(ref ulong, ref ulong, RoadProgressCalllback\)
 
@@ -246,15 +247,15 @@ public (Vector[] MeshPoints, double[] DeltaZs) GetRoadMeshPointsAndDeltaZsByUVCo
 
 #### Parameters
 
-`nU` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nU` ulong
 
-`nV` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nV` ulong
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
 #### Returns
 
- \(Vector\[\] [MeshPoints](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.double\[\]\-.meshpoints), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\] [DeltaZs](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.double\[\]\-.deltazs)\)
+ \(Vector\[\] MeshPoints, double\[\] DeltaZs\)
 
 ### <a id="VM_Models_Road_RoadFile_GetRoadMeshPointsAnsDeltsaZsByTargetNodeCount_System_UInt64__System_UInt64__System_UInt64_VM_Models_Road_RoadFile_RoadProgressCalllback_"></a> GetRoadMeshPointsAnsDeltsaZsByTargetNodeCount\(out ulong, out ulong, ulong, RoadProgressCalllback\)
 
@@ -264,17 +265,17 @@ public (Vector[] MeshPoints, double[] DeltaZs) GetRoadMeshPointsAnsDeltsaZsByTar
 
 #### Parameters
 
-`nU` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nU` ulong
 
-`nV` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nV` ulong
 
-`targetNodeCount` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`targetNodeCount` ulong
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
 #### Returns
 
- \(Vector\[\] [MeshPoints](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.double\[\]\-.meshpoints), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\] [DeltaZs](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.double\[\]\-.deltazs)\)
+ \(Vector\[\] MeshPoints, double\[\] DeltaZs\)
 
 ### <a id="VM_Models_Road_RoadFile_GetRoadMeshPointsByTargetElementSize_System_UInt64__System_UInt64__System_Double_VM_Models_Road_RoadFile_RoadProgressCalllback_"></a> GetRoadMeshPointsByTargetElementSize\(out ulong, out ulong, double, RoadProgressCalllback\)
 
@@ -284,11 +285,11 @@ public Vector[] GetRoadMeshPointsByTargetElementSize(out ulong nU, out ulong nV,
 
 #### Parameters
 
-`nU` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nU` ulong
 
-`nV` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nV` ulong
 
-`targetDelta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`targetDelta` double
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
@@ -304,11 +305,11 @@ public Vector[] GetRoadMeshPointsByTargetNodeCount(out ulong nU, out ulong nV, u
 
 #### Parameters
 
-`nU` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nU` ulong
 
-`nV` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nV` ulong
 
-`targetNodeCount` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`targetNodeCount` ulong
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
@@ -324,9 +325,9 @@ public Vector[] GetRoadMeshPointsByUVCount(ref ulong nU, ref ulong nV, RoadFile.
 
 #### Parameters
 
-`nU` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nU` ulong
 
-`nV` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nV` ulong
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
@@ -342,17 +343,17 @@ public (Vector[] MeshPoints, int[] Connectivities, double[] DeltaZs) GetRoadMesh
 
 #### Parameters
 
-`dTargetMeshSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTargetMeshSize` double
 
-`bPreferQuadMesh` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bPreferQuadMesh` bool
 
-`bIncludeElementSizeInConnectivity` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIncludeElementSizeInConnectivity` bool
 
 `progressCalllback` [RoadFile](VM.Models.Road.RoadFile.md).[RoadProgressCalllback](VM.Models.Road.RoadFile.RoadProgressCalllback.md)
 
 #### Returns
 
- \(Vector\[\] [MeshPoints](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.int32\[\],system.double\[\]\-.meshpoints), [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\] [Connectivities](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.int32\[\],system.double\[\]\-.connectivities), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\] [DeltaZs](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector\[\],system.int32\[\],system.double\[\]\-.deltazs)\)
+ \(Vector\[\] MeshPoints, int\[\] Connectivities, double\[\] DeltaZs\)
 
 ### <a id="VM_Models_Road_RoadFile_GetUVPointsCountByTargetPointDistance_System_Double_"></a> GetUVPointsCountByTargetPointDistance\(double\)
 
@@ -362,11 +363,11 @@ public (ulong U, ulong V) GetUVPointsCountByTargetPointDistance(double targetDis
 
 #### Parameters
 
-`targetDistanceBetweenPoints` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`targetDistanceBetweenPoints` double
 
 #### Returns
 
- \([ulong](https://learn.microsoft.com/dotnet/api/system.uint64) [U](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.uint64,system.uint64\-.u), [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) [V](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.uint64,system.uint64\-.v)\)
+ \(ulong U, ulong V\)
 
 ### <a id="VM_Models_Road_RoadFile_Initialize_VM_Models_Road_RoadFile_RoadMessageCalllback_VM_Models_Road_MessageSeverity_System_Boolean_"></a> Initialize\(RoadMessageCalllback, MessageSeverity, bool\)
 
@@ -380,7 +381,7 @@ public static void Initialize(RoadFile.RoadMessageCalllback callback, MessageSev
 
 `severity` [MessageSeverity](VM.Models.Road.MessageSeverity.md)
 
-`bDoNotUseCosinLib` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseCosinLib` bool
 
 ### <a id="VM_Models_Road_RoadFile_Open_System_String_System_Double_"></a> Open\(string, double\)
 
@@ -390,9 +391,9 @@ public static RoadFile Open(string pathRoadFile, double dLengthFactor = 1)
 
 #### Parameters
 
-`pathRoadFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathRoadFile` string
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 #### Returns
 
@@ -406,7 +407,7 @@ public static void SetCriLibPath(string pathLibCri)
 
 #### Parameters
 
-`pathLibCri` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathLibCri` string
 
 ### <a id="VM_Models_Road_RoadFile_Uninitialize"></a> Uninitialize\(\)
 

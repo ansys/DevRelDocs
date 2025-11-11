@@ -1,4 +1,5 @@
-#  Class OperationInHiddenDocument
+# Class OperationInHiddenDocument
+<a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public abstract class OperationInHiddenDocument : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md)
 
@@ -141,11 +142,11 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ## Methods
 
@@ -159,7 +160,7 @@ public override void Execute()
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_GetFullNameOfType_System_Type_"></a> GetFullNameOfType\(Type\)
 
@@ -171,13 +172,13 @@ protected string GetFullNameOfType(Type type)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_GetLoadXml_System_Object_"></a> GetLoadXml\(object\)
 
@@ -189,13 +190,13 @@ protected string GetLoadXml(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_GetObject_System_Type_System_String_"></a> GetObject\(Type, string\)
 
@@ -207,17 +208,17 @@ protected object GetObject(Type type, string strXml)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The string XML.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_UpdateActiveUserControl"></a> UpdateActiveUserControl\(\)
 

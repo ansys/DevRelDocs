@@ -1,4 +1,5 @@
-#  Enum EntitySelectionMode
+# Enum EntitySelectionMode
+<a id="VM_EntitySelectionMode"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

@@ -1,4 +1,5 @@
-#  Class IObjectExtensions
+# Class IObjectExtensions
+<a id="VM_IObjectExtensions"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.Operations.Pre.dll  
@@ -11,7 +12,7 @@ public static class IObjectExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IObjectExtensions](VM.IObjectExtensions.md)
 
 #### Extension Methods
@@ -36,11 +37,11 @@ public static void OperationSetValue(this IObject target, string propertyName, o
 
 Target
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 Member name
 
-`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value` object
 
 Value
 
@@ -58,17 +59,17 @@ public static bool TryOperationSetValue(this IObject target, string propertyName
 
 Target
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 Member name
 
-`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value` object
 
 Value
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Result
 

@@ -1,4 +1,5 @@
-#  Interface IDrawChangeFacet
+# Interface IDrawChangeFacet
+<a id="VM_Managed_Render_IDrawChangeFacet"></a>
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  
@@ -33,7 +34,7 @@ The target object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if this instance is drawable; otherwise, <code>false</code>.
 

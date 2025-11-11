@@ -1,4 +1,5 @@
-#  Class DesignSubEntity
+# Class DesignSubEntity
+<a id="VM_Managed_DesignSubEntity"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,9 +12,9 @@ public abstract class DesignSubEntity : SubEntity, IObservableObject, IDisposabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 [SubEntity](VM.Managed.SubEntity.md) ← 
@@ -32,7 +33,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 INamed, 
 INavigatorItem, 
@@ -158,7 +159,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -197,11 +198,11 @@ protected DesignSubEntity(string strProxyName, string strBuildInfo)
 
 #### Parameters
 
-`strProxyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strProxyName` string
 
 Name of the proxy.
 
-`strBuildInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuildInfo` string
 
 The build information.
 
@@ -215,7 +216,7 @@ protected DesignSubEntity(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the design subentity.
 
@@ -231,7 +232,7 @@ public static Dictionary<DesignSubEntity, object> g_dicUpdatedDesignSubEntity
 
 #### Field Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[DesignSubEntity](VM.Managed.DesignSubEntity.md), [object](https://learn.microsoft.com/dotnet/api/system.object)\>
+ Dictionary<[DesignSubEntity](VM.Managed.DesignSubEntity.md), object\>
 
 ### <a id="VM_Managed_DesignSubEntity_m_bSkipToUpdateSymmetric"></a> m\_bSkipToUpdateSymmetric
 
@@ -241,7 +242,7 @@ protected bool m_bSkipToUpdateSymmetric
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -255,7 +256,7 @@ public bool IsInterface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -291,7 +292,7 @@ public bool CheckCircularReference()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DesignSubEntity_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
@@ -309,7 +310,7 @@ The old object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

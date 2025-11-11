@@ -1,4 +1,5 @@
-#  Class BallPlacingAPI
+# Class BallPlacingAPI
+<a id="VM_API_Pre_Links_BallPlacingAPI"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +12,7 @@ public static class BallPlacingAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BallPlacingAPI](VM.API.Pre.Links.BallPlacingAPI.md)
 
 #### Extension Methods
@@ -32,23 +33,23 @@ public static Obj CreateBall(BallInfo ballInfo)
 
 #### Parameters
 
-`ballInfo` BallInfo
+`ballInfo` [BallInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOPBallPlacing/BallInfo.cs)
 
 The ball information to create ball.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the Name of 'ballInfo' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the Radius of 'ballInfo' is equal to or less than 0.
 
@@ -64,11 +65,11 @@ public static Obj CreateBallPlacing(this SubSystemDocument document, string path
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the ball placing.
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 The path to create the ball placing.
 
@@ -76,47 +77,47 @@ The path to create the ball placing.
 
 The path type. The default value is Closed.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.BallPlacing" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BallPlacing_' will be generated and used.
 
-`ballRadius` ExpressionValueVariable?
+`ballRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball radius. The default value is 2.
 
-`numberOfBall` ExpressionValueVariable?
+`numberOfBall` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The number of ball. The default value is 25.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color. The default value is '0xAAAABF'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.BallPlacing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'body' are null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'path' file path does not exist.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the extension of 'path' is not 'csv'.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'ballRadius' value equal to or less than 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'numberOfBall' is less than 2 or greater than 999.
 
@@ -133,35 +134,35 @@ public static Obj CreateBallPlacingContact(this SubSystemDocument document, IEnu
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the ball placing contact.
 
-`baseGeometries` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`baseGeometries` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The base geometries.
 
-`ballPlacing` Obj
+`ballPlacing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The ball placing.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.BallPlacingContact" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BallPlacingContact_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.BallPlacingContact" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseGeometries', 'ballPlacing', 'ballPlacing' are null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'baseGeometries' is not <xref href="VM.Managed.DAFUL.IContactable" data-throw-if-not-resolved="false"></xref>.
 
@@ -175,7 +176,7 @@ public static Obj CreateBallScrew(this SubSystemDocument document, Vector shaftR
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `shaftReferencePosition` Vector
 
@@ -183,39 +184,39 @@ public static Obj CreateBallScrew(this SubSystemDocument document, Vector shaftR
 
 `axisX` Vector
 
-`shaftLength` ExpressionValueVariable?
+`shaftLength` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`shaftScrewStartAngle` ExpressionValueVariable?
+`shaftScrewStartAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`shaftScrewStartPosition` ExpressionValueVariable?
+`shaftScrewStartPosition` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`shaftScrewEndPosition` ExpressionValueVariable?
+`shaftScrewEndPosition` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`nutLength` ExpressionValueVariable?
+`nutLength` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`nutOD` ExpressionValueVariable?
+`nutOD` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`nutStartPosition` ExpressionValueVariable?
+`nutStartPosition` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`nutScrewStartPosition` ExpressionValueVariable?
+`nutScrewStartPosition` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`nutScrewEndPosition` ExpressionValueVariable?
+`nutScrewEndPosition` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 `handOfScrew` [ScrewHandType](VM.API.Pre.Links.ScrewHandType.md)
 
-`lead` ExpressionValueVariable?
+`lead` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`shaftPCD` ExpressionValueVariable?
+`shaftPCD` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`nutPCD` ExpressionValueVariable?
+`nutPCD` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`ballDiameter` ExpressionValueVariable?
+`ballDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 ### <a id="VM_API_Pre_Links_BallPlacingAPI_CreateSurfaceWithCurvesets_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateSurfaceWithCurvesets\(SubSystemDocument, string, Obj, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
@@ -231,75 +232,75 @@ public static Obj CreateSurfaceWithCurvesets(this SubSystemDocument document, st
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the surface with curvesets.
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 The path to create the surface with curvesets.
 
-`faceSet` Obj
+`faceSet` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The face set.
 
-`startCurveSet` Obj
+`startCurveSet` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start curveset.
 
-`endCurveSet` Obj
+`endCurveSet` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The end curveset.
 
-`numberOfSlice` ExpressionValueVariable?
+`numberOfSlice` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The number of slice. The default value is 19.
 
-`cuttingPlaneRadius` ExpressionValueVariable?
+`cuttingPlaneRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The radius of cutting plane. The default value is 10.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.SurfaceWithCurvesets" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'Surface_With_Curvesets_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.SurfaceWithCurvesets" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'faceSet', 'startCurveSet', 'endCurveSet' are null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'path' file path does not exist.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the extension of 'path' is not 'csv'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if Object of 'startCurveSet' and Object of 'endCurveSet' are the same.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'faceSet' is not <xref href="VM.Managed.DAFUL.SetFace" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'startCurveSet' is not <xref href="VM.Managed.DAFUL.SetCurveForEdges" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'endCurveSet' is not <xref href="VM.Managed.DAFUL.SetCurveForEdges" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'numberOfSlice', 'cuttingPlaneRadius' values equal to or less than 0.
 
@@ -315,17 +316,17 @@ public static void DeleteBall(Obj ball)
 
 #### Parameters
 
-`ball` Obj
+`ball` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The ball to delete ball.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'ball' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'ball' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -341,29 +342,29 @@ public static void UpdateBall(Obj ball, BallInfo ballInfo)
 
 #### Parameters
 
-`ball` Obj
+`ball` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The ball to update ball.
 
-`ballInfo` BallInfo
+`ballInfo` [BallInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOPBallPlacing/BallInfo.cs)
 
 The ball information to update ball.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'ball' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'ball' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the Name of 'ballInfo' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the Radius of 'ballInfo' is equal to or less than 0.
 
@@ -379,25 +380,25 @@ public static void UpdateFaceSet(Obj faceset, ExpressionValueVariable maximumPen
 
 #### Parameters
 
-`faceset` Obj
+`faceset` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The faceset to update ball.
 
-`maximumPenetration` ExpressionValueVariable
+`maximumPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The maximum penetration.
 
-`offset` ExpressionValueVariable
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The offset.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'faceset' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'faceset' is not <xref href="VM.Managed.DAFUL.SetFace" data-throw-if-not-resolved="false"></xref>.
 
@@ -413,33 +414,33 @@ public static void UpdateSurfaceWithCurvesets(this Obj surfaceWithCurvesets, Exp
 
 #### Parameters
 
-`surfaceWithCurvesets` Obj
+`surfaceWithCurvesets` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The surface with curvesets to update ball.
 
-`maximumPenetration` ExpressionValueVariable
+`maximumPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The maximum penetration.
 
-`offset` ExpressionValueVariable
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The offset.
 
-`isUp` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isUp` bool
 
 The flag for up or down.
 
-`slice` ExpressionValueVariable
+`slice` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The slice.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'surfaceWithCurvesets' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'surfaceWithCurvesets' is not <xref href="VM.Managed.DAFUL.SurfaceWithCurvesets" data-throw-if-not-resolved="false"></xref>.
 

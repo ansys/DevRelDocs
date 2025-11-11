@@ -1,4 +1,5 @@
-#  Class HandledDocument
+# Class HandledDocument
+<a id="VM_Managed_HandledDocument"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public abstract class HandledDocument : Document, IObservableObject, IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Container](VM.Managed.Container.md) ← 
 [Document](VM.Managed.Document.md) ← 
@@ -32,7 +33,7 @@ ILinkable,
 [IVerifiable](VM.Managed.IVerifiable.md), 
 [IEnableManager](VM.Managed.IEnableManager.md), 
 [IRelatedDocument](VM.Managed.IRelatedDocument.md), 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IHandledDocument, 
 IDocument, 
 IObject, 
@@ -238,7 +239,7 @@ IHasID
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -269,7 +270,7 @@ protected HandledDocument(UIntPtr pDocHandle)
 
 #### Parameters
 
-`pDocHandle` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pDocHandle` UIntPtr
 
 The document handle.
 
@@ -283,7 +284,7 @@ public static bool DoNotCheckHandleWhenCreate { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_HandledDocument_Handle"></a> Handle
 
@@ -295,7 +296,7 @@ public virtual UIntPtr Handle { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ## Methods
 
@@ -321,7 +322,7 @@ protected void CancelSelectedFaceset(bool bLock)
 
 #### Parameters
 
-`bLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bLock` bool
 
 ### <a id="VM_Managed_HandledDocument_CancelSelection_System_Boolean_System_Boolean_"></a> CancelSelection\(bool, bool\)
 
@@ -333,11 +334,11 @@ public override void CancelSelection(bool bLock, bool bUnHighlight)
 
 #### Parameters
 
-`bLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bLock` bool
 
 Thread lock flag.
 
-`bUnHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUnHighlight` bool
 
 ### <a id="VM_Managed_HandledDocument_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
@@ -348,7 +349,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_HandledDocument_ExitCommandMode"></a> ExitCommandMode\(\)
 
@@ -368,7 +369,7 @@ public static HandledDocument FromHandle(UIntPtr pHandle)
 
 #### Parameters
 
-`pHandle` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pHandle` UIntPtr
 
 The document handle.
 
@@ -386,7 +387,7 @@ protected override void OnDeserialization(object obSender)
 
 #### Parameters
 
-`obSender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obSender` object
 
 The sender.
 
@@ -408,7 +409,7 @@ protected virtual void SetHandle(UIntPtr pDocHandle)
 
 #### Parameters
 
-`pDocHandle` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pDocHandle` UIntPtr
 
 The document handle.
 

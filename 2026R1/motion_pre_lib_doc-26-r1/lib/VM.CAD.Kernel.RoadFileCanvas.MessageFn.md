@@ -1,4 +1,5 @@
-#  Delegate RoadFileCanvas.MessageFn
+# Delegate RoadFileCanvas.MessageFn
+<a id="VM_CAD_Kernel_RoadFileCanvas_MessageFn"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,9 +10,9 @@ public delegate void RoadFileCanvas.MessageFn(int severety, string message)
 
 #### Parameters
 
-`severety` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`severety` int
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
 #### Extension Methods
 

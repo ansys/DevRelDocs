@@ -1,4 +1,5 @@
-#  Class CreateDTEntityUtil.GearSetCycloidPinCreateInfo
+# Class CreateDTEntityUtil.GearSetCycloidPinCreateInfo
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class CreateDTEntityUtil.GearSetCycloidPinCreateInfo : CreateDTEntityUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDTEntityUtil.GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md) ← 
 [CreateDTEntityUtil.GearSetCycloidPinCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCycloidPinCreateInfo.md)
 
@@ -68,7 +69,7 @@ public string CycloidProfile
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_EccentricityOfGear"></a> EccentricityOfGear
 
@@ -78,7 +79,7 @@ public double EccentricityOfGear
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_PinDiameterOfGear"></a> PinDiameterOfGear
 
@@ -88,7 +89,7 @@ public double PinDiameterOfGear
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_PinPitchOfGear"></a> PinPitchOfGear
 
@@ -98,7 +99,7 @@ public double PinPitchOfGear
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Properties
 
@@ -110,7 +111,7 @@ public string[] InputArrayForCycloidPin { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -122,5 +123,5 @@ public void InitializeCycloidPin(string strProfilePath)
 
 #### Parameters
 
-`strProfilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strProfilePath` string
 

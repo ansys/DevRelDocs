@@ -1,4 +1,5 @@
-#  Class LeafBeamGroupBuilder
+# Class LeafBeamGroupBuilder
+<a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder"></a>
 
 Namespace: [VM.Builders.Pre.Force](VM.Builders.Pre.Force.md)  
 Assembly: VM.Operations.Pre.Force.dll  
@@ -9,12 +10,12 @@ public class LeafBeamGroupBuilder : BuilderBeamGroupMultiplePoints, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<BeamGroup\> ← 
-BuilderSymmetric<BeamGroup\> ← 
-BuilderNamed<BeamGroup\> ← 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\> ← 
-BuilderBeamGroupMultiplePoints ← 
+object ← 
+[BuilderBase<BeamGroup\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<BeamGroup\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<BeamGroup\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs) ← 
+[BuilderBeamGroupMultiplePoints](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs) ← 
 [LeafBeamGroupBuilder](VM.Builders.Pre.Force.LeafBeamGroupBuilder.md)
 
 #### Implements
@@ -23,43 +24,43 @@ IBuilder
 
 #### Inherited Members
 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.Validate\(IList<string\>\), 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.GetBeamGroupBodyName\(Document, string, int\), 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.SetInputResultData\(\), 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.BeamGroupInfo, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.BeamCrossSection, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.NoOfElements, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.MaterialProperty, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.Color, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.AddToDoc, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.m\_bldrBeamInfoAry, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.UseCustomize, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.ResultBeamGroup, 
-BuilderBeamGroupMultiplePointsBase<BeamGroup\>.ResultSolidBodies, 
-BuilderNamed<BeamGroup\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<BeamGroup\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<BeamGroup\>.Name, 
-BuilderSymmetric<BeamGroup\>.Build\(Document\), 
-BuilderSymmetric<BeamGroup\>.Symmetric, 
-BuilderSymmetric<BeamGroup\>.CurrentSymmetric, 
-BuilderBase<BeamGroup\>.m\_bSuccess, 
-BuilderBase<BeamGroup\>.Build\(Document\), 
-BuilderBase<BeamGroup\>.Build\(Document, List<string\>\), 
-BuilderBase<BeamGroup\>.Validate\(IList<string\>\), 
-BuilderBase<BeamGroup\>.Success\(\), 
-BuilderBase<BeamGroup\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<BeamGroup\>.OnFinalBuild\(string, Document\), 
-BuilderBase<BeamGroup\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<BeamGroup\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<BeamGroup\>.Parameters, 
-BuilderBase<BeamGroup\>.AddToDoc, 
-BuilderBase<BeamGroup\>.UseChangedObject, 
-BuilderBase<BeamGroup\>.SetPointKey, 
-BuilderBase<BeamGroup\>.BuildObject, 
-BuilderBase<BeamGroup\>.BuildDocument, 
-BuilderBase<BeamGroup\>.UseInterface, 
-BuilderBase<BeamGroup\>.ErrorMessage
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.GetBeamGroupBodyName\(Document, string, int\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.SetInputResultData\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.BeamGroupInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.BeamCrossSection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.NoOfElements](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.MaterialProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.Color](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.m\_bldrBeamInfoAry](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.UseCustomize](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.ResultBeamGroup](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderBeamGroupMultiplePointsBase<BeamGroup\>.ResultSolidBodies](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldBeamGroup/BuilderBeamGroupMultiplePoints.cs), 
+[BuilderNamed<BeamGroup\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<BeamGroup\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<BeamGroup\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<BeamGroup\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<BeamGroup\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<BeamGroup\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -77,7 +78,7 @@ public LeafBeamGroupBuilder(Leaf leaf, LeafInfo leafInfo, Vector[] positions = n
 
 #### Parameters
 
-`leaf` Leaf
+`leaf` [Leaf](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/Leaf.Linker.cs)
 
 `leafInfo` LeafInfo
 
@@ -85,7 +86,7 @@ public LeafBeamGroupBuilder(Leaf leaf, LeafInfo leafInfo, Vector[] positions = n
 
 `repositionMatrix` TMatrix
 
-`useCustomize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useCustomize` bool
 
 ## Properties
 
@@ -97,7 +98,7 @@ public Leaf Leaf { get; }
 
 #### Property Value
 
- Leaf
+ [Leaf](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/Leaf.Linker.cs)
 
 ### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_LeafInfo"></a> LeafInfo
 
@@ -141,13 +142,13 @@ protected override string GetBeamGroupBodyName(Document document, string beamGro
 
 `document` Document
 
-`beamGroupName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`beamGroupName` string
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_SetInputResultData"></a> SetInputResultData\(\)
 
@@ -157,5 +158,5 @@ protected override bool SetInputResultData()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Class ObjectBaseFEImportEvent
+# Class ObjectBaseFEImportEvent
+<a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEImportEvent"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -11,9 +12,9 @@ public class ObjectBaseFEImportEvent : SerializableFEDisplayObjectModifiedEvent
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryEvent ← 
-SerializableObjectModifiedEvent ← 
+object ← 
+[HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs) ← 
+[SerializableObjectModifiedEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs) ← 
 SerializableObjectBaseModifiedEventBase ← 
 SerializableObjectBaseModifiedEvent ← 
 SerializableFEDisplayObjectModifiedEvent ← 
@@ -37,29 +38,29 @@ SerializableObjectBaseModifiedEventBase.Dispose\(bool\),
 SerializableObjectBaseModifiedEventBase.Dispose\(\), 
 SerializableObjectBaseModifiedEventBase.InitialBackup, 
 SerializableObjectBaseModifiedEventBase.ObjectDelegateKey, 
-SerializableObjectModifiedEvent.Undo\(HistoryEventArgs\), 
-SerializableObjectModifiedEvent.Redo\(HistoryEventArgs\), 
-SerializableObjectModifiedEvent.Clear\(bool\), 
-SerializableObjectModifiedEvent.ReplaceBackupData\(byte\[\], IHistoryObjectSerializableDelegate\), 
-SerializableObjectModifiedEvent.SetObjectDelegate\(IHistoryObjectSerializableDelegate\), 
-SerializableObjectModifiedEvent.Modified\(object\), 
-SerializableObjectModifiedEvent.ObjectDelegate, 
-SerializableObjectModifiedEvent.Backup, 
-SerializableObjectModifiedEvent.IsBackup, 
-SerializableObjectModifiedEvent.Context, 
-SerializableObjectModifiedEvent.SurrogateSelector, 
-SerializableObjectModifiedEvent.DoingUndoRedoSerialize, 
-HistoryEvent.ClearEvent\(bool\), 
-HistoryEvent.Undo\(HistoryEventArgs\), 
-HistoryEvent.Redo\(HistoryEventArgs\), 
-HistoryEvent.Clear\(bool\), 
-HistoryEvent.BeforeUndo\(HistoryEventArgs\), 
-HistoryEvent.AfterUndo\(HistoryEventArgs\), 
-HistoryEvent.BeforeRedo\(HistoryEventArgs\), 
-HistoryEvent.AfterRedo\(HistoryEventArgs\), 
-HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\), 
-HistoryEvent.AfterAdded\(HistoryEventArgs\), 
-HistoryEvent.IsValid
+[SerializableObjectModifiedEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.ReplaceBackupData\(byte\[\], IHistoryObjectSerializableDelegate\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.SetObjectDelegate\(IHistoryObjectSerializableDelegate\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.Modified\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.ObjectDelegate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.Backup](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.IsBackup](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.Context](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.SurrogateSelector](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[SerializableObjectModifiedEvent.DoingUndoRedoSerialize](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/SerializableObjectModifiedEvent.cs), 
+[HistoryEvent.ClearEvent\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterAdded\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 #### Extension Methods
 
@@ -77,5 +78,5 @@ public ObjectBaseFEImportEvent(object obOriginal)
 
 #### Parameters
 
-`obOriginal` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obOriginal` object
 

@@ -1,4 +1,5 @@
-#  Class MotorDesignAPI
+# Class MotorDesignAPI
+<a id="VM_API_Pre_GearTrain_MotorDesignAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class MotorDesignAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MotorDesignAPI](VM.API.Pre.GearTrain.MotorDesignAPI.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public static Obj CreateMotorDesigner(this GearTrainDocument document, Vector po
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the <xref href="VM.Managed.DSDL.DAFUL.GearTrain.MotorDesigner" data-throw-if-not-resolved="false"></xref>..
 
@@ -46,31 +47,31 @@ The position of the motor designer.
 
 The rotate axis of the motor designer.
 
-`housingType` MotorDesigner.HousingType
+`housingType` [MotorDesigner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/MotorDesigner.cs).[HousingType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/MotorDesigner.cs)
 
 The housing type of the motor designer.
 
-`statorMountingType` MotorDesigner.StatorMountingType
+`statorMountingType` [MotorDesigner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/MotorDesigner.cs).[StatorMountingType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/MotorDesigner.cs)
 
 The stator mounting type of the motor designer.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the motor designer.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DSDL.DAFUL.GearTrain.MotorDesigner" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'rotateAxis' is 0.
 

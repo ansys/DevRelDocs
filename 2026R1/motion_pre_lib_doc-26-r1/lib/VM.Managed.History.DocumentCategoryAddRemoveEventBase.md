@@ -1,4 +1,5 @@
-#  Class DocumentCategoryAddRemoveEventBase
+# Class DocumentCategoryAddRemoveEventBase
+<a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -9,8 +10,8 @@ public abstract class DocumentCategoryAddRemoveEventBase : HistoryEvent
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryEvent ← 
+object ← 
+[HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs) ← 
 [DocumentCategoryAddRemoveEventBase](VM.Managed.History.DocumentCategoryAddRemoveEventBase.md)
 
 #### Derived
@@ -20,17 +21,17 @@ HistoryEvent ←
 
 #### Inherited Members
 
-HistoryEvent.ClearEvent\(bool\), 
-HistoryEvent.Undo\(HistoryEventArgs\), 
-HistoryEvent.Redo\(HistoryEventArgs\), 
-HistoryEvent.Clear\(bool\), 
-HistoryEvent.BeforeUndo\(HistoryEventArgs\), 
-HistoryEvent.AfterUndo\(HistoryEventArgs\), 
-HistoryEvent.BeforeRedo\(HistoryEventArgs\), 
-HistoryEvent.AfterRedo\(HistoryEventArgs\), 
-HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\), 
-HistoryEvent.AfterAdded\(HistoryEventArgs\), 
-HistoryEvent.IsValid
+[HistoryEvent.ClearEvent\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterAdded\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 #### Extension Methods
 
@@ -86,7 +87,7 @@ protected UIntPtr m_objAfterKey
 
 #### Field Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_m_objKey"></a> m\_objKey
 
@@ -96,7 +97,7 @@ protected UIntPtr m_objKey
 
 #### Field Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ## Methods
 
@@ -110,7 +111,7 @@ public static void AddEventCore(IDocument doc, HistoryEvent eventHist)
 
 `doc` IDocument
 
-`eventHist` HistoryEvent
+`eventHist` [HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 ### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
 
@@ -120,7 +121,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 #### Parameters
 
-`bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReserveReferenceCount` bool
 
 ### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_GetObjectFromKey_System_UIntPtr_"></a> GetObjectFromKey\(UIntPtr\)
 
@@ -130,7 +131,7 @@ protected ObjectBase GetObjectFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 
@@ -148,5 +149,5 @@ public static bool IsAvailableEvent(IDocument doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Class BuilderParamLink
+# Class BuilderParamLink
+<a id="VM_CAD_Builders_Links_BuilderParamLink"></a>
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -11,10 +12,10 @@ public class BuilderParamLink : BuilderParamTransform
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderParamBase ← 
-BuilderParamColorGeom ← 
-BuilderParamTransform ← 
+object ← 
+[BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs) ← 
+[BuilderParamColorGeom](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamColorGeom.cs) ← 
+[BuilderParamTransform](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamTransform.cs) ← 
 [BuilderParamLink](VM.CAD.Builders.Links.BuilderParamLink.md)
 
 #### Derived
@@ -24,14 +25,14 @@ BuilderParamTransform ←
 
 #### Inherited Members
 
-BuilderParamTransform.Transform, 
-BuilderParamColorGeom.Color, 
-BuilderParamBase.ToXmlString\(\), 
-BuilderParamBase.FinalizeParameter\(\), 
-BuilderParamBase.SetTypeName\(\), 
-BuilderParamBase.Key, 
-BuilderParamBase.TypeName, 
-BuilderParamBase.Transparency
+[BuilderParamTransform.Transform](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamTransform.cs), 
+[BuilderParamColorGeom.Color](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamColorGeom.cs), 
+[BuilderParamBase.ToXmlString\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.FinalizeParameter\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.SetTypeName\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.Key](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.TypeName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.Transparency](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 #### Extension Methods
 
@@ -67,7 +68,7 @@ public double InnerGauge { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkGeometry"></a> LinkGeometry
 
@@ -77,7 +78,7 @@ public BuilderParamMultiUnite LinkGeometry { get; set; }
 
 #### Property Value
 
- BuilderParamMultiUnite
+ [BuilderParamMultiUnite](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamMultiUnite.cs)
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkHeight1"></a> LinkHeight1
 
@@ -87,7 +88,7 @@ public double LinkHeight1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkHeight2"></a> LinkHeight2
 
@@ -97,7 +98,7 @@ public double LinkHeight2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkPitch"></a> LinkPitch
 
@@ -107,7 +108,7 @@ public double LinkPitch { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkTransform"></a> LinkTransform
 
@@ -137,7 +138,7 @@ public double OuterGauge { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_PinBooleanType"></a> PinBooleanType
 
@@ -157,7 +158,7 @@ public double PinDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_PinWidth"></a> PinWidth
 
@@ -167,7 +168,7 @@ public double PinWidth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -179,11 +180,11 @@ protected void AddCylinder(double diameter, double xPosition, double zPosition, 
 
 #### Parameters
 
-`diameter` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`diameter` double
 
-`xPosition` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`xPosition` double
 
-`zPosition` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`zPosition` double
 
 `booleanType` [BooleanType](VM.CAD.Builders.Links.BooleanType.md)
 
@@ -195,7 +196,7 @@ public void AddSubtractBuilderParam(BuilderParamBase builderParam)
 
 #### Parameters
 
-`builderParam` BuilderParamBase
+`builderParam` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddSubtractBuilderParam_System_Collections_Generic_IEnumerable_VM_CAD_Builders_BuilderParamBase__"></a> AddSubtractBuilderParam\(IEnumerable<BuilderParamBase\>\)
 
@@ -205,7 +206,7 @@ public void AddSubtractBuilderParam(IEnumerable<BuilderParamBase> builderParams)
 
 #### Parameters
 
-`builderParams` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<BuilderParamBase\>
+`builderParams` IEnumerable<[BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)\>
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddUniteBuilderParam_VM_CAD_Builders_BuilderParamBase_"></a> AddUniteBuilderParam\(BuilderParamBase\)
 
@@ -215,7 +216,7 @@ public void AddUniteBuilderParam(BuilderParamBase builderParam)
 
 #### Parameters
 
-`builderParam` BuilderParamBase
+`builderParam` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddUniteBuilderParam_System_Collections_Generic_IEnumerable_VM_CAD_Builders_BuilderParamBase__"></a> AddUniteBuilderParam\(IEnumerable<BuilderParamBase\>\)
 
@@ -225,5 +226,5 @@ public void AddUniteBuilderParam(IEnumerable<BuilderParamBase> builderParams)
 
 #### Parameters
 
-`builderParams` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<BuilderParamBase\>
+`builderParams` IEnumerable<[BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)\>
 

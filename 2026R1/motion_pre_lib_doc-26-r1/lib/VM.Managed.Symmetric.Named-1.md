@@ -1,4 +1,5 @@
-#  Class Named<T\>
+# Class Named<T\>
+<a id="VM_Managed_Symmetric_Named_1"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -13,7 +14,7 @@ public class Named<T> : ISymmetricUpdater where T : INamed
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Named<T\>](VM.Managed.Symmetric.Named\-1.md)
 
 #### Implements
@@ -56,7 +57,7 @@ protected static object FindObject(string strToolName, SymmetricType sym_type, P
 
 #### Parameters
 
-`strToolName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strToolName` string
 
 `sym_type` SymmetricType
 
@@ -66,7 +67,7 @@ protected static object FindObject(string strToolName, SymmetricType sym_type, P
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_Symmetric_Named_1_Initialize_VM_Managed_Symmetric_ISymmetricManager_"></a> Initialize\(ISymmetricManager\)
 
@@ -82,7 +83,7 @@ public virtual bool Initialize(ISymmetricManager Manager)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -116,7 +117,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

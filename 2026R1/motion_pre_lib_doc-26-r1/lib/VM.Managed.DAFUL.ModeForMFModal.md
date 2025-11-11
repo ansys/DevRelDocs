@@ -1,4 +1,5 @@
-#  Class ModeForMFModal
+# Class ModeForMFModal
+<a id="VM_Managed_DAFUL_ModeForMFModal"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public class ModeForMFModal
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public ModeForMFModal(double dEigenvalue)
 
 #### Parameters
 
-`dEigenvalue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEigenvalue` double
 
 The d eigenvalue.
 
@@ -54,15 +55,15 @@ public ModeForMFModal(double dEigenvalue, double dDamping, bool bUse)
 
 #### Parameters
 
-`dEigenvalue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEigenvalue` double
 
 The d eigenvalue.
 
-`dDamping` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDamping` double
 
 The d damping.
 
-`bUse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUse` bool
 
 if set to <code>true</code> [b use].
 
@@ -78,7 +79,7 @@ public double Damping { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_ModeForMFModal_Eigenvalue"></a> Eigenvalue
 
@@ -90,7 +91,7 @@ public double Eigenvalue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_ModeForMFModal_Use"></a> Use
 
@@ -102,7 +103,7 @@ public bool Use { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -116,7 +117,7 @@ public static ModeForMFModal.DFMFUIInfo GetDFMFInfo(string strDFMFFile)
 
 #### Parameters
 
-`strDFMFFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFMFFile` string
 
 The string DFMF file.
 
@@ -134,13 +135,13 @@ public static double[] GetMassPropFromDFMFFile(string strDFMFFile)
 
 #### Parameters
 
-`strDFMFFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFMFFile` string
 
 The string DFMF file.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_ModeForMFModal_GetModesFromDFMFFile_System_String_"></a> GetModesFromDFMFFile\(string\)
 
@@ -152,7 +153,7 @@ public static ModeForMFModal[] GetModesFromDFMFFile(string strDFMFFile)
 
 #### Parameters
 
-`strDFMFFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFMFFile` string
 
 The string DFMF file.
 
@@ -170,5 +171,5 @@ public string GetXMLInformation()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

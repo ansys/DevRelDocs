@@ -1,4 +1,5 @@
-#  Interface INodalOutputContainer
+# Interface INodalOutputContainer
+<a id="VM_Managed_INodalOutputContainer"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -25,5 +26,5 @@ void GetNodalOutputCandidate(List<INodalOutputCandidate> lstNodalOutputCandidate
 
 #### Parameters
 
-`lstNodalOutputCandidate` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[INodalOutputCandidate](VM.Managed.INodalOutputCandidate.md)\>
+`lstNodalOutputCandidate` List<[INodalOutputCandidate](VM.Managed.INodalOutputCandidate.md)\>
 

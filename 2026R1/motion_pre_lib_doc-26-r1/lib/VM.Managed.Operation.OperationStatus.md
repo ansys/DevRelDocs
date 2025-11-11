@@ -1,4 +1,5 @@
-#  Enum OperationStatus
+# Enum OperationStatus
+<a id="VM_Managed_Operation_OperationStatus"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

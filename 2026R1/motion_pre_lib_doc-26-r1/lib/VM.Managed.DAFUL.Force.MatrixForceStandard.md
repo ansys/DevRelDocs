@@ -1,4 +1,5 @@
-#  Class MatrixForceStandard
+# Class MatrixForceStandard
+<a id="VM_Managed_DAFUL_Force_MatrixForceStandard"></a>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -11,9 +12,9 @@ public sealed class MatrixForceStandard : MatrixForceFunction, IObservableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MatrixForceFunction](VM.Managed.DAFUL.Force.MatrixForceFunction.md) ← 
 [MatrixForceStandard](VM.Managed.DAFUL.Force.MatrixForceStandard.md)
@@ -127,7 +128,7 @@ public double[] MatCRR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_MatCRT"></a> MatCRT
 
@@ -139,7 +140,7 @@ public double[] MatCRT { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_MatCTR"></a> MatCTR
 
@@ -151,7 +152,7 @@ public double[] MatCTR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_MatCTT"></a> MatCTT
 
@@ -163,7 +164,7 @@ public double[] MatCTT { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_MatKRR"></a> MatKRR
 
@@ -175,7 +176,7 @@ public double[] MatKRR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_MatKRT"></a> MatKRT
 
@@ -187,7 +188,7 @@ public double[] MatKRT { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_MatKTR"></a> MatKTR
 
@@ -199,7 +200,7 @@ public double[] MatKTR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_MatKTT"></a> MatKTT
 
@@ -211,7 +212,7 @@ public double[] MatKTT { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_PreLoad"></a> PreLoad
 
@@ -223,7 +224,7 @@ public double[] PreLoad { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_PreTorque"></a> PreTorque
 
@@ -235,7 +236,7 @@ public double[] PreTorque { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_Ratio"></a> Ratio
 
@@ -247,7 +248,7 @@ public ExpressionValueVariable Ratio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_MatrixForceStandard_Type"></a> Type
 
@@ -287,7 +288,7 @@ public override void ReadTemplate(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -301,7 +302,7 @@ public override void WriteTemplate(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

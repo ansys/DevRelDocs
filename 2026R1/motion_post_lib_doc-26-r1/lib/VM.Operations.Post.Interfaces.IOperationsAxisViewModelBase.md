@@ -1,11 +1,12 @@
-#  Interface IOperationsAxisViewModelBase
+# Interface IOperationsAxisViewModelBase
+<a id="VM_Operations_Post_Interfaces_IOperationsAxisViewModelBase"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Interface representing common information for an axis view model.
 
-```python
+```csharp
 public interface IOperationsAxisViewModelBase
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsAxisViewModelBase
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsAxisViewModelBase.py
+```python
+# IOperationsAxisViewModelBase.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,12 +37,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set Background
@@ -52,7 +61,7 @@ page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -60,13 +69,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the title of the axis.
 
-```python
+```csharp
 string Title { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -80,13 +89,13 @@ Use this property to specify or retrieve the title of the axis.
 
 Gets or sets the font size of the title.
 
-```python
+```csharp
 double TitleSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -100,13 +109,13 @@ Use this property to specify or retrieve the font size of the title.
 
 Gets or sets the font weight of the title.
 
-```python
+```csharp
 FontWeight TitleWeight { get; set; }
 ```
 
 #### Property Value
 
- [FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.fontweight)
+ FontWeight
 
 #### Examples
 
@@ -117,5 +126,4 @@ For an example that includes this property, see the [Interface IOperationsAxisVi
 Use this property to specify or retrieve the font weight of the title.
 The available options are:
 <ul><li><xref href="System.Windows.FontWeights.Bold" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontWeights.Normal" data-throw-if-not-resolved="false"></xref></li></ul>
-
 

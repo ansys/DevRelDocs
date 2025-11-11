@@ -1,4 +1,5 @@
-#  Class SimulationRun
+# Class SimulationRun
+<a id="VM_Managed_DAFUL_Operation_SimulationRun"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class SimulationRun : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SimulationRun](VM.Managed.DAFUL.Operation.SimulationRun.md)
 
@@ -20,6 +21,7 @@ OperationBase ←
 [ConfigModify](VM.Managed.DAFUL.Operation.ConfigModify.md), 
 [ExportDFG](VM.Managed.DAFUL.Operation.ExportDFG.md), 
 [ExportDFS](VM.Managed.DAFUL.Operation.ExportDFS.md), 
+[ExportFiles](VM.Managed.DAFUL.Operation.ExportFiles.md), 
 [ExportXML](VM.Managed.DAFUL.Operation.ExportXML.md), 
 [ShowSimulationDlg](VM.Managed.DAFUL.Operation.ShowSimulationDlg.md)
 
@@ -121,7 +123,7 @@ public SimulationRun(Document doc, string strSimPar)
 
 `doc` Document
 
-`strSimPar` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSimPar` string
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun__ctor_VM_Managed_Document_System_String_System_String_"></a> SimulationRun\(Document, string, string\)
 
@@ -133,9 +135,9 @@ public SimulationRun(Document doc, string strSimPar, string strScenarioTypeName)
 
 `doc` Document
 
-`strSimPar` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSimPar` string
 
-`strScenarioTypeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strScenarioTypeName` string
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun__ctor_VM_Managed_Document_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> SimulationRun\(Document, SimulationParameter\)
 
@@ -159,7 +161,7 @@ protected string m_strFilePath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_m_strSimulationConfiguration"></a> m\_strSimulationConfiguration
 
@@ -169,7 +171,7 @@ protected string m_strSimulationConfiguration
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_m_strUserDefinedScenarioTypeName"></a> m\_strUserDefinedScenarioTypeName
 
@@ -179,7 +181,7 @@ protected string m_strUserDefinedScenarioTypeName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -191,7 +193,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_FormResult"></a> FormResult
 
@@ -213,7 +215,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_NotPrePareSimulation"></a> NotPrePareSimulation
 
@@ -223,7 +225,7 @@ public bool NotPrePareSimulation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimParam"></a> SimParam
 
@@ -255,7 +257,7 @@ public bool SkipCheckDirectory { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -271,7 +273,7 @@ protected virtual bool ApplySimulation(SimulationFormBase form)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_Execute"></a> Execute\(\)
 
@@ -303,7 +305,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_PrepareForm_VM_Managed_DAFUL_Pre_Forms_SimulationFormBase_"></a> PrepareForm\(SimulationFormBase\)
 
@@ -329,7 +331,7 @@ public virtual void ReadExtraJournal(XmlElement nodeArg)
 
 #### Parameters
 
-`nodeArg` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`nodeArg` XmlElement
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_ShowDialog"></a> ShowDialog\(\)
 
@@ -345,7 +347,7 @@ protected virtual void SimulationRunImpl(bool bWriteDFG)
 
 #### Parameters
 
-`bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bWriteDFG` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
@@ -367,5 +369,15 @@ public virtual void WriteExtraJournal(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
+
+### <a id="VM_Managed_DAFUL_Operation_SimulationRun_WriteJournalCore_System_String_"></a> WriteJournalCore\(string\)
+
+```csharp
+protected void WriteJournalCore(string strFilePath)
+```
+
+#### Parameters
+
+`strFilePath` string
 

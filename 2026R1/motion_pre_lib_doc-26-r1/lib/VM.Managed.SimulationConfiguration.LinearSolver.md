@@ -1,4 +1,5 @@
-#  Enum SimulationConfiguration.LinearSolver
+# Enum SimulationConfiguration.LinearSolver
+<a id="VM_Managed_SimulationConfiguration_LinearSolver"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

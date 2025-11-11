@@ -1,4 +1,5 @@
-#  Class IVisibleImpl
+# Class IVisibleImpl
+<a id="VM_Managed_IVisibleImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class IVisibleImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IVisibleImpl](VM.Managed.IVisibleImpl.md)
 
 #### Extension Methods
@@ -66,7 +67,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The visible state
 
@@ -102,7 +103,7 @@ public static void SetVisibleState(ObjectBase ob, bool bVisible)
 
 The object.
 
-`bVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bVisible` bool
 
 The visibility.
 

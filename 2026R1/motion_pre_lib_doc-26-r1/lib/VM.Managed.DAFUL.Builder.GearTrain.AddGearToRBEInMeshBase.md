@@ -1,4 +1,5 @@
-#  Class AddGearToRBEInMeshBase
+# Class AddGearToRBEInMeshBase
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public abstract class AddGearToRBEInMeshBase : AddGearEntityBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddGearEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddGearEntityBase.md) ← 
 [AddGearToRBEInMeshBase](VM.Managed.DAFUL.Builder.GearTrain.AddGearToRBEInMeshBase.md)
@@ -81,11 +82,11 @@ protected virtual GearBuilderForRBEInFE GetGearBuilder(GeometryBase gearGeom)
 
 #### Parameters
 
-`gearGeom` GeometryBase
+`gearGeom` [GeometryBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryBase.cs)
 
 #### Returns
 
- GearBuilderForRBEInFE
+ [GearBuilderForRBEInFE](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BuilderForRBEInFE.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_GetTmpGearGeometry_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Double_VM_Managed_Vector_VM_Managed_OMatrix_"></a> GetTmpGearGeometry\(GearGeometryInfo, IConnectable, HiddenDocumentMeshBase, DirectionBase, ParentType, ReferencePointType, double, Vector, OMatrix\)
 
@@ -95,19 +96,19 @@ protected virtual GeometryBase GetTmpGearGeometry(GearGeometryInfo ggInfo, IConn
 
 #### Parameters
 
-`ggInfo` GearGeometryInfo
+`ggInfo` [GearGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearGeometryInfo.cs)
 
 `con` IConnectable
 
-`hiddenDoc` HiddenDocumentMeshBase
+`hiddenDoc` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 `zAxis` DirectionBase
 
-`typeParent` GearBuilder.ParentType
+`typeParent` [GearBuilder](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearBuilder.cs).[ParentType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearBuilder.cs)
 
 `typeRP` ReferencePointType
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 `vecBearingOffset` Vector
 
@@ -115,7 +116,7 @@ protected virtual GeometryBase GetTmpGearGeometry(GearGeometryInfo ggInfo, IConn
 
 #### Returns
 
- GeometryBase
+ [GeometryBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryBase.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_RBEName_VM_Managed_DAFUL_IConnectable_"></a> RBEName\(IConnectable\)
 
@@ -129,7 +130,7 @@ protected virtual string RBEName(IConnectable con)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -139,9 +140,9 @@ public override bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

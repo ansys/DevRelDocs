@@ -1,4 +1,5 @@
-#  Class DOESolver
+# Class DOESolver
+<a id="VM_Managed_DAFUL_DOE_Result_DOESolver"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -9,7 +10,7 @@ public class DOESolver
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DOESolver](VM.Managed.DAFUL.DOE.Result.DOESolver.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public DOESolver(string[] arKey)
 
 #### Parameters
 
-`arKey` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arKey` string\[\]
 
 ## Properties
 
@@ -46,7 +47,7 @@ public List<double> Times { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ List<double\>
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOESolver_Values"></a> Values
 
@@ -56,7 +57,7 @@ public SerializableDictionary<string, List<double>> Values { get; set; }
 
 #### Property Value
 
- [SerializableDictionary](VM.Managed.DAFUL.DOE.Result.SerializableDictionary\-2.md)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
+ [SerializableDictionary](VM.Managed.DAFUL.DOE.Result.SerializableDictionary\-2.md)<string, List<double\>\>
 
 ## Methods
 
@@ -68,5 +69,5 @@ public void AddValues(string[] arValue)
 
 #### Parameters
 
-`arValue` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arValue` string\[\]
 

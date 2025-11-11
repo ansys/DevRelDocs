@@ -1,4 +1,5 @@
-#  Class AddSlidingBearingToRBEInMeshBase
+# Class AddSlidingBearingToRBEInMeshBase
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public abstract class AddSlidingBearingToRBEInMeshBase : AddEntityBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddSlidingBearingToRBEInMeshBase](VM.Managed.DAFUL.Builder.GearTrain.AddSlidingBearingToRBEInMeshBase.md)
 
@@ -78,5 +79,5 @@ protected virtual string RBEName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

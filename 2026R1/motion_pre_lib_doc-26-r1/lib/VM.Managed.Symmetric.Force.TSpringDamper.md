@@ -1,4 +1,5 @@
-#  Class TSpringDamper
+# Class TSpringDamper
+<a id="VM_Managed_Symmetric_Force_TSpringDamper"></a>
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFB.dll  
@@ -9,9 +10,9 @@ public class TSpringDamper : Force<TSpringDamper, PropertyTSpringDamper>, ISymme
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<TSpringDamper\> ← 
-Connector<TSpringDamper, PropertyTSpringDamper\> ← 
+object ← 
+[Named<TSpringDamper\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<TSpringDamper, PropertyTSpringDamper\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
 [Force<TSpringDamper, PropertyTSpringDamper\>](VM.Managed.Symmetric.Force.Force\-2.md) ← 
 [TSpringDamper](VM.Managed.Symmetric.Force.TSpringDamper.md)
 
@@ -22,11 +23,11 @@ ISymmetricUpdater
 #### Inherited Members
 
 [Force<TSpringDamper, PropertyTSpringDamper\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](VM.Managed.Symmetric.Force.Force\-2.md\#VM\_Managed\_Symmetric\_Force\_Force\_2\_Update\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_VM\_Managed\_SymmetricType\_VM\_Plane\_VM\_Managed\_Document\_), 
-Connector<TSpringDamper, PropertyTSpringDamper\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<TSpringDamper\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<TSpringDamper\>.Initialize\(ISymmetricManager\), 
-Named<TSpringDamper\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<TSpringDamper\>.SymmetricManager
+[Connector<TSpringDamper, PropertyTSpringDamper\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<TSpringDamper\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TSpringDamper\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TSpringDamper\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TSpringDamper\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

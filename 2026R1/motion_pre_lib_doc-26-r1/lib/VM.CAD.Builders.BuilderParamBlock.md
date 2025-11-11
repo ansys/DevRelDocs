@@ -1,4 +1,5 @@
-#  Class BuilderParamBlock
+# Class BuilderParamBlock
+<a id="VM_CAD_Builders_BuilderParamBlock"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public class BuilderParamBlock : BuilderParamTransform
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamTransform](VM.CAD.Builders.BuilderParamTransform.md) ← 
@@ -54,7 +55,7 @@ public double Depth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_BuilderParamBlock_Height"></a> Height
 
@@ -66,7 +67,7 @@ public double Height { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_BuilderParamBlock_Width"></a> Width
 
@@ -78,5 +79,5 @@ public double Width { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

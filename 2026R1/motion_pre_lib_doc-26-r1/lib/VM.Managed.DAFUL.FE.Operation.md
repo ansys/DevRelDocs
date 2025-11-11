@@ -1,10 +1,13 @@
-#  Namespace VM.Managed.DAFUL.FE.Operation
+# Namespace VM.Managed.DAFUL.FE.Operation
+<a id="VM_Managed_DAFUL_FE_Operation"></a>
 
 ### Classes
 
  [AddDesignPointOperation](VM.Managed.DAFUL.FE.Operation.AddDesignPointOperation.md)
 
 The design point add operation
+
+ [CalculateNewFEMass](VM.Managed.DAFUL.FE.Operation.CalculateNewFEMass.md)
 
  [ChangeNodalModalOperation](VM.Managed.DAFUL.FE.Operation.ChangeNodalModalOperation.md)
 

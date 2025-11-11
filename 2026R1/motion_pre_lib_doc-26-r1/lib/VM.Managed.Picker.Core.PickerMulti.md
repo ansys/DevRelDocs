@@ -1,4 +1,5 @@
-#  Class PickerMulti
+# Class PickerMulti
+<a id="VM_Managed_Picker_Core_PickerMulti"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class PickerMulti : PickerBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerMulti](VM.Managed.Picker.Core.PickerMulti.md)
 
@@ -76,11 +77,11 @@ public virtual string GetResultXmlFromKey(UIntPtr[] A_0)
 
 #### Parameters
 
-`A_0` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
+`A_0` UIntPtr\[\]
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -92,9 +93,9 @@ public abstract void SetHighlight(List<UIntPtr> lstObject, bool bHighlight, bool
 
 #### Parameters
 
-`lstObject` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstObject` List<UIntPtr\>
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
-`bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdate` bool
 

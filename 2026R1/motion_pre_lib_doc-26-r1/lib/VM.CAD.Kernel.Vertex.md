@@ -1,4 +1,5 @@
-#  Class Vertex
+# Class Vertex
+<a id="VM_CAD_Kernel_Vertex"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class Vertex : Topology, ITopology, IHasID, ISelected
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Entity](VM.CAD.Kernel.Entity.md) ← 
 [Topology](VM.CAD.Kernel.Topology.md) ← 
@@ -55,9 +56,9 @@ public Vertex(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Methods
 
@@ -79,9 +80,9 @@ public static bool IsVertex(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Struct HousingParameters
+# Struct HousingParameters
+<a id="VM_API_Pre_GearTrain_HousingParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -29,11 +30,11 @@ public HousingParameters(string bodyName, string housingName, Vector rotateAxis)
 
 #### Parameters
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The bodyName of the housing parameters.
 
-`housingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`housingName` string
 
 The housingName of the housing parameters.
 
@@ -53,7 +54,7 @@ public string BodyName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_HousingParameters_HousingName"></a> HousingName
 
@@ -65,7 +66,7 @@ public string HousingName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_HousingParameters_RotateAxis"></a> RotateAxis
 

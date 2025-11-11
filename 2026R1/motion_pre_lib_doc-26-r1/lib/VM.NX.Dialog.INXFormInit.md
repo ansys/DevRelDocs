@@ -1,4 +1,5 @@
-#  Interface INXFormInit
+# Interface INXFormInit
+<a id="VM_NX_Dialog_INXFormInit"></a>
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  

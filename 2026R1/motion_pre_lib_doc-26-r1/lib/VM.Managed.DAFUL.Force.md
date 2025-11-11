@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Force
+# Namespace VM.Managed.DAFUL.Force
+<a id="VM_Managed_DAFUL_Force"></a>
 
 ### Classes
 
@@ -150,15 +151,15 @@ Indicates whether this is a standard type or a user sub-routine type.
 
 Indicates whether this is a standard type or a user sub-routine type.
 
+ [PropertyTSpringDamper.InputType](VM.Managed.DAFUL.Force.PropertyTSpringDamper.InputType.md)
+
+Indicates whether this is a coefficient type or a spline type.
+
  [PropertyBush.InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
 Indicates whether this is a coefficient type or a spline type.
 
  [PropertyRSpringDamper.InputType](VM.Managed.DAFUL.Force.PropertyRSpringDamper.InputType.md)
-
-Indicates whether this is a coefficient type or a spline type.
-
- [PropertyTSpringDamper.InputType](VM.Managed.DAFUL.Force.PropertyTSpringDamper.InputType.md)
 
 Indicates whether this is a coefficient type or a spline type.
 

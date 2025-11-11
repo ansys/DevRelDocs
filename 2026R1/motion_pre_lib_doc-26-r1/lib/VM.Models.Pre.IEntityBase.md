@@ -1,4 +1,5 @@
-#  Interface IEntityBase
+# Interface IEntityBase
+<a id="VM_Models_Pre_IEntityBase"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

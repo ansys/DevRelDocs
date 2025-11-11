@@ -1,4 +1,5 @@
-#  Interface ITemperatureComponent
+# Interface ITemperatureComponent
+<a id="VM_Managed_DAFUL_ITemperatureComponent"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

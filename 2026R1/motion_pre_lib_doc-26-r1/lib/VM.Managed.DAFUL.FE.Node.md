@@ -1,4 +1,5 @@
-#  Struct Node
+# Struct Node
+<a id="VM_Managed_DAFUL_FE_Node"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -25,7 +26,7 @@ public Node(Mesh meshParent, uint nIndex)
 
 The owner of mesh.
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 The index.
 
@@ -41,7 +42,7 @@ public uint ID
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Node_Index"></a> Index
 
@@ -53,7 +54,7 @@ public uint Index
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Node_Mass"></a> Mass
 
@@ -65,7 +66,7 @@ public double Mass
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_Node_MomentOfInertia"></a> MomentOfInertia
 

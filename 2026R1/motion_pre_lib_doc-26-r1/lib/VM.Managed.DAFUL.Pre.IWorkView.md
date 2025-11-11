@@ -1,4 +1,5 @@
-#  Interface IWorkView
+# Interface IWorkView
+<a id="VM_Managed_DAFUL_Pre_IWorkView"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,7 +28,7 @@ void AddFileInWork(string strPath, Model model)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The string path.
 

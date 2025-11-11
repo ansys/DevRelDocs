@@ -1,11 +1,12 @@
-#  Enum AngleTypes
+# Enum AngleTypes
+<a id="VM_AngleTypes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 <p>Specifies Angle Type.</p>
 
-```python
+```csharp
 public enum AngleTypes
 ```
 
@@ -20,7 +21,6 @@ public enum AngleTypes
 `Radian = 1` 
 
 <p>Radian</p>
-
 
 
 

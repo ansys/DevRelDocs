@@ -1,4 +1,5 @@
-#  Class AnalysisSteerBase
+# Class AnalysisSteerBase
+<a id="VM_Managed_DAFUL_Car_AnalysisSteerBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class AnalysisSteerBase : OpenLoopSteeringBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [OpenLoopSteeringBase](VM.Managed.DAFUL.Car.OpenLoopSteeringBase.md) ← 
@@ -88,7 +89,7 @@ public bool IsCruiseControl { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSteerBase_SteeringInputType"></a> SteeringInputType
 
@@ -112,5 +113,5 @@ public double TimeOfStart { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Struct Linker<T\>
+# Struct Linker<T\>
+<a id="VM_Managed_Linker_1"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -49,7 +50,7 @@ public bool IsReference { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Linker_1_Key"></a> Key
 
@@ -61,7 +62,7 @@ public UIntPtr Key { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Managed_Linker_1_Object"></a> Object
 
@@ -102,7 +103,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_Linker_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -114,7 +115,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -128,7 +129,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

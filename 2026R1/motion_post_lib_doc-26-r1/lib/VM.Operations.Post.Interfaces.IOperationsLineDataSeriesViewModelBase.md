@@ -1,12 +1,13 @@
-#  Interface IOperationsLineDataSeriesViewModelBase
+# Interface IOperationsLineDataSeriesViewModelBase
+<a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents a view model for the line data series.
 
-```python
-public interface IOperationsLineDataSeriesViewModelBase : ILineDataSeriesViewModelBase, IHasSourceViewModel, IViewModel, IObservableObject, IDisposableObject, IEnabled, IExpanded, ISelected, IVisible, IThicknessProperty, IOperationsBase
+```csharp
+public interface IOperationsLineDataSeriesViewModelBase : ILineDataSeriesViewModelBase, IHasSourceViewModel, IViewModel, IObservableObject, IDisposableObject, IEnabled, IExpanded, ISelected, IVisible, IThicknessProperty
 ```
 
 #### Implements
@@ -20,20 +21,22 @@ IEnabled,
 IExpanded, 
 ISelected, 
 IVisible, 
-IThicknessProperty, 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+IThicknessProperty
 
 ## Examples
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsLineDataSeriesViewModelBase.py
+```python
+# IOperationsLineDataSeriesViewModelBase.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -47,12 +50,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Documentation Example
@@ -60,7 +68,11 @@ chartView = page.CreateChart("Chart")
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -83,7 +95,7 @@ page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -91,13 +103,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the color of the line in the series.
 
-```python
+```csharp
 Color Color { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -111,7 +123,7 @@ Use this property to specify or retrieve the color of the line in the series.
 
 Gets or sets the style of the line.
 
-```python
+```csharp
 LineStyleType LineStyle { get; set; }
 ```
 
@@ -133,13 +145,13 @@ The available options are:
 
 Gets or sets the size of the points in the series.
 
-```python
+```csharp
 double PointSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -153,7 +165,7 @@ Use this property to specify or retrieve the size of the points in the series.
 
 Gets or sets the type of the points in the series.
 
-```python
+```csharp
 PointType PointType { get; set; }
 ```
 
@@ -175,13 +187,13 @@ The supported types are:
 
 Gets or sets the name of the series.
 
-```python
+```csharp
 string SeriesName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -195,7 +207,7 @@ Use this property to specify or retrieve the name of the series.
 
 Gets or sets the type of the series.
 
-```python
+```csharp
 SeriesType SeriesType { get; set; }
 ```
 
@@ -217,13 +229,13 @@ The supported types are:
 
 Gets or sets the thickness of the series.
 
-```python
+```csharp
 int Thickness { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Examples
 
@@ -232,5 +244,4 @@ For an example that includes this property, see the [Interface IOperationsLineDa
 #### Remarks
 
 Use this property to specify or retrieve the thickness of the series.
-
 

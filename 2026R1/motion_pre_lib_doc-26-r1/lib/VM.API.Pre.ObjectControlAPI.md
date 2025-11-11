@@ -1,4 +1,5 @@
-#  Class ObjectControlAPI
+# Class ObjectControlAPI
+<a id="VM_API_Pre_ObjectControlAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class ObjectControlAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObjectControlAPI](VM.API.Pre.ObjectControlAPI.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public static void RotateObjectsDegree(IEnumerable<Obj> objs, Vector position, V
 
 #### Parameters
 
-`objs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`objs` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The collection of <xref href="VM.API.Pre.Obj?text=objects" data-throw-if-not-resolved="false"></xref> to rotate.
 
@@ -46,17 +47,17 @@ The position of the axis.
 
 The direction vetor of the rotation axis.
 
-`rotateAngleDegree` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`rotateAngleDegree` double
 
 The rotation angle.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown when the collection of objects is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'direction' is 0.
 
@@ -71,7 +72,7 @@ public static void TransformObjects(IEnumerable<Obj> objs, TMatrix transform)
 
 #### Parameters
 
-`objs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`objs` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The collection of <xref href="VM.API.Pre.Obj?text=objects" data-throw-if-not-resolved="false"></xref> to transform.
 
@@ -81,7 +82,7 @@ The <xref href="VM.TMatrix?text=transformation+matrix" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown when the collection of objects is null.
 

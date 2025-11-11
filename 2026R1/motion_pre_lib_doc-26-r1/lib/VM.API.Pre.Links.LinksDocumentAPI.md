@@ -1,4 +1,5 @@
-#  Class LinksDocumentAPI
+# Class LinksDocumentAPI
+<a id="VM_API_Pre_Links_LinksDocumentAPI"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +12,7 @@ public static class LinksDocumentAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LinksDocumentAPI](VM.API.Pre.Links.LinksDocumentAPI.md)
 
 #### Extension Methods
@@ -32,11 +33,11 @@ public static MeshDocumentChainedPath CreateNewPathMeshDocument(string newLinkPa
 
 #### Parameters
 
-`newLinkPathFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newLinkPathFilePath` string
 
 The file path of new path mesh.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is MeshChainPath.
 
@@ -54,13 +55,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- MeshDocumentChainedPath
+ [MeshDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/MeshDocumentChainedPath.cs)
 
 The new <xref href="VM.Managed.DAFUL.Chained.MeshDocumentChainedPath" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
 
@@ -74,11 +75,11 @@ public static PartDocumentChainedPath CreateNewPathPartDocument(string newLinkPa
 
 #### Parameters
 
-`newLinkPathFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newLinkPathFilePath` string
 
 The file path of new path part.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is PartChainPath.
 
@@ -96,13 +97,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- PartDocumentChainedPath
+ [PartDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedPath.cs)
 
 The new <xref href="VM.Managed.DAFUL.Chained.PartDocumentChainedPath" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
 
@@ -116,11 +117,11 @@ public static DocumentChainedPath CreateNewPathSubsystemDocument(string newLinkP
 
 #### Parameters
 
-`newLinkPathFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newLinkPathFilePath` string
 
 The file path of new path subsystem.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is SubsystemChainPath.
 
@@ -138,13 +139,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- DocumentChainedPath
+ [DocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedPath.cs)
 
 The new <xref href="VM.Managed.DAFUL.Chained.DocumentChainedPath" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
 
@@ -158,11 +159,11 @@ public static MeshDocumentChainedSegment CreateNewSegmentMeshDocument(string new
 
 #### Parameters
 
-`newLinkSegmentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newLinkSegmentFilePath` string
 
 The file path of new segment mesh.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is MeshChainSegment.
 
@@ -180,13 +181,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- MeshDocumentChainedSegment
+ [MeshDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/MeshDocumentChainedSegment.cs)
 
 The new <xref href="VM.Managed.DAFUL.Chained.MeshDocumentChainedSegment" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinkSegmentFilePath' argument is null.
 
@@ -200,11 +201,11 @@ public static PartDocumentChainedSegment CreateNewSegmentPartDocument(string new
 
 #### Parameters
 
-`newLinkSegmentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newLinkSegmentFilePath` string
 
 The file path of new segment part.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is PartChainSegment.
 
@@ -222,13 +223,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- PartDocumentChainedSegment
+ [PartDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedSegment.cs)
 
 The new <xref href="VM.Managed.DAFUL.Chained.PartDocumentChainedSegment" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinkSegmentFilePath' argument is null.
 
@@ -242,11 +243,11 @@ public static DocumentChainedSegment CreateNewSegmentSubsystemDocument(string ne
 
 #### Parameters
 
-`newLinkSegmentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newLinkSegmentFilePath` string
 
 The file path of new segment subsystem.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is SubsystemChainSegment.
 
@@ -264,13 +265,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- DocumentChainedSegment
+ [DocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedSegment.cs)
 
 The new <xref href="VM.Managed.DAFUL.Chained.DocumentChainedSegment" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinkSegmentFilePath' argument is null.
 

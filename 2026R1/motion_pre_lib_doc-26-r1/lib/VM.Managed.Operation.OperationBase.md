@@ -1,4 +1,5 @@
-#  Class OperationBase
+# Class OperationBase
+<a id="VM_Managed_Operation_OperationBase"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class OperationBase : IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md)
 
 #### Derived
@@ -36,6 +37,7 @@ public abstract class OperationBase : IOperation
 [GetVoidCountOp](VM.Managed.CAD.GetVoidCountOp.md), 
 [GetVoidPointsOp](VM.Managed.CAD.GetVoidPointsOp.md), 
 [OperationDelegate](VM.Managed.Operation.OperationDelegate.md), 
+[ReDrawForHistoryOp](VM.Managed.CAD.ReDrawForHistoryOp.md), 
 [RebuildHiddenDocOp](VM.Managed.History.RebuildHiddenDocOp.md), 
 [RemoveDuplicatedEventOperation](VM.Managed.CAD.RemoveDuplicatedEventOperation.md), 
 [SetNameAttributeOp](VM.Managed.CAD.SetNameAttributeOp.md), 
@@ -63,7 +65,7 @@ protected OperationBase(View view, object param)
 
 `view` [View](VM.Managed.View.md)
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 ### <a id="VM_Managed_Operation_OperationBase__ctor_VM_Managed_View_"></a> OperationBase\(View\)
 
@@ -85,7 +87,7 @@ protected OperationBase(Document doc, object param)
 
 `doc` [Document](VM.Managed.Document.md)
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 ### <a id="VM_Managed_Operation_OperationBase__ctor_VM_Managed_Document_"></a> OperationBase\(Document\)
 
@@ -105,7 +107,7 @@ protected OperationBase(object param)
 
 #### Parameters
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 ### <a id="VM_Managed_Operation_OperationBase__ctor"></a> OperationBase\(\)
 
@@ -123,7 +125,7 @@ public static bool g_bDupicateMsg
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_g_bRedrawKernel"></a> g\_bRedrawKernel
 
@@ -133,7 +135,7 @@ public static bool g_bRedrawKernel
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_g_bSkipAddEvent"></a> g\_bSkipAddEvent
 
@@ -143,7 +145,7 @@ public static bool g_bSkipAddEvent
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_g_bVerify"></a> g\_bVerify
 
@@ -153,7 +155,7 @@ public static bool g_bVerify
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_m_bIsHistoryMerge"></a> m\_bIsHistoryMerge
 
@@ -163,7 +165,7 @@ protected bool m_bIsHistoryMerge
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -185,7 +187,7 @@ protected virtual bool ExecutableOnHold { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_ExecuteMacro"></a> ExecuteMacro
 
@@ -195,7 +197,7 @@ public static bool ExecuteMacro { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_GlobalOverride"></a> GlobalOverride
 
@@ -207,7 +209,7 @@ public static SessionOverride GlobalOverride { get; set; }
 
 #### Property Value
 
- [SessionOverride](VM.Managed.Operation.SessionOverride.md)
+ SessionOverride
 
 ### <a id="VM_Managed_Operation_OperationBase_IsDoingThread"></a> IsDoingThread
 
@@ -217,7 +219,7 @@ public static bool IsDoingThread { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -227,7 +229,7 @@ public virtual bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_MarkStatus"></a> MarkStatus
 
@@ -251,7 +253,7 @@ public abstract string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_OperationBase_Override"></a> Override
 
@@ -261,7 +263,7 @@ protected SessionOverride Override { get; set; }
 
 #### Property Value
 
- [SessionOverride](VM.Managed.Operation.SessionOverride.md)
+ SessionOverride
 
 ### <a id="VM_Managed_Operation_OperationBase_Parameter"></a> Parameter
 
@@ -271,7 +273,7 @@ protected object Parameter { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_Operation_OperationBase_PostExecuteClearTemporaryLinkContainer"></a> PostExecuteClearTemporaryLinkContainer
 
@@ -281,7 +283,7 @@ public bool PostExecuteClearTemporaryLinkContainer { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_SimStatus"></a> SimStatus
 
@@ -301,7 +303,7 @@ public bool SkipClearTemporaryLinkContainer { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_SkipEndOperation"></a> SkipEndOperation
 
@@ -311,7 +313,7 @@ public bool SkipEndOperation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_Status"></a> Status
 
@@ -333,7 +335,7 @@ public virtual bool UseMacro { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_UseThread"></a> UseThread
 
@@ -345,7 +347,7 @@ public virtual bool UseThread { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_OperationBase_View"></a> View
 
@@ -367,7 +369,7 @@ public static AutoResetEvent[] autoEvents { get; set; }
 
 #### Property Value
 
- [AutoResetEvent](https://learn.microsoft.com/dotnet/api/system.threading.autoresetevent)\[\]
+ AutoResetEvent\[\]
 
 ## Methods
 
@@ -379,7 +381,7 @@ protected void ClearCurrentMark(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 ### <a id="VM_Managed_Operation_OperationBase_ClearCurrentMark_VM_Models_Pre_IDocument_"></a> ClearCurrentMark\(IDocument\)
 
@@ -407,7 +409,7 @@ public static OperationBase Create(string strType, View view, object obParam)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The operation name.
 
@@ -415,7 +417,7 @@ The operation name.
 
 The operation parameter that is to represent the view.
 
-`obParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obParam` object
 
 The operation parameter.
 
@@ -433,7 +435,7 @@ public static OperationBase Create(string strType, IDocument doc, object obParam
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The operation name.
 
@@ -441,7 +443,7 @@ The operation name.
 
 The operation parameter that is to represent the document.
 
-`obParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obParam` object
 
 The operation parameter.
 
@@ -459,11 +461,11 @@ public static OperationBase Create(string strType, object obParam)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The operation name.
 
-`obParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obParam` object
 
 The operation parameter.
 
@@ -481,7 +483,7 @@ public static OperationBase Create(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The operation name.
 
@@ -505,7 +507,7 @@ public virtual void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_Operation_OperationBase_Initialize_VM_Managed_Operation_OperationBase_ShowVerifyResult_"></a> Initialize\(ShowVerifyResult\)
 
@@ -629,7 +631,7 @@ public static ISession UseSession(string strSessionName)
 
 #### Parameters
 
-`strSessionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSessionName` string
 
 the name of the session
 
@@ -645,9 +647,9 @@ protected static void raise_OnEndOperation(object value0, EventArgs value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
-`value1` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`value1` EventArgs
 
 ### <a id="VM_Managed_Operation_OperationBase_raise_OnOperationStatusChanged_System_Object_VM_Managed_Operation_OperationStatusEventArgs_"></a> raise\_OnOperationStatusChanged\(object, OperationStatusEventArgs\)
 
@@ -657,7 +659,7 @@ protected static void raise_OnOperationStatusChanged(object value0, OperationSta
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
 `value1` [OperationStatusEventArgs](VM.Managed.Operation.OperationStatusEventArgs.md)
 
@@ -681,5 +683,5 @@ public static event EventHandler<OperationStatusEventArgs> OnOperationStatusChan
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[OperationStatusEventArgs](VM.Managed.Operation.OperationStatusEventArgs.md)\>
+ EventHandler<[OperationStatusEventArgs](VM.Managed.Operation.OperationStatusEventArgs.md)\>
 

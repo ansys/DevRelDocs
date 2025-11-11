@@ -1,4 +1,5 @@
-#  Class BuilderBase<T\>.FailToBuildException
+# Class BuilderBase<T\>.FailToBuildException
+<a id="VM_Managed_DAFUL_Builder_BuilderBase_1_FailToBuildException"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,8 +10,8 @@ public class BuilderBase<T>.FailToBuildException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [BuilderBase<T\>.FailToBuildException](VM.Managed.DAFUL.Builder.BuilderBase\-1.FailToBuildException.md)
 
 #### Extension Methods
@@ -29,9 +30,9 @@ public FailToBuildException(Type obType, Exception inner)
 
 #### Parameters
 
-`obType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`obType` Type
 
-`inner` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`inner` Exception
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_FailToBuildException__ctor_System_Type_"></a> FailToBuildException\(Type\)
 
@@ -41,5 +42,5 @@ public FailToBuildException(Type obType)
 
 #### Parameters
 
-`obType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`obType` Type
 

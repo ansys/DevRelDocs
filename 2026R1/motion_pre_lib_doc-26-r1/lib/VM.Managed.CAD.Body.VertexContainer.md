@@ -1,4 +1,5 @@
-#  Class Body.VertexContainer
+# Class Body.VertexContainer
+<a id="VM_Managed_CAD_Body_VertexContainer"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public sealed class Body.VertexContainer : LinkContainer, IObservableObject, IDi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Body.VertexContainer](VM.Managed.CAD.Body.VertexContainer.md)
 
@@ -84,7 +85,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Body_VertexContainer_IsReadOnly"></a> IsReadOnly
 
@@ -96,7 +97,7 @@ public bool IsReadOnly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_VertexContainer_Item_System_UInt32_"></a> this\[uint\]
 
@@ -146,7 +147,7 @@ The object to locate in the <xref href="System.Collections.Generic.ICollection%6
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if <code class="paramref">vertex</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, false.
 
@@ -164,23 +165,23 @@ public void CopyTo(Vertex[] arr, int arrayIndex)
 
 The one-dimensional <xref href="System.Array" data-throw-if-not-resolved="false"></xref> that is the destination of the elements copied from <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>. The <xref href="System.Array" data-throw-if-not-resolved="false"></xref> must have zero-based indexing.
 
-`arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`arrayIndex` int
 
 The zero-based index in <code class="paramref">arr</code> at which copying begins.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 <code class="paramref">arr</code> is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 <code class="paramref">arrayIndex</code> is less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
-    <code class="paramref">arr</code> is multidimensional.
+                <code class="paramref">arr</code> is multidimensional.
 -or-
 <code class="paramref">arrayIndex</code> is equal to or greater than the length of <code class="paramref">arr</code>.
 -or-
@@ -198,7 +199,7 @@ public Vertex GetCreatedVertex(uint nIndex)
 
 #### Parameters
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 Index of the n.
 
@@ -216,7 +217,7 @@ public IEnumerator<Vertex> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<[Vertex](VM.Managed.CAD.Vertex.md)\>
+ IEnumerator<[Vertex](VM.Managed.CAD.Vertex.md)\>
 
 A <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> that can be used to iterate through the collection.
 
@@ -233,7 +234,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -247,7 +248,7 @@ public override sealed List<IEventProvider> GetTargetListForUpdate()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
+ List<IEventProvider\>
 
 ### <a id="VM_Managed_CAD_Body_VertexContainer_GetTemporaryVertex_System_UInt32_"></a> GetTemporaryVertex\(uint\)
 
@@ -259,7 +260,7 @@ public Vertex GetTemporaryVertex(uint nIndex)
 
 #### Parameters
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 The vertex index.
 
@@ -279,7 +280,7 @@ protected override sealed void LinkRequestUpdate(object objNotifier, LinkEventAr
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -295,7 +296,7 @@ public void OnPostDeserialized(StreamingContext context)
 
 #### Parameters
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_CAD_Body_VertexContainer_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -307,7 +308,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -325,7 +326,7 @@ public bool Remove(Vertex A_0)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -339,7 +340,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

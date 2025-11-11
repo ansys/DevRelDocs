@@ -1,4 +1,5 @@
-#  Class SetGearSetDesignDocument
+# Class SetGearSetDesignDocument
+<a id="VM_Managed_DAFUL_GearTrain_Operation_SetGearSetDesignDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class SetGearSetDesignDocument : SetDesignDocumentBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SetDesignDocumentBase](VM.Managed.DAFUL.GearTrain.Operation.SetDesignDocumentBase.md) ← 
 [SetGearSetDesignDocument](VM.Managed.DAFUL.GearTrain.Operation.SetGearSetDesignDocument.md)

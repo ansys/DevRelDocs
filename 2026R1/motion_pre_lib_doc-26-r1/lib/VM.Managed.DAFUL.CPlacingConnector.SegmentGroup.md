@@ -1,4 +1,5 @@
-#  Class SegmentGroup
+# Class SegmentGroup
+<a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup"></a>
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -11,9 +12,9 @@ public class SegmentGroup : LinkContainer, IObservableObject, IDisposableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [SegmentGroup](VM.Managed.DAFUL.CPlacingConnector.SegmentGroup.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -170,7 +171,7 @@ public SegmentInformation FindInformation(string strSegmentName)
 
 #### Parameters
 
-`strSegmentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSegmentName` string
 
 The segment name
 
@@ -198,7 +199,7 @@ The document
 
 #### Returns
 
- InstanceContainer
+ [InstanceContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs)
 
 ### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_FindSegmentWithInformation_VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_VM_Managed_Document_"></a> FindSegmentWithInformation\(SegmentInformation, Document\)
 
@@ -232,15 +233,15 @@ public VectorBase GetStiffnessWithTwoConnector(string strBaseSegmentName, string
 
 #### Parameters
 
-`strBaseSegmentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBaseSegmentName` string
 
 The base segment name
 
-`strActionSegmentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strActionSegmentName` string
 
 The action segment name
 
-`strStiffnessName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStiffnessName` string
 
 The stiffness name
 

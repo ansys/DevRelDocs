@@ -1,4 +1,5 @@
-#  Enum GapExpressionType
+# Enum GapExpressionType
+<a id="VM_Managed_DAFUL_Chained_GapExpressionType"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

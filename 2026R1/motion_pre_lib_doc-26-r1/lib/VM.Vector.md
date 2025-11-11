@@ -1,4 +1,5 @@
-#  Struct Vector
+# Struct Vector
+<a id="VM_Vector"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -33,15 +34,15 @@ public Vector(double dX, double dY, double dZ)
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y.
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z.
 
@@ -55,7 +56,7 @@ public Vector(double[] arVec)
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The arVec.
 
@@ -69,11 +70,11 @@ public Vector(double[] arVec, int nStartIndex)
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The array that have values of vector.
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index of array.
 
@@ -85,7 +86,7 @@ public Vector(string vector)
 
 #### Parameters
 
-`vector` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`vector` string
 
 ## Properties
 
@@ -99,11 +100,11 @@ public double Magnitude { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The get magnitude operation failed .
 
@@ -117,7 +118,7 @@ public double X { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Y"></a> Y
 
@@ -129,7 +130,7 @@ public double Y { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Z"></a> Z
 
@@ -141,7 +142,7 @@ public double Z { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Item_System_Int32_"></a> this\[int\]
 
@@ -153,7 +154,7 @@ public double this[int nIndex] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Item_VM_Coordinate_"></a> this\[Coordinate\]
 
@@ -165,7 +166,7 @@ public double this[Coordinate enCoord] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -183,7 +184,7 @@ public static void CopyToArray(Vector[] arVec, double[] arTarget)
 
 The array of vector
 
-`arTarget` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arTarget` double\[\]
 
 The array to store values of the array of vector.
 
@@ -201,11 +202,11 @@ public static void CopyToArray(Vector[] arVec, double[] arTarget, int nIndex)
 
 The array of vector
 
-`arTarget` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arTarget` double\[\]
 
 The array to store values of the array of vector.
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 The start index of array
 
@@ -245,7 +246,7 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 Result of product
 
@@ -259,13 +260,13 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object to compare.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the objects are equal, otherwise false.
 
@@ -279,7 +280,7 @@ public double[] GetArray()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 The array.
 
@@ -299,13 +300,13 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The distance
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The get distance operation failed .
 
@@ -319,7 +320,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 A 32-bit signed integer hash code.
 
@@ -359,7 +360,7 @@ The ortho vector.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The get ortho vector operation failed .
 
@@ -379,11 +380,11 @@ public static bool IsValidFormat(string vector)
 
 #### Parameters
 
-`vector` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`vector` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Vector_MakeUnitVector"></a> MakeUnitVector\(\)
 
@@ -395,7 +396,7 @@ public void MakeUnitVector()
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The make unit vector operation failed .
 
@@ -423,7 +424,7 @@ public void Set(double[] arVec)
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The array of X, Y, Z Components.
 
@@ -437,11 +438,11 @@ public void Set(double[] arVec, int nStartIndex)
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The array of X, Y, Z Components.
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index of array.
 
@@ -455,15 +456,15 @@ public void Set(double dX, double dY, double dZ)
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y.
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z.
 
@@ -477,7 +478,7 @@ public override string ToString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 A string that represents the current object.
 
@@ -521,7 +522,7 @@ public static Vector operator /(Vector vec, double dValue)
 
 The vector to divide value
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The value to divide
 
@@ -551,7 +552,7 @@ The right vector to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two vectors are same, otherwise false.
 
@@ -575,7 +576,7 @@ The right vector to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two vectors are not same, otherwise false.
 
@@ -617,7 +618,7 @@ public static Vector operator *(Vector vec, double dValue)
 
 The vector to multiply value
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The value to multiply
 

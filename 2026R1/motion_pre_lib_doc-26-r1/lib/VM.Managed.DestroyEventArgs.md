@@ -1,4 +1,5 @@
-#  Class DestroyEventArgs
+# Class DestroyEventArgs
+<a id="VM_Managed_DestroyEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public sealed class DestroyEventArgs : LinkEventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [LinkEventArgs](VM.Managed.LinkEventArgs.md) ← 
 [DestroyEventArgs](VM.Managed.DestroyEventArgs.md)
 
@@ -51,11 +52,11 @@ public DestroyEventArgs(LinkEventArgs innerArgs, object obEventPrevious, object 
 
 The inner argument.
 
-`obEventPrevious` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obEventPrevious` object
 
 The previous event.
 
-`extra` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`extra` object
 
 The extra data.
 
@@ -73,7 +74,7 @@ public DestroyEventArgs(LinkEventArgs innerArgs, object obEventPrevious)
 
 The inner argument.
 
-`obEventPrevious` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obEventPrevious` object
 
 The previous event.
 
@@ -91,7 +92,7 @@ public DestroyEventArgs(Document document, object extra)
 
 The document.
 
-`extra` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`extra` object
 
 The extra data.
 

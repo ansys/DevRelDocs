@@ -1,4 +1,5 @@
-#  Interface IScenarioDocument
+# Interface IScenarioDocument
+<a id="VM_IScenarioDocument"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -33,7 +34,7 @@ string GetName()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_IScenarioDocument_GetPath"></a> GetPath\(\)
 
@@ -43,7 +44,7 @@ string GetPath()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_IScenarioDocument_GetScenarioValue"></a> GetScenarioValue\(\)
 
@@ -53,5 +54,5 @@ Array GetScenarioValue()
 
 #### Returns
 
- [Array](https://learn.microsoft.com/dotnet/api/system.array)
+ Array
 

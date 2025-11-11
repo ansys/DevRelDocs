@@ -1,4 +1,5 @@
-#  Class FileGroup<TGroup, TItem\>
+# Class FileGroup<TGroup, TItem\>
+<a id="VM_Managed_DAFUL_Pre_FileGroup_2"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -21,7 +22,7 @@ The type of the item.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Group<TGroup, TItem\>](VM.Managed.DAFUL.Pre.Group\-2.md) ← 
 [FileGroup<TGroup, TItem\>](VM.Managed.DAFUL.Pre.FileGroup\-2.md)
 
@@ -62,7 +63,7 @@ public FileGroup(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
@@ -78,5 +79,5 @@ public string Path { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

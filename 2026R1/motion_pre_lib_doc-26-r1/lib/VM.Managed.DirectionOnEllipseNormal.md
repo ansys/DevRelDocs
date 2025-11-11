@@ -1,4 +1,5 @@
-#  Class DirectionOnEllipseNormal
+# Class DirectionOnEllipseNormal
+<a id="VM_Managed_DirectionOnEllipseNormal"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -6,14 +7,14 @@ Assembly: VMAppCore.dll
 This class is to represent the information of direction through noraml of ellipse geometry.
 
 ```csharp
-public class DirectionOnEllipseNormal : DirectionOnGeometryBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
+public class DirectionOnEllipseNormal : DirectionOnGeometryBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [DirectionBase](VM.Managed.DirectionBase.md) ← 
 [DirectionOnGeometryBase](VM.Managed.DirectionOnGeometryBase.md) ← 
@@ -34,7 +35,8 @@ IOwned,
 IHasID, 
 IEventProvider, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
-[IVerifiable](VM.Managed.IVerifiable.md)
+[IVerifiable](VM.Managed.IVerifiable.md), 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -54,6 +56,8 @@ IEventProvider,
 [DirectionBase.ReadXml\(XmlReader\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_ReadXml\_System\_Xml\_XmlReader\_), 
 [DirectionBase.WriteXml\(XmlWriter\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_WriteXml\_System\_Xml\_XmlWriter\_), 
 [DirectionBase.GetSchema\(\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_GetSchema), 
+[DirectionBase.HasReplaceableEntity\(IObjectBase\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_HasReplaceableEntity\_VM\_Models\_Pre\_IObjectBase\_), 
+[DirectionBase.ReplaceEntity\(IObjectBase, IObjectBase\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_ReplaceEntity\_VM\_Models\_Pre\_IObjectBase\_VM\_Models\_Pre\_IObjectBase\_), 
 [DirectionBase.Reverse](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_Reverse), 
 [DirectionBase.IsParameterized](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_IsParameterized), 
 [DirectionBase.Value](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_Value), 
@@ -100,7 +104,7 @@ IEventProvider,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -144,7 +148,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -158,7 +162,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -172,7 +176,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

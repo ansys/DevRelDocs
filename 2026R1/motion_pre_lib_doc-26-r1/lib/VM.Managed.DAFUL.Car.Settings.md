@@ -1,4 +1,5 @@
-#  Class Settings
+# Class Settings
+<a id="VM_Managed_DAFUL_Car_Settings"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -13,17 +14,17 @@ public class Settings : SettingsBase<Settings>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[SettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.settingsbase) ← 
-[ApplicationSettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.applicationsettingsbase) ← 
-SettingsBase<Settings\> ← 
+object ← 
+SettingsBase ← 
+ApplicationSettingsBase ← 
+[SettingsBase<Settings\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs) ← 
 [Settings](VM.Managed.DAFUL.Car.Settings.md)
 
 #### Inherited Members
 
-SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\), 
-SettingsBase<Settings\>.Default, 
-SettingsBase<Settings\>.RootPath
+[SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.Default](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.RootPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs)
 
 #### Extension Methods
 
@@ -54,7 +55,7 @@ public string FourPostTestrigPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_FullTestrigPath"></a> FullTestrigPath
 
@@ -67,7 +68,7 @@ public string FullTestrigPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_HalfTestrigPath"></a> HalfTestrigPath
 
@@ -80,7 +81,7 @@ public string HalfTestrigPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_IsoLaneChangePath"></a> IsoLaneChangePath
 
@@ -93,7 +94,7 @@ public string IsoLaneChangePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_RoadPath"></a> RoadPath
 
@@ -108,7 +109,7 @@ public string RoadPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_ShimmyJudderTestrigPath"></a> ShimmyJudderTestrigPath
 
@@ -121,7 +122,7 @@ public string ShimmyJudderTestrigPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_StandardWorkPath"></a> StandardWorkPath
 
@@ -134,7 +135,7 @@ public string StandardWorkPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_TireTestrigPath"></a> TireTestrigPath
 
@@ -147,7 +148,7 @@ public string TireTestrigPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_UsedFourPostTestRigName"></a> UsedFourPostTestRigName
 
@@ -161,7 +162,7 @@ public string UsedFourPostTestRigName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_UsedFullTestRigName"></a> UsedFullTestRigName
 
@@ -175,7 +176,7 @@ public string UsedFullTestRigName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_UsedHalfTestRigName"></a> UsedHalfTestRigName
 
@@ -189,7 +190,7 @@ public string UsedHalfTestRigName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_UsedShimmyJudderTestRigName"></a> UsedShimmyJudderTestRigName
 
@@ -203,7 +204,7 @@ public string UsedShimmyJudderTestRigName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Settings_UsedTireTestRigName"></a> UsedTireTestRigName
 
@@ -217,5 +218,5 @@ public string UsedTireTestRigName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

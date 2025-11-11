@@ -1,4 +1,5 @@
-#  Struct FacetGeomInfo
+# Struct FacetGeomInfo
+<a id="VM_CAD_Kernel_FacetGeomInfo"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -27,7 +28,7 @@ public uint[] Connectivities
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_CAD_Kernel_FacetGeomInfo_LengthOfEachFace"></a> LengthOfEachFace
 
@@ -37,7 +38,7 @@ public uint[] LengthOfEachFace
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_CAD_Kernel_FacetGeomInfo_MidPoints"></a> MidPoints
 
@@ -67,7 +68,7 @@ public uint[] NumOfConnectivities
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_CAD_Kernel_FacetGeomInfo_StartingSeqOfEachFace"></a> StartingSeqOfEachFace
 
@@ -77,7 +78,7 @@ public uint[] StartingSeqOfEachFace
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_CAD_Kernel_FacetGeomInfo_Vertices"></a> Vertices
 

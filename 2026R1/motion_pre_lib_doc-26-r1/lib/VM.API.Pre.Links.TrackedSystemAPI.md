@@ -1,4 +1,5 @@
-#  Class TrackedSystemAPI
+# Class TrackedSystemAPI
+<a id="VM_API_Pre_Links_TrackedSystemAPI"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +12,7 @@ public static class TrackedSystemAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TrackedSystemAPI](VM.API.Pre.Links.TrackedSystemAPI.md)
 
 #### Extension Methods
@@ -35,39 +36,39 @@ public static IEnumerable<Obj> AddPathObjectToDocument(this Obj trackPlacing, IE
 
 #### Parameters
 
-`trackPlacing` Obj
+`trackPlacing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The track placing to add object.
 
-`paths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`paths` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The paths.
 
-`pathDocuments` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Document3D\>
+`pathDocuments` IEnumerable<Document3D\>
 
 The path data documents.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+ IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The new path list
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'trackPlacing' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'trackPlacing' is not <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'paths', 'pathDocuments' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if length of 'paths' and length of 'pathDocuments' are not equal.
 
@@ -81,31 +82,31 @@ public static Obj CreateDouble(this DocumentChainedSegment document, string body
 
 #### Parameters
 
-`document` DocumentChainedSegment
+`document` [DocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedSegment.cs)
 
 The document to create the double shoe solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -119,23 +120,23 @@ public static Obj CreateDouble(this PartDocumentChainedSegment document, Color? 
 
 #### Parameters
 
-`document` PartDocumentChainedSegment
+`document` [PartDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedSegment.cs)
 
 The document to create the double shoe body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -149,31 +150,31 @@ public static Obj CreateSimple(this DocumentChainedSegment document, string body
 
 #### Parameters
 
-`document` DocumentChainedSegment
+`document` [DocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedSegment.cs)
 
 The document to create the simple link solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -187,23 +188,23 @@ public static Obj CreateSimple(this PartDocumentChainedSegment document, Color? 
 
 #### Parameters
 
-`document` PartDocumentChainedSegment
+`document` [PartDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedSegment.cs)
 
 The document to create the simple link body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -217,31 +218,31 @@ public static Obj CreateSingle(this DocumentChainedSegment document, string body
 
 #### Parameters
 
-`document` DocumentChainedSegment
+`document` [DocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedSegment.cs)
 
 The document to create the single shoe solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -255,23 +256,23 @@ public static Obj CreateSingle(this PartDocumentChainedSegment document, Color? 
 
 #### Parameters
 
-`document` PartDocumentChainedSegment
+`document` [PartDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedSegment.cs)
 
 The document to create the single shoe body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -286,23 +287,23 @@ public static Obj CreateTrackedSystem(this SubSystemDocument document, string na
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the tracked system.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'TPlacing_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -316,31 +317,31 @@ public static Obj CreateTriple(this DocumentChainedSegment document, string body
 
 #### Parameters
 
-`document` DocumentChainedSegment
+`document` [DocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedSegment.cs)
 
 The document to create the triple shoe solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -354,23 +355,23 @@ public static Obj CreateTriple(this PartDocumentChainedSegment document, Color? 
 
 #### Parameters
 
-`document` PartDocumentChainedSegment
+`document` [PartDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedSegment.cs)
 
 The document to create the triple shoe body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -384,31 +385,31 @@ public static Obj CreateUserDefined(this DocumentChainedSegment document, string
 
 #### Parameters
 
-`document` DocumentChainedSegment
+`document` [DocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedSegment.cs)
 
 The document to create the user-defined shoe solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -422,23 +423,23 @@ public static Obj CreateUserDefined(this PartDocumentChainedSegment document, Co
 
 #### Parameters
 
-`document` PartDocumentChainedSegment
+`document` [PartDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedSegment.cs)
 
 The document to create the user-defined shoe body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -452,31 +453,31 @@ public static Obj CreateVType(this DocumentChainedSegment document, string bodyN
 
 #### Parameters
 
-`document` DocumentChainedSegment
+`document` [DocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedSegment.cs)
 
 The document to create the V-type link solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -490,23 +491,23 @@ public static Obj CreateVType(this PartDocumentChainedSegment document, Color? c
 
 #### Parameters
 
-`document` PartDocumentChainedSegment
+`document` [PartDocumentChainedSegment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedSegment.cs)
 
 The document to create the V-type link body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -522,15 +523,15 @@ public static void ReplaceDesignPosition(this Obj segmentBody, Obj designPoint, 
 
 #### Parameters
 
-`segmentBody` Obj
+`segmentBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The segment body.
 
-`designPoint` Obj
+`designPoint` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The design point to be replaced.
 
-`value` ExpressionValueVariable
+`value` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The value to be replaced with axis.
 
@@ -540,15 +541,15 @@ The transformation to be replaced.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'segmentBody','designPoint' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'segmentBody' is not <xref href="VM.Managed.CAD.Track.BodyShoe" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'designPoint' is not <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"></xref>.
 
@@ -563,9 +564,9 @@ public static void RestorePathToOriginPositionAndOrientation(this Obj trackPlaci
 
 #### Parameters
 
-`trackPlacing` Obj
+`trackPlacing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
-`paths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`paths` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
-`transforms` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<TMatrix\>
+`transforms` IEnumerable<TMatrix\>
 

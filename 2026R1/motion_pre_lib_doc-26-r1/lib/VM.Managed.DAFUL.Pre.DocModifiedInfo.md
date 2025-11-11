@@ -1,4 +1,5 @@
-#  Class DocModifiedInfo
+# Class DocModifiedInfo
+<a id="VM_Managed_DAFUL_Pre_DocModifiedInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public abstract class DocModifiedInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocModifiedInfo](VM.Managed.DAFUL.Pre.DocModifiedInfo.md)
 
 #### Derived
@@ -45,7 +46,7 @@ public abstract string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfo_Status"></a> Status
 

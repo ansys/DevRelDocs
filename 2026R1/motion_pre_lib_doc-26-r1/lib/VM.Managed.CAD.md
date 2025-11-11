@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.CAD
+# Namespace VM.Managed.CAD
+<a id="VM_Managed_CAD"></a>
 
 ### Namespaces
 
@@ -338,6 +339,10 @@ This base class is to represent the kernel.
 
 This class is to represent the calculate mass property exeption.
 
+ [ReDrawForHistoryOp](VM.Managed.CAD.ReDrawForHistoryOp.md)
+
+This class is to represent the [Get Body Name Attribute] Operation.
+
  [ReferenceBody](VM.Managed.CAD.ReferenceBody.md)
 
 This class is to represent the reference of body.
@@ -382,7 +387,7 @@ This interface is to represent the vertex container.
 
 ### Structs
 
- [BuilderSheetThicken.Rebuild](VM.Managed.CAD.BuilderSheetThicken.Rebuild.md)
+ [Body.Rebuild](VM.Managed.CAD.Body.Rebuild.md)
 
 This class is to represent the event builder for rebuild.
 
@@ -390,7 +395,7 @@ This class is to represent the event builder for rebuild.
 
 This class is to represent the event builder for rebuild.
 
- [Body.Rebuild](VM.Managed.CAD.Body.Rebuild.md)
+ [BuilderSheetThicken.Rebuild](VM.Managed.CAD.BuilderSheetThicken.Rebuild.md)
 
 This class is to represent the event builder for rebuild.
 
@@ -424,11 +429,11 @@ Specifies direction type.
 
 ### Delegates
 
- [ApplyOperation.ApplyCallback](VM.Managed.CAD.ApplyOperation.ApplyCallback.md)
-
-Apply delegate
-
  [CADBodyApplyOperation.ApplyCallback](VM.Managed.CAD.CADBodyApplyOperation.ApplyCallback.md)
 
 Pre Apply delegate
+
+ [ApplyOperation.ApplyCallback](VM.Managed.CAD.ApplyOperation.ApplyCallback.md)
+
+Apply delegate
 

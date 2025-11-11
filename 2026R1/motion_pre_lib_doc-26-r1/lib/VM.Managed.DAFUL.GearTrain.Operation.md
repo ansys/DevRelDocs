@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.GearTrain.Operation
+# Namespace VM.Managed.DAFUL.GearTrain.Operation
+<a id="VM_Managed_DAFUL_GearTrain_Operation"></a>
 
 ### Classes
 
@@ -171,6 +172,10 @@ The export DFG file operation
  [ExportDFS](VM.Managed.DAFUL.GearTrain.Operation.ExportDFS.md)
 
 The export xml file for solver operation
+
+ [ExportFiles](VM.Managed.DAFUL.GearTrain.Operation.ExportFiles.md)
+
+ [ExportMotionFiles](VM.Managed.DAFUL.GearTrain.Operation.ExportMotionFiles.md)
 
  [ExportXML](VM.Managed.DAFUL.GearTrain.Operation.ExportXML.md)
 

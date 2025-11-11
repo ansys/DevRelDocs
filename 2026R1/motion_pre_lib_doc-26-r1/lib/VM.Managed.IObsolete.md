@@ -1,4 +1,5 @@
-#  Interface IObsolete
+# Interface IObsolete
+<a id="VM_Managed_IObsolete"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

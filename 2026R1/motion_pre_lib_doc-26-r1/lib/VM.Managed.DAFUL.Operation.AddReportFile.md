@@ -1,4 +1,5 @@
-#  Class AddReportFile
+# Class AddReportFile
+<a id="VM_Managed_DAFUL_Operation_AddReportFile"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class AddReportFile : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [AddReportFile](VM.Managed.DAFUL.Operation.AddReportFile.md)
 
@@ -85,9 +86,9 @@ public AddReportFile(string strOutputName, string strFilePath)
 
 #### Parameters
 
-`strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutputName` string
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 ## Properties
 
@@ -99,7 +100,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_AddReportFile_Name"></a> Name
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

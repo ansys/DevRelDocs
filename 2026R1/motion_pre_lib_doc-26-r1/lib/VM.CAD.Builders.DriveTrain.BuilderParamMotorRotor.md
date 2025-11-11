@@ -1,4 +1,5 @@
-#  Class BuilderParamMotorRotor
+# Class BuilderParamMotorRotor
+<a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorRotor"></a>
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -9,9 +10,9 @@ public class BuilderParamMotorRotor : BuilderParamMotorBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderParamBase ← 
-BuilderParamColorGeom ← 
+object ← 
+[BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs) ← 
+[BuilderParamColorGeom](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamColorGeom.cs) ← 
 [BuilderParamMotorBase](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md) ← 
 [BuilderParamMotorRotor](VM.CAD.Builders.DriveTrain.BuilderParamMotorRotor.md)
 
@@ -20,13 +21,13 @@ BuilderParamColorGeom ←
 [BuilderParamMotorBase.Depth](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md\#VM\_CAD\_Builders\_DriveTrain\_BuilderParamMotorBase\_Depth), 
 [BuilderParamMotorBase.StartPosition](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md\#VM\_CAD\_Builders\_DriveTrain\_BuilderParamMotorBase\_StartPosition), 
 [BuilderParamMotorBase.RotateAxis](VM.CAD.Builders.DriveTrain.BuilderParamMotorBase.md\#VM\_CAD\_Builders\_DriveTrain\_BuilderParamMotorBase\_RotateAxis), 
-BuilderParamColorGeom.Color, 
-BuilderParamBase.ToXmlString\(\), 
-BuilderParamBase.FinalizeParameter\(\), 
-BuilderParamBase.SetTypeName\(\), 
-BuilderParamBase.Key, 
-BuilderParamBase.TypeName, 
-BuilderParamBase.Transparency
+[BuilderParamColorGeom.Color](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamColorGeom.cs), 
+[BuilderParamBase.ToXmlString\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.FinalizeParameter\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.SetTypeName\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.Key](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.TypeName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs), 
+[BuilderParamBase.Transparency](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 #### Extension Methods
 
@@ -52,7 +53,7 @@ public double InnerDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorRotor_OuterDiameter"></a> OuterDiameter
 
@@ -62,5 +63,5 @@ public double OuterDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo
+# Class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo : CreateDTEnti
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDTEntityUtil.GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md) ← 
 [CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo.md)
 
@@ -68,7 +69,7 @@ public double[] AddendumCoefficient
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_DedendumCoefficient"></a> DedendumCoefficient
 
@@ -78,7 +79,7 @@ public double[] DedendumCoefficient
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_ToolTipRadius"></a> ToolTipRadius
 
@@ -88,7 +89,7 @@ public double[] ToolTipRadius
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ## Properties
 
@@ -100,7 +101,7 @@ public string[] InputArrayForWormAndWormWheel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 

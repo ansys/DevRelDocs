@@ -1,4 +1,5 @@
-#  Class DocumentAPIImpl
+# Class DocumentAPIImpl
+<a id="VM_API_Pre_GearTrain_DocumentAPIImpl"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class DocumentAPIImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocumentAPIImpl](VM.API.Pre.GearTrain.DocumentAPIImpl.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public static T CreateNewGearTrainDocumentImpl<T>(string newGearTrainFilePath, s
 
 #### Parameters
 
-`newGearTrainFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newGearTrainFilePath` string
 
 The file path of new gear train.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -49,11 +50,11 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
-`advancedMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`advancedMode` bool
 
 The flag whether using advanced mode.
 
@@ -61,7 +62,7 @@ The flag whether using advanced mode.
 
 The symetric plane.
 
-`useSymmetric` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useSymmetric` bool
 
 The flag whether using symmetric.
 
@@ -73,11 +74,11 @@ The length unit of kernel.
 
 The direction of shaft.
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 The extension.
 
-`documentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentType` string
 
 The document type.
 
@@ -95,7 +96,7 @@ The document type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newMeshFilePath' argument is empty.
 

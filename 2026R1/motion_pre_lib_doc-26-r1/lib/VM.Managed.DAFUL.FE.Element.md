@@ -1,4 +1,5 @@
-#  Struct Element
+# Struct Element
+<a id="VM_Managed_DAFUL_FE_Element"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -25,11 +26,11 @@ public Element(Mesh meshParent, uint nIndex, uint nIndexType, ObjectEventCore co
 
 The owner of mesh.
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 The index.
 
-`nIndexType` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndexType` uint
 
 The type of index.
 
@@ -49,7 +50,7 @@ public uint[] NodeIndex
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Element_Type"></a> Type
 

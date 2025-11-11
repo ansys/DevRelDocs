@@ -1,4 +1,5 @@
-#  Class MFileGen
+# Class MFileGen
+<a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab](VM.Managed.DAFUL.CoSim.Matlab.md)  
 Assembly: VMDCoSimMatlab.dll  
@@ -11,14 +12,14 @@ public class MFileGen : FileGen, IObservableObject, IDisposableObject, ILinkable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-CoSimBase ← 
-CoSimSettingsBase ← 
-FileGen ← 
+[CoSimBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs) ← 
+[CoSimSettingsBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs) ← 
+[FileGen](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs) ← 
 [MFileGen](VM.Managed.DAFUL.CoSim.Matlab.MFileGen.md)
 
 #### Implements
@@ -35,7 +36,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 INamed, 
 IEnabled, 
@@ -43,29 +44,29 @@ INavigatorItem
 
 #### Inherited Members
 
-FileGen.Initialize\(Unit.ConvertFactor\), 
-FileGen.OnDeserialization\(object\), 
-FileGen.Get\_MessageLevel\(\), 
-FileGen.FilePath, 
-FileGen.FMIVersion, 
-FileGen.Description, 
-FileGen.MessageLevel, 
-FileGen.ScaleFactor, 
-CoSimSettingsBase.Initialize\(Unit.ConvertFactor\), 
-CoSimSettingsBase.OnDeserialization\(object\), 
-CoSimSettingsBase.Use, 
-CoSimSettingsBase.ExecutingProgramPath, 
-CoSimSettingsBase.InterfaceProgramType, 
-CoSimSettingsBase.\_InterfaceTimeStep, 
-CoSimSettingsBase.\_IOList, 
-CoSimBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-CoSimBase.FixUp\(ObjectBase\), 
-CoSimBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-CoSimBase.FullName, 
-CoSimBase.Name, 
-CoSimBase.NonSymmetricName, 
-CoSimBase.IsEnabled, 
-CoSimBase.Comment, 
+[FileGen.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[FileGen.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[FileGen.Get\_MessageLevel\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[FileGen.FilePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[FileGen.FMIVersion](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[FileGen.Description](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[FileGen.MessageLevel](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[FileGen.ScaleFactor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimSettingsBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimSettingsBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimSettingsBase.Use](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimSettingsBase.ExecutingProgramPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimSettingsBase.InterfaceProgramType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimSettingsBase.\_InterfaceTimeStep](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimSettingsBase.\_IOList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimSettingsBase.cs), 
+[CoSimBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
+[CoSimBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
+[CoSimBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
+[CoSimBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
+[CoSimBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
+[CoSimBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
+[CoSimBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
+[CoSimBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimBase.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -158,7 +159,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -197,7 +198,7 @@ public MFileGen(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +215,7 @@ public CoSimIOList IOList { get; set; }
 
 #### Property Value
 
- CoSimIOList
+ [CoSimIOList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimIO.cs)
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_InterfaceProgramType"></a> InterfaceProgramType
 
@@ -251,7 +252,7 @@ public string MFileName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_SimulinkFileName"></a> SimulinkFileName
 
@@ -263,7 +264,7 @@ public string SimulinkFileName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -291,7 +292,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -309,7 +310,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -323,7 +324,7 @@ public void SetMFileName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The M file name.
 
@@ -337,7 +338,7 @@ public void SetSimulinkFileName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The simulink file name.
 

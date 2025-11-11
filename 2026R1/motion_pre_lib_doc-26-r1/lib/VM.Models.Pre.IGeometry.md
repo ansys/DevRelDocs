@@ -1,4 +1,5 @@
-#  Interface IGeometry
+# Interface IGeometry
+<a id="VM_Models_Pre_IGeometry"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,5 +24,5 @@ string NameAttribute { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

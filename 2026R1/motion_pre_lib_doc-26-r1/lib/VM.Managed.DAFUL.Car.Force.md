@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Car.Force
+# Namespace VM.Managed.DAFUL.Car.Force
+<a id="VM_Managed_DAFUL_Car_Force"></a>
 
 ### Classes
 
@@ -88,11 +89,11 @@ The spring force class.
 
 The spring force installation type
 
- [Bumpstop.MethodType](VM.Managed.DAFUL.Car.Force.Bumpstop.MethodType.md)
-
-Method type
-
  [Reboundstop.MethodType](VM.Managed.DAFUL.Car.Force.Reboundstop.MethodType.md)
 
 The method type
+
+ [Bumpstop.MethodType](VM.Managed.DAFUL.Car.Force.Bumpstop.MethodType.md)
+
+Method type
 

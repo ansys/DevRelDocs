@@ -1,4 +1,5 @@
-#  Class Connector<T, TProp\>
+# Class Connector<T, TProp\>
+<a id="VM_Managed_Symmetric_Connector_2"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -15,7 +16,7 @@ public class Connector<T, TProp> : Named<T>, ISymmetricUpdater where T : Connect
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Named<T\>](VM.Managed.Symmetric.Named\-1.md) ← 
 [Connector<T, TProp\>](VM.Managed.Symmetric.Connector\-2.md)
 
@@ -76,7 +77,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

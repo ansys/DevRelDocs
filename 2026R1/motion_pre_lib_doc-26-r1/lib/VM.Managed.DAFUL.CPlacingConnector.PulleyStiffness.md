@@ -1,4 +1,5 @@
-#  Class PulleyStiffness
+# Class PulleyStiffness
+<a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -11,9 +12,9 @@ public class PulleyStiffness : ComponentStiffness, IObservableObject, IDisposabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [ComponentStiffness](VM.Managed.DAFUL.CPlacingConnector.ComponentStiffness.md) ← 
 [PulleyStiffness](VM.Managed.DAFUL.CPlacingConnector.PulleyStiffness.md)
@@ -79,7 +80,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -119,7 +120,7 @@ public PulleyStiffness(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 ## Properties
 
@@ -133,11 +134,11 @@ public Spline RadialDeformationRatio { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 The radial deformation ratio is null.
 
@@ -151,11 +152,11 @@ public Spline Stiffness { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 The stiffness is null.
 
@@ -169,7 +170,7 @@ public Spline[] TangentialDeformationRatio { get; set; }
 
 #### Property Value
 
- Spline\[\]
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ## Methods
 
@@ -215,5 +216,5 @@ public string TangentialStiffnessText()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

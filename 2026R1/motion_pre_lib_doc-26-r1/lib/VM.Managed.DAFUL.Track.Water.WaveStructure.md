@@ -1,4 +1,5 @@
-#  Struct Water.WaveStructure
+# Struct Water.WaveStructure
+<a id="VM_Managed_DAFUL_Track_Water_WaveStructure"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -21,7 +22,7 @@ public double DecayFactor
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_Density"></a> Density
 
@@ -33,7 +34,7 @@ public double Density
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_DepthAtDeepWater"></a> DepthAtDeepWater
 
@@ -45,7 +46,7 @@ public double DepthAtDeepWater
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_DistanceToDeepWater"></a> DistanceToDeepWater
 
@@ -57,7 +58,7 @@ public double DistanceToDeepWater
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_EndTime"></a> EndTime
 
@@ -69,7 +70,7 @@ public double EndTime
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_Gravity"></a> Gravity
 
@@ -93,7 +94,7 @@ public double LengthInXAxis
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_OutputStep"></a> OutputStep
 
@@ -105,7 +106,7 @@ public uint OutputStep
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_RandomPhase"></a> RandomPhase
 
@@ -117,7 +118,7 @@ public List<double> RandomPhase
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ List<double\>
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_Slope"></a> Slope
 
@@ -129,7 +130,7 @@ public double Slope
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_TypeOfPMPeriod"></a> TypeOfPMPeriod
 
@@ -165,7 +166,7 @@ public bool UseBreaking
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_UserFilePath"></a> UserFilePath
 
@@ -177,7 +178,7 @@ public string UserFilePath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_WaveHeightPeriod"></a> WaveHeightPeriod
 
@@ -189,7 +190,7 @@ public List<double[]> WaveHeightPeriod
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+ List<double\[\]\>
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_WidthInYAxis"></a> WidthInYAxis
 
@@ -201,5 +202,5 @@ public double WidthInYAxis
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

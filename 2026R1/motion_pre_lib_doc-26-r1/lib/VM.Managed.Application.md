@@ -1,4 +1,5 @@
-#  Class Application
+# Class Application
+<a id="VM_Managed_Application"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class Application : IHasVerifyLevel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Application](VM.Managed.Application.md)
 
 #### Implements
@@ -36,11 +37,41 @@ public Application(IApplication* pApp)
 
 #### Parameters
 
-`pApp` [IApplication](VM.DAFUL.IApplication.md)\*
+`pApp` IApplication\*
 
 The info of application.
 
 ## Properties
+
+### <a id="VM_Managed_Application_AlertMessageHandler"></a> AlertMessageHandler
+
+```csharp
+public static Action<string, string> AlertMessageHandler { get; set; }
+```
+
+#### Property Value
+
+ Action<string, string\>
+
+### <a id="VM_Managed_Application_AskOkCancelHandler"></a> AskOkCancelHandler
+
+```csharp
+public static Func<string, string, bool, bool> AskOkCancelHandler { get; set; }
+```
+
+#### Property Value
+
+ Func<string, string, bool, bool\>
+
+### <a id="VM_Managed_Application_AskOkCancelWithSimpleTextHandler"></a> AskOkCancelWithSimpleTextHandler
+
+```csharp
+public static Func<string, string, string, bool> AskOkCancelWithSimpleTextHandler { get; set; }
+```
+
+#### Property Value
+
+ Func<string, string, string, bool\>
 
 ### <a id="VM_Managed_Application_ConversionMethod"></a> ConversionMethod
 
@@ -84,7 +115,17 @@ public ICollection<Document> Documents { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Document](VM.Managed.Document.md)\>
+ ICollection<[Document](VM.Managed.Document.md)\>
+
+### <a id="VM_Managed_Application_InformationMessageHandler"></a> InformationMessageHandler
+
+```csharp
+public static Action<string, string> InformationMessageHandler { get; set; }
+```
+
+#### Property Value
+
+ Action<string, string\>
 
 ### <a id="VM_Managed_Application_Kernel"></a> Kernel
 
@@ -106,7 +147,7 @@ public static bool LoadPrior242Sp3Files { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Application_OEMMode"></a> OEMMode
 
@@ -116,7 +157,7 @@ public static bool OEMMode { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Application_ShowOEMError"></a> ShowOEMError
 
@@ -126,7 +167,7 @@ public static bool ShowOEMError { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Application_SupportLegacyACISBasedFile"></a> SupportLegacyACISBasedFile
 
@@ -136,9 +177,143 @@ public static bool SupportLegacyACISBasedFile { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
+
+### <a id="VM_Managed_Application_WarningMessageHandler"></a> WarningMessageHandler
+
+```csharp
+public static Action<string, string> WarningMessageHandler { get; set; }
+```
+
+#### Property Value
+
+ Action<string, string\>
 
 ## Methods
+
+### <a id="VM_Managed_Application_AskOkCancel_System_String_"></a> AskOkCancel\(string\)
+
+Ask OK/Cancel message
+
+```csharp
+public static bool AskOkCancel(string message)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show.
+
+#### Returns
+
+ bool
+
+<code>true</code> if Ok. Otherwise, <code>false</code>.
+
+### <a id="VM_Managed_Application_AskOkCancel_System_String_System_Boolean_"></a> AskOkCancel\(string, bool\)
+
+Ask OK/Cancel message
+
+```csharp
+public static bool AskOkCancel(string message, bool bActiveCancel)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show.
+
+`bActiveCancel` bool
+
+If true, the Cancel button is active.
+
+#### Returns
+
+ bool
+
+<code>true</code> if Ok. Otherwise, <code>false</code>.
+
+### <a id="VM_Managed_Application_AskOkCancel_System_String_System_String_"></a> AskOkCancel\(string, string\)
+
+Ask OK/Cancel message
+
+```csharp
+public static bool AskOkCancel(string message, string title)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show.
+
+`title` string
+
+The title
+
+#### Returns
+
+ bool
+
+<code>true</code> if Ok. Otherwise, <code>false</code>.
+
+### <a id="VM_Managed_Application_AskOkCancel_System_String_System_String_System_Boolean_"></a> AskOkCancel\(string, string, bool\)
+
+Ask OK/Cancel message
+
+```csharp
+public static bool AskOkCancel(string message, string title, bool bActiveCancel)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show.
+
+`title` string
+
+The title
+
+`bActiveCancel` bool
+
+If true, the Cancel button is active.
+
+#### Returns
+
+ bool
+
+<code>true</code> if Ok. Otherwise, <code>false</code>.
+
+### <a id="VM_Managed_Application_AskOkCancelWithSimpleText_System_String_System_String_System_String_"></a> AskOkCancelWithSimpleText\(string, string, string\)
+
+Ask OK/Cancel message with simple text
+
+```csharp
+public static bool AskOkCancelWithSimpleText(string simpleText, string message, string title)
+```
+
+#### Parameters
+
+`simpleText` string
+
+The simple text message
+
+`message` string
+
+The message to show
+
+`title` string
+
+The title
+
+#### Returns
+
+ bool
+
+<code>true</code> if Ok. Otherwise, <code>false</code>.
 
 ### <a id="VM_Managed_Application_CreateDocument_VM_Models_Pre_DocumentType_System_Type_System_String___VM_Managed_DocCreateInfo_"></a> CreateDocument\(DocumentType, Type, string\[\], DocCreateInfo\)
 
@@ -154,11 +329,11 @@ public Document3D CreateDocument(DocumentType type, Type typeDoc, string[] arIco
 
 The type of document.
 
-`typeDoc` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`typeDoc` Type
 
 The system type of document.
 
-`arIconFiles` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arIconFiles` string\[\]
 
 Icon files.
 
@@ -186,7 +361,7 @@ public Document CreateDocument(DocumentType type, Type typeDoc)
 
 The type of document.
 
-`typeDoc` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`typeDoc` Type
 
 The system type of document.
 
@@ -205,7 +380,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_Application_Dispose"></a> Dispose\(\)
 
@@ -232,11 +407,11 @@ public string GetTranslateFilter(string strFilter)
 
 #### Parameters
 
-`strFilter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilter` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_GetTranslateForExportFilter_System_String_"></a> GetTranslateForExportFilter\(string\)
 
@@ -246,11 +421,11 @@ public string GetTranslateForExportFilter(string strFilter)
 
 #### Parameters
 
-`strFilter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilter` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_InitPlugins_System_String___"></a> InitPlugins\(string\[\]\)
 
@@ -262,7 +437,7 @@ public abstract void InitPlugins(string[] arStrPluginPath)
 
 #### Parameters
 
-`arStrPluginPath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arStrPluginPath` string\[\]
 
 The path of plugin.
 
@@ -276,7 +451,7 @@ public Document3D OpenDocument(string strFilePath, DocumentType type, string[] a
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The path of opened document.
 
@@ -284,7 +459,7 @@ The path of opened document.
 
 The type of document.
 
-`arIconFiles` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arIconFiles` string\[\]
 
 Icon files.
 
@@ -308,7 +483,7 @@ public Document3D OpenTemplateBasedDocument(string strFilePath, DocumentType typ
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The path of opened document.
 
@@ -316,7 +491,7 @@ The path of opened document.
 
 The type of document.
 
-`arIconFiles` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arIconFiles` string\[\]
 
 Icon files.
 
@@ -340,7 +515,7 @@ public Document3D OpenXmlDocument(string strFilePath, DocumentType type, string[
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The path of opened document.
 
@@ -348,7 +523,7 @@ The path of opened document.
 
 The type of document.
 
-`arIconFiles` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arIconFiles` string\[\]
 
 Icon files.
 
@@ -372,7 +547,7 @@ public static void SetAxisSetting(bool bUseRotate, AxisLocation enLocation)
 
 #### Parameters
 
-`bUseRotate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseRotate` bool
 
 Use rotate in axis area
 
@@ -388,9 +563,9 @@ public static void SetBinderDictionary(Dictionary<string, Application.BinderInfo
 
 #### Parameters
 
-`dicBinder` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [Application](VM.Managed.Application.md).[BinderInfo](VM.Managed.Application.BinderInfo.md)\>
+`dicBinder` Dictionary<string, [Application](VM.Managed.Application.md).[BinderInfo](VM.Managed.Application.BinderInfo.md)\>
 
-`dicBinderForCollection` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [Application](VM.Managed.Application.md).[BinderInfo](VM.Managed.Application.BinderInfo.md)\>
+`dicBinderForCollection` Dictionary<string, [Application](VM.Managed.Application.md).[BinderInfo](VM.Managed.Application.BinderInfo.md)\>
 
 ### <a id="VM_Managed_Application_SetDoubleFormat_System_Int32_"></a> SetDoubleFormat\(int\)
 
@@ -402,7 +577,7 @@ public static void SetDoubleFormat(int nValue)
 
 #### Parameters
 
-`nValue` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nValue` int
 
 The value.
 
@@ -414,9 +589,9 @@ public void SetInforceBuild(string strFile, bool bOnOff)
 
 #### Parameters
 
-`strFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFile` string
 
-`bOnOff` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bOnOff` bool
 
 ### <a id="VM_Managed_Application_SetKernelLogLevel_System_Int32_System_Int32_"></a> SetKernelLogLevel\(int, int\)
 
@@ -428,11 +603,11 @@ public void SetKernelLogLevel(int nKernelLogLevel, int nTranslatorLogLevel)
 
 #### Parameters
 
-`nKernelLogLevel` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nKernelLogLevel` int
 
 Log level for the kernel messages.
 
-`nTranslatorLogLevel` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nTranslatorLogLevel` int
 
 Log level for the translator messages.
 
@@ -460,15 +635,111 @@ public static void SetNavigationSetting(NavigationKeys oRotateMain, NavigationKe
 
 `oCenterSub` [NavigationKeys](VM.Managed.NavigationKeys.md)
 
-`bZoomInMouseDown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bZoomInMouseDown` bool
 
-`bZoomInWheelDown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bZoomInWheelDown` bool
 
-`bTrackball` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bTrackball` bool
 
-`nRotateSpeed` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRotateSpeed` int
 
-`nZoomSpeed` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nZoomSpeed` int
+
+### <a id="VM_Managed_Application_ShowAlert_System_String_"></a> ShowAlert\(string\)
+
+Show alert message
+
+```csharp
+public static void ShowAlert(string message)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show
+
+### <a id="VM_Managed_Application_ShowAlert_System_String_System_String_"></a> ShowAlert\(string, string\)
+
+Show alert message
+
+```csharp
+public static void ShowAlert(string message, string title)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show
+
+`title` string
+
+The title
+
+### <a id="VM_Managed_Application_ShowInformation_System_String_"></a> ShowInformation\(string\)
+
+Show information message
+
+```csharp
+public static void ShowInformation(string message)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show
+
+### <a id="VM_Managed_Application_ShowInformation_System_String_System_String_"></a> ShowInformation\(string, string\)
+
+Show information message
+
+```csharp
+public static void ShowInformation(string message, string title)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show
+
+`title` string
+
+The title
+
+### <a id="VM_Managed_Application_ShowWarning_System_String_"></a> ShowWarning\(string\)
+
+Show warning message
+
+```csharp
+public static void ShowWarning(string message)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show
+
+### <a id="VM_Managed_Application_ShowWarning_System_String_System_String_"></a> ShowWarning\(string, string\)
+
+Show warning message
+
+```csharp
+public static void ShowWarning(string message, string title)
+```
+
+#### Parameters
+
+`message` string
+
+The message to show
+
+`title` string
+
+The title
 
 ### <a id="VM_Managed_Application_Start_System_String_VM_Managed_Application_StartOption_"></a> Start\(string, StartOption\)
 
@@ -480,7 +751,7 @@ public static Application Start(string strKernelPath, Application.StartOption ob
 
 #### Parameters
 
-`strKernelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKernelPath` string
 
 The path of kernel.
 

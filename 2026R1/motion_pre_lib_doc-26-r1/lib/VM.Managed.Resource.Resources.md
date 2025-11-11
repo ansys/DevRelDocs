@@ -1,4 +1,5 @@
-#  Class Resources
+# Class Resources
+<a id="VM_Managed_Resource_Resources"></a>
 
 Namespace: [VM.Managed.Resource](VM.Managed.Resource.md)  
 Assembly: VMAppCore.dll  
@@ -9,7 +10,7 @@ public class Resources
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Resources](VM.Managed.Resource.Resources.md)
 
 #### Extension Methods

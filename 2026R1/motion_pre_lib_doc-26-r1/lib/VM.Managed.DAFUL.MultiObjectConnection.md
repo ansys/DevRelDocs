@@ -1,4 +1,5 @@
-#  Class MultiObjectConnection
+# Class MultiObjectConnection
+<a id="VM_Managed_DAFUL_MultiObjectConnection"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public abstract class MultiObjectConnection : LinkContainer, IObservableObject, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MultiObjectConnection](VM.Managed.DAFUL.MultiObjectConnection.md)
 
@@ -79,7 +80,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -148,11 +149,11 @@ public abstract ObjectBase GetConnection(object obBase, object obAction)
 
 #### Parameters
 
-`obBase` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obBase` object
 
 The base object for the connection object.
 
-`obAction` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obAction` object
 
 The action object for the connection object.
 

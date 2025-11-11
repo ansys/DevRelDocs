@@ -1,4 +1,5 @@
-#  Class KernelObject
+# Class KernelObject
+<a id="VM_CAD_Kernel_KernelObject"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public abstract class KernelObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md)
 
 #### Derived
@@ -40,9 +41,9 @@ protected KernelObject(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Fields
 
@@ -54,7 +55,7 @@ protected const int VMK_ARGUMENT_NULL = 1
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Kernel_KernelObject_VMK_ARGUMENT_TYPE"></a> VMK\_ARGUMENT\_TYPE
 
@@ -64,7 +65,7 @@ protected const int VMK_ARGUMENT_TYPE = 2
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Kernel_KernelObject_VMK_OK"></a> VMK\_OK
 
@@ -74,7 +75,7 @@ protected const int VMK_OK = 0
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Properties
 
@@ -86,7 +87,7 @@ public UIntPtr Key { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ## Methods
 
@@ -116,7 +117,7 @@ protected static void Execute(Func<int> function)
 
 #### Parameters
 
-`function` [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`function` Func<int\>
 
 ### <a id="VM_CAD_Kernel_KernelObject_GetFrom__1_VM_CAD_Kernel_KernelObject_delGetFrom___0__System_Boolean_"></a> GetFrom<TResult\>\(delGetFrom<TResult\>, bool\)
 
@@ -128,7 +129,7 @@ protected static TResult GetFrom<TResult>(KernelObject.delGetFrom<TResult> getFr
 
 `getFrom` [KernelObject](VM.CAD.Kernel.KernelObject.md).[delGetFrom](VM.CAD.Kernel.KernelObject.delGetFrom\-1.md)<TResult\>
 
-`checkFunctionReturnValue` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`checkFunctionReturnValue` bool
 
 #### Returns
 

@@ -1,4 +1,5 @@
-#  Class ModifiedResult
+# Class ModifiedResult
+<a id="VM_Managed_ModifiedResult"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ModifiedResult
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ModifiedResult](VM.Managed.ModifiedResult.md)
 
 #### Extension Methods

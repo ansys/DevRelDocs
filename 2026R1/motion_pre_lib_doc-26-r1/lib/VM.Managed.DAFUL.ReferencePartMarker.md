@@ -1,4 +1,5 @@
-#  Class ReferencePartMarker
+# Class ReferencePartMarker
+<a id="VM_Managed_DAFUL_ReferencePartMarker"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,14 +12,14 @@ public class ReferencePartMarker : ReferenceMarker, IObservableObject, IDisposab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Reference ← 
-ReferenceDesignSubEntity ← 
-ReferenceDesignFrame ← 
+[ReferenceDesignSubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignSubEntity.cs) ← 
+[ReferenceDesignFrame](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs) ← 
 [ReferenceMarker](VM.Managed.DAFUL.ReferenceMarker.md) ← 
 [ReferencePartMarker](VM.Managed.DAFUL.ReferencePartMarker.md)
 
@@ -36,7 +37,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IReferencable, 
 INamed, 
@@ -59,16 +60,16 @@ IMarker
 [ReferenceMarker.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](VM.Managed.DAFUL.ReferenceMarker.md\#VM\_Managed\_DAFUL\_ReferenceMarker\_GetModelNavigatorInformationImpl\_System\_Xml\_XmlDocument\_System\_Xml\_XmlElement\_System\_Boolean\_), 
 [ReferenceMarker.ArgumentType](VM.Managed.DAFUL.ReferenceMarker.md\#VM\_Managed\_DAFUL\_ReferenceMarker\_ArgumentType), 
 [ReferenceMarker.ParentConnectable](VM.Managed.DAFUL.ReferenceMarker.md\#VM\_Managed\_DAFUL\_ReferenceMarker\_ParentConnectable), 
-ReferenceDesignFrame.GetDirection\(Coordinate\), 
-ReferenceDesignFrame.GetFullName\(\), 
-ReferenceDesignFrame.OriginalPosition, 
-ReferenceDesignFrame.Value, 
-ReferenceDesignFrame.X, 
-ReferenceDesignFrame.Y, 
-ReferenceDesignFrame.Z, 
-ReferenceDesignFrame.Position, 
-ReferenceDesignFrame.Orientation, 
-ReferenceDesignFrame.TransformationMatrix, 
+[ReferenceDesignFrame.GetDirection\(Coordinate\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.GetFullName\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.OriginalPosition](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.Value](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.X](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.Y](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.Z](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.Position](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.Orientation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
+[ReferenceDesignFrame.TransformationMatrix](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/ReferenceDesignFrame.cs), 
 Reference.LinkAddedToDocument\(object, AddToDocEventArgs\), 
 Reference.SetModified\(ModifiedResult.ModifiedType\), 
 Reference.SetModified\(\), 
@@ -186,7 +187,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -217,11 +218,11 @@ protected ReferencePartMarker(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -251,7 +252,7 @@ public override string FullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_ReferencePartMarker_ParentConnectable"></a> ParentConnectable
 
@@ -275,7 +276,7 @@ public static string PredefinedName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -289,21 +290,21 @@ protected override bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, Xml
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlRootEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlRootEle` XmlElement
 
 The XmlElement for object.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 if set to <code>true</code> [b has child].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -317,7 +318,7 @@ protected override void LinkRequestDestroy(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The ob notifier.
 
@@ -335,7 +336,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The ob notifier.
 

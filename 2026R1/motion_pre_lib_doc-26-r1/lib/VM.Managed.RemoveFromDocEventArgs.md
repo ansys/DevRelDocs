@@ -1,4 +1,5 @@
-#  Class RemoveFromDocEventArgs
+# Class RemoveFromDocEventArgs
+<a id="VM_Managed_RemoveFromDocEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public sealed class RemoveFromDocEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)
 
 #### Extension Methods
@@ -37,7 +38,7 @@ public RemoveFromDocEventArgs(Document doc, bool bBackup)
 
 The document
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 The backup flag.
 
@@ -79,5 +80,5 @@ public bool IsBackup { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

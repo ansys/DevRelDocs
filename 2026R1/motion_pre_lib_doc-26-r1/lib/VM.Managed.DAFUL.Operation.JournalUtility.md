@@ -1,4 +1,5 @@
-#  Class JournalUtility
+# Class JournalUtility
+<a id="VM_Managed_DAFUL_Operation_JournalUtility"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class JournalUtility
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [JournalUtility](VM.Managed.DAFUL.Operation.JournalUtility.md)
 
 #### Extension Methods
@@ -58,7 +59,7 @@ public static void ExecuteJournal(string[] arDeleteNames)
 
 #### Parameters
 
-`arDeleteNames` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arDeleteNames` string\[\]
 
 The ar delete names.
 
@@ -72,7 +73,7 @@ public static void ExecuteJournal(string strDeleteName)
 
 #### Parameters
 
-`strDeleteName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDeleteName` string
 
 Name of the string delete.
 
@@ -94,7 +95,7 @@ The type op.
 
 The object entity.
 
-`arDeleteNames` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arDeleteNames` string\[\]
 
 The ar delete names.
 

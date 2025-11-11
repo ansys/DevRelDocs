@@ -1,4 +1,5 @@
-#  Class UpdateBearingInFE
+# Class UpdateBearingInFE
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateBearingInFE : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateBearingInFE](VM.Managed.DAFUL.GearTrain.Operation.UpdateBearingInFE.md)
@@ -98,15 +99,15 @@ public UpdateBearingInFE(string strBearingGeometryName, string strRBEName, strin
 
 #### Parameters
 
-`strBearingGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearingGeometryName` string
 
 Name of the string bearing geometry.
 
-`strRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEName` string
 
 Name of the string rbe.
 
-`strZAxis` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strZAxis` string
 
 The string z axis.
 
@@ -124,15 +125,15 @@ public UpdateBearingInFE(Document3D document3D, string strBearingGeometryName, s
 
 The document.
 
-`strBearingGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearingGeometryName` string
 
 Name of the string bearing geometry.
 
-`strRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEName` string
 
 Name of the string rbe.
 
-`strZAxis` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strZAxis` string
 
 The string z axis.
 
@@ -170,7 +171,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

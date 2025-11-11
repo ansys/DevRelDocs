@@ -1,4 +1,5 @@
-#  Class SolidBodyAPI
+# Class SolidBodyAPI
+<a id="VM_API_Pre_SolidBodyAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class SolidBodyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SolidBodyAPI](VM.API.Pre.SolidBodyAPI.md)
 
 #### Extension Methods
@@ -44,11 +45,11 @@ The body analysis type to be changed.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'solidBody' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'solidBody' argument is not empty and type of 'solidBody' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -71,7 +72,7 @@ The <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"><
 
 The transformation matrix for a marker.
 
-`markerName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`markerName` string
 
 The name of the marker. If empty, default name starts with 'MK_' will be generated and used.
 
@@ -87,7 +88,7 @@ the new <xref href="VM.Managed.DAFUL.Marker" data-throw-if-not-resolved="false">
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'solidBody' is null.
 
@@ -107,27 +108,27 @@ public static Obj CreateMeshFile(this Obj body, string pathMeshFile, string noda
 
 The <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> to generate mesh file.
 
-`pathMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathMeshFile` string
 
 Generated mesh file path.
 
-`nodalBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`nodalBodyName` string
 
 The name of the new nodal body. If empty, default name will be generated.
 
-`importMeshAfterCreate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`importMeshAfterCreate` bool
 
 The flag that indicates importing new mesh file into the <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> or not.
 
-`addToModel` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToModel` bool
 
 The flag that indicates adding new mesh file to the model.
 
-`createGroup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`createGroup` bool
 
 The flag that indicates creating new group by using the solid body and the new nodal body.
 
-`groupName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`groupName` string
 
 The name of the new group.
 
@@ -143,7 +144,7 @@ The new NodalBody entity if importMeshAfterCreate flag is true. Otherwise, empty
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if body or pathMeshFile arguments are empty.
 
@@ -159,7 +160,7 @@ public static Obj CreateSolidBlock(this SubSystemDocument document, Vector posit
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the block solid body.
 
@@ -167,19 +168,19 @@ The document to create the block solid body.
 
 The position to create the block solid body.
 
-`width` ExpressionValueVariable
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The width of the block.
 
-`height` ExpressionValueVariable
+`height` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The height of the block.
 
-`depth` ExpressionValueVariable
+`depth` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The depth of the blodk.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -187,7 +188,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The boolean operation type. If None, new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> will be created. otherwise, New block geometry will be merged to the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> which has same name with 'name' argument.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new block geometry. The default value is '0xBFAAAA'
 
@@ -195,7 +196,7 @@ The color of the new block geometry. The default value is '0xBFAAAA'
 
 The symmetric type of the new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
@@ -207,11 +208,11 @@ The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="fals
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'width', 'height', 'depth' values equal to or less than 0.
 
@@ -225,7 +226,7 @@ public static Obj CreateSolidBlock(this SubSystemDocument document, Vector posit
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the block solid body.
 
@@ -233,7 +234,7 @@ The document to create the block solid body.
 
 The position to create the block solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -255,7 +256,7 @@ public static Obj CreateSolidCylinder(this SubSystemDocument document, Vector bo
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the cylinder solid body.
 
@@ -267,11 +268,11 @@ The bottom position to create the cylinder solid body.
 
 The top position to create the cylinder solid body.
 
-`radius` ExpressionValueVariable
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The radius of the cylinder.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -279,7 +280,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The boolean operation type. If None, new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> will be created. otherwise, New cylinder geometry will be merged to the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> which has same name with 'name' argument.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new cylinder geometry. The default value is '0xBFAAAA'
 
@@ -287,7 +288,7 @@ The color of the new cylinder geometry. The default value is '0xBFAAAA'
 
 The symmetric type of the new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
@@ -299,15 +300,15 @@ The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="fals
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'radius' value equal to or less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'bottomPosition' equal to 'topPosition'.
 
@@ -321,7 +322,7 @@ public static Obj CreateSolidCylinder(this SubSystemDocument document, Vector bo
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the cylinder solid body.
 
@@ -333,7 +334,7 @@ The bottom position to create the cylinder solid body.
 
 The top position to create the cylinder solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -355,7 +356,7 @@ public static Obj CreateSolidSphere(this SubSystemDocument document, Vector cent
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the sphere solid body.
 
@@ -363,11 +364,11 @@ The document to create the sphere solid body.
 
 The center position to create the sphere solid body.
 
-`radius` ExpressionValueVariable
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The radius of the sphere.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -375,7 +376,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The boolean operation type. If None, new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> will be created. otherwise, New sphere geometry will be merged to the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> which has same name with 'name' argument.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new sphere geometry. The default value is '0xBFAAAA'
 
@@ -383,7 +384,7 @@ The color of the new sphere geometry. The default value is '0xBFAAAA'
 
 The symmetric type of the new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
@@ -395,11 +396,11 @@ The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="fals
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'radius' value equal to or less than 0.
 
@@ -413,7 +414,7 @@ public static Obj CreateSolidSphere(this SubSystemDocument document, Vector cent
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the sphere solid body.
 
@@ -421,7 +422,7 @@ The document to create the sphere solid body.
 
 The center position to create the sphere solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -443,7 +444,7 @@ public static Obj CreateSolidTriPlate(this SubSystemDocument document, Vector fi
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the triplate solid body.
 
@@ -459,11 +460,11 @@ The second position to create the triplate solid body.
 
 The third position to create the triplate solid body.
 
-`height` ExpressionValueVariable
+`height` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The height of the triplate.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -471,7 +472,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The boolean operation type. If None, new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> will be created. otherwise, New triplate geometry will be merged to the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> which has same name with 'name' argument.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new triplate geometry. The default value is '0xBFAAAA'
 
@@ -479,7 +480,7 @@ The color of the new triplate geometry. The default value is '0xBFAAAA'
 
 The symmetric type of the new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
@@ -491,15 +492,15 @@ The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="fals
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'height' value equal to or less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the condition of triangle's crossproduct is not met.
 
@@ -513,7 +514,7 @@ public static Obj CreateSolidTriPlate(this SubSystemDocument document, Vector fi
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the triplate solid body.
 
@@ -529,7 +530,7 @@ The second position to create the triplate solid body.
 
 The third position to create the triplate solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used. If booleanOperationType argument is other than 'None', this argument must be the existing <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> name.
 
@@ -556,11 +557,11 @@ The body to be updated.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'body' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'body' argument is not empty and type of 'body' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref>.
 

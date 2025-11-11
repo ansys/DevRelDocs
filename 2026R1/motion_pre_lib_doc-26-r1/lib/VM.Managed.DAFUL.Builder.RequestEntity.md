@@ -1,4 +1,5 @@
-#  Class RequestEntity
+# Class RequestEntity
+<a id="VM_Managed_DAFUL_Builder_RequestEntity"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class RequestEntity : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RequestEntity](VM.Managed.DAFUL.Builder.RequestEntity.md)
 
 #### Implements
@@ -50,7 +51,7 @@ public RequestEntity Entity { get; }
 
 #### Property Value
 
- RequestEntity
+ [RequestEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/RequestEntity.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_RequestEntity_Name"></a> Name
 
@@ -60,7 +61,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_RequestEntity_Parameters"></a> Parameters
 

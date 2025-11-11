@@ -1,4 +1,5 @@
-#  Class Mesh.ElementInfo
+# Class Mesh.ElementInfo
+<a id="VM_Managed_DAFUL_FE_Mesh_ElementInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -9,7 +10,7 @@ public class Mesh.ElementInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Mesh.ElementInfo](VM.Managed.DAFUL.FE.Mesh.ElementInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public uint[] arNodeIndex
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ElementInfo_enType"></a> enType
 
@@ -56,5 +57,5 @@ public uint nNodes
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

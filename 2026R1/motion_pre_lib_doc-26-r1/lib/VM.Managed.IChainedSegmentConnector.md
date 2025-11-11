@@ -1,4 +1,5 @@
-#  Interface IChainedSegmentConnector
+# Interface IChainedSegmentConnector
+<a id="VM_Managed_IChainedSegmentConnector"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,5 @@
-#  Class Application
+# Class Application
+<a id="VM_CAD_Kernel_Application"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public sealed class Application : KernelObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Application](VM.CAD.Kernel.Application.md)
 
@@ -38,11 +39,11 @@ public Application(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key of the application object.
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 If true, lock reference of the application object. otherwise, false.
 
@@ -64,7 +65,7 @@ Information of the documet to open.
 
 #### Returns
 
- \([Document](VM.CAD.Kernel.Document.md) [doc](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.cad.kernel.document,system.uint32\-.doc), [uint](https://learn.microsoft.com/dotnet/api/system.uint32) [returnCode](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.cad.kernel.document,system.uint32\-.returncode)\)
+ \([Document](VM.CAD.Kernel.Document.md) doc, uint returnCode\)
 
 The opened document.
 
@@ -82,17 +83,17 @@ public void SetLogLevel(int nKernelLogLevel, int nTranslatorLogLevel)
 
 #### Parameters
 
-`nKernelLogLevel` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nKernelLogLevel` int
 
 Kernel message log level
 
-`nTranslatorLogLevel` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nTranslatorLogLevel` int
 
 Translator message log level
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 Failed to set log level.
 

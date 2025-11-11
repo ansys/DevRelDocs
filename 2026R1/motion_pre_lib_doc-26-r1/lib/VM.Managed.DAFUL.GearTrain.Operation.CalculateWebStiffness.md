@@ -1,4 +1,5 @@
-#  Class CalculateWebStiffness
+# Class CalculateWebStiffness
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class CalculateWebStiffness : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculateWebStiffness](VM.Managed.DAFUL.GearTrain.Operation.CalculateWebStiffness.md)
 
@@ -91,39 +92,39 @@ public CalculateWebStiffness(HiddenGearSetDocumentBase doc, string strDocInfo, s
 
 #### Parameters
 
-`doc` HiddenGearSetDocumentBase
+`doc` [HiddenGearSetDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenGearSetDocumentBase.cs)
 
 The document.
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDATFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDATFilePath` string
 
 The dat file path.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The target angle.
 
-`dRange` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRange` double
 
 The target range.
 
-`dYoungsModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dYoungsModulus` double
 
 The target young's modulus.
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
 The target poisson's ratio.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 The target density.
 
-`dDampingRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDampingRatio` double
 
 The target damping ratio.
 
@@ -153,7 +154,7 @@ protected string[] m_arResult
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dAngle"></a> m\_dAngle
 
@@ -165,7 +166,7 @@ protected double m_dAngle
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dDampingRatio"></a> m\_dDampingRatio
 
@@ -177,7 +178,7 @@ protected double m_dDampingRatio
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dDensity"></a> m\_dDensity
 
@@ -189,7 +190,7 @@ protected double m_dDensity
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIxx"></a> m\_dIxx
 
@@ -201,7 +202,7 @@ protected double m_dIxx
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIxy"></a> m\_dIxy
 
@@ -213,7 +214,7 @@ protected double m_dIxy
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIxz"></a> m\_dIxz
 
@@ -225,7 +226,7 @@ protected double m_dIxz
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIyy"></a> m\_dIyy
 
@@ -237,7 +238,7 @@ protected double m_dIyy
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIyz"></a> m\_dIyz
 
@@ -249,7 +250,7 @@ protected double m_dIyz
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIzz"></a> m\_dIzz
 
@@ -261,7 +262,7 @@ protected double m_dIzz
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dMass"></a> m\_dMass
 
@@ -273,7 +274,7 @@ protected double m_dMass
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dPoissonRatio"></a> m\_dPoissonRatio
 
@@ -285,7 +286,7 @@ protected double m_dPoissonRatio
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dRange"></a> m\_dRange
 
@@ -297,7 +298,7 @@ protected double m_dRange
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dYoungsModulus"></a> m\_dYoungsModulus
 
@@ -309,7 +310,7 @@ protected double m_dYoungsModulus
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_doc"></a> m\_doc
 
@@ -321,7 +322,7 @@ protected HiddenGearSetDocumentBase m_doc
 
 #### Field Value
 
- HiddenGearSetDocumentBase
+ [HiddenGearSetDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenGearSetDocumentBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_strDATFilePath"></a> m\_strDATFilePath
 
@@ -333,7 +334,7 @@ protected string m_strDATFilePath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_strDocInfo"></a> m\_strDocInfo
 
@@ -345,7 +346,7 @@ protected string m_strDocInfo
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -359,7 +360,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -381,7 +382,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -395,7 +396,7 @@ public double Ixx()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Ixy"></a> Ixy\(\)
 
@@ -407,7 +408,7 @@ public double Ixy()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Ixz"></a> Ixz\(\)
 
@@ -419,7 +420,7 @@ public double Ixz()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Iyy"></a> Iyy\(\)
 
@@ -431,7 +432,7 @@ public double Iyy()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Iyz"></a> Iyz\(\)
 
@@ -443,7 +444,7 @@ public double Iyz()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Izz"></a> Izz\(\)
 
@@ -455,7 +456,7 @@ public double Izz()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Mass"></a> Mass\(\)
 
@@ -467,7 +468,7 @@ public double Mass()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_ReadOutFile_System_String_"></a> ReadOutFile\(string\)
 
@@ -479,13 +480,13 @@ protected List<string> ReadOutFile(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The string path.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 The result text lines.
 
@@ -499,5 +500,5 @@ public string[] Result()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 

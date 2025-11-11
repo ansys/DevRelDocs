@@ -1,4 +1,5 @@
-#  Delegate Document3D.GetRibbonGalleryIndex
+# Delegate Document3D.GetRibbonGalleryIndex
+<a id="VM_Managed_Document3D_GetRibbonGalleryIndex"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,13 +12,13 @@ public delegate int Document3D.GetRibbonGalleryIndex(string strCommand)
 
 #### Parameters
 
-`strCommand` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCommand` string
 
 The string command.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Extension Methods
 

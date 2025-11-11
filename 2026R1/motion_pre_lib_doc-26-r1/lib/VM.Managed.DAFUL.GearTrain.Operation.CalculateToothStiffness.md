@@ -1,4 +1,5 @@
-#  Class CalculateToothStiffness
+# Class CalculateToothStiffness
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class CalculateToothStiffness : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculateToothStiffness](VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness.md)
 
@@ -92,15 +93,15 @@ public CalculateToothStiffness(string strDocInfo, string strDatFile, double dEnd
 
 #### Parameters
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDatFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDatFile` string
 
 the string dat file.
 
-`dEndPosY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndPosY` double
 
 The d end position y.
 
@@ -108,15 +109,15 @@ The d end position y.
 
 The ar teeth position.
 
-`nNumberOfMarker` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfMarker` uint
 
 The n number of marker.
 
-`nGearIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nGearIdx` int
 
 Index of the n gear.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 
@@ -134,15 +135,15 @@ public CalculateToothStiffness(Document3D doc, string strDocInfo, string strDatF
 
 The document.
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDatFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDatFile` string
 
 the string dat file.
 
-`dEndPosY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndPosY` double
 
 The d end position y.
 
@@ -150,15 +151,15 @@ The d end position y.
 
 The ar teeth position.
 
-`nNumberOfMarker` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfMarker` uint
 
 The n number of marker.
 
-`nGearIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nGearIdx` int
 
 Index of the n gear.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 
@@ -200,7 +201,7 @@ protected double[] m_ardDeform
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_bAdvancedGearGeometry"></a> m\_bAdvancedGearGeometry
 
@@ -210,7 +211,7 @@ protected bool m_bAdvancedGearGeometry
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_bRingGear"></a> m\_bRingGear
 
@@ -220,7 +221,7 @@ protected bool m_bRingGear
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_doc"></a> m\_doc
 
@@ -244,7 +245,7 @@ protected int m_nGearIdx
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_nNumberOfMarker"></a> m\_nNumberOfMarker
 
@@ -256,7 +257,7 @@ protected uint m_nNumberOfMarker
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_strDatFile"></a> m\_strDatFile
 
@@ -268,7 +269,7 @@ protected string m_strDatFile
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_strDocInfo"></a> m\_strDocInfo
 
@@ -280,7 +281,7 @@ protected string m_strDocInfo
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_strGearSet"></a> m\_strGearSet
 
@@ -292,7 +293,7 @@ protected string m_strGearSet
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -306,7 +307,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -324,11 +325,11 @@ protected void CreateMarkerOnNode(MeshDocument docMesh, int nNodeIndex, ref List
 
 mesh document
 
-`nNodeIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNodeIndex` int
 
 the index of node
 
-`lstMarkerPoint` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+`lstMarkerPoint` List<VectorBase\>
 
 the list of marker's position
 
@@ -346,13 +347,13 @@ protected virtual bool CreateSetNode(MeshDocument docMesh, string strName)
 
 The doc.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_Execute"></a> Execute\(\)
 
@@ -376,7 +377,7 @@ protected T FindReferConnectEntity<T>(NodalBody nBody, string entityName) where 
 
 nodal body
 
-`entityName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`entityName` string
 
 the name of reference object's prototype
 
@@ -410,7 +411,7 @@ vec1
 
 vec2
 
-`bLast` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bLast` bool
 
 bLast
 
@@ -430,7 +431,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -444,15 +445,15 @@ protected void ReadOutFile(string strPath, int nLen, ref double[] ardDeform)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 the out file path
 
-`nLen` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nLen` int
 
 nLen
 
-`ardDeform` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardDeform` double\[\]
 
 ardDeform
 
@@ -466,7 +467,7 @@ public double[] Result()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_WriteDat_System_String_"></a> WriteDat\(string\)
 
@@ -478,7 +479,7 @@ protected void WriteDat(string strDatPath)
 
 #### Parameters
 
-`strDatPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDatPath` string
 
 strDatPath
 

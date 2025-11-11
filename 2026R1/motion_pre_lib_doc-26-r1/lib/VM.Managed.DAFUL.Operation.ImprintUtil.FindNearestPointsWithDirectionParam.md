@@ -1,4 +1,5 @@
-#  Class ImprintUtil.FindNearestPointsWithDirectionParam
+# Class ImprintUtil.FindNearestPointsWithDirectionParam
+<a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirectionParam"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class ImprintUtil.FindNearestPointsWithDirectionParam : ImprintUtil.FindN
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ImprintUtil.FindNearestPointsParam](VM.Managed.DAFUL.Operation.ImprintUtil.FindNearestPointsParam.md) ← 
 [ImprintUtil.FindNearestPointsWithDirectionParam](VM.Managed.DAFUL.Operation.ImprintUtil.FindNearestPointsWithDirectionParam.md)
 

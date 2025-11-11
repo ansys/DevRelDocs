@@ -1,4 +1,5 @@
-#  Class Body
+# Class Body
+<a id="VM_Managed_CAD_Body"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class Body : Object<ObjectEventCore>, IObservableObject, IDisposableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [Body](VM.Managed.CAD.Body.md)
@@ -29,7 +30,7 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IAttributeContainer](VM.Managed.IAttributeContainer.md), 
 [IReferencable](VM.Managed.IReferencable.md), 
 [ITransformable](VM.Managed.ITransformable.md), 
@@ -140,7 +141,7 @@ IPostDeserialized
 [ObjectBase.OnDestroying](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnDestroying), 
 [ObjectBase.OnUpdate](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdate), 
 [ObjectBase.OnUpdating](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -195,7 +196,7 @@ public static double g_dAccuracyForCADImportMassCalculate
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Body_g_dAccuracyForMassCalculate"></a> g\_dAccuracyForMassCalculate
 
@@ -207,7 +208,7 @@ public static double g_dAccuracyForMassCalculate
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Properties
 
@@ -221,7 +222,7 @@ public double AccuracyForMassCalc { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Body_Builder"></a> Builder
 
@@ -269,7 +270,7 @@ public ExpressionValueVariable FacetAspectRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Body_IndexCont"></a> IndexCont
 
@@ -291,7 +292,7 @@ public bool Invalid { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_IsEnabled"></a> IsEnabled
 
@@ -303,7 +304,7 @@ bool IsEnabled { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_IsVisible"></a> IsVisible
 
@@ -315,7 +316,7 @@ bool IsVisible { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_Layer"></a> Layer
 
@@ -351,7 +352,7 @@ public ExpressionValueVariable MaximumFacetSize { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Body_MaximumGridLine"></a> MaximumGridLine
 
@@ -363,7 +364,7 @@ public ExpressionValueVariable MaximumGridLine { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Body_NameAttribute"></a> NameAttribute
 
@@ -375,7 +376,7 @@ public string NameAttribute { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_Body_SkipCalcMassProp"></a> SkipCalcMassProp
 
@@ -387,7 +388,7 @@ public bool SkipCalcMassProp { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_SkipRebuildGeometry"></a> SkipRebuildGeometry
 
@@ -399,7 +400,7 @@ public bool SkipRebuildGeometry { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
 
@@ -411,7 +412,7 @@ public ExpressionValueVariable SurfaceAngularTolerance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Body_TransparentObject"></a> TransparentObject
 
@@ -447,7 +448,7 @@ public bool UseApprox_eval { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_UseFacetAspectRatio"></a> UseFacetAspectRatio
 
@@ -459,7 +460,7 @@ public bool UseFacetAspectRatio { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_UseGRID_TO_EDGES"></a> UseGRID\_TO\_EDGES
 
@@ -471,7 +472,7 @@ public bool UseGRID_TO_EDGES { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_UseMaximumFacetSize"></a> UseMaximumFacetSize
 
@@ -483,7 +484,7 @@ public bool UseMaximumFacetSize { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_UseMaximumGridLine"></a> UseMaximumGridLine
 
@@ -495,7 +496,7 @@ public bool UseMaximumGridLine { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_UseRepairPatch"></a> UseRepairPatch
 
@@ -507,7 +508,7 @@ public bool UseRepairPatch { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_UseSurfaceAngularTolerance"></a> UseSurfaceAngularTolerance
 
@@ -519,7 +520,7 @@ public bool UseSurfaceAngularTolerance { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_Vertices"></a> Vertices
 
@@ -566,7 +567,7 @@ public void AddNameAttribute(string strNameAttribute)
 
 #### Parameters
 
-`strNameAttribute` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameAttribute` string
 
 The name attribute
 
@@ -580,11 +581,11 @@ public void CalculateMassProperty(ref double dMass, ref double dVolume, ref TMat
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
 The volume.
 
@@ -592,19 +593,19 @@ The volume.
 
 The transformation.
 
-`arInertia` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arInertia` double\[\]
 
 The inertia.
 
-`bRegularized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRegularized` bool
 
 whether calculate from regularized body.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 The density.
 
-`bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGlobal` bool
 
 whether inertia is global
 
@@ -619,11 +620,11 @@ public void CalculateMassProperty(ref double dMass, ref double dVolume, ref TMat
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
 The volume.
 
@@ -631,19 +632,19 @@ The volume.
 
 The transformation.
 
-`arInertia` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arInertia` double\[\]
 
 The inertia.
 
-`bRegularized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRegularized` bool
 
 whether calculate from regularized body.
 
-`bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdate` bool
 
 update flag.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 The density.
 
@@ -657,11 +658,11 @@ public void CalculateMassProperty(ref double dMass, ref double dVolume, ref TMat
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
 The volume.
 
@@ -669,15 +670,15 @@ The volume.
 
 The transformation.
 
-`arInertia` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arInertia` double\[\]
 
 The inertia.
 
-`bRegularized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRegularized` bool
 
 whether calculate from regularized body.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 The density.
 
@@ -692,11 +693,11 @@ public void CalculateMassProperty(ref double dMass, ref double dVolume, ref TMat
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
 The volume.
 
@@ -704,15 +705,15 @@ The volume.
 
 The transformation.
 
-`arInertia` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arInertia` double\[\]
 
 The inertia.
 
-`bRegularized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRegularized` bool
 
 whether calculate from regularized body.
 
-`bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdate` bool
 
 update flag.
 
@@ -726,11 +727,11 @@ public void CalculateMassProperty(ref double dMass, ref double dVolume, ref TMat
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
 The volume.
 
@@ -738,11 +739,11 @@ The volume.
 
 The transformation.
 
-`arInertia` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arInertia` double\[\]
 
 The inertia.
 
-`bRegularized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRegularized` bool
 
 whether calculate from regularized body.
 
@@ -756,11 +757,11 @@ public void CalculateMassProperty(ref double dMass, ref double dVolume, ref TMat
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
 The volume.
 
@@ -768,21 +769,21 @@ The volume.
 
 The transformation.
 
-`arInertia` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arInertia` double\[\]
 
 The inertia.
 
-`bRegularized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRegularized` bool
 
 whether calculate from regularized body.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dAccuracy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAccuracy` double
 
 The desire accuracy for mass calculate.
 
-`bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGlobal` bool
 
 ### <a id="VM_Managed_CAD_Body_CalculateMassPropertyForAssembly_System_Double__System_Double__VM_Managed_TMatrix__System_Double____System_Boolean__System_Double_"></a> CalculateMassPropertyForAssembly\(ref double, ref double, ref TMatrix, ref double\[\], ref bool, double\)
 
@@ -794,11 +795,11 @@ public void CalculateMassPropertyForAssembly(ref double dMass, ref double dVolum
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
 The volume.
 
@@ -806,15 +807,15 @@ The volume.
 
 The transformation.
 
-`arInertia` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arInertia` double\[\]
 
 The inertia.
 
-`bRegularized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRegularized` bool
 
 whether calculate from regularized body.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 The density.
 
@@ -826,11 +827,11 @@ public virtual bool CheckValidationAboutBuild(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_ClearFacetDictionary"></a> ClearFacetDictionary\(\)
 
@@ -852,9 +853,9 @@ public void ConvertUInt32Managed2Native(ref uint[] inputAryUInt, vector<unsigned
 
 #### Parameters
 
-`inputAryUInt` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`inputAryUInt` uint\[\]
 
-`outputVecUInt` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`outputVecUInt` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
 ### <a id="VM_Managed_CAD_Body_ConvertUInt32Native2Managed_std_vector_unsigned_int_std__allocator_unsigned_int_____System_UInt32____"></a> ConvertUInt32Native2Managed\(vector<unsigned int,std::allocator<unsigned int\> \>\*, ref uint\[\]\)
 
@@ -864,9 +865,9 @@ public void ConvertUInt32Native2Managed(vector<unsigned int,std::allocator<unsig
 
 #### Parameters
 
-`inputVecUInt` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`inputVecUInt` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
-`outputAryUInt` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`outputAryUInt` uint\[\]
 
 ### <a id="VM_Managed_CAD_Body_ConvertVectorManaged2Native_VM_Managed_VectorBase____std_vector__VM_VECTOR_std__allocator__VM_VECTOR_____"></a> ConvertVectorManaged2Native\(ref VectorBase\[\], vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*\)
 
@@ -878,7 +879,7 @@ public void ConvertVectorManaged2Native(ref VectorBase[] inputAryVec, vector<_VM
 
 `inputAryVec` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`outputVecVec` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`outputVecVec` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
 ### <a id="VM_Managed_CAD_Body_ConvertVectorNative2Managed_std_vector__VM_VECTOR_std__allocator__VM_VECTOR_____VM_Managed_VectorBase____"></a> ConvertVectorNative2Managed\(vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*, ref VectorBase\[\]\)
 
@@ -888,7 +889,7 @@ public void ConvertVectorNative2Managed(vector<_VM_VECTOR,std::allocator<_VM_VEC
 
 #### Parameters
 
-`inputVecVec` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`inputVecVec` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
 `outputAryVec` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
@@ -900,13 +901,13 @@ public static void CreateNastranFile(string strNastranPath, VectorBase[] aryPos,
 
 #### Parameters
 
-`strNastranPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNastranPath` string
 
 `aryPos` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
-`aryConTetra` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTetra` uint\[\]
 
 ### <a id="VM_Managed_CAD_Body_DoWorkAfterUpdateContents"></a> DoWorkAfterUpdateContents\(\)
 
@@ -926,11 +927,11 @@ public void DrawEdge(int nEdgeIndex, double dDistance, TMatrix matBase, Canvas c
 
 #### Parameters
 
-`nEdgeIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nEdgeIndex` int
 
 the edge index
 
-`dDistance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDistance` double
 
 the point intaval
 
@@ -938,7 +939,7 @@ the point intaval
 
 the base transform
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 
@@ -952,9 +953,9 @@ public static void DrawFacetsOfFaces(IDrawFacet[] arFaces, FacetOption facetOpti
 
 `arFaces` [IDrawFacet](VM.Managed.IDrawFacet.md)\[\]
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 ### <a id="VM_Managed_CAD_Body_ExistFace_System_ValueType_"></a> ExistFace\(ValueType\)
 
@@ -964,11 +965,11 @@ public bool ExistFace(ValueType nID)
 
 #### Parameters
 
-`nID` [ValueType](https://learn.microsoft.com/dotnet/api/system.valuetype)
+`nID` ValueType
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_ExportPatch_System_String_VM_Unit_ConvertFactor_System_String_"></a> ExportPatch\(string, ConvertFactor, string\)
 
@@ -978,11 +979,11 @@ public void ExportPatch(string strMesherPath, Unit.ConvertFactor factor, string 
 
 #### Parameters
 
-`strMesherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMesherPath` string
 
 `factor` Unit.ConvertFactor
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 ### <a id="VM_Managed_CAD_Body_ExportSolid_System_String_VM_Unit_ConvertFactor_System_String_"></a> ExportSolid\(string, ConvertFactor, string\)
 
@@ -992,11 +993,11 @@ public void ExportSolid(string strMesherPath, Unit.ConvertFactor factor, string 
 
 #### Parameters
 
-`strMesherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMesherPath` string
 
 `factor` Unit.ConvertFactor
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 ### <a id="VM_Managed_CAD_Body_Find_System_String_"></a> Find\(string\)
 
@@ -1008,7 +1009,7 @@ public virtual IObjectBase Find(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The DAFUL object full name.
 
@@ -1028,7 +1029,7 @@ public virtual IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The DAFUL object name.
 
@@ -1054,7 +1055,7 @@ The old object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -1066,7 +1067,7 @@ public void GenerateMeshInfo(string strMesherPath, AttributeFacetRefinementBase 
 
 #### Parameters
 
-`strMesherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMesherPath` string
 
 `attrGeomOutputProp` [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md)
 
@@ -1078,13 +1079,13 @@ public void GenerateMeshInfo(string strMesherPath, AttributeFacetRefinementBase 
 
 `aryPosTria` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
 `aryPosTetra` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTetra` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTetra` uint\[\]
 
-`bUseDSDL` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDSDL` bool
 
 ### <a id="VM_Managed_CAD_Body_GenerateMeshInfo_System_String_VM_Managed_AttributeFacetRefinementBase_VM_Unit_ConvertFactor_VM_Managed_MeshFreeMeshType_VM_Managed_MeshFreeMeshType__VM_Managed_VectorBase____System_UInt32____VM_Managed_VectorBase____System_UInt32____"></a> GenerateMeshInfo\(string, AttributeFacetRefinementBase, ConvertFactor, MeshFreeMeshType, ref MeshFreeMeshType, ref VectorBase\[\], ref uint\[\], ref VectorBase\[\], ref uint\[\]\)
 
@@ -1094,7 +1095,7 @@ public void GenerateMeshInfo(string strMesherPath, AttributeFacetRefinementBase 
 
 #### Parameters
 
-`strMesherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMesherPath` string
 
 `attrGeomOutputProp` [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md)
 
@@ -1106,11 +1107,11 @@ public void GenerateMeshInfo(string strMesherPath, AttributeFacetRefinementBase 
 
 `aryPosTria` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
 `aryPosTetra` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTetra` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTetra` uint\[\]
 
 ### <a id="VM_Managed_CAD_Body_GetAnalysisLevelInfo_System_Double_System_Collections_Generic_List_System_Double___System_Collections_Generic_List_System_UInt32___"></a> GetAnalysisLevelInfo\(double, ref List<double\>, ref List<uint\>\)
 
@@ -1120,15 +1121,15 @@ public bool GetAnalysisLevelInfo(double dVolume, ref List<double> lstNodeDistanc
 
 #### Parameters
 
-`dVolume` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVolume` double
 
-`lstNodeDistance` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstNodeDistance` List<double\>
 
-`lstNodeCount` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+`lstNodeCount` List<uint\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetAnalysisLevelInfo_System_Collections_Generic_List_System_Double___System_Collections_Generic_List_System_UInt32___"></a> GetAnalysisLevelInfo\(ref List<double\>, ref List<uint\>\)
 
@@ -1138,13 +1139,13 @@ public bool GetAnalysisLevelInfo(ref List<double> lstNodeDistance, ref List<uint
 
 #### Parameters
 
-`lstNodeDistance` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstNodeDistance` List<double\>
 
-`lstNodeCount` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+`lstNodeCount` List<uint\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetAttrFacetRefineBase"></a> GetAttrFacetRefineBase\(\)
 
@@ -1168,19 +1169,19 @@ public bool GetBodyGeomInfo(vector<_VM_VECTOR,std::allocator<_VM_VECTOR> >* vect
 
 #### Parameters
 
-`vectPosTria` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`vectPosTria` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
-`vecConTria` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`vecConTria` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
 `attrGeomOutputProp` [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md)
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
-`bUseDSDL` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDSDL` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetBodyGeomInfo_VM_Managed_VectorBase____System_UInt32____VM_Managed_AttributeFacetRefinementBase_System_Double_System_Boolean_"></a> GetBodyGeomInfo\(ref VectorBase\[\], ref uint\[\], AttributeFacetRefinementBase, double, bool\)
 
@@ -1192,17 +1193,17 @@ public bool GetBodyGeomInfo(ref VectorBase[] aryPosTria, ref uint[] aryConTria, 
 
 `aryPosTria` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
 `attrGeomOutputProp` [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md)
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
-`bUseDSDL` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDSDL` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetBodyGeomInfo_VM_Managed_VectorBase____System_UInt32____VM_Managed_AttributeFacetRefinementBase_System_Double_"></a> GetBodyGeomInfo\(ref VectorBase\[\], ref uint\[\], AttributeFacetRefinementBase, double\)
 
@@ -1214,15 +1215,15 @@ public bool GetBodyGeomInfo(ref VectorBase[] aryPosTria, ref uint[] aryConTria, 
 
 `aryPosTria` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
 `attrGeomOutputProp` [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md)
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetBodyGeomInfoForDFG_VM_Managed_AttributeFacetRefinementBase_VM_Managed_VectorBase____System_UInt32____"></a> GetBodyGeomInfoForDFG\(AttributeFacetRefinementBase, ref VectorBase\[\], ref uint\[\]\)
 
@@ -1236,11 +1237,11 @@ public bool GetBodyGeomInfoForDFG(AttributeFacetRefinementBase attrGeomOutputPro
 
 `aryPosTria` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetBoundingBox_VM_Managed_TMatrix_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_CAD_BoxingMode_"></a> GetBoundingBox\(TMatrix, ref VectorBase, ref VectorBase, BoxingMode\)
 
@@ -1260,7 +1261,7 @@ public bool GetBoundingBox(TMatrix matT, ref VectorBase vecMinPt, ref VectorBase
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetBoundingBox_VM_Managed_TMatrix_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetBoundingBox\(TMatrix, ref VectorBase, ref VectorBase\)
 
@@ -1278,7 +1279,7 @@ public bool GetBoundingBox(TMatrix matT, ref VectorBase vecMinPt, ref VectorBase
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetCADGeomNameAttribute_System_String_System_Collections_Generic_List_System_String___"></a> GetCADGeomNameAttribute\(string, ref List<string\>\)
 
@@ -1288,9 +1289,9 @@ public void GetCADGeomNameAttribute(string strPrefix, ref List<string> lstName)
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
-`lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstName` List<string\>
 
 ### <a id="VM_Managed_CAD_Body_GetColor"></a> GetColor\(\)
 
@@ -1303,7 +1304,7 @@ public Color GetColor()
 
 #### Returns
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_CAD_Body_GetDefaultMaxFacetSize"></a> GetDefaultMaxFacetSize\(\)
 
@@ -1315,7 +1316,7 @@ public double GetDefaultMaxFacetSize()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 Default maximum facet size
 
@@ -1330,11 +1331,11 @@ public bool GetDefaultMaxPenetration(ref double dMaxPenetration)
 
 #### Parameters
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetEdgeCount"></a> GetEdgeCount\(\)
 
@@ -1347,7 +1348,7 @@ public int GetEdgeCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The number of edge.
 
@@ -1359,11 +1360,11 @@ public int GetEdgeIndex(ValueType nID)
 
 #### Parameters
 
-`nID` [ValueType](https://learn.microsoft.com/dotnet/api/system.valuetype)
+`nID` ValueType
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Body_GetEdgePoints_System_Int32_System_Double_VM_Managed_TMatrix_System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetEdgePoints\(int, double, TMatrix, ref List<VectorBase\>\)
 
@@ -1373,17 +1374,17 @@ public bool GetEdgePoints(int nEdgeIndex, double dDistance, TMatrix matBase, ref
 
 #### Parameters
 
-`nEdgeIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nEdgeIndex` int
 
-`dDistance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDistance` double
 
 `matBase` [TMatrix](VM.Managed.TMatrix.md)
 
-`lstPoints` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+`lstPoints` List<[VectorBase](VM.Managed.VectorBase.md)\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetEdges_System_Collections_Generic_ICollection_System_Int32__"></a> GetEdges\(ICollection<int\>\)
 
@@ -1393,11 +1394,11 @@ public List<Edge> GetEdges(ICollection<int> Colors)
 
 #### Parameters
 
-`Colors` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`Colors` ICollection<int\>
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Edge](VM.Managed.CAD.Edge.md)\>
+ List<[Edge](VM.Managed.CAD.Edge.md)\>
 
 ### <a id="VM_Managed_CAD_Body_GetEdges"></a> GetEdges\(\)
 
@@ -1409,7 +1410,7 @@ public List<Edge> GetEdges()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Edge](VM.Managed.CAD.Edge.md)\>
+ List<[Edge](VM.Managed.CAD.Edge.md)\>
 
 list of all edges
 
@@ -1423,7 +1424,7 @@ public List<int> GetFaceColors()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ List<int\>
 
 list of all face colors.
 
@@ -1435,11 +1436,11 @@ public int GetFaceIndex(ValueType nID)
 
 #### Parameters
 
-`nID` [ValueType](https://learn.microsoft.com/dotnet/api/system.valuetype)
+`nID` ValueType
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Body_GetFaces_System_Collections_Generic_ICollection_System_Int32__"></a> GetFaces\(ICollection<int\>\)
 
@@ -1449,11 +1450,11 @@ public List<Face> GetFaces(ICollection<int> Colors)
 
 #### Parameters
 
-`Colors` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`Colors` ICollection<int\>
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Face](VM.Managed.CAD.Face.md)\>
+ List<[Face](VM.Managed.CAD.Face.md)\>
 
 ### <a id="VM_Managed_CAD_Body_GetFaces"></a> GetFaces\(\)
 
@@ -1465,7 +1466,7 @@ public List<Face> GetFaces()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Face](VM.Managed.CAD.Face.md)\>
+ List<[Face](VM.Managed.CAD.Face.md)\>
 
 list of all faces
 
@@ -1477,11 +1478,11 @@ public void GetFacesInfo_NormalAndCenterPt(List<Face> lstFace, ref Dictionary<Fa
 
 #### Parameters
 
-`lstFace` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Face](VM.Managed.CAD.Face.md)\>
+`lstFace` List<[Face](VM.Managed.CAD.Face.md)\>
 
-`dic_vecNormal` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[Face](VM.Managed.CAD.Face.md), [VectorBase](VM.Managed.VectorBase.md)\>
+`dic_vecNormal` Dictionary<[Face](VM.Managed.CAD.Face.md), [VectorBase](VM.Managed.VectorBase.md)\>
 
-`dic_vecCenterPt` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[Face](VM.Managed.CAD.Face.md), [VectorBase](VM.Managed.VectorBase.md)\>
+`dic_vecCenterPt` Dictionary<[Face](VM.Managed.CAD.Face.md), [VectorBase](VM.Managed.VectorBase.md)\>
 
 ### <a id="VM_Managed_CAD_Body_GetFacetInfo_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____System_Int32____"></a> GetFacetInfo\(FacetOption, ref VectorBase\[\], ref int\[\]\)
 
@@ -1494,11 +1495,11 @@ public void GetFacetInfo(FacetOption facetOptions, ref VectorBase[] arPt, ref in
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 `arPt` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`arConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arConnectivity` int\[\]
 
 ### <a id="VM_Managed_CAD_Body_GetFacetPositions_VM_Managed_CAD_Face___VM_Models_Pre_FacetOption_"></a> GetFacetPositions\(Face\[\], FacetOption\)
 
@@ -1510,7 +1511,7 @@ public static VectorBase[] GetFacetPositions(Face[] arFaces, FacetOption facetOp
 
 `arFaces` [Face](VM.Managed.CAD.Face.md)\[\]
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 #### Returns
 
@@ -1528,11 +1529,11 @@ public static void GetGeomInfoOfFaces(Body body, Face[] arFaces, FacetOption fac
 
 `arFaces` [Face](VM.Managed.CAD.Face.md)\[\]
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
-`bSkipMidPoints` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bSkipMidPoints` bool
 
-`pGeomInfo` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pGeomInfo` UIntPtr
 
 ### <a id="VM_Managed_CAD_Body_GetLumpCount"></a> GetLumpCount\(\)
 
@@ -1545,7 +1546,7 @@ public int GetLumpCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The number of lump.
 
@@ -1559,21 +1560,21 @@ virtual bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, XmlElement xml
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The navigator information xml.
 
-`xmlRootEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlRootEle` XmlElement
 
 The navigator information xml root element.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 <code>true</code> if has a child object; otherwise, <code>false</code>.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetNearest4PointOnFaceWithRange_VM_Managed_VectorBase_System_Double_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Boolean_VM_Managed_VectorBase___"></a> GetNearest4PointOnFaceWithRange\(VectorBase, double, VectorBase, VectorBase, bool, VectorBase\[\]\)
 
@@ -1585,19 +1586,19 @@ public bool GetNearest4PointOnFaceWithRange(VectorBase vecUserPos, double dRange
 
 `vecUserPos` [VectorBase](VM.Managed.VectorBase.md)
 
-`dRange` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRange` double
 
 `vecNormalDirection` [VectorBase](VM.Managed.VectorBase.md)
 
 `vecShearDirection` [VectorBase](VM.Managed.VectorBase.md)
 
-`bBase` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBase` bool
 
 `vecNearest4Pos` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetNearestPointAndNormalOnFace_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetNearestPointAndNormalOnFace\(VectorBase, VectorBase, VectorBase\)
 
@@ -1615,7 +1616,7 @@ public bool GetNearestPointAndNormalOnFace(VectorBase vCenterPoint, VectorBase v
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetNearestPointOnFace_VM_Managed_VectorBase_VM_Managed_VectorBase__"></a> GetNearestPointOnFace\(VectorBase, ref VectorBase\)
 
@@ -1641,13 +1642,13 @@ public bool GetNearestPointOnFaceWithDirection(VectorBase vecUserPos, VectorBase
 
 `vecNormalDir` [VectorBase](VM.Managed.VectorBase.md)
 
-`dRange` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRange` double
 
 `vecNearestPos` [VectorBase](VM.Managed.VectorBase.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetNewEntityName_System_String_System_Boolean_System_Int32_System_Int32_"></a> GetNewEntityName\(string, bool, int, int\)
 
@@ -1659,25 +1660,25 @@ public virtual string GetNewEntityName(string strPrefix, bool bUseUnderLine, int
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The DAFUL object prefix name.
 
-`bUseUnderLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseUnderLine` bool
 
 Whether use underline.
 
-`nNumFigure` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumFigure` int
 
 The Number of Figure.
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -1691,21 +1692,21 @@ public virtual string GetNewEntityName(string strPrefix, bool bUseUnderLine, int
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The DAFUL object prefix name.
 
-`bUseUnderLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseUnderLine` bool
 
 Whether use underline.
 
-`nNumFigure` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumFigure` int
 
 The Number of Figure.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -1719,13 +1720,13 @@ public virtual string GetNewEntityName(string strPrefix)
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The DAFUL object prefix name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -1749,7 +1750,7 @@ The direction.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -1775,13 +1776,13 @@ public bool GetStartPointOfClosedLoop(List<Edge> lstEdges, ref VectorBase vecPos
 
 #### Parameters
 
-`lstEdges` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Edge](VM.Managed.CAD.Edge.md)\>
+`lstEdges` List<[Edge](VM.Managed.CAD.Edge.md)\>
 
 `vecPosition` [VectorBase](VM.Managed.VectorBase.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
 
@@ -1793,7 +1794,7 @@ public override List<IEventProvider> GetTargetListForUpdate()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
+ List<IEventProvider\>
 
 ### <a id="VM_Managed_CAD_Body_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
@@ -1805,13 +1806,13 @@ public string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 The unnamed object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The unnamed object name.
 
@@ -1823,11 +1824,11 @@ public int GetVertexIndex(ValueType nID)
 
 #### Parameters
 
-`nID` [ValueType](https://learn.microsoft.com/dotnet/api/system.valuetype)
+`nID` ValueType
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Body_GetVoidCount"></a> GetVoidCount\(\)
 
@@ -1839,7 +1840,7 @@ public int GetVoidCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Body_GetVoidPoints_System_Double___VM_Managed_VectorBase____"></a> GetVoidPoints\(double\[\], ref VectorBase\[\]\)
 
@@ -1851,7 +1852,7 @@ public int GetVoidPoints(double[] ardScale, ref VectorBase[] aryPoints)
 
 #### Parameters
 
-`ardScale` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardScale` double\[\]
 
 `aryPoints` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
@@ -1859,7 +1860,7 @@ The list of inner point of void shells.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 -1 : error, 0 : finding successs, positive number : the number of not found case.
 
@@ -1883,7 +1884,7 @@ the point position
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if operation success then return true.
 
@@ -1895,13 +1896,13 @@ public bool GetWirePoints(double dDistance, ref List<VectorBase> lstPoints)
 
 #### Parameters
 
-`dDistance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDistance` double
 
-`lstPoints` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+`lstPoints` List<[VectorBase](VM.Managed.VectorBase.md)\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_GetWirePointsAndTangents_System_Double_System_Collections_Generic_List_VM_Managed_VectorBase___System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetWirePointsAndTangents\(double, ref List<VectorBase\>, ref List<VectorBase\>\)
 
@@ -1911,15 +1912,15 @@ public bool GetWirePointsAndTangents(double dDistance, ref List<VectorBase> lstP
 
 #### Parameters
 
-`dDistance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDistance` double
 
-`lstPoints` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+`lstPoints` List<[VectorBase](VM.Managed.VectorBase.md)\>
 
-`lstTangents` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+`lstTangents` List<[VectorBase](VM.Managed.VectorBase.md)\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_HighlightBuilder"></a> HighlightBuilder\(\)
 
@@ -1937,7 +1938,7 @@ public void InitialSetBuildInfo(string strBuilderXml)
 
 #### Parameters
 
-`strBuilderXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuilderXml` string
 
 ### <a id="VM_Managed_CAD_Body_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -1963,7 +1964,7 @@ public bool IsNonManifold()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if a body is a nonmanifold then return true.
 
@@ -1977,7 +1978,7 @@ public bool IsWireBody()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if a body is a wire then return true.
 
@@ -1991,7 +1992,7 @@ protected override void LinkAddedToDocument(object objNotifier, AddToDocEventArg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -2009,7 +2010,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -2027,7 +2028,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -2039,7 +2040,7 @@ public virtual void OnPostDeserialized(StreamingContext context)
 
 #### Parameters
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_CAD_Body_PostRemoveFromDocument_VM_Managed_Document_"></a> PostRemoveFromDocument\(Document\)
 
@@ -2065,7 +2066,7 @@ public bool PrepareFacesWithColor()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if a body has the face color then return true.
 
@@ -2085,7 +2086,7 @@ protected virtual void RebuildGeometry(object objBuilder, LinkEventArgs args)
 
 #### Parameters
 
-`objBuilder` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objBuilder` object
 
 The builder.
 
@@ -2109,7 +2110,7 @@ public void ReplaceCAD(List<Body.ReplaceCADInfo> lstInfo)
 
 #### Parameters
 
-`lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Body](VM.Managed.CAD.Body.md).[ReplaceCADInfo](VM.Managed.CAD.Body.ReplaceCADInfo.md)\>
+`lstInfo` List<[Body](VM.Managed.CAD.Body.md).[ReplaceCADInfo](VM.Managed.CAD.Body.ReplaceCADInfo.md)\>
 
 ### <a id="VM_Managed_CAD_Body_ResetBuildInfo_System_String_"></a> ResetBuildInfo\(string\)
 
@@ -2122,7 +2123,7 @@ public void ResetBuildInfo(string strInfo)
 
 #### Parameters
 
-`strInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInfo` string
 
 ### <a id="VM_Managed_CAD_Body_RunTetraMesher_System_String_std_vector__VM_VECTOR_std__allocator__VM_VECTOR_____std_vector_unsigned_int_std__allocator_unsigned_int_____std_vector__VM_VECTOR_std__allocator__VM_VECTOR_____std_vector_unsigned_int_std__allocator_unsigned_int_____"></a> RunTetraMesher\(string, vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*, vector<unsigned int,std::allocator<unsigned int\> \>\*, vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*, vector<unsigned int,std::allocator<unsigned int\> \>\*\)
 
@@ -2132,19 +2133,19 @@ public bool RunTetraMesher(string strMesherPath, vector<_VM_VECTOR,std::allocato
 
 #### Parameters
 
-`strMesherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMesherPath` string
 
-`vecPosTria` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`vecPosTria` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
-`vecConTria` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`vecConTria` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
-`vecPosTetra` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`vecPosTetra` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
-`vecConTetra` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`vecConTetra` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_RunTetraMesher_System_String_VM_Managed_VectorBase____System_UInt32____VM_Managed_VectorBase____System_UInt32____"></a> RunTetraMesher\(string, ref VectorBase\[\], ref uint\[\], ref VectorBase\[\], ref uint\[\]\)
 
@@ -2154,19 +2155,19 @@ public bool RunTetraMesher(string strMesherPath, ref VectorBase[] aryPosTria, re
 
 #### Parameters
 
-`strMesherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMesherPath` string
 
 `aryPosTria` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTria` uint\[\]
 
 `aryPosTetra` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`aryConTetra` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`aryConTetra` uint\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Body_SetColor_System_Drawing_Color_"></a> SetColor\(Color\)
 
@@ -2179,7 +2180,7 @@ public void SetColor(Color color)
 
 #### Parameters
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 ### <a id="VM_Managed_CAD_Body_SetModifiedBody"></a> SetModifiedBody\(\)
 
@@ -2198,7 +2199,7 @@ public void SetTransparency(double dTransp)
 
 #### Parameters
 
-`dTransp` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTransp` double
 
 ### <a id="VM_Managed_CAD_Body_SortEdges_System_Collections_Generic_List_VM_Managed_CAD_Edge__"></a> SortEdges\(List<Edge\>\)
 
@@ -2208,11 +2209,11 @@ public List<Edge> SortEdges(List<Edge> lstEdges)
 
 #### Parameters
 
-`lstEdges` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Edge](VM.Managed.CAD.Edge.md)\>
+`lstEdges` List<[Edge](VM.Managed.CAD.Edge.md)\>
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Edge](VM.Managed.CAD.Edge.md)\>
+ List<[Edge](VM.Managed.CAD.Edge.md)\>
 
 ### <a id="VM_Managed_CAD_Body_UpdateBody_System_Boolean_"></a> UpdateBody\(bool\)
 
@@ -2225,7 +2226,7 @@ public void UpdateBody(bool bBuild)
 
 #### Parameters
 
-`bBuild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBuild` bool
 
 ### <a id="VM_Managed_CAD_Body_UpdateBody"></a> UpdateBody\(\)
 

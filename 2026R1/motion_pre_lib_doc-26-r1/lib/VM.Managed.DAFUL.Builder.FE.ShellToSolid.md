@@ -1,4 +1,5 @@
-#  Class ShellToSolid
+# Class ShellToSolid
+<a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  
@@ -9,7 +10,7 @@ public class ShellToSolid : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShellToSolid](VM.Managed.DAFUL.Builder.FE.ShellToSolid.md)
 
 #### Implements
@@ -40,7 +41,7 @@ protected bool m_bSuccess
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -62,7 +63,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -86,7 +87,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `docToAdd` Document
 
-`lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSetPointKeys` List<string\>
 
 ### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
 
@@ -106,7 +107,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -116,9 +117,9 @@ public bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

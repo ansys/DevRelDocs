@@ -1,4 +1,5 @@
-#  Class Unite
+# Class Unite
+<a id="VM_Managed_DAFUL_Builder_Unite"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class Unite : Boolean<BuilderMultiUniteSimple>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<BuilderMultiUniteSimple\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [Boolean<BuilderMultiUniteSimple\>](VM.Managed.DAFUL.Builder.Boolean\-1.md) ← 
 [Unite](VM.Managed.DAFUL.Builder.Unite.md)
@@ -80,7 +81,7 @@ protected override string Type { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

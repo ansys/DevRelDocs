@@ -1,4 +1,5 @@
-#  Class SetMassPropertyOperation
+# Class SetMassPropertyOperation
+<a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class SetMassPropertyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SetMassPropertyOperation](VM.Managed.DAFUL.Car.Operation.SetMassPropertyOperation.md)
 
@@ -103,7 +104,7 @@ public double[] m_arAdjustTensor
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_m_dAdjustMass"></a> m\_dAdjustMass
 
@@ -113,7 +114,7 @@ public double m_dAdjustMass
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_m_iMassProp"></a> m\_iMassProp
 
@@ -157,7 +158,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -177,5 +178,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

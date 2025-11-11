@@ -1,4 +1,5 @@
-#  Class Clip
+# Class Clip
+<a id="VM_Models_Pre_Force_Clip"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -11,9 +12,9 @@ public class Clip : LinkContainer, IObservableObject, IDisposableObject, ILinkab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [Clip](VM.Models.Pre.Force.Clip.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -116,7 +117,7 @@ public int BottomLeafNumber { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Force_Clip_DampingCoefficient"></a> DampingCoefficient
 
@@ -128,7 +129,7 @@ public ExpressionValueVariable DampingCoefficient { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Clip_DistanceToCenterBolt"></a> DistanceToCenterBolt
 
@@ -140,7 +141,7 @@ public ExpressionValueVariable DistanceToCenterBolt { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Clip_Height"></a> Height
 
@@ -152,7 +153,7 @@ public ExpressionValueVariable Height { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Clip_HorizontalCoverStiffness"></a> HorizontalCoverStiffness
 
@@ -164,7 +165,7 @@ public ExpressionValueVariable HorizontalCoverStiffness { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Clip_TopLeafNumber"></a> TopLeafNumber
 
@@ -176,7 +177,7 @@ public int TopLeafNumber { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Force_Clip_VerticalCoverStiffness"></a> VerticalCoverStiffness
 
@@ -188,7 +189,7 @@ public ExpressionValueVariable VerticalCoverStiffness { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Clip_Width"></a> Width
 
@@ -200,7 +201,7 @@ public ExpressionValueVariable Width { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -246,7 +247,7 @@ The Axle.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The initial distance to center bolt value.
 
@@ -264,13 +265,13 @@ public static double GetInitialHeight(LeafInfo[] leafInfos, double distanceToCen
 
 The LeafInfo array.
 
-`distanceToCenterBolt` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`distanceToCenterBolt` double
 
 The distance to center bolt.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The initial height value.
 
@@ -290,7 +291,7 @@ The LeafInfo array.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The initial width value.
 

@@ -1,4 +1,5 @@
-#  Class DeleteObjectList
+# Class DeleteObjectList
+<a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class DeleteObjectList : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [DeleteObjectList](VM.Managed.DAFUL.Chained.Operation.DeleteObjectList.md)
 
@@ -105,7 +106,7 @@ public DeleteObjectList(List<ObjectBase> lstObj, DestroyEventArgs arg)
 
 #### Parameters
 
-`lstObj` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+`lstObj` List<ObjectBase\>
 
 The LST object.
 
@@ -139,7 +140,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -169,7 +170,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

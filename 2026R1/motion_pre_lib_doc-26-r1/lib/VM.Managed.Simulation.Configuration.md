@@ -1,4 +1,5 @@
-#  Class Configuration
+# Class Configuration
+<a id="VM_Managed_Simulation_Configuration"></a>
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class Configuration : LinkContainer, IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [Configuration](VM.Managed.Simulation.Configuration.md)
 
@@ -76,7 +77,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -117,7 +118,7 @@ public int AccuracyOfGMS { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Simulation_Configuration_AppendedDateTime"></a> AppendedDateTime
 
@@ -129,7 +130,7 @@ public bool AppendedDateTime { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_Attributes"></a> Attributes
 
@@ -165,7 +166,7 @@ public bool[] CheckedLevelArray { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\[\]
+ bool\[\]
 
 ### <a id="VM_Managed_Simulation_Configuration_ConfigName"></a> ConfigName
 
@@ -177,7 +178,7 @@ public string ConfigName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Simulation_Configuration_CriterionVal"></a> CriterionVal
 
@@ -189,7 +190,7 @@ public double[] CriterionVal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_Simulation_Configuration_DisableEntities"></a> DisableEntities
 
@@ -213,7 +214,7 @@ public int EigenvalueOutputStep { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Simulation_Configuration_ExportICFFilePath"></a> ExportICFFilePath
 
@@ -225,7 +226,19 @@ public string ExportICFFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
+
+### <a id="VM_Managed_Simulation_Configuration_ExportInformation"></a> ExportInformation
+
+Gets or sets the export information.
+
+```csharp
+public Configuration.ExportModuleInformation ExportInformation { get; set; }
+```
+
+#### Property Value
+
+ [Configuration](VM.Managed.Simulation.Configuration.md).[ExportModuleInformation](VM.Managed.Simulation.Configuration.ExportModuleInformation.md)
 
 ### <a id="VM_Managed_Simulation_Configuration_ExtraConfigs"></a> ExtraConfigs
 
@@ -249,7 +262,7 @@ public int FlexibleBodyLevelForSuperSolver { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Simulation_Configuration_GINFPath"></a> GINFPath
 
@@ -261,7 +274,7 @@ public string GINFPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Simulation_Configuration_HighSpeedRotationOption"></a> HighSpeedRotationOption
 
@@ -283,7 +296,7 @@ public string ImportICFFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Simulation_Configuration_IsIncludeEigenvalue"></a> IsIncludeEigenvalue
 
@@ -295,7 +308,7 @@ public bool IsIncludeEigenvalue { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_IsIncludeStatic"></a> IsIncludeStatic
 
@@ -307,7 +320,7 @@ public bool IsIncludeStatic { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_IsIncludeThermal"></a> IsIncludeThermal
 
@@ -319,7 +332,7 @@ public bool IsIncludeThermal { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_IsUseLocalRefinement"></a> IsUseLocalRefinement
 
@@ -331,7 +344,7 @@ public bool IsUseLocalRefinement { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_JacobianOption"></a> JacobianOption
 
@@ -355,7 +368,7 @@ public int LevelOfGeometryPrecision { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Simulation_Configuration_MeshFreeAnalysisLevelGroup"></a> MeshFreeAnalysisLevelGroup
 
@@ -378,7 +391,7 @@ public uint MotionStepForPositionAnaly { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_Simulation_Configuration_NodalOutputEntities"></a> NodalOutputEntities
 
@@ -402,7 +415,7 @@ public uint NumberOfCore { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_Simulation_Configuration_ParameterOfDynamicAnalysis"></a> ParameterOfDynamicAnalysis
 
@@ -414,7 +427,7 @@ public AnalysisParameterDynamic ParameterOfDynamicAnalysis { get; set; }
 
 #### Property Value
 
- AnalysisParameterDynamic
+ [AnalysisParameterDynamic](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfiguration.cs)
 
 ### <a id="VM_Managed_Simulation_Configuration_ParameterOfEigenvalueAnalysis"></a> ParameterOfEigenvalueAnalysis
 
@@ -426,7 +439,7 @@ public AnalysisParameterEigenvalue ParameterOfEigenvalueAnalysis { get; set; }
 
 #### Property Value
 
- AnalysisParameterEigenvalue
+ [AnalysisParameterEigenvalue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfiguration.cs)
 
 ### <a id="VM_Managed_Simulation_Configuration_ParameterOfStaticAnalysis"></a> ParameterOfStaticAnalysis
 
@@ -438,7 +451,7 @@ public AnalysisParameterStatic ParameterOfStaticAnalysis { get; set; }
 
 #### Property Value
 
- AnalysisParameterStatic
+ [AnalysisParameterStatic](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfiguration.cs)
 
 ### <a id="VM_Managed_Simulation_Configuration_ParameterOfThermalAnalysis"></a> ParameterOfThermalAnalysis
 
@@ -450,7 +463,7 @@ public AnalysisParameterThermal ParameterOfThermalAnalysis { get; set; }
 
 #### Property Value
 
- AnalysisParameterThermal
+ [AnalysisParameterThermal](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfiguration.cs)
 
 ### <a id="VM_Managed_Simulation_Configuration_PlasticMaterialStrain"></a> PlasticMaterialStrain
 
@@ -462,6 +475,18 @@ public PlasticMaterialStrain PlasticMaterialStrain { get; set; }
 
  [PlasticMaterialStrain](VM.Managed.DAFUL.PlasticMaterialStrain.md)
 
+### <a id="VM_Managed_Simulation_Configuration_PreventPost"></a> PreventPost
+
+Gets or sets the flag determines whether to prevent post execution.
+
+```csharp
+public bool PreventPost { get; set; }
+```
+
+#### Property Value
+
+ bool
+
 ### <a id="VM_Managed_Simulation_Configuration_PreventShearLocking"></a> PreventShearLocking
 
 ```csharp
@@ -470,7 +495,7 @@ public bool PreventShearLocking { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_RecordOfResult"></a> RecordOfResult
 
@@ -506,7 +531,7 @@ public string ResultFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Simulation_Configuration_ShowHideAdvancedOption"></a> ShowHideAdvancedOption
 
@@ -518,7 +543,7 @@ public bool ShowHideAdvancedOption { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_SimulationParam"></a> SimulationParam
 
@@ -530,7 +555,7 @@ public SimulationParameter SimulationParam { get; set; }
 
 #### Property Value
 
- SimulationParameter
+ [SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfiguration.cs)
 
 ### <a id="VM_Managed_Simulation_Configuration_SimulationStepForPLT"></a> SimulationStepForPLT
 
@@ -542,7 +567,19 @@ public uint SimulationStepForPLT { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
+
+### <a id="VM_Managed_Simulation_Configuration_SolverCommand"></a> SolverCommand
+
+Gets or sets the solver command.
+
+```csharp
+public string SolverCommand { get; set; }
+```
+
+#### Property Value
+
+ string
 
 ### <a id="VM_Managed_Simulation_Configuration_StepOfDynamicSimulation"></a> StepOfDynamicSimulation
 
@@ -554,7 +591,7 @@ public uint StepOfDynamicSimulation { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_Simulation_Configuration_StepOfStaticSimulation"></a> StepOfStaticSimulation
 
@@ -566,7 +603,7 @@ public uint StepOfStaticSimulation { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_Simulation_Configuration_StressStrainReport"></a> StressStrainReport
 
@@ -600,7 +637,7 @@ public bool SynchronizeMaxStepSize { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_TreatAsModalForEFModalBodyResult"></a> TreatAsModalForEFModalBodyResult
 
@@ -612,7 +649,7 @@ public bool TreatAsModalForEFModalBodyResult { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_TypeOfCriterion"></a> TypeOfCriterion
 
@@ -780,7 +817,7 @@ public bool UseAutoSolverProgressBar { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UseExportICF"></a> UseExportICF
 
@@ -792,7 +829,7 @@ public bool UseExportICF { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UseImportICF"></a> UseImportICF
 
@@ -804,7 +841,7 @@ public bool UseImportICF { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UseMeshFreeAllBodySettings"></a> UseMeshFreeAllBodySettings
 
@@ -817,7 +854,7 @@ public bool UseMeshFreeAllBodySettings { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UseMotionStep"></a> UseMotionStep
 
@@ -829,7 +866,7 @@ public bool UseMotionStep { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UseOutOfCore"></a> UseOutOfCore
 
@@ -841,7 +878,7 @@ public bool UseOutOfCore { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UsePLT"></a> UsePLT
 
@@ -853,7 +890,7 @@ public bool UsePLT { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UseSolvingSpeedOption"></a> UseSolvingSpeedOption
 
@@ -865,7 +902,7 @@ public bool UseSolvingSpeedOption { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Simulation_Configuration_UserTetraFilePath"></a> UserTetraFilePath
 
@@ -877,7 +914,7 @@ public string UserTetraFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -905,7 +942,7 @@ public void AddToolkitSetting(string strName, ToolKitSettingBase setting)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the STR.
 
@@ -923,7 +960,7 @@ public void AddToolkitSettingValue(string strKey, ObjectBase ob)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 key of toolkit.
 
@@ -949,7 +986,7 @@ public virtual Configuration Clone(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the STR.
 
@@ -967,13 +1004,13 @@ public bool ContainsToolkitSetting(string strKey)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 key of toolkit.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if contains toolkit setting with the specified STR key; otherwise, <code>false</code>.
 
@@ -987,7 +1024,7 @@ public bool ContainsToolkitSettingValue(string strKey, ObjectBase ob)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 key of toolkit.
 
@@ -997,7 +1034,7 @@ The toolkit setting.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if contains toolkit setting value with the specified toolkit key; otherwise, <code>false</code>.
 
@@ -1011,7 +1048,7 @@ public Configuration DeserializeConfiguration(string strReader)
 
 #### Parameters
 
-`strReader` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReader` string
 
 The reader.
 
@@ -1049,7 +1086,7 @@ public ToolKitSettingBase GetToolkitSetting(string strKey)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 key of toolkit.
 
@@ -1067,7 +1104,7 @@ public void InitializeConfig(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the simulation configuration.
 
@@ -1087,7 +1124,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified object is enabled; otherwise, <code>false</code>.
 
@@ -1101,7 +1138,7 @@ public bool IsThermalAnalysis()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if this instance is thermal analysis; otherwise, <code>false</code>.
 
@@ -1115,7 +1152,7 @@ protected override void LinkRemovedFromDocument(object objNotifier, RemoveFromDo
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -1133,7 +1170,7 @@ protected override void LinkRequestDestroy(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -1151,7 +1188,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -1169,7 +1206,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -1197,7 +1234,7 @@ public void RemoveToolkitSetting(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the STR.
 
@@ -1211,7 +1248,7 @@ public void RemoveToolkitSettingValue(string strKey, ObjectBase ob)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 key of toolkit.
 
@@ -1243,7 +1280,7 @@ public void ReplaceToolkitSettingValue(string strKey, ObjectBase obOld, ObjectBa
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 key of toolkit.
 
@@ -1265,7 +1302,7 @@ public string SerializeConfiguration()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Simulation_Configuration_SetEnable_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnable\(ObjectBase, bool\)
 
@@ -1281,7 +1318,7 @@ public void SetEnable(ObjectBase ob, bool bEnabled)
 
 The object.
 
-`bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnabled` bool
 
 if set to <code>true</code> enabled.
 

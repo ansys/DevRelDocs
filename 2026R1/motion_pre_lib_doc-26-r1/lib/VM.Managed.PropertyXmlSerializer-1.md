@@ -1,4 +1,5 @@
-#  Class PropertyXmlSerializer<TProperty\>
+# Class PropertyXmlSerializer<TProperty\>
+<a id="VM_Managed_PropertyXmlSerializer_1"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -15,7 +16,7 @@ public class PropertyXmlSerializer<TProperty> : AbstractXmlSerializer<TProperty>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractXmlSerializer<TProperty\> ← 
 [PropertyXmlSerializer<TProperty\>](VM.Managed.PropertyXmlSerializer\-1.md)
 
@@ -61,7 +62,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -75,7 +76,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

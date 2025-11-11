@@ -1,4 +1,5 @@
-#  Class TireCarTR
+# Class TireCarTR
+<a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Tire.Car.Force](VM.Managed.DAFUL.Builder.Tire.Car.Force.md)  
 Assembly: VMBldTireCar.dll  
@@ -9,11 +10,11 @@ public class TireCarTR : TireTRBase<TireCar>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<TireCar\> ← 
-BuilderSymmetric<TireCar\> ← 
-BuilderNamed<TireCar\> ← 
-TireTRBase<TireCar\> ← 
+object ← 
+[BuilderBase<TireCar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<TireCar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<TireCar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
+[TireTRBase<TireCar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs) ← 
 [TireCarTR](VM.Managed.DAFUL.Builder.Tire.Car.Force.TireCarTR.md)
 
 #### Implements
@@ -22,44 +23,44 @@ IBuilder
 
 #### Inherited Members
 
-TireTRBase<TireCar\>.OnPostBuild\(ObjectBase, Document\), 
-TireTRBase<TireCar\>.GetOrientation\(\), 
-TireTRBase<TireCar\>.MakeWheelBody\(Document\), 
-TireTRBase<TireCar\>.SetDataWheelBody\(WheelBodyBase, Document\), 
-TireTRBase<TireCar\>.BaseConnectable, 
-TireTRBase<TireCar\>.ActionConnectable, 
-TireTRBase<TireCar\>.PropertyFilePath, 
-TireTRBase<TireCar\>.Side, 
-TireTRBase<TireCar\>.CMOffset, 
-TireTRBase<TireCar\>.Mass, 
-TireTRBase<TireCar\>.IxxIyy, 
-TireTRBase<TireCar\>.Izz, 
-TireTRBase<TireCar\>.WheelCenterOffset, 
-TireTRBase<TireCar\>.TreadColor, 
-TireTRBase<TireCar\>.Transform, 
-BuilderNamed<TireCar\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<TireCar\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<TireCar\>.Name, 
-BuilderSymmetric<TireCar\>.Build\(Document\), 
-BuilderSymmetric<TireCar\>.Symmetric, 
-BuilderSymmetric<TireCar\>.CurrentSymmetric, 
-BuilderBase<TireCar\>.m\_bSuccess, 
-BuilderBase<TireCar\>.Build\(Document\), 
-BuilderBase<TireCar\>.Build\(Document, List<string\>\), 
-BuilderBase<TireCar\>.Validate\(IList<string\>\), 
-BuilderBase<TireCar\>.Success\(\), 
-BuilderBase<TireCar\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<TireCar\>.OnFinalBuild\(string, Document\), 
-BuilderBase<TireCar\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<TireCar\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<TireCar\>.Parameters, 
-BuilderBase<TireCar\>.AddToDoc, 
-BuilderBase<TireCar\>.UseChangedObject, 
-BuilderBase<TireCar\>.SetPointKey, 
-BuilderBase<TireCar\>.BuildObject, 
-BuilderBase<TireCar\>.BuildDocument, 
-BuilderBase<TireCar\>.UseInterface, 
-BuilderBase<TireCar\>.ErrorMessage
+[TireTRBase<TireCar\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.GetOrientation\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.MakeWheelBody\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.SetDataWheelBody\(WheelBodyBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.BaseConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.ActionConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.PropertyFilePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.Side](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.CMOffset](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.Mass](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.IxxIyy](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.Izz](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.WheelCenterOffset](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.TreadColor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[TireTRBase<TireCar\>.Transform](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBldTire/TireTRBase.cs), 
+[BuilderNamed<TireCar\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<TireCar\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<TireCar\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<TireCar\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<TireCar\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<TireCar\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<TireCar\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -99,7 +100,7 @@ protected override WheelBodyBase MakeWheelBody(Document doc)
 
 #### Returns
 
- WheelBodyBase
+ [WheelBodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
@@ -115,7 +116,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR_SetDataWheelBody_VM_Managed_DAFUL_Tire_WheelBodyBase_VM_Managed_Document_"></a> SetDataWheelBody\(WheelBodyBase, Document\)
 
@@ -125,7 +126,7 @@ protected override void SetDataWheelBody(WheelBodyBase wheel, Document doc)
 
 #### Parameters
 
-`wheel` WheelBodyBase
+`wheel` [WheelBodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs)
 
 `doc` Document
 

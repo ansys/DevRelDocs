@@ -1,4 +1,5 @@
-#  Class FourPostAnalysisBase
+# Class FourPostAnalysisBase
+<a id="VM_Managed_DAFUL_Car_FourPostAnalysisBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -11,8 +12,8 @@ public abstract class FourPostAnalysisBase : AnalysisBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-AnalysisBase ← 
+object ← 
+[AnalysisBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs) ← 
 [FourPostAnalysisBase](VM.Managed.DAFUL.Car.FourPostAnalysisBase.md)
 
 #### Derived
@@ -21,14 +22,14 @@ AnalysisBase ←
 
 #### Inherited Members
 
-AnalysisBase.m\_pLnkContainer, 
-AnalysisBase.SetModified\(\), 
-AnalysisBase.GetTestRigMotionUSUBArgument\(string\[\]\), 
-AnalysisBase.GetConvertUnit\(LengthUnitType\), 
-AnalysisBase.GetGravity\(\), 
-AnalysisBase.GetConvertUnit\(VelocityUnitType\), 
-AnalysisBase.GetConvertUnit\(AccelerationUnitType\), 
-AnalysisBase.IsSim
+[AnalysisBase.m\_pLnkContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.SetModified\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetTestRigMotionUSUBArgument\(string\[\]\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetConvertUnit\(LengthUnitType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetGravity\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetConvertUnit\(VelocityUnitType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.GetConvertUnit\(AccelerationUnitType\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs), 
+[AnalysisBase.IsSim](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionAnalysis.cs)
 
 #### Extension Methods
 
@@ -72,7 +73,7 @@ protected void GetTestRigMotionUSUBArgumentCore(string strAnaType, AnalysisFourP
 
 #### Parameters
 
-`strAnaType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAnaType` string
 
 Type of the STR ana.
 
@@ -80,7 +81,7 @@ Type of the STR ana.
 
 The info.
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The ar parameter.
 

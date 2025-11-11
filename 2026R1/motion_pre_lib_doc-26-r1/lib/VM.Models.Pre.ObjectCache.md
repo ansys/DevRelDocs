@@ -1,4 +1,5 @@
-#  Class ObjectCache
+# Class ObjectCache
+<a id="VM_Models_Pre_ObjectCache"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public static class ObjectCache
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObjectCache](VM.Models.Pre.ObjectCache.md)
 
 #### Extension Methods
@@ -28,9 +29,9 @@ public static void Add(UIntPtr key, object value)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value` object
 
 ### <a id="VM_Models_Pre_ObjectCache_Contains_System_UIntPtr_"></a> Contains\(UIntPtr\)
 
@@ -40,11 +41,11 @@ public static bool Contains(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_ObjectCache_GetValue_System_UIntPtr_"></a> GetValue\(UIntPtr\)
 
@@ -54,11 +55,11 @@ public static object GetValue(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Models_Pre_ObjectCache_Remove_System_UIntPtr_"></a> Remove\(UIntPtr\)
 
@@ -68,7 +69,7 @@ public static void Remove(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 ### <a id="VM_Models_Pre_ObjectCache_TryGetValue_System_UIntPtr_System_Object__"></a> TryGetValue\(UIntPtr, out object\)
 
@@ -78,13 +79,13 @@ public static bool TryGetValue(UIntPtr key, out object value)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_ObjectCache_TryGetValue__1_System_UIntPtr___0__"></a> TryGetValue<T\>\(UIntPtr, out T\)
 
@@ -94,13 +95,13 @@ public static bool TryGetValue<T>(UIntPtr key, out T value)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 `value` T
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 

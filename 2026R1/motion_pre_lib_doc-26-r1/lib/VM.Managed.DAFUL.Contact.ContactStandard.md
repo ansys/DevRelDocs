@@ -1,4 +1,5 @@
-#  Class ContactStandard
+# Class ContactStandard
+<a id="VM_Managed_DAFUL_Contact_ContactStandard"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -11,9 +12,9 @@ public sealed class ContactStandard : ContactFunction, IObservableObject, IDispo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [ContactFunction](VM.Managed.DAFUL.Contact.ContactFunction.md) ← 
 [ContactStandard](VM.Managed.DAFUL.Contact.ContactStandard.md)
@@ -115,7 +116,7 @@ protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
 
 #### Field Value
 
- LinkAttribute
+ [LinkAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Aspects/Attributes/LinkAttribute.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard___a__a_VM_Models_Pre_LinkUpdateAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
 
@@ -125,7 +126,7 @@ protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
 
 #### Field Value
 
- LinkUpdateAttribute
+ [LinkUpdateAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Aspects/Attributes/LinkUpdateAttribute.cs)
 
 ## Properties
 
@@ -139,7 +140,7 @@ public ExpressionValueVariable ActionPoissonsRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_ActionYoungsModulus"></a> ActionYoungsModulus
 
@@ -151,7 +152,7 @@ public ExpressionValueVariable ActionYoungsModulus { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BasePoissonsRatio"></a> BasePoissonsRatio
 
@@ -163,7 +164,7 @@ public ExpressionValueVariable BasePoissonsRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BaseYoungsModulus"></a> BaseYoungsModulus
 
@@ -175,7 +176,7 @@ public ExpressionValueVariable BaseYoungsModulus { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BounceOffDampingFactor"></a> BounceOffDampingFactor
 
@@ -187,7 +188,7 @@ public ExpressionValueVariable BounceOffDampingFactor { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BoundaryPenetration"></a> BoundaryPenetration
 
@@ -199,7 +200,7 @@ public ExpressionValueVariable BoundaryPenetration { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_CalculatedFromMaterial"></a> CalculatedFromMaterial
 
@@ -211,7 +212,7 @@ public bool CalculatedFromMaterial { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_CalculationMethodOfContactArea"></a> CalculationMethodOfContactArea
 
@@ -235,7 +236,7 @@ public ExpressionValueVariable DampCoef { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DampCoefRatio"></a> DampCoefRatio
 
@@ -247,7 +248,7 @@ public ExpressionValueVariable DampCoefRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DampingSpline"></a> DampingSpline
 
@@ -259,7 +260,7 @@ public Spline DampingSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DampingType"></a> DampingType
 
@@ -283,7 +284,7 @@ public ExpressionValueVariable DynFriCoef { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DynThreshold"></a> DynThreshold
 
@@ -295,7 +296,7 @@ public ExpressionValueVariable DynThreshold { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_FrictionSpline"></a> FrictionSpline
 
@@ -307,7 +308,7 @@ public Spline FrictionSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_FrictionSplineInfo"></a> FrictionSplineInfo
 
@@ -343,7 +344,7 @@ public ExpressionValueVariable MaxSticDeform { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StaFriCoef"></a> StaFriCoef
 
@@ -355,7 +356,7 @@ public ExpressionValueVariable StaFriCoef { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_SticVel"></a> SticVel
 
@@ -367,7 +368,7 @@ public ExpressionValueVariable SticVel { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffCoef"></a> StiffCoef
 
@@ -379,7 +380,7 @@ public ExpressionValueVariable StiffCoef { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffOrder"></a> StiffOrder
 
@@ -391,7 +392,7 @@ public ExpressionValueVariable StiffOrder { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffPerContactArea"></a> StiffPerContactArea
 
@@ -403,7 +404,7 @@ public ExpressionValueVariable StiffPerContactArea { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffnessSpline"></a> StiffnessSpline
 
@@ -415,7 +416,7 @@ public Spline StiffnessSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffnessType"></a> StiffnessType
 
@@ -439,7 +440,7 @@ public ExpressionValueVariable ThicknessOfContactSurface { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_Type"></a> Type
 
@@ -463,7 +464,7 @@ public bool UseBounceOffDampingFactor { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_UseStiction"></a> UseStiction
 
@@ -475,7 +476,7 @@ public bool UseStiction { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -515,7 +516,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -529,9 +530,9 @@ protected override void OnLinkReserved(ILink link, object objNotifer, EventArgs 
 
 `link` ILink
 
-`objNotifer` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifer` object
 
-`args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`args` EventArgs
 
 ### <a id="VM_Managed_DAFUL_Contact_ContactStandard_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
@@ -543,7 +544,7 @@ public override void ReadTemplate(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -557,7 +558,7 @@ public override void WriteTemplate(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

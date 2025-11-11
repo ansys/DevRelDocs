@@ -1,4 +1,5 @@
-#  Class Planar
+# Class Planar
+<a id="VM_Managed_Symmetric_Constraints_Planar"></a>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  
@@ -9,9 +10,9 @@ public class Planar : Constraint<Planar, PropertyPlanar>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Planar\> ← 
-Connector<Planar, PropertyPlanar\> ← 
+object ← 
+[Named<Planar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<Planar, PropertyPlanar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
 [Constraint<Planar, PropertyPlanar\>](VM.Managed.Symmetric.Constraints.Constraint\-2.md) ← 
 [Planar](VM.Managed.Symmetric.Constraints.Planar.md)
 
@@ -22,11 +23,11 @@ ISymmetricUpdater
 #### Inherited Members
 
 [Constraint<Planar, PropertyPlanar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](VM.Managed.Symmetric.Constraints.Constraint\-2.md\#VM\_Managed\_Symmetric\_Constraints\_Constraint\_2\_Update\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_VM\_Managed\_SymmetricType\_VM\_Plane\_VM\_Managed\_Document\_), 
-Connector<Planar, PropertyPlanar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Planar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Planar\>.Initialize\(ISymmetricManager\), 
-Named<Planar\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Planar\>.SymmetricManager
+[Connector<Planar, PropertyPlanar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<Planar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Planar\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Planar\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Planar\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

@@ -1,4 +1,5 @@
-#  Class CheckLicenseManager
+# Class CheckLicenseManager
+<a id="VM_Managed_CheckLicenseManager"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class CheckLicenseManager
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CheckLicenseManager](VM.Managed.CheckLicenseManager.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public static string GetToolkitInfoPath()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CheckLicenseManager_SetToolkitInfoPath_System_String_"></a> SetToolkitInfoPath\(string\)
 
@@ -48,5 +49,5 @@ public static void SetToolkitInfoPath(string value)
 
 #### Parameters
 
-`value` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`value` string
 

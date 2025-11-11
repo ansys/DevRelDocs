@@ -1,4 +1,5 @@
-#  Interface IEntity
+# Interface IEntity
+<a id="VM_Models_Pre_IEntity"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

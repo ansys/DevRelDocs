@@ -1,16 +1,17 @@
-#  Class PropertyGeneral
+# Class PropertyGeneral
+<a id="VM_Models_Pre_Connections_PropertyGeneral"></a>
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
 
 <p>This class is to represent the general connections properties.</p>
 <p>
-        Symmetric Modeling : Yes
-        Reference : No
-        Reference Type : N/A
-        삭제시 Reservable한 Link 변수 : N/A
-        Generic Collection에 담겨있는 Link 변수 : N/A
-        </p>
+Symmetric Modeling : Yes
+Reference : No
+Reference Type : N/A
+삭제시 Reservable한 Link 변수 : N/A
+Generic Collection에 담겨있는 Link 변수 : N/A
+</p>
 
 ```csharp
 public class PropertyGeneral : PropertyConstraint, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, ILinkContainer, IOwned, IHasID, IArgument, IHasProperty
@@ -18,14 +19,14 @@ public class PropertyGeneral : PropertyConstraint, IObservableObject, IDisposabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
-PropertyConstraint ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
+[PropertyConstraint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Constraint.cs) ← 
 [PropertyGeneral](VM.Models.Pre.Connections.PropertyGeneral.md)
 
 #### Implements
@@ -39,7 +40,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -50,14 +51,14 @@ IHasProperty
 
 #### Inherited Members
 
-PropertyConstraint.ReferenceType, 
-PropertyConstraint.ArgumentType, 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[PropertyConstraint.ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Constraint.cs), 
+[PropertyConstraint.ArgumentType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Constraint.cs), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -156,7 +157,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -209,7 +210,7 @@ public PropertyBall BallProperty { get; set; }
 
 #### Property Value
 
- PropertyBall
+ [PropertyBall](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Ball.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_BushProperty"></a> BushProperty
 
@@ -221,7 +222,7 @@ public PropertyBush BushProperty { get; set; }
 
 #### Property Value
 
- PropertyBush
+ [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorFullType"></a> ConnectorFullType
 
@@ -233,30 +234,30 @@ public string ConnectorFullType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorProperty"></a> ConnectorProperty
 
 <p>Gets the property of connector</p>
 <p>
-        Type : VM.Managed.Property
-        LinkRequestUpdate 시 처리 : N/A
-        LinkRequestDestroy 시 처리 :
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Damping Ratio
-        Control Type : N/A
-        ToolTip : N/A
-        Error Message : N/A
-        Category : N/A
-        Category Index : N/A
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : VM.Managed.Property
+LinkRequestUpdate 시 처리 : N/A
+LinkRequestDestroy 시 처리 :
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Damping Ratio
+Control Type : N/A
+ToolTip : N/A
+Error Message : N/A
+Category : N/A
+Category Index : N/A
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public Property ConnectorProperty { get; set; }
@@ -264,7 +265,7 @@ public Property ConnectorProperty { get; set; }
 
 #### Property Value
 
- Property
+ [Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConvelProperty"></a> ConvelProperty
 
@@ -276,7 +277,7 @@ public PropertyConvel ConvelProperty { get; set; }
 
 #### Property Value
 
- PropertyConvel
+ [PropertyConvel](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Convel.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_CylindricalProperty"></a> CylindricalProperty
 
@@ -288,7 +289,7 @@ public PropertyCylindrical CylindricalProperty { get; set; }
 
 #### Property Value
 
- PropertyCylindrical
+ [PropertyCylindrical](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Cylindrical.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_DistanceProperty"></a> DistanceProperty
 
@@ -300,7 +301,7 @@ public PropertyDistance DistanceProperty { get; set; }
 
 #### Property Value
 
- PropertyDistance
+ [PropertyDistance](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Distance.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_FixedProperty"></a> FixedProperty
 
@@ -312,7 +313,7 @@ public PropertyFixed FixedProperty { get; set; }
 
 #### Property Value
 
- PropertyFixed
+ [PropertyFixed](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Fixed.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_InlineProperty"></a> InlineProperty
 
@@ -324,7 +325,7 @@ public PropertyInline InlineProperty { get; set; }
 
 #### Property Value
 
- PropertyInline
+ [PropertyInline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Inline.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_InplaneProperty"></a> InplaneProperty
 
@@ -336,7 +337,7 @@ public PropertyInplane InplaneProperty { get; set; }
 
 #### Property Value
 
- PropertyInplane
+ [PropertyInplane](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Inplane.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_MatrixProperty"></a> MatrixProperty
 
@@ -348,7 +349,7 @@ public PropertyMatrix MatrixProperty { get; set; }
 
 #### Property Value
 
- PropertyMatrix
+ [PropertyMatrix](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Matrix.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_OrientationProperty"></a> OrientationProperty
 
@@ -360,7 +361,7 @@ public PropertyOrientation OrientationProperty { get; set; }
 
 #### Property Value
 
- PropertyOrientation
+ [PropertyOrientation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Orientation.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_ParallelProperty"></a> ParallelProperty
 
@@ -372,7 +373,7 @@ public PropertyParallel ParallelProperty { get; set; }
 
 #### Property Value
 
- PropertyParallel
+ [PropertyParallel](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Parallel.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_PerpendicularProperty"></a> PerpendicularProperty
 
@@ -384,7 +385,7 @@ public PropertyPerpendicular PerpendicularProperty { get; set; }
 
 #### Property Value
 
- PropertyPerpendicular
+ [PropertyPerpendicular](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Perpendicular.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_PlanarProperty"></a> PlanarProperty
 
@@ -396,7 +397,7 @@ public PropertyPlanar PlanarProperty { get; set; }
 
 #### Property Value
 
- PropertyPlanar
+ [PropertyPlanar](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Planar.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_ReferenceType"></a> ReferenceType
 
@@ -408,7 +409,7 @@ public override string ReferenceType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_RevoluteProperty"></a> RevoluteProperty
 
@@ -420,7 +421,7 @@ public PropertyRevolute RevoluteProperty { get; set; }
 
 #### Property Value
 
- PropertyRevolute
+ [PropertyRevolute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Revolute.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_ScrewProperty"></a> ScrewProperty
 
@@ -432,7 +433,7 @@ public PropertyScrew ScrewProperty { get; set; }
 
 #### Property Value
 
- PropertyScrew
+ [PropertyScrew](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Screw.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_SixMotionProperty"></a> SixMotionProperty
 
@@ -456,30 +457,30 @@ public PropertyTranslational TranslationalProperty { get; set; }
 
 #### Property Value
 
- PropertyTranslational
+ [PropertyTranslational](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Translational.cs)
 
 ### <a id="VM_Models_Pre_Connections_PropertyGeneral_TypeOfConnector"></a> TypeOfConnector
 
 <p>Gets the type of connector.</p>
 <p>
-        Type : VM.Models.Pre.Connections.PropertyGeneral.ConnectorType
-        LinkRequestUpdate 시 처리 : N/A
-        LinkRequestDestroy 시 처리 :
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Damping Ratio
-        Control Type : ComboBox
-        ToolTip : N/A
-        Error Message : N/A
-        Category : N/A
-        Category Index : 1
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : VM.Models.Pre.Connections.PropertyGeneral.ConnectorType
+LinkRequestUpdate 시 처리 : N/A
+LinkRequestDestroy 시 처리 :
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Damping Ratio
+Control Type : ComboBox
+ToolTip : N/A
+Error Message : N/A
+Category : N/A
+Category Index : 1
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public PropertyGeneral.ConnectorType TypeOfConnector { get; set; }
@@ -499,7 +500,7 @@ public PropertyUniversal UniversalProperty { get; set; }
 
 #### Property Value
 
- PropertyUniversal
+ [PropertyUniversal](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Universal.cs)
 
 ## Methods
 
@@ -513,7 +514,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -533,13 +534,13 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 The unnamed object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The unnamed object name.
 

@@ -1,4 +1,5 @@
-#  Struct LeafSpringProfile
+# Struct LeafSpringProfile
+<a id="VM_Models_Pre_Force_LeafSpringProfile"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -21,7 +22,7 @@ public double? Thickness { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Models_Pre_Force_LeafSpringProfile_X"></a> X
 
@@ -33,7 +34,7 @@ public double X { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_LeafSpringProfile_Z"></a> Z
 
@@ -45,7 +46,7 @@ public double Z { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -57,11 +58,11 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Force_LeafSpringProfile_Equals_VM_Models_Pre_Force_LeafSpringProfile_"></a> Equals\(LeafSpringProfile\)
 
@@ -75,7 +76,7 @@ public bool Equals(LeafSpringProfile other)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Force_LeafSpringProfile_GetHashCode"></a> GetHashCode\(\)
 
@@ -85,7 +86,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Operators
 
@@ -103,7 +104,7 @@ public static bool operator ==(LeafSpringProfile left, LeafSpringProfile right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Force_LeafSpringProfile_op_Implicit_VM_Models_Pre_Force_LeafSpringProfile__VM_Models_Pre_Force_Leaf3D"></a> implicit operator Leaf3D\(LeafSpringProfile\)
 
@@ -147,5 +148,5 @@ public static bool operator !=(LeafSpringProfile left, LeafSpringProfile right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

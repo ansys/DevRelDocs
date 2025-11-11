@@ -1,4 +1,5 @@
-#  Class SwitchableBody
+# Class SwitchableBody
+<a id="VM_Managed_DAFUL_Builder_SwitchableBody"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class SwitchableBody : BuilderNamed<SwitchableBody>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<SwitchableBody\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<SwitchableBody\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<SwitchableBody\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md) ← 
@@ -69,7 +70,7 @@ public string[] ObjectNames { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -87,5 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

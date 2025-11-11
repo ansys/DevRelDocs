@@ -1,4 +1,5 @@
-#  Class GTAssembly
+# Class GTAssembly
+<a id="VM_Managed_DAFUL_GearTrain_GTAssembly"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class GTAssembly : LinkContainer, IObservableObject, IDisposableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [GTAssembly](VM.Managed.DAFUL.GearTrain.GTAssembly.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -142,7 +143,7 @@ public PropertyBush ConnectorProp { get; set; }
 
 #### Property Value
 
- PropertyBush
+ [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_CycloidPinInformation"></a> CycloidPinInformation
 
@@ -178,7 +179,7 @@ public IList<GTAssemblyInfo> InputShaftSetList { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\>
+ IList<[GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_OutputShaftSetInfos"></a> OutputShaftSetInfos
 
@@ -202,7 +203,7 @@ public IList<GTAssemblyInfo> OutputShaftSetList { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\>
+ IList<[GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ReferenceBody"></a> ReferenceBody
 
@@ -238,7 +239,7 @@ public PropertyRevolute RevoluteProperty { get; set; }
 
 #### Property Value
 
- PropertyRevolute
+ [PropertyRevolute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Revolute.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly__ReferenceBody"></a> \_ReferenceBody
 
@@ -292,13 +293,13 @@ protected override bool CanBeDestroy(object objNotifier)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The destroy object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ClearBearingInfo"></a> ClearBearingInfo\(\)
 
@@ -402,7 +403,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -436,7 +437,7 @@ The information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly_"></a> Remove\(BearingInfoForAssembly\)
 
@@ -454,7 +455,7 @@ The information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_"></a> Remove\(CycloidPinInfoForAssembly\)
 
@@ -472,7 +473,7 @@ The information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_"></a> Remove\(RacewayGeometryInfo\)
 
@@ -490,7 +491,7 @@ The race_info.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> Remove\(GearGeometryInfo\)
 
@@ -508,7 +509,7 @@ The gear information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_initChild_VM_Unit_ConvertFactor_"></a> initChild\(ConvertFactor\)
 

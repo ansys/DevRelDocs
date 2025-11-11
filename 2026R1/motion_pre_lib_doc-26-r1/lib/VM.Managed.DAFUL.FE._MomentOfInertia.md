@@ -1,4 +1,5 @@
-#  Struct \_MomentOfInertia
+# Struct \_MomentOfInertia
+<a id="VM_Managed_DAFUL_FE__MomentOfInertia"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -21,7 +22,7 @@ public _MomentOfInertia(double dInitialValue)
 
 #### Parameters
 
-`dInitialValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dInitialValue` double
 
 The initial value.
 
@@ -37,7 +38,7 @@ public double Ixx
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Ixy"></a> Ixy
 
@@ -49,7 +50,7 @@ public double Ixy
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Ixz"></a> Ixz
 
@@ -61,7 +62,7 @@ public double Ixz
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Iyy"></a> Iyy
 
@@ -73,7 +74,7 @@ public double Iyy
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Iyz"></a> Iyz
 
@@ -85,7 +86,7 @@ public double Iyz
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Izz"></a> Izz
 
@@ -97,5 +98,5 @@ public double Izz
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Class ArrayAPI
+# Class ArrayAPI
+<a id="VM_API_Pre_ArrayAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class ArrayAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ArrayAPI](VM.API.Pre.ArrayAPI.md)
 
 #### Extension Methods
@@ -34,15 +35,15 @@ public static Obj CreateArray(this SubSystemDocument document, ExpressionValueVa
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the array.
 
-`size` ExpressionValueVariable
+`size` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The number of array size.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of array.
 
@@ -50,7 +51,7 @@ The name of array.
 
 The symmetric type of the new <xref href="VM.Managed.DAFUL.Array" data-throw-if-not-resolved="false"></xref>
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 The flag of interface.
 
@@ -62,11 +63,11 @@ The new <xref href="VM.Managed.DAFUL.Array" data-throw-if-not-resolved="false"><
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'size' values less than 0.
 

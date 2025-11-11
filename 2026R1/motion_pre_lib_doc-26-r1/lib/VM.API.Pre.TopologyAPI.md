@@ -1,4 +1,5 @@
-#  Class TopologyAPI
+# Class TopologyAPI
+<a id="VM_API_Pre_TopologyAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class TopologyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TopologyAPI](VM.API.Pre.TopologyAPI.md)
 
 #### Extension Methods
@@ -37,11 +38,11 @@ public static void ChangeEdgeColor(this IDocument document, IEnumerable<Obj> edg
 
 The document to change the topology edge.
 
-`edges` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`edges` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The edges of the topology.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the topology.
 
@@ -51,15 +52,15 @@ The falg of color setting of the topology.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'edges' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'edges' is not <xref href="VM.Managed.CAD.Edge" data-throw-if-not-resolved="false"></xref>.
 
@@ -78,11 +79,11 @@ public static void ChangeFaceColor(this IDocument document, IEnumerable<Obj> fac
 
 The document to change the topology face.
 
-`faces` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`faces` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The faces of the topology.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the topology.
 
@@ -92,15 +93,15 @@ The falg of color setting of the topology.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'faces' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'faces' is not <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
 

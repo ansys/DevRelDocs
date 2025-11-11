@@ -1,4 +1,5 @@
-#  Class LinkDestroyAttribute
+# Class LinkDestroyAttribute
+<a id="VM_Models_Pre_LinkDestroyAttribute"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -13,8 +14,8 @@ public class LinkDestroyAttribute : LinkUpdateAttribute, ILinkUpdateOwner, ILink
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [LinkBaseAttribute](VM.Models.Pre.LinkBaseAttribute.md) ← 
 [LinkUpdateAttribute](VM.Models.Pre.LinkUpdateAttribute.md) ← 
 [LinkDestroyAttribute](VM.Models.Pre.LinkDestroyAttribute.md)
@@ -77,7 +78,7 @@ public LinkDestroyAttribute(Type behaviorType)
 
 #### Parameters
 
-`behaviorType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`behaviorType` Type
 
 ### <a id="VM_Models_Pre_LinkDestroyAttribute__ctor_VM_Models_Pre_LinkBehaviorType_System_String___"></a> LinkDestroyAttribute\(LinkBehaviorType, params string\[\]\)
 
@@ -89,7 +90,7 @@ public LinkDestroyAttribute(LinkBehaviorType linkBehaviorType, params string[] b
 
 `linkBehaviorType` LinkBehaviorType
 
-`behaviorNames` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`behaviorNames` string\[\]
 
 ## Fields
 
@@ -113,7 +114,7 @@ protected override string AfterEventName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_LinkDestroyAttribute_BeforeEventName"></a> BeforeEventName
 
@@ -123,7 +124,7 @@ protected override string BeforeEventName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -136,13 +137,13 @@ public override void AfterSetter(object owner, string propertyName, object[] val
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`values` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`values` object\[\]
 
-`triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
+`triggers` Attribute\[\]
 
 ### <a id="VM_Models_Pre_LinkDestroyAttribute_BeforeSetter_System_String_"></a> BeforeSetter\(string\)
 
@@ -153,7 +154,7 @@ public override void BeforeSetter(string propertyName)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 ### <a id="VM_Models_Pre_LinkDestroyAttribute_GetDefaultAfterBehavior_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs__"></a> GetDefaultAfterBehavior\(object, EventPattern<LinkEventArgs\>\)
 
@@ -163,13 +164,13 @@ protected override Action GetDefaultAfterBehavior(object source, EventPattern<Li
 
 #### Parameters
 
-`source` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`source` object
 
 `eventPattern` EventPattern<LinkEventArgs\>
 
 #### Returns
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 ### <a id="VM_Models_Pre_LinkDestroyAttribute_GetDefaultBeforeBehavior_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs__"></a> GetDefaultBeforeBehavior\(object, EventPattern<LinkEventArgs\>\)
 
@@ -179,13 +180,13 @@ protected override Action GetDefaultBeforeBehavior(object source, EventPattern<L
 
 #### Parameters
 
-`source` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`source` object
 
 `eventPattern` EventPattern<LinkEventArgs\>
 
 #### Returns
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 ### <a id="VM_Models_Pre_LinkDestroyAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
@@ -195,7 +196,7 @@ protected override void InitializeProperty(object owner, IEnumerable<PropertyInf
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+`propertyInfos` IEnumerable<PropertyInfo\>
 

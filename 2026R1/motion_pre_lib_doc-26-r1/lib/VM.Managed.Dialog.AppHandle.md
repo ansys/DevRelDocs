@@ -1,4 +1,5 @@
-#  Class AppHandle
+# Class AppHandle
+<a id="VM_Managed_Dialog_AppHandle"></a>
 
 Namespace: [VM.Managed.Dialog](VM.Managed.Dialog.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class AppHandle : IAppHandle
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AppHandle](VM.Managed.Dialog.AppHandle.md)
 
 #### Implements
@@ -44,9 +45,9 @@ public virtual void Activate(List<UIntPtr> lstObj, bool isActive)
 
 #### Parameters
 
-`lstObj` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstObj` List<UIntPtr\>
 
-`isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isActive` bool
 
 ### <a id="VM_Managed_Dialog_AppHandle_Activate_System_UIntPtr_System_Boolean_"></a> Activate\(UIntPtr, bool\)
 
@@ -58,11 +59,11 @@ public virtual void Activate(UIntPtr obj, bool isActive)
 
 #### Parameters
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 The tag of activate
 
-`isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isActive` bool
 
 The Activate flag
 
@@ -76,11 +77,11 @@ public virtual void ActivateFromExtern(UIntPtr obj, bool isActive)
 
 #### Parameters
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 The tag of activate.
 
-`isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isActive` bool
 
 The Activate flag.
 
@@ -94,11 +95,11 @@ public virtual void ActivateFromExternWithoutReset(UIntPtr obj, bool isActive)
 
 #### Parameters
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 The tag of activate.
 
-`isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isActive` bool
 
 The Activate flag.
 
@@ -110,9 +111,9 @@ public virtual void ActivateWithoutReset(List<UIntPtr> lstObj, bool isActive)
 
 #### Parameters
 
-`lstObj` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstObj` List<UIntPtr\>
 
-`isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isActive` bool
 
 ### <a id="VM_Managed_Dialog_AppHandle_ActivateWithoutReset_System_UIntPtr_System_Boolean_"></a> ActivateWithoutReset\(UIntPtr, bool\)
 
@@ -124,11 +125,11 @@ public virtual void ActivateWithoutReset(UIntPtr obj, bool isActive)
 
 #### Parameters
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 The tag of activate
 
-`isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isActive` bool
 
 The Activate flag
 
@@ -142,21 +143,21 @@ public virtual bool CalcCoordSys(string strPickResult, XmlNode nodeBaseCoordSys,
 
 #### Parameters
 
-`strPickResult` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPickResult` string
 
 The result of picking.
 
-`nodeBaseCoordSys` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`nodeBaseCoordSys` XmlNode
 
 The base coordinate system.
 
-`nodeActionCoordSys` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`nodeActionCoordSys` XmlNode
 
 The action coordinate system.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -170,17 +171,17 @@ public virtual bool DeleteObject(UIntPtr obj, bool isFirst)
 
 #### Parameters
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 The deleted object.
 
-`isFirst` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isFirst` bool
 
 <code>true</code> if deleted object is first object; otherwise, <code>false</code>.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -194,17 +195,17 @@ public virtual double DistanceBetween2Points(UIntPtr tagFrom, UIntPtr tagTo)
 
 #### Parameters
 
-`tagFrom` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`tagFrom` UIntPtr
 
 Based on tag of object.
 
-`tagTo` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`tagTo` UIntPtr
 
 Another tag of object.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The distance about two objects.
 
@@ -218,13 +219,13 @@ public virtual UIntPtr FindInActiveModel(string strObjName)
 
 #### Parameters
 
-`strObjName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strObjName` string
 
 Find name of object.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 <code>tag</code> if success; otherwise, <code>zero</code>.
 
@@ -238,13 +239,13 @@ public virtual string GetDefaultName(string strHead)
 
 #### Parameters
 
-`strHead` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strHead` string
 
 prefix of name
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The name
 
@@ -258,23 +259,23 @@ public virtual bool IsValidName(string strName, UIntPtr tagContainer, UIntPtr ta
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name for Checking
 
-`tagContainer` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`tagContainer` UIntPtr
 
 Tag of the container which contains tagObject
 if IntPtr.Zero, Current working model will be used.
 
-`tagObject` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`tagObject` UIntPtr
 
 Tag of the object which wnats to set names.
 if IntPtr.Zero, strName must unique.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if Duplicated then return false
 
@@ -288,11 +289,11 @@ public virtual void RegisterStrDialogResult(int nIDDialog, XmlDocument domResult
 
 #### Parameters
 
-`nIDDialog` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIDDialog` int
 
 The ID of dialog.
 
-`domResult` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`domResult` XmlDocument
 
 The data of dialog.
 
@@ -306,7 +307,7 @@ public virtual void SetMultiDeleteObject(bool bMulti)
 
 #### Parameters
 
-`bMulti` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bMulti` bool
 
 <code>true</code> if multi delete object; otherwise, <code>false</code>.
 
@@ -320,15 +321,15 @@ public virtual void StartOperation(string strOpName, UIntPtr doc, string strOpIn
 
 #### Parameters
 
-`strOpName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpName` string
 
 The name of operation.
 
-`doc` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`doc` UIntPtr
 
 Document point.
 
-`strOpInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpInfo` string
 
 Additional information.
 
@@ -342,15 +343,15 @@ public virtual void StartOperation(string strOpName, string strOpInfo, bool bHis
 
 #### Parameters
 
-`strOpName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpName` string
 
 The name of operation.
 
-`strOpInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpInfo` string
 
 Additional information.
 
-`bHistoryMerge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHistoryMerge` bool
 
 History merge flag.
 
@@ -364,11 +365,11 @@ public virtual void StartOperation(string strOpName, string strOpInfo)
 
 #### Parameters
 
-`strOpName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpName` string
 
 The name of operation.
 
-`strOpInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpInfo` string
 
 Additional information.
 
@@ -382,7 +383,7 @@ public virtual void StartOperation(string strOpName)
 
 #### Parameters
 
-`strOpName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpName` string
 
 The name of operation.
 

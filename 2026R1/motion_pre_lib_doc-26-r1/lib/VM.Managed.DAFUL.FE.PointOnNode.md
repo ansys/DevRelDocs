@@ -1,4 +1,5 @@
-#  Class PointOnNode
+# Class PointOnNode
+<a id="VM_Managed_DAFUL_FE_PointOnNode"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -6,14 +7,14 @@ Assembly: VMFE.dll
 This class is to represent the point on node.
 
 ```csharp
-public class PointOnNode : PointBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
+public class PointOnNode : PointBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 PointBase ← 
 [PointOnNode](VM.Managed.DAFUL.FE.PointOnNode.md)
@@ -29,7 +30,8 @@ IOwned,
 IHasID, 
 IEventProvider, 
 ILinkContainerEvent, 
-IVerifiable
+IVerifiable, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -38,6 +40,8 @@ PointBase.IsParametric\(string\),
 PointBase.ReadXml\(XmlReader\), 
 PointBase.WriteXml\(XmlWriter\), 
 PointBase.GetSchema\(\), 
+PointBase.HasReplaceableEntity\(IObjectBase\), 
+PointBase.ReplaceEntity\(IObjectBase, IObjectBase\), 
 PointBase.IsParameterized, 
 PointBase.Z, 
 PointBase.Y, 
@@ -86,7 +90,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -117,11 +121,11 @@ public PointOnNode(UIntPtr ptrOwnerKey, int nNodeIndex)
 
 #### Parameters
 
-`ptrOwnerKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`ptrOwnerKey` UIntPtr
 
 The owner key.
 
-`nNodeIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNodeIndex` int
 
 The node index.
 
@@ -139,7 +143,7 @@ public PointOnNode(Mesh mesh, int nNodeIndex)
 
 The mesh.
 
-`nNodeIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNodeIndex` int
 
 The node index.
 
@@ -163,7 +167,7 @@ public override bool IsParameterized { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_PointOnNode_NodeIndex"></a> NodeIndex
 
@@ -175,7 +179,7 @@ public int NodeIndex { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_PointOnNode_Value"></a> Value
 
@@ -199,7 +203,7 @@ public override double X { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_PointOnNode_Y"></a> Y
 
@@ -211,7 +215,7 @@ public override double Y { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_PointOnNode_Z"></a> Z
 
@@ -223,7 +227,7 @@ public override double Z { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -237,7 +241,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -257,7 +261,7 @@ Point picking type.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
@@ -271,7 +275,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -285,7 +289,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
@@ -299,7 +303,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
 

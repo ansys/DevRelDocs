@@ -1,4 +1,5 @@
-#  Delegate Document.OpenDoc
+# Delegate Document.OpenDoc
+<a id="VM_Managed_Document_OpenDoc"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,11 +12,11 @@ public delegate Document Document.OpenDoc(string strFileName, string strRelatedP
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
-`strRelatedPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRelatedPath` string
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 #### Returns
 

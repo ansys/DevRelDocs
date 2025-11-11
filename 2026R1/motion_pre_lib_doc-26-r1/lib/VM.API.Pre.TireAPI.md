@@ -1,4 +1,5 @@
-#  Class TireAPI
+# Class TireAPI
+<a id="VM_API_Pre_TireAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class TireAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TireAPI](VM.API.Pre.TireAPI.md)
 
 #### Extension Methods
@@ -34,15 +35,15 @@ public static Obj CreateTire(this SubSystemDocument subSystemDocument, string ro
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a  tire force.
 
-`roadFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`roadFile` string
 
 The road file of a tire force.
 
-`tirePropertyFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`tirePropertyFile` string
 
 The tire property file of a tire force.
 
@@ -50,43 +51,43 @@ The tire property file of a tire force.
 
 The transform of a tire force.
 
-`side` WheelBodyBase.SideType
+`side` [WheelBodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs).[SideType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs)
 
 The side of a tire force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a leaf spring.
 
-`cmOffset` ExpressionValueVariable?
+`cmOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The CM Offset of a tire force.
 
-`mass` ExpressionValueVariable?
+`mass` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The mass of a tire force.
 
-`lxxlyy` ExpressionValueVariable?
+`lxxlyy` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The lxxlyy of a tire force.
 
-`lzz` ExpressionValueVariable?
+`lzz` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The lzz of a tire force.
 
-`wheelCenterOffset` ExpressionValueVariable?
+`wheelCenterOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The wheel center offset of a tire force.
 
-`longitudinalVelocity` ExpressionValueVariable?
+`longitudinalVelocity` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The longitudinal velocity of a tire force.
 
-`spinVelocity` ExpressionValueVariable?
+`spinVelocity` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The spin velocity of a tire force.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of a tire force.
 
@@ -94,7 +95,7 @@ The color of a tire force.
 
 The symmetric type of the new <xref href="VM.Managed.DAFUL.Tire.Force.Tire" data-throw-if-not-resolved="false"></xref>.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
@@ -106,19 +107,19 @@ the new <xref href="VM.Managed.DAFUL.Tire.Force.Tire" data-throw-if-not-resolved
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'roadFile', 'tirePropertyFile' file does not exist.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the extension of 'roadFile' is not 'rdf' or if the extension of 'tirePropertyFile' is not 'tir'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'transform' X, Y, Z is equal to 0.
 
@@ -138,17 +139,17 @@ public static void Reload(this Obj wheelBodyBase, string strBodyInfo)
 
 The <xref href="VM.Managed.DAFUL.Tire.WheelBodyBase" data-throw-if-not-resolved="false"></xref> to reload a wheel body info.
 
-`strBodyInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyInfo` string
 
 The string body information of a wheel.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'wheelBodyBase' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'wheelBodyBase' is not <xref href="VM.Managed.DAFUL.Tire.WheelBodyBase" data-throw-if-not-resolved="false"></xref>.
 

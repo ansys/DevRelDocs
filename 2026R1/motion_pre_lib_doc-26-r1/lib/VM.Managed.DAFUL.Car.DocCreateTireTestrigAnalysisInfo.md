@@ -1,4 +1,5 @@
-#  Class DocCreateTireTestrigAnalysisInfo
+# Class DocCreateTireTestrigAnalysisInfo
+<a id="VM_Managed_DAFUL_Car_DocCreateTireTestrigAnalysisInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class DocCreateTireTestrigAnalysisInfo : DocCreateCarAnalysisInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocFromTemplateInfo ← 
 [DocCreateCarAnalysisInfo](VM.Managed.DAFUL.Car.DocCreateCarAnalysisInfo.md) ← 
@@ -58,7 +59,7 @@ public string AssemblyPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateTireTestrigAnalysisInfo_TestRigPath"></a> TestRigPath
 
@@ -70,7 +71,7 @@ public string TestRigPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateTireTestrigAnalysisInfo_WheelPath"></a> WheelPath
 
@@ -82,5 +83,5 @@ public string WheelPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -1,4 +1,5 @@
-#  Enum SimulationConfiguration.Criterion
+# Enum SimulationConfiguration.Criterion
+<a id="VM_Managed_SimulationConfiguration_Criterion"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

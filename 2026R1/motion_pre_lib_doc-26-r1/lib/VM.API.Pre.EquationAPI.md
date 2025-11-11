@@ -1,4 +1,5 @@
-#  Class EquationAPI
+# Class EquationAPI
+<a id="VM_API_Pre_EquationAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -9,7 +10,7 @@ public static class EquationAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EquationAPI](VM.API.Pre.EquationAPI.md)
 
 #### Extension Methods
@@ -32,11 +33,11 @@ public static Obj CreateFirstOrderDifferentialEquation(this SubSystemDocument do
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the 1st differential equation.
 
-`diffType` EquationFunctionDiff.FunctionEquType
+`diffType` [EquationFunctionDiff](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs).[FunctionEquType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The solving method type of the 1st differential equation.
 
@@ -44,11 +45,11 @@ The solving method type of the 1st differential equation.
 
 The function of the 1st differential equation.
 
-`initialDisp` ExpressionValueVariable?
+`initialDisp` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial displacement of the 1st differential equation.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the 1st differential equation.
 
@@ -64,11 +65,11 @@ The new <xref href="VM.Managed.DAFUL.Equation.Differential1" data-throw-if-not-r
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'function' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'function' is not equal to <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -84,11 +85,11 @@ public static Obj CreateSecondOrderDifferentialEquation(this SubSystemDocument d
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the 2nd differential equation.
 
-`diffType` EquationFunctionDiff.FunctionEquType
+`diffType` [EquationFunctionDiff](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs).[FunctionEquType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEq/Differential1.cs)
 
 The solving method type of the 2nd differential equation.
 
@@ -96,15 +97,15 @@ The solving method type of the 2nd differential equation.
 
 The function of the 2nd differential equation.
 
-`initialDisp` ExpressionValueVariable?
+`initialDisp` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial displacement of the 2nd differential equation.
 
-`initialVel` ExpressionValueVariable?
+`initialVel` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial velocity of the 2nd differential equation.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the 2nd differential equation.
 
@@ -120,11 +121,11 @@ The new <xref href="VM.Managed.DAFUL.Equation.Differential2" data-throw-if-not-r
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'function' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'function' is not equal to <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -140,7 +141,7 @@ public static Obj CreateVariableEquation(this SubSystemDocument document, Obj fu
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create a variable equation.
 
@@ -148,11 +149,11 @@ The document to create a variable equation.
 
 The function of a variable equation.
 
-`initialDisp` ExpressionValueVariable?
+`initialDisp` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial displacement of a variable equation.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a variable equation.
 
@@ -168,11 +169,11 @@ The new <xref href="VM.Managed.DAFUL.Equation.VariableEq" data-throw-if-not-reso
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'function' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'function' is not equal to <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 

@@ -1,4 +1,5 @@
-#  Enum ReferenceTypes
+# Enum ReferenceTypes
+<a id="VM_ReferenceTypes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

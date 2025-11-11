@@ -1,4 +1,5 @@
-#  Class AnalysisInfo
+# Class AnalysisInfo
+<a id="VM_Managed_DAFUL_Car_AnalysisInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
 #### Extension Methods
@@ -68,7 +69,7 @@ public double Final_CamberAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_SlipAngle"></a> Final\_SlipAngle
 
@@ -80,7 +81,7 @@ public double Final_SlipAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_SlipRatio"></a> Final\_SlipRatio
 
@@ -92,7 +93,7 @@ public double Final_SlipRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_Velocity"></a> Final\_Velocity
 
@@ -104,7 +105,7 @@ public double Final_Velocity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_VerticalLoad"></a> Final\_VerticalLoad
 
@@ -116,7 +117,7 @@ public double Final_VerticalLoad { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_InitVelocity"></a> InitVelocity
 
@@ -128,7 +129,7 @@ public double InitVelocity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_InitVerticalLoad"></a> InitVerticalLoad
 
@@ -140,7 +141,7 @@ public double InitVerticalLoad { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Initial_CamberAngle"></a> Initial\_CamberAngle
 
@@ -152,7 +153,7 @@ public double Initial_CamberAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Initial_SlipAngle"></a> Initial\_SlipAngle
 
@@ -164,7 +165,7 @@ public double Initial_SlipAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Initial_SlipRatio"></a> Initial\_SlipRatio
 
@@ -176,7 +177,7 @@ public double Initial_SlipRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_LongitudinalSlipType"></a> LongitudinalSlipType
 

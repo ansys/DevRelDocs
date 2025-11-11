@@ -1,4 +1,5 @@
-#  Interface IRelatedDocument
+# Interface IRelatedDocument
+<a id="VM_Managed_IRelatedDocument"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

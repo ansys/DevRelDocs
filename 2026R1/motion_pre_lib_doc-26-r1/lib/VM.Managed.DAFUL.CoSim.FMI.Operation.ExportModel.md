@@ -1,4 +1,5 @@
-#  Class ExportModel
+# Class ExportModel
+<a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim.FMI.Operation](VM.Managed.DAFUL.CoSim.FMI.Operation.md)  
 Assembly: VMOpCoSimFMI.dll  
@@ -9,7 +10,7 @@ public class ExportModel : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ExportModel](VM.Managed.DAFUL.CoSim.FMI.Operation.ExportModel.md)
 
@@ -95,23 +96,23 @@ public ExportModel(Document doc, string filePath, string strDFSFile, string strR
 
 `doc` Document
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
-`strDFSFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFSFile` string
 
-`strRESFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRESFile` string
 
-`inputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
+`inputs` IEnumerable<ObjectBase\>
 
-`outputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
+`outputs` IEnumerable<ObjectBase\>
 
-`version` ExpressionValueVariable
+`version` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
-`interfaceTimeStep` ExpressionValueVariable
+`interfaceTimeStep` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
-`modelDescription` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`modelDescription` string
 
-`interfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`interfacePath` string
 
 ### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Document_System_String_System_String_System_String_System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_String_System_String_System_String_System_String_"></a> ExportModel\(Document, string, string, string, IEnumerable<ObjectBase\>, IEnumerable<ObjectBase\>, ExpressionValueVariable, ExpressionValueVariable, string, string, string, string\)
 
@@ -123,27 +124,27 @@ public ExportModel(Document doc, string filePath, string strDFSFile, string strR
 
 `doc` Document
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
-`strDFSFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFSFile` string
 
-`strRESFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRESFile` string
 
-`inputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
+`inputs` IEnumerable<ObjectBase\>
 
-`outputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
+`outputs` IEnumerable<ObjectBase\>
 
-`version` ExpressionValueVariable
+`version` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
-`interfaceTimeStep` ExpressionValueVariable
+`interfaceTimeStep` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
-`modelDescription` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`modelDescription` string
 
-`interfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`interfacePath` string
 
-`scalefactor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`scalefactor` string
 
-`strMessageLevel` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessageLevel` string
 
 ### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Document_System_Collections_Generic_List_System_Object__"></a> ExportModel\(Document, List<object\>\)
 
@@ -155,7 +156,7 @@ public ExportModel(Document doc, List<object> lstInfo)
 
 `doc` Document
 
-`lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`lstInfo` List<object\>
 
 ### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportModel\(JournalParameter\)
 
@@ -179,7 +180,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -199,7 +200,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel_Get_ModelDescription_VM_Managed_DAFUL_SubSystemDocument_System_String_System_Collections_Generic_IList_VM_Managed_ObjectBase__System_Collections_Generic_IList_VM_Managed_ObjectBase__System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Double_System_String_System_Double_System_String_System_String_"></a> Get\_ModelDescription\(SubSystemDocument, string, IList<ObjectBase\>, IList<ObjectBase\>, IList<int\>, IList<int\>, double, string, double, string, string\)
 
@@ -209,29 +210,29 @@ public XmlDocument Get_ModelDescription(SubSystemDocument subSystem, string strF
 
 #### Parameters
 
-`subSystem` SubSystemDocument
+`subSystem` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`strFileFullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileFullPath` string
 
-`lstInputName` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
+`lstInputName` IList<ObjectBase\>
 
-`lstOutputName` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
+`lstOutputName` IList<ObjectBase\>
 
-`lstInputSeq` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstInputSeq` IList<int\>
 
-`lstOutputSeq` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstOutputSeq` IList<int\>
 
-`version` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`version` double
 
-`description` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`description` string
 
-`stepSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`stepSize` double
 
-`scalefactor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`scalefactor` string
 
-`messagelevel` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`messagelevel` string
 
 #### Returns
 
- [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+ XmlDocument
 

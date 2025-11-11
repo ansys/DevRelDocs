@@ -1,4 +1,5 @@
-#  Class SettingClass
+# Class SettingClass
+<a id="VM_Managed_DAFUL_Pre_SettingClass"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpreAPI.dll  
@@ -11,7 +12,7 @@ public class SettingClass
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SettingClass](VM.Managed.DAFUL.Pre.SettingClass.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static string RootPath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -54,7 +55,7 @@ public static string DlgPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingClass_HoopsExchangeDirectory"></a> HoopsExchangeDirectory
 
@@ -66,7 +67,7 @@ public static string HoopsExchangeDirectory { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingClass_KernelCoreModulePath"></a> KernelCoreModulePath
 
@@ -78,7 +79,7 @@ public static string KernelCoreModulePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingClass_KernelPath"></a> KernelPath
 
@@ -90,7 +91,7 @@ public static string KernelPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingClass_TemplatePath"></a> TemplatePath
 
@@ -102,7 +103,7 @@ public static string TemplatePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingClass_TranslatorDirectory"></a> TranslatorDirectory
 
@@ -114,7 +115,7 @@ public static string TranslatorDirectory { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_SettingClass_UnitPath"></a> UnitPath
 
@@ -126,5 +127,5 @@ public static string UnitPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

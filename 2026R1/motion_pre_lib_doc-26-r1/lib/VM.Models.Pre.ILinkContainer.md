@@ -1,4 +1,5 @@
-#  Interface ILinkContainer
+# Interface ILinkContainer
+<a id="VM_Models_Pre_ILinkContainer"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -32,7 +33,7 @@ bool ClearChildInfoBeforeDeserialize { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -62,7 +63,7 @@ void GetChilds(HashSet<ILinkContainer> lstObjs)
 
 #### Parameters
 
-`lstObjs` [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[ILinkContainer](VM.Models.Pre.ILinkContainer.md)\>
+`lstObjs` HashSet<[ILinkContainer](VM.Models.Pre.ILinkContainer.md)\>
 
 The object list.
 
@@ -76,7 +77,7 @@ IEnumerable<IObject> GetFirstDesignEntities()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IObject](VM.Models.Pre.IObject.md)\>
+ IEnumerable<[IObject](VM.Models.Pre.IObject.md)\>
 
 The collection of IObject&gt;
 
@@ -90,15 +91,15 @@ void OnReserved(object reserved, object objNotifier, EventArgs args)
 
 #### Parameters
 
-`reserved` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`reserved` object
 
 The reserved object.
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The notifier object.
 
-`args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`args` EventArgs
 
 The event argument.
 
@@ -136,7 +137,7 @@ bool SkipModifiedEvent()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 True if succeeded, otherwise false.
 

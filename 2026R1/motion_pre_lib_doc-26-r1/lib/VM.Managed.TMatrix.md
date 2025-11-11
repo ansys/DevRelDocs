@@ -1,4 +1,5 @@
-#  Class TMatrix
+# Class TMatrix
+<a id="VM_Managed_TMatrix"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public sealed class TMatrix : MatrixBase, IOMatrix
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MatrixBase](VM.Managed.MatrixBase.md) ← 
 [TMatrix](VM.Managed.TMatrix.md)
 
@@ -37,7 +38,7 @@ public TMatrix(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The data of orientation.
 
@@ -119,9 +120,9 @@ protected TMatrix(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ## Properties
 
@@ -135,7 +136,7 @@ public virtual double[] Array { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_TMatrix_InverseTransformationMatrix"></a> InverseTransformationMatrix
 
@@ -217,7 +218,7 @@ public double this[uint r, uint c] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_TMatrix_Item_VM_Coordinate_VM_Coordinate_"></a> this\[Coordinate, Coordinate\]
 
@@ -227,7 +228,7 @@ public double this[Coordinate r, Coordinate c] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_TMatrix_Item_System_UInt32_"></a> this\[uint\]
 
@@ -259,7 +260,7 @@ public object Clone()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_TMatrix_GetArray"></a> GetArray\(\)
 
@@ -269,7 +270,7 @@ public double[] GetArray()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_TMatrix_GetDirectionVector_System_UInt32_"></a> GetDirectionVector\(uint\)
 
@@ -281,7 +282,7 @@ public VectorBase GetDirectionVector(uint axis)
 
 #### Parameters
 
-`axis` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`axis` uint
 
 The type of axis.
 
@@ -319,9 +320,9 @@ public void GetObjectData(SerializationInfo info, StreamingContext __unnamed001)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`__unnamed001` StreamingContext
 
 ### <a id="VM_Managed_TMatrix_GetSchema"></a> GetSchema\(\)
 
@@ -331,7 +332,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_TMatrix_Initialize"></a> Initialize\(\)
 
@@ -357,7 +358,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 ### <a id="VM_Managed_TMatrix_RotateAxisDeg_VM_Managed_VectorBase_System_Double_"></a> RotateAxisDeg\(VectorBase, double\)
 
@@ -373,7 +374,7 @@ public void RotateAxisDeg(VectorBase axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -387,11 +388,11 @@ public void RotateAxisDeg(uint nCoord, double dAngle)
 
 #### Parameters
 
-`nCoord` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nCoord` uint
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -409,7 +410,7 @@ public void RotateAxisDeg(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -427,7 +428,7 @@ public void RotateAxisRad(VectorBase axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -441,11 +442,11 @@ public void RotateAxisRad(uint nCoord, double dAngle)
 
 #### Parameters
 
-`nCoord` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nCoord` uint
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -463,7 +464,7 @@ public void RotateAxisRad(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -477,7 +478,7 @@ public void RotateXDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -491,7 +492,7 @@ public void RotateXRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -505,7 +506,7 @@ public void RotateYDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -519,7 +520,7 @@ public void RotateYRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -533,7 +534,7 @@ public void RotateZDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -547,7 +548,7 @@ public void RotateZRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -561,7 +562,7 @@ public void Set(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The data of transform
 
@@ -589,7 +590,7 @@ public void SetOrientation(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The data of orientation.
 
@@ -643,15 +644,15 @@ public void SetOrientationEADeg(RotationAxes ea, double dAlpha, double dBeta, do
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
@@ -669,15 +670,15 @@ public void SetOrientationEARad(RotationAxes ea, double dAlpha, double dBeta, do
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
@@ -695,15 +696,15 @@ public void SetOrientationFixedAngleDeg(RotationAxes ea, double dAlpha, double d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
@@ -721,15 +722,15 @@ public void SetOrientationFixedAngleRad(RotationAxes ea, double dAlpha, double d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
@@ -743,15 +744,15 @@ public void Translate(double dX, double dY, double dZ)
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The value of X
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The value of y
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The value of z
 
@@ -785,7 +786,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_TMatrix_op_MultiplicationAssignment_VM_Managed_VectorBase_VM_Managed_TMatrix_"></a> op\_MultiplicationAssignment\(VectorBase, TMatrix\)
 
@@ -835,7 +836,7 @@ public static bool operator ==(TMatrix mat1, TMatrix mat2)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_TMatrix_op_Implicit_VM_Managed_TMatrix__VM_TMatrix"></a> implicit operator TMatrix\(TMatrix\)
 
@@ -879,7 +880,7 @@ public static bool operator !=(TMatrix mat1, TMatrix mat2)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_TMatrix_op_Multiply_VM_Managed_VectorBase_VM_Managed_TMatrix_"></a> operator \*\(VectorBase, TMatrix\)
 

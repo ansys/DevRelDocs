@@ -1,4 +1,5 @@
-#  Class Mesh.ModeInvariantVariable
+# Class Mesh.ModeInvariantVariable
+<a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class Mesh.ModeInvariantVariable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Mesh.ModeInvariantVariable](VM.Managed.DAFUL.FE.Mesh.ModeInvariantVariable.md)
 
 #### Extension Methods
@@ -30,7 +31,7 @@ public ModeInvariantVariable(int nModeSize)
 
 #### Parameters
 
-`nModeSize` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nModeSize` int
 
 ## Fields
 
@@ -42,7 +43,7 @@ public double[] m_arInvariant2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant3"></a> m\_arInvariant3
 
@@ -52,7 +53,7 @@ public double[] m_arInvariant3
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant4"></a> m\_arInvariant4
 
@@ -62,7 +63,7 @@ public double[] m_arInvariant4
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant5"></a> m\_arInvariant5
 
@@ -72,7 +73,7 @@ public double[] m_arInvariant5
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant6"></a> m\_arInvariant6
 
@@ -82,7 +83,7 @@ public double[] m_arInvariant6
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant7"></a> m\_arInvariant7
 
@@ -92,7 +93,7 @@ public double[] m_arInvariant7
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant8"></a> m\_arInvariant8
 
@@ -102,7 +103,7 @@ public double[] m_arInvariant8
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_dInvariant1"></a> m\_dInvariant1
 
@@ -112,5 +113,5 @@ public double m_dInvariant1
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Class ChangeEnableDisableOperation
+# Class ChangeEnableDisableOperation
+<a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ChangeEnableDisableOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ChangeEnableDisableOperation](VM.Managed.DAFUL.Operation.ChangeEnableDisableOperation.md)
 
@@ -85,9 +86,9 @@ public ChangeEnableDisableOperation(List<IEnabled> lstEnableObject, bool bEnable
 
 #### Parameters
 
-`lstEnableObject` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEnabled\>
+`lstEnableObject` List<IEnabled\>
 
-`bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnable` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation__ctor_VM_Managed_Document3D_System_Collections_Generic_IEnumerable_VM_IEnabled__System_Boolean_"></a> ChangeEnableDisableOperation\(Document3D, IEnumerable<IEnabled\>, bool\)
 
@@ -99,9 +100,9 @@ public ChangeEnableDisableOperation(Document3D doc3D, IEnumerable<IEnabled> lstE
 
 `doc3D` Document3D
 
-`lstEnableObject` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IEnabled\>
+`lstEnableObject` IEnumerable<IEnabled\>
 
-`bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnable` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeEnableDisableOperation\(JournalParameter\)
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -145,5 +146,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

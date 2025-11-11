@@ -1,4 +1,5 @@
-#  Class SerializableDictionary<TKey, TValue\>
+# Class SerializableDictionary<TKey, TValue\>
+<a id="VM_Managed_SerializableDictionary_2"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,8 +18,8 @@ public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Dictionary<TKey, TValue\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2) ← 
+object ← 
+Dictionary<TKey, TValue\> ← 
 [SerializableDictionary<TKey, TValue\>](VM.Managed.SerializableDictionary\-2.md)
 
 #### Extension Methods
@@ -47,7 +48,7 @@ public SerializableDictionary(Dictionary<TKey, TValue> dic)
 
 #### Parameters
 
-`dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<TKey, TValue\>
+`dic` Dictionary<TKey, TValue\>
 
 ## Methods
 
@@ -61,7 +62,7 @@ public void CopyTo(ref Dictionary<TKey, TValue> dic)
 
 #### Parameters
 
-`dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<TKey, TValue\>
+`dic` Dictionary<TKey, TValue\>
 
 ### <a id="VM_Managed_SerializableDictionary_2_GetSchema"></a> GetSchema\(\)
 
@@ -73,7 +74,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_SerializableDictionary_2_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -85,7 +86,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 ### <a id="VM_Managed_SerializableDictionary_2_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -97,5 +98,5 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

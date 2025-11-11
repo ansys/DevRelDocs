@@ -1,4 +1,5 @@
-#  Class Shackle
+# Class Shackle
+<a id="VM_Models_Pre_Force_Shackle"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -11,9 +12,9 @@ public class Shackle : LinkContainer, IObservableObject, IDisposableObject, ILin
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [Shackle](VM.Models.Pre.Force.Shackle.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -128,7 +129,7 @@ public PropertyBush ConnectorProperty { get; set; }
 
 #### Property Value
 
- PropertyBush
+ [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
 ### <a id="VM_Models_Pre_Force_Shackle_Length"></a> Length
 
@@ -140,7 +141,7 @@ public double Length { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_Shackle_Location"></a> Location
 
@@ -176,7 +177,7 @@ public double OffsetX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_Shackle_OuterRadius"></a> OuterRadius
 
@@ -188,7 +189,7 @@ public ExpressionValueVariable OuterRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Shackle_PinRadius"></a> PinRadius
 
@@ -200,7 +201,7 @@ public ExpressionValueVariable PinRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Shackle_PositioningType"></a> PositioningType
 
@@ -224,7 +225,7 @@ public (double X, double Z) ShackleToFramePosition { get; set; }
 
 #### Property Value
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+ \(double X, double Z\)
 
 ## Methods
 
@@ -242,7 +243,7 @@ public static (Vector Top, Vector Bottom) GetEyeHolePosition(Eye eye, double mai
 
 The eye.
 
-`mainLeafWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainLeafWidth` double
 
 The main leaf width.
 
@@ -252,7 +253,7 @@ The reposition matrix.
 
 #### Returns
 
- \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+ \(Vector Top, Vector Bottom\)
 
 The top, bottom position
 
@@ -270,7 +271,7 @@ public static (Vector Top, Vector Bottom) GetShackleHolePosition(Vector centerPo
 
 The center position
 
-`mainLeafWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainLeafWidth` double
 
 The main leaf width.
 
@@ -280,7 +281,7 @@ The reposition matrix.
 
 #### Returns
 
- \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+ \(Vector Top, Vector Bottom\)
 
 The top, bottom position
 
@@ -294,7 +295,7 @@ public (Vector Top, Vector Bottom) GetShackleHolePosition(double mainLeafWidth, 
 
 #### Parameters
 
-`mainLeafWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainLeafWidth` double
 
 The main leaf width.
 
@@ -304,7 +305,7 @@ The reposition matrix.
 
 #### Returns
 
- \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+ \(Vector Top, Vector Bottom\)
 
 The top, bottom position
 

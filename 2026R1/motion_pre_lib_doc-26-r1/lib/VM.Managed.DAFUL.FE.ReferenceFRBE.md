@@ -1,4 +1,5 @@
-#  Class ReferenceFRBE
+# Class ReferenceFRBE
+<a id="VM_Managed_DAFUL_FE_ReferenceFRBE"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,13 +12,13 @@ public class ReferenceFRBE : ReferenceConnectable, IObservableObject, IDisposabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Reference ← 
-ReferenceConnectable ← 
+[ReferenceConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs) ← 
 [ReferenceFRBE](VM.Managed.DAFUL.FE.ReferenceFRBE.md)
 
 #### Implements
@@ -34,7 +35,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IReferencable, 
 INamed, 
@@ -55,19 +56,19 @@ IChainedSegmentConnector
 
 #### Inherited Members
 
-ReferenceConnectable.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-ReferenceConnectable.IsAutoContactable\(\), 
-ReferenceConnectable.GetContactables\(\), 
-ReferenceConnectable.GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\), 
-ReferenceConnectable.ParentType, 
-ReferenceConnectable.ReferenceFrameType, 
-ReferenceConnectable.ConnectableName, 
-ReferenceConnectable.ConnectablePostfixName, 
-ReferenceConnectable.ConnectablePosition, 
-ReferenceConnectable.ConnectableFullName, 
-ReferenceConnectable.ConnectableBody, 
-ReferenceConnectable.Body, 
-ReferenceConnectable.TopologyEntityTypeName, 
+[ReferenceConnectable.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.IsAutoContactable\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.GetContactables\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.ParentType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.ReferenceFrameType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.ConnectableName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.ConnectablePostfixName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.ConnectablePosition](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.ConnectableFullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.ConnectableBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.Body](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
+[ReferenceConnectable.TopologyEntityTypeName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/ReferenceConnectable.cs), 
 Reference.LinkAddedToDocument\(object, AddToDocEventArgs\), 
 Reference.SetModified\(ModifiedResult.ModifiedType\), 
 Reference.SetModified\(\), 
@@ -185,7 +186,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -230,11 +231,11 @@ protected ReferenceFRBE(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -250,7 +251,7 @@ public override string ConnectableFullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_ConnectableName"></a> ConnectableName
 
@@ -262,7 +263,7 @@ public override string ConnectableName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_ConnectablePostfixName"></a> ConnectablePostfixName
 
@@ -274,7 +275,7 @@ public override string ConnectablePostfixName { set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_ParentType"></a> ParentType
 
@@ -298,13 +299,13 @@ public bool GetGeometryNavigatorInformation(XmlDocument xmlDom, XmlElement xmlEl
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
@@ -316,19 +317,19 @@ protected override bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, Xml
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement for object.
 
-`__unnamed002` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`__unnamed002` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -342,7 +343,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 

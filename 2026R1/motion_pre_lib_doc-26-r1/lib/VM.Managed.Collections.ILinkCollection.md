@@ -1,4 +1,5 @@
-#  Interface ILinkCollection
+# Interface ILinkCollection
+<a id="VM_Managed_Collections_ILinkCollection"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -35,7 +36,7 @@ int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -55,11 +56,11 @@ bool Contains(object @object)
 
 #### Parameters
 
-`object` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`object` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_ILinkCollection_DestroyObject_System_Object_VM_Managed_LinkEventArgs_"></a> DestroyObject\(object, LinkEventArgs\)
 
@@ -71,7 +72,7 @@ void DestroyObject(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 <p>The linked object.</p>
 
@@ -95,7 +96,7 @@ void GetAllLinks(ICollection<ILink> colLinks)
 
 #### Parameters
 
-`colLinks` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[ILink](VM.Managed.ILink.md)\>
+`colLinks` ICollection<[ILink](VM.Managed.ILink.md)\>
 
 ### <a id="VM_Managed_Collections_ILinkCollection_MakeNullLink_System_Object_"></a> MakeNullLink\(object\)
 
@@ -105,11 +106,11 @@ bool MakeNullLink(object @object)
 
 #### Parameters
 
-`object` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`object` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_ILinkCollection_RemoveLink_VM_Managed_ILink_"></a> RemoveLink\(ILink\)
 
@@ -133,11 +134,11 @@ bool Reserve(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

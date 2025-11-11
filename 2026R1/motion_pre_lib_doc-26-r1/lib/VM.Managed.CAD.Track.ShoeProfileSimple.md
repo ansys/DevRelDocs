@@ -1,4 +1,5 @@
-#  Class ShoeProfileSimple
+# Class ShoeProfileSimple
+<a id="VM_Managed_CAD_Track_ShoeProfileSimple"></a>
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +12,7 @@ public class ShoeProfileSimple : ShoeProfileBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShoeProfileBase](VM.Managed.CAD.Track.ShoeProfileBase.md) ← 
 [ShoeProfileSimple](VM.Managed.CAD.Track.ShoeProfileSimple.md)
 
@@ -56,7 +57,7 @@ public double GrouserHeight { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_GrouserWidth"></a> GrouserWidth
 
@@ -68,7 +69,7 @@ public double GrouserWidth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -88,7 +89,7 @@ protected override bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_SetInitializeValue"></a> SetInitializeValue\(\)
 

@@ -1,4 +1,5 @@
-#  Class BuilderSingleSprocketSimple
+# Class BuilderSingleSprocketSimple
+<a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -6,14 +7,14 @@ Assembly: VMDSprocket.dll
 The single sprocket builder class.
 
 ```csharp
-public class BuilderSingleSprocketSimple : BuilderSprocket, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public class BuilderSingleSprocketSimple : BuilderSprocket, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -37,8 +38,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
-IAttributeContainer
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IAttributeContainer, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -88,6 +90,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -191,7 +195,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -232,7 +236,7 @@ public ExpressionValueVariable AddendumCircleDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_AngleBetweenTeeth"></a> AngleBetweenTeeth
 
@@ -244,7 +248,7 @@ public ExpressionValueVariable AngleBetweenTeeth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_BushingRadius"></a> BushingRadius
 
@@ -256,7 +260,7 @@ public ExpressionValueVariable BushingRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_ClearanceofToothRoot"></a> ClearanceofToothRoot
 
@@ -268,7 +272,7 @@ public ExpressionValueVariable ClearanceofToothRoot { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_DedendumCircleDiameter"></a> DedendumCircleDiameter
 
@@ -280,7 +284,7 @@ public ExpressionValueVariable DedendumCircleDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_NoOfTeeth"></a> NoOfTeeth
 
@@ -292,7 +296,7 @@ public int NoOfTeeth { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_PitchCircleDiameter"></a> PitchCircleDiameter
 
@@ -304,7 +308,7 @@ public ExpressionValueVariable PitchCircleDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_ProfileCreationType"></a> ProfileCreationType
 
@@ -328,7 +332,7 @@ public Spline Spline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_ToothRoundRadius"></a> ToothRoundRadius
 
@@ -340,7 +344,7 @@ public ExpressionValueVariable ToothRoundRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_TypeOfBuilder"></a> TypeOfBuilder
 
@@ -350,7 +354,7 @@ public override string TypeOfBuilder { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -370,7 +374,7 @@ protected override BuilderParamBase CreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
@@ -380,7 +384,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -406,7 +410,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The obj notifier.
 
@@ -424,7 +428,7 @@ public void Set_Radius_Shift(double dShift)
 
 #### Parameters
 
-`dShift` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dShift` double
 
 The radius shift
 

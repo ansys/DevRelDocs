@@ -1,4 +1,5 @@
-#  Class PropertyBoundaryConditionBase
+# Class PropertyBoundaryConditionBase
+<a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
@@ -6,12 +7,12 @@ Assembly: VMFlexibleBase.dll
 <p>This class is to represent the boundary condition properties.</p>
 <p>이 클래스는 경계조건 속성을 나타냅니다.</p>
 <p>
-        Symmetric Modeling : No
-        Reference : Yes
-        Reference Type : VM.Managed.Reference
-        삭제시 Reservable한 Link 변수 : N/A
-        Generic Collection에 담겨있는 Link 변수 : N/A
-        </p>
+Symmetric Modeling : No
+Reference : Yes
+Reference Type : VM.Managed.Reference
+삭제시 Reservable한 Link 변수 : N/A
+Generic Collection에 담겨있는 Link 변수 : N/A
+</p>
 
 ```csharp
 public abstract class PropertyBoundaryConditionBase : Property, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, ILinkContainer, IOwned, IHasID
@@ -19,13 +20,13 @@ public abstract class PropertyBoundaryConditionBase : Property, IObservableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyBoundaryConditionBase](VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase.md)
 
 #### Derived
@@ -43,7 +44,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -52,12 +53,12 @@ IHasID
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -156,7 +157,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -180,8 +181,7 @@ ObservableObject.PropertyChanged
 ### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase__ctor"></a> PropertyBoundaryConditionBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase" data-throw-if-not-resolved="false"></xref> class.</p>
-<p>
-  <xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
+<p><xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PropertyBoundaryConditionBase()
@@ -194,23 +194,23 @@ public PropertyBoundaryConditionBase()
 <p>Gets or sets the constrained type.</p>
 <p>경계 조건을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : BCConstrainedType
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Constrained Type
-        Control Type : Combo box
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 1
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : BCConstrainedType
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Constrained Type
+Control Type : Combo box
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 1
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public PropertyBoundaryConditionBase.BCConstrainedType ConstrainedType { get; set; }
@@ -225,23 +225,23 @@ public PropertyBoundaryConditionBase.BCConstrainedType ConstrainedType { get; se
 <p>Gets or sets the element RX.</p>
 <p>회전 x방향의 값을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : CompositeFieldUsable
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Rotational X
-        Control Type : Check box
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 5
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : CompositeFieldUsable
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Rotational X
+Control Type : Check box
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 5
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public CompositeFieldUsable ElementRX { get; set; }
@@ -249,30 +249,30 @@ public CompositeFieldUsable ElementRX { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRY"></a> ElementRY
 
 <p>Gets or sets the element RY.</p>
 <p>회전 y방향의 값을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : CompositeFieldUsable
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Rotational Y
-        Control Type : Check box
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 6
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : CompositeFieldUsable
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Rotational Y
+Control Type : Check box
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 6
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public CompositeFieldUsable ElementRY { get; set; }
@@ -280,30 +280,30 @@ public CompositeFieldUsable ElementRY { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRZ"></a> ElementRZ
 
 <p>Gets or sets the element RZ.</p>
 <p>회전 z방향의 값을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : CompositeFieldUsable
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Rotational Z
-        Control Type : Check box
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 7
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : CompositeFieldUsable
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Rotational Z
+Control Type : Check box
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 7
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public CompositeFieldUsable ElementRZ { get; set; }
@@ -311,30 +311,30 @@ public CompositeFieldUsable ElementRZ { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTX"></a> ElementTX
 
 <p>Gets or sets the element TX.</p>
 <p>병진 x방향의 값을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : CompositeFieldUsable
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Translational X
-        Control Type : Check box
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 2
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : CompositeFieldUsable
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Translational X
+Control Type : Check box
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 2
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public CompositeFieldUsable ElementTX { get; set; }
@@ -342,30 +342,30 @@ public CompositeFieldUsable ElementTX { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTY"></a> ElementTY
 
 <p>Gets or sets the element TY.</p>
 <p>병진 y방향의 값을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : CompositeFieldUsable
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Translational Y
-        Control Type : Check box
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 3
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : CompositeFieldUsable
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Translational Y
+Control Type : Check box
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 3
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public CompositeFieldUsable ElementTY { get; set; }
@@ -373,30 +373,30 @@ public CompositeFieldUsable ElementTY { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTZ"></a> ElementTZ
 
 <p>Gets or sets the element TZ.</p>
 <p>병진 z방향의 값을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : CompositeFieldUsable
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Translational Z
-        Control Type : Check box
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 4
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : CompositeFieldUsable
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Translational Z
+Control Type : Check box
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 4
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public CompositeFieldUsable ElementTZ { get; set; }
@@ -404,30 +404,30 @@ public CompositeFieldUsable ElementTZ { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_PenaltyScale"></a> PenaltyScale
 
 <p>Gets or sets the penalty scale.</p>
 <p>페날티 스케일을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : Variable
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Penalty Scale
-        Control Type : Variable Editor
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Boundary Condition
-        Category Index : 8
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : Variable
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Penalty Scale
+Control Type : Variable Editor
+ToolTip : N/A
+Error Message : N/A
+Category : Boundary Condition
+Category Index : 8
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public ExpressionValueVariable PenaltyScale { get; set; }
@@ -435,7 +435,7 @@ public ExpressionValueVariable PenaltyScale { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 

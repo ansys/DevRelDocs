@@ -1,4 +1,5 @@
-#  Enum SimulationConfiguration.NodalCoordinate
+# Enum SimulationConfiguration.NodalCoordinate
+<a id="VM_Managed_SimulationConfiguration_NodalCoordinate"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

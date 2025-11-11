@@ -1,4 +1,5 @@
-#  Class Resources
+# Class Resources
+<a id="VM_Managed_DAFUL_FE_Resource_Resources"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Resource](VM.Managed.DAFUL.FE.Resource.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class Resources
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Resources](VM.Managed.DAFUL.FE.Resource.Resources.md)
 
 #### Extension Methods

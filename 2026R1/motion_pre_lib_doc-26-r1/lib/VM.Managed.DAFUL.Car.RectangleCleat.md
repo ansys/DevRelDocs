@@ -1,4 +1,5 @@
-#  Class RectangleCleat
+# Class RectangleCleat
+<a id="VM_Managed_DAFUL_Car_RectangleCleat"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class RectangleCleat : CleatShape
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CleatShape](VM.Managed.DAFUL.Car.CleatShape.md) ← 
 [RectangleCleat](VM.Managed.DAFUL.Car.RectangleCleat.md)
 
@@ -63,7 +64,7 @@ public double Height { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_RectangleCleat_Length"></a> Length
 
@@ -75,7 +76,7 @@ public double Length { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_RectangleCleat_TypeOfCleatShape"></a> TypeOfCleatShape
 
@@ -101,11 +102,11 @@ public override string GetXZData(double dEndTime)
 
 #### Parameters
 
-`dEndTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndTime` double
 
 The d end time.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

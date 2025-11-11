@@ -1,4 +1,5 @@
-#  Interface IAssemblyOwner
+# Interface IAssemblyOwner
+<a id="VM_Managed_IAssemblyOwner"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

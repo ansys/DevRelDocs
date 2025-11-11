@@ -1,4 +1,5 @@
-#  Enum DurabilityAnalysis.ActionType
+# Enum DurabilityAnalysis.ActionType
+<a id="VM_Models_Pre_Durability_DurabilityAnalysis_ActionType"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

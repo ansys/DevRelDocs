@@ -1,4 +1,5 @@
-#  Class SplineValue
+# Class SplineValue
+<a id="VM_Managed_DAFUL_SplineValue"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -11,9 +12,9 @@ public sealed class SplineValue : SplineData, IObservableObject, IDisposableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [SplineData](VM.Managed.DAFUL.SplineData.md) ← 
 [SplineValue](VM.Managed.DAFUL.SplineValue.md)
@@ -103,7 +104,7 @@ public override bool ContainsNegativeNumber { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SplineValue_TwoPoints"></a> TwoPoints
 
@@ -115,7 +116,7 @@ public List<SplineValue.TwoPoint> TwoPoints { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[SplineValue](VM.Managed.DAFUL.SplineValue.md).[TwoPoint](VM.Managed.DAFUL.SplineValue.TwoPoint.md)\>
+ List<[SplineValue](VM.Managed.DAFUL.SplineValue.md).[TwoPoint](VM.Managed.DAFUL.SplineValue.TwoPoint.md)\>
 
 ### <a id="VM_Managed_DAFUL_SplineValue_Type"></a> Type
 
@@ -141,13 +142,13 @@ public (double, double) GetPoint(int nIndex)
 
 #### Parameters
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 The index
 
 #### Returns
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double)\)
+ \(double, double\)
 
 ### <a id="VM_Managed_DAFUL_SplineValue_GetPoints"></a> GetPoints\(\)
 
@@ -159,7 +160,7 @@ public override IEnumerable<SplineData.Point> GetPoints()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
+ IEnumerable<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
 
 The point list.
 
@@ -173,13 +174,13 @@ public override IEnumerable<SplineData.Point> GetPoints(string documentFilePath)
 
 #### Parameters
 
-`documentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentFilePath` string
 
 The Document file path.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
+ IEnumerable<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
 
 The point list.
 
@@ -193,11 +194,11 @@ public override void GetPoints(List<double> lstX, List<double> lstY)
 
 #### Parameters
 
-`lstX` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstX` List<double\>
 
 The LST X.
 
-`lstY` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstY` List<double\>
 
 The LST Y.
 
@@ -211,15 +212,15 @@ public override void GetPoints(List<double> lstX, List<double> lstY, string strD
 
 #### Parameters
 
-`lstX` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstX` List<double\>
 
 The LST X.
 
-`lstY` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstY` List<double\>
 
 The LST Y.
 
-`strDocumentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocumentFilePath` string
 
 The Document file path.
 
@@ -233,7 +234,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -247,7 +248,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
@@ -261,11 +262,11 @@ public void SetPoints(List<double> lstX, List<double> lstY)
 
 #### Parameters
 
-`lstX` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstX` List<double\>
 
 The LST X.
 
-`lstY` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstY` List<double\>
 
 The LST Y.
 
@@ -279,7 +280,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
 

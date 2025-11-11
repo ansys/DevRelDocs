@@ -1,4 +1,5 @@
-#  Enum BallSpacingMethod
+# Enum BallSpacingMethod
+<a id="VM_Managed_DAFUL_BallSpacingMethod"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

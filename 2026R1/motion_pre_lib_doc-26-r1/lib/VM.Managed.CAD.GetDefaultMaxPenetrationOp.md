@@ -1,4 +1,5 @@
-#  Class GetDefaultMaxPenetrationOp
+# Class GetDefaultMaxPenetrationOp
+<a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetDefaultMaxPenetrationOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetDefaultMaxPenetrationOp](VM.Managed.CAD.GetDefaultMaxPenetrationOp.md)
 
@@ -105,7 +106,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_MaxPenetration"></a> MaxPenetration
 
@@ -117,7 +118,7 @@ public double MaxPenetration { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_Name"></a> Name
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_Result"></a> Result
 
@@ -141,7 +142,7 @@ public bool Result { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

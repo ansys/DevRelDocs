@@ -1,4 +1,5 @@
-#  Class FEFilm
+# Class FEFilm
+<a id="VM_Managed_DAFUL_FEFilm"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  
@@ -9,14 +10,14 @@ public class FEFilm : Entity<PropertyFEFilm>, IObservableObject, IDisposableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<EntityEventCore\> ← 
 ContainerObject<EntityEventCore\> ← 
-EntityBase ← 
-Entity<PropertyFEFilm\> ← 
+[EntityBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
+[Entity<PropertyFEFilm\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
 [FEFilm](VM.Managed.DAFUL.FEFilm.md)
 
 #### Implements
@@ -26,7 +27,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 IEntity, 
@@ -53,34 +54,34 @@ IHasComment
 
 #### Inherited Members
 
-Entity<PropertyFEFilm\>.Initialize\(Unit.ConvertFactor\), 
-Entity<PropertyFEFilm\>.GetUnnamedObjectName\(object\), 
-Entity<PropertyFEFilm\>.FindLocal\(string\), 
-Entity<PropertyFEFilm\>.Property, 
-EntityBase.Initialize\(Unit.ConvertFactor\), 
-EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\), 
-EntityBase.OnDeserializationForAttribute\(\), 
-EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-EntityBase.LinkRequestDestroying\(object, LinkEventArgs\), 
-EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-EntityBase.FixUp\(ObjectBase\), 
-EntityBase.FindLocal\(string\), 
-EntityBase.WriteTemplateImpl\(XmlWriter\), 
-EntityBase.ReadTemplateImpl\(XmlReader\), 
-EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\), 
-EntityBase.OnDeserialization\(object\), 
-EntityBase.Name, 
-EntityBase.FullName, 
-EntityBase.NonSymmetricName, 
-EntityBase.DisplayName, 
-EntityBase.IsEnabled, 
-EntityBase.Comment, 
-EntityBase.HasLayerExplicitly, 
-EntityBase.UntypedProperty, 
-EntityBase.IsFileProperty, 
-EntityBase.Layer, 
-EntityBase.IsVisible, 
+[Entity<PropertyFEFilm\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyFEFilm\>.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyFEFilm\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyFEFilm\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserializationForAttribute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkRequestDestroying\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.HasLayerExplicitly](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsFileProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
 ContainerObject<EntityEventCore\>.Find\(string\), 
 ContainerObject<EntityEventCore\>.FindLocal\(string\), 
 ContainerObject<EntityEventCore\>.GetUnnamedObjectName\(object\), 
@@ -179,7 +180,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -214,7 +215,7 @@ public FEFilm(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 ## Properties
 
@@ -226,7 +227,7 @@ public ExpressionValueVariable EndAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_FEBody"></a> FEBody
 
@@ -278,7 +279,7 @@ protected override bool HasLayerExplicitly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Length"></a> Length
 
@@ -288,7 +289,7 @@ public ExpressionValueVariable Length { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_MaxLengthPerElement"></a> MaxLengthPerElement
 
@@ -298,7 +299,7 @@ public ExpressionValueVariable MaxLengthPerElement { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_NumberOfElement"></a> NumberOfElement
 
@@ -308,7 +309,7 @@ public int NumberOfElement { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_NumberOfElementLongitudinal"></a> NumberOfElementLongitudinal
 
@@ -319,7 +320,7 @@ public int NumberOfElementLongitudinal { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_NumberOfElementWidth"></a> NumberOfElementWidth
 
@@ -330,7 +331,7 @@ public int NumberOfElementWidth { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_NumberOfElementsLateral"></a> NumberOfElementsLateral
 
@@ -340,7 +341,7 @@ public int NumberOfElementsLateral { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_NumberOfEndRevolution"></a> NumberOfEndRevolution
 
@@ -350,7 +351,7 @@ public int NumberOfEndRevolution { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_NumberOfNode"></a> NumberOfNode
 
@@ -360,7 +361,7 @@ public int NumberOfNode { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_NumberOfStartRevolution"></a> NumberOfStartRevolution
 
@@ -370,7 +371,7 @@ public int NumberOfStartRevolution { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_ReferenceFrame"></a> ReferenceFrame
 
@@ -390,7 +391,7 @@ public string RotationAxis { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FEFilm_StartAngle"></a> StartAngle
 
@@ -400,7 +401,7 @@ public ExpressionValueVariable StartAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_TabShape"></a> TabShape
 
@@ -420,7 +421,7 @@ public ExpressionValueVariable Thickness { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_UseNumberOfEndRevolution"></a> UseNumberOfEndRevolution
 
@@ -430,7 +431,7 @@ public bool UseNumberOfEndRevolution { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FEFilm_UseNumberOfStartRevolution"></a> UseNumberOfStartRevolution
 
@@ -440,7 +441,7 @@ public bool UseNumberOfStartRevolution { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FEFilm_UseTabShape"></a> UseTabShape
 
@@ -450,7 +451,7 @@ public bool UseTabShape { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Width"></a> Width
 
@@ -460,7 +461,7 @@ public ExpressionValueVariable Width { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm__ReferenceFrame"></a> \_ReferenceFrame
 
@@ -486,7 +487,7 @@ public void AddFE_Path(ObjectBase designSubEntity, WindingDirection windingDirec
 
 `windingDirection` WindingDirection
 
-`radius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`radius` double
 
 ### <a id="VM_Managed_DAFUL_FEFilm_AddFE_Path_VM_Managed_ObjectBase_"></a> AddFE\_Path\(ObjectBase\)
 
@@ -506,9 +507,9 @@ public void Add_ElementsProperty(double width, double thickness)
 
 #### Parameters
 
-`width` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`width` double
 
-`thickness` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`thickness` double
 
 ### <a id="VM_Managed_DAFUL_FEFilm_ClearFE_Path"></a> ClearFE\_Path\(\)
 
@@ -521,6 +522,24 @@ public void ClearFE_Path()
 ```csharp
 public void Clear_ElementsProperty()
 ```
+
+### <a id="VM_Managed_DAFUL_FEFilm_CollectionHowToMakeFEProperty_System_Int32_System_Collections_Generic_List_System_Double__System_Int32__System_Collections_Generic_List_System_Int32___System_Collections_Generic_Dictionary_System_Double_System_Int32___"></a> CollectionHowToMakeFEProperty\(int, List<double\>, ref int, ref List<int\>, ref Dictionary<double, int\>\)
+
+```csharp
+public static void CollectionHowToMakeFEProperty(int type, List<double> lstThickness, ref int noOfProperty, ref List<int> lstPropertyID, ref Dictionary<double, int> mapThickness)
+```
+
+#### Parameters
+
+`type` int
+
+`lstThickness` List<double\>
+
+`noOfProperty` int
+
+`lstPropertyID` List<int\>
+
+`mapThickness` Dictionary<double, int\>
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -546,7 +565,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -564,13 +583,13 @@ public void UpdateVariablesFilmBody(string width, string length, int noofnodes, 
 
 #### Parameters
 
-`width` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`width` string
 
-`length` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`length` string
 
-`noofnodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`noofnodes` int
 
-`noofelements` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`noofelements` int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_UpdateVariablesForTabShape_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Int32_System_Int32_System_Int32_System_Int32_"></a> UpdateVariablesForTabShape\(string, string, string, string, string, string, string, string, int, int, int, int\)
 
@@ -580,27 +599,135 @@ public void UpdateVariablesForTabShape(string tablocation, string width, string 
 
 #### Parameters
 
-`tablocation` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`tablocation` string
 
-`width` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`width` string
 
-`length` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`length` string
 
-`chamfer_w` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`chamfer_w` string
 
-`chamfer_L` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`chamfer_L` string
 
-`interval` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`interval` string
 
-`thickness` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`thickness` string
 
-`maxwidth` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`maxwidth` string
 
-`noofnodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`noofnodes` int
 
-`noofelements` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`noofelements` int
 
-`noofnodesperpole` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`noofnodesperpole` int
 
-`noofelementsperpole` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`noofelementsperpole` int
+
+### <a id="VM_Managed_DAFUL_FEFilm_WriteFEFilmFile_System_String_System_Int32_System_ValueTuple_System_Double_System_Double_System_Double__System_ValueTuple_System_Int32_System_Double_System_Int32_System_Int32__System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_ValueTuple_System_Double_System_Double_System_Int32___System_ValueTuple_System_Int32_System_Double_System_Int32_System_Int32_System_Double_System_Int32__System_ValueTuple_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double__System_Collections_Generic_List_System_ValueTuple_System_String_System_Int32_System_Int32_System_Int32_System_Double_VM_Vector_VM_OMatrix___System_Int32_System_ValueTuple_System_Int32_System_Int32_System_Int32_System_Double_System_Double_System_Double_System_Double_System_ValueTuple_System_Double_System_ValueTuple_System_Double_System_Double_System_Double_System_Double__System_ValueTuple_System_Double_System_Double_System_Double_System_Double____"></a> WriteFEFilmFile\(string, int, \(double, double, double\), \(int, double, int, int\), List<double\>, List<\(double, double, int\)\>, \(int, double, int, int, double, int\), \(int, double, double, double, double, double, double\), List<\(string, int, int, int, double, Vector, OMatrix\)\>, int, \(int, int, int, double, double, double, double, double, \(double, double, double, double\), \(double, double, double, double\)\)\)
+
+```csharp
+public static bool WriteFEFilmFile(string inputPath, int analysisType, (double, double, double) scale, (int, double, int, int) geometryInfo, List<double> thickness, List<(double, double, int)> layer, (int, double, int, int, double, int) windingConfig, (int, double, double, double, double, double, double) refInfo, List<(string, int, int, int, double, Vector, OMatrix)> paths, int usePole, (int, int, int, double, double, double, double, double, (double, double, double, double), (double, double, double, double)) poleInfo)
+```
+
+#### Parameters
+
+`inputPath` string
+
+`analysisType` int
+
+`scale` \(double, double, double\)
+
+`geometryInfo` \(int, double, int, int\)
+
+`thickness` List<double\>
+
+`layer` List<\(double, double, int\)\>
+
+`windingConfig` \(int, double, int, int, double, int\)
+
+`refInfo` \(int, double, double, double, double, double, double\)
+
+`paths` List<\(string, int, int, int, double, Vector, OMatrix\)\>
+
+`usePole` int
+
+`poleInfo` \(int, int, int, double, double, double, double, double, \(double, double, double, double\), \(double, double, double, double\)\)
+
+#### Returns
+
+ bool
+
+### <a id="VM_Managed_DAFUL_FEFilm_WriteFEFilmFile_System_String_VM_Managed_DAFUL_FEFilm_"></a> WriteFEFilmFile\(string, FEFilm\)
+
+```csharp
+public static bool WriteFEFilmFile(string inputPath, FEFilm feFilm)
+```
+
+#### Parameters
+
+`inputPath` string
+
+`feFilm` [FEFilm](VM.Managed.DAFUL.FEFilm.md)
+
+#### Returns
+
+ bool
+
+### <a id="VM_Managed_DAFUL_FEFilm_WriteNGons_System_Int32_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> WriteNGons\(int, double, double, double, double, double, double, double\)
+
+```csharp
+public static (int, int) WriteNGons(int locationTabShape, double lengthPole, double chamferOfLength, double widthPole, double chamferOfWidth, double chamferOfLengthBottom, double widthPoleBottom, double chamferOfWidthBottom)
+```
+
+#### Parameters
+
+`locationTabShape` int
+
+`lengthPole` double
+
+`chamferOfLength` double
+
+`widthPole` double
+
+`chamferOfWidth` double
+
+`chamferOfLengthBottom` double
+
+`widthPoleBottom` double
+
+`chamferOfWidthBottom` double
+
+#### Returns
+
+ \(int, int\)
+
+### <a id="VM_Managed_DAFUL_FEFilm_WritePath_VM_Managed_ObjectBase_"></a> WritePath\(ObjectBase\)
+
+```csharp
+public static (int, Vector, OMatrix) WritePath(ObjectBase path)
+```
+
+#### Parameters
+
+`path` ObjectBase
+
+#### Returns
+
+ \(int, Vector, OMatrix\)
+
+### <a id="VM_Managed_DAFUL_FEFilm_WriteReferenceFrame_System_String_VM_OMatrix_"></a> WriteReferenceFrame\(string, OMatrix\)
+
+```csharp
+public static (Vector, Vector) WriteReferenceFrame(string strAxis, OMatrix oMatrix)
+```
+
+#### Parameters
+
+`strAxis` string
+
+`oMatrix` OMatrix
+
+#### Returns
+
+ \(Vector, Vector\)
 

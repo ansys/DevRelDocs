@@ -1,4 +1,5 @@
-#  Class CreateDesignParameter
+# Class CreateDesignParameter
+<a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateDesignParameter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDesignParameter](VM.Managed.DAFUL.Operation.Util.CreateDesignParameter.md)
 
 #### Extension Methods
@@ -48,17 +49,17 @@ The active document.
 
 The design frame transformation.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design frame name.
 
 #### Returns
 
- DesignFrame
+ [DesignFrame](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignFrame.cs)
 
 The new design frame.
 
@@ -80,21 +81,21 @@ The active document.
 
 The design frame transformation.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design frame name.
 
-`strMatchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMatchName` string
 
 Name of the matched object.
 
 #### Returns
 
- DesignFrame
+ [DesignFrame](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignFrame.cs)
 
 The new design frame.
 
@@ -116,17 +117,17 @@ The active document.
 
 The design point position.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design point name.
 
 #### Returns
 
- DesignPoint
+ [DesignPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignPoint.cs)
 
 The new design point.
 
@@ -148,17 +149,17 @@ The active document.
 
 The design point position.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design point name.
 
 #### Returns
 
- DesignPoint
+ [DesignPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignPoint.cs)
 
 The new design point.
 
@@ -180,21 +181,21 @@ The active document.
 
 The design point position.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design point name
 
-`strMatchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMatchName` string
 
 Name of the matched object.
 
 #### Returns
 
- DesignPoint
+ [DesignPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignPoint.cs)
 
 The new design point
 
@@ -216,21 +217,21 @@ The active document.
 
 The design point position.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design point name
 
-`strMatchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMatchName` string
 
 Name of the matched object.
 
 #### Returns
 
- DesignPoint
+ [DesignPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignPoint.cs)
 
 The new design point
 
@@ -248,21 +249,21 @@ public static DesignVariable CreateDV(Document document, double dValue, bool bIn
 
 The active document.
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The design variable value.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design variable name.
 
 #### Returns
 
- DesignVariable
+ [DesignVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignVariable.cs)
 
 The new design variable.
 
@@ -280,21 +281,21 @@ public static DesignVariable CreateDV(Document3D activeDocument, string alue, bo
 
 The active document.
 
-`alue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`alue` string
 
 The design variable value.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design variable name.
 
 #### Returns
 
- DesignVariable
+ [DesignVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignVariable.cs)
 
 The new design variable.
 
@@ -312,25 +313,25 @@ public static DesignVariable CreateDV(Document3D activeDocument, double dValue, 
 
 The active document.
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The design variable value.
 
-`bInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterface` bool
 
 The flag of interface.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The design variable name.
 
-`strMatchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMatchName` string
 
 Name of the matched object.
 
 #### Returns
 
- DesignVariable
+ [DesignVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignVariable.cs)
 
 The new design variable
 

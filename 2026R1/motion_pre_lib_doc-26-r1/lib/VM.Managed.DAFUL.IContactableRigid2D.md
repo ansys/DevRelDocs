@@ -1,4 +1,5 @@
-#  Interface IContactableRigid2D
+# Interface IContactableRigid2D
+<a id="VM_Managed_DAFUL_IContactableRigid2D"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -36,7 +37,7 @@ bool IsCloseLoop { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_IContactableRigid2D_ParentBody"></a> ParentBody
 
@@ -90,17 +91,17 @@ int GetProfilePoint(ref bool bCloseLoop, ref List<VectorBase> lst)
 
 #### Parameters
 
-`bCloseLoop` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCloseLoop` bool
 
 <code>true</code> if this instance is close loop; otherwise, <code>false</code>.
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+`lst` List<VectorBase\>
 
 The points.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 the profile point.
 

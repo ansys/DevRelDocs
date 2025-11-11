@@ -1,4 +1,5 @@
-#  Class RebuildHiddenDocOp
+# Class RebuildHiddenDocOp
+<a id="VM_Managed_History_RebuildHiddenDocOp"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -9,7 +10,7 @@ public class RebuildHiddenDocOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [RebuildHiddenDocOp](VM.Managed.History.RebuildHiddenDocOp.md)
 
@@ -83,7 +84,7 @@ public RebuildHiddenDocOp(IEnumerable<UIntPtr> lstEntity)
 
 #### Parameters
 
-`lstEntity` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstEntity` IEnumerable<UIntPtr\>
 
 ### <a id="VM_Managed_History_RebuildHiddenDocOp__ctor"></a> RebuildHiddenDocOp\(\)
 
@@ -103,7 +104,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

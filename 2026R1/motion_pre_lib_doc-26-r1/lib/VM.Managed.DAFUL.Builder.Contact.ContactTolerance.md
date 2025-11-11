@@ -1,4 +1,5 @@
-#  Class ContactTolerance
+# Class ContactTolerance
+<a id="VM_Managed_DAFUL_Builder_Contact_ContactTolerance"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -9,7 +10,7 @@ public class ContactTolerance : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ContactTolerance](VM.Managed.DAFUL.Builder.Contact.ContactTolerance.md)
 
 #### Implements
@@ -52,5 +53,5 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

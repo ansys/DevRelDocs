@@ -1,4 +1,5 @@
-#  Class RectanglePlane
+# Class RectanglePlane
+<a id="VM_Managed_DAFUL_Builder_RectanglePlane"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class RectanglePlane : ImprintSheet, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<BuilderImprint\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [Imprint](VM.Managed.DAFUL.Builder.Imprint.md) ← 
 [ImprintSheet](VM.Managed.DAFUL.Builder.ImprintSheet.md) ← 

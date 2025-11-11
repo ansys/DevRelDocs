@@ -1,4 +1,5 @@
-#  Class InterfaceEvent
+# Class InterfaceEvent
+<a id="VM_Managed_InterfaceEvent"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,8 +12,8 @@ public abstract class InterfaceEvent : DocumentSimpleValueModifiedEvent<List<Int
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryEvent ← 
+object ← 
+[HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs) ← 
 DocumentMemberModifiedEvent ← 
 DocumentSimpleValueModifiedEvent<List<InterfaceManager.InterfaceInfoForUndo\>\> ← 
 [InterfaceEvent](VM.Managed.InterfaceEvent.md)
@@ -47,17 +48,17 @@ DocumentSimpleValueModifiedEvent<List<InterfaceManager.InterfaceInfoForUndo\>\>.
 DocumentMemberModifiedEvent.m\_doc, 
 DocumentMemberModifiedEvent.m\_obj, 
 DocumentMemberModifiedEvent.Clear\(bool\), 
-HistoryEvent.ClearEvent\(bool\), 
-HistoryEvent.Undo\(HistoryEventArgs\), 
-HistoryEvent.Redo\(HistoryEventArgs\), 
-HistoryEvent.Clear\(bool\), 
-HistoryEvent.BeforeUndo\(HistoryEventArgs\), 
-HistoryEvent.AfterUndo\(HistoryEventArgs\), 
-HistoryEvent.BeforeRedo\(HistoryEventArgs\), 
-HistoryEvent.AfterRedo\(HistoryEventArgs\), 
-HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\), 
-HistoryEvent.AfterAdded\(HistoryEventArgs\), 
-HistoryEvent.IsValid
+[HistoryEvent.ClearEvent\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterAdded\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 #### Extension Methods
 
@@ -79,17 +80,17 @@ public InterfaceEvent(Document doc, object obj, string strPropertyName, object o
 
 `doc` Document
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
-`delPostExecute` DocumentSimpleValueModifiedEvent<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InterfaceManager](VM.Managed.InterfaceManager.md).[InterfaceInfoForUndo](VM.Managed.InterfaceManager.InterfaceInfoForUndo.md)\>\>.PostExecuteCallback
+`delPostExecute` DocumentSimpleValueModifiedEvent<List<[InterfaceManager](VM.Managed.InterfaceManager.md).[InterfaceInfoForUndo](VM.Managed.InterfaceManager.InterfaceInfoForUndo.md)\>\>.PostExecuteCallback
 
-`strXML` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXML` string
 
 ## Methods
 
@@ -112,7 +113,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_InterfaceEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
@@ -125,7 +126,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_InterfaceEvent_Remove"></a> Remove\(\)
 

@@ -1,4 +1,5 @@
-#  Class ShoeProfileSingle
+# Class ShoeProfileSingle
+<a id="VM_Managed_CAD_Track_ShoeProfileSingle"></a>
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +12,7 @@ public class ShoeProfileSingle : ShoeProfileParametric
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShoeProfileBase](VM.Managed.CAD.Track.ShoeProfileBase.md) ← 
 [ShoeProfileParametric](VM.Managed.CAD.Track.ShoeProfileParametric.md) ← 
 [ShoeProfileSingle](VM.Managed.CAD.Track.ShoeProfileSingle.md)
@@ -77,7 +78,7 @@ public double LDQ2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_RQ2"></a> RQ2
 
@@ -89,7 +90,7 @@ public double RQ2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_VDQ2"></a> VDQ2
 
@@ -101,7 +102,7 @@ public double VDQ2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -123,7 +124,7 @@ protected override bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_SetInitializeValue"></a> SetInitializeValue\(\)
 

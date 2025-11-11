@@ -1,4 +1,5 @@
-#  Interface IOpenFileService
+# Interface IOpenFileService
+<a id="VM_IOpenFileService"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -27,7 +28,7 @@ IReadOnlyCollection<string> FileNames { get; }
 
 #### Property Value
 
- [IReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IReadOnlyCollection<string\>
 
 ### <a id="VM_IOpenFileService_IsMultiSelect"></a> IsMultiSelect
 
@@ -37,7 +38,7 @@ bool IsMultiSelect { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -49,5 +50,5 @@ bool ShowDialog()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

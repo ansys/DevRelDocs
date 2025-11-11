@@ -1,4 +1,5 @@
-#  Struct TopologyInfo
+# Struct TopologyInfo
+<a id="VM_CAD_Builders_TopologyInfo"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -17,7 +18,7 @@ public int A { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Builders_TopologyInfo_B"></a> B
 
@@ -27,7 +28,7 @@ public int B { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Builders_TopologyInfo_G"></a> G
 
@@ -37,7 +38,7 @@ public int G { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Builders_TopologyInfo_Index"></a> Index
 
@@ -47,7 +48,7 @@ public int Index { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_CAD_Builders_TopologyInfo_R"></a> R
 
@@ -57,5 +58,5 @@ public int R { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

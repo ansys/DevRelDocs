@@ -1,9 +1,10 @@
-#  Class MemberItem<TDescriptor\>
+# Class MemberItem<TDescriptor\>
+<a id="VM_MemberItem_1"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public abstract class MemberItem<TDescriptor> where TDescriptor : MemberDescriptor
 ```
 
@@ -13,14 +14,14 @@ public abstract class MemberItem<TDescriptor> where TDescriptor : MemberDescript
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MemberItem<TDescriptor\>](VM.MemberItem\-1.md)
 
 ## Constructors
 
 ### <a id="VM_MemberItem_1__ctor__0_"></a> MemberItem\(TDescriptor\)
 
-```python
+```csharp
 protected MemberItem(TDescriptor memberDescriptor)
 ```
 
@@ -32,17 +33,17 @@ protected MemberItem(TDescriptor memberDescriptor)
 
 ### <a id="VM_MemberItem_1_Attributes"></a> Attributes
 
-```python
+```csharp
 public IEnumerable<Attribute> Attributes { get; }
 ```
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\>
+ IEnumerable<Attribute\>
 
 ### <a id="VM_MemberItem_1_MemberDescriptor"></a> MemberDescriptor
 
-```python
+```csharp
 protected TDescriptor MemberDescriptor { get; }
 ```
 
@@ -54,13 +55,13 @@ protected TDescriptor MemberDescriptor { get; }
 
 ### <a id="VM_MemberItem_1_HasAttribute__1"></a> HasAttribute<T\>\(\)
 
-```python
+```csharp
 public bool HasAttribute<T>() where T : Attribute
 ```
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 
@@ -68,7 +69,7 @@ public bool HasAttribute<T>() where T : Attribute
 
 ### <a id="VM_MemberItem_1_TryGetAttributeInstance__1___0__"></a> TryGetAttributeInstance<T\>\(out T\)
 
-```python
+```csharp
 public bool TryGetAttributeInstance<T>(out T attribute) where T : Attribute
 ```
 
@@ -78,10 +79,9 @@ public bool TryGetAttributeInstance<T>(out T attribute) where T : Attribute
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 
 `T` 
-
 

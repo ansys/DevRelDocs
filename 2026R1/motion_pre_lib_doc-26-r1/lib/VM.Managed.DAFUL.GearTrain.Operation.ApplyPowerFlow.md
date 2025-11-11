@@ -1,4 +1,5 @@
-#  Class ApplyPowerFlow
+# Class ApplyPowerFlow
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyPowerFlow"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ApplyPowerFlow : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyPowerFlow](VM.Managed.DAFUL.GearTrain.Operation.ApplyPowerFlow.md)
 
@@ -87,11 +88,11 @@ public ApplyPowerFlow(GearTrainDocument gearTrainDocument, PowerFlow powerFlow)
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The geartrain document
 
-`powerFlow` PowerFlow
+`powerFlow` [PowerFlow](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerFlow.cs)
 
 The power flow
 
@@ -121,11 +122,11 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ## Methods
 
@@ -139,7 +140,7 @@ public override void Execute()
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyPowerFlow_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

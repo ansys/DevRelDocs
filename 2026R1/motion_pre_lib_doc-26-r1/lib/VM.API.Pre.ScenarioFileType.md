@@ -1,4 +1,5 @@
-#  Enum ScenarioFileType
+# Enum ScenarioFileType
+<a id="VM_API_Pre_ScenarioFileType"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

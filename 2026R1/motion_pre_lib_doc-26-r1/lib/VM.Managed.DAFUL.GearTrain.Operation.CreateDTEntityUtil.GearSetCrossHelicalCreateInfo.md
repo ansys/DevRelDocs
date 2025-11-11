@@ -1,4 +1,5 @@
-#  Class CreateDTEntityUtil.GearSetCrossHelicalCreateInfo
+# Class CreateDTEntityUtil.GearSetCrossHelicalCreateInfo
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCrossHelicalCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class CreateDTEntityUtil.GearSetCrossHelicalCreateInfo : CreateDTEntityUt
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDTEntityUtil.GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md) ← 
 [CreateDTEntityUtil.GearSetCrossHelicalCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCrossHelicalCreateInfo.md)
 
@@ -68,7 +69,7 @@ public double CrossAxisAngle
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Properties
 
@@ -80,7 +81,7 @@ public string[] InputArrayForCrossHelical { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 

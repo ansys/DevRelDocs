@@ -1,4 +1,5 @@
-#  Class OpenFileOperation
+# Class OpenFileOperation
+<a id="VM_Managed_Operation_OpenFileOperation"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class OpenFileOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OpenFileOperation](VM.Managed.Operation.OpenFileOperation.md)
 
@@ -87,7 +88,7 @@ public OpenFileOperation(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path.
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -139,7 +140,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

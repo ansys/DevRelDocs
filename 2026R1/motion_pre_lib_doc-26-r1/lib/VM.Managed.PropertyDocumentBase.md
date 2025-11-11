@@ -1,4 +1,5 @@
-#  Class PropertyDocumentBase
+# Class PropertyDocumentBase
+<a id="VM_Managed_PropertyDocumentBase"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,9 +12,9 @@ public abstract class PropertyDocumentBase : Document, IObservableObject, IDispo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 Document ← 
@@ -39,7 +40,7 @@ IOwned,
 IHasID, 
 IEnableManager, 
 IRelatedDocument, 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IPropertyDocument](VM.Managed.IPropertyDocument.md), 
 [IUnitChange](VM.Managed.IUnitChange.md), 
 IXMLFormatable
@@ -240,7 +241,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -281,7 +282,7 @@ public override sealed bool CanClose { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_PropertyDocumentBase_DocumentSessionOverride"></a> DocumentSessionOverride
 
@@ -305,7 +306,7 @@ public bool IsPropertySupport { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_PropertyDocumentBase_Modified"></a> Modified
 
@@ -317,7 +318,7 @@ public override sealed bool Modified { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_PropertyDocumentBase_OwnedCollection"></a> OwnedCollection
 
@@ -329,7 +330,7 @@ public IList<ObjectBase> OwnedCollection { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
+ IList<ObjectBase\>
 
 ### <a id="VM_Managed_PropertyDocumentBase_OwnedList"></a> OwnedList
 
@@ -342,7 +343,7 @@ public List<Link<ObjectBase, LinkContainer.None, LinkContainer.None, LinkContain
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Link<ObjectBase, LinkContainer.None, LinkContainer.None, LinkContainer.None\>\>
+ List<Link<ObjectBase, LinkContainer.None, LinkContainer.None, LinkContainer.None\>\>
 
 ### <a id="VM_Managed_PropertyDocumentBase_PropertyType"></a> PropertyType
 
@@ -354,7 +355,7 @@ protected abstract Type PropertyType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_Managed_PropertyDocumentBase_Reload"></a> Reload
 
@@ -366,7 +367,7 @@ public bool Reload { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_PropertyDocumentBase_SetDocumentSessionOverride"></a> SetDocumentSessionOverride
 
@@ -458,7 +459,7 @@ public override View CreateView(UIntPtr hWnd)
 
 #### Parameters
 
-`hWnd` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`hWnd` UIntPtr
 
 The handle.
 
@@ -478,15 +479,15 @@ protected static T DeserializeObj<T>(XmlReader reader, string strElementName, Ty
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
-`strElementName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strElementName` string
 
 Name of the element.
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The object type.
 
@@ -512,7 +513,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -532,7 +533,7 @@ public override void GetData(XmlNode writer)
 
 #### Parameters
 
-`writer` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`writer` XmlNode
 
 The writer.
 
@@ -546,7 +547,7 @@ public override void IsTypeSupported(Type type)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
@@ -560,7 +561,7 @@ public void Load(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The STR path.
 
@@ -574,7 +575,7 @@ public abstract void Load(TextReader reader)
 
 #### Parameters
 
-`reader` [TextReader](https://learn.microsoft.com/dotnet/api/system.io.textreader)
+`reader` TextReader
 
 The reader.
 
@@ -588,7 +589,7 @@ public void Load(Stream stream)
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
@@ -602,7 +603,7 @@ protected override void OnDeserialization(object obSender)
 
 #### Parameters
 
-`obSender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obSender` object
 
 The sender.
 
@@ -658,7 +659,7 @@ public override sealed void Save(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The path.
 
@@ -672,7 +673,7 @@ public abstract void Save(TextWriter writer)
 
 #### Parameters
 
-`writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
+`writer` TextWriter
 
 The writer.
 
@@ -686,7 +687,7 @@ public void Save(Stream stream)
 
 #### Parameters
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 The stream.
 
@@ -700,7 +701,7 @@ protected static void SerializeObj<T>(XmlWriter writer, T ob, string strElementN
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -708,7 +709,7 @@ The writer.
 
 The object.
 
-`strElementName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strElementName` string
 
 Name of the element.
 
@@ -726,7 +727,7 @@ public override void SetData(XmlNode reader)
 
 #### Parameters
 
-`reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`reader` XmlNode
 
 The reader.
 

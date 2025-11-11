@@ -1,4 +1,5 @@
-#  Class LinkEventArgs
+# Class LinkEventArgs
+<a id="VM_Managed_LinkEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class LinkEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
 #### Derived
@@ -43,7 +44,7 @@ public LinkEventArgs(NotifyReason reason, object extra, LinkEventArgs innerArgs,
 
 The type of event.
 
-`extra` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`extra` object
 
 The extra object information.
 
@@ -51,7 +52,7 @@ The extra object information.
 
 The inner event.
 
-`obEventPrevious` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obEventPrevious` object
 
 The previous linked object.
 
@@ -73,7 +74,7 @@ The document of event.
 
 The type of event.
 
-`extra` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`extra` object
 
 The extra object information.
 
@@ -91,7 +92,7 @@ public LinkEventArgs(NotifyReason reason, object extra)
 
 The type of event.
 
-`extra` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`extra` object
 
 The extra object information.
 
@@ -113,7 +114,7 @@ The type of event.
 
 The inner event.
 
-`obEventPrevious` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obEventPrevious` object
 
 The previous linked object.
 
@@ -173,7 +174,7 @@ public HashSet<ObjectBase> EntitiesForCircularReference { get; set; }
 
 #### Property Value
 
- [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ HashSet<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_LinkEventArgs_Extra"></a> Extra
 
@@ -185,7 +186,7 @@ public object Extra { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_LinkEventArgs_InnerEventArgument"></a> InnerEventArgument
 
@@ -209,7 +210,7 @@ public object PreviousEventNotifier { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_LinkEventArgs_Reason"></a> Reason
 
@@ -233,11 +234,11 @@ public bool ExistDestroyingTarget(object target)
 
 #### Parameters
 
-`target` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`target` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_LinkEventArgs_ExistUpdatingTarget_System_Object_"></a> ExistUpdatingTarget\(object\)
 
@@ -247,11 +248,11 @@ public bool ExistUpdatingTarget(object target)
 
 #### Parameters
 
-`target` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`target` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_LinkEventArgs_IsDestroying_System_Object_"></a> IsDestroying\(object\)
 
@@ -261,11 +262,11 @@ public bool IsDestroying(object objNotifier)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_LinkEventArgs_IsUpdating_System_Object_"></a> IsUpdating\(object\)
 
@@ -275,9 +276,9 @@ public bool IsUpdating(object objNotifier)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

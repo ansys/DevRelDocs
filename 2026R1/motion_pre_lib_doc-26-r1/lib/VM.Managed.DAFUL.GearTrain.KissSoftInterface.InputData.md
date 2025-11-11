@@ -1,4 +1,5 @@
-#  Struct KissSoftInterface.InputData
+# Struct KissSoftInterface.InputData
+<a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,19 +22,19 @@ public InputData(string strFilePath, uint nNumberOfTrochoid, uint nNumberOfInvol
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path
 
-`nNumberOfTrochoid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfTrochoid` uint
 
 The No. of trochoid
 
-`nNumberOfInvolute` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfInvolute` uint
 
 The No. of involute
 
-`nNumberOfSlice` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfSlice` uint
 
 The No. of slice
 
@@ -49,7 +50,7 @@ public string FilePath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_GeneralInputData"></a> GeneralInputData
 
@@ -61,7 +62,7 @@ public double[] GeneralInputData { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_NumberOfInvolute"></a> NumberOfInvolute
 
@@ -73,7 +74,7 @@ public uint NumberOfInvolute { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_NumberOfSlice"></a> NumberOfSlice
 
@@ -85,7 +86,7 @@ public uint NumberOfSlice { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_NumberOfTrochoid"></a> NumberOfTrochoid
 
@@ -97,7 +98,7 @@ public uint NumberOfTrochoid { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_PreInputData"></a> PreInputData
 
@@ -109,5 +110,5 @@ public double[] PreInputData { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 

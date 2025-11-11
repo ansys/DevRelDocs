@@ -1,4 +1,5 @@
-#  Class CoSimIOFunctionStandard
+# Class CoSimIOFunctionStandard
+<a id="VM_Managed_DAFUL_CoSim_CoSimIOFunctionStandard"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -11,9 +12,9 @@ public sealed class CoSimIOFunctionStandard : CoSimIOFunction, IObservableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [CoSimIOFunction](VM.Managed.DAFUL.CoSim.CoSimIOFunction.md) ← 
 [CoSimIOFunctionStandard](VM.Managed.DAFUL.CoSim.CoSimIOFunctionStandard.md)
@@ -108,5 +109,5 @@ public Function Function { get; set; }
 
 #### Property Value
 
- Function
+ [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 

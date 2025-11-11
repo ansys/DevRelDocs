@@ -1,4 +1,5 @@
-#  Class ApplyClutch
+# Class ApplyClutch
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyClutch"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ApplyClutch : ApplyDTEntity, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyDTEntity](VM.Managed.DAFUL.GearTrain.Operation.ApplyDTEntity.md) ← 
 [ApplyClutch](VM.Managed.DAFUL.GearTrain.Operation.ApplyClutch.md)
@@ -105,7 +106,7 @@ public ApplyClutch(GearTrainDocument gearTrainDocument, BodyToDTData[] arData, b
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document.
 
@@ -113,7 +114,7 @@ The document.
 
 The data.
 
-`bRefresh` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRefresh` bool
 
 The refresh flag.
 
@@ -143,7 +144,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL
+# Namespace VM.Managed.DAFUL
+<a id="VM_Managed_DAFUL"></a>
 
 ### Namespaces
 
@@ -342,6 +343,8 @@ The class for KeyInfo.
 
 This class is to represent the marker.
 
+ [MassCalculationException](VM.Managed.DAFUL.MassCalculationException.md)
+
  [PartDocument.MassProperty](VM.Managed.DAFUL.PartDocument.MassProperty.md)
 
 This class is to represent the mass property for part document.
@@ -459,6 +462,10 @@ RecalcMassPropOp
  [ReferenceConnectable](VM.Managed.DAFUL.ReferenceConnectable.md)
 
 This class is to represent the reference for connectable object.
+
+ [ReferenceHasMultiBuilder](VM.Managed.DAFUL.ReferenceHasMultiBuilder.md)
+
+This class is to represent the reference for motor em force.
 
  [ReferenceMarker](VM.Managed.DAFUL.ReferenceMarker.md)
 
@@ -642,11 +649,11 @@ DFMFUIInfo struct
 
 This struct is to represent the object target for multi.
 
- [RequestStructure.OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
+ [RequestKinematic.OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
 <p>This class is to represent the OutputType properties.</p>
 
- [RequestKinematic.OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
+ [RequestStructure.OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
 <p>This class is to represent the OutputType properties.</p>
 
@@ -962,11 +969,11 @@ Specifies type for a marker parent.
 
 Specifies type for a marker reference frame.
 
- [PartDocument.MassPropertyType](VM.Managed.DAFUL.PartDocument.MassPropertyType.md)
+ [SolidBodyProperty.MassPropertyType](VM.Managed.DAFUL.SolidBodyProperty.MassPropertyType.md)
 
 Specifies type for the mass property.
 
- [SolidBodyProperty.MassPropertyType](VM.Managed.DAFUL.SolidBodyProperty.MassPropertyType.md)
+ [PartDocument.MassPropertyType](VM.Managed.DAFUL.PartDocument.MassPropertyType.md)
 
 Specifies type for the mass property.
 

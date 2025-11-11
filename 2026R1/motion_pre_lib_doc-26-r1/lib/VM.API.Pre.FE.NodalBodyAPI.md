@@ -1,4 +1,5 @@
-#  Class NodalBodyAPI
+# Class NodalBodyAPI
+<a id="VM_API_Pre_FE_NodalBodyAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class NodalBodyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NodalBodyAPI](VM.API.Pre.FE.NodalBodyAPI.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public static void ChangeNodalModal(this Obj nodalBody, BodyAnalysisType type)
 
 #### Parameters
 
-`nodalBody` Obj
+`nodalBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -44,11 +45,11 @@ The body analysis type.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'nodalBody' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'nodalBody' is not <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -63,11 +64,11 @@ public static Obj CreateNodalBody(this SubSystemDocument docToAdd, string strBod
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to add created <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name of new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -81,13 +82,13 @@ The <xref href="VM.Managed.TransformBase?text=Transformation" data-throw-if-not-
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'meshDocument' argument is empty.
 
@@ -103,15 +104,15 @@ public static Obj CreateNodalBody(this SubSystemDocument docToAdd, string strBod
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to add created <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name of new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`meshFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`meshFilePath` string
 
 The path of the <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> to create <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>
 
@@ -121,17 +122,17 @@ The <xref href="VM.Managed.TransformBase?text=Transformation" data-throw-if-not-
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'docToAdd' or 'transformMesh' arguments are empty.
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Will be thrown if meshFilePath file is not exist.
 
@@ -146,11 +147,11 @@ public static Obj CreateNodalBody(this SubSystemDocument docToAdd, string strBod
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to add created <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name of new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -160,13 +161,13 @@ The <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="fa
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'meshDocument' argument is empty.
 
@@ -180,21 +181,21 @@ public static Obj CreateNodalBody(this SubSystemDocument docToAdd, string strBod
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to add created <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name of new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`meshFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`meshFilePath` string
 
 The path of the <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> to create <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 

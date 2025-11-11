@@ -1,4 +1,5 @@
-#  Class Set
+# Class Set
+<a id="VM_Models_FE_Mesh_Sets_Set"></a>
 
 Namespace: [VM.Models.FE.Mesh.Sets](VM.Models.FE.Mesh.Sets.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public abstract class Set : HasMultipleNodes, IEntity, ISet
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [HasMultipleNodes](VM.Models.FE.Mesh.HasMultipleNodes.md) ← 
 [Set](VM.Models.FE.Mesh.Sets.Set.md)
@@ -60,5 +61,5 @@ public virtual int ItemCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

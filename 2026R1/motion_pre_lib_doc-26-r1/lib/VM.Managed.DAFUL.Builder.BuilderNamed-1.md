@@ -1,4 +1,5 @@
-#  Class BuilderNamed<T\>
+# Class BuilderNamed<T\>
+<a id="VM_Managed_DAFUL_Builder_BuilderNamed_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class BuilderNamed<T> : BuilderSymmetric<T>, IBuilder where T : 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<T\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<T\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<T\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md)
@@ -69,7 +70,7 @@ public virtual string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -85,7 +86,7 @@ protected void CheckUnit(Document3D docParent, Document3D docSub, string Propert
 
 `docSub` Document3D
 
-`PropertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`PropertyFilePath` string
 
 ### <a id="VM_Managed_DAFUL_Builder_BuilderNamed_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
@@ -101,5 +102,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Class HarmonicDrive.CheckClash
+# Class HarmonicDrive.CheckClash
+<a id="VM_Managed_DAFUL_Builder_HarmonicDrive_CheckClash"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldHarmonicDrive.dll  
@@ -9,7 +10,7 @@ public class HarmonicDrive.CheckClash
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [HarmonicDrive.CheckClash](VM.Managed.DAFUL.Builder.HarmonicDrive.CheckClash.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public KeyInfo TargetKey { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_CheckClash_ToolKey"></a> ToolKey
 
@@ -50,5 +51,5 @@ public KeyInfo ToolKey { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 

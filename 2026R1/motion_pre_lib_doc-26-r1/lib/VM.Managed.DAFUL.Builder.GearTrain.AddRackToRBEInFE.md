@@ -1,4 +1,5 @@
-#  Class AddRackToRBEInFE
+# Class AddRackToRBEInFE
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddRackToRBEInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class AddRackToRBEInFE : AddGearToRBEInFE, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddGearEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddGearEntityBase.md) ← 
 [AddGearToRBEInMeshBase](VM.Managed.DAFUL.Builder.GearTrain.AddGearToRBEInMeshBase.md) ← 

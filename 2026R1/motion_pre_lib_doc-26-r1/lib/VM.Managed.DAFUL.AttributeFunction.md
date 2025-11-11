@@ -1,4 +1,5 @@
-#  Class AttributeFunction
+# Class AttributeFunction
+<a id="VM_Managed_DAFUL_AttributeFunction"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -11,12 +12,12 @@ public class AttributeFunction : AttributeSubEntity<Function>, IObservableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
-AttributeSubEntity<Function\> ← 
+[AttributeSubEntity<Function\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/AttributeSubEntity.cs) ← 
 [AttributeFunction](VM.Managed.DAFUL.AttributeFunction.md)
 
 #### Implements
@@ -34,8 +35,8 @@ IVerifiable
 
 #### Inherited Members
 
-AttributeSubEntity<Function\>.m\_childSubEntity, 
-AttributeSubEntity<Function\>.SubEntityValue, 
+[AttributeSubEntity<Function\>.m\_childSubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/AttributeSubEntity.cs), 
+[AttributeSubEntity<Function\>.SubEntityValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/AttributeSubEntity.cs), 
 AttributeBase.OnDeserializationAttribute\(\), 
 AttributeBase.LinkRequestUpdate\(object, LinkEventArgs\), 
 LinkContainer.SetModified\(\), 
@@ -81,7 +82,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -151,7 +152,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

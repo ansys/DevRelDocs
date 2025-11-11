@@ -1,4 +1,5 @@
-#  Delegate ImportBase<T\>.AddEntityFromMeshDoc
+# Delegate ImportBase<T\>.AddEntityFromMeshDoc
+<a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_AddEntityFromMeshDoc"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -11,7 +12,7 @@ public delegate void ImportBase<T>.AddEntityFromMeshDoc(Document3D document3D, o
 
 `document3D` Document3D
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 #### Extension Methods
 

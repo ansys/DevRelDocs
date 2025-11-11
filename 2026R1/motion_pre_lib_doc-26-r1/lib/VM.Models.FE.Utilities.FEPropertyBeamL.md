@@ -1,4 +1,5 @@
-#  Struct FEPropertyBeamL
+# Struct FEPropertyBeamL
+<a id="VM_Models_FE_Utilities_FEPropertyBeamL"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -27,7 +28,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_MaterialSequence"></a> MaterialSequence
 
@@ -37,7 +38,7 @@ public uint MaterialSequence { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_NumberOfSection"></a> NumberOfSection
 
@@ -47,7 +48,7 @@ public uint NumberOfSection { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_SectionDimension"></a> SectionDimension
 
@@ -57,7 +58,7 @@ public double[] SectionDimension { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_SectionTypeID"></a> SectionTypeID
 
@@ -67,5 +68,5 @@ public uint SectionTypeID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

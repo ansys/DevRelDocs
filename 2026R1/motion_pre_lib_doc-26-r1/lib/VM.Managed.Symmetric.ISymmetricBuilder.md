@@ -1,4 +1,5 @@
-#  Interface ISymmetricBuilder
+# Interface ISymmetricBuilder
+<a id="VM_Managed_Symmetric_ISymmetricBuilder"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ object Build(object tool, SymmetricType sym_type, Plane sym_plane, Document docO
 
 #### Parameters
 
-`tool` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`tool` object
 
 The object.
 
@@ -45,7 +46,7 @@ update document.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The new object of symmetric.
 

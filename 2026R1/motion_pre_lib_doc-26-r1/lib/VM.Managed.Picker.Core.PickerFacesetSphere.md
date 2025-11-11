@@ -1,4 +1,5 @@
-#  Class PickerFacesetSphere
+# Class PickerFacesetSphere
+<a id="VM_Managed_Picker_Core_PickerFacesetSphere"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class PickerFacesetSphere : PickerFaceset
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerTopol](VM.Managed.Picker.Core.PickerTopol.md) ← 
 [PickerFace](VM.Managed.Picker.Core.PickerFace.md) ← 
@@ -85,5 +86,5 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

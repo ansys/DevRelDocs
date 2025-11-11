@@ -1,4 +1,5 @@
-#  Class DurabilityAnalysis
+# Class DurabilityAnalysis
+<a id="VM_Models_Pre_Durability_DurabilityAnalysis"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -9,7 +10,7 @@ public class DurabilityAnalysis
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DurabilityAnalysis](VM.Models.Pre.Durability.DurabilityAnalysis.md)
 
 #### Extension Methods

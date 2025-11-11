@@ -1,4 +1,5 @@
-#  Namespace VM
+# Namespace VM
+<a id="VM"></a>
 
 ### Namespaces
 
@@ -183,5 +184,4 @@ This enumerator represent the sort direction
  [UnitType](VM.UnitType.md)
 
 Specifies Unit Type.
-
 

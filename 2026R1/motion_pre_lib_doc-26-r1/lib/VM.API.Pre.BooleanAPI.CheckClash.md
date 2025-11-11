@@ -1,4 +1,5 @@
-#  Class BooleanAPI.CheckClash
+# Class BooleanAPI.CheckClash
+<a id="VM_API_Pre_BooleanAPI_CheckClash"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public class BooleanAPI.CheckClash
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanAPI.CheckClash](VM.API.Pre.BooleanAPI.CheckClash.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public KeyInfo TargetKey { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 
 ### <a id="VM_API_Pre_BooleanAPI_CheckClash_ToolKey"></a> ToolKey
 
@@ -52,5 +53,5 @@ public KeyInfo ToolKey { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 

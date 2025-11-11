@@ -1,4 +1,5 @@
-#  Class ExportXML
+# Class ExportXML
+<a id="VM_Managed_DAFUL_Operation_ExportXML"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ExportXML : SimulationRun, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SimulationRun](VM.Managed.DAFUL.Operation.SimulationRun.md) ← 
 [ExportXML](VM.Managed.DAFUL.Operation.ExportXML.md)
@@ -37,6 +38,7 @@ IOperation
 [SimulationRun.ApplySimulation\(SimulationFormBase\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_ApplySimulation\_VM\_Managed\_DAFUL\_Pre\_Forms\_SimulationFormBase\_), 
 [SimulationRun.ExecuteImpl\(\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_ExecuteImpl), 
 [SimulationRun.ExecuteImplNotPrePareSimulation\(\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_ExecuteImplNotPrePareSimulation), 
+[SimulationRun.WriteJournalCore\(string\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_WriteJournalCore\_System\_String\_), 
 [SimulationRun.Name](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_Name), 
 [SimulationRun.SimulationForm](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_SimulationForm), 
 [SimulationRun.NotPrePareSimulation](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_NotPrePareSimulation), 
@@ -120,7 +122,7 @@ public ExportXML(Document doc, string strScenarioTypeName)
 
 `doc` Document
 
-`strScenarioTypeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strScenarioTypeName` string
 
 ### <a id="VM_Managed_DAFUL_Operation_ExportXML__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXML\(JournalParameter\)
 
@@ -144,7 +146,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

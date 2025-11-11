@@ -1,9 +1,10 @@
-#  Interface IEnabled
+# Interface IEnabled
+<a id="VM_IEnabled"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IEnabled
 ```
 
@@ -11,12 +12,11 @@ public interface IEnabled
 
 ### <a id="VM_IEnabled_IsEnabled"></a> IsEnabled
 
-```python
+```csharp
 bool IsEnabled { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

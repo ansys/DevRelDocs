@@ -1,4 +1,5 @@
-#  Class ProjectDocument
+# Class ProjectDocument
+<a id="VM_Models_ProjectDocument"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -9,7 +10,7 @@ public sealed class ProjectDocument : ProjectObjectBase, IObservableObject, IPro
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
 [ProjectObjectBase](VM.Models.ProjectObjectBase.md) ← 
 [ProjectDocument](VM.Models.ProjectDocument.md)
@@ -54,7 +55,7 @@ public ProjectDocument(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 ## Properties
 
@@ -76,7 +77,7 @@ public IEnumerable<IScenario> Items { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IScenario](VM.Models.IScenario.md)\>
+ IEnumerable<[IScenario](VM.Models.IScenario.md)\>
 
 ### <a id="VM_Models_ProjectDocument_RootPath"></a> RootPath
 
@@ -87,7 +88,7 @@ public string RootPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_ProjectDocument_ScenarioCount"></a> ScenarioCount
 
@@ -98,7 +99,7 @@ public int ScenarioCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_ProjectDocument_Item_VM_Identifier_"></a> this\[Identifier\]
 
@@ -154,7 +155,7 @@ public bool CanRegisterID(Identifier identifier)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ProjectDocument_CanRegisterName_System_String_"></a> CanRegisterName\(string\)
 
@@ -164,11 +165,11 @@ public bool CanRegisterName(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ProjectDocument_Contains_VM_Models_IScenario_"></a> Contains\(IScenario\)
 
@@ -182,7 +183,7 @@ public bool Contains(IScenario item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ProjectDocument_ContainsID_VM_Identifier_"></a> ContainsID\(Identifier\)
 
@@ -196,7 +197,7 @@ public bool ContainsID(Identifier identifier)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ProjectDocument_ContainsName_VM_Models_IProjectObject_"></a> ContainsName\(IProjectObject\)
 
@@ -210,7 +211,7 @@ public bool ContainsName(IProjectObject item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ProjectDocument_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
@@ -226,7 +227,7 @@ public static ProjectDocument Open(string path)
 
 #### Parameters
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 #### Returns
 
@@ -262,7 +263,7 @@ public bool TryGetValue(Identifier identifier, out IScenario scenario)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ProjectDocument_TryGetValue_System_String_VM_Models_IScenario__"></a> TryGetValue\(string, out IScenario\)
 
@@ -272,13 +273,13 @@ public bool TryGetValue(string name, out IScenario scenario)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 `scenario` [IScenario](VM.Models.IScenario.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ProjectDocument_UnregisterID_VM_Models_IProjectObject_"></a> UnregisterID\(IProjectObject\)
 

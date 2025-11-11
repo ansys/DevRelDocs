@@ -1,9 +1,10 @@
-#  Class IdentifierCollection<TItem\>
+# Class IdentifierCollection<TItem\>
+<a id="VM_Collections_IdentifierCollection_1"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class IdentifierCollection<TItem> : KeyedCollection<Identifier, TItem> where TItem : IHasID
 ```
 
@@ -13,16 +14,16 @@ public class IdentifierCollection<TItem> : KeyedCollection<Identifier, TItem> wh
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Collection<TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ← 
-[KeyedCollection<Identifier, TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.keyedcollection\-2) ← 
+object ← 
+Collection<TItem\> ← 
+KeyedCollection<Identifier, TItem\> ← 
 [IdentifierCollection<TItem\>](VM.Collections.IdentifierCollection\-1.md)
 
 ## Constructors
 
 ### <a id="VM_Collections_IdentifierCollection_1__ctor"></a> IdentifierCollection\(\)
 
-```python
+```csharp
 public IdentifierCollection()
 ```
 
@@ -30,7 +31,7 @@ public IdentifierCollection()
 
 ### <a id="VM_Collections_IdentifierCollection_1_GetKeyForItem__0_"></a> GetKeyForItem\(TItem\)
 
-```python
+```csharp
 protected override Identifier GetKeyForItem(TItem item)
 ```
 
@@ -41,5 +42,4 @@ protected override Identifier GetKeyForItem(TItem item)
 #### Returns
 
  [Identifier](VM.Identifier.md)
-
 

@@ -1,4 +1,5 @@
-#  Class ReAssembleForChangeAssemblyOperation
+# Class ReAssembleForChangeAssemblyOperation
+<a id="VM_Managed_DAFUL_Car_Operation_ReAssembleForChangeAssemblyOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class ReAssembleForChangeAssemblyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ReAssembleForChangeAssemblyOperation](VM.Managed.DAFUL.Car.Operation.ReAssembleForChangeAssemblyOperation.md)
 
@@ -85,11 +86,11 @@ public ReAssembleForChangeAssemblyOperation(SubSystemDocument doc, string strOld
 
 #### Parameters
 
-`doc` SubSystemDocument
+`doc` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`strOldMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldMeshFile` string
 
-`strNewMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNewMeshFile` string
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_ReAssembleForChangeAssemblyOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ReAssembleForChangeAssemblyOperation\(JournalParameter\)
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,5 +134,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

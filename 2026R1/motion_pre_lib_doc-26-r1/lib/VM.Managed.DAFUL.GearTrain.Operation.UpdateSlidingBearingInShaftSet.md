@@ -1,4 +1,5 @@
-#  Class UpdateSlidingBearingInShaftSet
+# Class UpdateSlidingBearingInShaftSet
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInShaftSet"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateSlidingBearingInShaftSet : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateSlidingBearingInShaftSet](VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInShaftSet.md)
 
@@ -87,19 +88,19 @@ public UpdateSlidingBearingInShaftSet(string strBearingGeometryName, string strR
 
 #### Parameters
 
-`strBearingGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearingGeometryName` string
 
 Name of the string bearing geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strStartAngle` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStartAngle` string
 
 The string arc angle.
 
@@ -117,19 +118,19 @@ public UpdateSlidingBearingInShaftSet(Document3D document3D, string strBearingGe
 
 The document.
 
-`strBearingGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearingGeometryName` string
 
 Name of the string bearing geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strStartAngle` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStartAngle` string
 
 The string arc angle.
 
@@ -159,7 +160,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -181,7 +182,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

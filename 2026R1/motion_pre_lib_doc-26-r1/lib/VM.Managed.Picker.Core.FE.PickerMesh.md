@@ -1,4 +1,5 @@
-#  Class PickerMesh
+# Class PickerMesh
+<a id="VM_Managed_Picker_Core_FE_PickerMesh"></a>
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class PickerMesh : PickerBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerMesh](VM.Managed.Picker.Core.FE.PickerMesh.md)
 
@@ -68,7 +69,7 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Picker_Core_FE_PickerMesh_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
@@ -80,17 +81,17 @@ protected override bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 If it is true, skip the result setting.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

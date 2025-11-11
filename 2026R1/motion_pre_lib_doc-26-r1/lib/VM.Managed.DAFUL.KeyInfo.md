@@ -1,4 +1,5 @@
-#  Class KeyInfo
+# Class KeyInfo
+<a id="VM_Managed_DAFUL_KeyInfo"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -11,7 +12,7 @@ public class KeyInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KeyInfo](VM.Managed.DAFUL.KeyInfo.md)
 
 #### Extension Methods
@@ -40,5 +41,5 @@ public string Key { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

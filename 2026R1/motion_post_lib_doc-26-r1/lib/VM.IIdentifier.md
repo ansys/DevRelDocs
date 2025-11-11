@@ -1,9 +1,10 @@
-#  Interface IIdentifier
+# Interface IIdentifier
+<a id="VM_IIdentifier"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IIdentifier
 ```
 
@@ -11,12 +12,11 @@ public interface IIdentifier
 
 ### <a id="VM_IIdentifier_First"></a> First
 
-```python
+```csharp
 uint First { get; set; }
 ```
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
-
+ uint
 

@@ -1,4 +1,5 @@
-#  Class SerializeUtil
+# Class SerializeUtil
+<a id="VM_Managed_SerializeUtil"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class SerializeUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SerializeUtil](VM.Managed.SerializeUtil.md)
 
 #### Extension Methods
@@ -40,11 +41,11 @@ public static T Deserial<T>(string xml, Type type)
 
 #### Parameters
 
-`xml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`xml` string
 
 The object xml
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The deserialized explicit type
 
@@ -66,7 +67,7 @@ public static T Deserial<T>(string xml)
 
 #### Parameters
 
-`xml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`xml` string
 
 The object xml
 
@@ -96,7 +97,7 @@ The object
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The new <xref href="System.String" data-throw-if-not-resolved="false"></xref> object.
 
@@ -118,7 +119,7 @@ public static string Serial(ObjectBase obj)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_SerializeUtil_SerialXmlDoc__1___0_"></a> SerialXmlDoc<T\>\(T\)
 
@@ -136,7 +137,7 @@ The object
 
 #### Returns
 
- [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+ XmlDocument
 
 The new <xref href="System.Xml.XmlDocument" data-throw-if-not-resolved="false"></xref> object.
 

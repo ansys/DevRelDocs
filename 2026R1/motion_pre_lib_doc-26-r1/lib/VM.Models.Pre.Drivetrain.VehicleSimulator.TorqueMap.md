@@ -1,4 +1,5 @@
-#  Class TorqueMap
+# Class TorqueMap
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,9 +10,9 @@ public sealed class TorqueMap : ValidatableBase, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ValidatableBase ← 
+[ValidatableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs) ← 
 [TorqueMap](VM.Models.Pre.Drivetrain.VehicleSimulator.TorqueMap.md)
 
 #### Implements
@@ -22,17 +23,17 @@ IValidatable
 
 #### Inherited Members
 
-ValidatableBase.RaisePropertyChanged\(string\), 
-ValidatableBase.SuspendValidate\(\), 
-ValidatableBase.Validate\(\), 
-ValidatableBase.Validate\(ValidationContext\), 
-ValidatableBase.CanValidate, 
-ValidatableBase.Errors, 
-ValidatableBase.HasValidationAttribute, 
-ValidatableBase.HasValidator, 
-ValidatableBase.IsValid, 
-ValidatableBase.ValidateTrigger, 
-ValidatableBase.ErrorsChanged, 
+[ValidatableBase.RaisePropertyChanged\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.SuspendValidate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(ValidationContext\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.CanValidate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Errors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidator](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ValidateTrigger](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ErrorsChanged](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -58,7 +59,7 @@ public TorqueMap(bool isPowerSplitMap)
 
 #### Parameters
 
-`isPowerSplitMap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPowerSplitMap` bool
 
 ## Properties
 
@@ -70,7 +71,7 @@ public bool IsPowerSplitMap { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -82,7 +83,7 @@ public double[] GetDistinctXValues()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetMaximumY"></a> GetMaximumY\(\)
 
@@ -92,7 +93,7 @@ public double GetMaximumY()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetMinimumY"></a> GetMinimumY\(\)
 
@@ -102,7 +103,7 @@ public double GetMinimumY()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetXValues_System_Double_"></a> GetXValues\(double\)
 
@@ -112,11 +113,11 @@ public double[] GetXValues(double z)
 
 #### Parameters
 
-`z` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`z` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetXYPairs_System_Double_"></a> GetXYPairs\(double\)
 
@@ -126,11 +127,11 @@ public IEnumerable<KeyValuePair<double, double>> GetXYPairs(double rpm)
 
 #### Parameters
 
-`rpm` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`rpm` double
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
+ IEnumerable<KeyValuePair<double, double\>\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetYValue_System_Double_System_Double_"></a> GetYValue\(double, double\)
 
@@ -140,13 +141,13 @@ public double GetYValue(double z, double x)
 
 #### Parameters
 
-`z` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`z` double
 
-`x` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`x` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetZAndLastYValues"></a> GetZAndLastYValues\(\)
 
@@ -156,7 +157,7 @@ public IEnumerable<DataPoint> GetZAndLastYValues()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<DataPoint\>
+ IEnumerable<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetZValues"></a> GetZValues\(\)
 
@@ -166,5 +167,5 @@ public double[] GetZValues()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 

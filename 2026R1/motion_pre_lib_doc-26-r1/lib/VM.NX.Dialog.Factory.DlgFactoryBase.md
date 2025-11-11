@@ -1,4 +1,5 @@
-#  Class DlgFactoryBase
+# Class DlgFactoryBase
+<a id="VM_NX_Dialog_Factory_DlgFactoryBase"></a>
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDM.dll  
@@ -9,7 +10,7 @@ public abstract class DlgFactoryBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DlgFactoryBase](VM.NX.Dialog.Factory.DlgFactoryBase.md)
 
 #### Derived
@@ -32,9 +33,9 @@ protected DlgFactoryBase(string strDlgFileDirectory, string strDlgDirectory)
 
 #### Parameters
 
-`strDlgFileDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDlgFileDirectory` string
 
-`strDlgDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDlgDirectory` string
 
 ## Fields
 
@@ -46,7 +47,7 @@ protected static Dictionary<string, string> g_dicPropertyMap
 
 #### Field Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Dictionary<string, string\>
 
 ## Methods
 
@@ -58,7 +59,7 @@ protected DlgFactoryBase.AssemblyInfo GetAssemblyNameFromCommand(string strComma
 
 #### Parameters
 
-`strCommand` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCommand` string
 
 #### Returns
 
@@ -72,13 +73,13 @@ protected Type GetTypeInfo(string strCommand, DlgFactoryBase.AssemblyInfo assem)
 
 #### Parameters
 
-`strCommand` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCommand` string
 
 `assem` [DlgFactoryBase](VM.NX.Dialog.Factory.DlgFactoryBase.md).[AssemblyInfo](VM.NX.Dialog.Factory.DlgFactoryBase.AssemblyInfo.md)
 
 #### Returns
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_GetTypeInfo_System_String_"></a> GetTypeInfo\(string\)
 
@@ -88,11 +89,11 @@ protected Type GetTypeInfo(string strCommand)
 
 #### Parameters
 
-`strCommand` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCommand` string
 
 #### Returns
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_IsUseDialog_System_String_"></a> IsUseDialog\(string\)
 
@@ -102,9 +103,9 @@ public bool IsUseDialog(string strTypeName)
 
 #### Parameters
 
-`strTypeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTypeName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

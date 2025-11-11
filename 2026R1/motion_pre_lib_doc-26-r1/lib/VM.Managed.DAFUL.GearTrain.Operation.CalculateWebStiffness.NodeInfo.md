@@ -1,4 +1,5 @@
-#  Class CalculateWebStiffness.NodeInfo
+# Class CalculateWebStiffness.NodeInfo
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_NodeInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class CalculateWebStiffness.NodeInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CalculateWebStiffness.NodeInfo](VM.Managed.DAFUL.GearTrain.Operation.CalculateWebStiffness.NodeInfo.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public NodeInfo(double dDist, Node node)
 
 #### Parameters
 
-`dDist` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDist` double
 
 dDist
 
@@ -52,7 +53,7 @@ public double Distance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_NodeInfo_Node"></a> Node
 

@@ -1,4 +1,5 @@
-#  Class BodySprocket
+# Class BodySprocket
+<a id="VM_Managed_CAD_Sprocket_BodySprocket"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -11,9 +12,9 @@ public class BodySprocket : Body, IObservableObject, IDisposableObject, ILinkabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Body ← 
@@ -30,7 +31,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IReferencable, 
 ITransformable, 
@@ -269,7 +270,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -322,11 +323,11 @@ public override bool CheckValidationAboutBuild(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Sprocket_BodySprocket_GetFaceList_Teeth"></a> GetFaceList\_Teeth\(\)
 
@@ -338,7 +339,7 @@ public List<Face> GetFaceList_Teeth()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Face\>
+ List<Face\>
 
 The list of face
 
@@ -352,7 +353,7 @@ public BodySprocket ReGenerateBodyInformation(XmlDocument dom)
 
 #### Parameters
 
-`dom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`dom` XmlDocument
 
 The data xml of sprocket
 

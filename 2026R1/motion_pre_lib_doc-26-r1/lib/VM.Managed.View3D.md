@@ -1,4 +1,5 @@
-#  Class View3D
+# Class View3D
+<a id="VM_Managed_View3D"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class View3D : HandledView
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [View](VM.Managed.View.md) ← 
 [HandledView](VM.Managed.HandledView.md) ← 
 [View3D](VM.Managed.View3D.md)
@@ -59,7 +60,7 @@ public View3D(UIntPtr handleView, Document doc)
 
 #### Parameters
 
-`handleView` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`handleView` UIntPtr
 
 The view handle.
 
@@ -87,7 +88,7 @@ public static bool g_bAdjacent
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -111,7 +112,7 @@ public virtual bool IsPropertySupport { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_View3D_Perspective"></a> Perspective
 
@@ -123,7 +124,7 @@ public bool Perspective { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_View3D_RenderMode"></a> RenderMode
 
@@ -147,7 +148,7 @@ public bool Shadow { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -161,7 +162,7 @@ public override void Activate(bool bActivate)
 
 #### Parameters
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 ### <a id="VM_Managed_View3D_Close"></a> Close\(\)
 
@@ -180,7 +181,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_View3D_Draw"></a> Draw\(\)
 
@@ -230,7 +231,7 @@ public virtual void GetData(XmlNode writer)
 
 #### Parameters
 
-`writer` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`writer` XmlNode
 
 The writer.
 
@@ -254,7 +255,7 @@ The max value of bounding box.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_View3D_GetPopupMenuResult"></a> GetPopupMenuResult\(\)
 
@@ -266,7 +267,7 @@ public int GetPopupMenuResult()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The result.
 
@@ -280,7 +281,7 @@ public int GetSpecialMenuResult()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The result.
 
@@ -294,7 +295,7 @@ public bool GetUseFaceNormal()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The use.
 
@@ -308,7 +309,7 @@ public bool IsDefaultOperation()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if default; otherwise, <code>false</code>.
 
@@ -330,9 +331,9 @@ public override void OnLButtonDblClk(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_OnLButtonDown_System_UInt32_System_Drawing_Point_"></a> OnLButtonDown\(uint, Point\)
 
@@ -344,9 +345,9 @@ public override void OnLButtonDown(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_OnLButtonUp_System_UInt32_System_Drawing_Point_"></a> OnLButtonUp\(uint, Point\)
 
@@ -358,9 +359,9 @@ public override void OnLButtonUp(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_OnMButtonDown_System_UInt32_System_Drawing_Point_"></a> OnMButtonDown\(uint, Point\)
 
@@ -372,9 +373,9 @@ public override void OnMButtonDown(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_OnMButtonUp_System_UInt32_System_Drawing_Point_"></a> OnMButtonUp\(uint, Point\)
 
@@ -386,9 +387,9 @@ public override void OnMButtonUp(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_OnMouseMove_System_UInt32_System_Drawing_Point_"></a> OnMouseMove\(uint, Point\)
 
@@ -400,9 +401,9 @@ public override void OnMouseMove(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_OnMouseWheel_System_UInt32_System_Int16_System_Drawing_Point_"></a> OnMouseWheel\(uint, short, Point\)
 
@@ -414,11 +415,11 @@ public override void OnMouseWheel(uint nFlags, short zDelta, Point pt)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`zDelta` [short](https://learn.microsoft.com/dotnet/api/system.int16)
+`zDelta` short
 
-`pt` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`pt` Point
 
 ### <a id="VM_Managed_View3D_OnRButtonDown_System_UInt32_System_Drawing_Point_"></a> OnRButtonDown\(uint, Point\)
 
@@ -430,9 +431,9 @@ public override void OnRButtonDown(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_OnRButtonUp_System_UInt32_System_Drawing_Point_"></a> OnRButtonUp\(uint, Point\)
 
@@ -444,9 +445,9 @@ public override void OnRButtonUp(uint nFlags, Point point)
 
 #### Parameters
 
-`nFlags` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nFlags` uint
 
-`point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`point` Point
 
 ### <a id="VM_Managed_View3D_Resize_System_Int32_System_Int32_"></a> Resize\(int, int\)
 
@@ -458,11 +459,11 @@ public override void Resize(int nWidth, int nHeight)
 
 #### Parameters
 
-`nWidth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nWidth` int
 
 The width.
 
-`nHeight` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nHeight` int
 
 The height.
 
@@ -476,7 +477,7 @@ public virtual void SetData(XmlNode reader)
 
 #### Parameters
 
-`reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`reader` XmlNode
 
 The reader.
 
@@ -488,7 +489,7 @@ public void SetPopupMenuResult(int nResult)
 
 #### Parameters
 
-`nResult` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nResult` int
 
 ### <a id="VM_Managed_View3D_SetSpecialMenuResult_System_Int32_"></a> SetSpecialMenuResult\(int\)
 
@@ -500,7 +501,7 @@ public void SetSpecialMenuResult(int nResult)
 
 #### Parameters
 
-`nResult` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nResult` int
 
 The result.
 
@@ -514,7 +515,7 @@ public void SetSurfaceTolerance(double dSurfaceTolerance)
 
 #### Parameters
 
-`dSurfaceTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSurfaceTolerance` double
 
 The surface tolerance.
 
@@ -528,7 +529,7 @@ public void SetUseFaceNormal(bool bNormal)
 
 #### Parameters
 
-`bNormal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNormal` bool
 
 The use.
 

@@ -1,4 +1,5 @@
-#  Class ChangeSolidBodyAnalysisSettingOperation
+# Class ChangeSolidBodyAnalysisSettingOperation
+<a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class ChangeSolidBodyAnalysisSettingOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ChangeSolidBodyAnalysisSettingOperation](VM.Managed.Operation.ChangeSolidBodyAnalysisSettingOperation.md)
 
@@ -87,7 +88,7 @@ public ChangeSolidBodyAnalysisSettingOperation(SolidBody solidBody, BodyAnalysis
 
 #### Parameters
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The nodal body.
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -137,5 +138,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

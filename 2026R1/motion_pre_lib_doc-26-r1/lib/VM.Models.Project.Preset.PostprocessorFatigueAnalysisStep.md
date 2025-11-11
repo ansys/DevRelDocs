@@ -1,4 +1,5 @@
-#  Class PostprocessorFatigueAnalysisStep
+# Class PostprocessorFatigueAnalysisStep
+<a id="VM_Models_Project_Preset_PostprocessorFatigueAnalysisStep"></a>
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -9,10 +10,10 @@ public class PostprocessorFatigueAnalysisStep : StepBase, IObservableObject, ISt
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ProjectObjectBase ← 
-StepBase ← 
+[ProjectObjectBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs) ← 
+[StepBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs) ← 
 [PostprocessorFatigueAnalysisStep](VM.Models.Project.Preset.PostprocessorFatigueAnalysisStep.md)
 
 #### Implements
@@ -28,32 +29,32 @@ IHasParent<IScenario\>
 
 #### Inherited Members
 
-StepBase.Add\(IStepItem\), 
-StepBase.AddTarget\(IStep\), 
-StepBase.CanRelation\(IStep\), 
-StepBase.ContainsTarget\(IStep\), 
-StepBase.OnDeserialization\(object\), 
-StepBase.RemoveTarget\(IStep\), 
-StepBase.ResetSource\(\), 
-StepBase.SetSource\(IStep\), 
-StepBase.DisposeManagedResources\(\), 
-StepBase.DefaultCommand, 
-StepBase.FilePath, 
-StepBase.IsSelected, 
-StepBase.Items, 
-StepBase.Parent, 
-StepBase.ParentDocument, 
-StepBase.Source, 
-StepBase.State, 
-StepBase.TargetApplicationType, 
-StepBase.Type, 
-StepBase.StepItemService, 
-StepBase.this\[int\], 
-ProjectObjectBase.OnDeserialization\(object\), 
-ProjectObjectBase.DisposeManagedResources\(\), 
-ProjectObjectBase.DisplayName, 
-ProjectObjectBase.ID, 
-ProjectObjectBase.Name, 
+[StepBase.Add\(IStepItem\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.AddTarget\(IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.CanRelation\(IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.ContainsTarget\(IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.RemoveTarget\(IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.ResetSource\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.SetSource\(IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.DisposeManagedResources\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.DefaultCommand](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.FilePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.IsSelected](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.Items](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.Parent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.ParentDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.Source](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.State](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.TargetApplicationType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.Type](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.StepItemService](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[StepBase.this\[int\]](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/StepBase.cs), 
+[ProjectObjectBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.DisposeManagedResources\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.ID](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -94,7 +95,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Project_Preset_PostprocessorFatigueAnalysisStep_TargetApplicationType"></a> TargetApplicationType
 

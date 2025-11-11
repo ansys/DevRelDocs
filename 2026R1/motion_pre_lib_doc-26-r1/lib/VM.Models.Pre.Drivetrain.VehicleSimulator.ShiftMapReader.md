@@ -1,4 +1,5 @@
-#  Class ShiftMapReader
+# Class ShiftMapReader
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMapReader"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public static class ShiftMapReader
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShiftMapReader](VM.Models.Pre.Drivetrain.VehicleSimulator.ShiftMapReader.md)
 
 #### Extension Methods
@@ -28,7 +29,7 @@ public const string ShiftPatternExtension = ".shift"
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -40,7 +41,7 @@ public static ShiftMap Read(string path)
 
 #### Parameters
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 #### Returns
 

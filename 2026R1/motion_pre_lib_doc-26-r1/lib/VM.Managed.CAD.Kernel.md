@@ -1,4 +1,5 @@
-#  Class Kernel
+# Class Kernel
+<a id="VM_Managed_CAD_Kernel"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class Kernel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Kernel](VM.Managed.CAD.Kernel.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ protected Kernel(IKernel* pKernel)
 
 #### Parameters
 
-`pKernel` [IKernel](VM.CAD.IKernel.md)\*
+`pKernel` IKernel\*
 
 The kernal interface
 
@@ -48,7 +49,7 @@ public bool IsLoading { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Kernel_Key"></a> Key
 
@@ -58,7 +59,7 @@ public UIntPtr Key { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ## Methods
 
@@ -87,7 +88,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_CAD_Kernel_Dispose"></a> Dispose\(\)
 
@@ -107,7 +108,7 @@ public static bool DoingSession()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Kernel_ExecuteOperation_System_String_System_String_VM_Managed_Document3D_System_String__"></a> ExecuteOperation\(string, string, Document3D, ref string\)
 
@@ -117,17 +118,17 @@ public bool ExecuteOperation(string strType, string strArgument, Document3D doc,
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
-`strArgument` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strArgument` string
 
 `doc` [Document3D](VM.Managed.Document3D.md)
 
-`strResult` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResult` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Kernel_Finalize"></a> \~Kernel\(\)
 
@@ -152,7 +153,7 @@ public void SetIgnoreThreadID(bool bIgnore)
 
 #### Parameters
 
-`bIgnore` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIgnore` bool
 
 ### <a id="VM_Managed_CAD_Kernel_Terminate"></a> Terminate\(\)
 

@@ -1,4 +1,5 @@
-#  Enum InterfaceManager.StateType
+# Enum InterfaceManager.StateType
+<a id="VM_Managed_InterfaceManager_StateType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

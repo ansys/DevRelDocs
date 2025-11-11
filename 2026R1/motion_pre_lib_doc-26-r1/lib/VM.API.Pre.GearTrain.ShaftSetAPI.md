@@ -1,4 +1,5 @@
-#  Class ShaftSetAPI
+# Class ShaftSetAPI
+<a id="VM_API_Pre_GearTrain_ShaftSetAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class ShaftSetAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShaftSetAPI](VM.API.Pre.GearTrain.ShaftSetAPI.md)
 
 #### Extension Methods
@@ -33,15 +34,15 @@ public static void AddBearingToRBEInEFEntity(this HiddenDocumentMeshFreeBase doc
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The bearing name.
 
-`racewayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`racewayName` string
 
 The raceway name.
 
@@ -49,7 +50,7 @@ The raceway name.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
@@ -59,15 +60,15 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearingName' or 'racewayName' or 'connectable' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -83,15 +84,15 @@ public static void AddBearingToRBEInEFEntity(this HiddenDocumentMeshFreeBase doc
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add bearing.
 
-`bearing` Obj
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The bearing. The type is <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The raceway type.
 
@@ -99,7 +100,7 @@ The raceway type.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -109,19 +110,19 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearing' or 'connectable' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -136,15 +137,15 @@ public static void AddBearingToRBEInFEEntity(this HiddenDocumentFEBase document,
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The bearing name.
 
-`racewayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`racewayName` string
 
 The raceway name.
 
@@ -152,7 +153,7 @@ The raceway name.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
@@ -162,15 +163,15 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearingName' or 'racewayName' or 'connectable' arguments are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -186,15 +187,15 @@ public static void AddBearingToRBEInFEEntity(this HiddenDocumentFEBase document,
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add bearing.
 
-`bearing` Obj
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The bearing. The type is <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The raceway type.
 
@@ -202,7 +203,7 @@ The raceway type.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
@@ -212,19 +213,19 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearing' or 'connectable' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -240,19 +241,19 @@ public static void AddBearingToShaftset(this HiddenShaftSetDocument document, st
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The bearing name.
 
-`racewayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`racewayName` string
 
 The raceway name.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -270,7 +271,7 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearingName' or 'racewayName' arguments are empty.
 
@@ -287,19 +288,19 @@ public static void AddBearingToShaftset(this HiddenShaftSetDocument document, Ob
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add bearing.
 
-`bearing` Obj
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The bearing. The type is <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The raceway type.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -317,11 +318,11 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearing' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -335,15 +336,15 @@ public static void AddGearToRBEInEFEntity(this HiddenDocumentMeshFreeBase docume
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add gear.
 
-`gearSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearSetName` string
 
 The gear set name.
 
-`gearName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearName` string
 
 The gear name.
 
@@ -351,7 +352,7 @@ The gear name.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
@@ -359,7 +360,7 @@ The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-no
 
 The attach type. The default value is Shaft.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -367,15 +368,15 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft. The default value is Left.
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`bearingOffset` ExpressionValueVariable?
+`bearingOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to bearing. The default value is 0.0.
 
@@ -389,15 +390,15 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -413,15 +414,15 @@ public static void AddGearToRBEInEFEntity(this HiddenDocumentMeshFreeBase docume
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add gear.
 
-`gearset` Obj
+`gearset` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The gear set. The type is <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-`gearIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`gearIndex` int
 
 The gear index. The value is zero base.
 
@@ -429,7 +430,7 @@ The gear index. The value is zero base.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
@@ -437,7 +438,7 @@ The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-no
 
 The attach type. The default value is Shaft.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -445,15 +446,15 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft. The default value is Left.
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`bearingOffset` ExpressionValueVariable?
+`bearingOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to bearing. The default value is 0.0.
 
@@ -467,27 +468,27 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearset' arguments are empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'gearIndex' is less than zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -501,15 +502,15 @@ public static void AddGearToRBEInFEEntity(this HiddenDocumentFEBase document, st
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add gear.
 
-`gearSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearSetName` string
 
 The gear set name.
 
-`gearName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearName` string
 
 The gear name.
 
@@ -517,7 +518,7 @@ The gear name.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
@@ -525,7 +526,7 @@ The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-no
 
 The attach type. The default value is Shaft.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -533,15 +534,15 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft.The default value is Left.
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`bearingOffset` ExpressionValueVariable?
+`bearingOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to bearing. The default value is 0.0.
 
@@ -555,15 +556,15 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -579,15 +580,15 @@ public static void AddGearToRBEInFEEntity(this HiddenDocumentFEBase document, Ob
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add gear.
 
-`gearset` Obj
+`gearset` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The gear set. The type is <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-`gearIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`gearIndex` int
 
 The gear index. The value is zero base.
 
@@ -595,7 +596,7 @@ The gear index. The value is zero base.
 
 The z-axis.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
@@ -603,7 +604,7 @@ The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-no
 
 The attach type. The default value is Shaft.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -611,15 +612,15 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft.The default value is Left.
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`bearingOffset` ExpressionValueVariable?
+`bearingOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to bearing. The default value is 0.0.
 
@@ -633,27 +634,27 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearset' arguments are empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'gearIndex' is less than zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -669,15 +670,15 @@ public static void AddGearToShaftset(this HiddenShaftSetDocument document, strin
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add gear.
 
-`gearSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearSetName` string
 
 The gear set name.
 
-`gearName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearName` string
 
 The gear name.
 
@@ -685,7 +686,7 @@ The gear name.
 
 The attach type. The default value is Shaft.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -693,15 +694,15 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft. The default value is Left
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`bearingOffset` ExpressionValueVariable?
+`bearingOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to bearing. The default value is 0.0
 
@@ -715,7 +716,7 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' arguments are empty.
 
@@ -733,15 +734,15 @@ public static void AddGearToShaftset(this HiddenShaftSetDocument document, Obj g
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add gear.
 
-`gearSet` Obj
+`gearSet` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The gear set. The type is <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-`gearIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`gearIndex` int
 
 The gear index. The value is zero base.
 
@@ -749,7 +750,7 @@ The gear index. The value is zero base.
 
 The attach type. The default value is Shaft.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -757,15 +758,15 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft. The default value is Left
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`bearingOffset` ExpressionValueVariable?
+`bearingOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to bearing. The default value is 0.0
 
@@ -779,19 +780,19 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSet' arguments are empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'gearIndex' is less than zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -805,15 +806,15 @@ public static void AddRackToRBEInEFEntity(this HiddenDocumentMeshFreeBase docume
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add gear.
 
-`gearSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearSetName` string
 
 The gear set name.
 
-`gearName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearName` string
 
 The gear name.
 
@@ -821,41 +822,41 @@ The gear name.
 
 The z-axis.
 
-`connectableStart` Obj
+`connectableStart` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`connectableEnd` Obj
+`connectableEnd` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The end rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`useStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useStart` bool
 
 The flag for whether using start rbe.
 
-`useEnd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useEnd` bool
 
 The flag for whether using end rbe.
 
-`initialAngle` ExpressionValueVariable?
+`initialAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial angle. The default value is 0.0.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' or 'connectableStart' or 'connectableEnd' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -871,15 +872,15 @@ public static void AddRackToRBEInEFEntity(this HiddenDocumentMeshFreeBase docume
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add gear.
 
-`gearSetRackAndPinion` Obj
+`gearSetRackAndPinion` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The gear set name. The type is <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
-`gearIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`gearIndex` int
 
 The gear name.
 
@@ -887,53 +888,53 @@ The gear name.
 
 The z-axis.
 
-`connectableStart` Obj
+`connectableStart` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`connectableEnd` Obj
+`connectableEnd` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The end rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`useStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useStart` bool
 
 The flag for whether using start rbe.
 
-`useEnd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useEnd` bool
 
 The flag for whether using end rbe.
 
-`initialAngle` ExpressionValueVariable?
+`initialAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial angle. The default value is 0.0.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' or 'connectableStart' or 'connectableEnd' arguments are empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'gearIndex' is less than zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'gearSetRackAndPinion' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -947,15 +948,15 @@ public static void AddRackToRBEInFEEntity(this HiddenDocumentFEBase document, st
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add gear.
 
-`gearSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearSetName` string
 
 The gear set name.
 
-`gearName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearName` string
 
 The gear name.
 
@@ -963,41 +964,41 @@ The gear name.
 
 The z-axis.
 
-`connectableStart` Obj
+`connectableStart` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`connectableEnd` Obj
+`connectableEnd` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The end rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`useStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useStart` bool
 
 The flag for whether using start rbe.
 
-`useEnd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useEnd` bool
 
 The flag for whether using end rbe.
 
-`initialAngle` ExpressionValueVariable?
+`initialAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial angle. The default value is 0.0.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' or 'connectableStart' or 'connectableEnd' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1013,15 +1014,15 @@ public static void AddRackToRBEInFEEntity(this HiddenDocumentFEBase document, Ob
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add gear.
 
-`gearSetRackAndPinion` Obj
+`gearSetRackAndPinion` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The gear set name. The type is <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
-`gearIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`gearIndex` int
 
 The gear name.
 
@@ -1029,87 +1030,91 @@ The gear name.
 
 The z-axis.
 
-`connectableStart` Obj
+`connectableStart` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The start rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`connectableEnd` Obj
+`connectableEnd` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The end rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>
 
-`useStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useStart` bool
 
 The flag for whether using start rbe.
 
-`useEnd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useEnd` bool
 
 The flag for whether using end rbe.
 
-`initialAngle` ExpressionValueVariable?
+`initialAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial angle. The default value is 0.0.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetRackAndPinion' or 'connectableStart' or 'connectableEnd' arguments are empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'gearIndex' is less than zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'gearSetRackAndPinion' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddRackToShaftset\(HiddenShaftSetDocument, string, string, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Int32_"></a> AddRackToShaftset\(HiddenShaftSetDocument, string, string, ExpressionValueVariable?, int\)
 
 Add rack to shaftset.
 
 ```csharp
 [NotNull(new string[] { "document" })]
 [NotNullOrEmpty(new string[] { "gearSetName", "gearName" })]
-public static void AddRackToShaftset(this HiddenShaftSetDocument document, string gearSetName, string gearName, ExpressionValueVariable? initialAngle = null)
+public static void AddRackToShaftset(this HiddenShaftSetDocument document, string gearSetName, string gearName, ExpressionValueVariable? initialAngle = null, int gearIndex = 0)
 ```
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add rack.
 
-`gearSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearSetName` string
 
 The gear set name.
 
-`gearName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`gearName` string
 
 The rack name.
 
-`initialAngle` ExpressionValueVariable?
+`initialAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial angle. The default value is 0.0.
 
+`gearIndex` int
+
+The gear index. The value is zero base.
+
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' arguments are empty.
 
@@ -1127,37 +1132,37 @@ public static void AddRackToShaftset(this HiddenShaftSetDocument document, Obj g
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add rack.
 
-`gearSetRackAndPinion` Obj
+`gearSetRackAndPinion` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rack and  pinion gear set. The type is <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
-`gearIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`gearIndex` int
 
 The gear index. The value is zero base.
 
-`initialAngle` ExpressionValueVariable?
+`initialAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The initial angle. The default value is 0.0.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSetRackAndPinion' arguments are empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'gearIndex' is less than zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'gearSetRackAndPinion' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
@@ -1172,11 +1177,11 @@ public static void AddSectionInSimpleShaftset(this HiddenShaftSetDocument docume
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add section.
 
-`length` ExpressionValueVariable?
+`length` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The added section length. The default value is 1.0.
 
@@ -1184,21 +1189,21 @@ The added section length. The default value is 1.0.
 
 The cross section type. The default value is CIRCULAR
 
-`diameters` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ExpressionValueVariable\>
+`diameters` IEnumerable<[ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)\>
 
 The width when add to shaft. If it is null, default values based on cross section will be used.
 
-`sectionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`sectionName` string
 
 The name of the section. If empty, default name starts with 'Section_' will be generated and used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'crossSection' and 'diameters' argument do not match.
 
@@ -1213,15 +1218,15 @@ public static void AddSlidingBearingToRBEInEFEntity(this HiddenDocumentMeshFreeB
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add sliding bearing.
 
-`slidingBearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`slidingBearingName` string
 
 The sliding bearing name.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1231,11 +1236,11 @@ The contact type. The default value is outer fix.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearingName' or 'connectable' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1251,15 +1256,15 @@ public static void AddSlidingBearingToRBEInEFEntity(this HiddenDocumentMeshFreeB
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to add sliding bearing.
 
-`slidingBearing` Obj
+`slidingBearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The sliding bearing. The type is <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1269,15 +1274,15 @@ The contact type. The default value is outer fix.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearing' or 'connectable' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'slidingBearing' is not <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1292,15 +1297,15 @@ public static void AddSlidingBearingToRBEInFEEntity(this HiddenDocumentFEBase do
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add sliding bearing.
 
-`slidingBearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`slidingBearingName` string
 
 The sliding bearing name.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1310,11 +1315,11 @@ The contact type. The default value is outer fix.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearingName' or 'connectable' arguments are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1330,15 +1335,15 @@ public static void AddSlidingBearingToRBEInFEEntity(this HiddenDocumentFEBase do
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to add sliding bearing.
 
-`slidingBearing` Obj
+`slidingBearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The sliding bearing. The type is <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1348,15 +1353,15 @@ The contact type. The default value is outer fix.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearing' or 'connectable' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'slidingBearing' is not <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1372,11 +1377,11 @@ public static void AddSlidingBearingToShaftset(this HiddenShaftSetDocument docum
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add sliding bearing.
 
-`slidingBearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`slidingBearingName` string
 
 The sliding bearing name.
 
@@ -1384,7 +1389,7 @@ The sliding bearing name.
 
 The contact type. The default value is inner contact.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -1392,13 +1397,13 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft. The default value is Left
 
-`startAngle` ExpressionValueVariable?
+`startAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The start angle. The default value is 0.0.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearingName' arguments are empty.
 
@@ -1415,11 +1420,11 @@ public static void AddSlidingBearingToShaftset(this HiddenShaftSetDocument docum
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add sliding bearing.
 
-`slidingBearing` Obj
+`slidingBearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The sliding bearing. The type is <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>
 
@@ -1427,7 +1432,7 @@ The sliding bearing. The type is <xref href="VM.Managed.DAFUL.GearTrain.SlidingB
 
 The contact type. The default value is inner contact.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when attached to shaft. The default value is 0.0.
 
@@ -1435,17 +1440,17 @@ The offset when attached to shaft. The default value is 0.0.
 
 The location when attached to shaft. The default value is Left
 
-`startAngle` ExpressionValueVariable?
+`startAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The start angle. The default value is 0.0.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearing' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'slidingBearing' is not <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -1460,17 +1465,17 @@ public static void ComponentAnalysisInShaftSet(this HiddenShaftSetDocument docum
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`openPost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`openPost` bool
 
 The flag for whether opening post processor. The default value is false.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1485,17 +1490,17 @@ public static void ComponentAnalysisInShaftSet(this HiddenDocumentMeshBase docum
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`openPost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`openPost` bool
 
 The flag for whether opening post processor. The default value is false.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1512,11 +1517,11 @@ public static void CreateConceptCarrier(this GearTrainDocument document, Obj gea
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to add concept carrier.
 
-`gearSet` Obj
+`gearSet` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The planetary gearset. The type is <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -1528,15 +1533,15 @@ The position. The default value is 0,0,0.
 
 The rotate axis. The default value is 0,1,0.
 
-`pinionShaftLength` ExpressionValueVariable?
+`pinionShaftLength` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The pinion shaft length. The default value is 100.
 
-`pinionShaftDiameter` ExpressionValueVariable?
+`pinionShaftDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The pinion shaft diameter. The default value is 20.
 
-`carrierThickness` ExpressionValueVariable?
+`carrierThickness` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The carrier thickness. The default value is 3.
 
@@ -1544,38 +1549,38 @@ The carrier thickness. The default value is 3.
 
 The pinion install method type. The default value is Constraint.
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing when 'pinionInstallMethodType' is selected as bearing. The default value is null.
             The type is <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the concept carrier.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'gearSet' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'rotateAxis' is not null and the magnitude of 'rotateAxis' is 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'pinionInstallMethodType' is Bearing and the 'bearing' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'gearSet' is not planetary.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'gearSet' is not IGearSet gearSet.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -1590,23 +1595,23 @@ public static Obj CreateEFShaftset(this GearTrainDocument document, string shaft
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the EF shaft set.
 
-`shaftName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`shaftName` string
 
 The name of the EF shaft set. If empty, default name starts with 'ShaftSet_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetMeshFree" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1621,23 +1626,23 @@ public static Obj CreateFEShaftset(this GearTrainDocument document, string shaft
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the FE shaft set.
 
-`shaftName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`shaftName` string
 
 The name of the FE shaft set. If empty, default name starts with 'ShaftSet_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetFE" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1652,31 +1657,31 @@ public static Obj CreateMeasurePointToShaftset(this HiddenShaftSetDocument docum
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to create measure point.
 
-`measurePointName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`measurePointName` string
 
 The name of the measure point. If empty, default name starts with 'MeasurePt_' will be generated and used.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when add to shaft. The default value is 0.0.
 
-`reference` PointEntityOnShaftSet.ReferenceType
+`reference` [PointEntityOnShaftSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs).[ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs)
 
 The reference type. The default value is Start
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.MeasurePoint" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1694,11 +1699,11 @@ public static Obj CreatePointLoadToRBE(this HiddenDocumentMeshBase document, Obj
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to create point load.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1706,47 +1711,47 @@ The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-no
 
 The z-axis.
 
-`pointLoadName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pointLoadName` string
 
 The name of the point load. If empty, default name starts with 'PointLoad_' will be generated and used.
 
-`forceX` ExpressionValueVariable?
+`forceX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The x-axis force. The default value is 10.0
 
-`forceY` ExpressionValueVariable?
+`forceY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The y-axis force. The default value is 10.0
 
-`forceZ` ExpressionValueVariable?
+`forceZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The z-axis force. The default value is 10.0
 
-`torqueX` ExpressionValueVariable?
+`torqueX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The x-axis torque. The default value is 10.0
 
-`torqueY` ExpressionValueVariable?
+`torqueY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The y-axis torque. The default value is 10.0
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.PointLoadOnRBE" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'connectable' argumenta are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1761,55 +1766,55 @@ public static Obj CreatePointLoadToShaftset(this HiddenShaftSetDocument document
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to create point load.
 
-`pointLoadName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pointLoadName` string
 
 The name of the point load. If empty, default name starts with 'PointLoad_' will be generated and used.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when add to shaft. The default value is 0.0.
 
-`reference` PointEntityOnShaftSet.ReferenceType
+`reference` [PointEntityOnShaftSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs).[ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs)
 
 The reference type. The default value is Start
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width when add to shaft. The default value is 1.0
 
-`forceX` ExpressionValueVariable?
+`forceX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The x-axis force. The default value is 10.0
 
-`forceY` ExpressionValueVariable?
+`forceY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The y-axis force. The default value is 10.0
 
-`forceZ` ExpressionValueVariable?
+`forceZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The z-axis force. The default value is 10.0
 
-`torqueX` ExpressionValueVariable?
+`torqueX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The x-axis torque. The default value is 10.0
 
-`torqueY` ExpressionValueVariable?
+`torqueY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The y-axis torque. The default value is 10.0
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.PointLoad" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1827,11 +1832,11 @@ public static Obj CreatePowerLoadToRBE(this HiddenDocumentMeshBase document, Obj
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to create power load.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1839,35 +1844,35 @@ The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-no
 
 The z-axis.
 
-`powerLoadName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerLoadName` string
 
 The name of the power load. If empty, default name starts with 'PowerLoad_' will be generated and used.
 
-`role` PowerLoad.PowerLoadType
+`role` [PowerLoad](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs).[PowerLoadType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs)
 
 The role type. The default value is Input.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.PowerLoadOnRBE" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' is FE/EF housing.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1882,39 +1887,39 @@ public static Obj CreatePowerloadToShaftset(this HiddenShaftSetDocument document
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to create power load.
 
-`powerLoadName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerLoadName` string
 
 The name of the power load. If empty, default name starts with 'PowerLoad_' will be generated and used.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when add to shaft. The default value is 0.0.
 
-`reference` PointEntityOnShaftSet.ReferenceType
+`reference` [PointEntityOnShaftSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs).[ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs)
 
 The reference type. The default value is Start
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width when add to shaft. The default value is 1.0
 
-`role` PowerLoad.PowerLoadType
+`role` [PowerLoad](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs).[PowerLoadType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs)
 
 The role type. The default value is Input.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.PowerLoad" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1931,7 +1936,7 @@ public static Obj CreateSimpleShaftset(this GearTrainDocument document, Vector p
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the simple shaft set.
 
@@ -1943,43 +1948,43 @@ The position
 
 The rotate axis.
 
-`length` ExpressionValueVariable
+`length` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The length of the simple shaft set
 
-`diameter` ExpressionValueVariable
+`diameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The diameter of the simple shaft set
 
-`shaftName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`shaftName` string
 
 The name of the simple shaft set. If empty, default name starts with 'ShaftSet_' will be generated and used.
 
-`numSection` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numSection` int
 
 The number of section of the simple shaft set. The default value is 3.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the simple shaft set.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'rotateAxis' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'rotateAxis' is 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'length' or 'diameter' or 'numSection' value equal to or less than 0.
 
@@ -1993,7 +1998,7 @@ public static Obj CreateSimpleShaftset(this GearTrainDocument document, Vector p
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the simple shaft set.
 
@@ -2003,13 +2008,13 @@ The position
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -2023,19 +2028,19 @@ public static Obj CreateSimpleShaftset(this GearTrainDocument document)
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the simple shaft set.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -2053,11 +2058,11 @@ public static Obj CreateUnbalanceMassToRBE(this HiddenDocumentMeshBase document,
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to create unbalance mass.
 
-`connectable` Obj
+`connectable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -2065,35 +2070,35 @@ The rbe. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-no
 
 The z-axis.
 
-`unbalanceMassName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`unbalanceMassName` string
 
 The name of the unbalance mass. If empty, default name starts with 'UnbalanceMass_' will be generated and used.
 
-`mass` ExpressionValueVariable?
+`mass` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The mass. The default value is 1.0
 
-`momentArm` ExpressionValueVariable?
+`momentArm` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The moment arm. The default value is 0.0
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMassOnRBE" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'connectable' argumenta are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if magnitude of 'direction' is zero.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -2108,43 +2113,43 @@ public static Obj CreateUnbalanceMassToShaftset(this HiddenShaftSetDocument docu
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to create unbalance mass.
 
-`unbalanceMassName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`unbalanceMassName` string
 
 The name of the unbalance mass. If empty, default name starts with 'UnbalanceMass_' will be generated and used.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset when add to shaft. The default value is 0.0.
 
-`reference` PointEntityOnShaftSet.ReferenceType
+`reference` [PointEntityOnShaftSet](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs).[ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnShaftSet.cs)
 
 The reference type. The default value is Start
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width when add to shaft. The default value is 1.0
 
-`mass` ExpressionValueVariable?
+`mass` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The mass. The default value is 1.0
 
-`momentArm` ExpressionValueVariable?
+`momentArm` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The moment arm. The default value is 0.0
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMass" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -2160,7 +2165,7 @@ public static void ImportMeshIntoFEEntity(this HiddenDocumentFEBase document, TM
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The document to import mesh file.
 
@@ -2168,19 +2173,19 @@ The document to import mesh file.
 
 The transformation matrix for a nodal body.
 
-`feDataFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`feDataFilePath` string
 
 The fe data file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the nodal body.
 
-`modalDataFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`modalDataFilePath` string
 
 The modal data file path.
 
-`useUnit` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useUnit` bool
 
 The unit flag. The default value is false
 
@@ -2196,17 +2201,17 @@ The mass unit. The default value is kg.
 
 The time unit. The default value is sec.
 
-`meshName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`meshName` string
 
 The mesh file name.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' arguments are empty.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'feDataFilePath' does not exist.
 
@@ -2222,7 +2227,7 @@ public static void ImportPartIntoEFEntity(this HiddenDocumentMeshFreeBase docume
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The document to import part file.
 
@@ -2230,7 +2235,7 @@ The document to import part file.
 
 The transformation matrix for a assembled body.
 
-`cadFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`cadFilePath` string
 
 The cad data file path.
 
@@ -2242,7 +2247,7 @@ The cad import result type. The default value is Default.
 
 The cad import unit type. The default value is Auto.
 
-`healing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`healing` bool
 
 The healing flag. The default value is true.
 
@@ -2250,21 +2255,21 @@ The healing flag. The default value is true.
 
 The cad import color. The default value is Default.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the assembled body.
 
-`partName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`partName` string
 
 The part file name.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' arguments are empty.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'cadFilePath' does not exist.
 
@@ -2281,17 +2286,17 @@ public static void SplitSectionInSimpleShaftset(this HiddenShaftSetDocument docu
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add section.
 
-`section` Obj
+`section` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The section to be splitted. The type is CAD.Section.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'section' arguments are empty.
 
@@ -2307,21 +2312,21 @@ public static void SplitSectionInSimpleShaftset(this HiddenShaftSetDocument docu
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The document to add section.
 
-`sectionIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`sectionIndex` int
 
 The section index. The value is zero base.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'section' arguments are empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'sectionIndex' is less than zero or greater than length of section -1.
 
@@ -2338,21 +2343,21 @@ public static void UpdatePointEntity(this HiddenShaftSetDocument document, Obj p
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> to exist point entity.
 
-`pointEntityOnShaftSet` Obj
+`pointEntityOnShaftSet` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The point entity to exist on simple shaftset. The type is <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' 'pointEntityOnShaftSet' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'pointEntityOnShaftSet' is not <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -2369,21 +2374,21 @@ public static void UpdatePointEntityOnRBE(this HiddenDocumentMeshBase document, 
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> to exist point entity.
 
-`pointEntityOnRBE` Obj
+`pointEntityOnRBE` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The point entity to exist on RBE. The type is <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnRBE" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' 'pointEntityOnRBE' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'pointEntityOnRBE' is not <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnRBE" data-throw-if-not-resolved="false"></xref>.
 
@@ -2398,13 +2403,13 @@ public static void UpdateShaftSet(this HiddenShaftSetDocument document)
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> to exist EF shaftset.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 

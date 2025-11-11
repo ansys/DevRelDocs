@@ -1,4 +1,5 @@
-#  Struct NamedSelection
+# Struct NamedSelection
+<a id="VM_Models_FE_Utilities_NamedSelection"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_NamedSelection_NumberOfPatch"></a> NumberOfPatch
 
@@ -27,7 +28,7 @@ public uint NumberOfPatch { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_NamedSelection_Patch"></a> Patch
 

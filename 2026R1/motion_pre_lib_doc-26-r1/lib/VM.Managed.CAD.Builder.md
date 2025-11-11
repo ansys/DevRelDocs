@@ -1,4 +1,5 @@
-#  Class Builder
+# Class Builder
+<a id="VM_Managed_CAD_Builder"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -6,14 +7,14 @@ Assembly: VMAppCore.dll
 This class is to represent the information of builder.
 
 ```csharp
-public abstract class Builder : Object<ObjectEventCore>, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public abstract class Builder : Object<ObjectEventCore>, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [Builder](VM.Managed.CAD.Builder.md)
@@ -38,8 +39,9 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
-[IAttributeContainer](VM.Managed.IAttributeContainer.md)
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+[IAttributeContainer](VM.Managed.IAttributeContainer.md), 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -135,7 +137,7 @@ IHistoryObjectSerializable,
 [ObjectBase.OnDestroying](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnDestroying), 
 [ObjectBase.OnUpdate](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdate), 
 [ObjectBase.OnUpdating](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -176,7 +178,7 @@ public double InitialKernelLengthUnit { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Builder_IsExternable"></a> IsExternable
 
@@ -188,7 +190,7 @@ public override bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Builder_Transparency"></a> Transparency
 
@@ -200,7 +202,7 @@ public virtual double Transparency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Builder_TypeOfBuilder"></a> TypeOfBuilder
 
@@ -212,7 +214,7 @@ public virtual string TypeOfBuilder { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_Builder_Uneditable"></a> Uneditable
 
@@ -224,7 +226,7 @@ public virtual bool Uneditable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -320,7 +322,7 @@ public virtual object Clone()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_CAD_Builder_Contains_System_Type_"></a> Contains\(Type\)
 
@@ -330,11 +332,11 @@ public virtual bool Contains(Type typeBuilder)
 
 #### Parameters
 
-`typeBuilder` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`typeBuilder` Type
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Builder_CopyFilePathWhenImportBuilder_VM_Managed_CAD_Builder_"></a> CopyFilePathWhenImportBuilder\(Builder\)
 
@@ -354,7 +356,7 @@ protected virtual BuilderParamBase CreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_CAD_Builder_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
@@ -364,7 +366,7 @@ protected virtual void FillParameter(BuilderParamBase A_0)
 
 #### Parameters
 
-`A_0` BuilderParamBase
+`A_0` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_CAD_Builder_FindLocal_System_String_"></a> FindLocal\(string\)
 
@@ -374,7 +376,7 @@ public virtual ObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 #### Returns
 
@@ -402,7 +404,7 @@ protected double GetFactorForLength()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The factor.
 
@@ -416,7 +418,7 @@ public BuilderParamBase GetFilledParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 A filled BuilderParameter.
 
@@ -428,9 +430,9 @@ public virtual void GetNameAttribute(string strPrefix, ref List<string> lstName)
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
-`lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstName` List<string\>
 
 ### <a id="VM_Managed_CAD_Builder_GetParentBody"></a> GetParentBody\(\)
 
@@ -452,7 +454,7 @@ protected double GetUnitScale()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Builder_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
@@ -462,11 +464,11 @@ public virtual string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_Builder_GetXmlString"></a> GetXmlString\(\)
 
@@ -476,7 +478,27 @@ public string GetXmlString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
+
+### <a id="VM_Managed_CAD_Builder_HasReplaceableEntity_VM_Models_Pre_IObjectBase_"></a> HasReplaceableEntity\(IObjectBase\)
+
+Gets a value indicating whether this instance has replacable entity.
+
+```csharp
+public virtual bool HasReplaceableEntity(IObjectBase oldObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+#### Returns
+
+ bool
+
+if this instance has replacable entity, the result is true.
 
 ### <a id="VM_Managed_CAD_Builder_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -502,7 +524,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -520,7 +542,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -540,15 +562,39 @@ public virtual bool ReplaceData(string strKey, object data)
 
 #### Parameters
 
-`strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKey` string
 
 The target data information.
 
-`data` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`data` object
 
 The data for replacing.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
+
+### <a id="VM_Managed_CAD_Builder_ReplaceEntity_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_"></a> ReplaceEntity\(IObjectBase, IObjectBase\)
+
+Replace Entity
+
+```csharp
+public virtual bool ReplaceEntity(IObjectBase oldObject, IObjectBase newObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+`newObject` IObjectBase
+
+The new object
+
+#### Returns
+
+ bool
+
+if success, the result is true.
 

@@ -1,4 +1,5 @@
-#  Class AnalysisTransientBatch
+# Class AnalysisTransientBatch
+<a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisTransientBatch : TireAnalysisBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [TireAnalysisBase](VM.Managed.DAFUL.Car.TireAnalysisBase.md) ← 
 [AnalysisTransientBatch](VM.Managed.DAFUL.Car.AnalysisTransientBatch.md)
@@ -89,7 +90,7 @@ protected override double InitialVelocity { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_IsLateral"></a> IsLateral
 
@@ -101,7 +102,7 @@ public bool IsLateral { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_IsLongitudinal"></a> IsLongitudinal
 
@@ -113,7 +114,7 @@ public bool IsLongitudinal { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_LateralInfo"></a> LateralInfo
 
@@ -175,7 +176,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 
@@ -193,7 +194,7 @@ public void GetTestRigMotionUSUBArgument(AnalysisTransientBatch.BatchType type, 
 
 The type.
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The ar parameter.
 

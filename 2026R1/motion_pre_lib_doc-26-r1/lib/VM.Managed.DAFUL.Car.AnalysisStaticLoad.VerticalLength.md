@@ -1,4 +1,5 @@
-#  Class AnalysisStaticLoad.VerticalLength
+# Class AnalysisStaticLoad.VerticalLength
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_VerticalLength"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisStaticLoad.VerticalLength : AnalysisStaticLoad.StaticRoadBa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisStaticLoad.StaticRoadBaseInfo](VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBaseInfo.md) ← 
 [AnalysisStaticLoad.VerticalLength](VM.Managed.DAFUL.Car.AnalysisStaticLoad.VerticalLength.md)
 

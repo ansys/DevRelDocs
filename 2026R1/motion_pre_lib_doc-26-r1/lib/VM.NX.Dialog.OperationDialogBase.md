@@ -1,4 +1,5 @@
-#  Class OperationDialogBase
+# Class OperationDialogBase
+<a id="VM_NX_Dialog_OperationDialogBase"></a>
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  
@@ -9,13 +10,13 @@ public class OperationDialogBase : Form, IStdModelessDialog, IStdDialog
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[MarshalByRefObject](https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject) ← 
-[Component](https://learn.microsoft.com/dotnet/api/system.componentmodel.component) ← 
-[Control](https://learn.microsoft.com/dotnet/api/system.windows.forms.control) ← 
-[ScrollableControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.scrollablecontrol) ← 
-[ContainerControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.containercontrol) ← 
-[Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form) ← 
+object ← 
+MarshalByRefObject ← 
+Component ← 
+Control ← 
+ScrollableControl ← 
+ContainerControl ← 
+Form ← 
 [OperationDialogBase](VM.NX.Dialog.OperationDialogBase.md)
 
 #### Implements
@@ -47,7 +48,7 @@ public EventHandler<CancelEventArgs> OnApply
 
 #### Field Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)\>
+ EventHandler<CancelEventArgs\>
 
 ## Methods
 
@@ -59,7 +60,7 @@ protected override void Dispose(bool disposing)
 
 #### Parameters
 
-`disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disposing` bool
 
 ### <a id="VM_NX_Dialog_OperationDialogBase_Initialize_System_String_"></a> Initialize\(string\)
 
@@ -69,9 +70,9 @@ protected virtual bool Initialize(string strInitInfo)
 
 #### Parameters
 
-`strInitInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitInfo` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

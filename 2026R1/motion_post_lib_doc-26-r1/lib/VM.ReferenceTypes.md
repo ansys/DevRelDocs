@@ -1,9 +1,10 @@
-#  Enum ReferenceTypes
+# Enum ReferenceTypes
+<a id="VM_ReferenceTypes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public enum ReferenceTypes
 ```
 
@@ -24,7 +25,6 @@ Set parametric for Point Link.
 `NONE = 2` 
 
 Can not be parametric.
-
 
 
 

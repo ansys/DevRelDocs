@@ -1,4 +1,5 @@
-#  Class CreateEdgeset
+# Class CreateEdgeset
+<a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -11,7 +12,7 @@ public class CreateEdgeset : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateEdgeset](VM.Managed.DAFUL.FE.Operation.CreateEdgeset.md)
 
@@ -97,7 +98,7 @@ public CreateEdgeset(Document doc, uint[] arnNodeIndex)
 
 `doc` Document
 
-`arnNodeIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`arnNodeIndex` uint\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateEdgeset\(JournalParameter\)
 
@@ -131,7 +132,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 

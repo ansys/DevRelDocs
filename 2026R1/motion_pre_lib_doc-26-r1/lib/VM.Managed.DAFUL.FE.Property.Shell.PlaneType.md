@@ -1,4 +1,5 @@
-#  Enum Shell.PlaneType
+# Enum Shell.PlaneType
+<a id="VM_Managed_DAFUL_FE_Property_Shell_PlaneType"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  

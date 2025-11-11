@@ -1,4 +1,5 @@
-#  Class BallInfo
+# Class BallInfo
+<a id="VM_Managed_DAFUL_Operation_BallInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -9,7 +10,7 @@ public class BallInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BallInfo](VM.Managed.DAFUL.Operation.BallInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public Color Color { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_Operation_BallInfo_Enable"></a> Enable
 
@@ -46,7 +47,7 @@ public bool Enable { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_BallInfo_Name"></a> Name
 
@@ -56,7 +57,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_BallInfo_Radius"></a> Radius
 
@@ -66,7 +67,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Operation_BallInfo_Show"></a> Show
 
@@ -76,5 +77,5 @@ public bool Show { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

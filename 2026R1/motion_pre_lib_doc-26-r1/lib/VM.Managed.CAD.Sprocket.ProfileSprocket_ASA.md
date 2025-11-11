@@ -1,4 +1,5 @@
-#  Class ProfileSprocket\_ASA
+# Class ProfileSprocket\_ASA
+<a id="VM_Managed_CAD_Sprocket_ProfileSprocket_ASA"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -11,7 +12,7 @@ public class ProfileSprocket_ASA : ProfileSprocketBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ProfileSprocketBase](VM.Managed.CAD.Sprocket.ProfileSprocketBase.md) ← 
 [ProfileSprocket\_ASA](VM.Managed.CAD.Sprocket.ProfileSprocket\_ASA.md)
 
@@ -71,5 +72,5 @@ protected override bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

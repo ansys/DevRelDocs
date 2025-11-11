@@ -1,4 +1,5 @@
-#  Class BuilderParamUserDefined
+# Class BuilderParamUserDefined
+<a id="VM_CAD_Builders_BuilderParamUserDefined"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public class BuilderParamUserDefined : BuilderParamBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamUserDefined](VM.CAD.Builders.BuilderParamUserDefined.md)
 
@@ -50,7 +51,7 @@ public string BuildXml { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -64,7 +65,7 @@ public override string ToXmlString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The builder parameter xml string.
 

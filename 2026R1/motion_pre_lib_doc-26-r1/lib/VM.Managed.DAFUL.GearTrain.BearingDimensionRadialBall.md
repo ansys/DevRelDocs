@@ -1,4 +1,5 @@
-#  Class BearingDimensionRadialBall
+# Class BearingDimensionRadialBall
+<a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class BearingDimensionRadialBall : BearingDimensionBase, IObservableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [BearingDimensionBase](VM.Managed.DAFUL.GearTrain.BearingDimensionBase.md) ← 
 [BearingDimensionRadialBall](VM.Managed.DAFUL.GearTrain.BearingDimensionRadialBall.md)
@@ -86,7 +87,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -127,7 +128,7 @@ public ExpressionValueVariable BallDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_BallPitchDiameter"></a> BallPitchDiameter
 
@@ -139,7 +140,7 @@ public ExpressionValueVariable BallPitchDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_InnerRacewayGrooveRadius"></a> InnerRacewayGrooveRadius
 
@@ -151,7 +152,7 @@ public ExpressionValueVariable InnerRacewayGrooveRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_InnerRacewayShoulderDiameter"></a> InnerRacewayShoulderDiameter
 
@@ -163,7 +164,7 @@ public ExpressionValueVariable InnerRacewayShoulderDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_NumberOfBall"></a> NumberOfBall
 
@@ -175,7 +176,7 @@ public ExpressionValueVariable NumberOfBall { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_OuterRacewayGrooveRadius"></a> OuterRacewayGrooveRadius
 
@@ -187,7 +188,7 @@ public ExpressionValueVariable OuterRacewayGrooveRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_OuterRacewayShoulderBore"></a> OuterRacewayShoulderBore
 
@@ -199,7 +200,7 @@ public ExpressionValueVariable OuterRacewayShoulderBore { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC2"></a> RadialInternalClearanceC2
 
@@ -211,7 +212,7 @@ public double RadialInternalClearanceC2 { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC3"></a> RadialInternalClearanceC3
 
@@ -223,7 +224,7 @@ public double RadialInternalClearanceC3 { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC4"></a> RadialInternalClearanceC4
 
@@ -235,7 +236,7 @@ public double RadialInternalClearanceC4 { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC5"></a> RadialInternalClearanceC5
 
@@ -247,7 +248,7 @@ public double RadialInternalClearanceC5 { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceCN"></a> RadialInternalClearanceCN
 
@@ -259,7 +260,7 @@ public double RadialInternalClearanceCN { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceType"></a> RadialInternalClearanceType
 
@@ -283,7 +284,7 @@ public ExpressionValueVariable RadialInternalClearanceUser { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RoundingRadius"></a> RoundingRadius
 
@@ -295,7 +296,7 @@ public ExpressionValueVariable RoundingRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -321,11 +322,11 @@ The raceway type.
 
 The transformation.
 
-`bTruncated` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bTruncated` bool
 
 The truncated falg.
 
-`bReverse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReverse` bool
 
 The reverse direction falg.
 
@@ -343,7 +344,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 

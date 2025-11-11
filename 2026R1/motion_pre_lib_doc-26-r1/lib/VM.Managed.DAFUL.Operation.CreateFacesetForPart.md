@@ -1,4 +1,5 @@
-#  Class CreateFacesetForPart
+# Class CreateFacesetForPart
+<a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateFacesetForPart : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateFacesetForPart](VM.Managed.DAFUL.Operation.CreateFacesetForPart.md)
 
@@ -107,7 +108,7 @@ protected uint[] m_arnFace
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart_m_doc"></a> m\_doc
 
@@ -127,7 +128,7 @@ protected string m_strParent
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -141,7 +142,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -161,5 +162,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

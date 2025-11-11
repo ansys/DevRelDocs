@@ -1,4 +1,5 @@
-#  Class UpdateShaftSet
+# Class UpdateShaftSet
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateShaftSet : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateShaftSet](VM.Managed.DAFUL.GearTrain.Operation.UpdateShaftSet.md)
@@ -102,7 +103,7 @@ public UpdateShaftSet(bool bMerge)
 
 #### Parameters
 
-`bMerge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bMerge` bool
 
 The merge flag.
 
@@ -120,7 +121,7 @@ public UpdateShaftSet(Document3D document3D, bool bMerge)
 
 The document.
 
-`bMerge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bMerge` bool
 
 The merge flag.
 
@@ -150,7 +151,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -172,7 +173,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

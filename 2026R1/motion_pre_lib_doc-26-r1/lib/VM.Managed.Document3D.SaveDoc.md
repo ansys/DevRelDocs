@@ -1,4 +1,5 @@
-#  Delegate Document3D.SaveDoc
+# Delegate Document3D.SaveDoc
+<a id="VM_Managed_Document3D_SaveDoc"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,11 +12,11 @@ public delegate void Document3D.SaveDoc(string strPath, bool bAutoSave, Dictiona
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
-`bAutoSave` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAutoSave` bool
 
-`mapSubPath` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`mapSubPath` Dictionary<string, string\>
 
 #### Extension Methods
 

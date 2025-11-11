@@ -1,4 +1,5 @@
-#  Class ReGenerateRollerOperation
+# Class ReGenerateRollerOperation
+<a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation"></a>
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -11,7 +12,7 @@ public class ReGenerateRollerOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ReGenerateRollerOperation](VM.Managed.CAD.Roller.ReGenerateRollerOperation.md)
 
@@ -87,7 +88,7 @@ public ReGenerateRollerOperation(XmlDocument dom, BuilderRollerBase rollerBody, 
 
 #### Parameters
 
-`dom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`dom` XmlDocument
 
 The DOM.
 
@@ -95,7 +96,7 @@ The DOM.
 
 The roller body.
 
-`bBuilder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBuilder` bool
 
 if set to <code>true</code> [b builder].
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation_ResultBody"></a> ResultBody
 
@@ -159,7 +160,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

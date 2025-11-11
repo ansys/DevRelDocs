@@ -1,4 +1,5 @@
-#  Class INamedImpl
+# Class INamedImpl
+<a id="VM_Managed_INamedImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class INamedImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [INamedImpl](VM.Managed.INamedImpl.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static char NameSeperator { get; set; }
 
 #### Property Value
 
- [char](https://learn.microsoft.com/dotnet/api/system.char)
+ char
 
 ### <a id="VM_Managed_INamedImpl_PredefinedFlag"></a> PredefinedFlag
 
@@ -52,7 +53,7 @@ public static char PredefinedFlag { get; set; }
 
 #### Property Value
 
- [char](https://learn.microsoft.com/dotnet/api/system.char)
+ char
 
 ## Methods
 
@@ -66,7 +67,7 @@ public static void EnsureLocalName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
@@ -80,13 +81,13 @@ public static string GetChildName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The child name
 
@@ -106,7 +107,7 @@ The object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The name
 
@@ -126,7 +127,7 @@ The object has name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The name
 
@@ -140,17 +141,17 @@ public static string GetImportedCADBodyDirectory(string strDir, string strBodyNa
 
 #### Parameters
 
-`strDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDir` string
 
 The directory.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_INamedImpl_GetImportedCADBodyFilePath_System_String_System_String_System_String_"></a> GetImportedCADBodyFilePath\(string, string, string\)
 
@@ -162,21 +163,21 @@ public static string GetImportedCADBodyFilePath(string strDir, string strBodyNam
 
 #### Parameters
 
-`strDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDir` string
 
 The directory.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name
 
-`strExtension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExtension` string
 
 The extension name
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_INamedImpl_GetImportedCADBodyName_VM_Managed_Document_System_String_System_Boolean_"></a> GetImportedCADBodyName\(Document, string, bool\)
 
@@ -192,15 +193,15 @@ public static string GetImportedCADBodyName(Document doc, string strName, bool b
 
 The document.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Object Name
 
-`bAllowDuplication` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAllowDuplication` bool
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The new name
 
@@ -214,13 +215,13 @@ public static string GetNonSymmetricName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The name
 
@@ -234,13 +235,13 @@ public static string GetOwnerFullName(string strFullName)
 
 #### Parameters
 
-`strFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullName` string
 
 The full name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The owner's full name
 
@@ -254,13 +255,13 @@ public static string GetOwnerName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The owner name
 
@@ -274,7 +275,7 @@ public static SymmetricType GetSymmetricTypeFromName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
@@ -294,13 +295,13 @@ public static bool IsChildName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The object has name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The name
 
@@ -318,17 +319,17 @@ public static bool IsExistNameInDoc(IDocument doc, string strName, string strNam
 
 The document.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
-`strNameForMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameForMessage` string
 
 The name for message.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The name
 
@@ -346,13 +347,13 @@ public static bool IsExistNameInDoc(IDocument doc, string strName)
 
 The document.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The name
 
@@ -366,17 +367,17 @@ public static bool IsValidName(string strName, bool showMsg)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Object Name
 
-`showMsg` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`showMsg` bool
 
 Whether show error messages.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified name is valid; otherwise, <code>false</code>.
 
@@ -390,13 +391,13 @@ public static bool IsValidName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Object Name
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified name is valid; otherwise, <code>false</code>.
 
@@ -410,13 +411,13 @@ public static string MakeOppositeSymmetricName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The opposite symmetric name
 
@@ -430,7 +431,7 @@ public static string MakeSymmetricName(string strNameOriginal, SymmetricType typ
 
 #### Parameters
 
-`strNameOriginal` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameOriginal` string
 
 The original name.
 
@@ -440,7 +441,7 @@ The symmetric type.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The name
 

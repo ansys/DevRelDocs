@@ -1,4 +1,5 @@
-#  Interface IContactableGeometry2Dot5D
+# Interface IContactableGeometry2Dot5D
+<a id="VM_Managed_DAFUL_IContactableGeometry2Dot5D"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -48,7 +49,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

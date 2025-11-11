@@ -1,4 +1,5 @@
-#  Class UniteConnector
+# Class UniteConnector
+<a id="VM_Managed_DAFUL_Operation_UniteConnector"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class UniteConnector : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UniteConnector](VM.Managed.DAFUL.Operation.UniteConnector.md)
 
@@ -107,7 +108,7 @@ public UniteConnector(IDocument doc, IEnumerable<IObject> selectedBody)
 
 `doc` IDocument
 
-`selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+`selectedBody` IEnumerable<IObject\>
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteConnector__ctor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_Models_Pre_IObject__System_Double_"></a> UniteConnector\(IDocument, IEnumerable<IObject\>, double\)
 
@@ -119,9 +120,9 @@ public UniteConnector(IDocument doc, IEnumerable<IObject> selectedBody, double d
 
 `doc` IDocument
 
-`selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+`selectedBody` IEnumerable<IObject\>
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteConnector__ctor_VM_Managed_Operation_JournalParameter_"></a> UniteConnector\(JournalParameter\)
 
@@ -143,7 +144,7 @@ protected bool m_bSkipWriteJournal
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -155,7 +156,7 @@ public IEnumerable<IHasID> CreatedEntities { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IHasID\>
+ IEnumerable<IHasID\>
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteConnector_Name"></a> Name
 
@@ -167,7 +168,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteConnector_SelectedBody"></a> SelectedBody
 
@@ -177,7 +178,7 @@ public IList<IObject> SelectedBody { get; set; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<IObject\>
+ IList<IObject\>
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteConnector_Tolerance"></a> Tolerance
 
@@ -187,7 +188,7 @@ public double Tolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -207,7 +208,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteConnector_Unite"></a> Unite\(\)
 

@@ -1,4 +1,5 @@
-#  Class HOLLOW\_RECTANGULAR
+# Class HOLLOW\_RECTANGULAR
+<a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR"></a>
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  
@@ -9,7 +10,7 @@ public class HOLLOW_RECTANGULAR : CrossSectionBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CrossSectionBase](VM.Managed.DAFUL.Beam.CrossSectionBase.md) ← 
 [HOLLOW\_RECTANGULAR](VM.Managed.DAFUL.Beam.HOLLOW\_RECTANGULAR.md)
 
@@ -83,7 +84,7 @@ public double m_Asy { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_m_Asz"></a> m\_Asz
 
@@ -93,7 +94,7 @@ public double m_Asz { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_n_Asy"></a> n\_Asy
 
@@ -103,7 +104,7 @@ public double n_Asy { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_n_Asz"></a> n\_Asz
 
@@ -113,7 +114,7 @@ public double n_Asz { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -125,13 +126,13 @@ public override double[] GenerateMultiSection(double[] dSInfo, int ElementCount)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`ElementCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`ElementCount` int
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GenerateOneSection_System_Double___"></a> GenerateOneSection\(double\[\]\)
 
@@ -141,11 +142,11 @@ public override double[] GenerateOneSection(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GeneratePostConnectivities_System_Int32_System_Int32____System_Int32____"></a> GeneratePostConnectivities\(int, ref int\[\], ref int\[\]\)
 
@@ -155,15 +156,15 @@ public override int GeneratePostConnectivities(int RenderingType, ref int[] iENo
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
-`iENodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`iENodes` int\[\]
 
-`iStartENodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`iStartENodes` int\[\]
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GeneratePostOneSection_System_Double___System_Int32_"></a> GeneratePostOneSection\(double\[\], int\)
 
@@ -173,13 +174,13 @@ public override double[] GeneratePostOneSection(double[] dSInfo, int RenderingTy
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetArea_System_Double___"></a> GetArea\(double\[\]\)
 
@@ -189,11 +190,11 @@ public override double GetArea(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetAsy_System_Double___System_Double_"></a> GetAsy\(double\[\], double\)
 
@@ -203,13 +204,13 @@ public override double GetAsy(double[] dSInfo, double dPoissonRatio)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetAsz_System_Double___System_Double_"></a> GetAsz\(double\[\], double\)
 
@@ -219,13 +220,13 @@ public override double GetAsz(double[] dSInfo, double dPoissonRatio)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetIyy_System_Double___"></a> GetIyy\(double\[\]\)
 
@@ -235,11 +236,11 @@ public override double GetIyy(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetIzz_System_Double___"></a> GetIzz\(double\[\]\)
 
@@ -249,11 +250,11 @@ public override double GetIzz(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetJyy_System_Double_System_Double___System_Double_System_Double_"></a> GetJyy\(double, double\[\], double, double\)
 
@@ -263,17 +264,17 @@ public override double GetJyy(double dMass, double[] dSInfo, double dDensity, do
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetJyy_System_Double___System_Double_System_Double_"></a> GetJyy\(double\[\], double, double\)
 
@@ -283,15 +284,15 @@ public override double GetJyy(double[] dSInfo, double dDensity, double dLength)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetJzz_System_Double_System_Double___System_Double_System_Double_"></a> GetJzz\(double, double\[\], double, double\)
 
@@ -301,17 +302,17 @@ public override double GetJzz(double dMass, double[] dSInfo, double dDensity, do
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetJzz_System_Double___System_Double_System_Double_"></a> GetJzz\(double\[\], double, double\)
 
@@ -321,15 +322,15 @@ public override double GetJzz(double[] dSInfo, double dDensity, double dLength)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetNumSideEdges_System_Int32_"></a> GetNumSideEdges\(int\)
 
@@ -339,11 +340,11 @@ public override int GetNumSideEdges(int RenderingType = 1)
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetNumTotalElements_System_Int32_"></a> GetNumTotalElements\(int\)
 
@@ -353,11 +354,11 @@ public override int GetNumTotalElements(int RenderingType = 1)
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetNumTotalNodes_System_Int32_"></a> GetNumTotalNodes\(int\)
 
@@ -367,11 +368,11 @@ public override int GetNumTotalNodes(int RenderingType = 1)
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_GetSphereBodyRadius_System_Double___"></a> GetSphereBodyRadius\(double\[\]\)
 
@@ -381,11 +382,11 @@ public override double GetSphereBodyRadius(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_SetVariablesFromArray2Local_System_Double___"></a> SetVariablesFromArray2Local\(double\[\]\)
 
@@ -395,7 +396,7 @@ protected override void SetVariablesFromArray2Local(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_HOLLOW_RECTANGULAR_TranslateNastran2DAFUL_System_Double___"></a> TranslateNastran2DAFUL\(double\[\]\)
 
@@ -405,9 +406,9 @@ public override double[] TranslateNastran2DAFUL(double[] dNastran)
 
 #### Parameters
 
-`dNastran` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dNastran` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 

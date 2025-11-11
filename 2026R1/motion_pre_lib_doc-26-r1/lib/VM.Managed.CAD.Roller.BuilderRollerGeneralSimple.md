@@ -1,4 +1,5 @@
-#  Class BuilderRollerGeneralSimple
+# Class BuilderRollerGeneralSimple
+<a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple"></a>
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -6,14 +7,14 @@ Assembly: VMDRoller.dll
 The general roller builder class.
 
 ```csharp
-public class BuilderRollerGeneralSimple : BuilderRollerBase, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public class BuilderRollerGeneralSimple : BuilderRollerBase, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -37,8 +38,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
-IAttributeContainer
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IAttributeContainer, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -83,6 +85,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -186,7 +190,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -227,7 +231,7 @@ protected List<VectorBase> lstBottom
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_lstRadius"></a> lstRadius
 
@@ -239,7 +243,7 @@ protected List<double> lstRadius
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ List<double\>
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_lstTop"></a> lstTop
 
@@ -251,7 +255,7 @@ protected List<VectorBase> lstTop
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ## Properties
 
@@ -275,7 +279,7 @@ public List<BuilderRollerGeneralSimple.RollerWidthDiameter> Rollers { get; set; 
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[BuilderRollerGeneralSimple](VM.Managed.CAD.Roller.BuilderRollerGeneralSimple.md).[RollerWidthDiameter](VM.Managed.CAD.Roller.BuilderRollerGeneralSimple.RollerWidthDiameter.md)\>
+ List<[BuilderRollerGeneralSimple](VM.Managed.CAD.Roller.BuilderRollerGeneralSimple.md).[RollerWidthDiameter](VM.Managed.CAD.Roller.BuilderRollerGeneralSimple.RollerWidthDiameter.md)\>
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_TypeOfBuilder"></a> TypeOfBuilder
 
@@ -285,7 +289,7 @@ public override string TypeOfBuilder { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -305,7 +309,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_GetGeneralRollerInfo_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_Double__"></a> GetGeneralRollerInfo\(List<double\>, List<double\>\)
 
@@ -315,9 +319,9 @@ public void GetGeneralRollerInfo(List<double> lstWidth, List<double> lstDiameter
 
 #### Parameters
 
-`lstWidth` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstWidth` List<double\>
 
-`lstDiameter` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstDiameter` List<double\>
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_SetGeneralRollerInfo_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_Double__"></a> SetGeneralRollerInfo\(List<double\>, List<double\>\)
 
@@ -327,7 +331,7 @@ public void SetGeneralRollerInfo(List<double> lstWidth, List<double> lstDiameter
 
 #### Parameters
 
-`lstWidth` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstWidth` List<double\>
 
-`lstDiameter` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstDiameter` List<double\>
 

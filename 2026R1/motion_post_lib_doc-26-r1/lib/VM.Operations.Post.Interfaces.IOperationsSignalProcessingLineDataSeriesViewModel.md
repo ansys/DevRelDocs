@@ -1,11 +1,12 @@
-#  Interface IOperationsSignalProcessingLineDataSeriesViewModel
+# Interface IOperationsSignalProcessingLineDataSeriesViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents a view model for the signalprocessing line data series.
 
-```python
+```csharp
 public interface IOperationsSignalProcessingLineDataSeriesViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsSignalProcessingLineDataSeriesViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsSignalProcessingLineDataSeriesViewModel.py
+```python
+# IOperationsSignalProcessingLineDataSeriesViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,19 +37,28 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set array about combination of characteristic and component
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -101,7 +114,7 @@ page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -109,13 +122,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the value of the cut-off frequency.
 
-```python
+```csharp
 double CutOffFrequency { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -129,7 +142,7 @@ Use this property to specify or retrieve the value of the cut-off frequency.
 
 Gets or sets the filtering type of signal processing.
 
-```python
+```csharp
 FilteringType FilteringType { get; set; }
 ```
 
@@ -151,7 +164,7 @@ The supported types are:
 
 Gets or sets the type of frequency axis.
 
-```python
+```csharp
 FrequencyAxisType FrequencyAxisType { get; set; }
 ```
 
@@ -173,13 +186,13 @@ The supported types are:
 
 Gets or sets the value of the high cut-off frequency.
 
-```python
+```csharp
 double HighCutOffFrequency { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -193,13 +206,13 @@ Use this property to specify or retrieve the value of the high cut-off frequency
 
 Gets or sets the value of the low cut-off frequency.
 
-```python
+```csharp
 double LowCutOffFrequency { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -213,13 +226,13 @@ Use this property to specify or retrieve the value of the low cut-off frequency.
 
 Gets or sets the order of the filter, which represents the points of the window.
 
-```python
+```csharp
 int Order { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Examples
 
@@ -233,13 +246,13 @@ Use this property to specify or retrieve the order of the filter, which determin
 
 Gets or sets the points of the window.
 
-```python
+```csharp
 int PointsOfWindow { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Examples
 
@@ -253,13 +266,13 @@ Use this property to specify or retrieve the points of the window.
 
 Gets or sets the value of the polynomial order.
 
-```python
+```csharp
 int PolynomialOrder { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Examples
 
@@ -273,7 +286,7 @@ Use this property to specify or retrieve the value of the polynomial order.
 
 Gets or sets the type of signal processing.
 
-```python
+```csharp
 SignalProcessingType SignalProcessingType { get; set; }
 ```
 
@@ -295,7 +308,7 @@ The supported types are:
 
 Gets or sets the type of smoothing.
 
-```python
+```csharp
 SmoothingType SmoothingType { get; set; }
 ```
 
@@ -317,7 +330,7 @@ The supported types are:
 
 Gets or sets the type of weighting.
 
-```python
+```csharp
 WeightingType WeightingType { get; set; }
 ```
 
@@ -334,5 +347,4 @@ For an example that includes this property, see the [Interface IOperationsSignal
 Use this property to specify or retrieve the type of weighting.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.WeightingType.AWeighting" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.WeightingType.BWeighting" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.WeightingType.CWeighting" data-throw-if-not-resolved="false"></xref></li></ul>
-
 

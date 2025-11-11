@@ -1,4 +1,5 @@
-#  Class CommandStepItem
+# Class CommandStepItem
+<a id="VM_Models_CommandStepItem"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -9,7 +10,7 @@ public abstract class CommandStepItem : ObservableObject, IObservableObject, IDi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
 [CommandStepItem](VM.Models.CommandStepItem.md)
 
@@ -61,7 +62,7 @@ public ICommand Command { get; protected set; }
 
 #### Property Value
 
- [ICommand](https://learn.microsoft.com/dotnet/api/system.windows.input.icommand)
+ ICommand
 
 ### <a id="VM_Models_CommandStepItem_DisplayName"></a> DisplayName
 
@@ -71,7 +72,7 @@ public string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_CommandStepItem_Icon"></a> Icon
 
@@ -81,7 +82,7 @@ public object Icon { get; protected set; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Models_CommandStepItem_IsEnabled"></a> IsEnabled
 
@@ -91,7 +92,7 @@ public bool IsEnabled { get; protected set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_CommandStepItem_IsVisible"></a> IsVisible
 
@@ -101,7 +102,7 @@ public bool IsVisible { get; protected set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_CommandStepItem_Name"></a> Name
 
@@ -111,7 +112,7 @@ public abstract string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_CommandStepItem_Parent"></a> Parent
 
@@ -131,7 +132,7 @@ public string ToolTip { get; protected set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

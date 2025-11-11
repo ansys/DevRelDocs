@@ -1,4 +1,5 @@
-#  Class UpdateSlidingBearingInFE
+# Class UpdateSlidingBearingInFE
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateSlidingBearingInFE : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateSlidingBearingInFE](VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInFE.md)
 
@@ -91,11 +92,11 @@ public UpdateSlidingBearingInFE(string strBearingGeometryName, string strRBEName
 
 #### Parameters
 
-`strBearingGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearingGeometryName` string
 
 Name of the string bearing geometry.
 
-`strRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEName` string
 
 Name of the string rbe.
 
@@ -113,11 +114,11 @@ public UpdateSlidingBearingInFE(Document3D document3D, string strBearingGeometry
 
 The document.
 
-`strBearingGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearingGeometryName` string
 
 Name of the string bearing geometry.
 
-`strRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEName` string
 
 Name of the string rbe.
 
@@ -147,7 +148,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -169,7 +170,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

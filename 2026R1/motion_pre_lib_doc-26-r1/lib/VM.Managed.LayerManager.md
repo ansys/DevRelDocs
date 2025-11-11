@@ -1,4 +1,5 @@
-#  Class LayerManager
+# Class LayerManager
+<a id="VM_Managed_LayerManager"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public sealed class LayerManager : Object<ObjectEventCore>, IObservableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [LayerManager](VM.Managed.LayerManager.md)
@@ -32,7 +33,7 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IAttributeContainer](VM.Managed.IAttributeContainer.md), 
 IPostDeserialized
 
@@ -151,7 +152,7 @@ public ICollection<Layer> Layers { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Layer](VM.Managed.Layer.md)\>
+ ICollection<[Layer](VM.Managed.Layer.md)\>
 
 ## Methods
 
@@ -177,7 +178,7 @@ protected override sealed void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 <p>The sender.</p>
 

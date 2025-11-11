@@ -1,4 +1,5 @@
-#  Class EntityType
+# Class EntityType
+<a id="VM_Models_Pre_EntityType"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public class EntityType
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EntityType](VM.Models.Pre.EntityType.md)
 
 #### Extension Methods
@@ -29,17 +30,17 @@ public EntityType(string typeName, string displayName, MainTypes mainType, SubTy
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
-`displayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`displayName` string
 
 `mainType` [MainTypes](VM.Models.Pre.MainTypes.md)
 
 `subType` [SubTypes](VM.Models.Pre.SubTypes.md)
 
-`mainTypeAbbreviation` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`mainTypeAbbreviation` string
 
-`subTypeAbbreviation` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`subTypeAbbreviation` string
 
 ## Properties
 
@@ -51,7 +52,7 @@ public string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_EntityType_MainType"></a> MainType
 
@@ -72,7 +73,7 @@ public string MainTypeAbbreviation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_EntityType_SubType"></a> SubType
 
@@ -93,7 +94,7 @@ public string SubTypeAbbreviation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_EntityType_TypeName"></a> TypeName
 
@@ -103,7 +104,7 @@ public string TypeName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -115,11 +116,11 @@ public static bool TryGetEntityType(string typeName, out EntityType entityType)
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
 `entityType` [EntityType](VM.Models.Pre.EntityType.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

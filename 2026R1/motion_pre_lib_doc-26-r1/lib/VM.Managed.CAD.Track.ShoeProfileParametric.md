@@ -1,4 +1,5 @@
-#  Class ShoeProfileParametric
+# Class ShoeProfileParametric
+<a id="VM_Managed_CAD_Track_ShoeProfileParametric"></a>
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +12,7 @@ public abstract class ShoeProfileParametric : ShoeProfileBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShoeProfileBase](VM.Managed.CAD.Track.ShoeProfileBase.md) ← 
 [ShoeProfileParametric](VM.Managed.CAD.Track.ShoeProfileParametric.md)
 
@@ -62,7 +63,7 @@ public double FirstGH { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_FirstGLW"></a> FirstGLW
 
@@ -74,7 +75,7 @@ public double FirstGLW { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_FirstGUW"></a> FirstGUW
 
@@ -86,7 +87,7 @@ public double FirstGUW { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_LDP1"></a> LDP1
 
@@ -98,7 +99,7 @@ public double LDP1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_LDP2"></a> LDP2
 
@@ -110,7 +111,7 @@ public double LDP2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_LDQ1"></a> LDQ1
 
@@ -122,7 +123,7 @@ public double LDQ1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_RP1"></a> RP1
 
@@ -134,7 +135,7 @@ public double RP1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_RP2"></a> RP2
 
@@ -146,7 +147,7 @@ public double RP2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_RQ1"></a> RQ1
 
@@ -158,7 +159,7 @@ public double RQ1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_ShoeDistance1"></a> ShoeDistance1
 
@@ -170,7 +171,7 @@ public double ShoeDistance1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_VDP1"></a> VDP1
 
@@ -182,7 +183,7 @@ public double VDP1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_VDP2"></a> VDP2
 
@@ -194,7 +195,7 @@ public double VDP2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_VDQ1"></a> VDQ1
 
@@ -206,7 +207,7 @@ public double VDQ1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -232,7 +233,7 @@ protected List<VectorBase> Claculation_TangentPoint_Between_Two_Circle(VectorBas
 
 The center position of reference
 
-`dR1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR1` double
 
 The radius of reference.
 
@@ -240,13 +241,13 @@ The radius of reference.
 
 The center position.
 
-`dR2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR2` double
 
 The radius.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 The list of points
 
@@ -260,7 +261,7 @@ protected override bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_GetAngleUsingCosine2Law_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetAngleUsingCosine2Law\(VectorBase, VectorBase, VectorBase\)
 
@@ -286,7 +287,7 @@ Point C
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 angle value
 
@@ -304,17 +305,17 @@ protected double[] GetX_UsingEquationOfCircle(VectorBase vecCP, double _dy, doub
 
 Center position of circle
 
-`_dy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_dy` double
 
 y-value
 
-`_radius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_radius` double
 
 radius
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 x-value array
 
@@ -332,17 +333,17 @@ protected double[] GetY_UsingEquationOfCircle(VectorBase vecCP, double _dx, doub
 
 Center position of circle
 
-`_dx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_dx` double
 
 x-value
 
-`_radius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_radius` double
 
 radius
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 y-value array
 

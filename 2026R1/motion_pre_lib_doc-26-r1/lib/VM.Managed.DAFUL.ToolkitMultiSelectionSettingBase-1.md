@@ -1,4 +1,5 @@
-#  Class ToolkitMultiSelectionSettingBase<T\>
+# Class ToolkitMultiSelectionSettingBase<T\>
+<a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,9 +18,9 @@ Multi-item enumerator, class, etc...
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [ToolKitSettingBase](VM.Managed.DAFUL.ToolKitSettingBase.md) ← 
 [ToolkitMultiSelectionSettingBase<T\>](VM.Managed.DAFUL.ToolkitMultiSelectionSettingBase\-1.md)
@@ -88,7 +89,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -167,7 +168,7 @@ The object to find.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether it contains the object.
 
@@ -207,7 +208,7 @@ The object to remove.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether it is success to remove the object.
 
@@ -249,7 +250,7 @@ The selection of the object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether it is success to set the selection.
 

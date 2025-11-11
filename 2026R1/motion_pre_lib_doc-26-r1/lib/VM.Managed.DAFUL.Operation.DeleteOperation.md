@@ -1,4 +1,5 @@
-#  Class DeleteOperation
+# Class DeleteOperation
+<a id="VM_Managed_DAFUL_Operation_DeleteOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class DeleteOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [DeleteOperation](VM.Managed.DAFUL.Operation.DeleteOperation.md)
 
@@ -97,7 +98,7 @@ public DeleteOperation(Document3D doc3D, bool bNotDelMsg)
 
 `doc3D` Document3D
 
-`bNotDelMsg` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNotDelMsg` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_DeleteOperation__ctor_VM_Managed_Document3D_System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__"></a> DeleteOperation\(Document3D, IEnumerable<ObjectBase\>\)
 
@@ -109,7 +110,7 @@ public DeleteOperation(Document3D document3D, IEnumerable<ObjectBase> objectBase
 
 `document3D` Document3D
 
-`objectBases` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
+`objectBases` IEnumerable<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_Operation_DeleteOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> DeleteOperation\(JournalParameter\)
 
@@ -133,7 +134,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_DeleteOperation_Result"></a> Result
 
@@ -143,7 +144,7 @@ public bool Result { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -163,5 +164,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

@@ -1,4 +1,5 @@
-#  Interface IPropertyBeam
+# Interface IPropertyBeam
+<a id="VM_Models_FE_Mesh_IPropertyBeam"></a>
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -37,7 +38,7 @@ double YX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_IPropertyBeam_YY"></a> YY
 
@@ -47,7 +48,7 @@ double YY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_IPropertyBeam_YZ"></a> YZ
 
@@ -57,5 +58,5 @@ double YZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

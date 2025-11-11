@@ -1,4 +1,5 @@
-#  Class PartDocument
+# Class PartDocument
+<a id="VM_Managed_DAFUL_PartDocument"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class PartDocument : DocumentAnalysis, IObservableObject, IDisposableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 Document ← 
@@ -31,7 +32,7 @@ ILinkContainerEvent,
 IVerifiable, 
 IEnableManager, 
 IRelatedDocument, 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 ITemplateDocument, 
 ITreatValidObject, 
 IDocumentAnalysis, 
@@ -184,8 +185,6 @@ Document3D.EraseAllDisplayObject\(\),
 Document3D.ImportCADBody\(BuilderImport\[\]\), 
 Document3D.ReAssemblyCore\(\), 
 Document3D.ReAssemblyImpl\(ObjectBase\), 
-Document3D.StartCADImportLog\(string\), 
-Document3D.EndCADImportLog\(\), 
 Document3D.ClearDocument\(\), 
 Document3D.SkipDelete\(ObjectBase\), 
 Document3D.RepairImpl\(\), 
@@ -196,9 +195,9 @@ Document3D.GetBodies\(ref List<ObjectBase\>\),
 Document3D.CheckBeforeSave\(\), 
 Document3D.LinkRequestUpdate\(object, LinkEventArgs\), 
 Document3D.FindBodyFromCADBody\(ObjectBase\), 
-Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string\), 
+Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string, string, string, string\), 
 Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string\), 
-Document3D.ExportCADFile\(string, string, string\), 
+Document3D.ExportCADFile\(string, string, string, string, string, string\), 
 Document3D.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\), 
 Document3D.SkipShowHide\(ObjectBase\), 
 Document3D.WriteMessageForShowHide\(\), 
@@ -212,12 +211,9 @@ Document3D.ChildAdd\(ObjectBase, string\),
 Document3D.ChildRemove\(ObjectBase, string\), 
 Document3D.ChildUpdate\(ObjectBase, string\), 
 Document3D.ChildRename\(ObjectBase, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, Document3D.CadImportUnitType\), 
-Document3D.LoadCADFile\(string, Color, Document3D.CadImportResultType\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType\), 
-Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, ref BuilderImport\[\]\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string, string, string, string\), 
+Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string, ref BuilderImport\[\]\), 
 Document3D.SetSelectionObject\(List<ObjectBase\>\), 
 Document3D.ExistUnderCursor\(\), 
 Document3D.ActiveObject\(List<ObjectBase\>\), 
@@ -495,7 +491,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -526,7 +522,7 @@ public PartDocument(UIntPtr docCore)
 
 #### Parameters
 
-`docCore` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`docCore` UIntPtr
 
 The document handle.
 
@@ -542,7 +538,7 @@ public string DFMFFilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_PartDocument_InitialCategories"></a> InitialCategories
 
@@ -554,7 +550,7 @@ protected override List<string> InitialCategories { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_PartDocument_LastModifiedTimeToDFMFFile"></a> LastModifiedTimeToDFMFFile
 
@@ -566,7 +562,7 @@ public string LastModifiedTimeToDFMFFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_PartDocument_MassPropertyInfo"></a> MassPropertyInfo
 
@@ -590,7 +586,7 @@ public double MaxDistance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_PartDocument_Modes"></a> Modes
 
@@ -626,7 +622,7 @@ public static bool SkipCheckDFMFFile { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_PartDocument__ReferenceFrame"></a> \_ReferenceFrame
 
@@ -670,7 +666,7 @@ public void CalcBoundingBox(IDesignFrame designFrame, ref double[] arResult)
 
 The design frame.
 
-`arResult` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arResult` double\[\]
 
 The ar result.
 
@@ -698,13 +694,13 @@ public override string FindCategory(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The type.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The category.
 
@@ -718,7 +714,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the STR.
 
@@ -736,7 +732,7 @@ public override void GetCADBodyNameAttribute(ref List<string> lstName)
 
 #### Parameters
 
-`lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstName` List<string\>
 
 The output CAD body name attributes.
 
@@ -750,7 +746,7 @@ public override void GetData(XmlNode writer)
 
 #### Parameters
 
-`writer` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`writer` XmlNode
 
 The writer.
 
@@ -776,7 +772,7 @@ public override string GetSimulationConfigurationType()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The type of the simulation configuration.
 
@@ -790,13 +786,13 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 The unnamed object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The unnamed object name.
 
@@ -824,7 +820,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 The category name.
 
@@ -846,7 +842,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The ob notifier.
 
@@ -864,7 +860,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -878,7 +874,7 @@ protected override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 #### Parameters
 
-`info` DocCreateAnalysisInfo
+`info` [DocCreateAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs)
 
 The information of document creation.
 
@@ -946,7 +942,7 @@ public void SetDFMFFilePath(string strDFMFFilePath)
 
 #### Parameters
 
-`strDFMFFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFMFFilePath` string
 
 The dfmf file path.
 
@@ -960,7 +956,7 @@ public override void SetData(XmlNode reader)
 
 #### Parameters
 
-`reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`reader` XmlNode
 
 The reader.
 

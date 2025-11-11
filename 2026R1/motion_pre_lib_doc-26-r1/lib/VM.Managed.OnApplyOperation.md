@@ -1,4 +1,5 @@
-#  Class OnApplyOperation
+# Class OnApplyOperation
+<a id="VM_Managed_OnApplyOperation"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class OnApplyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OnApplyOperation](VM.Managed.OnApplyOperation.md)
 
@@ -88,7 +89,7 @@ public OnApplyOperation(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 ## Fields
 
@@ -116,7 +117,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_OnApplyOperation_Success"></a> Success
 
@@ -128,7 +129,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

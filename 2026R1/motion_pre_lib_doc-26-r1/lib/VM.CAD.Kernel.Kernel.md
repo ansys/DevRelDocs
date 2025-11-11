@@ -1,4 +1,5 @@
-#  Class Kernel
+# Class Kernel
+<a id="VM_CAD_Kernel_Kernel"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class Kernel : KernelObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Kernel](VM.CAD.Kernel.Kernel.md)
 
@@ -41,9 +42,9 @@ public Kernel(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Methods
 
@@ -55,9 +56,9 @@ public IDisposable UseSession(string strSessionName)
 
 #### Parameters
 
-`strSessionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSessionName` string
 
 #### Returns
 
- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+ IDisposable
 

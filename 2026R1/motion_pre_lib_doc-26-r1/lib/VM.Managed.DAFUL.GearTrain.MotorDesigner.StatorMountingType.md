@@ -1,4 +1,5 @@
-#  Enum MotorDesigner.StatorMountingType
+# Enum MotorDesigner.StatorMountingType
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorMountingType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

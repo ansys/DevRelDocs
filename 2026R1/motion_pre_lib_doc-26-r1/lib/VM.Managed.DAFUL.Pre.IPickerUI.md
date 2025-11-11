@@ -1,4 +1,5 @@
-#  Interface IPickerUI
+# Interface IPickerUI
+<a id="VM_Managed_DAFUL_Pre_IPickerUI"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -35,17 +36,17 @@ UserControl GetPickerUI(string strInformation, bool bUseAutoPick)
 
 #### Parameters
 
-`strInformation` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInformation` string
 
 The STR information.
 
-`bUseAutoPick` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseAutoPick` bool
 
 if set to <code>true</code> [b use auto pick].
 
 #### Returns
 
- [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.usercontrol)
+ UserControl
 
 ### <a id="VM_Managed_DAFUL_Pre_IPickerUI_OnCancel"></a> OnCancel\(\)
 
@@ -81,7 +82,7 @@ void SetTitleName(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name.
 

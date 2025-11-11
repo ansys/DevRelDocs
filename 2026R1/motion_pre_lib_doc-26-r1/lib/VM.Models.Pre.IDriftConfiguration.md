@@ -1,4 +1,5 @@
-#  Interface IDriftConfiguration
+# Interface IDriftConfiguration
+<a id="VM_Models_Pre_IDriftConfiguration"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

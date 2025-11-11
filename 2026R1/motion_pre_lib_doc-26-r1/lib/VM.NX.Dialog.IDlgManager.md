@@ -1,4 +1,5 @@
-#  Interface IDlgManager
+# Interface IDlgManager
+<a id="VM_NX_Dialog_IDlgManager"></a>
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -23,7 +24,7 @@ void CloseAllDialog(object doc)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
 ### <a id="VM_NX_Dialog_IDlgManager_CloseDialog_System_Object_System_Int32_"></a> CloseDialog\(object, int\)
 
@@ -33,9 +34,9 @@ void CloseDialog(object doc, int nIDDialog)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`nIDDialog` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIDDialog` int
 
 ### <a id="VM_NX_Dialog_IDlgManager_CloseDocumentPropertyDialog_System_Object_System_Int32_"></a> CloseDocumentPropertyDialog\(object, int\)
 
@@ -45,9 +46,9 @@ void CloseDocumentPropertyDialog(object doc, int nIDDialog)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`nIDDialog` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIDDialog` int
 
 ### <a id="VM_NX_Dialog_IDlgManager_CloseMultiDialog_System_Object_System_Int32_"></a> CloseMultiDialog\(object, int\)
 
@@ -57,9 +58,9 @@ void CloseMultiDialog(object doc, int nIDDialog)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`nIDDialog` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIDDialog` int
 
 ### <a id="VM_NX_Dialog_IDlgManager_GetCountOpendDialog_System_Object_"></a> GetCountOpendDialog\(object\)
 
@@ -69,11 +70,11 @@ int GetCountOpendDialog(object doc)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_NX_Dialog_IDlgManager_GetForm_System_String_"></a> GetForm\(string\)
 
@@ -83,11 +84,11 @@ Form GetForm(string strFullName)
 
 #### Parameters
 
-`strFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullName` string
 
 #### Returns
 
- [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+ Form
 
 ### <a id="VM_NX_Dialog_IDlgManager_GetXmlData_System_Object_"></a> GetXmlData\(object\)
 
@@ -97,11 +98,11 @@ string GetXmlData(object doc)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_NX_Dialog_IDlgManager_IsOpenDocumentPropertyDialog_System_Object_"></a> IsOpenDocumentPropertyDialog\(object\)
 
@@ -111,11 +112,11 @@ bool IsOpenDocumentPropertyDialog(object doc)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IDlgManager_IsOpenPropertyDialog_System_Object_System_UIntPtr_"></a> IsOpenPropertyDialog\(object, UIntPtr\)
 
@@ -125,13 +126,13 @@ bool IsOpenPropertyDialog(object doc, UIntPtr obj)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IDlgManager_IsUsePropertyDialog_System_UIntPtr_"></a> IsUsePropertyDialog\(UIntPtr\)
 
@@ -141,11 +142,11 @@ bool IsUsePropertyDialog(UIntPtr obj)
 
 #### Parameters
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenDocumentPropertyDialog_System_Object_"></a> OpenDocumentPropertyDialog\(object\)
 
@@ -155,11 +156,11 @@ int OpenDocumentPropertyDialog(object doc)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenMarkerInformation_System_UIntPtr_"></a> OpenMarkerInformation\(UIntPtr\)
 
@@ -169,7 +170,7 @@ void OpenMarkerInformation(UIntPtr KeyObject)
 
 #### Parameters
 
-`KeyObject` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`KeyObject` UIntPtr
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenModelessDialog_System_Object_System_String_System_String_"></a> OpenModelessDialog\(object, string, string\)
 
@@ -179,15 +180,15 @@ Form OpenModelessDialog(object doc, string strType, string strInitInfo)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
-`strInitInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitInfo` string
 
 #### Returns
 
- [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+ Form
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenModelessDialog_System_Object_System_Type_System_String_"></a> OpenModelessDialog\(object, Type, string\)
 
@@ -197,15 +198,15 @@ Form OpenModelessDialog(object doc, Type type, string strInitInfo)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
-`strInitInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitInfo` string
 
 #### Returns
 
- [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+ Form
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenModelessDialog_System_Object_System_String_System_Object___System_String_"></a> OpenModelessDialog\(object, string, object\[\], string\)
 
@@ -215,17 +216,17 @@ Form OpenModelessDialog(object doc, string strType, object[] arParam, string str
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
-`arParam` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`arParam` object\[\]
 
-`strInitInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitInfo` string
 
 #### Returns
 
- [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+ Form
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenPropertyDialog_System_Object_System_UIntPtr_"></a> OpenPropertyDialog\(object, UIntPtr\)
 
@@ -235,13 +236,13 @@ int OpenPropertyDialog(object doc, UIntPtr obj)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenPropertyDialog_System_Object_System_UIntPtr_System_Boolean_"></a> OpenPropertyDialog\(object, UIntPtr, bool\)
 
@@ -251,15 +252,15 @@ int OpenPropertyDialog(object doc, UIntPtr obj, bool bCreate)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
-`bCreate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCreate` bool
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenPropertyDialog_System_Object_System_UIntPtr_System_Windows_Forms_Form_"></a> OpenPropertyDialog\(object, UIntPtr, Form\)
 
@@ -269,15 +270,15 @@ int OpenPropertyDialog(object doc, UIntPtr obj, Form ownerForm)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`obj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`obj` UIntPtr
 
-`ownerForm` [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+`ownerForm` Form
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_NX_Dialog_IDlgManager_OpenPropertyMultiDialog_System_Object_System_Collections_Generic_List_System_UIntPtr__"></a> OpenPropertyMultiDialog\(object, List<UIntPtr\>\)
 
@@ -287,9 +288,9 @@ void OpenPropertyMultiDialog(object doc, List<UIntPtr> lstObj)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`lstObj` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstObj` List<UIntPtr\>
 
 ### <a id="VM_NX_Dialog_IDlgManager_Redraw_System_Object_"></a> Redraw\(object\)
 
@@ -299,7 +300,7 @@ void Redraw(object doc)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
 ### <a id="VM_NX_Dialog_IDlgManager_SetXmlData_System_Object_System_String_"></a> SetXmlData\(object, string\)
 
@@ -309,9 +310,9 @@ void SetXmlData(object doc, string strXml)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 ### <a id="VM_NX_Dialog_IDlgManager_ShowModelessDialog_System_Windows_Forms_Form_"></a> ShowModelessDialog\(Form\)
 
@@ -321,7 +322,7 @@ void ShowModelessDialog(Form form)
 
 #### Parameters
 
-`form` [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+`form` Form
 
 ### <a id="VM_NX_Dialog_IDlgManager_VisibleDialog_System_Object_System_Boolean_"></a> VisibleDialog\(object, bool\)
 
@@ -331,7 +332,7 @@ void VisibleDialog(object doc, bool bShow)
 
 #### Parameters
 
-`doc` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`doc` object
 
-`bShow` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShow` bool
 

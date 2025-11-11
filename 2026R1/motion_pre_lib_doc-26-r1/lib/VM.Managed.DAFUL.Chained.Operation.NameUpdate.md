@@ -1,4 +1,5 @@
-#  Class NameUpdate
+# Class NameUpdate
+<a id="VM_Managed_DAFUL_Chained_Operation_NameUpdate"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class NameUpdate : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [NameUpdate](VM.Managed.DAFUL.Chained.Operation.NameUpdate.md)
 
@@ -87,7 +88,7 @@ public NameUpdate(string xmlString)
 
 #### Parameters
 
-`xmlString` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`xmlString` string
 
 The XML string.
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_NameUpdate_NewObject"></a> NewObject
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

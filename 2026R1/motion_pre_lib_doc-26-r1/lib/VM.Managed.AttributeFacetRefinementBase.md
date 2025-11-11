@@ -1,4 +1,5 @@
-#  Class AttributeFacetRefinementBase
+# Class AttributeFacetRefinementBase
+<a id="VM_Managed_AttributeFacetRefinementBase"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class AttributeFacetRefinementBase : AttributeBase, IObservableObject, ID
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [AttributeBase](VM.Managed.AttributeBase.md) ← 
 [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md)
@@ -82,7 +83,7 @@ IEventProvider,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -129,27 +130,27 @@ The angular tolerance.
 
 The facet aspect ratio.
 
-`bUseMaximumGridLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumGridLine` bool
 
 if set to <code>true</code> [use maximum grid line].
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [unuse GRID_TO_EDGE.
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [unuse approximated evaluation].
 
@@ -175,23 +176,23 @@ The angular tolerance.
 
 The facet aspect ratio.
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [unuse GRID_TO_EDGE.
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [unuse approximated evaluation].
 
@@ -215,7 +216,7 @@ protected bool m_bDoNotUseApprox_eval
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bDoNotUseGRID_TO_EDGES"></a> m\_bDoNotUseGRID\_TO\_EDGES
 
@@ -227,7 +228,7 @@ protected bool m_bDoNotUseGRID_TO_EDGES
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseDefaultValues"></a> m\_bUseDefaultValues
 
@@ -239,7 +240,7 @@ protected bool m_bUseDefaultValues
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseFaceOption"></a> m\_bUseFaceOption
 
@@ -251,7 +252,7 @@ protected bool m_bUseFaceOption
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseFacetAspectRatio"></a> m\_bUseFacetAspectRatio
 
@@ -263,7 +264,7 @@ protected bool m_bUseFacetAspectRatio
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMaximumFacetSize"></a> m\_bUseMaximumFacetSize
 
@@ -275,7 +276,7 @@ protected bool m_bUseMaximumFacetSize
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMaximumGridLine"></a> m\_bUseMaximumGridLine
 
@@ -287,7 +288,7 @@ protected bool m_bUseMaximumGridLine
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMinimumUGridLine"></a> m\_bUseMinimumUGridLine
 
@@ -299,7 +300,7 @@ protected bool m_bUseMinimumUGridLine
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMinimumVGridLine"></a> m\_bUseMinimumVGridLine
 
@@ -311,7 +312,7 @@ protected bool m_bUseMinimumVGridLine
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseRepairPatch"></a> m\_bUseRepairPatch
 
@@ -323,7 +324,7 @@ protected bool m_bUseRepairPatch
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseSurfaceAngularTolerance"></a> m\_bUseSurfaceAngularTolerance
 
@@ -335,7 +336,7 @@ protected bool m_bUseSurfaceAngularTolerance
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseSurfaceTolerance"></a> m\_bUseSurfaceTolerance
 
@@ -347,7 +348,7 @@ protected bool m_bUseSurfaceTolerance
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_m_childAngularTolerance"></a> m\_childAngularTolerance
 
@@ -445,7 +446,7 @@ public virtual bool DrawGlobalBody { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_FacetAspectRatio"></a> FacetAspectRatio
 
@@ -457,7 +458,7 @@ public ExpressionValueVariable FacetAspectRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_MaximumFacetSize"></a> MaximumFacetSize
 
@@ -469,7 +470,7 @@ public ExpressionValueVariable MaximumFacetSize { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_MaximumGridLine"></a> MaximumGridLine
 
@@ -481,7 +482,7 @@ public ExpressionValueVariable MaximumGridLine { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_MinimumUGridLine"></a> MinimumUGridLine
 
@@ -493,7 +494,7 @@ public ExpressionValueVariable MinimumUGridLine { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_MinimumVGridLine"></a> MinimumVGridLine
 
@@ -505,7 +506,7 @@ public ExpressionValueVariable MinimumVGridLine { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
 
@@ -517,7 +518,7 @@ public ExpressionValueVariable SurfaceAngularTolerance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_SurfaceTolerance"></a> SurfaceTolerance
 
@@ -529,7 +530,7 @@ public ExpressionValueVariable SurfaceTolerance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseApprox_eval"></a> UseApprox\_eval
 
@@ -541,7 +542,7 @@ public bool UseApprox_eval { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseDefaultValues"></a> UseDefaultValues
 
@@ -553,7 +554,7 @@ public bool UseDefaultValues { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseFaceOption"></a> UseFaceOption
 
@@ -565,7 +566,7 @@ public bool UseFaceOption { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseFacetAspectRatio"></a> UseFacetAspectRatio
 
@@ -577,7 +578,7 @@ public bool UseFacetAspectRatio { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseGRID_TO_EDGES"></a> UseGRID\_TO\_EDGES
 
@@ -589,7 +590,7 @@ public bool UseGRID_TO_EDGES { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseMaximumFacetSize"></a> UseMaximumFacetSize
 
@@ -601,7 +602,7 @@ public bool UseMaximumFacetSize { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseMaximumGridLine"></a> UseMaximumGridLine
 
@@ -613,7 +614,7 @@ public bool UseMaximumGridLine { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseMinimumUGridLine"></a> UseMinimumUGridLine
 
@@ -625,7 +626,7 @@ public bool UseMinimumUGridLine { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseMinimumVGridLine"></a> UseMinimumVGridLine
 
@@ -637,7 +638,7 @@ public bool UseMinimumVGridLine { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseRepairPatch"></a> UseRepairPatch
 
@@ -649,7 +650,7 @@ public bool UseRepairPatch { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseSurfaceAngularTolerance"></a> UseSurfaceAngularTolerance
 
@@ -661,7 +662,7 @@ public bool UseSurfaceAngularTolerance { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_UseSurfaceTolerance"></a> UseSurfaceTolerance
 
@@ -673,7 +674,7 @@ public bool UseSurfaceTolerance { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -713,7 +714,7 @@ public FacetOption GetFacetOption()
 
 #### Returns
 
- FacetOption
+ [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_GetXml_VM_Managed_AttributeFacetRefinementBase_"></a> GetXml\(AttributeFacetRefinementBase\)
 
@@ -731,7 +732,7 @@ The old attribute.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_GetXml"></a> GetXml\(\)
 
@@ -741,7 +742,7 @@ public string GetXml()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_AttributeFacetRefinementBase_Initialize"></a> Initialize\(\)
 
@@ -761,7 +762,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -779,7 +780,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

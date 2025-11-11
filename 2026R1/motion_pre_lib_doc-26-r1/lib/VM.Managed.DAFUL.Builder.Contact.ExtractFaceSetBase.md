@@ -1,4 +1,5 @@
-#  Class ExtractFaceSetBase
+# Class ExtractFaceSetBase
+<a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -9,7 +10,7 @@ public class ExtractFaceSetBase : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExtractFaceSetBase](VM.Managed.DAFUL.Builder.Contact.ExtractFaceSetBase.md)
 
 #### Derived
@@ -55,7 +56,7 @@ public string FirstFaceSetName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_InputArray"></a> InputArray
 
@@ -65,7 +66,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_Parameters"></a> Parameters
 
@@ -75,7 +76,7 @@ public PickedResult[] Parameters { get; set; }
 
 #### Property Value
 
- PickedResult\[\]
+ [PickedResult](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/PickedResult.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_SecondConnectable"></a> SecondConnectable
 
@@ -95,7 +96,7 @@ public string SecondFaceSetName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_SplitFirstBody"></a> SplitFirstBody
 
@@ -105,7 +106,7 @@ public bool SplitFirstBody { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_SplitSecondBody"></a> SplitSecondBody
 
@@ -115,7 +116,7 @@ public bool SplitSecondBody { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_TargetFaces"></a> TargetFaces
 
@@ -135,7 +136,7 @@ public double Tolerance { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_UseTolerance"></a> UseTolerance
 
@@ -145,7 +146,7 @@ public bool UseTolerance { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -157,9 +158,9 @@ protected virtual void CreateFaceSet(string strName, SolidBody sbParent, Face[] 
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`sbParent` SolidBody
+`sbParent` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 `arFace` Face\[\]
 
@@ -173,7 +174,7 @@ protected virtual void CreateFaceSet(string strName, Body sbParent, Face[] arFac
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `sbParent` Body
 
@@ -189,5 +190,5 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Struct OMatrix
+# Struct OMatrix
+<a id="VM_OMatrix"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -59,7 +60,7 @@ public OMatrix(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The array contains orientation matrix
 
@@ -75,7 +76,7 @@ public double[] Array { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_OMatrix_Identity"></a> Identity
 
@@ -159,7 +160,7 @@ public double this[int nRow, int nCol] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_OMatrix_Item_VM_Coordinate_VM_Coordinate_"></a> this\[Coordinate, Coordinate\]
 
@@ -171,7 +172,7 @@ public double this[Coordinate enRow, Coordinate enCol] { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -185,11 +186,11 @@ public void CopyTo(double[] arr, int nStartIndex)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The array values copied to
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index of array
 
@@ -203,13 +204,13 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object to compare.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the objects are equal, otherwise false.
 
@@ -243,7 +244,7 @@ public Vector GetDirectionVector(int axis)
 
 #### Parameters
 
-`axis` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`axis` int
 
 The type of axis.
 
@@ -263,7 +264,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 A 32-bit signed integer hash code.
 
@@ -285,7 +286,7 @@ public void Normalize()
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The normalize operation failed .
 
@@ -303,13 +304,13 @@ public void RotateAxisDeg(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -323,11 +324,11 @@ public void RotateAxisDeg(int nCoord, double dAngle)
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -345,13 +346,13 @@ public void RotateAxisDeg(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -369,13 +370,13 @@ public void RotateAxisRad(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -389,11 +390,11 @@ public void RotateAxisRad(int nCoord, double dAngle)
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -411,13 +412,13 @@ public void RotateAxisRad(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -431,13 +432,13 @@ public void RotateXDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -451,13 +452,13 @@ public void RotateXRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -471,13 +472,13 @@ public void RotateYDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -491,13 +492,13 @@ public void RotateYRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -511,13 +512,13 @@ public void RotateZDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -531,13 +532,13 @@ public void RotateZRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The rotate operation failed .
 
@@ -565,7 +566,7 @@ The vector for slave.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -593,7 +594,7 @@ public void SetOrientation(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The data of orientation.
 
@@ -611,21 +612,21 @@ public void SetOrientationEADeg(RotationAxes ea, double dAlpha, double dBeta, do
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -643,21 +644,21 @@ public void SetOrientationEARad(RotationAxes ea, double dAlpha, double dBeta, do
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -675,21 +676,21 @@ public void SetOrientationFixedAngleDeg(RotationAxes ea, double dAlpha, double d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -707,21 +708,21 @@ public void SetOrientationFixedAngleRad(RotationAxes ea, double dAlpha, double d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The set data of orientation operation failed .
 
@@ -733,7 +734,7 @@ public override string ToString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_OMatrix_TransposeOrientation"></a> TransposeOrientation\(\)
 
@@ -745,7 +746,7 @@ public void TransposeOrientation()
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The transpose operation failed .
 
@@ -771,13 +772,13 @@ The right matrix to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two matrices are same, otherwise false.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The equality operation failed .
 
@@ -801,13 +802,13 @@ The right matrix to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two matrices are not same, otherwise false.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The inequality operation failed .
 
@@ -837,7 +838,7 @@ The cross product matrix.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The multiply operation failed .
 
@@ -867,7 +868,7 @@ The Multiplied vector.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The multiply operation failed .
 

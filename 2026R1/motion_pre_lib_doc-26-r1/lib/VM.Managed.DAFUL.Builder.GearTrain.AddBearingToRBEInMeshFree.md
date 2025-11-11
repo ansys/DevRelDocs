@@ -1,4 +1,5 @@
-#  Class AddBearingToRBEInMeshFree
+# Class AddBearingToRBEInMeshFree
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class AddBearingToRBEInMeshFree : AddBearingToRBEInMeshBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddBearingToRBEInMeshBase](VM.Managed.DAFUL.Builder.GearTrain.AddBearingToRBEInMeshBase.md) ← 
 [AddBearingToRBEInMeshFree](VM.Managed.DAFUL.Builder.GearTrain.AddBearingToRBEInMeshFree.md)
@@ -72,11 +73,11 @@ protected override RacewayBuilderForRBEInFE GetRacewayBuilder(GeometryBase beari
 
 #### Parameters
 
-`bearing_geom` GeometryBase
+`bearing_geom` [GeometryBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryBase.cs)
 
 #### Returns
 
- RacewayBuilderForRBEInFE
+ [RacewayBuilderForRBEInFE](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayBuilder.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree_GetRacewayGeometry_VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_"></a> GetRacewayGeometry\(RacewayBuilderForRBEInFE\)
 
@@ -86,11 +87,11 @@ protected override GeometryBase GetRacewayGeometry(RacewayBuilderForRBEInFE bear
 
 #### Parameters
 
-`bearingBuilder` RacewayBuilderForRBEInFE
+`bearingBuilder` [RacewayBuilderForRBEInFE](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayBuilder.cs)
 
 #### Returns
 
- GeometryBase
+ [GeometryBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryBase.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree_GetTmpRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_OMatrix_System_Boolean_"></a> GetTmpRacewayGeometry\(RacewayGeometryInfo, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
 
@@ -100,19 +101,19 @@ protected override GeometryBase GetTmpRacewayGeometry(RacewayGeometryInfo rgInfo
 
 #### Parameters
 
-`rgInfo` RacewayGeometryInfo
+`rgInfo` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
-`hiddenDoc` HiddenDocumentMeshBase
+`hiddenDoc` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 `zAxis` DirectionBase
 
 `matO` OMatrix
 
-`bAddDoc` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAddDoc` bool
 
 #### Returns
 
- GeometryBase
+ [GeometryBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryBase.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree_RBEName_VM_Managed_DAFUL_IConnectable_"></a> RBEName\(IConnectable\)
 
@@ -126,5 +127,5 @@ protected override string RBEName(IConnectable con)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

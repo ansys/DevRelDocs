@@ -1,4 +1,5 @@
-#  Class PickerMultiNode
+# Class PickerMultiNode
+<a id="VM_Managed_Picker_Core_FE_PickerMultiNode"></a>
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class PickerMultiNode : PickerMultiNodeBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 PickerBase ← 
 PickerMulti ← 
 [PickerMultiNodeBase](VM.Managed.Picker.Core.FE.PickerMultiNodeBase.md) ← 
@@ -69,7 +70,7 @@ public PickerMultiNode(uint[] arUsedNodes)
 
 #### Parameters
 
-`arUsedNodes` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`arUsedNodes` uint\[\]
 
 unselectable node indexes.
 
@@ -91,7 +92,7 @@ protected List<uint> m_lstRejectNode
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+ List<uint\>
 
 ### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_m_lstSelectedNode"></a> m\_lstSelectedNode
 
@@ -101,7 +102,7 @@ protected List<uint> m_lstSelectedNode
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+ List<uint\>
 
 ## Methods
 
@@ -115,7 +116,7 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The picker information.
 
@@ -129,13 +130,13 @@ public override string GetResultXmlFromKey(UIntPtr[] arKey)
 
 #### Parameters
 
-`arKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
+`arKey` UIntPtr\[\]
 
 Picking destination keys.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -149,13 +150,13 @@ public override string GetResultXmlFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 Picking destination key.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -167,11 +168,11 @@ public override void SetHighlight(List<UIntPtr> lstNode, bool bHighlight, bool b
 
 #### Parameters
 
-`lstNode` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstNode` List<UIntPtr\>
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
-`bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdate` bool
 
 ### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
@@ -183,17 +184,17 @@ protected override bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 Whether only xml or not.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

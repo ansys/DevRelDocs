@@ -1,4 +1,5 @@
-#  Class Owned
+# Class Owned
+<a id="VM_Managed_Owned"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Owned
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Owned](VM.Managed.Owned.md)
 
 #### Extension Methods

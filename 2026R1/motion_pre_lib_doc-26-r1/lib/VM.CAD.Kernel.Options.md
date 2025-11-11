@@ -1,4 +1,5 @@
-#  Class Options
+# Class Options
+<a id="VM_CAD_Kernel_Options"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Options
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Options](VM.CAD.Kernel.Options.md)
 
 #### Extension Methods

@@ -1,4 +1,5 @@
-#  Enum WebPropertyValue.WebStiffnessMethodType
+# Enum WebPropertyValue.WebStiffnessMethodType
+<a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_WebStiffnessMethodType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

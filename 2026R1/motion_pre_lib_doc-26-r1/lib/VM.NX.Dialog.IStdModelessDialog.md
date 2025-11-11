@@ -1,4 +1,5 @@
-#  Interface IStdModelessDialog
+# Interface IStdModelessDialog
+<a id="VM_NX_Dialog_IStdModelessDialog"></a>
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -27,5 +28,5 @@ int ID { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

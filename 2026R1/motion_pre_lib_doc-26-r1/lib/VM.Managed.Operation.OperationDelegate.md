@@ -1,4 +1,5 @@
-#  Class OperationDelegate
+# Class OperationDelegate
+<a id="VM_Managed_Operation_OperationDelegate"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class OperationDelegate : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [OperationDelegate](VM.Managed.Operation.OperationDelegate.md)
 
@@ -95,7 +96,7 @@ protected OperationDelegate(OperationDelegate.OpCore1 op, object param, View vie
 
 The operation.
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 The operation parameter.
 
@@ -117,7 +118,7 @@ protected OperationDelegate(OperationDelegate.OpCore1 op, object param, Document
 
 The operation.
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 The operation parameter.
 
@@ -139,7 +140,7 @@ protected OperationDelegate(OperationDelegate.OpCore1 op, object param)
 
 The operation.
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 The operation parameter.
 
@@ -193,7 +194,7 @@ protected OperationDelegate(OperationDelegate.OpCore op, bool bIsHistoryMerge)
 
 The operation.
 
-`bIsHistoryMerge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIsHistoryMerge` bool
 
 The history merge flag.
 
@@ -223,7 +224,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_OperationDelegate_UseMacro"></a> UseMacro
 
@@ -233,7 +234,7 @@ public override bool UseMacro { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

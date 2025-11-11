@@ -1,4 +1,5 @@
-#  Class DocumentAnalysis
+# Class DocumentAnalysis
+<a id="VM_Managed_DAFUL_DocumentAnalysis"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public abstract class DocumentAnalysis : Document3D, IObservableObject, IDisposa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 Document ← 
@@ -35,7 +36,7 @@ ILinkContainerEvent,
 IVerifiable, 
 IEnableManager, 
 IRelatedDocument, 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 ITemplateDocument, 
 ITreatValidObject, 
 IDocumentAnalysis, 
@@ -146,8 +147,6 @@ Document3D.EraseAllDisplayObject\(\),
 Document3D.ImportCADBody\(BuilderImport\[\]\), 
 Document3D.ReAssemblyCore\(\), 
 Document3D.ReAssemblyImpl\(ObjectBase\), 
-Document3D.StartCADImportLog\(string\), 
-Document3D.EndCADImportLog\(\), 
 Document3D.ClearDocument\(\), 
 Document3D.SkipDelete\(ObjectBase\), 
 Document3D.RepairImpl\(\), 
@@ -158,9 +157,9 @@ Document3D.GetBodies\(ref List<ObjectBase\>\),
 Document3D.CheckBeforeSave\(\), 
 Document3D.LinkRequestUpdate\(object, LinkEventArgs\), 
 Document3D.FindBodyFromCADBody\(ObjectBase\), 
-Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string\), 
+Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string, string, string, string\), 
 Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string\), 
-Document3D.ExportCADFile\(string, string, string\), 
+Document3D.ExportCADFile\(string, string, string, string, string, string\), 
 Document3D.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\), 
 Document3D.SkipShowHide\(ObjectBase\), 
 Document3D.WriteMessageForShowHide\(\), 
@@ -174,12 +173,9 @@ Document3D.ChildAdd\(ObjectBase, string\),
 Document3D.ChildRemove\(ObjectBase, string\), 
 Document3D.ChildUpdate\(ObjectBase, string\), 
 Document3D.ChildRename\(ObjectBase, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, Document3D.CadImportUnitType\), 
-Document3D.LoadCADFile\(string, Color, Document3D.CadImportResultType\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType\), 
-Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, ref BuilderImport\[\]\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string, string, string, string\), 
+Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string, ref BuilderImport\[\]\), 
 Document3D.SetSelectionObject\(List<ObjectBase\>\), 
 Document3D.ExistUnderCursor\(\), 
 Document3D.ActiveObject\(List<ObjectBase\>\), 
@@ -457,7 +453,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -488,7 +484,7 @@ public DocumentAnalysis(UIntPtr docCore)
 
 #### Parameters
 
-`docCore` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`docCore` UIntPtr
 
 The document handle.
 
@@ -504,7 +500,7 @@ protected bool m_bSkipGravity
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -542,7 +538,7 @@ public int CountOfMFLinearStaticSimulationConfigurations { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_Gravity"></a> Gravity
 
@@ -554,7 +550,7 @@ public Gravity Gravity { get; set; }
 
 #### Property Value
 
- Gravity
+ [Gravity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Gravity.cs)
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_IconSize"></a> IconSize
 
@@ -566,7 +562,7 @@ public override double IconSize { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_IncrementTime"></a> IncrementTime
 
@@ -578,7 +574,7 @@ public double IncrementTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
 
@@ -590,7 +586,7 @@ public virtual string SimulationScenarioTypeName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_UseIncrementTime"></a> UseIncrementTime
 
@@ -602,7 +598,7 @@ public bool UseIncrementTime { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_UseToolkitSubsystem"></a> UseToolkitSubsystem
 
@@ -614,7 +610,7 @@ public virtual bool UseToolkitSubsystem { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -634,7 +630,7 @@ The configuration.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_CheckBeforeSave"></a> CheckBeforeSave\(\)
 
@@ -670,7 +666,7 @@ public override List<KeyValuePair<string, string>> GetAllArgumentList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
+ List<KeyValuePair<string, string\>\>
 
 The argument list
 
@@ -684,7 +680,7 @@ public override void GetBodyAndTransformation(ref List<Document3D.ExportBodyInfo
 
 #### Parameters
 
-`lstBodyInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document3D.ExportBodyInfo\>
+`lstBodyInfo` List<Document3D.ExportBodyInfo\>
 
 The body information.
 
@@ -698,7 +694,7 @@ public override void GetData(XmlNode writer)
 
 #### Parameters
 
-`writer` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`writer` XmlNode
 
 The writer.
 
@@ -724,7 +720,7 @@ public IMaterial GetDefaultMaterial(bool bAdd)
 
 #### Parameters
 
-`bAdd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAdd` bool
 
 The [add to document] flag.
 
@@ -742,7 +738,7 @@ public Dictionary<IObjectBase, bool> GetEntityRequest()
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<IObjectBase, [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Dictionary<IObjectBase, bool\>
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
 
@@ -754,7 +750,7 @@ public virtual string GetSimulationConfigurationType()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The simulation configuration type.
 
@@ -774,7 +770,7 @@ The ss.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_InitializeSimParam"></a> InitializeSimParam\(\)
 
@@ -800,7 +796,7 @@ The ss.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_IsEnabledImpl_VM_Managed_ObjectBase_"></a> IsEnabledImpl\(ObjectBase\)
 
@@ -818,7 +814,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
@@ -832,7 +828,7 @@ public bool IsExistDefaultMaterial()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
@@ -844,7 +840,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -862,7 +858,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -890,7 +886,7 @@ protected virtual void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 #### Parameters
 
-`info` DocCreateAnalysisInfo
+`info` [DocCreateAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs)
 
 The [analysis document create information].
 
@@ -942,7 +938,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -970,7 +966,7 @@ The configuration.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
@@ -982,7 +978,7 @@ public override void SetData(XmlNode reader)
 
 #### Parameters
 
-`reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`reader` XmlNode
 
 The reader.
 
@@ -1000,7 +996,7 @@ protected override void SetEnableImpl(ObjectBase ob, bool bEnable)
 
 The object.
 
-`bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnable` bool
 
 if set to <code>true</code> enable.
 
@@ -1018,7 +1014,7 @@ public void SetStateFromActiveSimulationScenarioMap(Scenario ss, bool bActive)
 
 The ss.
 
-`bActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActive` bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_SkipDelete_VM_Managed_ObjectBase_"></a> SkipDelete\(ObjectBase\)
 
@@ -1036,7 +1032,7 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DocumentAnalysis_SkipObjectInWriting_VM_Managed_ObjectBase_"></a> SkipObjectInWriting\(ObjectBase\)
 
@@ -1054,5 +1050,5 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

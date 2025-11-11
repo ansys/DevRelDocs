@@ -1,4 +1,5 @@
-#  Class MeshNameChangeOperation
+# Class MeshNameChangeOperation
+<a id="VM_Managed_DAFUL_FE_MeshNameChangeOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class MeshNameChangeOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [MeshNameChangeOperation](VM.Managed.DAFUL.FE.MeshNameChangeOperation.md)
 
@@ -91,11 +92,11 @@ public MeshNameChangeOperation(Mesh mesh, string strOldName, string strNewName)
 
 The mesh.
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 The old name.
 
-`strNewName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNewName` string
 
 The new name.
 
@@ -111,7 +112,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_MeshNameChangeOperation_Name"></a> Name
 
@@ -123,7 +124,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

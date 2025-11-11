@@ -1,4 +1,5 @@
-#  Enum GeometryInfoBase.GeometryType
+# Enum GeometryInfoBase.GeometryType
+<a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase_GeometryType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

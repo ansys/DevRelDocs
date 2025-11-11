@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Bearing
+# Namespace VM.Managed.DAFUL.Bearing
+<a id="VM_Managed_DAFUL_Bearing"></a>
 
 ### Namespaces
 

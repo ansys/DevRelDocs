@@ -1,4 +1,5 @@
-#  Interface IStep
+# Interface IStep
+<a id="VM_Models_IStep"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -32,7 +33,7 @@ ICommand DefaultCommand { get; }
 
 #### Property Value
 
- [ICommand](https://learn.microsoft.com/dotnet/api/system.windows.input.icommand)
+ ICommand
 
 ### <a id="VM_Models_IStep_FilePath"></a> FilePath
 
@@ -42,7 +43,7 @@ string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_IStep_Items"></a> Items
 
@@ -52,7 +53,7 @@ IEnumerable<IStepItem> Items { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>
+ IEnumerable<[IStepItem](VM.Models.IStepItem.md)\>
 
 ### <a id="VM_Models_IStep_ParentDocument"></a> ParentDocument
 
@@ -102,7 +103,7 @@ IEnumerable<IStep> Targets { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStep](VM.Models.IStep.md)\>
+ IEnumerable<[IStep](VM.Models.IStep.md)\>
 
 ### <a id="VM_Models_IStep_Type"></a> Type
 
@@ -158,7 +159,7 @@ bool CanRelation(IStep source)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IStep_ContainsTarget_VM_Models_IStep_"></a> ContainsTarget\(IStep\)
 
@@ -172,7 +173,7 @@ bool ContainsTarget(IStep item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_IStep_RemoveTarget_VM_Models_IStep_"></a> RemoveTarget\(IStep\)
 

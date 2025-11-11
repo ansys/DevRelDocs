@@ -1,4 +1,5 @@
-#  Class PropertyXmlSerializerHelper<TProperty\>
+# Class PropertyXmlSerializerHelper<TProperty\>
+<a id="VM_Managed_PropertyXmlSerializerHelper_1"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +18,7 @@ The type of the property.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PropertyXmlSerializerHelper<TProperty\>](VM.Managed.PropertyXmlSerializerHelper\-1.md)
 
 #### Extension Methods

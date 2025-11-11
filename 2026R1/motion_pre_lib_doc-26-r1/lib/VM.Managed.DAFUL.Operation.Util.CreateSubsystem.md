@@ -1,4 +1,5 @@
-#  Class CreateSubsystem
+# Class CreateSubsystem
+<a id="VM_Managed_DAFUL_Operation_Util_CreateSubsystem"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateSubsystem
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateSubsystem](VM.Managed.DAFUL.Operation.Util.CreateSubsystem.md)
 
 #### Extension Methods
@@ -44,7 +45,7 @@ public static SubSystem Create(Document3D activeDocument, string strSubsystemFil
 
 The active document.
 
-`strSubsystemFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSubsystemFilePath` string
 
 The subsystem file path.
 
@@ -52,13 +53,13 @@ The subsystem file path.
 
 The subsystem transformation.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The subsystem prefix name.
 
 #### Returns
 
- SubSystem
+ [SubSystem](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystem.cs)
 
 The new subsystem.
 
@@ -76,7 +77,7 @@ public static SubSystem Create(Document3D activeDocument, SubSystemDocument docS
 
 The active document.
 
-`docSubsystem` SubSystemDocument
+`docSubsystem` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The subsystem document.
 
@@ -84,13 +85,13 @@ The subsystem document.
 
 The subsystem transformation.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The subsystem prefix name.
 
 #### Returns
 
- SubSystem
+ [SubSystem](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystem.cs)
 
 The new subsystem.
 
@@ -104,21 +105,21 @@ public static SubSystem ImportSubSystem(SubSystemDocument docParent, SubSystemDo
 
 #### Parameters
 
-`docParent` SubSystemDocument
+`docParent` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The parent subsystem document
 
-`docChild` SubSystemDocument
+`docChild` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The child subsystem document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
 #### Returns
 
- SubSystem
+ [SubSystem](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystem.cs)
 
 nodal body
 

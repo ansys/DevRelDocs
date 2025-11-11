@@ -1,4 +1,5 @@
-#  Class BuilderBeamGroupMultiplePoints
+# Class BuilderBeamGroupMultiplePoints
+<a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePoints"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -9,10 +10,10 @@ public class BuilderBeamGroupMultiplePoints : BuilderBeamGroupMultiplePointsBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<BeamGroup\> ← 
-BuilderSymmetric<BeamGroup\> ← 
-BuilderNamed<BeamGroup\> ← 
+object ← 
+[BuilderBase<BeamGroup\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<BeamGroup\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<BeamGroup\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [BuilderBeamGroupMultiplePointsBase<BeamGroup\>](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupMultiplePointsBase\-1.md) ← 
 [BuilderBeamGroupMultiplePoints](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupMultiplePoints.md)
 
@@ -41,29 +42,29 @@ IBuilder
 [BuilderBeamGroupMultiplePointsBase<BeamGroup\>.UseCustomize](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupMultiplePointsBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Beam\_BuilderBeamGroupMultiplePointsBase\_1\_UseCustomize), 
 [BuilderBeamGroupMultiplePointsBase<BeamGroup\>.ResultBeamGroup](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupMultiplePointsBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Beam\_BuilderBeamGroupMultiplePointsBase\_1\_ResultBeamGroup), 
 [BuilderBeamGroupMultiplePointsBase<BeamGroup\>.ResultSolidBodies](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupMultiplePointsBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Beam\_BuilderBeamGroupMultiplePointsBase\_1\_ResultSolidBodies), 
-BuilderNamed<BeamGroup\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<BeamGroup\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<BeamGroup\>.Name, 
-BuilderSymmetric<BeamGroup\>.Build\(Document\), 
-BuilderSymmetric<BeamGroup\>.Symmetric, 
-BuilderSymmetric<BeamGroup\>.CurrentSymmetric, 
-BuilderBase<BeamGroup\>.m\_bSuccess, 
-BuilderBase<BeamGroup\>.Build\(Document\), 
-BuilderBase<BeamGroup\>.Build\(Document, List<string\>\), 
-BuilderBase<BeamGroup\>.Validate\(IList<string\>\), 
-BuilderBase<BeamGroup\>.Success\(\), 
-BuilderBase<BeamGroup\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<BeamGroup\>.OnFinalBuild\(string, Document\), 
-BuilderBase<BeamGroup\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<BeamGroup\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<BeamGroup\>.Parameters, 
-BuilderBase<BeamGroup\>.AddToDoc, 
-BuilderBase<BeamGroup\>.UseChangedObject, 
-BuilderBase<BeamGroup\>.SetPointKey, 
-BuilderBase<BeamGroup\>.BuildObject, 
-BuilderBase<BeamGroup\>.BuildDocument, 
-BuilderBase<BeamGroup\>.UseInterface, 
-BuilderBase<BeamGroup\>.ErrorMessage
+[BuilderNamed<BeamGroup\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<BeamGroup\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<BeamGroup\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<BeamGroup\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<BeamGroup\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<BeamGroup\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BeamGroup\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 

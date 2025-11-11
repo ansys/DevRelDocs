@@ -1,9 +1,10 @@
-#  Interface IHasComment
+# Interface IHasComment
+<a id="VM_IHasComment"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IHasComment
 ```
 
@@ -11,12 +12,11 @@ public interface IHasComment
 
 ### <a id="VM_IHasComment_Comment"></a> Comment
 
-```python
+```csharp
 string Comment { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
+ string
 

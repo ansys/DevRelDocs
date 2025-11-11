@@ -1,4 +1,5 @@
-#  Class PropertyBush
+# Class PropertyBush
+<a id="VM_Managed_DAFUL_Force_PropertyBush"></a>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -11,13 +12,13 @@ public class PropertyBush : PropertyForce, IObservableObject, IDisposableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyForce](VM.Managed.DAFUL.Force.PropertyForce.md) ← 
 [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md)
 
@@ -36,7 +37,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -48,12 +49,12 @@ IArgument
 
 [PropertyForce.ArgumentType](VM.Managed.DAFUL.Force.PropertyForce.md\#VM\_Managed\_DAFUL\_Force\_PropertyForce\_ArgumentType), 
 [PropertyForce.ReferenceType](VM.Managed.DAFUL.Force.PropertyForce.md\#VM\_Managed\_DAFUL\_Force\_PropertyForce\_ReferenceType), 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -152,7 +153,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -191,11 +192,11 @@ protected PropertyBush(string strProxyName, string strBuildInfo)
 
 #### Parameters
 
-`strProxyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strProxyName` string
 
 Name of the proxy.
 
-`strBuildInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuildInfo` string
 
 The build info.
 
@@ -221,7 +222,7 @@ public double GraphicDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_GraphicLength"></a> GraphicLength
 
@@ -231,7 +232,7 @@ public double GraphicLength { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_IsUsePreTorque"></a> IsUsePreTorque
 
@@ -243,7 +244,7 @@ public bool IsUsePreTorque { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_IsUsePreload"></a> IsUsePreload
 
@@ -255,7 +256,7 @@ public bool IsUsePreload { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_IsUseStaticBushing"></a> IsUseStaticBushing
 
@@ -267,7 +268,7 @@ public bool IsUseStaticBushing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreTorqueX"></a> PreTorqueX
 
@@ -279,7 +280,7 @@ public ExpressionValueVariable PreTorqueX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreTorqueY"></a> PreTorqueY
 
@@ -291,7 +292,7 @@ public ExpressionValueVariable PreTorqueY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreTorqueZ"></a> PreTorqueZ
 
@@ -303,7 +304,7 @@ public ExpressionValueVariable PreTorqueZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreloadX"></a> PreloadX
 
@@ -315,7 +316,7 @@ public ExpressionValueVariable PreloadX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreloadY"></a> PreloadY
 
@@ -327,7 +328,7 @@ public ExpressionValueVariable PreloadY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreloadZ"></a> PreloadZ
 
@@ -339,7 +340,7 @@ public ExpressionValueVariable PreloadZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_ReferenceType"></a> ReferenceType
 
@@ -351,7 +352,7 @@ public override string ReferenceType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCType"></a> RotCType
 
@@ -376,7 +377,7 @@ public ExpressionValueVariable RotCX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCXSpline"></a> RotCXSpline
 
@@ -388,7 +389,7 @@ public Spline RotCXSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCY"></a> RotCY
 
@@ -400,7 +401,7 @@ public ExpressionValueVariable RotCY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCYSpline"></a> RotCYSpline
 
@@ -412,7 +413,7 @@ public Spline RotCYSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCZ"></a> RotCZ
 
@@ -424,7 +425,7 @@ public ExpressionValueVariable RotCZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCZSpline"></a> RotCZSpline
 
@@ -436,7 +437,7 @@ public Spline RotCZSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKType"></a> RotKType
 
@@ -461,7 +462,7 @@ public ExpressionValueVariable RotKX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKXSpline"></a> RotKXSpline
 
@@ -473,7 +474,7 @@ public Spline RotKXSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKY"></a> RotKY
 
@@ -485,7 +486,7 @@ public ExpressionValueVariable RotKY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKYSpline"></a> RotKYSpline
 
@@ -497,7 +498,7 @@ public Spline RotKYSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKZ"></a> RotKZ
 
@@ -509,7 +510,7 @@ public ExpressionValueVariable RotKZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKZSpline"></a> RotKZSpline
 
@@ -521,7 +522,7 @@ public Spline RotKZSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotationalOneSideBushingX"></a> RotationalOneSideBushingX
 
@@ -533,7 +534,7 @@ public bool RotationalOneSideBushingX { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotationalOneSideBushingY"></a> RotationalOneSideBushingY
 
@@ -545,7 +546,7 @@ public bool RotationalOneSideBushingY { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotationalOneSideBushingZ"></a> RotationalOneSideBushingZ
 
@@ -557,7 +558,7 @@ public bool RotationalOneSideBushingZ { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCType"></a> TransCType
 
@@ -582,7 +583,7 @@ public ExpressionValueVariable TransCX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCXSpline"></a> TransCXSpline
 
@@ -594,7 +595,7 @@ public Spline TransCXSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCY"></a> TransCY
 
@@ -606,7 +607,7 @@ public ExpressionValueVariable TransCY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCYSpline"></a> TransCYSpline
 
@@ -618,7 +619,7 @@ public Spline TransCYSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCZ"></a> TransCZ
 
@@ -630,7 +631,7 @@ public ExpressionValueVariable TransCZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCZSpline"></a> TransCZSpline
 
@@ -642,7 +643,7 @@ public Spline TransCZSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKType"></a> TransKType
 
@@ -667,7 +668,7 @@ public ExpressionValueVariable TransKX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKXSpline"></a> TransKXSpline
 
@@ -679,7 +680,7 @@ public Spline TransKXSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKY"></a> TransKY
 
@@ -691,7 +692,7 @@ public ExpressionValueVariable TransKY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKYSpline"></a> TransKYSpline
 
@@ -703,7 +704,7 @@ public Spline TransKYSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKZ"></a> TransKZ
 
@@ -715,7 +716,7 @@ public ExpressionValueVariable TransKZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKZSpline"></a> TransKZSpline
 
@@ -727,7 +728,7 @@ public Spline TransKZSpline { get; set; }
 
 #### Property Value
 
- Spline
+ [Spline](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TranslationalOneSideBushingX"></a> TranslationalOneSideBushingX
 
@@ -739,7 +740,7 @@ public bool TranslationalOneSideBushingX { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TranslationalOneSideBushingY"></a> TranslationalOneSideBushingY
 
@@ -751,7 +752,7 @@ public bool TranslationalOneSideBushingY { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TranslationalOneSideBushingZ"></a> TranslationalOneSideBushingZ
 
@@ -763,7 +764,7 @@ public bool TranslationalOneSideBushingZ { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfRotCX"></a> TypeOfRotCX
 
@@ -933,7 +934,7 @@ public override void Draw(Canvas canvas, TMatrix matTBase, TMatrix matTAct, bool
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 <p>The canvas has icon information.</p>
 
@@ -945,7 +946,7 @@ public override void Draw(Canvas canvas, TMatrix matTBase, TMatrix matTAct, bool
 
 <p>The action transformation.</p>
 
-`bHide` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHide` bool
 
 <p>The hide flag.</p>
 
@@ -973,7 +974,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -987,7 +988,7 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 
 `link` ILink
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
-`args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`args` EventArgs
 

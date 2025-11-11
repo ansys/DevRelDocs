@@ -1,4 +1,5 @@
-#  Class RadialBall
+# Class RadialBall
+<a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class RadialBall : DBRecordForBearing
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Record ← 
-DBRecord ← 
+object ← 
+[Record](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
+[DBRecord](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
 [DBRecordForBearing](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md) ← 
 [RadialBall](VM.Managed.DAFUL.GearTrain.BearingDB.RadialBall.md)
 
@@ -26,7 +27,7 @@ DBRecord ←
 [DBRecordForBearing.Bore](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Bore), 
 [DBRecordForBearing.OutDia](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_OutDia), 
 [DBRecordForBearing.Width](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Width), 
-Record.RecordNo
+[Record.RecordNo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs)
 
 #### Extension Methods
 
@@ -55,7 +56,7 @@ public double? BallDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_BallPDia"></a> BallPDia
 
@@ -68,7 +69,7 @@ public double? BallPDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_C0r"></a> C0r
 
@@ -81,7 +82,7 @@ public double? C0r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_Cr"></a> Cr
 
@@ -94,7 +95,7 @@ public double? Cr
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_IRSDia"></a> IRSDia
 
@@ -107,7 +108,7 @@ public double? IRSDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_Mass"></a> Mass
 
@@ -120,7 +121,7 @@ public double? Mass
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_ORSBore"></a> ORSBore
 
@@ -133,7 +134,7 @@ public double? ORSBore
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_RoundR"></a> RoundR
 
@@ -146,7 +147,7 @@ public double? RoundR
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_f0"></a> f0
 
@@ -159,7 +160,7 @@ public double? f0
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_nBall"></a> nBall
 
@@ -172,7 +173,7 @@ public int? nBall
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_ra"></a> ra
 
@@ -185,7 +186,7 @@ public double? ra
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ## Methods
 
@@ -241,15 +242,15 @@ public void UnitConvert(ref RadialBall br, double dLengthFactor, double dForceFa
 
 The target bearing.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
-`dForceFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dForceFactor` double
 
 The force factor.
 
-`dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMassFactor` double
 
 The mass factor.
 

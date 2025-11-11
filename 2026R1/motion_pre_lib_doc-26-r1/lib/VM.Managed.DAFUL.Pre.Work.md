@@ -1,4 +1,5 @@
-#  Class Work
+# Class Work
+<a id="VM_Managed_DAFUL_Pre_Work"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Work : FileGroup<Work.WorkGroup, GroupItem>, IFileGroup, IWorkGroup
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Group<Work.WorkGroup, GroupItem\>](VM.Managed.DAFUL.Pre.Group\-2.md) ← 
 [FileGroup<Work.WorkGroup, GroupItem\>](VM.Managed.DAFUL.Pre.FileGroup\-2.md) ← 
 [Work](VM.Managed.DAFUL.Pre.Work.md)
@@ -55,7 +56,7 @@ public Work(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
@@ -69,11 +70,11 @@ public Work(string strFileName, bool IsSettingCurrent)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
-`IsSettingCurrent` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`IsSettingCurrent` bool
 
 if set to <code>true</code> [is setting current].
 
@@ -101,7 +102,7 @@ public static string CurrentWorkPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Work_SubModels"></a> SubModels
 
@@ -113,7 +114,7 @@ public List<Model> SubModels { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
+ List<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
 
 ## Methods
 
@@ -133,7 +134,7 @@ The new model.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -156,7 +157,7 @@ public Model GetActiveModel(string strItemPath)
 
 #### Parameters
 
-`strItemPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strItemPath` string
 
 The item path.
 
@@ -176,7 +177,7 @@ public Model GetActiveModelFromDirectory(string strItemDirectory)
 
 #### Parameters
 
-`strItemDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strItemDirectory` string
 
 The STR item directory.
 
@@ -194,7 +195,7 @@ public List<Model> GetAllModels()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
+ List<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
 
 The Models
 
@@ -208,7 +209,7 @@ public Model GetModel(string strModelName)
 
 #### Parameters
 
-`strModelName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModelName` string
 
 Name of the model.
 
@@ -226,7 +227,7 @@ public List<string> GetModelNameList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 The name of models.
 

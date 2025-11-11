@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.FE.History
+# Namespace VM.Managed.DAFUL.FE.History
+<a id="VM_Managed_DAFUL_FE_History"></a>
 
 ### Classes
 

@@ -1,4 +1,5 @@
-#  Class CreateConstraint
+# Class CreateConstraint
+<a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateConstraint
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateConstraint](VM.Managed.DAFUL.Operation.Util.CreateConstraint.md)
 
 #### Extension Methods
@@ -50,7 +51,7 @@ public static General CreateBush(Document document, IConnectable baseConnectable
 
 `direction` OMatrix
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 #### Returns
 
@@ -76,9 +77,9 @@ public static General CreateBush(Document document, IConnectable baseConnectable
 
 `dirZ` DirectionBase
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
@@ -110,13 +111,13 @@ The base transform.
 
 The action transform.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The fixed joint name.
 
-`isPrefix` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPrefix` bool
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
@@ -150,13 +151,13 @@ The action connectable.
 
 The location of fixed joint.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The fixed joint prefix name.
 
 #### Returns
 
- Fixed
+ [Fixed](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Fixed.cs)
 
 The new fixed joint.
 
@@ -190,13 +191,13 @@ The location of fixed joint.
 
 The orientation matrix.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The fixed joint name.
 
-`isPrefix` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPrefix` bool
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
@@ -236,13 +237,13 @@ The base transform.
 
 The action transform.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The fixed joint name.
 
-`isPrefix` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPrefix` bool
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
@@ -274,13 +275,13 @@ The action connectable.
 
 The location of fixed joint.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The fixed joint prefix name.
 
 #### Returns
 
- Fixed
+ [Fixed](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Fixed.cs)
 
 The new fixed joint.
 
@@ -298,7 +299,7 @@ public static General CreateGeneralConnector(Document3D doc, string strName, ICo
 
 The document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
@@ -314,11 +315,11 @@ The action connectable
 
 The connector type
 
-`bAuto` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAuto` bool
 
 The auto flag
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 The tolerance
 
@@ -340,7 +341,7 @@ public static General CreateGeneralConnector(Document3D doc, string strName, Bod
 
 The document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
@@ -356,11 +357,11 @@ The action connectable
 
 The connector type
 
-`bAuto` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAuto` bool
 
 The auto flag
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 The tolerance
 
@@ -398,7 +399,7 @@ The location of revolute joint.
 
 The z-direction of revolute joint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The revolute joint prefix name.
 
@@ -406,7 +407,7 @@ The revolute joint prefix name.
 
 The connector type
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
@@ -438,11 +439,11 @@ The action connectable.
 
 The location of fixed joint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The fixed joint prefix name.
 
-`isPrefix` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPrefix` bool
 
 #### Returns
 
@@ -480,13 +481,13 @@ The location of revolute joint.
 
 The z-direction of revolute joint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The revolute joint prefix name.
 
-`driverFunction` DriverFunction
+`driverFunction` [DriverFunction](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Driver.cs)
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
@@ -526,15 +527,15 @@ The base transform.
 
 The action transform.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The fixed joint name.
 
-`driverFunction` DriverFunction
+`driverFunction` [DriverFunction](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Driver.cs)
 
-`isPrefix` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPrefix` bool
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
@@ -554,7 +555,7 @@ public static General CreateGeneralRevolute(SubSystemDocument subSystemDocument,
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `baseBody` IObjectBase
 
@@ -564,15 +565,15 @@ public static General CreateGeneralRevolute(SubSystemDocument subSystemDocument,
 
 `direction` DirectionBase
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
-`function` Function
+`function` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`motionType` DriverFunction.MotionType
+`motionType` [DriverFunction](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Driver.cs).[MotionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Driver.cs)
 
 #### Returns
 
@@ -608,11 +609,11 @@ The location of translational joint.
 
 The z-direction of translational joint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The translational joint prefix name.
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
@@ -652,13 +653,13 @@ The location of revolute joint.
 
 The z-direction of revolute joint.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The revolute joint prefix name.
 
 #### Returns
 
- Revolute
+ [Revolute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Revolute.cs)
 
 The new revolute joint.
 
@@ -692,13 +693,13 @@ The location of translational joint.
 
 The z-direction of translational joint.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The translational joint prefix name.
 
 #### Returns
 
- Translational
+ [Translational](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Translational.cs)
 
 The new translational joint.
 
@@ -712,7 +713,7 @@ public static General CreateTranslational(SubSystemDocument subSystemDocument, I
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `baseBody` IObjectBase
 
@@ -722,19 +723,19 @@ public static General CreateTranslational(SubSystemDocument subSystemDocument, I
 
 `direction` DirectionBase
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`functionValue` DesignVariable
+`functionValue` [DesignVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignVariable.cs)
 
-`functionZero` Function
+`functionZero` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`restrict_k` DesignVariable
+`restrict_k` [DesignVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignVariable.cs)
 
-`restrict_c` DesignVariable
+`restrict_c` [DesignVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignVariable.cs)
 
-`usePlus` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`usePlus` bool
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
@@ -754,7 +755,7 @@ public static bool GetConnectorParameter(IDocument doc, string strName, IConnect
 
 `doc` IDocument
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `connectableFirst` IConnectable
 
@@ -762,13 +763,13 @@ public static bool GetConnectorParameter(IDocument doc, string strName, IConnect
 
 `parameterType` [CreateConstraint](VM.Managed.DAFUL.Operation.Util.CreateConstraint.md).[ParameterType](VM.Managed.DAFUL.Operation.Util.CreateConstraint.ParameterType.md)
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
-`pickedResults` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`pickedResults` object\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_GetConnectorParameter_VM_Models_Pre_IDocument_System_String_VM_Managed_CAD_Body_VM_Managed_CAD_Body_VM_Managed_DAFUL_Operation_Util_CreateConstraint_ParameterType_System_Double_System_Object____"></a> GetConnectorParameter\(IDocument, string, Body, Body, ParameterType, double, ref object\[\]\)
 
@@ -782,7 +783,7 @@ public static bool GetConnectorParameter(IDocument doc, string strName, Body bod
 
 `doc` IDocument
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `bodyFirst` Body
 
@@ -790,11 +791,11 @@ public static bool GetConnectorParameter(IDocument doc, string strName, Body bod
 
 `parameterType` [CreateConstraint](VM.Managed.DAFUL.Operation.Util.CreateConstraint.md).[ParameterType](VM.Managed.DAFUL.Operation.Util.CreateConstraint.ParameterType.md)
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
-`pickedResults` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`pickedResults` object\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

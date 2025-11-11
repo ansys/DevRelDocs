@@ -1,4 +1,5 @@
-#  Class DependentDocEventArgs
+# Class DependentDocEventArgs
+<a id="VM_Managed_DependentDocEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public sealed class DependentDocEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [DependentDocEventArgs](VM.Managed.DependentDocEventArgs.md)
 
 #### Extension Methods

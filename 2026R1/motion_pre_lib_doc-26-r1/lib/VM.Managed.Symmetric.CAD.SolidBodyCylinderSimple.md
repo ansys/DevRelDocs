@@ -1,4 +1,5 @@
-#  Class SolidBodyCylinderSimple
+# Class SolidBodyCylinderSimple
+<a id="VM_Managed_Symmetric_CAD_SolidBodyCylinderSimple"></a>
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class SolidBodyCylinderSimple : SolidBodyGeometry, ISymmetricUpdater, ISy
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SolidBodyGeometry](VM.Managed.Symmetric.CAD.SolidBodyGeometry.md) ← 
 [SolidBodyCylinderSimple](VM.Managed.Symmetric.CAD.SolidBodyCylinderSimple.md)
 
@@ -70,7 +71,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -104,7 +105,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

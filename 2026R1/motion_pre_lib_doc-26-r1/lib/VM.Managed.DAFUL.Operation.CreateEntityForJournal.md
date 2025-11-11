@@ -1,4 +1,5 @@
-#  Class CreateEntityForJournal
+# Class CreateEntityForJournal
+<a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateEntityForJournal : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateEntityForJournal](VM.Managed.DAFUL.Operation.CreateEntityForJournal.md)
 
@@ -85,9 +86,9 @@ public CreateEntityForJournal(string strXML, string strType)
 
 #### Parameters
 
-`strXML` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXML` string
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateEntityForJournal\(JournalParameter\)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -131,5 +132,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

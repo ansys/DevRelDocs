@@ -1,4 +1,5 @@
-#  Class BooleanAPI
+# Class BooleanAPI
+<a id="VM_API_Pre_BooleanAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class BooleanAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanAPI](VM.API.Pre.BooleanAPI.md)
 
 #### Extension Methods
@@ -46,7 +47,7 @@ The tool of a body.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 the object seleted by this API.
 
@@ -64,9 +65,9 @@ public static void IntersectBody(this IDocument document, Obj targetBody, IEnume
 
 `targetBody` [Obj](VM.API.Pre.Obj.md)
 
-`toolBodies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`toolBodies` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`reserveToolBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`reserveToolBody` bool
 
 ### <a id="VM_API_Pre_BooleanAPI_SubtractBody_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_"></a> SubtractBody\(IDocument, Obj, Obj, bool\)
 
@@ -84,7 +85,7 @@ public static void SubtractBody(this IDocument document, Obj targetBody, Obj too
 
 `toolBody` [Obj](VM.API.Pre.Obj.md)
 
-`reserveToolBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`reserveToolBody` bool
 
 ### <a id="VM_API_Pre_BooleanAPI_UniteBody_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Boolean_"></a> UniteBody\(IDocument, Obj, IEnumerable<Obj\>, bool\)
 
@@ -100,7 +101,7 @@ public static void UniteBody(this IDocument document, Obj targetBody, IEnumerabl
 
 `targetBody` [Obj](VM.API.Pre.Obj.md)
 
-`toolBodies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`toolBodies` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
-`reserveToolBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`reserveToolBody` bool
 

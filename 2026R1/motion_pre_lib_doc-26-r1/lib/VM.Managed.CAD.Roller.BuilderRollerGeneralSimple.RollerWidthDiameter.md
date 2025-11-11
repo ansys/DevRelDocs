@@ -1,4 +1,5 @@
-#  Struct BuilderRollerGeneralSimple.RollerWidthDiameter
+# Struct BuilderRollerGeneralSimple.RollerWidthDiameter
+<a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_RollerWidthDiameter"></a>
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -21,11 +22,11 @@ public RollerWidthDiameter(double dWidth, double dDiameter)
 
 #### Parameters
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 the width of roller
 
-`dDiameter` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDiameter` double
 
 the diameter of roller
 
@@ -41,7 +42,7 @@ public double m_dDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_RollerWidthDiameter_m_dWidth"></a> m\_dWidth
 
@@ -53,5 +54,5 @@ public double m_dWidth
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

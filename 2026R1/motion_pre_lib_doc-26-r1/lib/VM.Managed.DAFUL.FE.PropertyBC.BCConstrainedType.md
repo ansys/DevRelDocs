@@ -1,4 +1,5 @@
-#  Enum PropertyBC.BCConstrainedType
+# Enum PropertyBC.BCConstrainedType
+<a id="VM_Managed_DAFUL_FE_PropertyBC_BCConstrainedType"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

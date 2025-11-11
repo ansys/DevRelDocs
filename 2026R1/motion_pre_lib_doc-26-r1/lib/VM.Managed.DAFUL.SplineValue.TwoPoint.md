@@ -1,4 +1,5 @@
-#  Struct SplineValue.TwoPoint
+# Struct SplineValue.TwoPoint
+<a id="VM_Managed_DAFUL_SplineValue_TwoPoint"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -21,11 +22,11 @@ public TwoPoint(double dx, double dy)
 
 #### Parameters
 
-`dx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dx` double
 
 The dx.
 
-`dy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dy` double
 
 The dy.
 
@@ -41,7 +42,7 @@ public double m_dX
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_SplineValue_TwoPoint_m_dY"></a> m\_dY
 
@@ -53,5 +54,5 @@ public double m_dY
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

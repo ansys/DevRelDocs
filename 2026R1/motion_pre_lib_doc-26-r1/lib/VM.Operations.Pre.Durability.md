@@ -1,4 +1,5 @@
-#  Namespace VM.Operations.Pre.Durability
+# Namespace VM.Operations.Pre.Durability
+<a id="VM_Operations_Pre_Durability"></a>
 
 ### Classes
 

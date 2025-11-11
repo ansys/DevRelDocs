@@ -1,4 +1,5 @@
-#  Enum Document3D.OperationTypeForSelection
+# Enum Document3D.OperationTypeForSelection
+<a id="VM_Managed_Document3D_OperationTypeForSelection"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

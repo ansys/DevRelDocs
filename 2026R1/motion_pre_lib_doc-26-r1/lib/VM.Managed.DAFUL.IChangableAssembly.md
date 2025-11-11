@@ -1,4 +1,5 @@
-#  Interface IChangableAssembly
+# Interface IChangableAssembly
+<a id="VM_Managed_DAFUL_IChangableAssembly"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -39,7 +40,7 @@ string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

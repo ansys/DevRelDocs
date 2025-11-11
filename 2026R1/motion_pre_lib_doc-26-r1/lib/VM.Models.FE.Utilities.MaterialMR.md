@@ -1,4 +1,5 @@
-#  Struct MaterialMR
+# Struct MaterialMR
+<a id="VM_Models_FE_Utilities_MaterialMR"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public double C01 { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialMR_C10"></a> C10
 
@@ -27,7 +28,7 @@ public double C10 { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialMR_D"></a> D
 
@@ -37,7 +38,7 @@ public double D { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialMR_Density"></a> Density
 
@@ -47,7 +48,7 @@ public double Density { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialMR_ID"></a> ID
 
@@ -57,5 +58,5 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

@@ -1,4 +1,5 @@
-#  Class UpdateMeshFreeNodePropertyAndMaxFacetSizeOp
+# Class UpdateMeshFreeNodePropertyAndMaxFacetSizeOp
+<a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,7 +12,7 @@ public class UpdateMeshFreeNodePropertyAndMaxFacetSizeOp : OperationBase, IOpera
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateMeshFreeNodePropertyAndMaxFacetSizeOp](VM.Managed.DAFUL.MeshFree.UpdateMeshFreeNodePropertyAndMaxFacetSizeOp.md)
 
@@ -111,7 +112,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp_Name"></a> Name
 
@@ -123,7 +124,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp_Success"></a> Success
 
@@ -135,7 +136,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Class IFlipImpl
+# Class IFlipImpl
+<a id="VM_Managed_DAFUL_IFlipImpl"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -9,7 +10,7 @@ public class IFlipImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IFlipImpl](VM.Managed.DAFUL.IFlipImpl.md)
 
 #### Extension Methods

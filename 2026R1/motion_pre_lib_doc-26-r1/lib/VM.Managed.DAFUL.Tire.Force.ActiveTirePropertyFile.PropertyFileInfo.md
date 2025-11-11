@@ -1,4 +1,5 @@
-#  Class ActiveTirePropertyFile.PropertyFileInfo
+# Class ActiveTirePropertyFile.PropertyFileInfo
+<a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_PropertyFileInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -11,7 +12,7 @@ public class ActiveTirePropertyFile.PropertyFileInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ActiveTirePropertyFile.PropertyFileInfo](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.PropertyFileInfo.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public double AspectRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_PropertyFileInfo_Radius"></a> Radius
 
@@ -54,7 +55,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_PropertyFileInfo_RimRadius"></a> RimRadius
 
@@ -66,7 +67,7 @@ public double RimRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_PropertyFileInfo_RimWidth"></a> RimWidth
 
@@ -78,7 +79,7 @@ public double RimWidth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_PropertyFileInfo_Unit"></a> Unit
 
@@ -102,5 +103,5 @@ public double Width { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

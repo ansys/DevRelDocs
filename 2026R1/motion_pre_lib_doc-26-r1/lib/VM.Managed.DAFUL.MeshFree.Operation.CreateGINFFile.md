@@ -1,4 +1,5 @@
-#  Class CreateGINFFile
+# Class CreateGINFFile
+<a id="VM_Managed_DAFUL_MeshFree_Operation_CreateGINFFile"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -11,7 +12,7 @@ public class CreateGINFFile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateGINFFile](VM.Managed.DAFUL.MeshFree.Operation.CreateGINFFile.md)
 
 #### Extension Methods
@@ -32,11 +33,11 @@ public CreateGINFFile(string strMeshFreePrePath, string strGInfFilePath, string 
 
 #### Parameters
 
-`strMeshFreePrePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFreePrePath` string
 
-`strGInfFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGInfFilePath` string
 
-`strGINFInputPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGINFInputPath` string
 
 ## Methods
 
@@ -50,5 +51,5 @@ public bool CreateGINF()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

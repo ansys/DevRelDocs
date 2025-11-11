@@ -1,4 +1,5 @@
-#  Class BeamInfo
+# Class BeamInfo
+<a id="VM_Managed_DAFUL_Beam_BeamInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VMDBeamGroup.dll  
@@ -12,9 +13,9 @@ public class BeamInfo : LinkContainer, IObservableObject, IDisposableObject, ILi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [BeamInfo](VM.Managed.DAFUL.Beam.BeamInfo.md)
 
@@ -76,7 +77,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -117,7 +118,7 @@ protected CrossSectionType m_CrossSectionType
 
 #### Field Value
 
- CrossSectionType
+ [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 ## Properties
 
@@ -143,7 +144,7 @@ public Color Color { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_CrossSectionType"></a> CrossSectionType
 
@@ -155,7 +156,7 @@ public CrossSectionType CrossSectionType { get; set; }
 
 #### Property Value
 
- CrossSectionType
+ [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_DampingRatio"></a> DampingRatio
 
@@ -167,7 +168,7 @@ public double DampingRatio { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_DefaultStraightBodyPoints"></a> DefaultStraightBodyPoints
 
@@ -179,7 +180,7 @@ public List<Vector> DefaultStraightBodyPoints { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_Density"></a> Density
 
@@ -191,7 +192,7 @@ public double Density { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_EndPoint"></a> EndPoint
 
@@ -227,7 +228,7 @@ public double[] GeomInfoArray { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_GeomInfos"></a> GeomInfos
 
@@ -251,7 +252,7 @@ public string HtmlColor { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsFirstBeamInfo"></a> IsFirstBeamInfo
 
@@ -263,7 +264,7 @@ public bool IsFirstBeamInfo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsLastBeamInfo"></a> IsLastBeamInfo
 
@@ -275,7 +276,7 @@ public bool IsLastBeamInfo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_Material"></a> Material
 
@@ -299,7 +300,7 @@ public ISO MaterialISO { get; }
 
 #### Property Value
 
- ISO
+ [ISO](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/MaterialISO.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_NumOfElements"></a> NumOfElements
 
@@ -311,7 +312,7 @@ public uint NumOfElements { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_PoissonRatio"></a> PoissonRatio
 
@@ -323,7 +324,7 @@ public double PoissonRatio { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_ShearModulus"></a> ShearModulus
 
@@ -335,7 +336,7 @@ public double ShearModulus { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_StartPoint"></a> StartPoint
 
@@ -371,7 +372,7 @@ public bool UseMiddleElementReferenceFrame { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_YDirection"></a> YDirection
 
@@ -395,7 +396,7 @@ public double[] YDirectionArray { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo_YoungsModulus"></a> YoungsModulus
 
@@ -407,7 +408,7 @@ public double YoungsModulus { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamInfo__Material"></a> \_Material
 
@@ -447,7 +448,7 @@ public void Draw(ref Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 Canvas to draw beam geometry
 
@@ -535,7 +536,7 @@ Currnet beam element
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -549,13 +550,13 @@ public bool IsEndSolidBody(SolidBody solidBody)
 
 #### Parameters
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 SolidBody to check
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -575,7 +576,7 @@ Currnet beam element
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -589,13 +590,13 @@ public bool IsStartSolidBody(SolidBody solidBody)
 
 #### Parameters
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 SolidBody to check
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -609,7 +610,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -627,7 +628,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

@@ -1,4 +1,5 @@
-#  Interface IHasName
+# Interface IHasName
+<a id="VM_IHasName"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,7 +24,7 @@ string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_IHasName_FullName"></a> FullName
 
@@ -33,7 +34,7 @@ string FullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_IHasName_Name"></a> Name
 
@@ -43,5 +44,5 @@ string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

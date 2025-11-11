@@ -1,4 +1,5 @@
-#  Class CADOperation
+# Class CADOperation
+<a id="VM_Managed_DAFUL_Car_CADOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class CADOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADOperation](VM.Managed.DAFUL.Car.CADOperation.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static void SetMinorRoleForInterface(Dictionary<string, MinorRole> dic)
 
 #### Parameters
 
-`dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)\>
+`dic` Dictionary<string, [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)\>
 
 The objectbase and interface names.
 

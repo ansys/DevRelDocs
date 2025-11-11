@@ -1,4 +1,5 @@
-#  Class CADNameUpdateOperation
+# Class CADNameUpdateOperation
+<a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CADNameUpdateOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADNameUpdateOperation](VM.Managed.DAFUL.Operation.CADNameUpdateOperation.md)
 
@@ -87,7 +88,7 @@ public CADNameUpdateOperation(Body cad, string strNewName)
 
 `cad` Body
 
-`strNewName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNewName` string
 
 ### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> CADNameUpdateOperation\(JournalParameter\)
 
@@ -109,7 +110,7 @@ public bool IsSuccess { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation_Name"></a> Name
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -141,5 +142,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

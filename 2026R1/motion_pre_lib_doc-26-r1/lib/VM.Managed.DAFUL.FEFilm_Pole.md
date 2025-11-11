@@ -1,4 +1,5 @@
-#  Class FEFilm\_Pole
+# Class FEFilm\_Pole
+<a id="VM_Managed_DAFUL_FEFilm_Pole"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  
@@ -9,9 +10,9 @@ public class FEFilm_Pole : LinkContainer, IObservableObject, IDisposableObject, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [FEFilm\_Pole](VM.Managed.DAFUL.FEFilm\_Pole.md)
 
@@ -74,7 +75,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -111,7 +112,7 @@ public ExpressionValueVariable ChamferOfLength { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_ChamferOfLength_Bottom"></a> ChamferOfLength\_Bottom
 
@@ -121,7 +122,7 @@ public ExpressionValueVariable ChamferOfLength_Bottom { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_ChamferOfWidth"></a> ChamferOfWidth
 
@@ -131,7 +132,7 @@ public ExpressionValueVariable ChamferOfWidth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_ChamferOfWidth_Bottom"></a> ChamferOfWidth\_Bottom
 
@@ -141,7 +142,7 @@ public ExpressionValueVariable ChamferOfWidth_Bottom { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_EndOffset"></a> EndOffset
 
@@ -151,7 +152,7 @@ public ExpressionValueVariable EndOffset { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_IntervalPole"></a> IntervalPole
 
@@ -161,7 +162,7 @@ public ExpressionValueVariable IntervalPole { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_LengthPole"></a> LengthPole
 
@@ -171,7 +172,7 @@ public ExpressionValueVariable LengthPole { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_MaxWidthElementPole"></a> MaxWidthElementPole
 
@@ -181,7 +182,7 @@ public ExpressionValueVariable MaxWidthElementPole { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfElements"></a> NoOfElements
 
@@ -191,7 +192,7 @@ public int NoOfElements { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfElementsPerPole"></a> NoOfElementsPerPole
 
@@ -201,7 +202,7 @@ public int NoOfElementsPerPole { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfElementsPerPole_Bottom"></a> NoOfElementsPerPole\_Bottom
 
@@ -211,7 +212,7 @@ public int NoOfElementsPerPole_Bottom { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfNodes"></a> NoOfNodes
 
@@ -221,7 +222,7 @@ public int NoOfNodes { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfNodesPerPole"></a> NoOfNodesPerPole
 
@@ -231,7 +232,7 @@ public int NoOfNodesPerPole { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfNodesPerPole_Bottom"></a> NoOfNodesPerPole\_Bottom
 
@@ -241,7 +242,7 @@ public int NoOfNodesPerPole_Bottom { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_StartOffset"></a> StartOffset
 
@@ -251,7 +252,7 @@ public ExpressionValueVariable StartOffset { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_TabLocation"></a> TabLocation
 
@@ -271,7 +272,7 @@ public ExpressionValueVariable ThicknessPole { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_ThicknessPole_Bottom"></a> ThicknessPole\_Bottom
 
@@ -281,7 +282,7 @@ public ExpressionValueVariable ThicknessPole_Bottom { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_WidthPole"></a> WidthPole
 
@@ -291,7 +292,7 @@ public ExpressionValueVariable WidthPole { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FEFilm_Pole_WidthPole_Bottom"></a> WidthPole\_Bottom
 
@@ -301,7 +302,7 @@ public ExpressionValueVariable WidthPole_Bottom { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -329,7 +330,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

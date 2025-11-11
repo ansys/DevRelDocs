@@ -1,11 +1,12 @@
-#  Interface IOperationsNodeViewModel
+# Interface IOperationsNodeViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsNodeViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Interface representing information for the node view model.
 
-```python
+```csharp
 public interface IOperationsNodeViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsNodeViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsNodeViewModel.py
+```python
+# IOperationsNodeViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,9 +37,12 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -48,7 +55,14 @@ for page in pages :
 
 viewCount = len(findViews)
 if viewCount > 0 :
+    # result_file_path - Get the document from the result file path.
     document = applicationHandler.GetDocument(result_file_path)
+
+    # This retrieves the analysis result from the document.
+    # Types of Analysis Results
+    # - Dynamics
+    # - Eigenvalue
+    # - Statics
     analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 
     # Get a febody
@@ -58,14 +72,15 @@ if viewCount > 0 :
     node = febody.CreateNode(754)
     node.ChangeID(755)
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Methods
 
@@ -73,13 +88,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Changes the ID of a node belonging to an FEBody.
 
-```python
+```csharp
 void ChangeID(int id)
 ```
 
 #### Parameters
 
-`id` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`id` int
 
 The new unique ID for the node. If the specified ID does not exist, the change will not be applied.
 
@@ -90,5 +105,4 @@ For an example that includes this property, see the [Interface IOperationsNodeVi
 #### Remarks
 
 This method changes the ID of a node within an FEBody. The provided ID must be unique and must correspond to an existing node; otherwise, the ID will not be changed.
-
 

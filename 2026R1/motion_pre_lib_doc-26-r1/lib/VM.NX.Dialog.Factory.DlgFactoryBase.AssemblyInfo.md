@@ -1,4 +1,5 @@
-#  Class DlgFactoryBase.AssemblyInfo
+# Class DlgFactoryBase.AssemblyInfo
+<a id="VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo"></a>
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDM.dll  
@@ -9,7 +10,7 @@ protected class DlgFactoryBase.AssemblyInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DlgFactoryBase.AssemblyInfo](VM.NX.Dialog.Factory.DlgFactoryBase.AssemblyInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public Assembly m_asm
 
 #### Field Value
 
- [Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)
+ Assembly
 
 ### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo_m_node"></a> m\_node
 
@@ -46,5 +47,5 @@ public XmlNode m_node
 
 #### Field Value
 
- [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+ XmlNode
 

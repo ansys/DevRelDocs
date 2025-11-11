@@ -1,4 +1,5 @@
-#  Class OperationStatusEventArgs
+# Class OperationStatusEventArgs
+<a id="VM_Managed_Operation_OperationStatusEventArgs"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class OperationStatusEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [OperationStatusEventArgs](VM.Managed.Operation.OperationStatusEventArgs.md)
 
 #### Extension Methods

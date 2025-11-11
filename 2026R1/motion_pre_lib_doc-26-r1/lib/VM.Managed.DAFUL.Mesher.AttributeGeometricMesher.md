@@ -1,4 +1,5 @@
-#  Class AttributeGeometricMesher
+# Class AttributeGeometricMesher
+<a id="VM_Managed_DAFUL_Mesher_AttributeGeometricMesher"></a>
 
 Namespace: [VM.Managed.DAFUL.Mesher](VM.Managed.DAFUL.Mesher.md)  
 Assembly: VMDMesher.dll  
@@ -11,9 +12,9 @@ public class AttributeGeometricMesher : AttributeFacetRefinementBase, IObservabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 AttributeFacetRefinementBase ← 
@@ -127,7 +128,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -168,7 +169,7 @@ public override bool DrawGlobalBody { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -194,7 +195,7 @@ public static void SetDataToAttribute(AttributeGeometricMesher attr, string[] ar
 
 The attribute.
 
-`arInput` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arInput` string\[\]
 
 The input array.
 

@@ -1,4 +1,5 @@
-#  Class ToothStiffness
+# Class ToothStiffness
+<a id="VM_Managed_DAFUL_GearTrain_ToothStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class ToothStiffness : GearPropertyBase, IObservableObject, IDisposableOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [GearPropertyBase](VM.Managed.DAFUL.GearTrain.GearPropertyBase.md) ← 
 [ToothStiffness](VM.Managed.DAFUL.GearTrain.ToothStiffness.md)
@@ -77,7 +78,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -118,11 +119,11 @@ public SplineValue[] BeamToothSplineValues { get; set; }
 
 #### Property Value
 
- SplineValue\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 SplineValue list is null.
 or
@@ -140,11 +141,11 @@ public SplineValue[] FEToothSplineValues { get; set; }
 
 #### Property Value
 
- SplineValue\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 SplineValue list is null.
 or
@@ -162,11 +163,11 @@ public SplineValue[] ISO6336ToothSplineValues { get; set; }
 
 #### Property Value
 
- SplineValue\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 SplineValue list is null.
 or
@@ -188,7 +189,7 @@ public ToothStiffness.MethodType[] MethodTypes { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 MethodType list is null.
 or
@@ -204,11 +205,11 @@ public string[] UserInputFilePaths { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 UserInputFilePath list is null.
 or
@@ -224,11 +225,11 @@ public SplineValue[] UserInputToothSplineValues { get; set; }
 
 #### Property Value
 
- SplineValue\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 SplineValue list is null.
 or
@@ -248,7 +249,7 @@ public SplineValue[] GetAllSplineValue()
 
 #### Returns
 
- SplineValue\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_GetSplineValue_VM_Managed_DAFUL_GearTrain_ToothStiffness_MethodType_System_Int32_"></a> GetSplineValue\(MethodType, int\)
 
@@ -264,13 +265,13 @@ public SplineValue GetSplineValue(ToothStiffness.MethodType type, int nIdx)
 
 The type.
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
 #### Returns
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_GetSplineValue_System_Int32_"></a> GetSplineValue\(int\)
 
@@ -282,13 +283,13 @@ public SplineValue GetSplineValue(int nIdx)
 
 #### Parameters
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
 #### Returns
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_InitChild_System_Int32_"></a> InitChild\(int\)
 
@@ -300,7 +301,7 @@ public override void InitChild(int nNum)
 
 #### Parameters
 
-`nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNum` int
 
 The n number.
 
@@ -314,7 +315,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -332,7 +333,7 @@ public void RemoveSplineValue(ToothStiffness.MethodType type, int nIdx)
 
 The type.
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
@@ -350,11 +351,11 @@ public void ReplaceSplineValue(ToothStiffness.MethodType type, int nIdx, SplineV
 
 The type.
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
-`sv` SplineValue
+`sv` [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The sv.
 
@@ -368,7 +369,7 @@ public void SetMethodType(int nIdx, ToothStiffness.MethodType typeMethod)
 
 #### Parameters
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
@@ -386,11 +387,11 @@ public void SetUserInputFilePath(int nIdx, string strUserInputFilePath)
 
 #### Parameters
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
-`strUserInputFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strUserInputFilePath` string
 
 The string user input file path.
 

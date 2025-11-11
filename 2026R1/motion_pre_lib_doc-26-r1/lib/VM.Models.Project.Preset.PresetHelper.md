@@ -1,4 +1,5 @@
-#  Class PresetHelper
+# Class PresetHelper
+<a id="VM_Models_Project_Preset_PresetHelper"></a>
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -9,7 +10,7 @@ public static class PresetHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PresetHelper](VM.Models.Project.Preset.PresetHelper.md)
 
 #### Extension Methods
@@ -28,5 +29,5 @@ public static IEnumerable<IScenario> GetScenarios()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IScenario\>
+ IEnumerable<IScenario\>
 

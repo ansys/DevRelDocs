@@ -1,4 +1,5 @@
-#  Class ChainedSystemAPI
+# Class ChainedSystemAPI
+<a id="VM_API_Pre_Links_ChainedSystemAPI"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +12,7 @@ public static class ChainedSystemAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ChainedSystemAPI](VM.API.Pre.Links.ChainedSystemAPI.md)
 
 #### Extension Methods
@@ -35,67 +36,67 @@ public static IEnumerable<Obj> AddObjectToActiveDocument(this Obj chainedPlacing
 
 #### Parameters
 
-`chainedPlacing` Obj
+`chainedPlacing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The chained placing to add object.
 
-`numberOfSegment` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfSegment` int
 
 The number of segment.
 
-`numberOfSegmentData` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfSegmentData` int
 
 The number of segment data.
 
-`preFixed` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`preFixed` IEnumerable<string\>
 
 The pre-fixed names. The length is 'numberOfSegmentData'.
 
-`transforms` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<TMatrix\>
+`transforms` IEnumerable<TMatrix\>
 
 The segment transforms. The length is 'numberOfSegment'.
 
-`segmentDocuments` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Document3D\>
+`segmentDocuments` IEnumerable<Document3D\>
 
 The segment data documents. The length is 'numberOfSegmentData'.
 
-`isCreate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isCreate` bool
 
 The create flag. If operation is modify state, You can put the value in 'false'.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+ IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The new segment list
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'chainedPlacing' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'chainedPlacing' is not <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'preFixed', 'transforms', 'segmentDocuments' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'numberOfSegmentData' value is greater than 'numberOfSegment' value.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the length of 'preFixed' is not equal 'numberOfSegmentData' value.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the length of 'segmentDocuments' is not equal 'numberOfSegmentData' value.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the length of 'transforms' is not equal 'numberOfSegment' value.
 
@@ -112,29 +113,29 @@ public static void ChangeObjectLayer(this Obj chainedPlacing, IEnumerable<Obj> v
 
 #### Parameters
 
-`chainedPlacing` Obj
+`chainedPlacing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The chained placing to change object.
 
-`visibleObjects` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`visibleObjects` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The objects to be changed.
 
-`visibleStates` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`visibleStates` IEnumerable<bool\>
 
 The vislble flags.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'chainedPlacing' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'chainedPlacing' is not <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'visibleObjects', 'visibleStates' argument is empty.
 
@@ -148,31 +149,31 @@ public static Obj CreateCenter(this DocumentChainedPath document, string bodyNam
 
 #### Parameters
 
-`document` DocumentChainedPath
+`document` [DocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedPath.cs)
 
 The document to create the center roller solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -186,23 +187,23 @@ public static Obj CreateCenter(this PartDocumentChainedPath document, Color? col
 
 #### Parameters
 
-`document` PartDocumentChainedPath
+`document` [PartDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedPath.cs)
 
 The document to create the center roller body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -217,31 +218,31 @@ public static Obj CreateChainedSystem(this SubSystemDocument document, IEnumerab
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the chained system.
 
-`pathList` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`pathList` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The path list.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'CPlacing_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' , 'pathList' are null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'pathList' is not <xref href="VM.Managed.InstanceContainer" data-throw-if-not-resolved="false"></xref>.
 
@@ -255,31 +256,31 @@ public static Obj CreateDouble(this DocumentChainedPath document, string bodyNam
 
 #### Parameters
 
-`document` DocumentChainedPath
+`document` [DocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedPath.cs)
 
 The document to create the double roller solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -293,23 +294,23 @@ public static Obj CreateDouble(this PartDocumentChainedPath document, Color? col
 
 #### Parameters
 
-`document` PartDocumentChainedPath
+`document` [PartDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedPath.cs)
 
 The document to create the double roller body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -323,31 +324,31 @@ public static Obj CreateFlat(this DocumentChainedPath document, string bodyName 
 
 #### Parameters
 
-`document` DocumentChainedPath
+`document` [DocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedPath.cs)
 
 The document to create the flat roller solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -361,23 +362,23 @@ public static Obj CreateFlat(this PartDocumentChainedPath document, Color? color
 
 #### Parameters
 
-`document` PartDocumentChainedPath
+`document` [PartDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedPath.cs)
 
 The document to create the flat roller body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -391,31 +392,31 @@ public static Obj CreateGeneral(this DocumentChainedPath document, string bodyNa
 
 #### Parameters
 
-`document` DocumentChainedPath
+`document` [DocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedPath.cs)
 
 The document to create the general roller solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -429,23 +430,23 @@ public static Obj CreateGeneral(this PartDocumentChainedPath document, Color? co
 
 #### Parameters
 
-`document` PartDocumentChainedPath
+`document` [PartDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedPath.cs)
 
 The document to create the general roller body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -459,31 +460,31 @@ public static Obj CreateSingle(this DocumentChainedPath document, string bodyNam
 
 #### Parameters
 
-`document` DocumentChainedPath
+`document` [DocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedPath.cs)
 
 The document to create the single roller solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -497,23 +498,23 @@ public static Obj CreateSingle(this PartDocumentChainedPath document, Color? col
 
 #### Parameters
 
-`document` PartDocumentChainedPath
+`document` [PartDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedPath.cs)
 
 The document to create the single roller body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -528,31 +529,31 @@ public static Obj CreateSprocket(this DocumentChainedPath document, string bodyN
 
 #### Parameters
 
-`document` DocumentChainedPath
+`document` [DocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/DocumentChainedPath.cs)
 
 The document to create the sprocket solid body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the <xref href="VM.Managed.DAFUL.Sprocket.SolidBodySprocket" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'BD_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Sprocket.SolidBodySprocket" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -567,23 +568,23 @@ public static Obj CreateSprocket(this PartDocumentChainedPath document, Color? c
 
 #### Parameters
 
-`document` PartDocumentChainedPath
+`document` [PartDocumentChainedPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/PartDocumentChainedPath.cs)
 
 The document to create the sprocket body.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new flat roller geometry. The default value is '0xBFAAAA'
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.CAD.Sprocket.BodySprocket" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -600,25 +601,25 @@ public static void DeleteObjectList(this Obj chainedPlacing, IEnumerable<Obj> de
 
 #### Parameters
 
-`chainedPlacing` Obj
+`chainedPlacing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The chained placing to delete object.
 
-`deletedObjects` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`deletedObjects` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The objects to be deleted.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'chainedPlacing' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'chainedPlacing' is not <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'deletedObjects' argument is empty.
 

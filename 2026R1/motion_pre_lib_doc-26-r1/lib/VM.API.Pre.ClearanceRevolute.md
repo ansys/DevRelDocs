@@ -1,4 +1,5 @@
-#  Class ClearanceRevolute
+# Class ClearanceRevolute
+<a id="VM_API_Pre_ClearanceRevolute"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public class ClearanceRevolute : Clearance
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Clearance](VM.API.Pre.Clearance.md) ← 
 [ClearanceRevolute](VM.API.Pre.ClearanceRevolute.md)
 
@@ -48,27 +49,27 @@ public ClearanceRevolute(ExpressionValueVariable stiffnessCoefficient, Expressio
 
 #### Parameters
 
-`stiffnessCoefficient` ExpressionValueVariable
+`stiffnessCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness coefficient.
 
-`exponentOfPenetration` ExpressionValueVariable
+`exponentOfPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The exponent of penetration.
 
-`maxDampingCoefficient` ExpressionValueVariable
+`maxDampingCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The max damping coefficient.
 
-`useDampingEffectInVoid` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useDampingEffectInVoid` bool
 
 The use damping effect in void.
 
-`radialClearance` ExpressionValueVariable
+`radialClearance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The radial clearance.
 
-`axialClearance` ExpressionValueVariable
+`axialClearance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The axial clearance.
 
@@ -84,7 +85,7 @@ public ExpressionValueVariable AxialClearance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_ClearanceRevolute_RadialClearance"></a> RadialClearance
 
@@ -96,5 +97,5 @@ public ExpressionValueVariable RadialClearance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

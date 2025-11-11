@@ -1,4 +1,5 @@
-#  Class NameChangedEventArgs
+# Class NameChangedEventArgs
+<a id="VM_Managed_NameChangedEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public sealed class NameChangedEventArgs : LinkEventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [LinkEventArgs](VM.Managed.LinkEventArgs.md) ← 
 [NameChangedEventArgs](VM.Managed.NameChangedEventArgs.md)
 
@@ -47,7 +48,7 @@ public NameChangedEventArgs(string strOldName, LinkEventArgs innerArgs, object o
 
 #### Parameters
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 The previous name information.
 
@@ -55,7 +56,7 @@ The previous name information.
 
 The inner event.
 
-`obEventPrevious` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obEventPrevious` object
 
 The previous linked object.
 
@@ -69,7 +70,7 @@ public NameChangedEventArgs(string strOldName)
 
 #### Parameters
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 The previous name information.
 
@@ -85,5 +86,5 @@ public string OldName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

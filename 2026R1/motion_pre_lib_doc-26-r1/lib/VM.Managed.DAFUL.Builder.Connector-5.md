@@ -1,4 +1,5 @@
-#  Class Connector<T, TProp, TSetPositon, TSetDirection, TSetOrientation\>
+# Class Connector<T, TProp, TSetPositon, TSetDirection, TSetOrientation\>
+<a id="VM_Managed_DAFUL_Builder_Connector_5"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -21,7 +22,7 @@ public class Connector<T, TProp, TSetPositon, TSetDirection, TSetOrientation> : 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<T\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<T\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<T\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md) ← 
@@ -91,7 +92,7 @@ protected override bool AddToDoc { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Connector_5_BaseConnectable"></a> BaseConnectable
 
@@ -123,7 +124,7 @@ protected virtual void HookBeforeReplace(Property propertyOriginal)
 
 #### Parameters
 
-`propertyOriginal` Property
+`propertyOriginal` [Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_Connector_5_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
@@ -149,5 +150,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

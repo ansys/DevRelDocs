@@ -1,4 +1,5 @@
-#  Enum BearingStrength.enCleanlinessISOType
+# Enum BearingStrength.enCleanlinessISOType
+<a id="VM_Managed_DAFUL_GearTrain_BearingStrength_enCleanlinessISOType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

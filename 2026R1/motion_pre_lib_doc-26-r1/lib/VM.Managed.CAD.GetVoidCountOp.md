@@ -1,4 +1,5 @@
-#  Class GetVoidCountOp
+# Class GetVoidCountOp
+<a id="VM_Managed_CAD_GetVoidCountOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetVoidCountOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetVoidCountOp](VM.Managed.CAD.GetVoidCountOp.md)
 
@@ -105,7 +106,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_GetVoidCountOp_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -117,7 +118,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_GetVoidCountOp_Name"></a> Name
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

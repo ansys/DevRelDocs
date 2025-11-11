@@ -1,4 +1,5 @@
-#  Class KeyValue<TKey, TValue\>
+# Class KeyValue<TKey, TValue\>
+<a id="VM_KeyValue_2"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +16,7 @@ public class KeyValue<TKey, TValue> : ObservableObject, IObservableObject, IDisp
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableObject](VM.ObservableObject.md) ← 
 [KeyValue<TKey, TValue\>](VM.KeyValue\-2.md)
 

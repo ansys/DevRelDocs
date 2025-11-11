@@ -1,4 +1,5 @@
-#  Class ContactLeafToLeaf
+# Class ContactLeafToLeaf
+<a id="VM_Models_Pre_Force_ContactLeafToLeaf"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class ContactLeafToLeaf
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ContactLeafToLeaf](VM.Models.Pre.Force.ContactLeafToLeaf.md)
 
 #### Extension Methods
@@ -28,7 +29,7 @@ public int seqCotactBodyAction { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Force_ContactLeafToLeaf_seqCotactBodyBase"></a> seqCotactBodyBase
 
@@ -38,7 +39,7 @@ public int seqCotactBodyBase { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Force_ContactLeafToLeaf_seqLeafPointAtAction"></a> seqLeafPointAtAction
 
@@ -48,7 +49,7 @@ public int seqLeafPointAtAction { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Force_ContactLeafToLeaf_seqLeafPointAtBase"></a> seqLeafPointAtBase
 
@@ -58,5 +59,5 @@ public int seqLeafPointAtBase { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

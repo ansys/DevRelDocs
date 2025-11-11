@@ -1,4 +1,5 @@
-#  Class ShackleExtensions
+# Class ShackleExtensions
+<a id="VM_Models_Pre_Force_ShackleExtensions"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class ShackleExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShackleExtensions](VM.Models.Pre.Force.ShackleExtensions.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public static double GetOffsetXAtShackeToFramePosition((double X, double Z) shac
 
 #### Parameters
 
-`shacketoframepos` \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+`shacketoframepos` \(double X, double Z\)
 
 `ShackleLocation` [ShackleLocationType](VM.Models.Pre.Force.ShackleLocationType.md)
 
@@ -46,7 +47,7 @@ public static double GetOffsetXAtShackeToFramePosition((double X, double Z) shac
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_ShackleExtensions_GetPositontypAtShackeToFramePosition_System_ValueTuple_System_Double_System_Double__VM_Models_Pre_Force_ShackleLocationType_VM_Models_Pre_Force_Point2D_VM_Models_Pre_Force_Point2D_"></a> GetPositontypAtShackeToFramePosition\(\(double X, double Z\), ShackleLocationType, Point2D, Point2D\)
 
@@ -56,7 +57,7 @@ public static ShacklePositonType GetPositontypAtShackeToFramePosition((double X,
 
 #### Parameters
 
-`shacketoframepos` \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+`shacketoframepos` \(double X, double Z\)
 
 `ShackleLocation` [ShackleLocationType](VM.Models.Pre.Force.ShackleLocationType.md)
 
@@ -78,11 +79,11 @@ public static (double X, double Z) GetSelectedPosBasedOnLocalRF(Point3D selected
 
 `selectedpos` [Point3D](VM.Models.Pre.Force.Point3D.md)
 
-`ATranspos_ref_frame` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ATranspos_ref_frame` double\[\]
 
 #### Returns
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+ \(double X, double Z\)
 
 ### <a id="VM_Models_Pre_Force_ShackleExtensions_GetShackeLength_System_ValueTuple_System_Double_System_Double__VM_Models_Pre_Force_ShackleLocationType_VM_Models_Pre_Force_Point2D_VM_Models_Pre_Force_Point2D_"></a> GetShackeLength\(\(double X, double Z\), ShackleLocationType, Point2D, Point2D\)
 
@@ -92,7 +93,7 @@ public static double GetShackeLength((double X, double Z) shacketoframepos, Shac
 
 #### Parameters
 
-`shacketoframepos` \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+`shacketoframepos` \(double X, double Z\)
 
 `ShackleLocation` [ShackleLocationType](VM.Models.Pre.Force.ShackleLocationType.md)
 
@@ -102,7 +103,7 @@ public static double GetShackeLength((double X, double Z) shacketoframepos, Shac
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_ShackleExtensions_GetShackeToFramePosition_System_ValueTuple_System_Double_System_Double__System_ValueTuple_System_Double_System_Double__VM_Models_Pre_Force_Point2D_VM_Models_Pre_Force_Point2D_"></a> GetShackeToFramePosition\(\(double X, double Z\), \(double X, double Z\), Point2D, Point2D\)
 
@@ -112,9 +113,9 @@ public static (double X, double Z) GetShackeToFramePosition((double X, double Z)
 
 #### Parameters
 
-`localrfselectedeyepos` \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+`localrfselectedeyepos` \(double X, double Z\)
 
-`localrfselectedshackletoframepos` \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+`localrfselectedshackletoframepos` \(double X, double Z\)
 
 `calculatedfronteyepos` [Point2D](VM.Models.Pre.Force.Point2D.md)
 
@@ -122,7 +123,7 @@ public static (double X, double Z) GetShackeToFramePosition((double X, double Z)
 
 #### Returns
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+ \(double X, double Z\)
 
 ### <a id="VM_Models_Pre_Force_ShackleExtensions_GetWhereOfShackeToFramePosition_System_Double_System_Double_"></a> GetWhereOfShackeToFramePosition\(double, double\)
 
@@ -132,9 +133,9 @@ public static ShackleLocationType GetWhereOfShackeToFramePosition(double localrf
 
 #### Parameters
 
-`localrfselectedeyeposX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`localrfselectedeyeposX` double
 
-`localrfselectedshackletoframeposX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`localrfselectedshackletoframeposX` double
 
 #### Returns
 
@@ -148,17 +149,17 @@ public static double[] GetshackleInertia(double mainleafwidth, double outerradiu
 
 #### Parameters
 
-`mainleafwidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainleafwidth` double
 
-`outerradius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`outerradius` double
 
-`length` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`length` double
 
-`mass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mass` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_Pre_Force_ShackleExtensions_GetshackleMass_System_Double_System_Double_System_Double_System_Double_"></a> GetshackleMass\(double, double, double, double\)
 
@@ -168,15 +169,15 @@ public static double GetshackleMass(double density, double mainleafwidth, double
 
 #### Parameters
 
-`density` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`density` double
 
-`mainleafwidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainleafwidth` double
 
-`outerradius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`outerradius` double
 
-`length` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`length` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

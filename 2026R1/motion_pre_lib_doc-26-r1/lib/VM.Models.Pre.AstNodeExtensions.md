@@ -1,4 +1,5 @@
-#  Class AstNodeExtensions
+# Class AstNodeExtensions
+<a id="VM_Models_Pre_AstNodeExtensions"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public static class AstNodeExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AstNodeExtensions](VM.Models.Pre.AstNodeExtensions.md)
 
 #### Extension Methods
@@ -28,7 +29,7 @@ public static readonly string[] FunctionKeyWords
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -42,9 +43,9 @@ public static bool FindIdentifier(this AstNode astNode, string[] names)
 
 `astNode` AstNode
 
-`names` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`names` string\[\]
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

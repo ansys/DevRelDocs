@@ -1,4 +1,5 @@
-#  Class DesignParameter
+# Class DesignParameter
+<a id="VM_Managed_DAFUL_DOE_Result_DesignParameter"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -9,7 +10,7 @@ public class DesignParameter : DOEInformationBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DOEInformationBase](VM.Managed.DAFUL.DOE.Result.DOEInformationBase.md) ← 
 [DesignParameter](VM.Managed.DAFUL.DOE.Result.DesignParameter.md)
 
@@ -43,7 +44,7 @@ public double Current { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Lower"></a> Lower
 
@@ -53,7 +54,7 @@ public double Lower { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Type"></a> Type
 
@@ -73,7 +74,7 @@ public double Upper { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Values"></a> Values
 
@@ -83,7 +84,7 @@ public double[] Values { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ## Methods
 
@@ -95,5 +96,5 @@ public string GetName()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

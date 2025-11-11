@@ -1,4 +1,5 @@
-#  Namespace VM.Collections
+# Namespace VM.Collections
+<a id="VM_Collections"></a>
 
 ### Classes
 

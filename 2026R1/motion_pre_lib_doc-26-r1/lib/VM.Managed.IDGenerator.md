@@ -1,4 +1,5 @@
-#  Class IDGenerator
+# Class IDGenerator
+<a id="VM_Managed_IDGenerator"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -9,7 +10,7 @@ public class IDGenerator
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IDGenerator](VM.Managed.IDGenerator.md)
 
 #### Extension Methods

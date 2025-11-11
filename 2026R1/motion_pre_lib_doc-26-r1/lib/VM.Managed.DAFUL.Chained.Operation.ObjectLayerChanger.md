@@ -1,4 +1,5 @@
-#  Class ObjectLayerChanger
+# Class ObjectLayerChanger
+<a id="VM_Managed_DAFUL_Chained_Operation_ObjectLayerChanger"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class ObjectLayerChanger : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ObjectLayerChanger](VM.Managed.DAFUL.Chained.Operation.ObjectLayerChanger.md)
 
@@ -95,7 +96,7 @@ The doc3 d.
 
 The LST object.
 
-`lstHide` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\[\]
+`lstHide` bool\[\]
 
 The LST hide.
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -147,7 +148,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

@@ -1,4 +1,5 @@
-#  Enum BooleanType
+# Enum BooleanType
+<a id="VM_CAD_Builders_Links_BooleanType"></a>
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  

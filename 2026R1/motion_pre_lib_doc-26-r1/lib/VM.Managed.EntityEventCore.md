@@ -1,4 +1,5 @@
-#  Class EntityEventCore
+# Class EntityEventCore
+<a id="VM_Managed_EntityEventCore"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class EntityEventCore : ObjectEventCore, IObject, ILinkContainer, IOwned,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObjectEventCore ← 
 [EntityEventCore](VM.Managed.EntityEventCore.md)
 
@@ -23,7 +24,7 @@ IOwned,
 IHasID, 
 IEventProvider, 
 ILinkContainerEvent, 
-IHistoryObjectSerializableDelegate
+[IHistoryObjectSerializableDelegate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs)
 
 #### Inherited Members
 
@@ -72,11 +73,11 @@ protected EntityEventCore(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -92,7 +93,7 @@ public void PropertyRequestUpdate(object obj, LinkEventArgs args)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The linked object.
 

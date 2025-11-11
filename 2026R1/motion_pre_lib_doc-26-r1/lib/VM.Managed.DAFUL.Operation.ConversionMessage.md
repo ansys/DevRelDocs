@@ -1,4 +1,5 @@
-#  Class ConversionMessage
+# Class ConversionMessage
+<a id="VM_Managed_DAFUL_Operation_ConversionMessage"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ConversionMessage : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ConversionMessage](VM.Managed.DAFUL.Operation.ConversionMessage.md)
 
@@ -85,7 +86,7 @@ public ConversionMessage(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 ## Properties
 
@@ -97,7 +98,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ConversionMessage_Name"></a> Name
 
@@ -109,7 +110,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

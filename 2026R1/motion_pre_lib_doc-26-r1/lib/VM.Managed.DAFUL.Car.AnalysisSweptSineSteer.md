@@ -1,4 +1,5 @@
-#  Class AnalysisSweptSineSteer
+# Class AnalysisSweptSineSteer
+<a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisSweptSineSteer : AnalysisSteerBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [OpenLoopSteeringBase](VM.Managed.DAFUL.Car.OpenLoopSteeringBase.md) ← 
@@ -85,7 +86,7 @@ public double FrequencyRateValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_InitFrequency"></a> InitFrequency
 
@@ -97,7 +98,7 @@ public double InitFrequency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_InitialSteer"></a> InitialSteer
 
@@ -109,7 +110,7 @@ public double InitialSteer { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_MaxiFrequency"></a> MaxiFrequency
 
@@ -121,7 +122,7 @@ public double MaxiFrequency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_MaximumSteer"></a> MaximumSteer
 
@@ -133,7 +134,7 @@ public double MaximumSteer { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_TireRadiusPosition"></a> TireRadiusPosition
 
@@ -145,7 +146,7 @@ public override int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -159,7 +160,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

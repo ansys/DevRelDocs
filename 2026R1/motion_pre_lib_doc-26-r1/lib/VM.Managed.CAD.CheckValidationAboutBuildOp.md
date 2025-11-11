@@ -1,4 +1,5 @@
-#  Class CheckValidationAboutBuildOp
+# Class CheckValidationAboutBuildOp
+<a id="VM_Managed_CAD_CheckValidationAboutBuildOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class CheckValidationAboutBuildOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [CheckValidationAboutBuildOp](VM.Managed.CAD.CheckValidationAboutBuildOp.md)
 
@@ -87,7 +88,7 @@ public CheckValidationAboutBuildOp(Body body, string strXml)
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 ### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp__ctor"></a> CheckValidationAboutBuildOp\(\)
 
@@ -107,7 +108,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp_Name"></a> Name
 
@@ -119,7 +120,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp_Result"></a> Result
 
@@ -131,7 +132,7 @@ public bool Result { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

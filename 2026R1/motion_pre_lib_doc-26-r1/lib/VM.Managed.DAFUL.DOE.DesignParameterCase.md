@@ -1,4 +1,5 @@
-#  Class DesignParameterCase
+# Class DesignParameterCase
+<a id="VM_Managed_DAFUL_DOE_DesignParameterCase"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -9,7 +10,7 @@ public class DesignParameterCase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DesignParameterCase](VM.Managed.DAFUL.DOE.DesignParameterCase.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public int Case { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterCase_IsInput"></a> IsInput
 
@@ -46,7 +47,7 @@ public bool IsInput { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterCase_IsRun"></a> IsRun
 
@@ -56,7 +57,7 @@ public bool IsRun { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterCase_RunIndex"></a> RunIndex
 
@@ -66,7 +67,7 @@ public int RunIndex { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_DOE_DesignParameterCase_Value"></a> Value
 
@@ -76,5 +77,5 @@ public double Value { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

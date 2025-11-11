@@ -1,4 +1,5 @@
-#  Class CalculateBearingStiffness
+# Class CalculateBearingStiffness
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class CalculateBearingStiffness : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculateBearingStiffness](VM.Managed.DAFUL.GearTrain.Operation.CalculateBearingStiffness.md)
 
@@ -87,11 +88,11 @@ public CalculateBearingStiffness(HiddenBearingDocument doc, string strDocInfo)
 
 #### Parameters
 
-`doc` HiddenBearingDocument
+`doc` [HiddenBearingDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenBearingDocument.cs)
 
 The document.
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -143,7 +144,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -157,5 +158,5 @@ public string[] Result()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 

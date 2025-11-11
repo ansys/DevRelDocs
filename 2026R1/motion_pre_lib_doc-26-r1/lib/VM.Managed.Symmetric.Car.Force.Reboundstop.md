@@ -1,4 +1,5 @@
-#  Class Reboundstop
+# Class Reboundstop
+<a id="VM_Managed_Symmetric_Car_Force_Reboundstop"></a>
 
 Namespace: [VM.Managed.Symmetric.Car.Force](VM.Managed.Symmetric.Car.Force.md)  
 Assembly: VMSymCar.dll  
@@ -9,8 +10,8 @@ public class Reboundstop : ForceCar<Reboundstop, PropertyReboundstop>, ISymmetri
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Reboundstop\> ← 
+object ← 
+[Named<Reboundstop\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
 [ForceCar<Reboundstop, PropertyReboundstop\>](VM.Managed.Symmetric.Car.Force.ForceCar\-2.md) ← 
 [Reboundstop](VM.Managed.Symmetric.Car.Force.Reboundstop.md)
 
@@ -21,10 +22,10 @@ ISymmetricUpdater
 #### Inherited Members
 
 [ForceCar<Reboundstop, PropertyReboundstop\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](VM.Managed.Symmetric.Car.Force.ForceCar\-2.md\#VM\_Managed\_Symmetric\_Car\_Force\_ForceCar\_2\_Update\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_VM\_Managed\_SymmetricType\_VM\_Plane\_VM\_Managed\_Document\_), 
-Named<Reboundstop\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Reboundstop\>.Initialize\(ISymmetricManager\), 
-Named<Reboundstop\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Reboundstop\>.SymmetricManager
+[Named<Reboundstop\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Reboundstop\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Reboundstop\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Reboundstop\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -72,7 +73,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

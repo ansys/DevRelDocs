@@ -1,4 +1,5 @@
-#  Class LeafSpringSimulation
+# Class LeafSpringSimulation
+<a id="VM_Operations_Pre_Force_LeafSpringSimulation"></a>
 
 Namespace: [VM.Operations.Pre.Force](VM.Operations.Pre.Force.md)  
 Assembly: VM.Operations.Pre.Force.dll  
@@ -9,7 +10,7 @@ public class LeafSpringSimulation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [LeafSpringSimulation](VM.Operations.Pre.Force.LeafSpringSimulation.md)
 
@@ -83,9 +84,9 @@ public LeafSpringSimulation(Func<LeafSpring> getLeafSpring, bool isForceTest)
 
 #### Parameters
 
-`getLeafSpring` [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<LeafSpring\>
+`getLeafSpring` Func<[LeafSpring](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/LeafSpring.Linker.cs)\>
 
-`isForceTest` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isForceTest` bool
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringSimulation__ctor_VM_Models_Pre_Force_LeafSpring_System_Boolean_"></a> LeafSpringSimulation\(LeafSpring, bool\)
 
@@ -95,9 +96,9 @@ public LeafSpringSimulation(LeafSpring leafSpring, bool isForceTest)
 
 #### Parameters
 
-`leafSpring` LeafSpring
+`leafSpring` [LeafSpring](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/LeafSpring.Linker.cs)
 
-`isForceTest` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isForceTest` bool
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringSimulation__ctor_VM_Managed_Operation_JournalParameter_"></a> LeafSpringSimulation\(JournalParameter\)
 
@@ -119,7 +120,7 @@ public Func<LeafSpring> GetLeafSpring { get; }
 
 #### Property Value
 
- [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<LeafSpring\>
+ Func<[LeafSpring](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/LeafSpring.Linker.cs)\>
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_IsForceTest"></a> IsForceTest
 
@@ -129,7 +130,7 @@ public bool IsForceTest { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_Name"></a> Name
 
@@ -141,7 +142,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_ResultFolderPath"></a> ResultFolderPath
 
@@ -151,7 +152,7 @@ public string ResultFolderPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -173,7 +174,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

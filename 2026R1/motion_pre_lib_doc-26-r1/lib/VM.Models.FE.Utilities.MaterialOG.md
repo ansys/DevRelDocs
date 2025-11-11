@@ -1,4 +1,5 @@
-#  Struct MaterialOG
+# Struct MaterialOG
+<a id="VM_Models_FE_Utilities_MaterialOG"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public double[] Alpha { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_FE_Utilities_MaterialOG_D"></a> D
 
@@ -27,7 +28,7 @@ public double[] D { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_FE_Utilities_MaterialOG_Density"></a> Density
 
@@ -37,7 +38,7 @@ public double Density { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialOG_ID"></a> ID
 
@@ -47,7 +48,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_MaterialOG_Mu"></a> Mu
 
@@ -57,5 +58,5 @@ public double[] Mu { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 

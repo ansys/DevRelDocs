@@ -1,4 +1,5 @@
-#  Enum SortDirection
+# Enum SortDirection
+<a id="VM_SortDirection"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

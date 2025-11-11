@@ -1,4 +1,5 @@
-#  Enum PropertyGeneral.ConnectorType
+# Enum PropertyGeneral.ConnectorType
+<a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorType"></a>
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  

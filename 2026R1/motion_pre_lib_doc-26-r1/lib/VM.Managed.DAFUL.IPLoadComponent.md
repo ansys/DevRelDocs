@@ -1,4 +1,5 @@
-#  Interface IPLoadComponent
+# Interface IPLoadComponent
+<a id="VM_Managed_DAFUL_IPLoadComponent"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -31,7 +32,7 @@ void GetCenterPositionDirection(uint index, ref VectorBase center, ref VectorBas
 
 #### Parameters
 
-`index` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`index` uint
 
 The index.
 
@@ -57,7 +58,7 @@ uint GetPatchCount()
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 The count of patch.
 

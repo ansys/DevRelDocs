@@ -1,4 +1,5 @@
-#  Class CreateSubEntityOperation
+# Class CreateSubEntityOperation
+<a id="VM_Managed_Dialog_CreateSubEntityOperation"></a>
 
 Namespace: [VM.Managed.Dialog](VM.Managed.Dialog.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class CreateSubEntityOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [CreateSubEntityOperation](VM.Managed.Dialog.CreateSubEntityOperation.md)
 
@@ -105,15 +106,15 @@ public CreateSubEntityOperation(Document doc, string strPName, string strXml, Ty
 
 The document.
 
-`strPName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPName` string
 
 Name of the string p.
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The string XML.
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

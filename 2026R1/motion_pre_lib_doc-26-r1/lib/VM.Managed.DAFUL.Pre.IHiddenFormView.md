@@ -1,4 +1,5 @@
-#  Interface IHiddenFormView
+# Interface IHiddenFormView
+<a id="VM_Managed_DAFUL_Pre_IHiddenFormView"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -43,7 +44,7 @@ string GetActiveDesignType()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 Design Type
 
@@ -57,7 +58,7 @@ void OnButtonDown(MouseEventArgs arg)
 
 #### Parameters
 
-`arg` [MouseEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.forms.mouseeventargs)
+`arg` MouseEventArgs
 
 The <xref href="System.Windows.Forms.MouseEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
@@ -71,7 +72,7 @@ void OnButtonUp(MouseEventArgs arg)
 
 #### Parameters
 
-`arg` [MouseEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.forms.mouseeventargs)
+`arg` MouseEventArgs
 
 The <xref href="System.Windows.Forms.MouseEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
@@ -85,7 +86,7 @@ void SelectTabInUserControl(int nIdx)
 
 #### Parameters
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
@@ -99,11 +100,11 @@ void SetActiveUserControl(string strType, object obj)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 Type of the string.
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 
@@ -117,11 +118,11 @@ void ShowTabInDesigner(int nIdx, bool bShow)
 
 #### Parameters
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 
-`bShow` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShow` bool
 
 if set to <code>true</code> [b show].
 
@@ -135,7 +136,7 @@ void UpdateUserControl(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 

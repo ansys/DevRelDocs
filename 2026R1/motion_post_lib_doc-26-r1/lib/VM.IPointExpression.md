@@ -1,9 +1,10 @@
-#  Interface IPointExpression
+# Interface IPointExpression
+<a id="VM_IPointExpression"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IPointExpression : IPointBase, IExpression
 ```
 
@@ -11,5 +12,4 @@ public interface IPointExpression : IPointBase, IExpression
 
 [IPointBase](VM.IPointBase.md), 
 [IExpression](VM.IExpression.md)
-
 

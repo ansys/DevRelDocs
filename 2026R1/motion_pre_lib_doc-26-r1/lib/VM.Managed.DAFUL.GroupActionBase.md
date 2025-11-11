@@ -1,4 +1,5 @@
-#  Class GroupActionBase
+# Class GroupActionBase
+<a id="VM_Managed_DAFUL_GroupActionBase"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public abstract class GroupActionBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GroupActionBase](VM.Managed.DAFUL.GroupActionBase.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public abstract string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -58,7 +59,7 @@ public abstract void Action(ObjectBase[] obs, bool bOnOff)
 
 The obs.
 
-`bOnOff` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bOnOff` bool
 
 if set to <code>true</code> [b on off].
 
@@ -78,5 +79,5 @@ The obs.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

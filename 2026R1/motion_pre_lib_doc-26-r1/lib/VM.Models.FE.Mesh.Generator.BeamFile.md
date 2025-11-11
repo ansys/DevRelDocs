@@ -1,4 +1,5 @@
-#  Class BeamFile
+# Class BeamFile
+<a id="VM_Models_FE_Mesh_Generator_BeamFile"></a>
 
 Namespace: [VM.Models.FE.Mesh.Generator](VM.Models.FE.Mesh.Generator.md)  
 Assembly: VM.Models.FE.Mesh.Generator.dll  
@@ -9,7 +10,7 @@ public sealed class BeamFile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BeamFile](VM.Models.FE.Mesh.Generator.BeamFile.md)
 
 #### Extension Methods
@@ -28,11 +29,11 @@ public BeamFile(double radius, int numberOfCircularNodes, int numberOfBeamNodes,
 
 #### Parameters
 
-`radius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`radius` double
 
-`numberOfCircularNodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfCircularNodes` int
 
-`numberOfBeamNodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfBeamNodes` int
 
 `startPoint` Vector
 
@@ -60,7 +61,7 @@ public double BeamMaterialDampingRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialDensity"></a> BeamMaterialDensity
 
@@ -70,7 +71,7 @@ public double BeamMaterialDensity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialPoissonsRatio"></a> BeamMaterialPoissonsRatio
 
@@ -80,7 +81,7 @@ public double BeamMaterialPoissonsRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialShearModulus"></a> BeamMaterialShearModulus
 
@@ -90,7 +91,7 @@ public double BeamMaterialShearModulus { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialYoungsModulus"></a> BeamMaterialYoungsModulus
 
@@ -100,7 +101,7 @@ public double BeamMaterialYoungsModulus { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BufferCount"></a> BufferCount
 
@@ -110,7 +111,7 @@ public int BufferCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_GenerateInnerRBE"></a> GenerateInnerRBE
 
@@ -120,7 +121,7 @@ public bool GenerateInnerRBE { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_InnerRBEs"></a> InnerRBEs
 
@@ -130,7 +131,7 @@ public IEnumerable<RBE2> InnerRBEs { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<RBE2\>
+ IEnumerable<[RBE2](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.Models.FE.Mesh/Models/Elements/RBE2.cs)\>
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_NumberOfBeamNodes"></a> NumberOfBeamNodes
 
@@ -140,7 +141,7 @@ public int NumberOfBeamNodes { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_NumberOfCircularNodes"></a> NumberOfCircularNodes
 
@@ -150,7 +151,7 @@ public int NumberOfCircularNodes { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_Radius"></a> Radius
 
@@ -160,7 +161,7 @@ public double Radius { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_WriteMessage"></a> WriteMessage
 
@@ -170,7 +171,7 @@ public Action<string> WriteMessage { get; set; }
 
 #### Property Value
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Action<string\>
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFile_YDirection"></a> YDirection
 
@@ -192,5 +193,5 @@ public void Generate(string bdfFilePath)
 
 #### Parameters
 
-`bdfFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bdfFilePath` string
 

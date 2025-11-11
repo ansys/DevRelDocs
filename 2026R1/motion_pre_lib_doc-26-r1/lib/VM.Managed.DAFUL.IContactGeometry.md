@@ -1,4 +1,5 @@
-#  Interface IContactGeometry
+# Interface IContactGeometry
+<a id="VM_Managed_DAFUL_IContactGeometry"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -39,7 +40,7 @@ ExpressionValueVariable MaxPenetration { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_IContactGeometry_ReferenceMarker"></a> ReferenceMarker
 
@@ -87,7 +88,7 @@ The direction.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

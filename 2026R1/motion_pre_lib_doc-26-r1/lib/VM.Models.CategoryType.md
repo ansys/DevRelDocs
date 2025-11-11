@@ -1,4 +1,5 @@
-#  Enum CategoryType
+# Enum CategoryType
+<a id="VM_Models_CategoryType"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

@@ -1,4 +1,5 @@
-#  Class SectionGeometryHollowCircular
+# Class SectionGeometryHollowCircular
+<a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class SectionGeometryHollowCircular : SectionGeometryBase, IObservableObj
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [SectionGeometryBase](VM.Managed.DAFUL.GearTrain.SectionGeometryBase.md) ← 
 [SectionGeometryHollowCircular](VM.Managed.DAFUL.GearTrain.SectionGeometryHollowCircular.md)
@@ -96,7 +97,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -137,7 +138,7 @@ public ExpressionValueVariable InnerRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_OuterRadius"></a> OuterRadius
 
@@ -149,7 +150,7 @@ public ExpressionValueVariable OuterRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_TypeOfGeometry"></a> TypeOfGeometry
 
@@ -197,7 +198,7 @@ public override double[] GetGeomInfo()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
@@ -209,11 +210,11 @@ public override void GetLengthAndHeight(ref double dLength, ref double dHeight)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 Height of the d.
 
@@ -227,11 +228,11 @@ public override Builder[] GetSectionBuilder(double dSegLen, List<Vector> lstGear
 
 #### Parameters
 
-`dSegLen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSegLen` double
 
 Length of the d seg.
 
-`lstGearSection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+`lstGearSection` List<Vector\>
 
 The LST gear section.
 
@@ -255,7 +256,7 @@ protected override BuilderParamBase InnerCreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
@@ -265,7 +266,7 @@ protected override void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 `color` BuilderColor
 
@@ -285,11 +286,11 @@ public override SectionInfo[] SplitSectionInfo(HiddenShaftSetDocument hiddenDoc,
 
 The hidden document.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
-`nNumber` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumber` int
 
 The n number.
 

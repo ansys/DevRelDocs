@@ -1,4 +1,5 @@
-#  Enum MeshFreeMeshType
+# Enum MeshFreeMeshType
+<a id="VM_Managed_MeshFreeMeshType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

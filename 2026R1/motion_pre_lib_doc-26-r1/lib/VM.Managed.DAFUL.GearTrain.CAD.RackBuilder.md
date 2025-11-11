@@ -1,4 +1,5 @@
-#  Class RackBuilder
+# Class RackBuilder
+<a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,14 +7,14 @@ Assembly: VMDGearTrain.dll
 The rack builder
 
 ```csharp
-public class RackBuilder : BuilderColorGeom, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IGeometryBuilder, IGearBuilder, IGTBuilder
+public class RackBuilder : BuilderColorGeom, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity, IGeometryBuilder, IGearBuilder, IGTBuilder
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -35,8 +36,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
+IHasReplaceableEntity, 
 [IGeometryBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGeometryBuilder.md), 
 [IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md), 
 [IGTBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGTBuilder.md)
@@ -72,6 +74,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -175,7 +179,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -255,7 +259,7 @@ public double InitialAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_MateAngle"></a> MateAngle
 
@@ -268,7 +272,7 @@ public double MateAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_Offset"></a> Offset
 
@@ -281,7 +285,7 @@ public double Offset { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_OffsetToAxisDirection"></a> OffsetToAxisDirection
 
@@ -293,7 +297,7 @@ public double OffsetToAxisDirection { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_Position"></a> Position
 
@@ -367,7 +371,7 @@ protected override BuilderParamBase CreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
@@ -377,7 +381,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
@@ -389,11 +393,11 @@ public void GetLengthAndHeight(ref double dLength, ref double dHeight)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 Height of the d.
 
@@ -421,7 +425,7 @@ protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs 
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The object notifier.
 
@@ -439,7 +443,7 @@ public void SetInitAngle(double dInitAngle)
 
 #### Parameters
 
-`dInitAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dInitAngle` double
 
 The init angle.
 
@@ -453,7 +457,7 @@ public void SetMateAngle(double dMateAngle)
 
 #### Parameters
 
-`dMateAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMateAngle` double
 
 The mate angle.
 
@@ -467,7 +471,7 @@ public void SetOffset(double dOffset)
 
 #### Parameters
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The offset.
 

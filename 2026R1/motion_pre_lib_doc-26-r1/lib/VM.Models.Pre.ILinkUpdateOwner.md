@@ -1,4 +1,5 @@
-#  Interface ILinkUpdateOwner
+# Interface ILinkUpdateOwner
+<a id="VM_Models_Pre_ILinkUpdateOwner"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,7 +24,7 @@ IEnumerable CacheItems { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
+ IEnumerable
 
 ### <a id="VM_Models_Pre_ILinkUpdateOwner_IsCacheEmpty"></a> IsCacheEmpty
 
@@ -33,7 +34,7 @@ bool IsCacheEmpty { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -45,5 +46,5 @@ void Initialize(object owner)
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 

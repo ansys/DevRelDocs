@@ -1,4 +1,5 @@
-#  Interface IGeometryBuilder
+# Interface IGeometryBuilder
+<a id="VM_Models_Pre_IGeometryBuilder"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

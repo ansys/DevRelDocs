@@ -1,4 +1,5 @@
-#  Class NullReferenceWhenRemoveDocExeption
+# Class NullReferenceWhenRemoveDocExeption
+<a id="VM_Managed_NullReferenceWhenRemoveDocExeption"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class NullReferenceWhenRemoveDocExeption : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [NullReferenceWhenRemoveDocExeption](VM.Managed.NullReferenceWhenRemoveDocExeption.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public NullReferenceWhenRemoveDocExeption(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The error message.
 

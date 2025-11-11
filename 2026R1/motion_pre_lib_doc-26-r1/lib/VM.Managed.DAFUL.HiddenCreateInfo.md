@@ -1,4 +1,5 @@
-#  Class HiddenCreateInfo
+# Class HiddenCreateInfo
+<a id="VM_Managed_DAFUL_HiddenCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,19 +12,19 @@ public class HiddenCreateInfo : DocCreateAnalysisInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocCreate3DInfo ← 
-DocCreateAnalysisInfo ← 
+[DocCreateAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs) ← 
 [HiddenCreateInfo](VM.Managed.DAFUL.HiddenCreateInfo.md)
 
 #### Inherited Members
 
-DocCreateAnalysisInfo.GravityX, 
-DocCreateAnalysisInfo.GravityY, 
-DocCreateAnalysisInfo.GravityZ, 
-DocCreateAnalysisInfo.IncrementTime, 
-DocCreateAnalysisInfo.UseIncrementTime, 
+[DocCreateAnalysisInfo.GravityX](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.GravityY](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.GravityZ](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.IncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.UseIncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
 DocCreate3DInfo.IconSize, 
 DocCreate3DInfo.IsAdvancedMode, 
 DocCreate3DInfo.UseSymmetric, 
@@ -60,7 +61,7 @@ public string Assembly
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_HiddenCreateInfo_IsRotation"></a> IsRotation
 
@@ -72,7 +73,7 @@ public bool IsRotation
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_HiddenCreateInfo_UserControls"></a> UserControls
 
@@ -84,7 +85,7 @@ public List<HiddenCreateInfo.UserControlInfo> UserControls
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[HiddenCreateInfo](VM.Managed.DAFUL.HiddenCreateInfo.md).[UserControlInfo](VM.Managed.DAFUL.HiddenCreateInfo.UserControlInfo.md)\>
+ List<[HiddenCreateInfo](VM.Managed.DAFUL.HiddenCreateInfo.md).[UserControlInfo](VM.Managed.DAFUL.HiddenCreateInfo.UserControlInfo.md)\>
 
 ### <a id="VM_Managed_DAFUL_HiddenCreateInfo_ViewPlane"></a> ViewPlane
 
@@ -96,5 +97,5 @@ public string ViewPlane
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

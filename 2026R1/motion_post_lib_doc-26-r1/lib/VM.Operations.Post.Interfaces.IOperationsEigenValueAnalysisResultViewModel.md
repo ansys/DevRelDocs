@@ -1,30 +1,33 @@
-#  Interface IOperationsEigenValueAnalysisResultViewModel
+# Interface IOperationsEigenValueAnalysisResultViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Interface representing information for an eigenvalue analysis result view model.
 
-```python
-public interface IOperationsEigenValueAnalysisResultViewModel : IOperationAnalysisResultViewModel, IOperationsBase
+```csharp
+public interface IOperationsEigenValueAnalysisResultViewModel : IOperationAnalysisResult
 ```
 
 #### Implements
 
-[IOperationAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md), 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+[IOperationAnalysisResult](VM.Operations.Post.Interfaces.IOperationAnalysisResult.md)
 
 ## Examples
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsEigenValueAnalysisResultViewModel.py
+```python
+# IOperationsEigenValueAnalysisResultViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -38,9 +41,12 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -51,8 +57,14 @@ for page in pages :
         if animationView.DocumentFilePath == result_file_path and animationView.AnalysisResultType == AnalysisResultType.Dynamics :
             findViews.append(animationView)
 
-
+# result_file_path - Get the document from the result file path.
 document = applicationHandler.GetDocument(result_file_path)
+
+# This retrieves the analysis result from the document.
+# Types of Analysis Results
+# - Dynamics
+# - Eigenvalue
+# - Statics
 dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 dynamic_analysis.SetAnimationFrame(10)
 
@@ -60,8 +72,15 @@ viewCount = len(findViews)
 if viewCount > 0 :
     page1 = applicationHandler.GetPage(findViews[0].GroupID)
 
-    # Types of Analyis Results
+    # This retrieves the analysis result from the document.
+    # Types of Analysis Results
+    # - Dynamics
+    # - Eigenvalue
+    # - Statics
     eigenval_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Eigenvalue)
+
+    # Create an Animation View on the active page
+    # This will create an animation view based on the eigenvalue analysis.
     eigenvalue_animation = page1.CreateAnimation(eigenval_analysis, "EigenvalueAnimation")
     eigenval_analysis.Frame = 100
     
@@ -72,14 +91,15 @@ if viewCount > 0 :
     frequency = eigenval_analysis.GetFrequency(1)
     # frequency.Enable = True
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -87,13 +107,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the frame number to be read when loading animation for EigenValue analysis type.
 
-```python
+```csharp
 uint Frame { get; set; }
 ```
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 #### Examples
 
@@ -107,13 +127,13 @@ Use this property to specify or retrieve the frame number to load for animations
 
 Gets or sets the target sampling time.
 
-```python
+```csharp
 double TargetSamplingTime { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -129,13 +149,13 @@ This property allows you to select and set one specific sampling time from multi
 
 Retrieves all instances of frequencies.
 
-```python
+```csharp
 IEnumerable<IOperationsFrequencyViewModel> GetFrequencies()
 ```
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsFrequencyViewModel](VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.md)\>
+ IEnumerable<[IOperationsFrequencyViewModel](VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.md)\>
 
 An enumerable collection of <xref href="VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel" data-throw-if-not-resolved="false"></xref> representing the frequency instances.
 
@@ -151,13 +171,13 @@ This method finds and returns all instances of frequencies.
 
 Retrieves the frequency instance for the specified sampling time index.
 
-```python
+```csharp
 IOperationsFrequencyViewModel GetFrequency(int index)
 ```
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 The index of the target sampling time.
 
@@ -179,13 +199,13 @@ This method finds and returns the frequency instance corresponding to the provid
 
 Retrieves an array of sampling times.
 
-```python
+```csharp
 double[] GetSamplingTimes()
 ```
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 An array of doubles representing the available sampling times.
 
@@ -196,5 +216,4 @@ For an example that includes this property, see the [Interface IOperationsEigenV
 #### Remarks
 
 This method extracts and returns the array of available sampling times.
-
 

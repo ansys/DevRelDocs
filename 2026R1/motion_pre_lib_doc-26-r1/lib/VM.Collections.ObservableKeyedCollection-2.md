@@ -1,4 +1,5 @@
-#  Class ObservableKeyedCollection<TKey, TItem\>
+# Class ObservableKeyedCollection<TKey, TItem\>
+<a id="VM_Collections_ObservableKeyedCollection_2"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -15,9 +16,9 @@ public class ObservableKeyedCollection<TKey, TItem> : ObservableKeyedCollectionB
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Collection<TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ← 
-[KeyedCollection<TKey, TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.keyedcollection\-2) ← 
+object ← 
+Collection<TItem\> ← 
+KeyedCollection<TKey, TItem\> ← 
 [ObservableKeyedCollectionBase<TKey, TItem\>](VM.Collections.ObservableKeyedCollectionBase\-2.md) ← 
 [ObservableKeyedCollection<TKey, TItem\>](VM.Collections.ObservableKeyedCollection\-2.md)
 
@@ -50,7 +51,7 @@ public ObservableKeyedCollection(Func<TItem, TKey> getKeyForItem)
 
 #### Parameters
 
-`getKeyForItem` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<TItem, TKey\>
+`getKeyForItem` Func<TItem, TKey\>
 
 ## Methods
 

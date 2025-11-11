@@ -1,4 +1,5 @@
-#  Class PickerEntityVM
+# Class PickerEntityVM
+<a id="VM_Managed_Picker_Core_PickerEntityVM"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class PickerEntityVM : PickerBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerEntityVM](VM.Managed.Picker.Core.PickerEntityVM.md)
 
@@ -60,7 +61,7 @@ public PickerEntityVM(Type[] arTypes)
 
 #### Parameters
 
-`arTypes` [Type](https://learn.microsoft.com/dotnet/api/system.type)\[\]
+`arTypes` Type\[\]
 
 The types of entitys for pick.
 
@@ -74,11 +75,11 @@ public PickerEntityVM(Type type, bool bIsInterface)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type of entity for pick.
 
-`bIsInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIsInterface` bool
 
 Whether interface or not.
 
@@ -94,13 +95,13 @@ public override bool Filtering(UIntPtr pTarget)
 
 #### Parameters
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -114,7 +115,7 @@ public Type[] GetPickableType()
 
 #### Returns
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)\[\]
+ Type\[\]
 
 The array of pickable type.
 
@@ -128,7 +129,7 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Picker_Core_PickerEntityVM_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
 
@@ -140,13 +141,13 @@ public override string GetResultXmlFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 Picking destination key.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -160,7 +161,7 @@ public override void Highlight(bool bHighlight)
 
 #### Parameters
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
@@ -174,17 +175,17 @@ protected override bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 If it is true, skip the result setting.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

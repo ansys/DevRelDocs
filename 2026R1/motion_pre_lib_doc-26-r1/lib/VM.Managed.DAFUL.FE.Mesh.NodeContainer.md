@@ -1,4 +1,5 @@
-#  Class Mesh.NodeContainer
+# Class Mesh.NodeContainer
+<a id="VM_Managed_DAFUL_FE_Mesh_NodeContainer"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public sealed class Mesh.NodeContainer
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Mesh.NodeContainer](VM.Managed.DAFUL.FE.Mesh.NodeContainer.md)
 
 #### Extension Methods
@@ -48,7 +49,7 @@ public uint Count { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_NodeContainer_Mesh"></a> Mesh
 

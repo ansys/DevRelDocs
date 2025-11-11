@@ -1,4 +1,5 @@
-#  Class MeshAssembly
+# Class MeshAssembly
+<a id="VM_Managed_Operation_MeshAssembly"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class MeshAssembly : CreateAssembly, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [Create](VM.Managed.Operation.Create.md) ← 
 [CreateAssembly](VM.Managed.Operation.CreateAssembly.md) ← 
@@ -104,7 +105,7 @@ public MeshAssembly(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 ## Methods
 

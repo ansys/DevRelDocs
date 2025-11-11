@@ -1,4 +1,5 @@
-#  Class MeshFreeAnalysisLevel
+# Class MeshFreeAnalysisLevel
+<a id="VM_Managed_MeshFreeAnalysisLevel"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,9 +13,9 @@ public class MeshFreeAnalysisLevel : LinkContainer, IObservableObject, IDisposab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [MeshFreeAnalysisLevel](VM.Managed.MeshFreeAnalysisLevel.md)
 
@@ -76,7 +77,7 @@ IEventProvider,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -107,7 +108,7 @@ public MeshFreeAnalysisLevel(uint level)
 
 #### Parameters
 
-`level` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`level` uint
 
 Level Number.
 
@@ -131,7 +132,7 @@ public uint Level { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_MeshFreeAnalysisLevel_LocalRefinementRatio"></a> LocalRefinementRatio
 
@@ -143,7 +144,7 @@ public byte LocalRefinementRatio { get; set; }
 
 #### Property Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+ byte
 
 ### <a id="VM_Managed_MeshFreeAnalysisLevel_NodeCount"></a> NodeCount
 
@@ -155,7 +156,7 @@ public uint NodeCount { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_MeshFreeAnalysisLevel_NodeDistance"></a> NodeDistance
 
@@ -167,7 +168,7 @@ public double NodeDistance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_MeshFreeAnalysisLevel_UseThisLevel"></a> UseThisLevel
 
@@ -179,5 +180,5 @@ public bool UseThisLevel { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

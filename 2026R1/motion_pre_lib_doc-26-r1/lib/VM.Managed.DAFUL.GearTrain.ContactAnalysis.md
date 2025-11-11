@@ -1,4 +1,5 @@
-#  Class ContactAnalysis
+# Class ContactAnalysis
+<a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class ContactAnalysis : GearPropertyBase, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [GearPropertyBase](VM.Managed.DAFUL.GearTrain.GearPropertyBase.md) ← 
 [ContactAnalysis](VM.Managed.DAFUL.GearTrain.ContactAnalysis.md)
@@ -77,7 +78,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -118,7 +119,7 @@ public bool IsUsePower { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_Power"></a> Power
 
@@ -130,7 +131,7 @@ public ExpressionValueVariable Power { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_RatingAnalysis"></a> RatingAnalysis
 
@@ -154,7 +155,7 @@ public string ResultFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_SamplingFrequency"></a> SamplingFrequency
 
@@ -166,7 +167,7 @@ public ExpressionValueVariable SamplingFrequency { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_Speed"></a> Speed
 
@@ -178,7 +179,7 @@ public ExpressionValueVariable Speed { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_TransmissionErrors"></a> TransmissionErrors
 
@@ -194,7 +195,7 @@ public TransmissionError[] TransmissionErrors { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 SplineValue list is null.
 or
@@ -236,7 +237,7 @@ public bool[] UseGearPairs { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\[\]
+ bool\[\]
 
 ## Methods
 
@@ -250,7 +251,7 @@ public override void InitChild(int nNum)
 
 #### Parameters
 
-`nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNum` int
 
 The n number.
 
@@ -264,7 +265,7 @@ public void InitChildForPair(int nNum)
 
 #### Parameters
 
-`nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNum` int
 
 The n number.
 
@@ -278,7 +279,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -292,7 +293,7 @@ public void RemoveSplineValue(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
@@ -306,7 +307,7 @@ public void ReplaceSplineValue(int nIdx, TransmissionError te)
 
 #### Parameters
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 Index of the n.
 

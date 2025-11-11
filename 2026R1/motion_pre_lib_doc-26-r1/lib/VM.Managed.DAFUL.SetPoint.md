@@ -1,4 +1,5 @@
-#  Class SetPoint
+# Class SetPoint
+<a id="VM_Managed_DAFUL_SetPoint"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,12 +12,12 @@ public class SetPoint : SetPointBase, IObservableObject, IDisposableObject, ILin
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
 [SetFace](VM.Managed.DAFUL.SetFace.md) ← 
 [SetPointBase](VM.Managed.DAFUL.SetPointBase.md) ← 
 [SetPoint](VM.Managed.DAFUL.SetPoint.md)
@@ -28,7 +29,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -110,7 +111,6 @@ IPostOpenDocumentForFaceset,
 [SetFace.GetMinimumDistanceAndDirection\(IFaceInformation, TMatrix, TMatrix, ref VectorBase\[\], double\)](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_GetMinimumDistanceAndDirection\_VM\_Managed\_IFaceInformation\_VM\_Managed\_TMatrix\_VM\_Managed\_TMatrix\_VM\_Managed\_VectorBase\_\_\_\_System\_Double\_), 
 [SetFace.GetPointAndConnectivity\(FacetOption, ref VectorBase\[\], ref int\[\], ref int\[\], Reference, double\)](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_GetPointAndConnectivity\_VM\_Models\_Pre\_FacetOption\_VM\_Managed\_VectorBase\_\_\_\_System\_Int32\_\_\_\_System\_Int32\_\_\_\_VM\_Managed\_Reference\_System\_Double\_), 
 [SetFace.GetFacetModifiedTimeAttribute\(\)](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_GetFacetModifiedTimeAttribute), 
-[SetFace.GetBodyModifiedTimeAttribute\(\)](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_GetBodyModifiedTimeAttribute), 
 [SetFace.AutomaticSelectionGeometryType](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_AutomaticSelectionGeometryType), 
 [SetFace.GeometryType](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_GeometryType), 
 [SetFace.SphereRadius](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_SphereRadius), 
@@ -141,17 +141,17 @@ IPostOpenDocumentForFaceset,
 [SetFace.AttribType](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_AttribType), 
 [SetFace.ReferenceType](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_ReferenceType), 
 [SetFace.ArgumentType](VM.Managed.DAFUL.SetFace.md\#VM\_Managed\_DAFUL\_SetFace\_ArgumentType), 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -244,7 +244,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -283,7 +283,7 @@ public SetPoint(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the point set.
 
@@ -305,7 +305,7 @@ The SetPoint object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The formatted data.
 
@@ -325,7 +325,7 @@ The Face object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The formatted data.
 
@@ -345,7 +345,7 @@ The Range object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The formatted data.
 
@@ -369,7 +369,7 @@ The radius.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The formatted data.
 
@@ -383,7 +383,7 @@ public static SetPoint GetObject(ref string strFormattedData)
 
 #### Parameters
 
-`strFormattedData` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFormattedData` string
 
 The formatted data.
 

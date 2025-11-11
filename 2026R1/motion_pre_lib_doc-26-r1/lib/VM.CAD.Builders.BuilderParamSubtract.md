@@ -1,4 +1,5 @@
-#  Class BuilderParamSubtract
+# Class BuilderParamSubtract
+<a id="VM_CAD_Builders_BuilderParamSubtract"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class BuilderParamSubtract : BuilderParamPair
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamPair](VM.CAD.Builders.BuilderParamPair.md) ← 

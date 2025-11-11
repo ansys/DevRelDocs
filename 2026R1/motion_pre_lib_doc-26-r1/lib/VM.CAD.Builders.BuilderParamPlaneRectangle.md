@@ -1,4 +1,5 @@
-#  Class BuilderParamPlaneRectangle
+# Class BuilderParamPlaneRectangle
+<a id="VM_CAD_Builders_BuilderParamPlaneRectangle"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class BuilderParamPlaneRectangle : BuilderParamPlane
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamTransform](VM.CAD.Builders.BuilderParamTransform.md) ← 
@@ -51,7 +52,7 @@ public double Height { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_BuilderParamPlaneRectangle_Width"></a> Width
 
@@ -61,5 +62,5 @@ public double Width { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

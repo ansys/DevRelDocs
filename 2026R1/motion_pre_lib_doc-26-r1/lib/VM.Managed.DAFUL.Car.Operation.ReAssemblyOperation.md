@@ -1,4 +1,5 @@
-#  Class ReAssemblyOperation
+# Class ReAssemblyOperation
+<a id="VM_Managed_DAFUL_Car_Operation_ReAssemblyOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class ReAssemblyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ReAssemblyOperation](VM.Managed.DAFUL.Car.Operation.ReAssemblyOperation.md)
 
@@ -85,9 +86,9 @@ public ReAssemblyOperation(TestRigDocumentBase trDoc, XmlDocument xmlDoc)
 
 #### Parameters
 
-`trDoc` TestRigDocumentBase
+`trDoc` [TestRigDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
-`xmlDoc` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDoc` XmlDocument
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_ReAssemblyOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ReAssemblyOperation\(JournalParameter\)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -131,5 +132,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

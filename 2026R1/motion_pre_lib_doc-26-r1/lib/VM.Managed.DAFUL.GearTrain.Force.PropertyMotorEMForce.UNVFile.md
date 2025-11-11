@@ -1,4 +1,5 @@
-#  Class PropertyMotorEMForce.UNVFile
+# Class PropertyMotorEMForce.UNVFile
+<a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFile"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class PropertyMotorEMForce.UNVFile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PropertyMotorEMForce.UNVFile](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.UNVFile.md)
 
 #### Derived
@@ -44,11 +45,11 @@ public UNVFile(string strStatorPath, string strRotorPath)
 
 #### Parameters
 
-`strStatorPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStatorPath` string
 
 The stator path.
 
-`strRotorPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRotorPath` string
 
 The rotor path.
 
@@ -64,7 +65,7 @@ public string RotorPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFile_StatorPath"></a> StatorPath
 
@@ -76,5 +77,5 @@ public string StatorPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -1,4 +1,5 @@
-#  Class SolidRollerCenter
+# Class SolidRollerCenter
+<a id="VM_Managed_DAFUL_Builder_Roller_SolidRollerCenter"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Roller](VM.Managed.DAFUL.Builder.Roller.md)  
 Assembly: VMBldRoller.dll  
@@ -9,8 +10,8 @@ public class SolidRollerCenter : SolidRoller, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<BodyRoller\> ← 
+object ← 
+[BuilderBase<BodyRoller\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
 [SolidRoller](VM.Managed.DAFUL.Builder.Roller.SolidRoller.md) ← 
 [SolidRollerCenter](VM.Managed.DAFUL.Builder.Roller.SolidRollerCenter.md)
 
@@ -26,23 +27,23 @@ IBuilder
 [SolidRoller.GetCurrentBuilder\(\)](VM.Managed.DAFUL.Builder.Roller.SolidRoller.md\#VM\_Managed\_DAFUL\_Builder\_Roller\_SolidRoller\_GetCurrentBuilder), 
 [SolidRoller.Color](VM.Managed.DAFUL.Builder.Roller.SolidRoller.md\#VM\_Managed\_DAFUL\_Builder\_Roller\_SolidRoller\_Color), 
 [SolidRoller.AddToDoc](VM.Managed.DAFUL.Builder.Roller.SolidRoller.md\#VM\_Managed\_DAFUL\_Builder\_Roller\_SolidRoller\_AddToDoc), 
-BuilderBase<BodyRoller\>.m\_bSuccess, 
-BuilderBase<BodyRoller\>.Build\(Document\), 
-BuilderBase<BodyRoller\>.Build\(Document, List<string\>\), 
-BuilderBase<BodyRoller\>.Validate\(IList<string\>\), 
-BuilderBase<BodyRoller\>.Success\(\), 
-BuilderBase<BodyRoller\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<BodyRoller\>.OnFinalBuild\(string, Document\), 
-BuilderBase<BodyRoller\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<BodyRoller\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<BodyRoller\>.Parameters, 
-BuilderBase<BodyRoller\>.AddToDoc, 
-BuilderBase<BodyRoller\>.UseChangedObject, 
-BuilderBase<BodyRoller\>.SetPointKey, 
-BuilderBase<BodyRoller\>.BuildObject, 
-BuilderBase<BodyRoller\>.BuildDocument, 
-BuilderBase<BodyRoller\>.UseInterface, 
-BuilderBase<BodyRoller\>.ErrorMessage
+[BuilderBase<BodyRoller\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<BodyRoller\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 

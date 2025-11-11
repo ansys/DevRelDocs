@@ -1,4 +1,5 @@
-#  Class Reference
+# Class Reference
+<a id="VM_Managed_Reference"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class Reference : Object<ObjectEventCore>, IObservableObject, IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [Reference](VM.Managed.Reference.md)
@@ -36,7 +37,7 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IAttributeContainer](VM.Managed.IAttributeContainer.md), 
 [IReferencable](VM.Managed.IReferencable.md), 
 [INamed](VM.Managed.INamed.md), 
@@ -140,7 +141,7 @@ IHistoryObjectSerializable,
 [ObjectBase.OnDestroying](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnDestroying), 
 [ObjectBase.OnUpdate](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdate), 
 [ObjectBase.OnUpdating](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -185,11 +186,11 @@ protected Reference(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 Serialization info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 context.
 
@@ -205,7 +206,7 @@ protected override bool ClearChildInfoBeforeDeserialize { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Reference_FullName"></a> FullName
 
@@ -217,7 +218,7 @@ public virtual string FullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Reference_FullTransformation"></a> FullTransformation
 
@@ -253,7 +254,7 @@ public bool IsVisible { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Reference_Layer"></a> Layer
 
@@ -277,7 +278,7 @@ public virtual string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Reference_NonSymmetricName"></a> NonSymmetricName
 
@@ -289,7 +290,7 @@ public virtual string NonSymmetricName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Reference_Object"></a> Object
 
@@ -385,21 +386,21 @@ protected virtual bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, XmlE
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlRootEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlRootEle` XmlElement
 
 The XmlElement for object.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 if set to <code>true</code> [has child].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -423,7 +424,7 @@ The object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The subsystem name.
 
@@ -439,9 +440,9 @@ protected void GetTotalSubSystemNameCore(Document3D docSS, Document3D docOrigina
 
 `docOriginal` [Document3D](VM.Managed.Document3D.md)
 
-`stackName` [Stack](https://learn.microsoft.com/dotnet/api/system.collections.generic.stack\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`stackName` Stack<string\>
 
-`bFind` [ValueType](https://learn.microsoft.com/dotnet/api/system.valuetype)
+`bFind` ValueType
 
 ### <a id="VM_Managed_Reference_GetTransform_VM_Unit_"></a> GetTransform\(Unit\)
 
@@ -473,7 +474,7 @@ public virtual bool IsAutoContactable()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
 
@@ -491,7 +492,7 @@ public virtual bool IsOwner(Reference A_0)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified owner; otherwise, <code>false</code>.
 
@@ -505,7 +506,7 @@ public override void LinkAddedToDocument(object objNotifier, AddToDocEventArgs a
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -523,7 +524,7 @@ protected override void LinkRequestDestroy(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 
@@ -541,7 +542,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 

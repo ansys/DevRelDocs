@@ -1,4 +1,5 @@
-#  Class ReplaceFEBodyAPI
+# Class ReplaceFEBodyAPI
+<a id="VM_API_Pre_FE_ReplaceFEBodyAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class ReplaceFEBodyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ReplaceFEBodyAPI](VM.API.Pre.FE.ReplaceFEBodyAPI.md)
 
 #### Extension Methods
@@ -36,37 +37,37 @@ public static void ReplaceFEBody(this SubSystemDocument document, Obj nodalBody,
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to replace FE body.
 
-`nodalBody` Obj
+`nodalBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The nodal body.
 
-`newFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newFilePath` string
 
 The new mesh file path.
 
-`allowMulti` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`allowMulti` bool
 
 The multi allow flag. The default value is false.
 
-`hideRemoveMessage` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`hideRemoveMessage` bool
 
 The remove message show/hide flag. The default value is hide.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'newFilePath' argument is empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'thickness' value equal to or less than 0.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if newFilePath file is not exist.
 

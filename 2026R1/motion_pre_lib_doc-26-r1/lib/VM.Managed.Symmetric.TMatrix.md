@@ -1,4 +1,5 @@
-#  Class TMatrix
+# Class TMatrix
+<a id="VM_Managed_Symmetric_TMatrix"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class TMatrix : ISymmetricBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TMatrix](VM.Managed.Symmetric.TMatrix.md)
 
 #### Implements
@@ -42,7 +43,7 @@ public virtual object Build(object tool, SymmetricType sym_type, Plane sym_plane
 
 #### Parameters
 
-`tool` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`tool` object
 
 The object.
 
@@ -58,7 +59,7 @@ Plane of symmetric.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The new object of symmetric.
 

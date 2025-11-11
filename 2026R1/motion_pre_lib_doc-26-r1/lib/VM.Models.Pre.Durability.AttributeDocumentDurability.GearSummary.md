@@ -1,4 +1,5 @@
-#  Class AttributeDocumentDurability.GearSummary
+# Class AttributeDocumentDurability.GearSummary
+<a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -11,7 +12,7 @@ public class AttributeDocumentDurability.GearSummary
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AttributeDocumentDurability.GearSummary](VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary.md)
 
 #### Extension Methods
@@ -42,5 +43,5 @@ public IEnumerable<AttributeDocumentDurability.GearSummary.GearResult> GearResul
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[AttributeDocumentDurability](VM.Models.Pre.Durability.AttributeDocumentDurability.md).[GearSummary](VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary.md).[GearResult](VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary.GearResult.md)\>
+ IEnumerable<[AttributeDocumentDurability](VM.Models.Pre.Durability.AttributeDocumentDurability.md).[GearSummary](VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary.md).[GearResult](VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary.GearResult.md)\>
 

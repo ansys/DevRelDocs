@@ -1,4 +1,5 @@
-#  Class MotorEMForceForAM
+# Class MotorEMForceForAM
+<a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForceForAM"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain.Force](VM.Managed.DAFUL.Builder.GearTrain.Force.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,10 +10,10 @@ public class MotorEMForceForAM : MotorEMForce, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<MotorEMForce\> ← 
-BuilderSymmetric<MotorEMForce\> ← 
-BuilderNamed<MotorEMForce\> ← 
+object ← 
+[BuilderBase<MotorEMForce\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<MotorEMForce\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<MotorEMForce\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [MotorEMForce](VM.Managed.DAFUL.Builder.GearTrain.Force.MotorEMForce.md) ← 
 [MotorEMForceForAM](VM.Managed.DAFUL.Builder.GearTrain.Force.MotorEMForceForAM.md)
 
@@ -30,29 +31,29 @@ IBuilder
 [MotorEMForce.XAxis](VM.Managed.DAFUL.Builder.GearTrain.Force.MotorEMForce.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_Force\_MotorEMForce\_XAxis), 
 [MotorEMForce.ReferenceOfRotational](VM.Managed.DAFUL.Builder.GearTrain.Force.MotorEMForce.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_Force\_MotorEMForce\_ReferenceOfRotational), 
 [MotorEMForce.FileFormatType](VM.Managed.DAFUL.Builder.GearTrain.Force.MotorEMForce.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_Force\_MotorEMForce\_FileFormatType), 
-BuilderNamed<MotorEMForce\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<MotorEMForce\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<MotorEMForce\>.Name, 
-BuilderSymmetric<MotorEMForce\>.Build\(Document\), 
-BuilderSymmetric<MotorEMForce\>.Symmetric, 
-BuilderSymmetric<MotorEMForce\>.CurrentSymmetric, 
-BuilderBase<MotorEMForce\>.m\_bSuccess, 
-BuilderBase<MotorEMForce\>.Build\(Document\), 
-BuilderBase<MotorEMForce\>.Build\(Document, List<string\>\), 
-BuilderBase<MotorEMForce\>.Validate\(IList<string\>\), 
-BuilderBase<MotorEMForce\>.Success\(\), 
-BuilderBase<MotorEMForce\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<MotorEMForce\>.OnFinalBuild\(string, Document\), 
-BuilderBase<MotorEMForce\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<MotorEMForce\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<MotorEMForce\>.Parameters, 
-BuilderBase<MotorEMForce\>.AddToDoc, 
-BuilderBase<MotorEMForce\>.UseChangedObject, 
-BuilderBase<MotorEMForce\>.SetPointKey, 
-BuilderBase<MotorEMForce\>.BuildObject, 
-BuilderBase<MotorEMForce\>.BuildDocument, 
-BuilderBase<MotorEMForce\>.UseInterface, 
-BuilderBase<MotorEMForce\>.ErrorMessage
+[BuilderNamed<MotorEMForce\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<MotorEMForce\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<MotorEMForce\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<MotorEMForce\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<MotorEMForce\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<MotorEMForce\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<MotorEMForce\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -78,5 +79,5 @@ protected override PropertyMotorEMForce.FileFormatType FileFormatType { get; }
 
 #### Property Value
 
- PropertyMotorEMForce.FileFormatType
+ [PropertyMotorEMForce](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/MotorEMForce.cs).[FileFormatType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/MotorEMForce.cs)
 

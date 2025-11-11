@@ -1,4 +1,5 @@
-#  Class ChainedPlacing
+# Class ChainedPlacing
+<a id="VM_Managed_DAFUL_Chained_ChainedPlacing"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,9 +12,9 @@ public class ChainedPlacing : ChainedPlacingBase, IObservableObject, IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 [ChainedPlacingBase](VM.Managed.DAFUL.Chained.ChainedPlacingBase.md) ← 
@@ -33,7 +34,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 INamed, 
 IEnabled, 
@@ -145,7 +146,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -184,7 +185,7 @@ public ChainedPlacing(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +213,7 @@ protected Child<NamedObjectDictionary<ChainedObject>, ObjectBase.Update> m_dicCo
 
 #### Field Value
 
- Child<NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
+ Child<[NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
 
 ### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_m_dicContacts"></a> m\_dicContacts
 
@@ -224,7 +225,7 @@ protected Child<NamedObjectDictionary<ChainedObject>, ObjectBase.Update> m_dicCo
 
 #### Field Value
 
- Child<NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
+ Child<[NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
 
 ### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_m_dicMtoNContacts"></a> m\_dicMtoNContacts
 
@@ -236,7 +237,7 @@ protected Child<NamedObjectDictionary<ChainedObject>, ObjectBase.Update> m_dicMt
 
 #### Field Value
 
- Child<NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
+ Child<[NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
 
 ## Properties
 
@@ -262,7 +263,7 @@ public NamedObjectDictionary<ChainedObject> Connectors { get; set; }
 
 #### Property Value
 
- NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
 
 ### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Contacts"></a> Contacts
 
@@ -274,7 +275,7 @@ public NamedObjectDictionary<ChainedObject> Contacts { get; set; }
 
 #### Property Value
 
- NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
 
 ### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_MtoNContacts"></a> MtoNContacts
 
@@ -286,7 +287,7 @@ public NamedObjectDictionary<ChainedObject> MtoNContacts { get; set; }
 
 #### Property Value
 
- NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
 
 ### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Paths"></a> Paths
 
@@ -298,7 +299,7 @@ protected override InstanceContainer[] Paths { get; }
 
 #### Property Value
 
- InstanceContainer\[\]
+ [InstanceContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Placing"></a> Placing
 
@@ -352,7 +353,7 @@ protected override void LinkRequestDestroy(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -370,7 +371,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -388,7 +389,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

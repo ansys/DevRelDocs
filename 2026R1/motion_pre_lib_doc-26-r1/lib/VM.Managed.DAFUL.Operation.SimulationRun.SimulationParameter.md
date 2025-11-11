@@ -1,4 +1,5 @@
-#  Class SimulationRun.SimulationParameter
+# Class SimulationRun.SimulationParameter
+<a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class SimulationRun.SimulationParameter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SimulationRun.SimulationParameter](VM.Managed.DAFUL.Operation.SimulationRun.SimulationParameter.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public string Configuration { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_EndTime"></a> EndTime
 
@@ -48,7 +49,7 @@ public double EndTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_ShowResultAfterSimulation"></a> ShowResultAfterSimulation
 
@@ -58,7 +59,7 @@ public bool ShowResultAfterSimulation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_Step"></a> Step
 
@@ -68,7 +69,7 @@ public int Step { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_WaitForEndSimulation"></a> WaitForEndSimulation
 
@@ -78,5 +79,5 @@ public bool WaitForEndSimulation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

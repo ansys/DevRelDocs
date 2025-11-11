@@ -1,4 +1,5 @@
-#  Class ProfileSprocketBase
+# Class ProfileSprocketBase
+<a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -11,7 +12,7 @@ public abstract class ProfileSprocketBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ProfileSprocketBase](VM.Managed.CAD.Sprocket.ProfileSprocketBase.md)
 
 #### Derived
@@ -65,7 +66,7 @@ protected double m_dRadius_shift
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_lstPtOrigin"></a> m\_lstPtOrigin
 
@@ -77,7 +78,7 @@ protected List<VectorBase> m_lstPtOrigin
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_lstPtWorkPlane"></a> m\_lstPtWorkPlane
 
@@ -89,7 +90,7 @@ protected List<VectorBase> m_lstPtWorkPlane
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_strError"></a> m\_strError
 
@@ -101,7 +102,7 @@ protected string m_strError
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -115,7 +116,7 @@ public double Radius_Shift { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -139,7 +140,7 @@ The arbitrary point.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The gradient
 
@@ -161,13 +162,13 @@ The arbitrary point.
 
 The center point of circle.
 
-`_dRadiusofCircle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_dRadiusofCircle` double
 
 The radius of circle.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 The array of gradient.
 
@@ -181,7 +182,7 @@ protected List<VectorBase> Calculation_TangentPoint_Through_Line_Circle(double d
 
 #### Parameters
 
-`dGradient` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGradient` double
 
 The gradient.
 
@@ -193,13 +194,13 @@ The arbitrary point.
 
 The center point of circle.
 
-`_dRadiusofCircle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_dRadiusofCircle` double
 
 The radius of circle.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 The list of points
 
@@ -213,7 +214,7 @@ protected double[] Calculation_TangentPosition(double dGradient, VectorBase _ptA
 
 #### Parameters
 
-`dGradient` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGradient` double
 
 The gradient.
 
@@ -225,13 +226,13 @@ The arbitrary point.
 
 The center point of circle.
 
-`_dRadiusofCircle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_dRadiusofCircle` double
 
 The radius of circle.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 The tangent point.
 
@@ -249,11 +250,11 @@ protected void Calculation_line_Equation(VectorBase _ptArbitrary, double _dGradi
 
 The arbitrary point.
 
-`_dGradient` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_dGradient` double
 
 y=mx+n<code>m</code>
 
-`_dConstant` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`_dConstant` double
 
 y=mx+n<code>n</code>
 
@@ -271,7 +272,7 @@ protected List<VectorBase> Claculation_TangentPoint_Between_Two_Circle(VectorBas
 
 The center position
 
-`dR1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR1` double
 
 The radius.
 
@@ -279,13 +280,13 @@ The radius.
 
 The center position.
 
-`dR2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR2` double
 
 The radius.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 The list of points
 
@@ -299,7 +300,7 @@ protected virtual bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_GetPointData_For_WorkPlane"></a> GetPointData\_For\_WorkPlane\(\)
 
@@ -311,7 +312,7 @@ public List<VectorBase> GetPointData_For_WorkPlane()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_GetPointData_For_XYPlane"></a> GetPointData\_For\_XYPlane\(\)
 
@@ -323,7 +324,7 @@ public List<VectorBase> GetPointData_For_XYPlane()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
+ List<VectorBase\>
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Validation"></a> Validation\(\)
 
@@ -335,7 +336,7 @@ protected virtual bool Validation()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_matvec_System_Double___VM_Managed_VectorBase_"></a> matvec\(double\[\], VectorBase\)
 
@@ -345,7 +346,7 @@ protected VectorBase matvec(double[] mat, VectorBase vecA)
 
 #### Parameters
 
-`mat` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`mat` double\[\]
 
 `vecA` VectorBase
 
@@ -385,5 +386,5 @@ protected double vectranspose_vectieldvec(VectorBase vecDepth, VectorBase vecA, 
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

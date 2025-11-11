@@ -1,4 +1,5 @@
-#  Class BushPropertyXmlSerializer
+# Class BushPropertyXmlSerializer
+<a id="VM_Managed_DAFUL_Force_BushPropertyXmlSerializer"></a>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -11,15 +12,15 @@ public class BushPropertyXmlSerializer : PropertyXmlSerializer<PropertyBush>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractXmlSerializer<PropertyBush\> ← 
-PropertyXmlSerializer<PropertyBush\> ← 
+[PropertyXmlSerializer<PropertyBush\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
 [BushPropertyXmlSerializer](VM.Managed.DAFUL.Force.BushPropertyXmlSerializer.md)
 
 #### Inherited Members
 
-PropertyXmlSerializer<PropertyBush\>.ReadXml\(XmlReader\), 
-PropertyXmlSerializer<PropertyBush\>.WriteXml\(XmlWriter\)
+[PropertyXmlSerializer<PropertyBush\>.ReadXml\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[PropertyXmlSerializer<PropertyBush\>.WriteXml\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs)
 
 #### Extension Methods
 
@@ -63,7 +64,7 @@ public override sealed void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -77,7 +78,7 @@ public override sealed void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

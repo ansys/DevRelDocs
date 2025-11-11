@@ -1,4 +1,5 @@
-#  Class PerpendicularBBPPDD
+# Class PerpendicularBBPPDD
+<a id="VM_Managed_DAFUL_Builder_Constraints_PerpendicularBBPPDD"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -9,11 +10,11 @@ public class PerpendicularBBPPDD : Connector<Perpendicular, PropertyPerpendicula
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<Perpendicular\> ← 
-BuilderSymmetric<Perpendicular\> ← 
-BuilderNamed<Perpendicular\> ← 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\> ← 
+object ← 
+[BuilderBase<Perpendicular\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<Perpendicular\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<Perpendicular\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs) ← 
 [PerpendicularBBPPDD](VM.Managed.DAFUL.Builder.Constraints.PerpendicularBBPPDD.md)
 
 #### Implements
@@ -22,36 +23,36 @@ IBuilder
 
 #### Inherited Members
 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.HookBeforeReplace\(Property\), 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.OnPostBuild\(ObjectBase, Document\), 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.OnPostAddDoc\(ObjectBase\), 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.BaseConnectable, 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.ActionConnectable, 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.AddToDoc, 
-Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.BuildObject, 
-BuilderNamed<Perpendicular\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<Perpendicular\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<Perpendicular\>.Name, 
-BuilderSymmetric<Perpendicular\>.Build\(Document\), 
-BuilderSymmetric<Perpendicular\>.Symmetric, 
-BuilderSymmetric<Perpendicular\>.CurrentSymmetric, 
-BuilderBase<Perpendicular\>.m\_bSuccess, 
-BuilderBase<Perpendicular\>.Build\(Document\), 
-BuilderBase<Perpendicular\>.Build\(Document, List<string\>\), 
-BuilderBase<Perpendicular\>.Validate\(IList<string\>\), 
-BuilderBase<Perpendicular\>.Success\(\), 
-BuilderBase<Perpendicular\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<Perpendicular\>.OnFinalBuild\(string, Document\), 
-BuilderBase<Perpendicular\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<Perpendicular\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<Perpendicular\>.Parameters, 
-BuilderBase<Perpendicular\>.AddToDoc, 
-BuilderBase<Perpendicular\>.UseChangedObject, 
-BuilderBase<Perpendicular\>.SetPointKey, 
-BuilderBase<Perpendicular\>.BuildObject, 
-BuilderBase<Perpendicular\>.BuildDocument, 
-BuilderBase<Perpendicular\>.UseInterface, 
-BuilderBase<Perpendicular\>.ErrorMessage
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.HookBeforeReplace\(Property\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.BaseConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.ActionConnectable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[Connector<Perpendicular, PropertyPerpendicular, TwoPointPosition, TwoDirection, NoneOrientation\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/Connector.cs), 
+[BuilderNamed<Perpendicular\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Perpendicular\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Perpendicular\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<Perpendicular\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Perpendicular\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Perpendicular\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Perpendicular\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 

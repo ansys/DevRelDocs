@@ -1,4 +1,5 @@
-#  Class CleatShape
+# Class CleatShape
+<a id="VM_Managed_DAFUL_Car_CleatShape"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class CleatShape
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CleatShape](VM.Managed.DAFUL.Car.CleatShape.md)
 
 #### Derived
@@ -89,11 +90,11 @@ public abstract string GetXZData(double dEndTime)
 
 #### Parameters
 
-`dEndTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndTime` double
 
 The d end time.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

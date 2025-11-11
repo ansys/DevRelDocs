@@ -1,4 +1,5 @@
-#  Class PropertyBearing
+# Class PropertyBearing
+<a id="VM_Managed_DAFUL_GearTrain_PropertyBearing"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public class PropertyBearing : Property, IObservableObject, IDisposableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyBearing](VM.Managed.DAFUL.GearTrain.PropertyBearing.md)
 
 #### Implements
@@ -31,7 +32,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -40,12 +41,12 @@ IHasID
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -144,7 +145,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -186,7 +187,7 @@ public double AxialClearance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_BallColor"></a> BallColor
 
@@ -199,7 +200,7 @@ public string BallColor { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_BallDrawingColor"></a> BallDrawingColor
 
@@ -211,7 +212,7 @@ public Color BallDrawingColor { get; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_BearingStiffness"></a> BearingStiffness
 
@@ -248,7 +249,7 @@ public string Color { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_DampingRatio"></a> DampingRatio
 
@@ -261,7 +262,7 @@ public double DampingRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_DampingRatioVariable"></a> DampingRatioVariable
 
@@ -273,7 +274,7 @@ public ExpressionValueVariable DampingRatioVariable { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_Dimension"></a> Dimension
 
@@ -297,7 +298,7 @@ public Color DrawingColor { get; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_InnerCurvatureCenter"></a> InnerCurvatureCenter
 
@@ -310,7 +311,7 @@ public double InnerCurvatureCenter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_InnerGeomInfo"></a> InnerGeomInfo
 
@@ -335,7 +336,7 @@ public string InnerRacewayColor { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_InnerRacewayDrawingColor"></a> InnerRacewayDrawingColor
 
@@ -347,7 +348,7 @@ public Color InnerRacewayDrawingColor { get; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_NumberOfBall"></a> NumberOfBall
 
@@ -360,7 +361,7 @@ public uint NumberOfBall { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OuterCurvatureCenter"></a> OuterCurvatureCenter
 
@@ -373,7 +374,7 @@ public double OuterCurvatureCenter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OuterGeomInfo"></a> OuterGeomInfo
 
@@ -398,7 +399,7 @@ public string OuterRacewayColor { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OuterRacewayDrawingColor"></a> OuterRacewayDrawingColor
 
@@ -410,7 +411,7 @@ public Color OuterRacewayDrawingColor { get; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_RadialClearance"></a> RadialClearance
 
@@ -423,7 +424,7 @@ public double RadialClearance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_RadiusOfBall"></a> RadiusOfBall
 
@@ -436,7 +437,7 @@ public double RadiusOfBall { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_StiffnessMatrix"></a> StiffnessMatrix
 
@@ -448,7 +449,7 @@ public VariableMatrix StiffnessMatrix { get; set; }
 
 #### Property Value
 
- VariableMatrix
+ [VariableMatrix](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/VariableMatrix.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_StiffnessType"></a> StiffnessType
 
@@ -487,7 +488,7 @@ public double UnloadContactAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -501,7 +502,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
@@ -525,7 +526,7 @@ The document
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The effective stiffness.
 
@@ -571,7 +572,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -585,7 +586,7 @@ public void SetAxialClearance(double dAxialClearance)
 
 #### Parameters
 
-`dAxialClearance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAxialClearance` double
 
 The axial clearance.
 
@@ -599,7 +600,7 @@ public void SetBallColor(string strColor)
 
 #### Parameters
 
-`strColor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strColor` string
 
 The ball color.
 
@@ -613,7 +614,7 @@ public void SetColor(string strColor)
 
 #### Parameters
 
-`strColor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strColor` string
 
 The color.
 
@@ -627,7 +628,7 @@ public void SetDampingRatio(double dDampingRatio)
 
 #### Parameters
 
-`dDampingRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDampingRatio` double
 
 The damping ratio.
 
@@ -641,7 +642,7 @@ public void SetInnerCurvatureCenter(double dInnerCurvatureCenter)
 
 #### Parameters
 
-`dInnerCurvatureCenter` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dInnerCurvatureCenter` double
 
 The ionner curvature center.
 
@@ -655,7 +656,7 @@ public void SetInnerRacewayColor(string strColor)
 
 #### Parameters
 
-`strColor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strColor` string
 
 The inner raceway color.
 
@@ -669,7 +670,7 @@ public void SetNumberOfBall(uint dNumberOfBall)
 
 #### Parameters
 
-`dNumberOfBall` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`dNumberOfBall` uint
 
 The number of ball.
 
@@ -683,7 +684,7 @@ public void SetOuterCurvatureCenter(double dOuterCurvatureCenter)
 
 #### Parameters
 
-`dOuterCurvatureCenter` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOuterCurvatureCenter` double
 
 The outer curvature center.
 
@@ -697,7 +698,7 @@ public void SetOuterRacewayColor(string strColor)
 
 #### Parameters
 
-`strColor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strColor` string
 
 The outer raceway color.
 
@@ -711,7 +712,7 @@ public void SetRadialClearance(double dRadialClearance)
 
 #### Parameters
 
-`dRadialClearance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadialClearance` double
 
 The radial clearance.
 
@@ -725,7 +726,7 @@ public void SetRadiusOfBall(double dRadiusOfBall)
 
 #### Parameters
 
-`dRadiusOfBall` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadiusOfBall` double
 
 The radius of ball.
 
@@ -739,15 +740,15 @@ public BearingStiffness SetStiffness(SplineValue svRadial, SplineValue svAxial, 
 
 #### Parameters
 
-`svRadial` SplineValue
+`svRadial` [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The radial stiffness spline value.
 
-`svAxial` SplineValue
+`svAxial` [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The axial stiffness spline value.
 
-`svTilt` SplineValue
+`svTilt` [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 The tilt stiffness spline value.
 
@@ -867,7 +868,7 @@ public void SetUnloadContactAngle(double dUnloadContactAngle)
 
 #### Parameters
 
-`dUnloadContactAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dUnloadContactAngle` double
 
 The unload contact angle.
 

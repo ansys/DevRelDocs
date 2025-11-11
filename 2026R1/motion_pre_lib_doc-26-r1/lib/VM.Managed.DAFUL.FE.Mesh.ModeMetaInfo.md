@@ -1,4 +1,5 @@
-#  Struct Mesh.ModeMetaInfo
+# Struct Mesh.ModeMetaInfo
+<a id="VM_Managed_DAFUL_FE_Mesh_ModeMetaInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -19,9 +20,9 @@ public ModeMetaInfo(string strName, ulong sizeContents)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`sizeContents` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`sizeContents` ulong
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeMetaInfo__ctor_System_String_"></a> ModeMetaInfo\(string\)
 
@@ -31,7 +32,7 @@ public ModeMetaInfo(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 ## Fields
 
@@ -43,7 +44,7 @@ public ulong m_sizeContents
 
 #### Field Value
 
- [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+ ulong
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ModeMetaInfo_m_strName"></a> m\_strName
 
@@ -53,5 +54,5 @@ public string m_strName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

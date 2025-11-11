@@ -1,4 +1,5 @@
-#  Class BuilderBeamGroupInfo
+# Class BuilderBeamGroupInfo
+<a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -9,7 +10,7 @@ public class BuilderBeamGroupInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBeamGroupInfo](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public Color Color { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_CrossSectionType"></a> CrossSectionType
 
@@ -46,7 +47,7 @@ public CrossSectionType CrossSectionType { get; set; }
 
 #### Property Value
 
- CrossSectionType
+ [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_CrossSectionValueInfo"></a> CrossSectionValueInfo
 
@@ -56,7 +57,7 @@ public string[] CrossSectionValueInfo { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_EndPosition"></a> EndPosition
 
@@ -76,7 +77,7 @@ public string Material { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_NoOfElements"></a> NoOfElements
 
@@ -86,7 +87,7 @@ public int NoOfElements { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_StartPosition"></a> StartPosition
 

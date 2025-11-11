@@ -1,4 +1,5 @@
-#  Class TrackPlacing\_PathInfo
+# Class TrackPlacing\_PathInfo
+<a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,11 +12,11 @@ public class TrackPlacing_PathInfo : PlacingPathInfoBase, IObservableObject, IDi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-PlacingPathInfoBase ← 
+[PlacingPathInfoBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs) ← 
 [TrackPlacing\_PathInfo](VM.Managed.DAFUL.Track.TrackPlacing\_PathInfo.md)
 
 #### Implements
@@ -33,7 +34,7 @@ IVerifiable
 
 #### Inherited Members
 
-PlacingPathInfoBase.FindInnerLinkEventArgs\(LinkEventArgs\), 
+[PlacingPathInfoBase.FindInnerLinkEventArgs\(LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDChainedBase/ChainedPlacing.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -77,7 +78,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -118,7 +119,7 @@ public bool Assembly { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Contact"></a> Contact
 
@@ -130,7 +131,7 @@ public bool Contact { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Distance"></a> Distance
 
@@ -142,7 +143,7 @@ public ExpressionValueVariable Distance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Engagement"></a> Engagement
 
@@ -178,5 +179,5 @@ public ExpressionValueVariable Height { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

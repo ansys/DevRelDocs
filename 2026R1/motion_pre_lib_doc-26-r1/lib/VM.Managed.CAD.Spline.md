@@ -1,4 +1,5 @@
-#  Class Spline
+# Class Spline
+<a id="VM_Managed_CAD_Spline"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Spline
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Spline](VM.Managed.CAD.Spline.md)
 
 #### Extension Methods
@@ -39,7 +40,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_CAD_Spline_Dispose"></a> Dispose\(\)
 
@@ -63,7 +64,7 @@ public Vector[] MakeSplineAndGetPoint(Document3D doc, uint nCount, Vector[] vecI
 
 `doc` [Document3D](VM.Managed.Document3D.md)
 
-`nCount` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nCount` uint
 
 `vecInputPt` [Vector](VM.Managed.Vector.md)\[\]
 

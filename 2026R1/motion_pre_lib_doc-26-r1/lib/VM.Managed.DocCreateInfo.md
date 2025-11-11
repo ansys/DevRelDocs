@@ -1,4 +1,5 @@
-#  Class DocCreateInfo
+# Class DocCreateInfo
+<a id="VM_Managed_DocCreateInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class DocCreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocCreateInfo](VM.Managed.DocCreateInfo.md)
 
 #### Derived
@@ -46,7 +47,7 @@ public string ActiveMode { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DocCreateInfo_DocumentName"></a> DocumentName
 
@@ -58,7 +59,7 @@ public virtual string DocumentName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DocCreateInfo_KernelLengthUnit"></a> KernelLengthUnit
 
@@ -70,7 +71,7 @@ public string KernelLengthUnit { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DocCreateInfo_ModeChangeOperation"></a> ModeChangeOperation
 
@@ -82,7 +83,7 @@ public string ModeChangeOperation { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DocCreateInfo_Unit"></a> Unit
 

@@ -1,4 +1,5 @@
-#  Class UserSubroutine.UserDefinedDisplay.DisplaySet
+# Class UserSubroutine.UserDefinedDisplay.DisplaySet
+<a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -11,9 +12,9 @@ public class UserSubroutine.UserDefinedDisplay.DisplaySet : LinkContainer, IObse
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [UserSubroutine.UserDefinedDisplay.DisplaySet](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.DisplaySet.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -116,7 +117,7 @@ public int DisplaySequence { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_MultiPositionAndScalarSequence"></a> MultiPositionAndScalarSequence
 
@@ -152,7 +153,7 @@ public int SinglePositionSequence { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_SingleScalarSequence"></a> SingleScalarSequence
 
@@ -164,5 +165,5 @@ public int SingleScalarSequence { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

@@ -1,4 +1,5 @@
-#  Class BoundaryConditionAPI
+# Class BoundaryConditionAPI
+<a id="VM_API_Pre_FE_BoundaryConditionAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class BoundaryConditionAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BoundaryConditionAPI](VM.API.Pre.FE.BoundaryConditionAPI.md)
 
 #### Extension Methods
@@ -35,59 +36,59 @@ public static Obj CreateBoundaryCondition(this SubSystemDocument document, Obj b
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the boundary condition.
 
-`boundaryConditionComponent` Obj
+`boundaryConditionComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The boundary condition component
 
-`boundaryConditionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`boundaryConditionName` string
 
 The name of the boundary condition. If empty, default name starts with 'BC_' will be generated and used.
 
-`referenceMarker` Obj?
+`referenceMarker` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The reference marker.
 
-`translationalX` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`translationalX` bool
 
 The flag whether using translational X.
 
-`translationalY` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`translationalY` bool
 
 The flag whether using translational Y.
 
-`translationalZ` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`translationalZ` bool
 
 The flag whether using translational Z.
 
-`rotationalX` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`rotationalX` bool
 
 The flag whether using rotational X.
 
-`rotationalY` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`rotationalY` bool
 
 The flag whether using rotational Y.
 
-`rotationalZ` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`rotationalZ` bool
 
 The flag whether using rotational Z.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Flexible.BoundaryCondition" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'boundaryConditionComponent' arguments are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'referenceMarker' argument is not empty and type of 'referenceMarker' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 

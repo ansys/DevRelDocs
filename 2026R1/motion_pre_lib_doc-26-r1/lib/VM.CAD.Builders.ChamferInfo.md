@@ -1,4 +1,5 @@
-#  Class ChamferInfo
+# Class ChamferInfo
+<a id="VM_CAD_Builders_ChamferInfo"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public abstract class ChamferInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ChamferInfo](VM.CAD.Builders.ChamferInfo.md)
 
 #### Derived
@@ -44,7 +45,7 @@ public double LeftRange { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_ChamferInfo_Radius"></a> Radius
 
@@ -56,7 +57,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_ChamferInfo_RightRange"></a> RightRange
 
@@ -68,5 +69,5 @@ public double RightRange { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

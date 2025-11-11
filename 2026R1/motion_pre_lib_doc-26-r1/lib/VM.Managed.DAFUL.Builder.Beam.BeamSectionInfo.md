@@ -1,4 +1,5 @@
-#  Class BeamSectionInfo
+# Class BeamSectionInfo
+<a id="VM_Managed_DAFUL_Builder_Beam_BeamSectionInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -9,7 +10,7 @@ public class BeamSectionInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BeamSectionInfo](VM.Managed.DAFUL.Builder.Beam.BeamSectionInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public CrossSectionType CrossSection { get; set; }
 
 #### Property Value
 
- CrossSectionType
+ [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BeamSectionInfo_CrossSectionValueInfo"></a> CrossSectionValueInfo
 
@@ -46,5 +47,5 @@ public string[] CrossSectionValueInfo { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 

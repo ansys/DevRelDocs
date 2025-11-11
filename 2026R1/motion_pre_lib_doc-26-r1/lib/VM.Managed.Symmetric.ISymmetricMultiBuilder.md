@@ -1,4 +1,5 @@
-#  Interface ISymmetricMultiBuilder
+# Interface ISymmetricMultiBuilder
+<a id="VM_Managed_Symmetric_ISymmetricMultiBuilder"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -49,7 +50,7 @@ update document.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

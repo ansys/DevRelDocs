@@ -1,4 +1,5 @@
-#  Class Bush
+# Class Bush
+<a id="VM_Managed_Symmetric_Force_Bush"></a>
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFB.dll  
@@ -9,9 +10,9 @@ public class Bush : Force<Bush, PropertyBush>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Bush\> ← 
-Connector<Bush, PropertyBush\> ← 
+object ← 
+[Named<Bush\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<Bush, PropertyBush\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
 [Force<Bush, PropertyBush\>](VM.Managed.Symmetric.Force.Force\-2.md) ← 
 [Bush](VM.Managed.Symmetric.Force.Bush.md)
 
@@ -22,11 +23,11 @@ ISymmetricUpdater
 #### Inherited Members
 
 [Force<Bush, PropertyBush\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](VM.Managed.Symmetric.Force.Force\-2.md\#VM\_Managed\_Symmetric\_Force\_Force\_2\_Update\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_VM\_Managed\_SymmetricType\_VM\_Plane\_VM\_Managed\_Document\_), 
-Connector<Bush, PropertyBush\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Bush\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Bush\>.Initialize\(ISymmetricManager\), 
-Named<Bush\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Bush\>.SymmetricManager
+[Connector<Bush, PropertyBush\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<Bush\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Bush\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Bush\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Bush\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -86,9 +87,9 @@ public static bool UpdateProperty(PropertyBush toolProperty, PropertyBush target
 
 #### Parameters
 
-`toolProperty` PropertyBush
+`toolProperty` [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
-`targetProperty` PropertyBush
+`targetProperty` [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
 `sym_type` SymmetricType
 
@@ -98,5 +99,5 @@ public static bool UpdateProperty(PropertyBush toolProperty, PropertyBush target
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

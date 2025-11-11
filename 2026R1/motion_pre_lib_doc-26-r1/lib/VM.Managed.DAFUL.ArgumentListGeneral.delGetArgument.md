@@ -1,4 +1,5 @@
-#  Delegate ArgumentListGeneral.delGetArgument
+# Delegate ArgumentListGeneral.delGetArgument
+<a id="VM_Managed_DAFUL_ArgumentListGeneral_delGetArgument"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -15,7 +16,7 @@ public delegate object ArgumentListGeneral.delGetArgument(IConnector connector)
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 #### Extension Methods
 

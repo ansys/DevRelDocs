@@ -1,4 +1,5 @@
-#  Class ExecutePreprocessorStepItem
+# Class ExecutePreprocessorStepItem
+<a id="VM_Models_Project_Preset_ExecutePreprocessorStepItem"></a>
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -9,9 +10,9 @@ public sealed class ExecutePreprocessorStepItem : CommandStepItem, IObservableOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-CommandStepItem ← 
+[CommandStepItem](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs) ← 
 [ExecutePreprocessorStepItem](VM.Models.Project.Preset.ExecutePreprocessorStepItem.md)
 
 #### Implements
@@ -26,15 +27,15 @@ IEnabled
 
 #### Inherited Members
 
-CommandStepItem.Initialize\(\), 
-CommandStepItem.Command, 
-CommandStepItem.DisplayName, 
-CommandStepItem.Icon, 
-CommandStepItem.Name, 
-CommandStepItem.Parent, 
-CommandStepItem.ToolTip, 
-CommandStepItem.IsVisible, 
-CommandStepItem.IsEnabled, 
+[CommandStepItem.Initialize\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.Command](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.Icon](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.Parent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.ToolTip](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
+[CommandStepItem.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/CommandStepItem.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -68,7 +69,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

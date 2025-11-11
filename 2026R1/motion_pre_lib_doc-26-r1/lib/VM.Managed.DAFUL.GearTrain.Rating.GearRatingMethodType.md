@@ -1,4 +1,5 @@
-#  Enum Rating.GearRatingMethodType
+# Enum Rating.GearRatingMethodType
+<a id="VM_Managed_DAFUL_GearTrain_Rating_GearRatingMethodType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

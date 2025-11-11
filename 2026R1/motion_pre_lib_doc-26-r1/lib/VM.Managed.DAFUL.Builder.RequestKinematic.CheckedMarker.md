@@ -1,4 +1,5 @@
-#  Struct RequestKinematic.CheckedMarker
+# Struct RequestKinematic.CheckedMarker
+<a id="VM_Managed_DAFUL_Builder_RequestKinematic_CheckedMarker"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -17,9 +18,9 @@ public CheckedMarker(string check, string marker)
 
 #### Parameters
 
-`check` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`check` string
 
-`marker` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`marker` string
 
 ## Properties
 
@@ -31,7 +32,7 @@ public string Checked { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_RequestKinematic_CheckedMarker_Marker"></a> Marker
 
@@ -41,5 +42,5 @@ public string Marker { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

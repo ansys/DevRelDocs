@@ -1,4 +1,5 @@
-#  Enum PropertyMotorEMForce.ExcitationType
+# Enum PropertyMotorEMForce.ExcitationType
+<a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ExcitationType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  

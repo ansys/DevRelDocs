@@ -1,4 +1,5 @@
-#  Class ExtendedMemberInfo<T\>
+# Class ExtendedMemberInfo<T\>
+<a id="VM_ExtendedMemberInfo_1"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -13,7 +14,7 @@ public abstract class ExtendedMemberInfo<T> where T : MemberInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExtendedMemberInfo<T\>](VM.ExtendedMemberInfo\-1.md)
 
 #### Extension Methods
@@ -56,7 +57,7 @@ public bool HasAttribute<TAttribute>() where TAttribute : Attribute
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 
@@ -74,7 +75,7 @@ public bool TryGetAttributeInstance<TAttribute>(out TAttribute attribute) where 
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 

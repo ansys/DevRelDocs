@@ -1,4 +1,5 @@
-#  Class PointOnEdge
+# Class PointOnEdge
+<a id="VM_Managed_PointOnEdge"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -6,14 +7,14 @@ Assembly: VMAppCore.dll
 This class is to represent the information of point through edge geometry.
 
 ```csharp
-public class PointOnEdge : PointOnGeometryBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
+public class PointOnEdge : PointOnGeometryBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [PointBase](VM.Managed.PointBase.md) ← 
 [PointOnGeometryBase](VM.Managed.PointOnGeometryBase.md) ← 
@@ -30,7 +31,8 @@ IOwned,
 IHasID, 
 IEventProvider, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
-[IVerifiable](VM.Managed.IVerifiable.md)
+[IVerifiable](VM.Managed.IVerifiable.md), 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -50,6 +52,8 @@ IEventProvider,
 [PointBase.ReadXml\(XmlReader\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_ReadXml\_System\_Xml\_XmlReader\_), 
 [PointBase.WriteXml\(XmlWriter\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_WriteXml\_System\_Xml\_XmlWriter\_), 
 [PointBase.GetSchema\(\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_GetSchema), 
+[PointBase.HasReplaceableEntity\(IObjectBase\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_HasReplaceableEntity\_VM\_Models\_Pre\_IObjectBase\_), 
+[PointBase.ReplaceEntity\(IObjectBase, IObjectBase\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_ReplaceEntity\_VM\_Models\_Pre\_IObjectBase\_VM\_Models\_Pre\_IObjectBase\_), 
 [PointBase.IsParameterized](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_IsParameterized), 
 [PointBase.Z](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_Z), 
 [PointBase.Y](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_Y), 
@@ -98,7 +102,7 @@ IEventProvider,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -142,7 +146,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_PointOnEdge_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -154,7 +158,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -168,7 +172,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

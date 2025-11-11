@@ -1,4 +1,5 @@
-#  Class MeshPropertyApplyOperation
+# Class MeshPropertyApplyOperation
+<a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class MeshPropertyApplyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [MeshPropertyApplyOperation](VM.Managed.DAFUL.FE.MeshPropertyApplyOperation.md)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation_Success"></a> Success
 
@@ -123,7 +124,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

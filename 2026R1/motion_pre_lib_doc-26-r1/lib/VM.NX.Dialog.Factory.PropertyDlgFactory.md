@@ -1,4 +1,5 @@
-#  Class PropertyDlgFactory
+# Class PropertyDlgFactory
+<a id="VM_NX_Dialog_Factory_PropertyDlgFactory"></a>
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDM.dll  
@@ -9,7 +10,7 @@ public class PropertyDlgFactory : DlgFactoryBase, IDlgFactory
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DlgFactoryBase](VM.NX.Dialog.Factory.DlgFactoryBase.md) ← 
 [PropertyDlgFactory](VM.NX.Dialog.Factory.PropertyDlgFactory.md)
 
@@ -41,9 +42,9 @@ public PropertyDlgFactory(string strDlgFileDirectory, string strDlgDirectory)
 
 #### Parameters
 
-`strDlgFileDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDlgFileDirectory` string
 
-`strDlgDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDlgDirectory` string
 
 ## Methods
 
@@ -55,13 +56,13 @@ public Form GetObject(string strType, Form formOwner)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
-`formOwner` [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+`formOwner` Form
 
 #### Returns
 
- [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+ Form
 
 ### <a id="VM_NX_Dialog_Factory_PropertyDlgFactory_GetObjectWithMultiDialog_VM_NX_Dialog_Factory_MultiDialogInfo___System_Windows_Forms_Form_"></a> GetObjectWithMultiDialog\(MultiDialogInfo\[\], Form\)
 
@@ -73,9 +74,9 @@ public Form GetObjectWithMultiDialog(MultiDialogInfo[] arInfo, Form formOwner)
 
 `arInfo` MultiDialogInfo\[\]
 
-`formOwner` [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+`formOwner` Form
 
 #### Returns
 
- [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+ Form
 

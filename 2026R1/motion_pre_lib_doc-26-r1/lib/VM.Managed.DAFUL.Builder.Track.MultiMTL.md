@@ -1,4 +1,5 @@
-#  Class MultiMTL
+# Class MultiMTL
+<a id="VM_Managed_DAFUL_Builder_Track_MultiMTL"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -9,7 +10,7 @@ public class MultiMTL : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MultiMTL](VM.Managed.DAFUL.Builder.Track.MultiMTL.md)
 
 #### Implements
@@ -50,7 +51,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_Name"></a> Name
 
@@ -60,7 +61,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_ObjectNames"></a> ObjectNames
 
@@ -70,7 +71,7 @@ public string[] ObjectNames { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_Parameters"></a> Parameters
 
@@ -80,7 +81,7 @@ public PickedResult[] Parameters { get; set; }
 
 #### Property Value
 
- PickedResult\[\]
+ [PickedResult](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/PickedResult.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_Thickness"></a> Thickness
 

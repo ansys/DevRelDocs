@@ -1,4 +1,5 @@
-#  Class MesherHelper
+# Class MesherHelper
+<a id="VM_Managed_MesherHelper"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class MesherHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MesherHelper](VM.Managed.MesherHelper.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public MesherHelper(string strMesherPath)
 
 #### Parameters
 
-`strMesherPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMesherPath` string
 
 The string mesher path.
 
@@ -47,7 +48,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_MesherHelper_Dispose"></a> Dispose\(\)
 
@@ -73,9 +74,9 @@ public void GetTetraPosAndConn(List<VectorBase> lstPos, List<uint> lstConty)
 
 #### Parameters
 
-`lstPos` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+`lstPos` List<[VectorBase](VM.Managed.VectorBase.md)\>
 
-`lstConty` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+`lstConty` List<uint\>
 
 ### <a id="VM_Managed_MesherHelper_GetTetraPosAndConn_std_vector__VM_VECTOR_std__allocator__VM_VECTOR_____std_vector_unsigned_int_std__allocator_unsigned_int_____"></a> GetTetraPosAndConn\(vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*, vector<unsigned int,std::allocator<unsigned int\> \>\*\)
 
@@ -85,9 +86,9 @@ public void GetTetraPosAndConn(vector<_VM_VECTOR,std::allocator<_VM_VECTOR> >* v
 
 #### Parameters
 
-`vecPos` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`vecPos` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
-`vecConty` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`vecConty` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
 ### <a id="VM_Managed_MesherHelper_MesherExecute_std_basic_string_wchar_t_std__char_traits_wchar_t__std__allocator_wchar_t_____std_vector__VM_VECTOR_std__allocator__VM_VECTOR_____std_vector_unsigned_int_std__allocator_unsigned_int_____System_Boolean_System_Boolean_std_basic_string_wchar_t_std__char_traits_wchar_t__std__allocator_wchar_t_____"></a> MesherExecute\(basic\_string<wchar\_t,std::char\_traits<wchar\_t\>,std::allocator<wchar\_t\> \>\*, vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*, vector<unsigned int,std::allocator<unsigned int\> \>\*, bool, bool, basic\_string<wchar\_t,std::char\_traits<wchar\_t\>,std::allocator<wchar\_t\> \>\*\)
 
@@ -97,21 +98,21 @@ public bool MesherExecute(basic_string<wchar_t,std::char_traits<wchar_t>,std::al
 
 #### Parameters
 
-`strNasPath` [basic\_string<wchar\_t,std::char\_traits<wchar\_t\>,std::allocator<wchar\_t\> \>](std.basic\_string<wchar\_t,std.md)\*
+`strNasPath` basic\_string<wchar\_t,std::char\_traits<wchar\_t\>,std::allocator<wchar\_t\> \>\*
 
-`arvPosition` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`arvPosition` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
-`arConnectivities` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`arConnectivities` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
-`bUseSurfRemesh` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfRemesh` bool
 
-`bMesher` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bMesher` bool
 
-`strOutputType` [basic\_string<wchar\_t,std::char\_traits<wchar\_t\>,std::allocator<wchar\_t\> \>](std.basic\_string<wchar\_t,std.md)\*
+`strOutputType` basic\_string<wchar\_t,std::char\_traits<wchar\_t\>,std::allocator<wchar\_t\> \>\*
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_MesherHelper_MesherExecuteCLR_System_String_System_Collections_Generic_List_VM_Managed_VectorBase__System_Collections_Generic_List_System_UInt32__System_Boolean_System_Boolean_System_String_"></a> MesherExecuteCLR\(string, List<VectorBase\>, List<uint\>, bool, bool, string\)
 
@@ -121,21 +122,21 @@ public bool MesherExecuteCLR(string strNasPathCLR, List<VectorBase> lstPosition,
 
 #### Parameters
 
-`strNasPathCLR` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNasPathCLR` string
 
-`lstPosition` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+`lstPosition` List<[VectorBase](VM.Managed.VectorBase.md)\>
 
-`lstConnectivities` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+`lstConnectivities` List<uint\>
 
-`bUseSurfRemesh` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfRemesh` bool
 
-`bMesher` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bMesher` bool
 
-`strOutputTypeCLR` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutputTypeCLR` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_MesherHelper_RunTetraMesher_std_vector__VM_VECTOR_std__allocator__VM_VECTOR_____std_vector_unsigned_int_std__allocator_unsigned_int_____"></a> RunTetraMesher\(vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*, vector<unsigned int,std::allocator<unsigned int\> \>\*\)
 
@@ -145,13 +146,13 @@ public bool RunTetraMesher(vector<_VM_VECTOR,std::allocator<_VM_VECTOR> >* vecPo
 
 #### Parameters
 
-`vecPosTria` [vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>](std.vector<\_VM\_VECTOR,std.md)\*
+`vecPosTria` vector<\_VM\_VECTOR,std::allocator<\_VM\_VECTOR\> \>\*
 
-`vecConnTria` [vector<unsigned int,std::allocator<unsigned int\> \>](std.vector<unsigned int,std.md)\*
+`vecConnTria` vector<unsigned int,std::allocator<unsigned int\> \>\*
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_MesherHelper_RunTetraMesherCLR_System_Collections_Generic_List_VM_Managed_VectorBase__System_Collections_Generic_List_System_UInt32__"></a> RunTetraMesherCLR\(List<VectorBase\>, List<uint\>\)
 
@@ -161,11 +162,11 @@ public bool RunTetraMesherCLR(List<VectorBase> vecPosTria, List<uint> vecConnTri
 
 #### Parameters
 
-`vecPosTria` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+`vecPosTria` List<[VectorBase](VM.Managed.VectorBase.md)\>
 
-`vecConnTria` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+`vecConnTria` List<uint\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

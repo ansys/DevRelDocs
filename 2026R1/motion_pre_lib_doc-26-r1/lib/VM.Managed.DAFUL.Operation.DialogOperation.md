@@ -1,4 +1,5 @@
-#  Class DialogOperation
+# Class DialogOperation
+<a id="VM_Managed_DAFUL_Operation_DialogOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,9 +12,13 @@ public class DialogOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [DialogOperation](VM.Managed.DAFUL.Operation.DialogOperation.md)
+
+#### Derived
+
+[ExportMotionFiles](VM.Managed.DAFUL.Operation.ExportMotionFiles.md)
 
 #### Implements
 
@@ -105,7 +110,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_DialogOperation_OpDialog"></a> OpDialog
 
@@ -141,7 +146,7 @@ protected static bool IsConainOpenedDic(Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_DialogOperation_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
 
@@ -153,11 +158,11 @@ protected virtual void OnApply(object sender, CancelEventArgs arg)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
-`arg` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
+`arg` CancelEventArgs
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 

@@ -1,4 +1,5 @@
-#  Enum ForceFunction.FunctionType
+# Enum ForceFunction.FunctionType
+<a id="VM_Managed_DAFUL_Force_ForceFunction_FunctionType"></a>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  

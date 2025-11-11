@@ -1,15 +1,16 @@
-#  Class CommandBase
+# Class CommandBase
+<a id="VM_CommandBase"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public abstract class CommandBase : ObservableObject, IObservableObject, IDisposableObject
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableObject](VM.ObservableObject.md) ← 
 [CommandBase](VM.CommandBase.md)
 
@@ -36,82 +37,81 @@ public abstract class CommandBase : ObservableObject, IObservableObject, IDispos
 
 ### <a id="VM_CommandBase__ctor_System_Func_System_Object_System_Boolean__"></a> CommandBase\(Func<object, bool\>\)
 
-```python
+```csharp
 public CommandBase(Func<object, bool> canExecute)
 ```
 
 #### Parameters
 
-`canExecute` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[object](https://learn.microsoft.com/dotnet/api/system.object), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`canExecute` Func<object, bool\>
 
 ## Properties
 
 ### <a id="VM_CommandBase_Description"></a> Description
 
-```python
+```csharp
 public string Description { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CommandBase_IsExecuting"></a> IsExecuting
 
-```python
+```csharp
 protected bool IsExecuting { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
 ### <a id="VM_CommandBase_CanExecute_System_Object_"></a> CanExecute\(object\)
 
-```python
+```csharp
 public bool CanExecute(object parameter)
 ```
 
 #### Parameters
 
-`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`parameter` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CommandBase_OnCanExecuteChanged"></a> OnCanExecuteChanged\(\)
 
-```python
+```csharp
 protected void OnCanExecuteChanged()
 ```
 
 ### <a id="VM_CommandBase_OnShouldExecute"></a> OnShouldExecute\(\)
 
-```python
+```csharp
 protected void OnShouldExecute()
 ```
 
 ### <a id="VM_CommandBase_CanExecuteChanged"></a> CanExecuteChanged
 
-```python
+```csharp
 public virtual event EventHandler CanExecuteChanged
 ```
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="VM_CommandBase_ShouldExecute"></a> ShouldExecute
 
-```python
+```csharp
 public event EventHandler ShouldExecute
 ```
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
-
+ EventHandler
 

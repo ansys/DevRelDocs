@@ -1,4 +1,5 @@
-#  Enum RBEType
+# Enum RBEType
+<a id="VM_Models_FE_Utilities_RBEType"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  

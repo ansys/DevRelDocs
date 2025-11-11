@@ -1,4 +1,5 @@
-#  Class CreateChainedPlacing
+# Class CreateChainedPlacing
+<a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class CreateChainedPlacing : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateChainedPlacing](VM.Managed.DAFUL.Chained.Operation.CreateChainedPlacing.md)
 
@@ -95,7 +96,7 @@ public CreateChainedPlacing(string strInitializerXml)
 
 #### Parameters
 
-`strInitializerXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitializerXml` string
 
 The STR initializer XML.
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -126,7 +127,10 @@ public override void Execute()
 ### <a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing_ExecutePickOperation_System_String___System_String___System_Int32_System_Int32_"></a> ExecutePickOperation\(string\[\], string\[\], int, int\)
 
 Execute the operation.
-<param name="arPickResult">pick result array.</param><param name="arPickOp">pick operation array.</param><param name="start">The start.</param><param name="end">The end.</param>
+<param name="arPickResult">pick result array.</param>
+<param name="arPickOp">pick operation array.</param>
+<param name="start">The start.</param>
+<param name="end">The end.</param>
 
 ```csharp
 protected virtual bool ExecutePickOperation(string[] arPickResult, string[] arPickOp, int start, int end)
@@ -134,15 +138,15 @@ protected virtual bool ExecutePickOperation(string[] arPickResult, string[] arPi
 
 #### Parameters
 
-`arPickResult` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arPickResult` string\[\]
 
-`arPickOp` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arPickOp` string\[\]
 
-`start` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`start` int
 
-`end` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`end` int
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

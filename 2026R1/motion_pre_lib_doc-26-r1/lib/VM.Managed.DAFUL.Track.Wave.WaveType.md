@@ -1,4 +1,5 @@
-#  Enum Wave.WaveType
+# Enum Wave.WaveType
+<a id="VM_Managed_DAFUL_Track_Wave_WaveType"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

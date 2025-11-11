@@ -1,4 +1,5 @@
-#  Enum ModifiedResult.ModifiedType
+# Enum ModifiedResult.ModifiedType
+<a id="VM_Managed_ModifiedResult_ModifiedType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

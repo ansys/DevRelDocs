@@ -1,4 +1,5 @@
-#  Class Settings
+# Class Settings
+<a id="VM_Managed_DAFUL_CoSim_Settings"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -13,17 +14,17 @@ public class Settings : SettingsBase<Settings>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[SettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.settingsbase) ← 
-[ApplicationSettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.applicationsettingsbase) ← 
-SettingsBase<Settings\> ← 
+object ← 
+SettingsBase ← 
+ApplicationSettingsBase ← 
+[SettingsBase<Settings\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs) ← 
 [Settings](VM.Managed.DAFUL.CoSim.Settings.md)
 
 #### Inherited Members
 
-SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\), 
-SettingsBase<Settings\>.Default, 
-SettingsBase<Settings\>.RootPath
+[SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.Default](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.RootPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs)
 
 #### Extension Methods
 
@@ -54,5 +55,5 @@ public string InterfacePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

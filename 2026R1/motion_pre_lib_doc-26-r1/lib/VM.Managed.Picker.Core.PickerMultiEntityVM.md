@@ -1,4 +1,5 @@
-#  Class PickerMultiEntityVM
+# Class PickerMultiEntityVM
+<a id="VM_Managed_Picker_Core_PickerMultiEntityVM"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class PickerMultiEntityVM : PickerMulti
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerMulti](VM.Managed.Picker.Core.PickerMulti.md) ← 
 [PickerMultiEntityVM](VM.Managed.Picker.Core.PickerMultiEntityVM.md)
@@ -61,11 +62,11 @@ public PickerMultiEntityVM(Type type, bool bIsInterface, bool bIsReference)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
-`bIsInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIsInterface` bool
 
-`bIsReference` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIsReference` bool
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM__ctor_System_Type___"></a> PickerMultiEntityVM\(Type\[\]\)
 
@@ -75,7 +76,7 @@ public PickerMultiEntityVM(Type[] arTypes)
 
 #### Parameters
 
-`arTypes` [Type](https://learn.microsoft.com/dotnet/api/system.type)\[\]
+`arTypes` Type\[\]
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM__ctor_System_Type_System_Boolean_"></a> PickerMultiEntityVM\(Type, bool\)
 
@@ -85,9 +86,9 @@ public PickerMultiEntityVM(Type type, bool bIsInterface)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
-`bIsInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIsInterface` bool
 
 ## Properties
 
@@ -99,7 +100,7 @@ public Type[] EntityTypes { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)\[\]
+ Type\[\]
 
 ## Methods
 
@@ -113,13 +114,13 @@ public override bool Filtering(UIntPtr pTarget)
 
 #### Parameters
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -133,17 +134,17 @@ public override bool FilteringReference(UIntPtr pOwner, UIntPtr pTarget)
 
 #### Parameters
 
-`pOwner` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pOwner` UIntPtr
 
 Filtering owner of target.
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -157,7 +158,7 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_GetResultXmlFromKey_System_UIntPtr___"></a> GetResultXmlFromKey\(UIntPtr\[\]\)
 
@@ -169,11 +170,11 @@ public override string GetResultXmlFromKey(UIntPtr[] arKey)
 
 #### Parameters
 
-`arKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
+`arKey` UIntPtr\[\]
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -187,13 +188,13 @@ public override string GetResultXmlFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 Picking destination key.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -205,11 +206,11 @@ public override void SetHighlight(List<UIntPtr> lstEntity, bool bHighlight, bool
 
 #### Parameters
 
-`lstEntity` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstEntity` List<UIntPtr\>
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
-`bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdate` bool
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
@@ -221,17 +222,17 @@ protected override bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 If it is true, skip the result setting.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -243,5 +244,5 @@ public override bool UseEntityFiltering()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

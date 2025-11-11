@@ -1,4 +1,5 @@
-#  Class SubsystemDocument
+# Class SubsystemDocument
+<a id="VM_Managed_DAFUL_Operation_Util_SubsystemDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -9,7 +10,7 @@ public static class SubsystemDocument
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SubsystemDocument](VM.Managed.DAFUL.Operation.Util.SubsystemDocument.md)
 
 #### Extension Methods
@@ -28,13 +29,13 @@ public static SubSystemDocument CreateNewSubsystemDocument(string strNewSubsyste
 
 #### Parameters
 
-`strNewSubsystemFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNewSubsystemFilePath` string
 
 `unit` Unit
 
-`kernelLengthUnit` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`kernelLengthUnit` string
 
 #### Returns
 
- SubSystemDocument
+ [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 

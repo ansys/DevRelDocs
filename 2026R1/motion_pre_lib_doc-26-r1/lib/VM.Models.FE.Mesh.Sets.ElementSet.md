@@ -1,4 +1,5 @@
-#  Class ElementSet
+# Class ElementSet
+<a id="VM_Models_FE_Mesh_Sets_ElementSet"></a>
 
 Namespace: [VM.Models.FE.Mesh.Sets](VM.Models.FE.Mesh.Sets.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -10,7 +11,7 @@ public class ElementSet : Set, IEntity, ISet
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [HasMultipleNodes](VM.Models.FE.Mesh.HasMultipleNodes.md) ← 
 [Set](VM.Models.FE.Mesh.Sets.Set.md) ← 

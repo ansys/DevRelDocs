@@ -1,4 +1,5 @@
-#  Class CenterMarker
+# Class CenterMarker
+<a id="VM_Managed_Symmetric_CenterMarker"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class CenterMarker : Marker, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Named<Marker\>](VM.Managed.Symmetric.Named\-1.md) ← 
 [Marker](VM.Managed.Symmetric.Marker.md) ← 
 [CenterMarker](VM.Managed.Symmetric.CenterMarker.md)
@@ -75,7 +76,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

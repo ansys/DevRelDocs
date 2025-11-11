@@ -1,10 +1,11 @@
-#  Interface IPointBase
+# Interface IPointBase
+<a id="VM_Models_Pre_IPointBase"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
 
 <p>This interface is to represent the get position information of Design Point and Design Frame.
-        Design point and Design frame are casting as IPoint.</p>
+Design point and Design frame are casting as IPoint.</p>
 
 ```csharp
 public interface IPointBase : IObject, ILinkContainer, IOwned, IHasID, IEventProvider
@@ -48,7 +49,7 @@ double X { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_IPointBase_Y"></a> Y
 
@@ -60,7 +61,7 @@ double Y { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_IPointBase_Z"></a> Z
 
@@ -72,5 +73,5 @@ double Z { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Class DocumentLinkChildModifiedEvent
+# Class DocumentLinkChildModifiedEvent
+<a id="VM_Managed_History_DocumentLinkChildModifiedEvent"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -9,8 +10,8 @@ public class DocumentLinkChildModifiedEvent : DocumentMemberModifiedEvent
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryEvent ← 
+object ← 
+[HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs) ← 
 [DocumentMemberModifiedEvent](VM.Managed.History.DocumentMemberModifiedEvent.md) ← 
 [DocumentLinkChildModifiedEvent](VM.Managed.History.DocumentLinkChildModifiedEvent.md)
 
@@ -19,17 +20,17 @@ HistoryEvent ←
 [DocumentMemberModifiedEvent.m\_doc](VM.Managed.History.DocumentMemberModifiedEvent.md\#VM\_Managed\_History\_DocumentMemberModifiedEvent\_m\_doc), 
 [DocumentMemberModifiedEvent.m\_obj](VM.Managed.History.DocumentMemberModifiedEvent.md\#VM\_Managed\_History\_DocumentMemberModifiedEvent\_m\_obj), 
 [DocumentMemberModifiedEvent.Clear\(bool\)](VM.Managed.History.DocumentMemberModifiedEvent.md\#VM\_Managed\_History\_DocumentMemberModifiedEvent\_Clear\_System\_Boolean\_), 
-HistoryEvent.ClearEvent\(bool\), 
-HistoryEvent.Undo\(HistoryEventArgs\), 
-HistoryEvent.Redo\(HistoryEventArgs\), 
-HistoryEvent.Clear\(bool\), 
-HistoryEvent.BeforeUndo\(HistoryEventArgs\), 
-HistoryEvent.AfterUndo\(HistoryEventArgs\), 
-HistoryEvent.BeforeRedo\(HistoryEventArgs\), 
-HistoryEvent.AfterRedo\(HistoryEventArgs\), 
-HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\), 
-HistoryEvent.AfterAdded\(HistoryEventArgs\), 
-HistoryEvent.IsValid
+[HistoryEvent.ClearEvent\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterAdded\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 #### Extension Methods
 
@@ -49,11 +50,11 @@ protected DocumentLinkChildModifiedEvent(Document doc, object obj, string strPro
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`bChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bChild` bool
 
 ### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent__ctor_VM_Managed_Document_System_Object_System_String_"></a> DocumentLinkChildModifiedEvent\(Document, object, string\)
 
@@ -65,9 +66,9 @@ protected DocumentLinkChildModifiedEvent(Document doc, object obj, string strPro
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
 ### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent__ctor"></a> DocumentLinkChildModifiedEvent\(\)
 
@@ -85,7 +86,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 #### Parameters
 
-`bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReserveReferenceCount` bool
 
 ### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_DocumentLinkChildModified_VM_Managed_Document_System_Object_System_String_System_Boolean_"></a> DocumentLinkChildModified\(Document, object, string, bool\)
 
@@ -97,11 +98,11 @@ public static void DocumentLinkChildModified(Document doc, object obj, string st
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`bChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bChild` bool
 
 ### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_DocumentLinkChildModified_VM_Managed_Document_System_Object_System_String_"></a> DocumentLinkChildModified\(Document, object, string\)
 
@@ -113,9 +114,9 @@ public static void DocumentLinkChildModified(Document doc, object obj, string st
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
 ### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
@@ -125,7 +126,7 @@ protected override void Redo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
@@ -135,5 +136,5 @@ protected override void Undo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 

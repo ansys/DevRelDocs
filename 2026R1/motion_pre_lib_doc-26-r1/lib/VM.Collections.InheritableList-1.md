@@ -1,4 +1,5 @@
-#  Class InheritableList<T\>
+# Class InheritableList<T\>
+<a id="VM_Collections_InheritableList_1"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -13,8 +14,8 @@ public abstract class InheritableList<T> : List<T>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[List<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1) ← 
+object ← 
+List<T\> ← 
 [InheritableList<T\>](VM.Collections.InheritableList\-1.md)
 
 #### Extension Methods
@@ -39,7 +40,7 @@ public InheritableList(int capacity)
 
 #### Parameters
 
-`capacity` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`capacity` int
 
 ### <a id="VM_Collections_InheritableList_1__ctor_System_Collections_Generic_IEnumerable__0__"></a> InheritableList\(IEnumerable<T\>\)
 
@@ -49,7 +50,7 @@ public InheritableList(IEnumerable<T> collection)
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ## Properties
 
@@ -83,7 +84,7 @@ public void AddRange(IEnumerable<T> collection)
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ### <a id="VM_Collections_InheritableList_1_Clear"></a> Clear\(\)
 
@@ -105,7 +106,7 @@ public void Insert(int index, T item)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 `item` T
 
@@ -117,7 +118,7 @@ protected virtual void InsertItem(int index, T item)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 `item` T
 
@@ -129,9 +130,9 @@ public void InsertRange(int index, IEnumerable<T> collection)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ### <a id="VM_Collections_InheritableList_1_Remove__0_"></a> Remove\(T\)
 
@@ -145,7 +146,7 @@ public bool Remove(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableList_1_RemoveAll_System_Predicate__0__"></a> RemoveAll\(Predicate<T\>\)
 
@@ -155,11 +156,11 @@ public int RemoveAll(Predicate<T> match)
 
 #### Parameters
 
-`match` [Predicate](https://learn.microsoft.com/dotnet/api/system.predicate\-1)<T\>
+`match` Predicate<T\>
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Collections_InheritableList_1_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
 
@@ -169,7 +170,7 @@ public void RemoveAt(int index)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 ### <a id="VM_Collections_InheritableList_1_RemoveItem_System_Int32_"></a> RemoveItem\(int\)
 
@@ -179,7 +180,7 @@ protected virtual void RemoveItem(int index)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 ### <a id="VM_Collections_InheritableList_1_RemoveRange_System_Int32_System_Int32_"></a> RemoveRange\(int, int\)
 
@@ -189,9 +190,9 @@ public void RemoveRange(int index, int count)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
-`count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`count` int
 
 ### <a id="VM_Collections_InheritableList_1_SetItem_System_Int32__0_"></a> SetItem\(int, T\)
 
@@ -201,7 +202,7 @@ protected virtual void SetItem(int index, T item)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 `item` T
 

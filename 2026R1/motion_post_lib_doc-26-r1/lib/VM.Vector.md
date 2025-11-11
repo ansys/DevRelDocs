@@ -1,9 +1,10 @@
-#  Struct Vector
+# Struct Vector
+<a id="VM_Vector"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public struct Vector
 ```
 
@@ -13,7 +14,7 @@ public struct Vector
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
-```python
+```csharp
 public Vector(Vector vec)
 ```
 
@@ -27,21 +28,21 @@ The Vector instance to copy.
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
-```python
+```csharp
 public Vector(double dX, double dY, double dZ)
 ```
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y.
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z.
 
@@ -49,13 +50,13 @@ The Z.
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
-```python
+```csharp
 public Vector(double[] arVec)
 ```
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The arVec.
 
@@ -63,29 +64,29 @@ The arVec.
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
-```python
+```csharp
 public Vector(double[] arVec, int nStartIndex)
 ```
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The array that have values of vector.
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index of array.
 
 ### <a id="VM_Vector__ctor_System_String_"></a> Vector\(string\)
 
-```python
+```csharp
 public Vector(string vector)
 ```
 
 #### Parameters
 
-`vector` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`vector` string
 
 ## Properties
 
@@ -93,17 +94,17 @@ public Vector(string vector)
 
 Gets the magnitude of vector.
 
-```python
+```csharp
 public double Magnitude { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The get magnitude operation failed .
 
@@ -111,61 +112,61 @@ The get magnitude operation failed .
 
 Gets or sets the X of vector.
 
-```python
+```csharp
 public double X { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Y"></a> Y
 
 Gets or sets the Y of vector.
 
-```python
+```csharp
 public double Y { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Z"></a> Z
 
 Gets or sets the Z of vector.
 
-```python
+```csharp
 public double Z { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Item_System_Int32_"></a> this\[int\]
 
 Gets or sets the element of vector.
 
-```python
+```csharp
 public double this[int nIndex] { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Vector_Item_VM_Coordinate_"></a> this\[Coordinate\]
 
 Gets or sets the element of vector.
 
-```python
+```csharp
 public double this[Coordinate enCoord] { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -173,7 +174,7 @@ public double this[Coordinate enCoord] { get; set; }
 
 Copy all values in the array of vector to the array of double.
 
-```python
+```csharp
 public static void CopyToArray(Vector[] arVec, double[] arTarget)
 ```
 
@@ -183,7 +184,7 @@ public static void CopyToArray(Vector[] arVec, double[] arTarget)
 
 The array of vector
 
-`arTarget` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arTarget` double\[\]
 
 The array to store values of the array of vector.
 
@@ -191,7 +192,7 @@ The array to store values of the array of vector.
 
 Copy all values in the array of vector to the array of double.
 
-```python
+```csharp
 public static void CopyToArray(Vector[] arVec, double[] arTarget, int nIndex)
 ```
 
@@ -201,11 +202,11 @@ public static void CopyToArray(Vector[] arVec, double[] arTarget, int nIndex)
 
 The array of vector
 
-`arTarget` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arTarget` double\[\]
 
 The array to store values of the array of vector.
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 The start index of array
 
@@ -213,7 +214,7 @@ The start index of array
 
 Cross product.
 
-```python
+```csharp
 public Vector CrossProduct(Vector vec)
 ```
 
@@ -233,7 +234,7 @@ Result of product
 
 Dot product.
 
-```python
+```csharp
 public double DotProduct(Vector vec)
 ```
 
@@ -245,7 +246,7 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 Result of product
 
@@ -253,19 +254,19 @@ Result of product
 
 Determines whether the specified object is equal to the current object.
 
-```python
+```csharp
 public override bool Equals(object obj)
 ```
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object to compare.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the objects are equal, otherwise false.
 
@@ -273,13 +274,13 @@ true if the objects are equal, otherwise false.
 
 Gets the array.
 
-```python
+```csharp
 public double[] GetArray()
 ```
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 The array.
 
@@ -287,7 +288,7 @@ The array.
 
 Gets the distance.
 
-```python
+```csharp
 public double GetDistance(Vector vec)
 ```
 
@@ -299,13 +300,13 @@ The vec.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The distance
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The get distance operation failed .
 
@@ -313,13 +314,13 @@ The get distance operation failed .
 
 Returns the hash code for this vector
 
-```python
+```csharp
 public override int GetHashCode()
 ```
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 A 32-bit signed integer hash code.
 
@@ -327,7 +328,7 @@ A 32-bit signed integer hash code.
 
 Gets the ortho vector.
 
-```python
+```csharp
 public Vector GetOrthoVector()
 ```
 
@@ -341,7 +342,7 @@ The ortho vector.
 
 Gets the ortho vector.
 
-```python
+```csharp
 public Vector GetOrthoVector(Vector vecCandidate)
 ```
 
@@ -359,7 +360,7 @@ The ortho vector.
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The get ortho vector operation failed .
 
@@ -367,35 +368,35 @@ The get ortho vector operation failed .
 
 Initialize the Vector
 
-```python
+```csharp
 public void Initialize()
 ```
 
 ### <a id="VM_Vector_IsValidFormat_System_String_"></a> IsValidFormat\(string\)
 
-```python
+```csharp
 public static bool IsValidFormat(string vector)
 ```
 
 #### Parameters
 
-`vector` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`vector` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Vector_MakeUnitVector"></a> MakeUnitVector\(\)
 
 Mate unit vector.
 
-```python
+```csharp
 public void MakeUnitVector()
 ```
 
 #### Exceptions
 
- [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
+ InvalidOperationException
 
 The make unit vector operation failed .
 
@@ -403,7 +404,7 @@ The make unit vector operation failed .
 
 Sets the value of vector.
 
-```python
+```csharp
 public void Set(Vector vec)
 ```
 
@@ -417,13 +418,13 @@ The Vector instance to copy.
 
 Sets the value of vector.
 
-```python
+```csharp
 public void Set(double[] arVec)
 ```
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The array of X, Y, Z Components.
 
@@ -431,17 +432,17 @@ The array of X, Y, Z Components.
 
 Sets the value of vector.
 
-```python
+```csharp
 public void Set(double[] arVec, int nStartIndex)
 ```
 
 #### Parameters
 
-`arVec` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arVec` double\[\]
 
 The array of X, Y, Z Components.
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index of array.
 
@@ -449,21 +450,21 @@ The start index of array.
 
 Sets the value of vector.
 
-```python
+```csharp
 public void Set(double dX, double dY, double dZ)
 ```
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X.
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y.
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z.
 
@@ -471,13 +472,13 @@ The Z.
 
 Returns a string that represents the current type.
 
-```python
+```csharp
 public override string ToString()
 ```
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 A string that represents the current object.
 
@@ -487,7 +488,7 @@ A string that represents the current object.
 
 Add two vectors.
 
-```python
+```csharp
 public static Vector operator +(Vector vecLeft, Vector vecRight)
 ```
 
@@ -511,7 +512,7 @@ The added vector.
 
 Divide value to the vector.
 
-```python
+```csharp
 public static Vector operator /(Vector vec, double dValue)
 ```
 
@@ -521,7 +522,7 @@ public static Vector operator /(Vector vec, double dValue)
 
 The vector to divide value
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The value to divide
 
@@ -535,7 +536,7 @@ The divided vector.
 
 Compare two vectors are same or not
 
-```python
+```csharp
 public static bool operator ==(Vector vecLeft, Vector vecRight)
 ```
 
@@ -551,7 +552,7 @@ The right vector to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two vectors are same, otherwise false.
 
@@ -559,7 +560,7 @@ true if two vectors are same, otherwise false.
 
 Compare two vectors are same or not
 
-```python
+```csharp
 public static bool operator !=(Vector vecLeft, Vector vecRight)
 ```
 
@@ -575,7 +576,7 @@ The right vector to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two vectors are not same, otherwise false.
 
@@ -583,7 +584,7 @@ true if two vectors are not same, otherwise false.
 
 Cross product two vectors.
 
-```python
+```csharp
 public static Vector operator *(Vector vecLeft, Vector vecRight)
 ```
 
@@ -607,7 +608,7 @@ The cross product vector.
 
 Multiply value to the vector.
 
-```python
+```csharp
 public static Vector operator *(Vector vec, double dValue)
 ```
 
@@ -617,7 +618,7 @@ public static Vector operator *(Vector vec, double dValue)
 
 The vector to multiply value
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The value to multiply
 
@@ -631,7 +632,7 @@ The Multiplied vector.
 
 Subtract two vectors.
 
-```python
+```csharp
 public static Vector operator -(Vector vecLeft, Vector vecRight)
 ```
 
@@ -650,5 +651,4 @@ The right vector to subtract
  [Vector](VM.Vector.md)
 
 The subtracted vector.
-
 

@@ -1,4 +1,5 @@
-#  Class ApplyAssemblyBearing
+# Class ApplyAssemblyBearing
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ApplyAssemblyBearing : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyAssemblyBearing](VM.Managed.DAFUL.GearTrain.Operation.ApplyAssemblyBearing.md)
 
@@ -87,7 +88,7 @@ public ApplyAssemblyBearing(GearTrainDocument gearTrainDocument, IConnectable re
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The geartrain document
 
@@ -95,11 +96,11 @@ The geartrain document
 
 The reference body
 
-`bearingInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string), [bool](https://learn.microsoft.com/dotnet/api/system.boolean), [string](https://learn.microsoft.com/dotnet/api/system.string), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\)\>
+`bearingInfo` IEnumerable<\(string, bool, string, bool\)\>
 
 The bearing information
 
-`cycloidPinInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string), [bool](https://learn.microsoft.com/dotnet/api/system.boolean), [string](https://learn.microsoft.com/dotnet/api/system.string), Vector\)\>
+`cycloidPinInfo` IEnumerable<\(string, string, bool, string, Vector\)\>
 
 The cycloid pin information
 
@@ -129,11 +130,11 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ## Methods
 
@@ -147,7 +148,7 @@ public override void Execute()
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
@@ -159,7 +160,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

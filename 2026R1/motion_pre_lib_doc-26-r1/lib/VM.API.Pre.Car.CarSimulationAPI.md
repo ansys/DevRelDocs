@@ -1,4 +1,5 @@
-#  Class CarSimulationAPI
+# Class CarSimulationAPI
+<a id="VM_API_Pre_Car_CarSimulationAPI"></a>
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -11,7 +12,7 @@ public static class CarSimulationAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CarSimulationAPI](VM.API.Pre.Car.CarSimulationAPI.md)
 
 #### Extension Methods
@@ -34,17 +35,17 @@ public static void ExportDFG(this TestRigDocument document, string targetPath)
 
 #### Parameters
 
-`document` TestRigDocument
+`document` [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFG file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFG file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -60,17 +61,17 @@ public static void ExportDFG(this VehicleTestRigDocument document, string target
 
 #### Parameters
 
-`document` VehicleTestRigDocument
+`document` [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFG file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFG file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -86,17 +87,17 @@ public static void ExportDFG(this TireTestRigDocument document, string targetPat
 
 #### Parameters
 
-`document` TireTestRigDocument
+`document` [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFG file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFG file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -112,17 +113,17 @@ public static void ExportDFG(this FourPostTestRigDocument document, string targe
 
 #### Parameters
 
-`document` FourPostTestRigDocument
+`document` [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFG file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFG file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -138,17 +139,17 @@ public static void ExportDFG(this ShimmyJudderTestRigDocument document, string t
 
 #### Parameters
 
-`document` ShimmyJudderTestRigDocument
+`document` [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFG file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFG file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -164,17 +165,17 @@ public static void ExportDFS(this TestRigDocument document, string targetPath)
 
 #### Parameters
 
-`document` TestRigDocument
+`document` [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFS file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFS file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -190,17 +191,17 @@ public static void ExportDFS(this VehicleTestRigDocument document, string target
 
 #### Parameters
 
-`document` VehicleTestRigDocument
+`document` [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFS file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFS file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -216,17 +217,17 @@ public static void ExportDFS(this TireTestRigDocument document, string targetPat
 
 #### Parameters
 
-`document` TireTestRigDocument
+`document` [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFS file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFS file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -242,17 +243,17 @@ public static void ExportDFS(this FourPostTestRigDocument document, string targe
 
 #### Parameters
 
-`document` FourPostTestRigDocument
+`document` [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFS file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFS file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -268,17 +269,17 @@ public static void ExportDFS(this ShimmyJudderTestRigDocument document, string t
 
 #### Parameters
 
-`document` ShimmyJudderTestRigDocument
+`document` [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFS file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFS file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -294,17 +295,17 @@ public static void ExportDFSXML(this TestRigDocument document, string targetPath
 
 #### Parameters
 
-`document` TestRigDocument
+`document` [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFSXML file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFSXML file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -320,17 +321,17 @@ public static void ExportDFSXML(this VehicleTestRigDocument document, string tar
 
 #### Parameters
 
-`document` VehicleTestRigDocument
+`document` [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFSXML file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFSXML file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -346,17 +347,17 @@ public static void ExportDFSXML(this TireTestRigDocument document, string target
 
 #### Parameters
 
-`document` TireTestRigDocument
+`document` [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFSXML file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFSXML file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -372,17 +373,17 @@ public static void ExportDFSXML(this FourPostTestRigDocument document, string ta
 
 #### Parameters
 
-`document` FourPostTestRigDocument
+`document` [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFSXML file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFSXML file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -398,17 +399,227 @@ public static void ExportDFSXML(this ShimmyJudderTestRigDocument document, strin
 
 #### Parameters
 
-`document` ShimmyJudderTestRigDocument
+`document` [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting DFSXML file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFSXML file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
+
+Will be thrown if 'document' or 'targetPath' arguments are empty.
+
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportMotionFiles_VM_Managed_DAFUL_Car_TestRigDocument_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> ExportMotionFiles\(TestRigDocument, string, bool, bool, bool, bool\)
+
+Export motion files.
+
+```csharp
+[NotNull(new string[] { "document" })]
+[NotNullOrEmpty(new string[] { "targetPath" })]
+public static void ExportMotionFiles(this TestRigDocument document, string targetPath, bool writeDFS, bool writeXML, bool writeDFG, bool includeReferenceFiles)
+```
+
+#### Parameters
+
+`document` [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
+
+The <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting motion files. If null, the active document will be used.
+
+`targetPath` string
+
+The file path to export motion files exclude file extension.
+
+`writeDFS` bool
+
+The flag for whether to write on dfs or not.
+
+`writeXML` bool
+
+The flag for whether to write on dfsxml or not.
+
+`writeDFG` bool
+
+The flag for whether to write on dfg or not.
+
+`includeReferenceFiles` bool
+
+The flag for whether to include reference files or not.
+
+#### Exceptions
+
+ ArgumentNullException
+
+Will be thrown if 'document' or 'targetPath' arguments are empty.
+
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportMotionFiles_VM_Managed_DAFUL_Car_VehicleTestRigDocument_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> ExportMotionFiles\(VehicleTestRigDocument, string, bool, bool, bool, bool\)
+
+Export motion files.
+
+```csharp
+[NotNull(new string[] { "document" })]
+[NotNullOrEmpty(new string[] { "targetPath" })]
+public static void ExportMotionFiles(this VehicleTestRigDocument document, string targetPath, bool writeDFS, bool writeXML, bool writeDFG, bool includeReferenceFiles)
+```
+
+#### Parameters
+
+`document` [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
+
+The <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting motion files. If null, the active document will be used.
+
+`targetPath` string
+
+The file path to export motion files exclude file extension.
+
+`writeDFS` bool
+
+The flag for whether to write on dfs or not.
+
+`writeXML` bool
+
+The flag for whether to write on dfsxml or not.
+
+`writeDFG` bool
+
+The flag for whether to write on dfg or not.
+
+`includeReferenceFiles` bool
+
+The flag for whether to include reference files or not.
+
+#### Exceptions
+
+ ArgumentNullException
+
+Will be thrown if 'document' or 'targetPath' arguments are empty.
+
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportMotionFiles_VM_Managed_DAFUL_Car_TireTestRigDocument_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> ExportMotionFiles\(TireTestRigDocument, string, bool, bool, bool, bool\)
+
+Export motion files.
+
+```csharp
+[NotNull(new string[] { "document" })]
+[NotNullOrEmpty(new string[] { "targetPath" })]
+public static void ExportMotionFiles(this TireTestRigDocument document, string targetPath, bool writeDFS, bool writeXML, bool writeDFG, bool includeReferenceFiles)
+```
+
+#### Parameters
+
+`document` [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
+
+The <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting motion files. If null, the active document will be used.
+
+`targetPath` string
+
+The file path to export motion files exclude file extension.
+
+`writeDFS` bool
+
+The flag for whether to write on dfs or not.
+
+`writeXML` bool
+
+The flag for whether to write on dfsxml or not.
+
+`writeDFG` bool
+
+The flag for whether to write on dfg or not.
+
+`includeReferenceFiles` bool
+
+The flag for whether to include reference files or not.
+
+#### Exceptions
+
+ ArgumentNullException
+
+Will be thrown if 'document' or 'targetPath' arguments are empty.
+
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportMotionFiles_VM_Managed_DAFUL_Car_FourPostTestRigDocument_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> ExportMotionFiles\(FourPostTestRigDocument, string, bool, bool, bool, bool\)
+
+Export motion files.
+
+```csharp
+[NotNull(new string[] { "document" })]
+[NotNullOrEmpty(new string[] { "targetPath" })]
+public static void ExportMotionFiles(this FourPostTestRigDocument document, string targetPath, bool writeDFS, bool writeXML, bool writeDFG, bool includeReferenceFiles)
+```
+
+#### Parameters
+
+`document` [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
+
+The <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting motion files. If null, the active document will be used.
+
+`targetPath` string
+
+The file path to export motion files exclude file extension.
+
+`writeDFS` bool
+
+The flag for whether to write on dfs or not.
+
+`writeXML` bool
+
+The flag for whether to write on dfsxml or not.
+
+`writeDFG` bool
+
+The flag for whether to write on dfg or not.
+
+`includeReferenceFiles` bool
+
+The flag for whether to include reference files or not.
+
+#### Exceptions
+
+ ArgumentNullException
+
+Will be thrown if 'document' or 'targetPath' arguments are empty.
+
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportMotionFiles_VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> ExportMotionFiles\(ShimmyJudderTestRigDocument, string, bool, bool, bool, bool\)
+
+Export motion files.
+
+```csharp
+[NotNull(new string[] { "document" })]
+[NotNullOrEmpty(new string[] { "targetPath" })]
+public static void ExportMotionFiles(this ShimmyJudderTestRigDocument document, string targetPath, bool writeDFS, bool writeXML, bool writeDFG, bool includeReferenceFiles)
+```
+
+#### Parameters
+
+`document` [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
+
+The <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> for exporting motion files. If null, the active document will be used.
+
+`targetPath` string
+
+The file path to export motion files exclude file extension.
+
+`writeDFS` bool
+
+The flag for whether to write on dfs or not.
+
+`writeXML` bool
+
+The flag for whether to write on dfsxml or not.
+
+`writeDFG` bool
+
+The flag for whether to write on dfg or not.
+
+`includeReferenceFiles` bool
+
+The flag for whether to include reference files or not.
+
+#### Exceptions
+
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -423,21 +634,21 @@ public static void RunSimulation(this TestRigDocument document, SimulationRun.Si
 
 #### Parameters
 
-`document` TestRigDocument
+`document` [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 The simulation parameter.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -452,21 +663,21 @@ public static void RunSimulation(this VehicleTestRigDocument document, Simulatio
 
 #### Parameters
 
-`document` VehicleTestRigDocument
+`document` [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 The simulation parameter.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -481,21 +692,21 @@ public static void RunSimulation(this TireTestRigDocument document, SimulationRu
 
 #### Parameters
 
-`document` TireTestRigDocument
+`document` [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 The simulation parameter.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -510,21 +721,21 @@ public static void RunSimulation(this FourPostTestRigDocument document, Simulati
 
 #### Parameters
 
-`document` FourPostTestRigDocument
+`document` [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 The simulation parameter.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -539,21 +750,21 @@ public static void RunSimulation(this ShimmyJudderTestRigDocument document, Simu
 
 #### Parameters
 
-`document` ShimmyJudderTestRigDocument
+`document` [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 The simulation parameter.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 

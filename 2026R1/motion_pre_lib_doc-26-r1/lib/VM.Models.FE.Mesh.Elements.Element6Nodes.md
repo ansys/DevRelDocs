@@ -1,4 +1,5 @@
-#  Class Element6Nodes
+# Class Element6Nodes
+<a id="VM_Models_FE_Mesh_Elements_Element6Nodes"></a>
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public abstract class Element6Nodes : Element5Nodes, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [Element](VM.Models.FE.Mesh.Elements.Element.md) ← 
 [Element2Nodes](VM.Models.FE.Mesh.Elements.Element2Nodes.md) ← 
@@ -74,7 +75,7 @@ public int Node6Id { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Elements_Element6Nodes_NumberOfNodes"></a> NumberOfNodes
 
@@ -84,5 +85,5 @@ protected override int NumberOfNodes { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

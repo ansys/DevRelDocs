@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Chained
+# Namespace VM.Managed.DAFUL.Chained
+<a id="VM_Managed_DAFUL_Chained"></a>
 
 ### Namespaces
 

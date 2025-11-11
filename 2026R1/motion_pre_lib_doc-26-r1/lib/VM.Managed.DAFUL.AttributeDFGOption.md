@@ -1,4 +1,5 @@
-#  Class AttributeDFGOption
+# Class AttributeDFGOption
+<a id="VM_Managed_DAFUL_AttributeDFGOption"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -12,9 +13,9 @@ public class AttributeDFGOption : AttributeBase, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 [AttributeDFGOption](VM.Managed.DAFUL.AttributeDFGOption.md)
@@ -79,7 +80,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -118,7 +119,7 @@ public AttributeDFGOption(bool bUseDefault)
 
 #### Parameters
 
-`bUseDefault` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDefault` bool
 
 if set to <code>true</code> [use default parameters].
 
@@ -148,27 +149,27 @@ The angular tolerance.
 
 The facet aspect ratio.
 
-`bUseDefault` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseDefault` bool
 
 if set to <code>true</code> [use default parameters].
 
-`bUseMaximumGridLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumGridLine` bool
 
 if set to <code>true</code> [use maximum grid line].
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [use facet aspect ratio].
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [unuse approximated evaluation].
 
@@ -184,7 +185,7 @@ public ExpressionValueVariable FacetAspectRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_MaximumFacetSize"></a> MaximumFacetSize
 
@@ -196,7 +197,7 @@ public ExpressionValueVariable MaximumFacetSize { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_MaximumGridLine"></a> MaximumGridLine
 
@@ -208,7 +209,7 @@ public ExpressionValueVariable MaximumGridLine { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
 
@@ -220,7 +221,7 @@ public ExpressionValueVariable SurfaceAngularTolerance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseApprox_eval"></a> UseApprox\_eval
 
@@ -232,7 +233,7 @@ public bool UseApprox_eval { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseDefault"></a> UseDefault
 
@@ -244,7 +245,7 @@ public bool UseDefault { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseFacetAspectRatio"></a> UseFacetAspectRatio
 
@@ -256,7 +257,7 @@ public bool UseFacetAspectRatio { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseMaximumFacetSize"></a> UseMaximumFacetSize
 
@@ -268,7 +269,7 @@ public bool UseMaximumFacetSize { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseMaximumGridLine"></a> UseMaximumGridLine
 
@@ -280,7 +281,7 @@ public bool UseMaximumGridLine { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseSurfaceAngularTolerance"></a> UseSurfaceAngularTolerance
 
@@ -292,7 +293,7 @@ public bool UseSurfaceAngularTolerance { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -306,7 +307,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -328,7 +329,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
@@ -342,7 +343,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
 

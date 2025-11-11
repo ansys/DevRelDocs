@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.History
+# Namespace VM.Managed.History
+<a id="VM_Managed_History"></a>
 
 ### Classes
 

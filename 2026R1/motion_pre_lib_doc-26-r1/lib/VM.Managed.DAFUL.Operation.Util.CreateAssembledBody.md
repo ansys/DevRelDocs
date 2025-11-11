@@ -1,4 +1,5 @@
-#  Class CreateAssembledBody
+# Class CreateAssembledBody
+<a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateAssembledBody
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateAssembledBody](VM.Managed.DAFUL.Operation.Util.CreateAssembledBody.md)
 
 #### Extension Methods
@@ -44,7 +45,7 @@ public static AssembledBody Create(Document3D activeDocument, string strPartFile
 
 The active document.
 
-`strPartFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPartFilePath` string
 
 The part file path.
 
@@ -52,13 +53,13 @@ The part file path.
 
 The assembled body transformation.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The assembled body prefix name.
 
 #### Returns
 
- AssembledBody
+ [AssembledBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/AssembledBody.cs)
 
 The new assembled body.
 
@@ -76,7 +77,7 @@ public static AssembledBody Create(Document3D activeDocument, PartDocument docPa
 
 The active document.
 
-`docPart` PartDocument
+`docPart` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The part document.
 
@@ -84,13 +85,13 @@ The part document.
 
 The assembled body transformation.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The assembled body prefix name.
 
 #### Returns
 
- AssembledBody
+ [AssembledBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/AssembledBody.cs)
 
 The new assembled body.
 
@@ -104,21 +105,21 @@ public static AssembledBody ImportAssembledBody(SubSystemDocument docSub, PartDo
 
 #### Parameters
 
-`docSub` SubSystemDocument
+`docSub` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The subsystem document
 
-`docPart` PartDocument
+`docPart` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The part document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
 #### Returns
 
- AssembledBody
+ [AssembledBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/AssembledBody.cs)
 
 nodal body
 
@@ -132,11 +133,11 @@ public static AssembledBody ImportAssembledBody(SubSystemDocument docSub, PartDo
 
 #### Parameters
 
-`docSub` SubSystemDocument
+`docSub` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The subsystem document
 
-`docPart` PartDocument
+`docPart` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The part document
 
@@ -144,13 +145,13 @@ The part document
 
 The transform
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
 #### Returns
 
- AssembledBody
+ [AssembledBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/AssembledBody.cs)
 
 nodal body
 

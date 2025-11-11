@@ -1,4 +1,5 @@
-#  Class CADReplace
+# Class CADReplace
+<a id="VM_Managed_DAFUL_Builder_CADReplace"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class CADReplace : CADImport, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADImport](VM.Managed.DAFUL.Builder.CADImport.md) ← 
 [CADReplace](VM.Managed.DAFUL.Builder.CADReplace.md)
 

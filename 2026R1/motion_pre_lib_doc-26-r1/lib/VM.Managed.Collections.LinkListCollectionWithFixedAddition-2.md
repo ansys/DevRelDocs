@@ -1,4 +1,5 @@
-#  Class LinkListCollectionWithFixedAddition<T, TLink\>
+# Class LinkListCollectionWithFixedAddition<T, TLink\>
+<a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -15,7 +16,7 @@ public class LinkListCollectionWithFixedAddition<T, TLink> : LinkListCollection<
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LinkCollection<T, TLink, List<TLink\>\>](VM.Managed.Collections.LinkCollection\-3.md) ← 
 [LinkListCollection<T, TLink\>](VM.Managed.Collections.LinkListCollection\-2.md) ← 
 [LinkListCollectionWithFixedAddition<T, TLink\>](VM.Managed.Collections.LinkListCollectionWithFixedAddition\-2.md)
@@ -78,7 +79,7 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, int nMin)
 
 `objParent` ILinkContainer
 
-`nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nMin` int
 
 ### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2__ctor_VM_Models_Pre_ILinkContainer_System_Int32_System_Int32_"></a> LinkListCollectionWithFixedAddition\(ILinkContainer, int, int\)
 
@@ -90,9 +91,9 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, int nMin, i
 
 `objParent` ILinkContainer
 
-`nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nMin` int
 
-`nMax` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nMax` int
 
 ### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2__ctor_VM_Models_Pre_ILinkContainer_System_Collections_Generic_List__1__System_Int32_"></a> LinkListCollectionWithFixedAddition\(ILinkContainer, List<TLink\>, int\)
 
@@ -104,9 +105,9 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, List<TLink>
 
 `objParent` ILinkContainer
 
-`collection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<TLink\>
+`collection` List<TLink\>
 
-`nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nMin` int
 
 ### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2__ctor_VM_Models_Pre_ILinkContainer_System_Collections_Generic_List__1__System_Int32_System_Int32_"></a> LinkListCollectionWithFixedAddition\(ILinkContainer, List<TLink\>, int, int\)
 
@@ -118,11 +119,11 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, List<TLink>
 
 `objParent` ILinkContainer
 
-`collection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<TLink\>
+`collection` List<TLink\>
 
-`nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nMin` int
 
-`nMax` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nMax` int
 
 ## Methods
 
@@ -146,7 +147,7 @@ public override sealed void Add(T item, bool bContainsDocument)
 
 `item` T
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_Insert_System_Int32__0_"></a> Insert\(int, T\)
 
@@ -156,7 +157,7 @@ public override sealed void Insert(int index, T item)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 `item` T
 
@@ -172,7 +173,7 @@ public override sealed bool Remove(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
@@ -184,11 +185,11 @@ public override sealed bool Remove(T item, bool bContainsDocument)
 
 `item` T
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
 
@@ -198,5 +199,5 @@ public override sealed void RemoveAt(int index)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 

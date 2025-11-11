@@ -1,28 +1,28 @@
-#  Interface IView
+# Interface IView
+<a id="VM_Operations_Post_Interfaces_IView"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents a view in the application, providing functionalities to manage and interact with views.
 
-```python
-public interface IView : IOperationsBase
+```csharp
+public interface IView
 ```
-
-#### Implements
-
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
 
 ## Examples
 
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IView.py
+```python
+# IView.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -36,22 +36,39 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
 page.FullName = "Page1"
 
+# Add a new page
+# This will create a new page and activate it.
+# You can specify the page name when the page is created.
 page2 = applicationHandler.AddPage("Page2")
 page.Activate()
 
-# Create View
+# result_file_path - Get the document from the result file path.
 document = applicationHandler.GetDocument(result_file_path)
+
+# This retrieves the analysis result from the document.
+# Types of Analysis Results
+# - Dynamics
+# - Eigenvalue
+# - Statics
 dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 
+# Create an Animation View on the active page
+# This will create an animation view based on the dynamic analysis.
 animation = page.CreateAnimation(dynamic_analysis, "ResultAnimation")
 
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chart = page.CreateChart("Chart")
 chart.FullName = "Chart1"
 animation.DockTo(DockLayout.Top, chart)
@@ -60,17 +77,21 @@ page2.Activate()
 chart.GroupName = "Page2"
 
 page.Activate()
+
+# Get Active View
+# This retrieves the currently active view in the page.
 activeView = page.GetActiveView()
 page.CloseView(activeView)
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -78,13 +99,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the name of the view.
 
-```python
+```csharp
 string FullName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -100,13 +121,13 @@ This property is typically used in scenarios where the view's name is needed for
 
 Gets the ID of the page that the current view belongs to.
 
-```python
+```csharp
 Guid GroupID { get; }
 ```
 
 #### Property Value
 
- [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+ Guid
 
 #### Examples
 
@@ -121,13 +142,13 @@ This property is read-only and is set when the view is associated with a page. I
 
 Gets or sets the name of the page that the current view belongs to.
 
-```python
+```csharp
 string GroupName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -142,13 +163,13 @@ When accessed, it retrieves the name of the parent page. When set, it updates th
 
 Gets the unique identifier of the view.
 
-```python
+```csharp
 int ID { get; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Examples
 
@@ -166,7 +187,7 @@ Gets the type of the view, indicating whether it is an Animation or Chart type.
 Supported view types include:
 <ul><li>Animation</li><li>Chart</li></ul>
 
-```python
+```csharp
 ViewType ViewType { get; }
 ```
 
@@ -192,7 +213,7 @@ The available options are:
 
 Activates the view.
 
-```python
+```csharp
 void Activate()
 ```
 
@@ -210,7 +231,7 @@ There can be only one active view at a time.
 
 Moves the view to a specified position relative to another view.
 
-```python
+```csharp
 void DockTo(DockLayout dockLayout, IView target)
 ```
 
@@ -240,13 +261,13 @@ where the current view will be docked in relation to the target view.
 
 Exports the image to the specified file path in the specified format.
 
-```python
+```csharp
 void ExportImage(string filepath, ImageFormat format, double? width = null, double? height = null)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The path where the image file will be saved.
 
@@ -256,11 +277,11 @@ The format in which the image will be saved. Supported formats are Png, Jpeg, an
 The available options are:
 <ul><li><xref href="VM.Models.Post.ImageFormat.Bmp" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ImageFormat.Jpeg" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ImageFormat.Png" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`width` [double](https://learn.microsoft.com/dotnet/api/system.double)?
+`width` double?
 
 The optional width for the exported image. If not specified, the original width is used.
 
-`height` [double](https://learn.microsoft.com/dotnet/api/system.double)?
+`height` double?
 
 The optional height for the exported image. If not specified, the original height is used.
 
@@ -273,5 +294,4 @@ For an example that includes this property, see the [Interface IView](VM.Operati
 This method allows you to export an image to a desired file path in a specified format. Supported formats are 
 Png, Jpeg, and Bmp. You can also specify the desired dimensions for the exported image. If width or height is 
 not provided, the original dimensions of the image will be used.
-
 

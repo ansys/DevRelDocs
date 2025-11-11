@@ -1,4 +1,5 @@
-#  Class DOEInformationBase
+# Class DOEInformationBase
+<a id="VM_Managed_DAFUL_DOE_Result_DOEInformationBase"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -9,7 +10,7 @@ public class DOEInformationBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DOEInformationBase](VM.Managed.DAFUL.DOE.Result.DOEInformationBase.md)
 
 #### Derived
@@ -41,7 +42,7 @@ public int Index { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEInformationBase_Name"></a> Name
 
@@ -51,7 +52,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEInformationBase_Path"></a> Path
 
@@ -61,5 +62,5 @@ public string Path { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

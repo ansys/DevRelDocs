@@ -1,4 +1,5 @@
-#  Class Entity
+# Class Entity
+<a id="VM_Models_FE_Mesh_Entity"></a>
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public abstract class Entity : IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md)
 
 #### Derived
@@ -49,7 +50,7 @@ public int Id { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -61,11 +62,11 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Mesh_Entity_FromByteArray__1_System_Byte___"></a> FromByteArray<T\>\(byte\[\]\)
 
@@ -75,7 +76,7 @@ protected static T FromByteArray<T>(byte[] arr)
 
 #### Parameters
 
-`arr` [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
+`arr` byte\[\]
 
 #### Returns
 
@@ -93,7 +94,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Entity_ToByteArray__1___0_"></a> ToByteArray<T\>\(T\)
 
@@ -107,7 +108,7 @@ protected static byte[] ToByteArray<T>(T value)
 
 #### Returns
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
+ byte\[\]
 
 #### Type Parameters
 

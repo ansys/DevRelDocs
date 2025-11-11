@@ -1,4 +1,5 @@
-#  Class BuilderParamImprint
+# Class BuilderParamImprint
+<a id="VM_CAD_Builders_BuilderParamImprint"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class BuilderParamImprint : BuilderParamPair
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamPair](VM.CAD.Builders.BuilderParamPair.md) ← 
@@ -51,7 +52,7 @@ public List<int> TargetFace { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ List<int\>
 
 ### <a id="VM_CAD_Builders_BuilderParamImprint_ToolFace"></a> ToolFace
 
@@ -61,5 +62,5 @@ public List<int> ToolFace { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ List<int\>
 

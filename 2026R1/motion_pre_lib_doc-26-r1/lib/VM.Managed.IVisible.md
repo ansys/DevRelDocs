@@ -1,4 +1,5 @@
-#  Interface IVisible
+# Interface IVisible
+<a id="VM_Managed_IVisible"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ bool HasLayerExplicitly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_IVisible_IsVisible"></a> IsVisible
 
@@ -39,7 +40,7 @@ bool IsVisible { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_IVisible_Layer"></a> Layer
 

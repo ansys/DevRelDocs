@@ -1,22 +1,27 @@
-#  Namespace VM.Operations.Post.Interfaces
+# Namespace VM.Operations.Post.Interfaces
+<a id="VM_Operations_Post_Interfaces"></a>
 
 ### Interfaces
 
- [IOperationAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md)
+ [IOperationAnalysisResult](VM.Operations.Post.Interfaces.IOperationAnalysisResult.md)
 
-Interface representing common information for an analysis result view model.
+Interface representing common information for an analysis result.
+
+ [IOperationFEProperty](VM.Operations.Post.Interfaces.IOperationFEProperty.md)
+
+Represents finite element properties for beam or shell elements.
+
+ [IOperationMaterial](VM.Operations.Post.Interfaces.IOperationMaterial.md)
+
+Represents the material properties and parameters used for fatigue analysis.
 
  [IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md)
 
-Interface for Animation View related operations.
+Interface for Animation View.
 
  [IOperationsAxisViewModelBase](VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.md)
 
 Interface representing common information for an axis view model.
-
- [IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
-
-Base interface for the Operation API.
 
  [IOperationsCSYSViewModel](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md)
 
@@ -50,9 +55,9 @@ Interface representing information for an eigenvalue analysis result view model.
 
 Interface representing information for an element view model.
 
- [IOperationsFEBodyViewModel](VM.Operations.Post.Interfaces.IOperationsFEBodyViewModel.md)
+ [IOperationsFEBody](VM.Operations.Post.Interfaces.IOperationsFEBody.md)
 
-Interface representing information for an febody view model.
+Interface representing information for an FEBody.
 
  [IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md)
 
@@ -157,5 +162,4 @@ Represents a view in the application, providing functionalities to manage and in
  [IViewSpec](VM.Operations.Post.Interfaces.IViewSpec.md)
 
 Represents a specification for a view in a 3D space, providing properties to control the camera's position, target, and orientation.
-
 

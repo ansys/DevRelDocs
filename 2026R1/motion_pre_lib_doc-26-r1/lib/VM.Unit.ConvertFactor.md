@@ -1,4 +1,5 @@
-#  Class Unit.ConvertFactor
+# Class Unit.ConvertFactor
+<a id="VM_Unit_ConvertFactor"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -11,7 +12,7 @@ public sealed class Unit.ConvertFactor
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Unit.ConvertFactor](VM.Unit.ConvertFactor.md)
 
 #### Extension Methods
@@ -82,7 +83,7 @@ public double FromUCF { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Unit_ConvertFactor_ToUCF"></a> ToUCF
 
@@ -94,7 +95,7 @@ public double ToUCF { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Unit_ConvertFactor_Item_System_String_"></a> this\[string\]
 
@@ -106,7 +107,7 @@ public double this[string stringDimension] { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -120,17 +121,17 @@ public double CalculateShiftingUnit(string stringType, double value)
 
 #### Parameters
 
-`stringType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringType` string
 
 The unit type
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 The value
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The converted value
 

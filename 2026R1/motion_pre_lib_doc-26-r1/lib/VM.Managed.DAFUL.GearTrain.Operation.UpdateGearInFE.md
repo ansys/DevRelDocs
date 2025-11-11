@@ -1,4 +1,5 @@
-#  Class UpdateGearInFE
+# Class UpdateGearInFE
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateGearInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateGearInFE : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateGearInFE](VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInFE.md)
@@ -98,23 +99,23 @@ public UpdateGearInFE(string strGearGeometryName, string strReferenceOffset, str
 
 #### Parameters
 
-`strGearGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearGeometryName` string
 
 Name of the string gear geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strParentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParentType` string
 
 Type of the string parent.
 
-`strRBEOrBearing` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEOrBearing` string
 
 The string rbe or bearing.
 
@@ -132,23 +133,23 @@ public UpdateGearInFE(Document3D document3D, string strGearGeometryName, string 
 
 The document.
 
-`strGearGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearGeometryName` string
 
 Name of the string gear geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strParentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParentType` string
 
 Type of the string parent.
 
-`strRBEOrBearing` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBEOrBearing` string
 
 The string rbe or bearing.
 
@@ -186,7 +187,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

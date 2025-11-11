@@ -1,4 +1,5 @@
-#  Class ImportBuilderEventCore
+# Class ImportBuilderEventCore
+<a id="VM_Managed_CAD_ImportBuilderEventCore"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ImportBuilderEventCore : ObjectEventCore, IObject, ILinkContainer, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObjectEventCore](VM.Managed.ObjectEventCore.md) ← 
 [ImportBuilderEventCore](VM.Managed.CAD.ImportBuilderEventCore.md)
 
@@ -23,7 +24,7 @@ IOwned,
 IHasID, 
 IEventProvider, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
-IHistoryObjectSerializableDelegate
+[IHistoryObjectSerializableDelegate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs)
 
 #### Inherited Members
 
@@ -86,11 +87,11 @@ protected ImportBuilderEventCore(SerializationInfo info, StreamingContext contex
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -105,7 +106,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_CAD_ImportBuilderEventCore_GetObjectDataImpl_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectDataImpl\(SerializationInfo, StreamingContext\)
 
@@ -117,11 +118,11 @@ protected override void GetObjectDataImpl(SerializationInfo info, StreamingConte
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 

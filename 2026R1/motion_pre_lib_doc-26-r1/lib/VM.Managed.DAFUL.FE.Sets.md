@@ -1,4 +1,5 @@
-#  Class Sets
+# Class Sets
+<a id="VM_Managed_DAFUL_FE_Sets"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,9 +12,9 @@ public class Sets : Container, IObservableObject, IDisposableObject, ILinkable, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 [Sets](VM.Managed.DAFUL.FE.Sets.md)
@@ -83,7 +84,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -124,7 +125,7 @@ public NamedObjectDictionary<SetEdge> EdgeSets { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[SetEdge](VM.Managed.DAFUL.FE.SetEdge.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[SetEdge](VM.Managed.DAFUL.FE.SetEdge.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_Sets_ElementSets"></a> ElementSets
 
@@ -136,7 +137,7 @@ public NamedObjectDictionary<SetElement> ElementSets { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[SetElement](VM.Managed.DAFUL.FE.SetElement.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[SetElement](VM.Managed.DAFUL.FE.SetElement.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_Sets_NodeSets"></a> NodeSets
 
@@ -148,7 +149,7 @@ public NamedObjectDictionary<SetNode> NodeSets { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[SetNode](VM.Managed.DAFUL.FE.SetNode.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[SetNode](VM.Managed.DAFUL.FE.SetNode.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_Sets_PatchSets"></a> PatchSets
 
@@ -160,7 +161,7 @@ public NamedObjectDictionary<SetPatch> PatchSets { get; }
 
 #### Property Value
 
- NamedObjectDictionary<[SetPatch](VM.Managed.DAFUL.FE.SetPatch.md)\>
+ [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[SetPatch](VM.Managed.DAFUL.FE.SetPatch.md)\>
 
 ## Methods
 
@@ -174,7 +175,7 @@ public void Add(object ob)
 
 #### Parameters
 
-`ob` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`ob` object
 
 The set.
 
@@ -188,7 +189,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -208,7 +209,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -228,7 +229,7 @@ public void MakeReference(LinkedList<Reference> lstRef)
 
 #### Parameters
 
-`lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
+`lstRef` LinkedList<Reference\>
 
 ### <a id="VM_Managed_DAFUL_FE_Sets_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
@@ -240,7 +241,7 @@ public override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -254,7 +255,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
@@ -268,7 +269,7 @@ public void Remove(object ob)
 
 #### Parameters
 
-`ob` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`ob` object
 
 The set.
 
@@ -282,7 +283,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
 

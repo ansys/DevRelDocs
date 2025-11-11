@@ -1,4 +1,5 @@
-#  Interface ILink
+# Interface ILink
+<a id="VM_Managed_ILink"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ bool FieldHasValue { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ILink_LinkedObject"></a> LinkedObject
 
@@ -66,7 +67,7 @@ void Clear(bool bBackup)
 
 #### Parameters
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ### <a id="VM_Managed_ILink_ClearBeforeDeserialize"></a> ClearBeforeDeserialize\(\)
 
@@ -94,7 +95,7 @@ void DestroyObject(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 <p>The linked object.</p>
 
@@ -118,7 +119,7 @@ void GetChilds(HashSet<ILinkContainer> lstObjs)
 
 #### Parameters
 
-`lstObjs` [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<ILinkContainer\>
+`lstObjs` HashSet<ILinkContainer\>
 
 ### <a id="VM_Managed_ILink_GetFirstDesignEntities"></a> GetFirstDesignEntities\(\)
 
@@ -130,7 +131,7 @@ IEnumerable<IObject> GetFirstDesignEntities()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+ IEnumerable<IObject\>
 
 ### <a id="VM_Managed_ILink_Reserve_VM_Managed_LinkEventArgs_"></a> Reserve\(LinkEventArgs\)
 
@@ -148,7 +149,7 @@ The event argument.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if succeess to reserve, otherwise false.
 

@@ -1,4 +1,5 @@
-#  Class CreateGroupImpl
+# Class CreateGroupImpl
+<a id="VM_Managed_DAFUL_Car_CreateGroupImpl"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class CreateGroupImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateGroupImpl](VM.Managed.DAFUL.Car.CreateGroupImpl.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static void CreateGroupForGeneral(SubSystemDocument subDoc)
 
 #### Parameters
 
-`subDoc` SubSystemDocument
+`subDoc` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document
 
@@ -54,7 +55,7 @@ public static void CreateGroupForSuspension(SubSystemDocument subDoc)
 
 #### Parameters
 
-`subDoc` SubSystemDocument
+`subDoc` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document
 

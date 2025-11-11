@@ -1,4 +1,5 @@
-#  Delegate RoadFile.RoadProgressCalllback
+# Delegate RoadFile.RoadProgressCalllback
+<a id="VM_Models_Road_RoadFile_RoadProgressCalllback"></a>
 
 Namespace: [VM.Models.Road](VM.Models.Road.md)  
 Assembly: VM.Models.Road.dll  
@@ -9,13 +10,13 @@ public delegate int RoadFile.RoadProgressCalllback(ulong current, ulong max)
 
 #### Parameters
 
-`current` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`current` ulong
 
-`max` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`max` ulong
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Extension Methods
 

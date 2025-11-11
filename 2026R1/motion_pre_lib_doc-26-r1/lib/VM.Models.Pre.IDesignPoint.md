@@ -1,4 +1,5 @@
-#  Interface IDesignPoint
+# Interface IDesignPoint
+<a id="VM_Models_Pre_IDesignPoint"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -40,5 +41,5 @@ bool IsDesignParam { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

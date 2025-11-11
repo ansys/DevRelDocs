@@ -1,4 +1,5 @@
-#  Class LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConverter\>
+# Class LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConverter\>
+<a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -19,9 +20,9 @@ public class LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConver
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConverter\>](VM.Managed.Collections.LinkDictionaryCollectionBase\-4.md)
 
@@ -85,7 +86,7 @@ IPostDeserialized
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -130,9 +131,9 @@ protected LinkDictionaryCollectionBase(SerializationInfo info, StreamingContext 
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ## Properties
 
@@ -144,7 +145,7 @@ public virtual int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_IsExternable"></a> IsExternable
 
@@ -156,7 +157,7 @@ public override bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_IsReadOnly"></a> IsReadOnly
 
@@ -166,7 +167,7 @@ public virtual bool IsReadOnly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Keys"></a> Keys
 
@@ -176,7 +177,7 @@ public virtual ICollection<T> Keys { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<T\>
+ ICollection<T\>
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Values"></a> Values
 
@@ -186,7 +187,7 @@ public virtual ICollection<TValue> Values { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TValue\>
+ ICollection<TValue\>
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Item__0_"></a> this\[T\]
 
@@ -230,7 +231,7 @@ public bool ContainsKey(T key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_ContainsPtrKey_System_UIntPtr_"></a> ContainsPtrKey\(UIntPtr\)
 
@@ -240,11 +241,11 @@ public bool ContainsPtrKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_GetObjectDataImpl_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectDataImpl\(SerializationInfo, StreamingContext\)
 
@@ -254,9 +255,9 @@ virtual void GetObjectDataImpl(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_IsSerializableEvent_System_Delegate_"></a> IsSerializableEvent\(Delegate\)
 
@@ -268,13 +269,13 @@ protected override bool IsSerializableEvent(Delegate del)
 
 #### Parameters
 
-`del` [Delegate](https://learn.microsoft.com/dotnet/api/system.delegate)
+`del` Delegate
 
 The delegate.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [serializable event] [the specified delegate]; otherwise, <code>false</code>.
 
@@ -288,7 +289,7 @@ protected override sealed void LinkRequestDestroy(object obNotifier, LinkEventAr
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -304,7 +305,7 @@ protected override sealed void LinkRequestUpdate(object obNotifier, LinkEventArg
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -322,7 +323,7 @@ public bool Remove(T key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_TryGetValue__0__1__"></a> TryGetValue\(T, ref TValue\)
 
@@ -338,7 +339,7 @@ public bool TryGetValue(T key, ref TValue value)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_raise_CollectionChanged_System_Object_System_Collections_Specialized_NotifyCollectionChangedEventArgs_"></a> raise\_CollectionChanged\(object, NotifyCollectionChangedEventArgs\)
 
@@ -348,9 +349,9 @@ protected void raise_CollectionChanged(object objNotifier, NotifyCollectionChang
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
-`e` [NotifyCollectionChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs)
+`e` NotifyCollectionChangedEventArgs
 
 ### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_CollectionChanged"></a> CollectionChanged
 
@@ -360,5 +361,5 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 
 #### Event Type
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+ NotifyCollectionChangedEventHandler
 

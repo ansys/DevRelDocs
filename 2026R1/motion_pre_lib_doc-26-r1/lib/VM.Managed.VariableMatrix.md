@@ -1,4 +1,5 @@
-#  Class VariableMatrix
+# Class VariableMatrix
+<a id="VM_Managed_VariableMatrix"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,9 +12,9 @@ public class VariableMatrix : LinkContainer, IObservableObject, IDisposableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [VariableMatrix](VM.Managed.VariableMatrix.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -114,11 +115,11 @@ public VariableMatrix(int nRow, int nColumn)
 
 #### Parameters
 
-`nRow` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRow` int
 
 The n row.
 
-`nColumn` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nColumn` int
 
 The n column.
 
@@ -132,7 +133,7 @@ public int ColumnCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_VariableMatrix_Matrix"></a> Matrix
 
@@ -154,7 +155,7 @@ public int RowCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -168,7 +169,7 @@ public string GetAllValue()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_VariableMatrix_GetArray"></a> GetArray\(\)
 
@@ -180,7 +181,7 @@ public ExpressionValueVariable[,] GetArray()
 
 #### Returns
 
- ExpressionValueVariable\[,\]
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)\[,\]
 
 ### <a id="VM_Managed_VariableMatrix_GetValueArray"></a> GetValueArray\(\)
 
@@ -192,7 +193,7 @@ public double[,] GetValueArray()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[,\]
+ double\[,\]
 
 ### <a id="VM_Managed_VariableMatrix_GetVariable_System_Int32_System_Int32_"></a> GetVariable\(int, int\)
 
@@ -204,11 +205,11 @@ public Variable GetVariable(int nRow, int nColumn)
 
 #### Parameters
 
-`nRow` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRow` int
 
 The n row.
 
-`nColumn` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nColumn` int
 
 The n column.
 
@@ -230,11 +231,11 @@ public void SetData(Variable value, int nRow, int nColumn)
 
 The value.
 
-`nRow` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRow` int
 
 The n row.
 
-`nColumn` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nColumn` int
 
 The n column.
 
@@ -248,7 +249,7 @@ public void SetValueArray(double[,] ardValue)
 
 #### Parameters
 
-`ardValue` [double](https://learn.microsoft.com/dotnet/api/system.double)\[,\]
+`ardValue` double\[,\]
 
 The values.
 

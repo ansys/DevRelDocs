@@ -1,4 +1,5 @@
-#  Class CorneringBase
+# Class CorneringBase
+<a id="VM_Managed_DAFUL_Car_CorneringBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class CorneringBase : FullCarAnalysisBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [CorneringBase](VM.Managed.DAFUL.Car.CorneringBase.md)
@@ -97,7 +98,7 @@ public double EntityDistance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_CorneringBase_InitialVelocityCornering"></a> InitialVelocityCornering
 
@@ -109,7 +110,7 @@ public virtual double InitialVelocityCornering { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_CorneringBase_TimeOfSettle"></a> TimeOfSettle
 
@@ -121,7 +122,7 @@ public double TimeOfSettle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_CorneringBase_TurnDirectionType"></a> TurnDirectionType
 
@@ -147,7 +148,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

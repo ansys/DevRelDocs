@@ -1,4 +1,5 @@
-#  Class Convel
+# Class Convel
+<a id="VM_Managed_Symmetric_Constraints_Convel"></a>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -9,10 +10,10 @@ public class Convel : Constraint<Convel, PropertyConvel>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Convel\> ← 
-Connector<Convel, PropertyConvel\> ← 
-Constraint<Convel, PropertyConvel\> ← 
+object ← 
+[Named<Convel\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<Convel, PropertyConvel\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
+[Constraint<Convel, PropertyConvel\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymCB/Constraint.cs) ← 
 [Convel](VM.Managed.Symmetric.Constraints.Convel.md)
 
 #### Implements
@@ -21,12 +22,12 @@ ISymmetricUpdater
 
 #### Inherited Members
 
-Constraint<Convel, PropertyConvel\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Connector<Convel, PropertyConvel\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Convel\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Convel\>.Initialize\(ISymmetricManager\), 
-Named<Convel\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Convel\>.SymmetricManager
+[Constraint<Convel, PropertyConvel\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymCB/Constraint.cs), 
+[Connector<Convel, PropertyConvel\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<Convel\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Convel\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Convel\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Convel\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

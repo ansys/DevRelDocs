@@ -1,4 +1,5 @@
-#  Class SuspensionSimulationConfiguration
+# Class SuspensionSimulationConfiguration
+<a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class SuspensionSimulationConfiguration
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SuspensionSimulationConfiguration](VM.Managed.DAFUL.Car.SuspensionSimulationConfiguration.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public double EndTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_ExternFiles"></a> ExternFiles
 
@@ -66,7 +67,7 @@ public int NumofSteps { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_OppositeTravelParameter"></a> OppositeTravelParameter
 
@@ -114,7 +115,7 @@ public string ResultFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_RollVerticalParameter"></a> RollVerticalParameter
 
@@ -138,7 +139,7 @@ public int SimulationType { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_SingleTravelParameter"></a> SingleTravelParameter
 

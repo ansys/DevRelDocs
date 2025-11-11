@@ -1,4 +1,5 @@
-#  Class MotorHousingBuiler
+# Class MotorHousingBuiler
+<a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,14 +7,14 @@ Assembly: VMDGearTrain.dll
 The housing builder in motor
 
 ```csharp
-public class MotorHousingBuiler : MotorBaseBuiler, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public class MotorHousingBuiler : MotorBaseBuiler, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -36,8 +37,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
-IAttributeContainer
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IAttributeContainer, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -74,6 +76,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -177,7 +181,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -216,7 +220,7 @@ public string HousingType { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_Hr"></a> Hr
 
@@ -226,7 +230,7 @@ public double Hr { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_IsMeasureBottomSide"></a> IsMeasureBottomSide
 
@@ -236,7 +240,7 @@ public bool IsMeasureBottomSide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_IsMeasureRearCoverCenter"></a> IsMeasureRearCoverCenter
 
@@ -246,7 +250,7 @@ public bool IsMeasureRearCoverCenter { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_IsMeasureTopSide"></a> IsMeasureTopSide
 
@@ -256,7 +260,7 @@ public bool IsMeasureTopSide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L1"></a> L1
 
@@ -266,7 +270,7 @@ public double L1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L10"></a> L10
 
@@ -276,7 +280,7 @@ public double L10 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L11"></a> L11
 
@@ -286,7 +290,7 @@ public double L11 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L2"></a> L2
 
@@ -296,7 +300,7 @@ public double L2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L3"></a> L3
 
@@ -306,7 +310,7 @@ public double L3 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L4"></a> L4
 
@@ -316,7 +320,7 @@ public double L4 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L5"></a> L5
 
@@ -326,7 +330,7 @@ public double L5 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L6"></a> L6
 
@@ -336,7 +340,7 @@ public double L6 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L7"></a> L7
 
@@ -346,7 +350,7 @@ public double L7 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L8"></a> L8
 
@@ -356,7 +360,7 @@ public double L8 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L9"></a> L9
 
@@ -366,7 +370,7 @@ public double L9 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MTGBoltDiameter"></a> MTGBoltDiameter
 
@@ -376,7 +380,7 @@ public double MTGBoltDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureBottomSideLowerPosition"></a> MeasureBottomSideLowerPosition
 
@@ -406,7 +410,7 @@ public double MeasureRBECircleRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureRearCoverCenterPosition"></a> MeasureRearCoverCenterPosition
 
@@ -446,7 +450,7 @@ public int NumberOfMountingBolt { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_NumberOfRib"></a> NumberOfRib
 
@@ -456,7 +460,7 @@ public int NumberOfRib { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_RibType"></a> RibType
 
@@ -466,7 +470,7 @@ public string RibType { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorDepth"></a> StatorDepth
 
@@ -476,7 +480,7 @@ public double StatorDepth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorIsExistMounting"></a> StatorIsExistMounting
 
@@ -486,7 +490,7 @@ public bool StatorIsExistMounting { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorMPCR"></a> StatorMPCR
 
@@ -496,7 +500,7 @@ public double StatorMPCR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorMountingDirectionType"></a> StatorMountingDirectionType
 
@@ -506,7 +510,7 @@ public string StatorMountingDirectionType { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorNumberOfMounting"></a> StatorNumberOfMounting
 
@@ -516,7 +520,7 @@ public int StatorNumberOfMounting { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorRmo"></a> StatorRmo
 
@@ -526,7 +530,7 @@ public double StatorRmo { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorRotateAngle"></a> StatorRotateAngle
 
@@ -536,7 +540,7 @@ public double StatorRotateAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorStartPosition"></a> StatorStartPosition
 
@@ -556,7 +560,7 @@ public double T1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T2"></a> T2
 
@@ -566,7 +570,7 @@ public double T2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T3"></a> T3
 
@@ -576,7 +580,7 @@ public double T3 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T4"></a> T4
 
@@ -586,7 +590,7 @@ public double T4 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T5"></a> T5
 
@@ -596,7 +600,7 @@ public double T5 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_Wr"></a> Wr
 
@@ -606,7 +610,7 @@ public double Wr { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -620,7 +624,7 @@ protected override BuilderParamBase CreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
@@ -632,5 +636,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 

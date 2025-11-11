@@ -1,4 +1,5 @@
-#  Class SurfaceWithCurvesetsBuilder
+# Class SurfaceWithCurvesetsBuilder
+<a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldBallPlacing.dll  
@@ -9,10 +10,10 @@ public class SurfaceWithCurvesetsBuilder : BuilderNamed<SurfaceWithCurvesets>, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<SurfaceWithCurvesets\> ← 
-BuilderSymmetric<SurfaceWithCurvesets\> ← 
-BuilderNamed<SurfaceWithCurvesets\> ← 
+object ← 
+[BuilderBase<SurfaceWithCurvesets\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<SurfaceWithCurvesets\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<SurfaceWithCurvesets\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [SurfaceWithCurvesetsBuilder](VM.Managed.DAFUL.Builder.SurfaceWithCurvesetsBuilder.md)
 
 #### Implements
@@ -21,29 +22,29 @@ IBuilder
 
 #### Inherited Members
 
-BuilderNamed<SurfaceWithCurvesets\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<SurfaceWithCurvesets\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<SurfaceWithCurvesets\>.Name, 
-BuilderSymmetric<SurfaceWithCurvesets\>.Build\(Document\), 
-BuilderSymmetric<SurfaceWithCurvesets\>.Symmetric, 
-BuilderSymmetric<SurfaceWithCurvesets\>.CurrentSymmetric, 
-BuilderBase<SurfaceWithCurvesets\>.m\_bSuccess, 
-BuilderBase<SurfaceWithCurvesets\>.Build\(Document\), 
-BuilderBase<SurfaceWithCurvesets\>.Build\(Document, List<string\>\), 
-BuilderBase<SurfaceWithCurvesets\>.Validate\(IList<string\>\), 
-BuilderBase<SurfaceWithCurvesets\>.Success\(\), 
-BuilderBase<SurfaceWithCurvesets\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<SurfaceWithCurvesets\>.OnFinalBuild\(string, Document\), 
-BuilderBase<SurfaceWithCurvesets\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<SurfaceWithCurvesets\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<SurfaceWithCurvesets\>.Parameters, 
-BuilderBase<SurfaceWithCurvesets\>.AddToDoc, 
-BuilderBase<SurfaceWithCurvesets\>.UseChangedObject, 
-BuilderBase<SurfaceWithCurvesets\>.SetPointKey, 
-BuilderBase<SurfaceWithCurvesets\>.BuildObject, 
-BuilderBase<SurfaceWithCurvesets\>.BuildDocument, 
-BuilderBase<SurfaceWithCurvesets\>.UseInterface, 
-BuilderBase<SurfaceWithCurvesets\>.ErrorMessage
+[BuilderNamed<SurfaceWithCurvesets\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<SurfaceWithCurvesets\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<SurfaceWithCurvesets\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<SurfaceWithCurvesets\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<SurfaceWithCurvesets\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<SurfaceWithCurvesets\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<SurfaceWithCurvesets\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -79,7 +80,7 @@ public SetCurveForEdges EndCurveset { get; }
 
 #### Property Value
 
- SetCurveForEdges
+ [SetCurveForEdges](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetCurveForEdges.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_Faceset"></a> Faceset
 
@@ -89,7 +90,7 @@ public SetFace Faceset { get; }
 
 #### Property Value
 
- SetFace
+ [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_NumberOfSlice"></a> NumberOfSlice
 
@@ -109,7 +110,7 @@ public string Path { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_StartCurveset"></a> StartCurveset
 
@@ -119,7 +120,7 @@ public SetCurveForEdges StartCurveset { get; }
 
 #### Property Value
 
- SetCurveForEdges
+ [SetCurveForEdges](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetCurveForEdges.cs)
 
 ## Methods
 
@@ -137,5 +138,5 @@ protected override bool OnPostBuild(ObjectBase created, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

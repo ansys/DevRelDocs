@@ -1,4 +1,5 @@
-#  Class ConcentratedLoadFunction
+# Class ConcentratedLoadFunction
+<a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -6,12 +7,12 @@ Assembly: VMFlexibleBase.dll
 <p>This base class is to represent the characteristic properties of concentrated load.</p>
 <p>이 클래스는 집중하중 함수를 나타냅니다.</p>
 <p>
-        Symmetric Modeling : No
-        Reference : No
-        Reference Type : N/A
-        삭제시 Reservable한 Link 변수 : N/A
-        Generic Collection에 담겨있는 Link 변수 : N/A
-        </p>
+Symmetric Modeling : No
+Reference : No
+Reference Type : N/A
+삭제시 Reservable한 Link 변수 : N/A
+Generic Collection에 담겨있는 Link 변수 : N/A
+</p>
 
 ```csharp
 public abstract class ConcentratedLoadFunction : LinkContainer, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
@@ -19,9 +20,9 @@ public abstract class ConcentratedLoadFunction : LinkContainer, IObservableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [ConcentratedLoadFunction](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.md)
 
@@ -88,7 +89,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -112,8 +113,7 @@ ObservableObject.PropertyChanged
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction__ctor"></a> ConcentratedLoadFunction\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> class.</p>
-<p>
-  <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
+<p><xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 protected ConcentratedLoadFunction()
@@ -126,23 +126,23 @@ protected ConcentratedLoadFunction()
 <p>Gets or sets the reference marker.</p>
 <p>참조마커를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : IMarker
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Reference Frame
-        Control Type : Marker Editor
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Bodundary Condition
-        Category Index : 2
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : IMarker
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Reference Frame
+Control Type : Marker Editor
+ToolTip : N/A
+Error Message : N/A
+Category : Bodundary Condition
+Category Index : 2
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public IMarker ReferenceMarker { get; set; }
@@ -170,23 +170,23 @@ public abstract ConcentratedLoadFunction.FunctionType Type { get; }
 <p>Gets or sets the reference marker.</p>
 <p>참조마커를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : IMarker
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Reference Frame
-        Control Type : Marker Editor
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Bodundary Condition
-        Category Index : 2
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : IMarker
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Reference Frame
+Control Type : Marker Editor
+ToolTip : N/A
+Error Message : N/A
+Category : Bodundary Condition
+Category Index : 2
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public Linker<IMarker> _ReferenceMarker { get; set; }

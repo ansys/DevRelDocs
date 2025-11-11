@@ -1,4 +1,5 @@
-#  Enum DesignParameter.ValueType
+# Enum DesignParameter.ValueType
+<a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_ValueType"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  

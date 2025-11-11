@@ -1,4 +1,5 @@
-#  Class HeatFluxUnit
+# Class HeatFluxUnit
+<a id="VM_Managed_DAFUL_Thermal_HeatFluxUnit"></a>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -11,17 +12,17 @@ public class HeatFluxUnit : ThermalUnitBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-FunctionUnitBase ← 
+object ← 
+[FunctionUnitBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/FunctionUnit.cs) ← 
 [ThermalUnitBase](VM.Managed.DAFUL.Thermal.ThermalUnitBase.md) ← 
 [HeatFluxUnit](VM.Managed.DAFUL.Thermal.HeatFluxUnit.md)
 
 #### Inherited Members
 
 [ThermalUnitBase.SetModified\(\)](VM.Managed.DAFUL.Thermal.ThermalUnitBase.md\#VM\_Managed\_DAFUL\_Thermal\_ThermalUnitBase\_SetModified), 
-FunctionUnitBase.Scale, 
-FunctionUnitBase.Shift, 
-FunctionUnitBase.Factor
+[FunctionUnitBase.Scale](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/FunctionUnit.cs), 
+[FunctionUnitBase.Shift](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/FunctionUnit.cs), 
+[FunctionUnitBase.Factor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/FunctionUnit.cs)
 
 #### Extension Methods
 
@@ -65,7 +66,7 @@ public override string Factor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Thermal_HeatFluxUnit_Scale"></a> Scale
 
@@ -77,7 +78,7 @@ public override double Scale { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Thermal_HeatFluxUnit_UnitOfHeatFlux"></a> UnitOfHeatFlux
 

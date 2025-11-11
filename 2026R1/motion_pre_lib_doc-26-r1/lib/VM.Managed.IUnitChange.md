@@ -1,4 +1,5 @@
-#  Interface IUnitChange
+# Interface IUnitChange
+<a id="VM_Managed_IUnitChange"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

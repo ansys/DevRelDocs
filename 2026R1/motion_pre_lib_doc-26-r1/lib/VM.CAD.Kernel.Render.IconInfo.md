@@ -1,4 +1,5 @@
-#  Class IconInfo
+# Class IconInfo
+<a id="VM_CAD_Kernel_Render_IconInfo"></a>
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class IconInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IconInfo](VM.CAD.Kernel.Render.IconInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public string Key { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Render_IconInfo_Scale"></a> Scale
 
@@ -52,7 +53,7 @@ public double Scale { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Kernel_Render_IconInfo_Transforms"></a> Transforms
 
@@ -76,5 +77,5 @@ public string Type { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

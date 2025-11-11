@@ -1,4 +1,5 @@
-#  Enum LinkBehaviorType
+# Enum LinkBehaviorType
+<a id="VM_Models_Pre_LinkBehaviorType"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

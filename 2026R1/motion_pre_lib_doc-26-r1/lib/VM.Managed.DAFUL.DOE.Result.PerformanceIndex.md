@@ -1,4 +1,5 @@
-#  Class PerformanceIndex
+# Class PerformanceIndex
+<a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -9,7 +10,7 @@ public class PerformanceIndex : DOEInformationBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DOEInformationBase](VM.Managed.DAFUL.DOE.Result.DOEInformationBase.md) ← 
 [PerformanceIndex](VM.Managed.DAFUL.DOE.Result.PerformanceIndex.md)
 
@@ -43,7 +44,7 @@ public double EndTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_IsDown"></a> IsDown
 
@@ -53,7 +54,7 @@ public bool IsDown { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_ResultType"></a> ResultType
 
@@ -73,7 +74,7 @@ public double StartTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_WeightFactor"></a> WeightFactor
 
@@ -83,5 +84,5 @@ public double WeightFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

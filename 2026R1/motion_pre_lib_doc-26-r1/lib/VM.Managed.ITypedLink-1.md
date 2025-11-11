@@ -1,4 +1,5 @@
-#  Interface ITypedLink<T\>
+# Interface ITypedLink<T\>
+<a id="VM_Managed_ITypedLink_1"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

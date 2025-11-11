@@ -1,4 +1,5 @@
-#  Delegate KernelObject.delGetFrom<TResult\>
+# Delegate KernelObject.delGetFrom<TResult\>
+<a id="VM_CAD_Kernel_KernelObject_delGetFrom_1"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -13,7 +14,7 @@ protected delegate int KernelObject.delGetFrom<TResult>(out TResult result)
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Type Parameters
 

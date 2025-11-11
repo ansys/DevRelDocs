@@ -1,4 +1,5 @@
-#  Enum Rack.BarType
+# Enum Rack.BarType
+<a id="VM_Managed_DAFUL_GearTrain_Rack_BarType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

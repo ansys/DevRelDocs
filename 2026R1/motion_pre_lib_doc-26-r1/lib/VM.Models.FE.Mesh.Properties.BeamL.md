@@ -1,4 +1,5 @@
-#  Class BeamL
+# Class BeamL
+<a id="VM_Models_FE_Mesh_Properties_BeamL"></a>
 
 Namespace: [VM.Models.FE.Mesh.Properties](VM.Models.FE.Mesh.Properties.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -10,7 +11,7 @@ public class BeamL : Solid, IPropertyBeam, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [Solid](VM.Models.FE.Mesh.Properties.Solid.md) ← 
 [BeamL](VM.Models.FE.Mesh.Properties.BeamL.md)
@@ -57,11 +58,9 @@ public double[] Dimensions { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_FE_Mesh_Properties_BeamL_DimensionsWrapper"></a> DimensionsWrapper
-
-This is wrapping property for SQLite-net
 
 ```csharp
 [Column]
@@ -70,7 +69,7 @@ public byte[] DimensionsWrapper { get; set; }
 
 #### Property Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
+ byte\[\]
 
 ### <a id="VM_Models_FE_Mesh_Properties_BeamL_Shape"></a> Shape
 
@@ -102,7 +101,7 @@ public double YX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Properties_BeamL_YY"></a> YY
 
@@ -113,7 +112,7 @@ public double YY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Properties_BeamL_YZ"></a> YZ
 
@@ -124,7 +123,7 @@ public double YZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -136,9 +135,9 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

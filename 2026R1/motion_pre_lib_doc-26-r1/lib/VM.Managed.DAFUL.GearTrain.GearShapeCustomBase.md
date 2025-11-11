@@ -1,4 +1,5 @@
-#  Class GearShapeCustomBase
+# Class GearShapeCustomBase
+<a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public abstract class GearShapeCustomBase : GearShapeBase, IObservableObject, ID
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md) ← 
 [GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md)
@@ -113,7 +114,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -166,7 +167,7 @@ public List<GearShapeCustomBase.Profile> ExtraProfileList { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Profile](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile.md)\>
+ List<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Profile](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile.md)\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_ProfileCount"></a> ProfileCount
 
@@ -178,7 +179,7 @@ public int ProfileCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_SliceCount"></a> SliceCount
 
@@ -190,7 +191,7 @@ public ExpressionValueVariable SliceCount { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_UseExtraProfile"></a> UseExtraProfile
 
@@ -202,7 +203,7 @@ public bool UseExtraProfile { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -228,13 +229,13 @@ public static List<GearShapeCustomBase.Point2D> ImportProfileFromFile(string str
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 The file name
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Point2D](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Point2D.md)\>
+ List<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Point2D](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Point2D.md)\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_IsNumeric_System_String___"></a> IsNumeric\(string\[\]\)
 
@@ -246,13 +247,13 @@ public static bool IsNumeric(string[] numStr)
 
 #### Parameters
 
-`numStr` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`numStr` string\[\]
 
 The string array
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_IsNumeric_System_String_"></a> IsNumeric\(string\)
 
@@ -264,13 +265,13 @@ public static bool IsNumeric(string numStr)
 
 #### Parameters
 
-`numStr` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`numStr` string
 
 The string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_LoadProfileData_System_String_System_String_"></a> LoadProfileData\(string, string\)
 
@@ -282,17 +283,17 @@ public static List<string[]> LoadProfileData(string loadStr, string extStr)
 
 #### Parameters
 
-`loadStr` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`loadStr` string
 
 The file path
 
-`extStr` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extStr` string
 
 The extension
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\[\]\>
+ List<string\[\]\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_SetBaseProfile_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_"></a> SetBaseProfile\(Profile\)
 
@@ -318,7 +319,7 @@ public void SetExtraProfileList(List<GearShapeCustomBase.Profile> profiles)
 
 #### Parameters
 
-`profiles` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Profile](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile.md)\>
+`profiles` List<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Profile](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile.md)\>
 
 The profiles.
 
@@ -332,7 +333,7 @@ public void SetUseExtraProfile(bool bUseExtaProfile)
 
 #### Parameters
 
-`bUseExtaProfile` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseExtaProfile` bool
 
 The flag of use extra profile.
 
@@ -346,7 +347,7 @@ public override void Show2D(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 

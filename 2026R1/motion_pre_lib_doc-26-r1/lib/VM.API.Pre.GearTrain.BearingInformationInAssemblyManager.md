@@ -1,4 +1,5 @@
-#  Struct BearingInformationInAssemblyManager
+# Struct BearingInformationInAssemblyManager
+<a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -43,7 +44,7 @@ public string AddedRacewayName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager_BearingName"></a> BearingName
 
@@ -55,7 +56,7 @@ public string BearingName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager_UseReferenceBody"></a> UseReferenceBody
 
@@ -67,5 +68,5 @@ public bool UseReferenceBody { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

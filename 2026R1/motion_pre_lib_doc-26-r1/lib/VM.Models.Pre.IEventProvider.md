@@ -1,4 +1,5 @@
-#  Interface IEventProvider
+# Interface IEventProvider
+<a id="VM_Models_Pre_IEventProvider"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -27,7 +28,7 @@ bool IsChildExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IEventProvider_IsExternable"></a> IsExternable
 
@@ -39,7 +40,7 @@ bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -53,7 +54,7 @@ List<IEventProvider> GetTargetListForUpdate()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IEventProvider](VM.Models.Pre.IEventProvider.md)\>
+ List<[IEventProvider](VM.Models.Pre.IEventProvider.md)\>
 
 ### <a id="VM_Models_Pre_IEventProvider_IsSerializable_System_Delegate_"></a> IsSerializable\(Delegate\)
 
@@ -65,13 +66,13 @@ bool IsSerializable(Delegate del)
 
 #### Parameters
 
-`del` [Delegate](https://learn.microsoft.com/dotnet/api/system.delegate)
+`del` Delegate
 
 The delegate.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IEventProvider_SkipUpdateObject"></a> SkipUpdateObject\(\)
 
@@ -83,5 +84,5 @@ bool SkipUpdateObject()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

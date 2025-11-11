@@ -1,4 +1,5 @@
-#  Class PartMarker
+# Class PartMarker
+<a id="VM_Managed_DAFUL_Builder_PartMarker"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class PartMarker : BuilderNamed<PartMarker>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<PartMarker\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<PartMarker\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<PartMarker\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md) ← 
@@ -75,5 +76,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

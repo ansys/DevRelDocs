@@ -1,4 +1,5 @@
-#  Enum HeatGenerationUnit.HeatGeneration
+# Enum HeatGenerationUnit.HeatGeneration
+<a id="VM_Managed_DAFUL_Thermal_HeatGenerationUnit_HeatGeneration"></a>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  

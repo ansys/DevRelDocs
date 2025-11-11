@@ -1,4 +1,5 @@
-#  Class LinkOwnerNullExeption
+# Class LinkOwnerNullExeption
+<a id="VM_Managed_LinkOwnerNullExeption"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class LinkOwnerNullExeption : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [LinkOwnerNullExeption](VM.Managed.LinkOwnerNullExeption.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public LinkOwnerNullExeption(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The error message.
 

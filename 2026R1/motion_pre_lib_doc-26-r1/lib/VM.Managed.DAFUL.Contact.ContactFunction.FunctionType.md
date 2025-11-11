@@ -1,4 +1,5 @@
-#  Enum ContactFunction.FunctionType
+# Enum ContactFunction.FunctionType
+<a id="VM_Managed_DAFUL_Contact_ContactFunction_FunctionType"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

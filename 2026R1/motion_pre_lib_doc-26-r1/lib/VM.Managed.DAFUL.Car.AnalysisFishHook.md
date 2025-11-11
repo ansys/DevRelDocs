@@ -1,4 +1,5 @@
-#  Class AnalysisFishHook
+# Class AnalysisFishHook
+<a id="VM_Managed_DAFUL_Car_AnalysisFishHook"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisFishHook : OpenLoopSteeringBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [OpenLoopSteeringBase](VM.Managed.DAFUL.Car.OpenLoopSteeringBase.md) ← 
@@ -81,7 +82,7 @@ public double FirstSteer_Angle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_FirstStep_Duration"></a> FirstStep\_Duration
 
@@ -93,7 +94,7 @@ public double FirstStep_Duration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_FirstTurnDir"></a> FirstTurnDir
 
@@ -117,7 +118,7 @@ public double FirstTurn_Duration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_SecondSteer_Angle"></a> SecondSteer\_Angle
 
@@ -129,7 +130,7 @@ public double SecondSteer_Angle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_SecondStep_Duration"></a> SecondStep\_Duration
 
@@ -141,7 +142,7 @@ public double SecondStep_Duration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_SecondTurnDirectionType"></a> SecondTurnDirectionType
 
@@ -165,7 +166,7 @@ public double SecondTurn_Duration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_TireRadiusPosition"></a> TireRadiusPosition
 
@@ -177,7 +178,7 @@ public override int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -191,7 +192,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

@@ -1,4 +1,5 @@
-#  Class DocModifiedInfoFileGroupDocument<T\>
+# Class DocModifiedInfoFileGroupDocument<T\>
+<a id="VM_Managed_DAFUL_Pre_DocModifiedInfoFileGroupDocument_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -15,7 +16,7 @@ public abstract class DocModifiedInfoFileGroupDocument<T> : DocModifiedInfo wher
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocModifiedInfo](VM.Managed.DAFUL.Pre.DocModifiedInfo.md) ← 
 [DocModifiedInfoFileGroupDocument<T\>](VM.Managed.DAFUL.Pre.DocModifiedInfoFileGroupDocument\-1.md)
 
@@ -60,7 +61,7 @@ public override sealed string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoFileGroupDocument_1_Group"></a> Group
 

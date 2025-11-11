@@ -1,4 +1,5 @@
-#  Class ComponentAnalysis.BoundaryCondition
+# Class ComponentAnalysis.BoundaryCondition
+<a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class ComponentAnalysis.BoundaryCondition
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ComponentAnalysis.BoundaryCondition](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public bool RX { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_RY"></a> RY
 
@@ -52,7 +53,7 @@ public bool RY { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_RZ"></a> RZ
 
@@ -64,7 +65,7 @@ public bool RZ { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_X"></a> X
 
@@ -76,7 +77,7 @@ public bool X { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_Y"></a> Y
 
@@ -88,7 +89,7 @@ public bool Y { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_Z"></a> Z
 
@@ -100,5 +101,5 @@ public bool Z { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

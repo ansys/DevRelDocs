@@ -1,4 +1,5 @@
-#  Class RackBuilderForRBEInFE
+# Class RackBuilderForRBEInFE
+<a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,14 +7,14 @@ Assembly: VMDGearTrain.dll
 The rack builder for rbe in fe
 
 ```csharp
-public class RackBuilderForRBEInFE : GearBuilderForRBEInFE, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IGeometryBuilder, IGearBuilder, IGTBuilder, IAddOnBearing
+public class RackBuilderForRBEInFE : GearBuilderForRBEInFE, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity, IGeometryBuilder, IGearBuilder, IGTBuilder, IAddOnBearing
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -41,8 +42,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
+IHasReplaceableEntity, 
 [IGeometryBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGeometryBuilder.md), 
 [IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md), 
 [IGTBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGTBuilder.md), 
@@ -108,6 +110,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -211,7 +215,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -276,7 +280,7 @@ public double InitialAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_UseEndParentConnectable"></a> UseEndParentConnectable
 
@@ -288,7 +292,7 @@ public bool UseEndParentConnectable { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_UseStartParentConnectable"></a> UseStartParentConnectable
 
@@ -300,7 +304,7 @@ public bool UseStartParentConnectable { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE__EndParentConnectable"></a> \_EndParentConnectable
 
@@ -326,23 +330,23 @@ public void UpdateGeometry(HiddenDocument hiddenDoc, string strStartRBE, string 
 
 #### Parameters
 
-`hiddenDoc` HiddenDocument
+`hiddenDoc` [HiddenDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/HiddenDocument.cs)
 
 The hidden document.
 
-`strStartRBE` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStartRBE` string
 
 The string start rbe.
 
-`strEndRBE` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strEndRBE` string
 
 The string end rbe.
 
-`bStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bStart` bool
 
 if set to <code>true</code> [b start].
 
-`bEnd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnd` bool
 
 if set to <code>true</code> [b end].
 
@@ -350,7 +354,7 @@ if set to <code>true</code> [b end].
 
 The vec z axis.
 
-`dInitAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dInitAngle` double
 
 The initial angle.
 

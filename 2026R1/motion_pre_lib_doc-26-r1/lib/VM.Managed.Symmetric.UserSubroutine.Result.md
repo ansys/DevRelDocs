@@ -1,4 +1,5 @@
-#  Class UserSubroutine.Result
+# Class UserSubroutine.Result
+<a id="VM_Managed_Symmetric_UserSubroutine_Result"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymSP.dll  
@@ -9,7 +10,7 @@ public class UserSubroutine.Result : ISymmetricBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [UserSubroutine.Result](VM.Managed.Symmetric.UserSubroutine.Result.md)
 
 #### Implements
@@ -42,7 +43,7 @@ public object Build(object tool, SymmetricType sym_type, Plane sym_plane, Docume
 
 #### Parameters
 
-`tool` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`tool` object
 
 The object.
 
@@ -60,7 +61,7 @@ update document.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The new object of symmetric.
 

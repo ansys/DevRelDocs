@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Thermal
+# Namespace VM.Managed.DAFUL.Thermal
+<a id="VM_Managed_DAFUL_Thermal"></a>
 
 ### Classes
 

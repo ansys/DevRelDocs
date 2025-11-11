@@ -1,9 +1,10 @@
-#  Interface IFileSupport
+# Interface IFileSupport
+<a id="VM_IFileSupport"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IFileSupport
 ```
 
@@ -11,22 +12,21 @@ public interface IFileSupport
 
 ### <a id="VM_IFileSupport_FileName"></a> FileName
 
-```python
+```csharp
 string FileName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_IFileSupport_Filter"></a> Filter
 
-```python
+```csharp
 string Filter { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
+ string
 

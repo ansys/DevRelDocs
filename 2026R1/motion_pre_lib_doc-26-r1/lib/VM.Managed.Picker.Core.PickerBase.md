@@ -1,4 +1,5 @@
-#  Class PickerBase
+# Class PickerBase
+<a id="VM_Managed_Picker_Core_PickerBase"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class PickerBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md)
 
 #### Derived
@@ -67,7 +68,7 @@ protected bool IsOnlyResultXml { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_PickerBase_IsReference"></a> IsReference
 
@@ -79,7 +80,7 @@ public bool IsReference { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_PickerBase_Result"></a> Result
 
@@ -91,7 +92,7 @@ public virtual object Result { get; protected set; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_Picker_Core_PickerBase_ResultXml"></a> ResultXml
 
@@ -111,7 +112,7 @@ public string ResultXml { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Picker_Core_PickerBase_SymmetricType"></a> SymmetricType
 
@@ -123,7 +124,7 @@ public Enum SymmetricType { get; set; }
 
 #### Property Value
 
- [Enum](https://learn.microsoft.com/dotnet/api/system.enum)
+ Enum
 
 ## Methods
 
@@ -145,13 +146,13 @@ public virtual bool Filtering(UIntPtr pTarget)
 
 #### Parameters
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -165,13 +166,13 @@ public virtual bool FilteringAnother(UIntPtr pTarget)
 
 #### Parameters
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -185,17 +186,17 @@ public virtual bool FilteringReference(UIntPtr pOwner, UIntPtr pTarget)
 
 #### Parameters
 
-`pOwner` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pOwner` UIntPtr
 
 Filtering owner of target.
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -209,13 +210,13 @@ public virtual bool FilteringVMPID(_VM_ID nVMPID)
 
 #### Parameters
 
-`nVMPID` [\_VM\_ID](\_VM\_ID.md)
+`nVMPID` \_VM\_ID
 
 Filtering target PID.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -227,9 +228,9 @@ public virtual void GetAdjacentPatch(double dAngle, List<int> lstNode)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
-`lstNode` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstNode` List<int\>
 
 ### <a id="VM_Managed_Picker_Core_PickerBase_GetChangeNoneParametricXml_System_String_"></a> GetChangeNoneParametricXml\(string\)
 
@@ -241,13 +242,13 @@ public virtual string GetChangeNoneParametricXml(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 Result of parametric.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The result xml of none parametric.
 
@@ -261,7 +262,7 @@ public abstract string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Picker_Core_PickerBase_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
 
@@ -273,13 +274,13 @@ public virtual string GetResultXmlFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 Picking destination key.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -293,13 +294,13 @@ public virtual string GetValidResultXml(string strDesireXml)
 
 #### Parameters
 
-`strDesireXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDesireXml` string
 
 Invalid result xml.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -313,7 +314,7 @@ public virtual void Highlight(bool bHighlight)
 
 #### Parameters
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
@@ -329,13 +330,13 @@ public bool Pick(bool bGetXmlOnly)
 
 #### Parameters
 
-`bGetXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGetXmlOnly` bool
 
 If set to <code>true</code> set result xml; otherwise, If set to <code>false</code> set result object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -351,17 +352,17 @@ public bool PickWithStartSignal(bool bGetXmlOnly, ManualResetEvent eventPickStar
 
 #### Parameters
 
-`bGetXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGetXmlOnly` bool
 
 If set to <code>true</code> set result xml; otherwise, If set to <code>false</code> set result object.
 
-`eventPickStart` [ManualResetEvent](https://learn.microsoft.com/dotnet/api/system.threading.manualresetevent)
+`eventPickStart` ManualResetEvent
 
 picking start signal.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -375,17 +376,17 @@ protected abstract bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 If it is true, skip the result setting.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -405,7 +406,7 @@ public virtual bool UseEntityFiltering()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_PickerBase_raise_CustomFilterEvent_System_Object_VM_Managed_Picker_Core_FilterArgs_"></a> raise\_CustomFilterEvent\(object, FilterArgs\)
 
@@ -415,7 +416,7 @@ protected void raise_CustomFilterEvent(object value0, FilterArgs value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
 `value1` [FilterArgs](VM.Managed.Picker.Core.FilterArgs.md)
 
@@ -427,5 +428,5 @@ public event EventHandler<FilterArgs> CustomFilterEvent
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[FilterArgs](VM.Managed.Picker.Core.FilterArgs.md)\>
+ EventHandler<[FilterArgs](VM.Managed.Picker.Core.FilterArgs.md)\>
 

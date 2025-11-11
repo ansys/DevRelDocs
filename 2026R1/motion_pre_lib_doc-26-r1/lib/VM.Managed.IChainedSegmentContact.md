@@ -1,4 +1,5 @@
-#  Interface IChainedSegmentContact
+# Interface IChainedSegmentContact
+<a id="VM_Managed_IChainedSegmentContact"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

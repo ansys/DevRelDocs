@@ -1,4 +1,5 @@
-#  Interface ITemplateDocument
+# Interface ITemplateDocument
+<a id="VM_Managed_ITemplateDocument"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

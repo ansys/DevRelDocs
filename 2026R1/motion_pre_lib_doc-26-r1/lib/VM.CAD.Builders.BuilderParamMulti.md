@@ -1,4 +1,5 @@
-#  Class BuilderParamMulti
+# Class BuilderParamMulti
+<a id="VM_CAD_Builders_BuilderParamMulti"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public abstract class BuilderParamMulti : BuilderParamColorGeom
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamMulti](VM.CAD.Builders.BuilderParamMulti.md)
@@ -58,7 +59,7 @@ public List<BuilderParamBase> Builders { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md)\>
+ List<[BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md)\>
 
 ## Methods
 

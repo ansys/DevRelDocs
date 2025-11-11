@@ -1,4 +1,5 @@
-#  Class ApplyPropertyForPartDocument
+# Class ApplyPropertyForPartDocument
+<a id="VM_Managed_DAFUL_Operation_ApplyPropertyForPartDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ApplyPropertyForPartDocument : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyPropertyForPartDocument](VM.Managed.DAFUL.Operation.ApplyPropertyForPartDocument.md)
 
@@ -85,13 +86,13 @@ public ApplyPropertyForPartDocument(PartDocument doc, string strDFMFFilePath, st
 
 #### Parameters
 
-`doc` PartDocument
+`doc` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
-`strDFMFFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFMFFilePath` string
 
-`strLastModifiedTimeToDFMFFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strLastModifiedTimeToDFMFFile` string
 
-`strModesXML` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModesXML` string
 
 ### <a id="VM_Managed_DAFUL_Operation_ApplyPropertyForPartDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyPropertyForPartDocument\(JournalParameter\)
 
@@ -115,7 +116,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -135,5 +136,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

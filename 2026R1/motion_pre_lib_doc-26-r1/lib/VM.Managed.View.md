@@ -1,4 +1,5 @@
-#  Class View
+# Class View
+<a id="VM_Managed_View"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class View
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [View](VM.Managed.View.md)
 
 #### Derived
@@ -72,7 +73,7 @@ public virtual void Activate(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_View_Close"></a> Close\(\)
 
@@ -90,7 +91,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_View_Dispose"></a> Dispose\(\)
 
@@ -116,9 +117,9 @@ public virtual void OnLButtonDblClk(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_OnLButtonDown_System_UInt32_System_Drawing_Point_"></a> OnLButtonDown\(uint, Point\)
 
@@ -130,9 +131,9 @@ public virtual void OnLButtonDown(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_OnLButtonUp_System_UInt32_System_Drawing_Point_"></a> OnLButtonUp\(uint, Point\)
 
@@ -144,9 +145,9 @@ public virtual void OnLButtonUp(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_OnMButtonDown_System_UInt32_System_Drawing_Point_"></a> OnMButtonDown\(uint, Point\)
 
@@ -158,9 +159,9 @@ public virtual void OnMButtonDown(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_OnMButtonUp_System_UInt32_System_Drawing_Point_"></a> OnMButtonUp\(uint, Point\)
 
@@ -172,9 +173,9 @@ public virtual void OnMButtonUp(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_OnMouseMove_System_UInt32_System_Drawing_Point_"></a> OnMouseMove\(uint, Point\)
 
@@ -186,9 +187,9 @@ public virtual void OnMouseMove(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_OnMouseWheel_System_UInt32_System_Int16_System_Drawing_Point_"></a> OnMouseWheel\(uint, short, Point\)
 
@@ -200,11 +201,11 @@ public virtual void OnMouseWheel(uint A_0, short A_1, Point A_2)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [short](https://learn.microsoft.com/dotnet/api/system.int16)
+`A_1` short
 
-`A_2` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_2` Point
 
 ### <a id="VM_Managed_View_OnRButtonDown_System_UInt32_System_Drawing_Point_"></a> OnRButtonDown\(uint, Point\)
 
@@ -216,9 +217,9 @@ public virtual void OnRButtonDown(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_OnRButtonUp_System_UInt32_System_Drawing_Point_"></a> OnRButtonUp\(uint, Point\)
 
@@ -230,9 +231,9 @@ public virtual void OnRButtonUp(uint A_0, Point A_1)
 
 #### Parameters
 
-`A_0` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`A_0` uint
 
-`A_1` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
+`A_1` Point
 
 ### <a id="VM_Managed_View_Resize_System_Int32_System_Int32_"></a> Resize\(int, int\)
 
@@ -244,11 +245,11 @@ public abstract void Resize(int nWidth, int nHeight)
 
 #### Parameters
 
-`nWidth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nWidth` int
 
 The width.
 
-`nHeight` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nHeight` int
 
 The height.
 

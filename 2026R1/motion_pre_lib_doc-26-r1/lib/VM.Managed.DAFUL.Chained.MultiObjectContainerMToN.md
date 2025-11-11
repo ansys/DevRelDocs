@@ -1,4 +1,5 @@
-#  Class MultiObjectContainerMToN
+# Class MultiObjectContainerMToN
+<a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,11 +12,11 @@ public class MultiObjectContainerMToN : MultiObjectContainer, IObservableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-MultiObjectContainer ← 
+[MultiObjectContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs) ← 
 [MultiObjectContainerMToN](VM.Managed.DAFUL.Chained.MultiObjectContainerMToN.md)
 
 #### Implements
@@ -33,15 +34,15 @@ IVerifiable
 
 #### Inherited Members
 
-MultiObjectContainer.GetEnumerator\(\), 
-MultiObjectContainer.LinkRequestUpdate\(object, LinkEventArgs\), 
-MultiObjectContainer.OnDeserialization\(object\), 
-MultiObjectContainer.SwapActionBase, 
-MultiObjectContainer.Collection, 
-MultiObjectContainer.Count, 
-MultiObjectContainer.Objects, 
-MultiObjectContainer.ObjectList, 
-MultiObjectContainer.ObjectBaseList, 
+[MultiObjectContainer.GetEnumerator\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.SwapActionBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.Collection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.Count](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.Objects](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.ObjectList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectContainer.ObjectBaseList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -85,7 +86,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -116,7 +117,7 @@ public MultiObjectContainerMToN(ICollection collection)
 
 #### Parameters
 
-`collection` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.icollection)
+`collection` ICollection
 
 The collection of objects.
 
@@ -132,7 +133,7 @@ protected IList<ObjectBase> BaseObjectCollection { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
+ IList<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_BaseObjectList"></a> BaseObjectList
 
@@ -145,7 +146,7 @@ protected List<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkCo
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkContainer.None\>\>
+ List<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkContainer.None\>\>
 
 ### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_BaseObjects"></a> BaseObjects
 
@@ -169,7 +170,7 @@ protected override int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_NumberOfBackward"></a> NumberOfBackward
 
@@ -181,7 +182,7 @@ public int NumberOfBackward { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_NumberOfForward"></a> NumberOfForward
 
@@ -193,7 +194,7 @@ public int NumberOfForward { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -207,7 +208,7 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<MultiObjectTarget\>
+ IEnumerator<[MultiObjectTarget](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs)\>
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
 
@@ -221,7 +222,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

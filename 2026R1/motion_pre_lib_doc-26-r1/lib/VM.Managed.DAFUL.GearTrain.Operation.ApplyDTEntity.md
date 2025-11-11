@@ -1,4 +1,5 @@
-#  Class ApplyDTEntity
+# Class ApplyDTEntity
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public abstract class ApplyDTEntity : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyDTEntity](VM.Managed.DAFUL.GearTrain.Operation.ApplyDTEntity.md)
 
@@ -95,7 +96,7 @@ public ApplyDTEntity(GearTrainDocument gearTrainDocument, BodyToDTData[] arData,
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document.
 
@@ -103,7 +104,7 @@ The document.
 
 The data.
 
-`bRefresh` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRefresh` bool
 
 The refresh flag.
 
@@ -145,7 +146,7 @@ protected bool m_bRefresh
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_m_bSuccess"></a> m\_bSuccess
 
@@ -157,7 +158,7 @@ protected bool m_bSuccess
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_m_gearTrainDocument"></a> m\_gearTrainDocument
 
@@ -169,7 +170,7 @@ protected GearTrainDocument m_gearTrainDocument
 
 #### Field Value
 
- GearTrainDocument
+ [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 ## Properties
 
@@ -183,7 +184,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -197,19 +198,19 @@ protected void AppendEFHousing(string strBodyName, string strDTName, string strP
 
 #### Parameters
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name
 
-`strDTName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDTName` string
 
 The dt name
 
-`strPartPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPartPath` string
 
 The part file path
 
-`lstHiddenFilePath` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstHiddenFilePath` List<string\>
 
 The hidden file path
 
@@ -223,15 +224,15 @@ protected virtual void AppendMeshFreeHousing(string strDTName, string strSolidNa
 
 #### Parameters
 
-`strDTName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDTName` string
 
 The dt entity name
 
-`strSolidName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSolidName` string
 
 The solid name
 
-`strPartPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPartPath` string
 
 The part path
 
@@ -239,7 +240,7 @@ The part path
 
 The body
 
-`lstHiddenFilePath` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstHiddenFilePath` List<string\>
 
 The hidden file path
 
@@ -251,9 +252,9 @@ protected void ApplySolidName(PartDocument document, string strSolidName)
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
-`strSolidName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSolidName` string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_ChangeName_System_String_System_String_"></a> ChangeName\(string, string\)
 
@@ -265,9 +266,9 @@ protected ObjectBase ChangeName(string strOldDTName, string strDTName)
 
 #### Parameters
 
-`strOldDTName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldDTName` string
 
-`strDTName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDTName` string
 
 #### Returns
 
@@ -283,15 +284,15 @@ protected virtual IHousing CreateMeshFreeHousing(bool bShaft, string strDTName, 
 
 #### Parameters
 
-`bShaft` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShaft` bool
 
 The shaft flag
 
-`strDTName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDTName` string
 
 The dt entity name
 
-`strSolidName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSolidName` string
 
 The solid name
 
@@ -299,7 +300,7 @@ The solid name
 
 The body
 
-`lstHiddenFilePath` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstHiddenFilePath` List<string\>
 
 The hidden file path
 
@@ -317,7 +318,7 @@ protected void DeleteDTEntity(string strCategoryName)
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_GetDuplicateEFHousing_System_String_"></a> GetDuplicateEFHousing\(string\)
 
@@ -329,13 +330,13 @@ protected Dictionary<BodyToDTData, string> GetDuplicateEFHousing(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The type
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<BodyToDTData, [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Dictionary<BodyToDTData, string\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
@@ -347,7 +348,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -359,11 +360,11 @@ protected string GetSolidName(string strBodyName)
 
 #### Parameters
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_ReCreateMeshFreeHousing_System_Boolean_System_String_System_String_System_Collections_Generic_List_System_String___"></a> ReCreateMeshFreeHousing\(bool, string, string, ref List<string\>\)
 
@@ -375,19 +376,19 @@ protected virtual IHousing ReCreateMeshFreeHousing(bool bShaft, string strBodyNa
 
 #### Parameters
 
-`bShaft` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShaft` bool
 
 The shaft flag
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name
 
-`strDTName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDTName` string
 
 The dt entity name
 
-`lstHiddenFilePath` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstHiddenFilePath` List<string\>
 
 The hidden file path
 
@@ -423,23 +424,23 @@ protected void SetAttribute(IAttributeContainer attrCont, string strBodyName, bo
 
 The attribute container
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name
 
-`bUsePowerLoad` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUsePowerLoad` bool
 
 The power load flag
 
-`powerLoadType` PowerLoad.PowerLoadType
+`powerLoadType` [PowerLoad](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs).[PowerLoadType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs)
 
 The power load type
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The power load offset
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The power load width
 

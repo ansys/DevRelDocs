@@ -1,4 +1,5 @@
-#  Class BodyAPI
+# Class BodyAPI
+<a id="VM_API_Pre_BodyAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class BodyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BodyAPI](VM.API.Pre.BodyAPI.md)
 
 #### Extension Methods
@@ -39,11 +40,11 @@ public static void CreateMeshFileInPart(this Obj body, string pathMeshFile, bool
 
 The <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> to generate mesh file.
 
-`pathMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathMeshFile` string
 
 Generated mesh file path.
 
-`addToModel` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToModel` bool
 
 The flag that indicates adding new mesh file to the model.
 
@@ -53,11 +54,11 @@ Facet parameters. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if body or pathMeshFile arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref>.
 
@@ -72,7 +73,7 @@ public static Obj CreatePartMarker(this PartDocument document, Obj body, TMatrix
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create a marker.
 
@@ -84,7 +85,7 @@ The <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> 
 
 The transformation matrix for a marker.
 
-`markerName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`markerName` string
 
 The name of the marker. If empty, default name starts with 'MK_' will be generated and used.
 
@@ -96,11 +97,11 @@ the new <xref href="VM.Managed.DAFUL.Builder.PartMarker" data-throw-if-not-resol
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'body' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not <xref href="VM.Managed.IPartMarkerParent" data-throw-if-not-resolved="false"></xref>.
 
@@ -116,7 +117,7 @@ public static Obj CreateSolidBlock(this PartDocument document, Vector position, 
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the block solid body.
 
@@ -124,19 +125,19 @@ The document to create the block solid body.
 
 The position to create the block solid body.
 
-`width` ExpressionValueVariable
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The width of the block.
 
-`height` ExpressionValueVariable
+`height` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The height of the block.
 
-`depth` ExpressionValueVariable
+`depth` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The depth of the blodk.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new block geometry. The default value is '0xBFAAAA'
 
@@ -148,11 +149,11 @@ The new <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xr
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'width', 'height', 'depth' values are equal to or less than 0.
 
@@ -166,7 +167,7 @@ public static Obj CreateSolidBlock(this PartDocument document, Vector position)
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the block solid body.
 
@@ -192,7 +193,7 @@ public static Obj CreateSolidCylinder(this PartDocument document, Vector bottomP
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the cylinder solid body.
 
@@ -204,11 +205,11 @@ The bottom position to create the cylinder solid body.
 
 The top position to create the cylinder solid body.
 
-`radius` ExpressionValueVariable
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The radius of the cylinder.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new cylinder geometry. The default value is '0xBFAAAA'
 
@@ -220,15 +221,15 @@ The new <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xr
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'radius' value is equal to or less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'bottomPosition' is not equal to 'topPosition'.
 
@@ -242,7 +243,7 @@ public static Obj CreateSolidCylinder(this PartDocument document, Vector bottomP
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the cylinder solid body.
 
@@ -272,7 +273,7 @@ public static Obj CreateSolidSphere(this PartDocument document, Vector centerPos
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the sphere solid body.
 
@@ -280,11 +281,11 @@ The document to create the sphere solid body.
 
 The center position to create the sphere solid body.
 
-`radius` ExpressionValueVariable
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The radius of the sphere.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new sphere geometry. The default value is '0xBFAAAA'
 
@@ -296,11 +297,11 @@ The new <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xr
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'radius' value is equal to or less than 0.
 
@@ -314,7 +315,7 @@ public static Obj CreateSolidSphere(this PartDocument document, Vector centerPos
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the sphere solid body.
 
@@ -340,7 +341,7 @@ public static Obj CreateSolidTriPlate(this PartDocument document, Vector firstPo
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the triplate solid body.
 
@@ -356,11 +357,11 @@ The second position to create the triplate solid body.
 
 The third position to create the triplate solid body.
 
-`height` ExpressionValueVariable
+`height` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The height of the triplate.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of the new triplate geometry. The default value is '0xBFAAAA'
 
@@ -372,15 +373,15 @@ The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="fals
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'height' value is equal to or less than 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the condition of triangle's crossproduct is not met.
 
@@ -394,7 +395,7 @@ public static Obj CreateSolidTriPlate(this PartDocument document, Vector firstPo
 
 #### Parameters
 
-`document` PartDocument
+`document` [PartDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartDocument.cs)
 
 The document to create the triplate solid body.
 

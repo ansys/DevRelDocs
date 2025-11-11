@@ -1,4 +1,5 @@
-#  Class Option
+# Class Option
+<a id="VM_CAD_Kernel_Option"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Option
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Option](VM.CAD.Kernel.Option.md)
 
 #### Extension Methods
@@ -48,7 +49,7 @@ public string @default { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Option_items"></a> items
 
@@ -58,7 +59,7 @@ public string items { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Option_name"></a> name
 
@@ -68,5 +69,5 @@ public string name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

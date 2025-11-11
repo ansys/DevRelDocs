@@ -1,4 +1,5 @@
-#  Class GearBuilderForRBEInFE
+# Class GearBuilderForRBEInFE
+<a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,14 +7,14 @@ Assembly: VMDGearTrain.dll
 The gear builder for rbe in fe
 
 ```csharp
-public class GearBuilderForRBEInFE : BuilderColorGeom, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IGeometryBuilder, IGearBuilder, IGTBuilder, IAddOnBearing
+public class GearBuilderForRBEInFE : BuilderColorGeom, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity, IGeometryBuilder, IGearBuilder, IGTBuilder, IAddOnBearing
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -41,8 +42,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
+IHasReplaceableEntity, 
 [IGeometryBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGeometryBuilder.md), 
 [IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md), 
 [IGTBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGTBuilder.md), 
@@ -79,6 +81,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -182,7 +186,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -260,7 +264,7 @@ public bool IsDesigner { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_MateAngle"></a> MateAngle
 
@@ -273,7 +277,7 @@ public double MateAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_OffsetToAxisDirection"></a> OffsetToAxisDirection
 
@@ -285,7 +289,7 @@ public double OffsetToAxisDirection { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_ParentConnectable"></a> ParentConnectable
 
@@ -322,7 +326,7 @@ public double ReferenceOffset { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_ReferencePoint"></a> ReferencePoint
 
@@ -409,7 +413,7 @@ protected override BuilderParamBase CreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
@@ -419,7 +423,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
@@ -431,11 +435,11 @@ public void GetLengthAndHeight(ref double dLength, ref double dHeight)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 Height of the d.
 
@@ -463,7 +467,7 @@ protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs 
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -481,7 +485,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The object notifier.
 
@@ -499,7 +503,7 @@ public void SetDesigner(bool bFlag)
 
 #### Parameters
 
-`bFlag` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bFlag` bool
 
 The designer flag.
 
@@ -513,7 +517,7 @@ public void SetMateAngle(double dMateAngle)
 
 #### Parameters
 
-`dMateAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMateAngle` double
 
 The mate angle.
 
@@ -527,7 +531,7 @@ public void SetReferenceOffset(double dOffset)
 
 #### Parameters
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The reference offset.
 
@@ -591,7 +595,7 @@ public void UpdateGeometry(HiddenDocument hiddenDoc, GearBuilder.ParentType type
 
 #### Parameters
 
-`hiddenDoc` HiddenDocument
+`hiddenDoc` [HiddenDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/HiddenDocument.cs)
 
 The hidden document.
 
@@ -599,11 +603,11 @@ The hidden document.
 
 The type p.
 
-`strRBE` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRBE` string
 
 The string rbe.
 
-`dReferenceOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dReferenceOffset` double
 
 The d reference offset.
 

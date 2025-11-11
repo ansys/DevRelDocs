@@ -1,4 +1,5 @@
-#  Class SolidBodyMulti.MultiBodyFactory
+# Class SolidBodyMulti.MultiBodyFactory
+<a id="VM_Managed_Symmetric_CAD_SolidBodyMulti_MultiBodyFactory"></a>
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ protected class SolidBodyMulti.MultiBodyFactory
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SolidBodyMulti.MultiBodyFactory](VM.Managed.Symmetric.CAD.SolidBodyMulti.MultiBodyFactory.md)
 
 #### Extension Methods
@@ -36,5 +37,5 @@ public Dictionary<Type, ISymmetricMultiBuilder> Dic { get; }
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[Type](https://learn.microsoft.com/dotnet/api/system.type), ISymmetricMultiBuilder\>
+ Dictionary<Type, ISymmetricMultiBuilder\>
 

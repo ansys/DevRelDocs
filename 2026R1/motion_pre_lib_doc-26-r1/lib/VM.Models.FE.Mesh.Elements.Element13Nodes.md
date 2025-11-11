@@ -1,4 +1,5 @@
-#  Class Element13Nodes
+# Class Element13Nodes
+<a id="VM_Models_FE_Mesh_Elements_Element13Nodes"></a>
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public abstract class Element13Nodes : Element10Nodes, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [Element](VM.Models.FE.Mesh.Elements.Element.md) ← 
 [Element2Nodes](VM.Models.FE.Mesh.Elements.Element2Nodes.md) ← 
@@ -85,7 +86,7 @@ public int Node11Id { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes_Node12Id"></a> Node12Id
 
@@ -96,7 +97,7 @@ public int Node12Id { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes_Node13Id"></a> Node13Id
 
@@ -107,7 +108,7 @@ public int Node13Id { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes_NumberOfNodes"></a> NumberOfNodes
 
@@ -117,5 +118,5 @@ protected override int NumberOfNodes { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

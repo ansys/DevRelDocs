@@ -1,4 +1,5 @@
-#  Class Marker
+# Class Marker
+<a id="VM_Managed_Symmetric_Marker"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class Marker : Named<Marker>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Named<Marker\>](VM.Managed.Symmetric.Named\-1.md) ← 
 [Marker](VM.Managed.Symmetric.Marker.md)
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -86,9 +87,9 @@ public bool UpdateMarker(ref Marker m_tool, ref Marker m_target, SymmetricType s
 
 #### Parameters
 
-`m_tool` Marker
+`m_tool` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
-`m_target` Marker
+`m_target` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 `sym_type` SymmetricType
 
@@ -98,7 +99,7 @@ public bool UpdateMarker(ref Marker m_tool, ref Marker m_target, SymmetricType s
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Symmetric_Marker_UpdateToNonSymName_VM_Managed_ObjectBase__VM_Managed_ObjectBase__"></a> UpdateToNonSymName\(ref ObjectBase, ref ObjectBase\)
 
@@ -114,7 +115,7 @@ public bool UpdateToNonSymName(ref ObjectBase tool, ref ObjectBase target)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Symmetric_Marker_UpdateToSymName_VM_Managed_ObjectBase__VM_Managed_ObjectBase__VM_Managed_SymmetricType_"></a> UpdateToSymName\(ref ObjectBase, ref ObjectBase, SymmetricType\)
 
@@ -132,5 +133,5 @@ public bool UpdateToSymName(ref ObjectBase tool, ref ObjectBase target, Symmetri
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

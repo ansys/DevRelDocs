@@ -1,4 +1,5 @@
-#  Class Face
+# Class Face
+<a id="VM_Managed_CAD_Face"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class Face : Topology, IObservableObject, IDisposableObject, ILinkable, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [Topology](VM.Managed.CAD.Topology.md) ← 
@@ -33,7 +34,7 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IAttributeContainer](VM.Managed.IAttributeContainer.md), 
 [ITopology](VM.Managed.ITopology.md), 
 [IDrawFacet](VM.Managed.IDrawFacet.md), 
@@ -147,7 +148,7 @@ IHistoryObjectSerializable,
 [ObjectBase.OnDestroying](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnDestroying), 
 [ObjectBase.OnUpdate](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdate), 
 [ObjectBase.OnUpdating](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -188,7 +189,7 @@ public void Draw(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas has icon information.
 
@@ -202,7 +203,7 @@ public VectorBase[] FacetPositions(FacetOption facetOptions)
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 The facet options.
 
@@ -220,7 +221,7 @@ public double GetArea()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Face_GetDefaultMaxPenetration_System_Double__"></a> GetDefaultMaxPenetration\(ref double\)
 
@@ -232,13 +233,13 @@ public bool GetDefaultMaxPenetration(ref double dMaxPenetration)
 
 #### Parameters
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 The value holds maximum penetration.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -252,7 +253,7 @@ public void GetFacetInfo(FacetOption facetOptions, ref VectorBase[] arPt, ref in
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 The facet options.
 
@@ -260,7 +261,7 @@ The facet options.
 
 The facet point array.
 
-`arConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arConnectivity` int\[\]
 
 The facet connetivity array.
 
@@ -274,7 +275,7 @@ public void GetFacetMidPointInfo(FacetOption facetOptions, ref VectorBase[] arPt
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 The facet options.
 
@@ -294,13 +295,13 @@ public bool GetPointAndDirection(ref VectorBase vecPosition, ref VectorBase vecD
 
 `vecDirection` [VectorBase](VM.Managed.VectorBase.md)
 
-`dU` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dU` double
 
-`dV` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dV` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Face_GetPointAndDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointAndDirection\(ref VectorBase, ref VectorBase\)
 
@@ -322,7 +323,7 @@ The direction.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -338,13 +339,13 @@ public bool GetPointAndDirectionFromBoundaryEdge(ref VectorBase vecPosition, ref
 
 `vecDirection` [VectorBase](VM.Managed.VectorBase.md)
 
-`dU` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dU` double
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Face_GetPointAndDirectionFromFacet_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____VM_Managed_VectorBase____"></a> GetPointAndDirectionFromFacet\(FacetOption, ref VectorBase\[\], ref VectorBase\[\]\)
 
@@ -356,7 +357,7 @@ public bool GetPointAndDirectionFromFacet(FacetOption facetOptions, ref VectorBa
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 The facet options.
 
@@ -370,7 +371,7 @@ The direction.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -384,7 +385,7 @@ public bool GetPointAndDirectionFromFacet(FacetOption facetOptions, ref VectorBa
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 The facet options.
 
@@ -398,7 +399,7 @@ The direction.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -412,7 +413,7 @@ public override string GetTypeName()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The name of topology
 
@@ -426,7 +427,7 @@ public bool IsReverseNormalDirection()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [reverse normal direction]; otherwise, <code>false</code>.
 
@@ -440,13 +441,13 @@ public bool IsReverseNormalDirection(bool bToggle)
 
 #### Parameters
 
-`bToggle` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bToggle` bool
 
 if set to <code>true</code> normal direction is moving currnet's opposite state.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [reverse normal direction] [the toggle state]; otherwise, <code>false</code>.
 
@@ -460,7 +461,7 @@ public bool IsSphere()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Face_RollbackNormalDirection"></a> RollbackNormalDirection\(\)
 

@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Bearing.Force
+# Namespace VM.Managed.DAFUL.Bearing.Force
+<a id="VM_Managed_DAFUL_Bearing_Force"></a>
 
 ### Classes
 

@@ -1,4 +1,5 @@
-#  Class SymmetricUpdateOperation
+# Class SymmetricUpdateOperation
+<a id="VM_Managed_DAFUL_Operation_SymmetricUpdateOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class SymmetricUpdateOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SymmetricUpdateOperation](VM.Managed.DAFUL.Operation.SymmetricUpdateOperation.md)
 
@@ -85,9 +86,9 @@ public SymmetricUpdateOperation(SymmetricManager symMgr, bool bNonSymmetic)
 
 #### Parameters
 
-`symMgr` SymmetricManager
+`symMgr` [SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SymmetricManager.cs)
 
-`bNonSymmetic` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNonSymmetic` bool
 
 ### <a id="VM_Managed_DAFUL_Operation_SymmetricUpdateOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> SymmetricUpdateOperation\(JournalParameter\)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -131,5 +132,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

@@ -1,4 +1,5 @@
-#  Class FullCarAnalysisBase
+# Class FullCarAnalysisBase
+<a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class FullCarAnalysisBase : AnalysisBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md)
 
@@ -88,7 +89,7 @@ public bool IsQuasiStaticStraightLineSetup { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase_RoadFile"></a> RoadFile
 
@@ -100,7 +101,7 @@ public string RoadFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase_TireRadiusPosition"></a> TireRadiusPosition
 
@@ -112,5 +113,5 @@ public abstract int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

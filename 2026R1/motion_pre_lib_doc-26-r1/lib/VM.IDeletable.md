@@ -1,4 +1,5 @@
-#  Interface IDeletable
+# Interface IDeletable
+<a id="VM_IDeletable"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,5 +24,5 @@ bool CanDelete { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Interface IChainedSegmentInfo
+# Interface IChainedSegmentInfo
+<a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -169,7 +170,7 @@ The object(Body,NodeSet,FaceSet,PatchSet).
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> is equal to <xref href="VM.Managed.IChainedSegmentConnector" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
@@ -189,7 +190,7 @@ The array of connectors(Body,NodeSet,FaceSet,PatchSet).
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> is equal to <xref href="VM.Managed.IChainedSegmentConnector" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
@@ -209,7 +210,7 @@ The contact geometry(FaceSet,PatchSet).
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.IChainedSegmentContact" data-throw-if-not-resolved="false"></xref> ; otherwise, <code>false</code>
 
@@ -229,7 +230,7 @@ The geometry reference
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
@@ -249,7 +250,7 @@ The array of contact geometry(FaceSet,PatchSet).
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetSegmentHeight1_VM_Managed_Variable_"></a> SetSegmentHeight1\(Variable\)
 
@@ -309,7 +310,7 @@ the transform(DesignFrame, Marker)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
@@ -329,7 +330,7 @@ The array of transforms(DesignFrame,Marker).
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 

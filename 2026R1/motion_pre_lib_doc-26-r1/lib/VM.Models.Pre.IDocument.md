@@ -1,4 +1,5 @@
-#  Interface IDocument
+# Interface IDocument
+<a id="VM_Models_Pre_IDocument"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -35,7 +36,7 @@ bool DoingClose { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IDocument_DoingOpen"></a> DoingOpen
 
@@ -45,7 +46,7 @@ bool DoingOpen { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IDocument_FilePath"></a> FilePath
 
@@ -55,7 +56,7 @@ string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IDocument_InitialConvertFactor"></a> InitialConvertFactor
 
@@ -75,7 +76,7 @@ bool Modified { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IDocument_Name"></a> Name
 
@@ -85,7 +86,7 @@ string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -97,9 +98,9 @@ void DisplayModeShape(int modeSequence, double scale)
 
 #### Parameters
 
-`modeSequence` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`modeSequence` int
 
-`scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scale` double
 
 ### <a id="VM_Models_Pre_IDocument_FastToConvertUnitLength_System_Boolean_"></a> FastToConvertUnitLength\(bool\)
 
@@ -109,11 +110,11 @@ double FastToConvertUnitLength(bool reverse)
 
 #### Parameters
 
-`reverse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`reverse` bool
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_IDocument_FindObjectFromID_VM_Identifier_"></a> FindObjectFromID\(Identifier\)
 
@@ -139,7 +140,7 @@ IObject FindObjectFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key.
 
@@ -157,7 +158,7 @@ IEnumerable<IObject> GetChildren()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IObject](VM.Models.Pre.IObject.md)\>
+ IEnumerable<[IObject](VM.Models.Pre.IObject.md)\>
 
 ### <a id="VM_Models_Pre_IDocument_GetCopyOfKernelUnit"></a> GetCopyOfKernelUnit\(\)
 
@@ -197,7 +198,7 @@ void Save(string path)
 
 #### Parameters
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 ### <a id="VM_Models_Pre_IDocument_ChildAdded"></a> ChildAdded
 
@@ -209,7 +210,7 @@ event EventHandler<Identifier> ChildAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Models_Pre_IDocument_ChildRemoved"></a> ChildRemoved
 
@@ -221,7 +222,7 @@ event EventHandler<Identifier> ChildRemoved
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Models_Pre_IDocument_ChildReplaced"></a> ChildReplaced
 
@@ -233,7 +234,7 @@ event EventHandler<Identifier> ChildReplaced
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Models_Pre_IDocument_ChildReplacing"></a> ChildReplacing
 
@@ -245,7 +246,7 @@ event EventHandler<Identifier> ChildReplacing
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Models_Pre_IDocument_Destroying"></a> Destroying
 
@@ -257,7 +258,7 @@ event EventHandler Destroying
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="VM_Models_Pre_IDocument_SelectionChanged"></a> SelectionChanged
 
@@ -267,5 +268,5 @@ event EventHandler<IEnumerable<Identifier>> SelectionChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Identifier\>\>
+ EventHandler<IEnumerable<Identifier\>\>
 

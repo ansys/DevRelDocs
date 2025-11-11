@@ -1,4 +1,5 @@
-#  Class PickedFace
+# Class PickedFace
+<a id="VM_Managed_DAFUL_Builder_PickedFace"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class PickedFace
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickedFace](VM.Managed.DAFUL.Builder.PickedFace.md)
 
 #### Extension Methods
@@ -36,5 +37,5 @@ public string[] ObjectKey { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 

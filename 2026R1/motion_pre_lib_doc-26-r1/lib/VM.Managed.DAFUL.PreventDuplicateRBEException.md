@@ -1,4 +1,5 @@
-#  Class PreventDuplicateRBEException
+# Class PreventDuplicateRBEException
+<a id="VM_Managed_DAFUL_PreventDuplicateRBEException"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -9,8 +10,8 @@ public class PreventDuplicateRBEException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [PreventDuplicateRBEException](VM.Managed.DAFUL.PreventDuplicateRBEException.md)
 
 #### Extension Methods
@@ -29,5 +30,5 @@ public PreventDuplicateRBEException(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 

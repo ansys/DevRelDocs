@@ -1,4 +1,5 @@
-#  Class ReferenceSetFace
+# Class ReferenceSetFace
+<a id="VM_Managed_DAFUL_ReferenceSetFace"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class ReferenceSetFace : Reference, IObservableObject, IDisposableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Reference ← 
@@ -37,7 +38,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IReferencable, 
 INamed, 
@@ -188,7 +189,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -219,11 +220,11 @@ protected ReferenceSetFace(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -325,7 +326,7 @@ public string ConnectableFullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_ConnectableName"></a> ConnectableName
 
@@ -337,7 +338,7 @@ public string ConnectableName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_ConnectablePosition"></a> ConnectablePosition
 
@@ -361,7 +362,7 @@ public string ConnectablePostfixName { set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_GeometryFullName"></a> GeometryFullName
 
@@ -373,7 +374,7 @@ public string GeometryFullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
 
@@ -385,7 +386,7 @@ public string GeometryNameForMultiContact { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_HalfThickness"></a> HalfThickness
 
@@ -397,7 +398,7 @@ public ExpressionValueVariable HalfThickness { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_IsActionGeometry"></a> IsActionGeometry
 
@@ -409,7 +410,7 @@ public bool IsActionGeometry { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_IsBaseGeometry"></a> IsBaseGeometry
 
@@ -421,7 +422,7 @@ public bool IsBaseGeometry { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_IsRepresentedAsBSurface"></a> IsRepresentedAsBSurface
 
@@ -433,7 +434,7 @@ public bool IsRepresentedAsBSurface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_MaxPenetration"></a> MaxPenetration
 
@@ -445,7 +446,7 @@ public ExpressionValueVariable MaxPenetration { get; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_ParentType"></a> ParentType
 
@@ -481,7 +482,7 @@ public string ReferenceType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_ReferenceSetFace_SurfaceSmoothingType"></a> SurfaceSmoothingType
 
@@ -533,7 +534,7 @@ public bool GetDefaultMaxPenetration(ref double dMaxPenetration, IReferencable r
 
 #### Parameters
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 The maximum penetration.
 
@@ -543,7 +544,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -557,17 +558,17 @@ public bool GetGeometryNavigatorInformation(XmlDocument xmlDom, XmlElement xmlEl
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument information.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -593,13 +594,13 @@ The transformation matrix
 
 The transformation matrix to compare
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The minimum distance
 
@@ -629,13 +630,13 @@ The transformation matrix to compare
 
 Directions
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The minimum distance
 
@@ -649,21 +650,21 @@ protected override bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, Xml
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlRootEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlRootEle` XmlElement
 
 The XmlElement for object.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 if set to <code>true</code> [has child].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -689,7 +690,7 @@ public virtual void GetPointAndConnectivity(FacetOption facetOptions, ref Vector
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 The facet options.
 
@@ -697,11 +698,11 @@ The facet options.
 
 The array of points
 
-`arConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arConnectivity` int\[\]
 
 The array of connectivities
 
-`arNumOfConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arNumOfConnectivity` int\[\]
 
 The number of connectivities
 
@@ -709,7 +710,7 @@ The number of connectivities
 
 The reference
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
@@ -737,7 +738,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -765,7 +766,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -783,7 +784,7 @@ public override bool IsOwner(Reference owner)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified owner; otherwise, <code>false</code>.
 

@@ -1,4 +1,5 @@
-#  Class ApplyRequest
+# Class ApplyRequest
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRequest"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ApplyRequest : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyRequest](VM.Managed.DAFUL.GearTrain.Operation.ApplyRequest.md)
 
@@ -87,15 +88,15 @@ public ApplyRequest(GearTrainDocument gearTrainDocument, Request request, IEnume
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The geartrain document
 
-`request` Request
+`request` [Request](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Request.cs)
 
 The request
 
-`lstGearsetForceDisplay` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`lstGearsetForceDisplay` IEnumerable<bool\>
 
 The gearset force display
 
@@ -125,11 +126,11 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ## Methods
 
@@ -143,7 +144,7 @@ public override void Execute()
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRequest_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
@@ -155,7 +156,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

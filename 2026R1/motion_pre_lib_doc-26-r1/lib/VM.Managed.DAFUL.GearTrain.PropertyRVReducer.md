@@ -1,4 +1,5 @@
-#  Class PropertyRVReducer
+# Class PropertyRVReducer
+<a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public class PropertyRVReducer : Property, IObservableObject, IDisposableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md)
 
 #### Implements
@@ -31,7 +32,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -40,12 +41,12 @@ IHasID
 
 #### Inherited Members
 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -144,7 +145,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -185,7 +186,7 @@ public SolidBody[] BearingBodies { get; set; }
 
 #### Property Value
 
- SolidBody\[\]
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CenterOfPinset"></a> CenterOfPinset
 
@@ -281,7 +282,7 @@ public GeneralContact[] GeneralContacts { get; set; }
 
 #### Property Value
 
- GeneralContact\[\]
+ [GeneralContact](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/GeneralContact.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_NeedleRollerBearingList"></a> NeedleRollerBearingList
 
@@ -305,7 +306,7 @@ public int NumberOfCrankShaft { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_NumberOfCycloidDisc"></a> NumberOfCycloidDisc
 
@@ -317,7 +318,7 @@ public int NumberOfCycloidDisc { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_PlanetaryGearSet"></a> PlanetaryGearSet
 
@@ -461,7 +462,7 @@ public SetFace[] SetFaces { get; set; }
 
 #### Property Value
 
- SetFace\[\]
+ [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_ShaftSetForSun"></a> ShaftSetForSun
 
@@ -497,7 +498,7 @@ public bool SynchronizeBearing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_SynchronizeCrankShaft"></a> SynchronizeCrankShaft
 
@@ -509,7 +510,7 @@ public bool SynchronizeCrankShaft { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_TaperedRollerBearingList"></a> TaperedRollerBearingList
 
@@ -619,7 +620,7 @@ public void AddBearingBody(SolidBody solidBody)
 
 #### Parameters
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The solid body
 
@@ -647,7 +648,7 @@ public void AddFaceset(SetFace setFace)
 
 #### Parameters
 
-`setFace` SetFace
+`setFace` [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 The faceset
 
@@ -661,7 +662,7 @@ public void AddGeneralContact(GeneralContact generalContact)
 
 #### Parameters
 
-`generalContact` GeneralContact
+`generalContact` [GeneralContact](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/GeneralContact.cs)
 
 The general contact
 
@@ -715,13 +716,13 @@ public bool ContainsBearingBody(SolidBody solidBody)
 
 #### Parameters
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The solidBody
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_DefaultCrankShaftSectionInfo_System_Int32_"></a> DefaultCrankShaftSectionInfo\(int\)
 
@@ -733,7 +734,7 @@ public PropertyRVReducer.CrankShaftSectionInfo[] DefaultCrankShaftSectionInfo(in
 
 #### Parameters
 
-`nSection` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nSection` int
 
 The No. section
 
@@ -765,7 +766,7 @@ protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs 
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The object notifier.
 
@@ -783,7 +784,7 @@ public void RemoveAtForBearing(int nIndex)
 
 #### Parameters
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 The index
 
@@ -797,7 +798,7 @@ public void RemoveCrankShaft(int nIndex)
 
 #### Parameters
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 The shaft set index
 

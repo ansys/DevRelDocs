@@ -1,4 +1,5 @@
-#  Enum AnalysisExternFiles.ExternFileType
+# Enum AnalysisExternFiles.ExternFileType
+<a id="VM_Managed_DAFUL_Car_AnalysisExternFiles_ExternFileType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

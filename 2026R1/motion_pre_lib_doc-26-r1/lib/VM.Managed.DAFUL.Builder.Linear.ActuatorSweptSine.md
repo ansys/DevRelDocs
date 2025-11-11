@@ -1,4 +1,5 @@
-#  Class ActuatorSweptSine
+# Class ActuatorSweptSine
+<a id="VM_Managed_DAFUL_Builder_Linear_ActuatorSweptSine"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -9,10 +10,10 @@ public class ActuatorSweptSine : Actuator<ActuatorSweptSine, PropertyActuatorSwe
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<ActuatorSweptSine\> ← 
-BuilderSymmetric<ActuatorSweptSine\> ← 
-BuilderNamed<ActuatorSweptSine\> ← 
+object ← 
+[BuilderBase<ActuatorSweptSine\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<ActuatorSweptSine\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<ActuatorSweptSine\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [Actuator<ActuatorSweptSine, PropertyActuatorSweptSine\>](VM.Managed.DAFUL.Builder.Linear.Actuator\-2.md) ← 
 [ActuatorSweptSine](VM.Managed.DAFUL.Builder.Linear.ActuatorSweptSine.md)
 
@@ -22,29 +23,29 @@ IBuilder
 
 #### Inherited Members
 
-BuilderNamed<ActuatorSweptSine\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<ActuatorSweptSine\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<ActuatorSweptSine\>.Name, 
-BuilderSymmetric<ActuatorSweptSine\>.Build\(Document\), 
-BuilderSymmetric<ActuatorSweptSine\>.Symmetric, 
-BuilderSymmetric<ActuatorSweptSine\>.CurrentSymmetric, 
-BuilderBase<ActuatorSweptSine\>.m\_bSuccess, 
-BuilderBase<ActuatorSweptSine\>.Build\(Document\), 
-BuilderBase<ActuatorSweptSine\>.Build\(Document, List<string\>\), 
-BuilderBase<ActuatorSweptSine\>.Validate\(IList<string\>\), 
-BuilderBase<ActuatorSweptSine\>.Success\(\), 
-BuilderBase<ActuatorSweptSine\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<ActuatorSweptSine\>.OnFinalBuild\(string, Document\), 
-BuilderBase<ActuatorSweptSine\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<ActuatorSweptSine\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<ActuatorSweptSine\>.Parameters, 
-BuilderBase<ActuatorSweptSine\>.AddToDoc, 
-BuilderBase<ActuatorSweptSine\>.UseChangedObject, 
-BuilderBase<ActuatorSweptSine\>.SetPointKey, 
-BuilderBase<ActuatorSweptSine\>.BuildObject, 
-BuilderBase<ActuatorSweptSine\>.BuildDocument, 
-BuilderBase<ActuatorSweptSine\>.UseInterface, 
-BuilderBase<ActuatorSweptSine\>.ErrorMessage
+[BuilderNamed<ActuatorSweptSine\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ActuatorSweptSine\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ActuatorSweptSine\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<ActuatorSweptSine\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ActuatorSweptSine\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ActuatorSweptSine\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorSweptSine\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -98,5 +99,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

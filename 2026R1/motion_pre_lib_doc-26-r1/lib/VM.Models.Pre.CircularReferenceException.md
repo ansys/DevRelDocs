@@ -1,4 +1,5 @@
-#  Class CircularReferenceException
+# Class CircularReferenceException
+<a id="VM_Models_Pre_CircularReferenceException"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,10 +10,10 @@ public class CircularReferenceException : InvalidOperationException
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
-[SystemException](https://learn.microsoft.com/dotnet/api/system.systemexception) ← 
-[InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception) ← 
+object ← 
+Exception ← 
+SystemException ← 
+InvalidOperationException ← 
 [CircularReferenceException](VM.Models.Pre.CircularReferenceException.md)
 
 #### Extension Methods
@@ -31,7 +32,7 @@ public CircularReferenceException(object problem)
 
 #### Parameters
 
-`problem` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`problem` object
 
 ### <a id="VM_Models_Pre_CircularReferenceException__ctor_System_Object_System_Collections_IEnumerable_"></a> CircularReferenceException\(object, IEnumerable\)
 
@@ -41,9 +42,9 @@ public CircularReferenceException(object problem, IEnumerable objectChain)
 
 #### Parameters
 
-`problem` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`problem` object
 
-`objectChain` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
+`objectChain` IEnumerable
 
 ## Properties
 
@@ -55,7 +56,7 @@ public IEnumerable ObjectsChain { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
+ IEnumerable
 
 ### <a id="VM_Models_Pre_CircularReferenceException_Problem"></a> Problem
 
@@ -65,5 +66,5 @@ public object Problem { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 

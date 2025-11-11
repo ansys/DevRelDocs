@@ -1,4 +1,5 @@
-#  Class Contact
+# Class Contact
+<a id="VM_Managed_Operation_Contact"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -9,7 +10,7 @@ public static class Contact
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Contact](VM.Managed.Operation.Contact.md)
 
 #### Extension Methods
@@ -30,13 +31,13 @@ public static Tie CreateTie(Document3D activeDocument, SetFace setFaceBase, SetF
 
 `activeDocument` Document3D
 
-`setFaceBase` SetFace
+`setFaceBase` [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
-`setFaceAction` SetFace
+`setFaceAction` [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 #### Returns
 
- Tie
+ [Tie](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMFlexibleBase/Tie.cs)
 

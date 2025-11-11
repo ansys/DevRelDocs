@@ -1,4 +1,5 @@
-#  Class SegmentPlacingInfo
+# Class SegmentPlacingInfo
+<a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,7 +12,7 @@ public class SegmentPlacingInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SegmentPlacingInfo](VM.Managed.DAFUL.Chained.SegmentPlacingInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public double[] m_arOrientation
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_bEffectSprocketOn"></a> m\_bEffectSprocketOn
 
@@ -52,7 +53,7 @@ public bool m_bEffectSprocketOn
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_bSprocketOn"></a> m\_bSprocketOn
 
@@ -64,7 +65,7 @@ public bool m_bSprocketOn
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dAngleHalfSegment"></a> m\_dAngleHalfSegment
 
@@ -76,7 +77,7 @@ public double m_dAngleHalfSegment
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dSegement_AssembleLength"></a> m\_dSegement\_AssembleLength
 
@@ -88,7 +89,7 @@ public double m_dSegement_AssembleLength
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dSegement_OriginalLength"></a> m\_dSegement\_OriginalLength
 
@@ -100,7 +101,7 @@ public double m_dSegement_OriginalLength
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dTheta"></a> m\_dTheta
 
@@ -112,7 +113,7 @@ public double m_dTheta
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_nInvolvedPath"></a> m\_nInvolvedPath
 
@@ -124,7 +125,7 @@ public int m_nInvolvedPath
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_nNoOfSegment"></a> m\_nNoOfSegment
 
@@ -136,7 +137,7 @@ public int m_nNoOfSegment
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_nStage"></a> m\_nStage
 
@@ -148,7 +149,7 @@ public int m_nStage
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptLengthMEnd"></a> m\_ptLengthMEnd
 
@@ -160,7 +161,7 @@ public double[] m_ptLengthMEnd
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptLengthPEnd"></a> m\_ptLengthPEnd
 
@@ -172,7 +173,7 @@ public double[] m_ptLengthPEnd
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptPosi"></a> m\_ptPosi
 
@@ -184,7 +185,7 @@ public double[] m_ptPosi
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptTangent"></a> m\_ptTangent
 

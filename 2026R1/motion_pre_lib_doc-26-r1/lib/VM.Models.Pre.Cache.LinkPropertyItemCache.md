@@ -1,4 +1,5 @@
-#  Class LinkPropertyItemCache
+# Class LinkPropertyItemCache
+<a id="VM_Models_Pre_Cache_LinkPropertyItemCache"></a>
 
 Namespace: [VM.Models.Pre.Cache](VM.Models.Pre.Cache.md)  
 Assembly: VM.Models.Pre.dll  
@@ -11,7 +12,7 @@ public static class LinkPropertyItemCache
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LinkPropertyItemCache](VM.Models.Pre.Cache.LinkPropertyItemCache.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public static IEnumerable<PropertyInfo> GetLinkProperties(this Type type, LinkPr
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The <xref href="System.Type" data-throw-if-not-resolved="false"></xref> whiche want to find properties.
 
@@ -42,7 +43,7 @@ The <xref href="VM.Models.Pre.LinkPropertyType" data-throw-if-not-resolved="fals
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+ IEnumerable<PropertyInfo\>
 
 Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref>.
 
@@ -56,7 +57,7 @@ public static IEnumerable<PropertyInfo> GetLinkProperties(this object obj, LinkP
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object whiche want to find properties.
 
@@ -66,7 +67,7 @@ The <xref href="VM.Models.Pre.LinkPropertyType" data-throw-if-not-resolved="fals
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+ IEnumerable<PropertyInfo\>
 
 Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref>.
 
@@ -80,7 +81,7 @@ public static IEnumerable<(PropertyInfo property, object value)> GetLinkProperti
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object whiche want to find properties.
 
@@ -90,7 +91,7 @@ The <xref href="VM.Models.Pre.LinkPropertyType" data-throw-if-not-resolved="fals
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<\([PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo) [property](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.reflection.propertyinfo,system.object\-.property), [object](https://learn.microsoft.com/dotnet/api/system.object) [value](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.reflection.propertyinfo,system.object\-.value)\)\>
+ IEnumerable<\(PropertyInfo property, object value\)\>
 
 Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> and its value.
 
@@ -104,7 +105,7 @@ public static IEnumerable<T> GetLinkedObjects<T>(this object obj, LinkPropertyTy
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object whiche want to find properties.
 
@@ -114,7 +115,7 @@ The <xref href="VM.Models.Pre.LinkPropertyType" data-throw-if-not-resolved="fals
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+ IEnumerable<T\>
 
 Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of property values.
 

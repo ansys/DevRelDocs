@@ -1,4 +1,5 @@
-#  Class RequestAPI
+# Class RequestAPI
+<a id="VM_API_Pre_RequestAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class RequestAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RequestAPI](VM.API.Pre.RequestAPI.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public static Obj CreateConnectedEntityRequest(this SubSystemDocument subSystemD
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `actionEntity` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -52,11 +53,11 @@ public static void CreateEntitiesRequest(this SubSystemDocument subSystemDocumen
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `actionEntities` [Obj](VM.API.Pre.Obj.md)\[\]
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 ### <a id="VM_API_Pre_RequestAPI_CreateEntityRequest_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_"></a> CreateEntityRequest\(SubSystemDocument, Obj, string\)
 
@@ -69,11 +70,11 @@ public static Obj CreateEntityRequest(this SubSystemDocument subSystemDocument, 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `actionEntity` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -89,17 +90,17 @@ public static Obj CreateKinematicRequest(this SubSystemDocument subSystemDocumen
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `actionEntity` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 `baseEntity` [Obj](VM.API.Pre.Obj.md)?
 
 `referenceMarker` [Obj](VM.API.Pre.Obj.md)?
 
-`outputType` RequestKinematic.OutputType?
+`outputType` [RequestKinematic](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/RequestKinematic.cs).[OutputType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/RequestKinematic.cs)?
 
 #### Returns
 
@@ -115,15 +116,15 @@ public static Obj CreateStructuralRequest(this SubSystemDocument subSystemDocume
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `actionEntity` [Obj](VM.API.Pre.Obj.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`sideFilter` RequestStructure.SideFilter
+`sideFilter` [RequestStructure](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/RequestStructure.cs).[SideFilter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/RequestStructure.cs)
 
-`outputType` RequestStructure.OutputType?
+`outputType` [RequestStructure](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/RequestStructure.cs).[OutputType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/RequestStructure.cs)?
 
 #### Returns
 

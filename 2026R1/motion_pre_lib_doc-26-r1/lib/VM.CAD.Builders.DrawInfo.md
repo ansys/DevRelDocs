@@ -1,4 +1,5 @@
-#  Class DrawInfo
+# Class DrawInfo
+<a id="VM_CAD_Builders_DrawInfo"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public abstract class DrawInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DrawInfo](VM.CAD.Builders.DrawInfo.md)
 
 #### Derived

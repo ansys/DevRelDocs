@@ -1,4 +1,5 @@
-#  Class Variable
+# Class Variable
+<a id="VM_Managed_Symmetric_Variable"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class Variable : ISymmetricBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Variable](VM.Managed.Symmetric.Variable.md)
 
 #### Implements
@@ -42,7 +43,7 @@ public object Build(object tool, SymmetricType sym_type, Plane sym_plane, Docume
 
 #### Parameters
 
-`tool` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`tool` object
 
 The object.
 
@@ -58,7 +59,7 @@ Plane of symmetric.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The new object of symmetric.
 

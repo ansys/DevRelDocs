@@ -1,4 +1,5 @@
-#  Class UpdateParameterOperation
+# Class UpdateParameterOperation
+<a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class UpdateParameterOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateParameterOperation](VM.Managed.DAFUL.Car.Operation.UpdateParameterOperation.md)
 
@@ -85,9 +86,9 @@ public UpdateParameterOperation(Dictionary<string, BindingSource> dicAll, Dictio
 
 #### Parameters
 
-`dicAll` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [BindingSource](https://learn.microsoft.com/dotnet/api/system.windows.forms.bindingsource)\>
+`dicAll` Dictionary<string, BindingSource\>
 
-`dicDoc` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), Document3D\>
+`dicDoc` Dictionary<string, Document3D\>
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation__ctor_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo___"></a> UpdateParameterOperation\(Dictionary<string, List<ParamInfo\>\>\)
 
@@ -97,7 +98,7 @@ public UpdateParameterOperation(Dictionary<string, List<UpdateParameterOperation
 
 #### Parameters
 
-`dicParam` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UpdateParameterOperation](VM.Managed.DAFUL.Car.Operation.UpdateParameterOperation.md).[ParamInfo](VM.Managed.DAFUL.Car.Operation.UpdateParameterOperation.ParamInfo.md)\>\>
+`dicParam` Dictionary<string, List<[UpdateParameterOperation](VM.Managed.DAFUL.Car.Operation.UpdateParameterOperation.md).[ParamInfo](VM.Managed.DAFUL.Car.Operation.UpdateParameterOperation.ParamInfo.md)\>\>
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateParameterOperation\(JournalParameter\)
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -141,5 +142,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

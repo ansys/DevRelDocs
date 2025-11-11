@@ -1,4 +1,5 @@
-#  Class SemicircleCleat
+# Class SemicircleCleat
+<a id="VM_Managed_DAFUL_Car_SemicircleCleat"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class SemicircleCleat : CleatShape
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CleatShape](VM.Managed.DAFUL.Car.CleatShape.md) ← 
 [SemicircleCleat](VM.Managed.DAFUL.Car.SemicircleCleat.md)
 
@@ -63,7 +64,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_SemicircleCleat_TypeOfCleatShape"></a> TypeOfCleatShape
 
@@ -89,11 +90,11 @@ public override string GetXZData(double dEndTime)
 
 #### Parameters
 
-`dEndTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dEndTime` double
 
 The d end time.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

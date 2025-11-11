@@ -1,4 +1,5 @@
-#  Class LinkCollection<T, TLink, TCollection\>
+# Class LinkCollection<T, TLink, TCollection\>
+<a id="VM_Managed_Collections_LinkCollection_3"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +18,7 @@ public class LinkCollection<T, TLink, TCollection> : ILinkCollection, IPostDeser
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LinkCollection<T, TLink, TCollection\>](VM.Managed.Collections.LinkCollection\-3.md)
 
 #### Implements
@@ -75,7 +76,7 @@ protected NotifyCollectionChangedEventHandler m_ehCollectionChanged
 
 #### Field Value
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+ NotifyCollectionChangedEventHandler
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_m_objLinkOwner"></a> m\_objLinkOwner
 
@@ -95,7 +96,7 @@ protected object m_syncLock
 
 #### Field Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ## Properties
 
@@ -107,7 +108,7 @@ public virtual int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_IsReadOnly"></a> IsReadOnly
 
@@ -117,7 +118,7 @@ public virtual bool IsReadOnly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -141,7 +142,7 @@ public virtual void Add(T item, bool bContainsDocument)
 
 `item` T
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_AddDestroyEvent__1_"></a> AddDestroyEvent\(TLink\)
 
@@ -167,7 +168,7 @@ public virtual void Clear(bool bContainsDocument)
 
 #### Parameters
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_Contains__0_"></a> Contains\(T\)
 
@@ -181,7 +182,7 @@ public virtual bool Contains(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_CopyTo__0___System_Int32_"></a> CopyTo\(T\[\], int\)
 
@@ -193,7 +194,7 @@ public virtual void CopyTo(T[] ar, int arrayIndex)
 
 `ar` T\[\]
 
-`arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`arrayIndex` int
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_GetEnumerator"></a> GetEnumerator\(\)
 
@@ -203,7 +204,7 @@ public virtual IEnumerator<T> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<T\>
+ IEnumerator<T\>
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_GetEnumeratorImpl"></a> GetEnumeratorImpl\(\)
 
@@ -213,7 +214,7 @@ IEnumerator GetEnumeratorImpl()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
+ IEnumerator
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_Remove__0_"></a> Remove\(T\)
 
@@ -227,7 +228,7 @@ public virtual bool Remove(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
@@ -239,11 +240,11 @@ public virtual bool Remove(T item, bool bContainsDocument)
 
 `item` T
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_SetModified_VM_Managed_Collections_ModifiedType_System_Boolean_"></a> SetModified\(ModifiedType, bool\)
 
@@ -255,7 +256,7 @@ public void SetModified(ModifiedType modifiedType, bool bContainsDocument)
 
 `modifiedType` [ModifiedType](VM.Managed.Collections.ModifiedType.md)
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_SimpleValueModifiedForCollection_VM_Managed_Collections_ModifiedType_"></a> SimpleValueModifiedForCollection\(ModifiedType\)
 
@@ -277,7 +278,7 @@ protected void SimpleValueModifiedForCollection(ModifiedType modifiedType, bool 
 
 `modifiedType` [ModifiedType](VM.Managed.Collections.ModifiedType.md)
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_raise_CollectionChanged_System_Object_System_Collections_Specialized_NotifyCollectionChangedEventArgs_"></a> raise\_CollectionChanged\(object, NotifyCollectionChangedEventArgs\)
 
@@ -287,9 +288,9 @@ public void raise_CollectionChanged(object objNotifier, NotifyCollectionChangedE
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
-`e` [NotifyCollectionChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs)
+`e` NotifyCollectionChangedEventArgs
 
 ### <a id="VM_Managed_Collections_LinkCollection_3_CollectionChanged"></a> CollectionChanged
 
@@ -299,5 +300,5 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 
 #### Event Type
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+ NotifyCollectionChangedEventHandler
 

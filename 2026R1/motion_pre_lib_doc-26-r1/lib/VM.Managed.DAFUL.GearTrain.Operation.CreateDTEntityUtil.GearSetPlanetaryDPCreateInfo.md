@@ -1,4 +1,5 @@
-#  Class CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo
+# Class CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo : CreateDTEntityUti
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDTEntityUtil.GearSetCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetCreateInfo.md) ← 
 [CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo.md)
 
@@ -68,7 +69,7 @@ public PropertyGearSetPlanetaryDP.DogLegDirectionType DogLegDirection
 
 #### Field Value
 
- PropertyGearSetPlanetaryDP.DogLegDirectionType
+ [PropertyGearSetPlanetaryDP](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetPlanetaryDP.cs).[DogLegDirectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearSetPlanetaryDP.cs)
 
 ## Properties
 
@@ -80,7 +81,7 @@ public string[] InputArrayForPlanetaryDP { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 

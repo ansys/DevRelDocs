@@ -1,4 +1,5 @@
-#  Class BeamInfo
+# Class BeamInfo
+<a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -9,7 +10,7 @@ public class BeamInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BeamInfo](VM.Managed.DAFUL.Builder.Beam.BeamInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string Color
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_MaterialProperty"></a> MaterialProperty
 
@@ -46,7 +47,7 @@ public string MaterialProperty
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_NoOfElements"></a> NoOfElements
 
@@ -56,7 +57,7 @@ public int NoOfElements
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Properties
 
@@ -68,7 +69,7 @@ public CrossSectionType CrossSection { get; set; }
 
 #### Property Value
 
- CrossSectionType
+ [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_CrossSectionValueInfo"></a> CrossSectionValueInfo
 
@@ -78,7 +79,7 @@ public string[] CrossSectionValueInfo { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_Direction"></a> Direction
 
@@ -88,7 +89,7 @@ public string Direction { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_Point"></a> Point
 
@@ -98,5 +99,5 @@ public string Point { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

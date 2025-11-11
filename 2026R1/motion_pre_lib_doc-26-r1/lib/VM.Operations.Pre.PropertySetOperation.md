@@ -1,4 +1,5 @@
-#  Class PropertySetOperation
+# Class PropertySetOperation
+<a id="VM_Operations_Pre_PropertySetOperation"></a>
 
 Namespace: [VM.Operations.Pre](VM.Operations.Pre.md)  
 Assembly: VM.Operations.Pre.dll  
@@ -10,13 +11,13 @@ public class PropertySetOperation : OperationBase, IPropertySetOperation, IOpera
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [PropertySetOperation](VM.Operations.Pre.PropertySetOperation.md)
 
 #### Implements
 
-IPropertySetOperation, 
+[IPropertySetOperation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VM.Operations/Interfaces/IPropertySetOperation.cs), 
 IOperation
 
 #### Inherited Members
@@ -85,11 +86,11 @@ public PropertySetOperation(string targetName, string propertyName, object value
 
 #### Parameters
 
-`targetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetName` string
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value` object
 
 ### <a id="VM_Operations_Pre_PropertySetOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> PropertySetOperation\(JournalParameter\)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Operations_Pre_PropertySetOperation_PropertyName"></a> PropertyName
 
@@ -121,7 +122,7 @@ public string PropertyName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Operations_Pre_PropertySetOperation_TargetName"></a> TargetName
 
@@ -131,7 +132,7 @@ public string TargetName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Operations_Pre_PropertySetOperation_Value"></a> Value
 
@@ -141,7 +142,7 @@ public object Value { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ## Methods
 
@@ -159,5 +160,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

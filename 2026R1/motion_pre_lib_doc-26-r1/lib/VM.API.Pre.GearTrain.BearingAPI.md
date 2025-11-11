@@ -1,4 +1,5 @@
-#  Class BearingAPI
+# Class BearingAPI
+<a id="VM_API_Pre_GearTrain_BearingAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class BearingAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BearingAPI](VM.API.Pre.GearTrain.BearingAPI.md)
 
 #### Extension Methods
@@ -33,13 +34,13 @@ public static void ApplyRollingBearing(this HiddenBearingDocument document)
 
 #### Parameters
 
-`document` HiddenBearingDocument
+`document` [HiddenBearingDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenBearingDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenBearingDocument" data-throw-if-not-resolved="false"></xref> for bearing apply. If null, the active document will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearing' arguments are empty.
 
@@ -54,13 +55,13 @@ public static void ApplySlidingBearing(this HiddenSlidingBearingDocument documen
 
 #### Parameters
 
-`document` HiddenSlidingBearingDocument
+`document` [HiddenSlidingBearingDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenBearingDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenSlidingBearingDocument" data-throw-if-not-resolved="false"></xref> for sliding bearing apply. If null, the active document will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearing' arguments are empty.
 
@@ -75,99 +76,99 @@ public static Obj CreateBearingForAngularContactBall(this GearTrainDocument docu
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the bearing. If empty, default name starts with 'Rolling_' will be generated and used.
 
-`outerDiameterOfOuterRaceway` ExpressionValueVariable?
+`outerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of outer raceway. The default value is 47.
 
-`innerDiameterOfOuterRaceway` ExpressionValueVariable?
+`innerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of outer raceway. The default value is 36.5.
 
-`outerDiameterOfInnerRaceway` ExpressionValueVariable?
+`outerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of inner raceway. The default value is 30.8.
 
-`innerDiameterOfInnerRaceway` ExpressionValueVariable?
+`innerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of inner raceway. The default value is 20.
 
-`ballDiameter` ExpressionValueVariable?
+`ballDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball diameter. The default value is 7.938.
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width. The default value is 14.
 
-`numberOfBall` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfBall` int
 
 The number of ball. The default value is 11.
 
-`curvatureCenterOuter` ExpressionValueVariable?
+`curvatureCenterOuter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The curvature center of outer. The default value is 16.825.
 
-`curvatureCenterInner` ExpressionValueVariable?
+`curvatureCenterInner` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The curvature center of inner. The default value is 16.825.
 
-`roundingRadius` ExpressionValueVariable?
+`roundingRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The rounding radius. The default value is 1.
 
-`outerRacewayShoulderBore2` ExpressionValueVariable?
+`outerRacewayShoulderBore2` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second shoulder bore of outer raceway. The default value is 41.7.
 
-`innerRacewayShoulderDiameter2` ExpressionValueVariable?
+`innerRacewayShoulderDiameter2` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second shoulder diameter of outer raceway. The default value is 25.9.
 
-`actionPoint` ExpressionValueVariable?
+`actionPoint` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The action point. The default value is 21.
 
-`ballPitchDiameter` ExpressionValueVariable?
+`ballPitchDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball pitch diameter. The default value is 33.65.
 
-`ballCr` ExpressionValueVariable?
+`ballCr` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Cr. The default value is 14300.
 
-`ballC0r` ExpressionValueVariable?
+`ballC0r` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The C0r. The default value is 8150.
 
-`ballF0` ExpressionValueVariable?
+`ballF0` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The f0. The default value is 15.
 
-`outerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`outerRacewayColor` Color?
 
 The color of the outer raceway.
 
-`innerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`innerRacewayColor` Color?
 
 The color of the inner raceway.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -182,79 +183,79 @@ public static Obj CreateBearingForCylindricalRoller(this GearTrainDocument docum
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the bearing. If empty, default name starts with 'Rolling_' will be generated and used.
 
-`outerDiameterOfOuterRaceway` ExpressionValueVariable?
+`outerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of outer raceway. The default value is 47.
 
-`innerDiameterOfOuterRaceway` ExpressionValueVariable?
+`innerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of outer raceway. The default value is 36.5.
 
-`outerDiameterOfInnerRaceway` ExpressionValueVariable?
+`outerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of inner raceway. The default value is 30.8.
 
-`innerDiameterOfInnerRaceway` ExpressionValueVariable?
+`innerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of inner raceway. The default value is 20.
 
-`ballDiameter` ExpressionValueVariable?
+`ballDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball diameter. The default value is 15.
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width. The default value is 25.
 
-`numberOfBall` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfBall` int
 
 The number of ball. The default value is 13.
 
-`roundingRadius` ExpressionValueVariable?
+`roundingRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The rounding radius. The default value is 1.5.
 
-`rollerLen` ExpressionValueVariable?
+`rollerLen` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The roller length. The default value is 16.
 
-`rollerPDia` ExpressionValueVariable?
+`rollerPDia` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The roller pitch diameter. The default value is 73.5.
 
-`rollerCr` ExpressionValueVariable?
+`rollerCr` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Cr. The default value is 112000.
 
-`rollerC0r` ExpressionValueVariable?
+`rollerC0r` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The C0r. The default value is 100000.
 
-`outerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`outerRacewayColor` Color?
 
 The color of the outer raceway.
 
-`innerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`innerRacewayColor` Color?
 
 The color of the inner raceway.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -269,87 +270,87 @@ public static Obj CreateBearingForRadialBall(this GearTrainDocument document, st
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the bearing. If empty, default name starts with 'Rolling_' will be generated and used.
 
-`outerDiameterOfOuterRaceway` ExpressionValueVariable?
+`outerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of outer raceway. The default value is 32.
 
-`innerDiameterOfOuterRaceway` ExpressionValueVariable?
+`innerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of outer raceway. The default value is 28.3.
 
-`outerDiameterOfInnerRaceway` ExpressionValueVariable?
+`outerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of inner raceway. The default value is 23.8.
 
-`innerDiameterOfInnerRaceway` ExpressionValueVariable?
+`innerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of inner raceway. The default value is 20.
 
-`ballDiameter` ExpressionValueVariable?
+`ballDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball diameter. The default value is 3.5.
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width. The default value is 7.
 
-`numberOfBall` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfBall` int
 
 The number of ball. The default value is 13.
 
-`curvatureCenterOuter` ExpressionValueVariable?
+`curvatureCenterOuter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The curvature center of outer. The default value is 13.025.
 
-`curvatureCenterInner` ExpressionValueVariable?
+`curvatureCenterInner` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The curvature center of inner. The default value is 13.025.
 
-`roundingRadius` ExpressionValueVariable?
+`roundingRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The rounding radius. The default value is 0.3.
 
-`ballPitchDiameter` ExpressionValueVariable?
+`ballPitchDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
-The ball pitch diameter. The default value is 26.5.
+The ball pitch diameter. The default value is 26.0.
 
-`ballCr` ExpressionValueVariable?
+`ballCr` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Cr. The default value is 4030.
 
-`ballC0r` ExpressionValueVariable?
+`ballC0r` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The C0r. The default value is 2320.
 
-`ballF0` ExpressionValueVariable?
+`ballF0` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The f0. The default value is 15.
 
-`outerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`outerRacewayColor` Color?
 
 The color of the outer raceway.
 
-`innerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`innerRacewayColor` Color?
 
 The color of the inner raceway.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -364,111 +365,111 @@ public static Obj CreateBearingForTaperedRoller(this GearTrainDocument document,
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the bearing. If empty, default name starts with 'Rolling_' will be generated and used.
 
-`outerDiameterOfOuterRaceway` ExpressionValueVariable?
+`outerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of outer raceway. The default value is 47.
 
-`outerDiameterOfInnerRaceway` ExpressionValueVariable?
+`outerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of inner raceway. The default value is 33.7.
 
-`innerDiameterOfInnerRaceway` ExpressionValueVariable?
+`innerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of inner raceway. The default value is 20.
 
-`ballDiameter` ExpressionValueVariable?
+`ballDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball diameter. The default value is 6.65.
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width. The default value is 15.25.
 
-`coneW` ExpressionValueVariable?
+`coneW` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width of cone. The default value is 14.
 
-`cupW` ExpressionValueVariable?
+`cupW` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width of cup. The default value is 12.
 
-`numberOfBall` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfBall` int
 
 The number of ball. The default value is 15.
 
-`roundingRadius1` ExpressionValueVariable?
+`roundingRadius1` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The first rounding radius. The default value is 1.
 
-`roundingRadius2` ExpressionValueVariable?
+`roundingRadius2` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second rounding radius. The default value is 1.
 
-`actionPoint` ExpressionValueVariable?
+`actionPoint` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The action point. The default value is 11.
 
-`rollerAlpha` ExpressionValueVariable?
+`rollerAlpha` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The roller contact angle. The default value is 15.49851.
 
-`rollerCP` ExpressionValueVariable?
+`rollerCP` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The roller center point. The default value is 7.09849.
 
-`rollerPR` ExpressionValueVariable?
+`rollerPR` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The roller pitch radius. The default value is 33.7986.
 
-`rollerLen` ExpressionValueVariable?
+`rollerLen` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The roller length. The default value is 10.
 
-`rollerBeta` ExpressionValueVariable?
+`rollerBeta` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The tapered angle. The default value is 4.99702.
 
-`rollerCr` ExpressionValueVariable?
+`rollerCr` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Cr. The default value is 0.27500.
 
-`rollerC0r` ExpressionValueVariable?
+`rollerC0r` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The C0r. The default value is 28000.
 
-`rollerE` ExpressionValueVariable?
+`rollerE` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The e. The default value is 35.
 
-`rollerY` ExpressionValueVariable?
+`rollerY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Y. The default value is 17.
 
-`outerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`outerRacewayColor` Color?
 
 The color of the outer raceway.
 
-`innerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`innerRacewayColor` Color?
 
 The color of the inner raceway.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -483,11 +484,11 @@ public static Obj CreateSlidingBearing(this GearTrainDocument document, string b
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the sliding bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the sliding bearing. If empty, default name starts with 'Sliding_' will be generated and used.
 
@@ -495,35 +496,35 @@ The name of the sliding bearing. If empty, default name starts with 'Sliding_' w
 
 The sliding bearing type. The default value is CIRCULAR.
 
-`arcAngle` ExpressionValueVariable?
+`arcAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The arc angle. The default value is 80.
 
-`length` ExpressionValueVariable?
+`length` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of inner raceway. The default value is 10.
 
-`thickness` ExpressionValueVariable?
+`thickness` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of inner raceway. The default value is 5.
 
-`innerRadius` ExpressionValueVariable?
+`innerRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball diameter. The default value is 30.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -539,35 +540,35 @@ public static Obj CreateSlidingBearing(this GearTrainDocument document, Obj slid
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the sliding bearing.
 
-`slidingBearingCopy` Obj
+`slidingBearingCopy` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The sliding bearing to be copied. The type is <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the sliding bearing. If empty, default name starts with 'Sliding_' will be generated and used.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingBearingCopy' arguments are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'slidingBearingCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -582,83 +583,83 @@ public static Obj CreateStiffnessBearing(this GearTrainDocument document, string
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the stiffness bearing.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the stiffness bearing. If empty, default name starts with 'Stiffness_' will be generated and used.
 
-`dampingRatio` ExpressionValueVariable?
+`dampingRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The damping ratio. The default value is 0.00001.
 
-`outerDiameterOfOuterRaceway` ExpressionValueVariable?
+`outerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of outer raceway. The default value is 40.
 
-`innerDiameterOfOuterRaceway` ExpressionValueVariable?
+`innerDiameterOfOuterRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of outer raceway. The default value is 35.
 
-`outerDiameterOfInnerRaceway` ExpressionValueVariable?
+`outerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The outer diameter of inner raceway. The default value is 29.
 
-`innerDiameterOfInnerRaceway` ExpressionValueVariable?
+`innerDiameterOfInnerRaceway` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The inner diameter of inner raceway. The default value is 25.
 
-`ballDiameter` ExpressionValueVariable?
+`ballDiameter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The ball diameter. The default value is 4.
 
-`width` ExpressionValueVariable?
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The width. The default value is 12.
 
-`stiffness` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`stiffness` IEnumerable<double\>
 
 The stiffness. If it is not given, default values will be used.
 
-`numberOfBall` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numberOfBall` int
 
 The number of ball. The default value is 14.
 
-`unloadedContactAngle` ExpressionValueVariable?
+`unloadedContactAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The unloaded contact angle. The default value is 0.
 
-`curvatureCenterOuter` ExpressionValueVariable?
+`curvatureCenterOuter` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The curvature center of outer. The default value is 16.
 
-`curvatureCenterInner` ExpressionValueVariable?
+`curvatureCenterInner` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The curvature center of inner. The default value is 16.
 
-`outerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`outerRacewayColor` Color?
 
 The color of the outer raceway.
 
-`innerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`innerRacewayColor` Color?
 
 The color of the inner raceway.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'stiffness' argument is not null and the length of 'stiffness' is not 25.
 
@@ -674,39 +675,39 @@ public static Obj CreateStiffnessBearing(this GearTrainDocument document, Obj be
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the stiffness bearing.
 
-`bearingStiffnessCopy` Obj
+`bearingStiffnessCopy` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The stiffness bearing to be copied. The type is <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The name of the stiffness bearing. If empty, default name starts with 'Stiffness_' will be generated and used.
 
-`outerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`outerRacewayColor` Color?
 
 The color of the outer raceway.
 
-`innerRacewayColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`innerRacewayColor` Color?
 
 The color of the inner raceway.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'bearingStiffnessCopy' arguments are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'bearingStiffnessCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -721,13 +722,13 @@ public static void UpdateBearing(this HiddenBearingDocument document)
 
 #### Parameters
 
-`document` HiddenBearingDocument
+`document` [HiddenBearingDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenBearingDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenBearingDocument" data-throw-if-not-resolved="false"></xref> for bearing update. If null, the active document will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -744,15 +745,15 @@ public static void UpdateBearingInEF(this HiddenDocumentMeshBase document, strin
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for bearing update. If null, the active document will be used.
 
-`racewayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`racewayName` string
 
 The raceway name to be attached on rbe.
 
-`rbeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rbeName` string
 
 The rbe name.
 
@@ -762,11 +763,11 @@ The z axis.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'racewayName' or 'rbeName' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
@@ -783,19 +784,19 @@ public static void UpdateBearingInEF(this HiddenDocumentMeshBase document, Obj b
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for bearing update. If null, the active document will be used.
 
-`bearing` Obj
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`rbe` Obj
+`rbe` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe.
 
@@ -805,11 +806,11 @@ The z axis.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'racewayName' or 'rbe' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
@@ -826,15 +827,15 @@ public static void UpdateBearingInFE(this HiddenDocumentMeshBase document, strin
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for bearing update. If null, the active document will be used.
 
-`racewayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`racewayName` string
 
 The raceway name to be attached on rbe.
 
-`rbeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rbeName` string
 
 The rbe name.
 
@@ -844,11 +845,11 @@ The z axis.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'racewayName' or 'rbeName' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
@@ -865,19 +866,19 @@ public static void UpdateBearingInFE(this HiddenDocumentMeshBase document, Obj b
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for bearing update. If null, the active document will be used.
 
-`bearing` Obj
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`rbe` Obj
+`rbe` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rbe.
 
@@ -887,11 +888,11 @@ The z axis.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'racewayName' or 'rbe' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
@@ -907,15 +908,15 @@ public static void UpdateBearingInShaftSet(this HiddenShaftSetDocument document,
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> for bearing update. If null, the active document will be used.
 
-`racewayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`racewayName` string
 
 The raceway name to be attached on rbe.
 
-`referenceOffset` ExpressionValueVariable
+`referenceOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The reference offset.
 
@@ -933,11 +934,11 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'racewayName' or 'clearanceInfo' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
@@ -953,19 +954,19 @@ public static void UpdateBearingInShaftSet(this HiddenShaftSetDocument document,
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> for bearing update. If null, the active document will be used.
 
-`bearing` Obj?
+`bearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The bearing.
 
-`racewayType` RacewayGeometryInfo.RacewayType
+`racewayType` [RacewayGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs).[RacewayType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/BearingRacewayGeometryInfo.cs)
 
 The bearing raceway type.
 
-`referenceOffset` ExpressionValueVariable
+`referenceOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The reference offset.
 
@@ -983,11 +984,11 @@ The clearance parameter. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'racewayName' or 'clearanceInfo' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
@@ -1002,13 +1003,13 @@ public static void UpdateSlidingBearing(this HiddenSlidingBearingDocument docume
 
 #### Parameters
 
-`document` HiddenSlidingBearingDocument
+`document` [HiddenSlidingBearingDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenBearingDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenSlidingBearingDocument" data-throw-if-not-resolved="false"></xref> for sliding bearing update. If null, the active document will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -1024,21 +1025,21 @@ public static void UpdateSlidingBearingInEF(this HiddenDocumentMeshBase document
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for sliding bearing update. If null, the active document will be used.
 
-`slidingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`slidingName` string
 
 The sliding name to be attached on rbe.
 
-`rbeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rbeName` string
 
 The rbe name.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
@@ -1055,21 +1056,21 @@ public static void UpdateSlidingBearingInEF(this HiddenDocumentMeshBase document
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for sliding bearing update. If null, the active document will be used.
 
-`slidingBearing` Obj
+`slidingBearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The sliding bearing to be attached on rbe.
 
-`rbeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rbeName` string
 
 The rbe name.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
@@ -1085,21 +1086,21 @@ public static void UpdateSlidingBearingInFE(this HiddenDocumentMeshBase document
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for sliding bearing update. If null, the active document will be used.
 
-`slidingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`slidingName` string
 
 The sliding name to be attached on rbe.
 
-`rbeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rbeName` string
 
 The rbe name.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
@@ -1115,21 +1116,21 @@ public static void UpdateSlidingBearingInFE(this HiddenDocumentMeshBase document
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> for sliding bearing update. If null, the active document will be used.
 
-`slidingBearing` Obj
+`slidingBearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The sliding bearing to be attached on rbe.
 
-`rbeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rbeName` string
 
 The rbe name.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
@@ -1145,15 +1146,15 @@ public static void UpdateSlidingBearingInShaftSet(this HiddenShaftSetDocument do
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> for sliding bearing update. If null, the active document will be used.
 
-`slidingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`slidingName` string
 
 The sliding name to be attached on rbe.
 
-`referenceOffset` ExpressionValueVariable
+`referenceOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The reference offset.
 
@@ -1161,17 +1162,17 @@ The reference offset.
 
 The attach location type.
 
-`startAngle` ExpressionValueVariable
+`startAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The start angle.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingName' or 'clearanceInfo' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
@@ -1187,15 +1188,15 @@ public static void UpdateSlidingBearingInShaftSet(this HiddenShaftSetDocument do
 
 #### Parameters
 
-`document` HiddenShaftSetDocument
+`document` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> for sliding bearing update. If null, the active document will be used.
 
-`slidingBearing` Obj
+`slidingBearing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The sliding bearing to be attached on rbe.
 
-`referenceOffset` ExpressionValueVariable
+`referenceOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The reference offset.
 
@@ -1203,17 +1204,17 @@ The reference offset.
 
 The attach location type.
 
-`startAngle` ExpressionValueVariable
+`startAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The start angle.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'slidingName' or 'clearanceInfo' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 

@@ -1,15 +1,16 @@
-#  Class ExtendedTypeInfo
+# Class ExtendedTypeInfo
+<a id="VM_ExtendedTypeInfo"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class ExtendedTypeInfo : ExtendedMemberInfo<TypeInfo>
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExtendedMemberInfo<TypeInfo\>](VM.ExtendedMemberInfo\-1.md) ← 
 [ExtendedTypeInfo](VM.ExtendedTypeInfo.md)
 
@@ -23,64 +24,63 @@ public class ExtendedTypeInfo : ExtendedMemberInfo<TypeInfo>
 
 ### <a id="VM_ExtendedTypeInfo__ctor_System_Reflection_TypeInfo_"></a> ExtendedTypeInfo\(TypeInfo\)
 
-```python
+```csharp
 public ExtendedTypeInfo(TypeInfo type)
 ```
 
 #### Parameters
 
-`type` [TypeInfo](https://learn.microsoft.com/dotnet/api/system.reflection.typeinfo)
+`type` TypeInfo
 
 ## Properties
 
 ### <a id="VM_ExtendedTypeInfo_Type"></a> Type
 
-```python
+```csharp
 public Type Type { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_ExtendedTypeInfo_TypeInfo"></a> TypeInfo
 
-```python
+```csharp
 public TypeInfo TypeInfo { get; }
 ```
 
 #### Property Value
 
- [TypeInfo](https://learn.microsoft.com/dotnet/api/system.reflection.typeinfo)
+ TypeInfo
 
 ## Methods
 
 ### <a id="VM_ExtendedTypeInfo_AddOnChangedMethod_System_String_System_Action_System_Object__"></a> AddOnChangedMethod\(string, Action<object\>\)
 
-```python
+```csharp
 public void AddOnChangedMethod(string propertyName, Action<object> onChanged)
 ```
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`onChanged` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`onChanged` Action<object\>
 
 ### <a id="VM_ExtendedTypeInfo_TryGetOnChangedMethod_System_String_System_Action_System_Object___"></a> TryGetOnChangedMethod\(string, out Action<object\>\)
 
-```python
+```csharp
 public bool TryGetOnChangedMethod(string propertyName, out Action<object> onChanged)
 ```
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`onChanged` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`onChanged` Action<object\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

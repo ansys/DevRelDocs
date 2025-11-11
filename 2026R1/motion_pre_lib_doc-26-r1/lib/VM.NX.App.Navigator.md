@@ -1,4 +1,5 @@
-#  Namespace VM.NX.App.Navigator
+# Namespace VM.NX.App.Navigator
+<a id="VM_NX_App_Navigator"></a>
 
 ### Interfaces
 

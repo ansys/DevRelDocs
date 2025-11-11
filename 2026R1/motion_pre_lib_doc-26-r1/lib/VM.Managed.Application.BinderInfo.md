@@ -1,4 +1,5 @@
-#  Class Application.BinderInfo
+# Class Application.BinderInfo
+<a id="VM_Managed_Application_BinderInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Application.BinderInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Application.BinderInfo](VM.Managed.Application.BinderInfo.md)
 
 #### Extension Methods
@@ -30,9 +31,9 @@ public BinderInfo(string strClass, string strAssembly)
 
 #### Parameters
 
-`strClass` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strClass` string
 
-`strAssembly` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAssembly` string
 
 ### <a id="VM_Managed_Application_BinderInfo__ctor_System_String_"></a> BinderInfo\(string\)
 
@@ -42,7 +43,7 @@ public BinderInfo(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 ## Fields
 
@@ -54,7 +55,7 @@ public string AssemblyName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Application_BinderInfo_ClassName"></a> ClassName
 
@@ -64,5 +65,5 @@ public string ClassName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

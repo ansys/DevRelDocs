@@ -1,4 +1,5 @@
-#  Enum ChangeAssemblyType
+# Enum ChangeAssemblyType
+<a id="VM_Managed_DAFUL_ChangeAssemblyType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

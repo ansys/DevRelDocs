@@ -1,4 +1,5 @@
-#  Class CalculateToothStiffnessForCycloid
+# Class CalculateToothStiffnessForCycloid
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForCycloid"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class CalculateToothStiffnessForCycloid : CalculateToothStiffness, IOpera
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculateToothStiffness](VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness.md) ← 
 [CalculateToothStiffnessForCycloid](VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffnessForCycloid.md)
@@ -108,19 +109,19 @@ public CalculateToothStiffnessForCycloid(string strDocInfo, string strDatFile, i
 
 #### Parameters
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDatFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDatFile` string
 
 the string dat file.
 
-`nGearIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nGearIdx` int
 
 Index of the n gear.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 
@@ -138,19 +139,19 @@ public CalculateToothStiffnessForCycloid(Document3D doc, string strDocInfo, stri
 
 The document.
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDatFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDatFile` string
 
 the string dat file.
 
-`nGearIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nGearIdx` int
 
 Index of the n gear.
 
-`strGearset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearset` string
 
 The gearset name.
 

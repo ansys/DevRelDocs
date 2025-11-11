@@ -1,4 +1,5 @@
-#  Class BeamGroupAPI
+# Class BeamGroupAPI
+<a id="VM_API_Pre_BeamGroupAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class BeamGroupAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BeamGroupAPI](VM.API.Pre.BeamGroupAPI.md)
 
 #### Extension Methods
@@ -35,7 +36,7 @@ public static Obj CreateBeamGroup(this SubSystemDocument subSystemDocument, Vect
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a beam group.
 
@@ -51,19 +52,19 @@ The end point of a beam group.
 
 The Y-direction of a beam group.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a beam group.
 
-`crossSection` CrossSectionType
+`crossSection` [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 The cross section of a beam group.
 
-`crossSectionValueInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ExpressionValueVariable\>
+`crossSectionValueInfo` IEnumerable<[ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)\>
 
 The cross section value info of a beam group.
 
-`noOfElement` ExpressionValueVariable?
+`noOfElement` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The num of element of a beam group.
 
@@ -71,7 +72,7 @@ The num of element of a beam group.
 
 The material of a beam group.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of a beam group.
 
@@ -83,11 +84,11 @@ the new <xref href="VM.Managed.DAFUL.Beam.BeamGroup" data-throw-if-not-resolved=
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'directionY' is 0 and if the type of 'material' is not 'ISO'.
 
@@ -104,11 +105,11 @@ public static Obj CreateBeamGroup(this SubSystemDocument subSystemDocument, IEnu
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a beam group.
 
-`positions` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Vector\>
+`positions` IEnumerable<Vector\>
 
 The positions of a beam group.
 
@@ -116,19 +117,19 @@ The positions of a beam group.
 
 The Y-direction of a beam group.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a beam group.
 
-`crossSection` CrossSectionType
+`crossSection` [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 The cross section of a beam group.
 
-`crossSectionValueInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ExpressionValueVariable\>
+`crossSectionValueInfo` IEnumerable<[ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)\>
 
 The cross section value info of a beam group.
 
-`noOfElement` ExpressionValueVariable?
+`noOfElement` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The num of element of a beam group.
 
@@ -136,7 +137,7 @@ The num of element of a beam group.
 
 The material of a beam group.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of a beam group.
 
@@ -148,15 +149,15 @@ the new <xref href="VM.Managed.DAFUL.Beam.BeamGroup" data-throw-if-not-resolved=
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'directionY' is 0 and if the type of 'material' is not ISO.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the num of 'positions' is less than 2.
 
@@ -173,19 +174,19 @@ public static Obj CreateBeamGroup(this SubSystemDocument subSystemDocument, stri
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a beam group.
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The file path of a beam group.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a beam group.
 
-`crossSection` CrossSectionType
+`crossSection` [CrossSectionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.BeamCrossSection/BeamCrossSection.cs)
 
 The cross section of a beam group.
 
@@ -193,11 +194,11 @@ The cross section of a beam group.
 
 The Y Direction.
 
-`crossSectionValueInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ExpressionValueVariable\>
+`crossSectionValueInfo` IEnumerable<[ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)\>
 
 The cross section value info of a beam group.
 
-`noOfElement` ExpressionValueVariable?
+`noOfElement` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The num of element of a beam group.
 
@@ -205,7 +206,7 @@ The num of element of a beam group.
 
 The material of a beam group.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of a beam group.
 
@@ -217,15 +218,15 @@ the new <xref href="VM.Managed.DAFUL.Beam.BeamGroup" data-throw-if-not-resolved=
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'material' is not 'ISO'.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'filePath' file is not exist.
 

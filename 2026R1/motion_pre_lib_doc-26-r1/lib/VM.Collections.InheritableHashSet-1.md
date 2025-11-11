@@ -1,4 +1,5 @@
-#  Class InheritableHashSet<T\>
+# Class InheritableHashSet<T\>
+<a id="VM_Collections_InheritableHashSet_1"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -13,8 +14,8 @@ public abstract class InheritableHashSet<T> : HashSet<T>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[HashSet<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1) ← 
+object ← 
+HashSet<T\> ← 
 [InheritableHashSet<T\>](VM.Collections.InheritableHashSet\-1.md)
 
 #### Extension Methods
@@ -39,7 +40,7 @@ public InheritableHashSet(IEnumerable<T> collection)
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor_System_Collections_Generic_IEqualityComparer__0__"></a> InheritableHashSet\(IEqualityComparer<T\>\)
 
@@ -49,7 +50,7 @@ public InheritableHashSet(IEqualityComparer<T> comparer)
 
 #### Parameters
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__"></a> InheritableHashSet\(IEnumerable<T\>, IEqualityComparer<T\>\)
 
@@ -59,9 +60,9 @@ public InheritableHashSet(IEnumerable<T> collection, IEqualityComparer<T> compar
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> InheritableHashSet\(SerializationInfo, StreamingContext\)
 
@@ -71,9 +72,9 @@ protected InheritableHashSet(SerializationInfo serializationInfo, StreamingConte
 
 #### Parameters
 
-`serializationInfo` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`serializationInfo` SerializationInfo
 
-`streamingContext` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`streamingContext` StreamingContext
 
 ## Methods
 
@@ -89,7 +90,7 @@ public bool Add(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableHashSet_1_AddItem__0_"></a> AddItem\(T\)
 
@@ -103,7 +104,7 @@ protected virtual bool AddItem(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableHashSet_1_Clear"></a> Clear\(\)
 
@@ -129,7 +130,7 @@ public bool Remove(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableHashSet_1_RemoveItem__0_"></a> RemoveItem\(T\)
 
@@ -143,5 +144,5 @@ protected virtual bool RemoveItem(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,30 +1,33 @@
-#  Interface IOperationsChartViewModel
+# Interface IOperationsChartViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsChartViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents the base interface for properties and methods that make up a chart view.
 
-```python
-public interface IOperationsChartViewModel : IView, IOperationsBase
+```csharp
+public interface IOperationsChartViewModel : IView
 ```
 
 #### Implements
 
-[IView](VM.Operations.Post.Interfaces.IView.md), 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+[IView](VM.Operations.Post.Interfaces.IView.md)
 
 ## Examples
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsChartViewModel.py
+```python
+# IOperationsChartViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -38,12 +41,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 chartView.Legend.Background = Colors.Red
@@ -60,7 +68,7 @@ page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -68,7 +76,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 Get or sets the legend for the chart.
 
-```python
+```csharp
 IOperationsLegendModifier Legend { get; }
 ```
 
@@ -92,17 +100,17 @@ specific requirements.
 
 Imports curve data from an external file and adds the curves to the chart view.
 
-```python
+```csharp
 void ImportNumeric(string filepath, List<INumericParameter> targets)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The path to the file containing the exported curves. Supported file formats include (*.txt, *.csv, *.out, *.rsp).
 
-`targets` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<INumericParameter\>
+`targets` List<INumericParameter\>
 
 A list of <xref href="VM.ViewModels.Post.INumericParameter" data-throw-if-not-resolved="false"></xref> objects that specify the parameters for the curves to be created.
 
@@ -115,5 +123,4 @@ For an example that includes this property, see the [Interface ApplicationHandle
 This method reads curve data from the specified file and adds the corresponding curves to the chart view.
 Each <xref href="VM.ViewModels.Post.INumericParameter" data-throw-if-not-resolved="false"></xref> in the <code class="paramref">targets</code> list contains the following properties:
 <ul><li><span class="term">Name</span>The name of the curve to be created.</li><li><span class="term">TargetX</span>The path to the data for the X-axis.</li><li><span class="term">TargetY</span>The path to the data for the Y-axis.</li></ul>
-
 

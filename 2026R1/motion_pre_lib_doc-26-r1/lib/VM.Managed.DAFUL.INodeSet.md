@@ -1,4 +1,5 @@
-#  Interface INodeSet
+# Interface INodeSet
+<a id="VM_Managed_DAFUL_INodeSet"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -31,7 +32,7 @@ uint GetPointCount()
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 The count of node point.
 
@@ -45,7 +46,7 @@ VectorBase GetPointPosition(uint index, IReferencable reference)
 
 #### Parameters
 
-`index` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`index` uint
 
 The index.
 

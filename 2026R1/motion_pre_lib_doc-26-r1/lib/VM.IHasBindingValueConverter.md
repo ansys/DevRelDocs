@@ -1,4 +1,5 @@
-#  Interface IHasBindingValueConverter
+# Interface IHasBindingValueConverter
+<a id="VM_IHasBindingValueConverter"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -27,7 +28,7 @@ object Convert()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The converted value.
 

@@ -1,4 +1,5 @@
-#  Class CommonAPI
+# Class CommonAPI
+<a id="VM_API_Pre_GearTrain_CommonAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class CommonAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CommonAPI](VM.API.Pre.GearTrain.CommonAPI.md)
 
 #### Extension Methods
@@ -45,7 +46,7 @@ The opened document <xref href="VM.Managed.DAFUL.HiddenDocument" data-throw-if-n
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'entity' argument is empty.
 
@@ -60,7 +61,7 @@ public static Document3D OpenHiddenDocument(this Obj entity)
 
 #### Parameters
 
-`entity` Obj
+`entity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The entity to be opened.
 
@@ -72,7 +73,7 @@ The opened document <xref href="VM.Managed.DAFUL.HiddenDocument" data-throw-if-n
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'entity' argument is empty.
 

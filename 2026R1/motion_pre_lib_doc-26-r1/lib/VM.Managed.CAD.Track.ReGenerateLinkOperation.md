@@ -1,4 +1,5 @@
-#  Class ReGenerateLinkOperation
+# Class ReGenerateLinkOperation
+<a id="VM_Managed_CAD_Track_ReGenerateLinkOperation"></a>
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +12,7 @@ public class ReGenerateLinkOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ReGenerateLinkOperation](VM.Managed.CAD.Track.ReGenerateLinkOperation.md)
 
@@ -87,7 +88,7 @@ public ReGenerateLinkOperation(XmlDocument dom, BuilderLink linkBody, bool bBuil
 
 #### Parameters
 
-`dom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`dom` XmlDocument
 
 The DOM.
 
@@ -95,7 +96,7 @@ The DOM.
 
 The link body.
 
-`bBuilder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBuilder` bool
 
 if set to <code>true</code> [b builder].
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_Track_ReGenerateLinkOperation_ResultBody"></a> ResultBody
 
@@ -159,7 +160,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

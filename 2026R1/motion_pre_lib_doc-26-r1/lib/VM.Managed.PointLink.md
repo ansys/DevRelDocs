@@ -1,4 +1,5 @@
-#  Class PointLink
+# Class PointLink
+<a id="VM_Managed_PointLink"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -6,14 +7,14 @@ Assembly: VMAppCore.dll
 This class is to represent information of point through Design Point or Design Frame.
 
 ```csharp
-public class PointLink : PointBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IReservable
+public class PointLink : PointBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IHasReplaceableEntity, IReservable
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [PointBase](VM.Managed.PointBase.md) ← 
 [PointLink](VM.Managed.PointLink.md)
@@ -34,6 +35,7 @@ IHasID,
 IEventProvider, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
+IHasReplaceableEntity, 
 IReservable
 
 #### Inherited Members
@@ -43,6 +45,8 @@ IReservable
 [PointBase.ReadXml\(XmlReader\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_ReadXml\_System\_Xml\_XmlReader\_), 
 [PointBase.WriteXml\(XmlWriter\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_WriteXml\_System\_Xml\_XmlWriter\_), 
 [PointBase.GetSchema\(\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_GetSchema), 
+[PointBase.HasReplaceableEntity\(IObjectBase\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_HasReplaceableEntity\_VM\_Models\_Pre\_IObjectBase\_), 
+[PointBase.ReplaceEntity\(IObjectBase, IObjectBase\)](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_ReplaceEntity\_VM\_Models\_Pre\_IObjectBase\_VM\_Models\_Pre\_IObjectBase\_), 
 [PointBase.IsParameterized](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_IsParameterized), 
 [PointBase.Z](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_Z), 
 [PointBase.Y](VM.Managed.PointBase.md\#VM\_Managed\_PointBase\_Y), 
@@ -91,7 +95,7 @@ IReservable
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -158,7 +162,7 @@ public override bool IsParameterized { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_PointLink_LinkPoint"></a> LinkPoint
 
@@ -194,7 +198,7 @@ public override double X { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_PointLink_Y"></a> Y
 
@@ -206,7 +210,7 @@ public override double Y { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_PointLink_Z"></a> Z
 
@@ -218,7 +222,7 @@ public override double Z { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_PointLink__LinkPoint"></a> \_LinkPoint
 
@@ -244,7 +248,7 @@ public string GetFullName()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_PointLink_GetSchema"></a> GetSchema\(\)
 
@@ -259,7 +263,27 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
+
+### <a id="VM_Managed_PointLink_HasReplaceableEntity_VM_Models_Pre_IObjectBase_"></a> HasReplaceableEntity\(IObjectBase\)
+
+Gets a value indicating whether this instance has replacable entity.
+
+```csharp
+public override bool HasReplaceableEntity(IObjectBase oldObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+#### Returns
+
+ bool
+
+if this instance has replacable entity, the result is true.
 
 ### <a id="VM_Managed_PointLink_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
 
@@ -277,7 +301,7 @@ Point picking type.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
@@ -291,7 +315,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -309,9 +333,33 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
+
+### <a id="VM_Managed_PointLink_ReplaceEntity_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_"></a> ReplaceEntity\(IObjectBase, IObjectBase\)
+
+Replace Entity
+
+```csharp
+public override bool ReplaceEntity(IObjectBase oldObject, IObjectBase newObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+`newObject` IObjectBase
+
+The new object
+
+#### Returns
+
+ bool
+
+if success, the result is true.
 
 ### <a id="VM_Managed_PointLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -323,7 +371,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

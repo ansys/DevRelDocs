@@ -1,4 +1,5 @@
-#  Interface IFEFilm\_TabshapeHexagon
+# Interface IFEFilm\_TabshapeHexagon
+<a id="VM_Models_Pre_IFEFilm_TabshapeHexagon"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -103,7 +104,7 @@ int NoOfElements { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfElementsPerPole"></a> NoOfElementsPerPole
 
@@ -113,7 +114,7 @@ int NoOfElementsPerPole { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfElementsPerPole_Bottom"></a> NoOfElementsPerPole\_Bottom
 
@@ -123,7 +124,7 @@ int NoOfElementsPerPole_Bottom { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfNodes"></a> NoOfNodes
 
@@ -133,7 +134,7 @@ int NoOfNodes { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfNodesPerPole"></a> NoOfNodesPerPole
 
@@ -143,7 +144,7 @@ int NoOfNodesPerPole { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfNodesPerPole_Bottom"></a> NoOfNodesPerPole\_Bottom
 
@@ -153,7 +154,7 @@ int NoOfNodesPerPole_Bottom { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_StartOffset"></a> StartOffset
 

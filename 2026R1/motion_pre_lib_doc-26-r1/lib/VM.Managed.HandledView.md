@@ -1,4 +1,5 @@
-#  Class HandledView
+# Class HandledView
+<a id="VM_Managed_HandledView"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class HandledView : View
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [View](VM.Managed.View.md) ← 
 [HandledView](VM.Managed.HandledView.md)
 
@@ -56,7 +57,7 @@ public HandledView(UIntPtr handleView, Document doc)
 
 #### Parameters
 
-`handleView` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`handleView` UIntPtr
 
 The view handle.
 
@@ -76,7 +77,7 @@ public UIntPtr Handle { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ## Methods
 
@@ -89,7 +90,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_HandledView_Finalize"></a> \~HandledView\(\)
 

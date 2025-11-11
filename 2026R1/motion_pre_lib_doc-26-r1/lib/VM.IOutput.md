@@ -1,4 +1,5 @@
-#  Interface IOutput
+# Interface IOutput
+<a id="VM_IOutput"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -35,11 +36,11 @@ void Write(string category, string message)
 
 #### Parameters
 
-`category` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`category` string
 
 The category of the message.
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
 The message to output.
 

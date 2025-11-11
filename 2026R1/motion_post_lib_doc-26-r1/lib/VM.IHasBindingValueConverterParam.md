@@ -1,11 +1,12 @@
-#  Interface IHasBindingValueConverterParam
+# Interface IHasBindingValueConverterParam
+<a id="VM_IHasBindingValueConverterParam"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 Converts the data type of a value bound to a symbol to another data type.
 
-```python
+```csharp
 public interface IHasBindingValueConverterParam
 ```
 
@@ -15,20 +16,19 @@ public interface IHasBindingValueConverterParam
 
 Convert a value bount to a symbol.
 
-```python
+```csharp
 object Convert(params object[] parameter)
 ```
 
 #### Parameters
 
-`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`parameter` object\[\]
 
 Parameters to convert.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The converted value.
-
 

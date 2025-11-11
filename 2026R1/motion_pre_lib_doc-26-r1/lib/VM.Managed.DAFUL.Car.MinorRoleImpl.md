@@ -1,4 +1,5 @@
-#  Class MinorRoleImpl
+# Class MinorRoleImpl
+<a id="VM_Managed_DAFUL_Car_MinorRoleImpl"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class MinorRoleImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MinorRoleImpl](VM.Managed.DAFUL.Car.MinorRoleImpl.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static void LoadTemplateForMinorRole(XmlReader reader, ref MinorRole type
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -62,7 +63,7 @@ public static void SaveTemplateForMinorRole(XmlWriter writer, MinorRole typeMR, 
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

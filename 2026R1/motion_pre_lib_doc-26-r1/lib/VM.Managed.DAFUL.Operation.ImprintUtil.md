@@ -1,4 +1,5 @@
-#  Class ImprintUtil
+# Class ImprintUtil
+<a id="VM_Managed_DAFUL_Operation_ImprintUtil"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class ImprintUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ImprintUtil](VM.Managed.DAFUL.Operation.ImprintUtil.md)
 
 #### Extension Methods
@@ -44,21 +45,21 @@ public static SetFace CreateFacesetByIndex(Document3D activeDocument, SolidBody 
 
 The active document
 
-`parentSolidBody` SolidBody
+`parentSolidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The parent solid body
 
-`lstFaceIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstFaceIndex` List<int\>
 
 The face indexes
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The pre-fix name
 
 #### Returns
 
- SetFace
+ [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 faceset
 
@@ -80,17 +81,17 @@ The active document
 
 The body
 
-`lstFaceIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstFaceIndex` List<int\>
 
 The face indexes
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The pre-fix name
 
 #### Returns
 
- SetFace
+ [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 faceset
 
@@ -112,17 +113,17 @@ The active document
 
 The body
 
-`lstFaceIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstFaceIndex` List<int\>
 
 The face indexes
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The pre-fix name
 
 #### Returns
 
- PartSetFace
+ [PartSetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/PartSetFace.cs)
 
 faceset
 
@@ -144,17 +145,17 @@ The document
 
 The target body
 
-`seedPoints` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>\>
+`seedPoints` List<List<VectorBase\>\>
 
 The seed points
 
-`results` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>\>
+`results` List<List<VectorBase\>\>
 
 The result
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPoints_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase___VM_Managed_VectorBase____"></a> FindNearestPoints\(Document3D, Body, VectorBase\[\], ref VectorBase\[\]\)
 
@@ -184,7 +185,7 @@ The result
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirection_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Collections_Generic_List_VM_Managed_VectorBase___VM_Managed_VectorBase_System_Collections_Generic_List_System_Collections_Generic_List_VM_Managed_VectorBase____"></a> FindNearestPointsWithDirection\(Document3D, Body, List<List<VectorBase\>\>, VectorBase, ref List<List<VectorBase\>\>\)
 
@@ -204,7 +205,7 @@ The document
 
 The target body
 
-`seedPoints` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>\>
+`seedPoints` List<List<VectorBase\>\>
 
 The seed points
 
@@ -212,13 +213,13 @@ The seed points
 
 The direction
 
-`results` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>\>
+`results` List<List<VectorBase\>\>
 
 The result
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirection_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase___VM_Managed_VectorBase_VM_Managed_VectorBase____"></a> FindNearestPointsWithDirection\(Document3D, Body, VectorBase\[\], VectorBase, ref VectorBase\[\]\)
 
@@ -252,7 +253,7 @@ The result
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestTopologyIndex_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_System_Collections_Generic_List_System_Int32___VM_Managed_VectorBase__"></a> FindNearestTopologyIndex\(Document3D, Body, VectorBase, ref List<int\>, ref VectorBase\)
 
@@ -276,7 +277,7 @@ The target
 
 The seed vector
 
-`lstIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstIndex` List<int\>
 
 The index array
 
@@ -286,7 +287,7 @@ The result vector
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestTopologyIndex_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Double_System_Double_System_Double_System_Collections_Generic_List_System_Int32___System_Double__System_Double__System_Double__"></a> FindNearestTopologyIndex\(Document3D, Body, double, double, double, ref List<int\>, ref double, ref double, ref double\)
 
@@ -306,37 +307,37 @@ The document
 
 The target
 
-`dSeedX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedX` double
 
 The x of seed position
 
-`dSeedY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedY` double
 
 The y of seed position
 
-`dSeedZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedZ` double
 
 The z of seed position
 
-`lstIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstIndex` List<int\>
 
 The index array
 
-`dResX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dResX` double
 
 The x of result position
 
-`dResY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dResY` double
 
 The y of result position
 
-`dResZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dResZ` double
 
 The z of result position
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestTopologyIndexAdding4Point_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_VM_Managed_TransformBase_System_Double_System_Boolean_System_Collections_Generic_List_System_Int32___VM_Managed_VectorBase__"></a> FindNearestTopologyIndexAdding4Point\(Document3D, Body, VectorBase, TransformBase, double, bool, ref List<int\>, ref VectorBase\)
 
@@ -364,15 +365,15 @@ The seed vector
 
 The transform
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The offset
 
-`bSkipCenter` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bSkipCenter` bool
 
 The center skip flag
 
-`lstIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstIndex` List<int\>
 
 The index array
 
@@ -382,7 +383,7 @@ The result
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRange_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_TMatrix_System_Double_System_Collections_Generic_List_System_Int32___"></a> GetFacesWithCylinderRange\(Document3D, Body, TMatrix, double, ref List<int\>\)
 
@@ -406,17 +407,17 @@ The body
 
 The transform
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
-`lstIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstIndex` List<int\>
 
 The index list
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetGearFacesWithCylinderRange_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_TMatrix_System_Double_System_Collections_Generic_List_System_Int32___"></a> GetGearFacesWithCylinderRange\(Document3D, Body, TMatrix, double, ref List<int\>\)
 
@@ -440,17 +441,17 @@ The body
 
 The transform
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
-`lstIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstIndex` List<int\>
 
 The index list
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintCore_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Int32__VM_Managed_TransformBase_System_Double_System_Double_"></a> ImprintCore\(Document3D, Body, List<int\>, TransformBase, double, double\)
 
@@ -470,7 +471,7 @@ The document
 
 The target
 
-`lstFaceIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstFaceIndex` List<int\>
 
 The face indexes
 
@@ -478,11 +479,11 @@ The face indexes
 
 The transform
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 The height
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width
 
@@ -504,7 +505,7 @@ The document
 
 The target
 
-`lstFaceIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstFaceIndex` List<int\>
 
 The face indexes
 
@@ -512,7 +513,7 @@ The face indexes
 
 The transform
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
@@ -530,11 +531,11 @@ public static bool ImprintWithCircle(Document3D doc, SolidBody solidBody, double
 
 The document
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The solid body
 
-`dTestRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTestRadius` double
 
 The radius
 
@@ -546,13 +547,13 @@ The seed position
 
 The z direction
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCircle_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Double_VM_Managed_VectorBase_VM_Managed_DirectionBase_System_Double_"></a> ImprintWithCircle\(Document3D, Body, double, VectorBase, DirectionBase, double\)
 
@@ -572,7 +573,7 @@ The document
 
 The body
 
-`dTestRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTestRadius` double
 
 The radius
 
@@ -584,13 +585,13 @@ The seed vector
 
 The z direction
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinder_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> ImprintWithCylinder\(Document3D, Body, VectorBase, VectorBase, double\)
 
@@ -618,13 +619,13 @@ The bottom
 
 The top
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderUsingKernelOperation_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> ImprintWithCylinderUsingKernelOperation\(Document3D, Body, VectorBase, VectorBase, double\)
 
@@ -652,13 +653,13 @@ The bottom
 
 The top
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithRectangle_VM_Managed_Document3D_VM_Managed_DAFUL_SolidBody_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> ImprintWithRectangle\(Document3D, SolidBody, double, double, double, double, double, double\)
 
@@ -674,37 +675,37 @@ public static bool ImprintWithRectangle(Document3D doc, SolidBody solidBody, dou
 
 The document
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The solid body
 
-`dTestRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTestRadius` double
 
 The radius
 
-`dSeedX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedX` double
 
 The x of seed position
 
-`dSeedY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedY` double
 
 The y of seed position
 
-`dSeedZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedZ` double
 
 The z of seed position
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 The height
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithRectangle_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> ImprintWithRectangle\(Document3D, Body, double, double, double, double, double, double\)
 
@@ -724,31 +725,31 @@ The document
 
 The body
 
-`dTestRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTestRadius` double
 
 The radius
 
-`dSeedX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedX` double
 
 The x of seed position
 
-`dSeedY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedY` double
 
 The y of seed position
 
-`dSeedZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSeedZ` double
 
 The z of seed position
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 The height
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

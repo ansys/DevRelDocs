@@ -1,4 +1,5 @@
-#  Class Builder.BuilderParamSerializationException
+# Class Builder.BuilderParamSerializationException
+<a id="VM_Managed_CAD_Builder_BuilderParamSerializationException"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -9,8 +10,8 @@ protected class Builder.BuilderParamSerializationException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [Builder.BuilderParamSerializationException](VM.Managed.CAD.Builder.BuilderParamSerializationException.md)
 
 #### Extension Methods
@@ -31,9 +32,9 @@ protected BuilderParamSerializationException(SerializationInfo info, StreamingCo
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException__ctor_System_String_System_Exception_"></a> BuilderParamSerializationException\(string, Exception\)
 
@@ -45,9 +46,9 @@ public BuilderParamSerializationException(string message, Exception innerExcepti
 
 #### Parameters
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
-`innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`innerException` Exception
 
 ### <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException__ctor_System_String_"></a> BuilderParamSerializationException\(string\)
 
@@ -59,7 +60,7 @@ public BuilderParamSerializationException(string message)
 
 #### Parameters
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
 ### <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException__ctor"></a> BuilderParamSerializationException\(\)
 

@@ -1,4 +1,5 @@
-#  Interface IShaftSet
+# Interface IShaftSet
+<a id="VM_Managed_DAFUL_GearTrain_IShaftSet"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -43,5 +44,5 @@ double TotalSectionLength { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

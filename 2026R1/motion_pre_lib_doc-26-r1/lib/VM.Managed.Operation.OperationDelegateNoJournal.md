@@ -1,4 +1,5 @@
-#  Class OperationDelegateNoJournal
+# Class OperationDelegateNoJournal
+<a id="VM_Managed_Operation_OperationDelegateNoJournal"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class OperationDelegateNoJournal : OperationDelegate, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [OperationDelegate](VM.Managed.Operation.OperationDelegate.md) ← 
 [OperationDelegateNoJournal](VM.Managed.Operation.OperationDelegateNoJournal.md)
@@ -95,7 +96,7 @@ public OperationDelegateNoJournal(OperationDelegate.OpCore1 op, object param, Vi
 
 The operation.
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 The operation parameter.
 
@@ -117,7 +118,7 @@ public OperationDelegateNoJournal(OperationDelegate.OpCore1 op, object param, Do
 
 The operation.
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 The operation parameter.
 
@@ -139,7 +140,7 @@ public OperationDelegateNoJournal(OperationDelegate.OpCore1 op, object param)
 
 The operation.
 
-`param` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param` object
 
 The operation parameter.
 
@@ -193,7 +194,7 @@ public OperationDelegateNoJournal(OperationDelegate.OpCore op, bool bIsHistoryMe
 
 The operation.
 
-`bIsHistoryMerge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIsHistoryMerge` bool
 
 The history merge flag.
 

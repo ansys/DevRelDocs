@@ -1,4 +1,5 @@
-#  Interface ITransformBase
+# Interface ITransformBase
+<a id="VM_Models_Pre_ITransformBase"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -61,7 +62,7 @@ double[] RotationAngles { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_Pre_ITransformBase_RotationAxis"></a> RotationAxis
 

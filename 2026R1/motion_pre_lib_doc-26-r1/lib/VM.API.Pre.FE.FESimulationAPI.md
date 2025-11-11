@@ -1,4 +1,5 @@
-#  Class FESimulationAPI
+# Class FESimulationAPI
+<a id="VM_API_Pre_FE_FESimulationAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class FESimulationAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FESimulationAPI](VM.API.Pre.FE.FESimulationAPI.md)
 
 #### Extension Methods
@@ -38,17 +39,17 @@ public static void ExportDFGForComponentEigenvalue(this IDocument document, Obj 
 
 The document to export dfg for component eigenvalue.
 
-`target` Obj
+`target` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The target to export dfg for component eigenvalue.
 
-`resultPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultPath` string
 
 The result path to export dfg for component eigenvalue.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'target' arguments are empty.
 
@@ -68,17 +69,17 @@ public static void ExportDFSForComponentEigenvalue(this IDocument document, Obj 
 
 The document to export dfs for component eigenvalue.
 
-`target` Obj
+`target` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The target to export dfs for component eigenvalue.
 
-`resultPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultPath` string
 
 The result path to export dfs for component eigenvalue.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'target' arguments are empty.
 
@@ -98,17 +99,17 @@ public static void ExportDFSXMLForComponentEigenvalue(this IDocument document, O
 
 The document to export xml for component eigenvalue.
 
-`target` Obj
+`target` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The target to export xml for component eigenvalue.
 
-`resultPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultPath` string
 
 The result path to export xml for component eigenvalue.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'target' arguments are empty.
 
@@ -128,21 +129,21 @@ public static void RunSimulationForComponentEigenvalue(this IDocument document, 
 
 The document to simulate for component eigenvalue.
 
-`target` Obj
+`target` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The target to simulate for component eigenvalue.
 
-`resultPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultPath` string
 
 The result path to simulate for component eigenvalue.
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 The simulation parameter.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'target' arguments are empty.
 

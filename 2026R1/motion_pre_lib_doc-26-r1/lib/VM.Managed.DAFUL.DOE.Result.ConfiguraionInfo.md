@@ -1,4 +1,5 @@
-#  Class ConfiguraionInfo
+# Class ConfiguraionInfo
+<a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -9,7 +10,7 @@ public class ConfiguraionInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ConfiguraionInfo](VM.Managed.DAFUL.DOE.Result.ConfiguraionInfo.md)
 
 #### Extension Methods
@@ -46,7 +47,7 @@ public List<DesignParameter> DesignParameters { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DesignParameter](VM.Managed.DAFUL.DOE.Result.DesignParameter.md)\>
+ List<[DesignParameter](VM.Managed.DAFUL.DOE.Result.DesignParameter.md)\>
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_IsAppendDateAndTime"></a> IsAppendDateAndTime
 
@@ -56,7 +57,7 @@ public bool IsAppendDateAndTime { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_IsCreateGraphicFile"></a> IsCreateGraphicFile
 
@@ -66,7 +67,7 @@ public bool IsCreateGraphicFile { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_Level"></a> Level
 
@@ -76,7 +77,7 @@ public uint Level { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_PerformanceIndexs"></a> PerformanceIndexs
 
@@ -86,7 +87,7 @@ public List<PerformanceIndex> PerformanceIndexs { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PerformanceIndex](VM.Managed.DAFUL.DOE.Result.PerformanceIndex.md)\>
+ List<[PerformanceIndex](VM.Managed.DAFUL.DOE.Result.PerformanceIndex.md)\>
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_ResultPath"></a> ResultPath
 
@@ -96,7 +97,7 @@ public string ResultPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_Run"></a> Run
 
@@ -106,7 +107,7 @@ public double Run { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_RunIndexs"></a> RunIndexs
 
@@ -116,7 +117,7 @@ public int[] RunIndexs { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+ int\[\]
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_SimulationFile"></a> SimulationFile
 
@@ -126,5 +127,5 @@ public string SimulationFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

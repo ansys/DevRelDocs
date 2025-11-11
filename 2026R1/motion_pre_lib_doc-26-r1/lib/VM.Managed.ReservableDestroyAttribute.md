@@ -1,4 +1,5 @@
-#  Class ReservableDestroyAttribute
+# Class ReservableDestroyAttribute
+<a id="VM_Managed_ReservableDestroyAttribute"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,8 +13,8 @@ public class ReservableDestroyAttribute : Attribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [ReservableDestroyAttribute](VM.Managed.ReservableDestroyAttribute.md)
 
 #### Extension Methods

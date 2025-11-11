@@ -1,4 +1,5 @@
-#  Class ModelTemplate
+# Class ModelTemplate
+<a id="VM_Managed_DAFUL_Pre_ModelTemplate"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class ModelTemplate : FileGroup<Model.ModelItemGroup, GroupItem>, IFileGr
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Group<Model.ModelItemGroup, GroupItem\>](VM.Managed.DAFUL.Pre.Group\-2.md) ← 
 [FileGroup<Model.ModelItemGroup, GroupItem\>](VM.Managed.DAFUL.Pre.FileGroup\-2.md) ← 
 [ModelTemplate](VM.Managed.DAFUL.Pre.ModelTemplate.md)
@@ -56,7 +57,7 @@ public string DefaultName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Description"></a> Description
 
@@ -68,7 +69,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Extension"></a> Extension
 
@@ -80,7 +81,7 @@ public string Extension { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Folders"></a> Folders
 
@@ -92,7 +93,7 @@ public List<string> Folders { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_IconPath"></a> IconPath
 
@@ -104,7 +105,7 @@ public string IconPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_ToolKit"></a> ToolKit
 
@@ -116,7 +117,7 @@ public string ToolKit { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Type"></a> Type
 
@@ -128,7 +129,7 @@ public string Type { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -142,7 +143,7 @@ public Model CreateModel(string strModelFileName)
 
 #### Parameters
 
-`strModelFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModelFileName` string
 
 Name of the model.
 

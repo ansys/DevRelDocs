@@ -1,4 +1,5 @@
-#  Class DurabilityData.ContactInfo.LoadInfo
+# Class DurabilityData.ContactInfo.LoadInfo
+<a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_LoadInfo"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -9,7 +10,7 @@ public class DurabilityData.ContactInfo.LoadInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DurabilityData.ContactInfo.LoadInfo](VM.Models.Pre.Durability.DurabilityData.ContactInfo.LoadInfo.md)
 
 #### Extension Methods

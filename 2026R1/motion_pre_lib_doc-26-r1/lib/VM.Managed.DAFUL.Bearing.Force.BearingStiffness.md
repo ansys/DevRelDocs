@@ -1,4 +1,5 @@
-#  Class BearingStiffness
+# Class BearingStiffness
+<a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -11,9 +12,9 @@ public class BearingStiffness : LinkContainer, IObservableObject, IDisposableObj
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [BearingStiffness](VM.Managed.DAFUL.Bearing.Force.BearingStiffness.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -114,103 +115,103 @@ public BearingStiffness(double dDXFX, double dDYFX, double dDZFX, double dRXFX, 
 
 #### Parameters
 
-`dDXFX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDXFX` double
 
 The stiffness value of dx-fx.
 
-`dDYFX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDYFX` double
 
 The stiffness value of dy-fx.
 
-`dDZFX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDZFX` double
 
 The stiffness value of dz-fx.
 
-`dRXFX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRXFX` double
 
 The stiffness value of rx-fx.
 
-`dRYFX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRYFX` double
 
 The stiffness value of ry-fx.
 
-`dDXFY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDXFY` double
 
 The stiffness value of dx-fy.
 
-`dDYFY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDYFY` double
 
 The stiffness value of dy-fy.
 
-`dDZFY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDZFY` double
 
 The stiffness value of dz-fy.
 
-`dRXFY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRXFY` double
 
 The stiffness value of rx-fy.
 
-`dRYFY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRYFY` double
 
 The stiffness value of ry-fy.
 
-`dDXFZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDXFZ` double
 
 The stiffness value of dx-fz.
 
-`dDYFZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDYFZ` double
 
 The stiffness value of dy-fz.
 
-`dDZFZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDZFZ` double
 
 The stiffness value of dz-fz.
 
-`dRXFZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRXFZ` double
 
 The stiffness value of rx-fz.
 
-`dRYFZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRYFZ` double
 
 The stiffness value of ry-fz.
 
-`dDXMX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDXMX` double
 
 The stiffness value of dx-mx.
 
-`dDYMX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDYMX` double
 
 The stiffness value of dy-mx.
 
-`dDZMX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDZMX` double
 
 The stiffness value of dz-mx.
 
-`dRXMX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRXMX` double
 
 The stiffness value of rx-mx.
 
-`dRYMX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRYMX` double
 
 The stiffness value of ry-mx.
 
-`dDXMY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDXMY` double
 
 The stiffness value of dx-my.
 
-`dDYMY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDYMY` double
 
 The stiffness value of dy-my.
 
-`dDZMY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDZMY` double
 
 The stiffness value of dz-my.
 
-`dRXMY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRXMY` double
 
 The stiffness value of rx-my.
 
-`dRYMY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRYMY` double
 
 The stiffness value of ry-my.
 
@@ -336,7 +337,7 @@ public ExpressionValueVariable DXFX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXFY"></a> DXFY
 
@@ -348,7 +349,7 @@ public ExpressionValueVariable DXFY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXFZ"></a> DXFZ
 
@@ -360,7 +361,7 @@ public ExpressionValueVariable DXFZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXMX"></a> DXMX
 
@@ -372,7 +373,7 @@ public ExpressionValueVariable DXMX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXMY"></a> DXMY
 
@@ -384,7 +385,7 @@ public ExpressionValueVariable DXMY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYFX"></a> DYFX
 
@@ -396,7 +397,7 @@ public ExpressionValueVariable DYFX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYFY"></a> DYFY
 
@@ -408,7 +409,7 @@ public ExpressionValueVariable DYFY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYFZ"></a> DYFZ
 
@@ -420,7 +421,7 @@ public ExpressionValueVariable DYFZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYMX"></a> DYMX
 
@@ -432,7 +433,7 @@ public ExpressionValueVariable DYMX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYMY"></a> DYMY
 
@@ -444,7 +445,7 @@ public ExpressionValueVariable DYMY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZFX"></a> DZFX
 
@@ -456,7 +457,7 @@ public ExpressionValueVariable DZFX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZFY"></a> DZFY
 
@@ -468,7 +469,7 @@ public ExpressionValueVariable DZFY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZFZ"></a> DZFZ
 
@@ -480,7 +481,7 @@ public ExpressionValueVariable DZFZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZMX"></a> DZMX
 
@@ -492,7 +493,7 @@ public ExpressionValueVariable DZMX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZMY"></a> DZMY
 
@@ -504,7 +505,7 @@ public ExpressionValueVariable DZMY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXFX"></a> RXFX
 
@@ -516,7 +517,7 @@ public ExpressionValueVariable RXFX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXFY"></a> RXFY
 
@@ -528,7 +529,7 @@ public ExpressionValueVariable RXFY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXFZ"></a> RXFZ
 
@@ -540,7 +541,7 @@ public ExpressionValueVariable RXFZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXMX"></a> RXMX
 
@@ -552,7 +553,7 @@ public ExpressionValueVariable RXMX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXMY"></a> RXMY
 
@@ -564,7 +565,7 @@ public ExpressionValueVariable RXMY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYFX"></a> RYFX
 
@@ -576,7 +577,7 @@ public ExpressionValueVariable RYFX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYFY"></a> RYFY
 
@@ -588,7 +589,7 @@ public ExpressionValueVariable RYFY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYFZ"></a> RYFZ
 
@@ -600,7 +601,7 @@ public ExpressionValueVariable RYFZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYMX"></a> RYMX
 
@@ -612,7 +613,7 @@ public ExpressionValueVariable RYMX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYMY"></a> RYMY
 
@@ -624,7 +625,7 @@ public ExpressionValueVariable RYMY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_Torque"></a> Torque
 
@@ -636,7 +637,7 @@ public ExpressionValueVariable Torque { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 

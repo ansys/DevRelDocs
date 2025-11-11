@@ -1,4 +1,5 @@
-#  Class CADExportFile
+# Class CADExportFile
+<a id="VM_Managed_DAFUL_Builder_CADExportFile"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class CADExportFile : CADExportBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADExportBase](VM.Managed.DAFUL.Builder.CADExportBase.md) ← 
 [CADExportFile](VM.Managed.DAFUL.Builder.CADExportFile.md)
 
@@ -52,7 +53,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 

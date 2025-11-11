@@ -1,4 +1,5 @@
-#  Class AttributeRotationalBushingForce
+# Class AttributeRotationalBushingForce
+<a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce"></a>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -11,9 +12,9 @@ public class AttributeRotationalBushingForce : AttributeBase, IObservableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 [AttributeRotationalBushingForce](VM.Managed.DAFUL.Force.AttributeRotationalBushingForce.md)
@@ -78,7 +79,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -119,7 +120,7 @@ public ExpressionValueVariable LowerAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_LowerArm"></a> LowerArm
 
@@ -131,7 +132,7 @@ public ExpressionValueVariable LowerArm { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TKX"></a> TKX
 
@@ -143,7 +144,7 @@ public double TKX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TKY"></a> TKY
 
@@ -155,7 +156,7 @@ public double TKY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TKZ"></a> TKZ
 
@@ -167,7 +168,7 @@ public double TKZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TypeOfUser"></a> TypeOfUser
 
@@ -191,7 +192,7 @@ public ExpressionValueVariable UpperAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_UpperArm"></a> UpperArm
 
@@ -203,7 +204,7 @@ public ExpressionValueVariable UpperArm { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -217,13 +218,13 @@ public List<SplineValue.TwoPoint> GetKX(double dKX)
 
 #### Parameters
 
-`dKX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dKX` double
 
 The rotational kx.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
+ List<[SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\>
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_GetKY_System_Double_"></a> GetKY\(double\)
 
@@ -235,13 +236,13 @@ public List<SplineValue.TwoPoint> GetKY(double dKY)
 
 #### Parameters
 
-`dKY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dKY` double
 
 The rotational ky.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
+ List<[SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\>
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_GetKZ"></a> GetKZ\(\)
 
@@ -253,7 +254,7 @@ public List<SplineValue.TwoPoint> GetKZ()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
+ List<[SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\>
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_GetKZ_System_Double_"></a> GetKZ\(double\)
 
@@ -266,11 +267,11 @@ public List<SplineValue.TwoPoint> GetKZ(double dStiffness)
 
 #### Parameters
 
-`dStiffness` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dStiffness` double
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
+ List<[SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\>
 
 ### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 

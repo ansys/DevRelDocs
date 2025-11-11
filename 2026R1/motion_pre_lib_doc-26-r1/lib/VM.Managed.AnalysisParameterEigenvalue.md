@@ -1,4 +1,5 @@
-#  Class AnalysisParameterEigenvalue
+# Class AnalysisParameterEigenvalue
+<a id="VM_Managed_AnalysisParameterEigenvalue"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class AnalysisParameterEigenvalue
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisParameterEigenvalue](VM.Managed.AnalysisParameterEigenvalue.md)
 
 #### Extension Methods

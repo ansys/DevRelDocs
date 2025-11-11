@@ -1,4 +1,5 @@
-#  Class UpdateBallOperation
+# Class UpdateBallOperation
+<a id="VM_Managed_DAFUL_Operation_UpdateBallOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -9,7 +10,7 @@ public class UpdateBallOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateBallOperation](VM.Managed.DAFUL.Operation.UpdateBallOperation.md)
 
@@ -83,7 +84,7 @@ public UpdateBallOperation(string key, BallInfo ballInfo)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 `ballInfo` [BallInfo](VM.Managed.DAFUL.Operation.BallInfo.md)
 
@@ -95,7 +96,7 @@ public UpdateBallOperation(UIntPtr key, BallInfo ballInfo)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 `ballInfo` [BallInfo](VM.Managed.DAFUL.Operation.BallInfo.md)
 
@@ -109,7 +110,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_UpdateBallOperation_Name"></a> Name
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

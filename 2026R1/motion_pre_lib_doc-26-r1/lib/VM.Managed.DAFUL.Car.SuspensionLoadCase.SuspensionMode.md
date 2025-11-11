@@ -1,4 +1,5 @@
-#  Class SuspensionLoadCase.SuspensionMode
+# Class SuspensionLoadCase.SuspensionMode
+<a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class SuspensionLoadCase.SuspensionMode
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SuspensionLoadCase.SuspensionMode](VM.Managed.DAFUL.Car.SuspensionLoadCase.SuspensionMode.md)
 
 #### Extension Methods

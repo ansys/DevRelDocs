@@ -1,4 +1,5 @@
-#  Class AddToDocument
+# Class AddToDocument
+<a id="VM_Managed_Operation_AddToDocument"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class AddToDocument : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [AddToDocument](VM.Managed.Operation.AddToDocument.md)
 
@@ -115,7 +116,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Class CreateForce
+# Class CreateForce
+<a id="VM_Managed_DAFUL_Operation_Util_CreateForce"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateForce
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateForce](VM.Managed.DAFUL.Operation.Util.CreateForce.md)
 
 #### Extension Methods
@@ -60,17 +61,17 @@ The pt start.
 
 The pt end.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 Name of the string prefix.
 
 #### Returns
 
- RScalar
+ [RScalar](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/RScalar.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateRScalar_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_"></a> CreateRScalar\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
 
@@ -102,17 +103,17 @@ The pt end.
 
 The dir z.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 Name of the string prefix.
 
 #### Returns
 
- RScalar
+ [RScalar](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/RScalar.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateRScalar_VM_Managed_Document3D_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_VM_Managed_DAFUL_Function_System_Boolean_"></a> CreateRScalar\(Document3D, IObjectBase, IObjectBase, PointBase, DirectionBase, string, Function, bool\)
 
@@ -144,23 +145,23 @@ The pt end.
 
 The dir z.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 Name of the string prefix.
 
-`function` Function
+`function` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- RScalar
+ [RScalar](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/RScalar.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateRSpringDamper_VM_Managed_Document3D_VM_Managed_ObjectBase_System_String_"></a> CreateRSpringDamper\(Document3D, ObjectBase, string\)
 
@@ -180,13 +181,13 @@ The active document.
 
 The object that IRSpringDamperComponent.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The spring force prefix name.
 
 #### Returns
 
- RSpringDamper
+ [RSpringDamper](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/RSpringDamper.cs)
 
 The new rotational spring damper force.
 
@@ -220,13 +221,13 @@ The start location of scalar.
 
 The end location of scalar.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The scalar force prefix name.
 
 #### Returns
 
- TScalar
+ [TScalar](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/TScalar.cs)
 
 The new translational sclar force.
 
@@ -260,13 +261,13 @@ The end location of scalar.
 
 The z direction of scalar.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The scalar force prefix name.
 
 #### Returns
 
- TScalar
+ [TScalar](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/TScalar.cs)
 
 The new translational sclar force.
 
@@ -300,13 +301,13 @@ The start location of spring.
 
 The end location of spring.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The spring force prefix name.
 
 #### Returns
 
- TSpringDamper
+ [TSpringDamper](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/TSpringDamper.cs)
 
 The new translational spring damper force.
 
@@ -324,7 +325,7 @@ public static Vector CreateVector(Document document, string name, IConnectable b
 
 The active document.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name.
 
@@ -346,7 +347,7 @@ The action posi.
 
 #### Returns
 
- Vector
+ [Vector](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Vector.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateVector_VM_Managed_Document_System_String_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_TMatrix_VM_TMatrix_System_Boolean_"></a> CreateVector\(Document, string, IConnectable, IConnectable, TMatrix, TMatrix, bool\)
 
@@ -362,7 +363,7 @@ public static Vector CreateVector(Document document, string name, IConnectable b
 
 The active document.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name.
 
@@ -382,13 +383,13 @@ The base posi.
 
 The action posi.
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
 #### Returns
 
- Vector
+ [Vector](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Vector.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateVector_VM_Managed_Document_System_String_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_OrientationBase_VM_Managed_OrientationBase_VM_Managed_IMarker_"></a> CreateVector\(Document, string, IConnectable, IConnectable, PointBase, PointBase, OrientationBase, OrientationBase, IMarker\)
 
@@ -404,7 +405,7 @@ public static Vector CreateVector(Document document, string name, IConnectable b
 
 The active document.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name.
 
@@ -438,5 +439,5 @@ The reference marekr.
 
 #### Returns
 
- Vector
+ [Vector](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Vector.cs)
 

@@ -1,4 +1,5 @@
-#  Interface ISpline3D
+# Interface ISpline3D
+<a id="VM_Models_Pre_ISpline3D"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -40,7 +41,7 @@ IList<string> Points { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IList<string\>
 
 ### <a id="VM_Models_Pre_ISpline3D_XScale"></a> XScale
 
@@ -50,7 +51,7 @@ IExpressionValue<double> XScale { get; set; }
 
 #### Property Value
 
- [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<double\>
 
 ### <a id="VM_Models_Pre_ISpline3D_YScale"></a> YScale
 
@@ -60,7 +61,7 @@ IExpressionValue<double> YScale { get; set; }
 
 #### Property Value
 
- [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<double\>
 
 ### <a id="VM_Models_Pre_ISpline3D_ZScale"></a> ZScale
 
@@ -70,5 +71,5 @@ IExpressionValue<double> ZScale { get; set; }
 
 #### Property Value
 
- [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<double\>
 

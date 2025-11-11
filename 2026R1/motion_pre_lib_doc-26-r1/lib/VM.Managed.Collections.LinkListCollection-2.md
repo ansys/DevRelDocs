@@ -1,4 +1,5 @@
-#  Class LinkListCollection<T, TLink\>
+# Class LinkListCollection<T, TLink\>
+<a id="VM_Managed_Collections_LinkListCollection_2"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -15,7 +16,7 @@ public class LinkListCollection<T, TLink> : LinkCollection<T, TLink, List<TLink>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LinkCollection<T, TLink, List<TLink\>\>](VM.Managed.Collections.LinkCollection\-3.md) ← 
 [LinkListCollection<T, TLink\>](VM.Managed.Collections.LinkListCollection\-2.md)
 
@@ -77,7 +78,7 @@ public LinkListCollection(ILinkContainer objParent, List<TLink> collection)
 
 `objParent` ILinkContainer
 
-`collection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<TLink\>
+`collection` List<TLink\>
 
 ## Properties
 
@@ -111,7 +112,7 @@ public virtual int IndexOf(T item)
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Collections_LinkListCollection_2_Insert_System_Int32__0_"></a> Insert\(int, T\)
 
@@ -121,7 +122,7 @@ public virtual void Insert(int index, T item)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 `item` T
 
@@ -137,7 +138,7 @@ public override bool Remove(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkListCollection_2_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
@@ -149,11 +150,11 @@ public override bool Remove(T item, bool bContainsDocument)
 
 `item` T
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Collections_LinkListCollection_2_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
 
@@ -163,7 +164,7 @@ public virtual void RemoveAt(int index)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
 ### <a id="VM_Managed_Collections_LinkListCollection_2_RemoveAt_System_Int32_System_Boolean_"></a> RemoveAt\(int, bool\)
 
@@ -173,9 +174,9 @@ public virtual void RemoveAt(int index, bool bContainsDocument)
 
 #### Parameters
 
-`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`index` int
 
-`bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bContainsDocument` bool
 
 ### <a id="VM_Managed_Collections_LinkListCollection_2_Replace__0__0_"></a> Replace\(T, T\)
 

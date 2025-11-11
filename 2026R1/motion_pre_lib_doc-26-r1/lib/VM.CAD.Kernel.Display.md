@@ -1,4 +1,5 @@
-#  Class Display
+# Class Display
+<a id="VM_CAD_Kernel_Display"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Display
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Display](VM.CAD.Kernel.Display.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public string @default { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Display_description"></a> description
 
@@ -48,7 +49,7 @@ public string description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Display_items"></a> items
 
@@ -58,7 +59,7 @@ public string items { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Display_name"></a> name
 
@@ -68,7 +69,7 @@ public string name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Display_type"></a> type
 
@@ -78,5 +79,5 @@ public string type { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

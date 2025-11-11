@@ -1,4 +1,5 @@
-#  Interface IForceComponent
+# Interface IForceComponent
+<a id="VM_Managed_DAFUL_IForceComponent"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -27,7 +28,7 @@ bool IsAvailable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

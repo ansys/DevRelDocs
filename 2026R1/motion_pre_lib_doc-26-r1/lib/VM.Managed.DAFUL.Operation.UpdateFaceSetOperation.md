@@ -1,4 +1,5 @@
-#  Class UpdateFaceSetOperation
+# Class UpdateFaceSetOperation
+<a id="VM_Managed_DAFUL_Operation_UpdateFaceSetOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -9,7 +10,7 @@ public class UpdateFaceSetOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateFaceSetOperation](VM.Managed.DAFUL.Operation.UpdateFaceSetOperation.md)
 
@@ -83,11 +84,11 @@ public UpdateFaceSetOperation(SetFace faceset, double dMaxPen, double dOffset)
 
 #### Parameters
 
-`faceset` SetFace
+`faceset` [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
-`dMaxPen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPen` double
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 ## Properties
 
@@ -99,7 +100,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_UpdateFaceSetOperation_Name"></a> Name
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

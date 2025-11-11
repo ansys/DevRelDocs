@@ -1,4 +1,5 @@
-#  Class ImportPythonCode
+# Class ImportPythonCode
+<a id="VM_Operations_Pre_SubEntity_ImportPythonCode"></a>
 
 Namespace: [VM.Operations.Pre.SubEntity](VM.Operations.Pre.SubEntity.md)  
 Assembly: VM.Operations.Pre.SubEntity.dll  
@@ -11,7 +12,7 @@ public class ImportPythonCode : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ImportPythonCode](VM.Operations.Pre.SubEntity.ImportPythonCode.md)
 
@@ -91,7 +92,7 @@ public ImportPythonCode(Document doc, params string[] pathPythonCodes)
 
 The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> to import python code
 
-`pathPythonCodes` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`pathPythonCodes` string\[\]
 
 Additional pathes to python codes
 
@@ -109,7 +110,7 @@ public ImportPythonCode(Document doc, IEnumerable<string> pathPythonCodes)
 
 The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> to import python code
 
-`pathPythonCodes` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`pathPythonCodes` IEnumerable<string\>
 
 Pathes to python codes.
 
@@ -139,7 +140,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode_Pathes"></a> Pathes
 
@@ -151,7 +152,7 @@ public string[] Pathes { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode_Result"></a> Result
 
@@ -163,7 +164,7 @@ public PythonCode[] Result { get; set; }
 
 #### Property Value
 
- PythonCode\[\]
+ [PythonCode](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/PythonCode.cs)\[\]
 
 ## Methods
 
@@ -185,5 +186,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

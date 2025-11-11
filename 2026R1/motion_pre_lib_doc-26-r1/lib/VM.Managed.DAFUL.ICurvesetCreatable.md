@@ -1,4 +1,5 @@
-#  Interface ICurvesetCreatable
+# Interface ICurvesetCreatable
+<a id="VM_Managed_DAFUL_ICurvesetCreatable"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

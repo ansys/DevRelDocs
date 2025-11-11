@@ -1,4 +1,5 @@
-#  Class JournalParameter
+# Class JournalParameter
+<a id="VM_Managed_Operation_JournalParameter"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class JournalParameter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [JournalParameter](VM.Managed.Operation.JournalParameter.md)
 
 #### Extension Methods
@@ -32,15 +33,15 @@ public JournalParameter(XmlNode xmlInfo, string journalVersion, string currentVe
 
 #### Parameters
 
-`xmlInfo` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`xmlInfo` XmlNode
 
 The XML information.
 
-`journalVersion` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`journalVersion` string
 
 The journal version.
 
-`currentVersion` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`currentVersion` string
 
 The current version.
 
@@ -56,7 +57,7 @@ public string CurrentVersion
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_JournalParameter_JournalVersion"></a> JournalVersion
 
@@ -68,7 +69,7 @@ public string JournalVersion
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_JournalParameter_XmlInfo"></a> XmlInfo
 
@@ -80,5 +81,5 @@ public XmlNode XmlInfo
 
 #### Field Value
 
- [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+ XmlNode
 

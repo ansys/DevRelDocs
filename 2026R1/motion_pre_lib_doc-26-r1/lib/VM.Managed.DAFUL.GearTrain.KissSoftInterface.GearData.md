@@ -1,4 +1,5 @@
-#  Class KissSoftInterface.GearData
+# Class KissSoftInterface.GearData
+<a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class KissSoftInterface.GearData
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KissSoftInterface.GearData](VM.Managed.DAFUL.GearTrain.KissSoftInterface.GearData.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public double AddendumCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_BaseDiameter"></a> BaseDiameter
 
@@ -54,7 +55,7 @@ public double BaseDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_DedendumCoefficient"></a> DedendumCoefficient
 
@@ -66,7 +67,7 @@ public double DedendumCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_Density"></a> Density
 
@@ -78,7 +79,7 @@ public double Density { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_FaceWidth"></a> FaceWidth
 
@@ -90,7 +91,7 @@ public double FaceWidth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_GeneratingProfileShiftCoefficient"></a> GeneratingProfileShiftCoefficient
 
@@ -102,7 +103,7 @@ public double GeneratingProfileShiftCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_HelixAngleAtReferenceCircle"></a> HelixAngleAtReferenceCircle
 
@@ -114,7 +115,7 @@ public double HelixAngleAtReferenceCircle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_HelixAngleAtReferenceCircleAsDegree"></a> HelixAngleAtReferenceCircleAsDegree
 
@@ -126,7 +127,7 @@ public double HelixAngleAtReferenceCircleAsDegree { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_LeftPosition"></a> LeftPosition
 
@@ -162,7 +163,7 @@ public uint NumberOfGearTooth { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_OperatingPitchDiameter"></a> OperatingPitchDiameter
 
@@ -174,7 +175,7 @@ public double OperatingPitchDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_PoissonsRatio"></a> PoissonsRatio
 
@@ -186,7 +187,7 @@ public double PoissonsRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_ProfileShiftCoefficient"></a> ProfileShiftCoefficient
 
@@ -198,7 +199,7 @@ public double ProfileShiftCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_ReferenceDiameter"></a> ReferenceDiameter
 
@@ -210,7 +211,7 @@ public double ReferenceDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_RightPosition"></a> RightPosition
 
@@ -234,7 +235,7 @@ public double RootDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_TipDiameter"></a> TipDiameter
 
@@ -246,7 +247,7 @@ public double TipDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_TypeOfGearHelicalDirection"></a> TypeOfGearHelicalDirection
 
@@ -270,5 +271,5 @@ public double YoungsModulus { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

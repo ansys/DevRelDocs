@@ -1,9 +1,10 @@
-#  Interface IDirectionExpression
+# Interface IDirectionExpression
+<a id="VM_IDirectionExpression"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IDirectionExpression : IDirectionBase, IExpression
 ```
 
@@ -11,5 +12,4 @@ public interface IDirectionExpression : IDirectionBase, IExpression
 
 [IDirectionBase](VM.IDirectionBase.md), 
 [IExpression](VM.IExpression.md)
-
 

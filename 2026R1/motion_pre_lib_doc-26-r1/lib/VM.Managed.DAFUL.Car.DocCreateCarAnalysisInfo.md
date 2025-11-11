@@ -1,4 +1,5 @@
-#  Class DocCreateCarAnalysisInfo
+# Class DocCreateCarAnalysisInfo
+<a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class DocCreateCarAnalysisInfo : DocFromTemplateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocFromTemplateInfo ← 
 [DocCreateCarAnalysisInfo](VM.Managed.DAFUL.Car.DocCreateCarAnalysisInfo.md)
@@ -57,7 +58,7 @@ public double GravityX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityY"></a> GravityY
 
@@ -69,7 +70,7 @@ public double GravityY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityZ"></a> GravityZ
 
@@ -81,7 +82,7 @@ public double GravityZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_IconSize"></a> IconSize
 
@@ -93,7 +94,7 @@ public double IconSize { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_IncrementTime"></a> IncrementTime
 
@@ -105,7 +106,7 @@ public double IncrementTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_UseIncrementTime"></a> UseIncrementTime
 
@@ -117,5 +118,5 @@ public bool UseIncrementTime { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

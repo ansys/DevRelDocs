@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Linear.Operation
+# Namespace VM.Managed.DAFUL.Linear.Operation
+<a id="VM_Managed_DAFUL_Linear_Operation"></a>
 
 ### Classes
 
@@ -9,6 +10,10 @@ The export post dfg file operation
  [ExportDFS](VM.Managed.DAFUL.Linear.Operation.ExportDFS.md)
 
 The export solver dfs file operation
+
+ [ExportFiles](VM.Managed.DAFUL.Linear.Operation.ExportFiles.md)
+
+ [ExportMotionFiles](VM.Managed.DAFUL.Linear.Operation.ExportMotionFiles.md)
 
  [ExportXML](VM.Managed.DAFUL.Linear.Operation.ExportXML.md)
 

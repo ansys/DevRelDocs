@@ -1,4 +1,5 @@
-#  Class ScenarioBase
+# Class ScenarioBase
+<a id="VM_Models_ScenarioBase"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -9,7 +10,7 @@ public abstract class ScenarioBase : ProjectObjectBase, IObservableObject, IScen
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
 [ProjectObjectBase](VM.Models.ProjectObjectBase.md) ← 
 [ScenarioBase](VM.Models.ScenarioBase.md)
@@ -62,7 +63,7 @@ public ScenarioBase(IProjectDocument parent, string name)
 
 `parent` [IProjectDocument](VM.Models.IProjectDocument.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 ## Properties
 
@@ -75,7 +76,7 @@ public abstract string CategoryName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_ScenarioBase_IsSelected"></a> IsSelected
 
@@ -86,7 +87,7 @@ public bool IsSelected { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_ScenarioBase_Items"></a> Items
 
@@ -96,7 +97,7 @@ public IEnumerable<IStep> Items { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStep](VM.Models.IStep.md)\>
+ IEnumerable<[IStep](VM.Models.IStep.md)\>
 
 ### <a id="VM_Models_ScenarioBase_Left"></a> Left
 
@@ -107,7 +108,7 @@ public double Left { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_ScenarioBase_Name"></a> Name
 
@@ -117,7 +118,7 @@ public override string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_ScenarioBase_Parent"></a> Parent
 
@@ -150,7 +151,7 @@ public double Top { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_ScenarioBase_Item_VM_Identifier_"></a> this\[Identifier\]
 
@@ -220,5 +221,5 @@ public bool TryGetItem(Identifier identifier, out IStep item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

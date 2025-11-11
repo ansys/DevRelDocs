@@ -1,4 +1,5 @@
-#  Struct CycloidPinInformationInAssemblyManager
+# Struct CycloidPinInformationInAssemblyManager
+<a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -43,7 +44,7 @@ public string CycloidPinGearSetName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_HousingName"></a> HousingName
 
@@ -55,7 +56,7 @@ public string HousingName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_ReferenceGearSetName"></a> ReferenceGearSetName
 
@@ -67,7 +68,7 @@ public string ReferenceGearSetName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_UseReferenceBody"></a> UseReferenceBody
 
@@ -79,5 +80,5 @@ public bool UseReferenceBody { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

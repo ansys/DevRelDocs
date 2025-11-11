@@ -1,4 +1,5 @@
-#  Interface IHasMinorRole
+# Interface IHasMinorRole
+<a id="VM_Managed_DAFUL_Car_IHasMinorRole"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

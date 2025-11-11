@@ -1,4 +1,5 @@
-#  Interface ILinkOwnerDestroyOwner
+# Interface ILinkOwnerDestroyOwner
+<a id="VM_Models_Pre_ILinkOwnerDestroyOwner"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,7 +24,7 @@ bool IsCacheEmpty { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -35,5 +36,5 @@ void Initialize(object owner)
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 

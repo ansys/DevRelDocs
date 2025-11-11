@@ -1,4 +1,5 @@
-#  Class PickerMultiTopol
+# Class PickerMultiTopol
+<a id="VM_Managed_Picker_Core_PickerMultiTopol"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class PickerMultiTopol : PickerMulti
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerMulti](VM.Managed.Picker.Core.PickerMulti.md) ← 
 [PickerMultiTopol](VM.Managed.Picker.Core.PickerMultiTopol.md)
@@ -90,7 +91,7 @@ protected bool m_bAllBeloinging
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiTopol_m_bDecidedParent"></a> m\_bDecidedParent
 
@@ -100,7 +101,7 @@ protected bool m_bDecidedParent
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiTopol_m_pParentObject"></a> m\_pParentObject
 
@@ -126,7 +127,7 @@ protected bool CheckResultWhenCreateTopology(Topology topology)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiTopol_GetParentObject"></a> GetParentObject\(\)
 
@@ -146,11 +147,11 @@ public override void SetHighlight(List<UIntPtr> lstTopologyProxy, bool bHighligh
 
 #### Parameters
 
-`lstTopologyProxy` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstTopologyProxy` List<UIntPtr\>
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
-`bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdate` bool
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiTopol_SetParentObject_VM_Managed_ObjectBase_"></a> SetParentObject\(ObjectBase\)
 

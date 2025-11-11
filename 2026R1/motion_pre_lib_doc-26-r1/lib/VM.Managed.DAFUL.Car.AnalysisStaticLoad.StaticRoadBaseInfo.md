@@ -1,4 +1,5 @@
-#  Class AnalysisStaticLoad.StaticRoadBaseInfo
+# Class AnalysisStaticLoad.StaticRoadBaseInfo
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisStaticLoad.StaticRoadBaseInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisStaticLoad.StaticRoadBaseInfo](VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBaseInfo.md)
 
 #### Derived
@@ -67,7 +68,7 @@ public double LWRL { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_LWRR"></a> LWRR
 
@@ -79,7 +80,7 @@ public double LWRR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_UPRL"></a> UPRL
 
@@ -91,7 +92,7 @@ public double UPRL { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_UPRR"></a> UPRR
 
@@ -103,7 +104,7 @@ public double UPRR { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 

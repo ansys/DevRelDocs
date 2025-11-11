@@ -1,4 +1,5 @@
-#  Class AddObjectToActiveDocument
+# Class AddObjectToActiveDocument
+<a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class AddObjectToActiveDocument : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [AddObjectToActiveDocument](VM.Managed.DAFUL.Chained.Operation.AddObjectToActiveDocument.md)
 
@@ -87,23 +88,23 @@ public AddObjectToActiveDocument(int nShare, int nRepeatSegment, string[] arPreF
 
 #### Parameters
 
-`nShare` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nShare` int
 
 The n share.
 
-`nRepeatSegment` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRepeatSegment` int
 
 The n repeat segment.
 
-`arPreFixed` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arPreFixed` string\[\]
 
 The ar pre fixed.
 
-`lstTansform` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<TransformBase\>
+`lstTansform` List<TransformBase\>
 
 The LST tansform.
 
-`lstSegmentDoc` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document3D\>
+`lstSegmentDoc` List<Document3D\>
 
 The LST segment document.
 
@@ -111,7 +112,7 @@ The LST segment document.
 
 The activedoc.
 
-`bCreate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCreate` bool
 
 The create flag.
 
@@ -141,7 +142,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument_Segment"></a> Segment
 
@@ -153,7 +154,7 @@ public List<ObjectBase> Segment { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+ List<ObjectBase\>
 
 ## Methods
 
@@ -175,7 +176,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

@@ -1,4 +1,5 @@
-#  Class CreateMagnetic
+# Class CreateMagnetic
+<a id="VM_Managed_DAFUL_Operation_CreateMagnetic"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateMagnetic : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateMagnetic](VM.Managed.DAFUL.Operation.CreateMagnetic.md)
 
@@ -97,7 +98,7 @@ public CreateMagnetic(Document doc, IEnumerable<string> groupNames)
 
 `doc` Document
 
-`groupNames` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`groupNames` IEnumerable<string\>
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateMagnetic__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateMagnetic\(JournalParameter\)
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -141,5 +142,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

@@ -1,4 +1,5 @@
-#  Class BuilderParamTransform
+# Class BuilderParamTransform
+<a id="VM_CAD_Builders_BuilderParamTransform"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public abstract class BuilderParamTransform : BuilderParamColorGeom
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamTransform](VM.CAD.Builders.BuilderParamTransform.md)

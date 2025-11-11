@@ -1,4 +1,5 @@
-#  Delegate SimulationRunInDesigner.AddEntityCalback
+# Delegate SimulationRunInDesigner.AddEntityCalback
+<a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner_AddEntityCalback"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -15,7 +16,7 @@ public delegate List<SolidBody> SimulationRunInDesigner.AddEntityCalback(Manager
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SolidBody\>
+ List<[SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)\>
 
 #### Extension Methods
 

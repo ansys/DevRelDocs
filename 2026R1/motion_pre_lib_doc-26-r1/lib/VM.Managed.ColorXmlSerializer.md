@@ -1,4 +1,5 @@
-#  Class ColorXmlSerializer
+# Class ColorXmlSerializer
+<a id="VM_Managed_ColorXmlSerializer"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ColorXmlSerializer
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ColorXmlSerializer](VM.Managed.ColorXmlSerializer.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public ColorXmlSerializer(Color color)
 
 #### Parameters
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The color.
 
@@ -56,7 +57,7 @@ public Color Data { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ## Methods
 
@@ -68,7 +69,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_ColorXmlSerializer_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -78,7 +79,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 ### <a id="VM_Managed_ColorXmlSerializer_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -88,7 +89,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ## Operators
 
@@ -108,7 +109,7 @@ The color xmlserializer.
 
 #### Returns
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_ColorXmlSerializer_op_Implicit_System_Drawing_Color__VM_Managed_ColorXmlSerializer"></a> implicit operator ColorXmlSerializer\(Color\)
 
@@ -120,7 +121,7 @@ public static implicit operator ColorXmlSerializer(Color o)
 
 #### Parameters
 
-`o` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`o` Color
 
 The color.
 

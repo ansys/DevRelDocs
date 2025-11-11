@@ -1,4 +1,5 @@
-#  Interface IPointSetComponent
+# Interface IPointSetComponent
+<a id="VM_Managed_DAFUL_IPointSetComponent"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

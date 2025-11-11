@@ -1,4 +1,5 @@
-#  Interface IHasBuilder
+# Interface IHasBuilder
+<a id="VM_Managed_IHasBuilder"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

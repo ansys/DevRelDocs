@@ -1,4 +1,5 @@
-#  Enum PathType
+# Enum PathType
+<a id="VM_Managed_DAFUL_PathType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

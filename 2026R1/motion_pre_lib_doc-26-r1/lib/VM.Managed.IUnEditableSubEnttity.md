@@ -1,4 +1,5 @@
-#  Interface IUnEditableSubEnttity
+# Interface IUnEditableSubEnttity
+<a id="VM_Managed_IUnEditableSubEnttity"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

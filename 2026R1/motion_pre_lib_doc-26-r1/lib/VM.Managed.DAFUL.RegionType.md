@@ -1,4 +1,5 @@
-#  Enum RegionType
+# Enum RegionType
+<a id="VM_Managed_DAFUL_RegionType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

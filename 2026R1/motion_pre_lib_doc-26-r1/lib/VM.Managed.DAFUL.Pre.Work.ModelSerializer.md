@@ -1,4 +1,5 @@
-#  Class Work.ModelSerializer
+# Class Work.ModelSerializer
+<a id="VM_Managed_DAFUL_Pre_Work_ModelSerializer"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Work.ModelSerializer
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Work.ModelSerializer](VM.Managed.DAFUL.Pre.Work.ModelSerializer.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public ModelSerializer(string strModelPath)
 
 #### Parameters
 
-`strModelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModelPath` string
 
 The relative path of model.
 
@@ -56,7 +57,7 @@ public string Path { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Operators
 

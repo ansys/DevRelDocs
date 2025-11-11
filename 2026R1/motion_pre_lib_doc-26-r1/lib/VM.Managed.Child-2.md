@@ -1,4 +1,5 @@
-#  Class Child<T, TUpdate\>
+# Class Child<T, TUpdate\>
+<a id="VM_Managed_Child_2"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +23,7 @@ The link event.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Child<T, TUpdate\>](VM.Managed.Child\-2.md)
 
 #### Implements
@@ -79,9 +80,9 @@ protected Child(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ## Properties
 
@@ -107,7 +108,7 @@ protected void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_Child_2_Dispose"></a> Dispose\(\)
 
@@ -127,11 +128,11 @@ void GetObjectData(SerializationInfo info, StreamingContext __unnamed001)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`__unnamed001` StreamingContext
 
 ### <a id="VM_Managed_Child_2_OnDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnDeserialized\(StreamingContext\)
 
@@ -142,7 +143,7 @@ public void OnDeserialized(StreamingContext context)
 
 #### Parameters
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_Child_2_OnPostDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnPostDeserialized\(StreamingContext\)
 
@@ -152,7 +153,7 @@ public void OnPostDeserialized(StreamingContext context)
 
 #### Parameters
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_Child_2_OnResetLink"></a> OnResetLink\(\)
 

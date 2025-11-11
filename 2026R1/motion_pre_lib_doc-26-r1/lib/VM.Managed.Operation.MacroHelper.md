@@ -1,4 +1,5 @@
-#  Class MacroHelper
+# Class MacroHelper
+<a id="VM_Managed_Operation_MacroHelper"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class MacroHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MacroHelper](VM.Managed.Operation.MacroHelper.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public static Dictionary<string, string> g_dicKeyToFullNameForDeleting
 
 #### Field Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Dictionary<string, string\>
 
 ## Methods
 
@@ -50,13 +51,13 @@ public static string ChangeFullNameToKey(string strXml, Document doc)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 `doc` [Document](VM.Managed.Document.md)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_MacroHelper_ChangeFullNameToKey_System_String_"></a> ChangeFullNameToKey\(string\)
 
@@ -66,11 +67,11 @@ public static string ChangeFullNameToKey(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_MacroHelper_ChangeKeyToFullName_System_String_VM_Managed_Document_"></a> ChangeKeyToFullName\(string, Document\)
 
@@ -80,13 +81,13 @@ public static string ChangeKeyToFullName(string strXml, Document doc)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 `doc` [Document](VM.Managed.Document.md)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_MacroHelper_ChangeKeyToFullName_System_String_"></a> ChangeKeyToFullName\(string\)
 
@@ -96,11 +97,11 @@ public static string ChangeKeyToFullName(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_MacroHelper_ChangeKeyToFullNameCore_System_Xml_XmlNode_System_Boolean_VM_Models_Pre_IDocument_"></a> ChangeKeyToFullNameCore\(XmlNode, bool, IDocument\)
 
@@ -110,9 +111,9 @@ public static void ChangeKeyToFullNameCore(XmlNode nodeXml, bool bReverse, IDocu
 
 #### Parameters
 
-`nodeXml` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`nodeXml` XmlNode
 
-`bReverse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReverse` bool
 
 `doc` IDocument
 
@@ -128,7 +129,7 @@ public static Dictionary<string, string> CreateEntityDictionary(ObjectBase entit
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Dictionary<string, string\>
 
 ### <a id="VM_Managed_Operation_MacroHelper_GetFullNameFromKey_VM_Managed_ObjectBase_"></a> GetFullNameFromKey\(ObjectBase\)
 
@@ -142,7 +143,7 @@ public static string GetFullNameFromKey(ObjectBase obj)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_MacroHelper_ModifyEntityDictionary_VM_Managed_ObjectBase_"></a> ModifyEntityDictionary\(ObjectBase\)
 
@@ -156,5 +157,5 @@ public static Dictionary<string, string> ModifyEntityDictionary(ObjectBase entit
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Dictionary<string, string\>
 

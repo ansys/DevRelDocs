@@ -1,4 +1,5 @@
-#  Struct UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequence
+# Struct UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequence
+<a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_PositionAndScalarStartSequence"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -21,11 +22,11 @@ public PositionAndScalarStartSequence(int nPositionSequence, int nScalarSequence
 
 #### Parameters
 
-`nPositionSequence` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nPositionSequence` int
 
 The position sequence.
 
-`nScalarSequence` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nScalarSequence` int
 
 The scalar sequence.
 
@@ -41,7 +42,7 @@ public int PositionSequence { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_PositionAndScalarStartSequence_ScalarSequence"></a> ScalarSequence
 
@@ -53,5 +54,5 @@ public int ScalarSequence { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

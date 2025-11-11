@@ -1,4 +1,5 @@
-#  Class AnalysisRideDrum
+# Class AnalysisRideDrum
+<a id="VM_Managed_DAFUL_Car_AnalysisRideDrum"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisRideDrum : TireAnalysisBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [TireAnalysisBase](VM.Managed.DAFUL.Car.TireAnalysisBase.md) ← 
 [AnalysisRideDrum](VM.Managed.DAFUL.Car.AnalysisRideDrum.md)
@@ -89,7 +90,7 @@ public double Cleat_StartingAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_DiameterValue"></a> DiameterValue
 
@@ -101,7 +102,7 @@ public double DiameterValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_DrumInfo"></a> DrumInfo
 
@@ -125,7 +126,7 @@ protected override double InitialVelocity { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_Number_Cleats"></a> Number\_Cleats
 
@@ -137,7 +138,7 @@ public uint Number_Cleats { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ## Methods
 
@@ -151,7 +152,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

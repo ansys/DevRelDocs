@@ -1,4 +1,5 @@
-#  Class BeamBodyAPI
+# Class BeamBodyAPI
+<a id="VM_API_Pre_FE_BeamBodyAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class BeamBodyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BeamBodyAPI](VM.API.Pre.FE.BeamBodyAPI.md)
 
 #### Extension Methods
@@ -36,15 +37,15 @@ public static Obj CreateBeamNodalBody(this SubSystemDocument document, string st
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create beam FE body.
 
-`strNewMeshFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNewMeshFilePath` string
 
 The path to new .dfmesh file.
 
-`strFEBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFEBodyName` string
 
 The name of the new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -60,51 +61,51 @@ The end point of the beam.
 
 The Y direction vector of the beam.
 
-`radius` ExpressionValueVariable
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The radius of the beam.
 
-`numberOfHexElementPerSegment` ExpressionValueVariable
+`numberOfHexElementPerSegment` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The number of hexa elements per segment.
 
-`numOfBeamNodes` ExpressionValueVariable
+`numOfBeamNodes` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The number of beam nodes.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new FE beam body
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'strNewMeshFilePath' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'yDirection' is 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'radius' value equal to or less than 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'numOfBeamNodes' is less than 3.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if distance of 'startPoint' and 'endPoint' is less than 1.0e-5.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if vector of 'endPoint' - 'startPoint' parallel with 'yDirection'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'numberOfHexElementPerSegment' is less than 8 or an odd number.
 

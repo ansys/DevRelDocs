@@ -1,4 +1,5 @@
-#  Class ReplaceFEBody
+# Class ReplaceFEBody
+<a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  
@@ -9,7 +10,7 @@ public class ReplaceFEBody : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ReplaceFEBody](VM.Managed.DAFUL.Builder.FE.ReplaceFEBody.md)
 
 #### Implements
@@ -40,7 +41,7 @@ protected bool m_bSuccess
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Properties
 
@@ -52,7 +53,7 @@ public bool AllowMulti { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_BuildObject"></a> BuildObject
 
@@ -82,7 +83,7 @@ public bool HideRemoveMessage { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_Parameters"></a> Parameters
 
@@ -92,7 +93,7 @@ public PickedResult[] Parameters { get; set; }
 
 #### Property Value
 
- PickedResult\[\]
+ [PickedResult](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/PickedResult.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_PropertyFilePath"></a> PropertyFilePath
 
@@ -102,7 +103,7 @@ public string PropertyFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -126,7 +127,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `docToAdd` Document
 
-`lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSetPointKeys` List<string\>
 
 ### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
 
@@ -146,7 +147,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -156,9 +157,9 @@ public bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

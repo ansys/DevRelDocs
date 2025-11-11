@@ -1,4 +1,5 @@
-#  Class RBEInfo
+# Class RBEInfo
+<a id="VM_Managed_DAFUL_FE_RBEInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,9 +12,9 @@ public class RBEInfo : EigenvalueInfo, IObservableObject, IDisposableObject, ILi
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [EigenvalueInfo](VM.Managed.DAFUL.FE.EigenvalueInfo.md) ← 
 [RBEInfo](VM.Managed.DAFUL.FE.RBEInfo.md)
@@ -78,7 +79,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -107,9 +108,9 @@ public RBEInfo(bool bTreatRBE, bool bUseStaticCorrectionMode, VectorBase vecMast
 
 #### Parameters
 
-`bTreatRBE` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bTreatRBE` bool
 
-`bUseStaticCorrectionMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseStaticCorrectionMode` bool
 
 `vecMasterPoint` VectorBase
 
@@ -121,7 +122,7 @@ public RBEInfo(bool bUseStaticCorrectionMode)
 
 #### Parameters
 
-`bUseStaticCorrectionMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseStaticCorrectionMode` bool
 
 ### <a id="VM_Managed_DAFUL_FE_RBEInfo__ctor"></a> RBEInfo\(\)
 
@@ -153,7 +154,7 @@ public bool TreatRBE { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_RBEInfo_TypeOfRBE"></a> TypeOfRBE
 

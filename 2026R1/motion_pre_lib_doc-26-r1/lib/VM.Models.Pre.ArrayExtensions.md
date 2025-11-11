@@ -1,4 +1,5 @@
-#  Class ArrayExtensions
+# Class ArrayExtensions
+<a id="VM_Models_Pre_ArrayExtensions"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public static class ArrayExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ArrayExtensions](VM.Models.Pre.ArrayExtensions.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public static bool ContentEquals<T>(this T[,] array, T[,] other) where T : IComp
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 

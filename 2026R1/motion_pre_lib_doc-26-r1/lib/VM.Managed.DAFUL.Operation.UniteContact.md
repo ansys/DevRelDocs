@@ -1,4 +1,5 @@
-#  Class UniteContact
+# Class UniteContact
+<a id="VM_Managed_DAFUL_Operation_UniteContact"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class UniteContact : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UniteContact](VM.Managed.DAFUL.Operation.UniteContact.md)
 
@@ -97,7 +98,7 @@ public UniteContact(IDocument doc, IEnumerable<IObject> selectedBody)
 
 `doc` IDocument
 
-`selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+`selectedBody` IEnumerable<IObject\>
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteContact__ctor_VM_Managed_Operation_JournalParameter_"></a> UniteContact\(JournalParameter\)
 
@@ -119,9 +120,9 @@ public UniteContact(IDocument doc, IEnumerable<IObject> selectedBody, double dTo
 
 `doc` IDocument
 
-`selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+`selectedBody` IEnumerable<IObject\>
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 ## Properties
 
@@ -133,7 +134,7 @@ public IEnumerable<IHasID> CreatedEntities { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IHasID\>
+ IEnumerable<IHasID\>
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteContact_Name"></a> Name
 
@@ -145,7 +146,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteContact_SelectedBody"></a> SelectedBody
 
@@ -155,7 +156,7 @@ public IList<IObject> SelectedBody { get; set; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<IObject\>
+ IList<IObject\>
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteContact_Tolerance"></a> Tolerance
 
@@ -165,7 +166,7 @@ public double Tolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -185,5 +186,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

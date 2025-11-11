@@ -1,4 +1,5 @@
-#  Class InheritableDictionary<TKey, TValue\>
+# Class InheritableDictionary<TKey, TValue\>
+<a id="VM_Collections_InheritableDictionary_2"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -15,8 +16,8 @@ public abstract class InheritableDictionary<TKey, TValue> : Dictionary<TKey, TVa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Dictionary<TKey, TValue\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2) ← 
+object ← 
+Dictionary<TKey, TValue\> ← 
 [InheritableDictionary<TKey, TValue\>](VM.Collections.InheritableDictionary\-2.md)
 
 #### Extension Methods
@@ -41,7 +42,7 @@ public InheritableDictionary(int capacity)
 
 #### Parameters
 
-`capacity` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`capacity` int
 
 ### <a id="VM_Collections_InheritableDictionary_2__ctor_System_Collections_Generic_IEqualityComparer__0__"></a> InheritableDictionary\(IEqualityComparer<TKey\>\)
 
@@ -51,7 +52,7 @@ public InheritableDictionary(IEqualityComparer<TKey> comparer)
 
 #### Parameters
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<TKey\>
+`comparer` IEqualityComparer<TKey\>
 
 ### <a id="VM_Collections_InheritableDictionary_2__ctor_System_Int32_System_Collections_Generic_IEqualityComparer__0__"></a> InheritableDictionary\(int, IEqualityComparer<TKey\>\)
 
@@ -61,9 +62,9 @@ public InheritableDictionary(int capacity, IEqualityComparer<TKey> comparer)
 
 #### Parameters
 
-`capacity` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`capacity` int
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<TKey\>
+`comparer` IEqualityComparer<TKey\>
 
 ### <a id="VM_Collections_InheritableDictionary_2__ctor_System_Collections_Generic_IDictionary__0__1__"></a> InheritableDictionary\(IDictionary<TKey, TValue\>\)
 
@@ -73,7 +74,7 @@ public InheritableDictionary(IDictionary<TKey, TValue> dictionary)
 
 #### Parameters
 
-`dictionary` [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<TKey, TValue\>
+`dictionary` IDictionary<TKey, TValue\>
 
 ### <a id="VM_Collections_InheritableDictionary_2__ctor_System_Collections_Generic_IDictionary__0__1__System_Collections_Generic_IEqualityComparer__0__"></a> InheritableDictionary\(IDictionary<TKey, TValue\>, IEqualityComparer<TKey\>\)
 
@@ -83,9 +84,9 @@ public InheritableDictionary(IDictionary<TKey, TValue> dictionary, IEqualityComp
 
 #### Parameters
 
-`dictionary` [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<TKey, TValue\>
+`dictionary` IDictionary<TKey, TValue\>
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<TKey\>
+`comparer` IEqualityComparer<TKey\>
 
 ### <a id="VM_Collections_InheritableDictionary_2__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> InheritableDictionary\(SerializationInfo, StreamingContext\)
 
@@ -95,9 +96,9 @@ protected InheritableDictionary(SerializationInfo serializationInfo, StreamingCo
 
 #### Parameters
 
-`serializationInfo` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`serializationInfo` SerializationInfo
 
-`streamingContext` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`streamingContext` StreamingContext
 
 ## Properties
 
@@ -161,7 +162,7 @@ public bool Remove(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableDictionary_2_RemoveItem__0_"></a> RemoveItem\(TKey\)
 
@@ -175,5 +176,5 @@ protected virtual bool RemoveItem(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

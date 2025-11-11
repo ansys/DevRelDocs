@@ -1,4 +1,5 @@
-#  Class AddPathObjectToDocument
+# Class AddPathObjectToDocument
+<a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class AddPathObjectToDocument : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [AddPathObjectToDocument](VM.Managed.DAFUL.Chained.Operation.AddPathObjectToDocument.md)
 
@@ -87,11 +88,11 @@ public AddPathObjectToDocument(List<string> lstRowObject, List<Document3D> lstDo
 
 #### Parameters
 
-`lstRowObject` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstRowObject` List<string\>
 
 The LST row object.
 
-`lstDocument` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document3D\>
+`lstDocument` List<Document3D\>
 
 The LST document.
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_PathObjects"></a> PathObjects
 
@@ -137,7 +138,7 @@ public List<ObjectBase> PathObjects { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+ List<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_RowObject"></a> RowObject
 
@@ -149,7 +150,7 @@ public List<string> RowObject { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ## Methods
 
@@ -179,7 +180,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

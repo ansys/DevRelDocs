@@ -1,4 +1,5 @@
-#  Class AnalysisFourPostVibrationInfo
+# Class AnalysisFourPostVibrationInfo
+<a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisFourPostVibrationInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisFourPostVibrationInfo](VM.Managed.DAFUL.Car.AnalysisFourPostVibrationInfo.md)
 
 #### Extension Methods

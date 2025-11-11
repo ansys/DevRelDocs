@@ -1,4 +1,5 @@
-#  Class RemoveBodyToDTAttribute
+# Class RemoveBodyToDTAttribute
+<a id="VM_Managed_DAFUL_GearTrain_Operation_RemoveBodyToDTAttribute"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class RemoveBodyToDTAttribute : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [RemoveBodyToDTAttribute](VM.Managed.DAFUL.GearTrain.Operation.RemoveBodyToDTAttribute.md)
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -135,7 +136,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer
 

@@ -1,11 +1,12 @@
-#  Interface IOMatrix
+# Interface IOMatrix
+<a id="VM_IOMatrix"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 This interface is to represent the orientation matrix.
 
-```python
+```csharp
 public interface IOMatrix
 ```
 
@@ -15,19 +16,19 @@ public interface IOMatrix
 
 Gets or sets the data of OMatrix.
 
-```python
+```csharp
 double[] Array { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_IOMatrix_XVector"></a> XVector
 
 Gets or sets the XVector.
 
-```python
+```csharp
 Vector XVector { get; set; }
 ```
 
@@ -39,7 +40,7 @@ Vector XVector { get; set; }
 
 Gets or sets the YVector.
 
-```python
+```csharp
 Vector YVector { get; set; }
 ```
 
@@ -51,7 +52,7 @@ Vector YVector { get; set; }
 
 Gets or sets the ZVector.
 
-```python
+```csharp
 Vector ZVector { get; set; }
 ```
 
@@ -65,7 +66,7 @@ Vector ZVector { get; set; }
 
 Get the direction vector for axis.
 
-```python
+```csharp
 Vector GetDirectionVector(Coordinate axis)
 ```
 
@@ -85,13 +86,13 @@ The direction vector.
 
 Get the direction vector for axis.
 
-```python
+```csharp
 Vector GetDirectionVector(int axis)
 ```
 
 #### Parameters
 
-`axis` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`axis` int
 
 The type of axis.
 
@@ -105,7 +106,7 @@ The direction vector.
 
 Initializes a instance of OMatrix.
 
-```python
+```csharp
 void Initialize()
 ```
 
@@ -113,7 +114,7 @@ void Initialize()
 
 Nomalize a instance of OMatrix.
 
-```python
+```csharp
 void Normalize()
 ```
 
@@ -121,7 +122,7 @@ void Normalize()
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 void RotateAxisDeg(Coordinate c, double dAngle)
 ```
 
@@ -131,7 +132,7 @@ void RotateAxisDeg(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -139,17 +140,17 @@ The degree.
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 void RotateAxisDeg(int nCoord, double dAngle)
 ```
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -157,7 +158,7 @@ The degree.
 
 To rotate counterclockwise for axis.
 
-```python
+```csharp
 void RotateAxisDeg(Vector axis, double dAngle)
 ```
 
@@ -167,7 +168,7 @@ void RotateAxisDeg(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -175,7 +176,7 @@ The degree.
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 void RotateAxisRad(Coordinate c, double dAngle)
 ```
 
@@ -185,7 +186,7 @@ void RotateAxisRad(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -193,17 +194,17 @@ The radian.
 
 To rotate counterclockwise for coordinate.
 
-```python
+```csharp
 void RotateAxisRad(int nCoord, double dAngle)
 ```
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -211,7 +212,7 @@ The radian.
 
 To rotate counterclockwise for axis.
 
-```python
+```csharp
 void RotateAxisRad(Vector axis, double dAngle)
 ```
 
@@ -221,7 +222,7 @@ void RotateAxisRad(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -229,13 +230,13 @@ The radian.
 
 To rotate counterclockwise for x-axis.
 
-```python
+```csharp
 void RotateXDeg(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -243,13 +244,13 @@ The degree.
 
 To rotate counterclockwise for x-axis.
 
-```python
+```csharp
 void RotateXRad(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -257,13 +258,13 @@ The radian.
 
 To rotate counterclockwise for y-axis.
 
-```python
+```csharp
 void RotateYDeg(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -271,13 +272,13 @@ The degree.
 
 To rotate counterclockwise for y-axis.
 
-```python
+```csharp
 void RotateYRad(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -285,13 +286,13 @@ The radian.
 
 To rotate counterclockwise for z-axis.
 
-```python
+```csharp
 void RotateZDeg(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -299,13 +300,13 @@ The degree.
 
 To rotate counterclockwise for z-axis.
 
-```python
+```csharp
 void RotateZRad(double dAngle)
 ```
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -313,7 +314,7 @@ The radian.
 
 Set data of orientation.
 
-```python
+```csharp
 void SetOrientation(Plane type, Vector vecMaster, Vector vecSlave)
 ```
 
@@ -335,7 +336,7 @@ The vector for slave.
 
 Set data of orientation.
 
-```python
+```csharp
 void SetOrientation(OMatrix mat)
 ```
 
@@ -349,13 +350,13 @@ The matrix of orientation.
 
 Set data of orientation.
 
-```python
+```csharp
 void SetOrientation(double[] arr)
 ```
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The data of orientation.
 
@@ -363,7 +364,7 @@ The data of orientation.
 
 Set data of orientation for euler angle. Unit is degree.
 
-```python
+```csharp
 void SetOrientationEADeg(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -373,15 +374,15 @@ void SetOrientationEADeg(RotationAxes ea, double dAlpha, double dBeta, double dG
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
@@ -389,7 +390,7 @@ The gamma of euler angle.
 
 Set data of orientation for euler angle. Unit is radian.
 
-```python
+```csharp
 void SetOrientationEARad(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -399,15 +400,15 @@ void SetOrientationEARad(RotationAxes ea, double dAlpha, double dBeta, double dG
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
@@ -415,7 +416,7 @@ The gamma of euler angle.
 
 Set data of orientation for fixed angle. Unit is degree.
 
-```python
+```csharp
 void SetOrientationFixedAngleDeg(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -425,15 +426,15 @@ void SetOrientationFixedAngleDeg(RotationAxes ea, double dAlpha, double dBeta, d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
@@ -441,7 +442,7 @@ The gamma of fixed angle.
 
 Set data of orientation for fixed angle. Unit is radian.
 
-```python
+```csharp
 void SetOrientationFixedAngleRad(RotationAxes ea, double dAlpha, double dBeta, double dGamma)
 ```
 
@@ -451,15 +452,15 @@ void SetOrientationFixedAngleRad(RotationAxes ea, double dAlpha, double dBeta, d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
@@ -467,8 +468,7 @@ The gamma of fixed angle.
 
 Transposed rows and columns of the matrix.
 
-```python
+```csharp
 void TransposeOrientation()
 ```
-
 

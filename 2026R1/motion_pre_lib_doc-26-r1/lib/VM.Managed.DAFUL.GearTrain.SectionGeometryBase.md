@@ -1,4 +1,5 @@
-#  Class SectionGeometryBase
+# Class SectionGeometryBase
+<a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public abstract class SectionGeometryBase : LinkContainer, IObservableObject, ID
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [SectionGeometryBase](VM.Managed.DAFUL.GearTrain.SectionGeometryBase.md)
 
@@ -83,7 +84,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -204,7 +205,7 @@ protected double GetFactorForLength()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetGeomInfo"></a> GetGeomInfo\(\)
 
@@ -216,7 +217,7 @@ public abstract double[] GetGeomInfo()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
@@ -228,11 +229,11 @@ public virtual void GetLengthAndHeight(ref double dLength, ref double dHeight)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 Height of the d.
 
@@ -290,11 +291,11 @@ public virtual Builder[] GetSectionBuilder(double dSegLen, List<Vector> lstGearS
 
 #### Parameters
 
-`dSegLen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSegLen` double
 
 Length of the d seg.
 
-`lstGearSection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+`lstGearSection` List<Vector\>
 
 The LST gear section.
 
@@ -312,17 +313,17 @@ protected List<Vector> GetSectionBuilderCore(double dSegLen, List<Vector> lstSec
 
 #### Parameters
 
-`dSegLen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSegLen` double
 
 Length of the d seg.
 
-`lstSection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+`lstSection` List<Vector\>
 
 The LST section.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetSectionName_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> GetSectionName\(HiddenShaftSetDocument, string, int\)
 
@@ -338,17 +339,17 @@ protected string[] GetSectionName(HiddenShaftSetDocument hiddenDoc, string strNa
 
 The hidden document.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
-`nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNum` int
 
 The n number.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetSectionPoint_System_Double_System_Collections_Generic_List_VM_Managed_Vector__System_Collections_Generic_List_VM_Managed_Vector__"></a> GetSectionPoint\(double, List<Vector\>, List<Vector\>\)
 
@@ -360,15 +361,15 @@ public Vector[] GetSectionPoint(double dSegLen, List<Vector> lstDoubleSection, L
 
 #### Parameters
 
-`dSegLen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSegLen` double
 
 Length of the d seg.
 
-`lstDoubleSection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+`lstDoubleSection` List<Vector\>
 
 The LST double section.
 
-`lstSingleSection` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+`lstSingleSection` List<Vector\>
 
 The LST single section.
 
@@ -392,7 +393,7 @@ protected abstract BuilderParamBase InnerCreateParameter()
 
 #### Returns
 
- BuilderParamBase
+ [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
@@ -402,7 +403,7 @@ protected abstract void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 `color` BuilderColor
 
@@ -418,7 +419,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -442,7 +443,7 @@ second vector.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_SplitSectionInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
 
@@ -458,11 +459,11 @@ public abstract SectionInfo[] SplitSectionInfo(HiddenShaftSetDocument hiddenDoc,
 
 The hidden document.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
-`nNumber` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumber` int
 
 The n number.
 

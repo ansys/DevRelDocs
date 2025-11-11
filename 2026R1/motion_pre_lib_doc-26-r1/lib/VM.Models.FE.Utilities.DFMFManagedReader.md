@@ -1,4 +1,5 @@
-#  Class DFMFManagedReader
+# Class DFMFManagedReader
+<a id="VM_Models_FE_Utilities_DFMFManagedReader"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +10,7 @@ public class DFMFManagedReader : DFMFReader, IDFMFReader
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DFMFReader](VM.Models.FE.Utilities.DFMFReader.md) ← 
 [DFMFManagedReader](VM.Models.FE.Utilities.DFMFManagedReader.md)
 
@@ -50,6 +51,7 @@ public class DFMFManagedReader : DFMFReader, IDFMFReader
 [DFMFReader.ReadPropertyInformation\(\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_ReadPropertyInformation), 
 [DFMFReader.ReadConstraintInformation\(\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_ReadConstraintInformation), 
 [DFMFReader.ReadNamedSelectionInformation\(\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_ReadNamedSelectionInformation), 
+[DFMFReader.ReadHashInformation\(\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_ReadHashInformation), 
 [DFMFReader.SetInterfacePoints\(Vector\[\]\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_SetInterfacePoints\_VM\_Vector\_\_\_), 
 [DFMFReader.SetMarkerPositions\(Vector\[\]\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_SetMarkerPositions\_VM\_Vector\_\_\_), 
 [DFMFReader.SetMassInfosForOldVer\(MassInfoForOldVer\[\]\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_SetMassInfosForOldVer\_VM\_Models\_FE\_Utilities\_MassInfoForOldVer\_\_\_), 
@@ -62,6 +64,7 @@ public class DFMFManagedReader : DFMFReader, IDFMFReader
 [DFMFReader.SetPropertyInformation\(FEPropertyBeam\[\], FEPropertyBeamL\[\], FEPropertyShell\[\], FEPropertySolid\[\]\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_SetPropertyInformation\_VM\_Models\_FE\_Utilities\_FEPropertyBeam\_\_\_VM\_Models\_FE\_Utilities\_FEPropertyBeamL\_\_\_VM\_Models\_FE\_Utilities\_FEPropertyShell\_\_\_VM\_Models\_FE\_Utilities\_FEPropertySolid\_\_\_), 
 [DFMFReader.SetConstraintInformation\(FEConstraintRBE\[\], FEConstraintRBE\[\], FEConstraintTie\[\]\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_SetConstraintInformation\_VM\_Models\_FE\_Utilities\_FEConstraintRBE\_\_\_VM\_Models\_FE\_Utilities\_FEConstraintRBE\_\_\_VM\_Models\_FE\_Utilities\_FEConstraintTie\_\_\_), 
 [DFMFReader.SetNamedSelectionInformation\(NamedSelection\[\], NamedSelection\[\]\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_SetNamedSelectionInformation\_VM\_Models\_FE\_Utilities\_NamedSelection\_\_\_VM\_Models\_FE\_Utilities\_NamedSelection\_\_\_), 
+[DFMFReader.SetHashInformation\(string\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_SetHashInformation\_System\_String\_), 
 [DFMFReader.ReadNamedSelectionFromConstraintInformation\(\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_ReadNamedSelectionFromConstraintInformation), 
 [DFMFReader.DisposeManagedResource\(\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_DisposeManagedResource), 
 [DFMFReader.DisposeNativeResources\(\)](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_DisposeNativeResources), 
@@ -132,7 +135,8 @@ public class DFMFManagedReader : DFMFReader, IDFMFReader
 [DFMFReader.UnitMass](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_UnitMass), 
 [DFMFReader.UnitTime](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_UnitTime), 
 [DFMFReader.Version](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_Version), 
-[DFMFReader.AvailableAsNodal](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_AvailableAsNodal)
+[DFMFReader.AvailableAsNodal](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_AvailableAsNodal), 
+[DFMFReader.Hash](VM.Models.FE.Utilities.DFMFReader.md\#VM\_Models\_FE\_Utilities\_DFMFReader\_Hash)
 
 #### Extension Methods
 
@@ -160,11 +164,11 @@ protected override sealed void GetMultipleShapes(DFMFReader.ModeMeta meta, IColl
 
 `meta` [DFMFReader](VM.Models.FE.Utilities.DFMFReader.md).[ModeMeta](VM.Models.FE.Utilities.DFMFReader.ModeMeta.md)
 
-`arnModeSeq` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`arnModeSeq` ICollection<int\>
 
-`nNodeSeq` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNodeSeq` int
 
-`dFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFactor` double
 
 `arVecMode` Vector\[\]
 
@@ -178,13 +182,13 @@ protected override sealed void GetMultipleStress(DFMFReader.ModeMeta meta, IColl
 
 `meta` [DFMFReader](VM.Models.FE.Utilities.DFMFReader.md).[ModeMeta](VM.Models.FE.Utilities.DFMFReader.ModeMeta.md)
 
-`colModeSeq` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`colModeSeq` ICollection<int\>
 
-`nodeSeq` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nodeSeq` int
 
-`factor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`factor` double
 
-`colStress` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`colStress` ICollection<double\[\]\>
 
 ### <a id="VM_Models_FE_Utilities_DFMFManagedReader_GetPointInformation_System_Collections_Generic_ICollection_VM_Vector__VM_Models_FE_Utilities_DFMFReader_ModeMeta_VM_Vector_System_Int32_VM_Vector__VM_Vector__"></a> GetPointInformation\(ICollection<Vector\>, ModeMeta, Vector, int, out Vector, out Vector\)
 
@@ -194,13 +198,13 @@ protected override sealed bool GetPointInformation(ICollection<Vector> points, D
 
 #### Parameters
 
-`points` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`points` ICollection<Vector\>
 
 `meta` [DFMFReader](VM.Models.FE.Utilities.DFMFReader.md).[ModeMeta](VM.Models.FE.Utilities.DFMFReader.ModeMeta.md)
 
 `position` Vector
 
-`modeSequence` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`modeSequence` int
 
 `vecTra` Vector
 
@@ -208,7 +212,7 @@ protected override sealed bool GetPointInformation(ICollection<Vector> points, D
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Utilities_DFMFManagedReader_GetSingleShape_VM_Models_FE_Utilities_DFMFReader_ModeMeta_System_Int32_System_Int32_System_Double_VM_Vector__"></a> GetSingleShape\(ModeMeta, int, int, double, out Vector\)
 
@@ -220,11 +224,11 @@ protected override sealed void GetSingleShape(DFMFReader.ModeMeta meta, int nMod
 
 `meta` [DFMFReader](VM.Models.FE.Utilities.DFMFReader.md).[ModeMeta](VM.Models.FE.Utilities.DFMFReader.ModeMeta.md)
 
-`nModeSeq` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nModeSeq` int
 
-`nNodeSeq` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNodeSeq` int
 
-`dFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFactor` double
 
 `vecMode` Vector
 
@@ -238,13 +242,13 @@ protected override sealed void GetSingleStress(DFMFReader.ModeMeta meta, int mod
 
 `meta` [DFMFReader](VM.Models.FE.Utilities.DFMFReader.md).[ModeMeta](VM.Models.FE.Utilities.DFMFReader.ModeMeta.md)
 
-`modeSeq` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`modeSeq` int
 
-`nodeSeq` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nodeSeq` int
 
-`factor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`factor` double
 
-`stress` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`stress` double\[\]
 
 ### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ImportImpl_System_String_VM_Unit_"></a> ImportImpl\(string, Unit\)
 
@@ -254,7 +258,7 @@ protected override sealed void ImportImpl(string strModeFileName, Unit unit)
 
 #### Parameters
 
-`strModeFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModeFileName` string
 
 `unit` Unit
 
@@ -262,6 +266,12 @@ protected override sealed void ImportImpl(string strModeFileName, Unit unit)
 
 ```csharp
 protected override void ReadConstraintInformation()
+```
+
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadHashInformation"></a> ReadHashInformation\(\)
+
+```csharp
+protected override void ReadHashInformation()
 ```
 
 ### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadInterfacePoints"></a> ReadInterfacePoints\(\)

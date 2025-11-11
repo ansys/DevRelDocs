@@ -1,4 +1,5 @@
-#  Class GetBodyFacesOp
+# Class GetBodyFacesOp
+<a id="VM_Managed_CAD_GetBodyFacesOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetBodyFacesOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetBodyFacesOp](VM.Managed.CAD.GetBodyFacesOp.md)
 
@@ -87,7 +88,7 @@ public GetBodyFacesOp(Body Body, ICollection<int> Colors)
 
 `Body` [Body](VM.Managed.CAD.Body.md)
 
-`Colors` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`Colors` ICollection<int\>
 
 ### <a id="VM_Managed_CAD_GetBodyFacesOp__ctor_VM_Managed_CAD_Body_"></a> GetBodyFacesOp\(Body\)
 
@@ -117,7 +118,7 @@ public List<Face> Faces { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Face](VM.Managed.CAD.Face.md)\>
+ List<[Face](VM.Managed.CAD.Face.md)\>
 
 ### <a id="VM_Managed_CAD_GetBodyFacesOp_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -129,7 +130,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_GetBodyFacesOp_Name"></a> Name
 
@@ -141,7 +142,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Class AttributeDocumentDurability.DynamicResult.DamageTable
+# Class AttributeDocumentDurability.DynamicResult.DamageTable
+<a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -11,9 +12,9 @@ public class AttributeDocumentDurability.DynamicResult.DamageTable : LinkContain
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [AttributeDocumentDurability.DynamicResult.DamageTable](VM.Models.Pre.Durability.AttributeDocumentDurability.DynamicResult.DamageTable.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -114,15 +115,15 @@ public DamageTable(string strResultRelativeFilePath, double dTimeScale, int nNum
 
 #### Parameters
 
-`strResultRelativeFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultRelativeFilePath` string
 
 The result relative file path.
 
-`dTimeScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTimeScale` double
 
 The time scale.
 
-`nNumberOfPattern` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumberOfPattern` int
 
 The number of pattern.
 
@@ -138,7 +139,7 @@ public ExpressionValueVariable NumberOfPattern { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable_ResultRelativeFilePath"></a> ResultRelativeFilePath
 
@@ -150,7 +151,7 @@ public string ResultRelativeFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable_TimeScale"></a> TimeScale
 
@@ -162,5 +163,5 @@ public ExpressionValueVariable TimeScale { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

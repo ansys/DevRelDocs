@@ -1,4 +1,5 @@
-#  Interface IOwned
+# Interface IOwned
+<a id="VM_Models_Pre_IOwned"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -67,7 +68,7 @@ void SetContainer(IOwned owner, bool backup, bool isFromLinkAttribute = false)
 
 `owner` [IOwned](VM.Models.Pre.IOwned.md)
 
-`backup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`backup` bool
 
-`isFromLinkAttribute` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isFromLinkAttribute` bool
 

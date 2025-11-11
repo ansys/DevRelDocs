@@ -1,4 +1,5 @@
-#  Class SolidBodySphere<T\>
+# Class SolidBodySphere<T\>
+<a id="VM_Managed_DAFUL_Builder_SolidBodySphere_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class SolidBodySphere<T> : SolidBody<T>, IBuilder where T : Buil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<SolidBody\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<SolidBody\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<SolidBody\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md) ← 

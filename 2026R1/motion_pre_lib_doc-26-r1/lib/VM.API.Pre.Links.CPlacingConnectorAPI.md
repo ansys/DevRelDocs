@@ -1,4 +1,5 @@
-#  Class CPlacingConnectorAPI
+# Class CPlacingConnectorAPI
+<a id="VM_API_Pre_Links_CPlacingConnectorAPI"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +12,7 @@ public static class CPlacingConnectorAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CPlacingConnectorAPI](VM.API.Pre.Links.CPlacingConnectorAPI.md)
 
 #### Extension Methods
@@ -34,27 +35,27 @@ public static double CalculatePinStiffness(string pinFilePath, string pinName)
 
 #### Parameters
 
-`pinFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pinFilePath` string
 
 The pin file path.
 
-`pinName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pinName` string
 
 The pin name.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The stiffness information that is calculated by this API.
 
 #### Exceptions
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'pinFilePath' file path does not exist.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'pinName' argument is empty.
 
@@ -70,35 +71,35 @@ public static List<double[]> CalculatePulleyStiffness(string pulleyFilePath, str
 
 #### Parameters
 
-`pulleyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pulleyFilePath` string
 
 The pulley file path.
 
-`pulleyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pulleyName` string
 
 The pulley name.
 
-`pinFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pinFilePath` string
 
 The pin file path
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+ List<double\[\]\>
 
 The stiffness information that is calculated by this API.
 
 #### Exceptions
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'pulleyFilePath' file path does not exist.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'pulleyName' argument is empty.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'pinFilePath' file path does not exist.
 
@@ -113,19 +114,19 @@ public static Dictionary<string, VectorBase> CalculateSegmentStiffness(string se
 
 #### Parameters
 
-`segmentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`segmentFilePath` string
 
 The segment file path.
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), VectorBase\>
+ Dictionary<string, VectorBase\>
 
 The stiffness information that is calculated by this API.
 
 #### Exceptions
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'segmentFilePath' file path does not exist.
 
@@ -141,31 +142,31 @@ public static Obj CreateCPlacingConnector(this SubSystemDocument document, Obj c
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the Chained placing connector.
 
-`chainedPlacing` Obj
+`chainedPlacing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The chained placing.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'CPlacingConnector_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'chainedPlacing' are null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if item type of 'chainedPlacing' is not <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref>.
 
@@ -186,7 +187,7 @@ public static Obj CreatePin(this IChainedSegmentInfo document, Obj body, Vector 
 
 The document to create the pin.
 
-`body` Obj
+`body` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The body to create the pin.
 
@@ -198,23 +199,23 @@ The position to create the pin.
 
 The direction to create the pin.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Pin" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'Pin_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.CPlacingConnector.Pin" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'body' are null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'direction' is 0.
 
@@ -235,7 +236,7 @@ public static Obj CreatePulley(this IChainedPathInfo document, Obj body, Vector 
 
 The document to create the pulley.
 
-`body` Obj
+`body` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The body to create the pulley.
 
@@ -247,23 +248,23 @@ The position to create the pulley.
 
 The z-axis to create the pulley.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'Pulley_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'body' are null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'axisZ' is 0.
 

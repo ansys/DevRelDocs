@@ -1,4 +1,5 @@
-#  Class SubSystemDocument
+# Class SubSystemDocument
+<a id="VM_Managed_DAFUL_SubSystemDocument"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class SubSystemDocument : DocumentAnalysis, IObservableObject, IDisposabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 Document ← 
@@ -35,7 +36,7 @@ ILinkContainerEvent,
 IVerifiable, 
 IEnableManager, 
 IRelatedDocument, 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 ITemplateDocument, 
 ITreatValidObject, 
 ISubSystemDocument, 
@@ -191,8 +192,6 @@ Document3D.EraseAllDisplayObject\(\),
 Document3D.ImportCADBody\(BuilderImport\[\]\), 
 Document3D.ReAssemblyCore\(\), 
 Document3D.ReAssemblyImpl\(ObjectBase\), 
-Document3D.StartCADImportLog\(string\), 
-Document3D.EndCADImportLog\(\), 
 Document3D.ClearDocument\(\), 
 Document3D.SkipDelete\(ObjectBase\), 
 Document3D.RepairImpl\(\), 
@@ -203,9 +202,9 @@ Document3D.GetBodies\(ref List<ObjectBase\>\),
 Document3D.CheckBeforeSave\(\), 
 Document3D.LinkRequestUpdate\(object, LinkEventArgs\), 
 Document3D.FindBodyFromCADBody\(ObjectBase\), 
-Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string\), 
+Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string, string, string, string\), 
 Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string\), 
-Document3D.ExportCADFile\(string, string, string\), 
+Document3D.ExportCADFile\(string, string, string, string, string, string\), 
 Document3D.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\), 
 Document3D.SkipShowHide\(ObjectBase\), 
 Document3D.WriteMessageForShowHide\(\), 
@@ -219,12 +218,9 @@ Document3D.ChildAdd\(ObjectBase, string\),
 Document3D.ChildRemove\(ObjectBase, string\), 
 Document3D.ChildUpdate\(ObjectBase, string\), 
 Document3D.ChildRename\(ObjectBase, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, Document3D.CadImportUnitType\), 
-Document3D.LoadCADFile\(string, Color, Document3D.CadImportResultType\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType\), 
-Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, ref BuilderImport\[\]\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string, string, string, string\), 
+Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string, ref BuilderImport\[\]\), 
 Document3D.SetSelectionObject\(List<ObjectBase\>\), 
 Document3D.ExistUnderCursor\(\), 
 Document3D.ActiveObject\(List<ObjectBase\>\), 
@@ -502,7 +498,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -533,7 +529,7 @@ public SubSystemDocument(UIntPtr docCore)
 
 #### Parameters
 
-`docCore` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`docCore` UIntPtr
 
 The document handle.
 
@@ -549,7 +545,7 @@ protected virtual bool ApplyInitialVelocityImpl { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeNewFilePath"></a> ChangeNewFilePath
 
@@ -562,7 +558,7 @@ public string ChangeNewFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeNewFilePaths"></a> ChangeNewFilePaths
 
@@ -574,7 +570,7 @@ public List<string> ChangeNewFilePaths { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeOldFilePath"></a> ChangeOldFilePath
 
@@ -587,7 +583,7 @@ public string ChangeOldFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeOldFilePaths"></a> ChangeOldFilePaths
 
@@ -599,7 +595,7 @@ public List<string> ChangeOldFilePaths { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_DocumentSessionOverride"></a> DocumentSessionOverride
 
@@ -623,7 +619,7 @@ protected override List<string> InitialCategories { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_InitialVelocityImpl"></a> InitialVelocityImpl
 
@@ -635,7 +631,7 @@ protected virtual double InitialVelocityImpl { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_Interfaces"></a> Interfaces
 
@@ -647,7 +643,7 @@ protected virtual InterfaceManager Interfaces { get; }
 
 #### Property Value
 
- InterfaceManager
+ [InterfaceManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs)
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_SetDocumentSessionOverride"></a> SetDocumentSessionOverride
 
@@ -671,7 +667,7 @@ protected virtual bool SkipBindInterfaceWhenOpen { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_TemplateXmlVersion"></a> TemplateXmlVersion
 
@@ -683,7 +679,7 @@ public string TemplateXmlVersion { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -697,7 +693,7 @@ public override string CheckMassPropForCADImport()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_ClearDocument"></a> ClearDocument\(\)
 
@@ -751,13 +747,13 @@ public override string FindCategory(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The fullname of type.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The category.
 
@@ -793,7 +789,7 @@ public override void GetCADBodyNameAttribute(ref List<string> lstName)
 
 #### Parameters
 
-`lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstName` List<string\>
 
 The output CAD body name attributes.
 
@@ -807,7 +803,7 @@ public override List<ObjectBase> GetImportCADBody()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+ List<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_GetReferDocument_System_Collections_Generic_List_VM_Managed_Document3D___"></a> GetReferDocument\(ref List<Document3D\>\)
 
@@ -819,7 +815,7 @@ public override void GetReferDocument(ref List<Document3D> lstDocument)
 
 #### Parameters
 
-`lstDocument` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document3D\>
+`lstDocument` List<Document3D\>
 
 The refer document container.
 
@@ -837,11 +833,11 @@ public override void GetReference(ObjectBase obSub, ref List<Reference> lstRef, 
 
 The sub system object.
 
-`lstRef` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Reference\>
+`lstRef` List<Reference\>
 
 The reference container.
 
-`lstOther` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+`lstOther` List<ObjectBase\>
 
 The other container for assembled body.
 
@@ -859,21 +855,21 @@ public Dictionary<string, SortedSet<string>> GetRemovedConnectorForChangeAssembl
 
 Type of the assembly.
 
-`strTargetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTargetName` string
 
 The target name.
 
-`oldAssemblyPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`oldAssemblyPath` string
 
 The old assembly path.
 
-`lstNewAssemblyPath` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstNewAssemblyPath` List<string\>
 
 The new assembly path list.
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [SortedSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
+ Dictionary<string, SortedSet<string\>\>
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
 
@@ -885,7 +881,7 @@ public override string GetSimulationConfigurationType()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The type of the simulation configuration.
 
@@ -921,7 +917,7 @@ public TMatrix GetTransformationOfGlobal(ObjectBase ob, string strSubsystemName)
 
 The object.
 
-`strSubsystemName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSubsystemName` string
 
 The subsystem name.
 
@@ -961,7 +957,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 The category name.
 
@@ -991,7 +987,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -1005,11 +1001,11 @@ protected void LoadTemplateBasedXml(XmlReader reader, bool bAssembly)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
-`bAssembly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAssembly` bool
 
 if set to <code>true</code> [assembly].
 
@@ -1023,7 +1019,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -1037,7 +1033,7 @@ protected override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 #### Parameters
 
-`info` DocCreateAnalysisInfo
+`info` [DocCreateAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs)
 
 The [analysis document create information].
 
@@ -1055,13 +1051,13 @@ public bool PossibleDifferentUnit(SubSystemDocument document, out string strImpo
 
 The document to import.
 
-`strImportedDoc` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strImportedDoc` string
 
 The imported document type name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_PossibleDifferentUnit_System_String__"></a> PossibleDifferentUnit\(out string\)
 
@@ -1073,13 +1069,13 @@ public bool PossibleDifferentUnit(out string strSimulatedDoc)
 
 #### Parameters
 
-`strSimulatedDoc` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSimulatedDoc` string
 
 The simulated document type name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_PossibleToImport_VM_Managed_DAFUL_SubSystemDocument_System_String__System_String__"></a> PossibleToImport\(SubSystemDocument, out string, out string\)
 
@@ -1095,17 +1091,17 @@ public virtual bool PossibleToImport(SubSystemDocument document, out string strD
 
 The document to import.
 
-`strDocBase` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocBase` string
 
 The base document type name.
 
-`strDocNew` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocNew` string
 
 The new document type name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_PostOpenDocument"></a> PostOpenDocument\(\)
 
@@ -1137,15 +1133,15 @@ public void ReAssembleForChangeAssembly(ChangeAssemblyType assmType, string strT
 
 Type of the assembly.
 
-`strTargetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTargetName` string
 
 The target name.
 
-`oldAssemblyPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`oldAssemblyPath` string
 
 The old assembly path.
 
-`lstNewAssemblyPath` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstNewAssemblyPath` List<string\>
 
 The new assembly path list.
 
@@ -1165,7 +1161,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -1195,7 +1191,7 @@ protected override void RenameEntityImpl(string strOldName, ObjectBase namedObj)
 
 #### Parameters
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 The old name.
 
@@ -1227,7 +1223,7 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -1241,11 +1237,11 @@ protected void SaveTemplateBasedXml(XmlWriter writer, bool bAssembly)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
-`bAssembly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAssembly` bool
 
 if set to <code>true</code> [assembly].
 
@@ -1265,7 +1261,7 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_SkipObjectInWriting_VM_Managed_ObjectBase_"></a> SkipObjectInWriting\(ObjectBase\)
 
@@ -1283,7 +1279,7 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_SkipShowHide_VM_Managed_ObjectBase_"></a> SkipShowHide\(ObjectBase\)
 
@@ -1301,7 +1297,7 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SubSystemDocument_WriteMessageForShowHide"></a> WriteMessageForShowHide\(\)
 

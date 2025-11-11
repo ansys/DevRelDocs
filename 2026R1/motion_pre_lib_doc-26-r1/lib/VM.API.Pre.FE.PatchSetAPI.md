@@ -1,4 +1,5 @@
-#  Class PatchSetAPI
+# Class PatchSetAPI
+<a id="VM_API_Pre_FE_PatchSetAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class PatchSetAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PatchSetAPI](VM.API.Pre.FE.PatchSetAPI.md)
 
 #### Extension Methods
@@ -37,19 +38,19 @@ public static Obj CreatePatchset(this MeshDocument document, IEnumerable<Patch> 
 
 The document to create patch set.
 
-`patchIndexes` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Patch\>
+`patchIndexes` IEnumerable<Patch\>
 
 The patch indexes.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name to be cteated patch set.
 
-`maxPenetration` ExpressionValueVariable?
+`maxPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The maximum penetration to be cteated patch set. The default value is 0.
 
-`offset` ExpressionValueVariable?
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset to be cteated patch set. The default value is 1.
 
@@ -57,19 +58,19 @@ The offset to be cteated patch set. The default value is 1.
 
 The surface smoothing to be cteated patch set. The default value is AUTOMATIC.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color to be cteated patch set. The default value is Violet.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.FE.SetPatch" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'patchIndexes' arguments are empty.
 

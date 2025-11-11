@@ -1,4 +1,5 @@
-#  Interface IHasReplaceableEntity
+# Interface IHasReplaceableEntity
+<a id="VM_Models_Pre_IHasReplaceableEntity"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -33,7 +34,7 @@ The old object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if this instance has replacable entity, the result is true.
 
@@ -57,7 +58,7 @@ The new object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 if success, the result is true.
 

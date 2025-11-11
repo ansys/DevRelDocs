@@ -1,4 +1,5 @@
-#  Interface IConnectorPosition
+# Interface IConnectorPosition
+<a id="VM_Managed_DAFUL_Builder_IConnectorPosition"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -23,7 +24,7 @@ int NumberOfPoint { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -35,9 +36,9 @@ void SetPosition(Marker BM, Marker AM, PickedResult[] pickresult)
 
 #### Parameters
 
-`BM` Marker
+`BM` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
-`AM` Marker
+`AM` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 `pickresult` [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
 

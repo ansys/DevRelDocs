@@ -1,4 +1,5 @@
-#  Class FaceDrawHelper
+# Class FaceDrawHelper
+<a id="VM_Managed_CAD_FaceDrawHelper"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class FaceDrawHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FaceDrawHelper](VM.Managed.CAD.FaceDrawHelper.md)
 
 #### Extension Methods
@@ -30,9 +31,9 @@ public static void DrawNurbs(_SURFACENURBS_INFO* info, Canvas canvas)
 
 #### Parameters
 
-`info` [\_SURFACENURBS\_INFO](VM.DSDL.API.GEOMETRY.\_SURFACENURBS\_INFO.md)\*
+`info` \_SURFACENURBS\_INFO\*
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 ### <a id="VM_Managed_CAD_FaceDrawHelper_DrawNurbsBoundaryUsingPointQueryFunction_VM_DSDL_API_GEOMETRY__CURVENURBS_INFO__VM_CAD_Kernel_Render_Canvas_VM_Managed_CAD_Face_System_UInt32_"></a> DrawNurbsBoundaryUsingPointQueryFunction\(\_CURVENURBS\_INFO\*, Canvas, Face, uint\)
 
@@ -42,13 +43,13 @@ public static void DrawNurbsBoundaryUsingPointQueryFunction(_CURVENURBS_INFO* in
 
 #### Parameters
 
-`info` [\_CURVENURBS\_INFO](VM.DSDL.API.GEOMETRY.\_CURVENURBS\_INFO.md)\*
+`info` \_CURVENURBS\_INFO\*
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 ### <a id="VM_Managed_CAD_FaceDrawHelper_DrawNurbsUsingPointQueryFunction_VM_DSDL_API_GEOMETRY__SURFACENURBS_INFO__VM_CAD_Kernel_Render_Canvas_VM_Managed_CAD_Face_"></a> DrawNurbsUsingPointQueryFunction\(\_SURFACENURBS\_INFO\*, Canvas, Face\)
 
@@ -58,9 +59,9 @@ public static void DrawNurbsUsingPointQueryFunction(_SURFACENURBS_INFO* info, Ca
 
 #### Parameters
 
-`info` [\_SURFACENURBS\_INFO](VM.DSDL.API.GEOMETRY.\_SURFACENURBS\_INFO.md)\*
+`info` \_SURFACENURBS\_INFO\*
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
@@ -72,7 +73,7 @@ public static void GetNurbsNormalDirection(_SURFACENURBS_INFO* info, ref VectorB
 
 #### Parameters
 
-`info` [\_SURFACENURBS\_INFO](VM.DSDL.API.GEOMETRY.\_SURFACENURBS\_INFO.md)\*
+`info` \_SURFACENURBS\_INFO\*
 
 `start` [VectorBase](VM.Managed.VectorBase.md)
 
@@ -88,7 +89,7 @@ public static void SetNurbsDrawUtil(INurbsDrawUtil* pNurbsDrawUtil)
 
 #### Parameters
 
-`pNurbsDrawUtil` [INurbsDrawUtil](VM.INurbsDrawUtil.md)\*
+`pNurbsDrawUtil` INurbsDrawUtil\*
 
 The nurbs surface information.
 

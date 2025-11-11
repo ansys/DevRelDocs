@@ -1,4 +1,5 @@
-#  Interface IHeatFlowComponent
+# Interface IHeatFlowComponent
+<a id="VM_Managed_DAFUL_IHeatFlowComponent"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

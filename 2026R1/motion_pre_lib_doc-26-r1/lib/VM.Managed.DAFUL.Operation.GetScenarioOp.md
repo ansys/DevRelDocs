@@ -1,4 +1,5 @@
-#  Class GetScenarioOp
+# Class GetScenarioOp
+<a id="VM_Managed_DAFUL_Operation_GetScenarioOp"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class GetScenarioOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [GetScenarioOp](VM.Managed.DAFUL.Operation.GetScenarioOp.md)
 
@@ -95,11 +96,11 @@ public GetScenarioOp(DocumentAnalysis doc, Scenario scenario)
 
 #### Parameters
 
-`doc` DocumentAnalysis
+`doc` [DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs)
 
 The document.
 
-`scenario` Scenario
+`scenario` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The scenario.
 
@@ -129,7 +130,7 @@ public bool Exist { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -141,7 +142,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp_Name"></a> Name
 
@@ -153,7 +154,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -175,7 +176,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer
 

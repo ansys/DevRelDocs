@@ -1,4 +1,5 @@
-#  Interface IDocumentDlg
+# Interface IDocumentDlg
+<a id="VM_NX_Dialog_IDocumentDlg"></a>
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  

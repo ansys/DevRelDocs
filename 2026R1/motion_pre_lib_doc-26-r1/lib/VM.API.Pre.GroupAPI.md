@@ -1,4 +1,5 @@
-#  Class GroupAPI
+# Class GroupAPI
+<a id="VM_API_Pre_GroupAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class GroupAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GroupAPI](VM.API.Pre.GroupAPI.md)
 
 #### Extension Methods
@@ -37,17 +38,17 @@ public static void ApplyGroup(this Obj group, IEnumerable<Obj> objs)
 
 The target <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"></xref> to apply update.
 
-`objs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`objs` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The collection of objects.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'group' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'group' is not <xref href="VM.Managed.IGroup" data-throw-if-not-resolved="false"></xref>.
 
@@ -62,11 +63,11 @@ public static Obj CreateGroup(this SubSystemDocument subSystemDocument, IEnumera
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a group.
 
-`objs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`objs` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The bodies of a group.
 
@@ -78,11 +79,11 @@ The new <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"><
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'objs' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'objs' is not <xref href="VM.Managed.IGroup" data-throw-if-not-resolved="false"></xref>.
 

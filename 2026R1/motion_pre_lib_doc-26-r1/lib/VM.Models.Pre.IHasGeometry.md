@@ -1,4 +1,5 @@
-#  Interface IHasGeometry
+# Interface IHasGeometry
+<a id="VM_Models_Pre_IHasGeometry"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,5 +24,5 @@ ICollection<IGeometry> Geometries { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[IGeometry](VM.Models.Pre.IGeometry.md)\>
+ ICollection<[IGeometry](VM.Models.Pre.IGeometry.md)\>
 

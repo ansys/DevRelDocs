@@ -1,4 +1,5 @@
-#  Interface IPropDlg
+# Interface IPropDlg
+<a id="VM_NX_Dialog_IPropDlg"></a>
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -28,7 +29,7 @@ bool AllowMulti { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IPropDlg_IsCreate"></a> IsCreate
 
@@ -38,7 +39,7 @@ bool IsCreate { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IPropDlg_IsMulti"></a> IsMulti
 
@@ -48,7 +49,7 @@ bool IsMulti { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IPropDlg_IsReadOnly"></a> IsReadOnly
 
@@ -58,7 +59,7 @@ bool IsReadOnly { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IPropDlg_Tag"></a> Tag
 
@@ -68,7 +69,7 @@ UIntPtr Tag { get; set; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ## Methods
 
@@ -80,7 +81,7 @@ IPropPage GetPage(string strPageName)
 
 #### Parameters
 
-`strPageName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPageName` string
 
 #### Returns
 
@@ -94,7 +95,7 @@ void Redraw(double dIconSize)
 
 #### Parameters
 
-`dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIconSize` double
 
 ### <a id="VM_NX_Dialog_IPropDlg_SetInputData_System_String_"></a> SetInputData\(string\)
 
@@ -104,11 +105,11 @@ bool SetInputData(string strInput)
 
 #### Parameters
 
-`strInput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInput` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_NX_Dialog_IPropDlg_UpdateAllPage_System_Windows_Forms_Form_"></a> UpdateAllPage\(Form\)
 
@@ -118,5 +119,5 @@ void UpdateAllPage(Form formFrom)
 
 #### Parameters
 
-`formFrom` [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+`formFrom` Form
 

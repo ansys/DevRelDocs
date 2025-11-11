@@ -1,4 +1,5 @@
-#  Class Scale
+# Class Scale
+<a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force.MoterEM](VM.Managed.DAFUL.GearTrain.Force.MoterEM.md)  
 Assembly: VMDGearTrain.dll  
@@ -9,9 +10,9 @@ public class Scale : LinkContainer, IObservableObject, IDisposableObject, ILinka
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [Scale](VM.Managed.DAFUL.GearTrain.Force.MoterEM.Scale.md)
 
@@ -73,7 +74,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -114,7 +115,7 @@ public ExpressionValueVariable RadialFactor { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_RadialFactorFileName"></a> RadialFactorFileName
 
@@ -126,7 +127,7 @@ public string RadialFactorFileName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_RadialFactorSpline"></a> RadialFactorSpline
 
@@ -138,7 +139,7 @@ public SplineValue RadialFactorSpline { get; set; }
 
 #### Property Value
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_ScaleType"></a> ScaleType
 
@@ -162,7 +163,7 @@ public ExpressionValueVariable TangentialFactor { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_TangentialFactorFileName"></a> TangentialFactorFileName
 
@@ -174,7 +175,7 @@ public string TangentialFactorFileName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_TangentialFactorSpline"></a> TangentialFactorSpline
 
@@ -186,7 +187,7 @@ public SplineValue TangentialFactorSpline { get; set; }
 
 #### Property Value
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ## Methods
 

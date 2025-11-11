@@ -1,4 +1,5 @@
-#  Class CarDocumentAPI
+# Class CarDocumentAPI
+<a id="VM_API_Pre_Car_CarDocumentAPI"></a>
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -11,7 +12,7 @@ public static class CarDocumentAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CarDocumentAPI](VM.API.Pre.Car.CarDocumentAPI.md)
 
 #### Extension Methods
@@ -33,25 +34,25 @@ public static void ChangeGroupDriveline(this TestRigDocumentBase document, bool 
 
 #### Parameters
 
-`document` TestRigDocumentBase
+`document` [TestRigDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The document to be changed group.
 
-`activeFront` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`activeFront` bool
 
 The flag for active front.
 
-`activeRear` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`activeRear` bool
 
 The flag for active rear.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -66,21 +67,21 @@ public static void ChangeGroupKinematicAndCompliance(this TestRigDocumentBase do
 
 #### Parameters
 
-`document` TestRigDocumentBase
+`document` [TestRigDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The document to be changed group.
 
-`kinematic` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`kinematic` bool
 
 The flag for using kinematic.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -94,11 +95,11 @@ public static AntiRollBarDocument CreateNewAntiRollBarFromTemplateDocument(strin
 
 #### Parameters
 
-`newAntiRollBarFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newAntiRollBarFromTemplateFilePath` string
 
 The file path of new anti-roll bar from template file path.
 
-`existedAntiRollBarTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedAntiRollBarTemplateFilePath` string
 
 The file path of existed anti-roll bar template file path.
 
@@ -108,7 +109,7 @@ The minor role type. The default value is Any.
 
 #### Returns
 
- AntiRollBarDocument
+ [AntiRollBarDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/AntiRollBarDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.AntiRollBarDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -122,11 +123,11 @@ public static AntiRollBarDocument CreateNewAntiRollBarTemplateDocument(string ne
 
 #### Parameters
 
-`newAntiRollBarFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newAntiRollBarFilePath` string
 
 The file path of new anti-roll bar.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is AntiRollBar.
 
@@ -134,7 +135,7 @@ The name of document. The default value is AntiRollBar.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -144,13 +145,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- AntiRollBarDocument
+ [AntiRollBarDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/AntiRollBarDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.AntiRollBarDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newAntiRollBarFilePath' argument is null.
 
@@ -164,11 +165,11 @@ public static BodyDocument CreateNewBodyFromTemplateDocument(string newBodyFromT
 
 #### Parameters
 
-`newBodyFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newBodyFromTemplateFilePath` string
 
 The file path of new body from template file path.
 
-`existedBodyTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedBodyTemplateFilePath` string
 
 The file path of existed body template file path.
 
@@ -178,7 +179,7 @@ The minor role type. The default value is Any.
 
 #### Returns
 
- BodyDocument
+ [BodyDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/BodyDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.BodyDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -192,11 +193,11 @@ public static BodyDocument CreateNewBodyTemplateDocument(string newBodyFilePath,
 
 #### Parameters
 
-`newBodyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newBodyFilePath` string
 
 The file path of new body.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Body.
 
@@ -204,7 +205,7 @@ The name of document. The default value is Body.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -214,13 +215,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- BodyDocument
+ [BodyDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/BodyDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.BodyDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newBodyFilePath' argument is null.
 
@@ -234,11 +235,11 @@ public static BrakeSystemDocument CreateNewBrakeSystemFromTemplateDocument(strin
 
 #### Parameters
 
-`newBrakeSystemFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newBrakeSystemFromTemplateFilePath` string
 
 The file path of new brake system from template file path.
 
-`existedBrakeSystemTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedBrakeSystemTemplateFilePath` string
 
 The file path of existed brake system template file path.
 
@@ -248,7 +249,7 @@ The minor role type. The default value is Any.
 
 #### Returns
 
- BrakeSystemDocument
+ [BrakeSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/BrakeSystemDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.BrakeSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -262,11 +263,11 @@ public static BrakeSystemDocument CreateNewBrakeSystemTemplateDocument(string ne
 
 #### Parameters
 
-`newBrakeSystemFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newBrakeSystemFilePath` string
 
 The file path of new brake system.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is BrakeSystem.
 
@@ -274,7 +275,7 @@ The name of document. The default value is BrakeSystem.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -284,13 +285,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- BrakeSystemDocument
+ [BrakeSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/BrakeSystemDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.BrakeSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newBrakeSystemFilePath' argument is null.
 
@@ -304,11 +305,11 @@ public static PropertyBumpstopDocument CreateNewBumpStopPropertyDocument(string 
 
 #### Parameters
 
-`newBumpStopPropertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newBumpStopPropertyFilePath` string
 
 The file path of new bump stop property file path.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Bumpstop.
 
@@ -322,7 +323,7 @@ The length unit of kernel.
 
 #### Returns
 
- PropertyBumpstopDocument
+ [PropertyBumpstopDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/Bumpstop.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertyBumpstopDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -336,11 +337,11 @@ public static PropertyBushDocument CreateNewBushPropertyDocument(string newBushP
 
 #### Parameters
 
-`newBushPropertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newBushPropertyFilePath` string
 
 The file path of new bump stop property file path.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Bush.
 
@@ -354,7 +355,7 @@ The length unit of kernel.
 
 #### Returns
 
- PropertyBushDocument
+ [PropertyBushDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
 The new <xref href="VM.Managed.DAFUL.Force.PropertyBushDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -368,11 +369,11 @@ public static PropertyDamperDocument CreateNewDamperPropertyDocument(string newD
 
 #### Parameters
 
-`newDamperPropertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newDamperPropertyFilePath` string
 
 The file path of new bump stop property file path.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Damper.
 
@@ -386,7 +387,7 @@ The length unit of kernel.
 
 #### Returns
 
- PropertyDamperDocument
+ [PropertyDamperDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/Damper.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertyDamperDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -400,11 +401,11 @@ public static DriveLineDocument CreateNewDriveLineFromTemplateDocument(string ne
 
 #### Parameters
 
-`newDriveLineFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newDriveLineFromTemplateFilePath` string
 
 The file path of new drive line from template file path.
 
-`existedDriveLineTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedDriveLineTemplateFilePath` string
 
 The file path of existed drive line template file path.
 
@@ -414,7 +415,7 @@ The minor role type. The default value is Any.
 
 #### Returns
 
- DriveLineDocument
+ [DriveLineDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/DriveLineDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.DriveLineDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -428,11 +429,11 @@ public static DriveLineDocument CreateNewDriveLineTemplateDocument(string newDri
 
 #### Parameters
 
-`newDriveLineFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newDriveLineFilePath` string
 
 The file path of new drive line.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is DriveLine.
 
@@ -440,7 +441,7 @@ The name of document. The default value is DriveLine.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -450,13 +451,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- DriveLineDocument
+ [DriveLineDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/DriveLineDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.DriveLineDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newDriveLineFilePath' argument is null.
 
@@ -472,47 +473,47 @@ public static FourPostTestRigDocument CreateNewFourPostTestRigFromTemplateDocume
 
 #### Parameters
 
-`newTestRigFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFromTemplateFilePath` string
 
 The file path of new 4-post test-rig from template file path.
 
-`testRigTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`testRigTemplateFilePath` string
 
 The file path of test-rig template file path.
 
-`frontSuspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontSuspensionFromTemplateFilePath` string
 
 The file path of front suspension template file path.
 
-`rearSuspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearSuspensionFromTemplateFilePath` string
 
 The file path of rear suspension template file path.
 
-`steeringFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringFromTemplateFilePath` string
 
 The file path of steering template file path.
 
-`frontWheelFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontWheelFromTemplateFilePath` string
 
 The file path of front wheel template file path.
 
-`rearWheelFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearWheelFromTemplateFilePath` string
 
 The file path of rear wheel template file path.
 
-`bodyFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyFromTemplateFilePath` string
 
 The file path of body template file path.
 
-`breakFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`breakFromTemplateFilePath` string
 
 The file path of break template file path.
 
-`powerTrainFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerTrainFromTemplateFilePath` string
 
 The file path of power train template file path.
 
-`otherFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`otherFromTemplateFilePath` string\[\]
 
 The file path of other template file path. The default value is null.
 
@@ -524,7 +525,7 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -534,17 +535,17 @@ The length unit of kernel.
 
 #### Returns
 
- FourPostTestRigDocument
+ [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'testRigTemplateFilePath', 'frontSuspensionFromTemplateFilePath', 'rearSuspensionFromTemplateFilePath', 'steeringFromTemplateFilePath', 'frontWheelFromTemplateFilePath', 'rearWheelFromTemplateFilePath', 'bodyFromTemplateFilePath' files are not exist.
 
@@ -558,11 +559,11 @@ public static FourPostTestRigDocument CreateNewFourPostTestRigTemplateDocument(s
 
 #### Parameters
 
-`newTestRigFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFilePath` string
 
 The file path of new 4 post test-rig.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is test rig.
 
@@ -570,7 +571,7 @@ The name of document. The default value is test rig.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -580,13 +581,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- FourPostTestRigDocument
+ [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
@@ -602,47 +603,47 @@ public static VehicleTestRigDocument CreateNewFullCarTestRigFromTemplateDocument
 
 #### Parameters
 
-`newTestRigFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFromTemplateFilePath` string
 
 The file path of new full test-rig from template file path.
 
-`testRigTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`testRigTemplateFilePath` string
 
 The file path of test-rig template file path.
 
-`frontSuspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontSuspensionFromTemplateFilePath` string
 
 The file path of front suspension template file path.
 
-`rearSuspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearSuspensionFromTemplateFilePath` string
 
 The file path of rear suspension template file path.
 
-`steeringFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringFromTemplateFilePath` string
 
 The file path of steering template file path.
 
-`frontWheelFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontWheelFromTemplateFilePath` string
 
 The file path of front wheel template file path.
 
-`rearWheelFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearWheelFromTemplateFilePath` string
 
 The file path of rear wheel template file path.
 
-`bodyFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyFromTemplateFilePath` string
 
 The file path of body template file path.
 
-`breakFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`breakFromTemplateFilePath` string
 
 The file path of break template file path.
 
-`powerTrainFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerTrainFromTemplateFilePath` string
 
 The file path of power train template file path.
 
-`otherFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`otherFromTemplateFilePath` string\[\]
 
 The file path of other template file path. The default value is null.
 
@@ -654,7 +655,7 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -664,17 +665,17 @@ The length unit of kernel.
 
 #### Returns
 
- VehicleTestRigDocument
+ [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'testRigTemplateFilePath', 'frontSuspensionFromTemplateFilePath', 'rearSuspensionFromTemplateFilePath', 'steeringFromTemplateFilePath', 'frontWheelFromTemplateFilePath', 'rearWheelFromTemplateFilePath', 'bodyFromTemplateFilePath' files are not exist.
 
@@ -688,11 +689,11 @@ public static VehicleTestRigDocument CreateNewFullCarTestRigTemplateDocument(str
 
 #### Parameters
 
-`newTestRigFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFilePath` string
 
 The file path of new full test-rig.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is test rig.
 
@@ -700,7 +701,7 @@ The name of document. The default value is test rig.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -710,13 +711,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- VehicleTestRigDocument
+ [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
@@ -732,23 +733,23 @@ public static TestRigDocument CreateNewHalfCarTestRigFromTemplateDocument(string
 
 #### Parameters
 
-`newTestRigFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFromTemplateFilePath` string
 
 The file path of new half test-rig from template file path.
 
-`testRigTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`testRigTemplateFilePath` string
 
 The file path of half test-rig template file path.
 
-`suspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`suspensionFromTemplateFilePath` string
 
 The file path of suspension template file path.
 
-`steeringFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringFromTemplateFilePath` string
 
 The file path of steering template file path. The default value is null.
 
-`otherFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`otherFromTemplateFilePath` string\[\]
 
 The file path of other template file path. The default value is null.
 
@@ -760,7 +761,7 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -770,17 +771,17 @@ The length unit of kernel.
 
 #### Returns
 
- TestRigDocument
+ [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'testRigTemplateFilePath', 'suspensionFromTemplateFilePath' files are not exist.
 
@@ -794,11 +795,11 @@ public static TestRigDocument CreateNewHalfCarTestRigTemplateDocument(string new
 
 #### Parameters
 
-`newTestRigFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFilePath` string
 
 The file path of new half test-rig.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is test rig.
 
@@ -806,7 +807,7 @@ The name of document. The default value is test rig.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -816,13 +817,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- TestRigDocument
+ [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
@@ -836,11 +837,11 @@ public static PowerTrainDocument CreateNewPowerTrainFromTemplateDocument(string 
 
 #### Parameters
 
-`newPowerTrainFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newPowerTrainFromTemplateFilePath` string
 
 The file path of new power train from template file path.
 
-`existedPowerTrainTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedPowerTrainTemplateFilePath` string
 
 The file path of existed power train template file path.
 
@@ -850,7 +851,7 @@ The minor role type. The default value is Any.
 
 #### Returns
 
- PowerTrainDocument
+ [PowerTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/PowerTrainDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.PowerTrainDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -864,11 +865,11 @@ public static PowerTrainDocument CreateNewPowerTrainTemplateDocument(string newP
 
 #### Parameters
 
-`newPowerTrainFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newPowerTrainFilePath` string
 
 The file path of new power train.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is PowerTrain.
 
@@ -876,7 +877,7 @@ The name of document. The default value is PowerTrain.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -886,13 +887,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- PowerTrainDocument
+ [PowerTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/PowerTrainDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.PowerTrainDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newPowerTrainFilePath' argument is null.
 
@@ -906,11 +907,11 @@ public static PropertyReboundstopDocument CreateNewReboundStopPropertyDocument(s
 
 #### Parameters
 
-`newReboundStopPropertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newReboundStopPropertyFilePath` string
 
 The file path of new bump stop property file path.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is ReboundStop.
 
@@ -924,7 +925,7 @@ The length unit of kernel.
 
 #### Returns
 
- PropertyReboundstopDocument
+ [PropertyReboundstopDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/Reboundstop.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertyReboundstopDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -940,39 +941,39 @@ public static ShimmyJudderTestRigDocument CreateNewShimmyAndJudderTestRigFromTem
 
 #### Parameters
 
-`newTestRigFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFromTemplateFilePath` string
 
 The file path of new shimmy and judder test-rig from template file path.
 
-`testRigTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`testRigTemplateFilePath` string
 
 The file path of test-rig template file path.
 
-`frontSuspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontSuspensionFromTemplateFilePath` string
 
 The file path of front suspension template file path.
 
-`rearSuspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearSuspensionFromTemplateFilePath` string
 
 The file path of rear suspension template file path.
 
-`steeringFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringFromTemplateFilePath` string
 
 The file path of steering template file path.
 
-`bodyFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyFromTemplateFilePath` string
 
 The file path of body template file path.
 
-`breakFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`breakFromTemplateFilePath` string
 
 The file path of break template file path.
 
-`powerTrainFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerTrainFromTemplateFilePath` string
 
 The file path of power train template file path.
 
-`otherFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`otherFromTemplateFilePath` string\[\]
 
 The file path of other template file path. The default value is null.
 
@@ -984,7 +985,7 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -994,17 +995,17 @@ The length unit of kernel.
 
 #### Returns
 
- ShimmyJudderTestRigDocument
+ [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'testRigTemplateFilePath', 'frontSuspensionFromTemplateFilePath', 'rearSuspensionFromTemplateFilePath', 'steeringFromTemplateFilePath', 'bodyFromTemplateFilePath' files are not exist.
 
@@ -1018,11 +1019,11 @@ public static ShimmyJudderTestRigDocument CreateNewShimmyAndJudderTestRigTemplat
 
 #### Parameters
 
-`newTestRigFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFilePath` string
 
 The file path of new shimmy and judder test-rig.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is test rig.
 
@@ -1030,7 +1031,7 @@ The name of document. The default value is test rig.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -1040,13 +1041,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- ShimmyJudderTestRigDocument
+ [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
@@ -1060,11 +1061,11 @@ public static PropertySpringDocument CreateNewSpringPropertyDocument(string newS
 
 #### Parameters
 
-`newSpringPropertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSpringPropertyFilePath` string
 
 The file path of new bump stop property file path.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Spring.
 
@@ -1078,7 +1079,7 @@ The length unit of kernel.
 
 #### Returns
 
- PropertySpringDocument
+ [PropertySpringDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/Spring.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertySpringDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -1092,11 +1093,11 @@ public static SteeringDocument CreateNewSteeringFromTemplateDocument(string newS
 
 #### Parameters
 
-`newSteeringFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSteeringFromTemplateFilePath` string
 
 The file path of new steering from template file path.
 
-`existedSteeringTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedSteeringTemplateFilePath` string
 
 The file path of existed steering template file path.
 
@@ -1106,7 +1107,7 @@ The minor role type. The default value is Front.
 
 #### Returns
 
- SteeringDocument
+ [SteeringDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SteeringDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.SteeringDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -1120,11 +1121,11 @@ public static SteeringDocument CreateNewSteeringTemplateDocument(string newSteer
 
 #### Parameters
 
-`newSteeringFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSteeringFilePath` string
 
 The file path of new steering.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Steering.
 
@@ -1132,7 +1133,7 @@ The name of document. The default value is Steering.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -1142,13 +1143,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- SteeringDocument
+ [SteeringDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SteeringDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.SteeringDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newSteeringFilePath' argument is null.
 
@@ -1162,11 +1163,11 @@ public static SuspensionDocument CreateNewSuspensionFromTemplateDocument(string 
 
 #### Parameters
 
-`newSuspensionFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSuspensionFromTemplateFilePath` string
 
 The file path of new suspension from template file path.
 
-`existedSuspensionTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedSuspensionTemplateFilePath` string
 
 The file path of existed suspension template file path.
 
@@ -1176,7 +1177,7 @@ The minor role type. The default value is Front.
 
 #### Returns
 
- SuspensionDocument
+ [SuspensionDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.SuspensionDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -1190,11 +1191,11 @@ public static SuspensionDocument CreateNewSuspensionTemplateDocument(string newS
 
 #### Parameters
 
-`newSuspensionFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSuspensionFilePath` string
 
 The file path of new suspension.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is suspension.
 
@@ -1202,7 +1203,7 @@ The name of document. The default value is suspension.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -1212,13 +1213,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- SuspensionDocument
+ [SuspensionDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/SuspensionDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.SuspensionDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newSuspensionFilePath' argument is null.
 
@@ -1234,15 +1235,15 @@ public static TireTestRigDocument CreateNewTireTestRigFromTemplateDocument(strin
 
 #### Parameters
 
-`newTestRigFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFromTemplateFilePath` string
 
 The file path of new tire test-rig from template file path.
 
-`testRigTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`testRigTemplateFilePath` string
 
 The file path of test-rig template file path.
 
-`wheelFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`wheelFromTemplateFilePath` string
 
 The file path of wheel template file path.
 
@@ -1254,7 +1255,7 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -1264,17 +1265,17 @@ The length unit of kernel.
 
 #### Returns
 
- TireTestRigDocument
+ [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'testRigTemplateFilePath', 'wheelFromTemplateFilePath' files are not exist.
 
@@ -1288,11 +1289,11 @@ public static TireTestRigDocument CreateNewTireTestRigTemplateDocument(string ne
 
 #### Parameters
 
-`newTestRigFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newTestRigFilePath` string
 
 The file path of new tire test-rig.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is test rig.
 
@@ -1300,7 +1301,7 @@ The name of document. The default value is test rig.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -1310,13 +1311,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- TireTestRigDocument
+ [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
@@ -1330,11 +1331,11 @@ public static WheelDocument CreateNewWheelFromTemplateDocument(string newWheelFr
 
 #### Parameters
 
-`newWheelFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newWheelFromTemplateFilePath` string
 
 The file path of new wheel from template file path.
 
-`existedWheelTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedWheelTemplateFilePath` string
 
 The file path of existed wheel template file path.
 
@@ -1344,7 +1345,7 @@ The minor role type. The default value is Front.
 
 #### Returns
 
- WheelDocument
+ [WheelDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/WheelDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.WheelDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
@@ -1358,11 +1359,11 @@ public static WheelDocument CreateNewWheelTemplateDocument(string newWheelFilePa
 
 #### Parameters
 
-`newWheelFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newWheelFilePath` string
 
 The file path of new wheel.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Wheel.
 
@@ -1370,7 +1371,7 @@ The name of document. The default value is Wheel.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon. The default value is 1.
 
@@ -1380,13 +1381,13 @@ The length unit of kernel. The default value is mm.
 
 #### Returns
 
- WheelDocument
+ [WheelDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/WheelDocument.cs)
 
 The new <xref href="VM.Managed.DAFUL.Car.WheelDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newWheelFilePath' argument is null.
 
@@ -1400,53 +1401,53 @@ public static void FourPostReplaceAssembly(this FourPostTestRigDocument document
 
 #### Parameters
 
-`document` FourPostTestRigDocument
+`document` [FourPostTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/FourPostTestRigDocument.cs)
 
 The document to be replaced.
 
-`frontSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontSuspensionPath` string
 
 The front suspension path. The default value is "".
 
-`rearSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearSuspensionPath` string
 
 The rear suspension path. The default value is "".
 
-`steeringPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringPath` string
 
 The steering path. The default value is "".
 
-`frontWheelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontWheelPath` string
 
 The front wheel path. The default value is "".
 
-`rearWheelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearWheelPath` string
 
 The rear wheel path. The default value is "".
 
-`bodyPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyPath` string
 
 The body path. The default value is "".
 
-`brakePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`brakePath` string
 
 The brake path. The default value is "".
 
-`powerTrainPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerTrainPath` string
 
 The power train path. The default value is "".
 
-`otherPaths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`otherPaths` IEnumerable<string\>
 
 The other paths. The default value is "".
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -1460,53 +1461,53 @@ public static void FullCarReplaceAssembly(this VehicleTestRigDocument document, 
 
 #### Parameters
 
-`document` VehicleTestRigDocument
+`document` [VehicleTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/VehicleTestRigDocument.cs)
 
 The document to be replaced.
 
-`frontSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontSuspensionPath` string
 
 The front suspension path. The default value is "".
 
-`rearSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearSuspensionPath` string
 
 The rear suspension path. The default value is "".
 
-`steeringPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringPath` string
 
 The steering path. The default value is "".
 
-`frontWheelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontWheelPath` string
 
 The front wheel path. The default value is "".
 
-`rearWheelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearWheelPath` string
 
 The rear wheel path. The default value is "".
 
-`bodyPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyPath` string
 
 The body path. The default value is "".
 
-`brakePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`brakePath` string
 
 The brake path. The default value is "".
 
-`powerTrainPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerTrainPath` string
 
 The power train path. The default value is "".
 
-`otherPaths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`otherPaths` IEnumerable<string\>
 
 The other paths. The default value is "".
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -1521,21 +1522,21 @@ public static void ModifyDesignParameter(this TestRigDocumentBase document, Dict
 
 #### Parameters
 
-`document` TestRigDocumentBase
+`document` [TestRigDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The document to be changed group.
 
-`dicParam` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<UpdateParameterOperation.ParamInfo\>\>
+`dicParam` Dictionary<string, List<[UpdateParameterOperation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCar/ModifyDesignParameter.cs).[ParamInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCar/ModifyDesignParameter.cs)\>\>
 
 The dictionary to be contained filepath and parameter information.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -1550,7 +1551,7 @@ public static void ModifyModelingParameter(this TestRigDocumentBase document, Ob
 
 #### Parameters
 
-`document` TestRigDocumentBase
+`document` [TestRigDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The document to be changed group.
 
@@ -1560,11 +1561,11 @@ The target.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -1578,45 +1579,45 @@ public static void ShimmyJudderReplaceAssembly(this ShimmyJudderTestRigDocument 
 
 #### Parameters
 
-`document` ShimmyJudderTestRigDocument
+`document` [ShimmyJudderTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFullCar/ShimmyJudderTestRigDocument.cs)
 
 The document to be replaced.
 
-`frontSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`frontSuspensionPath` string
 
 The front suspension path. The default value is "".
 
-`rearSuspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`rearSuspensionPath` string
 
 The rear suspension path. The default value is "".
 
-`steeringPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringPath` string
 
 The steering path. The default value is "".
 
-`bodyPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyPath` string
 
 The body path. The default value is "".
 
-`brakePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`brakePath` string
 
 The brake path. The default value is "".
 
-`powerTrainPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`powerTrainPath` string
 
 The power train path. The default value is "".
 
-`otherPaths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`otherPaths` IEnumerable<string\>
 
 The other paths. The default value is "".
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -1630,29 +1631,29 @@ public static void SuspensionReplaceAssembly(this TestRigDocument document, stri
 
 #### Parameters
 
-`document` TestRigDocument
+`document` [TestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs)
 
 The document to be replaced.
 
-`suspensionPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`suspensionPath` string
 
 The suspension path. The default value is "".
 
-`steeringPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`steeringPath` string
 
 The steering path. The default value is "".
 
-`otherPaths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`otherPaths` IEnumerable<string\>
 
 The other paths. The default value is "".
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 
@@ -1666,21 +1667,21 @@ public static void TireReplaceAssembly(this TireTestRigDocument document, string
 
 #### Parameters
 
-`document` TireTestRigDocument
+`document` [TireTestRigDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TireTestRigDocument.cs)
 
 The document to be replaced.
 
-`wheelPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`wheelPath` string
 
 The wheel path. The default value is "".
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'document' argument is not assembly.
 

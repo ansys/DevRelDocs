@@ -1,4 +1,5 @@
-#  Interface IOpenDesigner
+# Interface IOpenDesigner
+<a id="VM_Managed_IOpenDesigner"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_IOpenDesigner_TargetBody"></a> TargetBody
 
@@ -51,7 +52,7 @@ string TemplateFilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_IOpenDesigner_TypeFileName"></a> TypeFileName
 
@@ -63,7 +64,7 @@ string TypeFileName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -111,7 +112,7 @@ void SetCustomFilterEvent(object picker)
 
 #### Parameters
 
-`picker` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`picker` object
 
 The picker.
 
@@ -125,7 +126,7 @@ Document SetDataToDesignDoc(bool bRecord)
 
 #### Parameters
 
-`bRecord` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRecord` bool
 
 Is recording for journal.
 

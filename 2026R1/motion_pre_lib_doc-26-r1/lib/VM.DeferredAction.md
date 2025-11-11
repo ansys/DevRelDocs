@@ -1,4 +1,5 @@
-#  Class DeferredAction
+# Class DeferredAction
+<a id="VM_DeferredAction"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +10,7 @@ public class DeferredAction
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DeferredAction](VM.DeferredAction.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public static DeferredAction Create(Action action)
 
 #### Parameters
 
-`action` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`action` Action
 
 #### Returns
 
@@ -48,7 +49,7 @@ public void Defer(TimeSpan delay)
 
 #### Parameters
 
-`delay` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
+`delay` TimeSpan
 
 ### <a id="VM_DeferredAction_Dispose"></a> Dispose\(\)
 
@@ -64,7 +65,7 @@ protected virtual void Dispose(bool disposing)
 
 #### Parameters
 
-`disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disposing` bool
 
 ### <a id="VM_DeferredAction_Finalize"></a> \~DeferredAction\(\)
 

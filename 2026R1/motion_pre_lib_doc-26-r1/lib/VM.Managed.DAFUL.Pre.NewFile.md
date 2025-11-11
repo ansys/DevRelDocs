@@ -1,4 +1,5 @@
-#  Class NewFile
+# Class NewFile
+<a id="VM_Managed_DAFUL_Pre_NewFile"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class NewFile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NewFile](VM.Managed.DAFUL.Pre.NewFile.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public bool AddTomodel { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_NewFile_DocInfo"></a> DocInfo
 
@@ -64,7 +65,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_NewFile_ModelName"></a> ModelName
 
@@ -76,5 +77,5 @@ public string ModelName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

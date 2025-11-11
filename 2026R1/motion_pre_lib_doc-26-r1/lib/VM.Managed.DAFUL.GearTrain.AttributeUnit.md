@@ -1,4 +1,5 @@
-#  Class AttributeUnit
+# Class AttributeUnit
+<a id="VM_Managed_DAFUL_GearTrain_AttributeUnit"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class AttributeUnit : AttributeBase, IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 [AttributeUnit](VM.Managed.DAFUL.GearTrain.AttributeUnit.md)
@@ -78,7 +79,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -117,35 +118,35 @@ public AttributeUnit(double dLengthFactor, double dMassFactor, double dTimeFacto
 
 #### Parameters
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor
 
-`dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMassFactor` double
 
 The mass factor
 
-`dTimeFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTimeFactor` double
 
 The time factor
 
-`dForceFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dForceFactor` double
 
 The force factor
 
-`dAngleFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngleFactor` double
 
 The angle factor
 
-`dTemperatureFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTemperatureFactor` double
 
 The temperature factor
 
-`dPowerFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPowerFactor` double
 
 The power factor
 
-`dWorkFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWorkFactor` double
 
 The work factor
 
@@ -161,7 +162,7 @@ public double AngleFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_ForceFactor"></a> ForceFactor
 
@@ -173,7 +174,7 @@ public double ForceFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_LengthFactor"></a> LengthFactor
 
@@ -185,7 +186,7 @@ public double LengthFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_MassFactor"></a> MassFactor
 
@@ -197,7 +198,7 @@ public double MassFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_PowerFactor"></a> PowerFactor
 
@@ -209,7 +210,7 @@ public double PowerFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_TemperatureFactor"></a> TemperatureFactor
 
@@ -221,7 +222,7 @@ public double TemperatureFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_TimeFactor"></a> TimeFactor
 
@@ -233,7 +234,7 @@ public double TimeFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_WorkFactor"></a> WorkFactor
 
@@ -245,5 +246,5 @@ public double WorkFactor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

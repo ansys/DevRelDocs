@@ -1,4 +1,5 @@
-#  Class KernelExtension
+# Class KernelExtension
+<a id="VM_CAD_Kernel_KernelExtension"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class KernelExtension : KernelObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [KernelExtension](VM.CAD.Kernel.KernelExtension.md)
 
@@ -45,9 +46,9 @@ public KernelExtension(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Methods
 
@@ -59,9 +60,9 @@ public static T Create<T>(UIntPtr key, bool bLock = true) where T : KernelExtens
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`bLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bLock` bool
 
 #### Returns
 

@@ -1,4 +1,5 @@
-#  Delegate Document.GetDocFromOpenedDoc
+# Delegate Document.GetDocFromOpenedDoc
+<a id="VM_Managed_Document_GetDocFromOpenedDoc"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public delegate Document Document.GetDocFromOpenedDoc(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 #### Returns
 

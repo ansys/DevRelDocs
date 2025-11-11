@@ -1,9 +1,10 @@
-#  Interface IHasName
+# Interface IHasName
+<a id="VM_IHasName"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IHasName
 ```
 
@@ -11,32 +12,31 @@ public interface IHasName
 
 ### <a id="VM_IHasName_DisplayName"></a> DisplayName
 
-```python
+```csharp
 string DisplayName { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_IHasName_FullName"></a> FullName
 
-```python
+```csharp
 string FullName { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_IHasName_Name"></a> Name
 
-```python
+```csharp
 string Name { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
+ string
 

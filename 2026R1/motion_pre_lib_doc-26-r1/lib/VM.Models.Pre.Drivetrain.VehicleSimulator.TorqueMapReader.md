@@ -1,4 +1,5 @@
-#  Class TorqueMapReader
+# Class TorqueMapReader
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public static class TorqueMapReader
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TorqueMapReader](VM.Models.Pre.Drivetrain.VehicleSimulator.TorqueMapReader.md)
 
 #### Extension Methods
@@ -28,7 +29,7 @@ public const string ConfigExtension = ".config"
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader_MCMExtension"></a> MCMExtension
 
@@ -38,7 +39,7 @@ public const string MCMExtension = ".mcm"
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader_PWRExtension"></a> PWRExtension
 
@@ -48,7 +49,7 @@ public const string PWRExtension = ".pwr"
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -60,9 +61,9 @@ public static TorqueMap Read(string path, bool isPowerSplitMap = false)
 
 #### Parameters
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
-`isPowerSplitMap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPowerSplitMap` bool
 
 #### Returns
 

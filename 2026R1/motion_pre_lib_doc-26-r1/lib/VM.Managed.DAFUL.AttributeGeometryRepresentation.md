@@ -1,4 +1,5 @@
-#  Class AttributeGeometryRepresentation
+# Class AttributeGeometryRepresentation
+<a id="VM_Managed_DAFUL_AttributeGeometryRepresentation"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class AttributeGeometryRepresentation : AttributeFacetRefinementBase, IOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 AttributeFacetRefinementBase ← 
@@ -127,7 +128,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -178,23 +179,23 @@ The angular tolerance.
 
 The facet aspect ratio.
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [unuse GRID_TO_EDGE.
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [unuse approximated evaluation].
 
@@ -224,27 +225,27 @@ The angular tolerance.
 
 The facet aspect ratio.
 
-`bUseMaximumGridLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumGridLine` bool
 
 if set to <code>true</code> [use maximum grid line].
 
-`bUseMaximumFacetSize` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseMaximumFacetSize` bool
 
 if set to <code>true</code> [use maximum facet size].
 
-`bUseSurfaceAngularTolerance` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseSurfaceAngularTolerance` bool
 
 if set to <code>true</code> [use surface angular tolerance].
 
-`bUseFacetAspectRatio` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFacetAspectRatio` bool
 
 if set to <code>true</code> [use facet aspect ratio].
 
-`bDoNotUseGRID_TO_EDGES` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseGRID_TO_EDGES` bool
 
 if set to <code>true</code> [unuse GRID_TO_EDGE.
 
-`bDoNotUseApprox_eval` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoNotUseApprox_eval` bool
 
 if set to <code>true</code> [unuse approximated evaluation].
 
@@ -260,7 +261,7 @@ public override bool DrawGlobalBody { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

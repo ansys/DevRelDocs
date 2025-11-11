@@ -1,4 +1,5 @@
-#  Class ApplyParameterOperation
+# Class ApplyParameterOperation
+<a id="VM_Managed_DAFUL_Car_ApplyParameterOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class ApplyParameterOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyParameterOperation](VM.Managed.DAFUL.Car.ApplyParameterOperation.md)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_ApplyParameterOperation_Success"></a> Success
 
@@ -123,7 +124,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

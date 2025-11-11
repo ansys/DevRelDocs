@@ -1,4 +1,5 @@
-#  Interface IHasMaterial
+# Interface IHasMaterial
+<a id="VM_Managed_Material_IHasMaterial"></a>
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,5 @@
-#  Enum PropertyBase.PropertyType
+# Enum PropertyBase.PropertyType
+<a id="VM_Managed_DAFUL_FE_Property_PropertyBase_PropertyType"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  

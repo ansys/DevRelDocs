@@ -1,4 +1,5 @@
-#  Class LoadCaseBase
+# Class LoadCaseBase
+<a id="VM_Managed_DAFUL_Car_LoadCaseBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class LoadCaseBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LoadCaseBase](VM.Managed.DAFUL.Car.LoadCaseBase.md)
 
 #### Derived

@@ -1,4 +1,5 @@
-#  Class SerialLinkContainer
+# Class SerialLinkContainer
+<a id="VM_Managed_DAFUL_Operation_SerialLinkContainer"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public static class SerialLinkContainer
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SerialLinkContainer](VM.Managed.DAFUL.Operation.SerialLinkContainer.md)
 
 #### Extension Methods

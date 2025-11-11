@@ -1,4 +1,5 @@
-#  Interface IWorkGroup
+# Interface IWorkGroup
+<a id="VM_Managed_DAFUL_Pre_IWorkGroup"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,5 +28,5 @@ List<Model> SubModels { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
+ List<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
 

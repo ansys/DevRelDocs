@@ -1,4 +1,5 @@
-#  Interface IOMatrix
+# Interface IOMatrix
+<a id="VM_IOMatrix"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -27,7 +28,7 @@ double[] Array { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_IOMatrix_XVector"></a> XVector
 
@@ -97,7 +98,7 @@ Vector GetDirectionVector(int axis)
 
 #### Parameters
 
-`axis` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`axis` int
 
 The type of axis.
 
@@ -137,7 +138,7 @@ void RotateAxisDeg(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -151,11 +152,11 @@ void RotateAxisDeg(int nCoord, double dAngle)
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -173,7 +174,7 @@ void RotateAxisDeg(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -191,7 +192,7 @@ void RotateAxisRad(Coordinate c, double dAngle)
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -205,11 +206,11 @@ void RotateAxisRad(int nCoord, double dAngle)
 
 #### Parameters
 
-`nCoord` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCoord` int
 
 The rotation coordinate.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -227,7 +228,7 @@ void RotateAxisRad(Vector axis, double dAngle)
 
 The rotation axis.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -241,7 +242,7 @@ void RotateXDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -255,7 +256,7 @@ void RotateXRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -269,7 +270,7 @@ void RotateYDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -283,7 +284,7 @@ void RotateYRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -297,7 +298,7 @@ void RotateZDeg(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The degree.
 
@@ -311,7 +312,7 @@ void RotateZRad(double dAngle)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The radian.
 
@@ -361,7 +362,7 @@ void SetOrientation(double[] arr)
 
 #### Parameters
 
-`arr` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arr` double\[\]
 
 The data of orientation.
 
@@ -379,15 +380,15 @@ void SetOrientationEADeg(RotationAxes ea, double dAlpha, double dBeta, double dG
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
@@ -405,15 +406,15 @@ void SetOrientationEARad(RotationAxes ea, double dAlpha, double dBeta, double dG
 
 The type of euler angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of euler angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of euler angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of euler angle.
 
@@ -431,15 +432,15 @@ void SetOrientationFixedAngleDeg(RotationAxes ea, double dAlpha, double dBeta, d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 
@@ -457,15 +458,15 @@ void SetOrientationFixedAngleRad(RotationAxes ea, double dAlpha, double dBeta, d
 
 The type of fixed angle.
 
-`dAlpha` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAlpha` double
 
 The alpha of fixed angle.
 
-`dBeta` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBeta` double
 
 The beta of fixed angle.
 
-`dGamma` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGamma` double
 
 The gamma of fixed angle.
 

@@ -1,4 +1,5 @@
-#  Class BeamFileParams
+# Class BeamFileParams
+<a id="VM_Models_FE_Mesh_Generator_BeamFileParams"></a>
 
 Namespace: [VM.Models.FE.Mesh.Generator](VM.Models.FE.Mesh.Generator.md)  
 Assembly: VM.Models.FE.Mesh.Generator.dll  
@@ -9,7 +10,7 @@ public class BeamFileParams
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BeamFileParams](VM.Models.FE.Mesh.Generator.BeamFileParams.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public double BeamMaterialDampingRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialDensity"></a> BeamMaterialDensity
 
@@ -46,7 +47,7 @@ public double BeamMaterialDensity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialPoissonsRatio"></a> BeamMaterialPoissonsRatio
 
@@ -56,7 +57,7 @@ public double BeamMaterialPoissonsRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialShearModulus"></a> BeamMaterialShearModulus
 
@@ -66,7 +67,7 @@ public double BeamMaterialShearModulus { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialYoungsModulus"></a> BeamMaterialYoungsModulus
 
@@ -76,7 +77,7 @@ public double BeamMaterialYoungsModulus { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BufferCount"></a> BufferCount
 
@@ -86,7 +87,7 @@ public int BufferCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_EndPoint"></a> EndPoint
 
@@ -106,7 +107,7 @@ public bool GenerateInnerRBE { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_NumberOfBeamNodes"></a> NumberOfBeamNodes
 
@@ -116,7 +117,7 @@ public int NumberOfBeamNodes { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_NumberOfCircularNodes"></a> NumberOfCircularNodes
 
@@ -126,7 +127,7 @@ public int NumberOfCircularNodes { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_Radius"></a> Radius
 
@@ -136,7 +137,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_StartPoint"></a> StartPoint
 

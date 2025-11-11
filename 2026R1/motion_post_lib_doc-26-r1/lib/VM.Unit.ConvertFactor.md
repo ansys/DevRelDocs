@@ -1,17 +1,18 @@
-#  Class Unit.ConvertFactor
+# Class Unit.ConvertFactor
+<a id="VM_Unit_ConvertFactor"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 This class is to represent the convert factor.
 
-```python
+```csharp
 public sealed class Unit.ConvertFactor
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Unit.ConvertFactor](VM.Unit.ConvertFactor.md)
 
 ## Constructors
@@ -20,7 +21,7 @@ public sealed class Unit.ConvertFactor
 
 Initializes a new instance of the <xref href="VM.Unit.ConvertFactor" data-throw-if-not-resolved="false"></xref> class
 
-```python
+```csharp
 public ConvertFactor(Unit unitFrom, Unit unitTo)
 ```
 
@@ -38,7 +39,7 @@ The unit to.
 
 Initializes a new instance of the <xref href="VM.Unit.ConvertFactor" data-throw-if-not-resolved="false"></xref> class
 
-```python
+```csharp
 public ConvertFactor(Unit unitFrom, Unit.ConvertFactor factor)
 ```
 
@@ -58,7 +59,7 @@ The factor.
 
 Gets the default convert factor
 
-```python
+```csharp
 public static Unit.ConvertFactor Default { get; }
 ```
 
@@ -70,37 +71,37 @@ public static Unit.ConvertFactor Default { get; }
 
 Gets the from UCF.
 
-```python
+```csharp
 public double FromUCF { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Unit_ConvertFactor_ToUCF"></a> ToUCF
 
 Gets the to UCF.
 
-```python
+```csharp
 public double ToUCF { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Unit_ConvertFactor_Item_System_String_"></a> this\[string\]
 
 Gets the convert factor by using indexer
 
-```python
+```csharp
 public double this[string stringDimension] { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -108,30 +109,29 @@ public double this[string stringDimension] { get; }
 
 Calculate Shifting Unit.
 
-```python
+```csharp
 public double CalculateShiftingUnit(string stringType, double value)
 ```
 
 #### Parameters
 
-`stringType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringType` string
 
 The unit type
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 The value
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The converted value
 
 ### <a id="VM_Unit_ConvertFactor_Dispose"></a> Dispose\(\)
 
-```python
+```csharp
 public void Dispose()
 ```
-
 

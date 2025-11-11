@@ -1,4 +1,5 @@
-#  Class ImportInfo
+# Class ImportInfo
+<a id="VM_Managed_DAFUL_FE_ImportInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class ImportInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ImportInfo](VM.Managed.DAFUL.FE.ImportInfo.md)
 
 #### Extension Methods
@@ -54,7 +55,7 @@ public double[] Marker[uint nID] { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_ImportInfo_Material_System_UInt32_"></a> Material\[uint\]
 
@@ -78,7 +79,7 @@ public uint NodeID[uint nIndex] { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_ImportInfo_NodeIndex_System_UInt32_"></a> NodeIndex\[uint\]
 
@@ -90,7 +91,7 @@ public uint NodeIndex[uint nID] { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_ImportInfo_PropertyBeam_System_UInt32_"></a> PropertyBeam\[uint\]
 
@@ -178,7 +179,7 @@ public void AddElementInfo(uint nID, ElementType enType, uint nIndex)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 The ID.
 
@@ -186,7 +187,7 @@ The ID.
 
 The element type.
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 The index.
 
@@ -200,11 +201,11 @@ public void AddMarker(uint index, double[] marker)
 
 #### Parameters
 
-`index` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`index` uint
 
 The index.
 
-`marker` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`marker` double\[\]
 
 The marker.
 
@@ -232,11 +233,11 @@ public void AddNodeID(uint nID, uint nIndex)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 The ID.
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 The index.
 
@@ -248,7 +249,7 @@ public ElementInfo get_ElementInfo(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
@@ -262,11 +263,11 @@ public double[] get_Marker(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_Material_System_UInt32_"></a> get\_Material\(uint\)
 
@@ -276,7 +277,7 @@ public IMaterial get_Material(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
@@ -290,11 +291,11 @@ public uint get_NodeID(uint nIndex)
 
 #### Parameters
 
-`nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndex` uint
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_NodeIndex_System_UInt32_"></a> get\_NodeIndex\(uint\)
 
@@ -304,11 +305,11 @@ public uint get_NodeIndex(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_PropertyBeam_System_UInt32_"></a> get\_PropertyBeam\(uint\)
 
@@ -318,7 +319,7 @@ public IFEObject get_PropertyBeam(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
@@ -332,7 +333,7 @@ public IFEObject get_PropertyShell(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
@@ -346,7 +347,7 @@ public IFEObject get_PropertySolid(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
@@ -360,7 +361,7 @@ public IFEObject get_RBE(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 
@@ -374,7 +375,7 @@ public IFEObject get_Set(uint nID)
 
 #### Parameters
 
-`nID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nID` uint
 
 #### Returns
 

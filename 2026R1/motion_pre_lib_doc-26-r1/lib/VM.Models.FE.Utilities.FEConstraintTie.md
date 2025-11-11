@@ -1,4 +1,5 @@
-#  Struct FEConstraintTie
+# Struct FEConstraintTie
+<a id="VM_Models_FE_Utilities_FEConstraintTie"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -37,7 +38,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEConstraintTie_NumberOfPatchOfActionGeom"></a> NumberOfPatchOfActionGeom
 
@@ -47,7 +48,7 @@ public uint NumberOfPatchOfActionGeom { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEConstraintTie_NumberOfPatchOfBaseGeom"></a> NumberOfPatchOfBaseGeom
 
@@ -57,5 +58,5 @@ public uint NumberOfPatchOfBaseGeom { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

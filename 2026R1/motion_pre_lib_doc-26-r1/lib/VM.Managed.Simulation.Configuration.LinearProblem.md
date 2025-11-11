@@ -1,4 +1,5 @@
-#  Enum Configuration.LinearProblem
+# Enum Configuration.LinearProblem
+<a id="VM_Managed_Simulation_Configuration_LinearProblem"></a>
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

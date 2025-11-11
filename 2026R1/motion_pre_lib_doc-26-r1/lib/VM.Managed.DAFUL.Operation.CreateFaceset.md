@@ -1,4 +1,5 @@
-#  Class CreateFaceset
+# Class CreateFaceset
+<a id="VM_Managed_DAFUL_Operation_CreateFaceset"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateFaceset : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateFaceset](VM.Managed.DAFUL.Operation.CreateFaceset.md)
 
@@ -109,7 +110,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -123,13 +124,13 @@ public static SetFace CreateSetFace(Document3D document, List<int> lstPID, Objec
 
 `document` Document3D
 
-`lstPID` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstPID` List<int\>
 
 `objParent` ObjectBase
 
 #### Returns
 
- SetFace
+ [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_CreateSetFace_VM_Managed_Document3D_System_String_System_Collections_Generic_List_System_Int32__VM_Managed_ObjectBase_"></a> CreateSetFace\(Document3D, string, List<int\>, ObjectBase\)
 
@@ -141,15 +142,15 @@ public static SetFace CreateSetFace(Document3D document, string strName, List<in
 
 `document` Document3D
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`lstPID` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstPID` List<int\>
 
 `objParent` ObjectBase
 
 #### Returns
 
- SetFace
+ [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_CreateSetFaceWithFaceIndex_VM_Managed_Document3D_System_Collections_Generic_List_System_Int32__VM_Managed_ObjectBase_"></a> CreateSetFaceWithFaceIndex\(Document3D, List<int\>, ObjectBase\)
 
@@ -161,13 +162,13 @@ public static SetFace CreateSetFaceWithFaceIndex(Document3D document, List<int> 
 
 `document` Document3D
 
-`lstFaceIndex` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstFaceIndex` List<int\>
 
 `objParent` ObjectBase
 
 #### Returns
 
- SetFace
+ [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_Execute"></a> Execute\(\)
 
@@ -185,5 +186,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

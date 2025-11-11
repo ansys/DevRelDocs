@@ -1,4 +1,5 @@
-#  Interface IStepItemSet
+# Interface IStepItemSet
+<a id="VM_Models_IStepItemSet"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -23,7 +24,7 @@ Type ScenarioType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_Models_IStepItemSet_Target"></a> Target
 

@@ -1,4 +1,5 @@
-#  Class AddGearToShaft
+# Class AddGearToShaft
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToShaft"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class AddGearToShaft : AddGearEntityBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddGearEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddGearEntityBase.md) ← 
 [AddGearToShaft](VM.Managed.DAFUL.Builder.GearTrain.AddGearToShaft.md)
@@ -80,21 +81,21 @@ protected virtual GearGeometry CreateGearGeom(GearGeometryInfo ggInfo, HiddenSha
 
 #### Parameters
 
-`ggInfo` GearGeometryInfo
+`ggInfo` [GearGeometryInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearGeometryInfo.cs)
 
-`hiddenDoc` HiddenShaftSetDocument
+`hiddenDoc` [HiddenShaftSetDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenShaftSetDocument.cs)
 
 `typeRP` ReferencePointType
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 `vecPoint` VectorBase
 
-`typeParent` GearBuilder.ParentType
+`typeParent` [GearBuilder](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearBuilder.cs).[ParentType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearBuilder.cs)
 
 `vecBearingOffset` Vector
 
 #### Returns
 
- GearGeometry
+ [GearGeometry](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearGeometry.cs)
 

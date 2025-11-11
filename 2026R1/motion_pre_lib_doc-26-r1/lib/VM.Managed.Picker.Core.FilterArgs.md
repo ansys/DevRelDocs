@@ -1,4 +1,5 @@
-#  Class FilterArgs
+# Class FilterArgs
+<a id="VM_Managed_Picker_Core_FilterArgs"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class FilterArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [FilterArgs](VM.Managed.Picker.Core.FilterArgs.md)
 
 #### Extension Methods
@@ -47,7 +48,7 @@ public bool OK { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Picker_Core_FilterArgs_Target"></a> Target
 

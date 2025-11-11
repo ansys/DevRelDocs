@@ -1,4 +1,5 @@
-#  Class CreateDTEntityUtil.BearingCreateInfo
+# Class CreateDTEntityUtil.BearingCreateInfo
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class CreateDTEntityUtil.BearingCreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDTEntityUtil.BearingCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.BearingCreateInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public double ActionPoint
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_AdditionalDimensionInformation"></a> AdditionalDimensionInformation
 
@@ -46,7 +47,7 @@ public double[] AdditionalDimensionInformation
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_AdditionalPropertyInformation"></a> AdditionalPropertyInformation
 
@@ -56,7 +57,7 @@ public double[] AdditionalPropertyInformation
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_AxialClearance"></a> AxialClearance
 
@@ -66,7 +67,7 @@ public double AxialClearance
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_BallDiameter"></a> BallDiameter
 
@@ -76,7 +77,7 @@ public double BallDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_BearingType"></a> BearingType
 
@@ -86,7 +87,7 @@ public PropertyBearing.enBearingType BearingType
 
 #### Field Value
 
- PropertyBearing.enBearingType
+ [PropertyBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs).[enBearingType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_CurvatureCenterInner"></a> CurvatureCenterInner
 
@@ -96,7 +97,7 @@ public double CurvatureCenterInner
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_CurvatureCenterOuter"></a> CurvatureCenterOuter
 
@@ -106,7 +107,7 @@ public double CurvatureCenterOuter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_DampingRatio"></a> DampingRatio
 
@@ -116,7 +117,7 @@ public double DampingRatio
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_InnerRacewayOfInnerDiameter"></a> InnerRacewayOfInnerDiameter
 
@@ -126,7 +127,7 @@ public double InnerRacewayOfInnerDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_InnerRacewayOfOuterDiameter"></a> InnerRacewayOfOuterDiameter
 
@@ -136,7 +137,7 @@ public double InnerRacewayOfOuterDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_InnerRacewayOfOuterDiameter2"></a> InnerRacewayOfOuterDiameter2
 
@@ -146,7 +147,7 @@ public double InnerRacewayOfOuterDiameter2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_NumberOfBall"></a> NumberOfBall
 
@@ -156,7 +157,7 @@ public int NumberOfBall
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_OuterRacewayOfInnerDiameter"></a> OuterRacewayOfInnerDiameter
 
@@ -166,7 +167,7 @@ public double OuterRacewayOfInnerDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_OuterRacewayOfInnerDiameter2"></a> OuterRacewayOfInnerDiameter2
 
@@ -176,7 +177,7 @@ public double OuterRacewayOfInnerDiameter2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_OuterRacewayOfOuterDiameter"></a> OuterRacewayOfOuterDiameter
 
@@ -186,7 +187,7 @@ public double OuterRacewayOfOuterDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_RadialClearance"></a> RadialClearance
 
@@ -196,7 +197,7 @@ public double RadialClearance
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_RoundingRadius"></a> RoundingRadius
 
@@ -206,7 +207,7 @@ public double RoundingRadius
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_StiffnessMatrix"></a> StiffnessMatrix
 
@@ -216,7 +217,7 @@ public double[] StiffnessMatrix
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_StiffnessType"></a> StiffnessType
 
@@ -226,7 +227,7 @@ public PropertyBearing.enStiffnessType StiffnessType
 
 #### Field Value
 
- PropertyBearing.enStiffnessType
+ [PropertyBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs).[enStiffnessType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_UnloadedContactAngle"></a> UnloadedContactAngle
 
@@ -236,7 +237,7 @@ public double UnloadedContactAngle
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_Width"></a> Width
 
@@ -246,7 +247,7 @@ public double Width
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Properties
 
@@ -258,7 +259,7 @@ public string[] InputArray { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 

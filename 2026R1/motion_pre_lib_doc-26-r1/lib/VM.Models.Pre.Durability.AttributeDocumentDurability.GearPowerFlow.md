@@ -1,4 +1,5 @@
-#  Class AttributeDocumentDurability.GearPowerFlow
+# Class AttributeDocumentDurability.GearPowerFlow
+<a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearPowerFlow"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -11,7 +12,7 @@ public class AttributeDocumentDurability.GearPowerFlow
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AttributeDocumentDurability.GearPowerFlow](VM.Models.Pre.Durability.AttributeDocumentDurability.GearPowerFlow.md)
 
 #### Extension Methods
@@ -42,5 +43,5 @@ public string InputRelativeFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

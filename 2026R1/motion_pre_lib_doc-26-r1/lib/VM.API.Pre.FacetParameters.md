@@ -1,4 +1,5 @@
-#  Struct FacetParameters
+# Struct FacetParameters
+<a id="VM_API_Pre_FacetParameters"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -31,7 +32,7 @@ public bool CheckFacetAspectRatio { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_CheckMaximumFacetSize"></a> CheckMaximumFacetSize
 
@@ -43,7 +44,7 @@ public bool CheckMaximumFacetSize { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_CheckMaximumGridLine"></a> CheckMaximumGridLine
 
@@ -55,7 +56,7 @@ public bool CheckMaximumGridLine { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_CheckMinimumUGridLine"></a> CheckMinimumUGridLine
 
@@ -67,7 +68,7 @@ public bool CheckMinimumUGridLine { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_CheckMinimumVGridLine"></a> CheckMinimumVGridLine
 
@@ -79,7 +80,7 @@ public bool CheckMinimumVGridLine { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_CheckSurfaceAngularTolerance"></a> CheckSurfaceAngularTolerance
 
@@ -91,7 +92,7 @@ public bool CheckSurfaceAngularTolerance { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_CheckSurfaceTolerance"></a> CheckSurfaceTolerance
 
@@ -103,7 +104,7 @@ public bool CheckSurfaceTolerance { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_FacetAspectRatio"></a> FacetAspectRatio
 
@@ -115,7 +116,7 @@ public ExpressionValueVariable FacetAspectRatio { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_FacetParameters_MaximumFacetSize"></a> MaximumFacetSize
 
@@ -127,7 +128,7 @@ public ExpressionValueVariable MaximumFacetSize { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_FacetParameters_MaximumGridLine"></a> MaximumGridLine
 
@@ -139,7 +140,7 @@ public int MaximumGridLine { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_API_Pre_FacetParameters_MinimumUGridLine"></a> MinimumUGridLine
 
@@ -151,7 +152,7 @@ public int MinimumUGridLine { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_API_Pre_FacetParameters_MinimumVGridLine"></a> MinimumVGridLine
 
@@ -163,7 +164,7 @@ public int MinimumVGridLine { readonly get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_API_Pre_FacetParameters_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
 
@@ -175,7 +176,7 @@ public ExpressionValueVariable SurfaceAngularTolerance { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_FacetParameters_SurfaceTolerance"></a> SurfaceTolerance
 
@@ -187,7 +188,7 @@ public ExpressionValueVariable SurfaceTolerance { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_FacetParameters_UseApproximatedGeometry"></a> UseApproximatedGeometry
 
@@ -199,7 +200,7 @@ public bool UseApproximatedGeometry { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_UseEdge"></a> UseEdge
 
@@ -211,7 +212,7 @@ public bool UseEdge { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_FacetParameters_UseRegacyFacetParameters"></a> UseRegacyFacetParameters
 
@@ -223,5 +224,5 @@ public bool UseRegacyFacetParameters { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

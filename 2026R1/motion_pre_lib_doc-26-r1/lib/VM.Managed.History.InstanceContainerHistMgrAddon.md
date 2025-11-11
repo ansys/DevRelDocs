@@ -1,4 +1,5 @@
-#  Class InstanceContainerHistMgrAddon
+# Class InstanceContainerHistMgrAddon
+<a id="VM_Managed_History_InstanceContainerHistMgrAddon"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -9,26 +10,26 @@ public class InstanceContainerHistMgrAddon : HistoryManagerAddon
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryManagerAddon ← 
+object ← 
+[HistoryManagerAddon](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs) ← 
 [InstanceContainerHistMgrAddon](VM.Managed.History.InstanceContainerHistMgrAddon.md)
 
 #### Inherited Members
 
-HistoryManagerAddon.BeforeUndo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterUndo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.BeforeRedo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterRedo\(object, HistoryEventArgs\), 
-HistoryManagerAddon.BeforeRollback\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterRollback\(object, HistoryEventArgs\), 
-HistoryManagerAddon.BeforeRecord\(object, HistoryEventArgs\), 
-HistoryManagerAddon.AfterRecord\(object, HistoryEventArgs\), 
-HistoryManagerAddon.Register\(HistoryManager\), 
-HistoryManagerAddon.ClearMarkCollection\(ICollection<HistoryMark\>\), 
-HistoryManagerAddon.ClearMark\(HistoryMark\), 
-HistoryManagerAddon.Parent, 
-HistoryManagerAddon.DoneList, 
-HistoryManagerAddon.UndoneList
+[HistoryManagerAddon.BeforeUndo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterUndo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.BeforeRedo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterRedo\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.BeforeRollback\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterRollback\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.BeforeRecord\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.AfterRecord\(object, HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.Register\(HistoryManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.ClearMarkCollection\(ICollection<HistoryMark\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.ClearMark\(HistoryMark\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.Parent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.DoneList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs), 
+[HistoryManagerAddon.UndoneList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryManagerAddon.cs)
 
 #### Extension Methods
 
@@ -54,9 +55,9 @@ protected override void AfterRecord(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_InstanceContainerHistMgrAddon_BeforeRecord_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeRecord\(object, HistoryEventArgs\)
 
@@ -66,9 +67,9 @@ protected override void BeforeRecord(object o, HistoryEventArgs args)
 
 #### Parameters
 
-`o` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`o` object
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_InstanceContainerHistMgrAddon_OpenInstanceContainer_System_String_"></a> OpenInstanceContainer\(string\)
 
@@ -78,5 +79,5 @@ public static void OpenInstanceContainer(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 

@@ -1,4 +1,5 @@
-#  Interface IPatchSetInformation
+# Interface IPatchSetInformation
+<a id="VM_Managed_IPatchSetInformation"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

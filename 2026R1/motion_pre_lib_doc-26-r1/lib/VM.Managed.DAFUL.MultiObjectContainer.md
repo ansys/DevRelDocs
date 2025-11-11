@@ -1,4 +1,5 @@
-#  Class MultiObjectContainer
+# Class MultiObjectContainer
+<a id="VM_Managed_DAFUL_MultiObjectContainer"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public abstract class MultiObjectContainer : LinkContainer, IObservableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MultiObjectContainer](VM.Managed.DAFUL.MultiObjectContainer.md)
 
@@ -81,7 +82,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -120,7 +121,7 @@ public MultiObjectContainer(ICollection collection)
 
 #### Parameters
 
-`collection` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.icollection)
+`collection` ICollection
 
 The collection of action objects.
 
@@ -136,7 +137,7 @@ public ICollection<MultiObjectTarget> Collection { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
+ ICollection<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
 
 ### <a id="VM_Managed_DAFUL_MultiObjectContainer_Count"></a> Count
 
@@ -148,7 +149,7 @@ protected abstract int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_MultiObjectContainer_ObjectBaseList"></a> ObjectBaseList
 
@@ -160,7 +161,7 @@ protected IList<ObjectBase> ObjectBaseList { get; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
+ IList<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_MultiObjectContainer_ObjectList"></a> ObjectList
 
@@ -173,7 +174,7 @@ protected List<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkCo
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkContainer.None\>\>
+ List<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkContainer.None\>\>
 
 ### <a id="VM_Managed_DAFUL_MultiObjectContainer_Objects"></a> Objects
 
@@ -197,7 +198,7 @@ public bool SwapActionBase { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -211,7 +212,7 @@ protected abstract IEnumerator<MultiObjectTarget> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
+ IEnumerator<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
 
@@ -223,7 +224,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `arg` LinkEventArgs
 
@@ -237,7 +238,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

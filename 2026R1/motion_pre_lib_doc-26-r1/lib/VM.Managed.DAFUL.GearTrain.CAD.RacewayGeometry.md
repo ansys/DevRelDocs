@@ -1,4 +1,5 @@
-#  Class RacewayGeometry
+# Class RacewayGeometry
+<a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class RacewayGeometry : GeometryBase, IObservableObject, IDisposableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Body ← 
@@ -36,7 +37,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IReferencable, 
 ITransformable, 
@@ -280,7 +281,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -335,11 +336,11 @@ public void GetLengthAndHeight(ref double dLength, ref double dHeight)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 Height of the d.
 
@@ -353,7 +354,7 @@ protected override string GetNameWhenDelete()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry_TemperaryRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_Double_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Boolean_"></a> TemperaryRacewayGeometry\(RacewayGeometryInfo, HiddenShaftSetDocument, double, ReferencePointType, bool\)
 
@@ -373,7 +374,7 @@ The information.
 
 The document.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -381,7 +382,7 @@ The d offset.
 
 The rp_type.
 
-`bReverse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReverse` bool
 
 The flag of reverse direction.
 
@@ -403,7 +404,7 @@ public static RacewayGeometry TemperaryRacewayGeometry(RacewayGeometryInfo info,
 
 The information.
 
-`doc` DocumentAnalysis
+`doc` [DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs)
 
 The document.
 

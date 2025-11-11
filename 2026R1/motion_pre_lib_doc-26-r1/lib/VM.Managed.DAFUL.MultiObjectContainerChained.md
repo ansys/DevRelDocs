@@ -1,4 +1,5 @@
-#  Class MultiObjectContainerChained
+# Class MultiObjectContainerChained
+<a id="VM_Managed_DAFUL_MultiObjectContainerChained"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class MultiObjectContainerChained : MultiObjectContainer, IObservableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MultiObjectContainer](VM.Managed.DAFUL.MultiObjectContainer.md) ← 
 [MultiObjectContainerChained](VM.Managed.DAFUL.MultiObjectContainerChained.md)
@@ -85,7 +86,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -116,7 +117,7 @@ public MultiObjectContainerChained(ICollection collection)
 
 #### Parameters
 
-`collection` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.icollection)
+`collection` ICollection
 
 The collection of action objects.
 
@@ -130,11 +131,11 @@ public MultiObjectContainerChained(ICollection collection, bool isClosed)
 
 #### Parameters
 
-`collection` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.icollection)
+`collection` ICollection
 
 The collection of action objects.
 
-`isClosed` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isClosed` bool
 
 <code>true</code> if chained object makes closed loop; otherwise, <code>false</code>;
 
@@ -151,7 +152,7 @@ public bool ClosedState { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MultiObjectContainerChained_Count"></a> Count
 
@@ -163,7 +164,7 @@ protected override int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -177,7 +178,7 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
+ IEnumerator<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
 

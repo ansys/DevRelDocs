@@ -1,4 +1,5 @@
-#  Class NodalBody
+# Class NodalBody
+<a id="VM_Managed_DAFUL_FE_NodalBody"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,13 +12,13 @@ public class NodalBody : InstanceContainer, IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
-InstanceContainer ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
+[InstanceContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs) ← 
 [NodalBody](VM.Managed.DAFUL.FE.NodalBody.md)
 
 #### Implements
@@ -27,7 +28,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -75,46 +76,46 @@ INodalBody
 
 #### Inherited Members
 
-InstanceContainer.InitInterfaceTable\(\), 
-InstanceContainer.LinkRequestUpdate\(object, LinkEventArgs\), 
-InstanceContainer.BindInterface\(\), 
-InstanceContainer.BindInterface\(ObjectBase, ObjectBase\), 
-InstanceContainer.BindInterface\(InstanceContainer.InterfaceTable\), 
-InstanceContainer.Find\(string\), 
-InstanceContainer.FindLocal\(string\), 
-InstanceContainer.GetNewEntityName\(string\), 
-InstanceContainer.GetNewEntityName\(string, bool, int\), 
-InstanceContainer.GetNewEntityName\(string, bool, int, int\), 
-InstanceContainer.GetUnnamedObjectName\(object\), 
-InstanceContainer.MakeReferenceImpl\(LinkedList<Reference\>\), 
-InstanceContainer.PostOpenDocumentAfterHookEvent\(\), 
-InstanceContainer.TransformImpl\(TMatrix\), 
-InstanceContainer.Redraw\(\), 
-InstanceContainer.GetLayerImpl\(\), 
-InstanceContainer.SetLayerImpl\(Layer\), 
-InstanceContainer.IsDestroyContainer\(\), 
-InstanceContainer.GetTargetListForUpdate\(\), 
-InstanceContainer.ProcessDuplicateReferenceImpl\(Reference\), 
-InstanceContainer.PostAddToDocument\(\), 
-InstanceContainer.LinkRequestDestroy\(object, LinkEventArgs\), 
-InstanceContainer.GetChildListImpl\(\), 
-InstanceContainer.OnDeserialization\(object\), 
-InstanceContainer.Instance, 
-InstanceContainer.InterfaceTableList, 
-InstanceContainer.InterfaceTables, 
-InstanceContainer.Layer, 
-InstanceContainer.IsVisible, 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[InstanceContainer.InitInterfaceTable\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.BindInterface\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.BindInterface\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.BindInterface\(InstanceContainer.InterfaceTable\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.Find\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.GetNewEntityName\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.GetNewEntityName\(string, bool, int\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.GetNewEntityName\(string, bool, int, int\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.MakeReferenceImpl\(LinkedList<Reference\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.PostOpenDocumentAfterHookEvent\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.TransformImpl\(TMatrix\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.Redraw\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.GetLayerImpl\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.SetLayerImpl\(Layer\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.IsDestroyContainer\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.GetTargetListForUpdate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.ProcessDuplicateReferenceImpl\(Reference\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.PostAddToDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.LinkRequestDestroy\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.GetChildListImpl\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.Instance](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.InterfaceTableList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.InterfaceTables](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[InstanceContainer.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs), 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -207,7 +208,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -238,11 +239,11 @@ public NodalBody(string strName, string strMeshFilePath, TransformBase transf)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the nodal body.
 
-`strMeshFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFilePath` string
 
 The nodal body file path.
 
@@ -260,7 +261,7 @@ public NodalBody(string strName, Instance instanceNodalBody)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the nodal body.
 
@@ -325,7 +326,7 @@ string FilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_InitVel"></a> InitVel
 
@@ -337,7 +338,7 @@ public BodyPropertyBase.InitialVelocity InitVel { get; set; }
 
 #### Property Value
 
- BodyPropertyBase.InitialVelocity
+ [BodyPropertyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs).[InitialVelocity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_IsModalBody"></a> IsModalBody
 
@@ -349,7 +350,7 @@ public bool IsModalBody { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_LargeDeformation"></a> LargeDeformation
 
@@ -361,7 +362,7 @@ public bool LargeDeformation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_MassCenter"></a> MassCenter
 
@@ -397,7 +398,7 @@ public double MassValue { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_MeshList"></a> MeshList
 
@@ -409,7 +410,7 @@ public List<Mesh> MeshList { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Mesh](VM.Managed.DAFUL.FE.Mesh.md)\>
+ List<[Mesh](VM.Managed.DAFUL.FE.Mesh.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_ModalMassCenter"></a> ModalMassCenter
 
@@ -433,7 +434,7 @@ public double ModalMassValue { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_ModalMomentOfInertiaValue"></a> ModalMomentOfInertiaValue
 
@@ -481,7 +482,7 @@ public int NumberOfEdgeset { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfElement"></a> NumberOfElement
 
@@ -493,7 +494,7 @@ public int NumberOfElement { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfElementset"></a> NumberOfElementset
 
@@ -505,7 +506,7 @@ public int NumberOfElementset { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfFrequency"></a> NumberOfFrequency
 
@@ -517,7 +518,7 @@ public int NumberOfFrequency { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfNode"></a> NumberOfNode
 
@@ -529,7 +530,7 @@ public int NumberOfNode { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfNodeset"></a> NumberOfNodeset
 
@@ -541,7 +542,7 @@ public int NumberOfNodeset { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfPatchset"></a> NumberOfPatchset
 
@@ -553,7 +554,7 @@ public int NumberOfPatchset { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfProperty"></a> NumberOfProperty
 
@@ -565,7 +566,7 @@ public int NumberOfProperty { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_ParentType"></a> ParentType
 
@@ -601,7 +602,19 @@ public InvisibleMarker ReferenceMarker { get; set; }
 
 #### Property Value
 
- InvisibleMarker
+ [InvisibleMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
+
+### <a id="VM_Managed_DAFUL_FE_NodalBody_SupportSetMassImpl"></a> SupportSetMassImpl
+
+Gets the flag for whether or not to support set for mass.
+
+```csharp
+bool SupportSetMassImpl { get; }
+```
+
+#### Property Value
+
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_TopologyEntityTypeName"></a> TopologyEntityTypeName
 
@@ -613,7 +626,7 @@ public override string TopologyEntityTypeName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_UseAdvancedOption"></a> UseAdvancedOption
 
@@ -623,7 +636,7 @@ public bool UseAdvancedOption { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_UseRMovingReferenceFrame"></a> UseRMovingReferenceFrame
 
@@ -633,7 +646,7 @@ public bool UseRMovingReferenceFrame { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_UseTMovingReferenceFrame"></a> UseTMovingReferenceFrame
 
@@ -643,7 +656,7 @@ public bool UseTMovingReferenceFrame { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody__MovingReferenceFrame"></a> \_MovingReferenceFrame
 
@@ -683,11 +696,11 @@ public static NodalBody Create(SubSystemDocument docToAdd, string strBodyName, M
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to add created <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name of new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -715,11 +728,11 @@ public static NodalBody Create(SubSystemDocument docToAdd, string strBodyName, M
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to add created <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-`strBodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyName` string
 
 The body name of new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -743,7 +756,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -769,7 +782,7 @@ The old object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -809,17 +822,17 @@ public virtual bool GetGeometryNavigatorInformation(XmlDocument xmlDom, XmlEleme
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument information.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -833,7 +846,7 @@ virtual void GetMassPropImpl(ref double dMass, VectorBase vecCenterPosition, OMa
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
@@ -845,11 +858,11 @@ The center position.
 
 The orientation.
 
-`arTensor` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arTensor` double\[\]
 
 The tensor.
 
-`bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGlobal` bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_GetMeshesImpl"></a> GetMeshesImpl\(\)
 
@@ -875,21 +888,21 @@ protected override bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, Xml
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlRootEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlRootEle` XmlElement
 
 The XmlElement for object.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 if set to <code>true</code> [has child].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -915,7 +928,7 @@ public VectorBase GetNodePositionsForMesh(Mesh mesh, int nIndex)
 
 `mesh` [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 #### Returns
 
@@ -963,7 +976,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -981,7 +994,7 @@ public void InitBodyType(BodyAnalysisType type, bool bUpdateNavi)
 
 The flexible body type.
 
-`bUpdateNavi` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdateNavi` bool
 
 The Update Navigator.
 
@@ -1031,7 +1044,7 @@ public virtual bool IsAutoContactable()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
 
@@ -1045,7 +1058,7 @@ public override bool IsDestroyContainer()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [destroy container]; otherwise, <code>false</code>.
 
@@ -1063,7 +1076,7 @@ public static bool IsOnlyLinearMaterial(ObjectBase obNodalBody)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if this instance refer only linear material; otherwise, <code>false</code>.
 
@@ -1077,7 +1090,7 @@ public bool IsReadDFN()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if read; otherwise, <code>false</code>.
 
@@ -1091,7 +1104,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -1109,7 +1122,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -1151,7 +1164,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -1191,7 +1204,7 @@ virtual void SetMassPropImpl(double dMass, VectorBase vecCenterPosition, OMatrix
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
@@ -1203,11 +1216,11 @@ The center position.
 
 The orientation.
 
-`arTensor` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arTensor` double\[\]
 
 The tensor.
 
-`bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGlobal` bool
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_SetNodeElementInformation_VM_Managed_DAFUL_FE_NodalBody_NodeInformation___VM_Managed_DAFUL_FE_NodalBody_ElementInformation___"></a> SetNodeElementInformation\(NodeInformation\[\], ElementInformation\[\]\)
 
@@ -1229,7 +1242,7 @@ The element information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -1253,7 +1266,7 @@ The orientation.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -1267,13 +1280,13 @@ public bool SetNodePositions(string strDFNPath)
 
 #### Parameters
 
-`strDFNPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFNPath` string
 
 The dfn file path.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -1301,7 +1314,7 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

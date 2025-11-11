@@ -1,4 +1,5 @@
-#  Enum StressStrainReport
+# Enum StressStrainReport
+<a id="VM_Managed_DAFUL_StressStrainReport"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

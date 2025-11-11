@@ -1,4 +1,5 @@
-#  Class SolidBlockSimple
+# Class SolidBlockSimple
+<a id="VM_Managed_DAFUL_Builder_SolidBlockSimple"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class SolidBlockSimple : Solid<BuilderBlockSimple>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<Body\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [Solid<BuilderBlockSimple\>](VM.Managed.DAFUL.Builder.Solid\-1.md) ← 
 [SolidBlockSimple](VM.Managed.DAFUL.Builder.SolidBlockSimple.md)

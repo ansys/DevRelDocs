@@ -1,4 +1,5 @@
-#  Interface IExpressionEvaluator
+# Interface IExpressionEvaluator
+<a id="VM_IExpressionEvaluator"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,11 +24,11 @@ object Evaluate(string expression)
 
 #### Parameters
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_IExpressionEvaluator_TryEvaluate__1_System_String___0__"></a> TryEvaluate<T\>\(string, out T\)
 
@@ -37,13 +38,13 @@ bool TryEvaluate<T>(string expression, out T result)
 
 #### Parameters
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 `result` T
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 

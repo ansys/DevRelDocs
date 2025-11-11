@@ -1,4 +1,5 @@
-#  Interface IChainedPathInfo
+# Interface IChainedPathInfo
+<a id="VM_Managed_DAFUL_Chained_IChainedPathInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

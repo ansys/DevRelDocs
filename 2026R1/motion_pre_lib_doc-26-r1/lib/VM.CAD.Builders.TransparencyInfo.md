@@ -1,4 +1,5 @@
-#  Struct TransparencyInfo
+# Struct TransparencyInfo
+<a id="VM_CAD_Builders_TransparencyInfo"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -17,7 +18,7 @@ public double Transp { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Operators
 
@@ -33,7 +34,7 @@ public static implicit operator double(TransparencyInfo info)
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_TransparencyInfo_op_Implicit_System_Double__VM_CAD_Builders_TransparencyInfo"></a> implicit operator TransparencyInfo\(double\)
 
@@ -43,7 +44,7 @@ public static implicit operator TransparencyInfo(double transparency)
 
 #### Parameters
 
-`transparency` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`transparency` double
 
 #### Returns
 

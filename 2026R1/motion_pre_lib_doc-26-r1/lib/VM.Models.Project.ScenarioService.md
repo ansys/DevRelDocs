@@ -1,4 +1,5 @@
-#  Class ScenarioService
+# Class ScenarioService
+<a id="VM_Models_Project_ScenarioService"></a>
 
 Namespace: [VM.Models.Project](VM.Models.Project.md)  
 Assembly: VM.Models.Project.dll  
@@ -9,7 +10,7 @@ public class ScenarioService : IScenarioService
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ScenarioService](VM.Models.Project.ScenarioService.md)
 
 #### Implements
@@ -46,7 +47,7 @@ public void Compose(IEnumerable<Assembly> assemblies)
 
 #### Parameters
 
-`assemblies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)\>
+`assemblies` IEnumerable<Assembly\>
 
 ### <a id="VM_Models_Project_ScenarioService_ContainsName_System_String_"></a> ContainsName\(string\)
 
@@ -56,11 +57,11 @@ public bool ContainsName(string typeName)
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Project_ScenarioService_Dispose"></a> Dispose\(\)
 
@@ -76,17 +77,17 @@ public bool TryGetInstance(string typeName, IProjectDocument parent, string scen
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
 `parent` [IProjectDocument](VM.Models.IProjectDocument.md)
 
-`scenarioName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`scenarioName` string
 
 `scenario` [IScenario](VM.Models.IScenario.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Project_ScenarioService_TryGetType_System_String_System_Type__"></a> TryGetType\(string, out Type\)
 
@@ -96,11 +97,11 @@ public bool TryGetType(string typeName, out Type scenarioType)
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
-`scenarioType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`scenarioType` Type
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

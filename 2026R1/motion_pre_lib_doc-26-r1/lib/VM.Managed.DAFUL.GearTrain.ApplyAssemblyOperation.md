@@ -1,4 +1,5 @@
-#  Class ApplyAssemblyOperation
+# Class ApplyAssemblyOperation
+<a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class ApplyAssemblyOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyAssemblyOperation](VM.Managed.DAFUL.GearTrain.ApplyAssemblyOperation.md)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation_Success"></a> Success
 
@@ -123,7 +124,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
