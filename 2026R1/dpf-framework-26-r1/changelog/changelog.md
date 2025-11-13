@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-11).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-12).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -23,12 +23,12 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils |  |[3 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
-| grpc | [1 item](#Features_grpc) |[1 item](#Fixes_grpc) |
+| grpc | [1 item](#Features_grpc) |[2 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
-| h5dpf | [1 item](#Features_h5dpf) |[2 items](#Fixes_h5dpf) |
+| h5dpf | [2 items](#Features_h5dpf) |[2 items](#Fixes_h5dpf) |
 | hdf5 | [4 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
-| kernel | [2 items](#Features_kernel) |[1 item](#Fixes_kernel) |
+| kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapdl | [13 items](#Features_mapdl) |[15 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
@@ -354,6 +354,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_grpc"></a> Fixes
 
+- Remotely copied grpc entities now references original server ip:
+  > 
+  >
+  > Previously in specific contexts, connecting remote data to remote operator could lead to an infinite loop and consumption of memory on grpc server.
+  >
+  > 
+  >
+  > 
+
 - Creation of Any from DataSources in gRPC:
   > Fix creation of Any from DataSources in gRPC
   >
@@ -370,6 +379,13 @@ The following table shows which components have updates in each category.
   > 
 ## h5dpf
 ### <a id="Features_h5dpf"></a> Features
+
+- Move rotations to SourceOperators to enable them from h5dpf datasources:
+  > Allow rotation to global from H5DPF result file.
+  >
+  > 
+  >
+  > 
 
 - Expose is_mesh_available operator:
   > 
@@ -467,6 +483,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_kernel"></a> Fixes
+
+- Fixed issue with Qua4FindElementCoordinates for mapping and find_reduced_coordinates:
+  > Fix bug with interpolation points at corner node in the mapping operator.
+  >
+  > 
+  >
+  > 
 
 - Fixing memory error in Scoping Iterators for empty scoping:
   > - This fix prevents memory exception errors arising during initialization of the scoping iterators for non-memory allocated scopings.
@@ -1622,9 +1645,16 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
+- [find_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/find_reduced_coordinates.md)
+
+  > 0.1.0: Fix bug with interpolation points at corner nodes.
+
+
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/on_coordinates.md)
 
   > 0.1.0: Performance improvement.
+
+  > 0.2.0: Fix bug with interpolation points at corner nodes.
 
 
 - [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin.md)

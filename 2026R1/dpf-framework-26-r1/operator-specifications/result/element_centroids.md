@@ -4,13 +4,13 @@ plugin: core
 license: None
 ---
 
-# result:element centroids
+# result:mesh element centroids
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute coordinate of the elemental centroids by calling the readers defined by the datasources.
+Read/compute coordinate of the mesh elemental centroids by calling the readers defined by the datasources.
 
 ## Supported file types
 
