@@ -12,6 +12,16 @@ license: None
 
 Reads a mesh from result files.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
+- cgns: cgns 
+- hdf5: h5dpf 
+- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rth 
+- vtk: vtk 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
