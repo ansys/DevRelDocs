@@ -4,19 +4,19 @@ plugin: core
 license: None
 ---
 
-# result:mesh element centroids
+# result:Output sound power
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute coordinate of the mesh elemental centroids by calling the readers defined by the datasources.
+Read/compute POUT by calling the readers defined by the datasources.
 
 ## Supported file types
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- mapdl: rst, rstp, rth 
+- mapdl: rst 
 
 ## Inputs
 
@@ -50,11 +50,11 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **Plugin**: core
 
- **Scripting name**: element_centroids
+ **Scripting name**: output_sound_power
 
- **Full name**: result.element_centroids
+ **Full name**: result.output_sound_power
 
- **Internal name**: centroids
+ **Internal name**: POUT
 
  **License**: None
 

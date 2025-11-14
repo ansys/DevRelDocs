@@ -4,19 +4,19 @@ plugin: core
 license: None
 ---
 
-# result:mesh element centroids
+# result:Average acoustic energy density in room acoustics
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute coordinate of the mesh elemental centroids by calling the readers defined by the datasources.
+Read/compute AED by calling the readers defined by the datasources.
 
 ## Supported file types
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- mapdl: rst, rstp, rth 
+- mapdl: rst 
 
 ## Inputs
 
@@ -50,11 +50,11 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **Plugin**: core
 
- **Scripting name**: element_centroids
+ **Scripting name**: acoustic_energy_density
 
- **Full name**: result.element_centroids
+ **Full name**: result.acoustic_energy_density
 
- **Internal name**: centroids
+ **Internal name**: AED
 
  **License**: None
 
