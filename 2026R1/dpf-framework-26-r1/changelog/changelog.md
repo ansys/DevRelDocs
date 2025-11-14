@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-12).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-13).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -26,7 +26,7 @@ The following table shows which components have updates in each category.
 | grpc | [1 item](#Features_grpc) |[2 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[2 items](#Fixes_h5dpf) |
-| hdf5 | [4 items](#Features_hdf5) | |
+| hdf5 | [5 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
@@ -413,6 +413,9 @@ The following table shows which components have updates in each category.
   > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
+
+- Link Tfields And Change Labels Layout:
+  > 
 
 - Enable reading fields with specific scoping via HDF5 API:
   > 
