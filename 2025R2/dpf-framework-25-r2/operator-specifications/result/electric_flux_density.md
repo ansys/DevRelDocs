@@ -12,6 +12,12 @@ license: None
 
 Read/compute Electric flux density by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst, rth 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

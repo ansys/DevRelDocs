@@ -12,6 +12,12 @@ license: None
 
 Reads mesh properties from the results files contained in the streams or data sources, and makes those properties available through a mesh selection manager in output.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: dsub, rdsp, rfrq, rst, rth 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

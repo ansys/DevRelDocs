@@ -12,6 +12,12 @@ license: None
 
 Reads boundary conditions from the results files contained in the streams or data sources.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: cms, mode, rfrq, rst, rth 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
