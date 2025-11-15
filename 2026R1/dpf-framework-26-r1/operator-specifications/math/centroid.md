@@ -24,7 +24,7 @@ Computes centroid of field1 and field2, using fieldOut = field1*(1.-fact)+field2
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Field with centroid calculation: fieldA*(1-factor) + fieldB*factor |
 
 ## Configurations
 

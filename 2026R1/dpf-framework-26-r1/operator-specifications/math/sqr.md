@@ -22,7 +22,7 @@ Computes element-wise field[i]^2.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Field with squared values applied element-wise to input data |
 
 ## Configurations
 

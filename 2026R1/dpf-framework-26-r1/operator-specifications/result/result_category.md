@@ -300,6 +300,7 @@
 - [smisc](smisc.md)
 - [specific heat](specific_heat.md)
 - [spectrum data](spectrum_data.md)
+- [squared l2norm pressure](squared_l2norm_pressure.md)
 - [state variable](state_variable.md)
 - [static pressure](static_pressure.md)
 - [stiffness matrix energy](stiffness_matrix_energy.md)

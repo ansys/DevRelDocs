@@ -23,7 +23,7 @@ Computes the sum of two fields. If one field's scoping has 'overall' location, t
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Field containing the element-wise sum of the two input fields |
 
 ## Configurations
 

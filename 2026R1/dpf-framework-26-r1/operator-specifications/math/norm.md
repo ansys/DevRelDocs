@@ -23,7 +23,7 @@ Computes the element-wise Lp norm of the field elementary data. Default Lp=L2
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Scalar field containing the Lp norm values for each element |
 
 ## Configurations
 

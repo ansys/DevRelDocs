@@ -23,7 +23,7 @@ Computes the difference of two fields. If one field's scoping has an 'overall' l
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Field containing the element-wise difference (fieldA - fieldB) |
 
 ## Configurations
 

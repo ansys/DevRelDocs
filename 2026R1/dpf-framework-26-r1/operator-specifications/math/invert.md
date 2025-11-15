@@ -22,7 +22,7 @@ DEPRECATED, PLEASE USE DIVIDE. Computes the element-wise and component-wise inve
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Field with inverse values (1/x) applied element-wise to input data |
 
 ## Configurations
 

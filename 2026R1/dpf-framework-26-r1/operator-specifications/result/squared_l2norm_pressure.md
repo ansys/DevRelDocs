@@ -4,19 +4,19 @@ plugin: core
 license: None
 ---
 
-# result:undeformed mesh element centroids
+# result:squared l2norm pressure
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute coordinate of the undeformed mesh elemental centroids by calling the readers defined by the datasources.
+Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
 ## Supported file types
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- mapdl: rst, rstp, rth 
+- mapdl: rst 
 
 ## Inputs
 
@@ -50,11 +50,11 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **Plugin**: core
 
- **Scripting name**: element_centroids
+ **Scripting name**: squared_l2norm_pressure
 
- **Full name**: result.element_centroids
+ **Full name**: result.squared_l2norm_pressure
 
- **Internal name**: centroids
+ **Internal name**: PL2
 
  **License**: None
 

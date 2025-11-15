@@ -22,7 +22,7 @@ Computes element-wise ln(field[i]).
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Field with natural logarithm values applied element-wise |
 
 ## Configurations
 

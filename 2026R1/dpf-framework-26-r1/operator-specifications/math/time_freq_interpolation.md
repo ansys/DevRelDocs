@@ -27,7 +27,7 @@ Interpolates between all the matching fields of a fields container at given time
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | FieldsContainer with interpolated fields at specified time/frequency values |
 
 ## Configurations
 

@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-13).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-14).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -26,7 +26,7 @@ The following table shows which components have updates in each category.
 | grpc | [1 item](#Features_grpc) |[2 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[2 items](#Fixes_h5dpf) |
-| hdf5 | [5 items](#Features_hdf5) | |
+| hdf5 | [6 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
@@ -36,6 +36,7 @@ The following table shows which components have updates in each category.
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[1 item](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
+| name |  |[1 item](#Fixes_name) |
 | native |  |[3 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
@@ -413,6 +414,11 @@ The following table shows which components have updates in each category.
   > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
+
+- Very quick implementation of h5dpf list operator:
+  > 
+  >
+  > 
 
 - Link Tfields And Change Labels Layout:
   > 
@@ -1123,6 +1129,16 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## name
+
+### <a id="Fixes_name"></a> Fixes
+
+- Fix name of PL2:
+  > Fix name of PL2
+  >
+  > 
+  >
+  > 
 ## native
 
 ### <a id="Fixes_native"></a> Fixes
@@ -1392,9 +1408,6 @@ The following table shows which components have updates in each category.
 
 #### result
 
-- [PL2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/PL2.md):
-  > Read/compute PL2 by calling the readers defined by the datasources.
-
 - [acoustic_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/acoustic_energy_density.md):
   > Read/compute AED by calling the readers defined by the datasources.
 
@@ -1585,6 +1598,9 @@ The following table shows which components have updates in each category.
 - [output_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/output_sound_power.md):
   > Read/compute POUT by calling the readers defined by the datasources.
 
+- [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/squared_l2norm_pressure.md):
+  > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
+
 
 #### serialization
 
@@ -1620,6 +1636,14 @@ The following table shows which components have updates in each category.
 - [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation_psd.md)
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
+
+
+
+#### filter
+
+- [abc_weightings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/filter/abc_weightings.md)
+
+  > 0.0.1: Fixed bug in frequency calculation with multiple rpms in the support.
 
 
 

@@ -22,7 +22,7 @@ Returns the input field or fields container.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Forwarded field (passthrough of input) |
 
 ## Configurations
 
