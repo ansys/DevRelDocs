@@ -23,7 +23,7 @@ Computes a general notion of inner product between two fields of possibly differ
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Field containing the generalized inner product result |
 
 ## Configurations
 

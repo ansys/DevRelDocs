@@ -16,7 +16,7 @@ Computes ABC-weightings for the amplitude spectrum in dB units.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | data to be weighted in dB units. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | data to be weighted in dB units equipped with cumulative ids in the scoping. |
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  weighting_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | if this pin is set to 0, the A-weighting is computed, 1 the B-weigting is computed and 2 the C-weightings is computed. |
 | <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  shape_by_tf_scoping |[`bool`](../../core-concepts/dpf-types.md#standard-types) | if this pin is set to true, each field of the input fields container is defined by time freq scoping and not by ids. Default is false |
 

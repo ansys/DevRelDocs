@@ -1394,6 +1394,8 @@
       href: operator-specifications/result/specific_heat.md
     - name: spectrum data
       href: operator-specifications/result/spectrum_data.md
+    - name: squared l2norm pressure
+      href: operator-specifications/result/squared_l2norm_pressure.md
     - name: state variable
       href: operator-specifications/result/state_variable.md
     - name: static pressure
