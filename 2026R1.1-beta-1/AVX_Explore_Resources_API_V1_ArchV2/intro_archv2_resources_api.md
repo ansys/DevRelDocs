@@ -160,13 +160,13 @@ Set a limit to the following parameter:
 
 See below screenshot as an example:
 
-![Alt text](./screen-1.png)
+![Alt text](/sites/default/files/2025-10/screen-1.png)
 
 Note: The resource manager allocates the job that has the requested amount of workers or less. 
 
 In the example below, only 3 workers are available, so the job that requires 4 workers, appears as 'pending'
 
-![Alt text](./screen-2.png)
+![Alt text](/sites/default/files/2025-10/screen-2.png)
 
 ## Download concrete scenario files
 
@@ -243,7 +243,7 @@ https://explore.{{ domain }}/api/resources/v1/queues endpoint
 
 2. Click **Execute**. A Queue ID will be generated.
 
-![Alt text](./create-queue-1.png)
+![Alt text](/sites/default/files/2025-10/create-queue-1.png)
 
 
 Update the queue to add the following attributes in the request body
@@ -279,9 +279,9 @@ To get this, click **Execute** on the GET/Applications command (below) on the Re
 https://explore.{{ domain }}/api/resources/v1/applications
 ```
 
-![Alt text](./app-id-1.png)
+![Alt text](/sites/default/files/2025-10/app-id-1.png)
 
-![Alt text](./app-id-2.png)
+![Alt text](/sites/default/files/2025-10/app-id-2.png)
 
 Now map the above generated **Queue ID** with the **Application ID** for the app-runtime-config by making a POST call.
 
@@ -290,6 +290,6 @@ POST https://explore.{{ domain }}/api/resources/v1/app-runtime-config/{queue_id}
 ```
 You must specify the image path and working directory in the request body
 
-![Alt text](./create-queue-2.png)
+![Alt text](/sites/default/files/2025-10/create-queue-2.png)
 
 Once the queue is created and configured it will be available to select in the Explore & Analyze simulation job configuration template. 
