@@ -225,11 +225,11 @@ The output should be the following: Copy and save the generated token so that yo
 
 3. Click **Authorize**
 
-![Alt text](./swagger_authentication_01.jpg)
+![Alt text](/sites/default/files/2025-10/swagger_authentication_01.jpg)
 
 4. Enter Bearer in the Value field, with a space at the end. Then, insert the access token. Click Authorize once again.
 
-![Alt text](./swagger_authentication_02.jpg)
+![Alt text](/sites/default/files/2025-10/swagger_authentication_02.jpg)
 
 ## Creating and Configuring Queues
 The following steps explain how to add or update an existing queue through the Resource Manager REST API that will appear in the Explore web app to be selected during the simulation job configuration. 
