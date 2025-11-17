@@ -12,6 +12,13 @@ license: None
 
 Read the cyclic support (DPF entity containing necessary information for expansions) and expands the mesh.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+- mapdl: rst, rth 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

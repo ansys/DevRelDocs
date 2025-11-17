@@ -12,6 +12,12 @@ license: None
 
 Read spectral data from the result files contained in the streams or data sources.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: mode, prs 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
