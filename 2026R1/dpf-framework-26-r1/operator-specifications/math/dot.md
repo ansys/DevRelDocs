@@ -23,7 +23,7 @@ DEPRECATED, PLEASE USE GENERALIZED INNER PRODUCT. Computes element - wise dot pr
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Scalar field containing the dot product values between corresponding vectors |
 
 ## Configurations
 
