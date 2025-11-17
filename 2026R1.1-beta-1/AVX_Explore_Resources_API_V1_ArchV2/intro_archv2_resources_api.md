@@ -236,7 +236,7 @@ The following steps explain how to add or update an existing queue through the R
 
 To create a queue you need to make a POST request to:
 ```bash
-https://explore.{{ environment }}.{{ domain }}/api/resources/v1/queues endpoint
+https://explore.{{ domain }}/api/resources/v1/queues endpoint
 ```
 
 1. Edit the Request body and click **Try it out**. 
@@ -246,32 +246,15 @@ https://explore.{{ environment }}.{{ domain }}/api/resources/v1/queues endpoint
 ![Alt text](./create-queue-1.png)
 
 
-You will find an JSON example below: 
+Update the queue to add the following attributes in the request body
+
+
 ```bash
 {
     "name": "test-node-selector-queue",
-    "description": "Test queue for node selector functionality",
-    "plugin": "kubernetes_apisix",
-    "working_dir": "/tmp",
-    "default_resources": {
-      "cpu": 2,
-      "memory_gb": 4
-    },
-    "maximum_resources": {
-      "cpu": 4,
-      "memory_gb": 8
-    },
-    "maximum_allowed_worker_instances": 5,
-    "maximum_allowed_resources": {
-      "cpu": 8,
-      "memory_gb": 16
-    },
+    "description": "Test queue for node selector functionality", 
     "attributes": {
-      "namespace": "avx-autonomy",
-      "copy_files_to_job_folder": false,
-      "mount": {
-        "pvc-frisbee-data": "/pvc-frisbee-data"
-      },
+      
       "node_selector": {
         "node-group-reservation": "my-special-group"
       },
@@ -282,25 +265,10 @@ You will find an JSON example below:
           "value": "my-special-group",
           "effect": "NoSchedule"
         }
-      ]
+      ],
+	  ...
     },
-    "storages": [],
-    "env": {
-      "ANSYS_LICENSING_WEB": "0",
-      "ANSYS_LICENSING_SHARED_WEB": "0",
-      "ANSYS_LICENSING_SERVICE_PRIORITY": "fnp",
-      "ANSYSLI_TIMEOUT_FLEXLM": "60",
-      "ANSYSLI_FLEXLM_TIMEOUT_ENV": "6000000",
-      "AVX_LOGGING_LOGS_FILE": "logs.txt",
-      "AVX_TELEMETRY_ENABLE": "false",
-      "ANSYSLMD_LICENSE_FILE": "1234@ansys-license-server.ansys-license-server.svc.cluster.local",
-      "OPENTELEMETRY_LOGGING_LEVEL": "INFO",
-      "AVX_STARTUP_STORAGES": "[\n  {\n    \"id\": \"jobs\",\n    \"plugin\": \"local\",\n    \"config\": {\n      \"root\": \"/pvc-frisbee-data/jobs\"\n    },\n    \"read_only\": false\n  },\n  {\n    \"id\": \"assets\",\n    \"plugin\": \"local\",\n    \"config\": {\n      \"root\": \"/pvc-frisbee-data/assets\"\n    },\n    \"read_only\": true\n  },\n  {\n    \"id\": \"http\",\n    \"plugin\": \"http\",\n    \"config\": {},\n    \"read_only\": true\n  }\n]\n",
-      "AVX_SIMULATION_CONTROLLER_EXPLORE_SERVICE_STATE_URL": "http://explore-service-svc-api:5000/api/explore/v1/internal/job-state",
-      "AVX_SIMULATION_CONTROLLER_STORAGES": "[\n  {\n    \"id\": \"jobs\",\n    \"plugin\": \"local\",\n    \"config\": {\n      \"root\": \"/pvc-frisbee-data/jobs\"\n    },\n    \"read_only\": false\n  },\n  {\n    \"id\": \"assets\",\n    \"plugin\": \"local\",\n    \"config\": {\n      \"root\": \"/pvc-frisbee-data/assets\"\n    },\n    \"read_only\": true\n  },\n  {\n    \"id\": \"http\",\n    \"plugin\": \"http\",\n    \"config\": {},\n    \"read_only\": true\n  }\n]\n",
-      "AVX_SIMULATION_CONTROLLER_RESOURCE_MANAGER_URL": "http://resource-manager-service-svc-api:5000/api/resources",
-      "AVX_FASTAPI_LICENSE_SERVICE_URL": "http://licensing-service:12588"
-    }
+    ...
   }
 ```
 
@@ -308,7 +276,7 @@ You need to get the Application ID on which you want to run the job.
 
 To get this, click **Execute** on the GET/Applications command (below) on the Resource REST API:
 ```bash
-https://explore.{{ environment }}.{{ domain }}/api/resources/v1/applications
+https://explore.{{ domain }}/api/resources/v1/applications
 ```
 
 ![Alt text](./app-id-1.png)
@@ -318,25 +286,10 @@ https://explore.{{ environment }}.{{ domain }}/api/resources/v1/applications
 Now map the above generated **Queue ID** with the **Application ID** for the app-runtime-config by making a POST call.
 
 ```bash
-POST https://explore.{{ environment }}.{{ domain }}/api/resources/v1/app-runtime-config/{queue_id}/application/{app_id}
+POST https://explore.{{ domain }}/api/resources/v1/app-runtime-config/{queue_id}/application/{app_id}
 ```
-
-
+You must specify the image path and working directory in the request body
 
 ![Alt text](./create-queue-2.png)
-
-You can find a sample json below which specifies the image path and working directory:
-
-```bash
-{
-  "env": {},
-  "default_resources": null,
-  "attributes": {
-    "image": "905418323743.dkr.ecr.us-east-2.amazonaws.com/avx/exec-simulation-startup:2026R1.1-beta-20251002-2",
-    "working_dir": "/deployment_binaries/data"
-  },
-  "service_port": null
-}
-```
 
 Once the queue is created and configured it will be available to select in the Explore & Analyze simulation job configuration template. 
