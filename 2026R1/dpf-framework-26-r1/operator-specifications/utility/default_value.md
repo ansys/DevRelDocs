@@ -16,7 +16,7 @@ Returns the value from pin 0 if provided, otherwise returns the default value fr
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  primary_value | | Primary value to return if provided. Can be any type |
+| <strong>Pin 0</strong>|  forced_value | | Primary value to return if provided. Can be any type |
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  default_value | | Default value to return if pin 0 is not connected. Must be the same type as pin 0 |
 
 ## Outputs

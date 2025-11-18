@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-14).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-17).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -22,10 +22,10 @@ The following table shows which components have updates in each category.
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
 | femutils |  |[3 items](#Fixes_femutils) |
-| framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[2 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
-| h5dpf | [2 items](#Features_h5dpf) |[2 items](#Fixes_h5dpf) |
+| h5dpf | [2 items](#Features_h5dpf) |[3 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
@@ -42,6 +42,7 @@ The following table shows which components have updates in each category.
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
+| rotation |  |[1 item](#Fixes_rotation) |
 | workflows |  |[1 item](#Fixes_workflows) |
 
 
@@ -331,6 +332,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Fix error message when using a wrong name for workflow input or output:
+  > Improve the error message when a unavailable name is used when connecting a workflow input or requesting a workflow output.
+  >
+  > The error message now mentions both the available workflow inputs and available workflow outputs.
+  >
+  > 
+  >
+  > 
+
 - ErrorAndNorm operator:
   > Fields containers with multiple labels (not only time) are now allowed in ErrorAndNorm ("error_norm_calc") operator.
   >
@@ -398,6 +408,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_h5dpf"></a> Fixes
+
+- Only write support for collections if support is available:
+  >  Only write support for collections if support is available
+  >
+  > 
+  >
+  > 
 
 - Correction of meshes_provider from h5dpf:
   > Correction of meshes_provider from h5dpf to not split mesh.
@@ -1234,6 +1251,16 @@ The following table shows which components have updates in each category.
   >
   > 
 
+## rotation
+
+### <a id="Fixes_rotation"></a> Fixes
+
+- Fix of nested cms rotation with empty angles for harmonic msup:
+  > Fix of nested cms rotation with empty angles for harmonic msup
+  >
+  > 
+  >
+  > 
 ## workflows
 
 ### <a id="Fixes_workflows"></a> Fixes
