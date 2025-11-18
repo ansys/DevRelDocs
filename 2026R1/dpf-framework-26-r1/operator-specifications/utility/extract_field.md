@@ -23,7 +23,7 @@ Extracts the fields at the indices defined in the vector (in 1) from the fields 
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| extracted |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Extracted field(s). Single index produces a field, multiple indices produce a fields container |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Extracted field(s). Single index produces a field, multiple indices produce a fields container |
 
 ## Configurations
 
