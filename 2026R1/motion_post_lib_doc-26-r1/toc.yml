@@ -1,6 +1,6 @@
 - name: Introduction
   href: index.md
-- name: Getting Started
+- name: Getting started
   items:
   - name: Result File Reader using Python language
     href: getting_started_result_file_reader_using_py.md
@@ -32,7 +32,8 @@
   href: troubleshooting.md
 - name: Reference
   href: lib/VM.Operations.Post.Interfaces.md
-  items:  - name: VM
+  items:  
+  - name: VM
     href: lib/VM.md
     items:
     - name: Classes
