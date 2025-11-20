@@ -12,6 +12,17 @@ license: None
 
 Reads the result information, such as available results or unit systems from the results files contained in the streams or data sources.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
+- cgns: cgns 
+- hdf5: h5dpf 
+- lsdyna: binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3ssd, lsda, moddynout 
+- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rth 
+- vtk: vtk 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

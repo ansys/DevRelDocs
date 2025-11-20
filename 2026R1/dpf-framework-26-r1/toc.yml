@@ -806,6 +806,8 @@
       href: operator-specifications/result/accu_eqv_creep_strain.md
     - name: accu eqv plastic strain
       href: operator-specifications/result/accu_eqv_plastic_strain.md
+    - name: acoustic energy density
+      href: operator-specifications/result/acoustic_energy_density.md
     - name: add rigid body motion
       href: operator-specifications/result/add_rigid_body_motion.md
     - name: add rigid body motion fc
@@ -1146,6 +1148,8 @@
       href: operator-specifications/result/incremental_energy.md
     - name: initial coordinates
       href: operator-specifications/result/initial_coordinates.md
+    - name: input sound power
+      href: operator-specifications/result/input_sound_power.md
     - name: interface contact area
       href: operator-specifications/result/interface_contact_area.md
     - name: interface contact force
@@ -1290,6 +1294,8 @@
       href: operator-specifications/result/num_surface_status_changes.md
     - name: omega
       href: operator-specifications/result/omega.md
+    - name: output sound power
+      href: operator-specifications/result/output_sound_power.md
     - name: part added mass
       href: operator-specifications/result/part_added_mass.md
     - name: part eroded internal energy
@@ -1306,6 +1312,8 @@
       href: operator-specifications/result/part_momentum.md
     - name: part rigid body velocity
       href: operator-specifications/result/part_rigid_body_velocity.md
+    - name: PL2
+      href: operator-specifications/result/PL2.md
     - name: plastic state variable
       href: operator-specifications/result/plastic_state_variable.md
     - name: plastic strain
@@ -1386,6 +1394,8 @@
       href: operator-specifications/result/specific_heat.md
     - name: spectrum data
       href: operator-specifications/result/spectrum_data.md
+    - name: squared l2norm pressure
+      href: operator-specifications/result/squared_l2norm_pressure.md
     - name: state variable
       href: operator-specifications/result/state_variable.md
     - name: static pressure

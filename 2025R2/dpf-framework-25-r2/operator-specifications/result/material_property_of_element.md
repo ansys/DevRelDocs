@@ -12,6 +12,12 @@ license: None
 
 Loads the appropriate operator based on the data sources and retrieves material properties.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst, rth 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

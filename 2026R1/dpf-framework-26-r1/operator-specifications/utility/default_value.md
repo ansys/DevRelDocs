@@ -10,20 +10,20 @@ license: None
 
 ## Description
 
-Default return value from input pin 1 to output pin 0 if there is nothing on input pin 0.
+Returns the value from pin 0 if provided, otherwise returns the default value from pin 1. This operator acts as a fallback mechanism for optional inputs.
 
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  forced_value | |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  default_value | |  |
+| <strong>Pin 0</strong>|  forced_value | | Primary value to return if provided. Can be any type |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  default_value | | Default value to return if pin 0 is not connected. Must be the same type as pin 0 |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| output | |  |
+|  **Pin 0**| output | | Returns primary_value if provided, otherwise default_value |
 
 ## Configurations
 

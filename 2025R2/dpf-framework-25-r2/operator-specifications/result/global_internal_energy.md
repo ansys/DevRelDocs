@@ -12,6 +12,13 @@ license: None
 
 Read Global Internal Energy (LSDyna) by calling the readers defined by the datasources.
 
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+- lsdyna: binout, d3plot 
+
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
