@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-18).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-19).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -22,15 +22,15 @@ The following table shows which components have updates in each category.
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
 | femutils |  |[3 items](#Fixes_femutils) |
-| framework | [2 items](#Features_framework) |[3 items](#Fixes_framework) |
-| grpc | [1 item](#Features_grpc) |[2 items](#Fixes_grpc) |
+| framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
+| grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[3 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) | |
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [13 items](#Features_mapdl) |[15 items](#Fixes_mapdl) |
+| mapdl | [13 items](#Features_mapdl) |[16 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) | |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -340,6 +340,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Fix header copy in Field copy:
+  > 
+  >
+  > The Field Header was not deep-copied in a deep-copy operation of the Field, which caused issues when it was modifed downstream. This is now fixed.
+  >
+  > 
+  >
+  > 
+
 - Remove nodal_moment operator:
   > The ``nodal_moment`` operator currently has no plugin implementing it int he standard installation, resulting in user confusion as to what file type is supported. The choice is made to remove it from recorded result operators until an official plugin supports it.
   >
@@ -377,6 +386,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_grpc"></a> Fixes
+
+- Fix non-matching versions of Kernel in DataProcessingCore and Ans.Dpf.GrpcClient:
+  > 
+  >
+  > 
 
 - Remotely copied grpc entities now references original server ip:
   > 
@@ -655,6 +669,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix model title being truncated:
+  > Fix model title being truncated
+  >
+  > 
+  >
+  > 
 
 - Fix crash caused by invalid iterator when reading shell data:
   > 
@@ -2274,3 +2295,5 @@ The following table shows which components have updates in each category.
 #### gasket_deformation_XY
 
 #### gasket_deformation_XZ
+
+#### nodal_moment
