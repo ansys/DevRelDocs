@@ -1,4 +1,5 @@
-#  Class Clearance
+# Class Clearance
+<a id="VM_API_Pre_Clearance"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public class Clearance
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Clearance](VM.API.Pre.Clearance.md)
 
 #### Derived
@@ -45,19 +46,19 @@ public Clearance(ExpressionValueVariable stiffnessCoefficient, ExpressionValueVa
 
 #### Parameters
 
-`stiffnessCoefficient` ExpressionValueVariable
+`stiffnessCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness coefficient.
 
-`exponentOfPenetration` ExpressionValueVariable
+`exponentOfPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The exponent of penetration.
 
-`maxDampingCoefficient` ExpressionValueVariable
+`maxDampingCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The max damping coefficient.
 
-`useDampingEffectInVoid` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useDampingEffectInVoid` bool
 
 The use damping effect in void.
 
@@ -73,7 +74,7 @@ public ExpressionValueVariable ExponentOfPenetration { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_Clearance_MaxDampingCoefficient"></a> MaxDampingCoefficient
 
@@ -85,7 +86,7 @@ public ExpressionValueVariable MaxDampingCoefficient { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_Clearance_StiffnessCoefficient"></a> StiffnessCoefficient
 
@@ -97,7 +98,7 @@ public ExpressionValueVariable StiffnessCoefficient { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_Clearance_UseDampingEffectInVoid"></a> UseDampingEffectInVoid
 
@@ -109,5 +110,5 @@ public bool UseDampingEffectInVoid { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

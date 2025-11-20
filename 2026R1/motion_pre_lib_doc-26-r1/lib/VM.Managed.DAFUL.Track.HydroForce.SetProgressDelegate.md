@@ -1,4 +1,5 @@
-#  Delegate HydroForce.SetProgressDelegate
+# Delegate HydroForce.SetProgressDelegate
+<a id="VM_Managed_DAFUL_Track_HydroForce_SetProgressDelegate"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +12,7 @@ public delegate void HydroForce.SetProgressDelegate(int nValue)
 
 #### Parameters
 
-`nValue` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nValue` int
 
 The progress value
 

@@ -1,4 +1,5 @@
-#  Interface IDocument3D
+# Interface IDocument3D
+<a id="VM_Models_Pre_IDocument3D"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -36,7 +37,7 @@ IEnumerable<string> Categories { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 
 ### <a id="VM_Models_Pre_IDocument3D_Comment"></a> Comment
 
@@ -46,7 +47,7 @@ string Comment { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IDocument3D_IconSize"></a> IconSize
 
@@ -56,7 +57,7 @@ double IconSize { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -68,11 +69,11 @@ string FindCategory(string typeName)
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IDocument3D_GetCategoryChildren_System_String_"></a> GetCategoryChildren\(string\)
 
@@ -82,9 +83,9 @@ IEnumerable<IObjectBase> GetCategoryChildren(string categoryName)
 
 #### Parameters
 
-`categoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`categoryName` string
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IObjectBase](VM.Models.Pre.IObjectBase.md)\>
+ IEnumerable<[IObjectBase](VM.Models.Pre.IObjectBase.md)\>
 

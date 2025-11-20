@@ -1,4 +1,5 @@
-#  Class PlotParametersEx
+# Class PlotParametersEx
+<a id="VM_Models_OutputReader_PlotParametersEx"></a>
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  
@@ -9,7 +10,7 @@ public class PlotParametersEx : PlotParameters
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PlotParameters](VM.Models.OutputReader.PlotParameters.md) ← 
 [PlotParametersEx](VM.Models.OutputReader.PlotParametersEx.md)
 
@@ -44,7 +45,7 @@ public bool Sum { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_OutputReader_PlotParametersEx_Targets"></a> Targets
 
@@ -54,5 +55,5 @@ public IEnumerable<string> Targets { get; set; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 

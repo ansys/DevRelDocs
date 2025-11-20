@@ -1,4 +1,5 @@
-#  Enum SplineData.DataType
+# Enum SplineData.DataType
+<a id="VM_Managed_DAFUL_SplineData_DataType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

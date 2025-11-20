@@ -1,4 +1,5 @@
-#  Class NextStepOperation
+# Class NextStepOperation
+<a id="VM_Managed_DAFUL_Chained_NextStepOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,7 +12,7 @@ public class NextStepOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [NextStepOperation](VM.Managed.DAFUL.Chained.NextStepOperation.md)
 
@@ -115,7 +116,7 @@ public bool ExistEvent { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_NextStepOperation_Name"></a> Name
 
@@ -127,7 +128,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

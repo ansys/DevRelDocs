@@ -1,4 +1,5 @@
-#  Class DurabilityData.ConnectorInfo
+# Class DurabilityData.ConnectorInfo
+<a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -9,7 +10,7 @@ public class DurabilityData.ConnectorInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DurabilityData.ConnectorInfo](VM.Models.Pre.Durability.DurabilityData.ConnectorInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string ConnectorName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_ForceX"></a> ForceX
 
@@ -46,7 +47,7 @@ public SplineValue.TwoPoint[] ForceX
 
 #### Field Value
 
- SplineValue.TwoPoint\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_ForceY"></a> ForceY
 
@@ -56,7 +57,7 @@ public SplineValue.TwoPoint[] ForceY
 
 #### Field Value
 
- SplineValue.TwoPoint\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_ForceZ"></a> ForceZ
 
@@ -66,7 +67,7 @@ public SplineValue.TwoPoint[] ForceZ
 
 #### Field Value
 
- SplineValue.TwoPoint\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_IndexOfCADBody"></a> IndexOfCADBody
 
@@ -76,7 +77,7 @@ public int IndexOfCADBody
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_PIDs"></a> PIDs
 
@@ -86,7 +87,7 @@ public int[] PIDs
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+ int\[\]
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_Position"></a> Position
 
@@ -106,7 +107,7 @@ public string RBEName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_RBEPosition"></a> RBEPosition
 
@@ -126,7 +127,7 @@ public SplineValue.TwoPoint[] TorqueX
 
 #### Field Value
 
- SplineValue.TwoPoint\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_TorqueY"></a> TorqueY
 
@@ -136,7 +137,7 @@ public SplineValue.TwoPoint[] TorqueY
 
 #### Field Value
 
- SplineValue.TwoPoint\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_TorqueZ"></a> TorqueZ
 
@@ -146,7 +147,7 @@ public SplineValue.TwoPoint[] TorqueZ
 
 #### Field Value
 
- SplineValue.TwoPoint\[\]
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[TwoPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\[\]
 
 ### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_UsePID"></a> UsePID
 
@@ -156,5 +157,5 @@ public bool UsePID
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

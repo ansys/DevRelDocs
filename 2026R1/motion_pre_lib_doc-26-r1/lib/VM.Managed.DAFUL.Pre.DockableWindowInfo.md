@@ -1,4 +1,5 @@
-#  Class DockableWindowInfo
+# Class DockableWindowInfo
+<a id="VM_Managed_DAFUL_Pre_DockableWindowInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class DockableWindowInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DockableWindowInfo](VM.Managed.DAFUL.Pre.DockableWindowInfo.md)
 
 #### Derived
@@ -44,7 +45,7 @@ public string Command { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Image"></a> Image
 
@@ -56,7 +57,7 @@ public string Image { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Name"></a> Name
 
@@ -68,7 +69,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Text"></a> Text
 
@@ -80,7 +81,7 @@ public string Text { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Toolbar"></a> Toolbar
 
@@ -92,7 +93,7 @@ public string Toolbar { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Type"></a> Type
 
@@ -104,5 +105,5 @@ public string Type { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

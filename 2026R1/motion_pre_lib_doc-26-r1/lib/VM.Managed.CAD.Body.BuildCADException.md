@@ -1,4 +1,5 @@
-#  Class Body.BuildCADException
+# Class Body.BuildCADException
+<a id="VM_Managed_CAD_Body_BuildCADException"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class Body.BuildCADException : DFException
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [DFException](VM.Managed.DFException.md) ← 
 [Body.BuildCADException](VM.Managed.CAD.Body.BuildCADException.md)
 
@@ -34,7 +35,7 @@ public BuildCADException(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The exception message.
 
@@ -48,7 +49,7 @@ public BuildCADException(Type obType)
 
 #### Parameters
 
-`obType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`obType` Type
 
 The exception type.
 
@@ -62,11 +63,11 @@ public BuildCADException(Type obType, Exception inner)
 
 #### Parameters
 
-`obType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`obType` Type
 
 The exception type.
 
-`inner` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`inner` Exception
 
 The inner exception.
 

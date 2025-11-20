@@ -1,4 +1,5 @@
-#  Interface IHandledDocument
+# Interface IHandledDocument
+<a id="VM_Models_Pre_IHandledDocument"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -34,5 +35,5 @@ UIntPtr Handle { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 

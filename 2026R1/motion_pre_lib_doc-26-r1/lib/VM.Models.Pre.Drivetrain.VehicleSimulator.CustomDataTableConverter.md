@@ -1,4 +1,5 @@
-#  Class CustomDataTableConverter
+# Class CustomDataTableConverter
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class CustomDataTableConverter : JsonConverter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 JsonConverter ← 
 [CustomDataTableConverter](VM.Models.Pre.Drivetrain.VehicleSimulator.CustomDataTableConverter.md)
 
@@ -39,27 +40,19 @@ public CustomDataTableConverter()
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter_CanConvert_System_Type_"></a> CanConvert\(Type\)
 
-Determines whether this instance can convert the specified object type.
-
 ```csharp
 public override bool CanConvert(Type objectType)
 ```
 
 #### Parameters
 
-`objectType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
-
-Type of the object.
+`objectType` Type
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-<code>true</code> if this instance can convert the specified object type; otherwise, <code>false</code>.
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter_ReadJson_Newtonsoft_Json_JsonReader_System_Type_System_Object_Newtonsoft_Json_JsonSerializer_"></a> ReadJson\(JsonReader, Type, object, JsonSerializer\)
-
-Reads the JSON representation of the object.
 
 ```csharp
 public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
@@ -69,29 +62,17 @@ public override object ReadJson(JsonReader reader, Type objectType, object exist
 
 `reader` JsonReader
 
-The <xref href="Newtonsoft.Json.JsonReader" data-throw-if-not-resolved="false"></xref> to read from.
+`objectType` Type
 
-`objectType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
-
-Type of the object.
-
-`existingValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
-
-The existing value of object being read.
+`existingValue` object
 
 `serializer` JsonSerializer
 
-The calling serializer.
-
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
-
-The object value.
+ object
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter_WriteJson_Newtonsoft_Json_JsonWriter_System_Object_Newtonsoft_Json_JsonSerializer_"></a> WriteJson\(JsonWriter, object, JsonSerializer\)
-
-Writes the JSON representation of the object.
 
 ```csharp
 public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
@@ -101,13 +82,7 @@ public override void WriteJson(JsonWriter writer, object value, JsonSerializer s
 
 `writer` JsonWriter
 
-The <xref href="Newtonsoft.Json.JsonWriter" data-throw-if-not-resolved="false"></xref> to write to.
-
-`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
-
-The value.
+`value` object
 
 `serializer` JsonSerializer
-
-The calling serializer.
 

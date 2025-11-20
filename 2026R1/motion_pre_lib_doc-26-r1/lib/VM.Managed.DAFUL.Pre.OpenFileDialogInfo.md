@@ -1,4 +1,5 @@
-#  Class OpenFileDialogInfo
+# Class OpenFileDialogInfo
+<a id="VM_Managed_DAFUL_Pre_OpenFileDialogInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class OpenFileDialogInfo : FileDialogInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FileDialogInfo](VM.Managed.DAFUL.Pre.FileDialogInfo.md) ← 
 [OpenFileDialogInfo](VM.Managed.DAFUL.Pre.OpenFileDialogInfo.md)
 

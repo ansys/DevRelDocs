@@ -1,4 +1,5 @@
-#  Delegate RoadFile.RoadMessageCalllback
+# Delegate RoadFile.RoadMessageCalllback
+<a id="VM_Models_Road_RoadFile_RoadMessageCalllback"></a>
 
 Namespace: [VM.Models.Road](VM.Models.Road.md)  
 Assembly: VM.Models.Road.dll  
@@ -11,11 +12,11 @@ public delegate int RoadFile.RoadMessageCalllback(MessageSeverity level, string 
 
 `level` [MessageSeverity](VM.Models.Road.MessageSeverity.md)
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Extension Methods
 

@@ -1,4 +1,5 @@
-#  Class NodeSetAPI
+# Class NodeSetAPI
+<a id="VM_API_Pre_FE_NodeSetAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class NodeSetAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NodeSetAPI](VM.API.Pre.FE.NodeSetAPI.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public static Obj AddDesignPoint(this Obj mesh, Vector position)
 
 #### Parameters
 
-`mesh` Obj
+`mesh` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The mesh.
 
@@ -44,17 +45,17 @@ The position to add design point..
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'mesh' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'mesh' is not <xref href="VM.Managed.DAFUL.FE.Mesh" data-throw-if-not-resolved="false"></xref>.
 
@@ -73,11 +74,11 @@ public static Obj CreateNodeset(this MeshDocument document, IEnumerable<uint> no
 
 The document to create node set.
 
-`nodeIndexes` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+`nodeIndexes` IEnumerable<uint\>
 
 The node indexes.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name to be cteated node set.
 
@@ -85,7 +86,7 @@ The name to be cteated node set.
 
 The rbe type to be cteated node set. The default value is RBE2.
 
-`treatRBE` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`treatRBE` bool
 
 The flag for using like treat. The default value is false.
 
@@ -93,27 +94,27 @@ The flag for using like treat. The default value is false.
 
 The master node position to be cteated node set. The default value is 0,0,0.
 
-`useStaticCorrectionMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useStaticCorrectionMode` bool
 
 The flag for static correction mode. The default value is false.
 
-`imposeRotationalUnitDisplacement` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`imposeRotationalUnitDisplacement` bool
 
 The flag for impose rotational unit displacement. The default value is false.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color to be cteated node set. The default value is LightGreen
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.FE.SetNode" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'nodeIndexes' arguments are empty.
 

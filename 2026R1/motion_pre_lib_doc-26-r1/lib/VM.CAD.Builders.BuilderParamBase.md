@@ -1,4 +1,5 @@
-#  Class BuilderParamBase
+# Class BuilderParamBase
+<a id="VM_CAD_Builders_BuilderParamBase"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public abstract class BuilderParamBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md)
 
 #### Derived
@@ -73,7 +74,7 @@ public string TypeName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -103,7 +104,7 @@ public virtual string ToXmlString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The builder parameter xml string.
 

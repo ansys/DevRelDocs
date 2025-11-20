@@ -1,4 +1,5 @@
-#  Class SimulationDataSet
+# Class SimulationDataSet
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,9 +10,9 @@ public sealed class SimulationDataSet : ItemsContainerModelBase<Flow>, IObservab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ValidatableBase ← 
+[ValidatableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs) ← 
 [ItemsContainerModelBase<Flow\>](VM.Models.Pre.Drivetrain.VehicleSimulator.ItemsContainerModelBase\-1.md) ← 
 [SimulationDataSet](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSet.md)
 
@@ -32,17 +33,17 @@ IValidatable
 [ItemsContainerModelBase<Flow\>.ItemsCount](VM.Models.Pre.Drivetrain.VehicleSimulator.ItemsContainerModelBase\-1.md\#VM\_Models\_Pre\_Drivetrain\_VehicleSimulator\_ItemsContainerModelBase\_1\_ItemsCount), 
 [ItemsContainerModelBase<Flow\>.ObservableItems](VM.Models.Pre.Drivetrain.VehicleSimulator.ItemsContainerModelBase\-1.md\#VM\_Models\_Pre\_Drivetrain\_VehicleSimulator\_ItemsContainerModelBase\_1\_ObservableItems), 
 [ItemsContainerModelBase<Flow\>.this\[int\]](VM.Models.Pre.Drivetrain.VehicleSimulator.ItemsContainerModelBase\-1.md\#VM\_Models\_Pre\_Drivetrain\_VehicleSimulator\_ItemsContainerModelBase\_1\_Item\_System\_Int32\_), 
-ValidatableBase.RaisePropertyChanged\(string\), 
-ValidatableBase.SuspendValidate\(\), 
-ValidatableBase.Validate\(\), 
-ValidatableBase.Validate\(ValidationContext\), 
-ValidatableBase.CanValidate, 
-ValidatableBase.Errors, 
-ValidatableBase.HasValidationAttribute, 
-ValidatableBase.HasValidator, 
-ValidatableBase.IsValid, 
-ValidatableBase.ValidateTrigger, 
-ValidatableBase.ErrorsChanged, 
+[ValidatableBase.RaisePropertyChanged\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.SuspendValidate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(ValidationContext\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.CanValidate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Errors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidator](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ValidateTrigger](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ErrorsChanged](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -89,7 +90,7 @@ public string DocumentPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_DrivingScenario"></a> DrivingScenario
 
@@ -120,7 +121,7 @@ public bool IsAllValid { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_IsValid"></a> IsValid
 
@@ -130,7 +131,7 @@ public override bool IsValid { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_ResultPath"></a> ResultPath
 
@@ -140,7 +141,7 @@ public string ResultPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_Transmission"></a> Transmission
 
@@ -172,7 +173,7 @@ public int GetFlowCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_GetFlows"></a> GetFlows\(\)
 
@@ -182,7 +183,7 @@ public IEnumerable<Flow> GetFlows()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Flow](VM.Models.Pre.Drivetrain.VehicleSimulator.Flow.md)\>
+ IEnumerable<[Flow](VM.Models.Pre.Drivetrain.VehicleSimulator.Flow.md)\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_LoadFromFile_System_String_"></a> LoadFromFile\(string\)
 
@@ -192,7 +193,7 @@ public static SimulationDataSet LoadFromFile(string path)
 
 #### Parameters
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 #### Returns
 
@@ -206,7 +207,7 @@ public static SimulationDataSet LoadFromJSON(string json)
 
 #### Parameters
 
-`json` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`json` string
 
 #### Returns
 

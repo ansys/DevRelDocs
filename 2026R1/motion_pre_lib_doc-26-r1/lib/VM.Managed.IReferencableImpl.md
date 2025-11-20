@@ -1,4 +1,5 @@
-#  Class IReferencableImpl
+# Class IReferencableImpl
+<a id="VM_Managed_IReferencableImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class IReferencableImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IReferencableImpl](VM.Managed.IReferencableImpl.md)
 
 #### Extension Methods
@@ -46,7 +47,7 @@ public static void Instantiate(ObjectBase referencable, Reference reference, Can
 
 The reference.
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 

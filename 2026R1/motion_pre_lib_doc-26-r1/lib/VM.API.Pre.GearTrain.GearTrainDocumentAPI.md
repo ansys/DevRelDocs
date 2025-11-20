@@ -1,4 +1,5 @@
-#  Class GearTrainDocumentAPI
+# Class GearTrainDocumentAPI
+<a id="VM_API_Pre_GearTrain_GearTrainDocumentAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class GearTrainDocumentAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearTrainDocumentAPI](VM.API.Pre.GearTrain.GearTrainDocumentAPI.md)
 
 #### Extension Methods
@@ -32,11 +33,11 @@ public static GearTrainDocument CreateNewGearTrainDocument(string newGearTrainFi
 
 #### Parameters
 
-`newGearTrainFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newGearTrainFilePath` string
 
 The file path of new gear train subsystem.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Subsystem.
 
@@ -48,11 +49,11 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
-`advancedMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`advancedMode` bool
 
 The flag whether using advanced mode.
 
@@ -60,7 +61,7 @@ The flag whether using advanced mode.
 
 The symetric plane.
 
-`useSymmetric` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useSymmetric` bool
 
 The flag whether using symmetric.
 
@@ -68,27 +69,27 @@ The flag whether using symmetric.
 
 The length unit of kernel.
 
-`shaftDirectionX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`shaftDirectionX` double
 
 The x direction of shaft.
 
-`shaftDirectionY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`shaftDirectionY` double
 
 The y direction of shaft.
 
-`shaftDirectionZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`shaftDirectionZ` double
 
 The z direction of shaft.
 
 #### Returns
 
- GearTrainDocument
+ [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The new DocumentChainedPath object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
 

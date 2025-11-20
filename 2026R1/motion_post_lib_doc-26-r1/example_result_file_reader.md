@@ -13,19 +13,20 @@ The Coordinate system can be created from various entities in the result as belo
 import sys
 from pathlib import Path
 
+# Get the current file's path and set the path for external modules.
 current_dir = Path(__file__).resolve().parent
-
 external_modules_path = Path(current_dir, r'../../Modules').resolve()
 sys.path.append('{0}'.format(external_modules_path))
 
+# Import necessary modules
 from ResultFileReaderAPI import *
 
 # Import result file
 outputReader = OutputReader(get_result_file_path())
 
-# newName - Specifies the name of the marker.
-# parentFullName - Specifies the name of parent.
-# Rigid Body
+# Create a Coordinate System
+# Name - Set the name of instance.
+# ParentInfo - Specifies The path of an parent entity.
 crank_csys = outputReader.CreateCoordinateSystem("Crank_CSYS", "Crank")
 crank_csys.TransformationOffsetParameters.Angle = Vector(0, 10, 0)
 crank_csys.TransformationOffsetParameters.Position = Vector(10, 10, 10)
@@ -55,11 +56,15 @@ elif crank_csys.GeneralMarkerType == GeneralMarkerType.CYLINDRICAL:
 # Rigid Body
 print (f"Marker Name : {crank_csys.FullName}")
 
-# FE Node
+# Create a Coordinate System
+# Name - Set the name of instance.
+# ParentInfo - Specifies The path of an parent entity.
 fenode_csys = outputReader.CreateCoordinateSystem("NodeCSYS", "FEBody_01/Node/754")
 print (f"Marker Name : {fenode_csys.FullName}")
 
-# Marker
+# Create a Coordinate System
+# Name - Set the name of instance.
+# ParentInfo - Specifies The path of an parent entity.
 marker_csys = outputReader.CreateCoordinateSystem("MarkerCSYS", "Crank/CM")
 print (f"Marker Name : {marker_csys.FullName}")
 
@@ -79,26 +84,46 @@ It is the simplest example of a Python script to print plot data.
 import sys
 from pathlib import Path
 
+# Get the current file's path and set the path for external modules.
 current_dir = Path(__file__).resolve().parent
-
 external_modules_path = Path(current_dir, r'../../Modules').resolve()
 sys.path.append('{0}'.format(external_modules_path))
 
+# Import necessary modules
 from ResultFileReaderAPI import *
 
 # Import result file
+# Create an OutputReader instance to read the result file.
 outputReader = OutputReader(get_result_file_path())
 
-# Get Curves
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 paths = List[str]() 
 paths.Add("Acceleration/Y")
 
+# Create a PlotParameters object to specify the parameters for the plot.
 plotParameter = PlotParameters()
+
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
 plotParameter.Target = "Crank"
+
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 plotParameter.Paths = paths
 
+# There are two ways to retrieve the results of the curve:
+# 1. PlotDataType.DEFAULT - Uses the default PlotDataType setting.
+# 2. PlotDataType.PlotResult - If a Plt result exists, you can set PlotResult and obtain the result from Plt.
+# If PlotDataType is not set, it is set to Default by default.
+plotParameter.PlotDataType = PlotDataType.DEFAULT
+
+# Get curve data from the result.
 results = outputReader.GetCurves(plotParameter)
 
+# Print the results in a formatted way.
 for result in results :
     print(['Time\t', "Y", '\n'])
     for plotData in result.Value :
@@ -118,11 +143,12 @@ Export contour results to a file
 import struct, os, sys
 from pathlib import Path
 
+# Get the current file's path and set the path for external modules.
 current_dir = Path(__file__).resolve().parent
-
 external_modules_path = Path(current_dir, r'../../Modules').resolve()
 sys.path.append('{0}'.format(external_modules_path))
 
+# Import necessary modules
 from ResultFileReaderAPI import *
 
 # Import result file
@@ -181,11 +207,12 @@ Export vector results to a file
 import os, sys
 from pathlib import Path
 
+# Get the current file's path and set the path for external modules.
 current_dir = Path(__file__).resolve().parent
-
 external_modules_path = Path(current_dir, r'../../Modules').resolve()
 sys.path.append('{0}'.format(external_modules_path))
 
+# Import necessary modules
 from ResultFileReaderAPI import *
 
 # Import result file
@@ -224,11 +251,12 @@ Get results from the Vector.
 import sys
 from pathlib import Path
 
+# Get the current file's path and set the path for external modules.
 current_dir = Path(__file__).resolve().parent
-
 external_modules_path = Path(current_dir, r'../../Modules').resolve()
 sys.path.append('{0}'.format(external_modules_path))
 
+# Import necessary modules
 from ResultFileReaderAPI import *
 
 # Import result file

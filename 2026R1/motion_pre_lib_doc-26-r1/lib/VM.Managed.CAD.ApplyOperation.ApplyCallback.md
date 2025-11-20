@@ -1,4 +1,5 @@
-#  Delegate ApplyOperation.ApplyCallback
+# Delegate ApplyOperation.ApplyCallback
+<a id="VM_Managed_CAD_ApplyOperation_ApplyCallback"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public delegate bool ApplyOperation.ApplyCallback()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

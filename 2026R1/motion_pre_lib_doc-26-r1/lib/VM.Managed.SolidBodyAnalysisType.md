@@ -1,4 +1,5 @@
-#  Enum SolidBodyAnalysisType
+# Enum SolidBodyAnalysisType
+<a id="VM_Managed_SolidBodyAnalysisType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

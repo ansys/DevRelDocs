@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Resource
+# Namespace VM.Managed.Resource
+<a id="VM_Managed_Resource"></a>
 
 ### Classes
 

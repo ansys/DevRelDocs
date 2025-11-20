@@ -1,4 +1,5 @@
-#  Class CreateCLoad
+# Class CreateCLoad
+<a id="VM_API_Pre_FE_CreateCLoad"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VMOpMesh.dll  
@@ -9,7 +10,7 @@ public static class CreateCLoad
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateCLoad](VM.API.Pre.FE.CreateCLoad.md)
 
 #### Extension Methods
@@ -28,9 +29,9 @@ public static CLoad CreateCLoadSimple(this SubSystemDocument docToAdd, string st
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `CLoadComponent` ICLoadComponent
 
@@ -46,25 +47,25 @@ public static CLoad CreateCLoadWithFunction(this SubSystemDocument docToAdd, str
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `CLoadComponent` ICLoadComponent
 
 `directionType` CLoadStandard.DirectionType
 
-`functionFX` Function
+`functionFX` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`functionFY` Function
+`functionFY` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`functionFZ` Function
+`functionFZ` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`functionTX` Function
+`functionTX` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`functionTY` Function
+`functionTY` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
-`functionTZ` Function
+`functionTZ` [Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Function.cs)
 
 #### Returns
 
@@ -78,13 +79,13 @@ public static CLoad CreateCLoadWithUserSubroutine(this SubSystemDocument docToAd
 
 #### Parameters
 
-`docToAdd` SubSystemDocument
+`docToAdd` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `CLoadComponent` ICLoadComponent
 
-`usub` UserSubroutine
+`usub` [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
 #### Returns
 

@@ -1,4 +1,5 @@
-#  Class AngularContactBall
+# Class AngularContactBall
+<a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class AngularContactBall : DBRecordForBearing
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Record ← 
-DBRecord ← 
+object ← 
+[Record](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
+[DBRecord](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
 [DBRecordForBearing](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md) ← 
 [AngularContactBall](VM.Managed.DAFUL.GearTrain.BearingDB.AngularContactBall.md)
 
@@ -26,7 +27,7 @@ DBRecord ←
 [DBRecordForBearing.Bore](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Bore), 
 [DBRecordForBearing.OutDia](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_OutDia), 
 [DBRecordForBearing.Width](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md\#VM\_Managed\_DAFUL\_GearTrain\_BearingDB\_DBRecordForBearing\_Width), 
-Record.RecordNo
+[Record.RecordNo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs)
 
 #### Extension Methods
 
@@ -55,7 +56,7 @@ public double? ActionP
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_BallDia"></a> BallDia
 
@@ -68,7 +69,7 @@ public double? BallDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_BallPDia"></a> BallPDia
 
@@ -81,7 +82,7 @@ public double? BallPDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_C0r"></a> C0r
 
@@ -94,7 +95,7 @@ public double? C0r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_Cr"></a> Cr
 
@@ -107,7 +108,7 @@ public double? Cr
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_IRSDia"></a> IRSDia
 
@@ -120,7 +121,7 @@ public double? IRSDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_IRSDia2"></a> IRSDia2
 
@@ -133,7 +134,7 @@ public double? IRSDia2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_Mass"></a> Mass
 
@@ -146,7 +147,7 @@ public double? Mass
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_ORSBore"></a> ORSBore
 
@@ -159,7 +160,7 @@ public double? ORSBore
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_ORSBore2"></a> ORSBore2
 
@@ -172,7 +173,7 @@ public double? ORSBore2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_RoundR"></a> RoundR
 
@@ -185,7 +186,7 @@ public double? RoundR
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_f0"></a> f0
 
@@ -198,7 +199,7 @@ public double? f0
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_nBall"></a> nBall
 
@@ -211,7 +212,7 @@ public int? nBall
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_ra"></a> ra
 
@@ -224,7 +225,7 @@ public double? ra
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ## Methods
 
@@ -280,15 +281,15 @@ public void UnitConvert(ref AngularContactBall br, double dLengthFactor, double 
 
 The target bearing.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
-`dForceFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dForceFactor` double
 
 The force factor.
 
-`dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMassFactor` double
 
 The mass factor.
 

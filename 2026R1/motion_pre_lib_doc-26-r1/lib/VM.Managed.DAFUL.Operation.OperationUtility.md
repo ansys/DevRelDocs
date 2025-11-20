@@ -1,4 +1,5 @@
-#  Class OperationUtility
+# Class OperationUtility
+<a id="VM_Managed_DAFUL_Operation_OperationUtility"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class OperationUtility
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationUtility](VM.Managed.DAFUL.Operation.OperationUtility.md)
 
 #### Extension Methods
@@ -40,5 +41,5 @@ public static string CreateDirectoryInTemporaryPath()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

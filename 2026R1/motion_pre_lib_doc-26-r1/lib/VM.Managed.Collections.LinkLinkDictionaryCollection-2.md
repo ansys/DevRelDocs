@@ -1,4 +1,5 @@
-#  Class LinkLinkDictionaryCollection<T, TValue\>
+# Class LinkLinkDictionaryCollection<T, TValue\>
+<a id="VM_Managed_Collections_LinkLinkDictionaryCollection_2"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -15,9 +16,9 @@ public class LinkLinkDictionaryCollection<T, TValue> : LinkDictionaryCollectionB
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [LinkDictionaryCollectionBase<T, TValue, Link<TValue, ObjectBase.Update, ObjectBase.None, ObjectBase.None\>, LinkDictionaryValueLinkConverter<TValue\>\>](VM.Managed.Collections.LinkDictionaryCollectionBase\-4.md) ← 
 [LinkLinkDictionaryCollection<T, TValue\>](VM.Managed.Collections.LinkLinkDictionaryCollection\-2.md)
@@ -100,7 +101,7 @@ IPostDeserialized
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -135,7 +136,7 @@ protected LinkLinkDictionaryCollection(SerializationInfo info, StreamingContext 
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 

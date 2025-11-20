@@ -1,4 +1,5 @@
-#  Class GearPair.Summary
+# Class GearPair.Summary
+<a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class GearPair.Summary
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearPair.Summary](VM.Managed.DAFUL.GearTrain.GearPair.Summary.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public double CenterDIstance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_CenterDIstanceIdeal"></a> CenterDIstanceIdeal
 
@@ -52,7 +53,7 @@ public double CenterDIstanceIdeal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_LengthOfContact"></a> LengthOfContact
 
@@ -64,7 +65,7 @@ public double LengthOfContact { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_LengthOfContactIdeal"></a> LengthOfContactIdeal
 
@@ -76,7 +77,7 @@ public double LengthOfContactIdeal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_NormalContactRatio"></a> NormalContactRatio
 
@@ -88,7 +89,7 @@ public double NormalContactRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_NormalContactRatioIdeal"></a> NormalContactRatioIdeal
 
@@ -100,7 +101,7 @@ public double NormalContactRatioIdeal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_OverlapContactRatio"></a> OverlapContactRatio
 
@@ -112,7 +113,7 @@ public double OverlapContactRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_OverlapContactRatioIdeal"></a> OverlapContactRatioIdeal
 
@@ -124,7 +125,7 @@ public double OverlapContactRatioIdeal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_ToothSequence"></a> ToothSequence
 
@@ -136,7 +137,7 @@ public int ToothSequence { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WholeContactRatio"></a> WholeContactRatio
 
@@ -148,7 +149,7 @@ public double WholeContactRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WholeContactRatioIdeal"></a> WholeContactRatioIdeal
 
@@ -160,7 +161,7 @@ public double WholeContactRatioIdeal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WorkingPressureAngle"></a> WorkingPressureAngle
 
@@ -172,7 +173,7 @@ public double WorkingPressureAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WorkingPressureAngleIdeal"></a> WorkingPressureAngleIdeal
 
@@ -184,5 +185,5 @@ public double WorkingPressureAngleIdeal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

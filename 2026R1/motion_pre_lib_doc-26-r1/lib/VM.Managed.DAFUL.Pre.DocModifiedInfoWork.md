@@ -1,4 +1,5 @@
-#  Class DocModifiedInfoWork
+# Class DocModifiedInfoWork
+<a id="VM_Managed_DAFUL_Pre_DocModifiedInfoWork"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class DocModifiedInfoWork : DocModifiedInfoFileGroupDocument<Work>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocModifiedInfo](VM.Managed.DAFUL.Pre.DocModifiedInfo.md) ← 
 [DocModifiedInfoFileGroupDocument<Work\>](VM.Managed.DAFUL.Pre.DocModifiedInfoFileGroupDocument\-1.md) ← 
 [DocModifiedInfoWork](VM.Managed.DAFUL.Pre.DocModifiedInfoWork.md)

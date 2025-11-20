@@ -1,4 +1,5 @@
-#  Class Placing
+# Class Placing
+<a id="VM_Managed_DAFUL_Chained_Placing"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,9 +12,9 @@ public class Placing : LinkContainer, IObservableObject, IDisposableObject, ILin
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [Placing](VM.Managed.DAFUL.Chained.Placing.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -154,7 +155,7 @@ public InstanceContainer[] ChainedSegments { get; set; }
 
 #### Property Value
 
- InstanceContainer\[\]
+ [InstanceContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_Placing_ExternContacts"></a> ExternContacts
 
@@ -190,7 +191,7 @@ public bool IsFixNumberOfSegment { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_Placing_NumberOfSegment"></a> NumberOfSegment
 
@@ -202,7 +203,7 @@ public int NumberOfSegment { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Chained_Placing_OpenLoop"></a> OpenLoop
 
@@ -214,7 +215,7 @@ public bool OpenLoop { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_Placing_PlacingAdditionalInfo"></a> PlacingAdditionalInfo
 
@@ -238,7 +239,7 @@ public double PlacingGap { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_Placing_ToolkitType"></a> ToolkitType
 
@@ -262,7 +263,7 @@ public string[] UserDefinedArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -276,7 +277,7 @@ public void Delete_ExternContacts(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 Theexternal contact geometry.
 
@@ -290,7 +291,7 @@ public void Delete_Path(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The path component.
 
@@ -304,7 +305,7 @@ public void Delete_Segment(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The segment component.
 
@@ -318,7 +319,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

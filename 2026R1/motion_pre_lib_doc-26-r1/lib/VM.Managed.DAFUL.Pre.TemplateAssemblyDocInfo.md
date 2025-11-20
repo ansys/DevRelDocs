@@ -1,4 +1,5 @@
-#  Class TemplateAssemblyDocInfo
+# Class TemplateAssemblyDocInfo
+<a id="VM_Managed_DAFUL_Pre_TemplateAssemblyDocInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class TemplateAssemblyDocInfo : AssemblyDocInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md) ← 
 [AssemblyDocInfo](VM.Managed.DAFUL.Pre.AssemblyDocInfo.md) ← 
 [TemplateAssemblyDocInfo](VM.Managed.DAFUL.Pre.TemplateAssemblyDocInfo.md)

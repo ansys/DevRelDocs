@@ -1,4 +1,5 @@
-#  Class IReadableForceMarkerImpl
+# Class IReadableForceMarkerImpl
+<a id="VM_Managed_DAFUL_Force_IReadableForceMarkerImpl"></a>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -11,7 +12,7 @@ public class IReadableForceMarkerImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IReadableForceMarkerImpl](VM.Managed.DAFUL.Force.IReadableForceMarkerImpl.md)
 
 #### Extension Methods
@@ -40,15 +41,15 @@ public static void ReadableActionMarker(Marker actionMarker, ref bool bReadableP
 
 #### Parameters
 
-`actionMarker` Marker
+`actionMarker` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 The action marker.
 
-`bReadablePos` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReadablePos` bool
 
 if set to <code>true</code> [b readable pos].
 
-`bReadableOri` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReadableOri` bool
 
 if set to <code>true</code> [b readable ori].
 
@@ -62,15 +63,15 @@ public static void ReadableBaseMarker(Marker baseMarker, ref bool bReadablePos, 
 
 #### Parameters
 
-`baseMarker` Marker
+`baseMarker` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 The base marker.
 
-`bReadablePos` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReadablePos` bool
 
 if set to <code>true</code> [b readable pos].
 
-`bReadableOri` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReadableOri` bool
 
 if set to <code>true</code> [b readable ori].
 

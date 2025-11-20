@@ -1,4 +1,5 @@
-#  Class GearFEGeneratorException
+# Class GearFEGeneratorException
+<a id="VM_Managed_DAFUL_GearTrain_GearFEGeneratorException"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -9,8 +10,8 @@ public class GearFEGeneratorException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [GearFEGeneratorException](VM.Managed.DAFUL.GearTrain.GearFEGeneratorException.md)
 
 #### Extension Methods
@@ -29,5 +30,5 @@ public GearFEGeneratorException(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 

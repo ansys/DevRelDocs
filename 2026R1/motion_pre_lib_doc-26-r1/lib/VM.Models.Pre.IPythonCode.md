@@ -1,4 +1,5 @@
-#  Interface IPythonCode
+# Interface IPythonCode
+<a id="VM_Models_Pre_IPythonCode"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -42,7 +43,7 @@ string CodePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IPythonCode_CodeType"></a> CodeType
 
@@ -66,7 +67,7 @@ string DeployLocation { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IPythonCode_ImportCommand"></a> ImportCommand
 
@@ -79,7 +80,7 @@ string ImportCommand { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IPythonCode_ImportModuleName"></a> ImportModuleName
 
@@ -91,7 +92,7 @@ string ImportModuleName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_IPythonCode_UseDeployLocation"></a> UseDeployLocation
 
@@ -103,7 +104,7 @@ bool UseDeployLocation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_IPythonCode_UseImportCommand"></a> UseImportCommand
 
@@ -115,7 +116,7 @@ bool UseImportCommand { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -129,7 +130,7 @@ string GetImportCommand()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The import command.
 

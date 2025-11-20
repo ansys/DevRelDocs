@@ -1,4 +1,5 @@
-#  Class ExportModel
+# Class ExportModel
+<a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExportModel"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab.Operation](VM.Managed.DAFUL.CoSim.Matlab.Operation.md)  
 Assembly: VMOpCoSimMatlab.dll  
@@ -9,7 +10,7 @@ public class ExportModel : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ExportModel](VM.Managed.DAFUL.CoSim.Matlab.Operation.ExportModel.md)
 
@@ -95,17 +96,17 @@ public ExportModel(Document doc, string strDFSFile, string strRESFile, IEnumerab
 
 `doc` Document
 
-`strDFSFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDFSFile` string
 
-`strRESFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRESFile` string
 
-`inputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`inputs` IEnumerable<string\>
 
-`outputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`outputs` IEnumerable<string\>
 
-`lstInputSeq` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstInputSeq` IEnumerable<int\>
 
-`lstOutputSeq` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstOutputSeq` IEnumerable<int\>
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExportModel__ctor_VM_Managed_Document_System_Collections_Generic_List_System_Object__"></a> ExportModel\(Document, List<object\>\)
 
@@ -117,7 +118,7 @@ public ExportModel(Document doc, List<object> lstInfo)
 
 `doc` Document
 
-`lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`lstInfo` List<object\>
 
 ### <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExportModel__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportModel\(JournalParameter\)
 
@@ -141,7 +142,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -161,5 +162,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

@@ -1,4 +1,5 @@
-#  Class Mesh.ElementContainer
+# Class Mesh.ElementContainer
+<a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public sealed class Mesh.ElementContainer
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Mesh.ElementContainer](VM.Managed.DAFUL.FE.Mesh.ElementContainer.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ The owner mesh.
 
 The element type.
 
-`nIndexElementType` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nIndexElementType` uint
 
 The index of element type.
 
@@ -56,7 +57,7 @@ public uint Count { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer_Mesh"></a> Mesh
 

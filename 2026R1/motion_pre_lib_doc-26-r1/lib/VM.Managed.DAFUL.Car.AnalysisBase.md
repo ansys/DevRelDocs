@@ -1,4 +1,5 @@
-#  Class AnalysisBase
+# Class AnalysisBase
+<a id="VM_Managed_DAFUL_Car_AnalysisBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class AnalysisBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
 #### Derived
@@ -76,7 +77,7 @@ public bool IsSim { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -96,7 +97,7 @@ The type.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetConvertUnit_VM_Managed_DAFUL_Car_Analysis_VelocityUnitType_"></a> GetConvertUnit\(VelocityUnitType\)
 
@@ -114,7 +115,7 @@ The type.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetConvertUnit_VM_Managed_DAFUL_Car_Analysis_AccelerationUnitType_"></a> GetConvertUnit\(AccelerationUnitType\)
 
@@ -132,7 +133,7 @@ The type.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetGravity"></a> GetGravity\(\)
 
@@ -142,7 +143,7 @@ protected double GetGravity()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
@@ -154,7 +155,7 @@ public virtual void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

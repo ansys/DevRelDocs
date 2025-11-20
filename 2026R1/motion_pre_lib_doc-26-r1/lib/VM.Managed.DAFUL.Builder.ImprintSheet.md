@@ -1,4 +1,5 @@
-#  Class ImprintSheet
+# Class ImprintSheet
+<a id="VM_Managed_DAFUL_Builder_ImprintSheet"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public abstract class ImprintSheet : Imprint, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<BuilderImprint\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [Imprint](VM.Managed.DAFUL.Builder.Imprint.md) ← 
 [ImprintSheet](VM.Managed.DAFUL.Builder.ImprintSheet.md)
@@ -78,7 +79,7 @@ protected override string ExtraArgument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_TargetConnectable"></a> TargetConnectable
 

@@ -1,4 +1,5 @@
-#  Class ShowHideDeselectedObjects
+# Class ShowHideDeselectedObjects
+<a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ShowHideDeselectedObjects : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ShowHideDeselectedObjects](VM.Managed.DAFUL.Operation.ShowHideDeselectedObjects.md)
 
@@ -85,11 +86,11 @@ public ShowHideDeselectedObjects(bool bVisible, bool bGround, List<ObjectBase> l
 
 #### Parameters
 
-`bVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bVisible` bool
 
-`bGround` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGround` bool
 
-`lstSel` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+`lstSel` List<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects__ctor_VM_Managed_Document3D_System_Boolean_System_Boolean_System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__"></a> ShowHideDeselectedObjects\(Document3D, bool, bool, IEnumerable<ObjectBase\>\)
 
@@ -101,11 +102,11 @@ public ShowHideDeselectedObjects(Document3D doc3D, bool bVisible, bool bGround, 
 
 `doc3D` Document3D
 
-`bVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bVisible` bool
 
-`bGround` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bGround` bool
 
-`lstSel` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
+`lstSel` IEnumerable<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowHideDeselectedObjects\(JournalParameter\)
 
@@ -127,7 +128,7 @@ protected override bool ExecutableOnHold { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects_Name"></a> Name
 
@@ -139,7 +140,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -159,5 +160,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

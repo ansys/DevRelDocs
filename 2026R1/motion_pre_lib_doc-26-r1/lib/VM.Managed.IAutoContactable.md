@@ -1,4 +1,5 @@
-#  Interface IAutoContactable
+# Interface IAutoContactable
+<a id="VM_Managed_IAutoContactable"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -41,7 +42,7 @@ bool IsAutoContactable()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
 

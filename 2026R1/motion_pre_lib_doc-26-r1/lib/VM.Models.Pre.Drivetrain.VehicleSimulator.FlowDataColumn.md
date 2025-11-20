@@ -1,4 +1,5 @@
-#  Class FlowDataColumn
+# Class FlowDataColumn
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_FlowDataColumn"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,9 +10,9 @@ public class FlowDataColumn : DataColumn
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[MarshalByValueComponent](https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent) ← 
-[DataColumn](https://learn.microsoft.com/dotnet/api/system.data.datacolumn) ← 
+object ← 
+MarshalByValueComponent ← 
+DataColumn ← 
 [FlowDataColumn](VM.Models.Pre.Drivetrain.VehicleSimulator.FlowDataColumn.md)
 
 #### Extension Methods
@@ -36,9 +37,9 @@ public FlowDataColumn(string columnName, Type dataType)
 
 #### Parameters
 
-`columnName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`columnName` string
 
-`dataType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`dataType` Type
 
 ## Properties
 
@@ -50,5 +51,5 @@ public Guid Guid { get; set; }
 
 #### Property Value
 
- [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+ Guid
 

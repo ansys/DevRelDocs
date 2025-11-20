@@ -1,4 +1,5 @@
-#  Class ControlDocInfo
+# Class ControlDocInfo
+<a id="VM_Managed_DAFUL_Pre_ControlDocInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class ControlDocInfo : DocInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md) ← 
 [ControlDocInfo](VM.Managed.DAFUL.Pre.ControlDocInfo.md)
 

@@ -1,9 +1,10 @@
-#  Interface IDirectionBase
+# Interface IDirectionBase
+<a id="VM_IDirectionBase"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IDirectionBase
 ```
 
@@ -11,7 +12,7 @@ public interface IDirectionBase
 
 ### <a id="VM_IDirectionBase_Value"></a> Value
 
-```python
+```csharp
 Vector Value { get; }
 ```
 
@@ -23,8 +24,7 @@ Vector Value { get; }
 
 ### <a id="VM_IDirectionBase_Reverse"></a> Reverse\(\)
 
-```python
+```csharp
 void Reverse()
 ```
-
 

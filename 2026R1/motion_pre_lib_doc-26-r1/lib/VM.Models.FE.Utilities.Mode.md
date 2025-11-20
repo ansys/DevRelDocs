@@ -1,4 +1,5 @@
-#  Struct Mode
+# Struct Mode
+<a id="VM_Models_FE_Utilities_Mode"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public Mode(double eigenvalue)
 
 #### Parameters
 
-`eigenvalue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`eigenvalue` double
 
 ### <a id="VM_Models_FE_Utilities_Mode__ctor_System_Double_System_Double_System_Double_System_Boolean_"></a> Mode\(double, double, double, bool\)
 
@@ -27,13 +28,13 @@ public Mode(double eigenvalue, double frequency, double damping, bool enabled)
 
 #### Parameters
 
-`eigenvalue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`eigenvalue` double
 
-`frequency` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frequency` double
 
-`damping` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`damping` double
 
-`enabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`enabled` bool
 
 ## Properties
 
@@ -45,7 +46,7 @@ public double Damping { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_Mode_Eigenvalue"></a> Eigenvalue
 
@@ -55,7 +56,7 @@ public double Eigenvalue { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_Mode_Enabled"></a> Enabled
 
@@ -65,7 +66,7 @@ public bool Enabled { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Utilities_Mode_Frequency"></a> Frequency
 
@@ -75,7 +76,7 @@ public double Frequency { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -87,11 +88,11 @@ public override readonly bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Utilities_Mode_GetHashCode"></a> GetHashCode\(\)
 
@@ -101,7 +102,7 @@ public override readonly int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Operators
 
@@ -119,7 +120,7 @@ public static bool operator ==(Mode left, Mode right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_FE_Utilities_Mode_op_Inequality_VM_Models_FE_Utilities_Mode_VM_Models_FE_Utilities_Mode_"></a> operator \!=\(Mode, Mode\)
 
@@ -135,5 +136,5 @@ public static bool operator !=(Mode left, Mode right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

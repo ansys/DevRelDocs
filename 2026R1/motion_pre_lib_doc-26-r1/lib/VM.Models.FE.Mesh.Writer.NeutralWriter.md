@@ -1,4 +1,5 @@
-#  Class NeutralWriter
+# Class NeutralWriter
+<a id="VM_Models_FE_Mesh_Writer_NeutralWriter"></a>
 
 Namespace: [VM.Models.FE.Mesh.Writer](VM.Models.FE.Mesh.Writer.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public static class NeutralWriter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NeutralWriter](VM.Models.FE.Mesh.Writer.NeutralWriter.md)
 
 #### Extension Methods
@@ -28,15 +29,15 @@ public static BinaryWriter WriteBigBlock(this BinaryWriter writer, string blockN
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`blockName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`blockName` string
 
-`writeBlock` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`writeBlock` Action
 
 #### Returns
 
- [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+ BinaryWriter
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteBlock__1_System_IO_BinaryWriter_VM_Models_FE_Mesh_MeshFile_System_String_System_Int32_System_Action___0__"></a> WriteBlock<T\>\(BinaryWriter, MeshFile, string, int, Action<T\>\)
 
@@ -46,19 +47,19 @@ public static BinaryWriter WriteBlock<T>(this BinaryWriter writer, MeshFile file
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `file` [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-`blockName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`blockName` string
 
-`nBlockVersion` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nBlockVersion` int
 
-`actWrite` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<T\>
+`actWrite` Action<T\>
 
 #### Returns
 
- [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+ BinaryWriter
 
 #### Type Parameters
 
@@ -72,19 +73,19 @@ public static BinaryWriter WriteBlock<T>(this BinaryWriter writer, ReadOnlyColle
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`file` [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<T\>
+`file` ReadOnlyCollection<T\>
 
-`blockName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`blockName` string
 
-`nBlockVersion` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nBlockVersion` int
 
-`actWrite` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<T\>
+`actWrite` Action<T\>
 
 #### Returns
 
- [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+ BinaryWriter
 
 #### Type Parameters
 
@@ -98,13 +99,13 @@ public static void WriteContact(BinaryWriter writer, FEConstraintTie tie, uint b
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`tie` FEConstraintTie
+`tie` [FEConstraintTie](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`baseGeomID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`baseGeomID` uint
 
-`actionGeomID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`actionGeomID` uint
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteElement_System_IO_BinaryWriter_VM_Models_FE_Mesh_Elements_Element_"></a> WriteElement\(BinaryWriter, Element\)
 
@@ -114,7 +115,7 @@ public static void WriteElement(BinaryWriter writer, Element element)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `element` [Element](VM.Models.FE.Mesh.Elements.Element.md)
 
@@ -126,9 +127,9 @@ public static void WriteElement(BinaryWriter writer, FEElement element)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`element` FEElement
+`element` [FEElement](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteElementRBE_System_IO_BinaryWriter_VM_Models_FE_Utilities_FEConstraintRBE_"></a> WriteElementRBE\(BinaryWriter, FEConstraintRBE\)
 
@@ -138,9 +139,9 @@ public static void WriteElementRBE(BinaryWriter writer, FEConstraintRBE rbe)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`rbe` FEConstraintRBE
+`rbe` [FEConstraintRBE](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteElementRBE2_System_IO_BinaryWriter_VM_Models_FE_Mesh_Elements_RBE2_"></a> WriteElementRBE2\(BinaryWriter, RBE2\)
 
@@ -150,7 +151,7 @@ public static void WriteElementRBE2(BinaryWriter writer, RBE2 rbe)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `rbe` [RBE2](VM.Models.FE.Mesh.Elements.RBE2.md)
 
@@ -162,15 +163,15 @@ public static BinaryWriter WriteEmptyBlock(this BinaryWriter writer, string bloc
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`blockName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`blockName` string
 
-`blockVersion` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`blockVersion` int
 
 #### Returns
 
- [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+ BinaryWriter
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteMaterialArrudaBoyce_System_IO_BinaryWriter_VM_Models_FE_Utilities_MaterialAB_System_Boolean_System_Int32_"></a> WriteMaterialArrudaBoyce\(BinaryWriter, MaterialAB, bool, int\)
 
@@ -180,13 +181,13 @@ public static void WriteMaterialArrudaBoyce(BinaryWriter writer, MaterialAB mat,
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`mat` MaterialAB
+`mat` [MaterialAB](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteMaterialISO_System_IO_BinaryWriter_VM_Models_FE_Mesh_Materials_ISO_"></a> WriteMaterialISO\(BinaryWriter, ISO\)
 
@@ -196,7 +197,7 @@ public static void WriteMaterialISO(BinaryWriter writer, ISO mat)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `mat` [ISO](VM.Models.FE.Mesh.Materials.ISO.md)
 
@@ -208,13 +209,13 @@ public static void WriteMaterialISO(BinaryWriter writer, MaterialISO mat, bool b
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`mat` MaterialISO
+`mat` [MaterialISO](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteMaterialMooneyRivlin_System_IO_BinaryWriter_VM_Models_FE_Utilities_MaterialMR_System_Boolean_System_Int32_"></a> WriteMaterialMooneyRivlin\(BinaryWriter, MaterialMR, bool, int\)
 
@@ -224,13 +225,13 @@ public static void WriteMaterialMooneyRivlin(BinaryWriter writer, MaterialMR mat
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`mat` MaterialMR
+`mat` [MaterialMR](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteMaterialNeoHookean_System_IO_BinaryWriter_VM_Models_FE_Utilities_MaterialNH_System_Boolean_System_Int32_"></a> WriteMaterialNeoHookean\(BinaryWriter, MaterialNH, bool, int\)
 
@@ -240,13 +241,13 @@ public static void WriteMaterialNeoHookean(BinaryWriter writer, MaterialNH mat, 
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`mat` MaterialNH
+`mat` [MaterialNH](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteMaterialORTHO_System_IO_BinaryWriter_VM_Models_FE_Utilities_MaterialORTHO_System_Boolean_System_Int32_"></a> WriteMaterialORTHO\(BinaryWriter, MaterialORTHO, bool, int\)
 
@@ -256,13 +257,13 @@ public static void WriteMaterialORTHO(BinaryWriter writer, MaterialORTHO mat, bo
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`mat` MaterialORTHO
+`mat` [MaterialORTHO](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteMaterialOgden_System_IO_BinaryWriter_VM_Models_FE_Utilities_MaterialOG_System_Boolean_System_Int32_"></a> WriteMaterialOgden\(BinaryWriter, MaterialOG, bool, int\)
 
@@ -272,13 +273,13 @@ public static void WriteMaterialOgden(BinaryWriter writer, MaterialOG mat, bool 
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`mat` MaterialOG
+`mat` [MaterialOG](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteNeutralFile_VM_Models_FE_Mesh_MeshFile_System_String_"></a> WriteNeutralFile\(MeshFile, string\)
 
@@ -290,7 +291,7 @@ public static void WriteNeutralFile(this MeshFile file, string pathToWrite)
 
 `file` [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-`pathToWrite` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathToWrite` string
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteNeutralFile_VM_Models_FE_Mesh_MeshFile_System_IO_Stream_"></a> WriteNeutralFile\(MeshFile, Stream\)
 
@@ -302,7 +303,7 @@ public static void WriteNeutralFile(this MeshFile file, Stream stream)
 
 `file` [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteNeutralFile_VM_Models_FE_Mesh_MeshFile_System_IO_BinaryWriter_"></a> WriteNeutralFile\(MeshFile, BinaryWriter\)
 
@@ -314,7 +315,7 @@ public static void WriteNeutralFile(this MeshFile file, BinaryWriter writer)
 
 `file` [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteNeutralFile_VM_Models_FE_Utilities_IDFMFReader_System_String_"></a> WriteNeutralFile\(IDFMFReader, string\)
 
@@ -324,9 +325,9 @@ public static void WriteNeutralFile(this IDFMFReader file, string pathToWrite)
 
 #### Parameters
 
-`file` IDFMFReader
+`file` [IDFMFReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Interfaces/IDFMFReader.cs)
 
-`pathToWrite` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathToWrite` string
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteNeutralFile_VM_Models_FE_Utilities_IDFMFReader_System_IO_Stream_"></a> WriteNeutralFile\(IDFMFReader, Stream\)
 
@@ -336,9 +337,9 @@ public static void WriteNeutralFile(this IDFMFReader file, Stream stream)
 
 #### Parameters
 
-`file` IDFMFReader
+`file` [IDFMFReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Interfaces/IDFMFReader.cs)
 
-`stream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
+`stream` Stream
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteNeutralFile_VM_Models_FE_Utilities_IDFMFReader_System_IO_BinaryWriter_"></a> WriteNeutralFile\(IDFMFReader, BinaryWriter\)
 
@@ -348,9 +349,9 @@ public static void WriteNeutralFile(this IDFMFReader file, BinaryWriter writer)
 
 #### Parameters
 
-`file` IDFMFReader
+`file` [IDFMFReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Interfaces/IDFMFReader.cs)
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteNode_System_IO_BinaryWriter_VM_Models_FE_Mesh_Node_"></a> WriteNode\(BinaryWriter, Node\)
 
@@ -360,7 +361,7 @@ public static void WriteNode(BinaryWriter writer, Node node)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `node` [Node](VM.Models.FE.Mesh.Node.md)
 
@@ -372,9 +373,9 @@ public static void WriteNode(BinaryWriter writer, NBody node)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`node` NBody
+`node` [NBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WritePropertyBeam_System_IO_BinaryWriter_VM_Models_FE_Mesh_Properties_BeamL_"></a> WritePropertyBeam\(BinaryWriter, BeamL\)
 
@@ -384,7 +385,7 @@ public static void WritePropertyBeam(BinaryWriter writer, BeamL prop)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `prop` [BeamL](VM.Models.FE.Mesh.Properties.BeamL.md)
 
@@ -396,13 +397,13 @@ public static void WritePropertyBeam(BinaryWriter writer, FEPropertyBeam prop, b
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`prop` FEPropertyBeam
+`prop` [FEPropertyBeam](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WritePropertyBeamL_System_IO_BinaryWriter_VM_Models_FE_Utilities_FEPropertyBeamL_System_Boolean_System_Int32_"></a> WritePropertyBeamL\(BinaryWriter, FEPropertyBeamL, bool, int\)
 
@@ -412,13 +413,13 @@ public static void WritePropertyBeamL(BinaryWriter writer, FEPropertyBeamL prop,
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`prop` FEPropertyBeamL
+`prop` [FEPropertyBeamL](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WritePropertyShell_System_IO_BinaryWriter_VM_Models_FE_Mesh_Properties_Shell_"></a> WritePropertyShell\(BinaryWriter, Shell\)
 
@@ -428,7 +429,7 @@ public static void WritePropertyShell(BinaryWriter writer, Shell prop)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `prop` [Shell](VM.Models.FE.Mesh.Properties.Shell.md)
 
@@ -440,13 +441,13 @@ public static void WritePropertyShell(BinaryWriter writer, FEPropertyShell prop,
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`prop` FEPropertyShell
+`prop` [FEPropertyShell](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WritePropertySolid_System_IO_BinaryWriter_VM_Models_FE_Mesh_Properties_Solid_"></a> WritePropertySolid\(BinaryWriter, Solid\)
 
@@ -456,7 +457,7 @@ public static void WritePropertySolid(BinaryWriter writer, Solid prop)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `prop` [Solid](VM.Models.FE.Mesh.Properties.Solid.md)
 
@@ -468,13 +469,13 @@ public static void WritePropertySolid(BinaryWriter writer, FEPropertySolid prop,
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`prop` FEPropertySolid
+`prop` [FEPropertySolid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 
-`bUseIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseIndex` bool
 
-`nIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIndex` int
 
 ### <a id="VM_Models_FE_Mesh_Writer_NeutralWriter_WriteSet_System_IO_BinaryWriter_VM_Models_FE_Mesh_Sets_Set_"></a> WriteSet\(BinaryWriter, Set\)
 
@@ -484,7 +485,7 @@ public static void WriteSet(BinaryWriter writer, Set set)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
 `set` [Set](VM.Models.FE.Mesh.Sets.Set.md)
 
@@ -496,7 +497,7 @@ public static void WriteSet(BinaryWriter writer, NamedSelection namedSelection)
 
 #### Parameters
 
-`writer` [BinaryWriter](https://learn.microsoft.com/dotnet/api/system.io.binarywriter)
+`writer` BinaryWriter
 
-`namedSelection` NamedSelection
+`namedSelection` [NamedSelection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.FE.Utilities/Models/DFMFReader.Structs.cs)
 

@@ -1,4 +1,5 @@
-#  Class SolidBody<T\>
+# Class SolidBody<T\>
+<a id="VM_Managed_DAFUL_Builder_SolidBody_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class SolidBody<T> : BuilderNamed<SolidBody>, IBuilder where T :
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<SolidBody\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<SolidBody\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<SolidBody\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md) ← 
@@ -73,7 +74,7 @@ protected override bool AddToDoc { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyName"></a> BodyName
 
@@ -93,7 +94,7 @@ public bool Interface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_Name"></a> Name
 
@@ -103,7 +104,7 @@ public override string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_SolidBuilder"></a> SolidBuilder
 
@@ -135,7 +136,7 @@ protected override ObjectBase OnFinalBuild(string strObjName, Document doc)
 
 #### Parameters
 
-`strObjName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strObjName` string
 
 `doc` Document
 
@@ -167,7 +168,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_SetSolidBuilderProperty__0_"></a> SetSolidBuilderProperty\(T\)
 

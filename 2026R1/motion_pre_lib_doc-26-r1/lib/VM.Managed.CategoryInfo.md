@@ -1,4 +1,5 @@
-#  Class CategoryInfo
+# Class CategoryInfo
+<a id="VM_Managed_CategoryInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class CategoryInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CategoryInfo](VM.Managed.CategoryInfo.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public List<CategoryInfo.Category> Categories
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CategoryInfo](VM.Managed.CategoryInfo.md).[Category](VM.Managed.CategoryInfo.Category.md)\>
+ List<[CategoryInfo](VM.Managed.CategoryInfo.md).[Category](VM.Managed.CategoryInfo.Category.md)\>
 
 ### <a id="VM_Managed_CategoryInfo_Toolkit"></a> Toolkit
 
@@ -48,7 +49,7 @@ public string Toolkit
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CategoryInfo_TypeInfos"></a> TypeInfos
 
@@ -58,5 +59,5 @@ public List<CategoryInfo.TypeInfo> TypeInfos
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CategoryInfo](VM.Managed.CategoryInfo.md).[TypeInfo](VM.Managed.CategoryInfo.TypeInfo.md)\>
+ List<[CategoryInfo](VM.Managed.CategoryInfo.md).[TypeInfo](VM.Managed.CategoryInfo.TypeInfo.md)\>
 

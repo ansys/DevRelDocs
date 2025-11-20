@@ -1,4 +1,5 @@
-#  Class LinkableBase
+# Class LinkableBase
+<a id="VM_Models_Pre_LinkableBase"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public abstract class LinkableBase : ObservableObject, IObservableObject, IDispo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
 [LinkableBase](VM.Models.Pre.LinkableBase.md)
 
@@ -57,5 +58,5 @@ protected virtual void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 

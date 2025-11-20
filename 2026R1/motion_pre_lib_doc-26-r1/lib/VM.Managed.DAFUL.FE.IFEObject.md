@@ -1,4 +1,5 @@
-#  Interface IFEObject
+# Interface IFEObject
+<a id="VM_Managed_DAFUL_FE_IFEObject"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -27,5 +28,5 @@ uint FEID { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

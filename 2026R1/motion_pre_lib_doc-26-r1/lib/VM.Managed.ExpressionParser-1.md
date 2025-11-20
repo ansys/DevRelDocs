@@ -1,4 +1,5 @@
-#  Class ExpressionParser<T\>
+# Class ExpressionParser<T\>
+<a id="VM_Managed_ExpressionParser_1"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -13,7 +14,7 @@ public class ExpressionParser<T> : IExpressionParser<T>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExpressionParser<T\>](VM.Managed.ExpressionParser\-1.md)
 
 #### Implements
@@ -44,7 +45,7 @@ public virtual T Parse(string expression)
 
 #### Parameters
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 #### Returns
 

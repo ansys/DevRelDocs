@@ -1,4 +1,5 @@
-#  Class GetShaftStartPoint
+# Class GetShaftStartPoint
+<a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class GetShaftStartPoint : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [GetShaftStartPoint](VM.Managed.DAFUL.GearTrain.Operation.GetShaftStartPoint.md)
 
@@ -87,7 +88,7 @@ public GetShaftStartPoint(GearTrainDocument gearTrainDocument, Body body, Vector
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The geartrain document
 
@@ -127,7 +128,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint_Success"></a> Success
 
@@ -139,7 +140,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

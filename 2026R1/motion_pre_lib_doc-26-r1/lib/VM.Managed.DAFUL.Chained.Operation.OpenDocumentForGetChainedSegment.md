@@ -1,4 +1,5 @@
-#  Class OpenDocumentForGetChainedSegment
+# Class OpenDocumentForGetChainedSegment
+<a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class OpenDocumentForGetChainedSegment : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OpenDocumentForGetChainedSegment](VM.Managed.DAFUL.Chained.Operation.OpenDocumentForGetChainedSegment.md)
 
@@ -87,7 +88,7 @@ public OpenDocumentForGetChainedSegment(string strFullPath)
 
 #### Parameters
 
-`strFullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullPath` string
 
 The string full path.
 
@@ -117,7 +118,7 @@ public object ChainedSegmentDocument { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment_Name"></a> Name
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

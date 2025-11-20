@@ -1,4 +1,5 @@
-#  Class CADReplace.AttributeInfo
+# Class CADReplace.AttributeInfo
+<a id="VM_Managed_DAFUL_Builder_CADReplace_AttributeInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class CADReplace.AttributeInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADReplace.AttributeInfo](VM.Managed.DAFUL.Builder.CADReplace.AttributeInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public string[] Attributes { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_CADReplace_AttributeInfo_UseAll"></a> UseAll
 
@@ -46,5 +47,5 @@ public bool UseAll { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

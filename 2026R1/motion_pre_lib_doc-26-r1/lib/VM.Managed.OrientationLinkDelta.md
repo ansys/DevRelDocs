@@ -1,4 +1,5 @@
-#  Class OrientationLinkDelta
+# Class OrientationLinkDelta
+<a id="VM_Managed_OrientationLinkDelta"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -7,14 +8,14 @@ This class is to represent the information of orientation through Design Frame.
 Delta orientation is getting transformation's orientation.
 
 ```csharp
-public class OrientationLinkDelta : OrientationLink, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IExpression, IOrientationBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IReservable
+public class OrientationLinkDelta : OrientationLink, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IExpression, IOrientationBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasReplaceableEntity, IReservable
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Expression](VM.Managed.Expression.md) ← 
 [OrientationBase](VM.Managed.OrientationBase.md) ← 
@@ -35,6 +36,7 @@ ILinkContainer,
 IOwned, 
 IHasID, 
 IEventProvider, 
+IHasReplaceableEntity, 
 IReservable
 
 #### Inherited Members
@@ -44,6 +46,8 @@ IReservable
 [OrientationLink.ReadXml\(XmlReader\)](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_ReadXml\_System\_Xml\_XmlReader\_), 
 [OrientationLink.WriteXml\(XmlWriter\)](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_WriteXml\_System\_Xml\_XmlWriter\_), 
 [OrientationLink.GetSchema\(\)](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_GetSchema), 
+[OrientationLink.HasReplaceableEntity\(IObjectBase\)](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_HasReplaceableEntity\_VM\_Models\_Pre\_IObjectBase\_), 
+[OrientationLink.ReplaceEntity\(IObjectBase, IObjectBase\)](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_ReplaceEntity\_VM\_Models\_Pre\_IObjectBase\_VM\_Models\_Pre\_IObjectBase\_), 
 [OrientationLink.\_LinkOrientation](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_\_LinkOrientation), 
 [OrientationLink.LinkOrientation](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_LinkOrientation), 
 [OrientationLink.Position](VM.Managed.OrientationLink.md\#VM\_Managed\_OrientationLink\_Position), 
@@ -54,6 +58,8 @@ IReservable
 [OrientationBase.ReadXml\(XmlReader\)](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_ReadXml\_System\_Xml\_XmlReader\_), 
 [OrientationBase.WriteXml\(XmlWriter\)](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_WriteXml\_System\_Xml\_XmlWriter\_), 
 [OrientationBase.GetSchema\(\)](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_GetSchema), 
+[OrientationBase.HasReplaceableEntity\(IObjectBase\)](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_HasReplaceableEntity\_VM\_Models\_Pre\_IObjectBase\_), 
+[OrientationBase.ReplaceEntity\(IObjectBase, IObjectBase\)](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_ReplaceEntity\_VM\_Models\_Pre\_IObjectBase\_VM\_Models\_Pre\_IObjectBase\_), 
 [OrientationBase.WriteRotationAnglesToXml\(XmlWriter\)](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_WriteRotationAnglesToXml\_System\_Xml\_XmlWriter\_), 
 [OrientationBase.UseExpression](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_UseExpression), 
 [OrientationBase.RotationAngles](VM.Managed.OrientationBase.md\#VM\_Managed\_OrientationBase\_RotationAngles), 
@@ -123,7 +129,7 @@ IReservable
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -251,7 +257,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_OrientationLinkDelta_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -263,7 +269,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -277,7 +283,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

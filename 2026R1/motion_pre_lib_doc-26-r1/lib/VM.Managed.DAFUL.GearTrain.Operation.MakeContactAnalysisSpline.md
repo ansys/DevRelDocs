@@ -1,4 +1,5 @@
-#  Class MakeContactAnalysisSpline
+# Class MakeContactAnalysisSpline
+<a id="VM_Managed_DAFUL_GearTrain_Operation_MakeContactAnalysisSpline"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class MakeContactAnalysisSpline : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [MakeContactAnalysisSpline](VM.Managed.DAFUL.GearTrain.Operation.MakeContactAnalysisSpline.md)
 
@@ -87,15 +88,15 @@ public MakeContactAnalysisSpline(double[] arDeform, string strIndex, string strN
 
 #### Parameters
 
-`arDeform` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`arDeform` double\[\]
 
 The ar deform.
 
-`strIndex` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strIndex` string
 
 Index of the string.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -147,7 +148,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

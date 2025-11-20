@@ -1,4 +1,5 @@
-#  Struct FEPropertySolid
+# Struct FEPropertySolid
+<a id="VM_Models_FE_Utilities_FEPropertySolid"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEPropertySolid_MaterialSequence"></a> MaterialSequence
 
@@ -27,5 +28,5 @@ public uint MaterialSequence { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

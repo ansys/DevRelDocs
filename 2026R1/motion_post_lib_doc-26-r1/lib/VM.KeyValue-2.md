@@ -1,9 +1,10 @@
-#  Class KeyValue<TKey, TValue\>
+# Class KeyValue<TKey, TValue\>
+<a id="VM_KeyValue_2"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class KeyValue<TKey, TValue> : ObservableObject, IObservableObject, IDisposableObject
 ```
 
@@ -15,7 +16,7 @@ public class KeyValue<TKey, TValue> : ObservableObject, IObservableObject, IDisp
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableObject](VM.ObservableObject.md) ← 
 [KeyValue<TKey, TValue\>](VM.KeyValue\-2.md)
 
@@ -42,7 +43,7 @@ public class KeyValue<TKey, TValue> : ObservableObject, IObservableObject, IDisp
 
 ### <a id="VM_KeyValue_2__ctor__0__1_"></a> KeyValue\(TKey, TValue\)
 
-```python
+```csharp
 public KeyValue(TKey key, TValue value)
 ```
 
@@ -56,7 +57,7 @@ public KeyValue(TKey key, TValue value)
 
 ### <a id="VM_KeyValue_2_Key"></a> Key
 
-```python
+```csharp
 public TKey Key { get; set; }
 ```
 
@@ -66,12 +67,11 @@ public TKey Key { get; set; }
 
 ### <a id="VM_KeyValue_2_Value"></a> Value
 
-```python
+```csharp
 public TValue Value { get; set; }
 ```
 
 #### Property Value
 
  TValue
-
 

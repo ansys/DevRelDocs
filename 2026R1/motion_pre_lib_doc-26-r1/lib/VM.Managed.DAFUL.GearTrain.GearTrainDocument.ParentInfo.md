@@ -1,4 +1,5 @@
-#  Class GearTrainDocument.ParentInfo
+# Class GearTrainDocument.ParentInfo
+<a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ParentInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class GearTrainDocument.ParentInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearTrainDocument.ParentInfo](VM.Managed.DAFUL.GearTrain.GearTrainDocument.ParentInfo.md)
 
 #### Extension Methods

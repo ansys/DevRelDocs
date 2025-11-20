@@ -1,4 +1,5 @@
-#  Interface IHasKeyObject
+# Interface IHasKeyObject
+<a id="VM_Models_Pre_IHasKeyObject"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,5 +24,5 @@ UIntPtr Key { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 

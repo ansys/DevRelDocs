@@ -1,11 +1,12 @@
-#  Interface IOutput
+# Interface IOutput
+<a id="VM_IOutput"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 Provides the ability to output a specified message.
 
-```python
+```csharp
 public interface IOutput
 ```
 
@@ -15,7 +16,7 @@ public interface IOutput
 
 Cleat output messages.
 
-```python
+```csharp
 void Clear()
 ```
 
@@ -23,18 +24,17 @@ void Clear()
 
 Output a specified message.
 
-```python
+```csharp
 void Write(string category, string message)
 ```
 
 #### Parameters
 
-`category` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`category` string
 
 The category of the message.
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
 The message to output.
-
 

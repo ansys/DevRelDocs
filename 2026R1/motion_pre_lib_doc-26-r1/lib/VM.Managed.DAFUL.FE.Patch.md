@@ -1,4 +1,5 @@
-#  Struct Patch
+# Struct Patch
+<a id="VM_Managed_DAFUL_FE_Patch"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -21,7 +22,7 @@ public uint m_nNode1
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Patch_m_nNode2"></a> m\_nNode2
 
@@ -33,7 +34,7 @@ public uint m_nNode2
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Patch_m_nNode3"></a> m\_nNode3
 
@@ -45,7 +46,7 @@ public uint m_nNode3
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_Patch_m_nNode4"></a> m\_nNode4
 
@@ -57,5 +58,5 @@ public uint m_nNode4
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

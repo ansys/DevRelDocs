@@ -1,4 +1,5 @@
-#  Class SerializableDictionary<TKey, TValue\>
+# Class SerializableDictionary<TKey, TValue\>
+<a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -15,8 +16,8 @@ public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Dictionary<TKey, TValue\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2) ← 
+object ← 
+Dictionary<TKey, TValue\> ← 
 [SerializableDictionary<TKey, TValue\>](VM.Managed.DAFUL.DOE.Result.SerializableDictionary\-2.md)
 
 #### Extension Methods
@@ -43,7 +44,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -53,7 +54,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -63,5 +64,5 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

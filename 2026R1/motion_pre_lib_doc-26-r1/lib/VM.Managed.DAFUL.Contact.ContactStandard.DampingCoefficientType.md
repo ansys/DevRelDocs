@@ -1,4 +1,5 @@
-#  Enum ContactStandard.DampingCoefficientType
+# Enum ContactStandard.DampingCoefficientType
+<a id="VM_Managed_DAFUL_Contact_ContactStandard_DampingCoefficientType"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

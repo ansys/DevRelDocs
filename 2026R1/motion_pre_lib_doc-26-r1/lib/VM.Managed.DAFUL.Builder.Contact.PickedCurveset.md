@@ -1,4 +1,5 @@
-#  Class PickedCurveset
+# Class PickedCurveset
+<a id="VM_Managed_DAFUL_Builder_Contact_PickedCurveset"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -9,7 +10,7 @@ public class PickedCurveset
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickedCurveset](VM.Managed.DAFUL.Builder.Contact.PickedCurveset.md)
 
 #### Extension Methods
@@ -36,5 +37,5 @@ public string[] List { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 

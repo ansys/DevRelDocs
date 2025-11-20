@@ -1,4 +1,5 @@
-#  Class ObservableValuesDictionary<TKey, TValue\>
+# Class ObservableValuesDictionary<TKey, TValue\>
+<a id="VM_Collections_ObservableValuesDictionary_2"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -15,7 +16,7 @@ public class ObservableValuesDictionary<TKey, TValue>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableValuesDictionary<TKey, TValue\>](VM.Collections.ObservableValuesDictionary\-2.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_IsReadOnly"></a> IsReadOnly
 
@@ -52,7 +53,7 @@ public bool IsReadOnly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_Keys"></a> Keys
 
@@ -62,7 +63,7 @@ public ICollection<TKey> Keys { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TKey\>
+ ICollection<TKey\>
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_Values"></a> Values
 
@@ -72,7 +73,7 @@ public ReadOnlyObservableCollection<TValue> Values { get; }
 
 #### Property Value
 
- [ReadOnlyObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlyobservablecollection\-1)<TValue\>
+ ReadOnlyObservableCollection<TValue\>
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_Item__0_"></a> this\[TKey\]
 
@@ -112,11 +113,11 @@ public bool Contains(KeyValuePair<TKey, TValue> item)
 
 #### Parameters
 
-`item` [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<TKey, TValue\>
+`item` KeyValuePair<TKey, TValue\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_ContainsKey__0_"></a> ContainsKey\(TKey\)
 
@@ -130,7 +131,7 @@ public bool ContainsKey(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_ContainsValue__1_"></a> ContainsValue\(TValue\)
 
@@ -144,7 +145,7 @@ public bool ContainsValue(TValue value)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_"></a> CopyTo\(KeyValuePair<TKey, TValue\>\[\], int\)
 
@@ -154,9 +155,9 @@ public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 
 #### Parameters
 
-`array` [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<TKey, TValue\>\[\]
+`array` KeyValuePair<TKey, TValue\>\[\]
 
-`arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`arrayIndex` int
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_GetEnumerator"></a> GetEnumerator\(\)
 
@@ -166,7 +167,7 @@ public IEnumerator GetEnumerator()
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
+ IEnumerator
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_Remove__0_"></a> Remove\(TKey\)
 
@@ -180,7 +181,7 @@ public virtual bool Remove(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableValuesDictionary_2_TryGetValue__0__1__"></a> TryGetValue\(TKey, out TValue\)
 
@@ -196,5 +197,5 @@ public bool TryGetValue(TKey key, out TValue value)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

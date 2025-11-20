@@ -1,4 +1,5 @@
-#  Class Primitive
+# Class Primitive
+<a id="VM_Managed_Primitive"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Primitive
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Primitive](VM.Managed.Primitive.md)
 
 #### Extension Methods

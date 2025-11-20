@@ -1,4 +1,5 @@
-#  Class CADOperation
+# Class CADOperation
+<a id="VM_Managed_CADOperation"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADOperation](VM.Managed.CADOperation.md)
 
 #### Extension Methods
@@ -44,7 +45,7 @@ public static void SetInterfaceNames(IInterfaceSupport support, Dictionary<IInte
 
 The document.
 
-`dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[IInterface](VM.Managed.IInterface.md), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
+`dic` Dictionary<[IInterface](VM.Managed.IInterface.md), List<string\>\>
 
 The objectbase and interface names.
 
@@ -80,11 +81,11 @@ public static void SetShearModulus(ISO iso, bool bUseShearModulusWithUserInput, 
 
 The ISO Material.
 
-`bUseShearModulusWithUserInput` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseShearModulusWithUserInput` bool
 
 Use shear modulus with user input.
 
-`strShearModulus` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strShearModulus` string
 
 The sherar modulus.
 

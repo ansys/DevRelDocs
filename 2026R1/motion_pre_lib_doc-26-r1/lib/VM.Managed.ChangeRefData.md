@@ -1,4 +1,5 @@
-#  Class ChangeRefData
+# Class ChangeRefData
+<a id="VM_Managed_ChangeRefData"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ChangeRefData
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ChangeRefData](VM.Managed.ChangeRefData.md)
 
 #### Extension Methods

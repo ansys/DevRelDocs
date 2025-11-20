@@ -1,17 +1,18 @@
-#  Class Convert
+# Class Convert
+<a id="VM_Managed_Utility_Convert"></a>
 
 Namespace: [VM.Managed.Utility](VM.Managed.Utility.md)  
 Assembly: VM.dll  
 
 This class is to represent the special convert.
 
-```python
+```csharp
 public static class Convert
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Convert](VM.Managed.Utility.Convert.md)
 
 ## Properties
@@ -20,71 +21,71 @@ public static class Convert
 
 Gets the Degree to Radius.
 
-```python
+```csharp
 public static double DToR { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Utility_Convert_RToD"></a> RToD
 
 Gets the Radius to Degree.
 
-```python
+```csharp
 public static double RToD { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Utility_Convert_SignificantFigure"></a> SignificantFigure
 
 Gets the significant figure.
 
-```python
+```csharp
 public static int SignificantFigure { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
 ### <a id="VM_Managed_Utility_Convert_GetContrastColor_System_Drawing_Color_"></a> GetContrastColor\(Color\)
 
-```python
+```csharp
 public static Color GetContrastColor(Color baseColor)
 ```
 
 #### Parameters
 
-`baseColor` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`baseColor` Color
 
 #### Returns
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_Utility_Convert_ToString_System_Double_"></a> ToString\(double\)
 
 Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
-```python
+```csharp
 public static string ToString(double dVal)
 ```
 
 #### Parameters
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 The val.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
@@ -92,7 +93,7 @@ A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that rep
 
 Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
-```python
+```csharp
 public static string ToString(Vector vec)
 ```
 
@@ -102,7 +103,7 @@ public static string ToString(Vector vec)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
@@ -110,24 +111,23 @@ A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that rep
 
 Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
-```python
+```csharp
 public static string ToString(double dVal, double dConvertFactor)
 ```
 
 #### Parameters
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 The val.
 
-`dConvertFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dConvertFactor` double
 
 The convert factor.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
-
 

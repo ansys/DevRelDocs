@@ -1,4 +1,5 @@
-#  Interface IHasBindingValueConverterParam
+# Interface IHasBindingValueConverterParam
+<a id="VM_IHasBindingValueConverterParam"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -27,13 +28,13 @@ object Convert(params object[] parameter)
 
 #### Parameters
 
-`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`parameter` object\[\]
 
 Parameters to convert.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The converted value.
 

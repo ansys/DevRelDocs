@@ -1,4 +1,5 @@
-#  Class OpenDocumentWithFiles
+# Class OpenDocumentWithFiles
+<a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentWithFiles"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class OpenDocumentWithFiles : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OpenDocumentWithFiles](VM.Managed.DAFUL.Chained.Operation.OpenDocumentWithFiles.md)
 
@@ -87,11 +88,11 @@ public OpenDocumentWithFiles(List<string> lstFullPath, Dictionary<string, Docume
 
 #### Parameters
 
-`lstFullPath` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstFullPath` List<string\>
 
 The LST full path.
 
-`dicDocument` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), Document\>
+`dicDocument` Dictionary<string, Document\>
 
 The dic document.
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentWithFiles_PathDocument_Candidation"></a> PathDocument\_Candidation
 
@@ -123,7 +124,7 @@ public Dictionary<string, Document> PathDocument_Candidation { get; }
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), Document\>
+ Dictionary<string, Document\>
 
 ## Methods
 
@@ -145,7 +146,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

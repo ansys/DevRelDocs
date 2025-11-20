@@ -1,4 +1,5 @@
-#  Class CADOperation.RecalcMassPropOp
+# Class CADOperation.RecalcMassPropOp
+<a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation.RecalcMassPropOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADOperation.RecalcMassPropOp](VM.Managed.DAFUL.CADOperation.RecalcMassPropOp.md)
 
@@ -111,7 +112,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp_Name"></a> Name
 
@@ -123,7 +124,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

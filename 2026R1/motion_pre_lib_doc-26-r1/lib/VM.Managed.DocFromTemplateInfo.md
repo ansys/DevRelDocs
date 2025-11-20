@@ -1,4 +1,5 @@
-#  Class DocFromTemplateInfo
+# Class DocFromTemplateInfo
+<a id="VM_Managed_DocFromTemplateInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class DocFromTemplateInfo : DocCreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocCreateInfo](VM.Managed.DocCreateInfo.md) ← 
 [DocFromTemplateInfo](VM.Managed.DocFromTemplateInfo.md)
 
@@ -49,5 +50,5 @@ public string TemplatePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

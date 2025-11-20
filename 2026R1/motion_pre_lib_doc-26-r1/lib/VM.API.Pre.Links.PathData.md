@@ -1,4 +1,5 @@
-#  Struct PathData
+# Struct PathData
+<a id="VM_API_Pre_Links_PathData"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -29,15 +30,15 @@ public PathData(MTL.PathData.PathType pathType, Obj marker, ExpressionValueVaria
 
 #### Parameters
 
-`pathType` MTL.PathData.PathType
+`pathType` [MTL](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTrackBase/MTL.cs).[PathData](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTrackBase/MTL.cs).[PathType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTrackBase/MTL.cs)
 
 The path type.
 
-`marker` Obj
+`marker` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The marker.
 
-`windingRadius` ExpressionValueVariable
+`windingRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The winding radius.
 
@@ -53,7 +54,7 @@ public Obj Marker { readonly get; set; }
 
 #### Property Value
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 ### <a id="VM_API_Pre_Links_PathData_TypeOfPath"></a> TypeOfPath
 
@@ -65,7 +66,7 @@ public MTL.PathData.PathType TypeOfPath { readonly get; set; }
 
 #### Property Value
 
- MTL.PathData.PathType
+ [MTL](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTrackBase/MTL.cs).[PathData](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTrackBase/MTL.cs).[PathType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTrackBase/MTL.cs)
 
 ### <a id="VM_API_Pre_Links_PathData_WindingRadius"></a> WindingRadius
 
@@ -77,5 +78,5 @@ public ExpressionValueVariable WindingRadius { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

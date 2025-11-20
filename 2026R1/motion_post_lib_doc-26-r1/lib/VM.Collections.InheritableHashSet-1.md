@@ -1,9 +1,10 @@
-#  Class InheritableHashSet<T\>
+# Class InheritableHashSet<T\>
+<a id="VM_Collections_InheritableHashSet_1"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public abstract class InheritableHashSet<T> : HashSet<T>
 ```
 
@@ -13,67 +14,67 @@ public abstract class InheritableHashSet<T> : HashSet<T>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[HashSet<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1) ← 
+object ← 
+HashSet<T\> ← 
 [InheritableHashSet<T\>](VM.Collections.InheritableHashSet\-1.md)
 
 ## Constructors
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor"></a> InheritableHashSet\(\)
 
-```python
+```csharp
 public InheritableHashSet()
 ```
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__"></a> InheritableHashSet\(IEnumerable<T\>\)
 
-```python
+```csharp
 public InheritableHashSet(IEnumerable<T> collection)
 ```
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor_System_Collections_Generic_IEqualityComparer__0__"></a> InheritableHashSet\(IEqualityComparer<T\>\)
 
-```python
+```csharp
 public InheritableHashSet(IEqualityComparer<T> comparer)
 ```
 
 #### Parameters
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__"></a> InheritableHashSet\(IEnumerable<T\>, IEqualityComparer<T\>\)
 
-```python
+```csharp
 public InheritableHashSet(IEnumerable<T> collection, IEqualityComparer<T> comparer)
 ```
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ### <a id="VM_Collections_InheritableHashSet_1__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> InheritableHashSet\(SerializationInfo, StreamingContext\)
 
-```python
+```csharp
 protected InheritableHashSet(SerializationInfo serializationInfo, StreamingContext streamingContext)
 ```
 
 #### Parameters
 
-`serializationInfo` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`serializationInfo` SerializationInfo
 
-`streamingContext` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`streamingContext` StreamingContext
 
 ## Methods
 
 ### <a id="VM_Collections_InheritableHashSet_1_Add__0_"></a> Add\(T\)
 
-```python
+```csharp
 public bool Add(T item)
 ```
 
@@ -83,11 +84,11 @@ public bool Add(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableHashSet_1_AddItem__0_"></a> AddItem\(T\)
 
-```python
+```csharp
 protected virtual bool AddItem(T item)
 ```
 
@@ -97,23 +98,23 @@ protected virtual bool AddItem(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableHashSet_1_Clear"></a> Clear\(\)
 
-```python
+```csharp
 public void Clear()
 ```
 
 ### <a id="VM_Collections_InheritableHashSet_1_ClearItems"></a> ClearItems\(\)
 
-```python
+```csharp
 protected virtual void ClearItems()
 ```
 
 ### <a id="VM_Collections_InheritableHashSet_1_Remove__0_"></a> Remove\(T\)
 
-```python
+```csharp
 public bool Remove(T item)
 ```
 
@@ -123,11 +124,11 @@ public bool Remove(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_InheritableHashSet_1_RemoveItem__0_"></a> RemoveItem\(T\)
 
-```python
+```csharp
 protected virtual bool RemoveItem(T item)
 ```
 
@@ -137,6 +138,5 @@ protected virtual bool RemoveItem(T item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Beam.Force
+# Namespace VM.Managed.DAFUL.Beam.Force
+<a id="VM_Managed_DAFUL_Beam_Force"></a>
 
 ### Classes
 

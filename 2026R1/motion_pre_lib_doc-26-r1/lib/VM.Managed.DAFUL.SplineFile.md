@@ -1,4 +1,5 @@
-#  Class SplineFile
+# Class SplineFile
+<a id="VM_Managed_DAFUL_SplineFile"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -11,9 +12,9 @@ public sealed class SplineFile : SplineData, IObservableObject, IDisposableObjec
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [SplineData](VM.Managed.DAFUL.SplineData.md) ← 
 [SplineFile](VM.Managed.DAFUL.SplineFile.md)
@@ -103,7 +104,7 @@ public override bool ContainsNegativeNumber { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SplineFile_FilePath"></a> FilePath
 
@@ -115,7 +116,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SplineFile_SelectedSplineName"></a> SelectedSplineName
 
@@ -127,7 +128,7 @@ public string SelectedSplineName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SplineFile_Type"></a> Type
 
@@ -153,7 +154,7 @@ public override IEnumerable<SplineData.Point> GetPoints()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
+ IEnumerable<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
 
 The point list.
 
@@ -167,13 +168,13 @@ public override IEnumerable<SplineData.Point> GetPoints(string documentFilePath)
 
 #### Parameters
 
-`documentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentFilePath` string
 
 The Document file path.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
+ IEnumerable<[SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)\>
 
 The point list.
 
@@ -187,11 +188,11 @@ public override void GetPoints(List<double> lstX, List<double> lstY)
 
 #### Parameters
 
-`lstX` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstX` List<double\>
 
 The LST X.
 
-`lstY` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstY` List<double\>
 
 The LST Y.
 
@@ -205,15 +206,15 @@ public override void GetPoints(List<double> lstX, List<double> lstY, string strD
 
 #### Parameters
 
-`lstX` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstX` List<double\>
 
 The LST X.
 
-`lstY` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstY` List<double\>
 
 The LST Y.
 
-`strDocumentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocumentFilePath` string
 
 The Document file path.
 
@@ -227,7 +228,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -241,7 +242,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
@@ -255,7 +256,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
 

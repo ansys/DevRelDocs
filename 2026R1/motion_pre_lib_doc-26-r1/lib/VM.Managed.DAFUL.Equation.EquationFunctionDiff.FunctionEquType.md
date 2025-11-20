@@ -1,4 +1,5 @@
-#  Enum EquationFunctionDiff.FunctionEquType
+# Enum EquationFunctionDiff.FunctionEquType
+<a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff_FunctionEquType"></a>
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  

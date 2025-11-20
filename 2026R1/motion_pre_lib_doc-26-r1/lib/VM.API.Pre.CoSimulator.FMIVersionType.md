@@ -1,4 +1,5 @@
-#  Enum FMIVersionType
+# Enum FMIVersionType
+<a id="VM_API_Pre_CoSimulator_FMIVersionType"></a>
 
 Namespace: [VM.API.Pre.CoSimulator](VM.API.Pre.CoSimulator.md)  
 Assembly: VM.API.Pre.CoSimulator.dll  

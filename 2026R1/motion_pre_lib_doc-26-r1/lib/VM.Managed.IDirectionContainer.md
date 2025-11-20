@@ -1,4 +1,5 @@
-#  Interface IDirectionContainer
+# Interface IDirectionContainer
+<a id="VM_Managed_IDirectionContainer"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,5 @@
-#  Interface IContainer
+# Interface IContainer
+<a id="VM_Models_Pre_IContainer"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -33,7 +34,7 @@ IObjectBase Find(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The DAFUL object full name.
 
@@ -53,7 +54,7 @@ IObjectBase FindLocal(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The DAFUL object name.
 
@@ -73,13 +74,13 @@ string GetNewEntityName(string prefix)
 
 #### Parameters
 
-`prefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`prefix` string
 
 The DAFUL object prefix name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -93,21 +94,21 @@ string GetNewEntityName(string prefix, bool useUnderLine, int numFigure)
 
 #### Parameters
 
-`prefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`prefix` string
 
 The DAFUL object prefix name.
 
-`useUnderLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useUnderLine` bool
 
 Whether use underline.
 
-`numFigure` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numFigure` int
 
 The Number of Figure.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -121,25 +122,25 @@ string GetNewEntityName(string prefix, bool useUnderLine, int numFigure, int sta
 
 #### Parameters
 
-`prefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`prefix` string
 
 The DAFUL object prefix name.
 
-`useUnderLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useUnderLine` bool
 
 Whether use underline.
 
-`numFigure` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`numFigure` int
 
 The Number of Figure.
 
-`startIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`startIndex` int
 
 The start index.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -153,13 +154,13 @@ string GetUnnamedObjectName(object @object)
 
 #### Parameters
 
-`object` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`object` object
 
 The unnamed object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The unnamed object name.
 

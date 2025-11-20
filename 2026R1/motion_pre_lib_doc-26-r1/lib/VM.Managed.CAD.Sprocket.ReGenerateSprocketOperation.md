@@ -1,4 +1,5 @@
-#  Class ReGenerateSprocketOperation
+# Class ReGenerateSprocketOperation
+<a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -11,7 +12,7 @@ public class ReGenerateSprocketOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ReGenerateSprocketOperation](VM.Managed.CAD.Sprocket.ReGenerateSprocketOperation.md)
 
@@ -87,7 +88,7 @@ public ReGenerateSprocketOperation(XmlDocument dom, BuilderSingleSprocketSimple 
 
 #### Parameters
 
-`dom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`dom` XmlDocument
 
 The DOM.
 
@@ -95,7 +96,7 @@ The DOM.
 
 The sprocket body.
 
-`bBuilder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBuilder` bool
 
 if set to <code>true</code> [b builder].
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation_ResultBody"></a> ResultBody
 
@@ -159,7 +160,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

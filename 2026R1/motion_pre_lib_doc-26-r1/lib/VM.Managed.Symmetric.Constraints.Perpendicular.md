@@ -1,4 +1,5 @@
-#  Class Perpendicular
+# Class Perpendicular
+<a id="VM_Managed_Symmetric_Constraints_Perpendicular"></a>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -9,10 +10,10 @@ public class Perpendicular : Constraint<Perpendicular, PropertyPerpendicular>, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Perpendicular\> ← 
-Connector<Perpendicular, PropertyPerpendicular\> ← 
-Constraint<Perpendicular, PropertyPerpendicular\> ← 
+object ← 
+[Named<Perpendicular\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<Perpendicular, PropertyPerpendicular\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
+[Constraint<Perpendicular, PropertyPerpendicular\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymCB/Constraint.cs) ← 
 [Perpendicular](VM.Managed.Symmetric.Constraints.Perpendicular.md)
 
 #### Implements
@@ -21,12 +22,12 @@ ISymmetricUpdater
 
 #### Inherited Members
 
-Constraint<Perpendicular, PropertyPerpendicular\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Connector<Perpendicular, PropertyPerpendicular\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Perpendicular\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Perpendicular\>.Initialize\(ISymmetricManager\), 
-Named<Perpendicular\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Perpendicular\>.SymmetricManager
+[Constraint<Perpendicular, PropertyPerpendicular\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymCB/Constraint.cs), 
+[Connector<Perpendicular, PropertyPerpendicular\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<Perpendicular\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Perpendicular\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Perpendicular\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Perpendicular\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

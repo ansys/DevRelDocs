@@ -1,4 +1,5 @@
-#  Class DocumentSimpleValueModifiedEvent<T\>
+# Class DocumentSimpleValueModifiedEvent<T\>
+<a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -13,8 +14,8 @@ public class DocumentSimpleValueModifiedEvent<T> : DocumentMemberModifiedEvent
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryEvent ← 
+object ← 
+[HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs) ← 
 [DocumentMemberModifiedEvent](VM.Managed.History.DocumentMemberModifiedEvent.md) ← 
 [DocumentSimpleValueModifiedEvent<T\>](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)
 
@@ -23,17 +24,17 @@ HistoryEvent ←
 [DocumentMemberModifiedEvent.m\_doc](VM.Managed.History.DocumentMemberModifiedEvent.md\#VM\_Managed\_History\_DocumentMemberModifiedEvent\_m\_doc), 
 [DocumentMemberModifiedEvent.m\_obj](VM.Managed.History.DocumentMemberModifiedEvent.md\#VM\_Managed\_History\_DocumentMemberModifiedEvent\_m\_obj), 
 [DocumentMemberModifiedEvent.Clear\(bool\)](VM.Managed.History.DocumentMemberModifiedEvent.md\#VM\_Managed\_History\_DocumentMemberModifiedEvent\_Clear\_System\_Boolean\_), 
-HistoryEvent.ClearEvent\(bool\), 
-HistoryEvent.Undo\(HistoryEventArgs\), 
-HistoryEvent.Redo\(HistoryEventArgs\), 
-HistoryEvent.Clear\(bool\), 
-HistoryEvent.BeforeUndo\(HistoryEventArgs\), 
-HistoryEvent.AfterUndo\(HistoryEventArgs\), 
-HistoryEvent.BeforeRedo\(HistoryEventArgs\), 
-HistoryEvent.AfterRedo\(HistoryEventArgs\), 
-HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\), 
-HistoryEvent.AfterAdded\(HistoryEventArgs\), 
-HistoryEvent.IsValid
+[HistoryEvent.ClearEvent\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterAdded\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 #### Extension Methods
 
@@ -59,11 +60,11 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
@@ -77,13 +78,13 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
@@ -97,13 +98,13 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPostExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
@@ -117,15 +118,15 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
@@ -139,15 +140,15 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPostExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
@@ -191,7 +192,7 @@ protected object m_objParam
 
 #### Field Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_m_strPropertyName"></a> m\_strPropertyName
 
@@ -201,7 +202,7 @@ protected string m_strPropertyName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_m_value"></a> m\_value
 
@@ -223,7 +224,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
@@ -233,7 +234,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_BeforeRedo_VM_Managed_History_HistoryEventArgs_"></a> BeforeRedo\(HistoryEventArgs\)
 
@@ -243,7 +244,7 @@ protected override void BeforeRedo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_BeforeUndo_VM_Managed_History_HistoryEventArgs_"></a> BeforeUndo\(HistoryEventArgs\)
 
@@ -253,7 +254,7 @@ protected override void BeforeUndo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_Clear_System_Boolean_"></a> Clear\(bool\)
 
@@ -263,7 +264,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 #### Parameters
 
-`bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReserveReferenceCount` bool
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_"></a> DocumentSimpleValueModified\(Document, object, string\)
 
@@ -275,9 +276,9 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_"></a> DocumentSimpleValueModified\(Document, object, string, object\)
 
@@ -289,11 +290,11 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_VM_Managed_History_IUpdateDocAddOn___"></a> DocumentSimpleValueModified\(Document, object, string, object, IUpdateDocAddOn\[\]\)
 
@@ -305,11 +306,11 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
@@ -323,13 +324,13 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
@@ -343,13 +344,13 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPostExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
@@ -363,15 +364,15 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
@@ -385,15 +386,15 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `doc` [Document](VM.Managed.Document.md)
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
-`strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyName` string
 
-`objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objTarget` object
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
-`objParam` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objParam` object
 
 `delPostExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
@@ -405,7 +406,7 @@ protected override void Redo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 ### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
@@ -415,5 +416,5 @@ protected override void Undo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 

@@ -1,4 +1,5 @@
-#  Interface IEnableManager
+# Interface IEnableManager
+<a id="VM_Managed_IEnableManager"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -33,7 +34,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
@@ -51,7 +52,7 @@ void SetEnable(ObjectBase ob, bool bEnable)
 
 The object.
 
-`bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnable` bool
 
 if set to <code>true</code> enable.
 

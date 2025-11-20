@@ -1,4 +1,5 @@
-#  Interface IGearSet
+# Interface IGearSet
+<a id="VM_Managed_DAFUL_GearTrain_IGearSet"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -27,7 +28,7 @@ bool AddToShaft { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_GearBodies"></a> GearBodies
 
@@ -99,7 +100,7 @@ bool UseMeshing { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -153,49 +154,49 @@ bool FillGearData(Document doc, int nNGear, string strName, string[] CenterDista
 
 The document
 
-`nNGear` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNGear` int
 
 The No. of gear
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The gear name
 
-`CenterDistance` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`CenterDistance` string\[\]
 
 The gear center distance
 
-`NumberOfTeeth` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`NumberOfTeeth` string\[\]
 
 The No. of teeth
 
-`ProfileShift` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`ProfileShift` string\[\]
 
 The profile shift
 
-`FaceWidth` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`FaceWidth` string\[\]
 
 The face width
 
-`bUseKissSoftInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseKissSoftInterface` bool
 
 The kiss soft interface flag
 
-`bUseAdvanced` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseAdvanced` bool
 
 The advanced flag
 
-`Color` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`Color` string
 
 The color
 
-`InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`InputArray` string\[\]
 
 The input array for create
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_GetBodyFromGeometryInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> GetBodyFromGeometryInfo\(GeometryInfoBase\)
 
@@ -225,13 +226,13 @@ bool Meshing(List<IGearBuilder> lstGB)
 
 #### Parameters
 
-`lstGB` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md)\>
+`lstGB` List<[IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md)\>
 
 The gear builder list.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_RemoveBuilder_VM_Managed_CAD_Builder_"></a> RemoveBuilder\(Builder\)
 

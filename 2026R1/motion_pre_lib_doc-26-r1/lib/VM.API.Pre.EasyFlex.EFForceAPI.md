@@ -1,4 +1,5 @@
-#  Class EFForceAPI
+# Class EFForceAPI
+<a id="VM_API_Pre_EasyFlex_EFForceAPI"></a>
 
 Namespace: [VM.API.Pre.EasyFlex](VM.API.Pre.EasyFlex.md)  
 Assembly: VM.API.Pre.EasyFlex.dll  
@@ -11,7 +12,7 @@ public static class EFForceAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EFForceAPI](VM.API.Pre.EasyFlex.EFForceAPI.md)
 
 #### Extension Methods
@@ -35,15 +36,15 @@ public static Obj CreateConcentratedLoadFaceWithColor(this SubSystemDocument sub
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create the concentrated load.
 
-`body` Obj
+`body` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The body of the concentrated load
 
-`colors` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+`colors` IEnumerable<Color\>
 
 The colors of the concentrated load.
 
@@ -51,31 +52,31 @@ The colors of the concentrated load.
 
 The direction of the concentrated load.
 
-`force` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`force` string
 
 The force of the concentrated load.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the concentrated load. If empty, default name starts with 'CLOAD_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'body', 'colors' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'direction' is 0.
 
@@ -90,11 +91,11 @@ public static Obj CreateConcentratedLoadFaceWithFaces(this SubSystemDocument sub
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create the concentrated load.
 
-`baseGeometry` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`baseGeometry` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The base geometry of the concentrated load
 
@@ -102,31 +103,31 @@ The base geometry of the concentrated load
 
 The direction of the concentrated load.
 
-`force` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`force` string
 
 The force of the concentrated load.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the concentrated load. If empty, default name starts with 'CLOAD_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseGeometry' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'direction' is 0.
 
@@ -143,11 +144,11 @@ public static Obj CreateConcentratedLoadFaceWithFaceset(this SubSystemDocument s
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create the concentrated load.
 
-`baseGeometry` Obj
+`baseGeometry` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base geometry of the concentrated load
 
@@ -155,31 +156,31 @@ The base geometry of the concentrated load
 
 The direction of the concentrated load.
 
-`force` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`force` string
 
 The force of the concentrated load.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the concentrated load. If empty, default name starts with 'CLOAD_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseGeometry' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.DAFUL.IContactableRigid3D" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'direction' is 0.
 
@@ -196,11 +197,11 @@ public static Obj CreateConcentratedLoadRange(this SubSystemDocument subSystemDo
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create the concentrated load.
 
-`body` Obj
+`body` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The body of the concentrated load
 
@@ -212,7 +213,7 @@ The point of the concentrated load.
 
 The normal direction of the concentrated load.
 
-`radius` ExpressionValueVariable?
+`radius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The radius of the concentrated load.
 
@@ -220,35 +221,35 @@ The radius of the concentrated load.
 
 The direction of the concentrated load.
 
-`force` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`force` string
 
 The force of the concentrated load.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the concentrated load. If empty, default name starts with 'CLOAD_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'body' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'normalDirectionOfRange' is 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if the magnitude of 'direction' is 0 or if the 'radius' value is equal to or less than 0.
 
@@ -265,47 +266,47 @@ public static Obj CreatePressureLoadWithColor(this SubSystemDocument subSystemDo
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create the pressure load.
 
-`body` Obj
+`body` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The body of the pressure load
 
-`colors` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+`colors` IEnumerable<Color\>
 
 The colors of the pressure load.
 
-`isNormal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isNormal` bool
 
 The flag of normal of the pressure load.
 
-`normal` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`normal` string
 
 The normal of the pressure load.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the pressure load. If empty, default name starts with 'PLOAD_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'body', 'colors' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'body' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'direction' is 0.
 
@@ -320,39 +321,39 @@ public static Obj CreatePressureLoadWithFaces(this SubSystemDocument subSystemDo
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create the pressure load.
 
-`baseGeometry` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`baseGeometry` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The base geometry of the pressure load
 
-`isNormal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isNormal` bool
 
 The flag of normal of the pressure load.
 
-`normal` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`normal` string
 
 The normal of the pressure load.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the pressure load. If empty, default name starts with 'PLOAD_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseGeometry' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
 
@@ -369,39 +370,39 @@ public static Obj CreatePressureLoadWithFaceset(this SubSystemDocument subSystem
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create the pressure load.
 
-`baseGeometry` Obj
+`baseGeometry` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base geometry of the pressure load
 
-`isNormal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isNormal` bool
 
 The flag of normal of the pressure load.
 
-`normal` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`normal` string
 
 The normal of the pressure load.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the pressure load. If empty, default name starts with 'PLOAD_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseGeometry' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.DAFUL.IContactableRigid3D" data-throw-if-not-resolved="false"></xref>.
 

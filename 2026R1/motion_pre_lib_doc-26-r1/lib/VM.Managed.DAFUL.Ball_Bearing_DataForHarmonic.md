@@ -1,4 +1,5 @@
-#  Class Ball\_Bearing\_DataForHarmonic
+# Class Ball\_Bearing\_DataForHarmonic
+<a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDHarmonicDrive.dll  
@@ -9,7 +10,7 @@ public class Ball_Bearing_DataForHarmonic
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Ball\_Bearing\_DataForHarmonic](VM.Managed.DAFUL.Ball\_Bearing\_DataForHarmonic.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public double A
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_B"></a> B
 
@@ -46,7 +47,7 @@ public double B
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_D"></a> D
 
@@ -56,7 +57,7 @@ public double D
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_DV_ball_no"></a> DV\_ball\_no
 
@@ -66,7 +67,7 @@ public int DV_ball_no
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_DV_ball_r"></a> DV\_ball\_r
 
@@ -76,7 +77,7 @@ public double DV_ball_r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_E_or"></a> E\_or
 
@@ -86,7 +87,7 @@ public double E_or
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ep_i"></a> Ep\_i
 
@@ -96,7 +97,7 @@ public double Ep_i
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ep_o"></a> Ep\_o
 
@@ -106,7 +107,7 @@ public double Ep_o
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Fa"></a> Fa
 
@@ -116,7 +117,7 @@ public double Fa
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Fr"></a> Fr
 
@@ -126,7 +127,7 @@ public double Fr
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Frho_i"></a> Frho\_i
 
@@ -136,7 +137,7 @@ public double Frho_i
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Frho_o"></a> Frho\_o
 
@@ -146,7 +147,7 @@ public double Frho_o
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ki"></a> Ki
 
@@ -156,7 +157,7 @@ public double Ki
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Kn"></a> Kn
 
@@ -166,7 +167,7 @@ public double Kn
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ko"></a> Ko
 
@@ -176,7 +177,7 @@ public double Ko
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_L"></a> L
 
@@ -186,7 +187,7 @@ public double L
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_in_groove_r"></a> PARAM\_HD\_BRG\_in\_groove\_r
 
@@ -196,7 +197,7 @@ public double PARAM_HD_BRG_in_groove_r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_in_raceway_r"></a> PARAM\_HD\_BRG\_in\_raceway\_r
 
@@ -206,7 +207,7 @@ public double PARAM_HD_BRG_in_raceway_r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_out_groove_r"></a> PARAM\_HD\_BRG\_out\_groove\_r
 
@@ -216,7 +217,7 @@ public double PARAM_HD_BRG_out_groove_r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_out_raceway_r"></a> PARAM\_HD\_BRG\_out\_raceway\_r
 
@@ -226,7 +227,7 @@ public double PARAM_HD_BRG_out_raceway_r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_raceway_in_mat_E"></a> PARAM\_HD\_BRG\_raceway\_in\_mat\_E
 
@@ -236,7 +237,7 @@ public double PARAM_HD_BRG_raceway_in_mat_E
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_raceway_in_mat_v"></a> PARAM\_HD\_BRG\_raceway\_in\_mat\_v
 
@@ -246,7 +247,7 @@ public double PARAM_HD_BRG_raceway_in_mat_v
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_ball_mat_E"></a> PARAM\_HD\_ball\_mat\_E
 
@@ -256,7 +257,7 @@ public double PARAM_HD_ball_mat_E
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_ball_mat_v"></a> PARAM\_HD\_ball\_mat\_v
 
@@ -266,7 +267,7 @@ public double PARAM_HD_ball_mat_v
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ri"></a> Ri
 
@@ -276,7 +277,7 @@ public double Ri
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Srho_i"></a> Srho\_i
 
@@ -286,7 +287,7 @@ public double Srho_i
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Srho_o"></a> Srho\_o
 
@@ -296,7 +297,7 @@ public double Srho_o
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_alpha"></a> alpha
 
@@ -306,7 +307,7 @@ public double alpha
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_alpha_zero"></a> alpha\_zero
 
@@ -316,7 +317,7 @@ public double alpha_zero
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_angle_inc"></a> angle\_inc
 
@@ -326,7 +327,7 @@ public double angle_inc
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_astar"></a> astar
 
@@ -336,7 +337,7 @@ public double astar
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_bstar"></a> bstar
 
@@ -346,7 +347,7 @@ public double bstar
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_clearance"></a> clearance
 
@@ -356,7 +357,7 @@ public double clearance
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_d_i"></a> d\_i
 
@@ -366,7 +367,7 @@ public double d_i
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_d_o"></a> d\_o
 
@@ -376,7 +377,7 @@ public double d_o
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_delta_a"></a> delta\_a
 
@@ -386,7 +387,7 @@ public double delta_a
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_delta_r"></a> delta\_r
 
@@ -396,7 +397,7 @@ public double delta_r
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_deltastar_i"></a> deltastar\_i
 
@@ -406,7 +407,7 @@ public double deltastar_i
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_deltastar_o"></a> deltastar\_o
 
@@ -416,7 +417,7 @@ public double deltastar_o
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_dm"></a> dm
 
@@ -426,7 +427,7 @@ public double dm
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_fi"></a> fi
 
@@ -436,7 +437,7 @@ public double fi
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_fo"></a> fo
 
@@ -446,7 +447,7 @@ public double fo
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_init_angle"></a> init\_angle
 
@@ -456,7 +457,7 @@ public double init_angle
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_pd"></a> pd
 
@@ -466,7 +467,7 @@ public double pd
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_theta"></a> theta
 
@@ -476,7 +477,7 @@ public double theta
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_v_or"></a> v\_or
 
@@ -486,7 +487,7 @@ public double v_or
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 

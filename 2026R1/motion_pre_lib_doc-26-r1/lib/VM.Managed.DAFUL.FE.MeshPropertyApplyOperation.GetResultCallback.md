@@ -1,4 +1,5 @@
-#  Delegate MeshPropertyApplyOperation.GetResultCallback
+# Delegate MeshPropertyApplyOperation.GetResultCallback
+<a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation_GetResultCallback"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public delegate bool MeshPropertyApplyOperation.GetResultCallback()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

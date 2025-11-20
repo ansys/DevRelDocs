@@ -1,4 +1,5 @@
-#  Enum ResultType
+# Enum ResultType
+<a id="VM_Managed_DAFUL_Beam_ResultType"></a>
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  

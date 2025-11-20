@@ -1,4 +1,5 @@
-#  Enum MarkerType
+# Enum MarkerType
+<a id="VM_CAD_Kernel_Render_MarkerType"></a>
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  

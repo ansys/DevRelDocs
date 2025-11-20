@@ -1,4 +1,5 @@
-#  Interface IPropertyGrid
+# Interface IPropertyGrid
+<a id="VM_Managed_DAFUL_Pre_IPropertyGrid"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,25 +28,25 @@ string[] Initialize(string strPropertyGridXML, string strBuilderXml, bool bStart
 
 #### Parameters
 
-`strPropertyGridXML` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyGridXML` string
 
 The property grid XML.
 
-`strBuilderXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuilderXml` string
 
 The builder XML.
 
-`bStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bStart` bool
 
 if set to <code>true</code> [create operation start].
 
-`typeOp` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`typeOp` Type
 
 The opeartion type.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 The result informations.
 
@@ -59,7 +60,7 @@ void IsDoingOperation(bool bDoingOp)
 
 #### Parameters
 
-`bDoingOp` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDoingOp` bool
 
 if set to <code>true</code> [doing operation].
 
@@ -73,11 +74,11 @@ void IsPGEnableWindow(bool b_Enable, int PickBreakPosition)
 
 #### Parameters
 
-`b_Enable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`b_Enable` bool
 
 if set to <code>true</code> [b_ enable].
 
-`PickBreakPosition` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`PickBreakPosition` int
 
 The pick break position.
 
@@ -91,13 +92,13 @@ bool PropertyApply(bool bRestart)
 
 #### Parameters
 
-`bRestart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRestart` bool
 
 if set to <code>true</code> [b restart].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The sucess state.
 
@@ -111,7 +112,7 @@ void SetBuilderData(string strBuilder)
 
 #### Parameters
 
-`strBuilder` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuilder` string
 
 The builder.
 
@@ -125,7 +126,7 @@ void SetGridData(string strBuilder)
 
 #### Parameters
 
-`strBuilder` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuilder` string
 
 ### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_SetValue_System_String___"></a> SetValue\(string\[\]\)
 
@@ -137,7 +138,7 @@ void SetValue(string[] strArResult)
 
 #### Parameters
 
-`strArResult` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`strArResult` string\[\]
 
 The result.
 
@@ -151,11 +152,11 @@ void SetValue(string strPropName, string strValue)
 
 #### Parameters
 
-`strPropName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropName` string
 
 Name of the prop.
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value.
 
@@ -169,15 +170,15 @@ void SetValue(string strPropName, string strContent, string strResult)
 
 #### Parameters
 
-`strPropName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropName` string
 
 Name of the prop.
 
-`strContent` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strContent` string
 
 Content of the prop.
 
-`strResult` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResult` string
 
 The result.
 
@@ -199,7 +200,7 @@ void UpdateDocumentInfo(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The XML.
 

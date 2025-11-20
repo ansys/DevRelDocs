@@ -1,11 +1,12 @@
-#  Interface IOperationsCSYSViewModel
+# Interface IOperationsCSYSViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsCSYSViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Interface representing information for the coordinate system view model.
 
-```python
+```csharp
 public interface IOperationsCSYSViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsCSYSViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsCSYSViewModel.py
+```python
+# IOperationsCSYSViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,9 +37,12 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -49,13 +56,15 @@ for page in pages :
 viewCount = len(findViews)
 if viewCount > 0 :
     animationview = findViews[0]
+    # Create a Coordinate System
     # Name - Set the name of instance.
     # ParentInfo - Specifies The path of an parent entity.
     animationview.CreateCoordinateSystem("Crank_CSYS", "Crank")
     animationview.CreateCoordinateSystem("Crank_CM_CSYS", "Crank/CM")
     animationview.CreateCoordinateSystem("FEBody_01_CSYS", "FEBody_01/Node/487")
 
-    # Get instance of entity view model
+    # Get instance of entity
+    # The GetViewModelByName method retrieves the target by its name.
     csys = animationview.GetViewModelByName("Crank_CSYS")
     csys.FullName = "Crank_002_CSYS"
     csys.MarkerSize = 10
@@ -81,14 +90,15 @@ if viewCount > 0 :
         csys.SphericalAxis1 = CoordinateType.X
         csys.SphericalAxis2 = CoordinateType.Y
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -96,7 +106,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the type of the coordinate system.
 
-```python
+```csharp
 GeneralMarkerType CurrentCoordinateSystemType { get; set; }
 ```
 
@@ -119,7 +129,7 @@ The available options are:
 
 Gets or sets the Axis R value for a cylindrical coordinate system.
 
-```python
+```csharp
 CoordinateType CylindricalAxisR { get; set; }
 ```
 
@@ -142,7 +152,7 @@ The available options are:
 
 Gets or sets the Axis Z value for a cylindrical coordinate system.
 
-```python
+```csharp
 CoordinateType CylindricalAxisZ { get; set; }
 ```
 
@@ -165,13 +175,13 @@ The available options are:
 
 Gets or sets the full name of the coordinate system.
 
-```python
+```csharp
 string FullName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -185,13 +195,13 @@ Use this property to specify or retrieve the full name of the coordinate system.
 
 Gets or sets a value indicating whether the marker is visible.
 
-```python
+```csharp
 bool IsVisible { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -206,13 +216,13 @@ In the UI, this property is represented under the "Marker" category with the pro
 
 Gets or sets a value indicating whether the label is visible.
 
-```python
+```csharp
 bool IsVisibleLabel { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -227,13 +237,13 @@ In the UI, this property is represented under the "Label" category with the prop
 
 Gets or sets a value indicating whether the background color of the label is visible.
 
-```python
+```csharp
 bool IsVisibleLabelBackground { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -248,13 +258,13 @@ In the UI, this property is represented under the "Label" category with the prop
 
 Gets or sets a value indicating whether the trajectory is visible.
 
-```python
+```csharp
 bool IsVisibleTrajectory { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -269,13 +279,13 @@ In the UI, this property is represented under the "Trajectory" category with the
 
 Gets or sets the background color of the label.
 
-```python
+```csharp
 Color LabelBackGroundColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -290,13 +300,13 @@ In the UI, this property is represented under the "Label" category with the prop
 
 Gets or sets the font color of the label.
 
-```python
+```csharp
 Color LabelTextColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -311,13 +321,13 @@ In the UI, this property is represented under the "Label" category with the prop
 
 Gets or sets the size of the marker.
 
-```python
+```csharp
 double MarkerSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -331,13 +341,13 @@ This property allows you to set the size of the marker.
 
 Gets or sets the parent information of the coordinate system.
 
-```python
+```csharp
 string ParentInfo { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -351,7 +361,7 @@ Use this property to specify or retrieve the information about the parent that c
 
 Gets or sets the Axis ρ value for a spherical coordinate system.
 
-```python
+```csharp
 CoordinateType SphericalAxis1 { get; set; }
 ```
 
@@ -374,7 +384,7 @@ The available options are:
 
 Gets or sets the Axis Ø value for a spherical coordinate system.
 
-```python
+```csharp
 CoordinateType SphericalAxis2 { get; set; }
 ```
 
@@ -397,13 +407,13 @@ The available options are:
 
 Gets or sets the trajectory color of the marker.
 
-```python
+```csharp
 Color TrajectoryColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -419,7 +429,7 @@ In the UI, this property is represented under the "Trajectory" category with the
 
 Gets or sets the offset angle vector relative to the reference orientation.
 
-```python
+```csharp
 Vector TransformationOffsetAngle { get; set; }
 ```
 
@@ -441,7 +451,7 @@ which affect how the offset is calculated. Additionally, the offset is influence
 
 Gets or sets the offset position vector relative to a specified reference position.
 
-```python
+```csharp
 Vector TransformationOffsetPosition { get; set; }
 ```
 
@@ -461,7 +471,7 @@ This property adjusts the position by applying the specified offset to the refer
 
 Gets or sets the rotation axis used for applying rotational transformations.
 
-```python
+```csharp
 RotationAxes TransformationOffsetRotationAxis { get; set; }
 ```
 
@@ -485,7 +495,7 @@ The available options are:
 
 Gets or sets the type of rotation used for applying rotational transformations.
 
-```python
+```csharp
 RotationTypes TransformationOffsetRotationType { get; set; }
 ```
 
@@ -503,5 +513,4 @@ This property determines how rotational transformations are applied by specifyin
 It allows you to choose between different rotation types, such as Euler angles or fixed angles, depending on the requirements of the transformation process.
 The available options are:
 <ul><li><xref href="VM.Models.Post.RotationTypes.EulerAngle" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.RotationTypes.FixedAngle" data-throw-if-not-resolved="false"></xref></li></ul>
-
 

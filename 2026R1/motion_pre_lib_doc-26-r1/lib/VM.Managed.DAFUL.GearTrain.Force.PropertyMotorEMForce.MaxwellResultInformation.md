@@ -1,4 +1,5 @@
-#  Class PropertyMotorEMForce.MaxwellResultInformation
+# Class PropertyMotorEMForce.MaxwellResultInformation
+<a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -9,7 +10,7 @@ public class PropertyMotorEMForce.MaxwellResultInformation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PropertyMotorEMForce.MaxwellResultInformation](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.MaxwellResultInformation.md)
 
 #### Extension Methods
@@ -86,7 +87,7 @@ public string RPMRange { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_RotorForce"></a> RotorForce
 

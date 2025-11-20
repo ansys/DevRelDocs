@@ -1,4 +1,5 @@
-#  Interface IGapTarget
+# Interface IGapTarget
+<a id="VM_Managed_DAFUL_IGapTarget"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -27,7 +28,7 @@ ExpressionValueVariable Gap { get; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -41,7 +42,7 @@ void SetGap(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value
 

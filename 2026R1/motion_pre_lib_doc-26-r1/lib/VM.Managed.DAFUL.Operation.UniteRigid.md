@@ -1,4 +1,5 @@
-#  Class UniteRigid
+# Class UniteRigid
+<a id="VM_Managed_DAFUL_Operation_UniteRigid"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class UniteRigid : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UniteRigid](VM.Managed.DAFUL.Operation.UniteRigid.md)
 
@@ -97,7 +98,7 @@ public UniteRigid(IDocument doc, IEnumerable<IObject> selectedBody)
 
 `doc` IDocument
 
-`selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+`selectedBody` IEnumerable<IObject\>
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteRigid__ctor_VM_Managed_Operation_JournalParameter_"></a> UniteRigid\(JournalParameter\)
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Operation_UniteRigid_SelectedBody"></a> SelectedBody
 
@@ -131,7 +132,7 @@ public IList<SolidBody> SelectedBody { get; set; }
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<SolidBody\>
+ IList<[SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)\>
 
 ## Methods
 
@@ -151,5 +152,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

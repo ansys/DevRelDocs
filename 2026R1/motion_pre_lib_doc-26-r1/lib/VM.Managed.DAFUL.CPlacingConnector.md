@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.CPlacingConnector
+# Namespace VM.Managed.DAFUL.CPlacingConnector
+<a id="VM_Managed_DAFUL_CPlacingConnector"></a>
 
 ### Namespaces
 

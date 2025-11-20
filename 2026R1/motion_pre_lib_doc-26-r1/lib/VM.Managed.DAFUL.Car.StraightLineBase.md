@@ -1,4 +1,5 @@
-#  Class StraightLineBase
+# Class StraightLineBase
+<a id="VM_Managed_DAFUL_Car_StraightLineBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class StraightLineBase : FullCarAnalysisBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [StraightLineBase](VM.Managed.DAFUL.Car.StraightLineBase.md)
@@ -83,7 +84,7 @@ public double InitialVelocity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_StraightLineBase_TimeOfStart"></a> TimeOfStart
 
@@ -95,7 +96,7 @@ public double TimeOfStart { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_StraightLineBase_VelocityUnitType"></a> VelocityUnitType
 
@@ -121,7 +122,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

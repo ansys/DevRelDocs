@@ -1,4 +1,5 @@
-#  Class SolidSphereSimple
+# Class SolidSphereSimple
+<a id="VM_Managed_DAFUL_Builder_SolidSphereSimple"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class SolidSphereSimple : Solid<BuilderSphereSimple>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<Body\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [Solid<BuilderSphereSimple\>](VM.Managed.DAFUL.Builder.Solid\-1.md) ← 
 [SolidSphereSimple](VM.Managed.DAFUL.Builder.SolidSphereSimple.md)

@@ -1,4 +1,5 @@
-#  Interface ISymmetricUpdater
+# Interface ISymmetricUpdater
+<a id="VM_Managed_Symmetric_ISymmetricUpdater"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -33,7 +34,7 @@ The Symmetric Manager.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -69,7 +70,7 @@ update document.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

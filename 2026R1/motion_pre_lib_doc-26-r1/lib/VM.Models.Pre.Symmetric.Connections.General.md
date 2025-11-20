@@ -1,4 +1,5 @@
-#  Class General
+# Class General
+<a id="VM_Models_Pre_Symmetric_Connections_General"></a>
 
 Namespace: [VM.Models.Pre.Symmetric.Connections](VM.Models.Pre.Symmetric.Connections.md)  
 Assembly: VM.Models.Pre.Symmetric.Connections.dll  
@@ -9,10 +10,10 @@ public class General : Constraint<General, PropertyGeneral>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<General\> ← 
-Connector<General, PropertyGeneral\> ← 
-Constraint<General, PropertyGeneral\> ← 
+object ← 
+[Named<General\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<General, PropertyGeneral\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
+[Constraint<General, PropertyGeneral\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymCB/Constraint.cs) ← 
 [General](VM.Models.Pre.Symmetric.Connections.General.md)
 
 #### Implements
@@ -21,12 +22,12 @@ ISymmetricUpdater
 
 #### Inherited Members
 
-Constraint<General, PropertyGeneral\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Connector<General, PropertyGeneral\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<General\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<General\>.Initialize\(ISymmetricManager\), 
-Named<General\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<General\>.SymmetricManager
+[Constraint<General, PropertyGeneral\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymCB/Constraint.cs), 
+[Connector<General, PropertyGeneral\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<General\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<General\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<General\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<General\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

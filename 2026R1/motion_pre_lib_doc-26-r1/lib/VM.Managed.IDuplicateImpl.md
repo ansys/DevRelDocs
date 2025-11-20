@@ -1,4 +1,5 @@
-#  Class IDuplicateImpl
+# Class IDuplicateImpl
+<a id="VM_Managed_IDuplicateImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -9,7 +10,7 @@ public class IDuplicateImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IDuplicateImpl](VM.Managed.IDuplicateImpl.md)
 
 #### Extension Methods

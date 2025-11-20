@@ -1,4 +1,5 @@
-#  Class BodyPropertyBase.InitialVelocity
+# Class BodyPropertyBase.InitialVelocity
+<a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class BodyPropertyBase.InitialVelocity : LinkContainer, IObservableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [BodyPropertyBase.InitialVelocity](VM.Managed.DAFUL.BodyPropertyBase.InitialVelocity.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -130,7 +131,7 @@ public bool IsUseRotRM { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_IsUseRotVelocity"></a> IsUseRotVelocity
 
@@ -142,7 +143,7 @@ public bool IsUseRotVelocity { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_IsUseTraRM"></a> IsUseTraRM
 
@@ -154,7 +155,7 @@ public bool IsUseTraRM { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_IsUseTraVelocity"></a> IsUseTraVelocity
 
@@ -166,7 +167,7 @@ public bool IsUseTraVelocity { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotReferenceMarker"></a> RotReferenceMarker
 
@@ -191,7 +192,7 @@ public ExpressionValueVariable RotX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotY"></a> RotY
 
@@ -203,7 +204,7 @@ public ExpressionValueVariable RotY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotZ"></a> RotZ
 
@@ -215,7 +216,7 @@ public ExpressionValueVariable RotZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotationnalReferenceMarker"></a> RotationnalReferenceMarker
 
@@ -252,7 +253,7 @@ public ExpressionValueVariable TraX { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TraY"></a> TraY
 
@@ -264,7 +265,7 @@ public ExpressionValueVariable TraY { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TraZ"></a> TraZ
 
@@ -276,7 +277,7 @@ public ExpressionValueVariable TraZ { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TranslationalReferenceMarker"></a> TranslationalReferenceMarker
 
@@ -326,7 +327,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

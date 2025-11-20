@@ -1,4 +1,5 @@
-#  Class PropertyCreateInfo.PageInfo
+# Class PropertyCreateInfo.PageInfo
+<a id="VM_Managed_PropertyCreateInfo_PageInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class PropertyCreateInfo.PageInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PropertyCreateInfo.PageInfo](VM.Managed.PropertyCreateInfo.PageInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public string Assembly
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_PropertyCreateInfo_PageInfo_Name"></a> Name
 
@@ -52,7 +53,7 @@ public string Name
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_PropertyCreateInfo_PageInfo_Page"></a> Page
 
@@ -64,7 +65,7 @@ public string Page
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_PropertyCreateInfo_PageInfo_XPath"></a> XPath
 
@@ -76,5 +77,5 @@ public string XPath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

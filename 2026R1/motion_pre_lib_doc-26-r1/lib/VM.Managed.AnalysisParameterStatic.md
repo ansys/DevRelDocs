@@ -1,4 +1,5 @@
-#  Class AnalysisParameterStatic
+# Class AnalysisParameterStatic
+<a id="VM_Managed_AnalysisParameterStatic"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class AnalysisParameterStatic : AnalysisParameterDynamic
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisParameterDynamic](VM.Managed.AnalysisParameterDynamic.md) ← 
 [AnalysisParameterStatic](VM.Managed.AnalysisParameterStatic.md)
 
@@ -63,7 +64,7 @@ public int MaximumInterGlobalLoop { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_AnalysisParameterStatic_OutputFileFlag"></a> OutputFileFlag
 
@@ -75,7 +76,7 @@ public bool OutputFileFlag { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AnalysisParameterStatic_SkipInitialResult"></a> SkipInitialResult
 
@@ -85,7 +86,7 @@ public bool SkipInitialResult { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AnalysisParameterStatic_TypeForSolving"></a> TypeForSolving
 
@@ -121,7 +122,7 @@ public bool UseLinearAnalysis { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AnalysisParameterStatic_UseNonLinearAnalysisWithoutRigidMode"></a> UseNonLinearAnalysisWithoutRigidMode
 
@@ -133,5 +134,5 @@ public bool UseNonLinearAnalysisWithoutRigidMode { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Class GetProperConnector
+# Class GetProperConnector
+<a id="VM_Managed_DAFUL_Operation_GetProperConnector"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class GetProperConnector : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [GetProperConnector](VM.Managed.DAFUL.Operation.GetProperConnector.md)
 
@@ -87,13 +88,13 @@ public GetProperConnector(IDocument doc, bool bAuto, Body bodyFirst, Body bodySe
 
 `doc` IDocument
 
-`bAuto` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAuto` bool
 
 `bodyFirst` Body
 
 `bodySecond` Body
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 ## Properties
 
@@ -115,7 +116,7 @@ public ICollection<int> ActionFaceIDs { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ ICollection<int\>
 
 ### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_ActionPosition"></a> ActionPosition
 
@@ -125,7 +126,7 @@ public double[] ActionPosition { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_BaseBody"></a> BaseBody
 
@@ -145,7 +146,7 @@ public ICollection<int> BaseFaceIDs { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ ICollection<int\>
 
 ### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_BasePosition"></a> BasePosition
 
@@ -155,7 +156,7 @@ public double[] BasePosition { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_CenterPosition"></a> CenterPosition
 
@@ -165,7 +166,7 @@ public double[] CenterPosition { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_ConnectorType"></a> ConnectorType
 
@@ -185,7 +186,7 @@ public double[] Direction { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -195,7 +196,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_Name"></a> Name
 
@@ -207,7 +208,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

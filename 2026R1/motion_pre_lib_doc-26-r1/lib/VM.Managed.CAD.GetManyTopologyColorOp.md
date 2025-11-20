@@ -1,4 +1,5 @@
-#  Class GetManyTopologyColorOp
+# Class GetManyTopologyColorOp
+<a id="VM_Managed_CAD_GetManyTopologyColorOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetManyTopologyColorOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetManyTopologyColorOp](VM.Managed.CAD.GetManyTopologyColorOp.md)
 
@@ -85,7 +86,7 @@ public GetManyTopologyColorOp(IEnumerable<Topology> topologies)
 
 #### Parameters
 
-`topologies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Topology](VM.Managed.CAD.Topology.md)\>
+`topologies` IEnumerable<[Topology](VM.Managed.CAD.Topology.md)\>
 
 ## Properties
 
@@ -99,7 +100,7 @@ public Dictionary<UIntPtr, Color> Colors { get; }
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr), [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+ Dictionary<UIntPtr, Color\>
 
 ### <a id="VM_Managed_CAD_GetManyTopologyColorOp_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -111,7 +112,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_GetManyTopologyColorOp_Name"></a> Name
 
@@ -123,7 +124,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_GetManyTopologyColorOp_Result"></a> Result
 
@@ -135,7 +136,7 @@ public bool Result { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

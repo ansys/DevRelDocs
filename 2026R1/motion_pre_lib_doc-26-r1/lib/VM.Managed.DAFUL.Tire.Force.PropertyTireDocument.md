@@ -1,4 +1,5 @@
-#  Class PropertyTireDocument
+# Class PropertyTireDocument
+<a id="VM_Managed_DAFUL_Tire_Force_PropertyTireDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -11,15 +12,15 @@ public class PropertyTireDocument : ForcePropertyDocument<PropertyTireFile>, IOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 Document ← 
-PropertyDocumentBase ← 
-PropertyDocument<PropertyTireFile\> ← 
-ForcePropertyDocument<PropertyTireFile\> ← 
+[PropertyDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs) ← 
+[PropertyDocument<PropertyTireFile\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs) ← 
+[ForcePropertyDocument<PropertyTireFile\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs) ← 
 [PropertyTireDocument](VM.Managed.DAFUL.Tire.Force.PropertyTireDocument.md)
 
 #### Implements
@@ -38,7 +39,7 @@ IOwned,
 IHasID, 
 IEnableManager, 
 IRelatedDocument, 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IPropertyDocument, 
 IUnitChange, 
 IXMLFormatable, 
@@ -46,54 +47,54 @@ IForcePropertyDocument
 
 #### Inherited Members
 
-ForcePropertyDocument<PropertyTireFile\>.FindLocal\(string\), 
-ForcePropertyDocument<PropertyTireFile\>.AddImpl\(ObjectBase\), 
-ForcePropertyDocument<PropertyTireFile\>.IsTypeSupported\(Type\), 
-ForcePropertyDocument<PropertyTireFile\>.IsEnabledImpl\(ObjectBase\), 
-ForcePropertyDocument<PropertyTireFile\>.SetEnableImpl\(ObjectBase, bool\), 
-ForcePropertyDocument<PropertyTireFile\>.UpdateEnable\(ObjectBase, bool\), 
-ForcePropertyDocument<PropertyTireFile\>.OnPostMakeDocument\(DocCreateInfo\), 
-PropertyDocument<PropertyTireFile\>.Save\(TextWriter\), 
-PropertyDocument<PropertyTireFile\>.Load\(TextReader\), 
-PropertyDocument<PropertyTireFile\>.OnPostMakeDocument\(DocCreateInfo\), 
-PropertyDocument<PropertyTireFile\>.Property, 
-PropertyDocument<PropertyTireFile\>.UntypedProperty, 
-PropertyDocument<PropertyTireFile\>.UntypedPropertyOwner, 
-PropertyDocument<PropertyTireFile\>.FilePropertyOwner, 
-PropertyDocument<PropertyTireFile\>.PropertyType, 
-PropertyDocumentBase.Save\(string\), 
-PropertyDocumentBase.SerializeObj<T\>\(XmlWriter, T, string\), 
-PropertyDocumentBase.DeserializeObj<T\>\(XmlReader, string, Type\), 
-PropertyDocumentBase.Save\(TextWriter\), 
-PropertyDocumentBase.Save\(Stream\), 
-PropertyDocumentBase.Load\(string\), 
-PropertyDocumentBase.Load\(TextReader\), 
-PropertyDocumentBase.Load\(Stream\), 
-PropertyDocumentBase.SetUnit\(Unit\), 
-PropertyDocumentBase.AddReferenceDocument\(Document\), 
-PropertyDocumentBase.RemoveReferenceDocument\(Document\), 
-PropertyDocumentBase.FindLocal\(string\), 
-PropertyDocumentBase.Add\(ObjectBase\), 
-PropertyDocumentBase.OnPostAdd\(ObjectBase\), 
-PropertyDocumentBase.AddImpl\(ObjectBase\), 
-PropertyDocumentBase.IsTypeSupported\(Type\), 
-PropertyDocumentBase.OnDeserialization\(object\), 
-PropertyDocumentBase.CreateView\(UIntPtr\), 
-PropertyDocumentBase.TriggerPostMakeDocument\(PropertyDocCreateInfo\), 
-PropertyDocumentBase.OnPostMakeDocument\(DocCreateInfo\), 
-PropertyDocumentBase.GetData\(XmlNode\), 
-PropertyDocumentBase.SetData\(XmlNode\), 
-PropertyDocumentBase.Reload, 
-PropertyDocumentBase.UntypedProperty, 
-PropertyDocumentBase.PropertyType, 
-PropertyDocumentBase.Modified, 
-PropertyDocumentBase.UntypedPropertyOwner, 
-PropertyDocumentBase.DocumentSessionOverride, 
-PropertyDocumentBase.SetDocumentSessionOverride, 
-PropertyDocumentBase.OwnedList, 
-PropertyDocumentBase.OwnedCollection, 
-PropertyDocumentBase.CanClose, 
-PropertyDocumentBase.IsPropertySupport, 
+[ForcePropertyDocument<PropertyTireFile\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs), 
+[ForcePropertyDocument<PropertyTireFile\>.AddImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs), 
+[ForcePropertyDocument<PropertyTireFile\>.IsTypeSupported\(Type\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs), 
+[ForcePropertyDocument<PropertyTireFile\>.IsEnabledImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs), 
+[ForcePropertyDocument<PropertyTireFile\>.SetEnableImpl\(ObjectBase, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs), 
+[ForcePropertyDocument<PropertyTireFile\>.UpdateEnable\(ObjectBase, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs), 
+[ForcePropertyDocument<PropertyTireFile\>.OnPostMakeDocument\(DocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/ForcePropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.Save\(TextWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.Load\(TextReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.OnPostMakeDocument\(DocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.UntypedPropertyOwner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.FilePropertyOwner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<PropertyTireFile\>.PropertyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Save\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SerializeObj<T\>\(XmlWriter, T, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.DeserializeObj<T\>\(XmlReader, string, Type\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Save\(TextWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Save\(Stream\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Load\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Load\(TextReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Load\(Stream\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SetUnit\(Unit\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.AddReferenceDocument\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.RemoveReferenceDocument\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Add\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OnPostAdd\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.AddImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.IsTypeSupported\(Type\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.CreateView\(UIntPtr\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.TriggerPostMakeDocument\(PropertyDocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OnPostMakeDocument\(DocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.GetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Reload](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.PropertyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Modified](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.UntypedPropertyOwner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.DocumentSessionOverride](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SetDocumentSessionOverride](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OwnedList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OwnedCollection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.CanClose](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.IsPropertySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
 Document.g\_OpenDocuments, 
 Document.m\_unit, 
 Document.m\_unitKernal, 
@@ -288,7 +289,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 

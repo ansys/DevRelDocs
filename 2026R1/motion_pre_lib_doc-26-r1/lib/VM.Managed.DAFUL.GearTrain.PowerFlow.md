@@ -1,4 +1,5 @@
-#  Class PowerFlow
+# Class PowerFlow
+<a id="VM_Managed_DAFUL_GearTrain_PowerFlow"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class PowerFlow : LinkContainer, IObservableObject, IDisposableObject, IL
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [PowerFlow](VM.Managed.DAFUL.GearTrain.PowerFlow.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -130,7 +131,7 @@ public double DurationValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_EndTimeValue"></a> EndTimeValue
 
@@ -142,7 +143,7 @@ public double EndTimeValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GearPairs"></a> GearPairs
 
@@ -158,7 +159,7 @@ public GearPair[] GearPairs { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 GearSet list is null.
             or
@@ -176,7 +177,7 @@ public double InputEndSpeedValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputPowerFilePath"></a> InputPowerFilePath
 
@@ -188,7 +189,7 @@ public string InputPowerFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputPowerValue"></a> InputPowerValue
 
@@ -200,7 +201,7 @@ public double InputPowerValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputShaftSet"></a> InputShaftSet
 
@@ -228,7 +229,7 @@ public InputShaftSetInfo[] InputShaftSetInfos { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 InputShaftSetInfo list is null.
 or
@@ -246,7 +247,7 @@ public string InputSpeedFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputStartSpeedValue"></a> InputStartSpeedValue
 
@@ -258,7 +259,7 @@ public double InputStartSpeedValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_IsExternable"></a> IsExternable
 
@@ -270,7 +271,7 @@ public override bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_IsUseCW"></a> IsUseCW
 
@@ -282,7 +283,7 @@ public bool IsUseCW { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_MaxTorqueValue"></a> MaxTorqueValue
 
@@ -294,7 +295,7 @@ public double MaxTorqueValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_NameOfResult"></a> NameOfResult
 
@@ -306,7 +307,7 @@ public string NameOfResult { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_NumberOfInterpolation"></a> NumberOfInterpolation
 
@@ -318,7 +319,7 @@ public double NumberOfInterpolation { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_OutputShaftSetInfos"></a> OutputShaftSetInfos
 
@@ -334,7 +335,7 @@ public OutputShaftSetInfo[] OutputShaftSetInfos { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 OutputShaftSetInfo list is null.
 or
@@ -352,7 +353,7 @@ public uint SamplingFrequencyValue { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_TMScenarioFile"></a> TMScenarioFile
 
@@ -364,7 +365,7 @@ public string TMScenarioFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_TypeOfSimulation"></a> TypeOfSimulation
 
@@ -400,7 +401,7 @@ public string VehicleSimulatorResultFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow__InputShaftSet"></a> \_InputShaftSet
 
@@ -492,13 +493,13 @@ public static SplineValue GetInputSplineValue(Document3D doc, (string, SplineVal
 
 `doc` Document3D
 
-`splineTuple` \([string](https://learn.microsoft.com/dotnet/api/system.string), SplineValue\)\[\]
+`splineTuple` \(string, [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\)\[\]
 
-`strShaftSet` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strShaftSet` string
 
 #### Returns
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GetOutputSplineValue_VM_Managed_Document3D_System_ValueTuple_System_String_VM_Managed_DAFUL_SplineValue____System_String_"></a> GetOutputSplineValue\(Document3D, \(string, SplineValue\)\[\], string\)
 
@@ -510,13 +511,13 @@ public static SplineValue GetOutputSplineValue(Document3D doc, (string, SplineVa
 
 `doc` Document3D
 
-`splineTuple` \([string](https://learn.microsoft.com/dotnet/api/system.string), SplineValue\)\[\]
+`splineTuple` \(string, [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\)\[\]
 
-`strShaftSet` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strShaftSet` string
 
 #### Returns
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GetSplineValueFromResultFile_System_String_"></a> GetSplineValueFromResultFile\(string\)
 
@@ -528,11 +529,11 @@ public static (string, SplineValue)[] GetSplineValueFromResultFile(string strRes
 
 #### Parameters
 
-`strResultScenarioFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultScenarioFile` string
 
 #### Returns
 
- \([string](https://learn.microsoft.com/dotnet/api/system.string), SplineValue\)\[\]
+ \(string, [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\)\[\]
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GetSplineValueWithPowerLoad_System_ValueTuple_System_String_VM_Managed_DAFUL_SplineValue____System_String_"></a> GetSplineValueWithPowerLoad\(\(string, SplineValue\)\[\], string\)
 
@@ -544,17 +545,17 @@ public static SplineValue GetSplineValueWithPowerLoad((string, SplineValue)[] sp
 
 #### Parameters
 
-`splineTuple` \([string](https://learn.microsoft.com/dotnet/api/system.string), SplineValue\)\[\]
+`splineTuple` \(string, [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\)\[\]
 
 The spline tuple
 
-`strPowerLoad` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPowerLoad` string
 
 The power load name
 
 #### Returns
 
- SplineValue
+ [SplineValue](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
@@ -566,7 +567,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

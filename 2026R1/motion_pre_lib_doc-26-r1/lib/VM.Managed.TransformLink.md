@@ -1,4 +1,5 @@
-#  Class TransformLink
+# Class TransformLink
+<a id="VM_Managed_TransformLink"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -6,14 +7,14 @@ Assembly: VMAppCore.dll
 This class is to represent information of orientation through Design Frame and Design Point.
 
 ```csharp
-public class TransformLink : TransformBase, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IExpression, ITransformBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IReservable
+public class TransformLink : TransformBase, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IExpression, ITransformBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasReplaceableEntity, IReservable
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Expression](VM.Managed.Expression.md) ← 
 [TransformBase](VM.Managed.TransformBase.md) ← 
@@ -33,6 +34,7 @@ ILinkContainer,
 IOwned, 
 IHasID, 
 IEventProvider, 
+IHasReplaceableEntity, 
 IReservable
 
 #### Inherited Members
@@ -42,6 +44,8 @@ IReservable
 [TransformBase.ReadXml\(XmlReader\)](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_ReadXml\_System\_Xml\_XmlReader\_), 
 [TransformBase.WriteXml\(XmlWriter\)](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_WriteXml\_System\_Xml\_XmlWriter\_), 
 [TransformBase.GetSchema\(\)](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_GetSchema), 
+[TransformBase.HasReplaceableEntity\(IObjectBase\)](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_HasReplaceableEntity\_VM\_Models\_Pre\_IObjectBase\_), 
+[TransformBase.ReplaceEntity\(IObjectBase, IObjectBase\)](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_ReplaceEntity\_VM\_Models\_Pre\_IObjectBase\_VM\_Models\_Pre\_IObjectBase\_), 
 [TransformBase.UseExpression](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_UseExpression), 
 [TransformBase.RotationAngles](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_RotationAngles), 
 [TransformBase.RotationAxis](VM.Managed.TransformBase.md\#VM\_Managed\_TransformBase\_RotationAxis), 
@@ -114,7 +118,7 @@ IReservable
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -181,7 +185,7 @@ public override bool IsParameterized { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_TransformLink_LinkTransform"></a> LinkTransform
 
@@ -258,7 +262,27 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
+
+### <a id="VM_Managed_TransformLink_HasReplaceableEntity_VM_Models_Pre_IObjectBase_"></a> HasReplaceableEntity\(IObjectBase\)
+
+Gets a value indicating whether this instance has replacable entity.
+
+```csharp
+public override bool HasReplaceableEntity(IObjectBase oldObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+#### Returns
+
+ bool
+
+if this instance has replacable entity, the result is true.
 
 ### <a id="VM_Managed_TransformLink_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
@@ -270,7 +294,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -286,9 +310,33 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
+
+### <a id="VM_Managed_TransformLink_ReplaceEntity_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_"></a> ReplaceEntity\(IObjectBase, IObjectBase\)
+
+Replace Entity
+
+```csharp
+public override bool ReplaceEntity(IObjectBase oldObject, IObjectBase newObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+`newObject` IObjectBase
+
+The new object
+
+#### Returns
+
+ bool
+
+if success, the result is true.
 
 ### <a id="VM_Managed_TransformLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -300,7 +348,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

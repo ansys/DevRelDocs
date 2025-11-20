@@ -1,4 +1,5 @@
-#  Class ControlDocCreateInfo
+# Class ControlDocCreateInfo
+<a id="VM_Managed_ControlDocCreateInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ControlDocCreateInfo : DocCreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocCreateInfo](VM.Managed.DocCreateInfo.md) ← 
 [ControlDocCreateInfo](VM.Managed.ControlDocCreateInfo.md)
 

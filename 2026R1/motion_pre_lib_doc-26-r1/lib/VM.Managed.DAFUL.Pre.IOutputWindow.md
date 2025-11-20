@@ -1,4 +1,5 @@
-#  Interface IOutputWindow
+# Interface IOutputWindow
+<a id="VM_Managed_DAFUL_Pre_IOutputWindow"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,11 +28,11 @@ void AddMessage(string strOutputName, string strMessage)
 
 #### Parameters
 
-`strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutputName` string
 
 Name of the output.
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The message.
 
@@ -45,7 +46,7 @@ void ClearMessage(string strOutputName)
 
 #### Parameters
 
-`strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutputName` string
 
 ### <a id="VM_Managed_DAFUL_Pre_IOutputWindow_ReadAllTextFromFile_System_String_System_String_System_Boolean_"></a> ReadAllTextFromFile\(string, string, bool\)
 
@@ -57,15 +58,15 @@ void ReadAllTextFromFile(string strOutputName, string strFileName, bool bDeleteF
 
 #### Parameters
 
-`strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutputName` string
 
 Name of the output.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
-`bDeleteFile` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDeleteFile` bool
 
 if set to <code>true</code> [delete file].
 
@@ -79,11 +80,11 @@ void ReportFile(string strOutputName, string strFileName)
 
 #### Parameters
 
-`strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutputName` string
 
 Name of the output.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
@@ -97,7 +98,7 @@ void StopReportFile(string strOutputName)
 
 #### Parameters
 
-`strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutputName` string
 
 Name of the output.
 

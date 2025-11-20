@@ -1,4 +1,5 @@
-#  Class GetBodyNameAttributeOp
+# Class GetBodyNameAttributeOp
+<a id="VM_Managed_CAD_GetBodyNameAttributeOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetBodyNameAttributeOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetBodyNameAttributeOp](VM.Managed.CAD.GetBodyNameAttributeOp.md)
 
@@ -99,7 +100,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_GetBodyNameAttributeOp_Result"></a> Result
 
@@ -111,7 +112,7 @@ public string Result { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

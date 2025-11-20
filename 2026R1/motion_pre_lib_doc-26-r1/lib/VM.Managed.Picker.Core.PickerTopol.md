@@ -1,4 +1,5 @@
-#  Class PickerTopol
+# Class PickerTopol
+<a id="VM_Managed_Picker_Core_PickerTopol"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class PickerTopol : PickerBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerTopol](VM.Managed.Picker.Core.PickerTopol.md)
 

@@ -1,4 +1,5 @@
-#  Class SettingUISectionHandler
+# Class SettingUISectionHandler
+<a id="VM_Managed_DAFUL_Pre_SettingUISectionHandler"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class SettingUISectionHandler
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SettingUISectionHandler](VM.Managed.DAFUL.Pre.SettingUISectionHandler.md)
 
 #### Extension Methods

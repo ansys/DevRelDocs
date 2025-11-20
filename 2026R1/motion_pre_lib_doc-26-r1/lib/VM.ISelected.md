@@ -1,4 +1,5 @@
-#  Interface ISelected
+# Interface ISelected
+<a id="VM_ISelected"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,5 +24,5 @@ bool IsSelected { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

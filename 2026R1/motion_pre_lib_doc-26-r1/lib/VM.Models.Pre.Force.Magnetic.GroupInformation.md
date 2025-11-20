@@ -1,4 +1,5 @@
-#  Class Magnetic.GroupInformation
+# Class Magnetic.GroupInformation
+<a id="VM_Models_Pre_Force_Magnetic_GroupInformation"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -11,9 +12,9 @@ public class Magnetic.GroupInformation : LinkContainer, IObservableObject, IDisp
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [Magnetic.GroupInformation](VM.Models.Pre.Force.Magnetic.GroupInformation.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -114,7 +115,7 @@ public GroupInformation(Group group)
 
 #### Parameters
 
-`group` Group
+`group` [Group](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs)
 
 The group.
 
@@ -128,7 +129,7 @@ public GroupInformation(Group group, IMarker coordinateSystem)
 
 #### Parameters
 
-`group` Group
+`group` [Group](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs)
 
 The group.
 
@@ -160,7 +161,7 @@ public Group Group { get; set; }
 
 #### Property Value
 
- Group
+ [Group](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs)
 
 ### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation__CoordinateSystem"></a> \_CoordinateSystem
 
@@ -186,7 +187,7 @@ public bool CheckCoordinateWithGroup()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The success flag
 

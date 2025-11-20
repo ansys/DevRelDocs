@@ -1,4 +1,5 @@
-#  Class CreateNodeset
+# Class CreateNodeset
+<a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -11,7 +12,7 @@ public class CreateNodeset : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CreateNodeset](VM.Managed.DAFUL.FE.Operation.CreateNodeset.md)
 
@@ -97,7 +98,7 @@ public CreateNodeset(Document doc, uint[] arnNodeIndex)
 
 `doc` Document
 
-`arnNodeIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`arnNodeIndex` uint\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateNodeset\(JournalParameter\)
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset_Nodeset"></a> Nodeset
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 

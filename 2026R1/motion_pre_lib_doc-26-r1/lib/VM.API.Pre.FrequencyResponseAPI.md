@@ -1,4 +1,5 @@
-#  Class FrequencyResponseAPI
+# Class FrequencyResponseAPI
+<a id="VM_API_Pre_FrequencyResponseAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class FrequencyResponseAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FrequencyResponseAPI](VM.API.Pre.FrequencyResponseAPI.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public static Obj CreateInputChannel(this SubSystemDocument subSystemDocument, O
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 `body` [Obj](VM.API.Pre.Obj.md)
 
@@ -46,7 +47,7 @@ public static Obj CreateInputChannel(this SubSystemDocument subSystemDocument, O
 
 `inputMode` InputModeType
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
@@ -65,7 +66,7 @@ public static Obj CreateOutputChannel(this SubSystemDocument subSystemDocument, 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a output channel.
 
@@ -89,7 +90,7 @@ The type of a output channel.
 
 The direction of a output channel.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Linear.ChannelOutput" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'OC' will be generated and used.
 
@@ -101,11 +102,11 @@ The new <xref href="VM.Managed.DAFUL.Linear.ChannelOutput" data-throw-if-not-res
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'actionMarker' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseMarker', 'referenceMarker' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
@@ -120,19 +121,19 @@ public static Obj CreateRotatingMassActuatorForForce(this SubSystemDocument subS
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a rotating mass actuator.
 
-`mass` ExpressionValueVariable?
+`mass` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The mass of a rotating mass actuator.
 
-`radialOffset` ExpressionValueVariable?
+`radialOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The radial offset of a rotating mass actuator.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'RMA_' will be generated and used.
 
@@ -144,7 +145,7 @@ The new <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-t
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' is null.
 
@@ -159,23 +160,23 @@ public static Obj CreateRotatingMassActuatorForMoment(this SubSystemDocument sub
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a rotating mass actuator.
 
-`mass` ExpressionValueVariable?
+`mass` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The mass of a rotating mass actuator.
 
-`radialOffset` ExpressionValueVariable?
+`radialOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The radial offset of a rotating mass actuator.
 
-`offsetNormalToPlane` ExpressionValueVariable?
+`offsetNormalToPlane` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The offset normal to plane of a rotating mass actuator.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'RMA_' will be generated and used.
 
@@ -187,7 +188,7 @@ The new <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-t
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' is null.
 
@@ -202,19 +203,19 @@ public static Obj CreateSweptSineActuator(this SubSystemDocument subSystemDocume
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a swept sine actuator.
 
-`magnitude` ExpressionValueVariable?
+`magnitude` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The magnitude of a swept sine actuator.
 
-`phaseAngle` ExpressionValueVariable?
+`phaseAngle` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The phase angle of a swept sine actuator.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorSweptSine" data-throw-if-not-resolved="false"></xref>. If empty, default name starts with 'SSA_' will be generated and used.
 
@@ -226,7 +227,7 @@ The new <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorSweptSine" data-thro
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' is null.
 

@@ -1,4 +1,5 @@
-#  Class ObservableHashSet<T\>
+# Class ObservableHashSet<T\>
+<a id="VM_Collections_ObservableHashSet_1"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -17,8 +18,8 @@ The type of elements in the hash set.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[HashSet<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1) ← 
+object ← 
+HashSet<T\> ← 
 [ObservableHashSet<T\>](VM.Collections.ObservableHashSet\-1.md)
 
 #### Extension Methods
@@ -43,7 +44,7 @@ public ObservableHashSet(IEnumerable<T> collection)
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEqualityComparer__0__"></a> ObservableHashSet\(IEqualityComparer<T\>\)
 
@@ -53,7 +54,7 @@ public ObservableHashSet(IEqualityComparer<T> comparer)
 
 #### Parameters
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__"></a> ObservableHashSet\(IEnumerable<T\>, IEqualityComparer<T\>\)
 
@@ -63,9 +64,9 @@ public ObservableHashSet(IEnumerable<T> collection, IEqualityComparer<T> compare
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ## Methods
 
@@ -85,7 +86,7 @@ The element to add to the set.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the element is added to the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object; false if the element is already present.
 
@@ -113,7 +114,7 @@ public void ExceptWith(IEnumerable<T> other)
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection of items to remove from the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -127,7 +128,7 @@ public void IntersectWith(IEnumerable<T> other)
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -147,7 +148,7 @@ The element to remove.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the element is successfully found and removed; otherwise, false. This method returns false if item is not found in the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -167,7 +168,7 @@ public void SymmetricExceptWith(IEnumerable<T> other)
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -181,7 +182,7 @@ public void UnionWith(IEnumerable<T> other)
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -193,5 +194,5 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 
 #### Event Type
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+ NotifyCollectionChangedEventHandler
 

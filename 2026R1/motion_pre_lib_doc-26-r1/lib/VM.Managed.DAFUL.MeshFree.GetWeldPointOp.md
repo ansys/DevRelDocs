@@ -1,4 +1,5 @@
-#  Class GetWeldPointOp
+# Class GetWeldPointOp
+<a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,7 +12,7 @@ public class GetWeldPointOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [GetWeldPointOp](VM.Managed.DAFUL.MeshFree.GetWeldPointOp.md)
 
@@ -123,7 +124,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_LowerPoint"></a> LowerPoint
 
@@ -147,7 +148,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_Success"></a> Success
 
@@ -159,7 +160,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_UpperPoint"></a> UpperPoint
 

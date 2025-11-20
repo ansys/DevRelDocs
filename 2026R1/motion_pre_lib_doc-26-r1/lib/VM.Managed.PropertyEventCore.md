@@ -1,4 +1,5 @@
-#  Class PropertyEventCore
+# Class PropertyEventCore
+<a id="VM_Managed_PropertyEventCore"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class PropertyEventCore : ObjectEventCore, IObject, ILinkContainer, IOwne
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObjectEventCore ← 
 [PropertyEventCore](VM.Managed.PropertyEventCore.md)
 
@@ -23,7 +24,7 @@ IOwned,
 IHasID, 
 IEventProvider, 
 ILinkContainerEvent, 
-IHistoryObjectSerializableDelegate
+[IHistoryObjectSerializableDelegate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs)
 
 #### Inherited Members
 
@@ -72,11 +73,11 @@ protected PropertyEventCore(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 

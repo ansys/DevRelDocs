@@ -1,4 +1,5 @@
-#  Class ContactAnalysis
+# Class ContactAnalysis
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ContactAnalysis"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ContactAnalysis : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ContactAnalysis](VM.Managed.DAFUL.GearTrain.Operation.ContactAnalysis.md)
 
@@ -87,51 +88,51 @@ public ContactAnalysis(string strDocInfo, string strSpeed, string strTorque, str
 
 #### Parameters
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strSpeed` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strSpeed` string
 
 The string speed.
 
-`strTorque` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTorque` string
 
 The string torque.
 
-`strRatio` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRatio` string
 
 The string torque.
 
-`arnIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arnIndex` int\[\]
 
 Index.
 
-`strResultFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strResultFileName` string
 
 The string result file name.
 
-`nSamplingFrequency` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nSamplingFrequency` int
 
 The sampling frequency.
 
-`nGearPairIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nGearPairIndex` int
 
 The gear pair index.
 
-`bOpenPost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bOpenPost` bool
 
 The post open flag.
 
-`strInput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInput` string
 
 The input type.
 
-`strOutput` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOutput` string
 
 The output type.
 
-`strAlignType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAlignType` string
 
 The align type.
 
@@ -161,7 +162,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -183,7 +184,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

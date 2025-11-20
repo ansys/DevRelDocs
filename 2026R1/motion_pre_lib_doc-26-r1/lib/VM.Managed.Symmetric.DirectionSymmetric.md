@@ -1,17 +1,18 @@
-#  Class DirectionSymmetric
+# Class DirectionSymmetric
+<a id="VM_Managed_Symmetric_DirectionSymmetric"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
 
 ```csharp
-public class DirectionSymmetric : DirectionBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
+public class DirectionSymmetric : DirectionBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 DirectionBase ← 
 [DirectionSymmetric](VM.Managed.Symmetric.DirectionSymmetric.md)
@@ -27,7 +28,8 @@ IOwned,
 IHasID, 
 IEventProvider, 
 ILinkContainerEvent, 
-IVerifiable
+IVerifiable, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -37,6 +39,8 @@ DirectionBase.IsParametric\(string\),
 DirectionBase.ReadXml\(XmlReader\), 
 DirectionBase.WriteXml\(XmlWriter\), 
 DirectionBase.GetSchema\(\), 
+DirectionBase.HasReplaceableEntity\(IObjectBase\), 
+DirectionBase.ReplaceEntity\(IObjectBase, IObjectBase\), 
 DirectionBase.Reverse, 
 DirectionBase.IsParameterized, 
 DirectionBase.Value, 
@@ -83,7 +87,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -134,7 +138,7 @@ public override bool IsParameterized { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Symmetric_DirectionSymmetric_Value"></a> Value
 
@@ -169,7 +173,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -189,7 +193,7 @@ Point picking type.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
@@ -203,7 +207,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -217,7 +221,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

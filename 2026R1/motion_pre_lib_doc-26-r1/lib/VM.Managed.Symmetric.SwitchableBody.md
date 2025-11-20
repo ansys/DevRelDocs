@@ -1,4 +1,5 @@
-#  Class SwitchableBody
+# Class SwitchableBody
+<a id="VM_Managed_Symmetric_SwitchableBody"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class SwitchableBody : Named<SwitchableBody>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Named<SwitchableBody\>](VM.Managed.Symmetric.Named\-1.md) ← 
 [SwitchableBody](VM.Managed.Symmetric.SwitchableBody.md)
 
@@ -70,7 +71,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

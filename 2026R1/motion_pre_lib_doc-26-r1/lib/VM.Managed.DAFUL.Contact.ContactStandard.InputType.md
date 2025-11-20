@@ -1,4 +1,5 @@
-#  Enum ContactStandard.InputType
+# Enum ContactStandard.InputType
+<a id="VM_Managed_DAFUL_Contact_ContactStandard_InputType"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

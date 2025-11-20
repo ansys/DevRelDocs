@@ -1,4 +1,5 @@
-#  Class ShellToSolidAPI
+# Class ShellToSolidAPI
+<a id="VM_API_Pre_FE_ShellToSolidAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class ShellToSolidAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShellToSolidAPI](VM.API.Pre.FE.ShellToSolidAPI.md)
 
 #### Extension Methods
@@ -41,17 +42,17 @@ The document to convert shell to solid.
 
 The shell thickness type. The default value is Element.
 
-`thickness` ExpressionValueVariable?
+`thickness` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The thickness. The default value is 1.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'thickness' value equal to or less than 0.
 

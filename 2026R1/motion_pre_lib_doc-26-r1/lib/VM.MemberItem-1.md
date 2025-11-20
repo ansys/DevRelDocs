@@ -1,4 +1,5 @@
-#  Class MemberItem<TDescriptor\>
+# Class MemberItem<TDescriptor\>
+<a id="VM_MemberItem_1"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -13,7 +14,7 @@ public abstract class MemberItem<TDescriptor> where TDescriptor : MemberDescript
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MemberItem<TDescriptor\>](VM.MemberItem\-1.md)
 
 #### Extension Methods
@@ -44,7 +45,7 @@ public IEnumerable<Attribute> Attributes { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\>
+ IEnumerable<Attribute\>
 
 ### <a id="VM_MemberItem_1_MemberDescriptor"></a> MemberDescriptor
 
@@ -66,7 +67,7 @@ public bool HasAttribute<T>() where T : Attribute
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 
@@ -84,7 +85,7 @@ public bool TryGetAttributeInstance<T>(out T attribute) where T : Attribute
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 

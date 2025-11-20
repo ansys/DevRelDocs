@@ -1,4 +1,5 @@
-#  Class AnalysisStaticLoad
+# Class AnalysisStaticLoad
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisStaticLoad : SuspensionAnalysisBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [SuspensionAnalysisBase](VM.Managed.DAFUL.Car.SuspensionAnalysisBase.md) ← 
 [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md)
@@ -173,7 +174,7 @@ public double SteerLimit_Lower { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_SteerLimit_Upper"></a> SteerLimit\_Upper
 
@@ -185,7 +186,7 @@ public double SteerLimit_Upper { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_SteeringFunctionArgument"></a> SteeringFunctionArgument
 
@@ -197,7 +198,7 @@ public override string SteeringFunctionArgument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_TractionForceInfo"></a> TractionForceInfo
 
@@ -247,11 +248,11 @@ public override void GetDataForLoadCase(int nStep, Dictionary<SuspensionLoadCase
 
 #### Parameters
 
-`nStep` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStep` int
 
 The step.
 
-`dicCol` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[SuspensionLoadCase](VM.Managed.DAFUL.Car.SuspensionLoadCase.md).[Column](VM.Managed.DAFUL.Car.SuspensionLoadCase.Column.md), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`dicCol` Dictionary<[SuspensionLoadCase](VM.Managed.DAFUL.Car.SuspensionLoadCase.md).[Column](VM.Managed.DAFUL.Car.SuspensionLoadCase.Column.md), double\[\]\>
 
 The column information.
 
@@ -269,7 +270,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 
@@ -283,7 +284,7 @@ public override void GetXmlData(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -311,7 +312,7 @@ public override void SetXmlData(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 

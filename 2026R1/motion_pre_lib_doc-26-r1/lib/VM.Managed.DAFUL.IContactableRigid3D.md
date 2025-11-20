@@ -1,4 +1,5 @@
-#  Interface IContactableRigid3D
+# Interface IContactableRigid3D
+<a id="VM_Managed_DAFUL_IContactableRigid3D"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -37,7 +38,7 @@ bool IsRepresentedAsBSurface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -65,7 +66,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

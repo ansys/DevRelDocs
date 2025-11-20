@@ -1,4 +1,5 @@
-#  Class CalculatePinStiffness
+# Class CalculatePinStiffness
+<a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -11,7 +12,7 @@ public class CalculatePinStiffness : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculatePinStiffness](VM.Managed.DAFUL.CPlacingConnector.Operation.CalculatePinStiffness.md)
 
@@ -87,11 +88,11 @@ public CalculatePinStiffness(string strFilePath, string strPinName)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path
 
-`strPinName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPinName` string
 
 The pin name
 
@@ -121,7 +122,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -143,7 +144,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -157,7 +158,7 @@ public double Result()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness_Success"></a> Success\(\)
 
@@ -169,5 +170,5 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

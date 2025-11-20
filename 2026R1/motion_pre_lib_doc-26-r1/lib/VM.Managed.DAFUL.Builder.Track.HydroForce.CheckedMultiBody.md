@@ -1,4 +1,5 @@
-#  Struct HydroForce.CheckedMultiBody
+# Struct HydroForce.CheckedMultiBody
+<a id="VM_Managed_DAFUL_Builder_Track_HydroForce_CheckedMultiBody"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -17,9 +18,9 @@ public CheckedMultiBody(string isChecked, string multiBody)
 
 #### Parameters
 
-`isChecked` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`isChecked` string
 
-`multiBody` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`multiBody` string
 
 ## Properties
 
@@ -31,7 +32,7 @@ public string Checked { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Track_HydroForce_CheckedMultiBody_MultiBody"></a> MultiBody
 
@@ -41,5 +42,5 @@ public string MultiBody { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

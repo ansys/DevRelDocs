@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.FE.Resource
+# Namespace VM.Managed.DAFUL.FE.Resource
+<a id="VM_Managed_DAFUL_FE_Resource"></a>
 
 ### Classes
 

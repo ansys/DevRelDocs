@@ -1,4 +1,5 @@
-#  Interface IContactable
+# Interface IContactable
+<a id="VM_Managed_DAFUL_IContactable"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -34,7 +35,7 @@ string GeometryFullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_IContactable_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
 
@@ -46,7 +47,7 @@ string GeometryNameForMultiContact { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_IContactable_IsActionGeometry"></a> IsActionGeometry
 
@@ -58,7 +59,7 @@ bool IsActionGeometry { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_IContactable_IsBaseGeometry"></a> IsBaseGeometry
 
@@ -70,7 +71,7 @@ bool IsBaseGeometry { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -84,7 +85,7 @@ bool GetDefaultMaxPenetration(ref double dMaxPenetration, IReferencable referenc
 
 #### Parameters
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 The d max penetration.
 
@@ -94,7 +95,7 @@ The reference.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

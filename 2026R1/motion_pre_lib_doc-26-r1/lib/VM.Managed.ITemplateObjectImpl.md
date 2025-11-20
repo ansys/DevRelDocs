@@ -1,4 +1,5 @@
-#  Class ITemplateObjectImpl
+# Class ITemplateObjectImpl
+<a id="VM_Managed_ITemplateObjectImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ITemplateObjectImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ITemplateObjectImpl](VM.Managed.ITemplateObjectImpl.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static Tuple<bool, double> ReadVariable(string strName, Variable var, Xml
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the variable.
 
@@ -48,17 +49,17 @@ Name of the variable.
 
 The variable.
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
-`bParameterized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bParameterized` bool
 
 if set to <code>true</code> parameterized.
 
 #### Returns
 
- [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean), [double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ Tuple<bool, double\>
 
 <code>true</code> if the specified value is change; otherwise, <code>false</code>.
 
@@ -72,7 +73,7 @@ public static void WriteVariable(string strName, Variable var, XmlWriter writer,
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the variable.
 
@@ -80,11 +81,11 @@ Name of the variable.
 
 The variable.
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
-`bParameterized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bParameterized` bool
 
 if set to <code>true</code> parameterized.
 

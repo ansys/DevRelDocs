@@ -53,11 +53,12 @@ The following sample code demonstrates how to use Result File Reader API :
 import sys
 from pathlib import Path
 
+# Get the current file's path and set the path for external modules.
 current_dir = Path(__file__).resolve().parent
-
 external_modules_path = Path(current_dir, r'./Modules').resolve()
 sys.path.append('{0}'.format(external_modules_path))
 
+# Import necessary modules
 from ResultFileReaderAPI import *
 
 # Import result file

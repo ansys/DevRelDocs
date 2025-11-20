@@ -1,4 +1,5 @@
-#  Class CreateContact
+# Class CreateContact
+<a id="VM_Managed_DAFUL_Operation_Util_CreateContact"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateContact
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateContact](VM.Managed.DAFUL.Operation.Util.CreateContact.md)
 
 #### Extension Methods
@@ -52,13 +53,13 @@ The base geometry.
 
 The action geometry.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The rigid to rigid 3D contact prefix name.
 
 #### Returns
 
- GeneralContact
+ [GeneralContact](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/GeneralContact.cs)
 
 The new rigid to rigid 3D contact.
 
@@ -84,17 +85,17 @@ The base geometry.
 
 The action geometry.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The rigid to rigid 3D contact prefix name.
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- GeneralContact
+ [GeneralContact](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/GeneralContact.cs)
 
 The new rigid to rigid 3D contact.
 
@@ -112,7 +113,7 @@ public static GeneralContact CreateGeneralContact(Document doc, string strName, 
 
 The document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
@@ -124,13 +125,13 @@ The first body
 
 The second body
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 The tolerance
 
 #### Returns
 
- GeneralContact
+ [GeneralContact](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/GeneralContact.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_CreateMbyNContactContact_VM_Managed_Document3D_VM_Managed_DAFUL_Contact_MultipleContactInfo___VM_Managed_DAFUL_Contact_MultipleContactInfo___System_String_System_Boolean_"></a> CreateMbyNContactContact\(Document3D, MultipleContactInfo\[\], MultipleContactInfo\[\], string, bool\)
 
@@ -146,25 +147,25 @@ public static MbyNContact CreateMbyNContactContact(Document3D activeDocument, Mu
 
 The active document.
 
-`baseGeoms` MultipleContactInfo\[\]
+`baseGeoms` [MultipleContactInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/MultipleContactBase.cs)\[\]
 
 The base geometry.
 
-`actionGeoms` MultipleContactInfo\[\]
+`actionGeoms` [MultipleContactInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/MultipleContactBase.cs)\[\]
 
 The action geometry.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The rigid to rigid 3D contact prefix name.
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
 #### Returns
 
- MbyNContact
+ [MbyNContact](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/MbyNContact.cs)
 
 The new rigid to rigid 3D contact.
 
@@ -182,21 +183,21 @@ public static MbyNContact CreateMbyNGeneralContact(Document3D activeDocument, Mu
 
 The active document.
 
-`baseGeoms` MultipleContactInfo\[\]
+`baseGeoms` [MultipleContactInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/MultipleContactBase.cs)\[\]
 
 The base geometry.
 
-`actionGeoms` MultipleContactInfo\[\]
+`actionGeoms` [MultipleContactInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/MultipleContactBase.cs)\[\]
 
 The action geometry.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The rigid to rigid 3D contact prefix name.
 
 #### Returns
 
- MbyNContact
+ [MbyNContact](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/MbyNContact.cs)
 
 The new rigid to rigid 3D contact.
 
@@ -222,13 +223,13 @@ The base geometry.
 
 The action geometry.
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The rigid to rigid 3D contact prefix name.
 
 #### Returns
 
- RTR3D
+ [RTR3D](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/RTR3D.cs)
 
 The new rigid to rigid 3D contact.
 
@@ -240,13 +241,13 @@ public static MultipleContactInfo[] GetMultipleInfoList(List<IContactable> lst, 
 
 #### Parameters
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IContactable\>
+`lst` List<IContactable\>
 
-`isFront` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isFront` bool
 
 #### Returns
 
- MultipleContactInfo\[\]
+ [MultipleContactInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/MultipleContactBase.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_TryGetGeometry_VM_Models_Pre_IObjectBase_VM_Managed_DAFUL_IContactable__VM_Managed_Document_"></a> TryGetGeometry\(IObjectBase, out IContactable, Document\)
 
@@ -264,5 +265,5 @@ public static bool TryGetGeometry(IObjectBase objectBase, out IContactable geome
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

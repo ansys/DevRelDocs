@@ -1,4 +1,5 @@
-#  Class SplineAPI
+# Class SplineAPI
+<a id="VM_API_Pre_SplineAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class SplineAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SplineAPI](VM.API.Pre.SplineAPI.md)
 
 #### Extension Methods
@@ -37,19 +38,19 @@ public static Obj CreateSpline(this IDocument document, string name, IEnumerable
 
 The document to create the spline.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The point X, Y of the spline.
 
-`splineData` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<SplineData.Point\>
+`splineData` IEnumerable<[SplineData](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs).[Point](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSB/Spline.cs)\>
 
 The density of the spline.
 
-`scaleX` ExpressionValueVariable?
+`scaleX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The X scale of spline.
 
-`scaleY` ExpressionValueVariable?
+`scaleY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Y scale of spline.
 
@@ -65,7 +66,7 @@ The new <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false">
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'splineData' is null.
 
@@ -84,23 +85,23 @@ public static Obj CreateSpline3D(this IDocument document, string name, Expressio
 
 The document to create the spline3D.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The point X, Y of the spline3D.
 
-`points` ExpressionValueVariable\[,\]
+`points` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)\[,\]
 
 The points of the spline3D.
 
-`scaleX` ExpressionValueVariable?
+`scaleX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The X scale of spline3D.
 
-`scaleY` ExpressionValueVariable?
+`scaleY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Y scale of spline3D.
 
-`scaleZ` ExpressionValueVariable?
+`scaleZ` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Z scale of spline3D.
 
@@ -116,11 +117,11 @@ The new <xref href="VM.Managed.DAFUL.Spline3D" data-throw-if-not-resolved="false
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'points' is null.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if the count of the 'points' is less than 4.
 
@@ -141,23 +142,23 @@ public static Obj CreateSplineWithFile(this IDocument document, string name, str
 
 The document to create the spline.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The point X, Y of the spline.
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 The file path of the spline data.
 
-`selectedSplineName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`selectedSplineName` string
 
 The name of the selected spline.
 
-`scaleX` ExpressionValueVariable?
+`scaleX` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The X scale of spline.
 
-`scaleY` ExpressionValueVariable?
+`scaleY` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The Y scale of spline.
 
@@ -173,7 +174,7 @@ The new <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false">
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'selectedSplineName' is null.
 

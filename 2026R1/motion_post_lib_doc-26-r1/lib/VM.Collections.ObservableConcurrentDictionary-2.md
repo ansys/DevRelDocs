@@ -1,9 +1,10 @@
-#  Class ObservableConcurrentDictionary<TKey, TValue\>
+# Class ObservableConcurrentDictionary<TKey, TValue\>
+<a id="VM_Collections_ObservableConcurrentDictionary_2"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class ObservableConcurrentDictionary<TKey, TValue>
 ```
 
@@ -15,14 +16,14 @@ public class ObservableConcurrentDictionary<TKey, TValue>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableConcurrentDictionary<TKey, TValue\>](VM.Collections.ObservableConcurrentDictionary\-2.md)
 
 ## Constructors
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2__ctor"></a> ObservableConcurrentDictionary\(\)
 
-```python
+```csharp
 public ObservableConcurrentDictionary()
 ```
 
@@ -30,47 +31,47 @@ public ObservableConcurrentDictionary()
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Count"></a> Count
 
-```python
+```csharp
 public int Count { get; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_IsReadOnly"></a> IsReadOnly
 
-```python
+```csharp
 public bool IsReadOnly { get; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Keys"></a> Keys
 
-```python
+```csharp
 public ICollection<TKey> Keys { get; }
 ```
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TKey\>
+ ICollection<TKey\>
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Values"></a> Values
 
-```python
+```csharp
 public ICollection<TValue> Values { get; }
 ```
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TValue\>
+ ICollection<TValue\>
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Item__0_"></a> this\[TKey\]
 
-```python
+```csharp
 public TValue this[TKey key] { get; set; }
 ```
 
@@ -82,17 +83,17 @@ public TValue this[TKey key] { get; set; }
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2___OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_"></a> <\>OnPropertyChanged\(PropertyChangedEventArgs\)
 
-```python
+```csharp
 protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
 ```
 
 #### Parameters
 
-`eventArgs` [PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs)
+`eventArgs` PropertyChangedEventArgs
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Add__0__1_"></a> Add\(TKey, TValue\)
 
-```python
+```csharp
 public void Add(TKey key, TValue value)
 ```
 
@@ -104,27 +105,27 @@ public void Add(TKey key, TValue value)
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Clear"></a> Clear\(\)
 
-```python
+```csharp
 public void Clear()
 ```
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Contains_System_Collections_Generic_KeyValuePair__0__1__"></a> Contains\(KeyValuePair<TKey, TValue\>\)
 
-```python
+```csharp
 public bool Contains(KeyValuePair<TKey, TValue> item)
 ```
 
 #### Parameters
 
-`item` [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<TKey, TValue\>
+`item` KeyValuePair<TKey, TValue\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_ContainsKey__0_"></a> ContainsKey\(TKey\)
 
-```python
+```csharp
 public bool ContainsKey(TKey key)
 ```
 
@@ -134,33 +135,33 @@ public bool ContainsKey(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_"></a> CopyTo\(KeyValuePair<TKey, TValue\>\[\], int\)
 
-```python
+```csharp
 public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 ```
 
 #### Parameters
 
-`array` [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<TKey, TValue\>\[\]
+`array` KeyValuePair<TKey, TValue\>\[\]
 
-`arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`arrayIndex` int
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_GetEnumerator"></a> GetEnumerator\(\)
 
-```python
+```csharp
 public IEnumerator GetEnumerator()
 ```
 
 #### Returns
 
- [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
+ IEnumerator
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_Remove__0_"></a> Remove\(TKey\)
 
-```python
+```csharp
 public bool Remove(TKey key)
 ```
 
@@ -170,11 +171,11 @@ public bool Remove(TKey key)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_TryGetValue__0__1__"></a> TryGetValue\(TKey, out TValue\)
 
-```python
+```csharp
 public bool TryGetValue(TKey key, out TValue value)
 ```
 
@@ -186,26 +187,25 @@ public bool TryGetValue(TKey key, out TValue value)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_CollectionChanged"></a> CollectionChanged
 
-```python
+```csharp
 public event NotifyCollectionChangedEventHandler CollectionChanged
 ```
 
 #### Event Type
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+ NotifyCollectionChangedEventHandler
 
 ### <a id="VM_Collections_ObservableConcurrentDictionary_2_PropertyChanged"></a> PropertyChanged
 
-```python
+```csharp
 public event PropertyChangedEventHandler PropertyChanged
 ```
 
 #### Event Type
 
- [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
-
+ PropertyChangedEventHandler
 

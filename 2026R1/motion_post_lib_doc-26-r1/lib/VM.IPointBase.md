@@ -1,9 +1,10 @@
-#  Interface IPointBase
+# Interface IPointBase
+<a id="VM_IPointBase"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IPointBase
 ```
 
@@ -11,17 +12,17 @@ public interface IPointBase
 
 ### <a id="VM_IPointBase_IsParameterized"></a> IsParameterized
 
-```python
+```csharp
 bool IsParameterized { get; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_IPointBase_Value"></a> Value
 
-```python
+```csharp
 Vector Value { get; }
 ```
 
@@ -33,43 +34,43 @@ Vector Value { get; }
 
 <p>Gets the X point.</p>
 
-```python
+```csharp
 double X { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_IPointBase_Y"></a> Y
 
 <p>Gets the Y point.</p>
 
-```python
+```csharp
 double Y { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_IPointBase_Z"></a> Z
 
 <p>Gets the Z point.</p>
 
-```python
+```csharp
 double Z { get; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
 ### <a id="VM_IPointBase_IsParametric_VM_ReferenceTypes_"></a> IsParametric\(ReferenceTypes\)
 
-```python
+```csharp
 bool IsParametric(ReferenceTypes type)
 ```
 
@@ -79,6 +80,5 @@ bool IsParametric(ReferenceTypes type)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

@@ -1,9 +1,10 @@
-#  Enum SelectAreaTypes
+# Enum SelectAreaTypes
+<a id="VM_SelectAreaTypes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public enum SelectAreaTypes
 ```
 
@@ -60,7 +61,6 @@ Rectangular Selection.
 `Single = 0` 
 
 Single Selection.
-
 
 
 

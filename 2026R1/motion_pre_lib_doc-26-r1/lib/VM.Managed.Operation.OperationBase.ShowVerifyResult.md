@@ -1,4 +1,5 @@
-#  Delegate OperationBase.ShowVerifyResult
+# Delegate OperationBase.ShowVerifyResult
+<a id="VM_Managed_Operation_OperationBase_ShowVerifyResult"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public delegate void OperationBase.ShowVerifyResult(string[] arErrors)
 
 #### Parameters
 
-`arErrors` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arErrors` string\[\]
 
 #### Extension Methods
 

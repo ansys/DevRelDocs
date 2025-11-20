@@ -1,4 +1,5 @@
-#  Class SimulateForComponentEigenvalue.SimulationScenario
+# Class SimulateForComponentEigenvalue.SimulationScenario
+<a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_SimulationScenario"></a>
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  
@@ -9,7 +10,7 @@ public class SimulateForComponentEigenvalue.SimulationScenario
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SimulateForComponentEigenvalue.SimulationScenario](VM.Managed.DAFUL.Linear.Operation.SimulateForComponentEigenvalue.SimulationScenario.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public SimulationScenario(SimulationScenarioEigenvalue scenario, SimulationScena
 
 `param` SimulationScenarioEigenvalue.SolvingParam
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 ## Methods
 

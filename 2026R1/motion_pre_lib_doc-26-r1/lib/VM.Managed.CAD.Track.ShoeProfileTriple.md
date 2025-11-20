@@ -1,4 +1,5 @@
-#  Class ShoeProfileTriple
+# Class ShoeProfileTriple
+<a id="VM_Managed_CAD_Track_ShoeProfileTriple"></a>
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +12,7 @@ public class ShoeProfileTriple : ShoeProfileParametric
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ShoeProfileBase](VM.Managed.CAD.Track.ShoeProfileBase.md) ← 
 [ShoeProfileParametric](VM.Managed.CAD.Track.ShoeProfileParametric.md) ← 
 [ShoeProfileTriple](VM.Managed.CAD.Track.ShoeProfileTriple.md)
@@ -77,7 +78,7 @@ public double SecondGH { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_SecondGLW"></a> SecondGLW
 
@@ -89,7 +90,7 @@ public double SecondGLW { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_SecondGUW"></a> SecondGUW
 
@@ -101,7 +102,7 @@ public double SecondGUW { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ShoeDistance2"></a> ShoeDistance2
 
@@ -113,7 +114,7 @@ public double ShoeDistance2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ShoeDistance3"></a> ShoeDistance3
 
@@ -125,7 +126,7 @@ public double ShoeDistance3 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_TailHeight"></a> TailHeight
 
@@ -137,7 +138,7 @@ public double TailHeight { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ThirdGH"></a> ThirdGH
 
@@ -149,7 +150,7 @@ public double ThirdGH { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ThirdGLW"></a> ThirdGLW
 
@@ -161,7 +162,7 @@ public double ThirdGLW { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ThirdGUW"></a> ThirdGUW
 
@@ -173,7 +174,7 @@ public double ThirdGUW { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -195,7 +196,7 @@ protected override bool CreateProfile()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_SetInitializeValue"></a> SetInitializeValue\(\)
 

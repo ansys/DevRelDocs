@@ -1,4 +1,5 @@
-#  Class CADOperation.SetShearModulusOp
+# Class CADOperation.SetShearModulusOp
+<a id="VM_Managed_CADOperation_SetShearModulusOp"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation.SetShearModulusOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADOperation.SetShearModulusOp](VM.Managed.CADOperation.SetShearModulusOp.md)
 
@@ -99,11 +100,11 @@ public SetShearModulusOp(ISO iso, bool bUseShearModulusWithUserInput, string str
 
 The iso material.
 
-`bUseShearModulusWithUserInput` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseShearModulusWithUserInput` bool
 
 Use shear modulus with user input.
 
-`strShearModulus` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strShearModulus` string
 
 The shear modulus.
 
@@ -119,7 +120,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CADOperation_SetShearModulusOp_Name"></a> Name
 
@@ -131,7 +132,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

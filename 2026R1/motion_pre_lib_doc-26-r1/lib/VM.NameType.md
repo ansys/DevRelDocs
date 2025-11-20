@@ -1,4 +1,5 @@
-#  Enum NameType
+# Enum NameType
+<a id="VM_NameType"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

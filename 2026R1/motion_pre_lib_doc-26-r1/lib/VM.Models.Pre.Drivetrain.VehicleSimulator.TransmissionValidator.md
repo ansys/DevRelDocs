@@ -1,4 +1,5 @@
-#  Class TransmissionValidator
+# Class TransmissionValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TransmissionValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class TransmissionValidator : AbstractValidator<Transmission>, IValidator
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<Transmission\> ← 
 [TransmissionValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.TransmissionValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<Transmission\>.GetEnumerator\(\),
 AbstractValidator<Transmission\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<Transmission\>.PreValidate\(ValidationContext<Transmission\>, ValidationResult\), 
 AbstractValidator<Transmission\>.RaiseValidationException\(ValidationContext<Transmission\>, ValidationResult\), 
+AbstractValidator<Transmission\>.OnRuleAdded\(IValidationRule<Transmission\>\), 
 AbstractValidator<Transmission\>.CascadeMode, 
 AbstractValidator<Transmission\>.ClassLevelCascadeMode, 
 AbstractValidator<Transmission\>.RuleLevelCascadeMode

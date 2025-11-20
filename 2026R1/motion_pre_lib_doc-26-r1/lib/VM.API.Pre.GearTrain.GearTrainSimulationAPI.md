@@ -1,4 +1,5 @@
-#  Class GearTrainSimulationAPI
+# Class GearTrainSimulationAPI
+<a id="VM_API_Pre_GearTrain_GearTrainSimulationAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class GearTrainSimulationAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearTrainSimulationAPI](VM.API.Pre.GearTrain.GearTrainSimulationAPI.md)
 
 #### Extension Methods
@@ -34,17 +35,17 @@ public static void ExportDFG(this GearTrainDocument document, string targetPath)
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for exporting DFG file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFG file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -60,17 +61,17 @@ public static void ExportDFS(this GearTrainDocument document, string targetPath)
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for exporting DFS file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFS file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -86,17 +87,59 @@ public static void ExportDFSXML(this GearTrainDocument document, string targetPa
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for exporting DFSXML file. If null, the active document will be used.
 
-`targetPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetPath` string
 
 The file path to export DFSXML file exclude file extension.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
+
+Will be thrown if 'document' or 'targetPath' arguments are empty.
+
+### <a id="VM_API_Pre_GearTrain_GearTrainSimulationAPI_ExportMotionFiles_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> ExportMotionFiles\(GearTrainDocument, string, bool, bool, bool, bool\)
+
+Export motion files.
+
+```csharp
+[NotNull(new string[] { "document" })]
+[NotNullOrEmpty(new string[] { "targetPath" })]
+public static void ExportMotionFiles(this GearTrainDocument document, string targetPath, bool writeDFS, bool writeXML, bool writeDFG, bool includeReferenceFiles)
+```
+
+#### Parameters
+
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
+
+The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for exporting motion files. If null, the active document will be used.
+
+`targetPath` string
+
+The file path to export motion files exclude file extension.
+
+`writeDFS` bool
+
+The flag for whether to write on dfs or not.
+
+`writeXML` bool
+
+The flag for whether to write on dfsxml or not.
+
+`writeDFG` bool
+
+The flag for whether to write on dfg or not.
+
+`includeReferenceFiles` bool
+
+The flag for whether to include reference files or not.
+
+#### Exceptions
+
+ ArgumentNullException
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
@@ -111,17 +154,17 @@ public static void RunSimulation(this GearTrainDocument document, SimulationRun.
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 The simulation parameter.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 

@@ -1,4 +1,5 @@
-#  Class Intersect
+# Class Intersect
+<a id="VM_Managed_DAFUL_Builder_Intersect"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class Intersect : Boolean<BuilderMultiIntersectSimple>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<BuilderMultiIntersectSimple\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [Boolean<BuilderMultiIntersectSimple\>](VM.Managed.DAFUL.Builder.Boolean\-1.md) ← 
 [Intersect](VM.Managed.DAFUL.Builder.Intersect.md)
@@ -80,7 +81,7 @@ protected override string Type { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

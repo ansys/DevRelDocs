@@ -1,4 +1,5 @@
-#  Interface IHasReportOnly
+# Interface IHasReportOnly
+<a id="VM_Managed_IHasReportOnly"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,5 +28,5 @@ bool IsReportOnly { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

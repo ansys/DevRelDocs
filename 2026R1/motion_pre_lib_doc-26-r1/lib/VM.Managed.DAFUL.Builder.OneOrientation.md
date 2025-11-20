@@ -1,4 +1,5 @@
-#  Struct OneOrientation
+# Struct OneOrientation
+<a id="VM_Managed_DAFUL_Builder_OneOrientation"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -21,7 +22,7 @@ public int NumberOfOrientation { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -33,13 +34,13 @@ public void SetOrientation(Marker BM, Marker AM, PickedResult[] pickResult, int 
 
 #### Parameters
 
-`BM` Marker
+`BM` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
-`AM` Marker
+`AM` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 `pickResult` [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
 
-`nNumOfPoint` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumOfPoint` int
 
-`nNumOfDirection` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumOfDirection` int
 

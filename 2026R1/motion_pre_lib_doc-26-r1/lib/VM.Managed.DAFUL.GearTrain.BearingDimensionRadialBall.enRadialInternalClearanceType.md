@@ -1,4 +1,5 @@
-#  Enum BearingDimensionRadialBall.enRadialInternalClearanceType
+# Enum BearingDimensionRadialBall.enRadialInternalClearanceType
+<a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_enRadialInternalClearanceType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,5 @@
-#  Class Pre
+# Class Pre
+<a id="VM_Managed_DAFUL_Pre_Pre"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Pre
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Pre](VM.Managed.DAFUL.Pre.Pre.md)
 
 #### Extension Methods
@@ -88,7 +89,7 @@ public static string CreateFileName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_DialogManager"></a> DialogManager
 
@@ -112,7 +113,7 @@ public static List<DocInfo> DocumentInfo { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md)\>
+ List<[DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md)\>
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_GlobalJournal"></a> GlobalJournal
 
@@ -124,7 +125,7 @@ public static JournalRecorder GlobalJournal { get; }
 
 #### Property Value
 
- JournalRecorder
+ [JournalRecorder](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMJournal/journalRecorder.cs)
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_LocalJournal"></a> LocalJournal
 
@@ -136,7 +137,7 @@ public static JournalRecorder LocalJournal { get; }
 
 #### Property Value
 
- JournalRecorder
+ [JournalRecorder](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMJournal/journalRecorder.cs)
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_MainWindow"></a> MainWindow
 
@@ -172,7 +173,7 @@ public static Dictionary<string, UIntPtr> TemplateInfo { get; set; }
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+ Dictionary<string, UIntPtr\>
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_UnUseMRU"></a> UnUseMRU
 
@@ -184,7 +185,7 @@ public static bool UnUseMRU { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_Version"></a> Version
 
@@ -196,7 +197,7 @@ public static string Version { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_WriteDFG"></a> WriteDFG
 
@@ -208,7 +209,7 @@ public static bool WriteDFG { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -246,13 +247,13 @@ public static bool CloseFile(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -266,17 +267,17 @@ public static bool CloseFile(string strFileName, bool bUseWork)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
-`bUseWork` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseWork` bool
 
 if set to <code>true</code> [b use work].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_CloseFile_System_String_System_Boolean_System_Boolean_"></a> CloseFile\(string, bool, bool\)
 
@@ -288,21 +289,21 @@ public static bool CloseFile(string strFileName, bool bUseWork, bool bActivate)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the string file.
 
-`bUseWork` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseWork` bool
 
 if set to <code>true</code> [b use work].
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 if set to <code>true</code> [b activate].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_CloseHiddenFile_System_String_"></a> CloseHiddenFile\(string\)
 
@@ -314,13 +315,13 @@ public static bool CloseHiddenFile(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the string file.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_CloseWork"></a> CloseWork\(\)
 
@@ -340,7 +341,7 @@ public static Document CreateDocument(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
@@ -360,11 +361,11 @@ public static Document CreateDocument(string strFileName, bool bActivate)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 if set to <code>true</code> [b activate].
 
@@ -384,15 +385,15 @@ public static Document CreateDocument(string strFileName, bool bActivate, string
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 if set to <code>true</code> [b activate].
 
-`strDocCreateInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocCreateInfo` string
 
 The STR doc create info.
 
@@ -410,11 +411,11 @@ public static Document CreateDocument(string strFileName, bool bActivate, DocCre
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 if set to <code>true</code> [b activate].
 
@@ -436,19 +437,19 @@ public static Document CreateDocument(string strFileName, bool bActivate, string
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the string file.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 if set to <code>true</code> [b activate].
 
-`strDocCreateInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocCreateInfo` string
 
 The string document create information.
 
-`bDesigner` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDesigner` bool
 
 if set to <code>true</code> [b designer].
 
@@ -466,7 +467,7 @@ public static void Fit(string strPathName)
 
 #### Parameters
 
-`strPathName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPathName` string
 
 Name of the string path.
 
@@ -480,7 +481,7 @@ public static List<Document> GetAllOpenDocument()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document\>
+ List<Document\>
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_GetDocumentFromOpenedDocument_System_String_"></a> GetDocumentFromOpenedDocument\(string\)
 
@@ -492,7 +493,7 @@ public static Document GetDocumentFromOpenedDocument(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
@@ -510,7 +511,7 @@ public static string GetMode()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The mode type.
 
@@ -524,13 +525,13 @@ public static bool IsOpenDocument(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is open document; otherwise, <code>false</code>.
 
@@ -572,7 +573,7 @@ public static Document OpenDocument(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
@@ -592,11 +593,11 @@ public static Document OpenDocument(string strFileName, bool bActivate)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 if set to <code>true</code> [b activate].
 
@@ -616,7 +617,7 @@ public static Document OpenDocumentFile(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
@@ -634,11 +635,11 @@ public static GroupItem OpenFile(string strFileName, string strRefDir)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
@@ -658,7 +659,7 @@ public static Document OpenHiddenDocument(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 
@@ -676,7 +677,7 @@ public static Model OpenModel(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 The file name.
 
@@ -694,7 +695,7 @@ public static Work OpenWork(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
@@ -732,7 +733,7 @@ public static void SaveFile(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The STR path.
 
@@ -750,7 +751,7 @@ public static void SaveFile(Document doc, string strFileName)
 
 The doc.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
@@ -768,11 +769,11 @@ public static void SaveFile(Document doc, string strFileName, bool bIgnoreExtern
 
 The doc.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
-`bIgnoreExternChange` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIgnoreExternChange` bool
 
 if set to <code>true</code> [b ignore extern change].
 
@@ -786,7 +787,7 @@ public static void SaveModel(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
@@ -800,7 +801,7 @@ public static void SaveWork(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the file.
 
@@ -814,11 +815,11 @@ public static void SetPathName(string strOldPath, string strNewPath)
 
 #### Parameters
 
-`strOldPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldPath` string
 
 The old path.
 
-`strNewPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNewPath` string
 
 The new path.
 
@@ -832,7 +833,7 @@ public static void SetProgressState(int nStats)
 
 #### Parameters
 
-`nStats` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStats` int
 
 0x0 : NOPROGRESS, 0x1 : INDETERMINATE, 0x2 : NORMAL, 0x4 : ERROR, 0x8 : PAUSED
 
@@ -846,11 +847,11 @@ public static void SetProgressValue(ulong nCompleted, ulong nTotal)
 
 #### Parameters
 
-`nCompleted` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nCompleted` ulong
 
 The completed value.
 
-`nTotal` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nTotal` ulong
 
 The total value.
 
@@ -864,7 +865,7 @@ public static void SetStatusBar(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The message.
 
@@ -878,7 +879,7 @@ public static event EventHandler OnActiveDocumentChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="VM_Managed_DAFUL_Pre_Pre_OnActiveViewChanged"></a> OnActiveViewChanged
 
@@ -890,5 +891,5 @@ public static event EventHandler OnActiveViewChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 

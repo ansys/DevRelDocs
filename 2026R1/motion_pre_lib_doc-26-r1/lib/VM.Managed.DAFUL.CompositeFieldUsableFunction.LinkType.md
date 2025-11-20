@@ -1,4 +1,5 @@
-#  Enum CompositeFieldUsableFunction.LinkType
+# Enum CompositeFieldUsableFunction.LinkType
+<a id="VM_Managed_DAFUL_CompositeFieldUsableFunction_LinkType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

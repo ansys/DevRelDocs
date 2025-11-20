@@ -1,4 +1,5 @@
-#  Enum FourPostAnalysisType
+# Enum FourPostAnalysisType
+<a id="VM_Managed_DAFUL_Car_FourPostAnalysisType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

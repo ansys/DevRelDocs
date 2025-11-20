@@ -1,4 +1,5 @@
-#  Class TopologyColorInfo
+# Class TopologyColorInfo
+<a id="VM_Managed_CAD_TopologyColorInfo"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class TopologyColorInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TopologyColorInfo](VM.Managed.CAD.TopologyColorInfo.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public Dictionary<int, Color> ColorInfo { get; }
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+ Dictionary<int, Color\>
 
 ## Methods
 
@@ -59,7 +60,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -73,7 +74,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -91,11 +92,11 @@ public void SetColor(Builder builder, int[] arrIndexes, Color color)
 
 The owner builder.
 
-`arrIndexes` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arrIndexes` int\[\]
 
 The topology indexes.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The color.
 
@@ -113,7 +114,7 @@ public void UnsetColor(Builder builder, int[] arrIndexes)
 
 The owner builder.
 
-`arrIndexes` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arrIndexes` int\[\]
 
 The topology indexes.
 
@@ -127,7 +128,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

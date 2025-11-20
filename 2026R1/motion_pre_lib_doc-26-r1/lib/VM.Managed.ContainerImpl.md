@@ -1,4 +1,5 @@
-#  Class ContainerImpl
+# Class ContainerImpl
+<a id="VM_Managed_ContainerImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ContainerImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ContainerImpl](VM.Managed.ContainerImpl.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public static string NewNamePattern { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -58,7 +59,7 @@ public static IObjectBase Find(IContainer container, string strName)
 
 The DAFUL object container.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The DAFUL object name.
 
@@ -82,25 +83,25 @@ public static string GetNewEntityName(IContainer container, string strPrefix, bo
 
 The DAFUL object container.
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The DAFUL object prefix name.
 
-`bUseUnderLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseUnderLine` bool
 
 Whether use underline.
 
-`nNumFigure` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumFigure` int
 
 The Number of Figure.
 
-`nStartIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStartIndex` int
 
 The start index.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -118,21 +119,21 @@ public static string GetNewEntityName(IContainer container, string strPrefix, bo
 
 The DAFUL object container.
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The DAFUL object prefix name.
 
-`bUseUnderLine` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseUnderLine` bool
 
 Whether use underline.
 
-`nNumFigure` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nNumFigure` int
 
 The Number of Figure.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 
@@ -150,13 +151,13 @@ public static string GetNewEntityName(IContainer container, string strPrefix)
 
 The DAFUL object container.
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The DAFUL object prefix name.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The DAFUL object name.
 

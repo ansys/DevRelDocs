@@ -1,4 +1,5 @@
-#  Class EHDBearingAPI
+# Class EHDBearingAPI
+<a id="VM_API_Pre_GearTrain_EHDBearingAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class EHDBearingAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EHDBearingAPI](VM.API.Pre.GearTrain.EHDBearingAPI.md)
 
 #### Extension Methods
@@ -36,15 +37,15 @@ public static Obj CreateEHDBearing(this GearTrainDocument document, Obj baseGeom
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the ehd bearing.
 
-`baseGeometry` Obj
+`baseGeometry` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base geometry. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`actionGeometry` Obj
+`actionGeometry` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action geometry. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -60,51 +61,51 @@ The z axis.
 
 The x axis.
 
-`baseRadius` ExpressionValueVariable
+`baseRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The base radius.
 
-`actionRadius` ExpressionValueVariable
+`actionRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The action radius.
 
-`width` ExpressionValueVariable
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The width.
 
-`ehdBearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`ehdBearingName` string
 
 The name of the ehd bearing. If empty, default name starts with 'EHDBearing_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Bearing.EHDBearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'baseGeometry' or 'actionGeometry' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of zAxis' or 'xAxis' is 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if zAxis' is equal to 'xAxis'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the 'baseRadius' is less than 'actionRadius'.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'baseGeometry' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'actionGeometry' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -122,15 +123,15 @@ public static Obj CreateEHDBearing(this GearTrainDocument document, Obj baseGeom
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the ehd bearing.
 
-`baseGeometry` Obj
+`baseGeometry` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base geometry. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`actionGeometry` Obj
+`actionGeometry` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action geometry. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -158,55 +159,55 @@ The action z axis.
 
 The action x axis.
 
-`baseRadius` ExpressionValueVariable
+`baseRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The base radius.
 
-`actionRadius` ExpressionValueVariable
+`actionRadius` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The action radius.
 
-`width` ExpressionValueVariable
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The width.
 
-`ehdBearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`ehdBearingName` string
 
 The name of the ehd bearing. If empty, default name starts with 'EHDBearing_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Bearing.EHDBearing" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'baseGeometry' or 'actionGeometry' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of baseZAxis' or 'baseXAxis' or 'actionZAxis' or 'actionXAxis' is 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if baseZAxis' is equal to 'baseXAxis'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if actionZAxis' is equal to 'actionXAxis'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the 'baseRadius' is less than 'actionRadius'.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'baseGeometry' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'actionGeometry' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 

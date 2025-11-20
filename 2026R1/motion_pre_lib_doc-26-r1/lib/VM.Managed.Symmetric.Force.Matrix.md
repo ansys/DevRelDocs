@@ -1,4 +1,5 @@
-#  Class Matrix
+# Class Matrix
+<a id="VM_Managed_Symmetric_Force_Matrix"></a>
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFP.dll  
@@ -9,10 +10,10 @@ public class Matrix : Force<Matrix, PropertyMatrix>, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Matrix\> ← 
-Connector<Matrix, PropertyMatrix\> ← 
-Force<Matrix, PropertyMatrix\> ← 
+object ← 
+[Named<Matrix\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<Matrix, PropertyMatrix\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
+[Force<Matrix, PropertyMatrix\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs) ← 
 [Matrix](VM.Managed.Symmetric.Force.Matrix.md)
 
 #### Implements
@@ -21,12 +22,12 @@ ISymmetricUpdater
 
 #### Inherited Members
 
-Force<Matrix, PropertyMatrix\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Connector<Matrix, PropertyMatrix\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Matrix\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Matrix\>.Initialize\(ISymmetricManager\), 
-Named<Matrix\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Matrix\>.SymmetricManager
+[Force<Matrix, PropertyMatrix\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs), 
+[Connector<Matrix, PropertyMatrix\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<Matrix\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Matrix\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Matrix\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Matrix\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -86,9 +87,9 @@ public static bool UpdateProperty(PropertyMatrix toolProperty, PropertyMatrix ta
 
 #### Parameters
 
-`toolProperty` PropertyMatrix
+`toolProperty` [PropertyMatrix](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Matrix.cs)
 
-`targetProperty` PropertyMatrix
+`targetProperty` [PropertyMatrix](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Matrix.cs)
 
 `sym_type` SymmetricType
 
@@ -98,5 +99,5 @@ public static bool UpdateProperty(PropertyMatrix toolProperty, PropertyMatrix ta
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

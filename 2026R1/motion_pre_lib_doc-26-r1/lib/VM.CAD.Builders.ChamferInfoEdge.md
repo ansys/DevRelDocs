@@ -1,4 +1,5 @@
-#  Class ChamferInfoEdge
+# Class ChamferInfoEdge
+<a id="VM_CAD_Builders_ChamferInfoEdge"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public class ChamferInfoEdge : ChamferInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ChamferInfo](VM.CAD.Builders.ChamferInfo.md) ← 
 [ChamferInfoEdge](VM.CAD.Builders.ChamferInfoEdge.md)
 

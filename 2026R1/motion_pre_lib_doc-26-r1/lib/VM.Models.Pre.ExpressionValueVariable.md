@@ -1,4 +1,5 @@
-#  Struct ExpressionValueVariable
+# Struct ExpressionValueVariable
+<a id="VM_Models_Pre_ExpressionValueVariable"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -29,7 +30,7 @@ public ExpressionValueVariable(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable__ctor_System_Double_System_String_"></a> ExpressionValueVariable\(double, string\)
 
@@ -39,9 +40,9 @@ public ExpressionValueVariable(double value, string expression)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 ## Properties
 
@@ -53,7 +54,7 @@ public string Expression { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_IsSimpleValue"></a> IsSimpleValue
 
@@ -63,7 +64,7 @@ public bool IsSimpleValue { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_Parser"></a> Parser
 
@@ -73,7 +74,7 @@ public static IExpressionParser<double> Parser { get; }
 
 #### Property Value
 
- [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<double\>
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_Value"></a> Value
 
@@ -83,7 +84,7 @@ public double Value { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -99,7 +100,7 @@ public bool Equals(ExpressionValueVariable other)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_Equals_System_Object_"></a> Equals\(object\)
 
@@ -109,11 +110,11 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_GetSchema"></a> GetSchema\(\)
 
@@ -123,7 +124,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_GetValue_System_String_"></a> GetValue\(string\)
 
@@ -133,11 +134,11 @@ public static object GetValue(string expression)
 
 #### Parameters
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -147,7 +148,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_SetParser_VM_Models_Pre_IExpressionParser_System_Double__"></a> SetParser\(IExpressionParser<double\>\)
 
@@ -157,7 +158,7 @@ public static void SetParser(IExpressionParser<double> parser)
 
 #### Parameters
 
-`parser` [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`parser` [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<double\>
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -167,7 +168,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ## Operators
 
@@ -185,7 +186,7 @@ public static bool operator ==(ExpressionValueVariable expressionValue1, Express
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_op_Implicit_System_Double__VM_Models_Pre_ExpressionValueVariable"></a> implicit operator ExpressionValueVariable\(double\)
 
@@ -195,7 +196,7 @@ public static implicit operator ExpressionValueVariable(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 #### Returns
 
@@ -213,7 +214,7 @@ public static implicit operator double(ExpressionValueVariable expressionValue)
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_op_Implicit_System_String__VM_Models_Pre_ExpressionValueVariable"></a> implicit operator ExpressionValueVariable\(string\)
 
@@ -223,7 +224,7 @@ public static implicit operator ExpressionValueVariable(string expression)
 
 #### Parameters
 
-`expression` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expression` string
 
 #### Returns
 
@@ -241,7 +242,7 @@ public static implicit operator string(ExpressionValueVariable expressionValue)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_ExpressionValueVariable_op_Inequality_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> operator \!=\(ExpressionValueVariable, ExpressionValueVariable\)
 
@@ -257,5 +258,5 @@ public static bool operator !=(ExpressionValueVariable expressionValue1, Express
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

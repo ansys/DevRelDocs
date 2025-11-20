@@ -1,4 +1,5 @@
-#  Class DirectionLink
+# Class DirectionLink
+<a id="VM_Managed_DirectionLink"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -6,14 +7,14 @@ Assembly: VMAppCore.dll
 This class is to represent information of direction through Design Frame.
 
 ```csharp
-public class DirectionLink : DirectionBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IReservable
+public class DirectionLink : DirectionBase, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IHasReplaceableEntity, IReservable
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [DirectionBase](VM.Managed.DirectionBase.md) ← 
 [DirectionLink](VM.Managed.DirectionLink.md)
@@ -30,6 +31,7 @@ IHasID,
 IEventProvider, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
+IHasReplaceableEntity, 
 IReservable
 
 #### Inherited Members
@@ -40,6 +42,8 @@ IReservable
 [DirectionBase.ReadXml\(XmlReader\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_ReadXml\_System\_Xml\_XmlReader\_), 
 [DirectionBase.WriteXml\(XmlWriter\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_WriteXml\_System\_Xml\_XmlWriter\_), 
 [DirectionBase.GetSchema\(\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_GetSchema), 
+[DirectionBase.HasReplaceableEntity\(IObjectBase\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_HasReplaceableEntity\_VM\_Models\_Pre\_IObjectBase\_), 
+[DirectionBase.ReplaceEntity\(IObjectBase, IObjectBase\)](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_ReplaceEntity\_VM\_Models\_Pre\_IObjectBase\_VM\_Models\_Pre\_IObjectBase\_), 
 [DirectionBase.Reverse](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_Reverse), 
 [DirectionBase.IsParameterized](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_IsParameterized), 
 [DirectionBase.Value](VM.Managed.DirectionBase.md\#VM\_Managed\_DirectionBase\_Value), 
@@ -86,7 +90,7 @@ IReservable
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -121,7 +125,7 @@ public DirectionLink(IDirectionContainer pDirectionContainer, string strDirectio
 
 The data of direction of Design Frame.
 
-`strDirectionType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDirectionType` string
 
 Direction type(x,y,z).
 
@@ -153,7 +157,7 @@ protected string m_strDirectionType
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -179,7 +183,7 @@ public string DirectionType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DirectionLink_IsParameterized"></a> IsParameterized
 
@@ -191,7 +195,7 @@ public override bool IsParameterized { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DirectionLink_Position"></a> Position
 
@@ -244,9 +248,29 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
+
+### <a id="VM_Managed_DirectionLink_HasReplaceableEntity_VM_Models_Pre_IObjectBase_"></a> HasReplaceableEntity\(IObjectBase\)
+
+Gets a value indicating whether this instance has replacable entity.
+
+```csharp
+public override bool HasReplaceableEntity(IObjectBase oldObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+#### Returns
+
+ bool
+
+if this instance has replacable entity, the result is true.
 
 ### <a id="VM_Managed_DirectionLink_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -258,9 +282,33 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
+
+### <a id="VM_Managed_DirectionLink_ReplaceEntity_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_"></a> ReplaceEntity\(IObjectBase, IObjectBase\)
+
+Replace Entity
+
+```csharp
+public override bool ReplaceEntity(IObjectBase oldObject, IObjectBase newObject)
+```
+
+#### Parameters
+
+`oldObject` IObjectBase
+
+The old object
+
+`newObject` IObjectBase
+
+The new object
+
+#### Returns
+
+ bool
+
+if success, the result is true.
 
 ### <a id="VM_Managed_DirectionLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
@@ -272,7 +320,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

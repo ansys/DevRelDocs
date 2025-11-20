@@ -1,4 +1,5 @@
-#  Class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy\>
+# Class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy\>
+<a id="VM_Managed_CheckedLink_4"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +22,7 @@ public class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy> : Link<T, TUpdate,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Link<T, TUpdate, TDestroy, TOwnerDestroy\>](VM.Managed.Link\-4.md) ← 
 [CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy\>](VM.Managed.CheckedLink\-4.md)
 
@@ -108,9 +109,9 @@ protected CheckedLink(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ## Properties
 
@@ -124,7 +125,7 @@ public bool Checked { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -136,9 +137,9 @@ protected override void GetObjectData(SerializationInfo info, StreamingContext c
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ### <a id="VM_Managed_CheckedLink_4_OnResetLink"></a> OnResetLink\(\)
 

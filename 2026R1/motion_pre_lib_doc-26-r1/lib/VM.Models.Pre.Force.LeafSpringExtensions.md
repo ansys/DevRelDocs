@@ -1,4 +1,5 @@
-#  Class LeafSpringExtensions
+# Class LeafSpringExtensions
+<a id="VM_Models_Pre_Force_LeafSpringExtensions"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -9,7 +10,7 @@ public static class LeafSpringExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LeafSpringExtensions](VM.Models.Pre.Force.LeafSpringExtensions.md)
 
 #### Extension Methods
@@ -28,15 +29,15 @@ public static Vector[] GetLeafBeamElementPositions(IOutputReader outputReader, i
 
 #### Parameters
 
-`outputReader` IOutputReader
+`outputReader` [IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
-`beamProfilesCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`beamProfilesCount` int
 
-`leafIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`leafIndex` int
 
-`loadIndex` \([int](https://learn.microsoft.com/dotnet/api/system.int32) [A](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.a), [int](https://learn.microsoft.com/dotnet/api/system.int32) [B](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.b)\)
+`loadIndex` \(int A, int B\)
 
-`variation` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`variation` double
 
 #### Returns
 
@@ -50,13 +51,13 @@ public static (int A, int B) GetLoadIndex((double Time, double Force)[] loadResu
 
 #### Parameters
 
-`loadResult` \([double](https://learn.microsoft.com/dotnet/api/system.double) [Time](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.time), [double](https://learn.microsoft.com/dotnet/api/system.double) [Force](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.force)\)\[\]
+`loadResult` \(double Time, double Force\)\[\]
 
-`designLoad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`designLoad` double
 
 #### Returns
 
- \([int](https://learn.microsoft.com/dotnet/api/system.int32) [A](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.a), [int](https://learn.microsoft.com/dotnet/api/system.int32) [B](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.b)\)
+ \(int A, int B\)
 
 ### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetLoadResult_VM_Models_OutputReader_IOutputReader_"></a> GetLoadResult\(IOutputReader\)
 
@@ -66,11 +67,11 @@ public static (double Time, double Force)[] GetLoadResult(IOutputReader outputRe
 
 #### Parameters
 
-`outputReader` IOutputReader
+`outputReader` [IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
 #### Returns
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [Time](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.time), [double](https://learn.microsoft.com/dotnet/api/system.double) [Force](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.force)\)\[\]
+ \(double Time, double Force\)\[\]
 
 ### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetLoadVariation_VM_Models_OutputReader_IOutputReader_System_Double_System_ValueTuple_System_Int32_System_Int32__"></a> GetLoadVariation\(IOutputReader, double, \(int A, int B\)\)
 
@@ -80,15 +81,15 @@ public static double GetLoadVariation(IOutputReader outputReader, double designL
 
 #### Parameters
 
-`outputReader` IOutputReader
+`outputReader` [IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
-`designLoad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`designLoad` double
 
-`loadIndex` \([int](https://learn.microsoft.com/dotnet/api/system.int32) [A](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.a), [int](https://learn.microsoft.com/dotnet/api/system.int32) [B](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.b)\)
+`loadIndex` \(int A, int B\)
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetOutputReader_System_String_"></a> GetOutputReader\(string\)
 
@@ -98,11 +99,11 @@ public static IOutputReader GetOutputReader(string resultPath)
 
 #### Parameters
 
-`resultPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultPath` string
 
 #### Returns
 
- IOutputReader
+ [IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
 ### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetResult_VM_Models_OutputReader_IOutputReader_System_String_System_String___"></a> GetResult\(IOutputReader, string, params string\[\]\)
 
@@ -112,15 +113,15 @@ public static (double Time, double Value)[] GetResult(IOutputReader outputReader
 
 #### Parameters
 
-`outputReader` IOutputReader
+`outputReader` [IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
-`paths` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`paths` string\[\]
 
 #### Returns
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [Time](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.time), [double](https://learn.microsoft.com/dotnet/api/system.double) [Value](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.value)\)\[\]
+ \(double Time, double Value\)\[\]
 
 ### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetTransformMatrix_VM_Models_OutputReader_IOutputReader_System_String_System_ValueTuple_System_Int32_System_Int32__System_Double_System_Nullable_VM_TMatrix__"></a> GetTransformMatrix\(IOutputReader, string, \(int A, int B\), double, TMatrix?\)
 
@@ -130,13 +131,13 @@ public static TMatrix GetTransformMatrix(IOutputReader outputReader, string targ
 
 #### Parameters
 
-`outputReader` IOutputReader
+`outputReader` [IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
-`targetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetName` string
 
-`loadIndex` \([int](https://learn.microsoft.com/dotnet/api/system.int32) [A](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.a), [int](https://learn.microsoft.com/dotnet/api/system.int32) [B](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.b)\)
+`loadIndex` \(int A, int B\)
 
-`variation` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`variation` double
 
 `repositionMatrix` TMatrix?
 
@@ -152,11 +153,11 @@ public static bool IsTestSimulationCompleted(IOutputReader outputReader, double 
 
 #### Parameters
 
-`outputReader` IOutputReader
+`outputReader` [IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
-`endTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`endTime` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

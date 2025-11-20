@@ -1,4 +1,5 @@
-#  Enum BearingStrength.enLubricantType
+# Enum BearingStrength.enLubricantType
+<a id="VM_Managed_DAFUL_GearTrain_BearingStrength_enLubricantType"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,5 @@
-#  Class CADOperation.CalcBoundingBoxOp
+# Class CADOperation.CalcBoundingBoxOp
+<a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation.CalcBoundingBoxOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADOperation.CalcBoundingBoxOp](VM.Managed.DAFUL.CADOperation.CalcBoundingBoxOp.md)
 
@@ -115,7 +116,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp_Name"></a> Name
 
@@ -127,7 +128,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp_Result"></a> Result
 
@@ -139,7 +140,7 @@ public double[] Result { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ## Methods
 

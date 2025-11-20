@@ -1,4 +1,5 @@
-#  Class CoSimulationMatlabConfig
+# Class CoSimulationMatlabConfig
+<a id="VM_Managed_DAFUL_CoSim_Matlab_CoSimulationMatlabConfig"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab](VM.Managed.DAFUL.CoSim.Matlab.md)  
 Assembly: VMDCoSimMatlab.dll  
@@ -11,12 +12,12 @@ public class CoSimulationMatlabConfig : CoSimulationConfig, IObservableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-SimulationConfigurationExtraBase ← 
-CoSimulationConfig ← 
+[SimulationConfigurationExtraBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs) ← 
+[CoSimulationConfig](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimulationConfig.cs) ← 
 [CoSimulationMatlabConfig](VM.Managed.DAFUL.CoSim.Matlab.CoSimulationMatlabConfig.md)
 
 #### Implements
@@ -34,11 +35,11 @@ IVerifiable
 
 #### Inherited Members
 
-CoSimulationConfig.GetExtraInformation\(\), 
-CoSimulationConfig.ExecutingProgramPath, 
-CoSimulationConfig.MFileName, 
-SimulationConfigurationExtraBase.GetExtraInformation\(\), 
-SimulationConfigurationExtraBase.IsUse, 
+[CoSimulationConfig.GetExtraInformation\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimulationConfig.cs), 
+[CoSimulationConfig.ExecutingProgramPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimulationConfig.cs), 
+[CoSimulationConfig.MFileName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCoSimCore/CoSimulationConfig.cs), 
+[SimulationConfigurationExtraBase.GetExtraInformation\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs), 
+[SimulationConfigurationExtraBase.IsUse](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -82,7 +83,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -123,7 +124,7 @@ public string FileNameOfSimulink { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -137,7 +138,7 @@ public override string GetExtraInformation()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The extra information
 

@@ -1,4 +1,5 @@
-#  Class Subtract
+# Class Subtract
+<a id="VM_Managed_DAFUL_Builder_Subtract"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class Subtract : Boolean<BuilderSubtract>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<BuilderSubtract\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [Boolean<BuilderSubtract\>](VM.Managed.DAFUL.Builder.Boolean\-1.md) ← 
 [Subtract](VM.Managed.DAFUL.Builder.Subtract.md)
@@ -80,7 +81,7 @@ protected override string Type { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -106,9 +107,9 @@ protected override bool CheckValid(Document doc, List<Body> lstBodies)
 
 `doc` Document
 
-`lstBodies` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
+`lstBodies` List<Body\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

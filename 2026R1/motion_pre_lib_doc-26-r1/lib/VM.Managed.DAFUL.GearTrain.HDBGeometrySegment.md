@@ -1,4 +1,5 @@
-#  Class HDBGeometrySegment
+# Class HDBGeometrySegment
+<a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class HDBGeometrySegment
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [HDBGeometrySegment](VM.Managed.DAFUL.GearTrain.HDBGeometrySegment.md)
 
 #### Extension Methods
@@ -36,15 +37,15 @@ public HDBGeometrySegment(enHDBGeometrySegmentType type, double value1, double v
 
 type
 
-`value1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value1` double
 
 value1
 
-`value2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value2` double
 
 value2
 
-`value3` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value3` double
 
 value3
 
@@ -72,7 +73,7 @@ public double Value1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment_Value2"></a> Value2
 
@@ -84,7 +85,7 @@ public double Value2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment_Value3"></a> Value3
 
@@ -96,5 +97,5 @@ public double Value3 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Class SuspensionAnalysisBase
+# Class SuspensionAnalysisBase
+<a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public abstract class SuspensionAnalysisBase : AnalysisBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [SuspensionAnalysisBase](VM.Managed.DAFUL.Car.SuspensionAnalysisBase.md)
 
@@ -75,7 +76,7 @@ public virtual string SteeringFunctionArgument { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_SteeringInputType"></a> SteeringInputType
 
@@ -125,11 +126,11 @@ public virtual void GetDataForLoadCase(int nStep, Dictionary<SuspensionLoadCase.
 
 #### Parameters
 
-`nStep` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStep` int
 
 The step.
 
-`dicCol` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[SuspensionLoadCase](VM.Managed.DAFUL.Car.SuspensionLoadCase.md).[Column](VM.Managed.DAFUL.Car.SuspensionLoadCase.Column.md), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`dicCol` Dictionary<[SuspensionLoadCase](VM.Managed.DAFUL.Car.SuspensionLoadCase.md).[Column](VM.Managed.DAFUL.Car.SuspensionLoadCase.Column.md), double\[\]\>
 
 The column information.
 
@@ -147,7 +148,7 @@ public virtual void GetXmlData(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -175,7 +176,7 @@ public virtual void SetXmlData(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 

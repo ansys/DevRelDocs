@@ -1,4 +1,5 @@
-#  Class SixMotion
+# Class SixMotion
+<a id="VM_Models_Pre_Symmetric_Connections_SixMotion"></a>
 
 Namespace: [VM.Models.Pre.Symmetric.Connections](VM.Models.Pre.Symmetric.Connections.md)  
 Assembly: VM.Models.Pre.Symmetric.Connections.dll  
@@ -9,7 +10,7 @@ public class SixMotion
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SixMotion](VM.Models.Pre.Symmetric.Connections.SixMotion.md)
 
 #### Extension Methods

@@ -1,4 +1,5 @@
-#  Delegate OperationBase.PostOperation
+# Delegate OperationBase.PostOperation
+<a id="VM_Managed_Operation_OperationBase_PostOperation"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

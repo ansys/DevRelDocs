@@ -1,4 +1,5 @@
-#  Struct Obj
+# Struct Obj
+<a id="VM_API_Pre_Obj"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -42,7 +43,7 @@ public Obj(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of object.
 
@@ -56,7 +57,7 @@ public Obj(string name, IContainer container)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the object.
 
@@ -66,7 +67,7 @@ The container of the object.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'name' or 'container' arguments are empty.
 
@@ -80,7 +81,7 @@ public Obj(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key of the object.
 
@@ -144,7 +145,7 @@ public static implicit operator Obj(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 
@@ -172,7 +173,7 @@ public static implicit operator Obj(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 

@@ -1,4 +1,5 @@
-#  Delegate Body.WrtieMessage
+# Delegate Body.WrtieMessage
+<a id="VM_CAD_Kernel_Body_WrtieMessage"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public delegate void Body.WrtieMessage(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 #### Extension Methods
 

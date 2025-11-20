@@ -1,4 +1,5 @@
-#  Class OpenDocumentInfo
+# Class OpenDocumentInfo
+<a id="VM_CAD_Kernel_OpenDocumentInfo"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class OpenDocumentInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OpenDocumentInfo](VM.CAD.Kernel.OpenDocumentInfo.md)
 
 #### Extension Methods
@@ -56,7 +57,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_OpenDocumentInfo_LoadPrior242Sp3Files"></a> LoadPrior242Sp3Files
 
@@ -66,7 +67,7 @@ public bool LoadPrior242Sp3Files { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_OpenDocumentInfo_Offset"></a> Offset
 
@@ -76,5 +77,5 @@ public long Offset { get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 

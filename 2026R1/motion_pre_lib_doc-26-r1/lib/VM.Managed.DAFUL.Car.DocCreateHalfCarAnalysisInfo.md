@@ -1,4 +1,5 @@
-#  Class DocCreateHalfCarAnalysisInfo
+# Class DocCreateHalfCarAnalysisInfo
+<a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class DocCreateHalfCarAnalysisInfo : DocCreateCarAnalysisInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocFromTemplateInfo ← 
 [DocCreateCarAnalysisInfo](VM.Managed.DAFUL.Car.DocCreateCarAnalysisInfo.md) ← 
@@ -58,7 +59,7 @@ public string AssemblyPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_IsOther"></a> IsOther
 
@@ -70,7 +71,7 @@ public bool IsOther { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_IsSteering"></a> IsSteering
 
@@ -82,7 +83,7 @@ public bool IsSteering { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_OtherPath"></a> OtherPath
 
@@ -94,7 +95,7 @@ public string OtherPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_SteeringPath"></a> SteeringPath
 
@@ -106,7 +107,7 @@ public string SteeringPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_SuspensionPath"></a> SuspensionPath
 
@@ -118,7 +119,7 @@ public string SuspensionPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_TestRigPath"></a> TestRigPath
 
@@ -130,5 +131,5 @@ public string TestRigPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -1,4 +1,5 @@
-#  Class Point
+# Class Point
+<a id="VM_Managed_Point"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class Point : Expression, IObservableObject, IDisposableObject, ILinkable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Expression](VM.Managed.Expression.md) ← 
 [Point](VM.Managed.Point.md)
@@ -94,7 +95,7 @@ IExpression
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -139,7 +140,7 @@ public Point(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 Value of point.
 
@@ -177,13 +178,13 @@ protected override bool ConvertToValue(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The string.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Point_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
@@ -195,7 +196,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -209,7 +210,7 @@ protected override void ParseToValue(char* wstrValue)
 
 #### Parameters
 
-`wstrValue` [char](https://learn.microsoft.com/dotnet/api/system.char)\*
+`wstrValue` char\*
 
 The string.
 
@@ -223,7 +224,7 @@ protected override void SetDefaultString(ref string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value holds default string.
 

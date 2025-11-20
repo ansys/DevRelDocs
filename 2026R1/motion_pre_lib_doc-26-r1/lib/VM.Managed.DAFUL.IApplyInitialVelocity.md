@@ -1,4 +1,5 @@
-#  Interface IApplyInitialVelocity
+# Interface IApplyInitialVelocity
+<a id="VM_Managed_DAFUL_IApplyInitialVelocity"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -25,7 +26,7 @@ bool ApplyInitialVelocity { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_IApplyInitialVelocity_InitialVelocity"></a> InitialVelocity
 
@@ -37,5 +38,5 @@ double InitialVelocity { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

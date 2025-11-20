@@ -1,4 +1,5 @@
-#  Class SectionModificationSplit
+# Class SectionModificationSplit
+<a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class SectionModificationSplit : IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SectionModificationSplit](VM.Managed.DAFUL.Builder.GearTrain.SectionModificationSplit.md)
 
 #### Implements
@@ -50,7 +51,7 @@ public PickedResult[] Parameters { get; set; }
 
 #### Property Value
 
- PickedResult\[\]
+ [PickedResult](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/PickedResult.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_TargetSection"></a> TargetSection
 
@@ -60,7 +61,7 @@ public Section TargetSection { get; }
 
 #### Property Value
 
- Section
+ [Section](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Section.cs)
 
 ## Methods
 
@@ -82,7 +83,7 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -92,9 +93,9 @@ public bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

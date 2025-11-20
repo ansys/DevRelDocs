@@ -1,4 +1,5 @@
-#  Class DocInfo
+# Class DocInfo
+<a id="VM_Managed_DAFUL_Pre_DocInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class DocInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md)
 
 #### Derived
@@ -70,7 +71,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Designer"></a> Designer
 
@@ -82,7 +83,7 @@ public string Designer { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_DocCreateInfo"></a> DocCreateInfo
 
@@ -106,7 +107,7 @@ public Type DocumentType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Extension"></a> Extension
 
@@ -118,7 +119,7 @@ public string Extension { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Filter"></a> Filter
 
@@ -130,7 +131,7 @@ public string Filter { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Group"></a> Group
 
@@ -142,7 +143,7 @@ public string Group { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Handle"></a> Handle
 
@@ -154,7 +155,7 @@ public UIntPtr Handle { get; set; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Helper"></a> Helper
 
@@ -178,7 +179,7 @@ public string Hidden { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Icon"></a> Icon
 
@@ -190,7 +191,7 @@ public Icon Icon { get; }
 
 #### Property Value
 
- [Icon](https://learn.microsoft.com/dotnet/api/system.drawing.icon)
+ Icon
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_IconFile"></a> IconFile
 
@@ -202,7 +203,7 @@ public string IconFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_IsFailedLicense"></a> IsFailedLicense
 
@@ -214,7 +215,7 @@ public bool IsFailedLicense { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Mode"></a> Mode
 
@@ -226,7 +227,7 @@ public string Mode { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Modules"></a> Modules
 
@@ -238,7 +239,7 @@ public string[] Modules { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Name"></a> Name
 
@@ -250,7 +251,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Navigator"></a> Navigator
 
@@ -262,7 +263,7 @@ public string Navigator { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_NewDocumentName"></a> NewDocumentName
 
@@ -274,7 +275,7 @@ public string NewDocumentName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_NewFormType"></a> NewFormType
 
@@ -286,7 +287,7 @@ public string NewFormType { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Toolkit"></a> Toolkit
 
@@ -298,7 +299,7 @@ public string Toolkit { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_Type"></a> Type
 
@@ -310,7 +311,7 @@ public string Type { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_TypeID"></a> TypeID
 
@@ -322,7 +323,7 @@ public string TypeID { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_TypeName"></a> TypeName
 
@@ -334,7 +335,7 @@ public string TypeName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_DocInfo_UntitledDocCount"></a> UntitledDocCount
 
@@ -346,5 +347,5 @@ public uint UntitledDocCount { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

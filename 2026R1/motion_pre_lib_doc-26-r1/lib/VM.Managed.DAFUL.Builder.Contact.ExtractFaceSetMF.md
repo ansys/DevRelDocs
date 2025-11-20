@@ -1,4 +1,5 @@
-#  Class ExtractFaceSetMF
+# Class ExtractFaceSetMF
+<a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetMF"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -9,7 +10,7 @@ public class ExtractFaceSetMF : ExtractFaceSetBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExtractFaceSetBase](VM.Managed.DAFUL.Builder.Contact.ExtractFaceSetBase.md) ← 
 [ExtractFaceSetMF](VM.Managed.DAFUL.Builder.Contact.ExtractFaceSetMF.md)
 
@@ -68,7 +69,7 @@ public string[] ObjectKey { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetMF_SecondConnectable"></a> SecondConnectable
 

@@ -1,4 +1,5 @@
-#  Class SetEdge
+# Class SetEdge
+<a id="VM_Managed_DAFUL_FE_SetEdge"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,12 +12,12 @@ public class SetEdge : SetPatchBase, IObservableObject, IDisposableObject, ILink
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
 [FESubEntity](VM.Managed.DAFUL.FE.FESubEntity.md) ← 
 [SetBase](VM.Managed.DAFUL.FE.SetBase.md) ← 
 [SetPatchBase](VM.Managed.DAFUL.FE.SetPatchBase.md) ← 
@@ -29,7 +30,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -78,6 +79,7 @@ IEdgeSetInformation
 [SetPatchBase.AddPatches\(ICollection<Patch\>\)](VM.Managed.DAFUL.FE.SetPatchBase.md\#VM\_Managed\_DAFUL\_FE\_SetPatchBase\_AddPatches\_System\_Collections\_Generic\_ICollection\_VM\_Managed\_DAFUL\_FE\_Patch\_\_), 
 [SetPatchBase.RemovePatches\(Patch\[\]\)](VM.Managed.DAFUL.FE.SetPatchBase.md\#VM\_Managed\_DAFUL\_FE\_SetPatchBase\_RemovePatches\_VM\_Managed\_DAFUL\_FE\_Patch\_\_\_), 
 [SetPatchBase.RemovePatches\(ICollection<Patch\>\)](VM.Managed.DAFUL.FE.SetPatchBase.md\#VM\_Managed\_DAFUL\_FE\_SetPatchBase\_RemovePatches\_System\_Collections\_Generic\_ICollection\_VM\_Managed\_DAFUL\_FE\_Patch\_\_), 
+[SetPatchBase.GetAllNodeIndexes\(\)](VM.Managed.DAFUL.FE.SetPatchBase.md\#VM\_Managed\_DAFUL\_FE\_SetPatchBase\_GetAllNodeIndexes), 
 [SetPatchBase.SetGap\(string\)](VM.Managed.DAFUL.FE.SetPatchBase.md\#VM\_Managed\_DAFUL\_FE\_SetPatchBase\_SetGap\_System\_String\_), 
 [SetPatchBase.GetSchema\(\)](VM.Managed.DAFUL.FE.SetPatchBase.md\#VM\_Managed\_DAFUL\_FE\_SetPatchBase\_GetSchema), 
 [SetPatchBase.ReadXml\(XmlReader\)](VM.Managed.DAFUL.FE.SetPatchBase.md\#VM\_Managed\_DAFUL\_FE\_SetPatchBase\_ReadXml\_System\_Xml\_XmlReader\_), 
@@ -109,17 +111,17 @@ IEdgeSetInformation
 [FESubEntity.GetNodalBodyForSubsystem\(SubSystem, Mesh\)](VM.Managed.DAFUL.FE.FESubEntity.md\#VM\_Managed\_DAFUL\_FE\_FESubEntity\_GetNodalBodyForSubsystem\_VM\_Managed\_DAFUL\_SubSystem\_VM\_Managed\_DAFUL\_FE\_Mesh\_), 
 [FESubEntity.FEID](VM.Managed.DAFUL.FE.FESubEntity.md\#VM\_Managed\_DAFUL\_FE\_FESubEntity\_FEID), 
 [FESubEntity.OwnerMesh](VM.Managed.DAFUL.FE.FESubEntity.md\#VM\_Managed\_DAFUL\_FE\_FESubEntity\_OwnerMesh), 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -212,7 +214,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -253,7 +255,7 @@ public override Color Color { set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_Count"></a> Count
 
@@ -265,7 +267,7 @@ public override uint Count { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeCount"></a> EdgeCount
 
@@ -277,7 +279,7 @@ public uint EdgeCount { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeIndexCont"></a> EdgeIndexCont
 
@@ -299,7 +301,7 @@ public IEnumerable<Tuple<uint, uint>> Edges { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\>
+ IEnumerable<Tuple<uint, uint\>\>
 
 ## Methods
 
@@ -311,7 +313,7 @@ public void AddEdges(Tuple<uint, uint>[] edges)
 
 #### Parameters
 
-`edges` [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\[\]
+`edges` Tuple<uint, uint\>\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_AddEdges_System_Collections_Generic_ICollection_System_Tuple_System_UInt32_System_UInt32___"></a> AddEdges\(ICollection<Tuple<uint, uint\>\>\)
 
@@ -321,7 +323,7 @@ public void AddEdges(ICollection<Tuple<uint, uint>> edges)
 
 #### Parameters
 
-`edges` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\>
+`edges` ICollection<Tuple<uint, uint\>\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_AddPatches_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Patch__"></a> AddPatches\(ICollection<Patch\>\)
 
@@ -331,7 +333,7 @@ public override void AddPatches(ICollection<Patch> patches)
 
 #### Parameters
 
-`patches` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
+`patches` ICollection<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_ConnectProxy"></a> ConnectProxy\(\)
 
@@ -347,7 +349,7 @@ protected override void GetCenterPositionDirectionImpl(uint index, ref VectorBas
 
 #### Parameters
 
-`index` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`index` uint
 
 `center` VectorBase
 
@@ -363,13 +365,13 @@ protected override bool GetDefaultMaxPenetrationImpl(ref double dMaxPenetration,
 
 #### Parameters
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 `reference` IReferencable
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_GetEdgesIncludeMiddleNode"></a> GetEdgesIncludeMiddleNode\(\)
 
@@ -379,7 +381,7 @@ public IEnumerable<Tuple<uint, uint>> GetEdgesIncludeMiddleNode()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\>
+ IEnumerable<Tuple<uint, uint\>\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_GetNodeIndexFromID_System_UInt32_"></a> GetNodeIndexFromID\(uint\)
 
@@ -389,11 +391,11 @@ public uint GetNodeIndexFromID(uint nNodeID)
 
 #### Parameters
 
-`nNodeID` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNodeID` uint
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_GetPatches"></a> GetPatches\(\)
 
@@ -403,7 +405,7 @@ public List<Patch> GetPatches()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
+ List<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_GetPointDirectionImpl_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirectionImpl\(ref VectorBase, ref VectorBase, IReferencable\)
 
@@ -421,7 +423,7 @@ protected override bool GetPointDirectionImpl(ref VectorBase point, ref VectorBa
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -445,7 +447,7 @@ protected override void InstantiateImpl(Reference reference, Canvas canvas)
 
 `reference` Reference
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
@@ -455,7 +457,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 #### Parameters
 
-`lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
+`lstRef` LinkedList<Reference\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
@@ -467,7 +469,7 @@ public override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -487,7 +489,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -499,9 +501,9 @@ protected override void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
-`bNeedUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNeedUpdate` bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_RemoveEdges_System_Collections_Generic_ICollection_System_Tuple_System_UInt32_System_UInt32___"></a> RemoveEdges\(ICollection<Tuple<uint, uint\>\>\)
 
@@ -511,7 +513,7 @@ public void RemoveEdges(ICollection<Tuple<uint, uint>> edges)
 
 #### Parameters
 
-`edges` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\>
+`edges` ICollection<Tuple<uint, uint\>\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetEdge_SetLayer_VM_Managed_Layer_"></a> SetLayer\(Layer\)
 
@@ -533,7 +535,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

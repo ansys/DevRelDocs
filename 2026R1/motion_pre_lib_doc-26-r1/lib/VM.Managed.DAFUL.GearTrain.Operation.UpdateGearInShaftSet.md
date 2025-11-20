@@ -1,4 +1,5 @@
-#  Class UpdateGearInShaftSet
+# Class UpdateGearInShaftSet
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateGearInShaftSet"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateGearInShaftSet : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [UpdateGearInShaftSet](VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInShaftSet.md)
 
@@ -87,27 +88,27 @@ public UpdateGearInShaftSet(string strGearGeometryName, string strReferenceOffse
 
 #### Parameters
 
-`strGearGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearGeometryName` string
 
 Name of the string gear geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strParentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParentType` string
 
 Type of the string parent.
 
-`strBearing` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearing` string
 
 The string bearing.
 
-`clearanceInfo` ClearanceInfo
+`clearanceInfo` [ClearanceInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryInfoBase.cs)
 
 The clearance Information.
 
@@ -125,27 +126,27 @@ public UpdateGearInShaftSet(Document3D document3D, string strGearGeometryName, s
 
 The document.
 
-`strGearGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGearGeometryName` string
 
 Name of the string gear geometry.
 
-`strReferenceOffset` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferenceOffset` string
 
 The string reference offset.
 
-`strReferencePoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strReferencePoint` string
 
 The string reference point.
 
-`strParentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParentType` string
 
 Type of the string parent.
 
-`strBearing` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBearing` string
 
 The string bearing.
 
-`clearanceInfo` ClearanceInfo
+`clearanceInfo` [ClearanceInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GeometryInfoBase.cs)
 
 The clearance Information.
 
@@ -175,7 +176,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -197,7 +198,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

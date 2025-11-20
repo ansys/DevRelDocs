@@ -1,4 +1,5 @@
-#  Class Material
+# Class Material
+<a id="VM_Managed_Material_Material"></a>
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Material : IMaterial
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Material](VM.Managed.Material.Material.md)
 
 #### Implements
@@ -46,7 +47,7 @@ public virtual double DensityValue { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Material_Material_Index"></a> Index
 
@@ -58,5 +59,5 @@ public virtual uint Index { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

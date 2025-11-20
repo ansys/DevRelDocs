@@ -1,4 +1,5 @@
-#  Delegate DocumentSimpleValueModifiedEvent<T\>.PreExecuteCallback
+# Delegate DocumentSimpleValueModifiedEvent<T\>.PreExecuteCallback
+<a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_PreExecuteCallback"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -9,13 +10,13 @@ public delegate object DocumentSimpleValueModifiedEvent<T>.PreExecuteCallback(ob
 
 #### Parameters
 
-`param1` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param1` object
 
-`param2` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`param2` object
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 #### Extension Methods
 

@@ -1,4 +1,5 @@
-#  Class ExperimentForDrivenControl
+# Class ExperimentForDrivenControl
+<a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class ExperimentForDrivenControl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExperimentForDrivenControl](VM.Managed.DAFUL.Car.ExperimentForDrivenControl.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public double ClutchFallTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ClutchRaiseTime"></a> ClutchRaiseTime
 
@@ -54,7 +55,7 @@ public double ClutchRaiseTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_GearPosition"></a> GearPosition
 
@@ -66,7 +67,7 @@ public int GearPosition { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_GearShiftTime"></a> GearShiftTime
 
@@ -78,7 +79,7 @@ public double GearShiftTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_InitialVelocity"></a> InitialVelocity
 
@@ -90,7 +91,7 @@ public double InitialVelocity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_MiniManeuvers"></a> MiniManeuvers
 
@@ -102,7 +103,7 @@ public List<double> MiniManeuvers { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ List<double\>
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleFallTime"></a> ThrottleFallTime
 
@@ -114,7 +115,7 @@ public double ThrottleFallTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleOffDelay"></a> ThrottleOffDelay
 
@@ -126,7 +127,7 @@ public double ThrottleOffDelay { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleOnDelay"></a> ThrottleOnDelay
 
@@ -138,7 +139,7 @@ public double ThrottleOnDelay { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleRaiseTime"></a> ThrottleRaiseTime
 
@@ -150,7 +151,7 @@ public double ThrottleRaiseTime { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -164,7 +165,7 @@ public void GetUSUBArgumentForFileDriven(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The ar parameter.
 

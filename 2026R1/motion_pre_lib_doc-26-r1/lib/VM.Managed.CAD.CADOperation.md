@@ -1,4 +1,5 @@
-#  Class CADOperation
+# Class CADOperation
+<a id="VM_Managed_CAD_CADOperation"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class CADOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADOperation](VM.Managed.CAD.CADOperation.md)
 
 #### Extension Methods
@@ -50,11 +51,11 @@ public static bool CheckValidationAboutBuild(Body body, string strXml)
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_CADOperation_DeleteBuilder_System_Collections_Generic_List_VM_Managed_ObjectBase__VM_Managed_Document_System_Boolean_"></a> DeleteBuilder\(List<ObjectBase\>, Document, bool\)
 
@@ -64,11 +65,11 @@ public static void DeleteBuilder(List<ObjectBase> lstDeletedBuilder, Document do
 
 #### Parameters
 
-`lstDeletedBuilder` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstDeletedBuilder` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 `doc` [Document](VM.Managed.Document.md)
 
-`bModified` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModified` bool
 
 ### <a id="VM_Managed_CAD_CADOperation_GetBodyFaces_VM_Managed_CAD_Body_System_Collections_Generic_ICollection_System_Int32__"></a> GetBodyFaces\(Body, ICollection<int\>\)
 
@@ -80,11 +81,11 @@ public static List<Face> GetBodyFaces(Body bd, ICollection<int> Colors)
 
 `bd` [Body](VM.Managed.CAD.Body.md)
 
-`Colors` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`Colors` ICollection<int\>
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Face](VM.Managed.CAD.Face.md)\>
+ List<[Face](VM.Managed.CAD.Face.md)\>
 
 ### <a id="VM_Managed_CAD_CADOperation_GetBodyFaces_VM_Managed_CAD_Body_"></a> GetBodyFaces\(Body\)
 
@@ -98,7 +99,7 @@ public static List<Face> GetBodyFaces(Body bd)
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Face](VM.Managed.CAD.Face.md)\>
+ List<[Face](VM.Managed.CAD.Face.md)\>
 
 ### <a id="VM_Managed_CAD_CADOperation_GetBodyNameAttribute_VM_Managed_CAD_Body_"></a> GetBodyNameAttribute\(Body\)
 
@@ -112,7 +113,7 @@ public static string GetBodyNameAttribute(Body body)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_CADOperation_GetBoundingBox_VM_Managed_CAD_Body_VM_TMatrix_VM_Vector__VM_Vector__VM_Managed_CAD_BoxingMode_"></a> GetBoundingBox\(Body, TMatrix, ref Vector, ref Vector, BoxingMode\)
 
@@ -134,7 +135,7 @@ public static bool GetBoundingBox(Body body, TMatrix matT, ref Vector vecMinPt, 
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_CADOperation_GetDefaultMaxPenetration_VM_Managed_CAD_Face_System_Double__"></a> GetDefaultMaxPenetration\(Face, ref double\)
 
@@ -146,11 +147,11 @@ public static bool GetDefaultMaxPenetration(Face face, ref double dMaxPenetratio
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_CADOperation_GetEdgeLength_VM_Managed_CAD_Edge_"></a> GetEdgeLength\(Edge\)
 
@@ -164,7 +165,7 @@ public static double GetEdgeLength(Edge edge)
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_CADOperation_GetFaceArea_VM_Managed_CAD_Face_"></a> GetFaceArea\(Face\)
 
@@ -178,7 +179,7 @@ public static double GetFaceArea(Face face)
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_CADOperation_GetFacetInformationForFace_VM_Managed_CAD_Face_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____System_Int32____"></a> GetFacetInformationForFace\(Face, FacetOption, ref VectorBase\[\], ref int\[\]\)
 
@@ -190,11 +191,11 @@ public static void GetFacetInformationForFace(Face face, FacetOption options, re
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-`options` FacetOption
+`options` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 `arPt` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-`arConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arConnectivity` int\[\]
 
 ### <a id="VM_Managed_CAD_CADOperation_GetManyTopologyColor_System_Collections_Generic_IEnumerable_VM_Managed_CAD_Topology__"></a> GetManyTopologyColor\(IEnumerable<Topology\>\)
 
@@ -204,11 +205,11 @@ public static Dictionary<UIntPtr, Color> GetManyTopologyColor(IEnumerable<Topolo
 
 #### Parameters
 
-`topologies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Topology](VM.Managed.CAD.Topology.md)\>
+`topologies` IEnumerable<[Topology](VM.Managed.CAD.Topology.md)\>
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr), [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\>
+ Dictionary<UIntPtr, Color\>
 
 ### <a id="VM_Managed_CAD_CADOperation_GetPiecewiseCurve_System_Collections_Generic_List_VM_Managed_CAD_Edge__System_Double_System_Double_System_Double_System_Boolean__"></a> GetPiecewiseCurve\(List<Edge\>, double, double, double, ref bool\)
 
@@ -218,19 +219,19 @@ public static List<VectorBase> GetPiecewiseCurve(List<Edge> lstEdges, double dTo
 
 #### Parameters
 
-`lstEdges` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Edge](VM.Managed.CAD.Edge.md)\>
+`lstEdges` List<[Edge](VM.Managed.CAD.Edge.md)\>
 
-`dTol` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTol` double
 
-`dLen` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLen` double
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
-`bCloseLoop` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bCloseLoop` bool
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
+ List<[VectorBase](VM.Managed.VectorBase.md)\>
 
 ### <a id="VM_Managed_CAD_CADOperation_GetPointAndDirectionFromFacet_VM_Managed_CAD_Face_VM_Models_Pre_FacetOption_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetPointAndDirectionFromFacet\(Face, FacetOption, VectorBase, VectorBase\)
 
@@ -242,7 +243,7 @@ public static bool GetPointAndDirectionFromFacet(Face face, FacetOption options,
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-`options` FacetOption
+`options` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 `vecPoint` [VectorBase](VM.Managed.VectorBase.md)
 
@@ -250,7 +251,7 @@ public static bool GetPointAndDirectionFromFacet(Face face, FacetOption options,
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_CADOperation_GetTopologyColor_VM_Managed_CAD_Topology_System_Drawing_Color__"></a> GetTopologyColor\(Topology, ref Color\)
 
@@ -262,11 +263,11 @@ public static bool GetTopologyColor(Topology topol, ref Color color)
 
 `topol` [Topology](VM.Managed.CAD.Topology.md)
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_CADOperation_GetVoidCount_VM_Managed_CAD_Body_"></a> GetVoidCount\(Body\)
 
@@ -280,7 +281,7 @@ public static int GetVoidCount(Body body)
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_CADOperation_GetVoidPoints_VM_Managed_CAD_Body_System_Double___VM_Managed_VectorBase____"></a> GetVoidPoints\(Body, double\[\], ref VectorBase\[\]\)
 
@@ -292,13 +293,23 @@ public static int GetVoidPoints(Body body, double[] ardScale, ref VectorBase[] a
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-`ardScale` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardScale` double\[\]
 
 `arPoints` [VectorBase](VM.Managed.VectorBase.md)\[\]
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
+
+### <a id="VM_Managed_CAD_CADOperation_ReDrawForHistory_VM_Managed_Render_IDrawIcon_"></a> ReDrawForHistory\(IDrawIcon\)
+
+```csharp
+public static void ReDrawForHistory(IDrawIcon itfDrawIcon)
+```
+
+#### Parameters
+
+`itfDrawIcon` [IDrawIcon](VM.Managed.Render.IDrawIcon.md)
 
 ### <a id="VM_Managed_CAD_CADOperation_RemoveDuplicatedEvent_VM_Managed_Document_"></a> RemoveDuplicatedEvent\(Document\)
 
@@ -320,11 +331,11 @@ public static void SetNameAttribute(Body body, string strName, bool bUseAttribut
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
-`bUseAttribute` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseAttribute` bool
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 ### <a id="VM_Managed_CAD_CADOperation_SetSelectionObject_VM_Managed_Document3D_"></a> SetSelectionObject\(Document3D\)
 

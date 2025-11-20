@@ -1,4 +1,5 @@
-#  Struct PowerFlowParameters
+# Struct PowerFlowParameters
+<a id="VM_API_Pre_GearTrain_PowerFlowParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -31,7 +32,7 @@ public ExpressionValueVariable Duration { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_EndTime"></a> EndTime
 
@@ -43,7 +44,7 @@ public ExpressionValueVariable EndTime { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_GearPairs"></a> GearPairs
 
@@ -55,7 +56,7 @@ public IEnumerable<Obj> GearPairs { readonly get; set; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+ IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputEndSpeed"></a> InputEndSpeed
 
@@ -67,7 +68,7 @@ public ExpressionValueVariable InputEndSpeed { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputPower"></a> InputPower
 
@@ -79,7 +80,7 @@ public ExpressionValueVariable InputPower { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputPowerFilePath"></a> InputPowerFilePath
 
@@ -91,7 +92,7 @@ public string InputPowerFilePath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputShaftSet"></a> InputShaftSet
 
@@ -103,7 +104,7 @@ public Obj InputShaftSet { readonly get; set; }
 
 #### Property Value
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputShaftSetInfos"></a> InputShaftSetInfos
 
@@ -115,7 +116,7 @@ public IEnumerable<InputShaftSetParameters> InputShaftSetInfos { readonly get; s
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[InputShaftSetParameters](VM.API.Pre.GearTrain.InputShaftSetParameters.md)\>
+ IEnumerable<[InputShaftSetParameters](VM.API.Pre.GearTrain.InputShaftSetParameters.md)\>
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputSpeedFilePath"></a> InputSpeedFilePath
 
@@ -127,7 +128,7 @@ public string InputSpeedFilePath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputStartSpeed"></a> InputStartSpeed
 
@@ -139,7 +140,7 @@ public ExpressionValueVariable InputStartSpeed { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_IsUseCW"></a> IsUseCW
 
@@ -151,7 +152,7 @@ public bool IsUseCW { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_MaxTorque"></a> MaxTorque
 
@@ -163,7 +164,7 @@ public ExpressionValueVariable MaxTorque { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_NameOfResult"></a> NameOfResult
 
@@ -175,7 +176,7 @@ public string NameOfResult { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_NumberOfInterpolation"></a> NumberOfInterpolation
 
@@ -187,7 +188,7 @@ public ExpressionValueVariable NumberOfInterpolation { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_OutputShaftSetInfos"></a> OutputShaftSetInfos
 
@@ -199,7 +200,7 @@ public IEnumerable<OutputShaftSetParameters> OutputShaftSetInfos { readonly get;
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[OutputShaftSetParameters](VM.API.Pre.GearTrain.OutputShaftSetParameters.md)\>
+ IEnumerable<[OutputShaftSetParameters](VM.API.Pre.GearTrain.OutputShaftSetParameters.md)\>
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_SamplingFrequency"></a> SamplingFrequency
 
@@ -211,7 +212,7 @@ public ExpressionValueVariable SamplingFrequency { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_TMScenarioFile"></a> TMScenarioFile
 
@@ -223,7 +224,7 @@ public string TMScenarioFile { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_TypeOfSimulation"></a> TypeOfSimulation
 
@@ -235,7 +236,7 @@ public PowerFlow.SimulationType TypeOfSimulation { readonly get; set; }
 
 #### Property Value
 
- PowerFlow.SimulationType
+ [PowerFlow](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerFlow.cs).[SimulationType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerFlow.cs)
 
 ### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_VehicleSimulatorResultFile"></a> VehicleSimulatorResultFile
 
@@ -247,5 +248,5 @@ public string VehicleSimulatorResultFile { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

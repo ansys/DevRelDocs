@@ -1,4 +1,5 @@
-#  Class Settings
+# Class Settings
+<a id="VM_Managed_DAFUL_Pre_Settings"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -12,17 +13,17 @@ public class Settings : SettingsBase<Settings>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[SettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.settingsbase) ← 
-[ApplicationSettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.applicationsettingsbase) ← 
-SettingsBase<Settings\> ← 
+object ← 
+SettingsBase ← 
+ApplicationSettingsBase ← 
+[SettingsBase<Settings\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs) ← 
 [Settings](VM.Managed.DAFUL.Pre.Settings.md)
 
 #### Inherited Members
 
-SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\), 
-SettingsBase<Settings\>.Default, 
-SettingsBase<Settings\>.RootPath
+[SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.Default](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.RootPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs)
 
 #### Extension Methods
 
@@ -54,7 +55,7 @@ public string ANSYSRstReaderPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_AccuracyForCADImportMassCalculate"></a> AccuracyForCADImportMassCalculate
 
@@ -69,7 +70,7 @@ public double AccuracyForCADImportMassCalculate { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_AccuracyForMassCalculate"></a> AccuracyForMassCalculate
 
@@ -84,7 +85,7 @@ public double AccuracyForMassCalculate { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_AdditionalPythonLibPath"></a> AdditionalPythonLibPath
 
@@ -98,7 +99,7 @@ public IEnumerable<string> AdditionalPythonLibPath { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_AutoSaveInterval"></a> AutoSaveInterval
 
@@ -113,7 +114,7 @@ public int AutoSaveInterval { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_AxisLocation"></a> AxisLocation
 
@@ -143,20 +144,19 @@ public bool AxisUseRotate { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="VM_Managed_DAFUL_Pre_Settings_CADConvertPath"></a> CADConvertPath
-
-Gets the CAD convert path.
+### <a id="VM_Managed_DAFUL_Pre_Settings_BodyshopDirectoryName"></a> BodyshopDirectoryName
 
 ```csharp
 [ApplicationScopedSetting]
-public string CADConvertPath { get; }
+[DefaultSettingValue("Bodyshop*")]
+public string BodyshopDirectoryName { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_CenterMainKey1"></a> CenterMainKey1
 
@@ -291,7 +291,7 @@ public bool CloseStartPageAfterOpenWork { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ConsoleSolverPath"></a> ConsoleSolverPath
 
@@ -305,7 +305,7 @@ public string ConsoleSolverPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ControlsPreset"></a> ControlsPreset
 
@@ -319,7 +319,7 @@ public string ControlsPreset { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ConversionMethod"></a> ConversionMethod
 
@@ -347,7 +347,7 @@ public string CopyrightAndOSSLicenseInfoPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DbClickMode_AssembledBody"></a> DbClickMode\_AssembledBody
 
@@ -362,7 +362,7 @@ public int DbClickMode_AssembledBody { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DbClickMode_FlexibleBody"></a> DbClickMode\_FlexibleBody
 
@@ -377,7 +377,7 @@ public int DbClickMode_FlexibleBody { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DbClickMode_Subsystem"></a> DbClickMode\_Subsystem
 
@@ -392,7 +392,7 @@ public int DbClickMode_Subsystem { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DebugMode"></a> DebugMode
 
@@ -406,7 +406,7 @@ public bool DebugMode { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_Decimals"></a> Decimals
 
@@ -421,7 +421,7 @@ public int Decimals { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DefaultMode_Subsystem"></a> DefaultMode\_Subsystem
 
@@ -435,7 +435,7 @@ public string DefaultMode_Subsystem { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DeveloperMode"></a> DeveloperMode
 
@@ -450,7 +450,7 @@ public bool DeveloperMode { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DialogPath"></a> DialogPath
 
@@ -464,7 +464,7 @@ public string DialogPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DocumentPath"></a> DocumentPath
 
@@ -477,7 +477,7 @@ public string DocumentPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_DotNetMinVersion"></a> DotNetMinVersion
 
@@ -490,7 +490,7 @@ public Version DotNetMinVersion { get; }
 
 #### Property Value
 
- [Version](https://learn.microsoft.com/dotnet/api/system.version)
+ Version
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_FrontViewPlane"></a> FrontViewPlane
 
@@ -519,7 +519,7 @@ public string FunctionExpressionScriptHeader { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_GUISolverPath"></a> GUISolverPath
 
@@ -533,7 +533,7 @@ public string GUISolverPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_HelpURL"></a> HelpURL
 
@@ -546,7 +546,7 @@ public string HelpURL { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_HighSpeedRotationReferenceValue"></a> HighSpeedRotationReferenceValue
 
@@ -560,7 +560,7 @@ public double HighSpeedRotationReferenceValue { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_HoopsExchangeDirectory"></a> HoopsExchangeDirectory
 
@@ -574,7 +574,7 @@ public string HoopsExchangeDirectory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_InterfacePath"></a> InterfacePath
 
@@ -587,7 +587,7 @@ public string InterfacePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_KernelBinaryLocation"></a> KernelBinaryLocation
 
@@ -601,7 +601,7 @@ public string KernelBinaryLocation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_KernelCoreModulePath"></a> KernelCoreModulePath
 
@@ -615,7 +615,7 @@ public string KernelCoreModulePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_KernelLogMessageLevel"></a> KernelLogMessageLevel
 
@@ -630,7 +630,7 @@ public int KernelLogMessageLevel { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_KernelPath"></a> KernelPath
 
@@ -644,7 +644,31 @@ public string KernelPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
+
+### <a id="VM_Managed_DAFUL_Pre_Settings_KernelPaths"></a> KernelPaths
+
+Gets the kernel paths (Parasolid kernel and bodyshop) for environment variable setting.
+
+```csharp
+public IEnumerable<string> KernelPaths { get; }
+```
+
+#### Property Value
+
+ IEnumerable<string\>
+
+### <a id="VM_Managed_DAFUL_Pre_Settings_KernelPathsForEnvironmentVariable"></a> KernelPathsForEnvironmentVariable
+
+Gets the kernel paths (Parasolid kernel and bodyshop) for environment variable setting.
+
+```csharp
+public string KernelPathsForEnvironmentVariable { get; }
+```
+
+#### Property Value
+
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_KernelTranslatorLogMessageLevel"></a> KernelTranslatorLogMessageLevel
 
@@ -659,7 +683,7 @@ public int KernelTranslatorLogMessageLevel { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_Labs"></a> Labs
 
@@ -674,7 +698,7 @@ public string Labs { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_LastUsedWorkDirectory"></a> LastUsedWorkDirectory
 
@@ -687,7 +711,7 @@ public string LastUsedWorkDirectory { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_LicenseManagerPath"></a> LicenseManagerPath
 
@@ -702,7 +726,7 @@ public string LicenseManagerPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_LoadPrior242Sp3Files"></a> LoadPrior242Sp3Files
 
@@ -717,7 +741,7 @@ public bool LoadPrior242Sp3Files { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_Locale"></a> Locale
 
@@ -732,7 +756,7 @@ public string Locale { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_LogLicenseEvent"></a> LogLicenseEvent
 
@@ -747,7 +771,7 @@ public int LogLicenseEvent { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MFInterfacePath"></a> MFInterfacePath
 
@@ -761,7 +785,7 @@ public string MFInterfacePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MaterialLibraryDirectory"></a> MaterialLibraryDirectory
 
@@ -774,7 +798,7 @@ public string MaterialLibraryDirectory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MaximumOpenPropertyDialogCount"></a> MaximumOpenPropertyDialogCount
 
@@ -788,7 +812,7 @@ public int MaximumOpenPropertyDialogCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MaxwellVersion"></a> MaxwellVersion
 
@@ -803,7 +827,7 @@ public string MaxwellVersion { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MesherCorePath"></a> MesherCorePath
 
@@ -816,7 +840,7 @@ public string MesherCorePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MeshfreePreprocessorPath"></a> MeshfreePreprocessorPath
 
@@ -829,7 +853,7 @@ public string MeshfreePreprocessorPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn1"></a> MouseDownZoomIn1
 
@@ -844,7 +868,7 @@ public bool MouseDownZoomIn1 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn2"></a> MouseDownZoomIn2
 
@@ -859,7 +883,7 @@ public bool MouseDownZoomIn2 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn3"></a> MouseDownZoomIn3
 
@@ -874,7 +898,7 @@ public bool MouseDownZoomIn3 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn4"></a> MouseDownZoomIn4
 
@@ -889,7 +913,7 @@ public bool MouseDownZoomIn4 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_NFtoDAFULPath"></a> NFtoDAFULPath
 
@@ -902,7 +926,7 @@ public string NFtoDAFULPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_NastranOutReaderPath"></a> NastranOutReaderPath
 
@@ -916,7 +940,7 @@ public string NastranOutReaderPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_NumOfMRUFiles"></a> NumOfMRUFiles
 
@@ -931,7 +955,7 @@ public int NumOfMRUFiles { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_OEMMode"></a> OEMMode
 
@@ -945,7 +969,7 @@ public bool OEMMode { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_OutputTextBoxInterval"></a> OutputTextBoxInterval
 
@@ -958,7 +982,7 @@ public int OutputTextBoxInterval { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_PSBodyshopLocation"></a> PSBodyshopLocation
 
@@ -970,7 +994,19 @@ public string PSBodyshopLocation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
+
+### <a id="VM_Managed_DAFUL_Pre_Settings_PSKernelDirectoryName"></a> PSKernelDirectoryName
+
+```csharp
+[ApplicationScopedSetting]
+[DefaultSettingValue("Parasolid*")]
+public string PSKernelDirectoryName { get; }
+```
+
+#### Property Value
+
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_PSKernelLocation"></a> PSKernelLocation
 
@@ -982,7 +1018,7 @@ public string PSKernelLocation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_PSKernelSchemaLocation"></a> PSKernelSchemaLocation
 
@@ -994,7 +1030,7 @@ public string PSKernelSchemaLocation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_PostPath"></a> PostPath
 
@@ -1008,7 +1044,7 @@ public string PostPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_PrePath"></a> PrePath
 
@@ -1022,7 +1058,7 @@ public string PrePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_PythonExecutablePath"></a> PythonExecutablePath
 
@@ -1036,7 +1072,7 @@ public string PythonExecutablePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_RedrawKernel"></a> RedrawKernel
 
@@ -1049,7 +1085,7 @@ public bool RedrawKernel { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_Rendering"></a> Rendering
 
@@ -1064,7 +1100,7 @@ public int Rendering { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_RotateMainKey1"></a> RotateMainKey1
 
@@ -1139,7 +1175,7 @@ public int RotateSpeed { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_RotateSubKey1"></a> RotateSubKey1
 
@@ -1214,7 +1250,7 @@ public bool RotateTrackball { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_RunDllPath"></a> RunDllPath
 
@@ -1227,7 +1263,7 @@ public string RunDllPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ShowFileCompatibilityNotice"></a> ShowFileCompatibilityNotice
 
@@ -1242,7 +1278,7 @@ public bool ShowFileCompatibilityNotice { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ShowStartPageAtStartup"></a> ShowStartPageAtStartup
 
@@ -1257,7 +1293,7 @@ public bool ShowStartPageAtStartup { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_SolutionPath"></a> SolutionPath
 
@@ -1270,7 +1306,7 @@ public string SolutionPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_SolverDirectory"></a> SolverDirectory
 
@@ -1283,7 +1319,7 @@ public string SolverDirectory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_SplashPath"></a> SplashPath
 
@@ -1296,7 +1332,7 @@ public string SplashPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_StrideBinaryDirectory"></a> StrideBinaryDirectory
 
@@ -1310,11 +1346,11 @@ public string StrideBinaryDirectory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_StrideConvertPath"></a> StrideConvertPath
 
-Stride Convert(Convert.exe) location
+Stride Convert(StrideConvert.exe) location
 
 ```csharp
 public string StrideConvertPath { get; }
@@ -1322,7 +1358,7 @@ public string StrideConvertPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_StrideDependencies"></a> StrideDependencies
 
@@ -1336,7 +1372,7 @@ public string StrideDependencies { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_TemplatePath"></a> TemplatePath
 
@@ -1350,7 +1386,7 @@ public string TemplatePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_TextEditor"></a> TextEditor
 
@@ -1365,7 +1401,7 @@ public string TextEditor { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_TextEditorArgument"></a> TextEditorArgument
 
@@ -1380,7 +1416,7 @@ public string TextEditorArgument { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ToolkitInfoPath"></a> ToolkitInfoPath
 
@@ -1393,7 +1429,7 @@ public string ToolkitInfoPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateMainKey1"></a> TranslateMainKey1
 
@@ -1527,7 +1563,7 @@ public string TranslatorDirectory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoCheckDotNetVersion"></a> UseAutoCheckDotNetVersion
 
@@ -1542,7 +1578,7 @@ public bool UseAutoCheckDotNetVersion { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoCreateOK"></a> UseAutoCreateOK
 
@@ -1557,7 +1593,7 @@ public bool UseAutoCreateOK { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoPickerOK"></a> UseAutoPickerOK
 
@@ -1570,7 +1606,7 @@ public bool UseAutoPickerOK { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoSave"></a> UseAutoSave
 
@@ -1585,7 +1621,7 @@ public bool UseAutoSave { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseConsoleSolver"></a> UseConsoleSolver
 
@@ -1600,7 +1636,7 @@ public bool UseConsoleSolver { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseDefaultStartPage"></a> UseDefaultStartPage
 
@@ -1615,7 +1651,7 @@ public bool UseDefaultStartPage { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseDefaultTemp"></a> UseDefaultTemp
 
@@ -1630,7 +1666,7 @@ public bool UseDefaultTemp { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UseDockableCreateAndPickerWindows"></a> UseDockableCreateAndPickerWindows
 
@@ -1645,7 +1681,7 @@ public bool UseDockableCreateAndPickerWindows { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UserRibbon"></a> UserRibbon
 
@@ -1659,7 +1695,7 @@ public string UserRibbon { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UserStartPage"></a> UserStartPage
 
@@ -1674,7 +1710,7 @@ public string UserStartPage { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_UserTempPath"></a> UserTempPath
 
@@ -1688,7 +1724,7 @@ public string UserTempPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_VMMesherPath"></a> VMMesherPath
 
@@ -1701,7 +1737,7 @@ public string VMMesherPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_Verify"></a> Verify
 
@@ -1714,7 +1750,7 @@ public bool Verify { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_VerifyLevel"></a> VerifyLevel
 
@@ -1729,7 +1765,7 @@ public int VerifyLevel { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn1"></a> WheelDownZoomIn1
 
@@ -1744,7 +1780,7 @@ public bool WheelDownZoomIn1 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn2"></a> WheelDownZoomIn2
 
@@ -1759,7 +1795,7 @@ public bool WheelDownZoomIn2 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn3"></a> WheelDownZoomIn3
 
@@ -1774,7 +1810,7 @@ public bool WheelDownZoomIn3 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn4"></a> WheelDownZoomIn4
 
@@ -1789,7 +1825,7 @@ public bool WheelDownZoomIn4 { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_XmlSolverManagerPath"></a> XmlSolverManagerPath
 
@@ -1802,7 +1838,7 @@ public string XmlSolverManagerPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomMainKey1"></a> ZoomMainKey1
 
@@ -1877,7 +1913,7 @@ public int ZoomSpeed { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomSubKey1"></a> ZoomSubKey1
 
@@ -1947,7 +1983,7 @@ public override object this[string propertyName] { get; set; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_v242Sp3Exists"></a> v242Sp3Exists
 
@@ -1957,7 +1993,7 @@ public static bool v242Sp3Exists { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -1969,11 +2005,11 @@ public string GetMappedVersionString(string version)
 
 #### Parameters
 
-`version` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`version` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_IsLabFeatureEnabled_System_String_"></a> IsLabFeatureEnabled\(string\)
 
@@ -1983,11 +2019,11 @@ public bool IsLabFeatureEnabled(string featureName)
 
 #### Parameters
 
-`featureName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`featureName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_Settings_IsValidMaxwellVersion_System_String_"></a> IsValidMaxwellVersion\(string\)
 
@@ -1997,9 +2033,9 @@ public bool IsValidMaxwellVersion(string version)
 
 #### Parameters
 
-`version` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`version` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

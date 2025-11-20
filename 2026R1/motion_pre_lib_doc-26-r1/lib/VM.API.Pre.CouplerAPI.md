@@ -1,4 +1,5 @@
-#  Class CouplerAPI
+# Class CouplerAPI
+<a id="VM_API_Pre_CouplerAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class CouplerAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CouplerAPI](VM.API.Pre.CouplerAPI.md)
 
 #### Extension Methods
@@ -35,7 +36,7 @@ public static Obj CreateCable(this SubSystemDocument subSystemDocument, Obj firs
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the coupler cable.
 
@@ -47,15 +48,15 @@ The first joint to create the coupler cable.
 
 The second joint of the coupler cable.
 
-`firstRatio` ExpressionValueVariable?
+`firstRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The first ratio of the coupler cable.
 
-`secondRatio` ExpressionValueVariable?
+`secondRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second ratio of the coupler cable.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Constraints.CouplerCable" data-throw-if-not-resolved="false"></xref>.
 
@@ -71,7 +72,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.CouplerCable" data-throw-if-not
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
 
@@ -88,7 +89,7 @@ public static Obj CreateCoupler(this SubSystemDocument subSystemDocument, Obj fi
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the coupler.
 
@@ -100,23 +101,23 @@ The first joint to create the coupler.
 
 The second joint of the coupler.
 
-`firstType` PropertyCouplerBase.MotionType
+`firstType` [PropertyCouplerBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs).[MotionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs)
 
 The first type of the coupler.
 
-`secondType` PropertyCouplerBase.MotionType
+`secondType` [PropertyCouplerBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs).[MotionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs)
 
 The second type of the coupler.
 
-`firstRatio` ExpressionValueVariable?
+`firstRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The first ratio of the coupler.
 
-`secondRatio` ExpressionValueVariable?
+`secondRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second ratio of the coupler.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-resolved="false"></xref>.
 
@@ -132,7 +133,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-reso
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
 
@@ -149,7 +150,7 @@ public static Obj CreateCoupler(this SubSystemDocument subSystemDocument, Obj fi
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the coupler.
 
@@ -165,31 +166,31 @@ The second joint of the coupler.
 
 The third joint of the coupler.
 
-`firstType` PropertyCouplerBase.MotionType
+`firstType` [PropertyCouplerBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs).[MotionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs)
 
 The first type of the coupler.
 
-`secondType` PropertyCouplerBase.MotionType
+`secondType` [PropertyCouplerBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs).[MotionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs)
 
 The second type of the coupler.
 
-`thirdType` PropertyCouplerBase.MotionType
+`thirdType` [PropertyCouplerBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs).[MotionType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCP/Coupler.cs)
 
 The third type of the coupler.
 
-`firstRatio` ExpressionValueVariable?
+`firstRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The first ratio of the coupler.
 
-`secondRatio` ExpressionValueVariable?
+`secondRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second ratio of the coupler.
 
-`thirdRatio` ExpressionValueVariable?
+`thirdRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The third ratio of the coupler.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-resolved="false"></xref>.
 
@@ -205,7 +206,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-reso
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint', 'thirdJoint' is null.
 
@@ -222,7 +223,7 @@ public static Obj CreateGear(this SubSystemDocument subSystemDocument, Obj first
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the coupler gear.
 
@@ -234,15 +235,15 @@ The first joint to create the coupler gear.
 
 The second joint of the coupler gear.
 
-`firstRatio` ExpressionValueVariable?
+`firstRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The first ratio of the coupler gear.
 
-`secondRatio` ExpressionValueVariable?
+`secondRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second ratio of the coupler gear.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Constraints.CouplerGear" data-throw-if-not-resolved="false"></xref>.
 
@@ -258,7 +259,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.CouplerGear" data-throw-if-not-
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
 
@@ -275,7 +276,7 @@ public static Obj CreateRackAndPinion(this SubSystemDocument subSystemDocument, 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the coupler rack and pinion.
 
@@ -287,15 +288,15 @@ The first joint to create the coupler rack and pinion.
 
 The second joint of the coupler rack and pinion.
 
-`firstRatio` ExpressionValueVariable?
+`firstRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The first ratio of the coupler rack and pinion.
 
-`secondRatio` ExpressionValueVariable?
+`secondRatio` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The second ratio of the coupler rack and pinion.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the <xref href="VM.Managed.DAFUL.Constraints.CouplerRackPinion" data-throw-if-not-resolved="false"></xref>.
 
@@ -311,7 +312,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.CouplerRackPinion" data-throw-i
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
 

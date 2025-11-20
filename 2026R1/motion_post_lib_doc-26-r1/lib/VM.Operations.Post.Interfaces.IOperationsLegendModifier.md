@@ -1,24 +1,28 @@
-#  Interface IOperationsLegendModifier
+# Interface IOperationsLegendModifier
+<a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 This interface contains properties that modify the attributes of the Legend.
 
-```python
+```csharp
 public interface IOperationsLegendModifier
 ```
 
 ## Examples
 
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsLegendModifier.py
+```python
+# IOperationsLegendModifier.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -32,12 +36,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 chartView.Legend.Background = Colors.Red
@@ -54,7 +63,7 @@ page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -62,13 +71,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the background color of the legend.
 
-```python
+```csharp
 Color Background { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -83,13 +92,13 @@ In the UI, this property is represented under the "Font" category with the prope
 
 Gets or sets the font color of the legend.
 
-```python
+```csharp
 Color FontColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -104,13 +113,13 @@ In the UI, this property is represented under the "Font" category with the prope
 
 Gets or sets the font face of the chart title.
 
-```python
+```csharp
 FontFamily FontFace { get; set; }
 ```
 
 #### Property Value
 
- [FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.media.fontfamily)
+ FontFamily
 
 #### Examples
 
@@ -125,13 +134,13 @@ In the UI, this property is represented under the "Font" category with the prope
 
 Gets or sets the font size of the chart title.
 
-```python
+```csharp
 double FontSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -146,13 +155,13 @@ In the UI, this property is represented under the "Font" category with the prope
 
 Gets or sets the font style of the chart title.
 
-```python
+```csharp
 FontStyle FontStyle { get; set; }
 ```
 
 #### Property Value
 
- [FontStyle](https://learn.microsoft.com/dotnet/api/system.windows.fontstyle)
+ FontStyle
 
 #### Examples
 
@@ -169,13 +178,13 @@ The supported types are:
 
 Gets or sets the font weight of the chart title.
 
-```python
+```csharp
 FontWeight FontWeight { get; set; }
 ```
 
 #### Property Value
 
- [FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.fontweight)
+ FontWeight
 
 #### Examples
 
@@ -192,13 +201,13 @@ The available options are:
 
 Gets or sets the filter option for displaying curves in the chart.
 
-```python
+```csharp
 string ItemsInFilter { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -215,7 +224,7 @@ The available options are:
 
 Gets or sets the position of the legend in the chart.
 
-```python
+```csharp
 LegendPlacementType LegendPlacement { get; set; }
 ```
 
@@ -232,5 +241,4 @@ For an example that includes this property, see the [Interface IOperationsLegend
 Use this property to control the placement of the legend within or outside the chart area.
 By default, the legend is placed inside the chart area.
 The placement can be adjusted to improve the visibility and layout of the chart.
-
 

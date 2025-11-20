@@ -1,4 +1,5 @@
-#  Interface INamed
+# Interface INamed
+<a id="VM_Managed_INamed"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ string FullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_INamed_Name"></a> Name
 
@@ -39,7 +40,7 @@ string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_INamed_NonSymmetricName"></a> NonSymmetricName
 
@@ -51,5 +52,5 @@ string NonSymmetricName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

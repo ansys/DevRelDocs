@@ -1,4 +1,5 @@
-#  Class PropertyItem
+# Class PropertyItem
+<a id="VM_PropertyItem"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +10,7 @@ public class PropertyItem : MemberItem<PropertyDescriptor>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MemberItem<PropertyDescriptor\>](VM.MemberItem\-1.md) ← 
 [PropertyItem](VM.PropertyItem.md)
 
@@ -36,7 +37,7 @@ public PropertyItem(PropertyDescriptor propertyDescriptor)
 
 #### Parameters
 
-`propertyDescriptor` [PropertyDescriptor](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor)
+`propertyDescriptor` PropertyDescriptor
 
 ## Properties
 
@@ -48,7 +49,7 @@ public string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_PropertyItem_IsBrowsable"></a> IsBrowsable
 
@@ -58,7 +59,7 @@ public bool IsBrowsable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_PropertyItem_IsReadOnly"></a> IsReadOnly
 
@@ -68,7 +69,7 @@ public bool IsReadOnly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_PropertyItem_Name"></a> Name
 
@@ -78,7 +79,7 @@ public string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_PropertyItem_PropertyDescriptor"></a> PropertyDescriptor
 
@@ -88,7 +89,7 @@ public PropertyDescriptor PropertyDescriptor { get; }
 
 #### Property Value
 
- [PropertyDescriptor](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor)
+ PropertyDescriptor
 
 ### <a id="VM_PropertyItem_PropertyType"></a> PropertyType
 
@@ -98,7 +99,7 @@ public Type PropertyType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="VM_PropertyItem_TypeConverter"></a> TypeConverter
 
@@ -108,7 +109,7 @@ public TypeConverter TypeConverter { get; }
 
 #### Property Value
 
- [TypeConverter](https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter)
+ TypeConverter
 
 ## Methods
 
@@ -120,11 +121,11 @@ public bool Is(Type type)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_PropertyItem_ToString"></a> ToString\(\)
 
@@ -134,5 +135,5 @@ public override string ToString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

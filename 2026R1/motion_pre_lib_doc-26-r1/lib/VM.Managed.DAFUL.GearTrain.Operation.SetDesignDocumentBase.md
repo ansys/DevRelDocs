@@ -1,4 +1,5 @@
-#  Class SetDesignDocumentBase
+# Class SetDesignDocumentBase
+<a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public abstract class SetDesignDocumentBase : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SetDesignDocumentBase](VM.Managed.DAFUL.GearTrain.Operation.SetDesignDocumentBase.md)
 
@@ -131,7 +132,7 @@ protected string m_strBodyName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -145,7 +146,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_Name"></a> Name
 
@@ -157,7 +158,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -179,7 +180,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -193,13 +194,13 @@ protected bool OpenDesignDocument(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_Result"></a> Result\(\)
 
@@ -211,7 +212,7 @@ public HiddenDocument Result()
 
 #### Returns
 
- HiddenDocument
+ [HiddenDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/HiddenDocument.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_SetActiveUserControl"></a> SetActiveUserControl\(\)
 

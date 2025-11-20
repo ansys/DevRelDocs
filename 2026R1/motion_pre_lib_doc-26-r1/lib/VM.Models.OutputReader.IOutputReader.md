@@ -1,4 +1,5 @@
-#  Interface IOutputReader
+# Interface IOutputReader
+<a id="VM_Models_OutputReader_IOutputReader"></a>
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  
@@ -29,17 +30,17 @@ void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stat
 
 #### Parameters
 
-`resultpath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultpath` string
 
-`mode` [FileMode](https://learn.microsoft.com/dotnet/api/system.io.filemode)
+`mode` FileMode
 
-`stateids` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`stateids` IList<int\>
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 `type` ContourMappingType
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 `analysisType` AnalysisResultType
 
@@ -53,17 +54,17 @@ void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stat
 
 #### Parameters
 
-`resultpath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultpath` string
 
-`mode` [FileMode](https://learn.microsoft.com/dotnet/api/system.io.filemode)
+`mode` FileMode
 
-`stateids` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`stateids` IList<int\>
 
-`targets` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`targets` IList<string\>
 
 `type` ContourMappingType
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 `analysisType` AnalysisResultType
 
@@ -81,7 +82,7 @@ IDictionary<string, Point2D[]> GetCurves(PlotParameters parameters)
 
 #### Returns
 
- [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), Point2D\[\]\>
+ IDictionary<string, [Point2D](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/Point2D.cs)\[\]\>
 
 ### <a id="VM_Models_OutputReader_IOutputReader_GetFlexibleBodyReferenceFrame_System_String_System_Boolean_"></a> GetFlexibleBodyReferenceFrame\(string, bool\)
 
@@ -91,13 +92,13 @@ IList<double[]> GetFlexibleBodyReferenceFrame(string target, bool reCalculateOri
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
-`reCalculateOrientation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`reCalculateOrientation` bool
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+ IList<double\[\]\>
 
 ### <a id="VM_Models_OutputReader_IOutputReader_GetGeometryNodes_System_String_"></a> GetGeometryNodes\(string\)
 
@@ -107,11 +108,11 @@ double[] GetGeometryNodes(string path)
 
 #### Parameters
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_OutputReader_IOutputReader_GetReferenceTimeArray"></a> GetReferenceTimeArray\(\)
 
@@ -121,7 +122,7 @@ IList<double> GetReferenceTimeArray()
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ IList<double\>
 
 ### <a id="VM_Models_OutputReader_IOutputReader_GetStateIDArray"></a> GetStateIDArray\(\)
 
@@ -131,7 +132,7 @@ IList<int> GetStateIDArray()
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ IList<int\>
 
 ### <a id="VM_Models_OutputReader_IOutputReader_GetVector_System_String_System_String_VM_Models_AnalysisResultType_"></a> GetVector\(string, string, AnalysisResultType\)
 
@@ -141,13 +142,13 @@ IDictionary<string, IVectorDisplayAnimationData> GetVector(string target, string
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 `analysisModelType` AnalysisResultType
 
 #### Returns
 
- [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [IVectorDisplayAnimationData](VM.Models.OutputReader.IVectorDisplayAnimationData.md)\>
+ IDictionary<string, [IVectorDisplayAnimationData](VM.Models.OutputReader.IVectorDisplayAnimationData.md)\>
 

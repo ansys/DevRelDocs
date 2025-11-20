@@ -1,4 +1,5 @@
-#  Class AddSlidingBearingToRBEInFE
+# Class AddSlidingBearingToRBEInFE
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class AddSlidingBearingToRBEInFE : AddSlidingBearingToRBEInMeshBase, IBui
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddSlidingBearingToRBEInMeshBase](VM.Managed.DAFUL.Builder.GearTrain.AddSlidingBearingToRBEInMeshBase.md) ← 
 [AddSlidingBearingToRBEInFE](VM.Managed.DAFUL.Builder.GearTrain.AddSlidingBearingToRBEInFE.md)

@@ -1,41 +1,41 @@
-#  Class DependencyResolveAttribute
+# Class DependencyResolveAttribute
+<a id="VM_DependencyResolveAttribute"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
 public class DependencyResolveAttribute : Attribute
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [DependencyResolveAttribute](VM.DependencyResolveAttribute.md)
 
 ## Constructors
 
 ### <a id="VM_DependencyResolveAttribute__ctor_System_Type_"></a> DependencyResolveAttribute\(Type\)
 
-```python
+```csharp
 public DependencyResolveAttribute(Type interfaceType)
 ```
 
 #### Parameters
 
-`interfaceType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`interfaceType` Type
 
 ## Properties
 
 ### <a id="VM_DependencyResolveAttribute_InterfaceType"></a> InterfaceType
 
-```python
+```csharp
 public Type InterfaceType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
-
+ Type
 

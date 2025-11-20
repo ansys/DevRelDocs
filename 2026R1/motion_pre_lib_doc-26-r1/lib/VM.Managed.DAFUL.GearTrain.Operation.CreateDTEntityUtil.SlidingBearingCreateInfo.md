@@ -1,4 +1,5 @@
-#  Class CreateDTEntityUtil.SlidingBearingCreateInfo
+# Class CreateDTEntityUtil.SlidingBearingCreateInfo
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public class CreateDTEntityUtil.SlidingBearingCreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateDTEntityUtil.SlidingBearingCreateInfo](VM.Managed.DAFUL.GearTrain.Operation.CreateDTEntityUtil.SlidingBearingCreateInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public double ArcAngle
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_InnerDiameter"></a> InnerDiameter
 
@@ -46,7 +47,7 @@ public double InnerDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_Length"></a> Length
 
@@ -56,7 +57,7 @@ public double Length
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_Thickness"></a> Thickness
 
@@ -66,7 +67,7 @@ public double Thickness
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_Type"></a> Type
 
@@ -88,7 +89,7 @@ public string[] InputArray { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 

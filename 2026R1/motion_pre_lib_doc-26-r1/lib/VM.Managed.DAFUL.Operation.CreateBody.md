@@ -1,4 +1,5 @@
-#  Class CreateBody
+# Class CreateBody
+<a id="VM_Managed_DAFUL_Operation_CreateBody"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class CreateBody
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateBody](VM.Managed.DAFUL.Operation.CreateBody.md)
 
 #### Extension Methods
@@ -40,23 +41,23 @@ public static SolidBody CreateBlockBody(SubSystemDocument docSub, string strName
 
 #### Parameters
 
-`docSub` SubSystemDocument
+`docSub` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width
 
-`dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHeight` double
 
 The height
 
-`dDepth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDepth` double
 
 The depth
 
@@ -66,7 +67,7 @@ the position
 
 #### Returns
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateCylinderBody_VM_Managed_Document_System_String_VM_Managed_PointBase_VM_Managed_PointBase_System_Double_"></a> CreateCylinderBody\(Document, string, PointBase, PointBase, double\)
 
@@ -82,7 +83,7 @@ public static SolidBody CreateCylinderBody(Document document, string strName, Po
 
 The document
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The name
 
@@ -94,13 +95,13 @@ The bottom position
 
 The top position
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
 #### Returns
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateCylinderBody_VM_Managed_Document_VM_Managed_PointBase_VM_Managed_PointBase_System_Double_"></a> CreateCylinderBody\(Document, PointBase, PointBase, double\)
 
@@ -124,7 +125,7 @@ The bottom position
 
 The top position
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
@@ -146,11 +147,11 @@ public static SolidBody CreateSphereBody(Document document, string name, double 
 
 The document
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius
 
@@ -158,17 +159,17 @@ The radius
 
 The position
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
 #### Returns
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateSphereBody_VM_Managed_Document_System_String_System_String_VM_Managed_PointBase_System_Boolean_System_Boolean_"></a> CreateSphereBody\(Document, string, string, PointBase, bool, bool\)
 
@@ -184,11 +185,11 @@ public static SolidBody CreateSphereBody(Document document, string name, string 
 
 The document
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name
 
-`strRadius` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRadius` string
 
 The radius
 
@@ -196,15 +197,15 @@ The radius
 
 The position
 
-`getNewEntityName` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`getNewEntityName` bool
 
 Flag for creating a new entity if there is already an entity with the same name
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 Flag for add created element to document.
 
 #### Returns
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 

@@ -1,4 +1,5 @@
-#  Class UpdatePointEntityOnRBE
+# Class UpdatePointEntityOnRBE
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntityOnRBE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdatePointEntityOnRBE : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdatePointEntityOnRBE](VM.Managed.DAFUL.GearTrain.Operation.UpdatePointEntityOnRBE.md)
@@ -94,7 +95,7 @@ public UpdatePointEntityOnRBE(PointEntityOnRBE pl)
 
 #### Parameters
 
-`pl` PointEntityOnRBE
+`pl` [PointEntityOnRBE](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnRBE.cs)
 
 The pl.
 
@@ -112,7 +113,7 @@ public UpdatePointEntityOnRBE(Document3D document3D, PointEntityOnRBE pl)
 
 The document.
 
-`pl` PointEntityOnRBE
+`pl` [PointEntityOnRBE](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PointEntityOnRBE.cs)
 
 The pl.
 
@@ -150,7 +151,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

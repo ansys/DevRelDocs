@@ -1,4 +1,5 @@
-#  Interface IOperationStatus
+# Interface IOperationStatus
+<a id="VM_Managed_DAFUL_Pre_IOperationStatus"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -57,7 +58,7 @@ string GetCurrentFilter()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_IsVisible"></a> IsVisible\(\)
 
@@ -69,7 +70,7 @@ bool IsVisible()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_OnCancel"></a> OnCancel\(\)
 
@@ -113,11 +114,11 @@ void PickOperation(string ContentName, string strType)
 
 #### Parameters
 
-`ContentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`ContentName` string
 
 Name of the content.
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 Type of the string.
 
@@ -131,15 +132,15 @@ void PickOperation(string ContentName, string strType, bool bShowDialog)
 
 #### Parameters
 
-`ContentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`ContentName` string
 
 Name of the content.
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 Type of the string.
 
-`bShowDialog` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShowDialog` bool
 
 if set to <code>true</code> [b show dialog].
 
@@ -153,19 +154,19 @@ void PickOperation(string ContentName, string strType, string strPreviousResult,
 
 #### Parameters
 
-`ContentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`ContentName` string
 
 Name of the content.
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 Type of the string.
 
-`strPreviousResult` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPreviousResult` string
 
 The string previous result.
 
-`bShowDialog` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShowDialog` bool
 
 if set to <code>true</code> [b show dialog].
 
@@ -179,7 +180,7 @@ void SetCurrentOperation(string strOpName)
 
 #### Parameters
 
-`strOpName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOpName` string
 
 Name of the STR op.
 

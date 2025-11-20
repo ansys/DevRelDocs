@@ -1,4 +1,5 @@
-#  Interface IDesignParameterable
+# Interface IDesignParameterable
+<a id="VM_Managed_IDesignParameterable"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,5 +28,5 @@ bool UseDesignParameter { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

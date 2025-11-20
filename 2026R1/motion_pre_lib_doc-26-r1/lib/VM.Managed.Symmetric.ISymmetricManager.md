@@ -1,4 +1,5 @@
-#  Interface ISymmetricManager
+# Interface ISymmetricManager
+<a id="VM_Managed_Symmetric_ISymmetricManager"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -39,7 +40,7 @@ bool NonSymmetric { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Symmetric_ISymmetricManager_Original"></a> Original
 

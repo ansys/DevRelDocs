@@ -1,4 +1,5 @@
-#  Class CoSimulatorAPI
+# Class CoSimulatorAPI
+<a id="VM_API_Pre_CoSimulator_CoSimulatorAPI"></a>
 
 Namespace: [VM.API.Pre.CoSimulator](VM.API.Pre.CoSimulator.md)  
 Assembly: VM.API.Pre.CoSimulator.dll  
@@ -11,7 +12,7 @@ public static class CoSimulatorAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CoSimulatorAPI](VM.API.Pre.CoSimulator.CoSimulatorAPI.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public static Obj CreateSInput(this SubSystemDocument document, UnitName unit = 
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the scalar input.
 
@@ -41,19 +42,19 @@ The document to create the scalar input.
 
 The unit of the scalar input.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the scalar input.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -70,11 +71,11 @@ public static Obj CreateSOutput(this SubSystemDocument document, Obj formula, Un
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the scalar output.
 
-`formula` Obj
+`formula` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The formula of the scalar output.
 
@@ -82,23 +83,23 @@ The formula of the scalar output.
 
 The unit of the scalar output.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the scalar output.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.CoSim.SOutput" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'formula' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'formula' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -115,49 +116,49 @@ public static void ExecuteMatlabProcess(this Obj fileGen, string strFileName, st
 
 #### Parameters
 
-`fileGen` Obj
+`fileGen` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The M file generation to excute process.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 The file name of a matlab file to be generated.
 
-`strFileDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileDir` string
 
 The file path of matlab file to be generated.
 
-`inputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`inputs` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The inputs of the M file generation setting.
 
-`outputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`outputs` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The outputs of the M file generation setting.
 
-`strInterfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfacePath` string
 
 The interface folder path of the M file generation setting.
 
-`interfaceTimeStep` ExpressionValueVariable?
+`interfaceTimeStep` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The interface time step of the M file generation setting.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'fileGen', 'strFileName' 'strFileDir', 'strInterfacePath' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'fileGen' is not <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'inputs' is not <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolved="false"></xref> or if the type of 'output' is not <xref href="VM.Managed.DAFUL.CoSim.SOutput" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'interfaceTimeStep' value is equal to or less than 0.
 
@@ -174,29 +175,29 @@ public static void ExecuteProcess(this Obj fileGen, string strFileName, string s
 
 #### Parameters
 
-`fileGen` Obj
+`fileGen` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The file generation to excute process.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 The file name of a fmu file to be generated.
 
-`strFileDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileDir` string
 
 The file path of a fmu file to be generated.
 
-`strInterfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfacePath` string
 
 The interface folder path.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'fileGen', 'strFileName', 'strFileDir', 'strInterfacePath' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'fileGen' is not <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref>.
 
@@ -213,33 +214,33 @@ public static void ExportMatlabModel(this Obj fileGen, IEnumerable<Obj> inputs, 
 
 #### Parameters
 
-`fileGen` Obj
+`fileGen` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The file generation to export matlab model.
 
-`inputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`inputs` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The inputs of the matlab file generation setting.
 
-`outputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`outputs` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The outputs of the matlab file generation setting.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 The file name of a matlab file to be generated.
 
-`strFileDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileDir` string
 
 The file path of a matlab file to be generated.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'fileGen', 'strFileName', 'strFileDir' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'fileGen' is not <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref>.
 
@@ -256,27 +257,27 @@ public static void ExportModel(this Obj fileGen, IEnumerable<Obj> inputs, IEnume
 
 #### Parameters
 
-`fileGen` Obj
+`fileGen` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The file generation to export model.
 
-`inputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`inputs` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The inputs of the file generation setting.
 
-`outputs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`outputs` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The outputs of the file generation setting.
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 The file name of fmu file to be generated.
 
-`strFileDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileDir` string
 
 The file path of files to be generated.
 
-`strInterfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInterfacePath` string
 
 The interface folder path.
 
@@ -284,37 +285,37 @@ The interface folder path.
 
 The version of the file generation setting.
 
-`interfaceTimeStep` ExpressionValueVariable?
+`interfaceTimeStep` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The interface time step of the file generation setting.
 
-`modelDescription` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`modelDescription` string
 
 The model description of the file generation setting.
 
-`scaleFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scaleFactor` double
 
 The scale factor of the file generation setting.
 
-`messageLevel` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`messageLevel` int
 
 The message level of the file generation setting. None=0, Partial=1, Full=2
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'fileGen', 'strFileName', 'strFileDir', 'strInterfacePath' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'fileGen' is not <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'inputs' is not <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolved="false"></xref> or if the type of 'output' is not <xref href="VM.Managed.DAFUL.CoSim.SOutput" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'interfaceTimeStep' value is equal to or less than 0.
 
@@ -329,23 +330,23 @@ public static Obj GenerateFile(this SubSystemDocument document, string name = ""
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the file generation setting of FMI version.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the file generation setting of FMI version.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
@@ -360,23 +361,23 @@ public static Obj GenerateMatlabFile(this SubSystemDocument document, string nam
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the M file generation setting of matlab version.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the M file generation setting of matlab version.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 

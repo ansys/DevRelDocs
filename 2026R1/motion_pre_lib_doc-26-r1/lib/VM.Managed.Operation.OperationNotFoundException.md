@@ -1,4 +1,5 @@
-#  Class OperationNotFoundException
+# Class OperationNotFoundException
+<a id="VM_Managed_Operation_OperationNotFoundException"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class OperationNotFoundException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [OperationNotFoundException](VM.Managed.Operation.OperationNotFoundException.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public OperationNotFoundException(string strType, Exception innerException)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The type of operation that does not founded.
 
-`innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`innerException` Exception
 
 The inner exception.
 
@@ -51,7 +52,7 @@ public OperationNotFoundException(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The type of operation that does not founded.
 
@@ -67,5 +68,5 @@ public override string Message { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -1,4 +1,5 @@
-#  Class BuilderTireSimple
+# Class BuilderTireSimple
+<a id="VM_Managed_CAD_Tire_BuilderTireSimple"></a>
 
 Namespace: [VM.Managed.CAD.Tire](VM.Managed.CAD.Tire.md)  
 Assembly: VMDTire.dll  
@@ -6,14 +7,14 @@ Assembly: VMDTire.dll
 The simple tire builder class
 
 ```csharp
-public class BuilderTireSimple : BuilderMultiUniteSimple, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public class BuilderTireSimple : BuilderMultiUniteSimple, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -39,8 +40,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
-IAttributeContainer
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IAttributeContainer, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -60,6 +62,8 @@ BuilderMulti.GetUnnamedObjectName\(object\),
 BuilderMulti.FindLocal\(string\), 
 BuilderMulti.Contains\(Type\), 
 BuilderMulti.CopyFilePathWhenImportBuilder\(Builder\), 
+BuilderMulti.HasReplaceableEntity\(IObjectBase\), 
+BuilderMulti.ReplaceEntity\(IObjectBase, IObjectBase\), 
 BuilderMulti.FillParameter\(BuilderParamBase\), 
 BuilderMulti.OnDeserializationImpl\(ref List<Child<Builder, ObjectBase.Update\>\>\), 
 BuilderMulti.ReadXmlImpl\(XmlReader\), 
@@ -96,6 +100,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -199,7 +205,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -238,19 +244,19 @@ public BuilderTireSimple(double dRadius, double dWidth, double dAspectRatio, dou
 
 #### Parameters
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width.
 
-`dAspectRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAspectRatio` double
 
 The aspect ratio.
 
-`dHubOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubOffset` double
 
 The hub offset.
 
@@ -264,19 +270,19 @@ public BuilderTireSimple(double dRadius, double dWidth, double dAspectRatio, dou
 
 #### Parameters
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width.
 
-`dAspectRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAspectRatio` double
 
 The aspect ratio.
 
-`dHubOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubOffset` double
 
 The hub offset.
 
@@ -294,23 +300,23 @@ public BuilderTireSimple(double dRadius, double dWidth, double dAspectRatio, dou
 
 #### Parameters
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width.
 
-`dAspectRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAspectRatio` double
 
 The aspect ratio.
 
-`dHubOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubOffset` double
 
 The hub offset.
 
-`dHubWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubWidth` double
 
 Width of hub.
 
@@ -324,23 +330,23 @@ public BuilderTireSimple(double dRadius, double dWidth, double dAspectRatio, dou
 
 #### Parameters
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width.
 
-`dAspectRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAspectRatio` double
 
 The aspect ratio.
 
-`dHubOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubOffset` double
 
 The hub offset.
 
-`dHubWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubWidth` double
 
 Width of hub.
 
@@ -358,23 +364,23 @@ public BuilderTireSimple(double dRadius, double dWidth, double dAspectRatio, dou
 
 #### Parameters
 
-`dRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRadius` double
 
 The radius.
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width.
 
-`dAspectRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAspectRatio` double
 
 The aspect ratio.
 
-`dHubOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubOffset` double
 
 The hub offset.
 
-`dHubWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dHubWidth` double
 
 Width of hub.
 
@@ -382,7 +388,7 @@ Width of hub.
 
 transformation.
 
-`nColorTread` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nColorTread` int
 
 The color tread.
 
@@ -399,7 +405,7 @@ public double AspectRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_HubOffset"></a> HubOffset
 
@@ -412,7 +418,7 @@ public double HubOffset { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_HubWidth"></a> HubWidth
 
@@ -425,7 +431,7 @@ public double HubWidth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_IsParameterized"></a> IsParameterized
 
@@ -437,7 +443,7 @@ public override bool IsParameterized { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Transform"></a> Transform
 
@@ -461,7 +467,7 @@ public override double Transparency { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_TreadColor"></a> TreadColor
 
@@ -474,7 +480,7 @@ public int TreadColor { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Uneditable"></a> Uneditable
 
@@ -486,7 +492,7 @@ public override bool Uneditable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_UnloadedRadius"></a> UnloadedRadius
 
@@ -499,7 +505,7 @@ public double UnloadedRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Width"></a> Width
 
@@ -512,7 +518,7 @@ public double Width { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -548,7 +554,7 @@ The ob.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_GetSchema"></a> GetSchema\(\)
 
@@ -563,7 +569,7 @@ public override XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -591,7 +597,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The obj notifier.
 
@@ -609,7 +615,7 @@ public override void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -623,7 +629,7 @@ public void SetAspectRatio(double dVal)
 
 #### Parameters
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 The aspect ratio.
 
@@ -637,7 +643,7 @@ public void SetHubOffset(double dVal)
 
 #### Parameters
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 The hub offset.
 
@@ -651,7 +657,7 @@ public void SetHubWidth(double dVal)
 
 #### Parameters
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 The hub width.
 
@@ -679,7 +685,7 @@ public void SetTreadColor(int dVal)
 
 #### Parameters
 
-`dVal` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`dVal` int
 
 The color of the tread.
 
@@ -693,7 +699,7 @@ public void SetUnloadedRadius(double dVal)
 
 #### Parameters
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 The unloaded radius.
 
@@ -707,7 +713,7 @@ public void SetWidth(double dVal)
 
 #### Parameters
 
-`dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal` double
 
 The width.
 
@@ -729,7 +735,7 @@ public override void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

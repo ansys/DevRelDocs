@@ -1,4 +1,5 @@
-#  Class AnalysisPowerOffStraightLine
+# Class AnalysisPowerOffStraightLine
+<a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisPowerOffStraightLine : StraightLineBase, IHasInitialVel
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [StraightLineBase](VM.Managed.DAFUL.Car.StraightLineBase.md) ← 
@@ -82,7 +83,7 @@ public double DelayOfClutch { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_DeleyOfThrottle"></a> DeleyOfThrottle
 
@@ -94,7 +95,7 @@ public double DeleyOfThrottle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_IsDisengageClutchDuringPowerOff"></a> IsDisengageClutchDuringPowerOff
 
@@ -106,7 +107,7 @@ public bool IsDisengageClutchDuringPowerOff { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_IsStraightLineControl"></a> IsStraightLineControl
 
@@ -118,7 +119,7 @@ public bool IsStraightLineControl { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_SWAValue"></a> SWAValue
 
@@ -130,7 +131,7 @@ public double SWAValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_StepDurationOfClutch"></a> StepDurationOfClutch
 
@@ -142,7 +143,7 @@ public double StepDurationOfClutch { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_StepDurationOfThrottle"></a> StepDurationOfThrottle
 
@@ -154,7 +155,7 @@ public double StepDurationOfThrottle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_TireRadiusPosition"></a> TireRadiusPosition
 
@@ -166,7 +167,7 @@ public override int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -180,7 +181,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

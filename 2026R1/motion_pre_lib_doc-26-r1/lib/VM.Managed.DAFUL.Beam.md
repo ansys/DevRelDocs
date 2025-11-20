@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Beam
+# Namespace VM.Managed.DAFUL.Beam
+<a id="VM_Managed_DAFUL_Beam"></a>
 
 ### Namespaces
 

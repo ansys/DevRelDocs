@@ -1,4 +1,5 @@
-#  Struct NodalBody.ElementInformation
+# Struct NodalBody.ElementInformation
+<a id="VM_Managed_DAFUL_FE_NodalBody_ElementInformation"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -21,7 +22,7 @@ public double[] EffectiveStrain
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_ElementInformation_PlasticStrain"></a> PlasticStrain
 
@@ -33,5 +34,5 @@ public double[] PlasticStrain
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 

@@ -1,4 +1,5 @@
-#  Class DoNotFindInterfacePointException
+# Class DoNotFindInterfacePointException
+<a id="VM_Managed_DoNotFindInterfacePointException"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class DoNotFindInterfacePointException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [DoNotFindInterfacePointException](VM.Managed.DoNotFindInterfacePointException.md)
 
 #### Extension Methods
@@ -31,5 +32,5 @@ public DoNotFindInterfacePointException(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 

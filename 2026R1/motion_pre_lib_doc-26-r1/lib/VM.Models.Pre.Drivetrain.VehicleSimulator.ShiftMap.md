@@ -1,4 +1,5 @@
-#  Class ShiftMap
+# Class ShiftMap
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,9 +10,9 @@ public sealed class ShiftMap : ValidatableBase, IObservableObject, IDisposableOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ValidatableBase ← 
+[ValidatableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs) ← 
 [ShiftMap](VM.Models.Pre.Drivetrain.VehicleSimulator.ShiftMap.md)
 
 #### Implements
@@ -22,17 +23,17 @@ IValidatable
 
 #### Inherited Members
 
-ValidatableBase.RaisePropertyChanged\(string\), 
-ValidatableBase.SuspendValidate\(\), 
-ValidatableBase.Validate\(\), 
-ValidatableBase.Validate\(ValidationContext\), 
-ValidatableBase.CanValidate, 
-ValidatableBase.Errors, 
-ValidatableBase.HasValidationAttribute, 
-ValidatableBase.HasValidator, 
-ValidatableBase.IsValid, 
-ValidatableBase.ValidateTrigger, 
-ValidatableBase.ErrorsChanged, 
+[ValidatableBase.RaisePropertyChanged\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.SuspendValidate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(ValidationContext\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.CanValidate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Errors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidator](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ValidateTrigger](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ErrorsChanged](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -66,7 +67,7 @@ public double[] GetAPSValues()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap_GetShiftProfileCount"></a> GetShiftProfileCount\(\)
 
@@ -76,7 +77,7 @@ public int GetShiftProfileCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap_GetShiftValues_System_Int32_"></a> GetShiftValues\(int\)
 
@@ -86,11 +87,11 @@ public IEnumerable<DataPoint> GetShiftValues(int shiftProfileIndex)
 
 #### Parameters
 
-`shiftProfileIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`shiftProfileIndex` int
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<DataPoint\>
+ IEnumerable<DataPoint\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap_IsValidate_System_Int32_"></a> IsValidate\(int\)
 
@@ -100,9 +101,9 @@ public bool IsValidate(int shiftProfileCount)
 
 #### Parameters
 
-`shiftProfileCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`shiftProfileCount` int
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

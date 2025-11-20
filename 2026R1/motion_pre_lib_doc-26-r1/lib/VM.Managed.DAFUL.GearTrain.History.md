@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.GearTrain.History
+# Namespace VM.Managed.DAFUL.GearTrain.History
+<a id="VM_Managed_DAFUL_GearTrain_History"></a>
 
 ### Classes
 

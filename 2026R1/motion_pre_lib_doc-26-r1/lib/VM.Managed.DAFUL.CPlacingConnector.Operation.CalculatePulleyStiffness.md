@@ -1,4 +1,5 @@
-#  Class CalculatePulleyStiffness
+# Class CalculatePulleyStiffness
+<a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -11,7 +12,7 @@ public class CalculatePulleyStiffness : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculatePulleyStiffness](VM.Managed.DAFUL.CPlacingConnector.Operation.CalculatePulleyStiffness.md)
 
@@ -87,15 +88,15 @@ public CalculatePulleyStiffness(string strFilePath, string strPulleyName, string
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path
 
-`strPulleyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPulleyName` string
 
 The pulley name
 
-`strPinFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPinFilePath` string
 
 The pin file path
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -169,7 +170,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -183,7 +184,7 @@ public List<double[]> Result()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+ List<double\[\]\>
 
 ### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness_Success"></a> Success\(\)
 
@@ -195,5 +196,5 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

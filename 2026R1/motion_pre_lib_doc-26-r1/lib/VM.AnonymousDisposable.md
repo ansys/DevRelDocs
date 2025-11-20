@@ -1,4 +1,5 @@
-#  Class AnonymousDisposable
+# Class AnonymousDisposable
+<a id="VM_AnonymousDisposable"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +10,7 @@ public sealed class AnonymousDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnonymousDisposable](VM.AnonymousDisposable.md)
 
 #### Extension Methods
@@ -28,7 +29,7 @@ public AnonymousDisposable(Action dispose)
 
 #### Parameters
 
-`dispose` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`dispose` Action
 
 ## Properties
 
@@ -40,7 +41,7 @@ public bool IsDisposed { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -52,11 +53,11 @@ public static IDisposable Create(Action dispose)
 
 #### Parameters
 
-`dispose` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`dispose` Action
 
 #### Returns
 
- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+ IDisposable
 
 ### <a id="VM_AnonymousDisposable_Dispose"></a> Dispose\(\)
 

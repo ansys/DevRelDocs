@@ -1,4 +1,5 @@
-#  Struct InterfaceManager.InterfaceInfo
+# Struct InterfaceManager.InterfaceInfo
+<a id="VM_Managed_InterfaceManager_InterfaceInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -21,7 +22,7 @@ public List<string> InterfaceNames
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_InterfaceManager_InterfaceInfo_InterfaceObject"></a> InterfaceObject
 

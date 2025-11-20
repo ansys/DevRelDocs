@@ -1,4 +1,5 @@
-#  Struct OutputChannel.CheckedMarker
+# Struct OutputChannel.CheckedMarker
+<a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_CheckedMarker"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -17,7 +18,7 @@ public string Checked { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_CheckedMarker_Marker"></a> Marker
 
@@ -27,5 +28,5 @@ public string Marker { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

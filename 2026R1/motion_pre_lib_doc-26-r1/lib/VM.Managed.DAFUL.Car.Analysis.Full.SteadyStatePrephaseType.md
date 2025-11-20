@@ -1,4 +1,5 @@
-#  Enum SteadyStatePrephaseType
+# Enum SteadyStatePrephaseType
+<a id="VM_Managed_DAFUL_Car_Analysis_Full_SteadyStatePrephaseType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  

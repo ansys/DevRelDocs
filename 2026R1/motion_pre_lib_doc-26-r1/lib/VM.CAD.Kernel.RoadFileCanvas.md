@@ -1,4 +1,5 @@
-#  Class RoadFileCanvas
+# Class RoadFileCanvas
+<a id="VM_CAD_Kernel_RoadFileCanvas"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class RoadFileCanvas : KernelExtension
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [KernelExtension](VM.CAD.Kernel.KernelExtension.md) ← 
 [RoadFileCanvas](VM.CAD.Kernel.RoadFileCanvas.md)
@@ -43,9 +44,9 @@ public RoadFileCanvas(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Properties
 
@@ -67,7 +68,7 @@ public int Segments { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -79,9 +80,9 @@ public static RoadFileCanvas Create(UIntPtr key, bool bLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`bLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bLock` bool
 
 #### Returns
 
@@ -95,9 +96,9 @@ public void Open(string strRoadFile, double dFactorFromMeter)
 
 #### Parameters
 
-`strRoadFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRoadFile` string
 
-`dFactorFromMeter` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFactorFromMeter` double
 
 ### <a id="VM_CAD_Kernel_RoadFileCanvas_SetDetailedSegment_System_Int32_"></a> SetDetailedSegment\(int\)
 
@@ -107,7 +108,7 @@ public void SetDetailedSegment(int nSeg)
 
 #### Parameters
 
-`nSeg` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nSeg` int
 
 ### <a id="VM_CAD_Kernel_RoadFileCanvas_SetTransformation_VM_Vector_System_Double_"></a> SetTransformation\(Vector, double\)
 
@@ -119,5 +120,5 @@ public void SetTransformation(Vector offset, double rotateAngleDeg)
 
 `offset` Vector
 
-`rotateAngleDeg` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`rotateAngleDeg` double
 

@@ -1,4 +1,5 @@
-#  Interface ISet
+# Interface ISet
+<a id="VM_Models_FE_Mesh_ISet"></a>
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -23,5 +24,5 @@ int ItemCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

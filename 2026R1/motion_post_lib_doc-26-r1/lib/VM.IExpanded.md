@@ -1,9 +1,10 @@
-#  Interface IExpanded
+# Interface IExpanded
+<a id="VM_IExpanded"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IExpanded
 ```
 
@@ -11,12 +12,11 @@ public interface IExpanded
 
 ### <a id="VM_IExpanded_IsExpanded"></a> IsExpanded
 
-```python
+```csharp
 bool IsExpanded { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

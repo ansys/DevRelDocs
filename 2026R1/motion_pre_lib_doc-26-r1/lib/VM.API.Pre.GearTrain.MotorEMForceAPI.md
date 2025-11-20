@@ -1,4 +1,5 @@
-#  Class MotorEMForceAPI
+# Class MotorEMForceAPI
+<a id="VM_API_Pre_GearTrain_MotorEMForceAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class MotorEMForceAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MotorEMForceAPI](VM.API.Pre.GearTrain.MotorEMForceAPI.md)
 
 #### Extension Methods
@@ -35,15 +36,15 @@ public static Obj CreateMotorEMForce(this GearTrainDocument document, Obj stator
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the motor em force.
 
-`statorBody` Obj
+`statorBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The stator body. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`rotorBody` Obj
+`rotorBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rotor body. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -59,39 +60,39 @@ The z axis.
 
 The x axis.
 
-`referenceOfRotational` Obj
+`referenceOfRotational` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The reference of rotational. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`motorEMForceName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`motorEMForceName` string
 
 The name of the motor em force. If empty, default name starts with 'Motor_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'statorBody' or 'rotorBody' or 'referenceOfRotational' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of zAxis' or 'xAxis' is 0.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'statorBody' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'rotorBody' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'referenceOfRotational' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -108,15 +109,15 @@ public static Obj CreateMotorEMForceForANSYSMotion(this GearTrainDocument docume
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the motor em force for ANSYS Motion.
 
-`statorBody` Obj
+`statorBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The stator body. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`rotorBody` Obj
+`rotorBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rotor body. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -132,39 +133,39 @@ The z axis.
 
 The x axis.
 
-`referenceOfRotational` Obj
+`referenceOfRotational` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The reference of rotational. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`motorEMForceName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`motorEMForceName` string
 
 The name of the motor em force. If empty, default name starts with 'Motor_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'statorBody' or 'rotorBody' or 'referenceOfRotational' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of zAxis' or 'xAxis' is 0.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'statorBody' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'rotorBody' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'referenceOfRotational' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -181,15 +182,15 @@ public static Obj CreateMotorEMForceForJMAG(this GearTrainDocument document, Obj
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the motor em force for JMAG.
 
-`statorBody` Obj
+`statorBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The stator body. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`rotorBody` Obj
+`rotorBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The rotor body. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -205,39 +206,39 @@ The z axis.
 
 The x axis.
 
-`referenceOfRotational` Obj
+`referenceOfRotational` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The reference of rotational. The type is <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-`motorEMForceName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`motorEMForceName` string
 
 The name of the motor em force. If empty, default name starts with 'Motor_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'statorBody' or 'rotorBody' or 'referenceOfRotational' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of zAxis' or 'xAxis' is 0.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'statorBody' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'rotorBody' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'referenceOfRotational' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 

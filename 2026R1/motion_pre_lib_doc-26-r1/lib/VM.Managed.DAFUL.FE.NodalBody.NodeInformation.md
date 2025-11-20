@@ -1,4 +1,5 @@
-#  Struct NodalBody.NodeInformation
+# Struct NodalBody.NodeInformation
+<a id="VM_Managed_DAFUL_FE_NodalBody_NodeInformation"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -45,5 +46,5 @@ public double Temperature
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

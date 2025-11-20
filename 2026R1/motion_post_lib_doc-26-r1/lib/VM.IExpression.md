@@ -1,9 +1,10 @@
-#  Interface IExpression
+# Interface IExpression
+<a id="VM_IExpression"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IExpression
 ```
 
@@ -11,12 +12,11 @@ public interface IExpression
 
 ### <a id="VM_IExpression_String"></a> String
 
-```python
+```csharp
 string String { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
+ string
 

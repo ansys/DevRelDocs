@@ -1,4 +1,5 @@
-#  Class DBRecordForBearing
+# Class DBRecordForBearing
+<a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class DBRecordForBearing : DBRecord
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Record ← 
-DBRecord ← 
+object ← 
+[Record](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
+[DBRecord](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs) ← 
 [DBRecordForBearing](VM.Managed.DAFUL.GearTrain.BearingDB.DBRecordForBearing.md)
 
 #### Derived
@@ -25,7 +26,7 @@ DBRecord ←
 
 #### Inherited Members
 
-Record.RecordNo
+[Record.RecordNo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/DBF/DBRecord.cs)
 
 #### Extension Methods
 
@@ -54,7 +55,7 @@ public double? Bore
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Company"></a> Company
 
@@ -67,7 +68,7 @@ public string Company
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Designation"></a> Designation
 
@@ -80,7 +81,7 @@ public string Designation
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_OutDia"></a> OutDia
 
@@ -93,7 +94,7 @@ public double? OutDia
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Type"></a> Type
 
@@ -106,7 +107,7 @@ public string Type
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Width"></a> Width
 
@@ -119,7 +120,7 @@ public double? Width
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)?
+ double?
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_nRows"></a> nRows
 
@@ -132,5 +133,5 @@ public int? nRows
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 

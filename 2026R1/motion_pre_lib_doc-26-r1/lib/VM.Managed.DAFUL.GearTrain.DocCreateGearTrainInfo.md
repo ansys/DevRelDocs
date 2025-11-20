@@ -1,4 +1,5 @@
-#  Class DocCreateGearTrainInfo
+# Class DocCreateGearTrainInfo
+<a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,19 +12,19 @@ public class DocCreateGearTrainInfo : DocCreateAnalysisInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocCreate3DInfo ← 
-DocCreateAnalysisInfo ← 
+[DocCreateAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs) ← 
 [DocCreateGearTrainInfo](VM.Managed.DAFUL.GearTrain.DocCreateGearTrainInfo.md)
 
 #### Inherited Members
 
-DocCreateAnalysisInfo.GravityX, 
-DocCreateAnalysisInfo.GravityY, 
-DocCreateAnalysisInfo.GravityZ, 
-DocCreateAnalysisInfo.IncrementTime, 
-DocCreateAnalysisInfo.UseIncrementTime, 
+[DocCreateAnalysisInfo.GravityX](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.GravityY](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.GravityZ](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.IncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
+[DocCreateAnalysisInfo.UseIncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs), 
 DocCreate3DInfo.IconSize, 
 DocCreate3DInfo.IsAdvancedMode, 
 DocCreate3DInfo.UseSymmetric, 
@@ -60,7 +61,7 @@ public double ShaftDirX { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo_ShaftDirY"></a> ShaftDirY
 
@@ -72,7 +73,7 @@ public double ShaftDirY { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo_ShaftDirZ"></a> ShaftDirZ
 
@@ -84,5 +85,5 @@ public double ShaftDirZ { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

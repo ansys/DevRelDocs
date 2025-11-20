@@ -1,4 +1,5 @@
-#  Class DependencyResolveAttribute
+# Class DependencyResolveAttribute
+<a id="VM_DependencyResolveAttribute"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -10,8 +11,8 @@ public class DependencyResolveAttribute : Attribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [DependencyResolveAttribute](VM.DependencyResolveAttribute.md)
 
 #### Extension Methods
@@ -30,7 +31,7 @@ public DependencyResolveAttribute(Type interfaceType)
 
 #### Parameters
 
-`interfaceType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`interfaceType` Type
 
 ## Properties
 
@@ -42,5 +43,5 @@ public Type InterfaceType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 

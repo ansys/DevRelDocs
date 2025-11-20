@@ -1,4 +1,5 @@
-#  Class EHDBearingUtil
+# Class EHDBearingUtil
+<a id="VM_Managed_DAFUL_GearTrain_Operation_EHDBearingUtil"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -9,7 +10,7 @@ public static class EHDBearingUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EHDBearingUtil](VM.Managed.DAFUL.GearTrain.Operation.EHDBearingUtil.md)
 
 #### Extension Methods
@@ -28,9 +29,9 @@ public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocume
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `baseGeometry` ObjectBase
 
@@ -48,15 +49,15 @@ public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocume
 
 `actionXAxis` DirectionBase
 
-`dBearingRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBearingRadius` double
 
-`dJournalRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dJournalRadius` double
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 #### Returns
 
- EHDBearing
+ [EHDBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEHDBearing/EHDBearing.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_EHDBearingUtil_CreateEHDBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_VM_Managed_DirectionBase_System_Double_System_Double_System_Double_"></a> CreateEHDBearing\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, double, double, double\)
 
@@ -66,9 +67,9 @@ public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocume
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 `baseGeometry` ObjectBase
 
@@ -80,13 +81,13 @@ public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocume
 
 `xAxis` DirectionBase
 
-`dBearingRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dBearingRadius` double
 
-`dJournalRadius` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dJournalRadius` double
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 #### Returns
 
- EHDBearing
+ [EHDBearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDEHDBearing/EHDBearing.cs)
 

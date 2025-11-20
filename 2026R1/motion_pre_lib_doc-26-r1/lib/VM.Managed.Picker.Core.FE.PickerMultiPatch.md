@@ -1,4 +1,5 @@
-#  Class PickerMultiPatch
+# Class PickerMultiPatch
+<a id="VM_Managed_Picker_Core_FE_PickerMultiPatch"></a>
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class PickerMultiPatch : PickerMultiNodeBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 PickerBase ← 
 PickerMulti ← 
 [PickerMultiNodeBase](VM.Managed.Picker.Core.FE.PickerMultiNodeBase.md) ← 
@@ -85,7 +86,7 @@ protected int m_nPatchNodeIndex
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -97,9 +98,9 @@ public override void GetAdjacentPatch(double dAngle, List<int> lstNode)
 
 #### Parameters
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
-`lstNode` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`lstNode` List<int\>
 
 ### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_GetPickerInfo"></a> GetPickerInfo\(\)
 
@@ -111,7 +112,7 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The picker information.
 
@@ -125,13 +126,13 @@ public override string GetResultXmlFromKey(UIntPtr[] arKey)
 
 #### Parameters
 
-`arKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
+`arKey` UIntPtr\[\]
 
 Picking destination keys.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -145,13 +146,13 @@ public override string GetResultXmlFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 Picking destination key.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -163,11 +164,11 @@ public override void SetHighlight(List<UIntPtr> lstPatch, bool bHighlight, bool 
 
 #### Parameters
 
-`lstPatch` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+`lstPatch` List<UIntPtr\>
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
-`bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUpdate` bool
 
 ### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
@@ -179,17 +180,17 @@ protected override bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 Whether only xml or not.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

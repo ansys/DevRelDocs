@@ -1,4 +1,5 @@
-#  Interface ILinkContainerEvent
+# Interface ILinkContainerEvent
+<a id="VM_Managed_ILinkContainerEvent"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ EventHandler<AddToDocEventArgs> AddedToDocEventHandler { get; }
 
 #### Property Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)\>
+ EventHandler<[AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_DestroyEventHandler"></a> DestroyEventHandler
 
@@ -39,7 +40,7 @@ EventHandler<LinkEventArgs> DestroyEventHandler { get; }
 
 #### Property Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_DestroyingEventHandler"></a> DestroyingEventHandler
 
@@ -51,7 +52,7 @@ EventHandler<LinkEventArgs> DestroyingEventHandler { get; }
 
 #### Property Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_RemovedFromDocEventHandler"></a> RemovedFromDocEventHandler
 
@@ -63,7 +64,7 @@ EventHandler<RemoveFromDocEventArgs> RemovedFromDocEventHandler { get; }
 
 #### Property Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)\>
+ EventHandler<[RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_UpdateEventHandler"></a> UpdateEventHandler
 
@@ -75,7 +76,7 @@ EventHandler<LinkEventArgs> UpdateEventHandler { get; }
 
 #### Property Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_UpdatingEventHandler"></a> UpdatingEventHandler
 
@@ -87,7 +88,7 @@ EventHandler<LinkEventArgs> UpdatingEventHandler { get; }
 
 #### Property Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ## Methods
 
@@ -101,7 +102,7 @@ void LinkAddedToDocument(object obj, AddToDocEventArgs arg)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The added object.
 
@@ -119,7 +120,7 @@ void LinkRemovedFromDocument(object obj, RemoveFromDocEventArgs arg)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The removed object.
 
@@ -137,7 +138,7 @@ void LinkRequestDestroy(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -155,7 +156,7 @@ void LinkRequestDestroying(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -173,7 +174,7 @@ void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -191,7 +192,7 @@ void LinkRequestUpdating(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -209,7 +210,7 @@ event EventHandler<AddToDocEventArgs> OnAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)\>
+ EventHandler<[AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_OnDestroy"></a> OnDestroy
 
@@ -221,7 +222,7 @@ event EventHandler<LinkEventArgs> OnDestroy
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_OnDestroying"></a> OnDestroying
 
@@ -233,7 +234,7 @@ event EventHandler<LinkEventArgs> OnDestroying
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_OnRemoved"></a> OnRemoved
 
@@ -245,7 +246,7 @@ event EventHandler<RemoveFromDocEventArgs> OnRemoved
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)\>
+ EventHandler<[RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_OnUpdate"></a> OnUpdate
 
@@ -257,7 +258,7 @@ event EventHandler<LinkEventArgs> OnUpdate
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
 ### <a id="VM_Managed_ILinkContainerEvent_OnUpdating"></a> OnUpdating
 
@@ -269,5 +270,5 @@ event EventHandler<LinkEventArgs> OnUpdating
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+ EventHandler<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 

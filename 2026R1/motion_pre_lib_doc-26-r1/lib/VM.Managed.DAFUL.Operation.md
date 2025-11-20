@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Operation
+# Namespace VM.Managed.DAFUL.Operation
+<a id="VM_Managed_DAFUL_Operation"></a>
 
 ### Namespaces
 
@@ -115,6 +116,12 @@ The DFG Export operation
  [ExportDFS](VM.Managed.DAFUL.Operation.ExportDFS.md)
 
 The export solver xml file operation
+
+ [ExportFiles](VM.Managed.DAFUL.Operation.ExportFiles.md)
+
+The export files operation
+
+ [ExportMotionFiles](VM.Managed.DAFUL.Operation.ExportMotionFiles.md)
 
  [ExportXML](VM.Managed.DAFUL.Operation.ExportXML.md)
 

@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Picker.Core.FE
+# Namespace VM.Managed.Picker.Core.FE
+<a id="VM_Managed_Picker_Core_FE"></a>
 
 ### Classes
 

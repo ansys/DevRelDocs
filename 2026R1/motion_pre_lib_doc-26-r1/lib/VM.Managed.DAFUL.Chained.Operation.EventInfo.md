@@ -1,4 +1,5 @@
-#  Class EventInfo
+# Class EventInfo
+<a id="VM_Managed_DAFUL_Chained_Operation_EventInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class EventInfo : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [EventInfo](VM.Managed.DAFUL.Chained.Operation.EventInfo.md)
 
@@ -87,11 +88,11 @@ public EventInfo(object sender, DataGridViewCellEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
-`e` [DataGridViewCellEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.forms.datagridviewcelleventargs)
+`e` DataGridViewCellEventArgs
 
 The <xref href="System.Windows.Forms.DataGridViewCellEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
@@ -107,7 +108,7 @@ public DataGridViewCellEventArgs E { get; }
 
 #### Property Value
 
- [DataGridViewCellEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.forms.datagridviewcelleventargs)
+ DataGridViewCellEventArgs
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_EventInfo_Name"></a> Name
 
@@ -119,7 +120,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_EventInfo_Sender"></a> Sender
 
@@ -131,7 +132,7 @@ public object Sender { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ## Methods
 
@@ -145,7 +146,7 @@ public override void Execute()
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ### <a id="VM_Managed_DAFUL_Chained_Operation_EventInfo_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
@@ -157,7 +158,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

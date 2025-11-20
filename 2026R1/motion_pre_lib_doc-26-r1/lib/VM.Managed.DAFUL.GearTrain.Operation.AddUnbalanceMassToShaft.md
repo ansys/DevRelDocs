@@ -1,4 +1,5 @@
-#  Class AddUnbalanceMassToShaft
+# Class AddUnbalanceMassToShaft
+<a id="VM_Managed_DAFUL_GearTrain_Operation_AddUnbalanceMassToShaft"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,9 +12,9 @@ public class AddUnbalanceMassToShaft : Create, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
-Create ← 
+[Create](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs) ← 
 [AddUnbalanceMassToShaft](VM.Managed.DAFUL.GearTrain.Operation.AddUnbalanceMassToShaft.md)
 
 #### Implements
@@ -22,13 +23,13 @@ IOperation
 
 #### Inherited Members
 
-Create.m\_strInitializerXml, 
-Create.Execute\(\), 
-Create.PostExecute\(\), 
-Create.ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\), 
-Create.Name, 
-Create.IsHistoryMerge, 
-Create.UseMacro, 
+[Create.m\_strInitializerXml](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.Execute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.PostExecute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.IsHistoryMerge](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.UseMacro](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
 OperationBase.g\_bRedrawKernel, 
 OperationBase.g\_bVerify, 
 OperationBase.g\_bSkipAddEvent, 
@@ -103,7 +104,7 @@ public AddUnbalanceMassToShaft(string strInitializerXml)
 
 #### Parameters
 
-`strInitializerXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitializerXml` string
 
 The STR initializer XML.
 

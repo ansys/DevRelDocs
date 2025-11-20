@@ -1,4 +1,5 @@
-#  Class Document
+# Class Document
+<a id="VM_CAD_Kernel_Document"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class Document : KernelObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Document](VM.CAD.Kernel.Document.md)
 
@@ -41,9 +42,9 @@ public Document(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Properties
 
@@ -67,19 +68,19 @@ public void DisplayTmpDirection(double dFromX, double dFromY, double dFromZ, dou
 
 #### Parameters
 
-`dFromX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFromX` double
 
-`dFromY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFromY` double
 
-`dFromZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dFromZ` double
 
-`dToX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dToX` double
 
-`dToY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dToY` double
 
-`dToZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dToZ` double
 
-`dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIconSize` double
 
 ### <a id="VM_CAD_Kernel_Document_DisplayTmpOrientation_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> DisplayTmpOrientation\(double, double, double, double, double, double, double, double, double, double\)
 
@@ -89,25 +90,25 @@ public void DisplayTmpOrientation(double dOriginX, double dOriginY, double dOrig
 
 #### Parameters
 
-`dOriginX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOriginX` double
 
-`dOriginY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOriginY` double
 
-`dOriginZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOriginZ` double
 
-`dZPointX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZPointX` double
 
-`dZPointY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZPointY` double
 
-`dZPointZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZPointZ` double
 
-`dXPointX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dXPointX` double
 
-`dXPointY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dXPointY` double
 
-`dXPointZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dXPointZ` double
 
-`dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIconSize` double
 
 ### <a id="VM_CAD_Kernel_Document_DisplayTmpTransform_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> DisplayTmpTransform\(double, double, double, double, double, double, double, double, double, double\)
 
@@ -117,23 +118,23 @@ public void DisplayTmpTransform(double dOriginX, double dOriginY, double dOrigin
 
 #### Parameters
 
-`dOriginX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOriginX` double
 
-`dOriginY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOriginY` double
 
-`dOriginZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOriginZ` double
 
-`dZPointX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZPointX` double
 
-`dZPointY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZPointY` double
 
-`dZPointZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZPointZ` double
 
-`dXPointX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dXPointX` double
 
-`dXPointY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dXPointY` double
 
-`dXPointZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dXPointZ` double
 
-`dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIconSize` double
 

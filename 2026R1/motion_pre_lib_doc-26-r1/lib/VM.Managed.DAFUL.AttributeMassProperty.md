@@ -1,4 +1,5 @@
-#  Class AttributeMassProperty
+# Class AttributeMassProperty
+<a id="VM_Managed_DAFUL_AttributeMassProperty"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,9 +12,9 @@ public class AttributeMassProperty : AttributeBase, IObservableObject, IDisposab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 [AttributeMassProperty](VM.Managed.DAFUL.AttributeMassProperty.md)
@@ -78,7 +79,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -117,31 +118,31 @@ public AttributeMassProperty(double dMass, double dIxx, double dIyy, double dIzz
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 The mass.
 
-`dIxx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIxx` double
 
 The ixx of moment of inertia.
 
-`dIyy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIyy` double
 
 The iyy of moment of inertia.
 
-`dIzz` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIzz` double
 
 The izz of moment of inertia.
 
-`dIxy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIxy` double
 
 The ixy of moment of inertia.
 
-`dIxz` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIxz` double
 
 The ixz of moment of inertia.
 
-`dIyz` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIyz` double
 
 The iyz of moment of inertia.
 
@@ -161,7 +162,7 @@ public double Ixx { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_AttributeMassProperty_Ixy"></a> Ixy
 
@@ -173,7 +174,7 @@ public double Ixy { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_AttributeMassProperty_Ixz"></a> Ixz
 
@@ -185,7 +186,7 @@ public double Ixz { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_AttributeMassProperty_Iyy"></a> Iyy
 
@@ -197,7 +198,7 @@ public double Iyy { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_AttributeMassProperty_Iyz"></a> Iyz
 
@@ -209,7 +210,7 @@ public double Iyz { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_AttributeMassProperty_Izz"></a> Izz
 
@@ -221,7 +222,7 @@ public double Izz { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_AttributeMassProperty_Mass"></a> Mass
 
@@ -233,7 +234,7 @@ public double Mass { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_AttributeMassProperty_MassCenter"></a> MassCenter
 

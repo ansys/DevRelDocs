@@ -1,4 +1,5 @@
-#  Class BodyToDTAPI
+# Class BodyToDTAPI
+<a id="VM_API_Pre_GearTrain_BodyToDTAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class BodyToDTAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BodyToDTAPI](VM.API.Pre.GearTrain.BodyToDTAPI.md)
 
 #### Extension Methods
@@ -33,17 +34,17 @@ public static void ApplyBearingForBodyToDT(this GearTrainDocument document, IEnu
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the bearings.
 
-`bearings` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[BearingParameters](VM.API.Pre.GearTrain.BearingParameters.md)\>
+`bearings` IEnumerable<[BearingParameters](VM.API.Pre.GearTrain.BearingParameters.md)\>
 
 The bearings.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty or if the body of bearing is empty.
 
@@ -58,17 +59,17 @@ public static void ApplyClutchForBodyToDT(this GearTrainDocument document, IEnum
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the clutchs.
 
-`clutchs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ClutchParameters](VM.API.Pre.GearTrain.ClutchParameters.md)\>
+`clutchs` IEnumerable<[ClutchParameters](VM.API.Pre.GearTrain.ClutchParameters.md)\>
 
 The clutchs.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty or if the body of clutch is empty.
 
@@ -83,17 +84,17 @@ public static void ApplyGearSetForBodyToDT(this GearTrainDocument document, IEnu
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the gear set.
 
-`gearSets` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[GearSetParameters](VM.API.Pre.GearTrain.GearSetParameters.md)\>
+`gearSets` IEnumerable<[GearSetParameters](VM.API.Pre.GearTrain.GearSetParameters.md)\>
 
 The gear sets.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty or if the body of gearSet is empty.
 
@@ -108,17 +109,17 @@ public static void ApplyHousingForBodyToDT(this GearTrainDocument document, IEnu
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the housings.
 
-`housings` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[HousingParameters](VM.API.Pre.GearTrain.HousingParameters.md)\>
+`housings` IEnumerable<[HousingParameters](VM.API.Pre.GearTrain.HousingParameters.md)\>
 
 The housings.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty or if the body of housing is empty.
 
@@ -133,25 +134,25 @@ public static void ApplyShaftSetForBodyToDT(this GearTrainDocument document, IEn
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the simple shaft set.
 
-`shaftSets` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ShaftSetParameters](VM.API.Pre.GearTrain.ShaftSetParameters.md)\>
+`shaftSets` IEnumerable<[ShaftSetParameters](VM.API.Pre.GearTrain.ShaftSetParameters.md)\>
 
 The simple shaft sets
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty or if the body of shaftset does not exist.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'rotateAxis' is 0.
 
- [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
+ ArgumentOutOfRangeException
 
 Will be thrown if 'width' value equal to or less than 0.
 
@@ -166,25 +167,25 @@ public static void AssembleItemsForBodyToDT(this GearTrainDocument document, IEn
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to assemble the items for the body to DT.
 
-`gearSets` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[GearSetParameters](VM.API.Pre.GearTrain.GearSetParameters.md)\>
+`gearSets` IEnumerable<[GearSetParameters](VM.API.Pre.GearTrain.GearSetParameters.md)\>
 
 The gear sets.
 
-`bearings` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[BearingParameters](VM.API.Pre.GearTrain.BearingParameters.md)\>
+`bearings` IEnumerable<[BearingParameters](VM.API.Pre.GearTrain.BearingParameters.md)\>
 
 The bearings.
 
-`toleranceForAssembly` ExpressionValueVariable?
+`toleranceForAssembly` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The tolerance for assembly.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty or if the body of 'gearSet', 'bearing' is empty.
 
@@ -199,17 +200,17 @@ public static void RemoveBodyToDTAttribute(this GearTrainDocument document, IEnu
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the clutchs.
 
-`clutchs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
+`clutchs` IEnumerable<[Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)\>
 
 The clutchs.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'clutchs' argument is empty.
 

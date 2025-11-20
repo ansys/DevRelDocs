@@ -1,4 +1,5 @@
-#  Class SolidBodyBase
+# Class SolidBodyBase
+<a id="VM_Managed_Symmetric_SolidBodyBase"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class SolidBodyBase : Named<SolidBody>, ISymmetricUpdater, ISymmetricUpda
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Named<SolidBody\>](VM.Managed.Symmetric.Named\-1.md) ← 
 [SolidBodyBase](VM.Managed.Symmetric.SolidBodyBase.md)
 
@@ -71,7 +72,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

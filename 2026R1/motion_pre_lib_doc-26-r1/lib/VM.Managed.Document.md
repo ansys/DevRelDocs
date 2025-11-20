@@ -1,4 +1,5 @@
-#  Class Document
+# Class Document
+<a id="VM_Managed_Document"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public abstract class Document : Container, IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Container](VM.Managed.Container.md) ← 
 [Document](VM.Managed.Document.md)
@@ -39,7 +40,7 @@ IOwned,
 IHasID, 
 [IEnableManager](VM.Managed.IEnableManager.md), 
 [IRelatedDocument](VM.Managed.IRelatedDocument.md), 
-IHistorySupport
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs)
 
 #### Inherited Members
 
@@ -92,7 +93,7 @@ IHistorySupport
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -133,7 +134,7 @@ public static List<string> g_OpenDocuments
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_Document_m_unit"></a> m\_unit
 
@@ -181,7 +182,7 @@ public bool AutoSaved { get; protected set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_CanClose"></a> CanClose
 
@@ -193,7 +194,7 @@ public abstract bool CanClose { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_ClearChildInfoBeforeDeserialize"></a> ClearChildInfoBeforeDeserialize
 
@@ -205,7 +206,7 @@ protected override bool ClearChildInfoBeforeDeserialize { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_CloseAllDialogWhenCloseDoc"></a> CloseAllDialogWhenCloseDoc
 
@@ -217,7 +218,7 @@ public bool CloseAllDialogWhenCloseDoc { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_DocumentName"></a> DocumentName
 
@@ -229,7 +230,7 @@ public string DocumentName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document_DocumentSessionOverride"></a> DocumentSessionOverride
 
@@ -241,7 +242,7 @@ public virtual SessionOverride DocumentSessionOverride { get; }
 
 #### Property Value
 
- [SessionOverride](VM.Managed.Operation.SessionOverride.md)
+ SessionOverride
 
 ### <a id="VM_Managed_Document_DoingClose"></a> DoingClose
 
@@ -253,7 +254,7 @@ public virtual bool DoingClose { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_DoingOpen"></a> DoingOpen
 
@@ -265,7 +266,7 @@ public virtual bool DoingOpen { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_ExpressionParser"></a> ExpressionParser
 
@@ -287,7 +288,7 @@ public virtual string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document_FilterdTypes"></a> FilterdTypes
 
@@ -297,7 +298,7 @@ public List<int> FilterdTypes { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ List<int\>
 
 ### <a id="VM_Managed_Document_InitialConvertFactor"></a> InitialConvertFactor
 
@@ -321,7 +322,7 @@ public override bool IsChildExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_IsExternable"></a> IsExternable
 
@@ -333,7 +334,7 @@ public override bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_IsHideEntityListWindow"></a> IsHideEntityListWindow
 
@@ -343,7 +344,7 @@ public bool IsHideEntityListWindow { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_IsHideFilterWindow"></a> IsHideFilterWindow
 
@@ -353,7 +354,7 @@ public bool IsHideFilterWindow { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_IsReplaced"></a> IsReplaced
 
@@ -365,7 +366,7 @@ public bool IsReplaced { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_KeepOldKernelUnit"></a> KeepOldKernelUnit
 
@@ -377,7 +378,7 @@ protected virtual bool KeepOldKernelUnit { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_Modified"></a> Modified
 
@@ -389,7 +390,7 @@ public abstract bool Modified { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_SelectedLayoutAlgorithmType"></a> SelectedLayoutAlgorithmType
 
@@ -399,7 +400,7 @@ public int SelectedLayoutAlgorithmType { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -511,9 +512,9 @@ public virtual void CancelSelection(bool A_0, bool A_1)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
-`A_1` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_1` bool
 
 ### <a id="VM_Managed_Document_ClearDocument"></a> ClearDocument\(\)
 
@@ -553,13 +554,13 @@ public bool ContainsNameAttribute(string strNameAttribute)
 
 #### Parameters
 
-`strNameAttribute` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameAttribute` string
 
 The name value.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_CreateView_System_UIntPtr_"></a> CreateView\(UIntPtr\)
 
@@ -571,7 +572,7 @@ public abstract View CreateView(UIntPtr hWnd)
 
 #### Parameters
 
-`hWnd` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`hWnd` UIntPtr
 
 The view handle.
 
@@ -589,9 +590,9 @@ public virtual void DisplayModeShape(int A_0, double A_1)
 
 #### Parameters
 
-`A_0` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`A_0` int
 
-`A_1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`A_1` double
 
 ### <a id="VM_Managed_Document_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
@@ -602,7 +603,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_Document_EnableModeShape_System_Boolean_"></a> EnableModeShape\(bool\)
 
@@ -614,7 +615,7 @@ public virtual void EnableModeShape(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_Document_ExitCommandMode"></a> ExitCommandMode\(\)
 
@@ -634,13 +635,13 @@ public virtual double FastToConvertUnitLength(bool bReverse)
 
 #### Parameters
 
-`bReverse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReverse` bool
 
 The reverse state.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Document_Finalize"></a> \~Document\(\)
 
@@ -676,7 +677,7 @@ public virtual IObject FindObjectFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key.
 
@@ -694,7 +695,7 @@ public virtual IEnumerable<IObject> GetChildren()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+ IEnumerable<IObject\>
 
 ### <a id="VM_Managed_Document_GetCopyOfKernelUnit"></a> GetCopyOfKernelUnit\(\)
 
@@ -730,7 +731,7 @@ public virtual void GetData(XmlNode writer)
 
 #### Parameters
 
-`writer` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`writer` XmlNode
 
 The writer.
 
@@ -744,7 +745,7 @@ public static Document GetDocumentFromOpenedDocument(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path.
 
@@ -774,13 +775,13 @@ public string GetUniqueNameAttribute(string strNameAttribute)
 
 #### Parameters
 
-`strNameAttribute` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameAttribute` string
 
 The name value.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document_Initialize_VM_Managed_Document_OpenDoc_VM_Managed_Document_BrowseFile_VM_Managed_Document_IsOpenDoc_VM_Managed_Document_GetDocFromOpenedDoc_VM_Managed_Document_ActiveDocChange_VM_Managed_Document_ActiveViewChange_"></a> Initialize\(OpenDoc, BrowseFile, IsOpenDoc, GetDocFromOpenedDoc, ActiveDocChange, ActiveViewChange\)
 
@@ -832,7 +833,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
@@ -846,13 +847,13 @@ public static bool IsOpen(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_IsTypeSupported_System_Type_"></a> IsTypeSupported\(Type\)
 
@@ -865,7 +866,7 @@ public abstract void IsTypeSupported(Type type)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
@@ -879,7 +880,7 @@ protected override void LinkRequestDestroy(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -897,7 +898,7 @@ protected override void OnContainerDestroy(object obj, LinkEventArgs args)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 
@@ -915,7 +916,7 @@ protected override void OnDeserialization(object obSender)
 
 #### Parameters
 
-`obSender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obSender` object
 
 The sender.
 
@@ -941,13 +942,13 @@ public static Document Open(string strFullFilePath, bool bActivate, bool bHidden
 
 #### Parameters
 
-`strFullFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullFilePath` string
 
 The full file path.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
-`bHidden` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHidden` bool
 
 hidden file flag.
 
@@ -965,11 +966,11 @@ public static Document Open(string strFullFilePath, bool bActivate)
 
 #### Parameters
 
-`strFullFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullFilePath` string
 
 The full file path.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 Whether document is acivate.
 
@@ -987,7 +988,7 @@ public static Document Open(string strFullFilePath)
 
 #### Parameters
 
-`strFullFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullFilePath` string
 
 The full file path.
 
@@ -1005,15 +1006,15 @@ public static Document Open(string strRelativeFilePath, string strRefDir, bool b
 
 #### Parameters
 
-`strRelativeFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRelativeFilePath` string
 
 The relative file path.
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 Whether document is acivate.
 
@@ -1031,11 +1032,11 @@ public static Document Open(string strRelativeFilePath, string strRefDir)
 
 #### Parameters
 
-`strRelativeFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRelativeFilePath` string
 
 The relative file path.
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
@@ -1123,9 +1124,9 @@ public virtual void PostSave(List<Document> lstOpenDocs, bool bModified)
 
 #### Parameters
 
-`lstOpenDocs` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Document](VM.Managed.Document.md)\>
+`lstOpenDocs` List<[Document](VM.Managed.Document.md)\>
 
-`bModified` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModified` bool
 
 ### <a id="VM_Managed_Document_RefreshReferenceForUndoRedo_VM_Managed_ObjectBase_"></a> RefreshReferenceForUndoRedo\(ObjectBase\)
 
@@ -1201,17 +1202,17 @@ public bool ReplacesNameAttribute(string strNameAttributeOld, string strNameAttr
 
 #### Parameters
 
-`strNameAttributeOld` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameAttributeOld` string
 
 The old name value.
 
-`strNameAttributeNew` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameAttributeNew` string
 
 The new name value.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document_Save_System_String_"></a> Save\(string\)
 
@@ -1223,7 +1224,7 @@ public abstract void Save(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The path to save.
 
@@ -1237,7 +1238,7 @@ public virtual void SetData(XmlNode reader)
 
 #### Parameters
 
-`reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`reader` XmlNode
 
 The reader.
 
@@ -1255,7 +1256,7 @@ abstract void SetEnableImpl(ObjectBase ob, bool bEnable)
 
 The object.
 
-`bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnable` bool
 
 if set to <code>true</code> enable.
 
@@ -1269,7 +1270,7 @@ protected virtual void SetKernelUnit(string strLength)
 
 #### Parameters
 
-`strLength` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strLength` string
 
 The length unit.
 
@@ -1297,15 +1298,15 @@ public static Document TryOpen(string strRelativeFilePath, LoadSerializeContext 
 
 #### Parameters
 
-`strRelativeFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRelativeFilePath` string
 
 The relative file path.
 
-`context` [LoadSerializeContext](VM.Managed.LoadSerializeContext.md)
+`context` LoadSerializeContext
 
 The context info.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 Whether document is acivate.
 
@@ -1323,15 +1324,15 @@ public static Document TryOpen(string strRelativeFilePath, string strRefDir, boo
 
 #### Parameters
 
-`strRelativeFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRelativeFilePath` string
 
 The relative file path.
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
-`bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActivate` bool
 
 Whether document is acivate.
 
@@ -1349,11 +1350,11 @@ public static Document TryOpen(string strRelativeFilePath, string strRefDir)
 
 #### Parameters
 
-`strRelativeFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRelativeFilePath` string
 
 The relative file path.
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
@@ -1383,7 +1384,7 @@ public abstract void UpdateEnable(ObjectBase obj, bool bEnabled)
 
 The object.
 
-`bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnabled` bool
 
 Whether object is enable.
 
@@ -1401,7 +1402,7 @@ public virtual void UpdateInterface(ObjectBase obj, bool bInterfaced)
 
 The object.
 
-`bInterfaced` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterfaced` bool
 
 Whether object is interfaced.
 
@@ -1437,7 +1438,7 @@ public string WriteIDInformation()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document_raise_ChildAdded_System_Object_VM_Identifier_"></a> raise\_ChildAdded\(object, Identifier\)
 
@@ -1447,7 +1448,7 @@ protected virtual void raise_ChildAdded(object value0, Identifier value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
 `value1` Identifier
 
@@ -1459,7 +1460,7 @@ protected virtual void raise_ChildRemoved(object value0, Identifier value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
 `value1` Identifier
 
@@ -1471,7 +1472,7 @@ protected virtual void raise_ChildReplaced(object value0, Identifier value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
 `value1` Identifier
 
@@ -1483,7 +1484,7 @@ protected virtual void raise_ChildReplacing(object value0, Identifier value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
 `value1` Identifier
 
@@ -1495,9 +1496,9 @@ protected virtual void raise_Destroying(object value0, EventArgs value1)
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
-`value1` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`value1` EventArgs
 
 ### <a id="VM_Managed_Document_raise_OnChangeIconForNodalModal_System_Object_VM_Managed_DocumentEventArgs_"></a> raise\_OnChangeIconForNodalModal\(object, DocumentEventArgs\)
 
@@ -1507,7 +1508,7 @@ public void raise_OnChangeIconForNodalModal(object objNotifier, DocumentEventArg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1519,7 +1520,7 @@ public void raise_OnChildAdded(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1531,7 +1532,7 @@ public void raise_OnChildDocNameUpdated(object objNotifier, DocumentEventArgs ar
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1543,7 +1544,7 @@ public void raise_OnChildMultiAdded(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1555,7 +1556,7 @@ public void raise_OnChildRemoved(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1567,7 +1568,7 @@ public void raise_OnChildRenamed(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1579,7 +1580,7 @@ public void raise_OnChildRootSelect(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1591,7 +1592,7 @@ public void raise_OnChildUpdated(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1603,7 +1604,7 @@ public void raise_OnChildUpdatedAll(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1615,7 +1616,7 @@ public void raise_OnChildUpdatedEnable(object objNotifier, DocumentEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1627,7 +1628,7 @@ public void raise_OnClearSelectNavigator(object objNotifier, DocumentEventArgs a
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1639,7 +1640,7 @@ public void raise_OnDependentDocumentAdded(object objNotifier, DependentDocEvent
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DependentDocEventArgs](VM.Managed.DependentDocEventArgs.md)
 
@@ -1651,7 +1652,7 @@ public void raise_OnDependentDocumentRemoved(object objNotifier, DependentDocEve
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DependentDocEventArgs](VM.Managed.DependentDocEventArgs.md)
 
@@ -1663,7 +1664,7 @@ public void raise_OnDoingImport(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1675,9 +1676,9 @@ public void raise_OnSimulationCaseUpdated(object objNotifier, EventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
-`args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`args` EventArgs
 
 ### <a id="VM_Managed_Document_raise_OnSingleObjectSelected_System_Object_VM_Managed_ObjectBaseEventArgs_"></a> raise\_OnSingleObjectSelected\(object, ObjectBaseEventArgs\)
 
@@ -1687,7 +1688,7 @@ protected void raise_OnSingleObjectSelected(object value0, ObjectBaseEventArgs v
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
 `value1` [ObjectBaseEventArgs](VM.Managed.ObjectBaseEventArgs.md)
 
@@ -1699,7 +1700,7 @@ public void raise_OnSkipChildAdded(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1711,7 +1712,7 @@ public void raise_OnSubentityAdded(object objNotifier, DocumentEventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `args` [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
@@ -1723,9 +1724,9 @@ public void raise_OnSubentityRefreshed(object objNotifier, EventArgs args)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
-`args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`args` EventArgs
 
 ### <a id="VM_Managed_Document_raise_SelectionChanged_System_Object_System_Collections_Generic_IEnumerable_VM_Identifier__"></a> raise\_SelectionChanged\(object, IEnumerable<Identifier\>\)
 
@@ -1735,9 +1736,9 @@ protected virtual void raise_SelectionChanged(object value0, IEnumerable<Identif
 
 #### Parameters
 
-`value0` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value0` object
 
-`value1` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Identifier\>
+`value1` IEnumerable<Identifier\>
 
 ### <a id="VM_Managed_Document_ChildAdded"></a> ChildAdded
 
@@ -1749,7 +1750,7 @@ public virtual event EventHandler<Identifier> ChildAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Managed_Document_ChildRemoved"></a> ChildRemoved
 
@@ -1761,7 +1762,7 @@ public virtual event EventHandler<Identifier> ChildRemoved
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Managed_Document_ChildReplaced"></a> ChildReplaced
 
@@ -1773,7 +1774,7 @@ public virtual event EventHandler<Identifier> ChildReplaced
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Managed_Document_ChildReplacing"></a> ChildReplacing
 
@@ -1785,7 +1786,7 @@ public virtual event EventHandler<Identifier> ChildReplacing
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 
 ### <a id="VM_Managed_Document_Destroying"></a> Destroying
 
@@ -1797,7 +1798,7 @@ public virtual event EventHandler Destroying
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="VM_Managed_Document_OnChangeIconForNodalModal"></a> OnChangeIconForNodalModal
 
@@ -1809,7 +1810,7 @@ public event EventHandler<DocumentEventArgs> OnChangeIconForNodalModal
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildAdded"></a> OnChildAdded
 
@@ -1821,7 +1822,7 @@ public event EventHandler<DocumentEventArgs> OnChildAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildDocNameUpdated"></a> OnChildDocNameUpdated
 
@@ -1833,7 +1834,7 @@ public event EventHandler<DocumentEventArgs> OnChildDocNameUpdated
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildMultiAdded"></a> OnChildMultiAdded
 
@@ -1845,7 +1846,7 @@ public event EventHandler<DocumentEventArgs> OnChildMultiAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildRemoved"></a> OnChildRemoved
 
@@ -1857,7 +1858,7 @@ public event EventHandler<DocumentEventArgs> OnChildRemoved
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildRenamed"></a> OnChildRenamed
 
@@ -1869,7 +1870,7 @@ public event EventHandler<DocumentEventArgs> OnChildRenamed
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildRootSelect"></a> OnChildRootSelect
 
@@ -1881,7 +1882,7 @@ public event EventHandler<DocumentEventArgs> OnChildRootSelect
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildUpdated"></a> OnChildUpdated
 
@@ -1893,7 +1894,7 @@ public event EventHandler<DocumentEventArgs> OnChildUpdated
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildUpdatedAll"></a> OnChildUpdatedAll
 
@@ -1905,7 +1906,7 @@ public event EventHandler<DocumentEventArgs> OnChildUpdatedAll
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnChildUpdatedEnable"></a> OnChildUpdatedEnable
 
@@ -1917,7 +1918,7 @@ public event EventHandler<DocumentEventArgs> OnChildUpdatedEnable
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnClearSelectNavigator"></a> OnClearSelectNavigator
 
@@ -1929,7 +1930,7 @@ public event EventHandler<DocumentEventArgs> OnClearSelectNavigator
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnDependentDocumentAdded"></a> OnDependentDocumentAdded
 
@@ -1941,7 +1942,7 @@ public event EventHandler<DependentDocEventArgs> OnDependentDocumentAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DependentDocEventArgs](VM.Managed.DependentDocEventArgs.md)\>
+ EventHandler<[DependentDocEventArgs](VM.Managed.DependentDocEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnDependentDocumentRemoved"></a> OnDependentDocumentRemoved
 
@@ -1953,7 +1954,7 @@ public event EventHandler<DependentDocEventArgs> OnDependentDocumentRemoved
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DependentDocEventArgs](VM.Managed.DependentDocEventArgs.md)\>
+ EventHandler<[DependentDocEventArgs](VM.Managed.DependentDocEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnDoingImport"></a> OnDoingImport
 
@@ -1965,7 +1966,7 @@ public event EventHandler<DocumentEventArgs> OnDoingImport
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnSimulationCaseUpdated"></a> OnSimulationCaseUpdated
 
@@ -1977,7 +1978,7 @@ public event EventHandler<EventArgs> OnSimulationCaseUpdated
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)\>
+ EventHandler<EventArgs\>
 
 ### <a id="VM_Managed_Document_OnSingleObjectSelected"></a> OnSingleObjectSelected
 
@@ -1987,7 +1988,7 @@ public event EventHandler<ObjectBaseEventArgs> OnSingleObjectSelected
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[ObjectBaseEventArgs](VM.Managed.ObjectBaseEventArgs.md)\>
+ EventHandler<[ObjectBaseEventArgs](VM.Managed.ObjectBaseEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnSkipChildAdded"></a> OnSkipChildAdded
 
@@ -1999,7 +2000,7 @@ public event EventHandler<DocumentEventArgs> OnSkipChildAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnSubentityAdded"></a> OnSubentityAdded
 
@@ -2011,7 +2012,7 @@ public event EventHandler<DocumentEventArgs> OnSubentityAdded
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
+ EventHandler<[DocumentEventArgs](VM.Managed.DocumentEventArgs.md)\>
 
 ### <a id="VM_Managed_Document_OnSubentityRefreshed"></a> OnSubentityRefreshed
 
@@ -2023,7 +2024,7 @@ public event EventHandler<EventArgs> OnSubentityRefreshed
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)\>
+ EventHandler<EventArgs\>
 
 ### <a id="VM_Managed_Document_SelectionChanged"></a> SelectionChanged
 
@@ -2035,5 +2036,5 @@ public virtual event EventHandler<IEnumerable<Identifier>> SelectionChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Identifier\>\>
+ EventHandler<IEnumerable<Identifier\>\>
 

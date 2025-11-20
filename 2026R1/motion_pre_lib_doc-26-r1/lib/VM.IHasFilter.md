@@ -1,4 +1,5 @@
-#  Interface IHasFilter
+# Interface IHasFilter
+<a id="VM_IHasFilter"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,5 +24,5 @@ Predicate<object> Filter { get; }
 
 #### Property Value
 
- [Predicate](https://learn.microsoft.com/dotnet/api/system.predicate\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+ Predicate<object\>
 

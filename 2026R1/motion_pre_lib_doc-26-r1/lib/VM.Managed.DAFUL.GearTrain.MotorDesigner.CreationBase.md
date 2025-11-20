@@ -1,4 +1,5 @@
-#  Class MotorDesigner.CreationBase
+# Class MotorDesigner.CreationBase
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,19 +12,19 @@ public abstract class MotorDesigner.CreationBase : LinkContainer, IObservableObj
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MotorDesigner.CreationBase](VM.Managed.DAFUL.GearTrain.MotorDesigner.CreationBase.md)
 
 #### Derived
 
 [MotorDesigner.StatorSection.CADImportCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.CADImportCreation.md), 
-[MotorDesigner.StatorSection.MaxwellCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.MaxwellCreation.md), 
 [MotorDesigner.RotorSection.MaxwellCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.RotorSection.MaxwellCreation.md), 
-[MotorDesigner.RotorSection.UserDefinedCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.RotorSection.UserDefinedCreation.md), 
-[MotorDesigner.StatorSection.UserDefinedCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.UserDefinedCreation.md)
+[MotorDesigner.StatorSection.MaxwellCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.MaxwellCreation.md), 
+[MotorDesigner.StatorSection.UserDefinedCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.UserDefinedCreation.md), 
+[MotorDesigner.RotorSection.UserDefinedCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.RotorSection.UserDefinedCreation.md)
 
 #### Implements
 
@@ -83,7 +84,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -124,7 +125,7 @@ public ExpressionValueVariable Depth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_Material"></a> Material
 
@@ -148,7 +149,7 @@ public ExpressionValueVariable RotateAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
 
@@ -200,7 +201,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

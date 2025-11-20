@@ -1,4 +1,5 @@
-#  Class CarForceAPI
+# Class CarForceAPI
+<a id="VM_API_Pre_Car_CarForceAPI"></a>
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -11,7 +12,7 @@ public static class CarForceAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CarForceAPI](VM.API.Pre.Car.CarForceAPI.md)
 
 #### Extension Methods
@@ -40,15 +41,15 @@ public static Obj CreateBumpStop(this IPostTemplateBasedDocument document, strin
 
 The <xref href="VM.Managed.IPostTemplateBasedDocument" data-throw-if-not-resolved="false"></xref> to create a bump stop.
 
-`propertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyFilePath` string
 
 The bump stop property file path.
 
-`baseEntity` Obj
+`baseEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity of a bump stop.
 
-`actionEntity` Obj
+`actionEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action entity of a bump stop.
 
@@ -60,7 +61,7 @@ The base position of a bump stop.
 
 The action position of a bump stop.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a bump stop.
 
@@ -70,25 +71,25 @@ The symmetric type of the new <xref href="VM.Managed.DAFUL.Car.Force.Bumpstop" d
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Car.Force.Bumpstop" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if extension of 'propertyFilePath' is not .cpfbsxml.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'propertyFilePath' does not exist.
 
@@ -110,15 +111,15 @@ public static Obj CreateBush(this IPostTemplateBasedDocument document, string pr
 
 The <xref href="VM.Managed.IPostTemplateBasedDocument" data-throw-if-not-resolved="false"></xref> to create a bush.
 
-`propertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyFilePath` string
 
 The bush property file path.
 
-`baseEntity` Obj
+`baseEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity of a bush.
 
-`actionEntity` Obj
+`actionEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action entity of a bush.
 
@@ -130,7 +131,7 @@ The base position of a bush.
 
 The orientation of a bush force. The default value is identity.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a bush.
 
@@ -140,29 +141,29 @@ The symmetric type of the new <xref href="VM.Managed.DAFUL.Force.Bush" data-thro
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Force.Bush" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if extension of 'propertyFilePath' is not .dfpfbxml.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'orientation' is 0.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'propertyFilePath' does not exist.
 
@@ -184,15 +185,15 @@ public static Obj CreateDamper(this IPostTemplateBasedDocument document, string 
 
 The <xref href="VM.Managed.IPostTemplateBasedDocument" data-throw-if-not-resolved="false"></xref> to create a damper.
 
-`propertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyFilePath` string
 
 The damper property file path.
 
-`baseEntity` Obj
+`baseEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity of a damper.
 
-`actionEntity` Obj
+`actionEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action entity of a damper.
 
@@ -204,7 +205,7 @@ The base position of a damper.
 
 The action position of a damper.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a damper.
 
@@ -214,25 +215,25 @@ The symmetric type of the new <xref href="VM.Managed.DAFUL.Car.Force.Damper" dat
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Car.Force.Damper" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if extension of 'propertyFilePath' is not .cpfdxml.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'propertyFilePath' does not exist.
 
@@ -254,15 +255,15 @@ public static Obj CreateReboundStop(this IPostTemplateBasedDocument document, st
 
 The <xref href="VM.Managed.IPostTemplateBasedDocument" data-throw-if-not-resolved="false"></xref> to create a rebound stop.
 
-`propertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyFilePath` string
 
 The rebound stop property file path.
 
-`baseEntity` Obj
+`baseEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity of a rebound stop.
 
-`actionEntity` Obj
+`actionEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action entity of a rebound stop.
 
@@ -274,7 +275,7 @@ The base position of a rebound stop.
 
 The action position of a rebound stop.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a rebound stop.
 
@@ -284,25 +285,25 @@ The symmetric type of the new <xref href="VM.Managed.DAFUL.Car.Force.Reboundstop
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Car.Force.Reboundstop" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if extension of 'propertyFilePath' is not .cpfrbsxml.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'propertyFilePath' does not exist.
 
@@ -324,15 +325,15 @@ public static Obj CreateSpring(this IPostTemplateBasedDocument document, string 
 
 The <xref href="VM.Managed.IPostTemplateBasedDocument" data-throw-if-not-resolved="false"></xref> to create a spring.
 
-`propertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyFilePath` string
 
 The spring property file path.
 
-`baseEntity` Obj
+`baseEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity of a spring.
 
-`actionEntity` Obj
+`actionEntity` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action entity of a spring.
 
@@ -344,7 +345,7 @@ The base position of a spring.
 
 The action position of a spring.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a spring.
 
@@ -354,25 +355,25 @@ The symmetric type of the new <xref href="VM.Managed.DAFUL.Car.Force.Spring" dat
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new <xref href="VM.Managed.DAFUL.Car.Force.Spring" data-throw-if-not-resolved="false"></xref> object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if extension of 'propertyFilePath' is not .cpfsxml.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'propertyFilePath' does not exist.
 
@@ -388,11 +389,11 @@ public static Obj CreateTire(this SubSystemDocument subSystemDocument, string ti
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a  tire force.
 
-`tirePropertyFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`tirePropertyFile` string
 
 The tire property file of a tire force.
 
@@ -400,35 +401,35 @@ The tire property file of a tire force.
 
 The transform of a tire force.
 
-`side` WheelBodyBase.SideType
+`side` [WheelBodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs).[SideType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs)
 
 The side of a tire force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a leaf spring.
 
-`cmOffset` ExpressionValueVariable?
+`cmOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The CM Offset of a tire force.
 
-`mass` ExpressionValueVariable?
+`mass` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The mass of a tire force.
 
-`lxxlyy` ExpressionValueVariable?
+`lxxlyy` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The lxxlyy of a tire force.
 
-`lzz` ExpressionValueVariable?
+`lzz` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The lzz of a tire force.
 
-`wheelCenterOffset` ExpressionValueVariable?
+`wheelCenterOffset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The wheel center offset of a tire force.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)?
+`color` Color?
 
 The color of a tire force.
 
@@ -436,23 +437,23 @@ The color of a tire force.
 
 The symmetric type of the new Tire.
 
-`isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isInterface` bool
 
 'true' if it is interface body. Otherwise, 'false'.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 the new Tire object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'tirePropertyFile' file does not exist.
 

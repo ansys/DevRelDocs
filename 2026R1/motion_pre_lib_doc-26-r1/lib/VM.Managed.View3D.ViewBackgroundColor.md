@@ -1,4 +1,5 @@
-#  Class View3D.ViewBackgroundColor
+# Class View3D.ViewBackgroundColor
+<a id="VM_Managed_View3D_ViewBackgroundColor"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public abstract class View3D.ViewBackgroundColor
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [View3D.ViewBackgroundColor](VM.Managed.View3D.ViewBackgroundColor.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public abstract Color Bottom { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_View3D_ViewBackgroundColor_Top"></a> Top
 
@@ -52,5 +53,5 @@ public abstract Color Top { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 

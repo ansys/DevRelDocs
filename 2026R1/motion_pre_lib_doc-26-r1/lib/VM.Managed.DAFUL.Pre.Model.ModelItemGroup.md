@@ -1,4 +1,5 @@
-#  Class Model.ModelItemGroup
+# Class Model.ModelItemGroup
+<a id="VM_Managed_DAFUL_Pre_Model_ModelItemGroup"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Model.ModelItemGroup : Group<Model.ModelItemGroup, GroupItem>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Group<Model.ModelItemGroup, GroupItem\>](VM.Managed.DAFUL.Pre.Group\-2.md) ← 
 [Model.ModelItemGroup](VM.Managed.DAFUL.Pre.Model.ModelItemGroup.md)
 
@@ -50,7 +51,7 @@ public string Filter { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -64,7 +65,7 @@ public List<string> GetFilterList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 The filters.
 

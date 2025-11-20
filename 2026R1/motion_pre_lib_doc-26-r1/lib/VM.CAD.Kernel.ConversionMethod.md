@@ -1,4 +1,5 @@
-#  Enum ConversionMethod
+# Enum ConversionMethod
+<a id="VM_CAD_Kernel_ConversionMethod"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

@@ -1,4 +1,5 @@
-#  Class FailToSaveException
+# Class FailToSaveException
+<a id="VM_Managed_FailToSaveException"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class FailToSaveException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [FailToSaveException](VM.Managed.FailToSaveException.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public FailToSaveException(string message, Exception innerException)
 
 #### Parameters
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
-`innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`innerException` Exception
 

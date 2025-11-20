@@ -1,4 +1,5 @@
-#  Class BuilderParamExtrude
+# Class BuilderParamExtrude
+<a id="VM_CAD_Builders_BuilderParamExtrude"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public class BuilderParamExtrude : BuilderParamColorGeom
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamExtrude](VM.CAD.Builders.BuilderParamExtrude.md)
@@ -64,7 +65,7 @@ public List<ChamferInfo> ChamferInfos { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ChamferInfo](VM.CAD.Builders.ChamferInfo.md)\>
+ List<[ChamferInfo](VM.CAD.Builders.ChamferInfo.md)\>
 
 ### <a id="VM_CAD_Builders_BuilderParamExtrude_Depth"></a> Depth
 
@@ -76,7 +77,7 @@ public double Depth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_BuilderParamExtrude_DrawInfos"></a> DrawInfos
 
@@ -88,5 +89,5 @@ public List<DrawInfo> DrawInfos { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DrawInfo](VM.CAD.Builders.DrawInfo.md)\>
+ List<[DrawInfo](VM.CAD.Builders.DrawInfo.md)\>
 

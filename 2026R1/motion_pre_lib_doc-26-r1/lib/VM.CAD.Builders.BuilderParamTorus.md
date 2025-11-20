@@ -1,4 +1,5 @@
-#  Class BuilderParamTorus
+# Class BuilderParamTorus
+<a id="VM_CAD_Builders_BuilderParamTorus"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class BuilderParamTorus : BuilderParamColorGeom
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamTorus](VM.CAD.Builders.BuilderParamTorus.md)
@@ -58,7 +59,7 @@ public double RadiusMajor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_BuilderParamTorus_RadiusMinor"></a> RadiusMinor
 
@@ -68,7 +69,7 @@ public double RadiusMinor { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Builders_BuilderParamTorus_UpDirection"></a> UpDirection
 

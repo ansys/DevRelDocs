@@ -1,4 +1,5 @@
-#  Class Translate
+# Class Translate
+<a id="VM_CAD_Kernel_Translate"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Translate
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Translate](VM.CAD.Kernel.Translate.md)
 
 #### Extension Methods
@@ -68,7 +69,7 @@ public string name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Kernel_Translate_target"></a> target
 
@@ -78,5 +79,5 @@ public string target { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

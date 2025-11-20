@@ -1,9 +1,10 @@
-#  Interface ITransformBase
+# Interface ITransformBase
+<a id="VM_ITransformBase"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface ITransformBase
 ```
 
@@ -11,7 +12,7 @@ public interface ITransformBase
 
 ### <a id="VM_ITransformBase_Orientation"></a> Orientation
 
-```python
+```csharp
 OMatrix Orientation { get; }
 ```
 
@@ -21,12 +22,11 @@ OMatrix Orientation { get; }
 
 ### <a id="VM_ITransformBase_Position"></a> Position
 
-```python
+```csharp
 Vector Position { get; }
 ```
 
 #### Property Value
 
  [Vector](VM.Vector.md)
-
 

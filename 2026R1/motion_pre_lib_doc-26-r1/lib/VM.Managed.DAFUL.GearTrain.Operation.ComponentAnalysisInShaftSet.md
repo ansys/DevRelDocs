@@ -1,4 +1,5 @@
-#  Class ComponentAnalysisInShaftSet
+# Class ComponentAnalysisInShaftSet
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ComponentAnalysisInShaftSet"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ComponentAnalysisInShaftSet : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ComponentAnalysisInShaftSet](VM.Managed.DAFUL.GearTrain.Operation.ComponentAnalysisInShaftSet.md)
 
@@ -87,7 +88,7 @@ public ComponentAnalysisInShaftSet(string strCAInfo)
 
 #### Parameters
 
-`strCAInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCAInfo` string
 
 The string ca information.
 
@@ -101,11 +102,11 @@ public ComponentAnalysisInShaftSet(string strCAInfo, bool bOpenPost)
 
 #### Parameters
 
-`strCAInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCAInfo` string
 
 The string ca information.
 
-`bOpenPost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bOpenPost` bool
 
 The post open flag.
 
@@ -135,7 +136,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -157,7 +158,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

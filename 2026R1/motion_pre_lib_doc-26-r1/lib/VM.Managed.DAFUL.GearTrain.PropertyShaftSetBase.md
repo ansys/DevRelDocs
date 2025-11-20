@@ -1,4 +1,5 @@
-#  Class PropertyShaftSetBase
+# Class PropertyShaftSetBase
+<a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public abstract class PropertyShaftSetBase : PropertyHousingBase, IObservableObj
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
 [PropertyHousingBase](VM.Managed.DAFUL.GearTrain.PropertyHousingBase.md) ← 
 [PropertyShaftSetBase](VM.Managed.DAFUL.GearTrain.PropertyShaftSetBase.md)
 
@@ -36,7 +37,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -73,12 +74,12 @@ IHasID
 [PropertyHousingBase.UnbalanceMasses](VM.Managed.DAFUL.GearTrain.PropertyHousingBase.md\#VM\_Managed\_DAFUL\_GearTrain\_PropertyHousingBase\_UnbalanceMasses), 
 [PropertyHousingBase.IUnbalanceMasses](VM.Managed.DAFUL.GearTrain.PropertyHousingBase.md\#VM\_Managed\_DAFUL\_GearTrain\_PropertyHousingBase\_IUnbalanceMasses), 
 [PropertyHousingBase.ComponentAnalysis](VM.Managed.DAFUL.GearTrain.PropertyHousingBase.md\#VM\_Managed\_DAFUL\_GearTrain\_PropertyHousingBase\_ComponentAnalysis), 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -177,7 +178,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -218,7 +219,7 @@ public static double AssemblyTolerance { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_BeamSectionRatio"></a> BeamSectionRatio
 
@@ -230,7 +231,7 @@ public ExpressionValueVariable BeamSectionRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_Color"></a> Color
 
@@ -243,7 +244,7 @@ public string Color { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_DrawingColor"></a> DrawingColor
 
@@ -255,7 +256,7 @@ public Color DrawingColor { get; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_EccentricDirection"></a> EccentricDirection
 
@@ -331,7 +332,7 @@ public SectionInfo[] SectionInfos { get; set; }
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Section Info List is null.
 or
@@ -385,7 +386,7 @@ public double TotalSectionLength { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_UseMiddleElementReferenceFrame"></a> UseMiddleElementReferenceFrame
 
@@ -397,7 +398,7 @@ public bool UseMiddleElementReferenceFrame { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_WidthForDurabilityAnalysis"></a> WidthForDurabilityAnalysis
 
@@ -409,7 +410,7 @@ public ExpressionValueVariable WidthForDurabilityAnalysis { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -427,7 +428,7 @@ public bool AddGearInfo(GearGeometryInfo info, double dOffset, Document3D doc, I
 
 The information.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -445,7 +446,7 @@ The r information.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddGeometryInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_System_Double_VM_Managed_Document3D_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_"></a> AddGeometryInfo\(GeometryInfoBase, double, Document3D, IOpenDesignerForGearTrain\)
 
@@ -461,7 +462,7 @@ public bool AddGeometryInfo(GeometryInfoBase info, double dOffset, Document3D do
 
 The information.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -475,7 +476,7 @@ The object parent.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddGeometryInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_System_Double_VM_Managed_Document3D_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_System_Boolean_"></a> AddGeometryInfo\(GeometryInfoBase, double, Document3D, IOpenDesignerForGearTrain, bool\)
 
@@ -491,7 +492,7 @@ public bool AddGeometryInfo(GeometryInfoBase info, double dOffset, Document3D do
 
 The information.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -503,13 +504,13 @@ The document.
 
 The object parent.
 
-`bRack` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRack` bool
 
 The object rack.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddMeasurePoint_VM_Managed_DAFUL_GearTrain_MeasurePoint_"></a> AddMeasurePoint\(MeasurePoint\)
 
@@ -571,7 +572,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
@@ -589,11 +590,11 @@ public Section FindRack(double dLength, double dOffset, Document3D doc)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -615,11 +616,11 @@ public Section FindSection(double dLength, double dOffset, Document3D doc)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 Length of the d.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -641,7 +642,7 @@ public SectionInfo FindSection(double dOffset)
 
 #### Parameters
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 THe offset
 
@@ -663,7 +664,7 @@ public SectionInfo FindSectionWithGearInfo(GearGeometryInfo info, double dOffset
 
 The information.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -685,7 +686,7 @@ public SectionInfo FindSectionWithRacewayInfo(RacewayGeometryInfo info, double d
 
 The information.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -707,7 +708,7 @@ public SectionInfo FindSectionWithSlidingBearingInfo(SBGeometryInfo info, double
 
 The information.
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
@@ -725,7 +726,7 @@ public List<Vector> GetBearingStartEndPoint()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetGearStartEndPoint"></a> GetGearStartEndPoint\(\)
 
@@ -737,7 +738,7 @@ public List<Vector> GetGearStartEndPoint()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetGlobalAxisCore_VM_Managed_CAD_Body___System_Collections_Generic_List_VM_Managed_VectorBase_____"></a> GetGlobalAxisCore\(Body\[\], ref List<VectorBase\[\]\>\)
 
@@ -753,7 +754,7 @@ protected override void GetGlobalAxisCore(Body[] arBody, ref List<VectorBase[]> 
 
 The body list.
 
-`lst` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\[\]\>
+`lst` List<VectorBase\[\]\>
 
 vector list.
 
@@ -773,7 +774,7 @@ The target segment.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The length until target segment.
 
@@ -787,13 +788,13 @@ public string GetNewNameFromMeasurePoint(string strPrefix)
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The string prefix.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetNewNameFromPowerLoad_System_String_"></a> GetNewNameFromPowerLoad\(string\)
 
@@ -805,13 +806,13 @@ public string GetNewNameFromPowerLoad(string strPrefix)
 
 #### Parameters
 
-`strPrefix` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefix` string
 
 The string prefix.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetNextLocationPoint_VM_Managed_DAFUL_GearTrain_SectionGeometryBase_VM_Managed_Vector_VM_Managed_VectorBase_"></a> GetNextLocationPoint\(SectionGeometryBase, Vector, VectorBase\)
 
@@ -849,7 +850,7 @@ public List<Vector> GetPowerLoadPoint()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetShaftStartEndPoint"></a> GetShaftStartEndPoint\(\)
 
@@ -861,7 +862,7 @@ public List<Vector> GetShaftStartEndPoint()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -905,13 +906,13 @@ public bool IsContainsNameOfMeasurePoint(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsContainsNameOfPowerLoad_System_String_"></a> IsContainsNameOfPowerLoad\(string\)
 
@@ -923,13 +924,13 @@ public bool IsContainsNameOfPowerLoad(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsContainsOffsetOfMeasurePoint_System_Double_"></a> IsContainsOffsetOfMeasurePoint\(double\)
 
@@ -941,13 +942,13 @@ public bool IsContainsOffsetOfMeasurePoint(double dOffset)
 
 #### Parameters
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsContainsOffsetOfPowerLoad_System_Double_"></a> IsContainsOffsetOfPowerLoad\(double\)
 
@@ -959,13 +960,13 @@ public bool IsContainsOffsetOfPowerLoad(double dOffset)
 
 #### Parameters
 
-`dOffset` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dOffset` double
 
 The d offset.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsLooseSameValue_System_Double_System_Double_"></a> IsLooseSameValue\(double, double\)
 
@@ -977,17 +978,17 @@ public static bool IsLooseSameValue(double dVal1, double dVal2)
 
 #### Parameters
 
-`dVal1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal1` double
 
 value.
 
-`dVal2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal2` double
 
 The another value.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsLooseSameVector_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> IsLooseSameVector\(VectorBase, VectorBase\)
 
@@ -1009,7 +1010,7 @@ The another value.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsSameValue_System_Double_System_Double_"></a> IsSameValue\(double, double\)
 
@@ -1021,17 +1022,17 @@ public static bool IsSameValue(double dVal1, double dVal2)
 
 #### Parameters
 
-`dVal1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal1` double
 
 value.
 
-`dVal2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dVal2` double
 
 The another value.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsSameVector_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> IsSameVector\(VectorBase, VectorBase\)
 
@@ -1053,7 +1054,7 @@ The another value.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
@@ -1065,7 +1066,7 @@ protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs 
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The object notifier.
 
@@ -1083,7 +1084,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -1101,7 +1102,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -1175,7 +1176,7 @@ public void SetColor(string color)
 
 #### Parameters
 
-`color` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`color` string
 
 The color.
 

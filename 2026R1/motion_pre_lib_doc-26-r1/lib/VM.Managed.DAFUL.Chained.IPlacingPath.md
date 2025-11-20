@@ -1,4 +1,5 @@
-#  Interface IPlacingPath
+# Interface IPlacingPath
+<a id="VM_Managed_DAFUL_Chained_IPlacingPath"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

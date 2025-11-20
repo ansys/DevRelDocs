@@ -1,4 +1,5 @@
-#  Class GetTopologyColorOp
+# Class GetTopologyColorOp
+<a id="VM_Managed_CAD_GetTopologyColorOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetTopologyColorOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetTopologyColorOp](VM.Managed.CAD.GetTopologyColorOp.md)
 
@@ -105,7 +106,7 @@ public Color Color { get; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_CAD_GetTopologyColorOp_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -117,7 +118,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_GetTopologyColorOp_Name"></a> Name
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_GetTopologyColorOp_Result"></a> Result
 
@@ -141,7 +142,7 @@ public bool Result { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

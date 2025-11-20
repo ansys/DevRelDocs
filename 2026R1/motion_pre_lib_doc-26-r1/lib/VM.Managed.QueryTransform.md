@@ -1,4 +1,5 @@
-#  Class QueryTransform
+# Class QueryTransform
+<a id="VM_Managed_QueryTransform"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class QueryTransform
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [QueryTransform](VM.Managed.QueryTransform.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_QueryTransform_Single"></a> Single
 
@@ -54,7 +55,7 @@ public List<ITransformable> Single { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+ List<[ITransformable](VM.Managed.ITransformable.md)\>
 
 ### <a id="VM_Managed_QueryTransform_SingleParam"></a> SingleParam
 
@@ -66,7 +67,7 @@ public List<ITransformable> SingleParam { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+ List<[ITransformable](VM.Managed.ITransformable.md)\>
 
 ### <a id="VM_Managed_QueryTransform_Sym"></a> Sym
 
@@ -78,7 +79,7 @@ public List<ITransformable> Sym { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+ List<[ITransformable](VM.Managed.ITransformable.md)\>
 
 ### <a id="VM_Managed_QueryTransform_SymParam"></a> SymParam
 
@@ -90,7 +91,7 @@ public List<ITransformable> SymParam { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+ List<[ITransformable](VM.Managed.ITransformable.md)\>
 
 ## Methods
 
@@ -102,7 +103,7 @@ public void AddData(List<ITransformable> lstITra, ITransformable ITra)
 
 #### Parameters
 
-`lstITra` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+`lstITra` List<[ITransformable](VM.Managed.ITransformable.md)\>
 
 `ITra` [ITransformable](VM.Managed.ITransformable.md)
 
@@ -114,7 +115,7 @@ public void GetDataNoParam(List<ITransformable> lstITra)
 
 #### Parameters
 
-`lstITra` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+`lstITra` List<[ITransformable](VM.Managed.ITransformable.md)\>
 
 ### <a id="VM_Managed_QueryTransform_GetDataParamSingle_System_Collections_Generic_List_VM_Managed_ITransformable__"></a> GetDataParamSingle\(List<ITransformable\>\)
 
@@ -124,7 +125,7 @@ public void GetDataParamSingle(List<ITransformable> lstITra)
 
 #### Parameters
 
-`lstITra` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+`lstITra` List<[ITransformable](VM.Managed.ITransformable.md)\>
 
 ### <a id="VM_Managed_QueryTransform_GetDataParamSym_System_Collections_Generic_List_VM_Managed_ITransformable__"></a> GetDataParamSym\(List<ITransformable\>\)
 
@@ -134,5 +135,5 @@ public void GetDataParamSym(List<ITransformable> lstITra)
 
 #### Parameters
 
-`lstITra` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Managed.ITransformable.md)\>
+`lstITra` List<[ITransformable](VM.Managed.ITransformable.md)\>
 

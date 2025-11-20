@@ -1,4 +1,5 @@
-#  Class CalculateWebStiffnessMeshFree
+# Class CalculateWebStiffnessMeshFree
+<a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffnessMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class CalculateWebStiffnessMeshFree : CalculateWebStiffness, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculateWebStiffness](VM.Managed.DAFUL.GearTrain.Operation.CalculateWebStiffness.md) ← 
 [CalculateWebStiffnessMeshFree](VM.Managed.DAFUL.GearTrain.Operation.CalculateWebStiffnessMeshFree.md)
@@ -117,39 +118,39 @@ public CalculateWebStiffnessMeshFree(HiddenGearSetDocumentBase doc, string strDo
 
 #### Parameters
 
-`doc` HiddenGearSetDocumentBase
+`doc` [HiddenGearSetDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenGearSetDocumentBase.cs)
 
 The document.
 
-`strDocInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDocInfo` string
 
 The string document information.
 
-`strDATFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDATFilePath` string
 
 The dat file path.
 
-`dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAngle` double
 
 The target angle.
 
-`dRange` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRange` double
 
 The target range.
 
-`dYoungsModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dYoungsModulus` double
 
 The target young's modulus.
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
 The target poisson's ratio.
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 The target density.
 
-`dDampingRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDampingRatio` double
 
 The target damping ratio.
 
@@ -179,7 +180,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

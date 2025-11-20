@@ -1,4 +1,5 @@
-#  Class OrientationToeCamber
+# Class OrientationToeCamber
+<a id="VM_Managed_Symmetric_Car_OrientationToeCamber"></a>
 
 Namespace: [VM.Managed.Symmetric.Car](VM.Managed.Symmetric.Car.md)  
 Assembly: VMSymCar.dll  
@@ -9,7 +10,7 @@ public class OrientationToeCamber : ISymmetricBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OrientationToeCamber](VM.Managed.Symmetric.Car.OrientationToeCamber.md)
 
 #### Implements
@@ -42,7 +43,7 @@ public virtual object Build(object tool, SymmetricType sym_type, Plane sym_plane
 
 #### Parameters
 
-`tool` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`tool` object
 
 The object.
 
@@ -60,7 +61,7 @@ update document.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The new object of symmetric.
 

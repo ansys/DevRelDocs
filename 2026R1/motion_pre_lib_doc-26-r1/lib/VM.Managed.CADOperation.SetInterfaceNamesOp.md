@@ -1,4 +1,5 @@
-#  Class CADOperation.SetInterfaceNamesOp
+# Class CADOperation.SetInterfaceNamesOp
+<a id="VM_Managed_CADOperation_SetInterfaceNamesOp"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class CADOperation.SetInterfaceNamesOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CADOperation.SetInterfaceNamesOp](VM.Managed.CADOperation.SetInterfaceNamesOp.md)
 
@@ -99,7 +100,7 @@ public SetInterfaceNamesOp(IInterfaceSupport support, Dictionary<IInterface, Lis
 
 The document.
 
-`dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[IInterface](VM.Managed.IInterface.md), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
+`dic` Dictionary<[IInterface](VM.Managed.IInterface.md), List<string\>\>
 
 The objectbase and interface names.
 
@@ -115,7 +116,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

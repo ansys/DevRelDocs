@@ -1,4 +1,5 @@
-#  Interface ICanvas
+# Interface ICanvas
+<a id="VM_Models_Pre_ICanvas"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,7 +24,7 @@ Color Color { set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Models_Pre_ICanvas_LineWeight"></a> LineWeight
 
@@ -33,7 +34,7 @@ double LineWeight { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_ICanvas_TextSize"></a> TextSize
 
@@ -43,7 +44,7 @@ double TextSize { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_ICanvas_WireframeMode"></a> WireframeMode
 
@@ -53,7 +54,7 @@ bool WireframeMode { set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -77,7 +78,7 @@ void DisplayTheFront(double depthRange)
 
 #### Parameters
 
-`depthRange` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`depthRange` double
 
 ### <a id="VM_Models_Pre_ICanvas_DrawLine_VM_Vector_VM_Vector_"></a> DrawLine\(Vector, Vector\)
 
@@ -93,7 +94,7 @@ UIntPtr DrawLine(Vector start, Vector end)
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Models_Pre_ICanvas_DrawMarker_VM_Vector_"></a> DrawMarker\(Vector\)
 
@@ -107,7 +108,7 @@ UIntPtr DrawMarker(Vector vector)
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Models_Pre_ICanvas_DrawText_VM_Vector_System_String_"></a> DrawText\(Vector, string\)
 
@@ -119,11 +120,11 @@ UIntPtr DrawText(Vector vector, string text)
 
 `vector` Vector
 
-`text` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`text` string
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Models_Pre_ICanvas_FastDrawLine_System_UIntPtr_System_UIntPtr_"></a> FastDrawLine\(UIntPtr, UIntPtr\)
 
@@ -133,9 +134,9 @@ void FastDrawLine(UIntPtr start, UIntPtr end)
 
 #### Parameters
 
-`start` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`start` UIntPtr
 
-`end` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`end` UIntPtr
 
 ### <a id="VM_Models_Pre_ICanvas_FastDrawShell_System_UIntPtr_System_UInt64_System_UIntPtr_System_UInt64_System_Double_"></a> FastDrawShell\(UIntPtr, ulong, UIntPtr, ulong, double\)
 
@@ -145,15 +146,15 @@ void FastDrawShell(UIntPtr points, ulong nPoints, UIntPtr connectivities, ulong 
 
 #### Parameters
 
-`points` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`points` UIntPtr
 
-`nPoints` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nPoints` ulong
 
-`connectivities` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`connectivities` UIntPtr
 
-`nConnectivities` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nConnectivities` ulong
 
-`dScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dScale` double
 
 ### <a id="VM_Models_Pre_ICanvas_GetSubCanvas_System_String_"></a> GetSubCanvas\(string\)
 
@@ -163,7 +164,7 @@ ICanvas GetSubCanvas(string canvasName)
 
 #### Parameters
 
-`canvasName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`canvasName` string
 
 #### Returns
 
@@ -191,5 +192,5 @@ void SetMarkerSymbol(MarkerTypes markerType, double size)
 
 `markerType` MarkerTypes
 
-`size` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`size` double
 

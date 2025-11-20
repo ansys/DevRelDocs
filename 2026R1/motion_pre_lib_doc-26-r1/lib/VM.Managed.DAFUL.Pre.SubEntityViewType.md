@@ -1,4 +1,5 @@
-#  Enum SubEntityViewType
+# Enum SubEntityViewType
+<a id="VM_Managed_DAFUL_Pre_SubEntityViewType"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

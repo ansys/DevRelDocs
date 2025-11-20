@@ -1,4 +1,5 @@
-#  Class WrapperNodalMass
+# Class WrapperNodalMass
+<a id="VM_Managed_DAFUL_FE_WrapperNodalMass"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class WrapperNodalMass
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [WrapperNodalMass](VM.Managed.DAFUL.FE.WrapperNodalMass.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public _VM_VECTOR* GetGaussPoints(ElementType type)
 
 #### Returns
 
- [\_VM\_VECTOR](\_VM\_VECTOR.md)\*
+ \_VM\_VECTOR\*
 
 ### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetJacobian_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double_System_Double__System_Double__"></a> GetJacobian\(ElementType, double, double, double, double\*, double\*\)
 
@@ -54,15 +55,15 @@ public void GetJacobian(ElementType type, double dR, double dS, double dT, doubl
 
 `type` [ElementType](VM.Managed.DAFUL.FE.ElementType.md)
 
-`dR` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR` double
 
-`dS` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dS` double
 
-`dT` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dT` double
 
-`arJacobian` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
+`arJacobian` double\*
 
-`dDeterminent` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
+`dDeterminent` double\*
 
 ### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetJacobian_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double__System_Double__"></a> GetJacobian\(ElementType, double, double, double\*, double\*\)
 
@@ -74,13 +75,13 @@ public void GetJacobian(ElementType type, double dR, double dS, double* arJacobi
 
 `type` [ElementType](VM.Managed.DAFUL.FE.ElementType.md)
 
-`dR` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR` double
 
-`dS` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dS` double
 
-`arJacobian` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
+`arJacobian` double\*
 
-`dDeterminent` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
+`dDeterminent` double\*
 
 ### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetNumberOfGaussPoints_VM_Managed_DAFUL_FE_ElementType_"></a> GetNumberOfGaussPoints\(ElementType\)
 
@@ -94,7 +95,7 @@ public int GetNumberOfGaussPoints(ElementType type)
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetShapeFn_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double_System_Double__"></a> GetShapeFn\(ElementType, double, double, double, double\*\)
 
@@ -106,13 +107,13 @@ public void GetShapeFn(ElementType type, double dR, double dS, double dT, double
 
 `type` [ElementType](VM.Managed.DAFUL.FE.ElementType.md)
 
-`dR` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR` double
 
-`dS` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dS` double
 
-`dT` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dT` double
 
-`arShape` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
+`arShape` double\*
 
 ### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetShapeFn_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double__"></a> GetShapeFn\(ElementType, double, double, double\*\)
 
@@ -124,11 +125,11 @@ public void GetShapeFn(ElementType type, double dR, double dS, double* arShape)
 
 `type` [ElementType](VM.Managed.DAFUL.FE.ElementType.md)
 
-`dR` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dR` double
 
-`dS` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dS` double
 
-`arShape` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
+`arShape` double\*
 
 ### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetWeights_VM_Managed_DAFUL_FE_ElementType_"></a> GetWeights\(ElementType\)
 
@@ -142,5 +143,5 @@ public _VM_VECTOR* GetWeights(ElementType type)
 
 #### Returns
 
- [\_VM\_VECTOR](\_VM\_VECTOR.md)\*
+ \_VM\_VECTOR\*
 

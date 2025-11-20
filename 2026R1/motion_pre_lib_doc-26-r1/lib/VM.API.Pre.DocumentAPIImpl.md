@@ -1,4 +1,5 @@
-#  Class DocumentAPIImpl
+# Class DocumentAPIImpl
+<a id="VM_API_Pre_DocumentAPIImpl"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class DocumentAPIImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocumentAPIImpl](VM.API.Pre.DocumentAPIImpl.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public static T CreateNewPartDocumentImpl<T>(string newPartFilePath, string docu
 
 #### Parameters
 
-`newPartFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newPartFilePath` string
 
 The file path of new part.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -45,7 +46,7 @@ The name of document.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
@@ -53,11 +54,11 @@ The size of icon.
 
 The length unit of kernel.
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 The extension.
 
-`documentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentType` string
 
 The document type.
 
@@ -75,7 +76,7 @@ The document type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newPartFilePath' argument is null.
 
@@ -90,7 +91,7 @@ public static T CreateNewSubsystemDocumentCore<T>(string newSubsystemFilePath, D
 
 #### Parameters
 
-`newSubsystemFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSubsystemFilePath` string
 
 The file path of new subsystem.
 
@@ -98,11 +99,11 @@ The file path of new subsystem.
 
 The information of document.
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 The extension.
 
-`documentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentType` string
 
 The document type.
 
@@ -120,7 +121,7 @@ The document type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newSubsystemFilePath' argument is null.
 
@@ -135,11 +136,11 @@ public static T CreateNewSubsystemDocumentImpl<T>(string newSubsystemFilePath, s
 
 #### Parameters
 
-`newSubsystemFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSubsystemFilePath` string
 
 The file path of new subsystem.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -151,11 +152,11 @@ The gravity value.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
-`advancedMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`advancedMode` bool
 
 The flag whether using advanced mode.
 
@@ -163,7 +164,7 @@ The flag whether using advanced mode.
 
 The symetric plane.
 
-`useSymmetric` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useSymmetric` bool
 
 The flag whether using symmetric.
 
@@ -171,11 +172,11 @@ The flag whether using symmetric.
 
 This parameter is unused.
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 The extension.
 
-`documentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentType` string
 
 The document type.
 
@@ -193,7 +194,7 @@ The document type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newSubsystemFilePath' argument is null.
 
@@ -209,19 +210,19 @@ public static T CreateNewSubsystemFromTemplateDocumentImpl<T>(string newSubsyste
 
 #### Parameters
 
-`newSubsystemFromTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newSubsystemFromTemplateFilePath` string
 
 The file path of new subsystem from template file path.
 
-`existedSubsystemTemplateFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`existedSubsystemTemplateFilePath` string
 
 The file path of existed subsystem template file path.
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 The extension.
 
-`documentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentType` string
 
 The document type.
 
@@ -239,11 +240,11 @@ The document type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newSubsystemFromTemplateFilePath' argument is null.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'existedSubsystemTemplateFilePath' does not exist.
 
