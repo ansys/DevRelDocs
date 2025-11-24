@@ -45,6 +45,56 @@ Returns the value from pin 0 if provided, otherwise returns the default value fr
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("default_value"); // operator instantiation
+op.connect(0, my_forced_value);
+op.connect(1, my_default_value);
+ my_output = op.getOutput<>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.default_value() # operator instantiation
+op.inputs.forced_value.connect(my_forced_value)
+op.inputs.default_value.connect(my_default_value)
+my_output = op.outputs.output()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.default_value() # operator instantiation
+op.inputs.forced_value.Connect(my_forced_value)
+op.inputs.default_value.Connect(my_default_value)
+my_output = op.outputs.output.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

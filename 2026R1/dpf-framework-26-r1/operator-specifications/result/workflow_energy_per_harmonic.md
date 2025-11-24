@@ -49,6 +49,68 @@ Calculates the cumulated energy per harmonic in a multistage multiharmonic model
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("workflow_energy_per_harmonic"); // operator instantiation
+op.connect(0, my_time_scoping);
+op.connect(1, my_mesh_scoping);
+op.connect(2, my_energy_type);
+op.connect(3, my_stream);
+op.connect(4, my_data_sources);
+ansys::dpf::FieldsContainer my_harmonic_energy = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::FieldsContainer my_harmonic_energy_percentage = op.getOutput<ansys::dpf::FieldsContainer>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.workflow_energy_per_harmonic() # operator instantiation
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.energy_type.connect(my_energy_type)
+op.inputs.stream.connect(my_stream)
+op.inputs.data_sources.connect(my_data_sources)
+my_harmonic_energy = op.outputs.harmonic_energy()
+my_harmonic_energy_percentage = op.outputs.harmonic_energy_percentage()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.workflow_energy_per_harmonic() # operator instantiation
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.energy_type.Connect(my_energy_type)
+op.inputs.stream.Connect(my_stream)
+op.inputs.data_sources.Connect(my_data_sources)
+my_harmonic_energy = op.outputs.harmonic_energy.GetData()
+my_harmonic_energy_percentage = op.outputs.harmonic_energy_percentage.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

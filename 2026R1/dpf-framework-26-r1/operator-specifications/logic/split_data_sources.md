@@ -46,6 +46,59 @@ Splits a Data Sources into multiple coherent data sources, actual number of outp
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("splitter::data_sources"); // operator instantiation
+op.connect(0, my_data_sources);
+op.connect(1, my_output_count);
+int my_output_count = op.getOutput<int>(-1);
+ansys::dpf::DataSources my_outputs = op.getOutput<ansys::dpf::DataSources>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.split_data_sources() # operator instantiation
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.output_count.connect(my_output_count)
+my_output_count = op.outputs.output_count()
+my_outputs = op.outputs.outputs()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.split_data_sources() # operator instantiation
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.output_count.Connect(my_output_count)
+my_output_count = op.outputs.output_count.GetData()
+my_outputs = op.outputs.outputs.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

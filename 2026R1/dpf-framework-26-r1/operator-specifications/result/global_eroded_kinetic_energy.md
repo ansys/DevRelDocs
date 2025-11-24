@@ -53,6 +53,59 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("GLOB_ERKE"); // operator instantiation
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+op.connect(50, my_unit_system);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.global_eroded_kinetic_energy() # operator instantiation
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.unit_system.connect(my_unit_system)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.global_eroded_kinetic_energy() # operator instantiation
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.unit_system.Connect(my_unit_system)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

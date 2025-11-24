@@ -45,6 +45,56 @@ Derives a field of time varying quantities with respect to time
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("TimeDerivation"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_spline_fitting);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.time_derivation() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.spline_fitting.connect(my_spline_fitting)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.time_derivation() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.spline_fitting.Connect(my_spline_fitting)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

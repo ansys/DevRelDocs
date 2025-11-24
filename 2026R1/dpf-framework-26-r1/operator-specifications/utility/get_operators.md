@@ -1,16 +1,16 @@
 ---
-category: serialization
+category: utility
 plugin: core
 license: None
 ---
 
-# serialization:workflow to workflow_topology
+# utility:get operators
 
 **Version: 0.0.0**
 
 ## Description
 
-Creates a GenericDataContainer based on WorkflowTopology structure from a Workflow object, allowing to access its operators, operator connections, data connections, and exposed pins.
+Getter on operators inside a workflow.
 
 ## Inputs
 
@@ -22,7 +22,7 @@ Creates a GenericDataContainer based on WorkflowTopology structure from a Workfl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| workflow_topology |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |  |
+|  **Pin 0**| operators |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |  |
 
 ## Configurations
 
@@ -32,15 +32,15 @@ Creates a GenericDataContainer based on WorkflowTopology structure from a Workfl
 
 ## Scripting
 
- **Category**: serialization
+ **Category**: utility
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: get_operators
 
- **Full name**: None
+ **Full name**: utility.get_operators
 
- **Internal name**: workflow_to_workflow_topology
+ **Internal name**: workflow::get_operators
 
  **License**: None
 
@@ -52,9 +52,9 @@ Creates a GenericDataContainer based on WorkflowTopology structure from a Workfl
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("workflow_to_workflow_topology"); // operator instantiation
+ansys::dpf::Operator op("workflow::get_operators"); // operator instantiation
 op.connect(0, my_workflow);
-ansys::dpf::GenericDataContainer my_workflow_topology = op.getOutput<ansys::dpf::GenericDataContainer>(0);
+ansys::dpf::GenericDataContainer my_operators = op.getOutput<ansys::dpf::GenericDataContainer>(0);
 ```
 </details>
 
@@ -64,9 +64,9 @@ ansys::dpf::GenericDataContainer my_workflow_topology = op.getOutput<ansys::dpf:
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.serialization.None() # operator instantiation
+op = dpf.operators.utility.get_operators() # operator instantiation
 op.inputs.workflow.connect(my_workflow)
-my_workflow_topology = op.outputs.workflow_topology()
+my_operators = op.outputs.operators()
 ```
 </details>
 
@@ -77,9 +77,9 @@ my_workflow_topology = op.outputs.workflow_topology()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.serialization.None() # operator instantiation
+op = dpf.operators.utility.get_operators() # operator instantiation
 op.inputs.workflow.Connect(my_workflow)
-my_workflow_topology = op.outputs.workflow_topology.GetData()
+my_operators = op.outputs.operators.GetData()
 ```
 </details>
 

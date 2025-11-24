@@ -216,6 +216,53 @@ An equation on its own using square bracket delimiters:
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("markdown_latex_example"); // operator instantiation
+op.connect(0, my_bogus_input);
+ my_bogus_output = op.getOutput<>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.info.None() # operator instantiation
+op.inputs.bogus_input.connect(my_bogus_input)
+my_bogus_output = op.outputs.bogus_output()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.info.None() # operator instantiation
+op.inputs.bogus_input.Connect(my_bogus_input)
+my_bogus_output = op.outputs.bogus_output.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

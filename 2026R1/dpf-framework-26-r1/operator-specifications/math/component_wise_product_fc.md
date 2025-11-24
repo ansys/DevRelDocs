@@ -52,6 +52,56 @@ Computes component-wise product between two fields of same dimensionality. If on
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("component_wise_product_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_fieldB);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.fieldB.connect(my_fieldB)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.fieldB.Connect(my_fieldB)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

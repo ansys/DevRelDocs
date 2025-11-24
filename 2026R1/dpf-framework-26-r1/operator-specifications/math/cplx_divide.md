@@ -45,6 +45,56 @@ Computes division between two field containers containing complex fields.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("cplx_divide"); // operator instantiation
+op.connect(0, my_fields_containerA);
+op.connect(1, my_fields_containerB);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_containerA.connect(my_fields_containerA)
+op.inputs.fields_containerB.connect(my_fields_containerB)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_containerA.Connect(my_fields_containerA)
+op.inputs.fields_containerB.Connect(my_fields_containerB)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

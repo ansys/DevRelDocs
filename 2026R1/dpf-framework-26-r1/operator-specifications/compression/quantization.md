@@ -45,6 +45,56 @@ Scales a field to a given precision threshold, then rounds all the values to the
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("quantization"); // operator instantiation
+op.connect(0, my_input_field);
+op.connect(1, my_threshold);
+ansys::dpf::Field my_output_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.compression.quantization() # operator instantiation
+op.inputs.input_field.connect(my_input_field)
+op.inputs.threshold.connect(my_threshold)
+my_output_field = op.outputs.output_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.compression.quantization() # operator instantiation
+op.inputs.input_field.Connect(my_input_field)
+op.inputs.threshold.Connect(my_threshold)
+my_output_field = op.outputs.output_field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -48,6 +48,62 @@ Scales a field by a constant factor. This factor can be a scalar or a vector, wh
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("scale"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_weights);
+op.connect(2, my_boolean);
+op.connect(3, my_algorithm);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.weights.connect(my_weights)
+op.inputs.boolean.connect(my_boolean)
+op.inputs.algorithm.connect(my_algorithm)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.weights.Connect(my_weights)
+op.inputs.boolean.Connect(my_boolean)
+op.inputs.algorithm.Connect(my_algorithm)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

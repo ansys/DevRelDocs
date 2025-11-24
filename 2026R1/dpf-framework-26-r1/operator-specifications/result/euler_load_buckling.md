@@ -49,6 +49,68 @@ Computing Euler's Critical Load. Formula: Ncr = n*E*I*pi*pi /(L*L)
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("euler_load_buckling"); // operator instantiation
+op.connect(5, my_field_beam_end_condition);
+op.connect(6, my_field_beam_moment_inertia);
+op.connect(7, my_field_beam_young_modulus);
+op.connect(8, my_field_beam_length);
+ansys::dpf::Field my_field_euler_critical_load = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Field my_field_euler_critical_load_yy = op.getOutput<ansys::dpf::Field>(1);
+ansys::dpf::Field my_field_euler_critical_load_zz = op.getOutput<ansys::dpf::Field>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.euler_load_buckling() # operator instantiation
+op.inputs.field_beam_end_condition.connect(my_field_beam_end_condition)
+op.inputs.field_beam_moment_inertia.connect(my_field_beam_moment_inertia)
+op.inputs.field_beam_young_modulus.connect(my_field_beam_young_modulus)
+op.inputs.field_beam_length.connect(my_field_beam_length)
+my_field_euler_critical_load = op.outputs.field_euler_critical_load()
+my_field_euler_critical_load_yy = op.outputs.field_euler_critical_load_yy()
+my_field_euler_critical_load_zz = op.outputs.field_euler_critical_load_zz()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.euler_load_buckling() # operator instantiation
+op.inputs.field_beam_end_condition.Connect(my_field_beam_end_condition)
+op.inputs.field_beam_moment_inertia.Connect(my_field_beam_moment_inertia)
+op.inputs.field_beam_young_modulus.Connect(my_field_beam_young_modulus)
+op.inputs.field_beam_length.Connect(my_field_beam_length)
+my_field_euler_critical_load = op.outputs.field_euler_critical_load.GetData()
+my_field_euler_critical_load_yy = op.outputs.field_euler_critical_load_yy.GetData()
+my_field_euler_critical_load_zz = op.outputs.field_euler_critical_load_zz.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

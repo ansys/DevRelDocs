@@ -31,6 +31,7 @@
 - [forward fields container](forward_fields_container.md)
 - [forward meshes container](forward_meshes_container.md)
 - [for each](for_each.md)
+- [get operators](get_operators.md)
 - [hdf5dpf workglow provider](hdf5dpf_workglow_provider.md)
 - [html doc](html_doc.md)
 - [incremental concatenate as fc](incremental_concatenate_as_fc.md)

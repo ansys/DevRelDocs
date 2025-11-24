@@ -46,6 +46,53 @@ Converts 3D field from cartesian coordinates to spherical coordinates.
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("cartesian_to_spherical"); // operator instantiation
+op.connect(0, my_field);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.geo.cartesian_to_spherical() # operator instantiation
+op.inputs.field.connect(my_field)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.geo.cartesian_to_spherical() # operator instantiation
+op.inputs.field.Connect(my_field)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

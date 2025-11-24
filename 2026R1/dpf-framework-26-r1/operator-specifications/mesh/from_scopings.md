@@ -47,6 +47,62 @@ Extracts multiple meshed region base on a scoping and saved in a MeshesContainer
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("meshes::by_scopings"); // operator instantiation
+op.connect(1, my_scopings_container);
+op.connect(2, my_inclusive);
+op.connect(3, my_nodes_only);
+op.connect(7, my_mesh);
+ansys::dpf::MeshesContainer my_meshes = op.getOutput<ansys::dpf::MeshesContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.from_scopings() # operator instantiation
+op.inputs.scopings_container.connect(my_scopings_container)
+op.inputs.inclusive.connect(my_inclusive)
+op.inputs.nodes_only.connect(my_nodes_only)
+op.inputs.mesh.connect(my_mesh)
+my_meshes = op.outputs.meshes()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.from_scopings() # operator instantiation
+op.inputs.scopings_container.Connect(my_scopings_container)
+op.inputs.inclusive.Connect(my_inclusive)
+op.inputs.nodes_only.Connect(my_nodes_only)
+op.inputs.mesh.Connect(my_mesh)
+my_meshes = op.outputs.meshes.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

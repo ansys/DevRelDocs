@@ -47,6 +47,62 @@ Read required information from a subfile.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("cms_subfile_info_provider"); // operator instantiation
+op.connect(4, my_data_sources);
+op.connect(200, my_cms_subfile_data);
+op.connect(300, my_output_maxdof_on_masternodes);
+int my_int32 = op.getOutput<int>(0);
+ansys::dpf::PropertyField my_field = op.getOutput<ansys::dpf::PropertyField>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.cms_subfile_info_provider() # operator instantiation
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.cms_subfile_data.connect(my_cms_subfile_data)
+op.inputs.output_maxdof_on_masternodes.connect(my_output_maxdof_on_masternodes)
+my_int32 = op.outputs.int32()
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.cms_subfile_info_provider() # operator instantiation
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.cms_subfile_data.Connect(my_cms_subfile_data)
+op.inputs.output_maxdof_on_masternodes.Connect(my_output_maxdof_on_masternodes)
+my_int32 = op.outputs.int32.GetData()
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -48,6 +48,65 @@ Compute the modal participation factor for a given vector field V, defined as  s
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("harmonic::modal_participation"); // operator instantiation
+op.connect(0, my_v_real);
+op.connect(1, my_v_imag);
+op.connect(2, my_mode_shapes);
+op.connect(3, my_ponderation);
+op.connect(4, my_force_label_space);
+ansys::dpf::FieldsContainer my_output = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.modal_participation() # operator instantiation
+op.inputs.v_real.connect(my_v_real)
+op.inputs.v_imag.connect(my_v_imag)
+op.inputs.mode_shapes.connect(my_mode_shapes)
+op.inputs.ponderation.connect(my_ponderation)
+op.inputs.force_label_space.connect(my_force_label_space)
+my_output = op.outputs.output()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.modal_participation() # operator instantiation
+op.inputs.v_real.Connect(my_v_real)
+op.inputs.v_imag.Connect(my_v_imag)
+op.inputs.mode_shapes.Connect(my_mode_shapes)
+op.inputs.ponderation.Connect(my_ponderation)
+op.inputs.force_label_space.Connect(my_force_label_space)
+my_output = op.outputs.output.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

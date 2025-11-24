@@ -45,6 +45,56 @@ Scales all the fields of a fields container to a given precision threshold, then
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("quantization_fc"); // operator instantiation
+op.connect(0, my_input_fc);
+op.connect(1, my_threshold);
+ansys::dpf::FieldsContainer my_output_fc = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.compression.quantization_fc() # operator instantiation
+op.inputs.input_fc.connect(my_input_fc)
+op.inputs.threshold.connect(my_threshold)
+my_output_fc = op.outputs.output_fc()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.compression.quantization_fc() # operator instantiation
+op.inputs.input_fc.Connect(my_input_fc)
+op.inputs.threshold.Connect(my_threshold)
+my_output_fc = op.outputs.output_fc.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

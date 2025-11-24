@@ -49,6 +49,66 @@ Assembles a set of fields containers into a unique one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::fields_container"); // operator instantiation
+op.connect(-200, my_should_merge_named_selections);
+op.connect(-3, my_sum_merge);
+op.connect(-2, my_merged_fields_support);
+op.connect(-1, my_merged_fields_containers_support);
+op.connect(0, my_fields_containers);
+ansys::dpf::FieldsContainer my_merged_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_fields_containers() # operator instantiation
+op.inputs.should_merge_named_selections.connect(my_should_merge_named_selections)
+op.inputs.sum_merge.connect(my_sum_merge)
+op.inputs.merged_fields_support.connect(my_merged_fields_support)
+op.inputs.merged_fields_containers_support.connect(my_merged_fields_containers_support)
+op.inputs.fields_containers1.connect(my_fields_containers1)
+op.inputs.fields_containers2.connect(my_fields_containers2)
+my_merged_fields_container = op.outputs.merged_fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_fields_containers() # operator instantiation
+op.inputs.should_merge_named_selections.Connect(my_should_merge_named_selections)
+op.inputs.sum_merge.Connect(my_sum_merge)
+op.inputs.merged_fields_support.Connect(my_merged_fields_support)
+op.inputs.merged_fields_containers_support.Connect(my_merged_fields_containers_support)
+op.inputs.fields_containers.Connect(my_fields_containers)
+my_merged_fields_container = op.outputs.merged_fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

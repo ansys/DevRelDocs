@@ -47,6 +47,60 @@ Assembles a set of fields into a unique one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::field"); // operator instantiation
+op.connect(-2, my_sum_merge);
+op.connect(-1, my_merged_support);
+op.connect(0, my_fields);
+ansys::dpf::Field my_merged_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_fields() # operator instantiation
+op.inputs.sum_merge.connect(my_sum_merge)
+op.inputs.merged_support.connect(my_merged_support)
+op.inputs.fields1.connect(my_fields1)
+op.inputs.fields2.connect(my_fields2)
+my_merged_field = op.outputs.merged_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_fields() # operator instantiation
+op.inputs.sum_merge.Connect(my_sum_merge)
+op.inputs.merged_support.Connect(my_merged_support)
+op.inputs.fields.Connect(my_fields)
+my_merged_field = op.outputs.merged_field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -47,6 +47,59 @@ Removes the selected label from a fields container.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("remove_unnecessary_label"); // operator instantiation
+op.connect(-1, my_permissive);
+op.connect(0, my_fields_container);
+op.connect(1, my_label_to_remove);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.remove_unnecessary_labels() # operator instantiation
+op.inputs.permissive.connect(my_permissive)
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.label_to_remove.connect(my_label_to_remove)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.remove_unnecessary_labels() # operator instantiation
+op.inputs.permissive.Connect(my_permissive)
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.label_to_remove.Connect(my_label_to_remove)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

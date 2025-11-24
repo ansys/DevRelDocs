@@ -46,6 +46,59 @@ Transforms a Nodal field to an Elemental field, The result is computed on a give
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("nodal_to_elemental"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_mesh_scoping);
+op.connect(10, my_collapse_shell_layers);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.nodal_to_elemental() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.collapse_shell_layers.connect(my_collapse_shell_layers)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.nodal_to_elemental() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.collapse_shell_layers.Connect(my_collapse_shell_layers)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

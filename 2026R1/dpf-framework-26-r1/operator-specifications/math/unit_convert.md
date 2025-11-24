@@ -46,6 +46,56 @@ Converts an input field/fields container or mesh of a given unit to another unit
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("unit_convert"); // operator instantiation
+op.connect(0, my_entity_to_convert);
+op.connect(1, my_unit_name);
+ansys::dpf::Field my_converted_entity = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.entity_to_convert.connect(my_entity_to_convert)
+op.inputs.unit_name.connect(my_unit_name)
+my_converted_entity_as_field = op.outputs.converted_entity_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.entity_to_convert.Connect(my_entity_to_convert)
+op.inputs.unit_name.Connect(my_unit_name)
+my_converted_entity = op.outputs.converted_entity.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -50,6 +50,71 @@ Read the values of the section properties for a given section property field (pr
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapdl_section_properties"); // operator instantiation
+op.connect(0, my_properties_name);
+op.connect(1, my_section);
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+op.connect(5, my_layer_property);
+op.connect(6, my_layers_requested);
+ansys::dpf::FieldsContainer my_properties_value = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::PropertyField my_layers_per_section = op.getOutput<ansys::dpf::PropertyField>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.mapdl_section() # operator instantiation
+op.inputs.properties_name.connect(my_properties_name)
+op.inputs.section.connect(my_section)
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.layer_property.connect(my_layer_property)
+op.inputs.layers_requested.connect(my_layers_requested)
+my_properties_value = op.outputs.properties_value()
+my_layers_per_section = op.outputs.layers_per_section()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.mapdl_section() # operator instantiation
+op.inputs.properties_name.Connect(my_properties_name)
+op.inputs.section.Connect(my_section)
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.layer_property.Connect(my_layer_property)
+op.inputs.layers_requested.Connect(my_layers_requested)
+my_properties_value = op.outputs.properties_value.GetData()
+my_layers_per_section = op.outputs.layers_per_section.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

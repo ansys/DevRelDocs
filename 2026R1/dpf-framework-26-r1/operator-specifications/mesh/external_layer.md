@@ -46,6 +46,59 @@ Extracts the external layer (thick skin) of the mesh (3D elements) in a new mesh
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("meshed_external_layer_sector"); // operator instantiation
+op.connect(0, my_mesh);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+ansys::dpf::Scoping my_nodes_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(1);
+ansys::dpf::Scoping my_elements_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.external_layer() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+my_mesh = op.outputs.mesh()
+my_nodes_mesh_scoping = op.outputs.nodes_mesh_scoping()
+my_elements_mesh_scoping = op.outputs.elements_mesh_scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.external_layer() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+my_mesh = op.outputs.mesh.GetData()
+my_nodes_mesh_scoping = op.outputs.nodes_mesh_scoping.GetData()
+my_elements_mesh_scoping = op.outputs.elements_mesh_scoping.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

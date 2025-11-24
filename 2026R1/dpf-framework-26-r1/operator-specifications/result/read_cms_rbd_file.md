@@ -66,6 +66,119 @@ Read the invariant terms and the model data from a cms_rbd file
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("read_cms_rbd_file"); // operator instantiation
+op.connect(0, my_in_cms_rbd_file_path);
+ansys::dpf::PropertyField my_model_data = op.getOutput<ansys::dpf::PropertyField>(0);
+ansys::dpf::Field my_center_of_mass = op.getOutput<ansys::dpf::Field>(1);
+ansys::dpf::Field my_inertia_relief = op.getOutput<ansys::dpf::Field>(2);
+ansys::dpf::PropertyField my_model_size = op.getOutput<ansys::dpf::PropertyField>(3);
+std::vector<double> my_master_node_coordinates = op.getOutput<std::vector<double>>(4);
+std::vector<double> my_v_trsf = op.getOutput<std::vector<double>>(5);
+ansys::dpf::Field my_k_mat = op.getOutput<ansys::dpf::Field>(6);
+ansys::dpf::Field my_mass_mat = op.getOutput<ansys::dpf::Field>(7);
+ansys::dpf::Field my_c_mat = op.getOutput<ansys::dpf::Field>(8);
+ansys::dpf::Field my_rhs = op.getOutput<ansys::dpf::Field>(9);
+std::vector<double> my_dn = op.getOutput<std::vector<double>>(10);
+std::vector<double> my_dr_cross_n = op.getOutput<std::vector<double>>(11);
+std::vector<double> my_drn = op.getOutput<std::vector<double>>(12);
+std::vector<double> my_dn_cross_n = op.getOutput<std::vector<double>>(13);
+std::vector<double> my_dnx_y = op.getOutput<std::vector<double>>(14);
+std::vector<double> my_dny_y = op.getOutput<std::vector<double>>(15);
+std::vector<double> my_dnz_y = op.getOutput<std::vector<double>>(16);
+std::vector<double> my_dyx_n = op.getOutput<std::vector<double>>(17);
+std::vector<double> my_dyy_n = op.getOutput<std::vector<double>>(18);
+std::vector<double> my_dyz_n = op.getOutput<std::vector<double>>(19);
+std::vector<double> my_dnxn = op.getOutput<std::vector<double>>(20);
+std::vector<double> my_dnyn = op.getOutput<std::vector<double>>(21);
+std::vector<double> my_dnzn = op.getOutput<std::vector<double>>(22);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.read_cms_rbd_file() # operator instantiation
+op.inputs.in_cms_rbd_file_path.connect(my_in_cms_rbd_file_path)
+my_model_data = op.outputs.model_data()
+my_center_of_mass = op.outputs.center_of_mass()
+my_inertia_relief = op.outputs.inertia_relief()
+my_model_size = op.outputs.model_size()
+my_master_node_coordinates = op.outputs.master_node_coordinates()
+my_v_trsf = op.outputs.v_trsf()
+my_k_mat = op.outputs.k_mat()
+my_mass_mat = op.outputs.mass_mat()
+my_c_mat = op.outputs.c_mat()
+my_rhs = op.outputs.rhs()
+my_dn = op.outputs.dn()
+my_dr_cross_n = op.outputs.dr_cross_n()
+my_drn = op.outputs.drn()
+my_dn_cross_n = op.outputs.dn_cross_n()
+my_dnx_y = op.outputs.dnx_y()
+my_dny_y = op.outputs.dny_y()
+my_dnz_y = op.outputs.dnz_y()
+my_dyx_n = op.outputs.dyx_n()
+my_dyy_n = op.outputs.dyy_n()
+my_dyz_n = op.outputs.dyz_n()
+my_dnxn = op.outputs.dnxn()
+my_dnyn = op.outputs.dnyn()
+my_dnzn = op.outputs.dnzn()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.read_cms_rbd_file() # operator instantiation
+op.inputs.in_cms_rbd_file_path.Connect(my_in_cms_rbd_file_path)
+my_model_data = op.outputs.model_data.GetData()
+my_center_of_mass = op.outputs.center_of_mass.GetData()
+my_inertia_relief = op.outputs.inertia_relief.GetData()
+my_model_size = op.outputs.model_size.GetData()
+my_master_node_coordinates = op.outputs.master_node_coordinates.GetData()
+my_v_trsf = op.outputs.v_trsf.GetData()
+my_k_mat = op.outputs.k_mat.GetData()
+my_mass_mat = op.outputs.mass_mat.GetData()
+my_c_mat = op.outputs.c_mat.GetData()
+my_rhs = op.outputs.rhs.GetData()
+my_dn = op.outputs.dn.GetData()
+my_dr_cross_n = op.outputs.dr_cross_n.GetData()
+my_drn = op.outputs.drn.GetData()
+my_dn_cross_n = op.outputs.dn_cross_n.GetData()
+my_dnx_y = op.outputs.dnx_y.GetData()
+my_dny_y = op.outputs.dny_y.GetData()
+my_dnz_y = op.outputs.dnz_y.GetData()
+my_dyx_n = op.outputs.dyx_n.GetData()
+my_dyy_n = op.outputs.dyy_n.GetData()
+my_dyz_n = op.outputs.dyz_n.GetData()
+my_dnxn = op.outputs.dnxn.GetData()
+my_dnyn = op.outputs.dnyn.GetData()
+my_dnzn = op.outputs.dnzn.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

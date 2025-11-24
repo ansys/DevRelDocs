@@ -48,6 +48,56 @@ Extends Elemental Nodal or Nodal fields defined on corner nodes to Elemental Nod
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("extend_to_mid_nodes_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_mesh);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.extend_to_mid_nodes_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.mesh.connect(my_mesh)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.extend_to_mid_nodes_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.mesh.Connect(my_mesh)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

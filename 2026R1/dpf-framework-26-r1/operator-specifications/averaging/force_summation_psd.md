@@ -28,7 +28,6 @@ Computes the sum of elemental forces contribution on a set of nodes in Global Co
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| force_accumulation |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the sum of forces for the 1-sigma displacement solution on the scoped nodes/elements. |
 |  **Pin 1**| moment_accumulation |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the sum of moments for the 1-sigma displacement solution on the scoped nodes/elements. |
 |  **Pin 10**| forces_on_nodes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the nodal forces for the 1-sigma displacement solution on the scoped nodes/elements. |
 |  **Pin 11**| moments_on_nodes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the nodal moments for the 1-sigma displacement solution on the scoped nodes/elements. |
@@ -53,6 +52,77 @@ Computes the sum of elemental forces contribution on a set of nodes in Global Co
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("force_summation_psd"); // operator instantiation
+op.connect(1, my_nodal_scoping);
+op.connect(2, my_elemental_scoping);
+op.connect(3, my_streams);
+op.connect(4, my_data_sources);
+op.connect(6, my_spoint);
+op.connect(7, my_abs_rel_key);
+op.connect(8, my_signif);
+ansys::dpf::FieldsContainer my_moment_accumulation = op.getOutput<ansys::dpf::FieldsContainer>(1);
+ansys::dpf::FieldsContainer my_forces_on_nodes = op.getOutput<ansys::dpf::FieldsContainer>(10);
+ansys::dpf::FieldsContainer my_moments_on_nodes = op.getOutput<ansys::dpf::FieldsContainer>(11);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.force_summation_psd() # operator instantiation
+op.inputs.nodal_scoping.connect(my_nodal_scoping)
+op.inputs.elemental_scoping.connect(my_elemental_scoping)
+op.inputs.streams.connect(my_streams)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.spoint.connect(my_spoint)
+op.inputs.abs_rel_key.connect(my_abs_rel_key)
+op.inputs.signif.connect(my_signif)
+my_moment_accumulation = op.outputs.moment_accumulation()
+my_forces_on_nodes = op.outputs.forces_on_nodes()
+my_moments_on_nodes = op.outputs.moments_on_nodes()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.force_summation_psd() # operator instantiation
+op.inputs.nodal_scoping.Connect(my_nodal_scoping)
+op.inputs.elemental_scoping.Connect(my_elemental_scoping)
+op.inputs.streams.Connect(my_streams)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.spoint.Connect(my_spoint)
+op.inputs.abs_rel_key.Connect(my_abs_rel_key)
+op.inputs.signif.Connect(my_signif)
+my_moment_accumulation = op.outputs.moment_accumulation.GetData()
+my_forces_on_nodes = op.outputs.forces_on_nodes.GetData()
+my_moments_on_nodes = op.outputs.moments_on_nodes.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

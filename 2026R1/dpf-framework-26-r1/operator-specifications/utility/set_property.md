@@ -46,6 +46,59 @@ Sets a property to an input field/field container. A Fieldin pin 0, a property n
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("field::set_property"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_property_name);
+op.connect(2, my_property);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.set_property() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.property_name.connect(my_property_name)
+op.inputs.property.connect(my_property)
+my_field_as_field = op.outputs.field_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.set_property() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.property_name.Connect(my_property_name)
+op.inputs.property.Connect(my_property)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

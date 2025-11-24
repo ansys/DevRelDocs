@@ -46,6 +46,59 @@ Creates a new scopings container with all the scopings corresponding to the labe
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("extract_sub_sc"); // operator instantiation
+op.connect(0, my_scopings_container);
+op.connect(1, my_label_space);
+op.connect(2, my_collapse_labels);
+ansys::dpf::ScopingsContainer my_scopings_container = op.getOutput<ansys::dpf::ScopingsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.extract_sub_sc() # operator instantiation
+op.inputs.scopings_container.connect(my_scopings_container)
+op.inputs.label_space.connect(my_label_space)
+op.inputs.collapse_labels.connect(my_collapse_labels)
+my_scopings_container = op.outputs.scopings_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.extract_sub_sc() # operator instantiation
+op.inputs.scopings_container.Connect(my_scopings_container)
+op.inputs.label_space.Connect(my_label_space)
+op.inputs.collapse_labels.Connect(my_collapse_labels)
+my_scopings_container = op.outputs.scopings_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

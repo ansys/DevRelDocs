@@ -46,6 +46,59 @@ Decimate a meshed region
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("decimate_mesh"); // operator instantiation
+op.connect(0, my_mesh);
+op.connect(1, my_preservation_ratio);
+op.connect(2, my_aggressiveness);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.None() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+op.inputs.preservation_ratio.connect(my_preservation_ratio)
+op.inputs.aggressiveness.connect(my_aggressiveness)
+my_mesh = op.outputs.mesh()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.None() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.preservation_ratio.Connect(my_preservation_ratio)
+op.inputs.aggressiveness.Connect(my_aggressiveness)
+my_mesh = op.outputs.mesh.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

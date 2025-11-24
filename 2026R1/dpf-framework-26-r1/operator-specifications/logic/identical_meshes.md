@@ -48,6 +48,65 @@ Takes two meshes and compares them. Note: When comparing mesh properties, the cu
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("compare::mesh"); // operator instantiation
+op.connect(0, my_meshA);
+op.connect(1, my_meshB);
+op.connect(2, my_small_value);
+op.connect(3, my_tolerance);
+op.connect(4, my_compare_auxiliary);
+bool my_are_identical = op.getOutput<bool>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.identical_meshes() # operator instantiation
+op.inputs.meshA.connect(my_meshA)
+op.inputs.meshB.connect(my_meshB)
+op.inputs.small_value.connect(my_small_value)
+op.inputs.tolerance.connect(my_tolerance)
+op.inputs.compare_auxiliary.connect(my_compare_auxiliary)
+my_are_identical = op.outputs.are_identical()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.identical_meshes() # operator instantiation
+op.inputs.meshA.Connect(my_meshA)
+op.inputs.meshB.Connect(my_meshB)
+op.inputs.small_value.Connect(my_small_value)
+op.inputs.tolerance.Connect(my_tolerance)
+op.inputs.compare_auxiliary.Connect(my_compare_auxiliary)
+my_are_identical = op.outputs.are_identical.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

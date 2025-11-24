@@ -45,6 +45,56 @@ Take a mesh and extracts its sharp edges, using pin 1 value as a threshold angle
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("wireframe"); // operator instantiation
+op.connect(0, my_mesh);
+op.connect(1, my_threshold);
+ansys::dpf::MeshedRegion my_wireframe = op.getOutput<ansys::dpf::MeshedRegion>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.wireframe() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+op.inputs.threshold.connect(my_threshold)
+my_wireframe = op.outputs.wireframe()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.wireframe() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.threshold.Connect(my_threshold)
+my_wireframe = op.outputs.wireframe.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

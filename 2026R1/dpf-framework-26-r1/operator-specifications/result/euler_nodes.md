@@ -55,6 +55,65 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("coords_and_euler_nodes"); // operator instantiation
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+op.connect(5, my_filter_zeros);
+op.connect(6, my_coord_and_euler);
+op.connect(7, my_mesh);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.euler_nodes() # operator instantiation
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.filter_zeros.connect(my_filter_zeros)
+op.inputs.coord_and_euler.connect(my_coord_and_euler)
+op.inputs.mesh.connect(my_mesh)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.euler_nodes() # operator instantiation
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.filter_zeros.Connect(my_filter_zeros)
+op.inputs.coord_and_euler.Connect(my_coord_and_euler)
+op.inputs.mesh.Connect(my_mesh)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -58,6 +58,71 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("spectrum_data"); // operator instantiation
+op.connect(3, my_streams);
+op.connect(4, my_data_sources);
+ansys::dpf::FieldsContainer my_participation_factors = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::FieldsContainer my_mode_coefficients = op.getOutput<ansys::dpf::FieldsContainer>(1);
+ansys::dpf::FieldsContainer my_damping_ratios = op.getOutput<ansys::dpf::FieldsContainer>(2);
+ansys::dpf::FieldsContainer my_global_damping = op.getOutput<ansys::dpf::FieldsContainer>(3);
+ansys::dpf::FieldsContainer my_missing_mass = op.getOutput<ansys::dpf::FieldsContainer>(4);
+ansys::dpf::FieldsContainer my_rigid_response = op.getOutput<ansys::dpf::FieldsContainer>(5);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.spectrum_data() # operator instantiation
+op.inputs.streams.connect(my_streams)
+op.inputs.data_sources.connect(my_data_sources)
+my_participation_factors = op.outputs.participation_factors()
+my_mode_coefficients = op.outputs.mode_coefficients()
+my_damping_ratios = op.outputs.damping_ratios()
+my_global_damping = op.outputs.global_damping()
+my_missing_mass = op.outputs.missing_mass()
+my_rigid_response = op.outputs.rigid_response()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.spectrum_data() # operator instantiation
+op.inputs.streams.Connect(my_streams)
+op.inputs.data_sources.Connect(my_data_sources)
+my_participation_factors = op.outputs.participation_factors.GetData()
+my_mode_coefficients = op.outputs.mode_coefficients.GetData()
+my_damping_ratios = op.outputs.damping_ratios.GetData()
+my_global_damping = op.outputs.global_damping.GetData()
+my_missing_mass = op.outputs.missing_mass.GetData()
+my_rigid_response = op.outputs.rigid_response.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -46,6 +46,59 @@ Evaluate the fast fourier transforms at a given set of fields.
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("fft_eval"); // operator instantiation
+op.connect(0, my_field_t);
+op.connect(1, my_time_scoping);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Field my_offset = op.getOutput<ansys::dpf::Field>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.fft_eval() # operator instantiation
+op.inputs.field_t.connect(my_field_t)
+op.inputs.time_scoping.connect(my_time_scoping)
+my_field = op.outputs.field()
+my_offset = op.outputs.offset()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.fft_eval() # operator instantiation
+op.inputs.field_t.Connect(my_field_t)
+op.inputs.time_scoping.Connect(my_time_scoping)
+my_field = op.outputs.field.GetData()
+my_offset = op.outputs.offset.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

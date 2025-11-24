@@ -47,6 +47,60 @@ Allows to write a loop over operators by connecting data to iterate and by reque
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("producer_consumer_for_each"); // operator instantiation
+op.connect(0, my_producer_consumer_iterableq);
+op.connect(3, my_forward);
+ my_empty = op.getOutput<>(0);
+ my_output = op.getOutput<>(3);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.producer_consumer_for_each() # operator instantiation
+op.inputs.producer_consumer_iterableq.connect(my_producer_consumer_iterableq)
+op.inputs.forward1.connect(my_forward1)
+op.inputs.forward2.connect(my_forward2)
+my_empty = op.outputs.empty()
+my_output = op.outputs.output()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.producer_consumer_for_each() # operator instantiation
+op.inputs.producer_consumer_iterableq.Connect(my_producer_consumer_iterableq)
+op.inputs.forward.Connect(my_forward)
+my_empty = op.outputs.empty.GetData()
+my_output = op.outputs.output.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

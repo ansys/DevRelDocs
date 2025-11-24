@@ -46,6 +46,59 @@ Integration of an input field over timefreq.
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("timefreq::integrate"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_scoping);
+op.connect(2, my_time_freq_support);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.integrate_over_time_freq() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.scoping.connect(my_scoping)
+op.inputs.time_freq_support.connect(my_time_freq_support)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.integrate_over_time_freq() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.scoping.Connect(my_scoping)
+op.inputs.time_freq_support.Connect(my_time_freq_support)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

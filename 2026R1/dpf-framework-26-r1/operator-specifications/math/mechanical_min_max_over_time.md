@@ -46,6 +46,59 @@ Evaluates minimum/maximum over time/frequency.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mechanical::min_max_over_time"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(5, my_int32);
+ansys::dpf::FieldsContainer my_field_container_1 = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::FieldsContainer my_field_container_2 = op.getOutput<ansys::dpf::FieldsContainer>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.int32.connect(my_int32)
+my_field_container_1 = op.outputs.field_container_1()
+my_field_container_2 = op.outputs.field_container_2()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.int32.Connect(my_int32)
+my_field_container_1 = op.outputs.field_container_1.GetData()
+my_field_container_2 = op.outputs.field_container_2.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

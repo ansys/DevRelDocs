@@ -44,6 +44,54 @@ Assembles a set of string fields into a unique one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::string_field"); // operator instantiation
+op.connect(0, my_string_fields);
+ansys::dpf::StringField my_string_field = op.getOutput<ansys::dpf::StringField>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_string_fields() # operator instantiation
+op.inputs.string_fields1.connect(my_string_fields1)
+op.inputs.string_fields2.connect(my_string_fields2)
+my_string_field = op.outputs.string_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_string_fields() # operator instantiation
+op.inputs.string_fields.Connect(my_string_fields)
+my_string_field = op.outputs.string_field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

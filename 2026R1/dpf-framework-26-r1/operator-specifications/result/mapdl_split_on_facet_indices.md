@@ -49,6 +49,68 @@ Splits each Field in a FieldsContainer defined on the skin elements of a mesh ac
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapdl::split_on_facet_indices"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_property_field_new_elements_to_old);
+op.connect(2, my_facet_indices);
+op.connect(3, my_volume_mesh);
+op.connect(185, my_degenerated_tets);
+op.connect(285, my_non_degenerated_tets);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.mapdl_split_on_facet_indices() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.property_field_new_elements_to_old.connect(my_property_field_new_elements_to_old)
+op.inputs.facet_indices.connect(my_facet_indices)
+op.inputs.volume_mesh.connect(my_volume_mesh)
+op.inputs.degenerated_tets.connect(my_degenerated_tets)
+op.inputs.non_degenerated_tets.connect(my_non_degenerated_tets)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.mapdl_split_on_facet_indices() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.property_field_new_elements_to_old.Connect(my_property_field_new_elements_to_old)
+op.inputs.facet_indices.Connect(my_facet_indices)
+op.inputs.volume_mesh.Connect(my_volume_mesh)
+op.inputs.degenerated_tets.Connect(my_degenerated_tets)
+op.inputs.non_degenerated_tets.Connect(my_non_degenerated_tets)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

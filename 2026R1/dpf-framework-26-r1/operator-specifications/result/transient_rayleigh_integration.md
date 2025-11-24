@@ -50,6 +50,71 @@ Computes the transient Rayleigh integral
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("transient_rayleigh_integration"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_mesh);
+op.connect(2, my_time_scoping);
+op.connect(3, my_field);
+op.connect(4, my_observation_mesh);
+op.connect(5, my_mass_density);
+op.connect(6, my_speed_of_sound);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.transient_rayleigh_integration() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.field.connect(my_field)
+op.inputs.observation_mesh.connect(my_observation_mesh)
+op.inputs.mass_density.connect(my_mass_density)
+op.inputs.speed_of_sound.connect(my_speed_of_sound)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.transient_rayleigh_integration() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.field.Connect(my_field)
+op.inputs.observation_mesh.Connect(my_observation_mesh)
+op.inputs.mass_density.Connect(my_mass_density)
+op.inputs.speed_of_sound.Connect(my_speed_of_sound)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

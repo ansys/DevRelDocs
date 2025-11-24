@@ -45,6 +45,57 @@ Give the minimum for each element rank by comparing several fields.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("min_by_component"); // operator instantiation
+op.connect(0, my_use_absolute_value);
+op.connect(1, my_field);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.min_max.None() # operator instantiation
+op.inputs.use_absolute_value.connect(my_use_absolute_value)
+op.inputs.field1.connect(my_field1)
+op.inputs.field2.connect(my_field2)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.min_max.None() # operator instantiation
+op.inputs.use_absolute_value.Connect(my_use_absolute_value)
+op.inputs.field.Connect(my_field)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

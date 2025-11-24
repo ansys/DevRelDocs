@@ -1837,6 +1837,8 @@
       href: operator-specifications/utility/forward_meshes_container.md
     - name: for each
       href: operator-specifications/utility/for_each.md
+    - name: get operators
+      href: operator-specifications/utility/get_operators.md
     - name: hdf5dpf workglow provider
       href: operator-specifications/utility/hdf5dpf_workglow_provider.md
     - name: html doc

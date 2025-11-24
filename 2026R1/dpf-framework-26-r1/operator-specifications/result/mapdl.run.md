@@ -51,6 +51,74 @@ Solve in mapdl a dat/inp file and returns a datasources with the rst file.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapdl::run"); // operator instantiation
+op.connect(0, my_mapdl_exe_path);
+op.connect(1, my_working_dir);
+op.connect(2, my_number_of_processes);
+op.connect(3, my_number_of_threads);
+op.connect(4, my_data_sources);
+op.connect(5, my_server_mode);
+ansys::dpf::DataSources my_data_sources = op.getOutput<ansys::dpf::DataSources>(0);
+std::string my_ip = op.getOutput<std::string>(1);
+std::string my_port = op.getOutput<std::string>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.mapdl.run() # operator instantiation
+op.inputs.mapdl_exe_path.connect(my_mapdl_exe_path)
+op.inputs.working_dir.connect(my_working_dir)
+op.inputs.number_of_processes.connect(my_number_of_processes)
+op.inputs.number_of_threads.connect(my_number_of_threads)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.server_mode.connect(my_server_mode)
+my_data_sources = op.outputs.data_sources()
+my_ip = op.outputs.ip()
+my_port = op.outputs.port()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.mapdl.run() # operator instantiation
+op.inputs.mapdl_exe_path.Connect(my_mapdl_exe_path)
+op.inputs.working_dir.Connect(my_working_dir)
+op.inputs.number_of_processes.Connect(my_number_of_processes)
+op.inputs.number_of_threads.Connect(my_number_of_threads)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.server_mode.Connect(my_server_mode)
+my_data_sources = op.outputs.data_sources.GetData()
+my_ip = op.outputs.ip.GetData()
+my_port = op.outputs.port.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

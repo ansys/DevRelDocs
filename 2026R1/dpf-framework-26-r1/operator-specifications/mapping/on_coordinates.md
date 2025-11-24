@@ -50,6 +50,71 @@ Evaluates a result on specified coordinates (interpolates results inside element
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapping"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_coordinates);
+op.connect(2, my_create_support);
+op.connect(3, my_mapping_on_scoping);
+op.connect(5, my_tolerance);
+op.connect(7, my_mesh);
+op.connect(200, my_use_quadratic_elements);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.on_coordinates() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.coordinates.connect(my_coordinates)
+op.inputs.create_support.connect(my_create_support)
+op.inputs.mapping_on_scoping.connect(my_mapping_on_scoping)
+op.inputs.tolerance.connect(my_tolerance)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.use_quadratic_elements.connect(my_use_quadratic_elements)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.on_coordinates() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.coordinates.Connect(my_coordinates)
+op.inputs.create_support.Connect(my_create_support)
+op.inputs.mapping_on_scoping.Connect(my_mapping_on_scoping)
+op.inputs.tolerance.Connect(my_tolerance)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.use_quadratic_elements.Connect(my_use_quadratic_elements)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

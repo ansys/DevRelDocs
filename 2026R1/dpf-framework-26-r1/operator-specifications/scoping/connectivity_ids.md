@@ -47,6 +47,62 @@ Returns the ordered node ids corresponding to the element ids scoping in input. 
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("scoping::connectivity_ids"); // operator instantiation
+op.connect(1, my_mesh_scoping);
+op.connect(7, my_mesh);
+op.connect(10, my_take_mid_nodes);
+ansys::dpf::Scoping my_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(0);
+ansys::dpf::Scoping my_elemental_scoping = op.getOutput<ansys::dpf::Scoping>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.scoping.connectivity_ids() # operator instantiation
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.take_mid_nodes.connect(my_take_mid_nodes)
+my_mesh_scoping = op.outputs.mesh_scoping()
+my_elemental_scoping = op.outputs.elemental_scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.scoping.connectivity_ids() # operator instantiation
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.take_mid_nodes.Connect(my_take_mid_nodes)
+my_mesh_scoping = op.outputs.mesh_scoping.GetData()
+my_elemental_scoping = op.outputs.elemental_scoping.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

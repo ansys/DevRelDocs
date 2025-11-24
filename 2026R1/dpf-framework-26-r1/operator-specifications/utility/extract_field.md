@@ -45,6 +45,56 @@ Extracts the fields at the indices defined in the vector (in 1) from the fields 
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("ExtractFromFC"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_indices);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.extract_field() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.indices.connect(my_indices)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.extract_field() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.indices.Connect(my_indices)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

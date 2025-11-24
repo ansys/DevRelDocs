@@ -67,6 +67,122 @@ Prepare mapping of source data from source mesh to target mesh by operating the 
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mechanical_native_mapping::prepare::shape_function_volumes"); // operator instantiation
+op.connect(0, my_source_mesh);
+op.connect(1, my_target_mesh);
+op.connect(3, my_target_mesh_scoping);
+op.connect(4, my_unit);
+op.connect(5, my_location);
+op.connect(6, my_dimensionality);
+op.connect(7, my_e_shell_layers);
+op.connect(8, my_html_report_path);
+op.connect(10, my_scale);
+op.connect(11, my_edge_tolerance);
+op.connect(12, my_conservative);
+op.connect(13, my_ignore_outside_nodes);
+op.connect(100, my_is_element_centroidal_data_mapping);
+op.connect(101, my_projection_options);
+op.connect(102, my_dynamic_coordinate_system);
+op.connect(103, my_source_dimension);
+op.connect(104, my_wb_external_data_info);
+op.connect(105, my_target_dimension);
+ansys::dpf::MeshedRegion my_source_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+int my_source_mesh_id = op.getOutput<int>(1);
+ansys::dpf::MeshedRegion my_target_mesh = op.getOutput<ansys::dpf::MeshedRegion>(2);
+int my_target_mesh_id = op.getOutput<int>(3);
+ my_mapping_manager_data = op.getOutput<>(4);
+ansys::dpf::Scoping my_target_scoping = op.getOutput<ansys::dpf::Scoping>(6);
+ my_prepare_output = op.getOutput<>(7);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.prepare_mechanical_native_mapping_shape_functions_for_volume() # operator instantiation
+op.inputs.source_mesh.connect(my_source_mesh)
+op.inputs.target_mesh.connect(my_target_mesh)
+op.inputs.target_mesh_scoping.connect(my_target_mesh_scoping)
+op.inputs.unit.connect(my_unit)
+op.inputs.location.connect(my_location)
+op.inputs.dimensionality.connect(my_dimensionality)
+op.inputs.e_shell_layers.connect(my_e_shell_layers)
+op.inputs.html_report_path.connect(my_html_report_path)
+op.inputs.scale.connect(my_scale)
+op.inputs.edge_tolerance.connect(my_edge_tolerance)
+op.inputs.conservative.connect(my_conservative)
+op.inputs.ignore_outside_nodes.connect(my_ignore_outside_nodes)
+op.inputs.is_element_centroidal_data_mapping.connect(my_is_element_centroidal_data_mapping)
+op.inputs.projection_options.connect(my_projection_options)
+op.inputs.dynamic_coordinate_system.connect(my_dynamic_coordinate_system)
+op.inputs.source_dimension.connect(my_source_dimension)
+op.inputs.wb_external_data_info.connect(my_wb_external_data_info)
+op.inputs.target_dimension.connect(my_target_dimension)
+my_source_mesh = op.outputs.source_mesh()
+my_source_mesh_id = op.outputs.source_mesh_id()
+my_target_mesh = op.outputs.target_mesh()
+my_target_mesh_id = op.outputs.target_mesh_id()
+my_mapping_manager_data = op.outputs.mapping_manager_data()
+my_target_scoping = op.outputs.target_scoping()
+my_prepare_output = op.outputs.prepare_output()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.prepare_mechanical_native_mapping_shape_functions_for_volume() # operator instantiation
+op.inputs.source_mesh.Connect(my_source_mesh)
+op.inputs.target_mesh.Connect(my_target_mesh)
+op.inputs.target_mesh_scoping.Connect(my_target_mesh_scoping)
+op.inputs.unit.Connect(my_unit)
+op.inputs.location.Connect(my_location)
+op.inputs.dimensionality.Connect(my_dimensionality)
+op.inputs.e_shell_layers.Connect(my_e_shell_layers)
+op.inputs.html_report_path.Connect(my_html_report_path)
+op.inputs.scale.Connect(my_scale)
+op.inputs.edge_tolerance.Connect(my_edge_tolerance)
+op.inputs.conservative.Connect(my_conservative)
+op.inputs.ignore_outside_nodes.Connect(my_ignore_outside_nodes)
+op.inputs.is_element_centroidal_data_mapping.Connect(my_is_element_centroidal_data_mapping)
+op.inputs.projection_options.Connect(my_projection_options)
+op.inputs.dynamic_coordinate_system.Connect(my_dynamic_coordinate_system)
+op.inputs.source_dimension.Connect(my_source_dimension)
+op.inputs.wb_external_data_info.Connect(my_wb_external_data_info)
+op.inputs.target_dimension.Connect(my_target_dimension)
+my_source_mesh = op.outputs.source_mesh.GetData()
+my_source_mesh_id = op.outputs.source_mesh_id.GetData()
+my_target_mesh = op.outputs.target_mesh.GetData()
+my_target_mesh_id = op.outputs.target_mesh_id.GetData()
+my_mapping_manager_data = op.outputs.mapping_manager_data.GetData()
+my_target_scoping = op.outputs.target_scoping.GetData()
+my_prepare_output = op.outputs.prepare_output.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

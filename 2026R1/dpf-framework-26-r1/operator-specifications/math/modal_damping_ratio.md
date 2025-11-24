@@ -48,6 +48,65 @@ Computes damping ratio for each mode shape as X_i = const + ratio_i + m_coeffici
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("modal_damping_ratio"); // operator instantiation
+op.connect(0, my_natural_freq);
+op.connect(1, my_const_ratio);
+op.connect(2, my_ratio_by_modes);
+op.connect(3, my_m_coefficient);
+op.connect(4, my_k_coefficient);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.modal_damping_ratio() # operator instantiation
+op.inputs.natural_freq.connect(my_natural_freq)
+op.inputs.const_ratio.connect(my_const_ratio)
+op.inputs.ratio_by_modes.connect(my_ratio_by_modes)
+op.inputs.m_coefficient.connect(my_m_coefficient)
+op.inputs.k_coefficient.connect(my_k_coefficient)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.modal_damping_ratio() # operator instantiation
+op.inputs.natural_freq.Connect(my_natural_freq)
+op.inputs.const_ratio.Connect(my_const_ratio)
+op.inputs.ratio_by_modes.Connect(my_ratio_by_modes)
+op.inputs.m_coefficient.Connect(my_m_coefficient)
+op.inputs.k_coefficient.Connect(my_k_coefficient)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

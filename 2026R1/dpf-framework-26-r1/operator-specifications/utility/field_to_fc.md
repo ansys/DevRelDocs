@@ -45,6 +45,56 @@ Creates a fields container containing the field provided on pin 0.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("InjectToFieldContainer"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_label);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.field_to_fc() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.label.connect(my_label)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.field_to_fc() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.label.Connect(my_label)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

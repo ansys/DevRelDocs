@@ -46,6 +46,59 @@ Creates a new fields container with all the fields corresponding to the label sp
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("extract_sub_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_label_space);
+op.connect(2, my_collapse_labels);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.extract_sub_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.label_space.connect(my_label_space)
+op.inputs.collapse_labels.connect(my_collapse_labels)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.extract_sub_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.label_space.Connect(my_label_space)
+op.inputs.collapse_labels.Connect(my_collapse_labels)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

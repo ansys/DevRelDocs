@@ -50,6 +50,69 @@ Take a set of meshes and assemble them in a unique one
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::mesh"); // operator instantiation
+op.connect(-201, my_naive_merge_elements);
+op.connect(-200, my_should_merge_named_selections);
+op.connect(0, my_meshes);
+op.connect(101, my_merge_method);
+op.connect(102, my_box_size);
+op.connect(103, my_remove_duplicate_elements);
+ansys::dpf::MeshedRegion my_merges_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_meshes() # operator instantiation
+op.inputs.naive_merge_elements.connect(my_naive_merge_elements)
+op.inputs.should_merge_named_selections.connect(my_should_merge_named_selections)
+op.inputs.meshes1.connect(my_meshes1)
+op.inputs.meshes2.connect(my_meshes2)
+op.inputs.merge_method.connect(my_merge_method)
+op.inputs.box_size.connect(my_box_size)
+op.inputs.remove_duplicate_elements.connect(my_remove_duplicate_elements)
+my_merges_mesh = op.outputs.merges_mesh()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_meshes() # operator instantiation
+op.inputs.naive_merge_elements.Connect(my_naive_merge_elements)
+op.inputs.should_merge_named_selections.Connect(my_should_merge_named_selections)
+op.inputs.meshes.Connect(my_meshes)
+op.inputs.merge_method.Connect(my_merge_method)
+op.inputs.box_size.Connect(my_box_size)
+op.inputs.remove_duplicate_elements.Connect(my_remove_duplicate_elements)
+my_merges_mesh = op.outputs.merges_mesh.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

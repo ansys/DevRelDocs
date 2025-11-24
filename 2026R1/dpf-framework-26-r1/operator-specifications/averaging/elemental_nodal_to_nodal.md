@@ -50,6 +50,71 @@ Transforms an Elemental Nodal field into a Nodal field using an averaging proces
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("elemental_nodal_To_nodal"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_mesh_scoping);
+op.connect(2, my_should_average);
+op.connect(4, my_extend_to_mid_nodes);
+op.connect(5, my_extend_weights_to_mid_nodes);
+op.connect(7, my_mesh);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::PropertyField my_weight = op.getOutput<ansys::dpf::PropertyField>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.elemental_nodal_to_nodal() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.should_average.connect(my_should_average)
+op.inputs.extend_to_mid_nodes.connect(my_extend_to_mid_nodes)
+op.inputs.extend_weights_to_mid_nodes.connect(my_extend_weights_to_mid_nodes)
+op.inputs.mesh.connect(my_mesh)
+my_field = op.outputs.field()
+my_weight = op.outputs.weight()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.elemental_nodal_to_nodal() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.should_average.Connect(my_should_average)
+op.inputs.extend_to_mid_nodes.Connect(my_extend_to_mid_nodes)
+op.inputs.extend_weights_to_mid_nodes.Connect(my_extend_weights_to_mid_nodes)
+op.inputs.mesh.Connect(my_mesh)
+my_field = op.outputs.field.GetData()
+my_weight = op.outputs.weight.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

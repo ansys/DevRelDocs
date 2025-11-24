@@ -57,6 +57,62 @@ Transforms an Elemental field to a Nodal field. The result is computed on a give
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("elemental_to_nodal"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_mesh_scoping);
+op.connect(2, my_force_averaging);
+op.connect(200, my_algorithm);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.elemental_to_nodal() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.force_averaging.connect(my_force_averaging)
+op.inputs.algorithm.connect(my_algorithm)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.elemental_to_nodal() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.force_averaging.Connect(my_force_averaging)
+op.inputs.algorithm.Connect(my_algorithm)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

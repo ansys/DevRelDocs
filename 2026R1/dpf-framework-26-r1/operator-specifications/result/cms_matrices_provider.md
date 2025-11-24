@@ -45,6 +45,56 @@ Read reduced matrices for cms elements. Extract stiffness, damping, mass matrice
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("cms_matrices_provider"); // operator instantiation
+op.connect(4, my_data_sources);
+op.connect(200, my_matrix_form);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.cms_matrices_provider() # operator instantiation
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.matrix_form.connect(my_matrix_form)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.cms_matrices_provider() # operator instantiation
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.matrix_form.Connect(my_matrix_form)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

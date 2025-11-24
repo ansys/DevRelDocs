@@ -48,6 +48,65 @@ Generate tessellation for input mesh
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh_to_graphics"); // operator instantiation
+op.connect(1, my_mesh_scoping);
+op.connect(2, my_node_normals);
+op.connect(7, my_mesh);
+ansys::dpf::Field my_nodes = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Field my_normals = op.getOutput<ansys::dpf::Field>(1);
+ansys::dpf::PropertyField my_connectivity = op.getOutput<ansys::dpf::PropertyField>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.mesh_to_graphics() # operator instantiation
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.node_normals.connect(my_node_normals)
+op.inputs.mesh.connect(my_mesh)
+my_nodes = op.outputs.nodes()
+my_normals = op.outputs.normals()
+my_connectivity = op.outputs.connectivity()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.mesh_to_graphics() # operator instantiation
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.node_normals.Connect(my_node_normals)
+op.inputs.mesh.Connect(my_mesh)
+my_nodes = op.outputs.nodes.GetData()
+my_normals = op.outputs.normals.GetData()
+my_connectivity = op.outputs.connectivity.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

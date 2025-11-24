@@ -48,6 +48,59 @@ Rescopes/splits a fields container to correspond to a scopings container. Each f
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("rescope_fc"); // operator instantiation
+op.connect(0, my_field_or_fields_container);
+op.connect(1, my_scopings_container);
+op.connect(2, my_keep_empty_fields);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.scoping.adapt_with_scopings_container() # operator instantiation
+op.inputs.field_or_fields_container.connect(my_field_or_fields_container)
+op.inputs.scopings_container.connect(my_scopings_container)
+op.inputs.keep_empty_fields.connect(my_keep_empty_fields)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.scoping.adapt_with_scopings_container() # operator instantiation
+op.inputs.field_or_fields_container.Connect(my_field_or_fields_container)
+op.inputs.scopings_container.Connect(my_scopings_container)
+op.inputs.keep_empty_fields.Connect(my_keep_empty_fields)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

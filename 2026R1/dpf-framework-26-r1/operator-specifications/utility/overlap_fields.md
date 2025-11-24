@@ -45,6 +45,56 @@ Take two fields and superpose them, the overlapping field will override values o
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("overlap_fields"); // operator instantiation
+op.connect(0, my_base_field);
+op.connect(1, my_overlapping_field);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.None() # operator instantiation
+op.inputs.base_field.connect(my_base_field)
+op.inputs.overlapping_field.connect(my_overlapping_field)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.None() # operator instantiation
+op.inputs.base_field.Connect(my_base_field)
+op.inputs.overlapping_field.Connect(my_overlapping_field)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -64,6 +64,62 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("element_types_provider"); // operator instantiation
+op.connect(1, my_solver_element_types_ids);
+op.connect(3, my_streams);
+op.connect(4, my_data_sources);
+op.connect(200, my_output_type);
+ansys::dpf::GenericDataContainer my_element_types_data = op.getOutput<ansys::dpf::GenericDataContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.element_types_provider() # operator instantiation
+op.inputs.solver_element_types_ids.connect(my_solver_element_types_ids)
+op.inputs.streams.connect(my_streams)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.output_type.connect(my_output_type)
+my_element_types_data_as_generic_data_container = op.outputs.element_types_data_as_generic_data_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.element_types_provider() # operator instantiation
+op.inputs.solver_element_types_ids.Connect(my_solver_element_types_ids)
+op.inputs.streams.Connect(my_streams)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.output_type.Connect(my_output_type)
+my_element_types_data = op.outputs.element_types_data.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

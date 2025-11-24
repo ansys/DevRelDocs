@@ -49,6 +49,68 @@ Takes two generic data containers and compares them. Supported types: Field, Fie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("compare::generic_data_container"); // operator instantiation
+op.connect(0, my_generic_data_containerA);
+op.connect(1, my_generic_data_containerB);
+op.connect(2, my_double_value);
+op.connect(3, my_double_tolerance);
+op.connect(4, my_compare_auxiliary);
+bool my_included = op.getOutput<bool>(0);
+std::string my_message = op.getOutput<std::string>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.identical_generic_data_containers() # operator instantiation
+op.inputs.generic_data_containerA.connect(my_generic_data_containerA)
+op.inputs.generic_data_containerB.connect(my_generic_data_containerB)
+op.inputs.double_value.connect(my_double_value)
+op.inputs.double_tolerance.connect(my_double_tolerance)
+op.inputs.compare_auxiliary.connect(my_compare_auxiliary)
+my_included = op.outputs.included()
+my_message = op.outputs.message()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.identical_generic_data_containers() # operator instantiation
+op.inputs.generic_data_containerA.Connect(my_generic_data_containerA)
+op.inputs.generic_data_containerB.Connect(my_generic_data_containerB)
+op.inputs.double_value.Connect(my_double_value)
+op.inputs.double_tolerance.Connect(my_double_tolerance)
+op.inputs.compare_auxiliary.Connect(my_compare_auxiliary)
+my_included = op.outputs.included.GetData()
+my_message = op.outputs.message.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

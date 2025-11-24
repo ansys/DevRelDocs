@@ -46,6 +46,60 @@ Take any input and serialize them in a string.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("serializer_to_string"); // operator instantiation
+op.connect(-1, my_stream_type);
+op.connect(1, my_any_input);
+int my_nof_chunks = op.getOutput<int>(-1);
+std::string my_serialized_string = op.getOutput<std::string>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.serializer_to_string() # operator instantiation
+op.inputs.stream_type.connect(my_stream_type)
+op.inputs.any_input1.connect(my_any_input1)
+op.inputs.any_input2.connect(my_any_input2)
+my_nof_chunks = op.outputs.nof_chunks()
+my_serialized_string = op.outputs.serialized_string()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.serializer_to_string() # operator instantiation
+op.inputs.stream_type.Connect(my_stream_type)
+op.inputs.any_input.Connect(my_any_input)
+my_nof_chunks = op.outputs.nof_chunks.GetData()
+my_serialized_string = op.outputs.serialized_string.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

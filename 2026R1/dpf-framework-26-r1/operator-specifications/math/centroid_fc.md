@@ -48,6 +48,62 @@ Computes the centroid of all the matching fields of a fields container at a give
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("centroid_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_time_freq);
+op.connect(2, my_step);
+op.connect(8, my_time_freq_support);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.time_freq.connect(my_time_freq)
+op.inputs.step.connect(my_step)
+op.inputs.time_freq_support.connect(my_time_freq_support)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.time_freq.Connect(my_time_freq)
+op.inputs.step.Connect(my_step)
+op.inputs.time_freq_support.Connect(my_time_freq_support)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -53,6 +53,74 @@ Applies morphing on a meshed region depending on an input displacement field.
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("morphing"); // operator instantiation
+op.connect(0, my_displacement);
+op.connect(1, my_disp_mesh);
+op.connect(2, my_mesh);
+op.connect(3, my_in_place);
+op.connect(4, my_morphing_type);
+op.connect(5, my_morphing_manager_data);
+op.connect(6, my_sliding_planes);
+op.connect(7, my_sliding_nodes);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.morphing() # operator instantiation
+op.inputs.displacement.connect(my_displacement)
+op.inputs.disp_mesh.connect(my_disp_mesh)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.in_place.connect(my_in_place)
+op.inputs.morphing_type.connect(my_morphing_type)
+op.inputs.morphing_manager_data.connect(my_morphing_manager_data)
+op.inputs.sliding_planes.connect(my_sliding_planes)
+op.inputs.sliding_nodes.connect(my_sliding_nodes)
+my_mesh = op.outputs.mesh()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.morphing() # operator instantiation
+op.inputs.displacement.Connect(my_displacement)
+op.inputs.disp_mesh.Connect(my_disp_mesh)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.in_place.Connect(my_in_place)
+op.inputs.morphing_type.Connect(my_morphing_type)
+op.inputs.morphing_manager_data.Connect(my_morphing_manager_data)
+op.inputs.sliding_planes.Connect(my_sliding_planes)
+op.inputs.sliding_nodes.Connect(my_sliding_nodes)
+my_mesh = op.outputs.mesh.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

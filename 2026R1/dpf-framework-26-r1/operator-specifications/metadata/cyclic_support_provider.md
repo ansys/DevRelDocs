@@ -58,6 +58,68 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("support_provider_cyclic"); // operator instantiation
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+op.connect(7, my_sector_meshed_region);
+op.connect(15, my_expanded_meshed_region);
+op.connect(18, my_sectors_to_expand);
+ansys::dpf::CyclicSupport my_cyclic_support = op.getOutput<ansys::dpf::CyclicSupport>(0);
+ansys::dpf::MeshesContainer my_sector_meshes = op.getOutput<ansys::dpf::MeshesContainer>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.cyclic_support_provider() # operator instantiation
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.sector_meshed_region.connect(my_sector_meshed_region)
+op.inputs.expanded_meshed_region.connect(my_expanded_meshed_region)
+op.inputs.sectors_to_expand.connect(my_sectors_to_expand)
+my_cyclic_support = op.outputs.cyclic_support()
+my_sector_meshes = op.outputs.sector_meshes()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.cyclic_support_provider() # operator instantiation
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.sector_meshed_region.Connect(my_sector_meshed_region)
+op.inputs.expanded_meshed_region.Connect(my_expanded_meshed_region)
+op.inputs.sectors_to_expand.Connect(my_sectors_to_expand)
+my_cyclic_support = op.outputs.cyclic_support.GetData()
+my_sector_meshes = op.outputs.sector_meshes.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

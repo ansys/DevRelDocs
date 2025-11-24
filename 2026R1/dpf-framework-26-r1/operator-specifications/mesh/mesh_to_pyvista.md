@@ -51,6 +51,74 @@ Export a MeshedRegion in the pyVista format.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh_to_pyvista"); // operator instantiation
+op.connect(2, my_coordinates);
+op.connect(6, my_as_linear);
+op.connect(7, my_mesh);
+op.connect(60, my_vtk_updated);
+op.connect(200, my_as_poly);
+ansys::dpf::Field my_nodes = op.getOutput<ansys::dpf::Field>(0);
+std::vector<int> my_cells = op.getOutput<std::vector<int>>(1);
+std::vector<int> my_cell_types = op.getOutput<std::vector<int>>(2);
+std::vector<int> my_offsets = op.getOutput<std::vector<int>>(3);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.None() # operator instantiation
+op.inputs.coordinates.connect(my_coordinates)
+op.inputs.as_linear.connect(my_as_linear)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.vtk_updated.connect(my_vtk_updated)
+op.inputs.as_poly.connect(my_as_poly)
+my_nodes = op.outputs.nodes()
+my_cells = op.outputs.cells()
+my_cell_types = op.outputs.cell_types()
+my_offsets = op.outputs.offsets()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.None() # operator instantiation
+op.inputs.coordinates.Connect(my_coordinates)
+op.inputs.as_linear.Connect(my_as_linear)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.vtk_updated.Connect(my_vtk_updated)
+op.inputs.as_poly.Connect(my_as_poly)
+my_nodes = op.outputs.nodes.GetData()
+my_cells = op.outputs.cells.GetData()
+my_cell_types = op.outputs.cell_types.GetData()
+my_offsets = op.outputs.offsets.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

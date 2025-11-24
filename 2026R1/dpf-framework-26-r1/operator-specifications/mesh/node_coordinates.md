@@ -44,6 +44,53 @@ Returns the node coordinates of the mesh(es) in input.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh::node_coordinates"); // operator instantiation
+op.connect(7, my_mesh);
+ansys::dpf::Field my_coordinates = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.node_coordinates() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+my_coordinates_as_field = op.outputs.coordinates_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.node_coordinates() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+my_coordinates = op.outputs.coordinates.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

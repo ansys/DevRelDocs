@@ -66,6 +66,95 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("beam_properties"); // operator instantiation
+op.connect(3, my_streams);
+op.connect(4, my_data_sources);
+ansys::dpf::MeshedRegion my_mesh_out = op.getOutput<ansys::dpf::MeshedRegion>(0);
+ansys::dpf::Field my_field_type_section_id = op.getOutput<ansys::dpf::Field>(1);
+ansys::dpf::Field my_field_area = op.getOutput<ansys::dpf::Field>(2);
+ansys::dpf::Field my_field_moment_inertia = op.getOutput<ansys::dpf::Field>(3);
+ansys::dpf::Field my_field_geometry = op.getOutput<ansys::dpf::Field>(4);
+ansys::dpf::Field my_field_young_modulus = op.getOutput<ansys::dpf::Field>(5);
+ansys::dpf::Field my_field_poisson_ratio = op.getOutput<ansys::dpf::Field>(6);
+ansys::dpf::Field my_field_shear_modulus = op.getOutput<ansys::dpf::Field>(7);
+ansys::dpf::Field my_field_beam_length = op.getOutput<ansys::dpf::Field>(8);
+ansys::dpf::Field my_field_torsion_constant = op.getOutput<ansys::dpf::Field>(9);
+ansys::dpf::Field my_field_warping_constant = op.getOutput<ansys::dpf::Field>(10);
+ansys::dpf::Field my_field_offset_type = op.getOutput<ansys::dpf::Field>(11);
+ansys::dpf::Field my_field_offset_y = op.getOutput<ansys::dpf::Field>(12);
+ansys::dpf::Field my_field_offset_z = op.getOutput<ansys::dpf::Field>(13);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.beam_properties() # operator instantiation
+op.inputs.streams.connect(my_streams)
+op.inputs.data_sources.connect(my_data_sources)
+my_mesh_out = op.outputs.mesh_out()
+my_field_type_section_id = op.outputs.field_type_section_id()
+my_field_area = op.outputs.field_area()
+my_field_moment_inertia = op.outputs.field_moment_inertia()
+my_field_geometry = op.outputs.field_geometry()
+my_field_young_modulus = op.outputs.field_young_modulus()
+my_field_poisson_ratio = op.outputs.field_poisson_ratio()
+my_field_shear_modulus = op.outputs.field_shear_modulus()
+my_field_beam_length = op.outputs.field_beam_length()
+my_field_torsion_constant = op.outputs.field_torsion_constant()
+my_field_warping_constant = op.outputs.field_warping_constant()
+my_field_offset_type = op.outputs.field_offset_type()
+my_field_offset_y = op.outputs.field_offset_y()
+my_field_offset_z = op.outputs.field_offset_z()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.beam_properties() # operator instantiation
+op.inputs.streams.Connect(my_streams)
+op.inputs.data_sources.Connect(my_data_sources)
+my_mesh_out = op.outputs.mesh_out.GetData()
+my_field_type_section_id = op.outputs.field_type_section_id.GetData()
+my_field_area = op.outputs.field_area.GetData()
+my_field_moment_inertia = op.outputs.field_moment_inertia.GetData()
+my_field_geometry = op.outputs.field_geometry.GetData()
+my_field_young_modulus = op.outputs.field_young_modulus.GetData()
+my_field_poisson_ratio = op.outputs.field_poisson_ratio.GetData()
+my_field_shear_modulus = op.outputs.field_shear_modulus.GetData()
+my_field_beam_length = op.outputs.field_beam_length.GetData()
+my_field_torsion_constant = op.outputs.field_torsion_constant.GetData()
+my_field_warping_constant = op.outputs.field_warping_constant.GetData()
+my_field_offset_type = op.outputs.field_offset_type.GetData()
+my_field_offset_y = op.outputs.field_offset_y.GetData()
+my_field_offset_z = op.outputs.field_offset_z.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

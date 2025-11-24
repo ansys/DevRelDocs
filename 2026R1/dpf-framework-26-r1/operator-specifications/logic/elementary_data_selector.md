@@ -47,6 +47,62 @@ Creates a scalar/vector field based on the selected elementary data.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("elementary_data_selector"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_elementary_data_index);
+op.connect(2, my_default_value);
+op.connect(3, my_elementary_data_index_2);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.elementary_data_selector() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.elementary_data_index.connect(my_elementary_data_index)
+op.inputs.default_value.connect(my_default_value)
+op.inputs.elementary_data_index_2.connect(my_elementary_data_index_2)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.elementary_data_selector() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.elementary_data_index.Connect(my_elementary_data_index)
+op.inputs.default_value.Connect(my_default_value)
+op.inputs.elementary_data_index_2.Connect(my_elementary_data_index_2)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

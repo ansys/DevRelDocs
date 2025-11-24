@@ -45,6 +45,56 @@ Provides the entire mesh scoping based on the requested location
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("MeshScopingProvider"); // operator instantiation
+op.connect(0, my_mesh);
+op.connect(1, my_requested_location);
+ansys::dpf::Scoping my_scoping = op.getOutput<ansys::dpf::Scoping>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.scoping.from_mesh() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+op.inputs.requested_location.connect(my_requested_location)
+my_scoping = op.outputs.scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.scoping.from_mesh() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.requested_location.Connect(my_requested_location)
+my_scoping = op.outputs.scoping.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

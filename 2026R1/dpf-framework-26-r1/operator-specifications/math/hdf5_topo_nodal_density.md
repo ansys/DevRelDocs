@@ -48,6 +48,65 @@ Extract Nodal Topology Density result from topo solver output. Default behavior 
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("hdf5::topo::nodal_density"); // operator instantiation
+op.connect(0, my_time_scoping);
+op.connect(1, my_mesh_scoping);
+op.connect(3, my_streams);
+op.connect(4, my_data_sources);
+op.connect(200, my_custom_ponderation_name);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.streams.connect(my_streams)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.custom_ponderation_name.connect(my_custom_ponderation_name)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.streams.Connect(my_streams)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.custom_ponderation_name.Connect(my_custom_ponderation_name)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

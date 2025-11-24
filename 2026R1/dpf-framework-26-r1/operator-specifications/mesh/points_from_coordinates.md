@@ -45,6 +45,56 @@ Extract a mesh made of points elements. This mesh is made from input meshes coor
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh::points_from_coordinates"); // operator instantiation
+op.connect(0, my_nodes_to_keep);
+op.connect(1, my_mesh);
+ansys::dpf::MeshedRegion my_abstract_meshed_region = op.getOutput<ansys::dpf::MeshedRegion>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.points_from_coordinates() # operator instantiation
+op.inputs.nodes_to_keep.connect(my_nodes_to_keep)
+op.inputs.mesh.connect(my_mesh)
+my_abstract_meshed_region = op.outputs.abstract_meshed_region()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.points_from_coordinates() # operator instantiation
+op.inputs.nodes_to_keep.Connect(my_nodes_to_keep)
+op.inputs.mesh.Connect(my_mesh)
+my_abstract_meshed_region = op.outputs.abstract_meshed_region.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

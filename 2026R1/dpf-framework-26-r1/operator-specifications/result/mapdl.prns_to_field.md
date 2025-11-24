@@ -45,6 +45,56 @@ Read the presol of nodal field generated file from mapdl.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("PRNS_Reader"); // operator instantiation
+op.connect(0, my_filepath);
+op.connect(1, my_columns_to_read);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.mapdl.prns_to_field() # operator instantiation
+op.inputs.filepath.connect(my_filepath)
+op.inputs.columns_to_read.connect(my_columns_to_read)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.mapdl.prns_to_field() # operator instantiation
+op.inputs.filepath.Connect(my_filepath)
+op.inputs.columns_to_read.Connect(my_columns_to_read)
+my_field = op.outputs.field.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

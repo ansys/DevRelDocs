@@ -50,6 +50,68 @@ Interpolates between all the matching fields of a fields container at given time
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("time_freq_interpolation"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_time_freq_values);
+op.connect(2, my_step);
+op.connect(3, my_interpolation_type);
+op.connect(4, my_force_new_time_freq_support);
+op.connect(8, my_time_freq_support);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.time_freq_values.connect(my_time_freq_values)
+op.inputs.step.connect(my_step)
+op.inputs.interpolation_type.connect(my_interpolation_type)
+op.inputs.force_new_time_freq_support.connect(my_force_new_time_freq_support)
+op.inputs.time_freq_support.connect(my_time_freq_support)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.time_freq_values.Connect(my_time_freq_values)
+op.inputs.step.Connect(my_step)
+op.inputs.interpolation_type.Connect(my_interpolation_type)
+op.inputs.force_new_time_freq_support.Connect(my_force_new_time_freq_support)
+op.inputs.time_freq_support.Connect(my_time_freq_support)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -61,6 +61,77 @@ Euler Angles need to be included in the database.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("compute_total_strain_3"); // operator instantiation
+op.connect(0, my_time_scoping);
+op.connect(1, my_scoping);
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+op.connect(5, my_extrapolate);
+op.connect(6, my_nonlinear);
+op.connect(7, my_abstract_meshed_region);
+op.connect(9, my_requested_location);
+op.connect(10, my_displacement);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.compute_total_strain_3() # operator instantiation
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.scoping.connect(my_scoping)
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.extrapolate.connect(my_extrapolate)
+op.inputs.nonlinear.connect(my_nonlinear)
+op.inputs.abstract_meshed_region.connect(my_abstract_meshed_region)
+op.inputs.requested_location.connect(my_requested_location)
+op.inputs.displacement.connect(my_displacement)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.compute_total_strain_3() # operator instantiation
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.scoping.Connect(my_scoping)
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.extrapolate.Connect(my_extrapolate)
+op.inputs.nonlinear.Connect(my_nonlinear)
+op.inputs.abstract_meshed_region.Connect(my_abstract_meshed_region)
+op.inputs.requested_location.Connect(my_requested_location)
+op.inputs.displacement.Connect(my_displacement)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

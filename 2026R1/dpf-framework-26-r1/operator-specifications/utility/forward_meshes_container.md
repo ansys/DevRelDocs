@@ -45,6 +45,56 @@ Returns the input mesh or meshes container into a meshes container.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("forward_meshes_container"); // operator instantiation
+op.connect(0, my_meshes);
+op.connect(1, my_default_label);
+ansys::dpf::MeshesContainer my_meshes_container = op.getOutput<ansys::dpf::MeshesContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.forward_meshes_container() # operator instantiation
+op.inputs.meshes.connect(my_meshes)
+op.inputs.default_label.connect(my_default_label)
+my_meshes_container = op.outputs.meshes_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.forward_meshes_container() # operator instantiation
+op.inputs.meshes.Connect(my_meshes)
+op.inputs.default_label.Connect(my_default_label)
+my_meshes_container = op.outputs.meshes_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

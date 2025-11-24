@@ -48,6 +48,66 @@ Splits a given scoping or the mesh scoping (nodal or elemental) on given propert
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("scoping::by_property"); // operator instantiation
+op.connect(1, my_mesh_scoping);
+op.connect(7, my_mesh);
+op.connect(9, my_requested_location);
+op.connect(12, my_skin_case);
+op.connect(13, my_label);
+ansys::dpf::ScopingsContainer my_mesh_scoping = op.getOutput<ansys::dpf::ScopingsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.scoping.split_on_property_type() # operator instantiation
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.requested_location.connect(my_requested_location)
+op.inputs.skin_case.connect(my_skin_case)
+op.inputs.label1.connect(my_label1)
+op.inputs.label2.connect(my_label2)
+my_mesh_scoping = op.outputs.mesh_scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.scoping.split_on_property_type() # operator instantiation
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.requested_location.Connect(my_requested_location)
+op.inputs.skin_case.Connect(my_skin_case)
+op.inputs.label.Connect(my_label)
+my_mesh_scoping = op.outputs.mesh_scoping.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

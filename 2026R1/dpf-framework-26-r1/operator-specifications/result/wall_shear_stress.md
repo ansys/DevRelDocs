@@ -56,6 +56,72 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("TAU"); // operator instantiation
+op.connect(0, my_time_scoping);
+op.connect(1, my_mesh_scoping);
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+op.connect(7, my_mesh);
+op.connect(25, my_region_scoping);
+op.connect(1000, my_qualifiers);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.wall_shear_stress() # operator instantiation
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.region_scoping.connect(my_region_scoping)
+op.inputs.qualifiers1.connect(my_qualifiers1)
+op.inputs.qualifiers2.connect(my_qualifiers2)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.wall_shear_stress() # operator instantiation
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.region_scoping.Connect(my_region_scoping)
+op.inputs.qualifiers.Connect(my_qualifiers)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

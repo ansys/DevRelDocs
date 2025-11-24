@@ -46,6 +46,59 @@ The band pass filter returns all the values above (but not equal to) the minimum
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("core::field::band_pass_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_min_threshold);
+op.connect(2, my_max_threshold);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.filter.field_band_pass_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.min_threshold.connect(my_min_threshold)
+op.inputs.max_threshold.connect(my_max_threshold)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.filter.field_band_pass_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.min_threshold.Connect(my_min_threshold)
+op.inputs.max_threshold.Connect(my_max_threshold)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

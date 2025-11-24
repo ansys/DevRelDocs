@@ -55,6 +55,77 @@ Compressing input data using one of zfp compression algorithm modes.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("zfp"); // operator instantiation
+op.connect(0, my_dataIn);
+op.connect(1, my_mode);
+op.connect(2, my_mode_parameter);
+op.connect(3, my_dim);
+op.connect(4, my_order);
+op.connect(5, my_double_absthreshold);
+op.connect(6, my_double_relthreshold);
+double my_compress_speed = op.getOutput<double>(0);
+double my_compress_ratio = op.getOutput<double>(1);
+ansys::dpf::CustomTypeFieldsContainer my_dataOut = op.getOutput<ansys::dpf::CustomTypeFieldsContainer>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.compression.apply_zfp() # operator instantiation
+op.inputs.dataIn.connect(my_dataIn)
+op.inputs.mode.connect(my_mode)
+op.inputs.mode_parameter.connect(my_mode_parameter)
+op.inputs.dim.connect(my_dim)
+op.inputs.order.connect(my_order)
+op.inputs.double_absthreshold.connect(my_double_absthreshold)
+op.inputs.double_relthreshold.connect(my_double_relthreshold)
+my_compress_speed = op.outputs.compress_speed()
+my_compress_ratio = op.outputs.compress_ratio()
+my_dataOut = op.outputs.dataOut()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.compression.apply_zfp() # operator instantiation
+op.inputs.dataIn.Connect(my_dataIn)
+op.inputs.mode.Connect(my_mode)
+op.inputs.mode_parameter.Connect(my_mode_parameter)
+op.inputs.dim.Connect(my_dim)
+op.inputs.order.Connect(my_order)
+op.inputs.double_absthreshold.Connect(my_double_absthreshold)
+op.inputs.double_relthreshold.Connect(my_double_relthreshold)
+my_compress_speed = op.outputs.compress_speed.GetData()
+my_compress_ratio = op.outputs.compress_ratio.GetData()
+my_dataOut = op.outputs.dataOut.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

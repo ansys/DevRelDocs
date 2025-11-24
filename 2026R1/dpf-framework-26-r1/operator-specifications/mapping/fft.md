@@ -49,6 +49,68 @@ Computes the Fast Fourier Transform on each component of input Field or each fie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("fft"); // operator instantiation
+op.connect(0, my_field);
+op.connect(3, my_scale_forward_transform);
+op.connect(4, my_inplace);
+op.connect(5, my_force_fft_points);
+op.connect(6, my_cutoff_frequency);
+op.connect(7, my_scale_right_amplitude);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.fft() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.scale_forward_transform.connect(my_scale_forward_transform)
+op.inputs.inplace.connect(my_inplace)
+op.inputs.force_fft_points.connect(my_force_fft_points)
+op.inputs.cutoff_frequency.connect(my_cutoff_frequency)
+op.inputs.scale_right_amplitude.connect(my_scale_right_amplitude)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.fft() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.scale_forward_transform.Connect(my_scale_forward_transform)
+op.inputs.inplace.Connect(my_inplace)
+op.inputs.force_fft_points.Connect(my_force_fft_points)
+op.inputs.cutoff_frequency.Connect(my_cutoff_frequency)
+op.inputs.scale_right_amplitude.Connect(my_scale_right_amplitude)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 

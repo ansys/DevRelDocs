@@ -46,6 +46,59 @@ Splits a Streams into multiple coherent streams, actual number of outputs is alw
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("splitter::streams"); // operator instantiation
+op.connect(0, my_streams);
+op.connect(1, my_output_count);
+int my_output_count = op.getOutput<int>(-1);
+ansys::dpf::Streams my_outputs = op.getOutput<ansys::dpf::Streams>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.split_streams() # operator instantiation
+op.inputs.streams.connect(my_streams)
+op.inputs.output_count.connect(my_output_count)
+my_output_count = op.outputs.output_count()
+my_outputs = op.outputs.outputs()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.split_streams() # operator instantiation
+op.inputs.streams.Connect(my_streams)
+op.inputs.output_count.Connect(my_output_count)
+my_output_count = op.outputs.output_count.GetData()
+my_outputs = op.outputs.outputs.GetData()
+```
+</details>
+
+<details>
+<summary>C#</summary>
+
+```csharp
+// C# usage example
+```
+</details>
+<br>
 
 ## Changelog
 
