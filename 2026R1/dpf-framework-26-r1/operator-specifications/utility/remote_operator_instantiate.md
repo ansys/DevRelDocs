@@ -100,14 +100,6 @@ op.inputs.output_name.Connect(my_output_name)
 my_remote_workflow = op.outputs.remote_workflow.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

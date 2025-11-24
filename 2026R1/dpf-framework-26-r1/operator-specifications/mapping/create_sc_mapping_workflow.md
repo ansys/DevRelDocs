@@ -107,14 +107,6 @@ op.inputs.target_scoping.Connect(my_target_scoping)
 my_mapping_workflow = op.outputs.mapping_workflow.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

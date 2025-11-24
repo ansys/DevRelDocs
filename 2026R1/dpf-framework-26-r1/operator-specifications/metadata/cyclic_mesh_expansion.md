@@ -94,14 +94,6 @@ my_meshed_region = op.outputs.meshed_region.GetData()
 my_cyclic_support = op.outputs.cyclic_support.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

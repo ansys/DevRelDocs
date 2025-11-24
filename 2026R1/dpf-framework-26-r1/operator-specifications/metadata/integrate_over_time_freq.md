@@ -90,14 +90,6 @@ op.inputs.time_freq_support.Connect(my_time_freq_support)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

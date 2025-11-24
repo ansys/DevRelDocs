@@ -90,14 +90,6 @@ my_field_container_1 = op.outputs.field_container_1.GetData()
 my_field_container_2 = op.outputs.field_container_2.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

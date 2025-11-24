@@ -78,14 +78,6 @@ op = dpf.operators.server.grpc_shutdown_server() # operator instantiation
 op.inputs.grpc_stream.Connect(my_grpc_stream)
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

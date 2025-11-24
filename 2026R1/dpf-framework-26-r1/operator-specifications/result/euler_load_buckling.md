@@ -102,14 +102,6 @@ my_field_euler_critical_load_yy = op.outputs.field_euler_critical_load_yy.GetDat
 my_field_euler_critical_load_zz = op.outputs.field_euler_critical_load_zz.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

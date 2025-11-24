@@ -82,14 +82,6 @@ op.inputs.operator_name.Connect(my_operator_name)
 my_any = op.outputs.any.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

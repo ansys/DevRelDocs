@@ -86,14 +86,6 @@ op.inputs.matrix_form.Connect(my_matrix_form)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -82,14 +82,6 @@ op.inputs.input.Connect(my_input)
 my_incremented_result = op.outputs.incremented_result.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

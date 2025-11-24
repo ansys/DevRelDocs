@@ -115,14 +115,6 @@ my_residuals_normalization_factor = op.outputs.residuals_normalization_factor.Ge
 my_error_normalization_factor = op.outputs.error_normalization_factor.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

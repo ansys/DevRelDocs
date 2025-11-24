@@ -94,14 +94,6 @@ op.inputs.phase_increment.Connect(my_phase_increment)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

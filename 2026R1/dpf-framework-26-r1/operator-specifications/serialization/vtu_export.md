@@ -112,14 +112,6 @@ op.inputs.mesh_properties.Connect(my_mesh_properties)
 my_path = op.outputs.path.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

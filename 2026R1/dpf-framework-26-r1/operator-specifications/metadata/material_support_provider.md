@@ -94,14 +94,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_abstract_field_support = op.outputs.abstract_field_support.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

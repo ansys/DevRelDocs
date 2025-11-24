@@ -86,14 +86,6 @@ op.inputs.support.Connect(my_support)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

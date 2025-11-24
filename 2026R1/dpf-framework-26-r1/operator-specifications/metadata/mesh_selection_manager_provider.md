@@ -94,14 +94,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_mesh_selection_manager = op.outputs.mesh_selection_manager.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

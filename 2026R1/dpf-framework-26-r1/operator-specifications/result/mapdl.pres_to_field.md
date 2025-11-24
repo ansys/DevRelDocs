@@ -86,14 +86,6 @@ op.inputs.columns_to_read.Connect(my_columns_to_read)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

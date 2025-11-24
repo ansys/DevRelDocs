@@ -90,14 +90,6 @@ op.inputs.collapse_shell_layers.Connect(my_collapse_shell_layers)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -90,14 +90,6 @@ op.inputs.collapse_labels.Connect(my_collapse_labels)
 my_scopings_container = op.outputs.scopings_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -107,14 +107,6 @@ op.inputs.valueC.Connect(my_valueC)
 my_output = op.outputs.output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

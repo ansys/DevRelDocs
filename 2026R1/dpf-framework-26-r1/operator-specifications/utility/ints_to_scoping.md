@@ -90,14 +90,6 @@ op.inputs.upper_bound.Connect(my_upper_bound)
 my_scoping = op.outputs.scoping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

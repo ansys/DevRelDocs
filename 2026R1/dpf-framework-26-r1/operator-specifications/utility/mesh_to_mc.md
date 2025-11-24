@@ -86,14 +86,6 @@ op.inputs.label.Connect(my_label)
 my_meshes_container = op.outputs.meshes_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

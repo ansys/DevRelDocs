@@ -86,14 +86,6 @@ op.inputs.rhs.Connect(my_rhs)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

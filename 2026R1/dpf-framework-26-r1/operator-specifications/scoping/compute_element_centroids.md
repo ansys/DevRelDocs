@@ -91,14 +91,6 @@ my_centroids = op.outputs.centroids.GetData()
 my_measure = op.outputs.measure.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

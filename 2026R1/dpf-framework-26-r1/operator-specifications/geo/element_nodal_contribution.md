@@ -90,14 +90,6 @@ op.inputs.volume_fraction.Connect(my_volume_fraction)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

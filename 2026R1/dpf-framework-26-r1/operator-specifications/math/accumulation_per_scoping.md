@@ -102,14 +102,6 @@ my_accumulation_per_scoping = op.outputs.accumulation_per_scoping.GetData()
 my_accumulation_per_scoping_percentage = op.outputs.accumulation_per_scoping_percentage.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

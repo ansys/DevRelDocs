@@ -106,14 +106,6 @@ my_field = op.outputs.field.GetData()
 my_weight = op.outputs.weight.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

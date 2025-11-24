@@ -170,14 +170,6 @@ my_invrt_7 = op.outputs.invrt_7.GetData()
 my_invrt_8 = op.outputs.invrt_8.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

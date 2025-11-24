@@ -90,14 +90,6 @@ op.inputs.is_constant.Connect(my_is_constant)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

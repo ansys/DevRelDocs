@@ -90,14 +90,6 @@ my_intersection = op.outputs.intersection.GetData()
 my_scopingA_min_intersection = op.outputs.scopingA_min_intersection.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

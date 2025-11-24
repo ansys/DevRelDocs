@@ -90,14 +90,6 @@ my_u_svd = op.outputs.u_svd.GetData()
 my_vt_svd = op.outputs.vt_svd.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

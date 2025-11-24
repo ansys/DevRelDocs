@@ -100,14 +100,6 @@ my_zero_ref_scoping = op.outputs.zero_ref_scoping.GetData()
 my_no_ref_scoping = op.outputs.no_ref_scoping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

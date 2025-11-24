@@ -94,14 +94,6 @@ my_time_tfs_sampled = op.outputs.time_tfs_sampled.GetData()
 my_freq_tfs_fft = op.outputs.freq_tfs_fft.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

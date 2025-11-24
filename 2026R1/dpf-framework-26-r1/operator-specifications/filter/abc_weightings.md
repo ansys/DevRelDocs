@@ -91,14 +91,6 @@ op.inputs.shape_by_tf_scoping.Connect(my_shape_by_tf_scoping)
 my_weightings = op.outputs.weightings.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

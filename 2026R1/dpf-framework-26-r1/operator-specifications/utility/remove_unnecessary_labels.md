@@ -91,14 +91,6 @@ op.inputs.label_to_remove.Connect(my_label_to_remove)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -86,14 +86,6 @@ op.inputs.property_fields_container_element_types.Connect(my_property_fields_con
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

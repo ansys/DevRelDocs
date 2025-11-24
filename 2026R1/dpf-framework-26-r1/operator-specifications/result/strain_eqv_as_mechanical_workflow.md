@@ -110,14 +110,6 @@ op.inputs.average_across_bodies.Connect(my_average_across_bodies)
 my_workflow = op.outputs.workflow.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

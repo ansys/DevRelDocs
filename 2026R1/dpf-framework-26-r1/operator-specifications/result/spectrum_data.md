@@ -114,14 +114,6 @@ my_missing_mass = op.outputs.missing_mass.GetData()
 my_rigid_response = op.outputs.rigid_response.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -104,14 +104,6 @@ my_vt_svd = op.outputs.vt_svd.GetData()
 my_sigma = op.outputs.sigma.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

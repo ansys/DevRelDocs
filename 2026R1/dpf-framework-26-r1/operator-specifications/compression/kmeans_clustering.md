@@ -94,14 +94,6 @@ op.inputs.component_number.Connect(my_component_number)
 my_scoping_clusters = op.outputs.scoping_clusters.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

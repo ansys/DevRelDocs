@@ -86,14 +86,6 @@ op.inputs.spline_fitting.Connect(my_spline_fitting)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

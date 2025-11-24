@@ -98,14 +98,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_coordinate_system_data = op.outputs.coordinate_system_data.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

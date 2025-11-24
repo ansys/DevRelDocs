@@ -82,14 +82,6 @@ op.inputs.path.Connect(my_path)
 op.inputs.mesh.Connect(my_mesh)
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -86,14 +86,6 @@ op.inputs.format.Connect(my_format)
 my_workflow = op.outputs.workflow.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

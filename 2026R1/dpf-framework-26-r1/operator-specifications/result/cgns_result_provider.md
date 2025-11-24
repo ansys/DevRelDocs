@@ -102,14 +102,6 @@ op.inputs.region_scoping.Connect(my_region_scoping)
 my_fields = op.outputs.fields.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

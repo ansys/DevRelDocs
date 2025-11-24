@@ -91,14 +91,6 @@ my_min = op.outputs.min.GetData()
 my_max = op.outputs.max.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

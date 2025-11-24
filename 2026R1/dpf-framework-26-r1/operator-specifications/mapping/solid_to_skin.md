@@ -92,14 +92,6 @@ op.inputs.solid_mesh.Connect(my_solid_mesh)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -154,14 +154,6 @@ op.inputs.rstfile_path.Connect(my_rstfile_path)
 my_dfmf_data_source = op.outputs.dfmf_data_source.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

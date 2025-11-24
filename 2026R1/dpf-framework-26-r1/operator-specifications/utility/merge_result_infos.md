@@ -84,14 +84,6 @@ op.inputs.result_infos.Connect(my_result_infos)
 my_merged_result_infos = op.outputs.merged_result_infos.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -86,14 +86,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_layer_orientation_data = op.outputs.layer_orientation_data.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -131,14 +131,6 @@ my_component_kinetic_energy = op.outputs.component_kinetic_energy.GetData()
 my_component_kinetic_energy_percentage = op.outputs.component_kinetic_energy_percentage.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

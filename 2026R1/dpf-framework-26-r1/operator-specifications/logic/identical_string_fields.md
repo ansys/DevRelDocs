@@ -90,14 +90,6 @@ my_are_identical = op.outputs.are_identical.GetData()
 my_information = op.outputs.information.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

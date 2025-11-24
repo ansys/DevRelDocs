@@ -90,14 +90,6 @@ my_output_count = op.outputs.output_count.GetData()
 my_outputs = op.outputs.outputs.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

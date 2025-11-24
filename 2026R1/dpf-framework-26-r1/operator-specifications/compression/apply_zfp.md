@@ -117,14 +117,6 @@ my_compress_ratio = op.outputs.compress_ratio.GetData()
 my_dataOut = op.outputs.dataOut.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

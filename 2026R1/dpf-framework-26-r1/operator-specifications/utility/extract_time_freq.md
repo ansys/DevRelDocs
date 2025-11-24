@@ -90,14 +90,6 @@ op.inputs.real_or_complex.Connect(my_real_or_complex)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

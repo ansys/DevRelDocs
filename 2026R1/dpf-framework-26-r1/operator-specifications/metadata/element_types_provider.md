@@ -111,14 +111,6 @@ op.inputs.output_type.Connect(my_output_type)
 my_element_types_data = op.outputs.element_types_data.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

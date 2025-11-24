@@ -98,14 +98,6 @@ my_field = op.outputs.field.GetData()
 my_index = op.outputs.index.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -102,14 +102,6 @@ my_field = op.outputs.field.GetData()
 my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

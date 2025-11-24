@@ -88,14 +88,6 @@ op.inputs.scopings_container.Connect(my_scopings_container)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

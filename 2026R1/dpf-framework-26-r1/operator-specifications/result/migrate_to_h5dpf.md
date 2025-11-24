@@ -122,14 +122,6 @@ op.inputs.filtering_workflow.Connect(my_filtering_workflow)
 my_migrated_file = op.outputs.migrated_file.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -92,14 +92,6 @@ op.inputs.default_value.Connect(my_default_value)
 my_fields = op.outputs.fields.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

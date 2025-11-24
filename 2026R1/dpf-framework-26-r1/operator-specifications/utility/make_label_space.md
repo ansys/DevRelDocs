@@ -91,14 +91,6 @@ op.inputs.label_value.Connect(my_label_value)
 my_label = op.outputs.label.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

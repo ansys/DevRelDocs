@@ -108,14 +108,6 @@ op.inputs.sliding_nodes.Connect(my_sliding_nodes)
 my_coordinates_displacement = op.outputs.coordinates_displacement.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

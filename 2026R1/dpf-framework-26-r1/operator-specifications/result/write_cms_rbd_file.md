@@ -174,14 +174,6 @@ op.inputs.file_path.Connect(my_file_path)
 my_data_sources = op.outputs.data_sources.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

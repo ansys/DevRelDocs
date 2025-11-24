@@ -86,14 +86,6 @@ op.inputs.requested_location.Connect(my_requested_location)
 my_scoping = op.outputs.scoping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

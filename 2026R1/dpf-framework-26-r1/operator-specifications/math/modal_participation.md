@@ -98,14 +98,6 @@ op.inputs.force_label_space.Connect(my_force_label_space)
 my_output = op.outputs.output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

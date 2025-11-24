@@ -92,14 +92,6 @@ my_field_eqv = op.outputs.field_eqv.GetData()
 my_field_max_shear = op.outputs.field_max_shear.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

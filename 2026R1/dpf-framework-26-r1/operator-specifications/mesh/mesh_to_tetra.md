@@ -90,14 +90,6 @@ my_node_mapping = op.outputs.node_mapping.GetData()
 my_element_mapping = op.outputs.element_mapping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

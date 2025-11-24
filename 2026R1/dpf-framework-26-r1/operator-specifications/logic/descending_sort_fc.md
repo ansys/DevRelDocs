@@ -90,14 +90,6 @@ op.inputs.sort_by_scoping.Connect(my_sort_by_scoping)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -82,14 +82,6 @@ op.inputs.strain_field.Connect(my_strain_field)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

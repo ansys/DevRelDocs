@@ -82,14 +82,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_mass = op.outputs.mass.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

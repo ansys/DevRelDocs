@@ -94,14 +94,6 @@ my_mesh = op.outputs.mesh.GetData()
 my_nodes_mesh_scoping = op.outputs.nodes_mesh_scoping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

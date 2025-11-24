@@ -98,14 +98,6 @@ op.inputs.integration_constant.Connect(my_integration_constant)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

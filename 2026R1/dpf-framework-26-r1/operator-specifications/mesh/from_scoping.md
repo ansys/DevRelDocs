@@ -94,14 +94,6 @@ op.inputs.mesh.Connect(my_mesh)
 my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

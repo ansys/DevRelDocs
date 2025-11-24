@@ -94,14 +94,6 @@ op.inputs.requested_location.Connect(my_requested_location)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

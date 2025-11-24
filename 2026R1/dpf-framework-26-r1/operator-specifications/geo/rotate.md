@@ -88,14 +88,6 @@ op.inputs.field_rotation_matrix.Connect(my_field_rotation_matrix)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

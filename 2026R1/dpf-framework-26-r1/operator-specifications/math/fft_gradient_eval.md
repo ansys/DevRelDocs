@@ -90,14 +90,6 @@ op.inputs.fs_ratio.Connect(my_fs_ratio)
 my_coefficients = op.outputs.coefficients.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

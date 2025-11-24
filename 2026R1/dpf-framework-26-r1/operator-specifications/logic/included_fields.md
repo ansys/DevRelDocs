@@ -98,14 +98,6 @@ my_included = op.outputs.included.GetData()
 my_message = op.outputs.message.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

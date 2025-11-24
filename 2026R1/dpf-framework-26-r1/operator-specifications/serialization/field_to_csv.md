@@ -86,14 +86,6 @@ op.inputs.file_path.Connect(my_file_path)
 op.inputs.storage_type.Connect(my_storage_type)
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

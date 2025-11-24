@@ -121,14 +121,6 @@ my_first_der_dy = op.outputs.first_der_dy.GetData()
 my_second_der_d2y = op.outputs.second_der_d2y.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

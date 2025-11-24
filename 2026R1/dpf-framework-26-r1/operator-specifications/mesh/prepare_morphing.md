@@ -90,14 +90,6 @@ op.inputs.mesh.Connect(my_mesh)
 my_morphing_manager_data = op.outputs.morphing_manager_data.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

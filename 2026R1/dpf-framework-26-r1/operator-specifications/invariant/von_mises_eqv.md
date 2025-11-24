@@ -88,14 +88,6 @@ op.inputs.poisson_ratio.Connect(my_poisson_ratio)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

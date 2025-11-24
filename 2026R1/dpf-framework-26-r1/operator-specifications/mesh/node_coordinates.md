@@ -82,14 +82,6 @@ op.inputs.mesh.Connect(my_mesh)
 my_coordinates = op.outputs.coordinates.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

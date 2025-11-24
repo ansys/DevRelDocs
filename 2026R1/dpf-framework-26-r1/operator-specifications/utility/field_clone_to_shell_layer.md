@@ -90,14 +90,6 @@ op.inputs.duplicate_scoping.Connect(my_duplicate_scoping)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

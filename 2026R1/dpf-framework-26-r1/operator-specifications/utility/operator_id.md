@@ -82,14 +82,6 @@ op.inputs.op.Connect(my_op)
 my_id = op.outputs.id.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

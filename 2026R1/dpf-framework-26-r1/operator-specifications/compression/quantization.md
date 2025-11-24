@@ -86,14 +86,6 @@ op.inputs.threshold.Connect(my_threshold)
 my_output_field = op.outputs.output_field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

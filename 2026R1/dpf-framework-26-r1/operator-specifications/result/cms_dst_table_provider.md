@@ -82,14 +82,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_dst_table = op.outputs.dst_table.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

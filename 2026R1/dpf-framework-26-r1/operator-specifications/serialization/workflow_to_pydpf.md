@@ -87,14 +87,6 @@ op.inputs.output_path.Connect(my_output_path)
 my_pydpf_code = op.outputs.pydpf_code.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

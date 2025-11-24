@@ -108,14 +108,6 @@ op.inputs.write_mode.Connect(my_write_mode)
 my_path = op.outputs.path.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

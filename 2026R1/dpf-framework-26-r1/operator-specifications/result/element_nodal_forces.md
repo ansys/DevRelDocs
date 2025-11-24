@@ -186,14 +186,6 @@ op.inputs.split_force_components.Connect(my_split_force_components)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

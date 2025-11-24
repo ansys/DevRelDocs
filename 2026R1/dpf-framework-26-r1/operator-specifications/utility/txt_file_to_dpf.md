@@ -82,14 +82,6 @@ op.inputs.input_string.Connect(my_input_string)
 my_any_output = op.outputs.any_output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

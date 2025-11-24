@@ -92,14 +92,6 @@ op.inputs.field_or_fields_container_B.Connect(my_field_or_fields_container_B)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

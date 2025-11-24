@@ -84,14 +84,6 @@ op.inputs.meshes_containers.Connect(my_meshes_containers)
 my_merged_meshes_container = op.outputs.merged_meshes_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -94,14 +94,6 @@ op.inputs.through_layers.Connect(my_through_layers)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

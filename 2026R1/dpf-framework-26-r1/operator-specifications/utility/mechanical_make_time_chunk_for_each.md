@@ -118,14 +118,6 @@ op.inputs.consumer_op1.Connect(my_consumer_op1)
 my_chunks = op.outputs.chunks.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

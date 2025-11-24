@@ -92,14 +92,6 @@ my_fields_eig_2 = op.outputs.fields_eig_2.GetData()
 my_fields_eig_3 = op.outputs.fields_eig_3.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

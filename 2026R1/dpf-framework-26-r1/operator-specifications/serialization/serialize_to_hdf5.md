@@ -91,14 +91,6 @@ op.inputs.export_flat_vectors.Connect(my_export_flat_vectors)
 op.inputs.data.Connect(my_data)
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

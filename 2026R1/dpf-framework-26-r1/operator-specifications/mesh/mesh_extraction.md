@@ -90,14 +90,6 @@ op.inputs.extension.Connect(my_extension)
 my_abstract_meshed_region = op.outputs.abstract_meshed_region.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -98,14 +98,6 @@ my_normals = op.outputs.normals.GetData()
 my_connectivity = op.outputs.connectivity.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

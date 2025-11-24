@@ -104,14 +104,6 @@ op.inputs.remove_duplicate_elements.Connect(my_remove_duplicate_elements)
 my_merges_mesh = op.outputs.merges_mesh.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

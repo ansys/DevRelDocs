@@ -106,14 +106,6 @@ op.inputs.speed_of_sound.Connect(my_speed_of_sound)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

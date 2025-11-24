@@ -106,14 +106,6 @@ my_scoping_ids_min = op.outputs.scoping_ids_min.GetData()
 my_scoping_ids_max = op.outputs.scoping_ids_max.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

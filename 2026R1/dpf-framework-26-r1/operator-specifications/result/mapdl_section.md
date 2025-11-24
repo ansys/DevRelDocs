@@ -106,14 +106,6 @@ my_properties_value = op.outputs.properties_value.GetData()
 my_layers_per_section = op.outputs.layers_per_section.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

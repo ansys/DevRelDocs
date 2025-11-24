@@ -84,14 +84,6 @@ op.inputs.collections.Connect(my_collections)
 my_merged_collections = op.outputs.merged_collections.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

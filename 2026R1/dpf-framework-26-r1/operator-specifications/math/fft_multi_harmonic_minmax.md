@@ -122,14 +122,6 @@ my_field_max = op.outputs.field_max.GetData()
 my_all_fields = op.outputs.all_fields.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

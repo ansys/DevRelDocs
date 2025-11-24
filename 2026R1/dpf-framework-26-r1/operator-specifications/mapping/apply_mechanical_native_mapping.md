@@ -110,14 +110,6 @@ my_mapped_data = op.outputs.mapped_data.GetData()
 my_apply_output = op.outputs.apply_output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

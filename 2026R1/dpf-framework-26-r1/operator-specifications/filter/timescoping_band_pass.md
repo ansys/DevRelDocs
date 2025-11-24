@@ -90,14 +90,6 @@ op.inputs.max_threshold.Connect(my_max_threshold)
 my_scoping = op.outputs.scoping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

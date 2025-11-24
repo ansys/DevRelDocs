@@ -94,14 +94,6 @@ op.inputs.threshold.Connect(my_threshold)
 my_workflow = op.outputs.workflow.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

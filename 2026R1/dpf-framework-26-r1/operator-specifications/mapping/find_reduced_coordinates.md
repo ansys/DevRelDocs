@@ -94,14 +94,6 @@ my_reduced_coordinates = op.outputs.reduced_coordinates.GetData()
 my_element_ids = op.outputs.element_ids.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

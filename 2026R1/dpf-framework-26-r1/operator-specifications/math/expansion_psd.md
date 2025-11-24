@@ -100,14 +100,6 @@ op.inputs.rel_stat_covar_matrix.Connect(my_rel_stat_covar_matrix)
 my_psd = op.outputs.psd.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

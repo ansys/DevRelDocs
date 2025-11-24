@@ -100,14 +100,6 @@ op.inputs.fields_containers.Connect(my_fields_containers)
 my_merged_fields_container = op.outputs.merged_fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -110,14 +110,6 @@ my_property_field_new_elements_to_old = op.outputs.property_field_new_elements_t
 my_facet_indices = op.outputs.facet_indices.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

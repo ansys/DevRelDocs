@@ -87,14 +87,6 @@ op.inputs.supports.Connect(my_supports)
 my_merged_support = op.outputs.merged_support.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

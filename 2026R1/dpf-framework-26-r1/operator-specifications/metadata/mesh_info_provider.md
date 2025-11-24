@@ -101,14 +101,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_mesh_info = op.outputs.mesh_info.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

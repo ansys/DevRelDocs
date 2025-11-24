@@ -102,14 +102,6 @@ op.inputs.dpf_context.Connect(my_dpf_context)
 my_grpc_streams = op.outputs.grpc_streams.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

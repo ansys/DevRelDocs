@@ -102,14 +102,6 @@ my_harmonic_energy = op.outputs.harmonic_energy.GetData()
 my_harmonic_energy_percentage = op.outputs.harmonic_energy_percentage.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

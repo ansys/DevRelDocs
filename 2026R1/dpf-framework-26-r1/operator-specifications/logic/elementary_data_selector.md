@@ -94,14 +94,6 @@ op.inputs.elementary_data_index_2.Connect(my_elementary_data_index_2)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

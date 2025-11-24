@@ -111,14 +111,6 @@ op.inputs.region_scoping.Connect(my_region_scoping)
 my_meshes = op.outputs.meshes.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -94,14 +94,6 @@ op.inputs.property_name.Connect(my_property_name)
 my_property_field = op.outputs.property_field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

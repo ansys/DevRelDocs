@@ -111,14 +111,6 @@ my_cyclic_support = op.outputs.cyclic_support.GetData()
 my_sector_meshes = op.outputs.sector_meshes.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

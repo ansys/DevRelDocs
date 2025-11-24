@@ -90,14 +90,6 @@ op.inputs.max_threshold.Connect(my_max_threshold)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

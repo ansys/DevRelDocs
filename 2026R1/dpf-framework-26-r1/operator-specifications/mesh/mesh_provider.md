@@ -115,14 +115,6 @@ op.inputs.laziness.Connect(my_laziness)
 my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

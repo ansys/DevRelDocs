@@ -90,14 +90,6 @@ op.inputs.both.Connect(my_both)
 my_scoping = op.outputs.scoping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

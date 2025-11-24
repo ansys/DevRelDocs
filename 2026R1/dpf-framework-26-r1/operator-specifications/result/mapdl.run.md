@@ -110,14 +110,6 @@ my_ip = op.outputs.ip.GetData()
 my_port = op.outputs.port.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

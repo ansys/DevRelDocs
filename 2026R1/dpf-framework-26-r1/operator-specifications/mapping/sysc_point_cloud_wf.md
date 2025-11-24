@@ -94,14 +94,6 @@ op.inputs.options_data_tree.Connect(my_options_data_tree)
 my_mapping_workflow = op.outputs.mapping_workflow.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

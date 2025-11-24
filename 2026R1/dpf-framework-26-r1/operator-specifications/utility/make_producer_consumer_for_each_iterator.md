@@ -127,14 +127,6 @@ op.inputs.consumer_op1.Connect(my_consumer_op1)
 my_iterator = op.outputs.iterator.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

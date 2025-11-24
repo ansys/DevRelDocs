@@ -82,14 +82,6 @@ op.inputs.workflow.Connect(my_workflow)
 my_operators = op.outputs.operators.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -98,14 +98,6 @@ my_domain_ids_min = op.outputs.domain_ids_min.GetData()
 my_domain_ids_max = op.outputs.domain_ids_max.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

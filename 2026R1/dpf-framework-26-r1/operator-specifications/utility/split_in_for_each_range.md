@@ -98,14 +98,6 @@ op.inputs.chunk_size.Connect(my_chunk_size)
 my_output = op.outputs.output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

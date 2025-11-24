@@ -100,14 +100,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_result_info = op.outputs.result_info.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

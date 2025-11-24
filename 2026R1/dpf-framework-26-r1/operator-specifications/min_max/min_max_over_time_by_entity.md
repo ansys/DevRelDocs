@@ -106,14 +106,6 @@ my_time_freq_of_min = op.outputs.time_freq_of_min.GetData()
 my_time_freq_of_max = op.outputs.time_freq_of_max.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

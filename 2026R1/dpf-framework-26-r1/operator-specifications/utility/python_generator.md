@@ -90,14 +90,6 @@ op.inputs.load_symbol.Connect(my_load_symbol)
 op.inputs.library_key.Connect(my_library_key)
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -82,14 +82,6 @@ op.inputs.string_or_path.Connect(my_string_or_path)
 my_data_tree = op.outputs.data_tree.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

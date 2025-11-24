@@ -82,14 +82,6 @@ op.inputs.workflow.Connect(my_workflow)
 my_workflow_topology = op.outputs.workflow_topology.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

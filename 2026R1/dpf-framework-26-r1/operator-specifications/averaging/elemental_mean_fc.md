@@ -106,14 +106,6 @@ op.inputs.e_shell_layer.Connect(my_e_shell_layer)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -150,14 +150,6 @@ my_meshed_region = op.outputs.meshed_region.GetData()
 my_phi_ortho = op.outputs.phi_ortho.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

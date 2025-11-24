@@ -94,14 +94,6 @@ op.inputs.shell_layer.Connect(my_shell_layer)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

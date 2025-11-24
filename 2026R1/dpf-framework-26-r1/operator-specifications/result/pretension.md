@@ -122,14 +122,6 @@ my_adjustment = op.outputs.adjustment.GetData()
 my_tension_force = op.outputs.tension_force.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -98,14 +98,6 @@ op.inputs.slice_surfaces.Connect(my_slice_surfaces)
 my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

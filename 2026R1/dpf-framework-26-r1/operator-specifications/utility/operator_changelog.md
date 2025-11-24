@@ -82,14 +82,6 @@ op.inputs.operator_name.Connect(my_operator_name)
 my_changelog_gdc = op.outputs.changelog_gdc.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

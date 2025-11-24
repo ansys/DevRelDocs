@@ -254,14 +254,6 @@ op.inputs.bogus_input.Connect(my_bogus_input)
 my_bogus_output = op.outputs.bogus_output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

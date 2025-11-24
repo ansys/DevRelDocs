@@ -206,14 +206,6 @@ my_dnyn = op.outputs.dnyn.GetData()
 my_dnzn = op.outputs.dnzn.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

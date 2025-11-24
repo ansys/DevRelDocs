@@ -102,14 +102,6 @@ op.inputs.imaginary_part_null.Connect(my_imaginary_part_null)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

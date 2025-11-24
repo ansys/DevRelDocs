@@ -102,14 +102,6 @@ my_rotation_field = op.outputs.rotation_field.GetData()
 my_center_field = op.outputs.center_field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

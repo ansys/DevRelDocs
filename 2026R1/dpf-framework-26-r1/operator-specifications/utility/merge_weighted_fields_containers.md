@@ -101,14 +101,6 @@ op.inputs.weights.Connect(my_weights)
 my_merged_fields_container = op.outputs.merged_fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

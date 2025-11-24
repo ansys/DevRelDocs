@@ -98,14 +98,6 @@ my_fields_container = op.outputs.fields_container.GetData()
 my_merged_field_support = op.outputs.merged_field_support.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

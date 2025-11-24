@@ -92,14 +92,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_material_properties = op.outputs.material_properties.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

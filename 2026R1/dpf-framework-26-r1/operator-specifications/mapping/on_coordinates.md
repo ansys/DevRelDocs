@@ -106,14 +106,6 @@ op.inputs.use_quadratic_elements.Connect(my_use_quadratic_elements)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

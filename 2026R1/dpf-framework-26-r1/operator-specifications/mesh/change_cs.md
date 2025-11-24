@@ -88,14 +88,6 @@ op.inputs.coordinate_system.Connect(my_coordinate_system)
 my_meshed_region = op.outputs.meshed_region.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

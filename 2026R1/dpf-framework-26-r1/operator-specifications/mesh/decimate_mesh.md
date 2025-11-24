@@ -90,14 +90,6 @@ op.inputs.aggressiveness.Connect(my_aggressiveness)
 my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

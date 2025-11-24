@@ -82,14 +82,6 @@ op.inputs.subpath.Connect(my_subpath)
 my_path = op.outputs.path.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

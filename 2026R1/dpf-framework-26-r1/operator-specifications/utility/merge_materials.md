@@ -83,14 +83,6 @@ op.inputs.materials.Connect(my_materials)
 my_merged_materials = op.outputs.merged_materials.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

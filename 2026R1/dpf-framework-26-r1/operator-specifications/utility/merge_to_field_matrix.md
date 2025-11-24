@@ -83,14 +83,6 @@ op.inputs.fields.Connect(my_fields)
 my_merged_field_matrix = op.outputs.merged_field_matrix.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

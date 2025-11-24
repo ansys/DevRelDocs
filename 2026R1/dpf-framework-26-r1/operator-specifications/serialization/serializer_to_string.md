@@ -91,14 +91,6 @@ my_nof_chunks = op.outputs.nof_chunks.GetData()
 my_serialized_string = op.outputs.serialized_string.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -98,14 +98,6 @@ op.inputs.custom_ponderation_name.Connect(my_custom_ponderation_name)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

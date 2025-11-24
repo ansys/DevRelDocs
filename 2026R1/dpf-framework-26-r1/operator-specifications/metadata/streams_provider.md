@@ -84,14 +84,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_streams_container = op.outputs.streams_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -84,14 +84,6 @@ op.inputs.data_tree.Connect(my_data_tree)
 my_any = op.outputs.any.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

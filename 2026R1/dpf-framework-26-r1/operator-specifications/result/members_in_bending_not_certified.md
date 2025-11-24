@@ -118,14 +118,6 @@ my_buckling_resistance_bending_yy = op.outputs.buckling_resistance_bending_yy.Ge
 my_buckling_resistance_bending_zz = op.outputs.buckling_resistance_bending_zz.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

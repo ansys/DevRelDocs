@@ -90,14 +90,6 @@ op.inputs.elementary_data_index_2.Connect(my_elementary_data_index_2)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

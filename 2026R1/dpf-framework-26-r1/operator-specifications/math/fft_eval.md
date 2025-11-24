@@ -90,14 +90,6 @@ my_field = op.outputs.field.GetData()
 my_offset = op.outputs.offset.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

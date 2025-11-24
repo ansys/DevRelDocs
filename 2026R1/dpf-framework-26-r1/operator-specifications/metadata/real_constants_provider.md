@@ -98,14 +98,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_real_constants = op.outputs.real_constants.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

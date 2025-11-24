@@ -98,14 +98,6 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_time_freq_support = op.outputs.time_freq_support.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -90,14 +90,6 @@ op.inputs.streams_mapping.Connect(my_streams_mapping)
 my_MaterialContainer = op.outputs.MaterialContainer.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

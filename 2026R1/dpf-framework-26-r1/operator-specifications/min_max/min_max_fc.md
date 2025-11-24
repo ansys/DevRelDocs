@@ -86,14 +86,6 @@ my_field_min = op.outputs.field_min.GetData()
 my_field_max = op.outputs.field_max.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

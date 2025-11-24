@@ -90,14 +90,6 @@ op.inputs.property.Connect(my_property)
 my_meshes = op.outputs.meshes.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

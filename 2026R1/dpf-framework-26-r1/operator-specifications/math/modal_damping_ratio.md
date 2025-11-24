@@ -98,14 +98,6 @@ op.inputs.k_coefficient.Connect(my_k_coefficient)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

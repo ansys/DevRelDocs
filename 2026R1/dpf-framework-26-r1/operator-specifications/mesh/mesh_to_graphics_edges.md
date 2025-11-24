@@ -94,14 +94,6 @@ my_nodes = op.outputs.nodes.GetData()
 my_connectivity = op.outputs.connectivity.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

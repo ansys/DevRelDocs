@@ -82,14 +82,6 @@ op.inputs.output_path.Connect(my_output_path)
 op.inputs.exposure_level.Connect(my_exposure_level)
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

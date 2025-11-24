@@ -146,14 +146,6 @@ my_field_offset_y = op.outputs.field_offset_y.GetData()
 my_field_offset_z = op.outputs.field_offset_z.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

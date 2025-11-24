@@ -118,14 +118,6 @@ my_fields_container = op.outputs.fields_container.GetData()
 my_meshes_container = op.outputs.meshes_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -92,14 +92,6 @@ my_empty = op.outputs.empty.GetData()
 my_output = op.outputs.output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

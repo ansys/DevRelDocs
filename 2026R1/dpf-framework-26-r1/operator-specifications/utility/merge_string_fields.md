@@ -83,14 +83,6 @@ op.inputs.string_fields.Connect(my_string_fields)
 my_string_field = op.outputs.string_field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

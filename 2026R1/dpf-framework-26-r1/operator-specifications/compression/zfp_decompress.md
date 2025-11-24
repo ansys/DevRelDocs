@@ -86,14 +86,6 @@ my_dataOut = op.outputs.dataOut.GetData()
 my_decompress_speed = op.outputs.decompress_speed.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -110,14 +110,6 @@ my_cell_types = op.outputs.cell_types.GetData()
 my_offsets = op.outputs.offsets.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

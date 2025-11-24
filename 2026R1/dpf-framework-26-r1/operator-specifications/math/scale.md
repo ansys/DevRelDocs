@@ -95,14 +95,6 @@ op.inputs.algorithm.Connect(my_algorithm)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -83,14 +83,6 @@ op.inputs.scopings_containers.Connect(my_scopings_containers)
 my_merged_scopings_container = op.outputs.merged_scopings_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

@@ -86,14 +86,6 @@ op.inputs.threshold.Connect(my_threshold)
 my_wireframe = op.outputs.wireframe.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

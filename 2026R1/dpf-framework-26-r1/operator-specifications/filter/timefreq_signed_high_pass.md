@@ -94,14 +94,6 @@ my_time_freq_support = op.outputs.time_freq_support.GetData()
 my_scoping = op.outputs.scoping.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

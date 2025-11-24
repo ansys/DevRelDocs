@@ -86,14 +86,6 @@ op.inputs.unit.Connect(my_unit)
 my_meshes_container = op.outputs.meshes_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

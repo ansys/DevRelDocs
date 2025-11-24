@@ -114,14 +114,6 @@ my_forces_on_nodes = op.outputs.forces_on_nodes.GetData()
 my_moments_on_nodes = op.outputs.moments_on_nodes.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

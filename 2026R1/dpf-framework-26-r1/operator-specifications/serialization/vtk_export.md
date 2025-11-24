@@ -91,14 +91,6 @@ op.inputs.mesh.Connect(my_mesh)
 op.inputs.fields.Connect(my_fields)
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

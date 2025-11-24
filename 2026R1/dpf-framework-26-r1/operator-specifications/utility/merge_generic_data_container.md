@@ -83,14 +83,6 @@ op.inputs.generic_data_container.Connect(my_generic_data_container)
 my_generic_data_container = op.outputs.generic_data_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

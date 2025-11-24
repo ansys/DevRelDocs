@@ -158,14 +158,6 @@ my_target_scoping = op.outputs.target_scoping.GetData()
 my_prepare_output = op.outputs.prepare_output.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

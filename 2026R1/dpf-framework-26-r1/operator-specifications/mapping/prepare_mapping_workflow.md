@@ -94,14 +94,6 @@ op.inputs.influence_box.Connect(my_influence_box)
 my_mapping_workflow = op.outputs.mapping_workflow.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

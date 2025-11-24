@@ -102,14 +102,6 @@ op.inputs.scale_right_amplitude.Connect(my_scale_right_amplitude)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

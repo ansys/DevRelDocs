@@ -98,14 +98,6 @@ op.inputs.compare_auxiliary.Connect(my_compare_auxiliary)
 my_are_identical = op.outputs.are_identical.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

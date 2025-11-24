@@ -122,14 +122,6 @@ my_buckling_resistance_compression_yy = op.outputs.buckling_resistance_compressi
 my_buckling_resistance_compression_zz = op.outputs.buckling_resistance_compression_zz.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog

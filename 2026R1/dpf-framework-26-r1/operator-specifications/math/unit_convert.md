@@ -87,14 +87,6 @@ op.inputs.unit_name.Connect(my_unit_name)
 my_converted_entity = op.outputs.converted_entity.GetData()
 ```
 </details>
-
-<details>
-<summary>C#</summary>
-
-```csharp
-// C# usage example
-```
-</details>
 <br>
 
 ## Changelog
