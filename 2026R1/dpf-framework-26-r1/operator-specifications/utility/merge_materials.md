@@ -44,46 +44,6 @@ Assembles a set of materials into a unique one.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("merge::materials"); // operator instantiation
-op.connect(0, my_materials);
-ansys::dpf::Materials my_merged_materials = op.getOutput<ansys::dpf::Materials>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.merge_materials() # operator instantiation
-op.inputs.materials1.connect(my_materials1)
-op.inputs.materials2.connect(my_materials2)
-my_merged_materials = op.outputs.merged_materials()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.merge_materials() # operator instantiation
-op.inputs.materials.Connect(my_materials)
-my_merged_materials = op.outputs.merged_materials.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

@@ -45,48 +45,6 @@ zfp decompression using the information about compression written into the prope
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("zfp_decompress"); // operator instantiation
-op.connect(0, my_dataIn);
-ansys::dpf::Field my_dataOut = op.getOutput<ansys::dpf::Field>(0);
-double my_decompress_speed = op.getOutput<double>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.compression.zfp_decompress() # operator instantiation
-op.inputs.dataIn.connect(my_dataIn)
-my_dataOut_as_field = op.outputs.dataOut_as_field()
-my_decompress_speed = op.outputs.decompress_speed()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.compression.zfp_decompress() # operator instantiation
-op.inputs.dataIn.Connect(my_dataIn)
-my_dataOut = op.outputs.dataOut.GetData()
-my_decompress_speed = op.outputs.decompress_speed.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

@@ -47,54 +47,6 @@ Apply kMeans clustering to group data depending on the data's non-linearity.
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("kmeans_operator"); // operator instantiation
-op.connect(0, my_clusters_number);
-op.connect(1, my_formula);
-op.connect(2, my_fields_container);
-op.connect(3, my_component_number);
-ansys::dpf::ScopingsContainer my_scoping_clusters = op.getOutput<ansys::dpf::ScopingsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.compression.kmeans_clustering() # operator instantiation
-op.inputs.clusters_number.connect(my_clusters_number)
-op.inputs.formula.connect(my_formula)
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.component_number.connect(my_component_number)
-my_scoping_clusters = op.outputs.scoping_clusters()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.compression.kmeans_clustering() # operator instantiation
-op.inputs.clusters_number.Connect(my_clusters_number)
-op.inputs.formula.Connect(my_formula)
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.component_number.Connect(my_component_number)
-my_scoping_clusters = op.outputs.scoping_clusters.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

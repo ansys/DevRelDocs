@@ -49,58 +49,6 @@ Allows to write a loop over a chunk of operators.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("for_each"); // operator instantiation
-op.connect(0, my_iterable);
-op.connect(1, my_iterable_values);
-op.connect(2, my_pin_index);
-op.connect(3, my_forward);
- my_empty = op.getOutput<>(0);
- my_output = op.getOutput<>(3);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.for_each() # operator instantiation
-op.inputs.iterable.connect(my_iterable)
-op.inputs.iterable_values.connect(my_iterable_values)
-op.inputs.pin_index.connect(my_pin_index)
-op.inputs.forward1.connect(my_forward1)
-op.inputs.forward2.connect(my_forward2)
-my_empty = op.outputs.empty()
-my_output = op.outputs.output()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.for_each() # operator instantiation
-op.inputs.iterable.Connect(my_iterable)
-op.inputs.iterable_values.Connect(my_iterable_values)
-op.inputs.pin_index.Connect(my_pin_index)
-op.inputs.forward.Connect(my_forward)
-my_empty = op.outputs.empty.GetData()
-my_output = op.outputs.output.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

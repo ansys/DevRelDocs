@@ -51,66 +51,6 @@ Maps source data from source mesh to target mesh (computes interpolation).This o
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("mechanical_native_mapping::apply"); // operator instantiation
-op.connect(0, my_source_mesh);
-op.connect(1, my_source_mesh_id);
-op.connect(2, my_target_mesh);
-op.connect(3, my_target_mesh_id);
-op.connect(4, my_mapping_manager_data);
-op.connect(5, my_source_data);
-op.connect(6, my_target_scoping);
-ansys::dpf::FieldsContainer my_mapped_data = op.getOutput<ansys::dpf::FieldsContainer>(0);
- my_apply_output = op.getOutput<>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mapping.apply_mechanical_native_mapping() # operator instantiation
-op.inputs.source_mesh.connect(my_source_mesh)
-op.inputs.source_mesh_id.connect(my_source_mesh_id)
-op.inputs.target_mesh.connect(my_target_mesh)
-op.inputs.target_mesh_id.connect(my_target_mesh_id)
-op.inputs.mapping_manager_data.connect(my_mapping_manager_data)
-op.inputs.source_data.connect(my_source_data)
-op.inputs.target_scoping.connect(my_target_scoping)
-my_mapped_data = op.outputs.mapped_data()
-my_apply_output = op.outputs.apply_output()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mapping.apply_mechanical_native_mapping() # operator instantiation
-op.inputs.source_mesh.Connect(my_source_mesh)
-op.inputs.source_mesh_id.Connect(my_source_mesh_id)
-op.inputs.target_mesh.Connect(my_target_mesh)
-op.inputs.target_mesh_id.Connect(my_target_mesh_id)
-op.inputs.mapping_manager_data.Connect(my_mapping_manager_data)
-op.inputs.source_data.Connect(my_source_data)
-op.inputs.target_scoping.Connect(my_target_scoping)
-my_mapped_data = op.outputs.mapped_data.GetData()
-my_apply_output = op.outputs.apply_output.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

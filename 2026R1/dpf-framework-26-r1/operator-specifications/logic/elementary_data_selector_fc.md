@@ -46,51 +46,6 @@ Creates a scalar fields container based on the selected elementary data for each
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("elementary_data_selector_fc"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_elementary_data_index);
-op.connect(3, my_elementary_data_index_2);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.logic.elementary_data_selector_fc() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.elementary_data_index.connect(my_elementary_data_index)
-op.inputs.elementary_data_index_2.connect(my_elementary_data_index_2)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.logic.elementary_data_selector_fc() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.elementary_data_index.Connect(my_elementary_data_index)
-op.inputs.elementary_data_index_2.Connect(my_elementary_data_index_2)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

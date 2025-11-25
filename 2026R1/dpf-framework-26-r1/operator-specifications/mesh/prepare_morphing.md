@@ -46,51 +46,6 @@ Prepare morphing on a meshed region depending on an input displacement field.
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("prepare_morphing"); // operator instantiation
-op.connect(0, my_displacement_scoping);
-op.connect(1, my_disp_mesh);
-op.connect(2, my_mesh);
- my_morphing_manager_data = op.getOutput<>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mesh.prepare_morphing() # operator instantiation
-op.inputs.displacement_scoping.connect(my_displacement_scoping)
-op.inputs.disp_mesh.connect(my_disp_mesh)
-op.inputs.mesh.connect(my_mesh)
-my_morphing_manager_data = op.outputs.morphing_manager_data()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mesh.prepare_morphing() # operator instantiation
-op.inputs.displacement_scoping.Connect(my_displacement_scoping)
-op.inputs.disp_mesh.Connect(my_disp_mesh)
-op.inputs.mesh.Connect(my_mesh)
-my_morphing_manager_data = op.outputs.morphing_manager_data.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

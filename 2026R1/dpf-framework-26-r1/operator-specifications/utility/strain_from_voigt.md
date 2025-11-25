@@ -44,45 +44,6 @@ Converts strain field data from Voigt notation (6-component vector) to standard 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("strain_from_voigt"); // operator instantiation
-op.connect(0, my_strain_field);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.strain_from_voigt() # operator instantiation
-op.inputs.strain_field.connect(my_strain_field)
-my_field = op.outputs.field()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.strain_from_voigt() # operator instantiation
-op.inputs.strain_field.Connect(my_strain_field)
-my_field = op.outputs.field.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

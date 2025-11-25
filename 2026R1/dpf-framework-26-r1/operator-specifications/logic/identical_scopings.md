@@ -46,51 +46,6 @@ Check if two scopings are identical.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("compare::scoping"); // operator instantiation
-op.connect(0, my_scopingA);
-op.connect(1, my_scopingB);
-bool my_boolean = op.getOutput<bool>(0);
-std::string my_message = op.getOutput<std::string>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.logic.identical_scopings() # operator instantiation
-op.inputs.scopingA.connect(my_scopingA)
-op.inputs.scopingB.connect(my_scopingB)
-my_boolean = op.outputs.boolean()
-my_message = op.outputs.message()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.logic.identical_scopings() # operator instantiation
-op.inputs.scopingA.Connect(my_scopingA)
-op.inputs.scopingB.Connect(my_scopingB)
-my_boolean = op.outputs.boolean.GetData()
-my_message = op.outputs.message.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

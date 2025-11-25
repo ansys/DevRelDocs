@@ -48,57 +48,6 @@ Checks if two fields_container are identical.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("AreFieldsIdentical_fc"); // operator instantiation
-op.connect(0, my_fields_containerA);
-op.connect(1, my_fields_containerB);
-op.connect(2, my_small_value);
-op.connect(3, my_tolerance);
-bool my_boolean = op.getOutput<bool>(0);
-std::string my_message = op.getOutput<std::string>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.logic.identical_fc() # operator instantiation
-op.inputs.fields_containerA.connect(my_fields_containerA)
-op.inputs.fields_containerB.connect(my_fields_containerB)
-op.inputs.small_value.connect(my_small_value)
-op.inputs.tolerance.connect(my_tolerance)
-my_boolean = op.outputs.boolean()
-my_message = op.outputs.message()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.logic.identical_fc() # operator instantiation
-op.inputs.fields_containerA.Connect(my_fields_containerA)
-op.inputs.fields_containerB.Connect(my_fields_containerB)
-op.inputs.small_value.Connect(my_small_value)
-op.inputs.tolerance.Connect(my_tolerance)
-my_boolean = op.outputs.boolean.GetData()
-my_message = op.outputs.message.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

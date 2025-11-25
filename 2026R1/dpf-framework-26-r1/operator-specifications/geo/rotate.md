@@ -47,48 +47,6 @@ Applies a transformation (rotation) matrix on a field.
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("rotate"); // operator instantiation
-op.connect(0, my_field);
-op.connect(1, my_field_rotation_matrix);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.geo.rotate() # operator instantiation
-op.inputs.field.connect(my_field)
-op.inputs.field_rotation_matrix.connect(my_field_rotation_matrix)
-my_field = op.outputs.field()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.geo.rotate() # operator instantiation
-op.inputs.field.Connect(my_field)
-op.inputs.field_rotation_matrix.Connect(my_field_rotation_matrix)
-my_field = op.outputs.field.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

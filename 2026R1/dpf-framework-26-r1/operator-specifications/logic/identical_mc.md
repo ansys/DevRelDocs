@@ -49,60 +49,6 @@ Checks if two meshes_container are identical.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("compare::meshes_container"); // operator instantiation
-op.connect(0, my_meshes_containerA);
-op.connect(1, my_meshes_containerB);
-op.connect(2, my_small_value);
-op.connect(3, my_tolerance);
-op.connect(4, my_compare_auxiliary);
-bool my_boolean = op.getOutput<bool>(0);
-std::string my_message = op.getOutput<std::string>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.logic.identical_mc() # operator instantiation
-op.inputs.meshes_containerA.connect(my_meshes_containerA)
-op.inputs.meshes_containerB.connect(my_meshes_containerB)
-op.inputs.small_value.connect(my_small_value)
-op.inputs.tolerance.connect(my_tolerance)
-op.inputs.compare_auxiliary.connect(my_compare_auxiliary)
-my_boolean = op.outputs.boolean()
-my_message = op.outputs.message()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.logic.identical_mc() # operator instantiation
-op.inputs.meshes_containerA.Connect(my_meshes_containerA)
-op.inputs.meshes_containerB.Connect(my_meshes_containerB)
-op.inputs.small_value.Connect(my_small_value)
-op.inputs.tolerance.Connect(my_tolerance)
-op.inputs.compare_auxiliary.Connect(my_compare_auxiliary)
-my_boolean = op.outputs.boolean.GetData()
-my_message = op.outputs.message.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

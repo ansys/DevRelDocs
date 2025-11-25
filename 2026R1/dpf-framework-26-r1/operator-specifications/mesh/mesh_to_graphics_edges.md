@@ -47,54 +47,6 @@ Generate edges of surface elements for input mesh
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("mesh_to_graphics_edges"); // operator instantiation
-op.connect(1, my_mesh_scoping);
-op.connect(6, my_include_mid_nodes);
-op.connect(7, my_mesh);
-ansys::dpf::Field my_nodes = op.getOutput<ansys::dpf::Field>(0);
-ansys::dpf::PropertyField my_connectivity = op.getOutput<ansys::dpf::PropertyField>(2);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mesh.mesh_to_graphics_edges() # operator instantiation
-op.inputs.mesh_scoping.connect(my_mesh_scoping)
-op.inputs.include_mid_nodes.connect(my_include_mid_nodes)
-op.inputs.mesh.connect(my_mesh)
-my_nodes = op.outputs.nodes()
-my_connectivity = op.outputs.connectivity()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mesh.mesh_to_graphics_edges() # operator instantiation
-op.inputs.mesh_scoping.Connect(my_mesh_scoping)
-op.inputs.include_mid_nodes.Connect(my_include_mid_nodes)
-op.inputs.mesh.Connect(my_mesh)
-my_nodes = op.outputs.nodes.GetData()
-my_connectivity = op.outputs.connectivity.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

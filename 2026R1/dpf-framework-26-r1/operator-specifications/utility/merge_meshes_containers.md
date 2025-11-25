@@ -45,46 +45,6 @@ Assembles a set of meshes containers into a unique one.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("merge::meshes_container"); // operator instantiation
-op.connect(0, my_meshes_containers);
-ansys::dpf::MeshesContainer my_merged_meshes_container = op.getOutput<ansys::dpf::MeshesContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.merge_meshes_containers() # operator instantiation
-op.inputs.meshes_containers1.connect(my_meshes_containers1)
-op.inputs.meshes_containers2.connect(my_meshes_containers2)
-my_merged_meshes_container = op.outputs.merged_meshes_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.merge_meshes_containers() # operator instantiation
-op.inputs.meshes_containers.Connect(my_meshes_containers)
-my_merged_meshes_container = op.outputs.merged_meshes_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

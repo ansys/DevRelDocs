@@ -47,54 +47,6 @@ Finds the elements corresponding to the given coordinates in input and computes 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("find_reduced_coordinates"); // operator instantiation
-op.connect(1, my_coordinates);
-op.connect(7, my_mesh);
-op.connect(200, my_use_quadratic_elements);
-ansys::dpf::FieldsContainer my_reduced_coordinates = op.getOutput<ansys::dpf::FieldsContainer>(0);
-ansys::dpf::ScopingsContainer my_element_ids = op.getOutput<ansys::dpf::ScopingsContainer>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mapping.find_reduced_coordinates() # operator instantiation
-op.inputs.coordinates.connect(my_coordinates)
-op.inputs.mesh.connect(my_mesh)
-op.inputs.use_quadratic_elements.connect(my_use_quadratic_elements)
-my_reduced_coordinates = op.outputs.reduced_coordinates()
-my_element_ids = op.outputs.element_ids()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mapping.find_reduced_coordinates() # operator instantiation
-op.inputs.coordinates.Connect(my_coordinates)
-op.inputs.mesh.Connect(my_mesh)
-op.inputs.use_quadratic_elements.Connect(my_use_quadratic_elements)
-my_reduced_coordinates = op.outputs.reduced_coordinates.GetData()
-my_element_ids = op.outputs.element_ids.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

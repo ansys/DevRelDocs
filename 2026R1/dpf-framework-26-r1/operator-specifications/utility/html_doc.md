@@ -44,45 +44,6 @@ Create dpf's html documentation. Only on Windows.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("html_doc"); // operator instantiation
-op.connect(0, my_output_path);
-op.connect(1, my_exposure_level);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.None() # operator instantiation
-op.inputs.output_path.connect(my_output_path)
-op.inputs.exposure_level.connect(my_exposure_level)
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.None() # operator instantiation
-op.inputs.output_path.Connect(my_output_path)
-op.inputs.exposure_level.Connect(my_exposure_level)
-```
-</details>
-<br>
 
 ## Changelog
 

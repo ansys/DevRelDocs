@@ -53,54 +53,6 @@ Computes the relative error between a reference scalar field and another scalar 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("relative_error"); // operator instantiation
-op.connect(0, my_value);
-op.connect(1, my_reference);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
-ansys::dpf::Scoping my_zero_ref_scoping = op.getOutput<ansys::dpf::Scoping>(1);
-ansys::dpf::Scoping my_no_ref_scoping = op.getOutput<ansys::dpf::Scoping>(2);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.math.None() # operator instantiation
-op.inputs.value.connect(my_value)
-op.inputs.reference.connect(my_reference)
-my_field = op.outputs.field()
-my_zero_ref_scoping = op.outputs.zero_ref_scoping()
-my_no_ref_scoping = op.outputs.no_ref_scoping()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.math.None() # operator instantiation
-op.inputs.value.Connect(my_value)
-op.inputs.reference.Connect(my_reference)
-my_field = op.outputs.field.GetData()
-my_zero_ref_scoping = op.outputs.zero_ref_scoping.GetData()
-my_no_ref_scoping = op.outputs.no_ref_scoping.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

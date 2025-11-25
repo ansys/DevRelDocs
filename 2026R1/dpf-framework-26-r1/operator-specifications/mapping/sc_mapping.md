@@ -51,63 +51,6 @@ Apply System Coupling to map data from an input mesh to a target mesh.
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("sc_mapping"); // operator instantiation
-op.connect(0, my_source_mesh);
-op.connect(1, my_target_mesh);
-op.connect(2, my_is_conservative);
-op.connect(3, my_location);
-op.connect(4, my_dimensionality);
-op.connect(5, my_target_scoping);
-op.connect(6, my_source_data);
-ansys::dpf::FieldsContainer my_target_data = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mapping.None() # operator instantiation
-op.inputs.source_mesh.connect(my_source_mesh)
-op.inputs.target_mesh.connect(my_target_mesh)
-op.inputs.is_conservative.connect(my_is_conservative)
-op.inputs.location.connect(my_location)
-op.inputs.dimensionality.connect(my_dimensionality)
-op.inputs.target_scoping.connect(my_target_scoping)
-op.inputs.source_data.connect(my_source_data)
-my_target_data = op.outputs.target_data()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mapping.None() # operator instantiation
-op.inputs.source_mesh.Connect(my_source_mesh)
-op.inputs.target_mesh.Connect(my_target_mesh)
-op.inputs.is_conservative.Connect(my_is_conservative)
-op.inputs.location.Connect(my_location)
-op.inputs.dimensionality.Connect(my_dimensionality)
-op.inputs.target_scoping.Connect(my_target_scoping)
-op.inputs.source_data.Connect(my_source_data)
-my_target_data = op.outputs.target_data.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

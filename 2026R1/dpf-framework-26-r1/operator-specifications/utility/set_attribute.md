@@ -46,51 +46,6 @@ Uses the FieldsContainer APIs to modify it.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("fieldscontainer::set_attribute"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_property_name);
-op.connect(2, my_property_identifier);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.set_attribute() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.property_name.connect(my_property_name)
-op.inputs.property_identifier.connect(my_property_identifier)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.set_attribute() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.property_name.Connect(my_property_name)
-op.inputs.property_identifier.Connect(my_property_identifier)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

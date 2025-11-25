@@ -47,51 +47,6 @@ Computes the element centroids of the mesh. It also outputs the element measure.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("compute_element_centroids"); // operator instantiation
-op.connect(1, my_element_scoping);
-op.connect(7, my_mesh);
-ansys::dpf::Field my_centroids = op.getOutput<ansys::dpf::Field>(0);
-ansys::dpf::Field my_measure = op.getOutput<ansys::dpf::Field>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.scoping.compute_element_centroids() # operator instantiation
-op.inputs.element_scoping.connect(my_element_scoping)
-op.inputs.mesh.connect(my_mesh)
-my_centroids = op.outputs.centroids()
-my_measure = op.outputs.measure()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.scoping.compute_element_centroids() # operator instantiation
-op.inputs.element_scoping.Connect(my_element_scoping)
-op.inputs.mesh.Connect(my_mesh)
-my_centroids = op.outputs.centroids.GetData()
-my_measure = op.outputs.measure.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

@@ -48,58 +48,6 @@ Performs a weighted merge on fields of a fields container that share the same la
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("merge::weighted_fields_container_label"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_label);
-op.connect(2, my_merged_field_support);
-op.connect(3, my_sum_merge);
-op.connect(1000, my_weights);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.weighted_merge_fields_by_label() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.label.connect(my_label)
-op.inputs.merged_field_support.connect(my_merged_field_support)
-op.inputs.sum_merge.connect(my_sum_merge)
-op.inputs.weights1.connect(my_weights1)
-op.inputs.weights2.connect(my_weights2)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.weighted_merge_fields_by_label() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.label.Connect(my_label)
-op.inputs.merged_field_support.Connect(my_merged_field_support)
-op.inputs.sum_merge.Connect(my_sum_merge)
-op.inputs.weights.Connect(my_weights)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

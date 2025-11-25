@@ -50,64 +50,6 @@ Generate a range that can be consumed by the for_each operator
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("make_for_each_range"); // operator instantiation
-op.connect(-1, my_try_generate_iterable);
-op.connect(0, my_iterable);
-op.connect(1, my_operator_to_iterate);
-op.connect(2, my_pin_index);
-op.connect(3, my_valueA);
-op.connect(4, my_valueB);
-op.connect(5, my_valueC);
- my_output = op.getOutput<>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.make_for_each_range() # operator instantiation
-op.inputs.try_generate_iterable.connect(my_try_generate_iterable)
-op.inputs.iterable.connect(my_iterable)
-op.inputs.operator_to_iterate.connect(my_operator_to_iterate)
-op.inputs.pin_index.connect(my_pin_index)
-op.inputs.valueA.connect(my_valueA)
-op.inputs.valueB.connect(my_valueB)
-op.inputs.valueC1.connect(my_valueC1)
-op.inputs.valueC2.connect(my_valueC2)
-my_output = op.outputs.output()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.make_for_each_range() # operator instantiation
-op.inputs.try_generate_iterable.Connect(my_try_generate_iterable)
-op.inputs.iterable.Connect(my_iterable)
-op.inputs.operator_to_iterate.Connect(my_operator_to_iterate)
-op.inputs.pin_index.Connect(my_pin_index)
-op.inputs.valueA.Connect(my_valueA)
-op.inputs.valueB.Connect(my_valueB)
-op.inputs.valueC.Connect(my_valueC)
-my_output = op.outputs.output.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

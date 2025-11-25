@@ -44,45 +44,6 @@ Returns the platform-specific path to a folder in the Dpf server
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("server_path"); // operator instantiation
-op.connect(0, my_subpath);
-std::string my_path = op.getOutput<std::string>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.server_path() # operator instantiation
-op.inputs.subpath.connect(my_subpath)
-my_path = op.outputs.path()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.server_path() # operator instantiation
-op.inputs.subpath.Connect(my_subpath)
-my_path = op.outputs.path.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

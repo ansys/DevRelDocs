@@ -49,54 +49,6 @@ Transforms an Elemental Nodal or Nodal field into an Elemental field. Each eleme
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("elemental_difference_fc"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_mesh);
-op.connect(3, my_scoping);
-op.connect(10, my_collapse_shell_layers);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.averaging.elemental_difference_fc() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.mesh.connect(my_mesh)
-op.inputs.scoping.connect(my_scoping)
-op.inputs.collapse_shell_layers.connect(my_collapse_shell_layers)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.averaging.elemental_difference_fc() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.mesh.Connect(my_mesh)
-op.inputs.scoping.Connect(my_scoping)
-op.inputs.collapse_shell_layers.Connect(my_collapse_shell_layers)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

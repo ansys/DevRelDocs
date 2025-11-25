@@ -45,48 +45,6 @@ Assemble fields in a fields container.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("incremental::concatenate_as_fc"); // operator instantiation
-op.connect(0, my_field);
-op.connect(1, my_label);
-ansys::dpf::FieldsContainer my_output = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.incremental_concatenate_as_fc() # operator instantiation
-op.inputs.field.connect(my_field)
-op.inputs.label.connect(my_label)
-my_output = op.outputs.output()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.incremental_concatenate_as_fc() # operator instantiation
-op.inputs.field.Connect(my_field)
-op.inputs.label.Connect(my_label)
-my_output = op.outputs.output.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

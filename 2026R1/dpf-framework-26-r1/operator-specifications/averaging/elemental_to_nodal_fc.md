@@ -57,57 +57,6 @@ Transforms Elemental Nodal fields to Nodal fields. The result is computed on a g
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("elemental_to_nodal_fc"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_mesh);
-op.connect(2, my_force_averaging);
-op.connect(3, my_mesh_scoping);
-op.connect(200, my_algorithm);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.averaging.None() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.mesh.connect(my_mesh)
-op.inputs.force_averaging.connect(my_force_averaging)
-op.inputs.mesh_scoping.connect(my_mesh_scoping)
-op.inputs.algorithm.connect(my_algorithm)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.averaging.None() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.mesh.Connect(my_mesh)
-op.inputs.force_averaging.Connect(my_force_averaging)
-op.inputs.mesh_scoping.Connect(my_mesh_scoping)
-op.inputs.algorithm.Connect(my_algorithm)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

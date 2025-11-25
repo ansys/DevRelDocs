@@ -54,51 +54,6 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("real_constants_provider"); // operator instantiation
-op.connect(1, my_solver_real_constants_ids);
-op.connect(3, my_streams);
-op.connect(4, my_data_sources);
-ansys::dpf::Field my_real_constants = op.getOutput<ansys::dpf::Field>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.metadata.real_constants_provider() # operator instantiation
-op.inputs.solver_real_constants_ids.connect(my_solver_real_constants_ids)
-op.inputs.streams.connect(my_streams)
-op.inputs.data_sources.connect(my_data_sources)
-my_real_constants = op.outputs.real_constants()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.metadata.real_constants_provider() # operator instantiation
-op.inputs.solver_real_constants_ids.Connect(my_solver_real_constants_ids)
-op.inputs.streams.Connect(my_streams)
-op.inputs.data_sources.Connect(my_data_sources)
-my_real_constants = op.outputs.real_constants.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

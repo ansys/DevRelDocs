@@ -46,51 +46,6 @@ Sort a field (in 0) in ascending order with an optional component priority table
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("ascending_sort_fc"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_component_priority_table);
-op.connect(2, my_sort_by_scoping);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.logic.ascending_sort_fc() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.component_priority_table.connect(my_component_priority_table)
-op.inputs.sort_by_scoping.connect(my_sort_by_scoping)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.logic.ascending_sort_fc() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.component_priority_table.Connect(my_component_priority_table)
-op.inputs.sort_by_scoping.Connect(my_sort_by_scoping)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

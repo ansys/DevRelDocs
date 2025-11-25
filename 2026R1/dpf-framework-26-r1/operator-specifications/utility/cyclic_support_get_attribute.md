@@ -45,48 +45,6 @@ A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in i
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("cyclic_support::get_attribute"); // operator instantiation
-op.connect(0, my_cyclic_support);
-op.connect(1, my_property_name);
-std::string my_property = op.getOutput<std::string>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.cyclic_support_get_attribute() # operator instantiation
-op.inputs.cyclic_support.connect(my_cyclic_support)
-op.inputs.property_name.connect(my_property_name)
-my_property_as_string = op.outputs.property_as_string()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.cyclic_support_get_attribute() # operator instantiation
-op.inputs.cyclic_support.Connect(my_cyclic_support)
-op.inputs.property_name.Connect(my_property_name)
-my_property = op.outputs.property.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

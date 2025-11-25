@@ -47,48 +47,6 @@ Applies a transformation (rotation and displacement) matrix on a mesh or meshes 
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("mesh::change_cs"); // operator instantiation
-op.connect(0, my_meshes);
-op.connect(1, my_coordinate_system);
-ansys::dpf::MeshedRegion my_meshed_region = op.getOutput<ansys::dpf::MeshedRegion>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mesh.change_cs() # operator instantiation
-op.inputs.meshes.connect(my_meshes)
-op.inputs.coordinate_system.connect(my_coordinate_system)
-my_meshed_region_as_meshed_region = op.outputs.meshed_region_as_meshed_region()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mesh.change_cs() # operator instantiation
-op.inputs.meshes.Connect(my_meshes)
-op.inputs.coordinate_system.Connect(my_coordinate_system)
-my_meshed_region = op.outputs.meshed_region.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

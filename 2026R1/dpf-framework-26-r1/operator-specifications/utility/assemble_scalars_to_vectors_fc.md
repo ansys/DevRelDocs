@@ -46,51 +46,6 @@ Takes three scalar fields container and assembles them as a 3D vector fields con
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("assemble_scalars_to_vectors_fc"); // operator instantiation
-op.connect(0, my_x);
-op.connect(1, my_y);
-op.connect(2, my_z);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.None() # operator instantiation
-op.inputs.x.connect(my_x)
-op.inputs.y.connect(my_y)
-op.inputs.z.connect(my_z)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.None() # operator instantiation
-op.inputs.x.Connect(my_x)
-op.inputs.y.Connect(my_y)
-op.inputs.z.Connect(my_z)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

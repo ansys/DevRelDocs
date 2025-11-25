@@ -46,51 +46,6 @@ Computes MAC Matrix between two fields container, both for real and complex case
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("mac"); // operator instantiation
-op.connect(0, my_fields_containerA);
-op.connect(1, my_fields_containerB);
-op.connect(2, my_weights);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.math.mac() # operator instantiation
-op.inputs.fields_containerA.connect(my_fields_containerA)
-op.inputs.fields_containerB.connect(my_fields_containerB)
-op.inputs.weights.connect(my_weights)
-my_field = op.outputs.field()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.math.mac() # operator instantiation
-op.inputs.fields_containerA.Connect(my_fields_containerA)
-op.inputs.fields_containerB.Connect(my_fields_containerB)
-op.inputs.weights.Connect(my_weights)
-my_field = op.outputs.field.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

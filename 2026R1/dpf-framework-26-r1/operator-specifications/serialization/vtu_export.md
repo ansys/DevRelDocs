@@ -52,67 +52,6 @@ Export DPF data into vtu format.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("vtu_export"); // operator instantiation
-op.connect(0, my_directory);
-op.connect(1, my_base_name);
-op.connect(2, my_mesh);
-op.connect(3, my_fields);
-op.connect(100, my_write_mode);
-op.connect(101, my_as_point_cloud);
-op.connect(102, my_export_faces);
-op.connect(103, my_mesh_properties);
-ansys::dpf::DataSources my_path = op.getOutput<ansys::dpf::DataSources>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.directory.connect(my_directory)
-op.inputs.base_name.connect(my_base_name)
-op.inputs.mesh.connect(my_mesh)
-op.inputs.fields1.connect(my_fields1)
-op.inputs.fields2.connect(my_fields2)
-op.inputs.write_mode.connect(my_write_mode)
-op.inputs.as_point_cloud.connect(my_as_point_cloud)
-op.inputs.export_faces.connect(my_export_faces)
-op.inputs.mesh_properties.connect(my_mesh_properties)
-my_path = op.outputs.path()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.directory.Connect(my_directory)
-op.inputs.base_name.Connect(my_base_name)
-op.inputs.mesh.Connect(my_mesh)
-op.inputs.fields.Connect(my_fields)
-op.inputs.write_mode.Connect(my_write_mode)
-op.inputs.as_point_cloud.Connect(my_as_point_cloud)
-op.inputs.export_faces.Connect(my_export_faces)
-op.inputs.mesh_properties.Connect(my_mesh_properties)
-my_path = op.outputs.path.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

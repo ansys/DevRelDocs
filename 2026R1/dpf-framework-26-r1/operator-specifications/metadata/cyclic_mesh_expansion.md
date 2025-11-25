@@ -47,54 +47,6 @@ Expand the mesh.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("cyclic_expansion_mesh"); // operator instantiation
-op.connect(7, my_sector_meshed_region);
-op.connect(16, my_cyclic_support);
-op.connect(18, my_sectors_to_expand);
-ansys::dpf::MeshedRegion my_meshed_region = op.getOutput<ansys::dpf::MeshedRegion>(0);
-ansys::dpf::CyclicSupport my_cyclic_support = op.getOutput<ansys::dpf::CyclicSupport>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.metadata.cyclic_mesh_expansion() # operator instantiation
-op.inputs.sector_meshed_region.connect(my_sector_meshed_region)
-op.inputs.cyclic_support.connect(my_cyclic_support)
-op.inputs.sectors_to_expand.connect(my_sectors_to_expand)
-my_meshed_region = op.outputs.meshed_region()
-my_cyclic_support = op.outputs.cyclic_support()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.metadata.cyclic_mesh_expansion() # operator instantiation
-op.inputs.sector_meshed_region.Connect(my_sector_meshed_region)
-op.inputs.cyclic_support.Connect(my_cyclic_support)
-op.inputs.sectors_to_expand.Connect(my_sectors_to_expand)
-my_meshed_region = op.outputs.meshed_region.GetData()
-my_cyclic_support = op.outputs.cyclic_support.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

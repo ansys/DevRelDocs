@@ -44,45 +44,6 @@ Incrementaly merge the input.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("incremental::merge::field"); // operator instantiation
-op.connect(0, my_input);
- my_incremented_result = op.getOutput<>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.field() # operator instantiation
-op.inputs.input.connect(my_input)
-my_incremented_result = op.outputs.incremented_result()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.field() # operator instantiation
-op.inputs.input.Connect(my_input)
-my_incremented_result = op.outputs.incremented_result.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

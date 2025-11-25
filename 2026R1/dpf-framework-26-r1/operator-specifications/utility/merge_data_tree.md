@@ -45,46 +45,6 @@ Merges a list of data trees. Attributes names shouldn't be shared accross data t
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("merge::data_tree"); // operator instantiation
-op.connect(0, my_data_tree);
-ansys::dpf::Any my_any = op.getOutput<ansys::dpf::Any>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.merge_data_tree() # operator instantiation
-op.inputs.data_tree1.connect(my_data_tree1)
-op.inputs.data_tree2.connect(my_data_tree2)
-my_any = op.outputs.any()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.merge_data_tree() # operator instantiation
-op.inputs.data_tree.Connect(my_data_tree)
-my_any = op.outputs.any.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

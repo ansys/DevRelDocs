@@ -48,57 +48,6 @@ Extracts a skin of the mesh in triangles in a new meshed region.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("mesh_cut"); // operator instantiation
-op.connect(0, my_field);
-op.connect(1, my_iso_value);
-op.connect(2, my_closed_surface);
-op.connect(3, my_mesh);
-op.connect(4, my_slice_surfaces);
-ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(2);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mesh.mesh_cut() # operator instantiation
-op.inputs.field.connect(my_field)
-op.inputs.iso_value.connect(my_iso_value)
-op.inputs.closed_surface.connect(my_closed_surface)
-op.inputs.mesh.connect(my_mesh)
-op.inputs.slice_surfaces.connect(my_slice_surfaces)
-my_mesh = op.outputs.mesh()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mesh.mesh_cut() # operator instantiation
-op.inputs.field.Connect(my_field)
-op.inputs.iso_value.Connect(my_iso_value)
-op.inputs.closed_surface.Connect(my_closed_surface)
-op.inputs.mesh.Connect(my_mesh)
-op.inputs.slice_surfaces.Connect(my_slice_surfaces)
-my_mesh = op.outputs.mesh.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

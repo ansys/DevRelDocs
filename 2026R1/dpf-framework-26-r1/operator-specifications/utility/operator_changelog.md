@@ -44,45 +44,6 @@ Return a GenericDataContainer used to instantiate the Changelog of an operator b
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("operator_changelog"); // operator instantiation
-op.connect(0, my_operator_name);
-ansys::dpf::GenericDataContainer my_changelog_gdc = op.getOutput<ansys::dpf::GenericDataContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.operator_changelog() # operator instantiation
-op.inputs.operator_name.connect(my_operator_name)
-my_changelog_gdc = op.outputs.changelog_gdc()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.operator_changelog() # operator instantiation
-op.inputs.operator_name.Connect(my_operator_name)
-my_changelog_gdc = op.outputs.changelog_gdc.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

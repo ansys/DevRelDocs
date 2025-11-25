@@ -47,51 +47,6 @@ Evaluates time/frequency of maximum.
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("time_of_max_by_entity"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(3, my_abs_value);
-op.connect(4, my_compute_amplitude);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.min_max.None() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.abs_value.connect(my_abs_value)
-op.inputs.compute_amplitude.connect(my_compute_amplitude)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.min_max.None() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.abs_value.Connect(my_abs_value)
-op.inputs.compute_amplitude.Connect(my_compute_amplitude)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

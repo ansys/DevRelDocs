@@ -48,51 +48,6 @@ Rescopes a field on the given scoping. If an ID does not exist in the original f
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("Rescope"); // operator instantiation
-op.connect(0, my_fields);
-op.connect(1, my_mesh_scoping);
-op.connect(2, my_default_value);
-ansys::dpf::FieldsContainer my_fields = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.scoping.rescope() # operator instantiation
-op.inputs.fields.connect(my_fields)
-op.inputs.mesh_scoping.connect(my_mesh_scoping)
-op.inputs.default_value.connect(my_default_value)
-my_fields_as_fields_container = op.outputs.fields_as_fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.scoping.rescope() # operator instantiation
-op.inputs.fields.Connect(my_fields)
-op.inputs.mesh_scoping.Connect(my_mesh_scoping)
-op.inputs.default_value.Connect(my_default_value)
-my_fields = op.outputs.fields.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

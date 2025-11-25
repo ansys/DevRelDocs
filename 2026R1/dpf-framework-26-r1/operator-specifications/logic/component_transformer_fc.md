@@ -46,51 +46,6 @@ Takes the input field and creates a field with overriden value on given componen
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("component_transformer_fc"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_component_number);
-op.connect(2, my_default_value);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.logic.component_transformer_fc() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.component_number.connect(my_component_number)
-op.inputs.default_value.connect(my_default_value)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.logic.component_transformer_fc() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.component_number.Connect(my_component_number)
-op.inputs.default_value.Connect(my_default_value)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

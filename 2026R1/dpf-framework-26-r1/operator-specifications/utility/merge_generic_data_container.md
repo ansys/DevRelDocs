@@ -44,46 +44,6 @@ Merges a list of generic data container. For each data entry, the merge operatio
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("merge::generic_data_container"); // operator instantiation
-op.connect(0, my_generic_data_container);
-ansys::dpf::GenericDataContainer my_generic_data_container = op.getOutput<ansys::dpf::GenericDataContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.merge_generic_data_container() # operator instantiation
-op.inputs.generic_data_container1.connect(my_generic_data_container1)
-op.inputs.generic_data_container2.connect(my_generic_data_container2)
-my_generic_data_container = op.outputs.generic_data_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.merge_generic_data_container() # operator instantiation
-op.inputs.generic_data_container.Connect(my_generic_data_container)
-my_generic_data_container = op.outputs.generic_data_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

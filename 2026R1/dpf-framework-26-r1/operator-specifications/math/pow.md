@@ -45,48 +45,6 @@ Computes element-wise field[i]^p.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("Pow"); // operator instantiation
-op.connect(0, my_field);
-op.connect(1, my_factor);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.math.pow() # operator instantiation
-op.inputs.field.connect(my_field)
-op.inputs.factor.connect(my_factor)
-my_field = op.outputs.field()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.math.pow() # operator instantiation
-op.inputs.field.Connect(my_field)
-op.inputs.factor.Connect(my_factor)
-my_field = op.outputs.field.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

@@ -45,48 +45,6 @@ Gets a property from an input field/field container. A PropertyFieldin pin 0, a 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("propertyfield::get_attribute"); // operator instantiation
-op.connect(0, my_property_field);
-op.connect(1, my_property_name);
-std::string my_property = op.getOutput<std::string>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.propertyfield_get_attribute() # operator instantiation
-op.inputs.property_field.connect(my_property_field)
-op.inputs.property_name.connect(my_property_name)
-my_property_as_string = op.outputs.property_as_string()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.propertyfield_get_attribute() # operator instantiation
-op.inputs.property_field.Connect(my_property_field)
-op.inputs.property_name.Connect(my_property_name)
-my_property = op.outputs.property.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

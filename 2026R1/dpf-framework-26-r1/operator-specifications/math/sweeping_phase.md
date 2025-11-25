@@ -49,60 +49,6 @@ Shifts the phase of a real and an imaginary field (in 0 and 1) of a given angle 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("sweeping_phase"); // operator instantiation
-op.connect(0, my_real_field);
-op.connect(1, my_imaginary_field);
-op.connect(2, my_angle);
-op.connect(3, my_unit_name);
-op.connect(4, my_abs_value);
-op.connect(5, my_imaginary_part_null);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.math.None() # operator instantiation
-op.inputs.real_field.connect(my_real_field)
-op.inputs.imaginary_field.connect(my_imaginary_field)
-op.inputs.angle.connect(my_angle)
-op.inputs.unit_name.connect(my_unit_name)
-op.inputs.abs_value.connect(my_abs_value)
-op.inputs.imaginary_part_null.connect(my_imaginary_part_null)
-my_field = op.outputs.field()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.math.None() # operator instantiation
-op.inputs.real_field.Connect(my_real_field)
-op.inputs.imaginary_field.Connect(my_imaginary_field)
-op.inputs.angle.Connect(my_angle)
-op.inputs.unit_name.Connect(my_unit_name)
-op.inputs.abs_value.Connect(my_abs_value)
-op.inputs.imaginary_part_null.Connect(my_imaginary_part_null)
-my_field = op.outputs.field.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

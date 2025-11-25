@@ -46,51 +46,6 @@ The band pass filter returns all the values above (but not equal to) the minimum
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("core::scoping::band_pass"); // operator instantiation
-op.connect(0, my_field);
-op.connect(1, my_min_threshold);
-op.connect(2, my_max_threshold);
-ansys::dpf::Scoping my_scoping = op.getOutput<ansys::dpf::Scoping>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.filter.scoping_band_pass() # operator instantiation
-op.inputs.field.connect(my_field)
-op.inputs.min_threshold.connect(my_min_threshold)
-op.inputs.max_threshold.connect(my_max_threshold)
-my_scoping = op.outputs.scoping()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.filter.scoping_band_pass() # operator instantiation
-op.inputs.field.Connect(my_field)
-op.inputs.min_threshold.Connect(my_min_threshold)
-op.inputs.max_threshold.Connect(my_max_threshold)
-my_scoping = op.outputs.scoping.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

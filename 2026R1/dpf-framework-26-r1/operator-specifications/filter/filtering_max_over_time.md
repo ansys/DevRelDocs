@@ -47,54 +47,6 @@ Creates a filtering workflow that will filter results based on a threshold of a 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("filtering_max_over_time"); // operator instantiation
-op.connect(0, my_invariant_fc_operator);
-op.connect(1, my_output_pin);
-op.connect(2, my_list_of_results);
-op.connect(3, my_threshold);
-ansys::dpf::Workflow my_workflow = op.getOutput<ansys::dpf::Workflow>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.filter.None() # operator instantiation
-op.inputs.invariant_fc_operator.connect(my_invariant_fc_operator)
-op.inputs.output_pin.connect(my_output_pin)
-op.inputs.list_of_results.connect(my_list_of_results)
-op.inputs.threshold.connect(my_threshold)
-my_workflow = op.outputs.workflow()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.filter.None() # operator instantiation
-op.inputs.invariant_fc_operator.Connect(my_invariant_fc_operator)
-op.inputs.output_pin.Connect(my_output_pin)
-op.inputs.list_of_results.Connect(my_list_of_results)
-op.inputs.threshold.Connect(my_threshold)
-my_workflow = op.outputs.workflow.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

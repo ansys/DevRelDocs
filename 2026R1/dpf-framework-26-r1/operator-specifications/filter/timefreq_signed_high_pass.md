@@ -47,54 +47,6 @@ The high pass filter returns all the values above, or equal, in absolute value t
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("core::timefreq::signed_high_pass"); // operator instantiation
-op.connect(0, my_time_freq_support);
-op.connect(1, my_threshold);
-op.connect(2, my_both);
-ansys::dpf::TimeFreqSupport my_time_freq_support = op.getOutput<ansys::dpf::TimeFreqSupport>(0);
-ansys::dpf::Scoping my_scoping = op.getOutput<ansys::dpf::Scoping>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.filter.timefreq_signed_high_pass() # operator instantiation
-op.inputs.time_freq_support.connect(my_time_freq_support)
-op.inputs.threshold.connect(my_threshold)
-op.inputs.both.connect(my_both)
-my_time_freq_support = op.outputs.time_freq_support()
-my_scoping = op.outputs.scoping()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.filter.timefreq_signed_high_pass() # operator instantiation
-op.inputs.time_freq_support.Connect(my_time_freq_support)
-op.inputs.threshold.Connect(my_threshold)
-op.inputs.both.Connect(my_both)
-my_time_freq_support = op.outputs.time_freq_support.GetData()
-my_scoping = op.outputs.scoping.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

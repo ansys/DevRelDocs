@@ -57,48 +57,6 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("time_freq_support_provider"); // operator instantiation
-op.connect(3, my_streams_container);
-op.connect(4, my_data_sources);
-ansys::dpf::TimeFreqSupport my_time_freq_support = op.getOutput<ansys::dpf::TimeFreqSupport>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.metadata.time_freq_provider() # operator instantiation
-op.inputs.streams_container.connect(my_streams_container)
-op.inputs.data_sources.connect(my_data_sources)
-my_time_freq_support = op.outputs.time_freq_support()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.metadata.time_freq_provider() # operator instantiation
-op.inputs.streams_container.Connect(my_streams_container)
-op.inputs.data_sources.Connect(my_data_sources)
-my_time_freq_support = op.outputs.time_freq_support.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

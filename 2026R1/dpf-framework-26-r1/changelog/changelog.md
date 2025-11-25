@@ -30,7 +30,7 @@ The following table shows which components have updates in each category.
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[19 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[20 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) | |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -703,6 +703,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Include enforced motion into modal basis:
+  > Include enforced motion into modal basis
+  >
+  > 
+  >
+  > 
 
 - Correction on plies/position logic for BFE filter.:
   > Correction on plies/position logic for BFE filter.

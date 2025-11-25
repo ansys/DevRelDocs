@@ -49,60 +49,6 @@ Starts a dpf's grpc server (if local) or connect to one and keep it waiting for 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("grpc::stream_provider"); // operator instantiation
-op.connect(0, my_ip);
-op.connect(1, my_port);
-op.connect(2, my_starting_option);
-op.connect(3, my_should_start_server);
-op.connect(4, my_data_sources);
-op.connect(5, my_dpf_context);
-ansys::dpf::Streams my_grpc_streams = op.getOutput<ansys::dpf::Streams>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.server.grpc_start_server() # operator instantiation
-op.inputs.ip.connect(my_ip)
-op.inputs.port.connect(my_port)
-op.inputs.starting_option.connect(my_starting_option)
-op.inputs.should_start_server.connect(my_should_start_server)
-op.inputs.data_sources.connect(my_data_sources)
-op.inputs.dpf_context.connect(my_dpf_context)
-my_grpc_streams = op.outputs.grpc_streams()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.server.grpc_start_server() # operator instantiation
-op.inputs.ip.Connect(my_ip)
-op.inputs.port.Connect(my_port)
-op.inputs.starting_option.Connect(my_starting_option)
-op.inputs.should_start_server.Connect(my_should_start_server)
-op.inputs.data_sources.Connect(my_data_sources)
-op.inputs.dpf_context.Connect(my_dpf_context)
-my_grpc_streams = op.outputs.grpc_streams.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

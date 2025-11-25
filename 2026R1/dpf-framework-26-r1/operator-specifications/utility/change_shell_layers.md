@@ -48,54 +48,6 @@ Extract the requested shell layers from the input fields. If the fields contain 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("change_shellLayers"); // operator instantiation
-op.connect(0, my_fields_container);
-op.connect(1, my_e_shell_layer);
-op.connect(2, my_mesh);
-op.connect(26, my_merge);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.change_shell_layers() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-op.inputs.e_shell_layer.connect(my_e_shell_layer)
-op.inputs.mesh.connect(my_mesh)
-op.inputs.merge.connect(my_merge)
-my_fields_container_as_fields_container = op.outputs.fields_container_as_fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.change_shell_layers() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-op.inputs.e_shell_layer.Connect(my_e_shell_layer)
-op.inputs.mesh.Connect(my_mesh)
-op.inputs.merge.Connect(my_merge)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

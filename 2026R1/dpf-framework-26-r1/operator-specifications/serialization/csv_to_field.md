@@ -45,48 +45,6 @@ transform csv file to a field or fields container
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("csv_to_field"); // operator instantiation
-op.connect(0, my_time_scoping);
-op.connect(4, my_data_sources);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.time_scoping.connect(my_time_scoping)
-op.inputs.data_sources.connect(my_data_sources)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.time_scoping.Connect(my_time_scoping)
-op.inputs.data_sources.Connect(my_data_sources)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

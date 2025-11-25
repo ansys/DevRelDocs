@@ -48,57 +48,6 @@ Computes the time frequency scoping (made of set IDs) necessary to interpolate o
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("compute_time_scoping"); // operator instantiation
-op.connect(0, my_time_freq_values);
-op.connect(2, my_step);
-op.connect(4, my_interpolation_type);
-op.connect(8, my_time_freq_support);
-ansys::dpf::Scoping my_scoping = op.getOutput<ansys::dpf::Scoping>(0);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.None() # operator instantiation
-op.inputs.time_freq_values.connect(my_time_freq_values)
-op.inputs.step.connect(my_step)
-op.inputs.interpolation_type.connect(my_interpolation_type)
-op.inputs.time_freq_support.connect(my_time_freq_support)
-my_scoping = op.outputs.scoping()
-my_field = op.outputs.field()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.None() # operator instantiation
-op.inputs.time_freq_values.Connect(my_time_freq_values)
-op.inputs.step.Connect(my_step)
-op.inputs.interpolation_type.Connect(my_interpolation_type)
-op.inputs.time_freq_support.Connect(my_time_freq_support)
-my_scoping = op.outputs.scoping.GetData()
-my_field = op.outputs.field.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

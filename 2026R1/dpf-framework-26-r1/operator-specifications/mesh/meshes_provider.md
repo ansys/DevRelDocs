@@ -61,57 +61,6 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("meshes_provider"); // operator instantiation
-op.connect(0, my_time_scoping);
-op.connect(3, my_streams_container);
-op.connect(4, my_data_sources);
-op.connect(14, my_read_cyclic);
-op.connect(25, my_region_scoping);
-ansys::dpf::MeshesContainer my_meshes = op.getOutput<ansys::dpf::MeshesContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.mesh.meshes_provider() # operator instantiation
-op.inputs.time_scoping.connect(my_time_scoping)
-op.inputs.streams_container.connect(my_streams_container)
-op.inputs.data_sources.connect(my_data_sources)
-op.inputs.read_cyclic.connect(my_read_cyclic)
-op.inputs.region_scoping.connect(my_region_scoping)
-my_meshes = op.outputs.meshes()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.mesh.meshes_provider() # operator instantiation
-op.inputs.time_scoping.Connect(my_time_scoping)
-op.inputs.streams_container.Connect(my_streams_container)
-op.inputs.data_sources.Connect(my_data_sources)
-op.inputs.read_cyclic.Connect(my_read_cyclic)
-op.inputs.region_scoping.Connect(my_region_scoping)
-my_meshes = op.outputs.meshes.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

@@ -50,57 +50,6 @@ Create a local image of an existing remote operator (identified by an id and an 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("remote_operator_instantiate"); // operator instantiation
-op.connect(0, my_operator_to_send);
-op.connect(1, my_output_pin);
-op.connect(3, my_streams_to_remote);
-op.connect(4, my_data_sources_to_remote);
-op.connect(5, my_output_name);
-ansys::dpf::Workflow my_remote_workflow = op.getOutput<ansys::dpf::Workflow>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.remote_operator_instantiate() # operator instantiation
-op.inputs.operator_to_send.connect(my_operator_to_send)
-op.inputs.output_pin.connect(my_output_pin)
-op.inputs.streams_to_remote.connect(my_streams_to_remote)
-op.inputs.data_sources_to_remote.connect(my_data_sources_to_remote)
-op.inputs.output_name.connect(my_output_name)
-my_remote_workflow = op.outputs.remote_workflow()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.remote_operator_instantiate() # operator instantiation
-op.inputs.operator_to_send.Connect(my_operator_to_send)
-op.inputs.output_pin.Connect(my_output_pin)
-op.inputs.streams_to_remote.Connect(my_streams_to_remote)
-op.inputs.data_sources_to_remote.Connect(my_data_sources_to_remote)
-op.inputs.output_name.Connect(my_output_name)
-my_remote_workflow = op.outputs.remote_workflow.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

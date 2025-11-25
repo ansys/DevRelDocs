@@ -44,45 +44,6 @@ Creates a DataSources by expanding another.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("datasources_provider"); // operator instantiation
-op.connect(4, my_data_sources);
-ansys::dpf::DataSources my_data_sources = op.getOutput<ansys::dpf::DataSources>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.metadata.datasources_provider() # operator instantiation
-op.inputs.data_sources.connect(my_data_sources)
-my_data_sources = op.outputs.data_sources()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.metadata.datasources_provider() # operator instantiation
-op.inputs.data_sources.Connect(my_data_sources)
-my_data_sources = op.outputs.data_sources.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

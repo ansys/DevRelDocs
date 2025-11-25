@@ -46,51 +46,6 @@ Write a field based on a vtk file.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("vtk::vtk::FieldProvider"); // operator instantiation
-op.connect(0, my_field_name);
-op.connect(3, my_streams);
-op.connect(4, my_data_sources);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.serialization.vtk_to_fields() # operator instantiation
-op.inputs.field_name.connect(my_field_name)
-op.inputs.streams.connect(my_streams)
-op.inputs.data_sources.connect(my_data_sources)
-my_fields_container = op.outputs.fields_container()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.serialization.vtk_to_fields() # operator instantiation
-op.inputs.field_name.Connect(my_field_name)
-op.inputs.streams.Connect(my_streams)
-op.inputs.data_sources.Connect(my_data_sources)
-my_fields_container = op.outputs.fields_container.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

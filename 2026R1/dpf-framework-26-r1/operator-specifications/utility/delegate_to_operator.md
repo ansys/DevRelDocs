@@ -44,45 +44,6 @@ Delegate the run to an Operator instantiated by the name in input (forwards all 
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("delegate_to_operator"); // operator instantiation
-op.connect(-1, my_operator_name);
-ansys::dpf::Any my_any = op.getOutput<ansys::dpf::Any>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.delegate_to_operator() # operator instantiation
-op.inputs.operator_name.connect(my_operator_name)
-my_any = op.outputs.any()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.delegate_to_operator() # operator instantiation
-op.inputs.operator_name.Connect(my_operator_name)
-my_any = op.outputs.any.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

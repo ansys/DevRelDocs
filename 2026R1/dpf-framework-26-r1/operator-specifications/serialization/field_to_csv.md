@@ -45,48 +45,6 @@ Exports a field or a fields container into a csv file
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("field_to_csv"); // operator instantiation
-op.connect(0, my_field_or_fields_container);
-op.connect(1, my_file_path);
-op.connect(2, my_storage_type);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.field_or_fields_container.connect(my_field_or_fields_container)
-op.inputs.file_path.connect(my_file_path)
-op.inputs.storage_type.connect(my_storage_type)
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.field_or_fields_container.Connect(my_field_or_fields_container)
-op.inputs.file_path.Connect(my_file_path)
-op.inputs.storage_type.Connect(my_storage_type)
-```
-</details>
-<br>
 
 ## Changelog
 

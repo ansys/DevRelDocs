@@ -48,57 +48,6 @@ Checks if one field belongs to another.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("Are_fields_included"); // operator instantiation
-op.connect(0, my_fieldA);
-op.connect(1, my_fieldB);
-op.connect(2, my_double_value);
-op.connect(3, my_double_tolerance);
-bool my_included = op.getOutput<bool>(0);
-std::string my_message = op.getOutput<std::string>(1);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.logic.included_fields() # operator instantiation
-op.inputs.fieldA.connect(my_fieldA)
-op.inputs.fieldB.connect(my_fieldB)
-op.inputs.double_value.connect(my_double_value)
-op.inputs.double_tolerance.connect(my_double_tolerance)
-my_included = op.outputs.included()
-my_message = op.outputs.message()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.logic.included_fields() # operator instantiation
-op.inputs.fieldA.Connect(my_fieldA)
-op.inputs.fieldB.Connect(my_fieldB)
-op.inputs.double_value.Connect(my_double_value)
-op.inputs.double_tolerance.Connect(my_double_tolerance)
-my_included = op.outputs.included.GetData()
-my_message = op.outputs.message.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

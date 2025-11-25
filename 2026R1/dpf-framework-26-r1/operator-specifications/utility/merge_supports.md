@@ -45,49 +45,6 @@ Assembles a set of supports into a unique one.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("merge::abstract_support"); // operator instantiation
-op.connect(-200, my_should_merge_named_selections);
-op.connect(0, my_supports);
-ansys::dpf::AbstractFieldSupport my_merged_support = op.getOutput<ansys::dpf::AbstractFieldSupport>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.merge_supports() # operator instantiation
-op.inputs.should_merge_named_selections.connect(my_should_merge_named_selections)
-op.inputs.supports1.connect(my_supports1)
-op.inputs.supports2.connect(my_supports2)
-my_merged_support = op.outputs.merged_support()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.merge_supports() # operator instantiation
-op.inputs.should_merge_named_selections.Connect(my_should_merge_named_selections)
-op.inputs.supports.Connect(my_supports)
-my_merged_support = op.outputs.merged_support.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

@@ -48,57 +48,6 @@ Provides a scoping on a given property name and a property number.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("meshscoping_provider_by_prop"); // operator instantiation
-op.connect(0, my_requested_location);
-op.connect(1, my_property_name);
-op.connect(2, my_property_id);
-op.connect(5, my_inclusive);
-op.connect(7, my_mesh);
-ansys::dpf::Scoping my_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.scoping.on_mesh_property() # operator instantiation
-op.inputs.requested_location.connect(my_requested_location)
-op.inputs.property_name.connect(my_property_name)
-op.inputs.property_id.connect(my_property_id)
-op.inputs.inclusive.connect(my_inclusive)
-op.inputs.mesh.connect(my_mesh)
-my_mesh_scoping = op.outputs.mesh_scoping()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.scoping.on_mesh_property() # operator instantiation
-op.inputs.requested_location.Connect(my_requested_location)
-op.inputs.property_name.Connect(my_property_name)
-op.inputs.property_id.Connect(my_property_id)
-op.inputs.inclusive.Connect(my_inclusive)
-op.inputs.mesh.Connect(my_mesh)
-my_mesh_scoping = op.outputs.mesh_scoping.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

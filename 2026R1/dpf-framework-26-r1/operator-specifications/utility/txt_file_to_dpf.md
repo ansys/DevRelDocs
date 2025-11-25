@@ -44,45 +44,6 @@ Take an input string and parse it into dataProcessing type
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("text_parser"); // operator instantiation
-op.connect(0, my_input_string);
- my_any_output = op.getOutput<>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.txt_file_to_dpf() # operator instantiation
-op.inputs.input_string.connect(my_input_string)
-my_any_output = op.outputs.any_output()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.txt_file_to_dpf() # operator instantiation
-op.inputs.input_string.Connect(my_input_string)
-my_any_output = op.outputs.any_output.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

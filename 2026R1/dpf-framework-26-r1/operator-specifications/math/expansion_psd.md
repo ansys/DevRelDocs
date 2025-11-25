@@ -50,57 +50,6 @@ Computes the PSD response for one-sigma solution.
 
  **License**: any_dpf_supported_increments
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("expansion::psd"); // operator instantiation
-op.connect(0, my_mode_shapes);
-op.connect(1, my_static_shapes);
-op.connect(2, my_rel_rel_covar_matrix);
-op.connect(3, my_stat_stat_covar_matrix);
-op.connect(4, my_rel_stat_covar_matrix);
-ansys::dpf::FieldsContainer my_psd = op.getOutput<ansys::dpf::FieldsContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.math.expansion_psd() # operator instantiation
-op.inputs.mode_shapes.connect(my_mode_shapes)
-op.inputs.static_shapes.connect(my_static_shapes)
-op.inputs.rel_rel_covar_matrix.connect(my_rel_rel_covar_matrix)
-op.inputs.stat_stat_covar_matrix.connect(my_stat_stat_covar_matrix)
-op.inputs.rel_stat_covar_matrix.connect(my_rel_stat_covar_matrix)
-my_psd = op.outputs.psd()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.math.expansion_psd() # operator instantiation
-op.inputs.mode_shapes.Connect(my_mode_shapes)
-op.inputs.static_shapes.Connect(my_static_shapes)
-op.inputs.rel_rel_covar_matrix.Connect(my_rel_rel_covar_matrix)
-op.inputs.stat_stat_covar_matrix.Connect(my_stat_stat_covar_matrix)
-op.inputs.rel_stat_covar_matrix.Connect(my_rel_stat_covar_matrix)
-my_psd = op.outputs.psd.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

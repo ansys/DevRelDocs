@@ -45,48 +45,6 @@ Writes a txt file or string from a DataTree
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("data_tree_to_txt"); // operator instantiation
-op.connect(0, my_data_tree);
-op.connect(1, my_path);
-ansys::dpf::DataSources my_data_sources = op.getOutput<ansys::dpf::DataSources>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.data_tree.connect(my_data_tree)
-op.inputs.path.connect(my_path)
-my_data_sources_as_data_sources = op.outputs.data_sources_as_data_sources()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.data_tree.Connect(my_data_tree)
-op.inputs.path.Connect(my_path)
-my_data_sources = op.outputs.data_sources.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

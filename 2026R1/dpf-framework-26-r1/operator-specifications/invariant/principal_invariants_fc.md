@@ -48,51 +48,6 @@ Computes the element-wise Eigen values of all the tensor fields of a fields cont
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("invariants_fc"); // operator instantiation
-op.connect(0, my_fields_container);
-ansys::dpf::FieldsContainer my_fields_eig_1 = op.getOutput<ansys::dpf::FieldsContainer>(0);
-ansys::dpf::FieldsContainer my_fields_eig_2 = op.getOutput<ansys::dpf::FieldsContainer>(1);
-ansys::dpf::FieldsContainer my_fields_eig_3 = op.getOutput<ansys::dpf::FieldsContainer>(2);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.invariant.principal_invariants_fc() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
-my_fields_eig_1 = op.outputs.fields_eig_1()
-my_fields_eig_2 = op.outputs.fields_eig_2()
-my_fields_eig_3 = op.outputs.fields_eig_3()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.invariant.principal_invariants_fc() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
-my_fields_eig_1 = op.outputs.fields_eig_1.GetData()
-my_fields_eig_2 = op.outputs.fields_eig_2.GetData()
-my_fields_eig_3 = op.outputs.fields_eig_3.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 

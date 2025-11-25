@@ -44,45 +44,6 @@ Getter on operators inside a workflow.
 
  **License**: None
 
-## Examples
-
-<details>
-<summary>C++</summary>
-
-```cpp
-#include "dpf_api.h"
-
-ansys::dpf::Operator op("workflow::get_operators"); // operator instantiation
-op.connect(0, my_workflow);
-ansys::dpf::GenericDataContainer my_operators = op.getOutput<ansys::dpf::GenericDataContainer>(0);
-```
-</details>
-
-<details>
-<summary>CPython</summary>
-
-```python
-import ansys.dpf.core as dpf
-
-op = dpf.operators.utility.get_operators() # operator instantiation
-op.inputs.workflow.connect(my_workflow)
-my_operators = op.outputs.operators()
-```
-</details>
-
-<details>
-<summary>IPython</summary>
-
-```python
-import mech_dpf
-import Ans.DataProcessing as dpf
-
-op = dpf.operators.utility.get_operators() # operator instantiation
-op.inputs.workflow.Connect(my_workflow)
-my_operators = op.outputs.operators.GetData()
-```
-</details>
-<br>
 
 ## Changelog
 
