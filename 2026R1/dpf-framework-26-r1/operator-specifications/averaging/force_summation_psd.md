@@ -28,7 +28,6 @@ Computes the sum of elemental forces contribution on a set of nodes in Global Co
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| force_accumulation |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the sum of forces for the 1-sigma displacement solution on the scoped nodes/elements. |
 |  **Pin 1**| moment_accumulation |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the sum of moments for the 1-sigma displacement solution on the scoped nodes/elements. |
 |  **Pin 10**| forces_on_nodes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the nodal forces for the 1-sigma displacement solution on the scoped nodes/elements. |
 |  **Pin 11**| moments_on_nodes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the nodal moments for the 1-sigma displacement solution on the scoped nodes/elements. |

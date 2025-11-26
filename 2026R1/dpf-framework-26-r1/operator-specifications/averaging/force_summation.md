@@ -23,6 +23,7 @@ Computes the sum of elemental forces contribution on a set of nodes in Global Co
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Data sources. Optional if using a streams container. |
 | <strong>Pin 5</strong>|  force_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Type of force to be processed (0: Total forces (static, damping, and inertia)., 1 (default): Static forces, 2: Damping forces, 3: Inertia forces) |
 | <strong>Pin 6</strong>|  spoint |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Field or fields container of the coordinates of the point used for moment summations. Defaults to (0,0,0). |
+| <strong>Pin 9</strong>|  scoping_filter |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Selected set of nodes.<br>                    <br>- 0 (default): Sum all nodal forces for all selected nodes, excluding contact elements<br>- 1: Sum all nodal forces for contact nodes only.<br>- 2: Sum all nodal forces for all selected nodes, including contact elements.<br> |
 
 ## Outputs
 

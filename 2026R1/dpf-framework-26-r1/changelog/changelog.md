@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-19).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,7 +8,7 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
-| cff | [2 items](#Features_cff) |[1 item](#Fixes_cff) |
+| cff | [2 items](#Features_cff) |[2 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
@@ -21,23 +21,23 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[3 items](#Fixes_femutils) |
+| femutils |  |[5 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[3 items](#Fixes_h5dpf) |
-| hdf5 | [6 items](#Features_hdf5) | |
+| hdf5 | [6 items](#Features_hdf5) |[1 item](#Fixes_hdf5) |
 | hgp | [2 items](#Features_hgp) | |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [13 items](#Features_mapdl) |[16 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[20 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) | |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[1 item](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[3 items](#Fixes_native) |
+| native |  |[4 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -68,6 +68,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_cff"></a> Fixes
+
+- Fix out of bounds issue in units handling:
+  > 
+  >
+  > 
 
 - Set proper names for User-Defined Memory variables:
   > 
@@ -289,6 +294,20 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Add support for contact element filtering in force summation operators:
+  > 
+  >
+  > Force summation operators now filter contact elements by default, and account for the summation point unit
+  >
+  > 
+  >
+  > 
+
+- Missing results with mapping operator:
+  > Correcting behavior of the mapping operator as some nodes were not retrieved.
+  >
+  > 
+
 - Performance and result issue with split_fields:
   > 
   >
@@ -495,6 +514,16 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_hdf5"></a> Fixes
+
+- Correction of mesh detection in HDF5 mesh_property_provider:
+  > 
+  >
+  > In HDF5 version 6, the mesh section is located under the _Results_ section, which differs from its placement in previous versions. To ensure backward compatibility, additional code has been implemented.
+  >
+  > 
+  >
+  > 
 ## hgp
 ### <a id="Features_hgp"></a> Features
 
@@ -566,6 +595,11 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Operator to extract records from RST:
+  > 
+  >
+  > 
 
 - Source Operators for Acoustic Ops:
   > Adding Source Operators for Acoustic Operators in complement of previous PR 630503
@@ -669,6 +703,32 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Include enforced motion into modal basis:
+  > Include enforced motion into modal basis
+  >
+  > 
+  >
+  > 
+
+- Correction on plies/position logic for BFE filter.:
+  > Correction on plies/position logic for BFE filter.
+  >
+  > 
+  >
+  > 
+
+- Fix duplicate sector results sign when reading cyclic mode pairs and CYCOPT,MSUP,1:
+  > Fix cyclic duplicate sectors results sign when reading non raw mechanical results (e.g. elements temperature or elements volume) of a cyclic mode pair from a result file written with CYCOPT,MSUP,1.
+  >
+  > 
+  >
+  > 
+
+- Add mutex to avoid concurrent threads:
+  > 
+  >
+  > 
 
 - Fix model title being truncated:
   > Fix model title being truncated
@@ -1194,6 +1254,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Access violation in scale operator:
+  > Program was crashing when not using the mkl to do the computation in CScale operator ("scale").
+  >
+  > 
+  >
+  > 
+
 - Fix issue with empty label and crash:
   > Fix issue with empty label and crash.
   >
@@ -1677,6 +1744,9 @@ The following table shows which components have updates in each category.
 - [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
 
+- [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/get_operators.md):
+  > Getter on operators inside a workflow.
+
 - [operator_changelog](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/operator_changelog.md):
   > Return a GenericDataContainer used to instantiate the Changelog of an operator based on its name.
 
@@ -1693,10 +1763,14 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
 
+  > 0.2.0: Add support for excluding or not contact elements.
+
 
 - [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation_psd.md)
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
+
+  > 0.1.1: Contact elements are now excluded from the summation.
 
 
 
@@ -1743,6 +1817,8 @@ The following table shows which components have updates in each category.
   > 0.1.0: Performance improvement.
 
   > 0.2.0: Fix bug with interpolation points at corner nodes.
+
+  > 0.3.0: Fix bug with missing results and use_quadratic_elements pin.
 
 
 - [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin.md)
@@ -1798,6 +1874,11 @@ The following table shows which components have updates in each category.
 - [expansion_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/expansion_psd.md)
 
   > 0.0.1: Fix handling of empty fields in mode shapes.
+
+
+- [scale](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/scale.md)
+
+  > 0.0.1: Fixed a segmentation fault.
 
 
 - [scale_by_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/scale_by_field.md)
