@@ -49,7 +49,7 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
 - hdf5: h5dpf 
 - lsdyna: d3plot 
-- mapdl: rst, rstp, rth 
+- mapdl: mode, rst, rstp, rth 
 
 ## Inputs
 

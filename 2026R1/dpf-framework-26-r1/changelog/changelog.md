@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-24).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-27).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -21,20 +21,20 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[5 items](#Fixes_femutils) |
+| femutils |  |[7 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[3 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[1 item](#Fixes_hdf5) |
-| hgp | [2 items](#Features_hgp) | |
+| hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[20 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[23 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| math | [7 items](#Features_math) | |
+| math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
-| mesh |  |[1 item](#Fixes_mesh) |
+| mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | name |  |[1 item](#Fixes_name) |
 | native |  |[4 items](#Fixes_native) |
@@ -294,6 +294,16 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Incorrect number of data on the last id after nodal_to_elemental_nodal_fc:
+  > Fixing error of incorrect number of data on the last id after `nodal_to_elemental_nodal_fc`.
+  >
+  > 
+
+- Issue with shell layers calculation in the results field while having mid-side nodes on some elements:
+  > Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements. As a consequence of this, some 0 additional values were shown in the output.
+  >
+  > 
+
 - Add support for contact element filtering in force summation operators:
   > 
   >
@@ -527,6 +537,15 @@ The following table shows which components have updates in each category.
 ## hgp
 ### <a id="Features_hgp"></a> Features
 
+- Custom type field int64:
+  > 
+  >
+  > Allow to create CustomTypeField of int64_t in dpf c++ API.
+  >
+  > 
+  >
+  > 
+
 - Allow user to get DPFClientAPI library dir:
   > 
   >
@@ -545,6 +564,21 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_hgp"></a> Fixes
+
+- Empty vector copy:
+  > 
+  >
+  > 
+
+- Improve error message for unsupported unit creation:
+  > Creating a unit in HGP using an unknown symbol generated a non-informative error.
+  >
+  > It now raises an ``std::invalid_argument`` error which message indicates a homogeneity must be given along with the custom unit symbol.
+  >
+  > 
+  >
+  > 
 ## kernel
 ### <a id="Features_kernel"></a> Features
 
@@ -703,6 +737,25 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Read contact results from mode + rst datasource:
+  > Read contact results from mode + rst datasource
+  >
+  > 
+  >
+  > 
+
+- Fix reading complex results from complex mode file.:
+  > Fix reading complex results from complex mode file.
+  >
+  > 
+  >
+  > 
+
+- Recover output pin for force summation psd:
+  > 
+  >
+  > 
 
 - Include enforced motion into modal basis:
   > Include enforced motion into modal basis
@@ -907,6 +960,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_math"></a> Fixes
+
+- FFT Multiharmonic performance enhancements:
+  > FFT Multiharmonic performance enhancements
+  >
+  > 
+  >
+  > 
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
 
@@ -939,6 +1000,15 @@ The following table shows which components have updates in each category.
 ## mesh
 
 ### <a id="Fixes_mesh"></a> Fixes
+
+- Fix a crash in meshed_skin_sector with non elemental properties:
+  > 
+  >
+  > meshed_skin_sector: Fix a crash when the mesh includes non-elemental properties
+  >
+  > 
+  >
+  > 
 
 - Remove invalid dead code:
   > 
@@ -1773,6 +1843,16 @@ The following table shows which components have updates in each category.
   > 0.1.1: Contact elements are now excluded from the summation.
 
 
+- [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal.md)
+
+  > 0.0.1: Fixed issue with resize output field.
+
+
+- [nodal_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal_fc.md)
+
+  > 0.0.1: Fixed issue with resize output fields.
+
+
 
 #### filter
 
@@ -1829,16 +1909,20 @@ The following table shows which components have updates in each category.
 
   > 0.2.1: Removing unnedeed output hidden pin.
 
+  > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
+
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
-  > 0.1.0: Improving performance for Nodal locations. Added parallelization
+  > 0.1.0: Improving performance for Nodal locations. Added parallelization.
 
-  > 0.1.1: Bug fixed for empty fields container
+  > 0.1.1: Bug fixed for empty fields container.
 
-  > 0.2.0: Improving performance for ElementalNodal and Elemental locations
+  > 0.2.0: Improving performance for ElementalNodal and Elemental locations.
 
   > 0.2.1: Fixed issue with different scopings in the input field.
+
+  > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
 
 
 
