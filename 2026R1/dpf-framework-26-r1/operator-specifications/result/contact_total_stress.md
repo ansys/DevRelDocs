@@ -48,7 +48,7 @@ Read/compute element contact total stress (pressure plus friction) by calling th
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - hdf5: h5dpf 
-- mapdl: rst, rstp, rth 
+- mapdl: mode, rst, rstp, rth 
 
 ## Inputs
 

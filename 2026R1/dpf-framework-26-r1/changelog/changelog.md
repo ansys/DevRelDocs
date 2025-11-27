@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-26).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-27).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -32,7 +32,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapdl | [14 items](#Features_mapdl) |[23 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| math | [7 items](#Features_math) | |
+| math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
@@ -960,6 +960,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_math"></a> Fixes
+
+- FFT Multiharmonic performance enhancements:
+  > FFT Multiharmonic performance enhancements
+  >
+  > 
+  >
+  > 
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
 
@@ -1833,6 +1841,16 @@ The following table shows which components have updates in each category.
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
 
   > 0.1.1: Contact elements are now excluded from the summation.
+
+
+- [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal.md)
+
+  > 0.0.1: Fixed issue with resize output field.
+
+
+- [nodal_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal_fc.md)
+
+  > 0.0.1: Fixed issue with resize output fields.
 
 
 
