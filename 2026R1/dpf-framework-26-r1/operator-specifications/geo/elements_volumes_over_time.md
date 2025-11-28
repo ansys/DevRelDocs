@@ -46,6 +46,51 @@ Calculates for a mesh, the volume of each element over time for each specified t
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("volumes_provider"); // operator instantiation
+op.connect(1, my_scoping);
+op.connect(2, my_displacement);
+op.connect(7, my_mesh);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.geo.elements_volumes_over_time() # operator instantiation
+op.inputs.scoping.connect(my_scoping)
+op.inputs.displacement.connect(my_displacement)
+op.inputs.mesh.connect(my_mesh)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.geo.elements_volumes_over_time() # operator instantiation
+op.inputs.scoping.Connect(my_scoping)
+op.inputs.displacement.Connect(my_displacement)
+op.inputs.mesh.Connect(my_mesh)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

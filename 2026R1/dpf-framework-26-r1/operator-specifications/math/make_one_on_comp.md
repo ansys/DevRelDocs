@@ -45,6 +45,48 @@ Takes the input field's scoping and creates a field full of zeros, except for th
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("make_one_on_comp"); // operator instantiation
+op.connect(0, my_fieldA);
+op.connect(1, my_scalar_int);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.make_one_on_comp() # operator instantiation
+op.inputs.fieldA.connect(my_fieldA)
+op.inputs.scalar_int.connect(my_scalar_int)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.make_one_on_comp() # operator instantiation
+op.inputs.fieldA.Connect(my_fieldA)
+op.inputs.scalar_int.Connect(my_scalar_int)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

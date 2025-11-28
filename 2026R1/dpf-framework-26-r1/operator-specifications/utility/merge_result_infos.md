@@ -45,6 +45,46 @@ Assembles a set of result information into a unique one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::result_info"); // operator instantiation
+op.connect(0, my_result_infos);
+ansys::dpf::ResultInfo my_merged_result_infos = op.getOutput<ansys::dpf::ResultInfo>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_result_infos() # operator instantiation
+op.inputs.result_infos1.connect(my_result_infos1)
+op.inputs.result_infos2.connect(my_result_infos2)
+my_merged_result_infos = op.outputs.merged_result_infos()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_result_infos() # operator instantiation
+op.inputs.result_infos.Connect(my_result_infos)
+my_merged_result_infos = op.outputs.merged_result_infos.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

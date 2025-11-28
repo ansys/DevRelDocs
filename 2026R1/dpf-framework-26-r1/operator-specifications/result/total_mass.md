@@ -44,6 +44,45 @@ Reads total mass from mode file.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapdl::mode::total_mass"); // operator instantiation
+op.connect(4, my_data_sources);
+double my_mass = op.getOutput<double>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.total_mass() # operator instantiation
+op.inputs.data_sources.connect(my_data_sources)
+my_mass = op.outputs.mass()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.total_mass() # operator instantiation
+op.inputs.data_sources.Connect(my_data_sources)
+my_mass = op.outputs.mass.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

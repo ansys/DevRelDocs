@@ -49,6 +49,51 @@ Computes centroid of field1 and field2, using fieldOut = field1*(1.-fact)+field2
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("centroid"); // operator instantiation
+op.connect(0, my_fieldA);
+op.connect(1, my_fieldB);
+op.connect(2, my_factor);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fieldA.connect(my_fieldA)
+op.inputs.fieldB.connect(my_fieldB)
+op.inputs.factor.connect(my_factor)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fieldA.Connect(my_fieldA)
+op.inputs.fieldB.Connect(my_fieldB)
+op.inputs.factor.Connect(my_factor)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

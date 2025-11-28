@@ -51,6 +51,60 @@ Computes the coefficients (=U*Sigma) and VT components from SVD.
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("svd_operator"); // operator instantiation
+op.connect(0, my_field_contaner_to_compress);
+op.connect(1, my_scalar_int);
+op.connect(2, my_scalar_double);
+op.connect(3, my_boolean);
+ansys::dpf::FieldsContainer my_us_svd = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::FieldsContainer my_vt_svd = op.getOutput<ansys::dpf::FieldsContainer>(1);
+ansys::dpf::Field my_sigma = op.getOutput<ansys::dpf::Field>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.compression.apply_svd() # operator instantiation
+op.inputs.field_contaner_to_compress.connect(my_field_contaner_to_compress)
+op.inputs.scalar_int.connect(my_scalar_int)
+op.inputs.scalar_double.connect(my_scalar_double)
+op.inputs.boolean.connect(my_boolean)
+my_us_svd = op.outputs.us_svd()
+my_vt_svd = op.outputs.vt_svd()
+my_sigma_as_field = op.outputs.sigma_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.compression.apply_svd() # operator instantiation
+op.inputs.field_contaner_to_compress.Connect(my_field_contaner_to_compress)
+op.inputs.scalar_int.Connect(my_scalar_int)
+op.inputs.scalar_double.Connect(my_scalar_double)
+op.inputs.boolean.Connect(my_boolean)
+my_us_svd = op.outputs.us_svd.GetData()
+my_vt_svd = op.outputs.vt_svd.GetData()
+my_sigma = op.outputs.sigma.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

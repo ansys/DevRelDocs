@@ -46,6 +46,52 @@ Write the input field and fields container into a given vtk path
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("vtk_export"); // operator instantiation
+op.connect(-1, my_export_type);
+op.connect(0, my_file_path);
+op.connect(1, my_mesh);
+op.connect(2, my_fields);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.vtk_export() # operator instantiation
+op.inputs.export_type.connect(my_export_type)
+op.inputs.file_path.connect(my_file_path)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.fields1.connect(my_fields1)
+op.inputs.fields2.connect(my_fields2)
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.vtk_export() # operator instantiation
+op.inputs.export_type.Connect(my_export_type)
+op.inputs.file_path.Connect(my_file_path)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.fields.Connect(my_fields)
+```
+</details>
+<br>
 
 ## Changelog
 

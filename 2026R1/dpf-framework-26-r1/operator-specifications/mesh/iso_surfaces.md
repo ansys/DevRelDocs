@@ -49,6 +49,60 @@ Extract multiple iso-contours from mesh_cut operator and set it into a meshes co
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("iso_surfaces"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_num_surfaces);
+op.connect(2, my_mesh);
+op.connect(3, my_slice_surfaces);
+op.connect(4, my_vector_iso_values);
+ansys::dpf::MeshesContainer my_meshes = op.getOutput<ansys::dpf::MeshesContainer>(0);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.iso_surfaces() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.num_surfaces.connect(my_num_surfaces)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.slice_surfaces.connect(my_slice_surfaces)
+op.inputs.vector_iso_values.connect(my_vector_iso_values)
+my_meshes = op.outputs.meshes()
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.iso_surfaces() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.num_surfaces.Connect(my_num_surfaces)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.slice_surfaces.Connect(my_slice_surfaces)
+op.inputs.vector_iso_values.Connect(my_vector_iso_values)
+my_meshes = op.outputs.meshes.GetData()
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

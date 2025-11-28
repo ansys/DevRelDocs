@@ -44,6 +44,46 @@ Assembles a set of fields into a field matrix.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::to_field_matrix"); // operator instantiation
+op.connect(0, my_fields);
+ansys::dpf::Field my_merged_field_matrix = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_to_field_matrix() # operator instantiation
+op.inputs.fields1.connect(my_fields1)
+op.inputs.fields2.connect(my_fields2)
+my_merged_field_matrix = op.outputs.merged_field_matrix()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_to_field_matrix() # operator instantiation
+op.inputs.fields.Connect(my_fields)
+my_merged_field_matrix = op.outputs.merged_field_matrix.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

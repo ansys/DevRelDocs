@@ -62,6 +62,99 @@ Write the invariant terms and the model data in a motion dfmf file
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("write_motion_dfmf_file"); // operator instantiation
+op.connect(0, my_model_data);
+op.connect(1, my_mode_shapes);
+op.connect(2, my_lumped_mass);
+op.connect(3, my_field_coordinates);
+op.connect(4, my_nod);
+op.connect(5, my_used_node_index);
+op.connect(6, my_eigenvalue);
+op.connect(7, my_translational_mode_shape);
+op.connect(8, my_rotational_mode_shape);
+op.connect(9, my_invrt_1);
+op.connect(10, my_invrt_2);
+op.connect(11, my_invrt_3);
+op.connect(12, my_invrt_4);
+op.connect(13, my_invrt_5);
+op.connect(14, my_invrt_6);
+op.connect(15, my_invrt_7);
+op.connect(16, my_invrt_8);
+op.connect(17, my_dfmffile_path);
+op.connect(18, my_rstfile_path);
+ansys::dpf::DataSources my_dfmf_data_source = op.getOutput<ansys::dpf::DataSources>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.write_motion_dfmf_file() # operator instantiation
+op.inputs.model_data.connect(my_model_data)
+op.inputs.mode_shapes.connect(my_mode_shapes)
+op.inputs.lumped_mass.connect(my_lumped_mass)
+op.inputs.field_coordinates.connect(my_field_coordinates)
+op.inputs.nod.connect(my_nod)
+op.inputs.used_node_index.connect(my_used_node_index)
+op.inputs.eigenvalue.connect(my_eigenvalue)
+op.inputs.translational_mode_shape.connect(my_translational_mode_shape)
+op.inputs.rotational_mode_shape.connect(my_rotational_mode_shape)
+op.inputs.invrt_1.connect(my_invrt_1)
+op.inputs.invrt_2.connect(my_invrt_2)
+op.inputs.invrt_3.connect(my_invrt_3)
+op.inputs.invrt_4.connect(my_invrt_4)
+op.inputs.invrt_5.connect(my_invrt_5)
+op.inputs.invrt_6.connect(my_invrt_6)
+op.inputs.invrt_7.connect(my_invrt_7)
+op.inputs.invrt_8.connect(my_invrt_8)
+op.inputs.dfmffile_path.connect(my_dfmffile_path)
+op.inputs.rstfile_path.connect(my_rstfile_path)
+my_dfmf_data_source = op.outputs.dfmf_data_source()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.write_motion_dfmf_file() # operator instantiation
+op.inputs.model_data.Connect(my_model_data)
+op.inputs.mode_shapes.Connect(my_mode_shapes)
+op.inputs.lumped_mass.Connect(my_lumped_mass)
+op.inputs.field_coordinates.Connect(my_field_coordinates)
+op.inputs.nod.Connect(my_nod)
+op.inputs.used_node_index.Connect(my_used_node_index)
+op.inputs.eigenvalue.Connect(my_eigenvalue)
+op.inputs.translational_mode_shape.Connect(my_translational_mode_shape)
+op.inputs.rotational_mode_shape.Connect(my_rotational_mode_shape)
+op.inputs.invrt_1.Connect(my_invrt_1)
+op.inputs.invrt_2.Connect(my_invrt_2)
+op.inputs.invrt_3.Connect(my_invrt_3)
+op.inputs.invrt_4.Connect(my_invrt_4)
+op.inputs.invrt_5.Connect(my_invrt_5)
+op.inputs.invrt_6.Connect(my_invrt_6)
+op.inputs.invrt_7.Connect(my_invrt_7)
+op.inputs.invrt_8.Connect(my_invrt_8)
+op.inputs.dfmffile_path.Connect(my_dfmffile_path)
+op.inputs.rstfile_path.Connect(my_rstfile_path)
+my_dfmf_data_source = op.outputs.dfmf_data_source.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

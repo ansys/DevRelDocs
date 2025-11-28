@@ -45,6 +45,49 @@ Assembles a set of property fields into a unique one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::property_field"); // operator instantiation
+op.connect(-201, my_naive_merge);
+op.connect(0, my_property_fields);
+ansys::dpf::PropertyField my_property_field = op.getOutput<ansys::dpf::PropertyField>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_property_fields() # operator instantiation
+op.inputs.naive_merge.connect(my_naive_merge)
+op.inputs.property_fields1.connect(my_property_fields1)
+op.inputs.property_fields2.connect(my_property_fields2)
+my_property_field = op.outputs.property_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_property_fields() # operator instantiation
+op.inputs.naive_merge.Connect(my_naive_merge)
+op.inputs.property_fields.Connect(my_property_fields)
+my_property_field = op.outputs.property_field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -45,6 +45,48 @@ export a mesh into a stl file.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("stl_export"); // operator instantiation
+op.connect(0, my_mesh);
+op.connect(1, my_file_path);
+ansys::dpf::DataSources my_data_sources = op.getOutput<ansys::dpf::DataSources>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.stl_export() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+op.inputs.file_path.connect(my_file_path)
+my_data_sources = op.outputs.data_sources()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.stl_export() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.file_path.Connect(my_file_path)
+my_data_sources = op.outputs.data_sources.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -46,6 +46,51 @@ Takes two string fields and compares them.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("compare::string_field"); // operator instantiation
+op.connect(0, my_string_fieldA);
+op.connect(1, my_string_fieldB);
+bool my_are_identical = op.getOutput<bool>(0);
+std::string my_information = op.getOutput<std::string>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.identical_string_fields() # operator instantiation
+op.inputs.string_fieldA.connect(my_string_fieldA)
+op.inputs.string_fieldB.connect(my_string_fieldB)
+my_are_identical = op.outputs.are_identical()
+my_information = op.outputs.information()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.identical_string_fields() # operator instantiation
+op.inputs.string_fieldA.Connect(my_string_fieldA)
+op.inputs.string_fieldB.Connect(my_string_fieldB)
+my_are_identical = op.outputs.are_identical.GetData()
+my_information = op.outputs.information.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

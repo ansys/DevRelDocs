@@ -47,6 +47,54 @@ Converts a fields container from one mapdl ordering to another mapdl ordering. S
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("convertnum_op"); // operator instantiation
+op.connect(0, my_input_ordering);
+op.connect(1, my_output_ordering);
+op.connect(2, my_fields_container);
+op.connect(4, my_data_sources);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.invariant.convertnum_op() # operator instantiation
+op.inputs.input_ordering.connect(my_input_ordering)
+op.inputs.output_ordering.connect(my_output_ordering)
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.invariant.convertnum_op() # operator instantiation
+op.inputs.input_ordering.Connect(my_input_ordering)
+op.inputs.output_ordering.Connect(my_output_ordering)
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

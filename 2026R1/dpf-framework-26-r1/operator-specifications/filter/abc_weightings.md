@@ -47,6 +47,51 @@ Computes ABC-weightings for the amplitude spectrum in dB units.
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("abc_weightings"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_weighting_type);
+op.connect(2, my_shape_by_tf_scoping);
+ansys::dpf::FieldsContainer my_weightings = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.filter.abc_weightings() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.weighting_type.connect(my_weighting_type)
+op.inputs.shape_by_tf_scoping.connect(my_shape_by_tf_scoping)
+my_weightings = op.outputs.weightings()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.filter.abc_weightings() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.weighting_type.Connect(my_weighting_type)
+op.inputs.shape_by_tf_scoping.Connect(my_shape_by_tf_scoping)
+my_weightings = op.outputs.weightings.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

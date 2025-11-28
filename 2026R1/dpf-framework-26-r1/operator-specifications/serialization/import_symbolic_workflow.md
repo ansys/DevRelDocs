@@ -45,6 +45,48 @@ Reads a file or string holding a Symbolic Workflow and instantiate a WorkFlow wi
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("import_symbolic_workflow"); // operator instantiation
+op.connect(0, my_string_or_path);
+op.connect(2, my_format);
+ansys::dpf::Workflow my_workflow = op.getOutput<ansys::dpf::Workflow>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.string_or_path.connect(my_string_or_path)
+op.inputs.format.connect(my_format)
+my_workflow = op.outputs.workflow()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.string_or_path.Connect(my_string_or_path)
+op.inputs.format.Connect(my_format)
+my_workflow = op.outputs.workflow.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

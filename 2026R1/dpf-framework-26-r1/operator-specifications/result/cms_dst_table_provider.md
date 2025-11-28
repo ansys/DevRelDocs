@@ -44,6 +44,45 @@ Read CST table from a subfile.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("cms_dst_table_provider"); // operator instantiation
+op.connect(4, my_data_sources);
+ansys::dpf::PropertyField my_dst_table = op.getOutput<ansys::dpf::PropertyField>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.cms_dst_table_provider() # operator instantiation
+op.inputs.data_sources.connect(my_data_sources)
+my_dst_table = op.outputs.dst_table()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.cms_dst_table_provider() # operator instantiation
+op.inputs.data_sources.Connect(my_data_sources)
+my_dst_table = op.outputs.dst_table.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

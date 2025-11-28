@@ -48,6 +48,57 @@ Merges the fields of a fields container that share the same label value.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::fields_container_label"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_label);
+op.connect(2, my_merged_field_support);
+op.connect(3, my_sum_merge);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::AbstractFieldSupport my_merged_field_support = op.getOutput<ansys::dpf::AbstractFieldSupport>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_fields_by_label() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.label.connect(my_label)
+op.inputs.merged_field_support.connect(my_merged_field_support)
+op.inputs.sum_merge.connect(my_sum_merge)
+my_fields_container = op.outputs.fields_container()
+my_merged_field_support = op.outputs.merged_field_support()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_fields_by_label() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.label.Connect(my_label)
+op.inputs.merged_field_support.Connect(my_merged_field_support)
+op.inputs.sum_merge.Connect(my_sum_merge)
+my_fields_container = op.outputs.fields_container.GetData()
+my_merged_field_support = op.outputs.merged_field_support.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

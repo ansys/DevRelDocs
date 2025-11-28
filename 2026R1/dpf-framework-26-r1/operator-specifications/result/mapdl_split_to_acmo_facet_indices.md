@@ -45,6 +45,48 @@ This will retain the already existing labels from the input FC and will change t
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapdl::split_to_acmo_facet_indices"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_property_fields_container_element_types);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.mapdl_split_to_acmo_facet_indices() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.property_fields_container_element_types.connect(my_property_fields_container_element_types)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.mapdl_split_to_acmo_facet_indices() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.property_fields_container_element_types.Connect(my_property_fields_container_element_types)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -46,6 +46,51 @@ Takes a MaterialContainer and a stream and enriches the MaterialContainer using 
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("enrich_materials"); // operator instantiation
+op.connect(0, my_MaterialContainer);
+op.connect(1, my_streams);
+op.connect(2, my_streams_mapping);
+bool my_MaterialContainer = op.getOutput<bool>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.enrich_materials() # operator instantiation
+op.inputs.MaterialContainer.connect(my_MaterialContainer)
+op.inputs.streams.connect(my_streams)
+op.inputs.streams_mapping.connect(my_streams_mapping)
+my_MaterialContainer = op.outputs.MaterialContainer()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.enrich_materials() # operator instantiation
+op.inputs.MaterialContainer.Connect(my_MaterialContainer)
+op.inputs.streams.Connect(my_streams)
+op.inputs.streams_mapping.Connect(my_streams_mapping)
+my_MaterialContainer = op.outputs.MaterialContainer.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -66,6 +66,111 @@ Set the required data for the invariant terms computation (reduced matrices, lum
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("compute_invariant_terms_motion"); // operator instantiation
+op.connect(0, my_rom_matrices);
+op.connect(1, my_mode_shapes);
+op.connect(2, my_lumped_mass);
+op.connect(3, my_model_data);
+op.connect(4, my_field_coordinates);
+op.connect(5, my_nod);
+op.connect(6, my_phi_ortho);
+ansys::dpf::PropertyField my_model_data = op.getOutput<ansys::dpf::PropertyField>(0);
+ansys::dpf::FieldsContainer my_mode_shapes = op.getOutput<ansys::dpf::FieldsContainer>(1);
+ansys::dpf::FieldsContainer my_lumped_mass = op.getOutput<ansys::dpf::FieldsContainer>(2);
+ansys::dpf::FieldsContainer my_field_coordinates_and_euler_angles = op.getOutput<ansys::dpf::FieldsContainer>(3);
+std::vector<int> my_nod = op.getOutput<std::vector<int>>(4);
+std::vector<int> my_used_node_index = op.getOutput<std::vector<int>>(5);
+std::vector<double> my_eigenvalue = op.getOutput<std::vector<double>>(6);
+std::vector<double> my_translational_mode_shape = op.getOutput<std::vector<double>>(7);
+std::vector<double> my_rotational_mode_shape = op.getOutput<std::vector<double>>(8);
+double my_invrt_1 = op.getOutput<double>(9);
+std::vector<double> my_invrt_2 = op.getOutput<std::vector<double>>(10);
+std::vector<double> my_invrt_3 = op.getOutput<std::vector<double>>(11);
+std::vector<double> my_invrt_4 = op.getOutput<std::vector<double>>(12);
+std::vector<double> my_invrt_5 = op.getOutput<std::vector<double>>(13);
+std::vector<double> my_invrt_6 = op.getOutput<std::vector<double>>(14);
+std::vector<double> my_invrt_7 = op.getOutput<std::vector<double>>(15);
+std::vector<double> my_invrt_8 = op.getOutput<std::vector<double>>(16);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.compute_invariant_terms_motion() # operator instantiation
+op.inputs.rom_matrices.connect(my_rom_matrices)
+op.inputs.mode_shapes.connect(my_mode_shapes)
+op.inputs.lumped_mass.connect(my_lumped_mass)
+op.inputs.model_data.connect(my_model_data)
+op.inputs.field_coordinates.connect(my_field_coordinates)
+op.inputs.nod.connect(my_nod)
+op.inputs.phi_ortho.connect(my_phi_ortho)
+my_model_data = op.outputs.model_data()
+my_mode_shapes = op.outputs.mode_shapes()
+my_lumped_mass = op.outputs.lumped_mass()
+my_field_coordinates_and_euler_angles = op.outputs.field_coordinates_and_euler_angles()
+my_nod = op.outputs.nod()
+my_used_node_index = op.outputs.used_node_index()
+my_eigenvalue = op.outputs.eigenvalue()
+my_translational_mode_shape = op.outputs.translational_mode_shape()
+my_rotational_mode_shape = op.outputs.rotational_mode_shape()
+my_invrt_1 = op.outputs.invrt_1()
+my_invrt_2 = op.outputs.invrt_2()
+my_invrt_3 = op.outputs.invrt_3()
+my_invrt_4 = op.outputs.invrt_4()
+my_invrt_5 = op.outputs.invrt_5()
+my_invrt_6 = op.outputs.invrt_6()
+my_invrt_7 = op.outputs.invrt_7()
+my_invrt_8 = op.outputs.invrt_8()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.compute_invariant_terms_motion() # operator instantiation
+op.inputs.rom_matrices.Connect(my_rom_matrices)
+op.inputs.mode_shapes.Connect(my_mode_shapes)
+op.inputs.lumped_mass.Connect(my_lumped_mass)
+op.inputs.model_data.Connect(my_model_data)
+op.inputs.field_coordinates.Connect(my_field_coordinates)
+op.inputs.nod.Connect(my_nod)
+op.inputs.phi_ortho.Connect(my_phi_ortho)
+my_model_data = op.outputs.model_data.GetData()
+my_mode_shapes = op.outputs.mode_shapes.GetData()
+my_lumped_mass = op.outputs.lumped_mass.GetData()
+my_field_coordinates_and_euler_angles = op.outputs.field_coordinates_and_euler_angles.GetData()
+my_nod = op.outputs.nod.GetData()
+my_used_node_index = op.outputs.used_node_index.GetData()
+my_eigenvalue = op.outputs.eigenvalue.GetData()
+my_translational_mode_shape = op.outputs.translational_mode_shape.GetData()
+my_rotational_mode_shape = op.outputs.rotational_mode_shape.GetData()
+my_invrt_1 = op.outputs.invrt_1.GetData()
+my_invrt_2 = op.outputs.invrt_2.GetData()
+my_invrt_3 = op.outputs.invrt_3.GetData()
+my_invrt_4 = op.outputs.invrt_4.GetData()
+my_invrt_5 = op.outputs.invrt_5.GetData()
+my_invrt_6 = op.outputs.invrt_6.GetData()
+my_invrt_7 = op.outputs.invrt_7.GetData()
+my_invrt_8 = op.outputs.invrt_8.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -47,6 +47,48 @@ Reads the mesh support.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh_support_provider"); // operator instantiation
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+ansys::dpf::AbstractFieldSupport my_abstract_field_support = op.getOutput<ansys::dpf::AbstractFieldSupport>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.mesh_support_provider() # operator instantiation
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_abstract_field_support = op.outputs.abstract_field_support()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.mesh_support_provider() # operator instantiation
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_abstract_field_support = op.outputs.abstract_field_support.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

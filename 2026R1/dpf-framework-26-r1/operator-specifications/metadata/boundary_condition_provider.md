@@ -53,6 +53,48 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("boundary_conditions"); // operator instantiation
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+ansys::dpf::Field my_results_info = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.boundary_condition_provider() # operator instantiation
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_results_info_as_field = op.outputs.results_info_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.boundary_condition_provider() # operator instantiation
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_results_info = op.outputs.results_info.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

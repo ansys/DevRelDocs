@@ -48,6 +48,51 @@ Sends a local workflow to a remote process (and keep a local image of it) or cre
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("remote_workflow_instantiate"); // operator instantiation
+op.connect(0, my_workflow_to_send);
+op.connect(3, my_streams_to_remote);
+op.connect(4, my_data_sources_to_remote);
+ansys::dpf::Workflow my_remote_workflow = op.getOutput<ansys::dpf::Workflow>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.remote_workflow_instantiate() # operator instantiation
+op.inputs.workflow_to_send.connect(my_workflow_to_send)
+op.inputs.streams_to_remote.connect(my_streams_to_remote)
+op.inputs.data_sources_to_remote.connect(my_data_sources_to_remote)
+my_remote_workflow = op.outputs.remote_workflow()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.remote_workflow_instantiate() # operator instantiation
+op.inputs.workflow_to_send.Connect(my_workflow_to_send)
+op.inputs.streams_to_remote.Connect(my_streams_to_remote)
+op.inputs.data_sources_to_remote.Connect(my_data_sources_to_remote)
+my_remote_workflow = op.outputs.remote_workflow.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

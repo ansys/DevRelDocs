@@ -50,6 +50,63 @@ Create two fields (0 min 1 max) by looping over the fields container in input an
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("min_max_over_label_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_label);
+ansys::dpf::Field my_field_min = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Field my_field_max = op.getOutput<ansys::dpf::Field>(1);
+ansys::dpf::Scoping my_domain_ids_min = op.getOutput<ansys::dpf::Scoping>(2);
+ansys::dpf::Scoping my_domain_ids_max = op.getOutput<ansys::dpf::Scoping>(3);
+ansys::dpf::Scoping my_scoping_ids_min = op.getOutput<ansys::dpf::Scoping>(4);
+ansys::dpf::Scoping my_scoping_ids_max = op.getOutput<ansys::dpf::Scoping>(5);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.min_max.None() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.label.connect(my_label)
+my_field_min = op.outputs.field_min()
+my_field_max = op.outputs.field_max()
+my_domain_ids_min = op.outputs.domain_ids_min()
+my_domain_ids_max = op.outputs.domain_ids_max()
+my_scoping_ids_min = op.outputs.scoping_ids_min()
+my_scoping_ids_max = op.outputs.scoping_ids_max()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.min_max.None() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.label.Connect(my_label)
+my_field_min = op.outputs.field_min.GetData()
+my_field_max = op.outputs.field_max.GetData()
+my_domain_ids_min = op.outputs.domain_ids_min.GetData()
+my_domain_ids_max = op.outputs.domain_ids_max.GetData()
+my_scoping_ids_min = op.outputs.scoping_ids_min.GetData()
+my_scoping_ids_max = op.outputs.scoping_ids_max.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

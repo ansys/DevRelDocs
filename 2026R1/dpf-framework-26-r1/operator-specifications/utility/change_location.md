@@ -45,6 +45,48 @@ Changes the location property of a field without modifying the field data.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("change_location"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_new_location);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.change_location() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.new_location.connect(my_new_location)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.change_location() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.new_location.Connect(my_new_location)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

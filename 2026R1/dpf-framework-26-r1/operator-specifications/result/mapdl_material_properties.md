@@ -47,6 +47,54 @@ Read the values of the properties of a material for a given materials property f
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapdl_material_properties"); // operator instantiation
+op.connect(0, my_properties_name);
+op.connect(1, my_materials);
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+ansys::dpf::FieldsContainer my_properties_value = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.mapdl_material_properties() # operator instantiation
+op.inputs.properties_name.connect(my_properties_name)
+op.inputs.materials.connect(my_materials)
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_properties_value = op.outputs.properties_value()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.mapdl_material_properties() # operator instantiation
+op.inputs.properties_name.Connect(my_properties_name)
+op.inputs.materials.Connect(my_materials)
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_properties_value = op.outputs.properties_value.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -45,6 +45,48 @@ Converts an Assembly Mesh into a DPF Meshes container
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("acmo_mesh_provider"); // operator instantiation
+op.connect(0, my_assembly_mesh);
+op.connect(1, my_unit);
+ansys::dpf::MeshesContainer my_meshes_container = op.getOutput<ansys::dpf::MeshesContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.None() # operator instantiation
+op.inputs.assembly_mesh.connect(my_assembly_mesh)
+op.inputs.unit.connect(my_unit)
+my_meshes_container = op.outputs.meshes_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.None() # operator instantiation
+op.inputs.assembly_mesh.Connect(my_assembly_mesh)
+op.inputs.unit.Connect(my_unit)
+my_meshes_container = op.outputs.meshes_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

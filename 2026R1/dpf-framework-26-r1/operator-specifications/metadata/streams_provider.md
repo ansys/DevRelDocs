@@ -46,6 +46,45 @@ Creates streams (files with cache) from the data sources.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("stream_provider"); // operator instantiation
+op.connect(4, my_data_sources);
+ansys::dpf::Streams my_streams_container = op.getOutput<ansys::dpf::Streams>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.streams_provider() # operator instantiation
+op.inputs.data_sources.connect(my_data_sources)
+my_streams_container = op.outputs.streams_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.streams_provider() # operator instantiation
+op.inputs.data_sources.Connect(my_data_sources)
+my_streams_container = op.outputs.streams_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

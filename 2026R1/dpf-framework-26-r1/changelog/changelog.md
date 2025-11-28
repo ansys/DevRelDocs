@@ -30,7 +30,7 @@ The following table shows which components have updates in each category.
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[23 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[24 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -737,6 +737,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Avoid expanding mesh for higher harmonics of the same physical stage:
+  > 
+  >
+  > 
 
 - Read contact results from mode + rst datasource:
   > Read contact results from mode + rst datasource

@@ -48,6 +48,51 @@ Computes the element-wise invariants of all the tensor fields of a fields contai
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("invariants_deriv_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+ansys::dpf::FieldsContainer my_fields_int = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::FieldsContainer my_fields_eqv = op.getOutput<ansys::dpf::FieldsContainer>(1);
+ansys::dpf::FieldsContainer my_fields_max_shear = op.getOutput<ansys::dpf::FieldsContainer>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.invariant.invariants_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+my_fields_int = op.outputs.fields_int()
+my_fields_eqv = op.outputs.fields_eqv()
+my_fields_max_shear = op.outputs.fields_max_shear()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.invariant.invariants_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+my_fields_int = op.outputs.fields_int.GetData()
+my_fields_eqv = op.outputs.fields_eqv.GetData()
+my_fields_max_shear = op.outputs.fields_max_shear.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

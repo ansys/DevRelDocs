@@ -45,6 +45,48 @@ Creates a meshes container containing the mesh provided on pin 0.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("InjectToMeshesContainer"); // operator instantiation
+op.connect(0, my_mesh);
+op.connect(1, my_label);
+ansys::dpf::MeshesContainer my_meshes_container = op.getOutput<ansys::dpf::MeshesContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.mesh_to_mc() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+op.inputs.label.connect(my_label)
+my_meshes_container = op.outputs.meshes_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.mesh_to_mc() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.label.Connect(my_label)
+my_meshes_container = op.outputs.meshes_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

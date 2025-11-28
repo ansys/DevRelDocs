@@ -47,6 +47,54 @@ Computes the average of a multi-entity field, (ElementalNodal -> Elemental), (No
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("entity_average"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_collapse_shell_layers);
+op.connect(2, my_force_averaging);
+op.connect(3, my_scoping);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.elemental_mean() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.collapse_shell_layers.connect(my_collapse_shell_layers)
+op.inputs.force_averaging.connect(my_force_averaging)
+op.inputs.scoping.connect(my_scoping)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.elemental_mean() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.collapse_shell_layers.Connect(my_collapse_shell_layers)
+op.inputs.force_averaging.Connect(my_force_averaging)
+op.inputs.scoping.Connect(my_scoping)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

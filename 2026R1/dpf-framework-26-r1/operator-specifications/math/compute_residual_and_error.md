@@ -56,6 +56,66 @@ Computes the Lp-norm of a field or a field container.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("error_norm_calc"); // operator instantiation
+op.connect(0, my_field_or_fields_container1);
+op.connect(1, my_normalization_type);
+op.connect(2, my_norm_calculation_type);
+op.connect(3, my_field_reference);
+op.connect(4, my_field_or_fields_container2);
+ansys::dpf::Field my_residuals = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Field my_error = op.getOutput<ansys::dpf::Field>(1);
+ansys::dpf::Field my_residuals_normalization_factor = op.getOutput<ansys::dpf::Field>(2);
+ansys::dpf::Field my_error_normalization_factor = op.getOutput<ansys::dpf::Field>(3);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.compute_residual_and_error() # operator instantiation
+op.inputs.field_or_fields_container1.connect(my_field_or_fields_container1)
+op.inputs.normalization_type.connect(my_normalization_type)
+op.inputs.norm_calculation_type.connect(my_norm_calculation_type)
+op.inputs.field_reference.connect(my_field_reference)
+op.inputs.field_or_fields_container2.connect(my_field_or_fields_container2)
+my_residuals_as_field = op.outputs.residuals_as_field()
+my_error_as_field = op.outputs.error_as_field()
+my_residuals_normalization_factor_as_field = op.outputs.residuals_normalization_factor_as_field()
+my_error_normalization_factor_as_field = op.outputs.error_normalization_factor_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.compute_residual_and_error() # operator instantiation
+op.inputs.field_or_fields_container1.Connect(my_field_or_fields_container1)
+op.inputs.normalization_type.Connect(my_normalization_type)
+op.inputs.norm_calculation_type.Connect(my_norm_calculation_type)
+op.inputs.field_reference.Connect(my_field_reference)
+op.inputs.field_or_fields_container2.Connect(my_field_or_fields_container2)
+my_residuals = op.outputs.residuals.GetData()
+my_error = op.outputs.error.GetData()
+my_residuals_normalization_factor = op.outputs.residuals_normalization_factor.GetData()
+my_error_normalization_factor = op.outputs.error_normalization_factor.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

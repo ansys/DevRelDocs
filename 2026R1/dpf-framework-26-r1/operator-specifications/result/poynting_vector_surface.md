@@ -49,6 +49,60 @@ Compute the Poynting Vector surface integral
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("PoyntingVectorSurface"); // operator instantiation
+op.connect(0, my_fields_containerA);
+op.connect(1, my_fields_containerB);
+op.connect(2, my_fields_containerC);
+op.connect(3, my_fields_containerD);
+op.connect(4, my_abstract_meshed_region);
+op.connect(5, my_int32);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.poynting_vector_surface() # operator instantiation
+op.inputs.fields_containerA.connect(my_fields_containerA)
+op.inputs.fields_containerB.connect(my_fields_containerB)
+op.inputs.fields_containerC.connect(my_fields_containerC)
+op.inputs.fields_containerD.connect(my_fields_containerD)
+op.inputs.abstract_meshed_region.connect(my_abstract_meshed_region)
+op.inputs.int32.connect(my_int32)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.poynting_vector_surface() # operator instantiation
+op.inputs.fields_containerA.Connect(my_fields_containerA)
+op.inputs.fields_containerB.Connect(my_fields_containerB)
+op.inputs.fields_containerC.Connect(my_fields_containerC)
+op.inputs.fields_containerD.Connect(my_fields_containerD)
+op.inputs.abstract_meshed_region.Connect(my_abstract_meshed_region)
+op.inputs.int32.Connect(my_int32)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

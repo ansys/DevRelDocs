@@ -52,6 +52,63 @@ Computes the displacement to apply on input coordinates (in 2) if a morphing fie
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("morphed_field"); // operator instantiation
+op.connect(0, my_displacement);
+op.connect(1, my_disp_coordinates);
+op.connect(2, my_coordinates);
+op.connect(4, my_morphing_type);
+op.connect(5, my_morphing_manager_data);
+op.connect(6, my_sliding_planes);
+op.connect(7, my_sliding_nodes);
+ansys::dpf::Field my_coordinates_displacement = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.morphed_field() # operator instantiation
+op.inputs.displacement.connect(my_displacement)
+op.inputs.disp_coordinates.connect(my_disp_coordinates)
+op.inputs.coordinates.connect(my_coordinates)
+op.inputs.morphing_type.connect(my_morphing_type)
+op.inputs.morphing_manager_data.connect(my_morphing_manager_data)
+op.inputs.sliding_planes.connect(my_sliding_planes)
+op.inputs.sliding_nodes.connect(my_sliding_nodes)
+my_coordinates_displacement = op.outputs.coordinates_displacement()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.morphed_field() # operator instantiation
+op.inputs.displacement.Connect(my_displacement)
+op.inputs.disp_coordinates.Connect(my_disp_coordinates)
+op.inputs.coordinates.Connect(my_coordinates)
+op.inputs.morphing_type.Connect(my_morphing_type)
+op.inputs.morphing_manager_data.Connect(my_morphing_manager_data)
+op.inputs.sliding_planes.Connect(my_sliding_planes)
+op.inputs.sliding_nodes.Connect(my_sliding_nodes)
+my_coordinates_displacement = op.outputs.coordinates_displacement.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

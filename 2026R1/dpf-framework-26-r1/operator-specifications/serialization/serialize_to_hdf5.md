@@ -46,6 +46,52 @@ This operator is deprecated: use 'hdf5::h5dpf::make_result_file' instead. Serial
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("serialize_to_hdf5"); // operator instantiation
+op.connect(0, my_file_path);
+op.connect(1, my_export_floats);
+op.connect(2, my_export_flat_vectors);
+op.connect(3, my_data);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.serialize_to_hdf5() # operator instantiation
+op.inputs.file_path.connect(my_file_path)
+op.inputs.export_floats.connect(my_export_floats)
+op.inputs.export_flat_vectors.connect(my_export_flat_vectors)
+op.inputs.data1.connect(my_data1)
+op.inputs.data2.connect(my_data2)
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.serialize_to_hdf5() # operator instantiation
+op.inputs.file_path.Connect(my_file_path)
+op.inputs.export_floats.Connect(my_export_floats)
+op.inputs.export_flat_vectors.Connect(my_export_flat_vectors)
+op.inputs.data.Connect(my_data)
+```
+</details>
+<br>
 
 ## Changelog
 

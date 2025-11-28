@@ -46,6 +46,51 @@ Computes the matrix singular value decomposition (SVD) for each field in the giv
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("svdOp"); // operator instantiation
+op.connect(0, my_fields_container);
+ansys::dpf::FieldsContainer my_s_svd = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::FieldsContainer my_u_svd = op.getOutput<ansys::dpf::FieldsContainer>(1);
+ansys::dpf::FieldsContainer my_vt_svd = op.getOutput<ansys::dpf::FieldsContainer>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.svd() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+my_s_svd = op.outputs.s_svd()
+my_u_svd = op.outputs.u_svd()
+my_vt_svd = op.outputs.vt_svd()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.svd() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+my_s_svd = op.outputs.s_svd.GetData()
+my_u_svd = op.outputs.u_svd.GetData()
+my_vt_svd = op.outputs.vt_svd.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

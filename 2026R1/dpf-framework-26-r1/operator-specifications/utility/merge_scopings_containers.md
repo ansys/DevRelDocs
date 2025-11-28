@@ -44,6 +44,46 @@ Assembles a set of scopings containers into a unique one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::scopings_container"); // operator instantiation
+op.connect(0, my_scopings_containers);
+ansys::dpf::ScopingsContainer my_merged_scopings_container = op.getOutput<ansys::dpf::ScopingsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_scopings_containers() # operator instantiation
+op.inputs.scopings_containers1.connect(my_scopings_containers1)
+op.inputs.scopings_containers2.connect(my_scopings_containers2)
+my_merged_scopings_container = op.outputs.merged_scopings_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_scopings_containers() # operator instantiation
+op.inputs.scopings_containers.Connect(my_scopings_containers)
+my_merged_scopings_container = op.outputs.merged_scopings_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

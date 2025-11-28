@@ -47,6 +47,54 @@ Uses the TimeFreqSupport APIs to return a given attribute of the scoping in inpu
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("timefreqsupport::get_attribute"); // operator instantiation
+op.connect(0, my_time_freq_support);
+op.connect(1, my_property_name);
+op.connect(2, my_property_identifier);
+op.connect(3, my_property_identifier_2);
+double my_property = op.getOutput<double>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.time_freq_support_get_attribute() # operator instantiation
+op.inputs.time_freq_support.connect(my_time_freq_support)
+op.inputs.property_name.connect(my_property_name)
+op.inputs.property_identifier.connect(my_property_identifier)
+op.inputs.property_identifier_2.connect(my_property_identifier_2)
+my_property_as_double = op.outputs.property_as_double()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.time_freq_support_get_attribute() # operator instantiation
+op.inputs.time_freq_support.Connect(my_time_freq_support)
+op.inputs.property_name.Connect(my_property_name)
+op.inputs.property_identifier.Connect(my_property_identifier)
+op.inputs.property_identifier_2.Connect(my_property_identifier_2)
+my_property = op.outputs.property.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

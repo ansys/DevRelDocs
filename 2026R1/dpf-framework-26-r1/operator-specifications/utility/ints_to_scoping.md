@@ -46,6 +46,51 @@ Creates a scoping from integer data. Converts single integers, integer vectors, 
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("scopingify"); // operator instantiation
+op.connect(0, my_ids);
+op.connect(1, my_location);
+op.connect(2, my_upper_bound);
+ansys::dpf::Scoping my_scoping = op.getOutput<ansys::dpf::Scoping>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.ints_to_scoping() # operator instantiation
+op.inputs.ids.connect(my_ids)
+op.inputs.location.connect(my_location)
+op.inputs.upper_bound.connect(my_upper_bound)
+my_scoping = op.outputs.scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.ints_to_scoping() # operator instantiation
+op.inputs.ids.Connect(my_ids)
+op.inputs.location.Connect(my_location)
+op.inputs.upper_bound.Connect(my_upper_bound)
+my_scoping = op.outputs.scoping.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

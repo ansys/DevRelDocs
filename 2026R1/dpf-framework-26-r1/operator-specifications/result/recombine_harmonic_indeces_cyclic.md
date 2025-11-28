@@ -49,6 +49,48 @@ Add the fields corresponding to different load steps with the same frequencies t
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("recombine_harmonic_indeces_cyclic"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_is_constant);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.recombine_harmonic_indeces_cyclic() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.is_constant.connect(my_is_constant)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.recombine_harmonic_indeces_cyclic() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.is_constant.Connect(my_is_constant)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

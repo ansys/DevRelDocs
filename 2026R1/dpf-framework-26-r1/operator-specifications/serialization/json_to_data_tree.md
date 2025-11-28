@@ -44,6 +44,45 @@ Reads a json file or string to a DataTree
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("json_to_data_tree"); // operator instantiation
+op.connect(0, my_string_or_path);
+ansys::dpf::AbstractDataTree my_data_tree = op.getOutput<ansys::dpf::AbstractDataTree>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.string_or_path.connect(my_string_or_path)
+my_data_tree = op.outputs.data_tree()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.string_or_path.Connect(my_string_or_path)
+my_data_tree = op.outputs.data_tree.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 
