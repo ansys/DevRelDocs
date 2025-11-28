@@ -22,13 +22,13 @@ Contains DPF main actions
 
 #### CreateOperator
 
-```csharp
-BaseOperator CreateOperator(String opName, OperatorConfig config (optional))
+```python
+result = obj.CreateOperator(opName, config)
 ```
 
 **Parameters:**
 
-- `opName` (*String*)
-- `config` (*OperatorConfig*)
+- `opName` (*str*)
+- `config` (*OperatorConfig* (optional))
 
 **Returns:** *BaseOperator*

@@ -27,14 +27,14 @@ DataSources(resultPath: str, extension: str)
 
 #### Constructor
 
-```csharp
-new DataSources()
+```python
+DataSources()
 ```
 
 #### Constructor
 
-```csharp
-new DataSources(IntPtr pDataSources)
+```python
+DataSources(pDataSources)
 ```
 
 **Parameters:**
@@ -43,108 +43,108 @@ new DataSources(IntPtr pDataSources)
 
 #### Constructor
 
-```csharp
-new DataSources(String resultPath)
+```python
+DataSources(resultPath)
 ```
 
 **Parameters:**
 
-- `resultPath` (*String*)
+- `resultPath` (*str*)
 
 #### Constructor
 
-```csharp
-new DataSources(String resultPath, String extension)
+```python
+DataSources(resultPath, extension)
 ```
 
 **Parameters:**
 
-- `resultPath` (*String*)
-- `extension` (*String*)
+- `resultPath` (*str*)
+- `extension` (*str*)
 
 ## Methods
 
 #### GetFilePath
 
-```csharp
-String GetFilePath(String key)
+```python
+result = obj.GetFilePath(key)
 ```
 
 **Parameters:**
 
-- `key` (*String*)
+- `key` (*str*)
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### SetResultFilePath
 
-```csharp
-Void SetResultFilePath(String filePath, String sKey)
+```python
+obj.SetResultFilePath(filePath, sKey)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
-- `sKey` (*String*)
+- `filePath` (*str*)
+- `sKey` (*str*)
 
 #### SetResultFilePath
 
-```csharp
-Void SetResultFilePath(String filePath)
+```python
+obj.SetResultFilePath(filePath)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
+- `filePath` (*str*)
 
 #### SetResultFilePath
 
-```csharp
-Void SetResultFilePath(AnsDispatchHolder source, String sKey)
+```python
+obj.SetResultFilePath(source, sKey)
 ```
 
 **Parameters:**
 
 - `source` (*AnsDispatchHolder*)
-- `sKey` (*String*)
+- `sKey` (*str*)
 
 #### AddFilePath
 
-```csharp
-Void AddFilePath(String filePath, String sKey, String sResultKey)
+```python
+obj.AddFilePath(filePath, sKey, sResultKey)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
-- `sKey` (*String*)
-- `sResultKey` (*String*)
+- `filePath` (*str*)
+- `sKey` (*str*)
+- `sResultKey` (*str*)
 
 #### AddFilePath
 
-```csharp
-Void AddFilePath(String filePath, String sKey)
+```python
+obj.AddFilePath(filePath, sKey)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
-- `sKey` (*String*)
+- `filePath` (*str*)
+- `sKey` (*str*)
 
 #### AddFilePath
 
-```csharp
-Void AddFilePath(String filePath)
+```python
+obj.AddFilePath(filePath)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
+- `filePath` (*str*)
 
 #### AppendUpStreamDataSources
 
-```csharp
-Void AppendUpStreamDataSources(DataSources up_stream)
+```python
+obj.AppendUpStreamDataSources(up_stream)
 ```
 
 **Parameters:**
@@ -153,43 +153,43 @@ Void AppendUpStreamDataSources(DataSources up_stream)
 
 #### SetDomainResultFilePath
 
-```csharp
-Void SetDomainResultFilePath(String filePath, String sKey, Int32 id)
+```python
+obj.SetDomainResultFilePath(filePath, sKey, id)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
-- `sKey` (*String*)
-- `id` (*Int32*)
+- `filePath` (*str*)
+- `sKey` (*str*)
+- `id` (*int*)
 
 #### SetDomainResultFilePath
 
-```csharp
-Void SetDomainResultFilePath(String filePath, Int32 id)
+```python
+obj.SetDomainResultFilePath(filePath, id)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
-- `id` (*Int32*)
+- `filePath` (*str*)
+- `id` (*int*)
 
 #### AddDomainFilePath
 
-```csharp
-Void AddDomainFilePath(String filePath, String sKey, Int32 id)
+```python
+obj.AddDomainFilePath(filePath, sKey, id)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
-- `sKey` (*String*)
-- `id` (*Int32*)
+- `filePath` (*str*)
+- `sKey` (*str*)
+- `id` (*int*)
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -198,12 +198,19 @@ IntPtr GetInternalData()
 
 #### ResultFileKey
 
-```csharp
-String ResultFileKey { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.ResultFileKey
 ```
 
 #### ResultFilePath
 
-```csharp
-String ResultFilePath { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.ResultFilePath
+obj.ResultFilePath = new_value
 ```

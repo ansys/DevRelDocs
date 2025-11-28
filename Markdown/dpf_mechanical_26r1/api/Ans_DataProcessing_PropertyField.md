@@ -23,8 +23,8 @@ PropertyField(numEntities: Int32, elementaryDataSize: Int32)
 
 #### Constructor
 
-```csharp
-new PropertyField(IntPtr pField)
+```python
+PropertyField(pField)
 ```
 
 **Parameters:**
@@ -33,56 +33,56 @@ new PropertyField(IntPtr pField)
 
 #### Constructor
 
-```csharp
-new PropertyField(Int32 numEntities, Int32 elementaryDataSize)
+```python
+PropertyField(numEntities, elementaryDataSize)
 ```
 
 **Parameters:**
 
-- `numEntities` (*Int32*)
-- `elementaryDataSize` (*Int32*)
+- `numEntities` (*int*)
+- `elementaryDataSize` (*int*)
 
 ## Methods
 
 #### Add
 
-```csharp
-Void Add(Int32 id, IList`1 data)
+```python
+obj.Add(id, data)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `data` (*IList`1*)
+- `id` (*int*)
+- `data` (*list*)
 
 #### GetEntityDataByIndex
 
-```csharp
-IList`1 GetEntityDataByIndex(Int32 index)
+```python
+result = obj.GetEntityDataByIndex(index)
 ```
 
 **Parameters:**
 
-- `index` (*Int32*)
+- `index` (*int*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### GetEntityDataById
 
-```csharp
-IList`1 GetEntityDataById(Int32 id)
+```python
+result = obj.GetEntityDataById(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -91,18 +91,29 @@ IntPtr GetInternalData()
 
 #### ElementaryDataCount
 
-```csharp
-Int32 ElementaryDataCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.ElementaryDataCount
 ```
 
 #### Data
 
-```csharp
-IList`1 Data { get; set; }
+**Type:** *list*
+
+```python
+# Get or set the property
+value = obj.Data
+obj.Data = new_value
 ```
 
 #### Scoping
 
-```csharp
-Scoping Scoping { get; set; }
+**Type:** *Scoping*
+
+```python
+# Get or set the property
+value = obj.Scoping
+obj.Scoping = new_value
 ```

@@ -28,14 +28,14 @@ TimeFreqSupport(pTimeFreqSupport: IntPtr)
 
 #### Constructor
 
-```csharp
-new TimeFreqSupport()
+```python
+TimeFreqSupport()
 ```
 
 #### Constructor
 
-```csharp
-new TimeFreqSupport(IntPtr pTimeFreqSupport)
+```python
+TimeFreqSupport(pTimeFreqSupport)
 ```
 
 **Parameters:**
@@ -46,174 +46,189 @@ new TimeFreqSupport(IntPtr pTimeFreqSupport)
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
 
 #### GetHarmonicIndices
 
-```csharp
-Field GetHarmonicIndices(Int32 num_stage (optional))
+```python
+result = obj.GetHarmonicIndices(num_stage)
 ```
 
 **Parameters:**
 
-- `num_stage` (*Int32*)
+- `num_stage` (*int* (optional))
 
 **Returns:** *Field*
 
 #### SetHarmonicIndices
 
-```csharp
-Void SetHarmonicIndices(Field field, Int32 num_stage (optional))
+```python
+obj.SetHarmonicIndices(field, num_stage)
 ```
 
 **Parameters:**
 
 - `field` (*Field*)
-- `num_stage` (*Int32*)
+- `num_stage` (*int* (optional))
 
 #### GetTimeFreqCummulativeIndex
 
-```csharp
-Int32 GetTimeFreqCummulativeIndex(Double dVal, Int32& i1 (out), Int32& i2 (out))
+```python
+result = obj.GetTimeFreqCummulativeIndex(dVal, i1, i2)
 ```
 
 **Parameters:**
 
-- `dVal` (*Double*)
-- `i1` (*Int32&*)
-- `i2` (*Int32&*)
+- `dVal` (*float*)
+- `i1` (*Int32&* (out))
+- `i2` (*Int32&* (out))
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetTimeFreqCummulativeIndex
 
-```csharp
-Int32 GetTimeFreqCummulativeIndex(Int32 stepIndex, Int32 subStepIndex)
+```python
+result = obj.GetTimeFreqCummulativeIndex(stepIndex, subStepIndex)
 ```
 
 **Parameters:**
 
-- `stepIndex` (*Int32*)
-- `subStepIndex` (*Int32*)
+- `stepIndex` (*int*)
+- `subStepIndex` (*int*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetImaginaryFreqsCummulativeIndex
 
-```csharp
-Int32 GetImaginaryFreqsCummulativeIndex(Double dVal, Int32& i1 (out), Int32& i2 (out))
+```python
+result = obj.GetImaginaryFreqsCummulativeIndex(dVal, i1, i2)
 ```
 
 **Parameters:**
 
-- `dVal` (*Double*)
-- `i1` (*Int32&*)
-- `i2` (*Int32&*)
+- `dVal` (*float*)
+- `i1` (*Int32&* (out))
+- `i2` (*Int32&* (out))
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetTimeFreq
 
-```csharp
-Double GetTimeFreq(Int32 stepIndex, Int32 subStepIndex)
+```python
+result = obj.GetTimeFreq(stepIndex, subStepIndex)
 ```
 
 **Parameters:**
 
-- `stepIndex` (*Int32*)
-- `subStepIndex` (*Int32*)
+- `stepIndex` (*int*)
+- `subStepIndex` (*int*)
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### GetImaginaryFreq
 
-```csharp
-Double GetImaginaryFreq(Int32 stepIndex, Int32 subStepIndex)
+```python
+result = obj.GetImaginaryFreq(stepIndex, subStepIndex)
 ```
 
 **Parameters:**
 
-- `stepIndex` (*Int32*)
-- `subStepIndex` (*Int32*)
+- `stepIndex` (*int*)
+- `subStepIndex` (*int*)
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### GetTimeFreq
 
-```csharp
-Double GetTimeFreq(Int32 iCumulativeIndex)
+```python
+result = obj.GetTimeFreq(iCumulativeIndex)
 ```
 
 **Parameters:**
 
-- `iCumulativeIndex` (*Int32*)
+- `iCumulativeIndex` (*int*)
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### GetImaginaryFreq
 
-```csharp
-Double GetImaginaryFreq(Int32 iCumulativeIndex)
+```python
+result = obj.GetImaginaryFreq(iCumulativeIndex)
 ```
 
 **Parameters:**
 
-- `iCumulativeIndex` (*Int32*)
+- `iCumulativeIndex` (*int*)
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### GetCyclicHarmonicIndex
 
-```csharp
-Int32 GetCyclicHarmonicIndex(Int32 iCumulativeIndex)
+```python
+result = obj.GetCyclicHarmonicIndex(iCumulativeIndex)
 ```
 
 **Parameters:**
 
-- `iCumulativeIndex` (*Int32*)
+- `iCumulativeIndex` (*int*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### AppendStep
 
-```csharp
-Void AppendStep(Int32 step_id, IList`1 step_time_frequencies, IList`1 step_complex_frequencies (optional), Double rpm_value (optional), IDictionary`2 step_harmonic_indices (optional))
+```python
+obj.AppendStep(step_id, step_time_frequencies, step_complex_frequencies, rpm_value, step_harmonic_indices)
 ```
 
 **Parameters:**
 
-- `step_id` (*Int32*)
-- `step_time_frequencies` (*IList`1*)
-- `step_complex_frequencies` (*IList`1*)
-- `rpm_value` (*Double*)
-- `step_harmonic_indices` (*IDictionary`2*)
+- `step_id` (*int*)
+- `step_time_frequencies` (*list*)
+- `step_complex_frequencies` (*list* (optional))
+- `rpm_value` (*float* (optional))
+- `step_harmonic_indices` (*dict* (optional))
 
 ## Properties
 
 #### NumberSets
 
-```csharp
-Int32 NumberSets { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.NumberSets
 ```
 
 #### TimeFreqs
 
-```csharp
-Field TimeFreqs { get; set; }
+**Type:** *Field*
+
+```python
+# Get or set the property
+value = obj.TimeFreqs
+obj.TimeFreqs = new_value
 ```
 
 #### ImaginaryFreqs
 
-```csharp
-Field ImaginaryFreqs { get; set; }
+**Type:** *Field*
+
+```python
+# Get or set the property
+value = obj.ImaginaryFreqs
+obj.ImaginaryFreqs = new_value
 ```
 
 #### Rpms
 
-```csharp
-Field Rpms { get; set; }
+**Type:** *Field*
+
+```python
+# Get or set the property
+value = obj.Rpms
+obj.Rpms = new_value
 ```

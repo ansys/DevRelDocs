@@ -22,147 +22,150 @@ OperatorSpecification(id: Int64)
 
 #### Constructor
 
-```csharp
-new OperatorSpecification(String name)
+```python
+OperatorSpecification(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
 #### Constructor
 
-```csharp
-new OperatorSpecification(Int64 id)
+```python
+OperatorSpecification(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int64*)
+- `id` (*int*)
 
 ## Methods
 
 #### HasSpecification
 
-```csharp
-Boolean HasSpecification(String name)
+```python
+result = obj.HasSpecification(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### GetOperatorDescription
 
-```csharp
-String GetOperatorDescription()
+```python
+result = obj.GetOperatorDescription()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetInputPins
 
-```csharp
-IEnumerable`1 GetInputPins()
+```python
+result = obj.GetInputPins()
 ```
 
-**Returns:** *IEnumerable`1*
+**Returns:** *iterable*
 
 #### GetInputPin
 
-```csharp
-PinDescription GetInputPin(Int32 id)
+```python
+result = obj.GetInputPin(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 
 **Returns:** *PinDescription*
 
 #### GetOutputPins
 
-```csharp
-IEnumerable`1 GetOutputPins()
+```python
+result = obj.GetOutputPins()
 ```
 
-**Returns:** *IEnumerable`1*
+**Returns:** *iterable*
 
 #### GetOutputPin
 
-```csharp
-PinDescription GetOutputPin(Int32 id)
+```python
+result = obj.GetOutputPin(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 
 **Returns:** *PinDescription*
 
 #### getNumberOfPin
 
-```csharp
-Int32 getNumberOfPin(Boolean isInput)
+```python
+result = obj.getNumberOfPin(isInput)
 ```
 
 **Parameters:**
 
-- `isInput` (*Boolean*)
+- `isInput` (*bool*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetPinPosition
 
-```csharp
-Int32 GetPinPosition(String PinToGet, Boolean isInput)
+```python
+result = obj.GetPinPosition(PinToGet, isInput)
 ```
 
 **Parameters:**
 
-- `PinToGet` (*String*)
-- `isInput` (*Boolean*)
+- `PinToGet` (*str*)
+- `isInput` (*bool*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetCategory
 
-```csharp
-String GetCategory()
+```python
+result = obj.GetCategory()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetUserName
 
-```csharp
-String GetUserName()
+```python
+result = obj.GetUserName()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetScriptingName
 
-```csharp
-String GetScriptingName()
+```python
+result = obj.GetScriptingName()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetExposure
 
-```csharp
-String GetExposure()
+```python
+result = obj.GetExposure()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 ## Properties
 
 #### Id
 
-```csharp
-Int64 Id { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Id
 ```

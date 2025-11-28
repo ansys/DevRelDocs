@@ -27,14 +27,14 @@ Scoping(ids: IList[Int32], location: str)
 
 #### Constructor
 
-```csharp
-new Scoping()
+```python
+Scoping()
 ```
 
 #### Constructor
 
-```csharp
-new Scoping(IntPtr ptrScoping)
+```python
+Scoping(ptrScoping)
 ```
 
 **Parameters:**
@@ -43,57 +43,57 @@ new Scoping(IntPtr ptrScoping)
 
 #### Constructor
 
-```csharp
-new Scoping(IList`1 ids, String location (optional))
+```python
+Scoping(ids, location)
 ```
 
 **Parameters:**
 
-- `ids` (*IList`1*)
-- `location` (*String*)
+- `ids` (*list*)
+- `location` (*str*)
 
 ## Methods
 
 #### IdByIndex
 
-```csharp
-Int32 IdByIndex(Int32 index)
+```python
+result = obj.IdByIndex(index)
 ```
 
 **Parameters:**
 
-- `index` (*Int32*)
+- `index` (*int*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### IndexById
 
-```csharp
-Int32 IndexById(Int32 id)
+```python
+result = obj.IndexById(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### HasId
 
-```csharp
-Boolean HasId(Int32 id)
+```python
+result = obj.HasId(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -102,18 +102,29 @@ IntPtr GetInternalData()
 
 #### Ids
 
-```csharp
-IList`1 Ids { get; set; }
+**Type:** *list*
+
+```python
+# Get or set the property
+value = obj.Ids
+obj.Ids = new_value
 ```
 
 #### Count
 
-```csharp
-Int32 Count { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Count
 ```
 
 #### Location
 
-```csharp
-String Location { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Location
+obj.Location = new_value
 ```

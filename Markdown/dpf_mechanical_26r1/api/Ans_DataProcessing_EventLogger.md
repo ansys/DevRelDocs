@@ -22,14 +22,14 @@ EventLogger(level: EVerbosityLevel)
 
 #### Constructor
 
-```csharp
-new EventLogger()
+```python
+EventLogger()
 ```
 
 #### Constructor
 
-```csharp
-new EventLogger(EVerbosityLevel level)
+```python
+EventLogger(level)
 ```
 
 **Parameters:**
@@ -40,18 +40,18 @@ new EventLogger(EVerbosityLevel level)
 
 #### GetLoggerCallBack
 
-```csharp
-StringCallback GetLoggerCallBack()
+```python
+result = obj.GetLoggerCallBack()
 ```
 
 **Returns:** *StringCallback*
 
 #### SetLog
 
-```csharp
-Void SetLog(String path)
+```python
+obj.SetLog(path)
 ```
 
 **Parameters:**
 
-- `path` (*String*)
+- `path` (*str*)

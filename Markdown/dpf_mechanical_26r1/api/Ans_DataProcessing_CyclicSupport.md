@@ -24,8 +24,8 @@ CyclicSupport(ptrSupport: IntPtr)
 
 #### Constructor
 
-```csharp
-new CyclicSupport(IntPtr ptrSupport)
+```python
+CyclicSupport(ptrSupport)
 ```
 
 **Parameters:**
@@ -36,117 +36,117 @@ new CyclicSupport(IntPtr ptrSupport)
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
 
 #### GetNumSectors
 
-```csharp
-Int32 GetNumSectors(Int32 istage (optional))
+```python
+result = obj.GetNumSectors(istage)
 ```
 
 **Parameters:**
 
-- `istage` (*Int32*)
+- `istage` (*int* (optional))
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetSectorsScoping
 
-```csharp
-Scoping GetSectorsScoping(Int32 istage (optional))
+```python
+result = obj.GetSectorsScoping(istage)
 ```
 
 **Parameters:**
 
-- `istage` (*Int32*)
+- `istage` (*int* (optional))
 
 **Returns:** *Scoping*
 
 #### GetBaseNodesScoping
 
-```csharp
-Scoping GetBaseNodesScoping(Int32 istage (optional))
+```python
+result = obj.GetBaseNodesScoping(istage)
 ```
 
 **Parameters:**
 
-- `istage` (*Int32*)
+- `istage` (*int* (optional))
 
 **Returns:** *Scoping*
 
 #### GetBaseElementsScoping
 
-```csharp
-Scoping GetBaseElementsScoping(Int32 istage (optional))
+```python
+result = obj.GetBaseElementsScoping(istage)
 ```
 
 **Parameters:**
 
-- `istage` (*Int32*)
+- `istage` (*int* (optional))
 
 **Returns:** *Scoping*
 
 #### GetNodeIdsWhenExpanded
 
-```csharp
-Scoping GetNodeIdsWhenExpanded(Int32 nodeId, Scoping sectorsScoping (optional), Int32 istage (optional))
+```python
+result = obj.GetNodeIdsWhenExpanded(nodeId, sectorsScoping, istage)
 ```
 
 **Parameters:**
 
-- `nodeId` (*Int32*)
-- `sectorsScoping` (*Scoping*)
-- `istage` (*Int32*)
+- `nodeId` (*int*)
+- `sectorsScoping` (*Scoping* (optional))
+- `istage` (*int* (optional))
 
 **Returns:** *Scoping*
 
 #### GetElementIdsWhenExpanded
 
-```csharp
-Scoping GetElementIdsWhenExpanded(Int32 elementId, Scoping sectorsScoping (optional), Int32 istage (optional))
+```python
+result = obj.GetElementIdsWhenExpanded(elementId, sectorsScoping, istage)
 ```
 
 **Parameters:**
 
-- `elementId` (*Int32*)
-- `sectorsScoping` (*Scoping*)
-- `istage` (*Int32*)
+- `elementId` (*int*)
+- `sectorsScoping` (*Scoping* (optional))
+- `istage` (*int* (optional))
 
 **Returns:** *Scoping*
 
 #### GetCS
 
-```csharp
-Field GetCS()
+```python
+result = obj.GetCS()
 ```
 
 **Returns:** *Field*
 
 #### GetLowHighMap
 
-```csharp
-PropertyField GetLowHighMap(Int32 istage (optional))
+```python
+result = obj.GetLowHighMap(istage)
 ```
 
 **Parameters:**
 
-- `istage` (*Int32*)
+- `istage` (*int* (optional))
 
 **Returns:** *PropertyField*
 
 #### GetHighLowMap
 
-```csharp
-PropertyField GetHighLowMap(Int32 istage (optional))
+```python
+result = obj.GetHighLowMap(istage)
 ```
 
 **Parameters:**
 
-- `istage` (*Int32*)
+- `istage` (*int* (optional))
 
 **Returns:** *PropertyField*
 
@@ -154,6 +154,9 @@ PropertyField GetHighLowMap(Int32 istage (optional))
 
 #### NumStages
 
-```csharp
-Int32 NumStages { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.NumStages
 ```

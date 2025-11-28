@@ -26,8 +26,8 @@ Field()
 
 #### Constructor
 
-```csharp
-new Field(IntPtr pField)
+```python
+Field(pField)
 ```
 
 **Parameters:**
@@ -36,85 +36,85 @@ new Field(IntPtr pField)
 
 #### Constructor
 
-```csharp
-new Field()
+```python
+Field()
 ```
 
 ## Methods
 
 #### GetEntityDataByIndex
 
-```csharp
-IList`1 GetEntityDataByIndex(Int32 index)
+```python
+result = obj.GetEntityDataByIndex(index)
 ```
 
 **Parameters:**
 
-- `index` (*Int32*)
+- `index` (*int*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### GetEntityDataById
 
-```csharp
-IList`1 GetEntityDataById(Int32 id)
+```python
+result = obj.GetEntityDataById(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### UpdateEntityDataByEntityIndex
 
-```csharp
-Void UpdateEntityDataByEntityIndex(Int32 EntityIndex, IList`1 data)
+```python
+obj.UpdateEntityDataByEntityIndex(EntityIndex, data)
 ```
 
 **Parameters:**
 
-- `EntityIndex` (*Int32*)
-- `data` (*IList`1*)
+- `EntityIndex` (*int*)
+- `data` (*list*)
 
 #### Add
 
-```csharp
-Void Add(Int32 id, IList`1 data)
+```python
+obj.Add(id, data)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `data` (*IList`1*)
+- `id` (*int*)
+- `data` (*list*)
 
 #### Reserve
 
-```csharp
-Void Reserve(Int32 scopingSize, Int32 dataSize)
+```python
+obj.Reserve(scopingSize, dataSize)
 ```
 
 **Parameters:**
 
-- `scopingSize` (*Int32*)
-- `dataSize` (*Int32*)
+- `scopingSize` (*int*)
+- `dataSize` (*int*)
 
 #### GetHardCopy
 
-```csharp
-Field GetHardCopy(Boolean copyData (optional))
+```python
+result = obj.GetHardCopy(copyData)
 ```
 
 **Parameters:**
 
-- `copyData` (*Boolean*)
+- `copyData` (*bool* (optional))
 
 **Returns:** *Field*
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(Field a, Field b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
@@ -126,60 +126,60 @@ BaseOperator op_Addition(Field a, Field b)
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(Field a, Double b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*Field*)
-- `b` (*Double*)
+- `b` (*float*)
 
 **Returns:** *BaseOperator*
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(Double a, Field b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*Double*)
+- `a` (*float*)
 - `b` (*Field*)
 
 **Returns:** *BaseOperator*
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(Field a, IList`1 b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*Field*)
-- `b` (*IList`1*)
+- `b` (*list*)
 
 **Returns:** *BaseOperator*
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(IList`1 a, Field b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*IList`1*)
+- `a` (*list*)
 - `b` (*Field*)
 
 **Returns:** *BaseOperator*
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(Field a, Field b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
@@ -191,60 +191,60 @@ BaseOperator op_Subtraction(Field a, Field b)
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(Field a, Double b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*Field*)
-- `b` (*Double*)
+- `b` (*float*)
 
 **Returns:** *BaseOperator*
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(Double a, Field b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*Double*)
-- `b` (*Field*)
-
-**Returns:** *BaseOperator*
-
-#### op_Subtraction
-
-```csharp
-BaseOperator op_Subtraction(IList`1 a, Field b)
-```
-
-**Parameters:**
-
-- `a` (*IList`1*)
+- `a` (*float*)
 - `b` (*Field*)
 
 **Returns:** *BaseOperator*
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(Field a, IList`1 b)
+```python
+result = obj.op_Subtraction(a, b)
+```
+
+**Parameters:**
+
+- `a` (*list*)
+- `b` (*Field*)
+
+**Returns:** *BaseOperator*
+
+#### op_Subtraction
+
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*Field*)
-- `b` (*IList`1*)
+- `b` (*list*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(Field a, Field b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
@@ -256,60 +256,60 @@ BaseOperator op_Multiply(Field a, Field b)
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(Field a, Double b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*Field*)
-- `b` (*Double*)
+- `b` (*float*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(Double a, Field b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*Double*)
+- `a` (*float*)
 - `b` (*Field*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(IList`1 a, Field b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*IList`1*)
+- `a` (*list*)
 - `b` (*Field*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(Field a, IList`1 b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*Field*)
-- `b` (*IList`1*)
+- `b` (*list*)
 
 **Returns:** *BaseOperator*
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -318,84 +318,135 @@ IntPtr GetInternalData()
 
 #### Location
 
-```csharp
-String Location { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Location
+obj.Location = new_value
 ```
 
 #### NComp
 
-```csharp
-Int32 NComp { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.NComp
 ```
 
 #### ComponentCount
 
-```csharp
-Int32 ComponentCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.ComponentCount
 ```
 
 #### ElementaryDataCount
 
-```csharp
-Int32 ElementaryDataCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.ElementaryDataCount
 ```
 
 #### Data
 
-```csharp
-IList`1 Data { get; set; }
+**Type:** *list*
+
+```python
+# Get or set the property
+value = obj.Data
+obj.Data = new_value
 ```
 
 #### ScopingIds
 
-```csharp
-IList`1 ScopingIds { get; set; }
+**Type:** *list*
+
+```python
+# Get or set the property
+value = obj.ScopingIds
+obj.ScopingIds = new_value
 ```
 
 #### Scoping
 
-```csharp
-Scoping Scoping { get; set; }
+**Type:** *Scoping*
+
+```python
+# Get or set the property
+value = obj.Scoping
+obj.Scoping = new_value
 ```
 
 #### Unit
 
-```csharp
-String Unit { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Unit
+obj.Unit = new_value
 ```
 
 #### eShellLayers
 
-```csharp
-shellLayers eShellLayers { get; set; }
+**Type:** *shellLayers*
+
+```python
+# Get or set the property
+value = obj.eShellLayers
+obj.eShellLayers = new_value
 ```
 
 #### MeshedRegionSupport
 
-```csharp
-MeshedRegion MeshedRegionSupport { get; set; }
+**Type:** *MeshedRegion*
+
+```python
+# Get or set the property
+value = obj.MeshedRegionSupport
+obj.MeshedRegionSupport = new_value
 ```
 
 #### TimeFreqSupport
 
-```csharp
-TimeFreqSupport TimeFreqSupport { get; set; }
+**Type:** *TimeFreqSupport*
+
+```python
+# Get or set the property
+value = obj.TimeFreqSupport
+obj.TimeFreqSupport = new_value
 ```
 
 #### Name
 
-```csharp
-String Name { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Name
+obj.Name = new_value
 ```
 
 #### Clone
 
-```csharp
-FieldCloning Clone { get; }
+**Type:** *FieldCloning*
+
+```python
+# Get the property (read-only)
+value = obj.Clone
 ```
 
 #### Id
 
-```csharp
-Int64 Id { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Id
 ```

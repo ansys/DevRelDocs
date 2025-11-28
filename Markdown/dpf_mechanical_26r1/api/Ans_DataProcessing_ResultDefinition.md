@@ -21,81 +21,81 @@ ResultDefinition()
 
 #### Constructor
 
-```csharp
-new ResultDefinition()
+```python
+ResultDefinition()
 ```
 
 ## Methods
 
 #### ResultDefinition_SetCriteria
 
-```csharp
-Void ResultDefinition_SetCriteria(IntPtr resDef, String sCriteria, Int32& errorSize (out), String& sError (out))
+```python
+obj.ResultDefinition_SetCriteria(resDef, sCriteria, errorSize, sError)
 ```
 
 **Parameters:**
 
 - `resDef` (*IntPtr*)
-- `sCriteria` (*String*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `sCriteria` (*str*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### ResultDefinition_SetSubCriteria
 
-```csharp
-Void ResultDefinition_SetSubCriteria(IntPtr resDef, String sSubCriteria, Int32& errorSize (out), String& sError (out))
+```python
+obj.ResultDefinition_SetSubCriteria(resDef, sSubCriteria, errorSize, sError)
 ```
 
 **Parameters:**
 
 - `resDef` (*IntPtr*)
-- `sSubCriteria` (*String*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `sSubCriteria` (*str*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### ResultDefinition_SetLocation
 
-```csharp
-Void ResultDefinition_SetLocation(IntPtr resDef, String sLocation, Int32& errorSize (out), String& sError (out))
+```python
+obj.ResultDefinition_SetLocation(resDef, sLocation, errorSize, sError)
 ```
 
 **Parameters:**
 
 - `resDef` (*IntPtr*)
-- `sLocation` (*String*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `sLocation` (*str*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### ResultDefinition_SetStep
 
-```csharp
-Void ResultDefinition_SetStep(IntPtr resDef, Int32 iStep, Int32& errorSize (out), String& sError (out))
+```python
+obj.ResultDefinition_SetStep(resDef, iStep, errorSize, sError)
 ```
 
 **Parameters:**
 
 - `resDef` (*IntPtr*)
-- `iStep` (*Int32*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `iStep` (*int*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### ResultDefinition_SetMeshScoping
 
-```csharp
-Void ResultDefinition_SetMeshScoping(IntPtr resDef, IntPtr scoping, Int32& errorSize (out), String& sError (out))
+```python
+obj.ResultDefinition_SetMeshScoping(resDef, scoping, errorSize, sError)
 ```
 
 **Parameters:**
 
 - `resDef` (*IntPtr*)
 - `scoping` (*IntPtr*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -104,36 +104,59 @@ IntPtr GetInternalData()
 
 #### FilePath
 
-```csharp
-String FilePath { set; }
+**Type:** *str*
+
+```python
+# Set the property (write-only)
+obj.FilePath = new_value
 ```
 
 #### Criteria
 
-```csharp
-String Criteria { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Criteria
+obj.Criteria = new_value
 ```
 
 #### SubCriteria
 
-```csharp
-String SubCriteria { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.SubCriteria
+obj.SubCriteria = new_value
 ```
 
 #### Location
 
-```csharp
-String Location { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Location
+obj.Location = new_value
 ```
 
 #### step
 
-```csharp
-Int32 step { get; set; }
+**Type:** *int*
+
+```python
+# Get or set the property
+value = obj.step
+obj.step = new_value
 ```
 
 #### Scoping
 
-```csharp
-Scoping Scoping { get; set; }
+**Type:** *Scoping*
+
+```python
+# Get or set the property
+value = obj.Scoping
+obj.Scoping = new_value
 ```

@@ -21,6 +21,6 @@ MeshSelectionManager()
 
 #### Constructor
 
-```csharp
-new MeshSelectionManager()
+```python
+MeshSelectionManager()
 ```

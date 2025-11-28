@@ -21,13 +21,13 @@ Node(id: Int32, ptr: IntPtr)
 
 #### Constructor
 
-```csharp
-new Node(Int32 id, IntPtr ptr)
+```python
+Node(id, ptr)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 - `ptr` (*IntPtr*)
 
 ## Methods
@@ -36,24 +36,36 @@ new Node(Int32 id, IntPtr ptr)
 
 #### Id
 
-```csharp
-Int32 Id { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Id
 ```
 
 #### X
 
-```csharp
-Double X { get; }
+**Type:** *float*
+
+```python
+# Get the property (read-only)
+value = obj.X
 ```
 
 #### Y
 
-```csharp
-Double Y { get; }
+**Type:** *float*
+
+```python
+# Get the property (read-only)
+value = obj.Y
 ```
 
 #### Z
 
-```csharp
-Double Z { get; }
+**Type:** *float*
+
+```python
+# Get the property (read-only)
+value = obj.Z
 ```

@@ -21,12 +21,12 @@ AnsDispatchHolder(obj: object)
 
 #### Constructor
 
-```csharp
-new AnsDispatchHolder(Object obj)
+```python
+AnsDispatchHolder(obj)
 ```
 
 **Parameters:**
 
-- `obj` (*Object*)
+- `obj` (*object*)
 
 ## Methods

@@ -26,14 +26,14 @@ MeshesContainer(iptr: IntPtr)
 
 #### Constructor
 
-```csharp
-new MeshesContainer()
+```python
+MeshesContainer()
 ```
 
 #### Constructor
 
-```csharp
-new MeshesContainer(IntPtr iptr)
+```python
+MeshesContainer(iptr)
 ```
 
 **Parameters:**

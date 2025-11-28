@@ -18,42 +18,77 @@ title: locations
 
 #### nodal
 
-```csharp
-static const String nodal = Nodal
+**Type:** *str* (static, constant)
+
+**Value:** `Nodal`
+
+```python
+# Access as static field
+value = locations.nodal
 ```
 
 #### elemental
 
-```csharp
-static const String elemental = Elemental
+**Type:** *str* (static, constant)
+
+**Value:** `Elemental`
+
+```python
+# Access as static field
+value = locations.elemental
 ```
 
 #### elemental_nodal
 
-```csharp
-static const String elemental_nodal = ElementalNodal
+**Type:** *str* (static, constant)
+
+**Value:** `ElementalNodal`
+
+```python
+# Access as static field
+value = locations.elemental_nodal
 ```
 
 #### time_freq_sets
 
-```csharp
-static const String time_freq_sets = TimeFreq_sets
+**Type:** *str* (static, constant)
+
+**Value:** `TimeFreq_sets`
+
+```python
+# Access as static field
+value = locations.time_freq_sets
 ```
 
 #### time_freq_steps
 
-```csharp
-static const String time_freq_steps = TimeFreq_steps
+**Type:** *str* (static, constant)
+
+**Value:** `TimeFreq_steps`
+
+```python
+# Access as static field
+value = locations.time_freq_steps
 ```
 
 #### overall
 
-```csharp
-static const String overall = overall
+**Type:** *str* (static, constant)
+
+**Value:** `overall`
+
+```python
+# Access as static field
+value = locations.overall
 ```
 
 #### none
 
-```csharp
-static const String none = none
+**Type:** *str* (static, constant)
+
+**Value:** `none`
+
+```python
+# Access as static field
+value = locations.none
 ```

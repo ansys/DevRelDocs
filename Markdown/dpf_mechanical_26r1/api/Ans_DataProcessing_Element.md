@@ -21,69 +21,90 @@ Element(id: Int32, ptr: IntPtr)
 
 #### Constructor
 
-```csharp
-new Element(Int32 id, IntPtr ptr)
+```python
+Element(id, ptr)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 - `ptr` (*IntPtr*)
 
 ## Methods
 
 #### GetMidNodeAdjacentNodes
 
-```csharp
-Void GetMidNodeAdjacentNodes(Int32 indexMidNode, Int32& indexCornerNode1 (out), Int32& indexCornerNode2 (out))
+```python
+obj.GetMidNodeAdjacentNodes(indexMidNode, indexCornerNode1, indexCornerNode2)
 ```
 
 **Parameters:**
 
-- `indexMidNode` (*Int32*)
-- `indexCornerNode1` (*Int32&*)
-- `indexCornerNode2` (*Int32&*)
+- `indexMidNode` (*int*)
+- `indexCornerNode1` (*Int32&* (out))
+- `indexCornerNode2` (*Int32&* (out))
 
 ## Properties
 
 #### Id
 
-```csharp
-Int32 Id { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Id
 ```
 
 #### Type
 
-```csharp
-Int32 Type { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Type
 ```
 
 #### NodeIds
 
-```csharp
-IList`1 NodeIds { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.NodeIds
 ```
 
 #### Nodes
 
-```csharp
-IList`1 Nodes { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.Nodes
 ```
 
 #### CornerNodeIds
 
-```csharp
-IList`1 CornerNodeIds { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.CornerNodeIds
 ```
 
 #### MidNodeIds
 
-```csharp
-IList`1 MidNodeIds { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.MidNodeIds
 ```
 
 #### CornerNodes
 
-```csharp
-IList`1 CornerNodes { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.CornerNodes
 ```

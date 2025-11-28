@@ -26,14 +26,14 @@ ScopingsContainer(iptr: IntPtr)
 
 #### Constructor
 
-```csharp
-new ScopingsContainer()
+```python
+ScopingsContainer()
 ```
 
 #### Constructor
 
-```csharp
-new ScopingsContainer(IntPtr iptr)
+```python
+ScopingsContainer(iptr)
 ```
 
 **Parameters:**

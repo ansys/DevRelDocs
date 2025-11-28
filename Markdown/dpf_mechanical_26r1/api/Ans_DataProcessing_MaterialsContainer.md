@@ -22,8 +22,8 @@ MaterialsContainer(pMaterialsContainer: IntPtr)
 
 #### Constructor
 
-```csharp
-new MaterialsContainer(IntPtr pMaterialsContainer)
+```python
+MaterialsContainer(pMaterialsContainer)
 ```
 
 **Parameters:**
@@ -34,116 +34,116 @@ new MaterialsContainer(IntPtr pMaterialsContainer)
 
 #### ListOfPropertiesAtVUUID
 
-```csharp
-IList`1 ListOfPropertiesAtVUUID(String vuuid)
+```python
+result = obj.ListOfPropertiesAtVUUID(vuuid)
 ```
 
 **Parameters:**
 
-- `vuuid` (*String*)
+- `vuuid` (*str*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### ListOfPropertiesAtDpfMatId
 
-```csharp
-IList`1 ListOfPropertiesAtDpfMatId(Int32 matId)
+```python
+result = obj.ListOfPropertiesAtDpfMatId(matId)
 ```
 
 **Parameters:**
 
-- `matId` (*Int32*)
+- `matId` (*int*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### ListOfPropertiesAtMaterialPhysicName
 
-```csharp
-IList`1 ListOfPropertiesAtMaterialPhysicName(String materialname)
+```python
+result = obj.ListOfPropertiesAtMaterialPhysicName(materialname)
 ```
 
 **Parameters:**
 
-- `materialname` (*String*)
+- `materialname` (*str*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### VUUIDAtDpfMatId
 
-```csharp
-String VUUIDAtDpfMatId(Int32 dpfMatId)
+```python
+result = obj.VUUIDAtDpfMatId(dpfMatId)
 ```
 
 **Parameters:**
 
-- `dpfMatId` (*Int32*)
+- `dpfMatId` (*int*)
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### MaterialPhysicNameAtVUUID
 
-```csharp
-String MaterialPhysicNameAtVUUID(String vuuid)
+```python
+result = obj.MaterialPhysicNameAtVUUID(vuuid)
 ```
 
 **Parameters:**
 
-- `vuuid` (*String*)
+- `vuuid` (*str*)
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### MaterialPhysicNameAtDpfMatId
 
-```csharp
-String MaterialPhysicNameAtDpfMatId(Int32 matID)
+```python
+result = obj.MaterialPhysicNameAtDpfMatId(matID)
 ```
 
 **Parameters:**
 
-- `matID` (*Int32*)
+- `matID` (*int*)
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### PropertiesCountAtVUUID
 
-```csharp
-Int32 PropertiesCountAtVUUID(String vuuid)
+```python
+result = obj.PropertiesCountAtVUUID(vuuid)
 ```
 
 **Parameters:**
 
-- `vuuid` (*String*)
+- `vuuid` (*str*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### PropertiesCountAtDpfMatId
 
-```csharp
-Int32 PropertiesCountAtDpfMatId(Int32 matId)
+```python
+result = obj.PropertiesCountAtDpfMatId(matId)
 ```
 
 **Parameters:**
 
-- `matId` (*Int32*)
+- `matId` (*int*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### DpfMatIdAtVUUID
 
-```csharp
-Int32 DpfMatIdAtVUUID(String vuuid)
+```python
+result = obj.DpfMatIdAtVUUID(vuuid)
 ```
 
 **Parameters:**
 
-- `vuuid` (*String*)
+- `vuuid` (*str*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -152,24 +152,36 @@ IntPtr GetInternalData()
 
 #### ListOfVUUIDs
 
-```csharp
-IList`1 ListOfVUUIDs { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.ListOfVUUIDs
 ```
 
 #### ListOfMaterialPhysicNames
 
-```csharp
-IList`1 ListOfMaterialPhysicNames { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.ListOfMaterialPhysicNames
 ```
 
 #### MaterialsCount
 
-```csharp
-Int32 MaterialsCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.MaterialsCount
 ```
 
 #### DpfMatIds
 
-```csharp
-IList`1 DpfMatIds { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.DpfMatIds
 ```

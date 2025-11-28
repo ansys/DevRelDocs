@@ -27,19 +27,19 @@ MeshedRegion(pMeshedRegion: IntPtr)
 
 #### Constructor
 
-```csharp
-new MeshedRegion(Int32 numNodes, Int32 numElements)
+```python
+MeshedRegion(numNodes, numElements)
 ```
 
 **Parameters:**
 
-- `numNodes` (*Int32*)
-- `numElements` (*Int32*)
+- `numNodes` (*int*)
+- `numElements` (*int*)
 
 #### Constructor
 
-```csharp
-new MeshedRegion(IntPtr pMeshedRegion)
+```python
+MeshedRegion(pMeshedRegion)
 ```
 
 **Parameters:**
@@ -50,256 +50,329 @@ new MeshedRegion(IntPtr pMeshedRegion)
 
 #### NodeById
 
-```csharp
-Node NodeById(Int32 nodeId)
+```python
+result = obj.NodeById(nodeId)
 ```
 
 **Parameters:**
 
-- `nodeId` (*Int32*)
+- `nodeId` (*int*)
 
 **Returns:** *Node*
 
 #### ElementById
 
-```csharp
-Element ElementById(Int32 elementId)
+```python
+result = obj.ElementById(elementId)
 ```
 
 **Parameters:**
 
-- `elementId` (*Int32*)
+- `elementId` (*int*)
 
 **Returns:** *Element*
 
 #### GetPropertyField
 
-```csharp
-PropertyField GetPropertyField(String propertyName)
+```python
+result = obj.GetPropertyField(propertyName)
 ```
 
 **Parameters:**
 
-- `propertyName` (*String*)
+- `propertyName` (*str*)
 
 **Returns:** *PropertyField*
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
 
 #### AddNode
 
-```csharp
-Void AddNode(Int32 id, IList`1 coordinates)
+```python
+obj.AddNode(id, coordinates)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `coordinates` (*IList`1*)
+- `id` (*int*)
+- `coordinates` (*list*)
 
 #### AddBeamElement
 
-```csharp
-Void AddBeamElement(Int32 id, IList`1 connectivity)
+```python
+obj.AddBeamElement(id, connectivity)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `connectivity` (*IList`1*)
+- `id` (*int*)
+- `connectivity` (*list*)
 
 #### AddShellElement
 
-```csharp
-Void AddShellElement(Int32 id, IList`1 connectivity)
+```python
+obj.AddShellElement(id, connectivity)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `connectivity` (*IList`1*)
+- `id` (*int*)
+- `connectivity` (*list*)
 
 #### AddSolidElement
 
-```csharp
-Void AddSolidElement(Int32 id, IList`1 connectivity)
+```python
+obj.AddSolidElement(id, connectivity)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `connectivity` (*IList`1*)
+- `id` (*int*)
+- `connectivity` (*list*)
 
 #### AddPointElement
 
-```csharp
-Void AddPointElement(Int32 id, IList`1 connectivity)
+```python
+obj.AddPointElement(id, connectivity)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `connectivity` (*IList`1*)
+- `id` (*int*)
+- `connectivity` (*list*)
 
 #### AddPointElement
 
-```csharp
-Void AddPointElement(Int32 id, Int32 connectivity)
+```python
+obj.AddPointElement(id, connectivity)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `connectivity` (*Int32*)
+- `id` (*int*)
+- `connectivity` (*int*)
 
 ## Properties
 
 #### NodeCount
 
-```csharp
-Int32 NodeCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.NodeCount
 ```
 
 #### ElementCount
 
-```csharp
-Int32 ElementCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.ElementCount
 ```
 
 #### NodeIds
 
-```csharp
-IList`1 NodeIds { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.NodeIds
 ```
 
 #### ElementIds
 
-```csharp
-IList`1 ElementIds { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.ElementIds
 ```
 
 #### NodeScoping
 
-```csharp
-Scoping NodeScoping { get; }
+**Type:** *Scoping*
+
+```python
+# Get the property (read-only)
+value = obj.NodeScoping
 ```
 
 #### ElementScoping
 
-```csharp
-Scoping ElementScoping { get; }
+**Type:** *Scoping*
+
+```python
+# Get the property (read-only)
+value = obj.ElementScoping
 ```
 
 #### Unit
 
-```csharp
-String Unit { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Unit
+obj.Unit = new_value
 ```
 
 #### HasShell
 
-```csharp
-Boolean HasShell { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasShell
 ```
 
 #### HasOnlyShell
 
-```csharp
-Boolean HasOnlyShell { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasOnlyShell
 ```
 
 #### HasBeam
 
-```csharp
-Boolean HasBeam { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasBeam
 ```
 
 #### HasOnlyBeam
 
-```csharp
-Boolean HasOnlyBeam { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasOnlyBeam
 ```
 
 #### HasSolid
 
-```csharp
-Boolean HasSolid { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasSolid
 ```
 
 #### HasGasket
 
-```csharp
-Boolean HasGasket { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasGasket
 ```
 
 #### HasOnlySolid
 
-```csharp
-Boolean HasOnlySolid { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasOnlySolid
 ```
 
 #### HasPoint
 
-```csharp
-Boolean HasPoint { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasPoint
 ```
 
 #### HasOnlyPoint
 
-```csharp
-Boolean HasOnlyPoint { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasOnlyPoint
 ```
 
 #### HasSkin
 
-```csharp
-Boolean HasSkin { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasSkin
 ```
 
 #### HasPolygons
 
-```csharp
-Boolean HasPolygons { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasPolygons
 ```
 
 #### HasPolyhedrons
 
-```csharp
-Boolean HasPolyhedrons { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasPolyhedrons
 ```
 
 #### Nodes
 
-```csharp
-IList`1 Nodes { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.Nodes
 ```
 
 #### Elements
 
-```csharp
-IList`1 Elements { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.Elements
 ```
 
 #### CoordinatesField
 
-```csharp
-Field CoordinatesField { get; }
+**Type:** *Field*
+
+```python
+# Get the property (read-only)
+value = obj.CoordinatesField
 ```
 
 #### ConnectivityPropertyField
 
-```csharp
-PropertyField ConnectivityPropertyField { get; }
+**Type:** *PropertyField*
+
+```python
+# Get the property (read-only)
+value = obj.ConnectivityPropertyField
 ```
 
 #### NodalConnectivityPropertyField
 
-```csharp
-PropertyField NodalConnectivityPropertyField { get; }
+**Type:** *PropertyField*
+
+```python
+# Get the property (read-only)
+value = obj.NodalConnectivityPropertyField
 ```

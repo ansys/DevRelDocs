@@ -22,68 +22,68 @@ Helpers to create user defined fields
 
 #### CreateMatrixField
 
-```csharp
-Field CreateMatrixField(Int32 numEntities, Int32 numLines, Int32 numCol, String location (optional))
+```python
+result = obj.CreateMatrixField(numEntities, numLines, numCol, location)
 ```
 
 **Parameters:**
 
-- `numEntities` (*Int32*)
-- `numLines` (*Int32*)
-- `numCol` (*Int32*)
-- `location` (*String*)
+- `numEntities` (*int*)
+- `numLines` (*int*)
+- `numCol` (*int*)
+- `location` (*str* (optional))
 
 **Returns:** *Field*
 
 #### Create3DVectorField
 
-```csharp
-Field Create3DVectorField(Int32 numEntities, String location (optional))
+```python
+result = obj.Create3DVectorField(numEntities, location)
 ```
 
 **Parameters:**
 
-- `numEntities` (*Int32*)
-- `location` (*String*)
+- `numEntities` (*int*)
+- `location` (*str* (optional))
 
 **Returns:** *Field*
 
 #### CreateTensorField
 
-```csharp
-Field CreateTensorField(Int32 numEntities, String location (optional))
+```python
+result = obj.CreateTensorField(numEntities, location)
 ```
 
 **Parameters:**
 
-- `numEntities` (*Int32*)
-- `location` (*String*)
+- `numEntities` (*int*)
+- `location` (*str* (optional))
 
 **Returns:** *Field*
 
 #### CreateScalarField
 
-```csharp
-Field CreateScalarField(Int32 numEntities, String location (optional))
+```python
+result = obj.CreateScalarField(numEntities, location)
 ```
 
 **Parameters:**
 
-- `numEntities` (*Int32*)
-- `location` (*String*)
+- `numEntities` (*int*)
+- `location` (*str* (optional))
 
 **Returns:** *Field*
 
 #### CreateVectorField
 
-```csharp
-Field CreateVectorField(Int32 numEntities, Int32 numComp, String location (optional))
+```python
+result = obj.CreateVectorField(numEntities, numComp, location)
 ```
 
 **Parameters:**
 
-- `numEntities` (*Int32*)
-- `numComp` (*Int32*)
-- `location` (*String*)
+- `numEntities` (*int*)
+- `numComp` (*int*)
+- `location` (*str* (optional))
 
 **Returns:** *Field*

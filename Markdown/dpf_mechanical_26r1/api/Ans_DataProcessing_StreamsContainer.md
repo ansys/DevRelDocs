@@ -22,8 +22,8 @@ StreamsContainer(ptrStreams: IntPtr)
 
 #### Constructor
 
-```csharp
-new StreamsContainer(IntPtr ptrStreams)
+```python
+StreamsContainer(ptrStreams)
 ```
 
 **Parameters:**
@@ -34,14 +34,14 @@ new StreamsContainer(IntPtr ptrStreams)
 
 #### ReleaseHandles
 
-```csharp
-Void ReleaseHandles()
+```python
+obj.ReleaseHandles()
 ```
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -50,6 +50,9 @@ IntPtr GetInternalData()
 
 #### DataSources
 
-```csharp
-DataSources DataSources { get; }
+**Type:** *DataSources*
+
+```python
+# Get the property (read-only)
+value = obj.DataSources
 ```

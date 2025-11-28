@@ -28,14 +28,14 @@ Workflow(id: Int32)
 
 #### Constructor
 
-```csharp
-new Workflow()
+```python
+Workflow()
 ```
 
 #### Constructor
 
-```csharp
-new Workflow(IntPtr wf_ptr)
+```python
+Workflow(wf_ptr)
 ```
 
 **Parameters:**
@@ -44,80 +44,80 @@ new Workflow(IntPtr wf_ptr)
 
 #### Constructor
 
-```csharp
-new Workflow(Int32 id)
+```python
+Workflow(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
+- `id` (*int*)
 
 ## Methods
 
 #### GetRecordedId
 
-```csharp
-Int32 GetRecordedId()
+```python
+result = obj.GetRecordedId()
 ```
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
 
 #### Record
 
-```csharp
-Int32 Record(String identifier, Boolean transferOwnership)
+```python
+result = obj.Record(identifier, transferOwnership)
 ```
 
 **Parameters:**
 
-- `identifier` (*String*)
-- `transferOwnership` (*Boolean*)
+- `identifier` (*str*)
+- `transferOwnership` (*bool*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### Derivate
 
-```csharp
-Void Derivate(String pinName, String variableName (optional))
+```python
+obj.Derivate(pinName, variableName)
 ```
 
 **Parameters:**
 
-- `pinName` (*String*)
-- `variableName` (*String*)
+- `pinName` (*str*)
+- `variableName` (*str* (optional))
 
 #### WriteToFile
 
-```csharp
-Void WriteToFile(String filePath)
+```python
+obj.WriteToFile(filePath)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
+- `filePath` (*str*)
 
 #### LoadFromFile
 
-```csharp
-Void LoadFromFile(String filePath)
+```python
+obj.LoadFromFile(filePath)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
+- `filePath` (*str*)
 
 #### Add
 
-```csharp
-Void Add(BaseOperator op)
+```python
+obj.Add(op)
 ```
 
 **Parameters:**
@@ -126,211 +126,211 @@ Void Add(BaseOperator op)
 
 #### Add
 
-```csharp
-Void Add(IList`1 ops)
+```python
+obj.Add(ops)
 ```
 
 **Parameters:**
 
-- `ops` (*IList`1*)
+- `ops` (*list*)
 
 #### GetNumberOfOperators
 
-```csharp
-Int32 GetNumberOfOperators()
+```python
+result = obj.GetNumberOfOperators()
 ```
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### SetInputName
 
-```csharp
-Void SetInputName(BaseOperator op, Int32 pin, String name)
+```python
+obj.SetInputName(op, pin, name)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
-- `name` (*String*)
+- `pin` (*int*)
+- `name` (*str*)
 
 #### SetOutputName
 
-```csharp
-Void SetOutputName(Object data, String name)
+```python
+obj.SetOutputName(data, name)
 ```
 
 **Parameters:**
 
-- `data` (*Object*)
-- `name` (*String*)
+- `data` (*object*)
+- `name` (*str*)
 
 #### SetOutputName
 
-```csharp
-Void SetOutputName(BaseOperator op, Int32 pin, String name)
+```python
+obj.SetOutputName(op, pin, name)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
-- `name` (*String*)
+- `pin` (*int*)
+- `name` (*str*)
 
 #### SetOutputChart
 
-```csharp
-Void SetOutputChart(BaseOperator op, Int32 pin, ChartType chart (optional), String chart_label (optional))
+```python
+obj.SetOutputChart(op, pin, chart, chart_label)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
-- `chart` (*ChartType*)
-- `chart_label` (*String*)
+- `pin` (*int*)
+- `chart` (*ChartType* (optional))
+- `chart_label` (*str* (optional))
 
 #### SetOutputChart
 
-```csharp
-Void SetOutputChart(BaseOperator op, ChartType chart (optional), String chart_label (optional))
+```python
+obj.SetOutputChart(op, chart, chart_label)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `chart` (*ChartType*)
-- `chart_label` (*String*)
+- `chart` (*ChartType* (optional))
+- `chart_label` (*str* (optional))
 
 #### SetOutputChart
 
-```csharp
-Void SetOutputChart(LinkableOutput`2 pin, ChartType chart (optional), String chart_label (optional))
+```python
+obj.SetOutputChart(pin, chart, chart_label)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`2*)
-- `chart` (*ChartType*)
-- `chart_label` (*String*)
+- `pin` (*LinkableOutput*)
+- `chart` (*ChartType* (optional))
+- `chart_label` (*str* (optional))
 
 #### SetOutputChart
 
-```csharp
-Void SetOutputChart(LinkableOutput`1 pin, ChartType chart (optional), String chart_label (optional))
+```python
+obj.SetOutputChart(pin, chart, chart_label)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
-- `chart` (*ChartType*)
-- `chart_label` (*String*)
+- `pin` (*LinkableOutput*)
+- `chart` (*ChartType* (optional))
+- `chart_label` (*str* (optional))
 
 #### SetOutputChart
 
-```csharp
-Void SetOutputChart(LinkableOutput`1 pin, ChartType chart (optional), String chart_label (optional))
+```python
+obj.SetOutputChart(pin, chart, chart_label)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
-- `chart` (*ChartType*)
-- `chart_label` (*String*)
+- `pin` (*LinkableOutput*)
+- `chart` (*ChartType* (optional))
+- `chart_label` (*str* (optional))
 
 #### SetOutputContour
 
-```csharp
-Void SetOutputContour(BaseOperator op, Int32 pin, GFXContourType gfxCntrType (optional))
+```python
+obj.SetOutputContour(op, pin, gfxCntrType)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
-- `gfxCntrType` (*GFXContourType*)
+- `pin` (*int*)
+- `gfxCntrType` (*GFXContourType* (optional))
 
 #### SetOutputContour
 
-```csharp
-Void SetOutputContour(BaseOperator op, GFXContourType gfxCntrType (optional))
+```python
+obj.SetOutputContour(op, gfxCntrType)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `gfxCntrType` (*GFXContourType*)
+- `gfxCntrType` (*GFXContourType* (optional))
 
 #### SetOutputContour
 
-```csharp
-Void SetOutputContour(LinkableOutput`2 pin, GFXContourType gfxCntrType (optional))
+```python
+obj.SetOutputContour(pin, gfxCntrType)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`2*)
-- `gfxCntrType` (*GFXContourType*)
+- `pin` (*LinkableOutput*)
+- `gfxCntrType` (*GFXContourType* (optional))
 
 #### SetOutputContour
 
-```csharp
-Void SetOutputContour(LinkableOutput`1 pin, GFXContourType gfxCntrType (optional))
+```python
+obj.SetOutputContour(pin, gfxCntrType)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
-- `gfxCntrType` (*GFXContourType*)
+- `pin` (*LinkableOutput*)
+- `gfxCntrType` (*GFXContourType* (optional))
 
 #### SetOutputContour
 
-```csharp
-Void SetOutputContour(LinkableOutput`1 pin, GFXContourType gfxCntrType (optional))
+```python
+obj.SetOutputContour(pin, gfxCntrType)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
-- `gfxCntrType` (*GFXContourType*)
+- `pin` (*LinkableOutput*)
+- `gfxCntrType` (*GFXContourType* (optional))
 
 #### SetOutputContour
 
-```csharp
-Void SetOutputContour(FieldsContainer fields, GFXContourType gfxCntrType (optional))
+```python
+obj.SetOutputContour(fields, gfxCntrType)
 ```
 
 **Parameters:**
 
 - `fields` (*FieldsContainer*)
-- `gfxCntrType` (*GFXContourType*)
+- `gfxCntrType` (*GFXContourType* (optional))
 
 #### SetOutputContour
 
-```csharp
-Void SetOutputContour(Field field, GFXContourType gfxCntrType (optional))
+```python
+obj.SetOutputContour(field, gfxCntrType)
 ```
 
 **Parameters:**
 
 - `field` (*Field*)
-- `gfxCntrType` (*GFXContourType*)
+- `gfxCntrType` (*GFXContourType* (optional))
 
 #### SetOutputWarpField
 
-```csharp
-Void SetOutputWarpField(BaseOperator op, Int32 pin)
+```python
+obj.SetOutputWarpField(op, pin)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
+- `pin` (*int*)
 
 #### SetOutputWarpField
 
-```csharp
-Void SetOutputWarpField(BaseOperator op)
+```python
+obj.SetOutputWarpField(op)
 ```
 
 **Parameters:**
@@ -339,38 +339,38 @@ Void SetOutputWarpField(BaseOperator op)
 
 #### SetOutputWarpField
 
-```csharp
-Void SetOutputWarpField(LinkableOutput`2 pin)
+```python
+obj.SetOutputWarpField(pin)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`2*)
+- `pin` (*LinkableOutput*)
 
 #### SetOutputWarpField
 
-```csharp
-Void SetOutputWarpField(LinkableOutput`1 pin)
+```python
+obj.SetOutputWarpField(pin)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
+- `pin` (*LinkableOutput*)
 
 #### SetOutputWarpField
 
-```csharp
-Void SetOutputWarpField(LinkableOutput`1 pin)
+```python
+obj.SetOutputWarpField(pin)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
+- `pin` (*LinkableOutput*)
 
 #### SetOutputWarpField
 
-```csharp
-Void SetOutputWarpField(FieldsContainer fields)
+```python
+obj.SetOutputWarpField(fields)
 ```
 
 **Parameters:**
@@ -379,8 +379,8 @@ Void SetOutputWarpField(FieldsContainer fields)
 
 #### SetOutputWarpField
 
-```csharp
-Void SetOutputWarpField(Field field)
+```python
+obj.SetOutputWarpField(field)
 ```
 
 **Parameters:**
@@ -389,19 +389,19 @@ Void SetOutputWarpField(Field field)
 
 #### SetOutputMesh
 
-```csharp
-Void SetOutputMesh(BaseOperator op, Int32 pin)
+```python
+obj.SetOutputMesh(op, pin)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
+- `pin` (*int*)
 
 #### SetOutputMesh
 
-```csharp
-Void SetOutputMesh(BaseOperator op)
+```python
+obj.SetOutputMesh(op)
 ```
 
 **Parameters:**
@@ -410,38 +410,38 @@ Void SetOutputMesh(BaseOperator op)
 
 #### SetOutputMesh
 
-```csharp
-Void SetOutputMesh(LinkableOutput`2 pin)
+```python
+obj.SetOutputMesh(pin)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`2*)
+- `pin` (*LinkableOutput*)
 
 #### SetOutputMesh
 
-```csharp
-Void SetOutputMesh(LinkableOutput`1 pin)
+```python
+obj.SetOutputMesh(pin)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
+- `pin` (*LinkableOutput*)
 
 #### SetOutputMesh
 
-```csharp
-Void SetOutputMesh(LinkableOutput`1 pin)
+```python
+obj.SetOutputMesh(pin)
 ```
 
 **Parameters:**
 
-- `pin` (*LinkableOutput`1*)
+- `pin` (*LinkableOutput*)
 
 #### SetOutputMesh
 
-```csharp
-Void SetOutputMesh(MeshesContainer meshes)
+```python
+obj.SetOutputMesh(meshes)
 ```
 
 **Parameters:**
@@ -450,8 +450,8 @@ Void SetOutputMesh(MeshesContainer meshes)
 
 #### SetOutputMesh
 
-```csharp
-Void SetOutputMesh(MeshedRegion mesh)
+```python
+obj.SetOutputMesh(mesh)
 ```
 
 **Parameters:**
@@ -460,54 +460,54 @@ Void SetOutputMesh(MeshedRegion mesh)
 
 #### SetInputTime
 
-```csharp
-Void SetInputTime(BaseOperator op, Int32 pin)
+```python
+obj.SetInputTime(op, pin)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
+- `pin` (*int*)
 
 #### InstantiateOnRemote
 
-```csharp
-Workflow InstantiateOnRemote(String ip, Int32 port)
+```python
+result = obj.InstantiateOnRemote(ip, port)
 ```
 
 **Parameters:**
 
-- `ip` (*String*)
-- `port` (*Int32*)
+- `ip` (*str*)
+- `port` (*int*)
 
 **Returns:** *Workflow*
 
 #### SetInputMeshScoping
 
-```csharp
-Void SetInputMeshScoping(BaseOperator op, Int32 pin)
+```python
+obj.SetInputMeshScoping(op, pin)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
+- `pin` (*int*)
 
 #### SetInputBodyScoping
 
-```csharp
-Void SetInputBodyScoping(BaseOperator op, Int32 pin)
+```python
+obj.SetInputBodyScoping(op, pin)
 ```
 
 **Parameters:**
 
 - `op` (*BaseOperator*)
-- `pin` (*Int32*)
+- `pin` (*int*)
 
 #### ConnectWith
 
-```csharp
-Void ConnectWith(Workflow leftWorkflow)
+```python
+obj.ConnectWith(leftWorkflow)
 ```
 
 **Parameters:**
@@ -516,353 +516,353 @@ Void ConnectWith(Workflow leftWorkflow)
 
 #### ConnectWith
 
-```csharp
-Void ConnectWith(Workflow leftWorkflow, IDictionary`2 outputsToInputs)
+```python
+obj.ConnectWith(leftWorkflow, outputsToInputs)
 ```
 
 **Parameters:**
 
 - `leftWorkflow` (*Workflow*)
-- `outputsToInputs` (*IDictionary`2*)
+- `outputsToInputs` (*dict*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, BaseOperator value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*BaseOperator*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, Field value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*Field*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, BaseCollection value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*BaseCollection*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, Int32 value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
-- `value` (*Int32*)
+- `inputPinName` (*str*)
+- `value` (*int*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, Boolean value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
-- `value` (*Boolean*)
+- `inputPinName` (*str*)
+- `value` (*bool*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, Double value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
-- `value` (*Double*)
+- `inputPinName` (*str*)
+- `value` (*float*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, String value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
-- `value` (*String*)
+- `inputPinName` (*str*)
+- `value` (*str*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, Scoping value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*Scoping*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, DataSources value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*DataSources*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, MeshedRegion value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*MeshedRegion*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, PropertyField value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*PropertyField*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, TimeFreqSupport value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*TimeFreqSupport*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, CyclicSupport value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
+- `inputPinName` (*str*)
 - `value` (*CyclicSupport*)
 
 #### Connect
 
-```csharp
-Void Connect(String inputPinName, IList`1 value)
+```python
+obj.Connect(inputPinName, value)
 ```
 
 **Parameters:**
 
-- `inputPinName` (*String*)
-- `value` (*IList`1*)
+- `inputPinName` (*str*)
+- `value` (*list*)
 
 #### GetOutputAsFieldsContainer
 
-```csharp
-FieldsContainer GetOutputAsFieldsContainer(String outputPinName)
+```python
+result = obj.GetOutputAsFieldsContainer(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *FieldsContainer*
 
 #### GetOutputAsScopingsContainer
 
-```csharp
-ScopingsContainer GetOutputAsScopingsContainer(String outputPinName)
+```python
+result = obj.GetOutputAsScopingsContainer(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *ScopingsContainer*
 
 #### GetOutputAsDataSources
 
-```csharp
-DataSources GetOutputAsDataSources(String outputPinName)
+```python
+result = obj.GetOutputAsDataSources(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *DataSources*
 
 #### GetOutputAsField
 
-```csharp
-Field GetOutputAsField(String outputPinName)
+```python
+result = obj.GetOutputAsField(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *Field*
 
 #### GetOutputAsScoping
 
-```csharp
-Scoping GetOutputAsScoping(String outputPinName)
+```python
+result = obj.GetOutputAsScoping(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *Scoping*
 
 #### GetOutputAsCyclicSupport
 
-```csharp
-CyclicSupport GetOutputAsCyclicSupport(String outputPinName)
+```python
+result = obj.GetOutputAsCyclicSupport(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *CyclicSupport*
 
 #### GetOutputAsString
 
-```csharp
-String GetOutputAsString(String outputPinName)
+```python
+result = obj.GetOutputAsString(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetOutputAsInt
 
-```csharp
-Int32 GetOutputAsInt(String outputPinName)
+```python
+result = obj.GetOutputAsInt(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetOutputAsDouble
 
-```csharp
-Double GetOutputAsDouble(String outputPinName)
+```python
+result = obj.GetOutputAsDouble(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### GetOutputAsTimeFreqSupport
 
-```csharp
-TimeFreqSupport GetOutputAsTimeFreqSupport(String outputPinName)
+```python
+result = obj.GetOutputAsTimeFreqSupport(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *TimeFreqSupport*
 
 #### GetOutputAsMeshesContainer
 
-```csharp
-MeshesContainer GetOutputAsMeshesContainer(String outputPinName)
+```python
+result = obj.GetOutputAsMeshesContainer(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *MeshesContainer*
 
 #### GetOutputAsMeshedRegion
 
-```csharp
-MeshedRegion GetOutputAsMeshedRegion(String outputPinName)
+```python
+result = obj.GetOutputAsMeshedRegion(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *MeshedRegion*
 
 #### GetOutputAsResultInfo
 
-```csharp
-ResultInfo GetOutputAsResultInfo(String outputPinName)
+```python
+result = obj.GetOutputAsResultInfo(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *ResultInfo*
 
 #### GetOutputAsPropertyField
 
-```csharp
-PropertyField GetOutputAsPropertyField(String outputPinName)
+```python
+result = obj.GetOutputAsPropertyField(outputPinName)
 ```
 
 **Parameters:**
 
-- `outputPinName` (*String*)
+- `outputPinName` (*str*)
 
 **Returns:** *PropertyField*
 
 #### HasTag
 
-```csharp
-Boolean HasTag(WorkFlowTags tag)
+```python
+result = obj.HasTag(tag)
 ```
 
 **Parameters:**
 
 - `tag` (*WorkFlowTags*)
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### AddTag
 
-```csharp
-Void AddTag(WorkFlowTags tag)
+```python
+obj.AddTag(tag)
 ```
 
 **Parameters:**
@@ -871,66 +871,78 @@ Void AddTag(WorkFlowTags tag)
 
 #### WriteToGraphViz
 
-```csharp
-Void WriteToGraphViz(String filename)
+```python
+obj.WriteToGraphViz(filename)
 ```
 
 **Parameters:**
 
-- `filename` (*String*)
+- `filename` (*str*)
 
 #### FromTemplate
 
-```csharp
-Workflow FromTemplate(String template_name)
+```python
+result = obj.FromTemplate(template_name)
 ```
 
 **Parameters:**
 
-- `template_name` (*String*)
+- `template_name` (*str*)
 
 **Returns:** *Workflow*
 
 #### TemplateExists
 
-```csharp
-Boolean TemplateExists(String template_name)
+```python
+result = obj.TemplateExists(template_name)
 ```
 
 **Parameters:**
 
-- `template_name` (*String*)
+- `template_name` (*str*)
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### discoverAllOperators
 
-```csharp
-Void discoverAllOperators()
+```python
+obj.discoverAllOperators()
 ```
 
 ## Properties
 
 #### Id
 
-```csharp
-Int64 Id { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Id
 ```
 
 #### Operators
 
-```csharp
-IList`1 Operators { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.Operators
 ```
 
 #### Inputs
 
-```csharp
-IList`1 Inputs { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.Inputs
 ```
 
 #### Outputs
 
-```csharp
-IList`1 Outputs { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.Outputs
 ```

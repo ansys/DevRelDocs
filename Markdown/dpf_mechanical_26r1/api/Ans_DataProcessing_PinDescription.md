@@ -21,19 +21,19 @@ PinDescription(index: Int32, name: str, description: str, isOptional: bool, isEl
 
 #### Constructor
 
-```csharp
-new PinDescription(Int32 index, String name, String description, Boolean isOptional, Boolean isEllipsis, IEnumerable`1 typeNames, IEnumerable`1 aliases)
+```python
+PinDescription(index, name, description, isOptional, isEllipsis, typeNames, aliases)
 ```
 
 **Parameters:**
 
-- `index` (*Int32*)
-- `name` (*String*)
-- `description` (*String*)
-- `isOptional` (*Boolean*)
-- `isEllipsis` (*Boolean*)
-- `typeNames` (*IEnumerable`1*)
-- `aliases` (*IEnumerable`1*)
+- `index` (*int*)
+- `name` (*str*)
+- `description` (*str*)
+- `isOptional` (*bool*)
+- `isEllipsis` (*bool*)
+- `typeNames` (*iterable*)
+- `aliases` (*iterable*)
 
 ## Methods
 
@@ -41,42 +41,70 @@ new PinDescription(Int32 index, String name, String description, Boolean isOptio
 
 #### Index
 
-```csharp
-Int32 Index { get; set; }
+**Type:** *int*
+
+```python
+# Get or set the property
+value = obj.Index
+obj.Index = new_value
 ```
 
 #### Name
 
-```csharp
-String Name { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Name
+obj.Name = new_value
 ```
 
 #### Description
 
-```csharp
-String Description { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.Description
+obj.Description = new_value
 ```
 
 #### IsOptional
 
-```csharp
-Boolean IsOptional { get; set; }
+**Type:** *bool*
+
+```python
+# Get or set the property
+value = obj.IsOptional
+obj.IsOptional = new_value
 ```
 
 #### IsEllipsis
 
-```csharp
-Boolean IsEllipsis { get; set; }
+**Type:** *bool*
+
+```python
+# Get or set the property
+value = obj.IsEllipsis
+obj.IsEllipsis = new_value
 ```
 
 #### TypeNames
 
-```csharp
-List`1 TypeNames { get; set; }
+**Type:** *List*
+
+```python
+# Get or set the property
+value = obj.TypeNames
+obj.TypeNames = new_value
 ```
 
 #### Aliases
 
-```csharp
-List`1 Aliases { get; set; }
+**Type:** *List*
+
+```python
+# Get or set the property
+value = obj.Aliases
+obj.Aliases = new_value
 ```

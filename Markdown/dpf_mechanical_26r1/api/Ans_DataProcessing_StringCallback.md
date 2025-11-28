@@ -23,45 +23,45 @@ StringCallback(object: object, method: IntPtr)
 
 #### Constructor
 
-```csharp
-new StringCallback(Object object, IntPtr method)
+```python
+StringCallback(object, method)
 ```
 
 **Parameters:**
 
-- `object` (*Object*)
+- `object` (*object*)
 - `method` (*IntPtr*)
 
 ## Methods
 
 #### Invoke
 
-```csharp
-Void Invoke(String message)
+```python
+obj.Invoke(message)
 ```
 
 **Parameters:**
 
-- `message` (*String*)
+- `message` (*str*)
 
 #### BeginInvoke
 
-```csharp
-IAsyncResult BeginInvoke(String message, AsyncCallback callback, Object object)
+```python
+result = obj.BeginInvoke(message, callback, object)
 ```
 
 **Parameters:**
 
-- `message` (*String*)
+- `message` (*str*)
 - `callback` (*AsyncCallback*)
-- `object` (*Object*)
+- `object` (*object*)
 
 **Returns:** *IAsyncResult*
 
 #### EndInvoke
 
-```csharp
-Void EndInvoke(IAsyncResult result)
+```python
+obj.EndInvoke(result)
 ```
 
 **Parameters:**

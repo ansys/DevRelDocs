@@ -22,37 +22,37 @@ Helpers to create mesh scoping inputs
 
 #### NodalScoping
 
-```csharp
-Scoping NodalScoping(IList`1 nodeIds)
+```python
+result = obj.NodalScoping(nodeIds)
 ```
 
 **Parameters:**
 
-- `nodeIds` (*IList`1*)
+- `nodeIds` (*list*)
 
 **Returns:** *Scoping*
 
 #### ElementalScoping
 
-```csharp
-Scoping ElementalScoping(IList`1 elementIds)
+```python
+result = obj.ElementalScoping(elementIds)
 ```
 
 **Parameters:**
 
-- `elementIds` (*IList`1*)
+- `elementIds` (*list*)
 
 **Returns:** *Scoping*
 
 #### NamedSelectionScoping
 
-```csharp
-Scoping NamedSelectionScoping(String name, Model model)
+```python
+result = obj.NamedSelectionScoping(name, model)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 - `model` (*Model*)
 
 **Returns:** *Scoping*

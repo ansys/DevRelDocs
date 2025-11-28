@@ -22,75 +22,75 @@ Session()
 
 #### Constructor
 
-```csharp
-new Session()
+```python
+Session()
 ```
 
 ## Methods
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
 
 #### GetSessionId
 
-```csharp
-String GetSessionId()
+```python
+result = obj.GetSessionId()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### AddWorkflow
 
-```csharp
-Void AddWorkflow(String workflow_id, Workflow workflow)
+```python
+obj.AddWorkflow(workflow_id, workflow)
 ```
 
 **Parameters:**
 
-- `workflow_id` (*String*)
+- `workflow_id` (*str*)
 - `workflow` (*Workflow*)
 
 #### GetWorkflow
 
-```csharp
-Workflow GetWorkflow(String workflow_id)
+```python
+result = obj.GetWorkflow(workflow_id)
 ```
 
 **Parameters:**
 
-- `workflow_id` (*String*)
+- `workflow_id` (*str*)
 
 **Returns:** *Workflow*
 
 #### GetWorkflowByIndex
 
-```csharp
-Workflow GetWorkflowByIndex(Int32 index)
+```python
+result = obj.GetWorkflowByIndex(index)
 ```
 
 **Parameters:**
 
-- `index` (*Int32*)
+- `index` (*int*)
 
 **Returns:** *Workflow*
 
 #### GetNumWorkflow
 
-```csharp
-Int32 GetNumWorkflow()
+```python
+result = obj.GetNumWorkflow()
 ```
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### SetLogger
 
-```csharp
-Void SetLogger(EventLogger logger)
+```python
+obj.SetLogger(logger)
 ```
 
 **Parameters:**
@@ -99,8 +99,8 @@ Void SetLogger(EventLogger logger)
 
 #### SetProgressSystem
 
-```csharp
-Void SetProgressSystem(ProgressInformationNotifier notifier)
+```python
+obj.SetProgressSystem(notifier)
 ```
 
 **Parameters:**
@@ -109,25 +109,25 @@ Void SetProgressSystem(ProgressInformationNotifier notifier)
 
 #### AddBreakpoint
 
-```csharp
-Int32 AddBreakpoint(Workflow workflow, BaseOperator op, Boolean isAfterExecution)
+```python
+result = obj.AddBreakpoint(workflow, op, isAfterExecution)
 ```
 
 **Parameters:**
 
 - `workflow` (*Workflow*)
 - `op` (*BaseOperator*)
-- `isAfterExecution` (*Boolean*)
+- `isAfterExecution` (*bool*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### RemoveBreakpoint
 
-```csharp
-Void RemoveBreakpoint(Workflow workflow, Int32 id)
+```python
+obj.RemoveBreakpoint(workflow, id)
 ```
 
 **Parameters:**
 
 - `workflow` (*Workflow*)
-- `id` (*Int32*)
+- `id` (*int*)

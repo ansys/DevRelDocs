@@ -23,47 +23,47 @@ IntIntCallback(object: object, method: IntPtr)
 
 #### Constructor
 
-```csharp
-new IntIntCallback(Object object, IntPtr method)
+```python
+IntIntCallback(object, method)
 ```
 
 **Parameters:**
 
-- `object` (*Object*)
+- `object` (*object*)
 - `method` (*IntPtr*)
 
 ## Methods
 
 #### Invoke
 
-```csharp
-Void Invoke(Int32 id, Int32 state)
+```python
+obj.Invoke(id, state)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `state` (*Int32*)
+- `id` (*int*)
+- `state` (*int*)
 
 #### BeginInvoke
 
-```csharp
-IAsyncResult BeginInvoke(Int32 id, Int32 state, AsyncCallback callback, Object object)
+```python
+result = obj.BeginInvoke(id, state, callback, object)
 ```
 
 **Parameters:**
 
-- `id` (*Int32*)
-- `state` (*Int32*)
+- `id` (*int*)
+- `state` (*int*)
 - `callback` (*AsyncCallback*)
-- `object` (*Object*)
+- `object` (*object*)
 
 **Returns:** *IAsyncResult*
 
 #### EndInvoke
 
-```csharp
-Void EndInvoke(IAsyncResult result)
+```python
+obj.EndInvoke(result)
 ```
 
 **Parameters:**

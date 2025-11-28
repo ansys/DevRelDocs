@@ -21,158 +21,158 @@ DataProcessingCore()
 
 #### Constructor
 
-```csharp
-new DataProcessingCore()
+```python
+DataProcessingCore()
 ```
 
 ## Methods
 
 #### DataProcessing_initialization
 
-```csharp
-Void DataProcessing_initialization(Int32& errorSize (out), String& sError (out))
+```python
+obj.DataProcessing_initialization(errorSize, sError)
 ```
 
 **Parameters:**
 
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### dataProcessing_initializeWithContext
 
-```csharp
-Void dataProcessing_initializeWithContext(Int32 context, String dataProcessingCore_xml_path, Int32& errorSize (out), String& sError (out))
+```python
+obj.dataProcessing_initializeWithContext(context, dataProcessingCore_xml_path, errorSize, sError)
 ```
 
 **Parameters:**
 
-- `context` (*Int32*)
-- `dataProcessingCore_xml_path` (*String*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `context` (*int*)
+- `dataProcessingCore_xml_path` (*str*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### DataProcessing_set_debug_trace
 
-```csharp
-Void DataProcessing_set_debug_trace(String text, Int32& errorSize (out), String& sError (out))
+```python
+obj.DataProcessing_set_debug_trace(text, errorSize, sError)
 ```
 
 **Parameters:**
 
-- `text` (*String*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `text` (*str*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### DataProcessing_load_library
 
-```csharp
-Void DataProcessing_load_library(String name, String dllPath, String symbol, Int32& errorSize (out), String& sError (out))
+```python
+obj.DataProcessing_load_library(name, dllPath, symbol, errorSize, sError)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
-- `dllPath` (*String*)
-- `symbol` (*String*)
-- `errorSize` (*Int32&*)
-- `sError` (*String&*)
+- `name` (*str*)
+- `dllPath` (*str*)
+- `symbol` (*str*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*String&* (out))
 
 #### DataProcessing_available_operators
 
-```csharp
-IntPtr DataProcessing_available_operators(Int32& errorSize (out), IntPtr& sError (out))
+```python
+result = obj.DataProcessing_available_operators(errorSize, sError)
 ```
 
 **Parameters:**
 
-- `errorSize` (*Int32&*)
-- `sError` (*IntPtr&*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*IntPtr&* (out))
 
 **Returns:** *IntPtr*
 
 #### DataProcessing_descriptionString
 
-```csharp
-IntPtr DataProcessing_descriptionString(IntPtr data, Int32& errorSize (out), IntPtr& sError (out))
+```python
+result = obj.DataProcessing_descriptionString(data, errorSize, sError)
 ```
 
 **Parameters:**
 
 - `data` (*IntPtr*)
-- `errorSize` (*Int32&*)
-- `sError` (*IntPtr&*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*IntPtr&* (out))
 
 **Returns:** *IntPtr*
 
 #### DataProcessing_deleteString
 
-```csharp
-Void DataProcessing_deleteString(IntPtr des, Int32& errorSize (out), IntPtr& sError (out))
+```python
+obj.DataProcessing_deleteString(des, errorSize, sError)
 ```
 
 **Parameters:**
 
 - `des` (*IntPtr*)
-- `errorSize` (*Int32&*)
-- `sError` (*IntPtr&*)
+- `errorSize` (*Int32&* (out))
+- `sError` (*IntPtr&* (out))
 
 #### Initialization
 
-```csharp
-Void Initialization()
+```python
+obj.Initialization()
 ```
 
 #### InitializationWithContext
 
-```csharp
-Void InitializationWithContext(Int32 context, String dataProcessingCore_xml_path (optional))
+```python
+obj.InitializationWithContext(context, dataProcessingCore_xml_path)
 ```
 
 **Parameters:**
 
-- `context` (*Int32*)
-- `dataProcessingCore_xml_path` (*String*)
+- `context` (*int*)
+- `dataProcessingCore_xml_path` (*str* (optional))
 
 #### ActivateDebugTrace
 
-```csharp
-Void ActivateDebugTrace(String path)
+```python
+obj.ActivateDebugTrace(path)
 ```
 
 **Parameters:**
 
-- `path` (*String*)
+- `path` (*str*)
 
 #### DeactivateDebugTrace
 
-```csharp
-Void DeactivateDebugTrace()
+```python
+obj.DeactivateDebugTrace()
 ```
 
 #### LoadLibrary
 
-```csharp
-Void LoadLibrary(String name, String dllPath, String symbol (optional))
+```python
+obj.LoadLibrary(name, dllPath, symbol)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
-- `dllPath` (*String*)
-- `symbol` (*String*)
+- `name` (*str*)
+- `dllPath` (*str*)
+- `symbol` (*str* (optional))
 
 #### GetAvailableOperators
 
-```csharp
-IEnumerable`1 GetAvailableOperators()
+```python
+result = obj.GetAvailableOperators()
 ```
 
-**Returns:** *IEnumerable`1*
+**Returns:** *iterable*
 
 #### GetRuntimeCoreConfig
 
-```csharp
-RuntimeCoreConfig GetRuntimeCoreConfig()
+```python
+result = obj.GetRuntimeCoreConfig()
 ```
 
 **Returns:** *RuntimeCoreConfig*
@@ -181,6 +181,11 @@ RuntimeCoreConfig GetRuntimeCoreConfig()
 
 #### DLLName
 
-```csharp
-static const String DLLName = DataProcessingCore
+**Type:** *str* (static, constant)
+
+**Value:** `DataProcessingCore`
+
+```python
+# Access as static field
+value = DataProcessingCore.DLLName
 ```

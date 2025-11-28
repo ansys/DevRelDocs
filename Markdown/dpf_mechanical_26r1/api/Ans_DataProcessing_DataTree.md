@@ -23,14 +23,14 @@ DataTree(val: IntPtr)
 
 #### Constructor
 
-```csharp
-new DataTree()
+```python
+DataTree()
 ```
 
 #### Constructor
 
-```csharp
-new DataTree(IntPtr val)
+```python
+DataTree(val)
 ```
 
 **Parameters:**
@@ -41,207 +41,207 @@ new DataTree(IntPtr val)
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
 
 #### hasSubTree
 
-```csharp
-Boolean hasSubTree(String name)
+```python
+result = obj.hasSubTree(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### hasAttribute
 
-```csharp
-Boolean hasAttribute(String name)
+```python
+result = obj.hasAttribute(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### getSubTree
 
-```csharp
-DataTree getSubTree(String name)
+```python
+result = obj.getSubTree(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
 **Returns:** *DataTree*
 
 #### makeSubTree
 
-```csharp
-DataTree makeSubTree(String name)
+```python
+result = obj.makeSubTree(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
 **Returns:** *DataTree*
 
 #### getIntAttribute
 
-```csharp
-Int32 getIntAttribute(String attribute_name)
+```python
+result = obj.getIntAttribute(attribute_name)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
+- `attribute_name` (*str*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### getVecIntAttribute
 
-```csharp
-IList`1 getVecIntAttribute(String attribute_name)
+```python
+result = obj.getVecIntAttribute(attribute_name)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
+- `attribute_name` (*str*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### getDoubleAttribute
 
-```csharp
-Double getDoubleAttribute(String attribute_name)
+```python
+result = obj.getDoubleAttribute(attribute_name)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
+- `attribute_name` (*str*)
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### getVecDoubleAttribute
 
-```csharp
-IList`1 getVecDoubleAttribute(String attribute_name)
+```python
+result = obj.getVecDoubleAttribute(attribute_name)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
+- `attribute_name` (*str*)
 
-**Returns:** *IList`1*
+**Returns:** *list*
 
 #### getStringAttribute
 
-```csharp
-String getStringAttribute(String attribute_name)
+```python
+result = obj.getStringAttribute(attribute_name)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
+- `attribute_name` (*str*)
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### makeIntAttribute
 
-```csharp
-Void makeIntAttribute(String attribute_name, Int32 value)
+```python
+obj.makeIntAttribute(attribute_name, value)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
-- `value` (*Int32*)
+- `attribute_name` (*str*)
+- `value` (*int*)
 
 #### makeVecIntAttribute
 
-```csharp
-Void makeVecIntAttribute(String attribute_name, IList`1 data)
+```python
+obj.makeVecIntAttribute(attribute_name, data)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
-- `data` (*IList`1*)
+- `attribute_name` (*str*)
+- `data` (*list*)
 
 #### makeDoubleAttribute
 
-```csharp
-Void makeDoubleAttribute(String attribute_name, Double value)
+```python
+obj.makeDoubleAttribute(attribute_name, value)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
-- `value` (*Double*)
+- `attribute_name` (*str*)
+- `value` (*float*)
 
 #### makeVecDoubleAttribute
 
-```csharp
-Void makeVecDoubleAttribute(String attribute_name, IList`1 data)
+```python
+obj.makeVecDoubleAttribute(attribute_name, data)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
-- `data` (*IList`1*)
+- `attribute_name` (*str*)
+- `data` (*list*)
 
 #### makeStringAttribute
 
-```csharp
-Void makeStringAttribute(String attribute_name, String value)
+```python
+obj.makeStringAttribute(attribute_name, value)
 ```
 
 **Parameters:**
 
-- `attribute_name` (*String*)
-- `value` (*String*)
+- `attribute_name` (*str*)
+- `value` (*str*)
 
 #### writeToTxt
 
-```csharp
-String writeToTxt()
+```python
+result = obj.writeToTxt()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### fillFromTxt
 
-```csharp
-Void fillFromTxt(String value)
+```python
+obj.fillFromTxt(value)
 ```
 
 **Parameters:**
 
-- `value` (*String*)
+- `value` (*str*)
 
 #### ToJson
 
-```csharp
-String ToJson()
+```python
+result = obj.ToJson()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### fillFromJson
 
-```csharp
-Void fillFromJson(String value)
+```python
+obj.fillFromJson(value)
 ```
 
 **Parameters:**
 
-- `value` (*String*)
+- `value` (*str*)

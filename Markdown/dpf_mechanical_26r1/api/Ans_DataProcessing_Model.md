@@ -26,97 +26,97 @@ Model(resultPath: str, allowKeepFileOpen: bool)
 
 #### Constructor
 
-```csharp
-new Model(Boolean allowKeepFileOpen (optional))
+```python
+Model(allowKeepFileOpen)
 ```
 
 **Parameters:**
 
-- `allowKeepFileOpen` (*Boolean*)
+- `allowKeepFileOpen` (*bool*)
 
 #### Constructor
 
-```csharp
-new Model(DataSources dataSources, Boolean allowKeepFileOpen (optional))
+```python
+Model(dataSources, allowKeepFileOpen)
 ```
 
 **Parameters:**
 
 - `dataSources` (*DataSources*)
-- `allowKeepFileOpen` (*Boolean*)
+- `allowKeepFileOpen` (*bool*)
 
 #### Constructor
 
-```csharp
-new Model(String resultPath, String extension, Boolean allowKeepFileOpen (optional))
+```python
+Model(resultPath, extension, allowKeepFileOpen)
 ```
 
 **Parameters:**
 
-- `resultPath` (*String*)
-- `extension` (*String*)
-- `allowKeepFileOpen` (*Boolean*)
+- `resultPath` (*str*)
+- `extension` (*str*)
+- `allowKeepFileOpen` (*bool*)
 
 #### Constructor
 
-```csharp
-new Model(String resultPath, Boolean allowKeepFileOpen (optional))
+```python
+Model(resultPath, allowKeepFileOpen)
 ```
 
 **Parameters:**
 
-- `resultPath` (*String*)
-- `allowKeepFileOpen` (*Boolean*)
+- `resultPath` (*str*)
+- `allowKeepFileOpen` (*bool*)
 
 ## Methods
 
 #### SetResultFilePath
 
-```csharp
-Void SetResultFilePath(String filePath, String sKey)
+```python
+obj.SetResultFilePath(filePath, sKey)
 ```
 
 **Parameters:**
 
-- `filePath` (*String*)
-- `sKey` (*String*)
+- `filePath` (*str*)
+- `sKey` (*str*)
 
 #### ReleaseStreams
 
-```csharp
-Void ReleaseStreams()
+```python
+obj.ReleaseStreams()
 ```
 
 #### CreateOperator
 
-```csharp
-BaseOperator CreateOperator(String opName, OperatorConfig config (optional))
+```python
+result = obj.CreateOperator(opName, config)
 ```
 
 **Parameters:**
 
-- `opName` (*String*)
-- `config` (*OperatorConfig*)
+- `opName` (*str*)
+- `config` (*OperatorConfig* (optional))
 
 **Returns:** *BaseOperator*
 
 #### ToString
 
-```csharp
-String ToString()
+```python
+result = obj.ToString()
 ```
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetNamedSelection
 
-```csharp
-Scoping GetNamedSelection(String name)
+```python
+result = obj.GetNamedSelection(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
 **Returns:** *Scoping*
 
@@ -124,66 +124,102 @@ Scoping GetNamedSelection(String name)
 
 #### results
 
-```csharp
-ModelsResults results { get; set; }
+**Type:** *ModelsResults*
+
+```python
+# Get or set the property
+value = obj.results
+obj.results = new_value
 ```
 
 #### DataSources
 
-```csharp
-DataSources DataSources { get; set; }
+**Type:** *DataSources*
+
+```python
+# Get or set the property
+value = obj.DataSources
+obj.DataSources = new_value
 ```
 
 #### TimeFreqSupport
 
-```csharp
-TimeFreqSupport TimeFreqSupport { get; }
+**Type:** *TimeFreqSupport*
+
+```python
+# Get the property (read-only)
+value = obj.TimeFreqSupport
 ```
 
 #### TimeFreqSupportProvider
 
-```csharp
-BaseOperator TimeFreqSupportProvider { get; }
+**Type:** *BaseOperator*
+
+```python
+# Get the property (read-only)
+value = obj.TimeFreqSupportProvider
 ```
 
 #### Mesh
 
-```csharp
-MeshedRegion Mesh { get; }
+**Type:** *MeshedRegion*
+
+```python
+# Get the property (read-only)
+value = obj.Mesh
 ```
 
 #### MeshProvider
 
-```csharp
-BaseOperator MeshProvider { get; }
+**Type:** *BaseOperator*
+
+```python
+# Get the property (read-only)
+value = obj.MeshProvider
 ```
 
 #### ResultInfo
 
-```csharp
-ResultInfo ResultInfo { get; }
+**Type:** *ResultInfo*
+
+```python
+# Get the property (read-only)
+value = obj.ResultInfo
 ```
 
 #### ResultInfoProvider
 
-```csharp
-BaseOperator ResultInfoProvider { get; }
+**Type:** *BaseOperator*
+
+```python
+# Get the property (read-only)
+value = obj.ResultInfoProvider
 ```
 
 #### ResultFilePath
 
-```csharp
-String ResultFilePath { get; set; }
+**Type:** *str*
+
+```python
+# Get or set the property
+value = obj.ResultFilePath
+obj.ResultFilePath = new_value
 ```
 
 #### StreamsProvider
 
-```csharp
-Operator StreamsProvider { get; }
+**Type:** *Operator*
+
+```python
+# Get the property (read-only)
+value = obj.StreamsProvider
 ```
 
 #### AvailableNamedSelections
 
-```csharp
-IList`1 AvailableNamedSelections { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.AvailableNamedSelections
 ```

@@ -22,84 +22,84 @@ Helpers to create time scoping inputs
 
 #### ScopingByLoadStep
 
-```csharp
-Scoping ScopingByLoadStep(Int32 loadStep)
+```python
+result = obj.ScopingByLoadStep(loadStep)
 ```
 
 **Parameters:**
 
-- `loadStep` (*Int32*)
+- `loadStep` (*int*)
 
 **Returns:** *Scoping*
 
 #### ScopingByLoadSteps
 
-```csharp
-Scoping ScopingByLoadSteps(IList`1 loadSteps)
+```python
+result = obj.ScopingByLoadSteps(loadSteps)
 ```
 
 **Parameters:**
 
-- `loadSteps` (*IList`1*)
+- `loadSteps` (*list*)
 
 **Returns:** *Scoping*
 
 #### ScopingBySet
 
-```csharp
-Scoping ScopingBySet(Int32 cumulativeSet)
+```python
+result = obj.ScopingBySet(cumulativeSet)
 ```
 
 **Parameters:**
 
-- `cumulativeSet` (*Int32*)
+- `cumulativeSet` (*int*)
 
 **Returns:** *Scoping*
 
 #### ScopingBySets
 
-```csharp
-Scoping ScopingBySets(IList`1 cumulativeSets)
+```python
+result = obj.ScopingBySets(cumulativeSets)
 ```
 
 **Parameters:**
 
-- `cumulativeSets` (*IList`1*)
+- `cumulativeSets` (*list*)
 
 **Returns:** *Scoping*
 
 #### ScopingByStepAndSubstep
 
-```csharp
-Scoping ScopingByStepAndSubstep(Int32 loadStepId, Int32 subsetId, TimeFreqSupport timeFreqSupport)
+```python
+result = obj.ScopingByStepAndSubstep(loadStepId, subsetId, timeFreqSupport)
 ```
 
 **Parameters:**
 
-- `loadStepId` (*Int32*)
-- `subsetId` (*Int32*)
+- `loadStepId` (*int*)
+- `subsetId` (*int*)
 - `timeFreqSupport` (*TimeFreqSupport*)
 
 **Returns:** *Scoping*
 
 #### ScopingByStepAndSubstep
 
-```csharp
-Scoping ScopingByStepAndSubstep(Int32 loadStepId, Int32 subsetId, Model model)
+```python
+result = obj.ScopingByStepAndSubstep(loadStepId, subsetId, model)
 ```
 
 **Parameters:**
 
-- `loadStepId` (*Int32*)
-- `subsetId` (*Int32*)
+- `loadStepId` (*int*)
+- `subsetId` (*int*)
 - `model` (*Model*)
 
 **Returns:** *Scoping*
 
 #### ScopingOnAllTimeFreqs
 
-```csharp
-Scoping ScopingOnAllTimeFreqs(TimeFreqSupport timeFreqSupport)
+```python
+result = obj.ScopingOnAllTimeFreqs(timeFreqSupport)
 ```
 
 **Parameters:**
@@ -110,8 +110,8 @@ Scoping ScopingOnAllTimeFreqs(TimeFreqSupport timeFreqSupport)
 
 #### ScopingOnAllTimeFreqs
 
-```csharp
-Scoping ScopingOnAllTimeFreqs(Model model)
+```python
+result = obj.ScopingOnAllTimeFreqs(model)
 ```
 
 **Parameters:**

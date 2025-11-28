@@ -21,8 +21,8 @@ Result(ptrRes: IntPtr)
 
 #### Constructor
 
-```csharp
-new Result(IntPtr ptrRes)
+```python
+Result(ptrRes)
 ```
 
 **Parameters:**
@@ -33,24 +33,24 @@ new Result(IntPtr ptrRes)
 
 #### evaluate
 
-```csharp
-Field evaluate(Int32 iSet)
+```python
+result = obj.evaluate(iSet)
 ```
 
 **Parameters:**
 
-- `iSet` (*Int32*)
+- `iSet` (*int*)
 
 **Returns:** *Field*
 
 #### GetNearestResult
 
-```csharp
-Field GetNearestResult(Double dStep)
+```python
+result = obj.GetNearestResult(dStep)
 ```
 
 **Parameters:**
 
-- `dStep` (*Double*)
+- `dStep` (*float*)
 
 **Returns:** *Field*

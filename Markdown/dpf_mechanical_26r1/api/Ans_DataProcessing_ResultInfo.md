@@ -24,8 +24,8 @@ ResultInfo(pResultInfo: IntPtr)
 
 #### Constructor
 
-```csharp
-new ResultInfo(IntPtr pResultInfo)
+```python
+ResultInfo(pResultInfo)
 ```
 
 **Parameters:**
@@ -36,8 +36,8 @@ new ResultInfo(IntPtr pResultInfo)
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -46,90 +46,135 @@ IntPtr GetInternalData()
 
 #### AnalysisType
 
-```csharp
-AnalysisType AnalysisType { get; }
+**Type:** *AnalysisType*
+
+```python
+# Get the property (read-only)
+value = obj.AnalysisType
 ```
 
 #### PhysicsType
 
-```csharp
-PhysicsType PhysicsType { get; }
+**Type:** *PhysicsType*
+
+```python
+# Get the property (read-only)
+value = obj.PhysicsType
 ```
 
 #### UnitSystem
 
-```csharp
-String UnitSystem { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.UnitSystem
 ```
 
 #### SolverVersion
 
-```csharp
-String SolverVersion { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.SolverVersion
 ```
 
 #### SolverDateTime
 
-```csharp
-String SolverDateTime { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.SolverDateTime
 ```
 
 #### UserName
 
-```csharp
-String UserName { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.UserName
 ```
 
 #### JobName
 
-```csharp
-String JobName { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.JobName
 ```
 
 #### ProductName
 
-```csharp
-String ProductName { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.ProductName
 ```
 
 #### MainTitle
 
-```csharp
-String MainTitle { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.MainTitle
 ```
 
 #### AnsysUnitSystemInt
 
-```csharp
-Int32 AnsysUnitSystemInt { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.AnsysUnitSystemInt
 ```
 
 #### ResultCount
 
-```csharp
-Int32 ResultCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.ResultCount
 ```
 
 #### Results
 
-```csharp
-IList`1 Results { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.Results
 ```
 
 #### HasCyclic
 
-```csharp
-Boolean HasCyclic { get; }
+**Type:** *bool*
+
+```python
+# Get the property (read-only)
+value = obj.HasCyclic
 ```
 
 #### CyclicSupport
 
-```csharp
-CyclicSupport CyclicSupport { get; }
+**Type:** *CyclicSupport*
+
+```python
+# Get the property (read-only)
+value = obj.CyclicSupport
 ```
 
 #### CyclicSymmetryType
 
-```csharp
-String CyclicSymmetryType { get; }
+**Type:** *str*
+
+```python
+# Get the property (read-only)
+value = obj.CyclicSymmetryType
 ```

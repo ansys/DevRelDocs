@@ -22,46 +22,46 @@ Helpers to create user defined fields container
 
 #### OverTimeFreqFieldsContainer
 
-```csharp
-FieldsContainer OverTimeFreqFieldsContainer(IList`1 fields)
+```python
+result = obj.OverTimeFreqFieldsContainer(fields)
 ```
 
 **Parameters:**
 
-- `fields` (*IList`1*)
+- `fields` (*list*)
 
 **Returns:** *FieldsContainer*
 
 #### OverTimeFreqFieldsContainer
 
-```csharp
-FieldsContainer OverTimeFreqFieldsContainer(IDictionary`2 fields, String timeFreqUnit)
+```python
+result = obj.OverTimeFreqFieldsContainer(fields, timeFreqUnit)
 ```
 
 **Parameters:**
 
-- `fields` (*IDictionary`2*)
-- `timeFreqUnit` (*String*)
+- `fields` (*dict*)
+- `timeFreqUnit` (*str*)
 
 **Returns:** *FieldsContainer*
 
 #### OverTimeFreqComplexFieldsContainer
 
-```csharp
-FieldsContainer OverTimeFreqComplexFieldsContainer(IList`1 realFields, IList`1 imaginaryFields)
+```python
+result = obj.OverTimeFreqComplexFieldsContainer(realFields, imaginaryFields)
 ```
 
 **Parameters:**
 
-- `realFields` (*IList`1*)
-- `imaginaryFields` (*IList`1*)
+- `realFields` (*list*)
+- `imaginaryFields` (*list*)
 
 **Returns:** *FieldsContainer*
 
 #### ComplexFieldsContainer
 
-```csharp
-FieldsContainer ComplexFieldsContainer(Field realField, Field imaginaryField)
+```python
+result = obj.ComplexFieldsContainer(realField, imaginaryField)
 ```
 
 **Parameters:**
@@ -73,14 +73,14 @@ FieldsContainer ComplexFieldsContainer(Field realField, Field imaginaryField)
 
 #### OverTimeFreqComplexFieldsContainer
 
-```csharp
-FieldsContainer OverTimeFreqComplexFieldsContainer(IDictionary`2 realFields, IDictionary`2 imaginaryFields, String timeFreqUnit)
+```python
+result = obj.OverTimeFreqComplexFieldsContainer(realFields, imaginaryFields, timeFreqUnit)
 ```
 
 **Parameters:**
 
-- `realFields` (*IDictionary`2*)
-- `imaginaryFields` (*IDictionary`2*)
-- `timeFreqUnit` (*String*)
+- `realFields` (*dict*)
+- `imaginaryFields` (*dict*)
+- `timeFreqUnit` (*str*)
 
 **Returns:** *FieldsContainer*

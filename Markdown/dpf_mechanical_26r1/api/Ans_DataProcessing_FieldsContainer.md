@@ -27,14 +27,14 @@ FieldsContainer(intptr: IntPtr)
 
 #### Constructor
 
-```csharp
-new FieldsContainer()
+```python
+FieldsContainer()
 ```
 
 #### Constructor
 
-```csharp
-new FieldsContainer(IntPtr intptr)
+```python
+FieldsContainer(intptr)
 ```
 
 **Parameters:**
@@ -45,54 +45,54 @@ new FieldsContainer(IntPtr intptr)
 
 #### GetFieldByTimeId
 
-```csharp
-Field GetFieldByTimeId(Int32 timeId)
+```python
+result = obj.GetFieldByTimeId(timeId)
 ```
 
 **Parameters:**
 
-- `timeId` (*Int32*)
+- `timeId` (*int*)
 
 **Returns:** *Field*
 
 #### GetImaginaryField
 
-```csharp
-Field GetImaginaryField(Int32 timeId)
+```python
+result = obj.GetImaginaryField(timeId)
 ```
 
 **Parameters:**
 
-- `timeId` (*Int32*)
+- `timeId` (*int*)
 
 **Returns:** *Field*
 
 #### AddFieldByTimeId
 
-```csharp
-Void AddFieldByTimeId(Field field, Int32 timeId)
+```python
+obj.AddFieldByTimeId(field, timeId)
 ```
 
 **Parameters:**
 
 - `field` (*Field*)
-- `timeId` (*Int32*)
+- `timeId` (*int*)
 
 #### AddImaginaryField
 
-```csharp
-Void AddImaginaryField(Field field, Int32 timeId)
+```python
+obj.AddImaginaryField(field, timeId)
 ```
 
 **Parameters:**
 
 - `field` (*Field*)
-- `timeId` (*Int32*)
+- `timeId` (*int*)
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(FieldsContainer a, FieldsContainer b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
@@ -104,21 +104,21 @@ BaseOperator op_Addition(FieldsContainer a, FieldsContainer b)
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(FieldsContainer a, Double b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*FieldsContainer*)
-- `b` (*Double*)
+- `b` (*float*)
 
 **Returns:** *BaseOperator*
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(Field a, FieldsContainer b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
@@ -130,8 +130,8 @@ BaseOperator op_Addition(Field a, FieldsContainer b)
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(FieldsContainer a, Field b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
@@ -143,47 +143,47 @@ BaseOperator op_Addition(FieldsContainer a, Field b)
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(Double a, FieldsContainer b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*Double*)
+- `a` (*float*)
 - `b` (*FieldsContainer*)
 
 **Returns:** *BaseOperator*
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(FieldsContainer a, IList`1 b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*FieldsContainer*)
-- `b` (*IList`1*)
+- `b` (*list*)
 
 **Returns:** *BaseOperator*
 
 #### op_Addition
 
-```csharp
-BaseOperator op_Addition(IList`1 a, FieldsContainer b)
+```python
+result = obj.op_Addition(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*IList`1*)
+- `a` (*list*)
 - `b` (*FieldsContainer*)
 
 **Returns:** *BaseOperator*
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(FieldsContainer a, FieldsContainer b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
@@ -195,21 +195,21 @@ BaseOperator op_Subtraction(FieldsContainer a, FieldsContainer b)
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(FieldsContainer a, Double b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*FieldsContainer*)
-- `b` (*Double*)
+- `b` (*float*)
 
 **Returns:** *BaseOperator*
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(Field a, FieldsContainer b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
@@ -221,8 +221,8 @@ BaseOperator op_Subtraction(Field a, FieldsContainer b)
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(FieldsContainer a, Field b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
@@ -234,47 +234,47 @@ BaseOperator op_Subtraction(FieldsContainer a, Field b)
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(Double a, FieldsContainer b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*Double*)
+- `a` (*float*)
 - `b` (*FieldsContainer*)
 
 **Returns:** *BaseOperator*
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(FieldsContainer a, IList`1 b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*FieldsContainer*)
-- `b` (*IList`1*)
+- `b` (*list*)
 
 **Returns:** *BaseOperator*
 
 #### op_Subtraction
 
-```csharp
-BaseOperator op_Subtraction(IList`1 a, FieldsContainer b)
+```python
+result = obj.op_Subtraction(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*IList`1*)
+- `a` (*list*)
 - `b` (*FieldsContainer*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(FieldsContainer a, FieldsContainer b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
@@ -286,21 +286,21 @@ BaseOperator op_Multiply(FieldsContainer a, FieldsContainer b)
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(FieldsContainer a, Double b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*FieldsContainer*)
-- `b` (*Double*)
+- `b` (*float*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(Field a, FieldsContainer b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
@@ -312,8 +312,8 @@ BaseOperator op_Multiply(Field a, FieldsContainer b)
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(FieldsContainer a, Field b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
@@ -325,39 +325,39 @@ BaseOperator op_Multiply(FieldsContainer a, Field b)
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(Double a, FieldsContainer b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*Double*)
+- `a` (*float*)
 - `b` (*FieldsContainer*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(FieldsContainer a, IList`1 b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
 - `a` (*FieldsContainer*)
-- `b` (*IList`1*)
+- `b` (*list*)
 
 **Returns:** *BaseOperator*
 
 #### op_Multiply
 
-```csharp
-BaseOperator op_Multiply(IList`1 a, FieldsContainer b)
+```python
+result = obj.op_Multiply(a, b)
 ```
 
 **Parameters:**
 
-- `a` (*IList`1*)
+- `a` (*list*)
 - `b` (*FieldsContainer*)
 
 **Returns:** *BaseOperator*
@@ -366,18 +366,28 @@ BaseOperator op_Multiply(IList`1 a, FieldsContainer b)
 
 #### FieldCount
 
-```csharp
-Int32 FieldCount { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.FieldCount
 ```
 
 #### TimeFreqSupport
 
-```csharp
-TimeFreqSupport TimeFreqSupport { get; set; }
+**Type:** *TimeFreqSupport*
+
+```python
+# Get or set the property
+value = obj.TimeFreqSupport
+obj.TimeFreqSupport = new_value
 ```
 
 #### Id
 
-```csharp
-Int64 Id { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.Id
 ```

@@ -34,315 +34,315 @@ Operator(name: str, config: OperatorConfig)
 
 #### Constructor
 
-```csharp
-new Operator(String name)
+```python
+Operator(name)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 
 #### Constructor
 
-```csharp
-new Operator(String name, Object input, OperatorConfig config (optional))
+```python
+Operator(name, input, config)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
-- `input` (*Object*)
+- `name` (*str*)
+- `input` (*object*)
 - `config` (*OperatorConfig*)
 
 #### Constructor
 
-```csharp
-new Operator(String name, Object input, Object input2, OperatorConfig config (optional))
+```python
+Operator(name, input, input2, config)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
-- `input` (*Object*)
-- `input2` (*Object*)
+- `name` (*str*)
+- `input` (*object*)
+- `input2` (*object*)
 - `config` (*OperatorConfig*)
 
 #### Constructor
 
-```csharp
-new Operator(String name, Object input, Object input2, Object input3, OperatorConfig config (optional))
+```python
+Operator(name, input, input2, input3, config)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
-- `input` (*Object*)
-- `input2` (*Object*)
-- `input3` (*Object*)
+- `name` (*str*)
+- `input` (*object*)
+- `input2` (*object*)
+- `input3` (*object*)
 - `config` (*OperatorConfig*)
 
 #### Constructor
 
-```csharp
-new Operator(String name, Object input, Object input2, Object input3, Object input4, OperatorConfig config (optional))
+```python
+Operator(name, input, input2, input3, input4, config)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
-- `input` (*Object*)
-- `input2` (*Object*)
-- `input3` (*Object*)
-- `input4` (*Object*)
+- `name` (*str*)
+- `input` (*object*)
+- `input2` (*object*)
+- `input3` (*object*)
+- `input4` (*object*)
 - `config` (*OperatorConfig*)
 
 #### Constructor
 
-```csharp
-new Operator(Int64 id)
+```python
+Operator(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int64*)
+- `id` (*int*)
 
 #### Constructor
 
-```csharp
-new Operator(String name, OperatorConfig config)
+```python
+Operator(name, config)
 ```
 
 **Parameters:**
 
-- `name` (*String*)
+- `name` (*str*)
 - `config` (*OperatorConfig*)
 
 ## Methods
 
 #### GetOutputAsFieldsContainer
 
-```csharp
-FieldsContainer GetOutputAsFieldsContainer(Int32 i (optional))
+```python
+result = obj.GetOutputAsFieldsContainer(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *FieldsContainer*
 
 #### GetOutputAsScopingsContainer
 
-```csharp
-ScopingsContainer GetOutputAsScopingsContainer(Int32 i (optional))
+```python
+result = obj.GetOutputAsScopingsContainer(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *ScopingsContainer*
 
 #### GetOutputAsMaterialsContainer
 
-```csharp
-MaterialsContainer GetOutputAsMaterialsContainer(Int32 i (optional))
+```python
+result = obj.GetOutputAsMaterialsContainer(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *MaterialsContainer*
 
 #### GetOutputAsField
 
-```csharp
-Field GetOutputAsField(Int32 i (optional))
+```python
+result = obj.GetOutputAsField(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *Field*
 
 #### GetOutputAsScoping
 
-```csharp
-Scoping GetOutputAsScoping(Int32 i (optional))
+```python
+result = obj.GetOutputAsScoping(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *Scoping*
 
 #### GetOutputAsString
 
-```csharp
-String GetOutputAsString(Int32 i (optional))
+```python
+result = obj.GetOutputAsString(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetOutputAsByteArray
 
-```csharp
-Byte[] GetOutputAsByteArray(Int32 i (optional))
+```python
+result = obj.GetOutputAsByteArray(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *Byte[]*
 
 #### GetOutputAsInt
 
-```csharp
-Int32 GetOutputAsInt(Int32 i (optional))
+```python
+result = obj.GetOutputAsInt(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetOutputAsDouble
 
-```csharp
-Double GetOutputAsDouble(Int32 i (optional))
+```python
+result = obj.GetOutputAsDouble(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### GetOutputAsBool
 
-```csharp
-Boolean GetOutputAsBool(Int32 i (optional))
+```python
+result = obj.GetOutputAsBool(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### GetOutputAsTimeFreqSupport
 
-```csharp
-TimeFreqSupport GetOutputAsTimeFreqSupport(Int32 i (optional))
+```python
+result = obj.GetOutputAsTimeFreqSupport(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *TimeFreqSupport*
 
 #### GetOutputAsMeshesContainer
 
-```csharp
-MeshesContainer GetOutputAsMeshesContainer(Int32 i (optional))
+```python
+result = obj.GetOutputAsMeshesContainer(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *MeshesContainer*
 
 #### GetOutputAsMeshedRegion
 
-```csharp
-MeshedRegion GetOutputAsMeshedRegion(Int32 i (optional))
+```python
+result = obj.GetOutputAsMeshedRegion(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *MeshedRegion*
 
 #### GetOutputAsStreamsContainer
 
-```csharp
-StreamsContainer GetOutputAsStreamsContainer(Int32 i (optional))
+```python
+result = obj.GetOutputAsStreamsContainer(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *StreamsContainer*
 
 #### GetOutputAsResultInfo
 
-```csharp
-ResultInfo GetOutputAsResultInfo(Int32 i (optional))
+```python
+result = obj.GetOutputAsResultInfo(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *ResultInfo*
 
 #### GetOutputAsDataSources
 
-```csharp
-DataSources GetOutputAsDataSources(Int32 i (optional))
+```python
+result = obj.GetOutputAsDataSources(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *DataSources*
 
 #### GetOutputAsPropertyField
 
-```csharp
-PropertyField GetOutputAsPropertyField(Int32 i (optional))
+```python
+result = obj.GetOutputAsPropertyField(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *PropertyField*
 
 #### GetOutputAsDataTree
 
-```csharp
-DataTree GetOutputAsDataTree(Int32 i (optional))
+```python
+result = obj.GetOutputAsDataTree(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *DataTree*
 
 #### GetOutputAsWorkflow
 
-```csharp
-Workflow GetOutputAsWorkflow(Int32 i (optional))
+```python
+result = obj.GetOutputAsWorkflow(i)
 ```
 
 **Parameters:**
 
-- `i` (*Int32*)
+- `i` (*int* (optional))
 
 **Returns:** *Workflow*

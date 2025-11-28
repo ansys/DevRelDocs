@@ -23,14 +23,14 @@ Collection[T](intptr: IntPtr)
 
 #### Constructor
 
-```csharp
-new Collection`1()
+```python
+Collection`1()
 ```
 
 #### Constructor
 
-```csharp
-new Collection`1(IntPtr intptr)
+```python
+Collection`1(intptr)
 ```
 
 **Parameters:**
@@ -41,8 +41,8 @@ new Collection`1(IntPtr intptr)
 
 #### Add
 
-```csharp
-Void Add(T obj)
+```python
+obj.Add(obj)
 ```
 
 **Parameters:**
@@ -51,24 +51,24 @@ Void Add(T obj)
 
 #### Set
 
-```csharp
-Void Set(Int32 index, T obj)
+```python
+obj.Set(index, obj)
 ```
 
 **Parameters:**
 
-- `index` (*Int32*)
+- `index` (*int*)
 - `obj` (*T*)
 
 #### Get
 
-```csharp
-T Get(Int32 index)
+```python
+result = obj.Get(index)
 ```
 
 **Parameters:**
 
-- `index` (*Int32*)
+- `index` (*int*)
 
 **Returns:** *T*
 
@@ -76,6 +76,10 @@ T Get(Int32 index)
 
 #### Item
 
-```csharp
-T Item { get; set; }
+**Type:** *T*
+
+```python
+# Get or set the property
+value = obj.Item
+obj.Item = new_value
 ```

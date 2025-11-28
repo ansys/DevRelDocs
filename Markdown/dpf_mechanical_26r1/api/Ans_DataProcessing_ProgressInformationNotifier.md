@@ -21,48 +21,48 @@ ProgressInformationNotifier()
 
 #### Constructor
 
-```csharp
-new ProgressInformationNotifier()
+```python
+ProgressInformationNotifier()
 ```
 
 ## Methods
 
 #### GetWorkflowProgressInformationById
 
-```csharp
-Int32 GetWorkflowProgressInformationById(String workflow_identifier)
+```python
+result = obj.GetWorkflowProgressInformationById(workflow_identifier)
 ```
 
 **Parameters:**
 
-- `workflow_identifier` (*String*)
+- `workflow_identifier` (*str*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetOperatorStateById
 
-```csharp
-Int32 GetOperatorStateById(Int32 operator_identifier)
+```python
+result = obj.GetOperatorStateById(operator_identifier)
 ```
 
 **Parameters:**
 
-- `operator_identifier` (*Int32*)
+- `operator_identifier` (*int*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### GetProgressCallback
 
-```csharp
-StringIntCallback GetProgressCallback()
+```python
+result = obj.GetProgressCallback()
 ```
 
 **Returns:** *StringIntCallback*
 
 #### GetOperatorStateCallback
 
-```csharp
-IntIntCallback GetOperatorStateCallback()
+```python
+result = obj.GetOperatorStateCallback()
 ```
 
 **Returns:** *IntIntCallback*

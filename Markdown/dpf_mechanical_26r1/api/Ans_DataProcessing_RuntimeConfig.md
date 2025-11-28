@@ -18,46 +18,46 @@ title: RuntimeConfig
 
 #### GetStringValue
 
-```csharp
-String GetStringValue(String option)
+```python
+result = obj.GetStringValue(option)
 ```
 
 **Parameters:**
 
-- `option` (*String*)
+- `option` (*str*)
 
-**Returns:** *String*
+**Returns:** *str*
 
 #### GetIntValue
 
-```csharp
-Nullable`1 GetIntValue(String option)
+```python
+result = obj.GetIntValue(option)
 ```
 
 **Parameters:**
 
-- `option` (*String*)
+- `option` (*str*)
 
-**Returns:** *Nullable`1*
+**Returns:** *Nullable*
 
 #### SetValue
 
-```csharp
-Void SetValue(String option, Int32 value)
+```python
+obj.SetValue(option, value)
 ```
 
 **Parameters:**
 
-- `option` (*String*)
-- `value` (*Int32*)
+- `option` (*str*)
+- `value` (*int*)
 
 #### SetValue
 
-```csharp
-Void SetValue(String option, String value)
+```python
+obj.SetValue(option, value)
 ```
 
 **Parameters:**
 
-- `option` (*String*)
-- `value` (*String*)
+- `option` (*str*)
+- `value` (*str*)

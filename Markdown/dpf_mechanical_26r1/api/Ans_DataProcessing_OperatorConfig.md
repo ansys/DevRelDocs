@@ -25,34 +25,34 @@ OperatorConfig(id: IntPtr)
 
 #### Constructor
 
-```csharp
-new OperatorConfig(String operatorName)
+```python
+OperatorConfig(operatorName)
 ```
 
 **Parameters:**
 
-- `operatorName` (*String*)
+- `operatorName` (*str*)
 
 #### Constructor
 
-```csharp
-new OperatorConfig()
+```python
+OperatorConfig()
 ```
 
 #### Constructor
 
-```csharp
-new OperatorConfig(Int64 id)
+```python
+OperatorConfig(id)
 ```
 
 **Parameters:**
 
-- `id` (*Int64*)
+- `id` (*int*)
 
 #### Constructor
 
-```csharp
-new OperatorConfig(IntPtr id)
+```python
+OperatorConfig(id)
 ```
 
 **Parameters:**
@@ -63,77 +63,77 @@ new OperatorConfig(IntPtr id)
 
 #### GetIntValue
 
-```csharp
-Int32 GetIntValue(String optionName)
+```python
+result = obj.GetIntValue(optionName)
 ```
 
 **Parameters:**
 
-- `optionName` (*String*)
+- `optionName` (*str*)
 
-**Returns:** *Int32*
+**Returns:** *int*
 
 #### SetConfigOption
 
-```csharp
-Void SetConfigOption(String optionName, Int32 value)
+```python
+obj.SetConfigOption(optionName, value)
 ```
 
 **Parameters:**
 
-- `optionName` (*String*)
-- `value` (*Int32*)
+- `optionName` (*str*)
+- `value` (*int*)
 
 #### GetDoubleValue
 
-```csharp
-Double GetDoubleValue(String optionName)
+```python
+result = obj.GetDoubleValue(optionName)
 ```
 
 **Parameters:**
 
-- `optionName` (*String*)
+- `optionName` (*str*)
 
-**Returns:** *Double*
+**Returns:** *float*
 
 #### SetConfigOption
 
-```csharp
-Void SetConfigOption(String optionName, Double value)
+```python
+obj.SetConfigOption(optionName, value)
 ```
 
 **Parameters:**
 
-- `optionName` (*String*)
-- `value` (*Double*)
+- `optionName` (*str*)
+- `value` (*float*)
 
 #### GetBoolValue
 
-```csharp
-Boolean GetBoolValue(String optionName)
+```python
+result = obj.GetBoolValue(optionName)
 ```
 
 **Parameters:**
 
-- `optionName` (*String*)
+- `optionName` (*str*)
 
-**Returns:** *Boolean*
+**Returns:** *bool*
 
 #### SetConfigOption
 
-```csharp
-Void SetConfigOption(String optionName, Boolean value)
+```python
+obj.SetConfigOption(optionName, value)
 ```
 
 **Parameters:**
 
-- `optionName` (*String*)
-- `value` (*Boolean*)
+- `optionName` (*str*)
+- `value` (*bool*)
 
 #### GetInternalData
 
-```csharp
-IntPtr GetInternalData()
+```python
+result = obj.GetInternalData()
 ```
 
 **Returns:** *IntPtr*
@@ -142,12 +142,18 @@ IntPtr GetInternalData()
 
 #### NumConfigOptions
 
-```csharp
-Int32 NumConfigOptions { get; }
+**Type:** *int*
+
+```python
+# Get the property (read-only)
+value = obj.NumConfigOptions
 ```
 
 #### ConfigOptions
 
-```csharp
-IList`1 ConfigOptions { get; }
+**Type:** *list*
+
+```python
+# Get the property (read-only)
+value = obj.ConfigOptions
 ```
