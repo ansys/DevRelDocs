@@ -1,0 +1,28 @@
+- name: Home
+  href: index.md
+- name: Getting Started
+  href: getting-started/index.md
+  items:
+  - name: Installation
+    href: getting-started/installation.md
+  - name: Hello DPF
+    href: getting-started/hello-dpf.md
+  - name: Environment Setup
+    href: getting-started/environment-setup.md
+- name: User Guide
+  href: user-guide/index.md
+  items:
+  - name: Core Concepts
+    href: user-guide/core-concepts.md
+  - name: Working with Fields
+    href: user-guide/working-with-fields.md
+- name: Examples
+  href: examples/index.md
+  items:
+  - name: Load and Inspect Results
+    href: examples/basic-load.md
+  - name: Extract Displacement
+    href: examples/extract-displacement.md
+- name: API Reference
+  href: api/index.md
+  tocHref: api/toc.yml

@@ -1,0 +1,13 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "DPF Mechanical 2026 R1",
+            "summary": "",
+            "version": "2026 R1",
+            "product": "DPF",
+            "programming language": "IronPython",
+            "product collection": "Structures",
+            "physics": "Structures"
+        }
+    }
+}
