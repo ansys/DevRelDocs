@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.split_in_for_each_range
-title: split_in_for_each_range
 ---
 
 # split_in_for_each_range Class

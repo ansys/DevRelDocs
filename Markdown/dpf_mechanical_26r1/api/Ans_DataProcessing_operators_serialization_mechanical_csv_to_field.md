@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.mechanical_csv_to_field
-title: mechanical_csv_to_field
 ---
 
 # mechanical_csv_to_field Class

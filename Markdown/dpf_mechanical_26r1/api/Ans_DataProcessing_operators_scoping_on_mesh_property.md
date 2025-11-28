@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.on_mesh_property
-title: on_mesh_property
 ---
 
 # on_mesh_property Class

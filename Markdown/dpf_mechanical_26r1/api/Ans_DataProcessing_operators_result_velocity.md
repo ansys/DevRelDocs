@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.velocity
-title: velocity
 ---
 
 # velocity Class

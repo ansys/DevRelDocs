@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.density
-title: density
 ---
 
 # density Class

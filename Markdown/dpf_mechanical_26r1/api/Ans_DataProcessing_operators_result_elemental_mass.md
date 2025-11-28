@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elemental_mass
-title: elemental_mass
 ---
 
 # elemental_mass Class

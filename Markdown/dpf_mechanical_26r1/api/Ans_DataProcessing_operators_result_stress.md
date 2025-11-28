@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress
-title: stress
 ---
 
 # stress Class

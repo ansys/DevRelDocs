@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.output_sound_power
-title: output_sound_power
 ---
 
 # output_sound_power Class

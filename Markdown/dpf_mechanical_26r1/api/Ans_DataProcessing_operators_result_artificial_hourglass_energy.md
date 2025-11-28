@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.artificial_hourglass_energy
-title: artificial_hourglass_energy
 ---
 
 # artificial_hourglass_energy Class

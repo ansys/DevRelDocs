@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.beam_properties
-title: beam_properties
 ---
 
 # beam_properties Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.min_max_over_time_by_entity
-title: min_max_over_time_by_entity
 ---
 
 # min_max_over_time_by_entity Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.enrich_materials
-title: enrich_materials
 ---
 
 # enrich_materials Class

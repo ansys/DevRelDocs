@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.conjugate
-title: conjugate
 ---
 
 # conjugate Class

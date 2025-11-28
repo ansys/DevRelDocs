@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.compute_stress_YZ
-title: compute_stress_YZ
 ---
 
 # compute_stress_YZ Class

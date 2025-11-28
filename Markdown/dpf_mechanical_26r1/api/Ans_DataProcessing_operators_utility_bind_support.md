@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.bind_support
-title: bind_support
 ---
 
 # bind_support Class

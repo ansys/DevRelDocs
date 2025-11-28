@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.result_provider
-title: result_provider
 ---
 
 # result_provider Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result
-title: Ans.DataProcessing.operators.result Namespace
 ---
 
 # Ans.DataProcessing.operators.result Namespace

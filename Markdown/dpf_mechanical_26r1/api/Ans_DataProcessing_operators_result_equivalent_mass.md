@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.equivalent_mass
-title: equivalent_mass
 ---
 
 # equivalent_mass Class

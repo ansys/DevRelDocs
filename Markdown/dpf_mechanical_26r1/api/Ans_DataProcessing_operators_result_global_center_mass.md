@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_center_mass
-title: global_center_mass
 ---
 
 # global_center_mass Class

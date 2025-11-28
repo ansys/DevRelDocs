@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.make_label_space
-title: make_label_space
 ---
 
 # make_label_space Class

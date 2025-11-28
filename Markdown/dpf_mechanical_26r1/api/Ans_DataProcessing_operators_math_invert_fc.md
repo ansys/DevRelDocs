@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.invert_fc
-title: invert_fc
 ---
 
 # invert_fc Class

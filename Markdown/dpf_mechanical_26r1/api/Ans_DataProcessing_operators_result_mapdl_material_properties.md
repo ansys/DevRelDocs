@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mapdl_material_properties
-title: mapdl_material_properties
 ---
 
 # mapdl_material_properties Class

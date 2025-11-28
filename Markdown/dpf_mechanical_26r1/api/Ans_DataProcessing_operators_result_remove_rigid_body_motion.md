@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.remove_rigid_body_motion
-title: remove_rigid_body_motion
 ---
 
 # remove_rigid_body_motion Class

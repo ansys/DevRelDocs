@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.sin_fc
-title: sin_fc
 ---
 
 # sin_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: index
-title: DPF Mechanical 2026 R1 Documentation
 ---
 
 # DPF Mechanical 2026 R1 Documentation

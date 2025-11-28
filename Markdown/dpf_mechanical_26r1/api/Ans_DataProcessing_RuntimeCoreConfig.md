@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.RuntimeCoreConfig
-title: RuntimeCoreConfig
 ---
 
 # RuntimeCoreConfig Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mapdl_split_to_acmo_facet_indices
-title: mapdl_split_to_acmo_facet_indices
 ---
 
 # mapdl_split_to_acmo_facet_indices Class

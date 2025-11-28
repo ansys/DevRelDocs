@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.delegate_to_operator
-title: delegate_to_operator
 ---
 
 # delegate_to_operator Class

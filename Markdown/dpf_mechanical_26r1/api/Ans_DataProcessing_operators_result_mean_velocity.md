@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mean_velocity
-title: mean_velocity
 ---
 
 # mean_velocity Class

@@ -1,6 +1,5 @@
 ---
 uid: getting-started.installation
-title: Installation
 ---
 
 # Accessing DPF in Ansys Mechanical

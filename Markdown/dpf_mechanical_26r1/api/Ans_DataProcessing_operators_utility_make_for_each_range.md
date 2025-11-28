@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.make_for_each_range
-title: make_for_each_range
 ---
 
 # make_for_each_range Class

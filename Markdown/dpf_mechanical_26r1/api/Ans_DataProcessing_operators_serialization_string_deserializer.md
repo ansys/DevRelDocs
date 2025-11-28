@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.string_deserializer
-title: string_deserializer
 ---
 
 # string_deserializer Class

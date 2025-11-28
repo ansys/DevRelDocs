@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.acceleration
-title: acceleration
 ---
 
 # acceleration Class

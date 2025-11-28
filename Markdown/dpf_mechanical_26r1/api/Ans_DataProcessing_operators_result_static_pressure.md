@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.static_pressure
-title: static_pressure
 ---
 
 # static_pressure Class

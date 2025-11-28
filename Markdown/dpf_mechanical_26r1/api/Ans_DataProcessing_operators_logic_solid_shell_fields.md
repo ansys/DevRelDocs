@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.solid_shell_fields
-title: solid_shell_fields
 ---
 
 # solid_shell_fields Class

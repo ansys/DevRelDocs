@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.rigid_transformation_provider
-title: rigid_transformation_provider
 ---
 
 # rigid_transformation_provider Class

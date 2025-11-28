@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.cms_subfile_info_provider
-title: cms_subfile_info_provider
 ---
 
 # cms_subfile_info_provider Class

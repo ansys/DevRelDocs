@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.coordinate_system
-title: coordinate_system
 ---
 
 # coordinate_system Class

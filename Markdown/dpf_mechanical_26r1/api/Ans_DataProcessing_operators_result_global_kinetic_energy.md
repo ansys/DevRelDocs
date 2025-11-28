@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_kinetic_energy
-title: global_kinetic_energy
 ---
 
 # global_kinetic_energy Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.exclude_levelset
-title: exclude_levelset
 ---
 
 # exclude_levelset Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.cartesian_to_spherical_fc
-title: cartesian_to_spherical_fc
 ---
 
 # cartesian_to_spherical_fc Class

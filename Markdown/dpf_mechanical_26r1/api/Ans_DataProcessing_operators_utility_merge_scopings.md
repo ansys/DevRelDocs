@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_scopings
-title: merge_scopings
 ---
 
 # merge_scopings Class

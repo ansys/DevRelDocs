@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.spectrum_data
-title: spectrum_data
 ---
 
 # spectrum_data Class

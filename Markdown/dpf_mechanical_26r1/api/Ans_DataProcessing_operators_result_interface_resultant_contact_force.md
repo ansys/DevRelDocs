@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.interface_resultant_contact_force
-title: interface_resultant_contact_force
 ---
 
 # interface_resultant_contact_force Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.split_on_property_type
-title: split_on_property_type
 ---
 
 # split_on_property_type Class

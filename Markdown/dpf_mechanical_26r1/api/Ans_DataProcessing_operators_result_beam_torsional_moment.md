@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.beam_torsional_moment
-title: beam_torsional_moment
 ---
 
 # beam_torsional_moment Class

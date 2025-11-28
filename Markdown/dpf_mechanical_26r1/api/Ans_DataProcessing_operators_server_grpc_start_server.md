@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.server.grpc_start_server
-title: grpc_start_server
 ---
 
 # grpc_start_server Class

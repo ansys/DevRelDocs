@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.split_mesh
-title: split_mesh
 ---
 
 # split_mesh Class

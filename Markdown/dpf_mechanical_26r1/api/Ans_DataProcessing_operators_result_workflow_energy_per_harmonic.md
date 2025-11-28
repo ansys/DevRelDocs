@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.workflow_energy_per_harmonic
-title: workflow_energy_per_harmonic
 ---
 
 # workflow_energy_per_harmonic Class

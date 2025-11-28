@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Model
-title: Model
 ---
 
 # Model Class

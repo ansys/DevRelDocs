@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.modulus
-title: modulus
 ---
 
 # modulus Class

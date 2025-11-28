@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.nodal_rotational_acceleration_Z
-title: nodal_rotational_acceleration_Z
 ---
 
 # nodal_rotational_acceleration_Z Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_joint_internal_energy
-title: global_joint_internal_energy
 ---
 
 # global_joint_internal_energy Class

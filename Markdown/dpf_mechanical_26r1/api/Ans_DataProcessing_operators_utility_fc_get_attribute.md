@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.fc_get_attribute
-title: fc_get_attribute
 ---
 
 # fc_get_attribute Class

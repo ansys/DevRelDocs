@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_rigid_body_stopper_energy
-title: global_rigid_body_stopper_energy
 ---
 
 # global_rigid_body_stopper_energy Class

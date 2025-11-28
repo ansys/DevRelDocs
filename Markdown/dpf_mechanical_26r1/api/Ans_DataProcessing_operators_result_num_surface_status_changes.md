@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.num_surface_status_changes
-title: num_surface_status_changes
 ---
 
 # num_surface_status_changes Class

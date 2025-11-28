@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elastic_strain_rotation_by_euler_nodes
-title: elastic_strain_rotation_by_euler_nodes
 ---
 
 # elastic_strain_rotation_by_euler_nodes Class

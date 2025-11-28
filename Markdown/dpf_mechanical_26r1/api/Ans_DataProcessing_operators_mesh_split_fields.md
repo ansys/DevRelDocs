@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.split_fields
-title: split_fields
 ---
 
 # split_fields Class

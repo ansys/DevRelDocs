@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.interface_contact_mass
-title: interface_contact_mass
 ---
 
 # interface_contact_mass Class

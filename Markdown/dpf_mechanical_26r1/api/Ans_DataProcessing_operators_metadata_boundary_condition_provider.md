@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.boundary_condition_provider
-title: boundary_condition_provider
 ---
 
 # boundary_condition_provider Class

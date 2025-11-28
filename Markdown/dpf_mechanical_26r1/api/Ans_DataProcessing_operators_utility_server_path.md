@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.server_path
-title: server_path
 ---
 
 # server_path Class

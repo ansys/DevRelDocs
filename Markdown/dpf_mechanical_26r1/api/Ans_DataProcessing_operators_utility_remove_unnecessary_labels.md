@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.remove_unnecessary_labels
-title: remove_unnecessary_labels
 ---
 
 # remove_unnecessary_labels Class

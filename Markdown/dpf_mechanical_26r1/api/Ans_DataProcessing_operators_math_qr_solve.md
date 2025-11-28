@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.qr_solve
-title: qr_solve
 ---
 
 # qr_solve Class

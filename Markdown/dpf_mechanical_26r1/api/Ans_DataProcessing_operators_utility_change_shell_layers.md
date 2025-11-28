@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.change_shell_layers
-title: change_shell_layers
 ---
 
 # change_shell_layers Class

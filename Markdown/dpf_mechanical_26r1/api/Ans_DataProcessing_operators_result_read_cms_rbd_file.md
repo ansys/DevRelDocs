@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.read_cms_rbd_file
-title: read_cms_rbd_file
 ---
 
 # read_cms_rbd_file Class

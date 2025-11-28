@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.poynting_vector
-title: poynting_vector
 ---
 
 # poynting_vector Class

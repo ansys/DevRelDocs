@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter
-title: Ans.DataProcessing.operators.filter Namespace
 ---
 
 # Ans.DataProcessing.operators.filter Namespace

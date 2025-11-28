@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.max_by_component
-title: max_by_component
 ---
 
 # max_by_component Class

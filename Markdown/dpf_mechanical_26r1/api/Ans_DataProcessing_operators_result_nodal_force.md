@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.nodal_force
-title: nodal_force
 ---
 
 # nodal_force Class

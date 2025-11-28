@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.thermal_strain_X
-title: thermal_strain_X
 ---
 
 # thermal_strain_X Class

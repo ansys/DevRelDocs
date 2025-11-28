@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.transpose
-title: transpose
 ---
 
 # transpose Class

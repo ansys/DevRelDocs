@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.streams_provider
-title: streams_provider
 ---
 
 # streams_provider Class

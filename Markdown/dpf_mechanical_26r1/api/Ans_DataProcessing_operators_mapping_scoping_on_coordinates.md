@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping.scoping_on_coordinates
-title: scoping_on_coordinates
 ---
 
 # scoping_on_coordinates Class

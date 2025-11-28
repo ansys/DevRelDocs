@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.serialize_to_hdf5
-title: serialize_to_hdf5
 ---
 
 # serialize_to_hdf5 Class

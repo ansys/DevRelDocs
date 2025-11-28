@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.creep_strain_energy_density
-title: creep_strain_energy_density
 ---
 
 # creep_strain_energy_density Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_cut
-title: mesh_cut
 ---
 
 # mesh_cut Class

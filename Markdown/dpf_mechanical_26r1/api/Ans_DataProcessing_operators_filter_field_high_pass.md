@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.field_high_pass
-title: field_high_pass
 ---
 
 # field_high_pass Class

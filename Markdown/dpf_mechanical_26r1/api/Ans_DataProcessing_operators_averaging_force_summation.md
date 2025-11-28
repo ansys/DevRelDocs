@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.force_summation
-title: force_summation
 ---
 
 # force_summation Class

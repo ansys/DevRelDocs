@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Core
-title: Core
 ---
 
 # Core Class

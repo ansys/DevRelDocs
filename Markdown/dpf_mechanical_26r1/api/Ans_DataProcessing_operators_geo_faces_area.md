@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.faces_area
-title: faces_area
 ---
 
 # faces_area Class

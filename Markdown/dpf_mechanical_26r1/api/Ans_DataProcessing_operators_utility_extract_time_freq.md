@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.extract_time_freq
-title: extract_time_freq
 ---
 
 # extract_time_freq Class

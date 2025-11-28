@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.polar_to_cplx
-title: polar_to_cplx
 ---
 
 # polar_to_cplx Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.hdf5.topo.elemental_density
-title: elemental_density
 ---
 
 # elemental_density Class

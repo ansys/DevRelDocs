@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.ResultInfo
-title: ResultInfo
 ---
 
 # ResultInfo Class

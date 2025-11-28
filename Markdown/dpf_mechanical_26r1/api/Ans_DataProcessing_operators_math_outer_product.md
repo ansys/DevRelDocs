@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.outer_product
-title: outer_product
 ---
 
 # outer_product Class

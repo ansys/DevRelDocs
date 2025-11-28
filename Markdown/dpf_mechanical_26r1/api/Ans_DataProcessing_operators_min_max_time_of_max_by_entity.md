@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.time_of_max_by_entity
-title: time_of_max_by_entity
 ---
 
 # time_of_max_by_entity Class

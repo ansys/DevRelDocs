@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.time_freq_support_get_attribute
-title: time_freq_support_get_attribute
 ---
 
 # time_freq_support_get_attribute Class

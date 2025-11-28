@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.element_nodal_contribution
-title: element_nodal_contribution
 ---
 
 # element_nodal_contribution Class

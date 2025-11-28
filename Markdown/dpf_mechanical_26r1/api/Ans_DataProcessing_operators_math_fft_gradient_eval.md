@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.fft_gradient_eval
-title: fft_gradient_eval
 ---
 
 # fft_gradient_eval Class

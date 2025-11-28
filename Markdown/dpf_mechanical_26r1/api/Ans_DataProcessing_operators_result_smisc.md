@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.smisc
-title: smisc
 ---
 
 # smisc Class

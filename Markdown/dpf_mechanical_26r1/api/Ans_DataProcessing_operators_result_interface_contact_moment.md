@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.interface_contact_moment
-title: interface_contact_moment
 ---
 
 # interface_contact_moment Class

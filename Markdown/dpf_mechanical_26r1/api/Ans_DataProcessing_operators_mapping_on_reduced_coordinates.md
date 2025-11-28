@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping.on_reduced_coordinates
-title: on_reduced_coordinates
 ---
 
 # on_reduced_coordinates Class

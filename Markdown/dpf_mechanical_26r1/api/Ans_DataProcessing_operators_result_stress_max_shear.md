@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress_max_shear
-title: stress_max_shear
 ---
 
 # stress_max_shear Class

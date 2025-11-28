@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.intersect
-title: intersect
 ---
 
 # intersect Class

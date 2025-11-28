@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Node
-title: Node
 ---
 
 # Node Class

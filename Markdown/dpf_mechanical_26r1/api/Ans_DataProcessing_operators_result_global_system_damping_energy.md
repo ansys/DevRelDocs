@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_system_damping_energy
-title: global_system_damping_energy
 ---
 
 # global_system_damping_energy Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.property_field_provider_by_name
-title: property_field_provider_by_name
 ---
 
 # property_field_provider_by_name Class

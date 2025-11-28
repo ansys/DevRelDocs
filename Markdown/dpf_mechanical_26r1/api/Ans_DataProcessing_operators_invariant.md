@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.invariant
-title: Ans.DataProcessing.operators.invariant Namespace
 ---
 
 # Ans.DataProcessing.operators.invariant Namespace

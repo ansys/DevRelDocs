@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.extract_sub_fc
-title: extract_sub_fc
 ---
 
 # extract_sub_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.csv_to_field
-title: csv_to_field
 ---
 
 # csv_to_field Class

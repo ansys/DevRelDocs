@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.plastic_state_variable
-title: plastic_state_variable
 ---
 
 # plastic_state_variable Class

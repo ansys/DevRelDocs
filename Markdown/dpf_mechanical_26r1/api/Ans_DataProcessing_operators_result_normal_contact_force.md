@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.normal_contact_force
-title: normal_contact_force
 ---
 
 # normal_contact_force Class

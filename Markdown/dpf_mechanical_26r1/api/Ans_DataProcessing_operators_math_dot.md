@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.dot
-title: dot
 ---
 
 # dot Class

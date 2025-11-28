@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.window_triangular_fc
-title: window_triangular_fc
 ---
 
 # window_triangular_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.propertyfield_get_attribute
-title: propertyfield_get_attribute
 ---
 
 # propertyfield_get_attribute Class

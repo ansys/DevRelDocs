@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.OperatorSpecification
-title: OperatorSpecification
 ---
 
 # OperatorSpecification Class

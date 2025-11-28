@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.plastic_strain_eqv
-title: plastic_strain_eqv
 ---
 
 # plastic_strain_eqv Class

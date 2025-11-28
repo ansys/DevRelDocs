@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress_ratio
-title: stress_ratio
 ---
 
 # stress_ratio Class

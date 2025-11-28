@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.compute_stress_X
-title: compute_stress_X
 ---
 
 # compute_stress_X Class

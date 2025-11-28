@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.IntIntCallback
-title: IntIntCallback
 ---
 
 # IntIntCallback Class

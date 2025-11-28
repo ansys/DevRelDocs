@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.assemble_scalars_to_matrices_fc
-title: assemble_scalars_to_matrices_fc
 ---
 
 # assemble_scalars_to_matrices_fc Class

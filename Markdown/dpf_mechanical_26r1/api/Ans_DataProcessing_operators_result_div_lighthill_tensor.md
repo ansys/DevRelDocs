@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.div_lighthill_tensor
-title: div_lighthill_tensor
 ---
 
 # div_lighthill_tensor Class

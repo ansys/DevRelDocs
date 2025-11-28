@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.cplx_divide
-title: cplx_divide
 ---
 
 # cplx_divide Class

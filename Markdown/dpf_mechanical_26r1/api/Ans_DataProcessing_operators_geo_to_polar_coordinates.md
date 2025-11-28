@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.to_polar_coordinates
-title: to_polar_coordinates
 ---
 
 # to_polar_coordinates Class

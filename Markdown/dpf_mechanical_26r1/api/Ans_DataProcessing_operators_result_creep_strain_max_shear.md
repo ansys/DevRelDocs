@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.creep_strain_max_shear
-title: creep_strain_max_shear
 ---
 
 # creep_strain_max_shear Class

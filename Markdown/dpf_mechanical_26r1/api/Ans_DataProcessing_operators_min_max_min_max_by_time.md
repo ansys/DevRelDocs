@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.min_max_by_time
-title: min_max_by_time
 ---
 
 # min_max_by_time Class

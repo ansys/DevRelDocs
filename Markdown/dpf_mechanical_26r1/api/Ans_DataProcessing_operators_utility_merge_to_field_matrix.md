@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_to_field_matrix
-title: merge_to_field_matrix
 ---
 
 # merge_to_field_matrix Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.phase_fc
-title: phase_fc
 ---
 
 # phase_fc Class

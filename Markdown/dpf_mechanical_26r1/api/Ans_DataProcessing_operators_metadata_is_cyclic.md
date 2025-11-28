@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.is_cyclic
-title: is_cyclic
 ---
 
 # is_cyclic Class

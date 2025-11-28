@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.ln_fc
-title: ln_fc
 ---
 
 # ln_fc Class

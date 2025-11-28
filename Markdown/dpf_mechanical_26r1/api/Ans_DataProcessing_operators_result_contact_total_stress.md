@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_total_stress
-title: contact_total_stress
 ---
 
 # contact_total_stress Class

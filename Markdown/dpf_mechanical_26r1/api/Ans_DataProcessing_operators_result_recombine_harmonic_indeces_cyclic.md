@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.recombine_harmonic_indeces_cyclic
-title: recombine_harmonic_indeces_cyclic
 ---
 
 # recombine_harmonic_indeces_cyclic Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.overall_dot
-title: overall_dot
 ---
 
 # overall_dot Class

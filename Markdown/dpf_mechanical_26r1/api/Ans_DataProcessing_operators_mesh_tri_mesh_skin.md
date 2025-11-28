@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.tri_mesh_skin
-title: tri_mesh_skin
 ---
 
 # tri_mesh_skin Class

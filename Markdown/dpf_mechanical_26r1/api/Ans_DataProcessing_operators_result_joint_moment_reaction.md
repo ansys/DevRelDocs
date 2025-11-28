@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.joint_moment_reaction
-title: joint_moment_reaction
 ---
 
 # joint_moment_reaction Class

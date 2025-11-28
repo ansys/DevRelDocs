@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.add_constant
-title: add_constant
 ---
 
 # add_constant Class

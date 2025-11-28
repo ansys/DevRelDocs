@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_gap_distance
-title: contact_gap_distance
 ---
 
 # contact_gap_distance Class

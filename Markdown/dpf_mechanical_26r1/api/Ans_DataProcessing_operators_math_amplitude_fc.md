@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.amplitude_fc
-title: amplitude_fc
 ---
 
 # amplitude_fc Class

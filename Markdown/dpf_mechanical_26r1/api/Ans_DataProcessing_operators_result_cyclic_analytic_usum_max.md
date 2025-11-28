@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.cyclic_analytic_usum_max
-title: cyclic_analytic_usum_max
 ---
 
 # cyclic_analytic_usum_max Class

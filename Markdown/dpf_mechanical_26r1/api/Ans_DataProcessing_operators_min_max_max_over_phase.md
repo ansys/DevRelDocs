@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.max_over_phase
-title: max_over_phase
 ---
 
 # max_over_phase Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_total_energy
-title: global_total_energy
 ---
 
 # global_total_energy Class

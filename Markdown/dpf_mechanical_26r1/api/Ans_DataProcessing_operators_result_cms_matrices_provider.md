@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.cms_matrices_provider
-title: cms_matrices_provider
 ---
 
 # cms_matrices_provider Class

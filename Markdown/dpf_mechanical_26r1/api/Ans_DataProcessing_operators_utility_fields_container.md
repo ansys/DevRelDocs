@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.fields_container
-title: fields_container
 ---
 
 # fields_container Class

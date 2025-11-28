@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.field_clone_to_shell_layer
-title: field_clone_to_shell_layer
 ---
 
 # field_clone_to_shell_layer Class

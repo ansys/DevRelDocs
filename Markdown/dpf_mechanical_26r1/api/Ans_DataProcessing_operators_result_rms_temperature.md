@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.rms_temperature
-title: rms_temperature
 ---
 
 # rms_temperature Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_string_fields
-title: merge_string_fields
 ---
 
 # merge_string_fields Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.kronecker_prod
-title: kronecker_prod
 ---
 
 # kronecker_prod Class

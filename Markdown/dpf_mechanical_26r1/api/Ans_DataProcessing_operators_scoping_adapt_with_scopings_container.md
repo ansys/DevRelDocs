@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.adapt_with_scopings_container
-title: adapt_with_scopings_container
 ---
 
 # adapt_with_scopings_container Class

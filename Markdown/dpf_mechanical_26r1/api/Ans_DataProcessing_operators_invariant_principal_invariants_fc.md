@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.invariant.principal_invariants_fc
-title: principal_invariants_fc
 ---
 
 # principal_invariants_fc Class

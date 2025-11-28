@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.invariant.eigen_vectors_fc
-title: eigen_vectors_fc
 ---
 
 # eigen_vectors_fc Class

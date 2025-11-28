@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.gasket_total_closure_XZ
-title: gasket_total_closure_XZ
 ---
 
 # gasket_total_closure_XZ Class

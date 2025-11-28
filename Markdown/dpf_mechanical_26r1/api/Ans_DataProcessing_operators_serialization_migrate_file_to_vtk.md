@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.migrate_file_to_vtk
-title: migrate_file_to_vtk
 ---
 
 # migrate_file_to_vtk Class

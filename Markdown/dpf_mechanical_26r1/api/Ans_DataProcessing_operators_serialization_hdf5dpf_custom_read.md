@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.hdf5dpf_custom_read
-title: hdf5dpf_custom_read
 ---
 
 # hdf5dpf_custom_read Class

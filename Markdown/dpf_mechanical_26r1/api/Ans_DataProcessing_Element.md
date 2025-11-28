@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Element
-title: Element
 ---
 
 # Element Class

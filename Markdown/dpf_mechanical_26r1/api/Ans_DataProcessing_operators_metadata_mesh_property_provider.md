@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.mesh_property_provider
-title: mesh_property_provider
 ---
 
 # mesh_property_provider Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.mesh_to_mc
-title: mesh_to_mc
 ---
 
 # mesh_to_mc Class

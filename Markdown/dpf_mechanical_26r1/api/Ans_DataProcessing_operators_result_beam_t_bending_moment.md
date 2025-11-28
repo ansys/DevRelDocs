@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.beam_t_bending_moment
-title: beam_t_bending_moment
 ---
 
 # beam_t_bending_moment Class

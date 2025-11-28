@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo
-title: Ans.DataProcessing.operators.geo Namespace
 ---
 
 # Ans.DataProcessing.operators.geo Namespace

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.amplitude
-title: amplitude
 ---
 
 # amplitude Class

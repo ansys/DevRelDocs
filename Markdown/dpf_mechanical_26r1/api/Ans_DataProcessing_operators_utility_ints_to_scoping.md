@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.ints_to_scoping
-title: ints_to_scoping
 ---
 
 # ints_to_scoping Class

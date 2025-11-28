@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_get_attribute
-title: mesh_get_attribute
 ---
 
 # mesh_get_attribute Class

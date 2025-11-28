@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping.on_coordinates
-title: on_coordinates
 ---
 
 # on_coordinates Class

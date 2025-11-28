@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mapdl.prns_to_field
-title: prns_to_field
 ---
 
 # prns_to_field Class

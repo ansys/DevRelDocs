@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.FieldsFactory
-title: FieldsFactory
 ---
 
 # FieldsFactory Class

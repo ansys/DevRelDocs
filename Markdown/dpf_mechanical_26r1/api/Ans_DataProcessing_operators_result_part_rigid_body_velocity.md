@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.part_rigid_body_velocity
-title: part_rigid_body_velocity
 ---
 
 # part_rigid_body_velocity Class

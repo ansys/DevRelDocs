@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.normals_provider_nl
-title: normals_provider_nl
 ---
 
 # normals_provider_nl Class

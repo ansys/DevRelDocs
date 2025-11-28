@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.y_plus
-title: y_plus
 ---
 
 # y_plus Class

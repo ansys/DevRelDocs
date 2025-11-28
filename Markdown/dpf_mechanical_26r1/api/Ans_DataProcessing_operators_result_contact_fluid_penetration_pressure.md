@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_fluid_penetration_pressure
-title: contact_fluid_penetration_pressure
 ---
 
 # contact_fluid_penetration_pressure Class

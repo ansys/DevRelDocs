@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.scalars_to_field
-title: scalars_to_field
 ---
 
 # scalars_to_field Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.beam_tr_shear_stress
-title: beam_tr_shear_stress
 ---
 
 # beam_tr_shear_stress Class

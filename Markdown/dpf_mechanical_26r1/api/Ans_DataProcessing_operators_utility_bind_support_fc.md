@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.bind_support_fc
-title: bind_support_fc
 ---
 
 # bind_support_fc Class

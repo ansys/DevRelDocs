@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.wireframe
-title: wireframe
 ---
 
 # wireframe Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.import_symbolic_workflow
-title: import_symbolic_workflow
 ---
 
 # import_symbolic_workflow Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.cos
-title: cos
 ---
 
 # cos Class

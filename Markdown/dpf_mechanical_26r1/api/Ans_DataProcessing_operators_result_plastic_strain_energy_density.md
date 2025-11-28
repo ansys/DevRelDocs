@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.plastic_strain_energy_density
-title: plastic_strain_energy_density
 ---
 
 # plastic_strain_energy_density Class

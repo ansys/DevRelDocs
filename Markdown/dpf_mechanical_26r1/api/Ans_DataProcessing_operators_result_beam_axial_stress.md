@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.beam_axial_stress
-title: beam_axial_stress
 ---
 
 # beam_axial_stress Class

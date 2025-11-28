@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.elemental_fraction_fc
-title: elemental_fraction_fc
 ---
 
 # elemental_fraction_fc Class

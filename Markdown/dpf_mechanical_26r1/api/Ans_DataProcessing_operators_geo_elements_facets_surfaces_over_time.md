@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.elements_facets_surfaces_over_time
-title: elements_facets_surfaces_over_time
 ---
 
 # elements_facets_surfaces_over_time Class

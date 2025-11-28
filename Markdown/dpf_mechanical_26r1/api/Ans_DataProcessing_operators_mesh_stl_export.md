@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.stl_export
-title: stl_export
 ---
 
 # stl_export Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.total_pressure
-title: total_pressure
 ---
 
 # total_pressure Class

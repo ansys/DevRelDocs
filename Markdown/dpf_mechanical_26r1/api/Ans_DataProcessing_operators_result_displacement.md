@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.displacement
-title: displacement
 ---
 
 # displacement Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.plastic_strain
-title: plastic_strain
 ---
 
 # plastic_strain Class

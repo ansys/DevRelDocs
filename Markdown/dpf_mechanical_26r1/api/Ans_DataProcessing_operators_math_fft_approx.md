@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.fft_approx
-title: fft_approx
 ---
 
 # fft_approx Class

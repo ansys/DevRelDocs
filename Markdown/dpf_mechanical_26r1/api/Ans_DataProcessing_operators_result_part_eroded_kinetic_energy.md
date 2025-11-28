@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.part_eroded_kinetic_energy
-title: part_eroded_kinetic_energy
 ---
 
 # part_eroded_kinetic_energy Class

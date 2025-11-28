@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.squared_l2norm_pressure
-title: squared_l2norm_pressure
 ---
 
 # squared_l2norm_pressure Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_time_freq_supports
-title: merge_time_freq_supports
 ---
 
 # merge_time_freq_supports Class

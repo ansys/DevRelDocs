@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.filtering_max_over_time
-title: filtering_max_over_time
 ---
 
 # filtering_max_over_time Class

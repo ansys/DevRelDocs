@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_to_graphics_edges
-title: mesh_to_graphics_edges
 ---
 
 # mesh_to_graphics_edges Class

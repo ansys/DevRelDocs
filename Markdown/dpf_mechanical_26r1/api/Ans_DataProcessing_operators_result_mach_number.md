@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mach_number
-title: mach_number
 ---
 
 # mach_number Class

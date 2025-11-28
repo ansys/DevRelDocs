@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.window_welch_fc
-title: window_welch_fc
 ---
 
 # window_welch_fc Class

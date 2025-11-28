@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.cross_product_fc
-title: cross_product_fc
 ---
 
 # cross_product_fc Class

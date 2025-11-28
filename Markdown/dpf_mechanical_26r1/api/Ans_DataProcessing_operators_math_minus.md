@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.minus
-title: minus
 ---
 
 # minus Class

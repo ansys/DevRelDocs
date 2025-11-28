@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.equivalent_radiated_power
-title: equivalent_radiated_power
 ---
 
 # equivalent_radiated_power Class

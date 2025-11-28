@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.layer_orientation_provider
-title: layer_orientation_provider
 ---
 
 # layer_orientation_provider Class

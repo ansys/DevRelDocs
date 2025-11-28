@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.nodal_to_global
-title: nodal_to_global
 ---
 
 # nodal_to_global Class

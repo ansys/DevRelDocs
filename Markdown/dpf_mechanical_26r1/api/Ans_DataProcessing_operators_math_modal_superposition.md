@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.modal_superposition
-title: modal_superposition
 ---
 
 # modal_superposition Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.extract_scoping
-title: extract_scoping
 ---
 
 # extract_scoping Class

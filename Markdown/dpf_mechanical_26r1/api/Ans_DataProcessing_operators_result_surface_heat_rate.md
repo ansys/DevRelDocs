@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.surface_heat_rate
-title: surface_heat_rate
 ---
 
 # surface_heat_rate Class

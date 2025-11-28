@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.add
-title: add
 ---
 
 # add Class

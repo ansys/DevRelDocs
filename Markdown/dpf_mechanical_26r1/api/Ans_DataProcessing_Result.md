@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Result
-title: Result
 ---
 
 # Result Class

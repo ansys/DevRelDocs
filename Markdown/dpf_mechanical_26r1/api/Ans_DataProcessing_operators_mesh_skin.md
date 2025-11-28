@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.skin
-title: skin
 ---
 
 # skin Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_eroded_kinetic_energy
-title: global_eroded_kinetic_energy
 ---
 
 # global_eroded_kinetic_energy Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.nodal_from_mesh
-title: nodal_from_mesh
 ---
 
 # nodal_from_mesh Class

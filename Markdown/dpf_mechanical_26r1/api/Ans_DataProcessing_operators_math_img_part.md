@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.img_part
-title: img_part
 ---
 
 # img_part Class

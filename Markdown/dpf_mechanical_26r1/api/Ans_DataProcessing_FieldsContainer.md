@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.FieldsContainer
-title: FieldsContainer
 ---
 
 # FieldsContainer Class

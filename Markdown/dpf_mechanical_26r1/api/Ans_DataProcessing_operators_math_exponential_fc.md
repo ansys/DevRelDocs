@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.exponential_fc
-title: exponential_fc
 ---
 
 # exponential_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.invariant.invariants
-title: invariants
 ---
 
 # invariants Class

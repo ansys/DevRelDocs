@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.thermal_conductivity
-title: thermal_conductivity
 ---
 
 # thermal_conductivity Class

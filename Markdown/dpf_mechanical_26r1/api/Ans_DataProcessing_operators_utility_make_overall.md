@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.make_overall
-title: make_overall
 ---
 
 # make_overall Class

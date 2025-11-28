@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.scoping_band_pass
-title: scoping_band_pass
 ---
 
 # scoping_band_pass Class

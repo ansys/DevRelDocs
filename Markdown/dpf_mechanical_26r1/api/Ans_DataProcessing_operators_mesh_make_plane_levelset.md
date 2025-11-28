@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.make_plane_levelset
-title: make_plane_levelset
 ---
 
 # make_plane_levelset Class

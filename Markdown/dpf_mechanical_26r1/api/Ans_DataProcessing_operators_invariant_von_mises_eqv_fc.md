@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.invariant.von_mises_eqv_fc
-title: von_mises_eqv_fc
 ---
 
 # von_mises_eqv_fc Class

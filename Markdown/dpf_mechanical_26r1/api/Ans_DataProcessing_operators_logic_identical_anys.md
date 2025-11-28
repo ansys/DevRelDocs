@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_anys
-title: identical_anys
 ---
 
 # identical_anys Class

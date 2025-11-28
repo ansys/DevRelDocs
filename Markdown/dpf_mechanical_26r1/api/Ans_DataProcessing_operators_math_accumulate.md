@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.accumulate
-title: accumulate
 ---
 
 # accumulate Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.swelling_strains
-title: swelling_strains
 ---
 
 # swelling_strains Class

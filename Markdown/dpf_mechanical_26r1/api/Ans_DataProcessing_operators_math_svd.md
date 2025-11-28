@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.svd
-title: svd
 ---
 
 # svd Class

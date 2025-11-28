@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Scoping
-title: Scoping
 ---
 
 # Scoping Class

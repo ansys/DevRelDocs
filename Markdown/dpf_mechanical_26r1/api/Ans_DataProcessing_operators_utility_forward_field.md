@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.forward_field
-title: forward_field
 ---
 
 # forward_field Class

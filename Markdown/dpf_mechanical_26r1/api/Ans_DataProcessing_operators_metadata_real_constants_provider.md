@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.real_constants_provider
-title: real_constants_provider
 ---
 
 # real_constants_provider Class

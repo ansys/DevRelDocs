@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping.solid_to_skin_fc
-title: solid_to_skin_fc
 ---
 
 # solid_to_skin_fc Class

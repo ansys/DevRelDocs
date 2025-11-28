@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_mc
-title: identical_mc
 ---
 
 # identical_mc Class

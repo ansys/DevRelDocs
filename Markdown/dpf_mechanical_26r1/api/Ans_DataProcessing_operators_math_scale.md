@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.scale
-title: scale
 ---
 
 # scale Class

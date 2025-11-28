@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.data_tree_to_json
-title: data_tree_to_json
 ---
 
 # data_tree_to_json Class

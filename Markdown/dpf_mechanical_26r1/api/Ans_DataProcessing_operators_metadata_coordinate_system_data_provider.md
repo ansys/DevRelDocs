@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.coordinate_system_data_provider
-title: coordinate_system_data_provider
 ---
 
 # coordinate_system_data_provider Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.rescope_custom_type_field
-title: rescope_custom_type_field
 ---
 
 # rescope_custom_type_field Class

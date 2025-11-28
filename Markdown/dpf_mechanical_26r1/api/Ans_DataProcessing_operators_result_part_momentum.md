@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.part_momentum
-title: part_momentum
 ---
 
 # part_momentum Class

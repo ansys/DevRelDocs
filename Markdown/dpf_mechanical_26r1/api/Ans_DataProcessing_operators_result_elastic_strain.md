@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elastic_strain
-title: elastic_strain
 ---
 
 # elastic_strain Class

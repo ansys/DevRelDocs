@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.rom_data_provider
-title: rom_data_provider
 ---
 
 # rom_data_provider Class

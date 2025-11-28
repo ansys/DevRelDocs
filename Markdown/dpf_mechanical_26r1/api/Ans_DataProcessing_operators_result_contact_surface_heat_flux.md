@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_surface_heat_flux
-title: contact_surface_heat_flux
 ---
 
 # contact_surface_heat_flux Class

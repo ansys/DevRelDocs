@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.volume_fraction
-title: volume_fraction
 ---
 
 # volume_fraction Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.material_support_provider
-title: material_support_provider
 ---
 
 # material_support_provider Class

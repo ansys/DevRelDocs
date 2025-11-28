@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.MeshSelectionManager
-title: MeshSelectionManager
 ---
 
 # MeshSelectionManager Class

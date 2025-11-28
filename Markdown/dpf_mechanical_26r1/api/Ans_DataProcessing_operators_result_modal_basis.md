@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.modal_basis
-title: modal_basis
 ---
 
 # modal_basis Class

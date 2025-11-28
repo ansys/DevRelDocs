@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.gauss_to_node
-title: gauss_to_node
 ---
 
 # gauss_to_node Class

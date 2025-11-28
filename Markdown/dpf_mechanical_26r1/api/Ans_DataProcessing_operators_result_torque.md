@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.torque
-title: torque
 ---
 
 # torque Class

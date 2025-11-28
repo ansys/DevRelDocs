@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math
-title: Ans.DataProcessing.operators.math Namespace
 ---
 
 # Ans.DataProcessing.operators.math Namespace

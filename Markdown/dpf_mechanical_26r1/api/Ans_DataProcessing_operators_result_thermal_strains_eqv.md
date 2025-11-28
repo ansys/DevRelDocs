@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.thermal_strains_eqv
-title: thermal_strains_eqv
 ---
 
 # thermal_strains_eqv Class

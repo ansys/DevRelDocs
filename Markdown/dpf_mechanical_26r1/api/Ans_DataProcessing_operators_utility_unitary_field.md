@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.unitary_field
-title: unitary_field
 ---
 
 # unitary_field Class

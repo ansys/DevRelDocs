@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_meshes
-title: merge_meshes
 ---
 
 # merge_meshes Class

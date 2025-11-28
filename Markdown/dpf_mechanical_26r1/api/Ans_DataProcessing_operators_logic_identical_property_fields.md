@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_property_fields
-title: identical_property_fields
 ---
 
 # identical_property_fields Class

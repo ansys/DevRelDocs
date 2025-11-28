@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.timescoping_band_pass
-title: timescoping_band_pass
 ---
 
 # timescoping_band_pass Class

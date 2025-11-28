@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.component_selector
-title: component_selector
 ---
 
 # component_selector Class

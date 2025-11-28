@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.python_generator
-title: python_generator
 ---
 
 # python_generator Class

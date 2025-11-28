@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.tangential_contact_moment
-title: tangential_contact_moment
 ---
 
 # tangential_contact_moment Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.AnsDispatchHolder
-title: AnsDispatchHolder
 ---
 
 # AnsDispatchHolder Class

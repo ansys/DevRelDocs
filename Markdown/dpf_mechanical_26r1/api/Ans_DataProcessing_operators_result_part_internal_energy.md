@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.part_internal_energy
-title: part_internal_energy
 ---
 
 # part_internal_energy Class

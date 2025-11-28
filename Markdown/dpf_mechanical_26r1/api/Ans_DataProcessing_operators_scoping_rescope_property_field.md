@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.rescope_property_field
-title: rescope_property_field
 ---
 
 # rescope_property_field Class

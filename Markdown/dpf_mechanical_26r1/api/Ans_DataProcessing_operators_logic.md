@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic
-title: Ans.DataProcessing.operators.logic Namespace
 ---
 
 # Ans.DataProcessing.operators.logic Namespace

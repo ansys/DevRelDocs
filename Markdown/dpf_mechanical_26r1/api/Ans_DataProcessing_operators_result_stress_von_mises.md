@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress_von_mises
-title: stress_von_mises
 ---
 
 # stress_von_mises Class

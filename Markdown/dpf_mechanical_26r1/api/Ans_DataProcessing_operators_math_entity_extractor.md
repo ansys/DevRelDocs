@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.entity_extractor
-title: entity_extractor
 ---
 
 # entity_extractor Class

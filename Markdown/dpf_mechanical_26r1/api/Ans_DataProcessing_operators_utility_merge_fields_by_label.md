@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_fields_by_label
-title: merge_fields_by_label
 ---
 
 # merge_fields_by_label Class

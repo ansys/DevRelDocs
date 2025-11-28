@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.window_bartlett
-title: window_bartlett
 ---
 
 # window_bartlett Class

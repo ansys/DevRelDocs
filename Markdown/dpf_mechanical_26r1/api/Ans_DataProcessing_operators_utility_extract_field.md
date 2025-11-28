@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.extract_field
-title: extract_field
 ---
 
 # extract_field Class

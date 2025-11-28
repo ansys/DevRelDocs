@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.to_elemental_fc
-title: to_elemental_fc
 ---
 
 # to_elemental_fc Class

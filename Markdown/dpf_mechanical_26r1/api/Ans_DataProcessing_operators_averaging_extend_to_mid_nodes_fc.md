@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.extend_to_mid_nodes_fc
-title: extend_to_mid_nodes_fc
 ---
 
 # extend_to_mid_nodes_fc Class

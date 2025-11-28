@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.enthalpy
-title: enthalpy
 ---
 
 # enthalpy Class

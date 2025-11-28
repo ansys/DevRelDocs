@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_sc
-title: identical_sc
 ---
 
 # identical_sc Class

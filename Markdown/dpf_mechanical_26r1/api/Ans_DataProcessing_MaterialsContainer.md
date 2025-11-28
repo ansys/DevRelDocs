@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.MaterialsContainer
-title: MaterialsContainer
 ---
 
 # MaterialsContainer Class

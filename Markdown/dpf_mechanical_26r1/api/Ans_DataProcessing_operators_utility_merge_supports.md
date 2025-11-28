@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_supports
-title: merge_supports
 ---
 
 # merge_supports Class

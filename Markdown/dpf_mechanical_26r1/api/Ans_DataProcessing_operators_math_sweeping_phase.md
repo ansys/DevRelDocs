@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.sweeping_phase
-title: sweeping_phase
 ---
 
 # sweeping_phase Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.time_freq_interpolation
-title: time_freq_interpolation
 ---
 
 # time_freq_interpolation Class

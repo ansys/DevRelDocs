@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.forward
-title: forward
 ---
 
 # forward Class

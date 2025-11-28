@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.magnetic_vector_potential
-title: magnetic_vector_potential
 ---
 
 # magnetic_vector_potential Class

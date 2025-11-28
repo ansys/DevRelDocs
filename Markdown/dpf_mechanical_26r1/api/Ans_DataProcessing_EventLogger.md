@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.EventLogger
-title: EventLogger
 ---
 
 # EventLogger Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping.prepare_mapping_workflow
-title: prepare_mapping_workflow
 ---
 
 # prepare_mapping_workflow Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.rigid_transformation
-title: rigid_transformation
 ---
 
 # rigid_transformation Class

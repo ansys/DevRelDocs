@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.accumulate_over_label_fc
-title: accumulate_over_label_fc
 ---
 
 # accumulate_over_label_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.superficial_velocity
-title: superficial_velocity
 ---
 
 # superficial_velocity Class

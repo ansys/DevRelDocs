@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.relative_error
-title: relative_error
 ---
 
 # relative_error Class

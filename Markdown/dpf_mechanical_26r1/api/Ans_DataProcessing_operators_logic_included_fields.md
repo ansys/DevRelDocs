@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.included_fields
-title: included_fields
 ---
 
 # included_fields Class

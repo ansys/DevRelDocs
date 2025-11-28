@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_sliding_distance
-title: contact_sliding_distance
 ---
 
 # contact_sliding_distance Class

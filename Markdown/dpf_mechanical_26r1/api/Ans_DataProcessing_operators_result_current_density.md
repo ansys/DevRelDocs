@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.current_density
-title: current_density
 ---
 
 # current_density Class

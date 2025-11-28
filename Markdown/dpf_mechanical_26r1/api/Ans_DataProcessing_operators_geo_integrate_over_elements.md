@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.integrate_over_elements
-title: integrate_over_elements
 ---
 
 # integrate_over_elements Class

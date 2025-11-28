@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.server.grpc_shutdown_server
-title: grpc_shutdown_server
 ---
 
 # grpc_shutdown_server Class
