@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.hdf5.topo.nodal_density
-title: nodal_density
 ---
 
 # nodal_density Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_added_mass
-title: global_added_mass
 ---
 
 # global_added_mass Class

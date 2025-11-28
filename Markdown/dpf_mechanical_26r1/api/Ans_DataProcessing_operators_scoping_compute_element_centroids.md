@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.compute_element_centroids
-title: compute_element_centroids
 ---
 
 # compute_element_centroids Class

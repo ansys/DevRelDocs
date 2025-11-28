@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.TimeFreqScopingFactory
-title: TimeFreqScopingFactory
 ---
 
 # TimeFreqScopingFactory Class

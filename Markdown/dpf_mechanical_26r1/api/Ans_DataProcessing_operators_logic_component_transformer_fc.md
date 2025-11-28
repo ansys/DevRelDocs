@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.component_transformer_fc
-title: component_transformer_fc
 ---
 
 # component_transformer_fc Class

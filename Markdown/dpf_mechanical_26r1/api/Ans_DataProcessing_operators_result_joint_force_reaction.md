@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.joint_force_reaction
-title: joint_force_reaction
 ---
 
 # joint_force_reaction Class

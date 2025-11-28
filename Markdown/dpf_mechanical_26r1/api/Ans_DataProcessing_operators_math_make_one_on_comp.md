@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.make_one_on_comp
-title: make_one_on_comp
 ---
 
 # make_one_on_comp Class

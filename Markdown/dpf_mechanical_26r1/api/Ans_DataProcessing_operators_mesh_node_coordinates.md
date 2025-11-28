@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.node_coordinates
-title: node_coordinates
 ---
 
 # node_coordinates Class

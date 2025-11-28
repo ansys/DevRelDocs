@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elastic_strain_max_shear
-title: elastic_strain_max_shear
 ---
 
 # elastic_strain_max_shear Class

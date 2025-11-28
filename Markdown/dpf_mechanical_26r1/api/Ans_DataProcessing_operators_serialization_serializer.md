@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.serializer
-title: serializer
 ---
 
 # serializer Class

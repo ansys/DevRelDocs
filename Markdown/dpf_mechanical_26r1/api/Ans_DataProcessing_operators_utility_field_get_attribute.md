@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.field_get_attribute
-title: field_get_attribute
 ---
 
 # field_get_attribute Class

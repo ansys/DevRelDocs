@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.TimeFreqSupport
-title: TimeFreqSupport
 ---
 
 # TimeFreqSupport Class

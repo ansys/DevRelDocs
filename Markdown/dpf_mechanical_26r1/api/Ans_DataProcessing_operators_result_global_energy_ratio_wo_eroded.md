@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_energy_ratio_wo_eroded
-title: global_energy_ratio_wo_eroded
 ---
 
 # global_energy_ratio_wo_eroded Class

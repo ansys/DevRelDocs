@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.StreamsContainer
-title: StreamsContainer
 ---
 
 # StreamsContainer Class

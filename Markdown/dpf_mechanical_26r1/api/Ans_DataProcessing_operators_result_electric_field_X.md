@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.electric_field_X
-title: electric_field_X
 ---
 
 # electric_field_X Class

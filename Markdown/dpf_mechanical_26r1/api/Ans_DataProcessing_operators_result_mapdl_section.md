@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mapdl_section
-title: mapdl_section
 ---
 
 # mapdl_section Class

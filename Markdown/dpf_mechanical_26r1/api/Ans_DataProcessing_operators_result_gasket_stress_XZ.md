@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.gasket_stress_XZ
-title: gasket_stress_XZ
 ---
 
 # gasket_stress_XZ Class

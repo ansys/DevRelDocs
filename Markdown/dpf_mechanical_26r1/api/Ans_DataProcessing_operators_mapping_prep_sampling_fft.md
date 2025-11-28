@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping.prep_sampling_fft
-title: prep_sampling_fft
 ---
 
 # prep_sampling_fft Class

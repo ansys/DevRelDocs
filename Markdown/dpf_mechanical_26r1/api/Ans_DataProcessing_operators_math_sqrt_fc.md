@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.sqrt_fc
-title: sqrt_fc
 ---
 
 # sqrt_fc Class

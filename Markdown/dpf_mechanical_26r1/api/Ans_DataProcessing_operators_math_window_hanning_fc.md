@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.window_hanning_fc
-title: window_hanning_fc
 ---
 
 # window_hanning_fc Class

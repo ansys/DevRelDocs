@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.set_property
-title: set_property
 ---
 
 # set_property Class

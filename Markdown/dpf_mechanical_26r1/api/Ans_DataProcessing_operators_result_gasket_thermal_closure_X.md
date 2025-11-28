@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.gasket_thermal_closure_X
-title: gasket_thermal_closure_X
 ---
 
 # gasket_thermal_closure_X Class

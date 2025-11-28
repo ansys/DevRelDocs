@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.total_contact_force
-title: total_contact_force
 ---
 
 # total_contact_force Class

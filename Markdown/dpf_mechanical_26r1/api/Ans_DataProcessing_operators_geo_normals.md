@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.normals
-title: normals
 ---
 
 # normals Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_time_step
-title: global_time_step
 ---
 
 # global_time_step Class

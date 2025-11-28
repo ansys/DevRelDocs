@@ -1,6 +1,5 @@
 ---
 uid: user-guide
-title: User Guide
 ---
 
 # User Guide

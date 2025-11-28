@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.CyclicSupport
-title: CyclicSupport
 ---
 
 # CyclicSupport Class

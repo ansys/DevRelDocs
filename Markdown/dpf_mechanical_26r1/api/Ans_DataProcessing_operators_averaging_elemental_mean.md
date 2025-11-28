@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.elemental_mean
-title: elemental_mean
 ---
 
 # elemental_mean Class

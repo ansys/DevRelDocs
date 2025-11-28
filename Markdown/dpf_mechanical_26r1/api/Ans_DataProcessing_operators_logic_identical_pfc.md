@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_pfc
-title: identical_pfc
 ---
 
 # identical_pfc Class

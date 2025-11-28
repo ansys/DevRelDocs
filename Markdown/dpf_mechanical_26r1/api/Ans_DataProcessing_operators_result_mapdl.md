@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mapdl
-title: Ans.DataProcessing.operators.result.mapdl Namespace
 ---
 
 # Ans.DataProcessing.operators.result.mapdl Namespace

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.beam_axial_plastic_strain
-title: beam_axial_plastic_strain
 ---
 
 # beam_axial_plastic_strain Class

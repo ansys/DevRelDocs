@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.compute_time_scoping
-title: compute_time_scoping
 ---
 
 # compute_time_scoping Class

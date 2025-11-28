@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stiffness_matrix_energy
-title: stiffness_matrix_energy
 ---
 
 # stiffness_matrix_energy Class

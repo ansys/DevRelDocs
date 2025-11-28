@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.min_max_over_label_fc
-title: min_max_over_label_fc
 ---
 
 # min_max_over_label_fc Class

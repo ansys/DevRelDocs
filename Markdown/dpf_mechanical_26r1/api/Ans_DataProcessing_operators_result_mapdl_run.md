@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mapdl.run
-title: run
 ---
 
 # run Class

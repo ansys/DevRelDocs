@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.rotate_fc
-title: rotate_fc
 ---
 
 # rotate_fc Class

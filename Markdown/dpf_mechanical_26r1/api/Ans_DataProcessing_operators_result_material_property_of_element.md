@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.material_property_of_element
-title: material_property_of_element
 ---
 
 # material_property_of_element Class

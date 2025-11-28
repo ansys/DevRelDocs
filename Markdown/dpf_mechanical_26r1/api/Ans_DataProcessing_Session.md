@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Session
-title: Session
 ---
 
 # Session Class

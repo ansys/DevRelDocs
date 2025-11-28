@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.field
-title: field
 ---
 
 # field Class

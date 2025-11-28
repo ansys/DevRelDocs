@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.accu_eqv_creep_strain
-title: accu_eqv_creep_strain
 ---
 
 # accu_eqv_creep_strain Class

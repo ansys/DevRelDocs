@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.points_from_coordinates
-title: points_from_coordinates
 ---
 
 # points_from_coordinates Class

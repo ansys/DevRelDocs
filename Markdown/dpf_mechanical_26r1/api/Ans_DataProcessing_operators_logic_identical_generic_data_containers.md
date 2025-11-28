@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_generic_data_containers
-title: identical_generic_data_containers
 ---
 
 # identical_generic_data_containers Class

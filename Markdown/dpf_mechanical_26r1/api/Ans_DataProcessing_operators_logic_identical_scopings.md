@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_scopings
-title: identical_scopings
 ---
 
 # identical_scopings Class

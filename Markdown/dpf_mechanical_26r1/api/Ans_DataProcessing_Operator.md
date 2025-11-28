@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Operator
-title: Operator
 ---
 
 # Operator Class

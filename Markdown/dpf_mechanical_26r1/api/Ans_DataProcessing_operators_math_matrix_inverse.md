@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.matrix_inverse
-title: matrix_inverse
 ---
 
 # matrix_inverse Class

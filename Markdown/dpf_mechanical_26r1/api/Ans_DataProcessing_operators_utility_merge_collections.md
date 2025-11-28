@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_collections
-title: merge_collections
 ---
 
 # merge_collections Class

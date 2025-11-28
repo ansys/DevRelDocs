@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_sliding_interface_energy
-title: global_sliding_interface_energy
 ---
 
 # global_sliding_interface_energy Class

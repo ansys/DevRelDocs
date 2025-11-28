@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.wall_shear_stress
-title: wall_shear_stress
 ---
 
 # wall_shear_stress Class

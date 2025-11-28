@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.change_location
-title: change_location
 ---
 
 # change_location Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.pow_fc
-title: pow_fc
 ---
 
 # pow_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.nodal_fraction_fc
-title: nodal_fraction_fc
 ---
 
 # nodal_fraction_fc Class

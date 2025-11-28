@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.workflow_to_workflow_topology
-title: workflow_to_workflow_topology
 ---
 
 # workflow_to_workflow_topology Class

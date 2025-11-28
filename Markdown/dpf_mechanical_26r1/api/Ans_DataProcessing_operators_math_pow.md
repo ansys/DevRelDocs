@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.pow
-title: pow
 ---
 
 # pow Class

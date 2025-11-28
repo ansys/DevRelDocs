@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.exponential
-title: exponential
 ---
 
 # exponential Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_meshes
-title: identical_meshes
 ---
 
 # identical_meshes Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.co_energy
-title: co_energy
 ---
 
 # co_energy Class

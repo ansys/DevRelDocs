@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.window_hamming
-title: window_hamming
 ---
 
 # window_hamming Class

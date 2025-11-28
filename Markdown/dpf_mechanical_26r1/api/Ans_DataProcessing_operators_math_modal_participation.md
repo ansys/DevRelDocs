@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.modal_participation
-title: modal_participation
 ---
 
 # modal_participation Class

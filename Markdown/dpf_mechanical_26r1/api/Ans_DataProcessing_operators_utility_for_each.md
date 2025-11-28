@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.for_each
-title: for_each
 ---
 
 # for_each Class

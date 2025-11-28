@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.change_fc
-title: change_fc
 ---
 
 # change_fc Class

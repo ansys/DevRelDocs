@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.min_max_inc
-title: min_max_inc
 ---
 
 # min_max_inc Class

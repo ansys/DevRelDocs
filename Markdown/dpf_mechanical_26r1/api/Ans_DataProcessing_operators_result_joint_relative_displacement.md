@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.joint_relative_displacement
-title: joint_relative_displacement
 ---
 
 # joint_relative_displacement Class

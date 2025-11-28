@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.component_wise_product_fc
-title: component_wise_product_fc
 ---
 
 # component_wise_product_fc Class

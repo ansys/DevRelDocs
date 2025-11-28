@@ -1,6 +1,5 @@
 ---
 uid: examples
-title: Examples
 ---
 
 # Examples for Ansys Mechanical

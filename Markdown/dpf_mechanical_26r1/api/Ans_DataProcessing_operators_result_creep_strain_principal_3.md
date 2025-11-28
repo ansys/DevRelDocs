@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.creep_strain_principal_3
-title: creep_strain_principal_3
 ---
 
 # creep_strain_principal_3 Class

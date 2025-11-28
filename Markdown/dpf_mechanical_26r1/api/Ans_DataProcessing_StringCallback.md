@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.StringCallback
-title: StringCallback
 ---
 
 # StringCallback Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.eqv_stress_parameter
-title: eqv_stress_parameter
 ---
 
 # eqv_stress_parameter Class

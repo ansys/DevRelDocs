@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.total_contact_moment
-title: total_contact_moment
 ---
 
 # total_contact_moment Class

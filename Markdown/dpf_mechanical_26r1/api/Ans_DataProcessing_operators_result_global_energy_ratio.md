@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_energy_ratio
-title: global_energy_ratio
 ---
 
 # global_energy_ratio Class

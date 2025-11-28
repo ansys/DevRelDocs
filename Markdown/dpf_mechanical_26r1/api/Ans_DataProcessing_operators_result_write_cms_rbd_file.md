@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.write_cms_rbd_file
-title: write_cms_rbd_file
 ---
 
 # write_cms_rbd_file Class

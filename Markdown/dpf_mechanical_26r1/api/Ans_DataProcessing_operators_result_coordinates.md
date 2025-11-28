@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.coordinates
-title: coordinates
 ---
 
 # coordinates Class

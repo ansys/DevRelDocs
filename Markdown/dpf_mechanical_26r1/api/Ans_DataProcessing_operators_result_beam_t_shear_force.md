@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.beam_t_shear_force
-title: beam_t_shear_force
 ---
 
 # beam_t_shear_force Class

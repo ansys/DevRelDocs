@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.cplx_derive
-title: cplx_derive
 ---
 
 # cplx_derive Class

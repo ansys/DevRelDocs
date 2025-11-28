@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.rotate
-title: rotate
 ---
 
 # rotate Class

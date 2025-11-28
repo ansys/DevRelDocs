@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.part_eroded_internal_energy
-title: part_eroded_internal_energy
 ---
 
 # part_eroded_internal_energy Class

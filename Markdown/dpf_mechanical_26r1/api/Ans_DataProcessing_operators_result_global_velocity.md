@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_velocity
-title: global_velocity
 ---
 
 # global_velocity Class

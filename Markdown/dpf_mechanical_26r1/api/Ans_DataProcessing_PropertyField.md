@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.PropertyField
-title: PropertyField
 ---
 
 # PropertyField Class

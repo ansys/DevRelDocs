@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.workflow_energy_per_component
-title: workflow_energy_per_component
 ---
 
 # workflow_energy_per_component Class

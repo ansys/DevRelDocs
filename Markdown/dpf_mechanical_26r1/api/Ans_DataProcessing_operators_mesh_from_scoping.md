@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.from_scoping
-title: from_scoping
 ---
 
 # from_scoping Class

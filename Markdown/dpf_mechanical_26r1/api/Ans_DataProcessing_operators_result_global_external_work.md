@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_external_work
-title: global_external_work
 ---
 
 # global_external_work Class

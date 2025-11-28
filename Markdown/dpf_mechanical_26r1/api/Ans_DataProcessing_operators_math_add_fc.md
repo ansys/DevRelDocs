@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.add_fc
-title: add_fc
 ---
 
 # add_fc Class

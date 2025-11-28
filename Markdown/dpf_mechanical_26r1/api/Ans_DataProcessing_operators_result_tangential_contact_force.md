@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.tangential_contact_force
-title: tangential_contact_force
 ---
 
 # tangential_contact_force Class

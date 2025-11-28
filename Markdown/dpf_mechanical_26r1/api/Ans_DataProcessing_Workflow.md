@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Workflow
-title: Workflow
 ---
 
 # Workflow Class

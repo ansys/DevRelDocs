@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_provider
-title: mesh_provider
 ---
 
 # mesh_provider Class

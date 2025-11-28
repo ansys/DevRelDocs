@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.vtk_to_fields
-title: vtk_to_fields
 ---
 
 # vtk_to_fields Class

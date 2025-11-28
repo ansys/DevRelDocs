@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.modal_damping_ratio
-title: modal_damping_ratio
 ---
 
 # modal_damping_ratio Class

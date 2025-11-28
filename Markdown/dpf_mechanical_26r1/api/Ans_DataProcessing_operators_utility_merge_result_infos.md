@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_result_infos
-title: merge_result_infos
 ---
 
 # merge_result_infos Class

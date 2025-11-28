@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.vtk_export
-title: vtk_export
 ---
 
 # vtk_export Class

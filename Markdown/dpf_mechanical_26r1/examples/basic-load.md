@@ -1,6 +1,5 @@
 ---
 uid: examples.basic-load
-title: Load and Inspect Results
 ---
 
 # Load and Inspect Results in Mechanical

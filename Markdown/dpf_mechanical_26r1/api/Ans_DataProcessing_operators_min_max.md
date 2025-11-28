@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max
-title: Ans.DataProcessing.operators.min_max Namespace
 ---
 
 # Ans.DataProcessing.operators.min_max Namespace

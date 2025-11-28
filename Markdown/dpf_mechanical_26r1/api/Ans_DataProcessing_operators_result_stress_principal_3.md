@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress_principal_3
-title: stress_principal_3
 ---
 
 # stress_principal_3 Class

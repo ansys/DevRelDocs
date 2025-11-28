@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.transform_invariant_terms_rbd
-title: transform_invariant_terms_rbd
 ---
 
 # transform_invariant_terms_rbd Class

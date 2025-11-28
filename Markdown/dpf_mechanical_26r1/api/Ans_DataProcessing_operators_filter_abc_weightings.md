@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.abc_weightings
-title: abc_weightings
 ---
 
 # abc_weightings Class

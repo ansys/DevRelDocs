@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.window_blackman_fc
-title: window_blackman_fc
 ---
 
 # window_blackman_fc Class

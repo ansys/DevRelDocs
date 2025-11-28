@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.scoping_get_attribute
-title: scoping_get_attribute
 ---
 
 # scoping_get_attribute Class

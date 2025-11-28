@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.element_nodal_forces
-title: element_nodal_forces
 ---
 
 # element_nodal_forces Class

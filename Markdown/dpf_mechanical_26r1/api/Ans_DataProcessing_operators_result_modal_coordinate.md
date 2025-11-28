@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.modal_coordinate
-title: modal_coordinate
 ---
 
 # modal_coordinate Class

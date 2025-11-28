@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.nodal_difference
-title: nodal_difference
 ---
 
 # nodal_difference Class

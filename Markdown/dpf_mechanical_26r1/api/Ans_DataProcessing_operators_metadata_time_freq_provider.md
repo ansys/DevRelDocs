@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.time_freq_provider
-title: time_freq_provider
 ---
 
 # time_freq_provider Class

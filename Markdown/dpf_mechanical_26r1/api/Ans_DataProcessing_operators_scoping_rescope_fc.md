@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.rescope_fc
-title: rescope_fc
 ---
 
 # rescope_fc Class

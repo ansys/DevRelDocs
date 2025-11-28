@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_pressure
-title: contact_pressure
 ---
 
 # contact_pressure Class

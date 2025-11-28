@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_added_mass_pct
-title: global_added_mass_pct
 ---
 
 # global_added_mass_pct Class

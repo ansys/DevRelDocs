@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.accumulate_fc
-title: accumulate_fc
 ---
 
 # accumulate_fc Class

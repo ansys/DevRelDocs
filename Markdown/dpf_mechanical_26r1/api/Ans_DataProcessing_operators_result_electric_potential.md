@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.electric_potential
-title: electric_potential
 ---
 
 # electric_potential Class

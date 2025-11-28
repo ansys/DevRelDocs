@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elemental_heat_generation
-title: elemental_heat_generation
 ---
 
 # elemental_heat_generation Class

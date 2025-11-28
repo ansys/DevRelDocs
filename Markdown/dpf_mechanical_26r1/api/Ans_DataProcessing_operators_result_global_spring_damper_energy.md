@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.global_spring_damper_energy
-title: global_spring_damper_energy
 ---
 
 # global_spring_damper_energy Class

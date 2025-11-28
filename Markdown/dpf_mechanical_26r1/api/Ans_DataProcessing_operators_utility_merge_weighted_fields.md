@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_weighted_fields
-title: merge_weighted_fields
 ---
 
 # merge_weighted_fields Class

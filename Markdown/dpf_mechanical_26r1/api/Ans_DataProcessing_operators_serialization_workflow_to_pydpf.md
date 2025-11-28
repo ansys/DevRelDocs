@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.workflow_to_pydpf
-title: workflow_to_pydpf
 ---
 
 # workflow_to_pydpf Class

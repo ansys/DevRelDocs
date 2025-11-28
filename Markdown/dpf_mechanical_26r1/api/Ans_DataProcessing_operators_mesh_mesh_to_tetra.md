@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_to_tetra
-title: mesh_to_tetra
 ---
 
 # mesh_to_tetra Class

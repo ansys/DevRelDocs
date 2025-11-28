@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.creep_strain_XY
-title: creep_strain_XY
 ---
 
 # creep_strain_XY Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.raw_displacement
-title: raw_displacement
 ---
 
 # raw_displacement Class

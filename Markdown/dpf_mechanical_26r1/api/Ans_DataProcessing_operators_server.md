@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.server
-title: Ans.DataProcessing.operators.server Namespace
 ---
 
 # Ans.DataProcessing.operators.server Namespace

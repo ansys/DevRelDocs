@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.write_motion_dfmf_file
-title: write_motion_dfmf_file
 ---
 
 # write_motion_dfmf_file Class

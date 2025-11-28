@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.to_nodal_fc
-title: to_nodal_fc
 ---
 
 # to_nodal_fc Class

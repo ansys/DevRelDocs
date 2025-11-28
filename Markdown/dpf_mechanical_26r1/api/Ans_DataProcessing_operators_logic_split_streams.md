@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.split_streams
-title: split_streams
 ---
 
 # split_streams Class

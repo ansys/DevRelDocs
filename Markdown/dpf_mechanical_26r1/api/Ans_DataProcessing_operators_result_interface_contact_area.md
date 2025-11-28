@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.interface_contact_area
-title: interface_contact_area
 ---
 
 # interface_contact_area Class

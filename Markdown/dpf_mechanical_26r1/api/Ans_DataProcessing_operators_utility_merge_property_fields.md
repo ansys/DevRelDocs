@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_property_fields
-title: merge_property_fields
 ---
 
 # merge_property_fields Class

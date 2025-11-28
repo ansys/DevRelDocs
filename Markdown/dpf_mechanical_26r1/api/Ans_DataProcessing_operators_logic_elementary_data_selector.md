@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.elementary_data_selector
-title: elementary_data_selector
 ---
 
 # elementary_data_selector Class

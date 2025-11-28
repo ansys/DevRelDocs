@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.elemental_nodal_to_nodal_elemental_fc
-title: elemental_nodal_to_nodal_elemental_fc
 ---
 
 # elemental_nodal_to_nodal_elemental_fc Class

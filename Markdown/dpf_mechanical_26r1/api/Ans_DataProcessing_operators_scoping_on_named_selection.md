@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.on_named_selection
-title: on_named_selection
 ---
 
 # on_named_selection Class

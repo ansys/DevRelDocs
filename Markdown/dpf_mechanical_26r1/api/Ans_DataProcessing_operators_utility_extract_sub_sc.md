@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.extract_sub_sc
-title: extract_sub_sc
 ---
 
 # extract_sub_sc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.cartesian_to_spherical
-title: cartesian_to_spherical
 ---
 
 # cartesian_to_spherical Class

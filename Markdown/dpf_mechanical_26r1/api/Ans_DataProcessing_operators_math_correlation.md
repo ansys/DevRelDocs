@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.correlation
-title: correlation
 ---
 
 # correlation Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.split_data_sources
-title: split_data_sources
 ---
 
 # split_data_sources Class

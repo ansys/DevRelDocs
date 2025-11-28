@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress_intensity
-title: stress_intensity
 ---
 
 # stress_intensity Class

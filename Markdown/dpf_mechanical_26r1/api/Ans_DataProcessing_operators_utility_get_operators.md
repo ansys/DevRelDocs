@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.get_operators
-title: get_operators
 ---
 
 # get_operators Class

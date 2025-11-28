@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.minus_fc
-title: minus_fc
 ---
 
 # minus_fc Class

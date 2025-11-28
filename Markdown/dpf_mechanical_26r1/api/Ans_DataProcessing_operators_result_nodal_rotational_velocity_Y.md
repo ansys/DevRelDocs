@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.nodal_rotational_velocity_Y
-title: nodal_rotational_velocity_Y
 ---
 
 # nodal_rotational_velocity_Y Class

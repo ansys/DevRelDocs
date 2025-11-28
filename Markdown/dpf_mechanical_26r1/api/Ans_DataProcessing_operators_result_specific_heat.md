@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.specific_heat
-title: specific_heat
 ---
 
 # specific_heat Class

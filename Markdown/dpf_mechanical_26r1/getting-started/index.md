@@ -1,6 +1,5 @@
 ---
 uid: getting-started
-title: Getting Started
 ---
 
 # Getting Started with DPF Mechanical 2026 R1

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.magnetic_scalar_potential
-title: magnetic_scalar_potential
 ---
 
 # magnetic_scalar_potential Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.scoping_low_pass
-title: scoping_low_pass
 ---
 
 # scoping_low_pass Class

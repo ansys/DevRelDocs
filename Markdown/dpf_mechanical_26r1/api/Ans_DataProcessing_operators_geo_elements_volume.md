@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.elements_volume
-title: elements_volume
 ---
 
 # elements_volume Class

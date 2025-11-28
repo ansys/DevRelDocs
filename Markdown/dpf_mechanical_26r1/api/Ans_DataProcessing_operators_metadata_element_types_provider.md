@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.element_types_provider
-title: element_types_provider
 ---
 
 # element_types_provider Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mapdl.global_to_nodal
-title: global_to_nodal
 ---
 
 # global_to_nodal Class

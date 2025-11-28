@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.fft_eval
-title: fft_eval
 ---
 
 # fft_eval Class

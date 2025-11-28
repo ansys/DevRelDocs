@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.nodal_rotation_Y
-title: nodal_rotation_Y
 ---
 
 # nodal_rotation_Y Class

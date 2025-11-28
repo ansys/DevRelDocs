@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.info.markdown_latex_example
-title: markdown_latex_example
 ---
 
 # markdown_latex_example Class

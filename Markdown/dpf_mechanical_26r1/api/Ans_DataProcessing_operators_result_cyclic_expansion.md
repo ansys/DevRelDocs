@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.cyclic_expansion
-title: cyclic_expansion
 ---
 
 # cyclic_expansion Class

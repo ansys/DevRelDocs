@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_data_tree
-title: merge_data_tree
 ---
 
 # merge_data_tree Class

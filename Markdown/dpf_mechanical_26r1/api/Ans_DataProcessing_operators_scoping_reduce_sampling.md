@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.reduce_sampling
-title: reduce_sampling
 ---
 
 # reduce_sampling Class

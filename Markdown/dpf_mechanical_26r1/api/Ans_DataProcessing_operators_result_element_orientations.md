@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.element_orientations
-title: element_orientations
 ---
 
 # element_orientations Class

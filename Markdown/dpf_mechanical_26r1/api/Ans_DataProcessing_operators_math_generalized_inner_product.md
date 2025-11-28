@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.generalized_inner_product
-title: generalized_inner_product
 ---
 
 # generalized_inner_product Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.magnetic_flux_density_Z
-title: magnetic_flux_density_Z
 ---
 
 # magnetic_flux_density_Z Class

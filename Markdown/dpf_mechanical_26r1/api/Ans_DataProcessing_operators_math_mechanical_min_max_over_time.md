@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.mechanical.min_max_over_time
-title: min_max_over_time
 ---
 
 # min_max_over_time Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.geo.rotate_in_cylindrical_cs
-title: rotate_in_cylindrical_cs
 ---
 
 # rotate_in_cylindrical_cs Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.structural_temperature
-title: structural_temperature
 ---
 
 # structural_temperature Class

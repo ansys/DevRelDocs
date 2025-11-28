@@ -1,6 +1,5 @@
 ---
 uid: user-guide.core-concepts
-title: Core Concepts
 ---
 
 # Understanding DPF in Ansys Mechanical

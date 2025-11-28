@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.euler_nodes
-title: euler_nodes
 ---
 
 # euler_nodes Class

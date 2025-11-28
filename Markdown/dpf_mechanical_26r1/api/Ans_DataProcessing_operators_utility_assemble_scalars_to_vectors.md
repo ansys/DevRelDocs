@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.assemble_scalars_to_vectors
-title: assemble_scalars_to_vectors
 ---
 
 # assemble_scalars_to_vectors Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_fc
-title: identical_fc
 ---
 
 # identical_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.property_field
-title: property_field
 ---
 
 # property_field Class

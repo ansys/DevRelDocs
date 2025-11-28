@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.omega
-title: omega
 ---
 
 # omega Class

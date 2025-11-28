@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.mechanical
-title: Ans.DataProcessing.operators.utility.mechanical Namespace
 ---
 
 # Ans.DataProcessing.operators.utility.mechanical Namespace

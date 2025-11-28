@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.joint_relative_rotation
-title: joint_relative_rotation
 ---
 
 # joint_relative_rotation Class

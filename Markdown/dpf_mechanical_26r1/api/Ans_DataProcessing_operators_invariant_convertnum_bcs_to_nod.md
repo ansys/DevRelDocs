@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.invariant.convertnum_bcs_to_nod
-title: convertnum_bcs_to_nod
 ---
 
 # convertnum_bcs_to_nod Class

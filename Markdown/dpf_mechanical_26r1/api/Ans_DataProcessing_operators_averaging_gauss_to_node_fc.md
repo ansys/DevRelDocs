@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.gauss_to_node_fc
-title: gauss_to_node_fc
 ---
 
 # gauss_to_node_fc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.kinetic_energy
-title: kinetic_energy
 ---
 
 # kinetic_energy Class

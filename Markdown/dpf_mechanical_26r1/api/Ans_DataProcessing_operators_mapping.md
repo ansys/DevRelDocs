@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping
-title: Ans.DataProcessing.operators.mapping Namespace
 ---
 
 # Ans.DataProcessing.operators.mapping Namespace

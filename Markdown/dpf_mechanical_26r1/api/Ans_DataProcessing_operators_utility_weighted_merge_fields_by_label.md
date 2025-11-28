@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.weighted_merge_fields_by_label
-title: weighted_merge_fields_by_label
 ---
 
 # weighted_merge_fields_by_label Class

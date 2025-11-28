@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mapping.fft
-title: fft
 ---
 
 # fft Class

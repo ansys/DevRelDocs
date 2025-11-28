@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.accumulation_per_scoping
-title: accumulation_per_scoping
 ---
 
 # accumulation_per_scoping Class

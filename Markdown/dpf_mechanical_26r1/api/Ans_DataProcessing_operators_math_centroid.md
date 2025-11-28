@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.centroid
-title: centroid
 ---
 
 # centroid Class

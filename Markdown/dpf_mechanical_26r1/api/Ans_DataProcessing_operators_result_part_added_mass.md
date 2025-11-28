@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.part_added_mass
-title: part_added_mass
 ---
 
 # part_added_mass Class

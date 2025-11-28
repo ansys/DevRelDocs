@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.datasources_provider
-title: datasources_provider
 ---
 
 # datasources_provider Class

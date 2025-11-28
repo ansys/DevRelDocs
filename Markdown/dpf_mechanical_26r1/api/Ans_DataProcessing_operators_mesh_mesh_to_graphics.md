@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_to_graphics
-title: mesh_to_graphics
 ---
 
 # mesh_to_graphics Class

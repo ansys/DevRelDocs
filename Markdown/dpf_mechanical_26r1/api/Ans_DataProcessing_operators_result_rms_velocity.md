@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.rms_velocity
-title: rms_velocity
 ---
 
 # rms_velocity Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress_rotation_by_euler_nodes
-title: stress_rotation_by_euler_nodes
 ---
 
 # stress_rotation_by_euler_nodes Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mass_flow_rate
-title: mass_flow_rate
 ---
 
 # mass_flow_rate Class

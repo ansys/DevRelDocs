@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.real_part
-title: real_part
 ---
 
 # real_part Class

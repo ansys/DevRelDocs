@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.pretension
-title: pretension
 ---
 
 # pretension Class

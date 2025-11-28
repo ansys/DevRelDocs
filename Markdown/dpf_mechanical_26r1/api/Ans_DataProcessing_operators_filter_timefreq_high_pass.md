@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.timefreq_high_pass
-title: timefreq_high_pass
 ---
 
 # timefreq_high_pass Class

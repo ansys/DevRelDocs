@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.mac
-title: mac
 ---
 
 # mac Class

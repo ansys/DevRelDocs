@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.mechanical.make_time_freq_support_chunk_for_each
-title: make_time_freq_support_chunk_for_each
 ---
 
 # make_time_freq_support_chunk_for_each Class

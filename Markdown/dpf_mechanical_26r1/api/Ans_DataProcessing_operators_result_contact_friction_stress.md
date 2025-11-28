@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_friction_stress
-title: contact_friction_stress
 ---
 
 # contact_friction_stress Class

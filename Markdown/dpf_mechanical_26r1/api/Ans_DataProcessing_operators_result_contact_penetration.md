@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_penetration
-title: contact_penetration
 ---
 
 # contact_penetration Class

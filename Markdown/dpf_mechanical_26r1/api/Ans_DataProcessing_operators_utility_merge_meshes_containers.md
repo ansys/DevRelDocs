@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_meshes_containers
-title: merge_meshes_containers
 ---
 
 # merge_meshes_containers Class

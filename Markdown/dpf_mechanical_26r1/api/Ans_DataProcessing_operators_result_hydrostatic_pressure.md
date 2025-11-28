@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.hydrostatic_pressure
-title: hydrostatic_pressure
 ---
 
 # hydrostatic_pressure Class

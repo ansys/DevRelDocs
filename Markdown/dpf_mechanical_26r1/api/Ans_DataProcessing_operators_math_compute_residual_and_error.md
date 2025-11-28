@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.compute_residual_and_error
-title: compute_residual_and_error
 ---
 
 # compute_residual_and_error Class

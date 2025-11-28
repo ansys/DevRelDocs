@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_extraction
-title: mesh_extraction
 ---
 
 # mesh_extraction Class

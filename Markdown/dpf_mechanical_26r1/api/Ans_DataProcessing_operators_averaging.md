@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging
-title: Ans.DataProcessing.operators.averaging Namespace
 ---
 
 # Ans.DataProcessing.operators.averaging Namespace

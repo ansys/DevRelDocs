@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elastic_strain_principal_2
-title: elastic_strain_principal_2
 ---
 
 # elastic_strain_principal_2 Class

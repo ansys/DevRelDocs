@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.MeshedRegion
-title: MeshedRegion
 ---
 
 # MeshedRegion Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.Collection
-title: Collection
 ---
 
 # Collection Class

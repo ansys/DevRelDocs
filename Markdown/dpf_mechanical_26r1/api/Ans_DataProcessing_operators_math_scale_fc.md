@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.scale_fc
-title: scale_fc
 ---
 
 # scale_fc Class

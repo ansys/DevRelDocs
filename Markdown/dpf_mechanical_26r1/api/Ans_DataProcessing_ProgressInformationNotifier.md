@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.ProgressInformationNotifier
-title: ProgressInformationNotifier
 ---
 
 # ProgressInformationNotifier Class

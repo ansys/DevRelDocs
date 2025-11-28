@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.erp_radiation_efficiency
-title: erp_radiation_efficiency
 ---
 
 # erp_radiation_efficiency Class

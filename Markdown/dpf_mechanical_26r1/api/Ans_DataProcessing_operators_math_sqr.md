@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.sqr
-title: sqr
 ---
 
 # sqr Class

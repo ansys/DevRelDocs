@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.temperature_grad_X
-title: temperature_grad_X
 ---
 
 # temperature_grad_X Class

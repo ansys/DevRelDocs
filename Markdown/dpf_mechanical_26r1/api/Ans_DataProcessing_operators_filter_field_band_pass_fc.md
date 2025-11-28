@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.field_band_pass_fc
-title: field_band_pass_fc
 ---
 
 # field_band_pass_fc Class

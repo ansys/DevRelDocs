@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.result_info_provider
-title: result_info_provider
 ---
 
 # result_info_provider Class

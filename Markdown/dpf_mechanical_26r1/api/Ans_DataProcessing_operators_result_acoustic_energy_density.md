@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.acoustic_energy_density
-title: acoustic_energy_density
 ---
 
 # acoustic_energy_density Class

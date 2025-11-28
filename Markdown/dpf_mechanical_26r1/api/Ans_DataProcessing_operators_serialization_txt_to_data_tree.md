@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.txt_to_data_tree
-title: txt_to_data_tree
 ---
 
 # txt_to_data_tree Class

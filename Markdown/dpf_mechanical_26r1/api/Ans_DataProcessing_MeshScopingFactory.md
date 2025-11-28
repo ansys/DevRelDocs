@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.MeshScopingFactory
-title: MeshScopingFactory
 ---
 
 # MeshScopingFactory Class

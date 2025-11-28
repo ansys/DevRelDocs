@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.cplx_multiply
-title: cplx_multiply
 ---
 
 # cplx_multiply Class

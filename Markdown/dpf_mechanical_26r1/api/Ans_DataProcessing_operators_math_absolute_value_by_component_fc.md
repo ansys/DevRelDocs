@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.absolute_value_by_component_fc
-title: absolute_value_by_component_fc
 ---
 
 # absolute_value_by_component_fc Class

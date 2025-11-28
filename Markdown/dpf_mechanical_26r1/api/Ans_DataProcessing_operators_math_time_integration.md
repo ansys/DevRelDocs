@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.time_integration
-title: time_integration
 ---
 
 # time_integration Class

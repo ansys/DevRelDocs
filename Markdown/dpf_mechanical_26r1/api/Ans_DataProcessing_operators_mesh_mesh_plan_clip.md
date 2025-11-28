@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.mesh_plan_clip
-title: mesh_plan_clip
 ---
 
 # mesh_plan_clip Class

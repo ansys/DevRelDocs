@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.nmisc
-title: nmisc
 ---
 
 # nmisc Class

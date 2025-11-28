@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.turbulent_viscosity
-title: turbulent_viscosity
 ---
 
 # turbulent_viscosity Class

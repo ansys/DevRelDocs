@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.DataProcessingCore
-title: DataProcessingCore
 ---
 
 # DataProcessingCore Class

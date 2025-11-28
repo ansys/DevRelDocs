@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_generic_data_container
-title: merge_generic_data_container
 ---
 
 # merge_generic_data_container Class

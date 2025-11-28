@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.average_over_label_fc
-title: average_over_label_fc
 ---
 
 # average_over_label_fc Class

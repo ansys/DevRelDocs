@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.incremental_energy
-title: incremental_energy
 ---
 
 # incremental_energy Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.scoping_high_pass
-title: scoping_high_pass
 ---
 
 # scoping_high_pass Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.fluid_velocity
-title: fluid_velocity
 ---
 
 # fluid_velocity Class

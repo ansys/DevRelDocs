@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.joint_relative_velocity
-title: joint_relative_velocity
 ---
 
 # joint_relative_velocity Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.component_wise_divide
-title: component_wise_divide
 ---
 
 # component_wise_divide Class

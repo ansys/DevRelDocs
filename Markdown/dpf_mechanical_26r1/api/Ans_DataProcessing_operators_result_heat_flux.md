@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.heat_flux
-title: heat_flux
 ---
 
 # heat_flux Class

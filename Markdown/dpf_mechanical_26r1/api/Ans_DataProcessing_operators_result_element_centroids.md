@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.element_centroids
-title: element_centroids
 ---
 
 # element_centroids Class

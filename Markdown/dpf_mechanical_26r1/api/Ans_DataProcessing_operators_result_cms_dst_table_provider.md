@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.cms_dst_table_provider
-title: cms_dst_table_provider
 ---
 
 # cms_dst_table_provider Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.thermal_strain_principal_2
-title: thermal_strain_principal_2
 ---
 
 # thermal_strain_principal_2 Class

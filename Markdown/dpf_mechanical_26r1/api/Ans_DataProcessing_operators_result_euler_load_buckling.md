@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.euler_load_buckling
-title: euler_load_buckling
 ---
 
 # euler_load_buckling Class

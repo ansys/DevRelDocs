@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.magnetic_field_Z
-title: magnetic_field_Z
 ---
 
 # magnetic_field_Z Class

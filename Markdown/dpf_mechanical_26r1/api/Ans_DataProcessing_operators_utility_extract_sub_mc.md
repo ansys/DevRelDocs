@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.extract_sub_mc
-title: extract_sub_mc
 ---
 
 # extract_sub_mc Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.invariant.segalman_von_mises_eqv
-title: segalman_von_mises_eqv
 ---
 
 # segalman_von_mises_eqv Class

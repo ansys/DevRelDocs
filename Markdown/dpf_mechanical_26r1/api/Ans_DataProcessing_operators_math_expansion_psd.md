@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.expansion_psd
-title: expansion_psd
 ---
 
 # expansion_psd Class

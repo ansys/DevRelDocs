@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.DataTree
-title: DataTree
 ---
 
 # DataTree Class

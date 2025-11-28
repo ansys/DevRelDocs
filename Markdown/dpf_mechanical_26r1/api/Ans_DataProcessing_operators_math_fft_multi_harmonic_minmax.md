@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.fft_multi_harmonic_minmax
-title: fft_multi_harmonic_minmax
 ---
 
 # fft_multi_harmonic_minmax Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.on_property
-title: on_property
 ---
 
 # on_property Class

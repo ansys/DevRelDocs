@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.integrate_over_time_freq
-title: integrate_over_time_freq
 ---
 
 # integrate_over_time_freq Class

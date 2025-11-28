@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.txt_file_to_dpf
-title: txt_file_to_dpf
 ---
 
 # txt_file_to_dpf Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.elemental_difference
-title: elemental_difference
 ---
 
 # elemental_difference Class

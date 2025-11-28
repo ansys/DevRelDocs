@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.PinDescription
-title: PinDescription
 ---
 
 # PinDescription Class

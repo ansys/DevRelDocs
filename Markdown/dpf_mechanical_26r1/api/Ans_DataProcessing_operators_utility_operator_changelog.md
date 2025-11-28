@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.operator_changelog
-title: operator_changelog
 ---
 
 # operator_changelog Class

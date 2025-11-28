@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.overlap_fields
-title: overlap_fields
 ---
 
 # overlap_fields Class

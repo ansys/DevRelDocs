@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.min_by_component
-title: min_by_component
 ---
 
 # min_by_component Class

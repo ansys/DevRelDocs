@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.gasket_inelastic_closure
-title: gasket_inelastic_closure
 ---
 
 # gasket_inelastic_closure Class

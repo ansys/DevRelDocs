@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.ascending_sort_fc
-title: ascending_sort_fc
 ---
 
 # ascending_sort_fc Class

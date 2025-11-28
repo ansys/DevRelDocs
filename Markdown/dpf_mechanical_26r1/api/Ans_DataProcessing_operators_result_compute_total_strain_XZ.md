@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.compute_total_strain_XZ
-title: compute_total_strain_XZ
 ---
 
 # compute_total_strain_XZ Class

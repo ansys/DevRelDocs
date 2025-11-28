@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.cyclic_support_get_attribute
-title: cyclic_support_get_attribute
 ---
 
 # cyclic_support_get_attribute Class

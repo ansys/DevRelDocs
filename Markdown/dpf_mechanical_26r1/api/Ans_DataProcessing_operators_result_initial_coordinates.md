@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.initial_coordinates
-title: initial_coordinates
 ---
 
 # initial_coordinates Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.iso_surfaces
-title: iso_surfaces
 ---
 
 # iso_surfaces Class

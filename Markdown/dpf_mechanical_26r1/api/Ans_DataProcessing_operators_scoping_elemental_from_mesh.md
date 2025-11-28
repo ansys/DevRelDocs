@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.elemental_from_mesh
-title: elemental_from_mesh
 ---
 
 # elemental_from_mesh Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.ResultDefinition
-title: ResultDefinition
 ---
 
 # ResultDefinition Class

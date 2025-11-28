@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.state_variable
-title: state_variable
 ---
 
 # state_variable Class

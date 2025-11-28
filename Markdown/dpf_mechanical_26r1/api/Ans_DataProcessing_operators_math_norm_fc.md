@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.norm_fc
-title: norm_fc
 ---
 
 # norm_fc Class

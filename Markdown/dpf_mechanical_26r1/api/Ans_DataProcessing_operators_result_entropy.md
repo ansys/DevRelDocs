@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.entropy
-title: entropy
 ---
 
 # entropy Class

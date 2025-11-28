@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.strain_from_voigt_fc
-title: strain_from_voigt_fc
 ---
 
 # strain_from_voigt_fc Class

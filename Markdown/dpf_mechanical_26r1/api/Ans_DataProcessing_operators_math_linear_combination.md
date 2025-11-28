@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.linear_combination
-title: linear_combination
 ---
 
 # linear_combination Class

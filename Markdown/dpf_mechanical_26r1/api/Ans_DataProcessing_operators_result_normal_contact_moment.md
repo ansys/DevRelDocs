@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.normal_contact_moment
-title: normal_contact_moment
 ---
 
 # normal_contact_moment Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.identical_fields
-title: identical_fields
 ---
 
 # identical_fields Class

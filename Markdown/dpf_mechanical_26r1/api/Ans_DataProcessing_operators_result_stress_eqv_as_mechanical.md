@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.stress_eqv_as_mechanical
-title: stress_eqv_as_mechanical
 ---
 
 # stress_eqv_as_mechanical Class

@@ -1,6 +1,5 @@
 ---
 uid: examples.extract-displacement
-title: Extract Displacement
 ---
 
 # Extract Displacement in Mechanical

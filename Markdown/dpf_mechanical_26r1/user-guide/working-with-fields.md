@@ -1,6 +1,5 @@
 ---
 uid: user-guide.working-with-fields
-title: Working with Fields
 ---
 
 # Working with Fields

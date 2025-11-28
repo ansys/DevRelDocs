@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.joint_relative_acceleration
-title: joint_relative_acceleration
 ---
 
 # joint_relative_acceleration Class

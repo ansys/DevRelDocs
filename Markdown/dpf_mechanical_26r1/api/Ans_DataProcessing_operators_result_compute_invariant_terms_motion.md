@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.compute_invariant_terms_motion
-title: compute_invariant_terms_motion
 ---
 
 # compute_invariant_terms_motion Class

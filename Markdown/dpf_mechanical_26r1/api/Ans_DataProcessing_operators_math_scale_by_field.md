@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.scale_by_field
-title: scale_by_field
 ---
 
 # scale_by_field Class

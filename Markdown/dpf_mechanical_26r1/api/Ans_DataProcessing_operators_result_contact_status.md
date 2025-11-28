@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.contact_status
-title: contact_status
 ---
 
 # contact_status Class

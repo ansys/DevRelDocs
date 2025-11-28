@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.locations
-title: locations
 ---
 
 # locations Class

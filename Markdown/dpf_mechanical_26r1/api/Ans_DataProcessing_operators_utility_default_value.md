@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.default_value
-title: default_value
 ---
 
 # default_value Class

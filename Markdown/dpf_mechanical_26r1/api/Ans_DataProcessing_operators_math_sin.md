@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.sin
-title: sin
 ---
 
 # sin Class

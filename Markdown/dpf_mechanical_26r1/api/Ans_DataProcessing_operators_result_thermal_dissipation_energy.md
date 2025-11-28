@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.thermal_dissipation_energy
-title: thermal_dissipation_energy
 ---
 
 # thermal_dissipation_energy Class

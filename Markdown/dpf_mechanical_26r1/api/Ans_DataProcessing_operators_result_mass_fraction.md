@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.mass_fraction
-title: mass_fraction
 ---
 
 # mass_fraction Class

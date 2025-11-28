@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elastic_strain_eqv
-title: elastic_strain_eqv
 ---
 
 # elastic_strain_eqv Class

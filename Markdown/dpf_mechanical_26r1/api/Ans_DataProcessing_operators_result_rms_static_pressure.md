@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.rms_static_pressure
-title: rms_static_pressure
 ---
 
 # rms_static_pressure Class

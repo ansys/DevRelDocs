@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.time_derivation
-title: time_derivation
 ---
 
 # time_derivation Class

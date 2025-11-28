@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.transient_rayleigh_integration
-title: transient_rayleigh_integration
 ---
 
 # transient_rayleigh_integration Class

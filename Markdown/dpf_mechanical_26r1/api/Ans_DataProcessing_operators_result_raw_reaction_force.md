@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.raw_reaction_force
-title: raw_reaction_force
 ---
 
 # raw_reaction_force Class

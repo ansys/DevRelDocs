@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elemental_volume
-title: elemental_volume
 ---
 
 # elemental_volume Class

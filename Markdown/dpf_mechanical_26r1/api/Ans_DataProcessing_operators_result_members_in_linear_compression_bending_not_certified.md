@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.members_in_linear_compression_bending_not_certified
-title: members_in_linear_compression_bending_not_certified
 ---
 
 # members_in_linear_compression_bending_not_certified Class

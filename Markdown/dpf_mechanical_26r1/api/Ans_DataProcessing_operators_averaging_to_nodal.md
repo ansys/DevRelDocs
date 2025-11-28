@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.to_nodal
-title: to_nodal
 ---
 
 # to_nodal Class

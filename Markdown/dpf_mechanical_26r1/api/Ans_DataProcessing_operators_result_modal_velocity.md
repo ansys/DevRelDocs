@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.modal_velocity
-title: modal_velocity
 ---
 
 # modal_velocity Class

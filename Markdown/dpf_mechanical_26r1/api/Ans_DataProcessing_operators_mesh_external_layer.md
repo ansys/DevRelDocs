@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.external_layer
-title: external_layer
 ---
 
 # external_layer Class

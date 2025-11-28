@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.poynting_vector_surface
-title: poynting_vector_surface
 ---
 
 # poynting_vector_surface Class

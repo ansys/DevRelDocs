@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.elemental_mean_fc
-title: elemental_mean_fc
 ---
 
 # elemental_mean_fc Class

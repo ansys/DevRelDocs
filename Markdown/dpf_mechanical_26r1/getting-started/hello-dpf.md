@@ -1,6 +1,5 @@
 ---
 uid: getting-started.hello-dpf
-title: Hello DPF
 ---
 
 # Your First DPF Script in Mechanical

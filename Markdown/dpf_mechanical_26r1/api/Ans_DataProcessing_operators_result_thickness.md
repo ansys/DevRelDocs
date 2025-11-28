@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.thickness
-title: thickness
 ---
 
 # thickness Class

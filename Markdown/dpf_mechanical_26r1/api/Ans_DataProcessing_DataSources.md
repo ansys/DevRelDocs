@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.DataSources
-title: DataSources
 ---
 
 # DataSources Class

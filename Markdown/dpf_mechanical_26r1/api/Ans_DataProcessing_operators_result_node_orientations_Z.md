@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.node_orientations_Z
-title: node_orientations_Z
 ---
 
 # node_orientations_Z Class

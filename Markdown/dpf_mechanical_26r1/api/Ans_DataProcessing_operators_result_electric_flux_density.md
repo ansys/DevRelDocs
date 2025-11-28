@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.electric_flux_density
-title: electric_flux_density
 ---
 
 # electric_flux_density Class

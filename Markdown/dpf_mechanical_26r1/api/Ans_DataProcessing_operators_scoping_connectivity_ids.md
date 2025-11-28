@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.scoping.connectivity_ids
-title: connectivity_ids
 ---
 
 # connectivity_ids Class

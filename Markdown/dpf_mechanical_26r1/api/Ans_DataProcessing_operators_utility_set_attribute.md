@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.set_attribute
-title: set_attribute
 ---
 
 # set_attribute Class

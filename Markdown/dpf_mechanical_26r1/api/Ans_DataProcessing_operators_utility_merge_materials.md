@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge_materials
-title: merge_materials
 ---
 
 # merge_materials Class

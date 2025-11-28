@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.dynamic_viscosity
-title: dynamic_viscosity
 ---
 
 # dynamic_viscosity Class

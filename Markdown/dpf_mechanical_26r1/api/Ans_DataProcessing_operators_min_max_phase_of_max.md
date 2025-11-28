@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.min_max.phase_of_max
-title: phase_of_max
 ---
 
 # phase_of_max Class

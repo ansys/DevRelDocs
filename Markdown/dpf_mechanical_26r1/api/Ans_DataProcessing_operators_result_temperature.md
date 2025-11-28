@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.temperature
-title: temperature
 ---
 
 # temperature Class

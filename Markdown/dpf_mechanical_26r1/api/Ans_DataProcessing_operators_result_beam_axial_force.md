@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.beam_axial_force
-title: beam_axial_force
 ---
 
 # beam_axial_force Class

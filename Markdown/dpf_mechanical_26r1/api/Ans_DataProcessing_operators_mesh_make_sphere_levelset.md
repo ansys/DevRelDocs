@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.mesh.make_sphere_levelset
-title: make_sphere_levelset
 ---
 
 # make_sphere_levelset Class

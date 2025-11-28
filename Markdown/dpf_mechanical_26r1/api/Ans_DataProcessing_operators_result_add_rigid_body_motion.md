@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.add_rigid_body_motion
-title: add_rigid_body_motion
 ---
 
 # add_rigid_body_motion Class

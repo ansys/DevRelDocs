@@ -1,6 +1,5 @@
 ---
 uid: getting-started.environment-setup
-title: Environment Setup
 ---
 
 # Working with DPF in Ansys Mechanical

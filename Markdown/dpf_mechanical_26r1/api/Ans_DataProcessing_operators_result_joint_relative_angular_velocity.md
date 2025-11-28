@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.joint_relative_angular_velocity
-title: joint_relative_angular_velocity
 ---
 
 # joint_relative_angular_velocity Class

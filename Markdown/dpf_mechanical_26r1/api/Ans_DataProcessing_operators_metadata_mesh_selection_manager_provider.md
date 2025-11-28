@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.metadata.mesh_selection_manager_provider
-title: mesh_selection_manager_provider
 ---
 
 # mesh_selection_manager_provider Class

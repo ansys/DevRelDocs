@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.averaging.force_summation_psd
-title: force_summation_psd
 ---
 
 # force_summation_psd Class

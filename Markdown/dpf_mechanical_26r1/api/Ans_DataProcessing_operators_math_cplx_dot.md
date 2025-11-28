@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.cplx_dot
-title: cplx_dot
 ---
 
 # cplx_dot Class

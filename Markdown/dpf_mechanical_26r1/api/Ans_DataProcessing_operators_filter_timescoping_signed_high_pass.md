@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.filter.timescoping_signed_high_pass
-title: timescoping_signed_high_pass
 ---
 
 # timescoping_signed_high_pass Class

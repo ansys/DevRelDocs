@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.serialization.hdf5dpf_generate_result_file
-title: hdf5dpf_generate_result_file
 ---
 
 # hdf5dpf_generate_result_file Class

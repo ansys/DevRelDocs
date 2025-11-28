@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.turbulent_kinetic_energy
-title: turbulent_kinetic_energy
 ---
 
 # turbulent_kinetic_energy Class

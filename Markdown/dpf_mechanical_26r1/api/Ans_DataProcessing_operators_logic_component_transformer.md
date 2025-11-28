@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.logic.component_transformer
-title: component_transformer
 ---
 
 # component_transformer Class

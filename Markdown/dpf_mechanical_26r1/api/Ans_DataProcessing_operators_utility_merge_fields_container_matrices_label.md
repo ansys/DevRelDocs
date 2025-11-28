@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.merge.fields_container_matrices_label
-title: fields_container_matrices_label
 ---
 
 # fields_container_matrices_label Class

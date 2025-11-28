@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.customtypefield_get_attribute
-title: customtypefield_get_attribute
 ---
 
 # customtypefield_get_attribute Class

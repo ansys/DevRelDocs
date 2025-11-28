@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.utility.ds_get_attribute
-title: ds_get_attribute
 ---
 
 # ds_get_attribute Class

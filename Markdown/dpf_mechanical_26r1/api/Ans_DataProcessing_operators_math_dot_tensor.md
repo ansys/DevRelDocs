@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.math.dot_tensor
-title: dot_tensor
 ---
 
 # dot_tensor Class

@@ -1,6 +1,5 @@
 ---
 uid: Ans.DataProcessing.operators.result.elastic_strain_energy_density
-title: elastic_strain_energy_density
 ---
 
 # elastic_strain_energy_density Class
