@@ -48,14 +48,16 @@ To get the data in other units, you can pass an appropriate *UnitsData* object t
 var someNodeTsEng = myData.GetData(“WALL.T10”, “WALL.T11”).GetValues(Units.Eng);
 ```
 
-GetData will accept arbitrary-length lists of SINDA/FLUINT names of any type. They can even include registers:
+GetData will accept arbitrary-length lists of SINDA/FLUINT names of any type. They can even include registers and UDFA's (User-Defined Fortran Arrays):
 
 ```c#
 var disparateData = myData.GetData(
-“WALL.T10”, “FLOW.PL100”, “VALVE_POS”, “ROOM.T1”).GetValues(Units.SI);
+“WALL.T10”, “FLOW.PL100”, “VALVE_POS”, “NODE_POS_X.WALL.10”, "EXTRA_DATA.7").GetValues(Units.SI);
 ```
 
 In this case, GetData will assume that “VALVE_POS” is a dimensionless register and return the raw values from the save/CSR. This behavior can be modified, as discussed in the [Work with groups in results data](#work-with-groups-in-results-data) section.
+
+The last two strings in the above example demonstrate how to access UDFA data using GetData. In this case, NODE_POS_X is an entity-length UDFA and we're asking for the values corresponding to node WALL.10 using UDFA_NAME.SUBMODEL.ID syntax. EXTRA_DATA is a user-length UDFA and we're asking for the 8th array (identified with index 7).
 
 You can construct an array of strings to pass to GetData. For example, to get temperatures for nodes “MAIN.1” through “MAIN.100”, inclusive:
 
