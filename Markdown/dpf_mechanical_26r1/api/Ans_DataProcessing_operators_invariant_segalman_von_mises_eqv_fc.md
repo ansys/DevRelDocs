@@ -1,0 +1,86 @@
+---
+uid: Ans.DataProcessing.operators.invariant.segalman_von_mises_eqv_fc
+title: segalman_von_mises_eqv_fc
+---
+
+# segalman_von_mises_eqv_fc Class
+
+**Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
+
+Computes the element-wise Segalman Von-Mises criteria on all the tensor fields of a fields container.   ///available inputs: fields_container (FieldsContainer)
+            available outputs: fields_container (FieldsContainer)
+
+segalman_von_mises_eqv_fc()
+segalman_von_mises_eqv_fc(fields_container: object, config: OperatorConfig)
+segalman_von_mises_eqv_fc(config: OperatorConfig)
+
+
+## Class Information
+
+| Property | Value |
+|----------|-------|
+| Namespace | `Ans.DataProcessing.operators.invariant` |
+| Assembly | `Ans_Dpf_FEMutils_dll_cs` |
+| Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Constructors
+
+#### Constructor
+
+```python
+segalman_von_mises_eqv_fc()
+```
+
+#### Constructor
+
+```python
+segalman_von_mises_eqv_fc(fields_container, config)
+```
+
+**Parameters:**
+
+- `fields_container` (*object*)
+- `config` (*OperatorConfig*)
+
+#### Constructor
+
+```python
+segalman_von_mises_eqv_fc(config)
+```
+
+**Parameters:**
+
+- `config` (*OperatorConfig*)
+
+## Methods
+
+## Properties
+
+#### inputs
+
+**Type:** *InputSpec*
+
+```python
+# Get or set the property
+value = obj.inputs
+obj.inputs = new_value
+```
+
+#### outputs
+
+**Type:** *OutputSpec*
+
+```python
+# Get or set the property
+value = obj.outputs
+obj.outputs = new_value
+```
+
+#### defaultConfig
+
+**Type:** *Config*
+
+```python
+# Get the property (read-only)
+value = obj.defaultConfig
+```
