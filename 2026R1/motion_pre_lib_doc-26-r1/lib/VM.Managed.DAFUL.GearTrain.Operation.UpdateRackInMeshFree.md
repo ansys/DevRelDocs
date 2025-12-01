@@ -1,4 +1,5 @@
-#  Class UpdateRackInMeshFree
+# Class UpdateRackInMeshFree
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateRackInMeshFree : UpdateRackInFE, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateRackInFE](VM.Managed.DAFUL.GearTrain.Operation.UpdateRackInFE.md) ← 
@@ -97,31 +98,31 @@ public UpdateRackInMeshFree(string strRackGeometryName, string strStartRBEName, 
 
 #### Parameters
 
-`strRackGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRackGeometryName` string
 
 Name of the string rack geometry.
 
-`strStartRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStartRBEName` string
 
 Name of the string start rbe.
 
-`strEndRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strEndRBEName` string
 
 Name of the string end rbe.
 
-`bUseStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseStart` bool
 
 if set to <code>true</code> [b use start].
 
-`bUseEnd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseEnd` bool
 
 if set to <code>true</code> [b use end].
 
-`strZAxis` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strZAxis` string
 
 The string z axis.
 
-`strInitialAngle` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitialAngle` string
 
 The Initial angle.
 
@@ -139,31 +140,31 @@ public UpdateRackInMeshFree(Document3D document3D, string strRackGeometryName, s
 
 The document.
 
-`strRackGeometryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRackGeometryName` string
 
 Name of the string rack geometry.
 
-`strStartRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStartRBEName` string
 
 Name of the string start rbe.
 
-`strEndRBEName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strEndRBEName` string
 
 Name of the string end rbe.
 
-`bUseStart` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseStart` bool
 
 if set to <code>true</code> [b use start].
 
-`bUseEnd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseEnd` bool
 
 if set to <code>true</code> [b use end].
 
-`strZAxis` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strZAxis` string
 
 The string z axis.
 
-`strInitialAngle` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitialAngle` string
 
 The Initial angle.
 

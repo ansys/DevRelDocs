@@ -1,4 +1,5 @@
-#  Interface IEnableForSimulationScenario
+# Interface IEnableForSimulationScenario
+<a id="VM_Managed_IEnableForSimulationScenario"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -27,7 +28,7 @@ string TargetType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_IEnableForSimulationScenario_Use"></a> Use
 
@@ -39,5 +40,5 @@ bool Use { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

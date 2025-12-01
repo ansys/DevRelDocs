@@ -1,4 +1,5 @@
-#  Class Work.WorkGroup
+# Class Work.WorkGroup
+<a id="VM_Managed_DAFUL_Pre_Work_WorkGroup"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Work.WorkGroup : Group<Work.WorkGroup, GroupItem>, IWorkGroup
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Group<Work.WorkGroup, GroupItem\>](VM.Managed.DAFUL.Pre.Group\-2.md) ← 
 [Work.WorkGroup](VM.Managed.DAFUL.Pre.Work.WorkGroup.md)
 
@@ -52,5 +53,5 @@ public List<Model> SubModels { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
+ List<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
 

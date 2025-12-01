@@ -1,4 +1,5 @@
-#  Class GeometryBase
+# Class GeometryBase
+<a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public abstract class GeometryBase : Body, IObservableObject, IDisposableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Body ← 
@@ -45,7 +46,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IReferencable, 
 ITransformable, 
@@ -285,7 +286,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -340,7 +341,7 @@ protected string m_strNameWhenDelete
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -354,7 +355,7 @@ protected virtual string GetNameWhenDelete()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
@@ -366,7 +367,7 @@ protected override void LinkRequestDestroy(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The ob notifier.
 

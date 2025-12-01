@@ -1,4 +1,5 @@
-#  Class ItemsContainerModelBase<TObject\>
+# Class ItemsContainerModelBase<TObject\>
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -13,9 +14,9 @@ public abstract class ItemsContainerModelBase<TObject> : ValidatableBase, IObser
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ValidatableBase ← 
+[ValidatableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs) ← 
 [ItemsContainerModelBase<TObject\>](VM.Models.Pre.Drivetrain.VehicleSimulator.ItemsContainerModelBase\-1.md)
 
 #### Implements
@@ -26,18 +27,18 @@ IValidatable
 
 #### Inherited Members
 
-ValidatableBase.RaisePropertyChanged\(string\), 
-ValidatableBase.SuspendValidate\(\), 
-ValidatableBase.Validate\(\), 
-ValidatableBase.Validate\(ValidationContext\), 
-ValidatableBase.DisposeManagedResources\(\), 
-ValidatableBase.CanValidate, 
-ValidatableBase.Errors, 
-ValidatableBase.HasValidationAttribute, 
-ValidatableBase.HasValidator, 
-ValidatableBase.IsValid, 
-ValidatableBase.ValidateTrigger, 
-ValidatableBase.ErrorsChanged, 
+[ValidatableBase.RaisePropertyChanged\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.SuspendValidate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Validate\(ValidationContext\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.DisposeManagedResources\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.CanValidate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.Errors](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.HasValidator](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ValidateTrigger](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
+[ValidatableBase.ErrorsChanged](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/ValidatableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -88,7 +89,7 @@ public IConnectableObservable<IChangeSet<TObject, Guid>> All { get; }
 
 #### Property Value
 
- IConnectableObservable<IChangeSet<TObject, [Guid](https://learn.microsoft.com/dotnet/api/system.guid)\>\>
+ IConnectableObservable<IChangeSet<TObject, Guid\>\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_Items"></a> Items
 
@@ -110,7 +111,7 @@ public int ItemsCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_ObservableItems"></a> ObservableItems
 
@@ -121,7 +122,7 @@ public IObservable<IChangeSet<TObject, Guid>> ObservableItems { get; }
 
 #### Property Value
 
- [IObservable](https://learn.microsoft.com/dotnet/api/system.iobservable\-1)<IChangeSet<TObject, [Guid](https://learn.microsoft.com/dotnet/api/system.guid)\>\>
+ IObservable<IChangeSet<TObject, Guid\>\>
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_Item_System_Int32_"></a> this\[int\]
 
@@ -153,11 +154,11 @@ public bool Contains(Guid key)
 
 #### Parameters
 
-`key` [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+`key` Guid
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_Contains__0_"></a> Contains\(TObject\)
 
@@ -171,7 +172,7 @@ public bool Contains(TObject item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
@@ -187,7 +188,7 @@ public void RemoveItem(Guid key)
 
 #### Parameters
 
-`key` [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+`key` Guid
 
 ### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_TryGetItem_System_Guid__0__"></a> TryGetItem\(Guid, out TObject\)
 
@@ -197,11 +198,11 @@ public bool TryGetItem(Guid key, out TObject item)
 
 #### Parameters
 
-`key` [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+`key` Guid
 
 `item` TObject
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

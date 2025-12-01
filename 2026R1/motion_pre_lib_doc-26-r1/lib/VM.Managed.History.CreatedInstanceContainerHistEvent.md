@@ -1,4 +1,5 @@
-#  Class CreatedInstanceContainerHistEvent
+# Class CreatedInstanceContainerHistEvent
+<a id="VM_Managed_History_CreatedInstanceContainerHistEvent"></a>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -9,8 +10,8 @@ public class CreatedInstanceContainerHistEvent : InstanceContainerHistEventBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryEvent ← 
+object ← 
+[HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs) ← 
 [InstanceContainerHistEventBase](VM.Managed.History.InstanceContainerHistEventBase.md) ← 
 [CreatedInstanceContainerHistEvent](VM.Managed.History.CreatedInstanceContainerHistEvent.md)
 
@@ -23,17 +24,17 @@ HistoryEvent ←
 [InstanceContainerHistEventBase.AfterAdded\(HistoryEventArgs\)](VM.Managed.History.InstanceContainerHistEventBase.md\#VM\_Managed\_History\_InstanceContainerHistEventBase\_AfterAdded\_VM\_Managed\_History\_HistoryEventArgs\_), 
 [InstanceContainerHistEventBase.IsAvailableEvent\(Document\)](VM.Managed.History.InstanceContainerHistEventBase.md\#VM\_Managed\_History\_InstanceContainerHistEventBase\_IsAvailableEvent\_VM\_Managed\_Document\_), 
 [InstanceContainerHistEventBase.AddEventCore\(Document, InstanceContainerHistEventBase\)](VM.Managed.History.InstanceContainerHistEventBase.md\#VM\_Managed\_History\_InstanceContainerHistEventBase\_AddEventCore\_VM\_Managed\_Document\_VM\_Managed\_History\_InstanceContainerHistEventBase\_), 
-HistoryEvent.ClearEvent\(bool\), 
-HistoryEvent.Undo\(HistoryEventArgs\), 
-HistoryEvent.Redo\(HistoryEventArgs\), 
-HistoryEvent.Clear\(bool\), 
-HistoryEvent.BeforeUndo\(HistoryEventArgs\), 
-HistoryEvent.AfterUndo\(HistoryEventArgs\), 
-HistoryEvent.BeforeRedo\(HistoryEventArgs\), 
-HistoryEvent.AfterRedo\(HistoryEventArgs\), 
-HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\), 
-HistoryEvent.AfterAdded\(HistoryEventArgs\), 
-HistoryEvent.IsValid
+[HistoryEvent.ClearEvent\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterAdded\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 #### Extension Methods
 
@@ -51,5 +52,5 @@ public CreatedInstanceContainerHistEvent(string strPathName)
 
 #### Parameters
 
-`strPathName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPathName` string
 

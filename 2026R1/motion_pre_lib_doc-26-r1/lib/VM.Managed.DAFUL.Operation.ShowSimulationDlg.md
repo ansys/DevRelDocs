@@ -1,4 +1,5 @@
-#  Class ShowSimulationDlg
+# Class ShowSimulationDlg
+<a id="VM_Managed_DAFUL_Operation_ShowSimulationDlg"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class ShowSimulationDlg : SimulationRun, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SimulationRun](VM.Managed.DAFUL.Operation.SimulationRun.md) ← 
 [ShowSimulationDlg](VM.Managed.DAFUL.Operation.ShowSimulationDlg.md)
@@ -37,6 +38,7 @@ IOperation
 [SimulationRun.ApplySimulation\(SimulationFormBase\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_ApplySimulation\_VM\_Managed\_DAFUL\_Pre\_Forms\_SimulationFormBase\_), 
 [SimulationRun.ExecuteImpl\(\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_ExecuteImpl), 
 [SimulationRun.ExecuteImplNotPrePareSimulation\(\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_ExecuteImplNotPrePareSimulation), 
+[SimulationRun.WriteJournalCore\(string\)](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_WriteJournalCore\_System\_String\_), 
 [SimulationRun.Name](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_Name), 
 [SimulationRun.SimulationForm](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_SimulationForm), 
 [SimulationRun.NotPrePareSimulation](VM.Managed.DAFUL.Operation.SimulationRun.md\#VM\_Managed\_DAFUL\_Operation\_SimulationRun\_NotPrePareSimulation), 
@@ -132,7 +134,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -162,7 +164,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 #### Parameters
 
-`bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bWriteDFG` bool
 
 if set to <code>true</code> [write DFG].
 

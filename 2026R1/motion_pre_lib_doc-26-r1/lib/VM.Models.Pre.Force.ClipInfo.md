@@ -1,4 +1,5 @@
-#  Class ClipInfo
+# Class ClipInfo
+<a id="VM_Models_Pre_Force_ClipInfo"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class ClipInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ClipInfo](VM.Models.Pre.Force.ClipInfo.md)
 
 #### Extension Methods
@@ -28,13 +29,13 @@ public ClipInfo(int LeafNumberOfTop, int LeafNumberofBottom, double DistanceFrom
 
 #### Parameters
 
-`LeafNumberOfTop` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`LeafNumberOfTop` int
 
-`LeafNumberofBottom` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`LeafNumberofBottom` int
 
-`DistanceFromCenter` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`DistanceFromCenter` double
 
-`VerticalHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`VerticalHeight` double
 
 ## Properties
 
@@ -46,7 +47,7 @@ public int FixedBodySeq { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_Force_ClipInfo_ListContactSeq"></a> ListContactSeq
 
@@ -56,7 +57,7 @@ public List<(int body, int leaf)> ListContactSeq { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<\([int](https://learn.microsoft.com/dotnet/api/system.int32) [body](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.body), [int](https://learn.microsoft.com/dotnet/api/system.int32) [leaf](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.leaf)\)\>
+ List<\(int body, int leaf\)\>
 
 ### <a id="VM_Models_Pre_Force_ClipInfo_Position"></a> Position
 

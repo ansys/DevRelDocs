@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.Car.Operation
+# Namespace VM.Managed.DAFUL.Car.Operation
+<a id="VM_Managed_DAFUL_Car_Operation"></a>
 
 ### Classes
 
@@ -65,6 +66,26 @@ The export dfs file for solver operation
  [ExportDFSForTire](VM.Managed.DAFUL.Car.Operation.ExportDFSForTire.md)
 
 The export xml file for solver operation
+
+ [ExportFiles](VM.Managed.DAFUL.Car.Operation.ExportFiles.md)
+
+ [ExportFilesForFourPost](VM.Managed.DAFUL.Car.Operation.ExportFilesForFourPost.md)
+
+ [ExportFilesForFullCar](VM.Managed.DAFUL.Car.Operation.ExportFilesForFullCar.md)
+
+ [ExportFilesForShimmyJudder](VM.Managed.DAFUL.Car.Operation.ExportFilesForShimmyJudder.md)
+
+ [ExportFilesForTire](VM.Managed.DAFUL.Car.Operation.ExportFilesForTire.md)
+
+ [ExportMotionFiles](VM.Managed.DAFUL.Car.Operation.ExportMotionFiles.md)
+
+ [ExportMotionFilesForFourPost](VM.Managed.DAFUL.Car.Operation.ExportMotionFilesForFourPost.md)
+
+ [ExportMotionFilesForFullCar](VM.Managed.DAFUL.Car.Operation.ExportMotionFilesForFullCar.md)
+
+ [ExportMotionFilesForShimmyJudder](VM.Managed.DAFUL.Car.Operation.ExportMotionFilesForShimmyJudder.md)
+
+ [ExportMotionFilesForTire](VM.Managed.DAFUL.Car.Operation.ExportMotionFilesForTire.md)
 
  [ExportXML](VM.Managed.DAFUL.Car.Operation.ExportXML.md)
 

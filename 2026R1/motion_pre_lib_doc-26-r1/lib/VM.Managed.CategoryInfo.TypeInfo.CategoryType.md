@@ -1,4 +1,5 @@
-#  Class CategoryInfo.TypeInfo.CategoryType
+# Class CategoryInfo.TypeInfo.CategoryType
+<a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class CategoryInfo.TypeInfo.CategoryType
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CategoryInfo.TypeInfo.CategoryType](VM.Managed.CategoryInfo.TypeInfo.CategoryType.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public string Category
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType_Image"></a> Image
 
@@ -48,7 +49,7 @@ public string Image
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType_Name"></a> Name
 
@@ -58,5 +59,5 @@ public string Name
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

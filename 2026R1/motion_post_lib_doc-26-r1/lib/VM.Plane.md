@@ -1,11 +1,12 @@
-#  Enum Plane
+# Enum Plane
+<a id="VM_Plane"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 Specifies type for the plane.
 
-```python
+```csharp
 public enum Plane
 ```
 
@@ -44,7 +45,6 @@ ZX.
 `ZY = 3` 
 
 ZY.
-
 
 
 

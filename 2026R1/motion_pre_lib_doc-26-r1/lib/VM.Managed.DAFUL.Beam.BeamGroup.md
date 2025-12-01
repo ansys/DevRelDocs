@@ -1,4 +1,5 @@
-#  Class BeamGroup
+# Class BeamGroup
+<a id="VM_Managed_DAFUL_Beam_BeamGroup"></a>
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VMDBeamGroup.dll  
@@ -12,13 +13,13 @@ public class BeamGroup : Group, IObservableObject, IDisposableObject, ILinkable,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
-Group ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
+[Group](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs) ← 
 [BeamGroup](VM.Managed.DAFUL.Beam.BeamGroup.md)
 
 #### Implements
@@ -28,7 +29,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -53,36 +54,36 @@ IReportable
 
 #### Inherited Members
 
-Group.OnLinkReserved\(ILink, object, EventArgs\), 
-Group.OnDeserialization\(object\), 
-Group.FixUp\(ObjectBase\), 
-Group.GetSolidBody\(\), 
-Group.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-Group.AddObject\(ObjectBase\), 
-Group.RemoveObject\(ObjectBase\), 
-Group.AddAction\(GroupActionBase\), 
-Group.ActionNames\(\), 
-Group.ExcuteAction\(GroupActionBase, bool\), 
-Group.ExcuteAction\(string, bool\), 
-Group.StateAction\(string\), 
-Group.GetLayerImpl\(\), 
-Group.SetLayerImpl\(Layer\), 
-Group.IsEnabled, 
-Group.Objects, 
-Group.IsVisible, 
-Group.ReferenceType, 
-Group.ArgumentType, 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[Group.OnLinkReserved\(ILink, object, EventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.GetSolidBody\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.AddObject\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.RemoveObject\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.AddAction\(GroupActionBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.ActionNames\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.ExcuteAction\(GroupActionBase, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.ExcuteAction\(string, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.StateAction\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.GetLayerImpl\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.SetLayerImpl\(Layer\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.Objects](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[Group.ArgumentType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Group.cs), 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -175,7 +176,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -214,7 +215,7 @@ public BeamGroup(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 BeamGroup Name
 
@@ -242,7 +243,7 @@ public List<Vector> DefaultBodyPoints { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamGroup_Hide"></a> Hide
 
@@ -254,7 +255,7 @@ public bool Hide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamGroup_RestoretoStraight"></a> RestoretoStraight
 
@@ -266,7 +267,7 @@ public bool RestoretoStraight { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamGroup_SyncBeamBodyProp"></a> SyncBeamBodyProp
 
@@ -278,7 +279,7 @@ public bool SyncBeamBodyProp { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamGroup_UseBeamForce"></a> UseBeamForce
 
@@ -290,7 +291,7 @@ public bool UseBeamForce { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -318,13 +319,13 @@ public static SolidBody CreateSolidBody(string name, Vector vecPoint)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 `vecPoint` Vector
 
 #### Returns
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Managed_DAFUL_Beam_BeamGroup_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
@@ -336,7 +337,7 @@ public void Draw(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 Canvas to draw beam geometry
 
@@ -354,7 +355,7 @@ protected override Layer GetLayerImpl()
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Document of Group object is null.
 
@@ -414,7 +415,7 @@ Currnet beam information
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -428,13 +429,13 @@ public bool IsFirstBody(SolidBody solidBody)
 
 #### Parameters
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 Body to check
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -454,7 +455,7 @@ Currnet beam information
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -468,13 +469,13 @@ public bool IsLastBody(SolidBody solidBody)
 
 #### Parameters
 
-`solidBody` SolidBody
+`solidBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 Body to check
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 It's true or false
 
@@ -488,7 +489,7 @@ protected override void LinkRequestDestroy(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -506,7 +507,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -524,7 +525,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

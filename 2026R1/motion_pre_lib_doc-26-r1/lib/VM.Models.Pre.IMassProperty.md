@@ -1,4 +1,5 @@
-#  Interface IMassProperty
+# Interface IMassProperty
+<a id="VM_Models_Pre_IMassProperty"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -25,7 +26,7 @@ void GetMassProperty(ref double mass, Vector centerPosition, OMatrix matrix, dou
 
 #### Parameters
 
-`mass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mass` double
 
 The mass.
 
@@ -37,11 +38,11 @@ The center position.
 
 The orientation.
 
-`tensor` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`tensor` double\[\]
 
 The tensor.
 
-`global` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`global` bool
 
 Global.
 
@@ -55,7 +56,7 @@ void SetMassProperty(double mass, Vector centerPosition, OMatrix matrix, double[
 
 #### Parameters
 
-`mass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mass` double
 
 The mass.
 
@@ -67,11 +68,11 @@ The center position.
 
 The orientation.
 
-`tensor` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`tensor` double\[\]
 
 The tensor.
 
-`global` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`global` bool
 
 Global.
 

@@ -1,4 +1,5 @@
-#  Delegate OperationBase.EndOperation
+# Delegate OperationBase.EndOperation
+<a id="VM_Managed_Operation_OperationBase_EndOperation"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,11 +12,11 @@ public delegate void OperationBase.EndOperation(object obj, EventArgs arg)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The object.
 
-`arg` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+`arg` EventArgs
 
 The argument.
 

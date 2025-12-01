@@ -1,4 +1,5 @@
-#  Class CycloidalReducerAPI
+# Class CycloidalReducerAPI
+<a id="VM_API_Pre_GearTrain_CycloidalReducerAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class CycloidalReducerAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CycloidalReducerAPI](VM.API.Pre.GearTrain.CycloidalReducerAPI.md)
 
 #### Extension Methods
@@ -35,7 +36,7 @@ public static Obj CreateCycloidalReducer(this GearTrainDocument document, Vector
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> to create the RV reducer.
 
@@ -47,35 +48,35 @@ The reference position of the RV reducer.
 
 The position of the RV reducer.
 
-`housing` Obj
+`housing` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base entity of the RV reducer.
 
-`outputSharft` Obj
+`outputSharft` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The output sharft of the RV reducer.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the RV reducer. If empty, default name starts with 'Cycloidal_Reducer' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.RVReducer" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'housing', 'outputSharft' argument is empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'housing' is not <xref href="VM.Managed.DAFUL.GearTrain.HousingMeshFree" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.GearTrain.HousingFE" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'outputSharft' is not <xref href="VM.Managed.DAFUL.GearTrain.IShaftSet" data-throw-if-not-resolved="false"></xref>.
 

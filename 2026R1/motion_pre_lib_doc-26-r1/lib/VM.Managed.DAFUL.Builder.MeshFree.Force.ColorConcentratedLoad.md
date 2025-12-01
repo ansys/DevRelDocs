@@ -1,4 +1,5 @@
-#  Class ColorConcentratedLoad
+# Class ColorConcentratedLoad
+<a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ColorConcentratedLoad"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Force](VM.Managed.DAFUL.Builder.MeshFree.Force.md)  
 Assembly: VMBldMeshFree.dll  
@@ -9,10 +10,10 @@ public class ColorConcentratedLoad : BuilderNamed<ConcentratedLoad>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<ConcentratedLoad\> ← 
-BuilderSymmetric<ConcentratedLoad\> ← 
-BuilderNamed<ConcentratedLoad\> ← 
+object ← 
+[BuilderBase<ConcentratedLoad\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<ConcentratedLoad\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<ConcentratedLoad\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [ColorConcentratedLoad](VM.Managed.DAFUL.Builder.MeshFree.Force.ColorConcentratedLoad.md)
 
 #### Implements
@@ -21,29 +22,29 @@ IBuilder
 
 #### Inherited Members
 
-BuilderNamed<ConcentratedLoad\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<ConcentratedLoad\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<ConcentratedLoad\>.Name, 
-BuilderSymmetric<ConcentratedLoad\>.Build\(Document\), 
-BuilderSymmetric<ConcentratedLoad\>.Symmetric, 
-BuilderSymmetric<ConcentratedLoad\>.CurrentSymmetric, 
-BuilderBase<ConcentratedLoad\>.m\_bSuccess, 
-BuilderBase<ConcentratedLoad\>.Build\(Document\), 
-BuilderBase<ConcentratedLoad\>.Build\(Document, List<string\>\), 
-BuilderBase<ConcentratedLoad\>.Validate\(IList<string\>\), 
-BuilderBase<ConcentratedLoad\>.Success\(\), 
-BuilderBase<ConcentratedLoad\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<ConcentratedLoad\>.OnFinalBuild\(string, Document\), 
-BuilderBase<ConcentratedLoad\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<ConcentratedLoad\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<ConcentratedLoad\>.Parameters, 
-BuilderBase<ConcentratedLoad\>.AddToDoc, 
-BuilderBase<ConcentratedLoad\>.UseChangedObject, 
-BuilderBase<ConcentratedLoad\>.SetPointKey, 
-BuilderBase<ConcentratedLoad\>.BuildObject, 
-BuilderBase<ConcentratedLoad\>.BuildDocument, 
-BuilderBase<ConcentratedLoad\>.UseInterface, 
-BuilderBase<ConcentratedLoad\>.ErrorMessage
+[BuilderNamed<ConcentratedLoad\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ConcentratedLoad\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ConcentratedLoad\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<ConcentratedLoad\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ConcentratedLoad\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ConcentratedLoad\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ConcentratedLoad\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -69,7 +70,7 @@ public string[] ColorArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ColorConcentratedLoad_Connectable"></a> Connectable
 
@@ -89,7 +90,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -107,7 +108,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ColorConcentratedLoad_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -117,9 +118,9 @@ public override bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

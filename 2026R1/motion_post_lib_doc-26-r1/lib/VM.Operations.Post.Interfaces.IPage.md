@@ -1,24 +1,28 @@
-#  Interface IPage
+# Interface IPage
+<a id="VM_Operations_Post_Interfaces_IPage"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 The IPage interface manages views within a page. It provides functionalities for creating, finding, and closing views.
 
-```python
+```csharp
 public interface IPage
 ```
 
 ## Examples
 
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IPage.py
+```python
+# IPage.py
 import sys
 
+# Get the path of the current file and append the external modules path
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -32,22 +36,39 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
 page.FullName = "Page1"
 
+# Add a new page
+# This will create a new page and activate it.
+# You can specify the page name when the page is created.
 page2 = applicationHandler.AddPage("Page2")
 page.Activate()
 
-# Create View
+# result_file_path - Get the document from the result file path.
 document = applicationHandler.GetDocument(result_file_path)
+
+# This retrieves the analysis result from the document.
+# Types of Analysis Results
+# - Dynamics
+# - Eigenvalue
+# - Statics
 dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 
+# Create an Animation View on the active page
+# This will create an animation view based on the dynamic analysis.
 animation = page.CreateAnimation(dynamic_analysis, "ResultAnimation")
 
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chart = page.CreateChart("Chart")
 
 page2.Activate()
@@ -56,17 +77,20 @@ page2.Close()
 page.CloseView(animation)
 page.CloseView(chart.ID)
 
+# Get Active View
+# This retrieves the currently active view in the page.
 activeView = page.GetActiveView()
 page.CloseView(activeView)
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -74,13 +98,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the name of the page.
 
-```python
+```csharp
 string FullName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -96,13 +120,13 @@ This property is typically used in scenarios where the page's name is needed for
 
 Gets the unique identifier of the page.
 
-```python
+```csharp
 Guid ID { get; }
 ```
 
 #### Property Value
 
- [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+ Guid
 
 #### Examples
 
@@ -120,7 +144,7 @@ This unique identifier is typically used in scenarios where a distinct and consi
 
 Activates the page.
 
-```python
+```csharp
 void Activate()
 ```
 
@@ -138,7 +162,7 @@ Only one page can be active at any given time.
 
 Closes the current page.
 
-```python
+```csharp
 void Close()
 ```
 
@@ -155,7 +179,7 @@ When this method is called, the page will be removed from view and any resources
 
 Closes a view within the current page.
 
-```python
+```csharp
 void CloseView(IView view)
 ```
 
@@ -179,13 +203,13 @@ The view parameter represents either an Animation View or a Chart View that is t
 
 Closes a view within the current page.
 
-```python
+```csharp
 void CloseView(int id)
 ```
 
 #### Parameters
 
-`id` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`id` int
 
 The unique identifier of the view to be closed. This can represent an Animation View or a Chart View.
 
@@ -203,13 +227,13 @@ The viewID parameter represents the unique identifier of either an Animation Vie
 
 Closes a view within the current page.
 
-```python
+```csharp
 void CloseView(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the view to be closed. This can represent an Animation View or a Chart View.
 
@@ -228,7 +252,7 @@ The name parameter represents the name of either an Animation View or a Chart Vi
 Creates an animation view to display the analyzed results on the current page.
 The CreateAnimation method is used to create an animation view that displays the analyzed results on the current page.
 
-```python
+```csharp
 IOperationsAnimation CreateAnimation(IAnalysisResultViewModel analysis, string name = null)
 ```
 
@@ -238,7 +262,7 @@ IOperationsAnimation CreateAnimation(IAnalysisResultViewModel analysis, string n
 
 Represents one of the multiple analysis results contained within the analyzed data.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The initial name for the animation view. If not specified, a default name will be used.
 
@@ -262,13 +286,13 @@ The analysis parameter specifies the particular result to be visualized, while t
 Creates a chart view to draw a 2D curve.
 The CreateChart method is used to create a chart view for drawing 2D curves.
 
-```python
+```csharp
 IOperationsLine2DViewModelBase CreateChart(string name = null)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The initial name for the chart view. If not specified, a default name will be used.
 
@@ -291,7 +315,7 @@ The optional name parameter allows for naming the chart view during its creation
 
 Retrieves the currently active view within the page.
 
-```python
+```csharp
 IView GetActiveView()
 ```
 
@@ -315,13 +339,13 @@ If no view is currently active, the method returns null.
 Finds and returns a view within the current page.
 The GetView method is used to retrieve a specific view within the page by its ID.
 
-```python
+```csharp
 IView GetView(int id)
 ```
 
 #### Parameters
 
-`id` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`id` int
 
 The unique identifier of the view to be retrieved.
 
@@ -345,13 +369,13 @@ If the view with the specified ID is not found, the method returns null.
 Finds and returns a view within the current page.
 The GetView method is used to retrieve a specific view within the page by its name.
 
-```python
+```csharp
 IView GetView(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the view to be retrieved.
 
@@ -374,7 +398,7 @@ If the view with the specified name is not found, the method returns null.
 
 Retrieves all views within the current page.
 
-```python
+```csharp
 IView[] GetViews()
 ```
 
@@ -391,5 +415,4 @@ For an example that includes this property, see the [Interface IPage](VM.Operati
 #### Remarks
 
 The <xref href="VM.Operations.Post.Interfaces.IPage.GetViews" data-throw-if-not-resolved="false"></xref> method is used to locate and return all views within the current page. If no views are present, the method returns an empty array.
-
 

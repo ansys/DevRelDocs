@@ -1,4 +1,5 @@
-#  Class Settings
+# Class Settings
+<a id="VM_Managed_DAFUL_Linear_Settings"></a>
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -11,17 +12,17 @@ public class Settings : SettingsBase<Settings>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[SettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.settingsbase) ← 
-[ApplicationSettingsBase](https://learn.microsoft.com/dotnet/api/system.configuration.applicationsettingsbase) ← 
-SettingsBase<Settings\> ← 
+object ← 
+SettingsBase ← 
+ApplicationSettingsBase ← 
+[SettingsBase<Settings\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs) ← 
 [Settings](VM.Managed.DAFUL.Linear.Settings.md)
 
 #### Inherited Members
 
-SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\), 
-SettingsBase<Settings\>.Default, 
-SettingsBase<Settings\>.RootPath
+[SettingsBase<Settings\>.GetProperty<TSettingType\>\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.Default](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs), 
+[SettingsBase<Settings\>.RootPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VMManagedUtil/SettingsBase.cs)
 
 #### Extension Methods
 
@@ -50,7 +51,7 @@ public double LowerBoundFrequency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Linear_Settings_MaximumNumberOfNormalMode"></a> MaximumNumberOfNormalMode
 
@@ -63,7 +64,7 @@ public uint MaximumNumberOfNormalMode { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_Linear_Settings_PenaltyValue"></a> PenaltyValue
 
@@ -76,7 +77,7 @@ public double PenaltyValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Linear_Settings_ShiftValue"></a> ShiftValue
 
@@ -89,7 +90,7 @@ public double ShiftValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Linear_Settings_UpperBoundFrequency"></a> UpperBoundFrequency
 
@@ -102,7 +103,7 @@ public double UpperBoundFrequency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Linear_Settings_UseAutoPenalty"></a> UseAutoPenalty
 
@@ -115,7 +116,7 @@ public bool UseAutoPenalty { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Linear_Settings_UseAutoShift"></a> UseAutoShift
 
@@ -128,7 +129,7 @@ public bool UseAutoShift { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Linear_Settings_UseBoundFrequency"></a> UseBoundFrequency
 
@@ -141,7 +142,7 @@ public bool UseBoundFrequency { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

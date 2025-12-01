@@ -1,4 +1,5 @@
-#  Class DOEInformationBase
+# Class DOEInformationBase
+<a id="VM_Managed_DAFUL_DOE_DOEInformationBase"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -9,9 +10,9 @@ public class DOEInformationBase : LinkContainer, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [DOEInformationBase](VM.Managed.DAFUL.DOE.DOEInformationBase.md)
 
@@ -78,7 +79,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -115,7 +116,7 @@ public string FullPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_Index"></a> Index
 
@@ -125,7 +126,7 @@ public int Index { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_Path"></a> Path
 
@@ -135,7 +136,7 @@ public string Path { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_Target"></a> Target
 
@@ -155,5 +156,5 @@ public bool UseRun { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

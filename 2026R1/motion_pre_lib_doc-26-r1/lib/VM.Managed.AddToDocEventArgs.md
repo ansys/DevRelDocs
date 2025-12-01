@@ -1,4 +1,5 @@
-#  Class AddToDocEventArgs
+# Class AddToDocEventArgs
+<a id="VM_Managed_AddToDocEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public sealed class AddToDocEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)
 
 #### Extension Methods
@@ -37,11 +38,11 @@ public AddToDocEventArgs(Document doc, bool bBackup, bool bLoading)
 
 The document.
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 The backup flag.
 
-`bLoading` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bLoading` bool
 
 The loading flag.
 
@@ -69,7 +70,7 @@ public bool IsBackup { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_AddToDocEventArgs_IsLoading"></a> IsLoading
 
@@ -81,5 +82,5 @@ public bool IsLoading { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

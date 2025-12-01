@@ -1,4 +1,5 @@
-#  Class EigenvalueAnalysisParameter
+# Class EigenvalueAnalysisParameter
+<a id="VM_Managed_EigenvalueAnalysisParameter"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class EigenvalueAnalysisParameter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [EigenvalueAnalysisParameter](VM.Managed.EigenvalueAnalysisParameter.md)
 
 #### Extension Methods
@@ -40,27 +41,27 @@ public EigenvalueAnalysisParameter(uint nMaximumNumberOfMode, bool bUseBound, do
 
 #### Parameters
 
-`nMaximumNumberOfMode` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nMaximumNumberOfMode` uint
 
 The n maximum number of mode.
 
-`bUseBound` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseBound` bool
 
 if set to <code>true</code> [b use bound].
 
-`dLowerBound` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLowerBound` double
 
 The lower bound.
 
-`dUpperBound` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dUpperBound` double
 
 The upper bound.
 
-`dShiftValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dShiftValue` double
 
 The shift value.
 
-`dPenaltyValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPenaltyValue` double
 
 The penalty value.
 
@@ -76,7 +77,7 @@ public bool IsUseAutoPenalty { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseAutoShift"></a> IsUseAutoShift
 
@@ -88,7 +89,7 @@ public bool IsUseAutoShift { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseBound"></a> IsUseBound
 
@@ -100,7 +101,7 @@ public bool IsUseBound { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseFullMethod"></a> IsUseFullMethod
 
@@ -112,7 +113,7 @@ public bool IsUseFullMethod { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseLocalRefinement"></a> IsUseLocalRefinement
 
@@ -124,7 +125,7 @@ public bool IsUseLocalRefinement { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseNumberOfDomain"></a> IsUseNumberOfDomain
 
@@ -136,7 +137,7 @@ public bool IsUseNumberOfDomain { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_LowerBoundGlobal"></a> LowerBoundGlobal
 
@@ -148,7 +149,7 @@ public static double LowerBoundGlobal { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_LowerBoundValue"></a> LowerBoundValue
 
@@ -160,7 +161,7 @@ public double LowerBoundValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_MaxNumberOfMode"></a> MaxNumberOfMode
 
@@ -172,7 +173,7 @@ public uint MaxNumberOfMode { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_MaximumNumberOfModeGlobal"></a> MaximumNumberOfModeGlobal
 
@@ -184,7 +185,7 @@ public static uint MaximumNumberOfModeGlobal { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_MinMassRatio"></a> MinMassRatio
 
@@ -196,7 +197,7 @@ public double MinMassRatio { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_NumOfCluster"></a> NumOfCluster
 
@@ -208,7 +209,7 @@ public int NumOfCluster { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_NumOfDomain"></a> NumOfDomain
 
@@ -220,7 +221,7 @@ public int NumOfDomain { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_NumOfParentDomain"></a> NumOfParentDomain
 
@@ -232,7 +233,7 @@ public int NumOfParentDomain { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_OrderValue"></a> OrderValue
 
@@ -244,7 +245,7 @@ public int OrderValue { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_OwnerLinkContainer"></a> OwnerLinkContainer
 
@@ -268,7 +269,7 @@ public double[] ParameterArray { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_PenaltyVal"></a> PenaltyVal
 
@@ -280,7 +281,7 @@ public double PenaltyVal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_PenaltyValueGlobal"></a> PenaltyValueGlobal
 
@@ -292,7 +293,7 @@ public static double PenaltyValueGlobal { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_RatioVal"></a> RatioVal
 
@@ -304,7 +305,7 @@ public double RatioVal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_ReferenceStressVal"></a> ReferenceStressVal
 
@@ -316,7 +317,7 @@ public double ReferenceStressVal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_RefinedDomainLevel"></a> RefinedDomainLevel
 
@@ -328,7 +329,7 @@ public int RefinedDomainLevel { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_ShiftVal"></a> ShiftVal
 
@@ -340,7 +341,7 @@ public double ShiftVal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_ShiftValueGlobal"></a> ShiftValueGlobal
 
@@ -352,7 +353,7 @@ public static double ShiftValueGlobal { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_TypeOfMode"></a> TypeOfMode
 
@@ -376,7 +377,7 @@ public static double UpperBoundGlobal { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_UpperBoundValue"></a> UpperBoundValue
 
@@ -388,7 +389,7 @@ public double UpperBoundValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_UseAutoPenaltyGlobal"></a> UseAutoPenaltyGlobal
 
@@ -400,7 +401,7 @@ public static bool UseAutoPenaltyGlobal { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_UseAutoShiftGlobal"></a> UseAutoShiftGlobal
 
@@ -412,7 +413,7 @@ public static bool UseAutoShiftGlobal { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_EigenvalueAnalysisParameter_UseBoundGlobal"></a> UseBoundGlobal
 
@@ -424,7 +425,7 @@ public static bool UseBoundGlobal { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -438,35 +439,35 @@ public static void Initialize(uint nMaximumNumberOfMode, bool bUseBound, double 
 
 #### Parameters
 
-`nMaximumNumberOfMode` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nMaximumNumberOfMode` uint
 
 The n maximum number of mode.
 
-`bUseBound` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseBound` bool
 
 if set to <code>true</code> [b use bound].
 
-`dLowerBound` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLowerBound` double
 
 The lower bound.
 
-`dUpperBound` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dUpperBound` double
 
 The upper bound.
 
-`dShiftValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dShiftValue` double
 
 The shift value.
 
-`bAutoShift` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAutoShift` bool
 
 if set to <code>true</code> [auto shift value].
 
-`dPenaltyValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPenaltyValue` double
 
 The penalty value.
 
-`bAutoPenalty` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAutoPenalty` bool
 
 if set to <code>true</code> [auto penalty value].
 

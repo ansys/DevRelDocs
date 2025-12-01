@@ -1,4 +1,5 @@
-#  Class Document3D
+# Class Document3D
+<a id="VM_Managed_Document3D"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public abstract class Document3D : HandledDocument, IObservableObject, IDisposab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Container](VM.Managed.Container.md) ← 
 [Document](VM.Managed.Document.md) ← 
@@ -29,7 +30,7 @@ ILinkable,
 [IVerifiable](VM.Managed.IVerifiable.md), 
 [IEnableManager](VM.Managed.IEnableManager.md), 
 [IRelatedDocument](VM.Managed.IRelatedDocument.md), 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [ITemplateDocument](VM.Managed.ITemplateDocument.md), 
 IDocument3D, 
 IHandledDocument, 
@@ -250,7 +251,7 @@ IDocumentOwner,
 [LinkContainer.OnDestroying](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnDestroying), 
 [LinkContainer.OnUpdate](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdate), 
 [LinkContainer.OnUpdating](VM.Managed.LinkContainer.md\#VM\_Managed\_LinkContainer\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -281,7 +282,7 @@ public Document3D(UIntPtr pDoc)
 
 #### Parameters
 
-`pDoc` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pDoc` UIntPtr
 
 ## Fields
 
@@ -315,7 +316,7 @@ protected bool m_bReload
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_m_dicCategory"></a> m\_dicCategory
 
@@ -326,7 +327,7 @@ protected Dictionary<string, LinkedList<Child<ObjectBase, LinkContainer.Update>>
 
 #### Field Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[Child](VM.Managed.Child\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>\>\>
+ Dictionary<string, LinkedList<[Child](VM.Managed.Child\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>\>\>
 
 ### <a id="VM_Managed_Document3D_m_dicCategoryCollection"></a> m\_dicCategoryCollection
 
@@ -338,7 +339,7 @@ protected Dictionary<string, LinkLinkedList<ObjectBase, Child<ObjectBase, LinkCo
 
 #### Field Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [LinkLinkedList](VM.Managed.Collections.LinkLinkedList\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [Child](VM.Managed.Child\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>\>\>
+ Dictionary<string, [LinkLinkedList](VM.Managed.Collections.LinkLinkedList\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [Child](VM.Managed.Child\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>\>\>
 
 ### <a id="VM_Managed_Document3D_m_lstAssem"></a> m\_lstAssem
 
@@ -360,7 +361,7 @@ protected string m_strVersion
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -386,7 +387,7 @@ public override bool CanClose { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_Categories"></a> Categories
 
@@ -398,7 +399,7 @@ public ICollection<string> Categories { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ ICollection<string\>
 
 ### <a id="VM_Managed_Document3D_CategoryInfo"></a> CategoryInfo
 
@@ -420,7 +421,7 @@ protected bool ChangeReference { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_CommentOfDocument"></a> CommentOfDocument
 
@@ -433,7 +434,7 @@ public string CommentOfDocument { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_CountOfSelectionObject"></a> CountOfSelectionObject
 
@@ -445,7 +446,7 @@ public int CountOfSelectionObject { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Document3D_CountOfUnderCursorObject"></a> CountOfUnderCursorObject
 
@@ -457,7 +458,7 @@ public int CountOfUnderCursorObject { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Document3D_CountOfUnderCursorPickableObject"></a> CountOfUnderCursorPickableObject
 
@@ -469,7 +470,7 @@ public int CountOfUnderCursorPickableObject { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Document3D_CurrentBasicOp"></a> CurrentBasicOp
 
@@ -517,7 +518,7 @@ public bool DoingCreateEntityOperation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_DoingTemplateBasedXml"></a> DoingTemplateBasedXml
 
@@ -529,7 +530,7 @@ public bool DoingTemplateBasedXml { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_ExtensionName"></a> ExtensionName
 
@@ -541,7 +542,7 @@ public string ExtensionName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_Format"></a> Format
 
@@ -565,7 +566,7 @@ public bool FromTemplate { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_IconSize"></a> IconSize
 
@@ -577,7 +578,7 @@ public virtual double IconSize { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Document3D_InitialCategories"></a> InitialCategories
 
@@ -589,7 +590,7 @@ protected abstract List<string> InitialCategories { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_Document3D_IsAdvancedMode"></a> IsAdvancedMode
 
@@ -601,7 +602,7 @@ public bool IsAdvancedMode { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_IsPropertySupport"></a> IsPropertySupport
 
@@ -613,7 +614,7 @@ public virtual bool IsPropertySupport { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_LayerManager"></a> LayerManager
 
@@ -637,7 +638,7 @@ public List<Exception> LoadingExceptions { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Exception](https://learn.microsoft.com/dotnet/api/system.exception)\>
+ List<Exception\>
 
 ### <a id="VM_Managed_Document3D_MessageWhenLoad"></a> MessageWhenLoad
 
@@ -649,7 +650,7 @@ public string MessageWhenLoad { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_Modified"></a> Modified
 
@@ -661,7 +662,7 @@ public override bool Modified { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_NodalBodyList"></a> NodalBodyList
 
@@ -685,7 +686,7 @@ public List<INodalOutputCandidate> NodalOutputCandidateObjects { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[INodalOutputCandidate](VM.Managed.INodalOutputCandidate.md)\>
+ List<[INodalOutputCandidate](VM.Managed.INodalOutputCandidate.md)\>
 
 ### <a id="VM_Managed_Document3D_SelectionObjects"></a> SelectionObjects
 
@@ -697,7 +698,7 @@ public List<ObjectBase> SelectionObjects { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_SkipUIUpdating"></a> SkipUIUpdating
 
@@ -709,7 +710,7 @@ public bool SkipUIUpdating { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_SymmetricPlane"></a> SymmetricPlane
 
@@ -733,7 +734,7 @@ public string TemplatePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_ToolKitName"></a> ToolKitName
 
@@ -745,7 +746,7 @@ public string ToolKitName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_UnderCursorObjects"></a> UnderCursorObjects
 
@@ -757,7 +758,7 @@ public List<ObjectBase> UnderCursorObjects { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_UnderCursorPickableObjects"></a> UnderCursorPickableObjects
 
@@ -769,7 +770,7 @@ public List<ObjectBase> UnderCursorPickableObjects { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_UseMultipleAddition"></a> UseMultipleAddition
 
@@ -781,7 +782,7 @@ public bool UseMultipleAddition { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_UseSymmetric"></a> UseSymmetric
 
@@ -793,7 +794,7 @@ public bool UseSymmetric { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_VersionInfo"></a> VersionInfo
 
@@ -805,7 +806,7 @@ public string VersionInfo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_VisibleTarget"></a> VisibleTarget
 
@@ -827,7 +828,7 @@ public ICollection<ObjectBase> this[string strCategory] { get; }
 
 #### Property Value
 
- [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ ICollection<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ## Methods
 
@@ -857,11 +858,11 @@ public void ActiveCurveset(UIntPtr curveset_key, bool bActive)
 
 #### Parameters
 
-`curveset_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`curveset_key` UIntPtr
 
 The edge key.
 
-`bActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActive` bool
 
 if set to <code>true</code> active.
 
@@ -875,11 +876,11 @@ public void ActiveFaceset(UIntPtr faceset_key, bool bActive)
 
 #### Parameters
 
-`faceset_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`faceset_key` UIntPtr
 
 The facet key.
 
-`bActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActive` bool
 
 if set to <code>true</code> active.
 
@@ -891,7 +892,7 @@ public void ActiveObject(List<ObjectBase> lstObject)
 
 #### Parameters
 
-`lstObject` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstObject` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_Add_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> Add\(ObjectBase, ObjectBase\)
 
@@ -949,7 +950,7 @@ public void AddInterface(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The interface information.
 
@@ -967,7 +968,7 @@ public virtual void AddNewReference(ObjectBase[] arObj, string strCategory)
 
 The object array.
 
-`strCategory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategory` string
 
 The category name.
 
@@ -1017,7 +1018,7 @@ public void ChangeKernelUnitWithScale(string strLength)
 
 #### Parameters
 
-`strLength` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strLength` string
 
 The length unit.
 
@@ -1043,7 +1044,7 @@ public virtual string CheckMassPropForCADImport()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The error message.
 
@@ -1061,7 +1062,7 @@ public void ChildAdd(ObjectBase obj, string strXml)
 
 The object.
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The information.
 
@@ -1079,7 +1080,7 @@ public void ChildRemove(ObjectBase obj, string strXml)
 
 The object.
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The information.
 
@@ -1097,7 +1098,7 @@ public void ChildRename(ObjectBase obj, string strXml)
 
 The object.
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The information.
 
@@ -1115,7 +1116,7 @@ public void ChildUpdate(ObjectBase obj, string strXml)
 
 The object.
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The information.
 
@@ -1151,7 +1152,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_CreateAssembly"></a> CreateAssembly\(\)
 
@@ -1189,13 +1190,13 @@ public Canvas CreateCanvas(bool bThreadSafeCanvas)
 
 #### Parameters
 
-`bThreadSafeCanvas` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bThreadSafeCanvas` bool
 
 if set to <code>true</code> thread safely canvas.
 
 #### Returns
 
- Canvas
+ [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 
@@ -1209,7 +1210,7 @@ public Canvas CreateCanvas()
 
 #### Returns
 
- Canvas
+ [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 
@@ -1223,7 +1224,7 @@ public override View CreateView(UIntPtr hWnd)
 
 #### Parameters
 
-`hWnd` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`hWnd` UIntPtr
 
 The view handle.
 
@@ -1241,7 +1242,7 @@ protected virtual View CreateViewCore(UIntPtr pView)
 
 #### Parameters
 
-`pView` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pView` UIntPtr
 
 The view handle.
 
@@ -1263,9 +1264,9 @@ public void DeleteCore(List<ObjectBase> lstObjNew, List<DestroyEventArgs> lstArg
 
 #### Parameters
 
-`lstObjNew` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstObjNew` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
-`lstArg` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DestroyEventArgs](VM.Managed.DestroyEventArgs.md)\>
+`lstArg` List<[DestroyEventArgs](VM.Managed.DestroyEventArgs.md)\>
 
 ### <a id="VM_Managed_Document3D_DeleteObjectBases_VM_Managed_DestroyType__System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__System_Boolean_"></a> DeleteObjectBases\(ref DestroyType, IEnumerable<ObjectBase\>, bool\)
 
@@ -1277,13 +1278,13 @@ public bool DeleteObjectBases(ref DestroyType typeDestroy, IEnumerable<ObjectBas
 
 `typeDestroy` [DestroyType](VM.Managed.DestroyType.md)
 
-`targetObjectBases` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`targetObjectBases` IEnumerable<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
-`bNotUseDelMsg` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNotUseDelMsg` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_DeleteObjectBases_VM_Managed_DestroyType__System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__"></a> DeleteObjectBases\(ref DestroyType, IEnumerable<ObjectBase\>\)
 
@@ -1295,11 +1296,11 @@ public bool DeleteObjectBases(ref DestroyType typeDestroy, IEnumerable<ObjectBas
 
 `typeDestroy` [DestroyType](VM.Managed.DestroyType.md)
 
-`targetObjectBases` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`targetObjectBases` IEnumerable<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_DeleteWithSelectionObjects_VM_Managed_DestroyType__System_Boolean_"></a> DeleteWithSelectionObjects\(ref DestroyType, bool\)
 
@@ -1315,13 +1316,13 @@ public bool DeleteWithSelectionObjects(ref DestroyType typeDestroy, bool bNotUse
 
 The destroy type.
 
-`bNotUseDelMsg` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNotUseDelMsg` bool
 
 Not use delete message
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_DeleteWithSelectionObjects_VM_Managed_DestroyType__"></a> DeleteWithSelectionObjects\(ref DestroyType\)
 
@@ -1339,7 +1340,7 @@ The destroy type.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_DeleteWithSelectionObjects"></a> DeleteWithSelectionObjects\(\)
 
@@ -1351,7 +1352,7 @@ public virtual bool DeleteWithSelectionObjects()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_DisplayModeShape_System_Int32_System_Double_"></a> DisplayModeShape\(int, double\)
 
@@ -1363,9 +1364,9 @@ public override void DisplayModeShape(int A_0, double A_1)
 
 #### Parameters
 
-`A_0` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`A_0` int
 
-`A_1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`A_1` double
 
 ### <a id="VM_Managed_Document3D_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
@@ -1376,7 +1377,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_Document3D_EnableModeShape_System_Boolean_"></a> EnableModeShape\(bool\)
 
@@ -1388,15 +1389,7 @@ public override void EnableModeShape(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="VM_Managed_Document3D_EndCADImportLog"></a> EndCADImportLog\(\)
-
-Ends the CAD import log.
-
-```csharp
-protected virtual void EndCADImportLog()
-```
+`A_0` bool
 
 ### <a id="VM_Managed_Document3D_EraseAllDisplayObject"></a> EraseAllDisplayObject\(\)
 
@@ -1414,25 +1407,31 @@ public bool ExistUnderCursor()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if object exists under cursor; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Document3D_ExportCADBody_System_String_System_Collections_Generic_List_VM_Managed_Document3D_ExportBodyInfo__System_String_System_String_"></a> ExportCADBody\(string, List<ExportBodyInfo\>, string, string\)
+### <a id="VM_Managed_Document3D_ExportCADBody_System_String_System_Collections_Generic_List_VM_Managed_Document3D_ExportBodyInfo__System_String_System_String_System_String_System_String_System_String_"></a> ExportCADBody\(string, List<ExportBodyInfo\>, string, string, string, string, string\)
 
 ```csharp
-public virtual void ExportCADBody(string strFilePath, List<Document3D.ExportBodyInfo> lstBodyInfo, string strCADConvert, string strOption)
+public virtual void ExportCADBody(string strFilePath, List<Document3D.ExportBodyInfo> lstBodyInfo, string strPythonExecutablePath, string strStrideConvertPath, string strHoopsExchangePath, string strKernelDepsPaths, string strOption)
 ```
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
-`lstBodyInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Document3D](VM.Managed.Document3D.md).[ExportBodyInfo](VM.Managed.Document3D.ExportBodyInfo.md)\>
+`lstBodyInfo` List<[Document3D](VM.Managed.Document3D.md).[ExportBodyInfo](VM.Managed.Document3D.ExportBodyInfo.md)\>
 
-`strCADConvert` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPythonExecutablePath` string
 
-`strOption` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStrideConvertPath` string
+
+`strHoopsExchangePath` string
+
+`strKernelDepsPaths` string
+
+`strOption` string
 
 ### <a id="VM_Managed_Document3D_ExportCADBody_System_String_System_Collections_Generic_List_VM_Managed_Document3D_ExportBodyInfo__System_String_"></a> ExportCADBody\(string, List<ExportBodyInfo\>, string\)
 
@@ -1442,31 +1441,43 @@ public virtual void ExportCADBody(string strFilePath, List<Document3D.ExportBody
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
-`lstBodyInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Document3D](VM.Managed.Document3D.md).[ExportBodyInfo](VM.Managed.Document3D.ExportBodyInfo.md)\>
+`lstBodyInfo` List<[Document3D](VM.Managed.Document3D.md).[ExportBodyInfo](VM.Managed.Document3D.ExportBodyInfo.md)\>
 
-`strAcisVer` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAcisVer` string
 
-### <a id="VM_Managed_Document3D_ExportCADFile_System_String_System_String_System_String_"></a> ExportCADFile\(string, string, string\)
+### <a id="VM_Managed_Document3D_ExportCADFile_System_String_System_String_System_String_System_String_System_String_System_String_"></a> ExportCADFile\(string, string, string, string, string, string\)
 
 Export cad file.
 
 ```csharp
-public virtual void ExportCADFile(string strFilePath, string strCADConvert, string strOption)
+public virtual void ExportCADFile(string strFilePath, string strPythonExecutablePath, string strStrideConvertPath, string strHoopsExchangePath, string strKernelDepsPaths, string strOption)
 ```
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The cad import file path.
 
-`strCADConvert` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPythonExecutablePath` string
 
-The path of cad convert exe.
+The path of python.exe.
 
-`strOption` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStrideConvertPath` string
+
+The path of StrideConvert.exe.
+
+`strHoopsExchangePath` string
+
+The path of Hoops Exchange.
+
+`strKernelDepsPaths` string
+
+The kernel dependencies paths.
+
+`strOption` string
 
 The option.
 
@@ -1509,13 +1520,13 @@ public abstract string FindCategory(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The fullname of type.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The category name
 
@@ -1529,17 +1540,17 @@ public UIntPtr FindCurveset(UIntPtr edge_key, bool bQuickSearch)
 
 #### Parameters
 
-`edge_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`edge_key` UIntPtr
 
 The edge key.
 
-`bQuickSearch` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bQuickSearch` bool
 
 if set to <code>true</code> quick search.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 The edge handle.
 
@@ -1553,17 +1564,17 @@ public UIntPtr FindFaceset(UIntPtr face_key, bool bQuickSearch)
 
 #### Parameters
 
-`face_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`face_key` UIntPtr
 
 The facet key.
 
-`bQuickSearch` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bQuickSearch` bool
 
 if set to <code>true</code> quick search.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 The facet handle.
 
@@ -1577,7 +1588,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The DAFUL object name.
 
@@ -1617,7 +1628,7 @@ public virtual List<KeyValuePair<string, string>> GetAllArgumentList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
+ List<KeyValuePair<string, string\>\>
 
 ### <a id="VM_Managed_Document3D_GetAssembly"></a> GetAssembly\(\)
 
@@ -1639,7 +1650,7 @@ protected virtual void GetBodies(ref List<ObjectBase> lstBody)
 
 #### Parameters
 
-`lstBody` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstBody` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_GetBodyAndTransformation_System_Collections_Generic_List_VM_Managed_Document3D_ExportBodyInfo___"></a> GetBodyAndTransformation\(ref List<ExportBodyInfo\>\)
 
@@ -1649,7 +1660,7 @@ public virtual void GetBodyAndTransformation(ref List<Document3D.ExportBodyInfo>
 
 #### Parameters
 
-`A_0` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Document3D](VM.Managed.Document3D.md).[ExportBodyInfo](VM.Managed.Document3D.ExportBodyInfo.md)\>
+`A_0` List<[Document3D](VM.Managed.Document3D.md).[ExportBodyInfo](VM.Managed.Document3D.ExportBodyInfo.md)\>
 
 ### <a id="VM_Managed_Document3D_GetCADBodyNameAttribute_System_Collections_Generic_List_System_String___"></a> GetCADBodyNameAttribute\(ref List<string\>\)
 
@@ -1659,7 +1670,7 @@ public virtual void GetCADBodyNameAttribute(ref List<string> lstName)
 
 #### Parameters
 
-`lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstName` List<string\>
 
 ### <a id="VM_Managed_Document3D_GetCategoryChildren_System_String_"></a> GetCategoryChildren\(string\)
 
@@ -1671,11 +1682,11 @@ public virtual IEnumerable<IObjectBase> GetCategoryChildren(string categoryName)
 
 #### Parameters
 
-`categoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`categoryName` string
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObjectBase\>
+ IEnumerable<IObjectBase\>
 
 The object category container.
 
@@ -1687,7 +1698,7 @@ public bool GetCuttingPlane()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
 
@@ -1699,7 +1710,7 @@ public override void GetData(XmlNode writer)
 
 #### Parameters
 
-`writer` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`writer` XmlNode
 
 The writer.
 
@@ -1713,7 +1724,7 @@ public virtual List<ObjectBase> GetImportCADBody()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_GetInfoFromDocumentPropertyGrid_System_Xml_XmlDocument_System_Xml_XmlDocument_"></a> GetInfoFromDocumentPropertyGrid\(XmlDocument, XmlDocument\)
 
@@ -1725,11 +1736,11 @@ public virtual void GetInfoFromDocumentPropertyGrid(XmlDocument xmlTarget, XmlDo
 
 #### Parameters
 
-`xmlTarget` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlTarget` XmlDocument
 
 The target xml.
 
-`xmlTool` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlTool` XmlDocument
 
 The tool xml.
 
@@ -1755,7 +1766,7 @@ public virtual List<ObjectBase> GetObjectsForChangeAssembly()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_GetOwnedDocuments_System_Collections_Generic_LinkedList_VM_Models_Pre_IDocument__"></a> GetOwnedDocuments\(LinkedList<IDocument\>\)
 
@@ -1767,7 +1778,7 @@ virtual void GetOwnedDocuments(LinkedList<IDocument> lstOwnedDoc)
 
 #### Parameters
 
-`lstOwnedDoc` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<IDocument\>
+`lstOwnedDoc` LinkedList<IDocument\>
 
 ### <a id="VM_Managed_Document3D_GetReferDocument_System_Collections_Generic_List_VM_Managed_Document3D___"></a> GetReferDocument\(ref List<Document3D\>\)
 
@@ -1777,7 +1788,7 @@ public virtual void GetReferDocument(ref List<Document3D> lstDocument)
 
 #### Parameters
 
-`lstDocument` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Document3D](VM.Managed.Document3D.md)\>
+`lstDocument` List<[Document3D](VM.Managed.Document3D.md)\>
 
 ### <a id="VM_Managed_Document3D_GetReferedDocumentCount"></a> GetReferedDocumentCount\(\)
 
@@ -1787,7 +1798,7 @@ public int GetReferedDocumentCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_Document3D_GetReference_VM_Managed_ObjectBase_System_Collections_Generic_List_VM_Managed_Reference___System_Collections_Generic_List_VM_Managed_ObjectBase___"></a> GetReference\(ObjectBase, ref List<Reference\>, ref List<ObjectBase\>\)
 
@@ -1799,9 +1810,9 @@ public virtual void GetReference(ObjectBase obSub, ref List<Reference> lstRef, r
 
 `obSub` [ObjectBase](VM.Managed.ObjectBase.md)
 
-`lstRef` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Reference](VM.Managed.Reference.md)\>
+`lstRef` List<[Reference](VM.Managed.Reference.md)\>
 
-`lstOther` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstOther` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_GetReplaceableInfo_VM_Managed_CAD_BuilderImport___"></a> GetReplaceableInfo\(BuilderImport\[\]\)
 
@@ -1819,7 +1830,7 @@ The builder object array.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Body](VM.Managed.CAD.Body.md).[ReplaceCADInfo](VM.Managed.CAD.Body.ReplaceCADInfo.md)\>
+ List<[Body](VM.Managed.CAD.Body.md).[ReplaceCADInfo](VM.Managed.CAD.Body.ReplaceCADInfo.md)\>
 
 The list of replaceable information.
 
@@ -1833,13 +1844,13 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 The unnamed object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The unnamed object name.
 
@@ -1897,13 +1908,13 @@ public bool IsContainsCategoryName(string strCategoryName)
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 Name of the category.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [contains category name] [the specified category name]; otherwise, <code>false</code>.
 
@@ -1915,7 +1926,7 @@ public bool IsCuttingPlaneSelected()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_IsMatchSelectObjectAndUnderCursorObject"></a> IsMatchSelectObjectAndUnderCursorObject\(\)
 
@@ -1927,7 +1938,7 @@ public bool IsMatchSelectObjectAndUnderCursorObject()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_IsSelectFromUnderCursor_System_UInt64_"></a> IsSelectFromUnderCursor\(ulong\)
 
@@ -1939,13 +1950,13 @@ public bool IsSelectFromUnderCursor(ulong keyObject)
 
 #### Parameters
 
-`keyObject` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`keyObject` ulong
 
 The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if already selected; otherwise, <code>false</code>.
 
@@ -1959,7 +1970,7 @@ public override void IsTypeSupported(Type type)
 
 #### Parameters
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 The type.
 
@@ -1973,7 +1984,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -1989,25 +2000,25 @@ protected virtual void Load(XmlReader A_0)
 
 #### Parameters
 
-`A_0` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`A_0` XmlReader
 
-### <a id="VM_Managed_Document3D_LoadCADFile_System_String_VM_Managed_Document3D_CadImportColorType_System_Drawing_Color_VM_Managed_Document3D_CadImportResultType_VM_Managed_Document3D_CadImportUnitType_System_String_"></a> LoadCADFile\(string, CadImportColorType, Color, CadImportResultType, CadImportUnitType, string\)
+### <a id="VM_Managed_Document3D_LoadCADFile_System_String_VM_Managed_Document3D_CadImportColorType_System_Drawing_Color_VM_Managed_Document3D_CadImportResultType_VM_Managed_Document3D_CadImportUnitType_System_String_System_String_System_String_System_String_"></a> LoadCADFile\(string, CadImportColorType, Color, CadImportResultType, CadImportUnitType, string, string, string, string\)
 
 Load cad import file.
 
 ```csharp
-public void LoadCADFile(string strPath, Document3D.CadImportColorType color_type, Color color, Document3D.CadImportResultType type, Document3D.CadImportUnitType typeUnit, string strCADConvert)
+public void LoadCADFile(string strPath, Document3D.CadImportColorType color_type, Color color, Document3D.CadImportResultType type, Document3D.CadImportUnitType typeUnit, string strPythonExecutablePath, string strStrideConvertPath, string strHoopsExchangePath, string strKernelDepsPaths)
 ```
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The cad import file path.
 
 `color_type` [Document3D](VM.Managed.Document3D.md).[CadImportColorType](VM.Managed.Document3D.CadImportColorType.md)
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The cad import color.
 
@@ -2019,21 +2030,33 @@ The cad import result type.
 
 The cad import unit type.
 
-`strCADConvert` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPythonExecutablePath` string
 
-The path of cad convert exe.
+The path of python.exe.
 
-### <a id="VM_Managed_Document3D_LoadCADFile_System_String_VM_Managed_Document3D_CadImportResultType_VM_Managed_Document3D_CadImportUnitType_"></a> LoadCADFile\(string, CadImportResultType, CadImportUnitType\)
+`strStrideConvertPath` string
+
+The path of StrideConvert.exe.
+
+`strHoopsExchangePath` string
+
+The path of Hoops Exchange.
+
+`strKernelDepsPaths` string
+
+The kernel dependencies paths separated by ';'.
+
+### <a id="VM_Managed_Document3D_LoadCADFile_System_String_VM_Managed_Document3D_CadImportResultType_System_String_System_String_System_String_System_String_"></a> LoadCADFile\(string, CadImportResultType, string, string, string, string\)
 
 Load cad import file.
 
 ```csharp
-public void LoadCADFile(string strPath, Document3D.CadImportResultType type, Document3D.CadImportUnitType typeUnit)
+public void LoadCADFile(string strPath, Document3D.CadImportResultType type, string strPythonExecutablePath, string strStrideConvertPath, string strHoopsExchangePath, string strKernelDepsPaths)
 ```
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The cad import file path.
 
@@ -2041,71 +2064,21 @@ The cad import file path.
 
 The cad import result type.
 
-`typeUnit` [Document3D](VM.Managed.Document3D.md).[CadImportUnitType](VM.Managed.Document3D.CadImportUnitType.md)
+`strPythonExecutablePath` string
 
-The cad import unit type.
+The path of python.exe.
 
-### <a id="VM_Managed_Document3D_LoadCADFile_System_String_System_Drawing_Color_VM_Managed_Document3D_CadImportResultType_"></a> LoadCADFile\(string, Color, CadImportResultType\)
+`strStrideConvertPath` string
 
-Load cad import file.
+The path of StrideConvert.exe.
 
-```csharp
-public void LoadCADFile(string strPath, Color color, Document3D.CadImportResultType type)
-```
+`strHoopsExchangePath` string
 
-#### Parameters
+The path of Hoops Exchange.
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strKernelDepsPaths` string
 
-The cad import file path.
-
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
-
-The cad import color.
-
-`type` [Document3D](VM.Managed.Document3D.md).[CadImportResultType](VM.Managed.Document3D.CadImportResultType.md)
-
-The cad import result type.
-
-### <a id="VM_Managed_Document3D_LoadCADFile_System_String_VM_Managed_Document3D_CadImportResultType_System_String_"></a> LoadCADFile\(string, CadImportResultType, string\)
-
-Load cad import file.
-
-```csharp
-public void LoadCADFile(string strPath, Document3D.CadImportResultType type, string strCADConvert)
-```
-
-#### Parameters
-
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-The cad import file path.
-
-`type` [Document3D](VM.Managed.Document3D.md).[CadImportResultType](VM.Managed.Document3D.CadImportResultType.md)
-
-The cad import result type.
-
-`strCADConvert` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-The path of cad convert exe.
-
-### <a id="VM_Managed_Document3D_LoadCADFile_System_String_VM_Managed_Document3D_CadImportResultType_"></a> LoadCADFile\(string, CadImportResultType\)
-
-Load cad import file.
-
-```csharp
-public void LoadCADFile(string strPath, Document3D.CadImportResultType type)
-```
-
-#### Parameters
-
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-The cad import file path.
-
-`type` [Document3D](VM.Managed.Document3D.md).[CadImportResultType](VM.Managed.Document3D.CadImportResultType.md)
-
-The cad import result type.
+The kernel dependencies paths separated by ';'.
 
 ### <a id="VM_Managed_Document3D_LoadCategoryFiles_System_String_"></a> LoadCategoryFiles\(string\)
 
@@ -2117,7 +2090,7 @@ public static void LoadCategoryFiles(string strCategoryDir)
 
 #### Parameters
 
-`strCategoryDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryDir` string
 
 The category directory.
 
@@ -2129,11 +2102,11 @@ protected static void LoadCategoryInfoFromFile(string strCategoryName, Dictionar
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
-`dicTypeCategory` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`dicTypeCategory` Dictionary<string, string\>
 
-`lstCategory` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstCategory` List<string\>
 
 ### <a id="VM_Managed_Document3D_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
 
@@ -2145,7 +2118,7 @@ protected virtual void LoadTemplateBasedXml(XmlReader A_0)
 
 #### Parameters
 
-`A_0` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`A_0` XmlReader
 
 ### <a id="VM_Managed_Document3D_MakeXmlForDocumentPropertyGrid_System_Xml_XmlDocument_System_String__"></a> MakeXmlForDocumentPropertyGrid\(XmlDocument, ref string\)
 
@@ -2157,17 +2130,17 @@ public virtual string MakeXmlForDocumentPropertyGrid(XmlDocument xmlDom, ref str
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XML DOM.
 
-`strGroupName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strGroupName` string
 
 Name of the string group.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Document3D_MappingEntity"></a> MappingEntity\(\)
 
@@ -2185,7 +2158,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -2209,11 +2182,11 @@ public bool OpenPropertyObjectBases(List<ObjectBase> targetObjectBases)
 
 #### Parameters
 
-`targetObjectBases` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`targetObjectBases` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_OpenPropertyWithFirstSelectionObject"></a> OpenPropertyWithFirstSelectionObject\(\)
 
@@ -2225,7 +2198,7 @@ public bool OpenPropertyWithFirstSelectionObject()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_OpenPropertyWithSelectionObjects"></a> OpenPropertyWithSelectionObjects\(\)
 
@@ -2237,7 +2210,7 @@ public bool OpenPropertyWithSelectionObjects()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_PostCloseDocument"></a> PostCloseDocument\(\)
 
@@ -2271,27 +2244,27 @@ public override void PostSave(List<Document> lstOpenDocs, bool bModified)
 
 #### Parameters
 
-`lstOpenDocs` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Document](VM.Managed.Document.md)\>
+`lstOpenDocs` List<[Document](VM.Managed.Document.md)\>
 
-`bModified` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModified` bool
 
-### <a id="VM_Managed_Document3D_PreloadCADFile_System_String_VM_Managed_Document3D_CadImportColorType_System_Drawing_Color_VM_Managed_Document3D_CadImportResultType_VM_Managed_Document3D_CadImportUnitType_System_String_VM_Managed_CAD_BuilderImport____"></a> PreloadCADFile\(string, CadImportColorType, Color, CadImportResultType, CadImportUnitType, string, ref BuilderImport\[\]\)
+### <a id="VM_Managed_Document3D_PreloadCADFile_System_String_VM_Managed_Document3D_CadImportColorType_System_Drawing_Color_VM_Managed_Document3D_CadImportResultType_VM_Managed_Document3D_CadImportUnitType_System_String_System_String_System_String_System_String_VM_Managed_CAD_BuilderImport____"></a> PreloadCADFile\(string, CadImportColorType, Color, CadImportResultType, CadImportUnitType, string, string, string, string, ref BuilderImport\[\]\)
 
 Preload cad import file.
 
 ```csharp
-public void PreloadCADFile(string strPath, Document3D.CadImportColorType color_type, Color color, Document3D.CadImportResultType type, Document3D.CadImportUnitType typeUnit, string strCADConvert, ref BuilderImport[] arBuilderInfo)
+public void PreloadCADFile(string strPath, Document3D.CadImportColorType color_type, Color color, Document3D.CadImportResultType type, Document3D.CadImportUnitType typeUnit, string strPythonExecutablePath, string strStrideConvertPath, string strHoopsExchangePath, string strKernelDepsPaths, ref BuilderImport[] arBuilderInfo)
 ```
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The cad import file path.
 
 `color_type` [Document3D](VM.Managed.Document3D.md).[CadImportColorType](VM.Managed.Document3D.CadImportColorType.md)
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The cad import color.
 
@@ -2303,9 +2276,21 @@ The cad import result type.
 
 The cad import unit type.
 
-`strCADConvert` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPythonExecutablePath` string
 
-The path of cad convert exe.
+The path of python.exe.
+
+`strStrideConvertPath` string
+
+The path of StrideConvert.exe.
+
+`strHoopsExchangePath` string
+
+The path of Hoops Exchange.
+
+`strKernelDepsPaths` string
+
+The kernel dependencies paths separated by ';'.
 
 `arBuilderInfo` [BuilderImport](VM.Managed.CAD.BuilderImport.md)\[\]
 
@@ -2321,7 +2306,7 @@ protected virtual bool ReAssemblyCore()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -2341,7 +2326,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -2363,15 +2348,15 @@ protected void ReadCategoryXml(string strCategoryName, string strElementName, Xm
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 The category name.
 
-`strElementName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strElementName` string
 
 The element name.
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -2399,15 +2384,15 @@ public void RegisterCurveset(UIntPtr curveset_key, UIntPtr edge_key, bool bAdd)
 
 #### Parameters
 
-`curveset_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`curveset_key` UIntPtr
 
 The curveset key.
 
-`edge_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`edge_key` UIntPtr
 
 The edge key.
 
-`bAdd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAdd` bool
 
 if set to <code>true</code> add.
 
@@ -2421,15 +2406,15 @@ public void RegisterFaceset(UIntPtr faceset_key, UIntPtr face_key, bool bAdd)
 
 #### Parameters
 
-`faceset_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`faceset_key` UIntPtr
 
 The facet key.
 
-`face_key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`face_key` UIntPtr
 
 The face key.
 
-`bAdd` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAdd` bool
 
 if set to <code>true</code> add.
 
@@ -2443,7 +2428,7 @@ public void RegisterLoadingException(Exception exception)
 
 #### Parameters
 
-`exception` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`exception` Exception
 
 The exception.
 
@@ -2485,7 +2470,7 @@ public void RemoveInterface(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The interface information.
 
@@ -2499,7 +2484,7 @@ protected virtual void RenameEntityImpl(string strOldName, ObjectBase namedObj)
 
 #### Parameters
 
-`strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strOldName` string
 
 The old name.
 
@@ -2517,7 +2502,7 @@ public void RenameInterface(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The interface information.
 
@@ -2573,7 +2558,7 @@ protected virtual void Save(XmlWriter A_0)
 
 #### Parameters
 
-`A_0` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`A_0` XmlWriter
 
 ### <a id="VM_Managed_Document3D_Save_System_String_"></a> Save\(string\)
 
@@ -2585,7 +2570,7 @@ public override sealed void Save(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The path to save.
 
@@ -2597,11 +2582,11 @@ public void Save(string strPath, bool bAutoSave, Dictionary<string, string> mapS
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
-`bAutoSave` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAutoSave` bool
 
-`mapSubPath` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`mapSubPath` Dictionary<string, string\>
 
 ### <a id="VM_Managed_Document3D_Save_System_String_System_Boolean_System_Boolean_"></a> Save\(string, bool, bool\)
 
@@ -2613,15 +2598,15 @@ public void Save(string strPath, bool bAutoSave, bool bUseBackUpFile)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The path.
 
-`bAutoSave` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAutoSave` bool
 
 The auto save state.
 
-`bUseBackUpFile` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseBackUpFile` bool
 
 The backup flag.
 
@@ -2635,11 +2620,11 @@ public void Save(string strPath, bool bAutoSave)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The path.
 
-`bAutoSave` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAutoSave` bool
 
 The auto save state.
 
@@ -2651,9 +2636,9 @@ public void SaveDocument(string strPath, Dictionary<string, string> mapSubPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
-`mapSubPath` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`mapSubPath` Dictionary<string, string\>
 
 ### <a id="VM_Managed_Document3D_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
 
@@ -2665,7 +2650,7 @@ protected virtual void SaveTemplateBasedXml(XmlWriter A_0)
 
 #### Parameters
 
-`A_0` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`A_0` XmlWriter
 
 ### <a id="VM_Managed_Document3D_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
@@ -2677,7 +2662,7 @@ public override void SetData(XmlNode reader)
 
 #### Parameters
 
-`reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`reader` XmlNode
 
 The reader.
 
@@ -2691,7 +2676,7 @@ protected override void SetHandle(UIntPtr pDocHandle)
 
 #### Parameters
 
-`pDocHandle` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pDocHandle` UIntPtr
 
 The document handle.
 
@@ -2705,7 +2690,7 @@ public void SetPickFromUnderCursor(ulong keyObject)
 
 #### Parameters
 
-`keyObject` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`keyObject` ulong
 
 The object will be picked.
 
@@ -2729,7 +2714,7 @@ public void SetSelectFromUnderCursor(ulong keyObject)
 
 #### Parameters
 
-`keyObject` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`keyObject` ulong
 
 The object will be selected.
 
@@ -2755,7 +2740,7 @@ public virtual void SetSelectionObject(List<ObjectBase> lstObj)
 
 #### Parameters
 
-`lstObj` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstObj` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_Document3D_SetUnselectFromUnderCursor_System_UInt64_"></a> SetUnselectFromUnderCursor\(ulong\)
 
@@ -2767,7 +2752,7 @@ public void SetUnselectFromUnderCursor(ulong keyObject)
 
 #### Parameters
 
-`keyObject` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`keyObject` ulong
 
 The object will be unselected.
 
@@ -2779,13 +2764,13 @@ public bool ShowHideObjectBases(bool bShow, List<ObjectBase> lstSel)
 
 #### Parameters
 
-`bShow` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShow` bool
 
-`lstSel` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+`lstSel` List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_ShowHideWithSelectionObjects_System_Boolean_"></a> ShowHideWithSelectionObjects\(bool\)
 
@@ -2797,11 +2782,11 @@ public bool ShowHideWithSelectionObjects(bool bShow)
 
 #### Parameters
 
-`bShow` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bShow` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_SkipAddToDSDLWithCategory_System_String_"></a> SkipAddToDSDLWithCategory\(string\)
 
@@ -2811,11 +2796,11 @@ public virtual bool SkipAddToDSDLWithCategory(string strCategory)
 
 #### Parameters
 
-`strCategory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategory` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_SkipAddToDSDLWithEntity_VM_Managed_ObjectBase_"></a> SkipAddToDSDLWithEntity\(ObjectBase\)
 
@@ -2829,7 +2814,7 @@ public virtual bool SkipAddToDSDLWithEntity(ObjectBase ob)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_SkipDelete_VM_Managed_ObjectBase_"></a> SkipDelete\(ObjectBase\)
 
@@ -2847,7 +2832,7 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_SkipObjectInWriting_VM_Managed_ObjectBase_"></a> SkipObjectInWriting\(ObjectBase\)
 
@@ -2865,7 +2850,7 @@ The object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_SkipShowHide_VM_Managed_ObjectBase_"></a> SkipShowHide\(ObjectBase\)
 
@@ -2883,7 +2868,7 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_StartBasicOp_VM_Managed_Document3D_BasicOpType_"></a> StartBasicOp\(BasicOpType\)
 
@@ -2898,20 +2883,6 @@ public void StartBasicOp(Document3D.BasicOpType type)
 `type` [Document3D](VM.Managed.Document3D.md).[BasicOpType](VM.Managed.Document3D.BasicOpType.md)
 
 The type of basic operation.
-
-### <a id="VM_Managed_Document3D_StartCADImportLog_System_String_"></a> StartCADImportLog\(string\)
-
-Starts the CAD import log.
-
-```csharp
-protected virtual void StartCADImportLog(string strLogPath)
-```
-
-#### Parameters
-
-`strLogPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-The log path.
 
 ### <a id="VM_Managed_Document3D_ToggleCuttingPlane_VM_Managed_OMatrix_"></a> ToggleCuttingPlane\(OMatrix\)
 
@@ -2943,7 +2914,7 @@ public override void UpdateEnable(ObjectBase obj, bool bEnabled)
 
 The object.
 
-`bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnabled` bool
 
 Whether object is enable.
 
@@ -2961,7 +2932,7 @@ public override void UpdateInterface(ObjectBase obj, bool bInterfaced)
 
 The object.
 
-`bInterfaced` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInterfaced` bool
 
 Whether object is interfaced.
 
@@ -2975,7 +2946,7 @@ public bool VerifyAllEntity()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Document3D_WriteCategoryToXml_System_String_System_String_System_Xml_XmlWriter_"></a> WriteCategoryToXml\(string, string, XmlWriter\)
 
@@ -2987,15 +2958,15 @@ protected void WriteCategoryToXml(string strCategoryName, string strElementName,
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 The category name.
 
-`strElementName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strElementName` string
 
 The element name.
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -3017,7 +2988,7 @@ public virtual void XmlDocumentReLoad(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 

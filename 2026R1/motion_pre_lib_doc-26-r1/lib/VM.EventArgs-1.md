@@ -1,4 +1,5 @@
-#  Class EventArgs<T\>
+# Class EventArgs<T\>
+<a id="VM_EventArgs_1"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -13,8 +14,8 @@ public class EventArgs<T> : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [EventArgs<T\>](VM.EventArgs\-1.md)
 
 #### Extension Methods

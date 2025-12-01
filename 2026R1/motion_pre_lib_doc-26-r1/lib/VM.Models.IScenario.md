@@ -1,4 +1,5 @@
-#  Interface IScenario
+# Interface IScenario
+<a id="VM_Models_IScenario"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -32,7 +33,7 @@ string CategoryName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_IScenario_Items"></a> Items
 
@@ -42,7 +43,7 @@ IEnumerable<IStep> Items { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStep](VM.Models.IStep.md)\>
+ IEnumerable<[IStep](VM.Models.IStep.md)\>
 
 ### <a id="VM_Models_IScenario_Left"></a> Left
 
@@ -52,7 +53,7 @@ double Left { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_IScenario_Top"></a> Top
 
@@ -62,7 +63,7 @@ double Top { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_IScenario_Item_VM_Identifier_"></a> this\[Identifier\]
 
@@ -126,5 +127,5 @@ bool TryGetItem(Identifier identifier, out IStep item)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

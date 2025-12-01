@@ -1,4 +1,5 @@
-#  Interface IPointBase
+# Interface IPointBase
+<a id="VM_IPointBase"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,7 +24,7 @@ bool IsParameterized { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_IPointBase_Value"></a> Value
 
@@ -45,7 +46,7 @@ double X { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_IPointBase_Y"></a> Y
 
@@ -57,7 +58,7 @@ double Y { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_IPointBase_Z"></a> Z
 
@@ -69,7 +70,7 @@ double Z { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -85,5 +86,5 @@ bool IsParametric(ReferenceTypes type)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

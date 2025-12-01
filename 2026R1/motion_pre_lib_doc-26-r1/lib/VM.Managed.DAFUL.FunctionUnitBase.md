@@ -1,4 +1,5 @@
-#  Class FunctionUnitBase
+# Class FunctionUnitBase
+<a id="VM_Managed_DAFUL_FunctionUnitBase"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +12,7 @@ public abstract class FunctionUnitBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FunctionUnitBase](VM.Managed.DAFUL.FunctionUnitBase.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public virtual string Factor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FunctionUnitBase_Scale"></a> Scale
 
@@ -52,7 +53,7 @@ public virtual double Scale { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FunctionUnitBase_Shift"></a> Shift
 
@@ -64,5 +65,5 @@ public virtual double Shift { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

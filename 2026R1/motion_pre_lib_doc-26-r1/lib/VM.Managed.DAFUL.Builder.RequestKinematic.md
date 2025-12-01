@@ -1,4 +1,5 @@
-#  Class RequestKinematic
+# Class RequestKinematic
+<a id="VM_Managed_DAFUL_Builder_RequestKinematic"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -11,7 +12,7 @@ public class RequestKinematic : RequestBase<RequestKinematic>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<RequestKinematic\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<RequestKinematic\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<RequestKinematic\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md) ← 
@@ -73,7 +74,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="VM_Managed_DAFUL_Builder_RequestKinematic_ReferenceMarker"></a> ReferenceMarker
 
@@ -101,5 +102,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

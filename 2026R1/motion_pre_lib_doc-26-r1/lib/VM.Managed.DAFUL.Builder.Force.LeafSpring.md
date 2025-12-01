@@ -1,4 +1,5 @@
-#  Class LeafSpring
+# Class LeafSpring
+<a id="VM_Managed_DAFUL_Builder_Force_LeafSpring"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  
@@ -9,10 +10,10 @@ public class LeafSpring : BuilderNamed<LeafSpring>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<LeafSpring\> ← 
-BuilderSymmetric<LeafSpring\> ← 
-BuilderNamed<LeafSpring\> ← 
+object ← 
+[BuilderBase<LeafSpring\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<LeafSpring\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<LeafSpring\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [LeafSpring](VM.Managed.DAFUL.Builder.Force.LeafSpring.md)
 
 #### Implements
@@ -21,29 +22,29 @@ IBuilder
 
 #### Inherited Members
 
-BuilderNamed<LeafSpring\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<LeafSpring\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<LeafSpring\>.Name, 
-BuilderSymmetric<LeafSpring\>.Build\(Document\), 
-BuilderSymmetric<LeafSpring\>.Symmetric, 
-BuilderSymmetric<LeafSpring\>.CurrentSymmetric, 
-BuilderBase<LeafSpring\>.m\_bSuccess, 
-BuilderBase<LeafSpring\>.Build\(Document\), 
-BuilderBase<LeafSpring\>.Build\(Document, List<string\>\), 
-BuilderBase<LeafSpring\>.Validate\(IList<string\>\), 
-BuilderBase<LeafSpring\>.Success\(\), 
-BuilderBase<LeafSpring\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<LeafSpring\>.OnFinalBuild\(string, Document\), 
-BuilderBase<LeafSpring\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<LeafSpring\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<LeafSpring\>.Parameters, 
-BuilderBase<LeafSpring\>.AddToDoc, 
-BuilderBase<LeafSpring\>.UseChangedObject, 
-BuilderBase<LeafSpring\>.SetPointKey, 
-BuilderBase<LeafSpring\>.BuildObject, 
-BuilderBase<LeafSpring\>.BuildDocument, 
-BuilderBase<LeafSpring\>.UseInterface, 
-BuilderBase<LeafSpring\>.ErrorMessage
+[BuilderNamed<LeafSpring\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<LeafSpring\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<LeafSpring\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<LeafSpring\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<LeafSpring\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<LeafSpring\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<LeafSpring\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -147,5 +148,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

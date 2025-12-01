@@ -1,4 +1,5 @@
-#  Class CouplerRackPinion
+# Class CouplerRackPinion
+<a id="VM_Managed_Symmetric_Constraints_CouplerRackPinion"></a>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -9,8 +10,8 @@ public class CouplerRackPinion : CouplerBase<CouplerRackPinion, PropertyCouplerR
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<CouplerRackPinion\> ← 
+object ← 
+[Named<CouplerRackPinion\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
 [CouplerBase<CouplerRackPinion, PropertyCouplerRackPinion\>](VM.Managed.Symmetric.Constraints.CouplerBase\-2.md) ← 
 [CouplerRackPinion](VM.Managed.Symmetric.Constraints.CouplerRackPinion.md)
 
@@ -21,10 +22,10 @@ ISymmetricUpdater
 #### Inherited Members
 
 [CouplerBase<CouplerRackPinion, PropertyCouplerRackPinion\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](VM.Managed.Symmetric.Constraints.CouplerBase\-2.md\#VM\_Managed\_Symmetric\_Constraints\_CouplerBase\_2\_Update\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_VM\_Managed\_SymmetricType\_VM\_Plane\_VM\_Managed\_Document\_), 
-Named<CouplerRackPinion\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<CouplerRackPinion\>.Initialize\(ISymmetricManager\), 
-Named<CouplerRackPinion\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<CouplerRackPinion\>.SymmetricManager
+[Named<CouplerRackPinion\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<CouplerRackPinion\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<CouplerRackPinion\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<CouplerRackPinion\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -72,7 +73,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

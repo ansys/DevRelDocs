@@ -1,4 +1,5 @@
-#  Class ApplyAssemblyIOShaft
+# Class ApplyAssemblyIOShaft
+<a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyIOShaft"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class ApplyAssemblyIOShaft : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ApplyAssemblyIOShaft](VM.Managed.DAFUL.GearTrain.Operation.ApplyAssemblyIOShaft.md)
 
@@ -87,7 +88,7 @@ public ApplyAssemblyIOShaft(GearTrainDocument gearTrainDocument, IConnectable re
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The geartrain document
 
@@ -99,11 +100,11 @@ The reference body
 
 The direction
 
-`inputInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<GTAssemblyInfo\>
+`inputInfo` List<[GTAssemblyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Assembly.cs)\>
 
 The input information
 
-`outputInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<GTAssemblyInfo\>
+`outputInfo` List<[GTAssemblyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Assembly.cs)\>
 
 The output information
 
@@ -133,11 +134,11 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ## Methods
 
@@ -151,7 +152,7 @@ public override void Execute()
 
 #### Exceptions
 
- [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
+ NotImplementedException
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyIOShaft_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
@@ -163,7 +164,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

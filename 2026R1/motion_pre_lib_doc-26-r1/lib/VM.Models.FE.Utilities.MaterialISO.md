@@ -1,4 +1,5 @@
-#  Struct MaterialISO
+# Struct MaterialISO
+<a id="VM_Models_FE_Utilities_MaterialISO"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public double Density { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_E"></a> E
 
@@ -27,7 +28,7 @@ public double E { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_G"></a> G
 
@@ -37,7 +38,7 @@ public double G { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_ID"></a> ID
 
@@ -47,7 +48,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_Nu"></a> Nu
 
@@ -57,7 +58,7 @@ public double Nu { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_TA"></a> TA
 
@@ -67,7 +68,7 @@ public double TA { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_TC"></a> TC
 
@@ -77,7 +78,7 @@ public double TC { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_TK"></a> TK
 
@@ -87,7 +88,7 @@ public double TK { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_MaterialISO_Tref"></a> Tref
 
@@ -97,5 +98,5 @@ public double Tref { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Class UpdateBodyInFE
+# Class UpdateBodyInFE
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateBodyInFE : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateBodyInFE](VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInFE.md)
@@ -158,7 +159,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

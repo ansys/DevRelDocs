@@ -1,11 +1,12 @@
-#  Enum SortDirection
+# Enum SortDirection
+<a id="VM_SortDirection"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 This enumerator represent the sort direction
 
-```python
+```csharp
 public enum SortDirection
 ```
 
@@ -20,7 +21,6 @@ Ascending
 `Descending = 1` 
 
 Descending
-
 
 
 

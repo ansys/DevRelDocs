@@ -1,4 +1,5 @@
-#  Class InputDocument
+# Class InputDocument
+<a id="VM_Managed_DAFUL_Pre_InputDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class InputDocument
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [InputDocument](VM.Managed.DAFUL.Pre.InputDocument.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public bool IsInterface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_InputDocument_Type"></a> Type
 
@@ -52,5 +53,5 @@ public string Type { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

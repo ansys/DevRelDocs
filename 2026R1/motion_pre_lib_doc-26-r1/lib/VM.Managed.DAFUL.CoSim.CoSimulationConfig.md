@@ -1,4 +1,5 @@
-#  Class CoSimulationConfig
+# Class CoSimulationConfig
+<a id="VM_Managed_DAFUL_CoSim_CoSimulationConfig"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -11,11 +12,11 @@ public class CoSimulationConfig : SimulationConfigurationExtraBase, IObservableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-SimulationConfigurationExtraBase ← 
+[SimulationConfigurationExtraBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs) ← 
 [CoSimulationConfig](VM.Managed.DAFUL.CoSim.CoSimulationConfig.md)
 
 #### Implements
@@ -33,8 +34,8 @@ IVerifiable
 
 #### Inherited Members
 
-SimulationConfigurationExtraBase.GetExtraInformation\(\), 
-SimulationConfigurationExtraBase.IsUse, 
+[SimulationConfigurationExtraBase.GetExtraInformation\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs), 
+[SimulationConfigurationExtraBase.IsUse](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SimulationConfigurationExtra.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -78,7 +79,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -119,7 +120,7 @@ public string ExecutingProgramPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_CoSim_CoSimulationConfig_MFileName"></a> MFileName
 
@@ -131,7 +132,7 @@ public string MFileName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -145,7 +146,7 @@ public override string GetExtraInformation()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The extra information.
 

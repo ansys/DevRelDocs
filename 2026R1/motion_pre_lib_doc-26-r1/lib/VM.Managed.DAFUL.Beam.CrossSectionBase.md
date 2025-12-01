@@ -1,4 +1,5 @@
-#  Class CrossSectionBase
+# Class CrossSectionBase
+<a id="VM_Managed_DAFUL_Beam_CrossSectionBase"></a>
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  
@@ -9,7 +10,7 @@ public class CrossSectionBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CrossSectionBase](VM.Managed.DAFUL.Beam.CrossSectionBase.md)
 
 #### Derived
@@ -47,7 +48,7 @@ protected uint m_nGeomInfoArrayCount
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_m_nNastranArrayCount"></a> m\_nNastranArrayCount
 
@@ -57,7 +58,7 @@ protected uint m_nNastranArrayCount
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ## Properties
 
@@ -69,7 +70,7 @@ protected double pi { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -81,7 +82,7 @@ protected void CheckDensity(double dDensity)
 
 #### Parameters
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_CheckGeomInfo_System_Double___"></a> CheckGeomInfo\(double\[\]\)
 
@@ -91,7 +92,7 @@ public void CheckGeomInfo(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_CheckInputCount_System_Double___"></a> CheckInputCount\(double\[\]\)
 
@@ -101,7 +102,7 @@ protected void CheckInputCount(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_CheckLength_System_Double_"></a> CheckLength\(double\)
 
@@ -111,7 +112,7 @@ protected void CheckLength(double dLength)
 
 #### Parameters
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_CheckMass_System_Double_"></a> CheckMass\(double\)
 
@@ -121,7 +122,7 @@ protected void CheckMass(double dMass)
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GenerateMultiSection_System_Double___System_Int32_"></a> GenerateMultiSection\(double\[\], int\)
 
@@ -131,13 +132,13 @@ public virtual double[] GenerateMultiSection(double[] dSInfo, int ElementCount)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`ElementCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`ElementCount` int
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GenerateOneSection_System_Double___"></a> GenerateOneSection\(double\[\]\)
 
@@ -147,11 +148,11 @@ public virtual double[] GenerateOneSection(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GeneratePostConnectivities_System_Int32_System_Int32____System_Int32____"></a> GeneratePostConnectivities\(int, ref int\[\], ref int\[\]\)
 
@@ -161,15 +162,15 @@ public virtual int GeneratePostConnectivities(int RenderingType, ref int[] iENod
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
-`iENodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`iENodes` int\[\]
 
-`iStartENodes` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`iStartENodes` int\[\]
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GeneratePostOneSection_System_Double___System_Int32_"></a> GeneratePostOneSection\(double\[\], int\)
 
@@ -179,13 +180,13 @@ public virtual double[] GeneratePostOneSection(double[] dSInfo, int RenderingTyp
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GeneratePostTwoSection_System_Double___System_Double___System_Double___System_Double___System_Double___System_Int32_"></a> GeneratePostTwoSection\(double\[\], double\[\], double\[\], double\[\], double\[\], int\)
 
@@ -195,21 +196,21 @@ public virtual double[] GeneratePostTwoSection(double[] dSInfo, double[] dStartP
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dStartPoint` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dStartPoint` double\[\]
 
-`dEndPoint` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dEndPoint` double\[\]
 
-`dStartOri` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dStartOri` double\[\]
 
-`dEndOri` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dEndOri` double\[\]
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GenerateTwoSection_System_Double___System_Double___System_Double___System_Double___"></a> GenerateTwoSection\(double\[\], double\[\], double\[\], double\[\]\)
 
@@ -219,17 +220,17 @@ public double[,] GenerateTwoSection(double[] dSInfo, double[] dStartPoint, doubl
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dStartPoint` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dStartPoint` double\[\]
 
-`dEndPoint` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dEndPoint` double\[\]
 
-`dOrienMatrix` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dOrienMatrix` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[,\]
+ double\[,\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetArea_System_Double___"></a> GetArea\(double\[\]\)
 
@@ -239,11 +240,11 @@ public virtual double GetArea(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetAreaProperties_System_Double___System_Double_"></a> GetAreaProperties\(double\[\], double\)
 
@@ -253,13 +254,13 @@ public virtual double[] GetAreaProperties(double[] dSInfo, double dPoissonRatio)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetAsy_System_Double___System_Double_"></a> GetAsy\(double\[\], double\)
 
@@ -269,13 +270,13 @@ public virtual double GetAsy(double[] dSInfo, double dPoissonRatio)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetAsz_System_Double___System_Double_"></a> GetAsz\(double\[\], double\)
 
@@ -285,13 +286,13 @@ public virtual double GetAsz(double[] dSInfo, double dPoissonRatio)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetIxx_System_Double___"></a> GetIxx\(double\[\]\)
 
@@ -301,11 +302,11 @@ public virtual double GetIxx(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetIyy_System_Double___"></a> GetIyy\(double\[\]\)
 
@@ -315,11 +316,11 @@ public virtual double GetIyy(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetIzz_System_Double___"></a> GetIzz\(double\[\]\)
 
@@ -329,11 +330,11 @@ public virtual double GetIzz(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetJxx_System_Double_System_Double_System_Double_"></a> GetJxx\(double, double, double\)
 
@@ -343,15 +344,15 @@ public double GetJxx(double dIxx, double dDensity, double dLength)
 
 #### Parameters
 
-`dIxx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIxx` double
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetJxx_System_Double___System_Double_System_Double_"></a> GetJxx\(double\[\], double, double\)
 
@@ -361,15 +362,15 @@ public double GetJxx(double[] dSInfo, double dDensity, double dLength)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetJyy_System_Double_System_Double___System_Double_System_Double_"></a> GetJyy\(double, double\[\], double, double\)
 
@@ -379,17 +380,17 @@ public virtual double GetJyy(double dMass, double[] dSInfo, double dDensity, dou
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetJyy_System_Double___System_Double_System_Double_"></a> GetJyy\(double\[\], double, double\)
 
@@ -399,15 +400,15 @@ public virtual double GetJyy(double[] dSInfo, double dDensity, double dLength)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetJzz_System_Double_System_Double___System_Double_System_Double_"></a> GetJzz\(double, double\[\], double, double\)
 
@@ -417,17 +418,17 @@ public virtual double GetJzz(double dMass, double[] dSInfo, double dDensity, dou
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetJzz_System_Double___System_Double_System_Double_"></a> GetJzz\(double\[\], double, double\)
 
@@ -437,15 +438,15 @@ public virtual double GetJzz(double[] dSInfo, double dDensity, double dLength)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetMass_System_Double___System_Double_System_Double_"></a> GetMass\(double\[\], double, double\)
 
@@ -455,15 +456,15 @@ public double GetMass(double[] dSInfo, double dDensity, double dLength)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetMassMomentOfInertia_System_Double_System_Double_System_Double___System_Double_System_Double_"></a> GetMassMomentOfInertia\(double, double, double\[\], double, double\)
 
@@ -473,19 +474,19 @@ public virtual double[] GetMassMomentOfInertia(double dMass, double dIxx, double
 
 #### Parameters
 
-`dMass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMass` double
 
-`dIxx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIxx` double
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetMassProperties_System_Double___System_Double_System_Double_"></a> GetMassProperties\(double\[\], double, double\)
 
@@ -495,15 +496,15 @@ public virtual double[] GetMassProperties(double[] dSInfo, double dDensity, doub
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetNumSideEdges_System_Int32_"></a> GetNumSideEdges\(int\)
 
@@ -513,11 +514,11 @@ public virtual int GetNumSideEdges(int RenderingType = 1)
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetNumTotalElements_System_Int32_"></a> GetNumTotalElements\(int\)
 
@@ -527,11 +528,11 @@ public virtual int GetNumTotalElements(int RenderingType = 1)
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetNumTotalNodes_System_Int32_"></a> GetNumTotalNodes\(int\)
 
@@ -541,11 +542,11 @@ public virtual int GetNumTotalNodes(int RenderingType = 1)
 
 #### Parameters
 
-`RenderingType` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`RenderingType` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetRequiredInputCount_VM_Managed_DAFUL_Beam_CrossSectionType_"></a> GetRequiredInputCount\(CrossSectionType\)
 
@@ -559,7 +560,7 @@ public virtual uint GetRequiredInputCount(CrossSectionType sectionEnumType)
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetSphereBodyRadius_System_Double___"></a> GetSphereBodyRadius\(double\[\]\)
 
@@ -569,11 +570,11 @@ public virtual double GetSphereBodyRadius(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetStiffnessElementsOfMatrixForceByCoef_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> GetStiffnessElementsOfMatrixForceByCoef\(double, double, double, double, double, double, double, double, double, double, double\)
 
@@ -583,31 +584,31 @@ public double[] GetStiffnessElementsOfMatrixForceByCoef(double dArea, double dIy
 
 #### Parameters
 
-`dArea` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dArea` double
 
-`dIyy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIyy` double
 
-`dIzz` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIzz` double
 
-`dIxx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dIxx` double
 
-`dAsy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAsy` double
 
-`dAsz` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dAsz` double
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dYoungsModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dYoungsModulus` double
 
-`dShearModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dShearModulus` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_GetStiffnessElementsOfMatrixForceByGeom_System_Double___System_Double_System_Double_System_Double_System_Double_System_Double_"></a> GetStiffnessElementsOfMatrixForceByGeom\(double\[\], double, double, double, double, double\)
 
@@ -617,21 +618,21 @@ public double[] GetStiffnessElementsOfMatrixForceByGeom(double[] dSInfo, double 
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
-`dLength` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLength` double
 
-`dPoissonRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dPoissonRatio` double
 
-`dDensity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDensity` double
 
-`dYoungsModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dYoungsModulus` double
 
-`dShearModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dShearModulus` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_SetVariablesFromArray2Local_System_Double___"></a> SetVariablesFromArray2Local\(double\[\]\)
 
@@ -641,7 +642,7 @@ protected virtual void SetVariablesFromArray2Local(double[] dSInfo)
 
 #### Parameters
 
-`dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dSInfo` double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_TranslateNastran2DAFUL_System_Double___"></a> TranslateNastran2DAFUL\(double\[\]\)
 
@@ -651,11 +652,11 @@ public virtual double[] TranslateNastran2DAFUL(double[] dNastran)
 
 #### Parameters
 
-`dNastran` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`dNastran` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_cos_System_Double_"></a> cos\(double\)
 
@@ -665,11 +666,11 @@ protected double cos(double a)
 
 #### Parameters
 
-`a` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`a` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_mattrvec_System_Double___System_Double___"></a> mattrvec\(double\[\], double\[\]\)
 
@@ -679,13 +680,13 @@ protected double[] mattrvec(double[] a, double[] b)
 
 #### Parameters
 
-`a` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`a` double\[\]
 
-`b` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`b` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_matvec_System_Double___System_Double___"></a> matvec\(double\[\], double\[\]\)
 
@@ -695,13 +696,13 @@ protected double[] matvec(double[] a, double[] b)
 
 #### Parameters
 
-`a` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`a` double\[\]
 
-`b` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`b` double\[\]
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Beam_CrossSectionBase_sin_System_Double_"></a> sin\(double\)
 
@@ -711,9 +712,9 @@ protected double sin(double a)
 
 #### Parameters
 
-`a` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`a` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

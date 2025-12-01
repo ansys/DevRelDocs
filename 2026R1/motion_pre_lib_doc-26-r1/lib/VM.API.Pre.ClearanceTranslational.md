@@ -1,4 +1,5 @@
-#  Class ClearanceTranslational
+# Class ClearanceTranslational
+<a id="VM_API_Pre_ClearanceTranslational"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public class ClearanceTranslational : Clearance
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Clearance](VM.API.Pre.Clearance.md) ← 
 [ClearanceTranslational](VM.API.Pre.ClearanceTranslational.md)
 
@@ -48,27 +49,27 @@ public ClearanceTranslational(ExpressionValueVariable stiffnessCoefficient, Expr
 
 #### Parameters
 
-`stiffnessCoefficient` ExpressionValueVariable
+`stiffnessCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The stiffness coefficient.
 
-`exponentOfPenetration` ExpressionValueVariable
+`exponentOfPenetration` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The exponent of penetration.
 
-`maxDampingCoefficient` ExpressionValueVariable
+`maxDampingCoefficient` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The max damping coefficient.
 
-`useDampingEffectInVoid` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useDampingEffectInVoid` bool
 
 The use damping effect in void.
 
-`xClearance` ExpressionValueVariable
+`xClearance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The x clearance.
 
-`yClearance` ExpressionValueVariable
+`yClearance` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The y clearance.
 
@@ -84,7 +85,7 @@ public ExpressionValueVariable XClearance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_ClearanceTranslational_YClearance"></a> YClearance
 
@@ -96,5 +97,5 @@ public ExpressionValueVariable YClearance { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

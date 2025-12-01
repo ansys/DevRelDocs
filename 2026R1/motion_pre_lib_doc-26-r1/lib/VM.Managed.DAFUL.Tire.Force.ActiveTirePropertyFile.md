@@ -1,4 +1,5 @@
-#  Class ActiveTirePropertyFile
+# Class ActiveTirePropertyFile
+<a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile"></a>
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -11,9 +12,9 @@ public class ActiveTirePropertyFile : Object<ObjectEventCore>, IObservableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 [ActiveTirePropertyFile](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.md)
@@ -32,7 +33,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer
 
 #### Inherited Members
@@ -129,7 +130,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -168,7 +169,7 @@ public ActiveTirePropertyFile(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path.
 
@@ -185,7 +186,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_LastModifyTime"></a> LastModifyTime
 
@@ -197,7 +198,7 @@ public DateTime LastModifyTime { get; set; }
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+ DateTime
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_TireType"></a> TireType
 
@@ -230,7 +231,7 @@ The doc.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_ConvertXmlAfterReadTIRFile"></a> ConvertXmlAfterReadTIRFile\(\)
 
@@ -242,7 +243,7 @@ public string ConvertXmlAfterReadTIRFile()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_GetTireType_System_String_"></a> GetTireType\(string\)
 
@@ -254,7 +255,7 @@ public ActiveTirePropertyFile.TirePropertyType GetTireType(string strTireFile)
 
 #### Parameters
 
-`strTireFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTireFile` string
 
 The STR tire file.
 
@@ -272,7 +273,7 @@ public ActiveTirePropertyFile.TirePropertyType GetTireType(string strTireFile, D
 
 #### Parameters
 
-`strTireFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strTireFile` string
 
 The STR tire file.
 
@@ -312,7 +313,7 @@ public void SetFilePath(string strFile)
 
 #### Parameters
 
-`strFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFile` string
 
 The file path.
 
@@ -326,7 +327,7 @@ public void SetLastModifyTime(DateTime dt)
 
 #### Parameters
 
-`dt` [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+`dt` DateTime
 
 The time.
 

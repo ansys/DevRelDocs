@@ -1,4 +1,5 @@
-#  Interface IGTBuilder
+# Interface IGTBuilder
+<a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -51,7 +52,7 @@ double OffsetToAxisDirection { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder_Rotation"></a> Rotation
 

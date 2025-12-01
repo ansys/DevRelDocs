@@ -1,4 +1,5 @@
-#  Class TieBase<TProperty\>
+# Class TieBase<TProperty\>
+<a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  
@@ -6,15 +7,15 @@ Assembly: VMFlexibleBase.dll
 <p>This class is to represent the tie base.</p>
 <p>이 클래스는 타이의 기본을 나타냅니다.</p>
 <p>
-        Symmetric Modeling : No
-        Reference : Yes
-        Reference Type : VM.Managed.Reference
-        삭제시 Reservable한 Link 변수 : N/A
-        Generic Collection에 담겨있는 Link 변수 : N/A
-        </p>
+Symmetric Modeling : No
+Reference : Yes
+Reference Type : VM.Managed.Reference
+삭제시 Reservable한 Link 변수 : N/A
+Generic Collection에 담겨있는 Link 변수 : N/A
+</p>
 
 ```csharp
-public abstract class TieBase<TProperty> : Entity<TProperty>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IDraw, IDrawIcon, IDrawChangeFacet, IEntityRelation, IGenerable, IReportable, IFlip, IHasReplaceableEntity where TProperty : PropertyTieBase, new()
+public abstract class TieBase<TProperty> : Entity<TProperty>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IDraw, IDrawIcon, IDrawChangeFacet, IEntityRelation, IGenerable, IReportable, IFlip, IHasReplaceableEntity, IEnableForSimulationScenario where TProperty : PropertyTieBase, new()
 ```
 
 #### Type Parameters
@@ -26,14 +27,14 @@ public abstract class TieBase<TProperty> : Entity<TProperty>, IObservableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<EntityEventCore\> ← 
 ContainerObject<EntityEventCore\> ← 
-EntityBase ← 
-Entity<TProperty\> ← 
+[EntityBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
+[Entity<TProperty\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
 [TieBase<TProperty\>](VM.Managed.DAFUL.Flexible.Contact.TieBase\-1.md)
 
 #### Implements
@@ -43,7 +44,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 IEntity, 
@@ -73,38 +74,39 @@ IEntityRelation,
 IGenerable, 
 IReportable, 
 IFlip, 
-IHasReplaceableEntity
+IHasReplaceableEntity, 
+IEnableForSimulationScenario
 
 #### Inherited Members
 
-Entity<TProperty\>.Initialize\(Unit.ConvertFactor\), 
-Entity<TProperty\>.GetUnnamedObjectName\(object\), 
-Entity<TProperty\>.FindLocal\(string\), 
-Entity<TProperty\>.Property, 
-EntityBase.Initialize\(Unit.ConvertFactor\), 
-EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\), 
-EntityBase.OnDeserializationForAttribute\(\), 
-EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-EntityBase.LinkRequestDestroying\(object, LinkEventArgs\), 
-EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-EntityBase.FixUp\(ObjectBase\), 
-EntityBase.FindLocal\(string\), 
-EntityBase.WriteTemplateImpl\(XmlWriter\), 
-EntityBase.ReadTemplateImpl\(XmlReader\), 
-EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\), 
-EntityBase.OnDeserialization\(object\), 
-EntityBase.Name, 
-EntityBase.FullName, 
-EntityBase.NonSymmetricName, 
-EntityBase.DisplayName, 
-EntityBase.IsEnabled, 
-EntityBase.Comment, 
-EntityBase.HasLayerExplicitly, 
-EntityBase.UntypedProperty, 
-EntityBase.IsFileProperty, 
-EntityBase.Layer, 
-EntityBase.IsVisible, 
+[Entity<TProperty\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<TProperty\>.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<TProperty\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<TProperty\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserializationForAttribute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkRequestDestroying\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.HasLayerExplicitly](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsFileProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
 ContainerObject<EntityEventCore\>.Find\(string\), 
 ContainerObject<EntityEventCore\>.FindLocal\(string\), 
 ContainerObject<EntityEventCore\>.GetUnnamedObjectName\(object\), 
@@ -203,7 +205,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -227,8 +229,7 @@ ObservableObject.PropertyChanged
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1__ctor"></a> TieBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
-<p>
-  <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
+<p><xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public TieBase()
@@ -237,8 +238,7 @@ public TieBase()
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1__ctor_System_String_"></a> TieBase\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
-<p>
-  <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
+<p><xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public TieBase(string strName)
@@ -246,7 +246,7 @@ public TieBase(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 <p>Name of the STR.</p>
 <p>이름</p>
@@ -263,30 +263,30 @@ public ContactGeom3D ActionGeom { get; set; }
 
 #### Property Value
 
- ContactGeom3D
+ [ContactGeom3D](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/ContactGeom3D.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_BaseGeom"></a> BaseGeom
 
 <p>Gets or sets the base 3D contact geometry.</p>
 <p>베이스 3D 접촉 요소를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : ContactGeom3D
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Entity Name
-        Control Type : Entity Picker
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Tie
-        Category Index : 1
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : ContactGeom3D
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Entity Name
+Control Type : Entity Picker
+ToolTip : N/A
+Error Message : N/A
+Category : Tie
+Category Index : 1
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public ContactGeom3D BaseGeom { get; set; }
@@ -294,7 +294,7 @@ public ContactGeom3D BaseGeom { get; set; }
 
 #### Property Value
 
- ContactGeom3D
+ [ContactGeom3D](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCt/ContactGeom3D.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_CanSwitchImpl"></a> CanSwitchImpl
 
@@ -304,7 +304,7 @@ protected virtual bool CanSwitchImpl { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_GenerableImpl"></a> GenerableImpl
 
@@ -317,7 +317,7 @@ protected virtual bool GenerableImpl { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
@@ -329,24 +329,24 @@ protected override bool HasLayerExplicitly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Hide"></a> Hide
 
 <p>Gets or sets a value indicating whether this instance is hide.</p>
 <p>아이콘을 숨길지 여부를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : bool
-        LinkRequestUpdate 시 처리 :
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : false
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : bool
+LinkRequestUpdate 시 처리 :
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : false
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public bool Hide { get; set; }
@@ -354,24 +354,24 @@ public bool Hide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_NameOfActionBody"></a> NameOfActionBody
 
 <p>Gets the name of body referenced tie action geometry.</p>
 <p>Tie의 Action의 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
 <p>
-        Type : string
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : false
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : string
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : false
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public string NameOfActionBody { get; }
@@ -379,24 +379,24 @@ public string NameOfActionBody { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_NameOfBaseBody"></a> NameOfBaseBody
 
 <p>Gets the name of body referenced tie base geometry.</p>
 <p>Tie의 Base 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
 <p>
-        Type : string
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : false
-        변경 시 DFS 재생성 여부 : No
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : string
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : false
+변경 시 DFS 재생성 여부 : No
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public string NameOfBaseBody { get; }
@@ -404,7 +404,7 @@ public string NameOfBaseBody { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -419,7 +419,7 @@ public void Draw(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 <p>The canvas has icon information.</p>
 <p>아이콘 정보를 가지는 캔버스</p>
@@ -435,7 +435,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 <p>The Name that want to find.</p>
 <p>찾고 싶은 엔티티의 이름입니다.</p>
@@ -455,14 +455,14 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 <p>The ob unnamed.</p>
 <p>특정한 이름을 찾고자 하는 오브젝트.</p>
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -491,7 +491,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 <p>The linked object.</p>
 <p>참조된 객체입니다.</p>
@@ -512,7 +512,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 <p>The sender.</p>
 <p>Load 관련 객체정보입니다.</p>

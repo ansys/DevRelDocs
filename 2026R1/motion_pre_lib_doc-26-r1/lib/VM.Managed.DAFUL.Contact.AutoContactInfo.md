@@ -1,4 +1,5 @@
-#  Class AutoContactInfo
+# Class AutoContactInfo
+<a id="VM_Managed_DAFUL_Contact_AutoContactInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -11,12 +12,12 @@ public class AutoContactInfo : SubEntity, IObservableObject, IDisposableObject, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
 [AutoContactInfo](VM.Managed.DAFUL.Contact.AutoContactInfo.md)
 
 #### Implements
@@ -26,7 +27,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -46,17 +47,17 @@ IHasID
 
 #### Inherited Members
 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -149,7 +150,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -214,7 +215,7 @@ public bool Hide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_IsUse"></a> IsUse
 
@@ -226,7 +227,7 @@ public bool IsUse { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_Name"></a> Name
 
@@ -238,7 +239,7 @@ public override string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_SubName"></a> SubName
 
@@ -250,7 +251,7 @@ public string SubName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo__Contact"></a> \_Contact
 
@@ -284,7 +285,7 @@ public void Draw(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas has icon information.
 
@@ -298,7 +299,7 @@ protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs 
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -316,7 +317,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

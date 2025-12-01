@@ -1,4 +1,5 @@
-#  Class Point3D
+# Class Point3D
+<a id="VM_Models_Pre_Force_Point3D"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class Point3D
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Point3D](VM.Models.Pre.Force.Point3D.md)
 
 #### Extension Methods
@@ -28,11 +29,11 @@ public Point3D(double dx, double dy, double dz)
 
 #### Parameters
 
-`dx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dx` double
 
-`dy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dy` double
 
-`dz` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dz` double
 
 ## Properties
 
@@ -44,7 +45,7 @@ public double X { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_Point3D_Y"></a> Y
 
@@ -54,7 +55,7 @@ public double Y { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_Point3D_Z"></a> Z
 
@@ -64,5 +65,5 @@ public double Z { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

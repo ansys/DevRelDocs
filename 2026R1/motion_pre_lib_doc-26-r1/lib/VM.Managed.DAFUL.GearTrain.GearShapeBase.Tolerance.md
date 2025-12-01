@@ -1,4 +1,5 @@
-#  Class GearShapeBase.Tolerance
+# Class GearShapeBase.Tolerance
+<a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class GearShapeBase.Tolerance
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearShapeBase.Tolerance](VM.Managed.DAFUL.GearTrain.GearShapeBase.Tolerance.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ public double LeftPitchError { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance_RightPitchError"></a> RightPitchError
 
@@ -54,7 +55,7 @@ public double RightPitchError { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance_RunoutError"></a> RunoutError
 
@@ -66,5 +67,5 @@ public double RunoutError { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

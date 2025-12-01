@@ -1,4 +1,5 @@
-#  Class SimulationDataSetExtensions
+# Class SimulationDataSetExtensions
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSetExtensions"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public static class SimulationDataSetExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SimulationDataSetExtensions](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSetExtensions.md)
 
 #### Extension Methods
@@ -52,5 +53,5 @@ public static void Save(this SimulationDataSet simulationDataSet, string path)
 
 `simulationDataSet` [SimulationDataSet](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSet.md)
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 

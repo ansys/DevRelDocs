@@ -1,4 +1,5 @@
-#  Enum AdditionModes
+# Enum AdditionModes
+<a id="VM_AdditionModes"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

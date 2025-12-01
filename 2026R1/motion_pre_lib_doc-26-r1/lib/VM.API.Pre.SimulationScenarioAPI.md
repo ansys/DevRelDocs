@@ -1,4 +1,5 @@
-#  Class SimulationScenarioAPI
+# Class SimulationScenarioAPI
+<a id="VM_API_Pre_SimulationScenarioAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class SimulationScenarioAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SimulationScenarioAPI](VM.API.Pre.SimulationScenarioAPI.md)
 
 #### Extension Methods
@@ -34,7 +35,7 @@ public static Obj CreateSimulationScenarioForActivate(this SubSystemDocument doc
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the simulation scenario.
 
@@ -42,15 +43,15 @@ The document to create the simulation scenario.
 
 The enable target of the simulation scenario.
 
-`referenceValue` ExpressionValueVariable?
+`referenceValue` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The value of the simulation scenario.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the simulation scenario.
 
-`sensorType` Scenario.Sensor
+`sensorType` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sensor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sensor type of the simulation scenario.
 
@@ -58,7 +59,7 @@ The sensor type of the simulation scenario.
 
 The function of the simulation scenario.
 
-`sign` Scenario.Sign
+`sign` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sign](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sign type of the simulation scenario.
 
@@ -66,7 +67,7 @@ The sign type of the simulation scenario.
 
 The action type of the simulation scenario.
 
-`subTarget` Scenario.Motion
+`subTarget` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Motion](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sub target of the simulation scenario.
 
@@ -78,15 +79,15 @@ The new <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'target' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'target' is not <xref href="VM.Managed.IEnableForSimulationScenario" data-throw-if-not-resolved="false"></xref>.
 
@@ -102,7 +103,7 @@ public static Obj CreateSimulationScenarioForBody(this SubSystemDocument documen
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the simulation scenario.
 
@@ -110,15 +111,15 @@ The document to create the simulation scenario.
 
 The enable target of the simulation scenario.
 
-`referenceValue` ExpressionValueVariable?
+`referenceValue` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The value of the simulation scenario.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the simulation scenario.
 
-`sensorType` Scenario.Sensor
+`sensorType` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sensor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sensor type of the simulation scenario.
 
@@ -126,7 +127,7 @@ The sensor type of the simulation scenario.
 
 The function of the simulation scenario.
 
-`sign` Scenario.Sign
+`sign` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sign](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sign type of the simulation scenario.
 
@@ -142,15 +143,15 @@ The new <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document', 'target' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'target' is not <xref href="VM.Managed.DAFUL.IBodyAnalysisType" data-throw-if-not-resolved="false"></xref> or if the type of target's analysisType is not <xref href="VM.Managed.DAFUL.BodyAnalysisType.Rigid" data-throw-if-not-resolved="false"></xref>.
 
@@ -166,23 +167,23 @@ public static Obj CreateSimulationScenarioForFile(this SubSystemDocument documen
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the simulation scenario.
 
-`targetFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetFilePath` string
 
 The ICF file path of the simulation scenario.
 
-`referenceValue` ExpressionValueVariable?
+`referenceValue` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The value of the simulation scenario.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the simulation scenario.
 
-`sensorType` Scenario.Sensor
+`sensorType` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sensor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sensor type of the simulation scenario.
 
@@ -190,7 +191,7 @@ The sensor type of the simulation scenario.
 
 The function of the simulation scenario.
 
-`sign` Scenario.Sign
+`sign` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sign](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sign type of the simulation scenario.
 
@@ -206,11 +207,11 @@ The new <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -225,23 +226,23 @@ public static Obj CreateSimulationScenarioForOutput(this SubSystemDocument docum
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the simulation scenario.
 
-`target` ExpressionValueVariable?
+`target` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The action value of the simulation scenario.
 
-`referenceValue` ExpressionValueVariable?
+`referenceValue` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The value of the simulation scenario.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the simulation scenario.
 
-`sensorType` Scenario.Sensor
+`sensorType` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sensor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sensor type of the simulation scenario.
 
@@ -249,7 +250,7 @@ The sensor type of the simulation scenario.
 
 The function of the simulation scenario.
 
-`sign` Scenario.Sign
+`sign` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sign](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sign type of the simulation scenario.
 
@@ -265,11 +266,11 @@ The new <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -284,19 +285,19 @@ public static Obj CreateSimulationScenarioForStop(this SubSystemDocument documen
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the simulation scenario.
 
-`referenceValue` ExpressionValueVariable?
+`referenceValue` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The value of the simulation scenario.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the simulation scenario.
 
-`sensorType` Scenario.Sensor
+`sensorType` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sensor](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sensor type of the simulation scenario.
 
@@ -304,7 +305,7 @@ The sensor type of the simulation scenario.
 
 The function of the simulation scenario.
 
-`sign` Scenario.Sign
+`sign` [Scenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs).[Sign](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Scenario.cs)
 
 The sign type of the simulation scenario.
 
@@ -316,11 +317,11 @@ The new <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 

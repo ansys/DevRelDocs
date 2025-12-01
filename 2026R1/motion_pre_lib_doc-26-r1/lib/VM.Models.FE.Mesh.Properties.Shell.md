@@ -1,4 +1,5 @@
-#  Class Shell
+# Class Shell
+<a id="VM_Models_FE_Mesh_Properties_Shell"></a>
 
 Namespace: [VM.Models.FE.Mesh.Properties](VM.Models.FE.Mesh.Properties.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -10,7 +11,7 @@ public class Shell : Solid, IEntity
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Entity](VM.Models.FE.Mesh.Entity.md) ← 
 [Solid](VM.Models.FE.Mesh.Properties.Solid.md) ← 
 [Shell](VM.Models.FE.Mesh.Properties.Shell.md)
@@ -56,7 +57,7 @@ public double Thickness { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -68,9 +69,9 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

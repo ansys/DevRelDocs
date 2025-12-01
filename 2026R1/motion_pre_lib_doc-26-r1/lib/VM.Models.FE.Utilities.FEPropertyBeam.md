@@ -1,4 +1,5 @@
-#  Struct FEPropertyBeam
+# Struct FEPropertyBeam
+<a id="VM_Models_FE_Utilities_FEPropertyBeam"></a>
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -17,7 +18,7 @@ public double Area { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_DirectionVector"></a> DirectionVector
 
@@ -37,7 +38,7 @@ public uint ID { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_Ixx"></a> Ixx
 
@@ -47,7 +48,7 @@ public double Ixx { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_Iyy"></a> Iyy
 
@@ -57,7 +58,7 @@ public double Iyy { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_Izy"></a> Izy
 
@@ -67,7 +68,7 @@ public double Izy { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_Izz"></a> Izz
 
@@ -77,7 +78,7 @@ public double Izz { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_MaterialSequence"></a> MaterialSequence
 
@@ -87,7 +88,7 @@ public uint MaterialSequence { readonly get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_ShearFactorY"></a> ShearFactorY
 
@@ -97,7 +98,7 @@ public double ShearFactorY { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_FE_Utilities_FEPropertyBeam_ShearFactorZ"></a> ShearFactorZ
 
@@ -107,5 +108,5 @@ public double ShearFactorZ { readonly get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

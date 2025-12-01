@@ -1,4 +1,5 @@
-#  Interface ISpline
+# Interface ISpline
+<a id="VM_Managed_ISpline"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -25,7 +26,7 @@ void GetPoints(List<double> lstX, List<double> lstY)
 
 #### Parameters
 
-`lstX` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstX` List<double\>
 
-`lstY` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstY` List<double\>
 

@@ -1,4 +1,5 @@
-#  Class AssembleItems
+# Class AssembleItems
+<a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class AssembleItems : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [AssembleItems](VM.Managed.DAFUL.GearTrain.Operation.AssembleItems.md)
 
@@ -87,7 +88,7 @@ public AssembleItems(GearTrainDocument gearTrainDocument, BodyToDTData[] arBodyT
 
 #### Parameters
 
-`gearTrainDocument` GearTrainDocument
+`gearTrainDocument` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document.
 
@@ -99,7 +100,7 @@ The gearset data.
 
 The bearing data.
 
-`dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTolerance` double
 
 The tolerance.
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_StatusMessage"></a> StatusMessage
 
@@ -141,7 +142,7 @@ public string StatusMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_Success"></a> Success
 
@@ -153,7 +154,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -175,7 +176,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

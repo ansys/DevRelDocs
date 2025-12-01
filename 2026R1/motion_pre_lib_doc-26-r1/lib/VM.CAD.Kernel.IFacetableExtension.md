@@ -1,4 +1,5 @@
-#  Class IFacetableExtension
+# Class IFacetableExtension
+<a id="VM_CAD_Kernel_IFacetableExtension"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public static class IFacetableExtension
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IFacetableExtension](VM.CAD.Kernel.IFacetableExtension.md)
 
 #### Extension Methods
@@ -30,9 +31,9 @@ public static void SetGeometryOption(this IFacetable target, string argument, st
 
 `target` [IFacetable](VM.CAD.Kernel.IFacetable.md)
 
-`argument` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`argument` string
 
-`defaultArgument` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`defaultArgument` string
 
-`lengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`lengthFactor` double
 

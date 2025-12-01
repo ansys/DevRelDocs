@@ -1,4 +1,5 @@
-#  Class Translational
+# Class Translational
+<a id="VM_Managed_Symmetric_Constraints_Translational"></a>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  
@@ -9,9 +10,9 @@ public class Translational : Constraint<Translational, PropertyTranslational>, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Translational\> ← 
-Connector<Translational, PropertyTranslational\> ← 
+object ← 
+[Named<Translational\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<Translational, PropertyTranslational\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
 [Constraint<Translational, PropertyTranslational\>](VM.Managed.Symmetric.Constraints.Constraint\-2.md) ← 
 [Translational](VM.Managed.Symmetric.Constraints.Translational.md)
 
@@ -22,11 +23,11 @@ ISymmetricUpdater
 #### Inherited Members
 
 [Constraint<Translational, PropertyTranslational\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](VM.Managed.Symmetric.Constraints.Constraint\-2.md\#VM\_Managed\_Symmetric\_Constraints\_Constraint\_2\_Update\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_VM\_Managed\_SymmetricType\_VM\_Plane\_VM\_Managed\_Document\_), 
-Connector<Translational, PropertyTranslational\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Translational\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Translational\>.Initialize\(ISymmetricManager\), 
-Named<Translational\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Translational\>.SymmetricManager
+[Connector<Translational, PropertyTranslational\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<Translational\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Translational\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Translational\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Translational\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -86,9 +87,9 @@ public static void UpdateProperty(PropertyTranslational toolProperty, PropertyTr
 
 #### Parameters
 
-`toolProperty` PropertyTranslational
+`toolProperty` [PropertyTranslational](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Translational.cs)
 
-`targetProperty` PropertyTranslational
+`targetProperty` [PropertyTranslational](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Translational.cs)
 
 `sym_type` SymmetricType
 

@@ -1,4 +1,5 @@
-#  Class AddedGearBuilder
+# Class AddedGearBuilder
+<a id="VM_Managed_DAFUL_GearTrain_CAD_AddedGearBuilder"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,14 +7,14 @@ Assembly: VMDGearTrain.dll
 The added gear builder
 
 ```csharp
-public class AddedGearBuilder : GearBuilder, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IGeometryBuilder, IGearBuilder, IGTBuilder, IAddOnBearing, IAddedBuilder
+public class AddedGearBuilder : GearBuilder, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity, IGeometryBuilder, IGearBuilder, IGTBuilder, IAddOnBearing, IAddedBuilder
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -36,8 +37,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
+IHasReplaceableEntity, 
 [IGeometryBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGeometryBuilder.md), 
 [IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md), 
 [IGTBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGTBuilder.md), 
@@ -102,6 +104,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -205,7 +209,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -260,7 +264,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The object notifier.
 
@@ -278,7 +282,7 @@ protected override void LinkRequestUpdating(object objNotifier, LinkEventArgs ar
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The object notifier.
 

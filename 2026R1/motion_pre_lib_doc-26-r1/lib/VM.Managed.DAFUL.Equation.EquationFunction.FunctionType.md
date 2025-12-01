@@ -1,4 +1,5 @@
-#  Enum EquationFunction.FunctionType
+# Enum EquationFunction.FunctionType
+<a id="VM_Managed_DAFUL_Equation_EquationFunction_FunctionType"></a>
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  

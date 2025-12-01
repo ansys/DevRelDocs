@@ -1,4 +1,5 @@
-#  Struct ClutchParameters
+# Struct ClutchParameters
+<a id="VM_API_Pre_GearTrain_ClutchParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -29,11 +30,11 @@ public ClutchParameters(string bodyName, string clutchName, Vector position, Vec
 
 #### Parameters
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The bodyName of the clutch parameters.
 
-`clutchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`clutchName` string
 
 The clutchName of the clutch parameters.
 
@@ -57,7 +58,7 @@ public string BodyName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_ClutchParameters_ClutchName"></a> ClutchName
 
@@ -69,7 +70,7 @@ public string ClutchName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_ClutchParameters_Position"></a> Position
 

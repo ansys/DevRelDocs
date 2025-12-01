@@ -1,4 +1,5 @@
-#  Class SeparateContact
+# Class SeparateContact
+<a id="VM_Managed_Operation_SeparateContact"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class SeparateContact : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SeparateContact](VM.Managed.Operation.SeparateContact.md)
 
@@ -95,7 +96,7 @@ public SeparateContact(string strXml)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The XML.
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

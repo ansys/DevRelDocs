@@ -1,4 +1,5 @@
-#  Class AnalysisLiftOffTurnIn
+# Class AnalysisLiftOffTurnIn
+<a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisLiftOffTurnIn : CorneringBase, IHasInitialVel, IHasLengthUn
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [CorneringBase](VM.Managed.DAFUL.Car.CorneringBase.md) ← 
@@ -85,7 +86,7 @@ public double DelayOfClutch { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_DelayOfSteering"></a> DelayOfSteering
 
@@ -97,7 +98,7 @@ public double DelayOfSteering { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_DelayOfThrottle"></a> DelayOfThrottle
 
@@ -109,7 +110,7 @@ public double DelayOfThrottle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_InitialVelocityCornering"></a> InitialVelocityCornering
 
@@ -121,7 +122,7 @@ public override double InitialVelocityCornering { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_IsDisengageClutchDuringLiftOff"></a> IsDisengageClutchDuringLiftOff
 
@@ -133,7 +134,7 @@ public bool IsDisengageClutchDuringLiftOff { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_LateralAcc"></a> LateralAcc
 
@@ -145,7 +146,7 @@ public double LateralAcc { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_RampOfSteering"></a> RampOfSteering
 
@@ -157,7 +158,7 @@ public double RampOfSteering { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_StepDurationOfClutch"></a> StepDurationOfClutch
 
@@ -169,7 +170,7 @@ public double StepDurationOfClutch { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_StepDurationOfThrottle"></a> StepDurationOfThrottle
 
@@ -181,7 +182,7 @@ public double StepDurationOfThrottle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_TireRadiusPosition"></a> TireRadiusPosition
 
@@ -193,7 +194,7 @@ public override int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_TurnRadius"></a> TurnRadius
 
@@ -205,7 +206,7 @@ public double TurnRadius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_UnitOfLength"></a> UnitOfLength
 
@@ -231,7 +232,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

@@ -1,4 +1,5 @@
-#  Struct ShaftSetParameters
+# Struct ShaftSetParameters
+<a id="VM_API_Pre_GearTrain_ShaftSetParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -29,11 +30,11 @@ public ShaftSetParameters(string bodyName, string shaftSetName, Vector position,
 
 #### Parameters
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The bodyName of the shaftset parameters.
 
-`shaftSetName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`shaftSetName` string
 
 The shaftSetName of the shaftset parameters.
 
@@ -45,19 +46,19 @@ The position of the shaftset parameters.
 
 The rorateAxis of the shaftset parameters.
 
-`powerLoad` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`powerLoad` bool
 
 The powerLoad of the shaftset parameters.
 
-`role` PowerLoad.PowerLoadType
+`role` [PowerLoad](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs).[PowerLoadType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs)
 
 The role of the shaftset parameters.
 
-`offset` ExpressionValueVariable
+`offset` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The offset of the shaftset parameters.
 
-`width` ExpressionValueVariable
+`width` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 The of the shaftset parameters..
 
@@ -73,7 +74,7 @@ public string BodyName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Offset"></a> Offset
 
@@ -85,7 +86,7 @@ public ExpressionValueVariable Offset { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Position"></a> Position
 
@@ -109,7 +110,7 @@ public bool PowerLoad { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Role"></a> Role
 
@@ -121,7 +122,7 @@ public PowerLoad.PowerLoadType Role { readonly get; set; }
 
 #### Property Value
 
- PowerLoad.PowerLoadType
+ [PowerLoad](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs).[PowerLoadType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/PowerLoad.cs)
 
 ### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_RotateAxis"></a> RotateAxis
 
@@ -145,7 +146,7 @@ public string ShaftSetName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Width"></a> Width
 
@@ -157,5 +158,5 @@ public ExpressionValueVariable Width { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

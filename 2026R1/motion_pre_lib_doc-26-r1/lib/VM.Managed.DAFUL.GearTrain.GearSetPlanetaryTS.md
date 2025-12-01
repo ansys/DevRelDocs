@@ -1,4 +1,5 @@
-#  Class GearSetPlanetaryTS
+# Class GearSetPlanetaryTS
+<a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -6,19 +7,19 @@ Assembly: VMDGearTrain.dll
 Gear set for two-stage planetary
 
 ```csharp
-public class GearSetPlanetaryTS : GearSetBase<PropertyGearSetPlanetaryDP>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IOpenDesignerForGearTrain, IOpenDesigner, IReferencable, IGearSet, IHasGeometryInfo, ITransparentable, IHasBuilder, IReportable
+public class GearSetPlanetaryTS : GearSetBase<PropertyGearSetPlanetaryDP>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IOpenDesignerForGearTrain, IOpenDesigner, IReferencable, IGearSet, IHasGeometryInfo, ITransparentable, IHasBuilder, IReportable, IMassProp
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<EntityEventCore\> ← 
 ContainerObject<EntityEventCore\> ← 
-EntityBase ← 
-Entity<PropertyGearSetPlanetaryDP\> ← 
+[EntityBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
+[Entity<PropertyGearSetPlanetaryDP\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
 [OpenDesignerBase<PropertyGearSetPlanetaryDP\>](VM.Managed.DAFUL.GearTrain.OpenDesignerBase\-1.md) ← 
 [GearSetBase<PropertyGearSetPlanetaryDP\>](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md) ← 
 [GearSetPlanetaryTS](VM.Managed.DAFUL.GearTrain.GearSetPlanetaryTS.md)
@@ -30,7 +31,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 IEntity, 
@@ -60,7 +61,8 @@ IReferencable,
 [IHasGeometryInfo](VM.Managed.DAFUL.GearTrain.IHasGeometryInfo.md), 
 ITransparentable, 
 IHasBuilder, 
-IReportable
+IReportable, 
+IMassProp
 
 #### Inherited Members
 
@@ -89,6 +91,7 @@ IReportable
 [GearSetBase<PropertyGearSetPlanetaryDP\>.OnDeserialization\(object\)](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_GearSetBase\_1\_OnDeserialization\_System\_Object\_), 
 [GearSetBase<PropertyGearSetPlanetaryDP\>.MakeReferenceImpl\(LinkedList<Reference\>\)](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_GearSetBase\_1\_MakeReferenceImpl\_System\_Collections\_Generic\_LinkedList\_VM\_Managed\_Reference\_\_), 
 [GearSetBase<PropertyGearSetPlanetaryDP\>.GeometryInfoBasesImpl\(\)](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_GearSetBase\_1\_GeometryInfoBasesImpl), 
+[GearSetBase<PropertyGearSetPlanetaryDP\>.GetMassPropImpl\(ref double, VectorBase, OMatrix, double\[\], bool\)](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_GearSetBase\_1\_GetMassPropImpl\_System\_Double\_\_VM\_Managed\_VectorBase\_VM\_Managed\_OMatrix\_System\_Double\_\_\_System\_Boolean\_), 
 [GearSetBase<PropertyGearSetPlanetaryDP\>.Extension](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_GearSetBase\_1\_Extension), 
 [GearSetBase<PropertyGearSetPlanetaryDP\>.TargetBody](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_GearSetBase\_1\_TargetBody), 
 [GearSetBase<PropertyGearSetPlanetaryDP\>.TypeOfParent](VM.Managed.DAFUL.GearTrain.GearSetBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_GearSetBase\_1\_TypeOfParent), 
@@ -117,34 +120,34 @@ IReportable
 [OpenDesignerBase<PropertyGearSetPlanetaryDP\>.HasLayerExplicitly](VM.Managed.DAFUL.GearTrain.OpenDesignerBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_OpenDesignerBase\_1\_HasLayerExplicitly), 
 [OpenDesignerBase<PropertyGearSetPlanetaryDP\>.Referencable](VM.Managed.DAFUL.GearTrain.OpenDesignerBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_OpenDesignerBase\_1\_Referencable), 
 [OpenDesignerBase<PropertyGearSetPlanetaryDP\>.Visible](VM.Managed.DAFUL.GearTrain.OpenDesignerBase\-1.md\#VM\_Managed\_DAFUL\_GearTrain\_OpenDesignerBase\_1\_Visible), 
-Entity<PropertyGearSetPlanetaryDP\>.Initialize\(Unit.ConvertFactor\), 
-Entity<PropertyGearSetPlanetaryDP\>.GetUnnamedObjectName\(object\), 
-Entity<PropertyGearSetPlanetaryDP\>.FindLocal\(string\), 
-Entity<PropertyGearSetPlanetaryDP\>.Property, 
-EntityBase.Initialize\(Unit.ConvertFactor\), 
-EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\), 
-EntityBase.OnDeserializationForAttribute\(\), 
-EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-EntityBase.LinkRequestDestroying\(object, LinkEventArgs\), 
-EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-EntityBase.FixUp\(ObjectBase\), 
-EntityBase.FindLocal\(string\), 
-EntityBase.WriteTemplateImpl\(XmlWriter\), 
-EntityBase.ReadTemplateImpl\(XmlReader\), 
-EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\), 
-EntityBase.OnDeserialization\(object\), 
-EntityBase.Name, 
-EntityBase.FullName, 
-EntityBase.NonSymmetricName, 
-EntityBase.DisplayName, 
-EntityBase.IsEnabled, 
-EntityBase.Comment, 
-EntityBase.HasLayerExplicitly, 
-EntityBase.UntypedProperty, 
-EntityBase.IsFileProperty, 
-EntityBase.Layer, 
-EntityBase.IsVisible, 
+[Entity<PropertyGearSetPlanetaryDP\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyGearSetPlanetaryDP\>.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyGearSetPlanetaryDP\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyGearSetPlanetaryDP\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserializationForAttribute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkRequestDestroying\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.HasLayerExplicitly](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsFileProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
 ContainerObject<EntityEventCore\>.Find\(string\), 
 ContainerObject<EntityEventCore\>.FindLocal\(string\), 
 ContainerObject<EntityEventCore\>.GetUnnamedObjectName\(object\), 
@@ -243,7 +246,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -282,7 +285,7 @@ public GearSetPlanetaryTS(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
@@ -298,7 +301,7 @@ protected override string Extension { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_FirstStageSingle"></a> FirstStageSingle
 
@@ -346,7 +349,7 @@ public bool IsShareFirstStageDoublePinionIn { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageDoublePinionOut"></a> IsShareFirstStageDoublePinionOut
 
@@ -358,7 +361,7 @@ public bool IsShareFirstStageDoublePinionOut { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageDoubleRing"></a> IsShareFirstStageDoubleRing
 
@@ -370,7 +373,7 @@ public bool IsShareFirstStageDoubleRing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageDoubleSun"></a> IsShareFirstStageDoubleSun
 
@@ -382,7 +385,7 @@ public bool IsShareFirstStageDoubleSun { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageSinglePinion"></a> IsShareFirstStageSinglePinion
 
@@ -394,7 +397,7 @@ public bool IsShareFirstStageSinglePinion { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageSingleRing"></a> IsShareFirstStageSingleRing
 
@@ -406,7 +409,7 @@ public bool IsShareFirstStageSingleRing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageSingleSun"></a> IsShareFirstStageSingleSun
 
@@ -418,7 +421,7 @@ public bool IsShareFirstStageSingleSun { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoublePinionIn"></a> IsShareSecondStageDoublePinionIn
 
@@ -430,7 +433,7 @@ public bool IsShareSecondStageDoublePinionIn { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoublePinionOut"></a> IsShareSecondStageDoublePinionOut
 
@@ -442,7 +445,7 @@ public bool IsShareSecondStageDoublePinionOut { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoubleRing"></a> IsShareSecondStageDoubleRing
 
@@ -454,7 +457,7 @@ public bool IsShareSecondStageDoubleRing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoubleSun"></a> IsShareSecondStageDoubleSun
 
@@ -466,7 +469,7 @@ public bool IsShareSecondStageDoubleSun { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageSinglePinion"></a> IsShareSecondStageSinglePinion
 
@@ -478,7 +481,7 @@ public bool IsShareSecondStageSinglePinion { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageSingleRing"></a> IsShareSecondStageSingleRing
 
@@ -490,7 +493,7 @@ public bool IsShareSecondStageSingleRing { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageSingleSun"></a> IsShareSecondStageSingleSun
 
@@ -502,7 +505,7 @@ public bool IsShareSecondStageSingleSun { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_SecondStageDouble"></a> SecondStageDouble
 
@@ -538,7 +541,7 @@ public override string TypeFileName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -566,13 +569,13 @@ public override bool Meshing(List<IGearBuilder> lstGB)
 
 #### Parameters
 
-`lstGB` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md)\>
+`lstGB` List<[IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md)\>
 
 The gear builder list.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
@@ -592,7 +595,7 @@ The gearset property
 
 The document
 
-`InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`InputArray` string\[\]
 
 The input array
 
@@ -614,7 +617,7 @@ The gearset property
 
 The document
 
-`InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`InputArray` string\[\]
 
 The input array
 

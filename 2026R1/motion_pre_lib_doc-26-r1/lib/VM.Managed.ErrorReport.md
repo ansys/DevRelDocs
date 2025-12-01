@@ -1,4 +1,5 @@
-#  Class ErrorReport
+# Class ErrorReport
+<a id="VM_Managed_ErrorReport"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ErrorReport
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ErrorReport](VM.Managed.ErrorReport.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public string Error { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_ErrorReport_ErrorCode"></a> ErrorCode
 
@@ -48,7 +49,7 @@ public uint ErrorCode { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_ErrorReport_ErrorObject"></a> ErrorObject
 
@@ -70,5 +71,5 @@ public override string ToString()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

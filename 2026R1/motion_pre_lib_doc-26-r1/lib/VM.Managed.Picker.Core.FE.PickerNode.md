@@ -1,4 +1,5 @@
-#  Class PickerNode
+# Class PickerNode
+<a id="VM_Managed_Picker_Core_FE_PickerNode"></a>
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +12,7 @@ public class PickerNode : PickerBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 PickerBase ← 
 [PickerNode](VM.Managed.Picker.Core.FE.PickerNode.md)
 
@@ -68,13 +69,13 @@ public override bool Filtering(UIntPtr pTarget)
 
 #### Parameters
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if sucess; otherwise, <code>false</code>.
 
@@ -88,11 +89,11 @@ public VectorBase GetNodePosition(UIntPtr pOwnerKey, int iNodeIndex)
 
 #### Parameters
 
-`pOwnerKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pOwnerKey` UIntPtr
 
 The Owner mesh key.
 
-`iNodeIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`iNodeIndex` int
 
 The node index.
 
@@ -112,7 +113,7 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The picker information.
 
@@ -126,7 +127,7 @@ public override void Highlight(bool bHighlight)
 
 #### Parameters
 
-`bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHighlight` bool
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
@@ -140,17 +141,17 @@ protected override bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 Whether only xml or not.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

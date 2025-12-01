@@ -1,4 +1,5 @@
-#  Enum DestroyType
+# Enum DestroyType
+<a id="VM_Managed_DestroyType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

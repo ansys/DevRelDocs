@@ -1,4 +1,5 @@
-#  Class Instance
+# Class Instance
+<a id="VM_Managed_Instance"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public class Instance : Object<ObjectEventCore>, IObservableObject, IDisposableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [ObjectBase](VM.Managed.ObjectBase.md) ← 
 [Object<ObjectEventCore\>](VM.Managed.Object\-1.md) ← 
 [Instance](VM.Managed.Instance.md)
@@ -29,7 +30,7 @@ IEventProvider,
 IHasKeyObject, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
 [IVerifiable](VM.Managed.IVerifiable.md), 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 [IAttributeContainer](VM.Managed.IAttributeContainer.md), 
 [IInstance](VM.Managed.IInstance.md), 
 IContainer, 
@@ -131,7 +132,7 @@ IHasID
 [ObjectBase.OnDestroying](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnDestroying), 
 [ObjectBase.OnUpdate](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdate), 
 [ObjectBase.OnUpdating](VM.Managed.ObjectBase.md\#VM\_Managed\_ObjectBase\_OnUpdating), 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -194,7 +195,7 @@ protected override bool ClearChildInfoBeforeDeserialize { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Instance_References"></a> References
 
@@ -234,7 +235,7 @@ public bool ContainsReference(Reference reference)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Instance_Find_System_String_"></a> Find\(string\)
 
@@ -246,7 +247,7 @@ public IObjectBase Find(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The DAFUL object full name.
 
@@ -266,7 +267,7 @@ public virtual IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 The DAFUL object name.
 
@@ -300,11 +301,11 @@ public static Reference FindReferenceWithPrototype(Document3D doc3D, List<Instan
 
 `doc3D` [Document3D](VM.Managed.Document3D.md)
 
-`instanceCurrent` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Instance](VM.Managed.Instance.md)\>
+`instanceCurrent` List<[Instance](VM.Managed.Instance.md)\>
 
 `objTarget` [ObjectBase](VM.Managed.ObjectBase.md)
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 #### Returns
 
@@ -334,17 +335,17 @@ public virtual string GetNewEntityName(string A_0, bool A_1, int A_2, int A_3)
 
 #### Parameters
 
-`A_0` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`A_0` string
 
-`A_1` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_1` bool
 
-`A_2` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`A_2` int
 
-`A_3` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`A_3` int
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Instance_GetNewEntityName_System_String_System_Boolean_System_Int32_"></a> GetNewEntityName\(string, bool, int\)
 
@@ -356,15 +357,15 @@ public virtual string GetNewEntityName(string A_0, bool A_1, int A_2)
 
 #### Parameters
 
-`A_0` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`A_0` string
 
-`A_1` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_1` bool
 
-`A_2` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`A_2` int
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Instance_GetNewEntityName_System_String_"></a> GetNewEntityName\(string\)
 
@@ -376,11 +377,11 @@ public virtual string GetNewEntityName(string A_0)
 
 #### Parameters
 
-`A_0` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`A_0` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Instance_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
@@ -392,13 +393,13 @@ public virtual string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 The unnamed object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The unnamed object name.
 
@@ -412,7 +413,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
@@ -428,7 +429,7 @@ public override void OnDeserialization(object obSender)
 
 #### Parameters
 
-`obSender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obSender` object
 
 ### <a id="VM_Managed_Instance_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
 
@@ -462,5 +463,5 @@ public override bool SkipUpdateObjectImpl()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

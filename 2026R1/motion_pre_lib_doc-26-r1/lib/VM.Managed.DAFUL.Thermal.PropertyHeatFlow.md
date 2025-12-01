@@ -1,4 +1,5 @@
-#  Class PropertyHeatFlow
+# Class PropertyHeatFlow
+<a id="VM_Managed_DAFUL_Thermal_PropertyHeatFlow"></a>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  
@@ -11,15 +12,15 @@ public class PropertyHeatFlow : PropertyHeatFlowBase, IObservableObject, IDispos
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
-PropertyThermalBase ← 
-PropertyHeatFlowBase ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
+[PropertyThermalBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs) ← 
+[PropertyHeatFlowBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/HeatFlowBase.cs) ← 
 [PropertyHeatFlow](VM.Managed.DAFUL.Thermal.PropertyHeatFlow.md)
 
 #### Implements
@@ -33,7 +34,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -42,15 +43,15 @@ IHasID
 
 #### Inherited Members
 
-PropertyHeatFlowBase.Initialize\(Unit.ConvertFactor\), 
-PropertyThermalBase.Initialize\(Unit.ConvertFactor\), 
-PropertyThermalBase.Function, 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[PropertyHeatFlowBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/HeatFlowBase.cs), 
+[PropertyThermalBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs), 
+[PropertyThermalBase.Function](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -149,7 +150,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 

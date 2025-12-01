@@ -1,4 +1,5 @@
-#  Enum enRenderType
+# Enum enRenderType
+<a id="VM_Managed_Render_enRenderType"></a>
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  

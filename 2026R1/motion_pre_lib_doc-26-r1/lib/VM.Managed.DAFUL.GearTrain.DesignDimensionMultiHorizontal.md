@@ -1,4 +1,5 @@
-#  Class DesignDimensionMultiHorizontal
+# Class DesignDimensionMultiHorizontal
+<a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMultiHorizontal"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,13 +12,13 @@ public class DesignDimensionMultiHorizontal : DesignDimensionMulti, IObservableO
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
-DesignSubEntity ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
+[DesignSubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignSubEntity.cs) ← 
 [DesignDimensionBase](VM.Managed.DAFUL.GearTrain.DesignDimensionBase.md) ← 
 [DesignDimensionMulti](VM.Managed.DAFUL.GearTrain.DesignDimensionMulti.md) ← 
 [DesignDimensionMultiHorizontal](VM.Managed.DAFUL.GearTrain.DesignDimensionMultiHorizontal.md)
@@ -29,7 +30,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 INamed, 
 INavigatorItem, 
@@ -68,23 +69,23 @@ IDrawIcon
 [DesignDimensionBase.EndPoint](VM.Managed.DAFUL.GearTrain.DesignDimensionBase.md\#VM\_Managed\_DAFUL\_GearTrain\_DesignDimensionBase\_EndPoint), 
 [DesignDimensionBase.Color](VM.Managed.DAFUL.GearTrain.DesignDimensionBase.md\#VM\_Managed\_DAFUL\_GearTrain\_DesignDimensionBase\_Color), 
 [DesignDimensionBase.Hide](VM.Managed.DAFUL.GearTrain.DesignDimensionBase.md\#VM\_Managed\_DAFUL\_GearTrain\_DesignDimensionBase\_Hide), 
-DesignSubEntity.m\_bSkipToUpdateSymmetric, 
-DesignSubEntity.g\_dicUpdatedDesignSubEntity, 
-DesignSubEntity.FixUp\(ObjectBase\), 
-DesignSubEntity.CheckCircularReference\(\), 
-DesignSubEntity.BindInterfaceImpl\(TMatrix, TMatrix, IInterface\), 
-DesignSubEntity.IsInterface, 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[DesignSubEntity.m\_bSkipToUpdateSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignSubEntity.cs), 
+[DesignSubEntity.g\_dicUpdatedDesignSubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignSubEntity.cs), 
+[DesignSubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignSubEntity.cs), 
+[DesignSubEntity.CheckCircularReference\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignSubEntity.cs), 
+[DesignSubEntity.BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignSubEntity.cs), 
+[DesignSubEntity.IsInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignSubEntity.cs), 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -177,7 +178,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -216,7 +217,7 @@ public DesignDimensionMultiHorizontal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the design subentity.
 

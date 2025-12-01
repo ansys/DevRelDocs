@@ -1,4 +1,5 @@
-#  Class CheckSolidHelper
+# Class CheckSolidHelper
+<a id="VM_Managed_DAFUL_Builder_CheckSolidHelper"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class CheckSolidHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CheckSolidHelper](VM.Managed.DAFUL.Builder.CheckSolidHelper.md)
 
 #### Extension Methods
@@ -36,5 +37,5 @@ public static bool UseCheckSolid { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

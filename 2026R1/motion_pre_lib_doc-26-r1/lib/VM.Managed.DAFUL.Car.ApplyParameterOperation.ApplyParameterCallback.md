@@ -1,4 +1,5 @@
-#  Delegate ApplyParameterOperation.ApplyParameterCallback
+# Delegate ApplyParameterOperation.ApplyParameterCallback
+<a id="VM_Managed_DAFUL_Car_ApplyParameterOperation_ApplyParameterCallback"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public delegate bool ApplyParameterOperation.ApplyParameterCallback()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

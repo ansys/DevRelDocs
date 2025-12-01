@@ -1,4 +1,5 @@
-#  Interface IPropertyDocument
+# Interface IPropertyDocument
+<a id="VM_Managed_IPropertyDocument"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

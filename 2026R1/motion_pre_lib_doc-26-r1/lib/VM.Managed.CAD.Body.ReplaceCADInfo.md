@@ -1,4 +1,5 @@
-#  Class Body.ReplaceCADInfo
+# Class Body.ReplaceCADInfo
+<a id="VM_Managed_CAD_Body_ReplaceCADInfo"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class Body.ReplaceCADInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Body.ReplaceCADInfo](VM.Managed.CAD.Body.ReplaceCADInfo.md)
 
 #### Extension Methods
@@ -32,15 +33,15 @@ public ReplaceCADInfo(string strNameAttribute, string strCADFilePath, Color colo
 
 #### Parameters
 
-`strNameAttribute` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNameAttribute` string
 
 The name attribute.
 
-`strCADFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCADFilePath` string
 
 The CAD file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The CAD color.
 
@@ -56,7 +57,7 @@ public string CADFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_Body_ReplaceCADInfo_Color"></a> Color
 
@@ -68,7 +69,7 @@ public Color Color { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_CAD_Body_ReplaceCADInfo_NameAttribute"></a> NameAttribute
 
@@ -80,5 +81,5 @@ public string NameAttribute { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

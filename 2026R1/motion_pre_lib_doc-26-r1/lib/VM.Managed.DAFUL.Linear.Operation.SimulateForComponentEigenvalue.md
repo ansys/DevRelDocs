@@ -1,4 +1,5 @@
-#  Class SimulateForComponentEigenvalue
+# Class SimulateForComponentEigenvalue
+<a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue"></a>
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  
@@ -11,15 +12,16 @@ public class SimulateForComponentEigenvalue : SimulationRun, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
-SimulationRun ← 
+[SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs) ← 
 [SimulateForComponentEigenvalue](VM.Managed.DAFUL.Linear.Operation.SimulateForComponentEigenvalue.md)
 
 #### Derived
 
 [ExportDFG](VM.Managed.DAFUL.Linear.Operation.ExportDFG.md), 
 [ExportDFS](VM.Managed.DAFUL.Linear.Operation.ExportDFS.md), 
+[ExportFiles](VM.Managed.DAFUL.Linear.Operation.ExportFiles.md), 
 [ExportXML](VM.Managed.DAFUL.Linear.Operation.ExportXML.md), 
 [SimulateForBodyEigenvalue](VM.Managed.DAFUL.Linear.Operation.SimulateForBodyEigenvalue.md)
 
@@ -29,28 +31,29 @@ IOperation
 
 #### Inherited Members
 
-SimulationRun.m\_strSimulationConfiguration, 
-SimulationRun.m\_strFilePath, 
-SimulationRun.m\_strUserDefinedScenarioTypeName, 
-SimulationRun.Execute\(\), 
-SimulationRun.GetInformation\(XmlWriter\), 
-SimulationRun.ReadExtraJournal\(XmlElement\), 
-SimulationRun.WriteExtraJournal\(XmlWriter\), 
-SimulationRun.UpdateUI\(IUIUpdate, Document\), 
-SimulationRun.SimulationRunImpl\(bool\), 
-SimulationRun.PrepareSimulationSetting\(\), 
-SimulationRun.ShowDialog\(\), 
-SimulationRun.PrepareForm\(SimulationFormBase\), 
-SimulationRun.ApplySimulation\(SimulationFormBase\), 
-SimulationRun.ExecuteImpl\(\), 
-SimulationRun.ExecuteImplNotPrePareSimulation\(\), 
-SimulationRun.Name, 
-SimulationRun.SimulationForm, 
-SimulationRun.NotPrePareSimulation, 
-SimulationRun.FormResult, 
-SimulationRun.SimParam, 
-SimulationRun.SkipCheckDirectory, 
-SimulationRun.FilePath, 
+[SimulationRun.m\_strSimulationConfiguration](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.m\_strFilePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.m\_strUserDefinedScenarioTypeName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.Execute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.GetInformation\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.ReadExtraJournal\(XmlElement\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.WriteExtraJournal\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.UpdateUI\(IUIUpdate, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.SimulationRunImpl\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.PrepareSimulationSetting\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.ShowDialog\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.PrepareForm\(SimulationFormBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.ApplySimulation\(SimulationFormBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.ExecuteImpl\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.ExecuteImplNotPrePareSimulation\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.WriteJournalCore\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.SimulationForm](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.NotPrePareSimulation](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.FormResult](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.SimParam](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.SkipCheckDirectory](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
+[SimulationRun.FilePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs), 
 OperationBase.g\_bRedrawKernel, 
 OperationBase.g\_bVerify, 
 OperationBase.g\_bSkipAddEvent, 
@@ -151,7 +154,7 @@ public SimulateForComponentEigenvalue(Document doc, ObjectBase objSingle, Simula
 
 `objSingle` ObjectBase
 
-`simulationParameter` SimulationRun.SimulationParameter
+`simulationParameter` [SimulationRun](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs).[SimulationParameter](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOpCore/SimulationRun.cs)
 
 ### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulateForComponentEigenvalue\(JournalParameter\)
 
@@ -173,7 +176,7 @@ protected List<ObjectBase> m_lstObjEigen
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+ List<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_m_param"></a> m\_param
 
@@ -197,7 +200,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_Success"></a> Success
 
@@ -207,7 +210,7 @@ public bool Success { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -219,7 +222,7 @@ protected bool AutoSetEigenvalueObject()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_Execute"></a> Execute\(\)
 
@@ -237,7 +240,7 @@ public override void ReadExtraJournal(XmlElement nodeArg)
 
 #### Parameters
 
-`nodeArg` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`nodeArg` XmlElement
 
 ### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
@@ -247,7 +250,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 #### Parameters
 
-`bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bWriteDFG` bool
 
 ### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_WriteExtraJournal_System_Xml_XmlWriter_"></a> WriteExtraJournal\(XmlWriter\)
 
@@ -257,5 +260,5 @@ public override void WriteExtraJournal(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

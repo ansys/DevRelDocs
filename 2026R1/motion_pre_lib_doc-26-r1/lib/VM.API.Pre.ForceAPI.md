@@ -1,4 +1,5 @@
-#  Class ForceAPI
+# Class ForceAPI
+<a id="VM_API_Pre_ForceAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class ForceAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ForceAPI](VM.API.Pre.ForceAPI.md)
 
 #### Extension Methods
@@ -35,7 +36,7 @@ public static Obj CreateBushing(this SubSystemDocument subSystemDocument, Obj ba
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a bush force.
 
@@ -51,7 +52,7 @@ The action entity of a bush force.
 
 The position of a bush force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a bush force.
 
@@ -67,15 +68,15 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
@@ -93,7 +94,7 @@ public static Obj CreateBushing(this SubSystemDocument subSystemDocument, Obj ba
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a bush force.
 
@@ -113,7 +114,7 @@ The position of a bushr force.
 
 The direction of a bush force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a bush force.
 
@@ -129,15 +130,15 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref> and if the magnitude of 'direction' is 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
@@ -154,7 +155,7 @@ public static Obj CreateBushing(this SubSystemDocument subSystemDocument, Obj ba
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a bush force.
 
@@ -174,7 +175,7 @@ The position of a bush force.
 
 The orientation of a bush force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a bush force.
 
@@ -190,19 +191,19 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref> and if the magnitude of 'orientation' is 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the X, Y, Z Vector magnitudes of 'orientation' are equal to 0.
 
@@ -220,7 +221,7 @@ public static Obj CreateGeneralBearing(this SubSystemDocument subSystemDocument,
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a bearing general force.
 
@@ -240,7 +241,7 @@ The position of a bearing general force.
 
 The Z-Axis of a bearing general force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a bearing general force.
 
@@ -252,24 +253,24 @@ the new BearingGeneral object created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'axisZ' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
-### <a id="VM_API_Pre_ForceAPI_CreateLeafSpring_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Managed_TMatrix_VM_Vector_VM_Vector_System_String_"></a> CreateLeafSpring\(SubSystemDocument, Obj, Obj, Obj, TMatrix, Vector, Vector, string\)
+### <a id="VM_API_Pre_ForceAPI_CreateLeafSpring_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_TMatrix_VM_Vector_VM_Vector_System_String_"></a> CreateLeafSpring\(SubSystemDocument, Obj, Obj, Obj, TMatrix, Vector, Vector, string\)
 
 Create <xref href="VM.Models.Pre.Force.LeafSpring" data-throw-if-not-resolved="false"></xref>
 
 ```csharp
-[NotNull(new string[] { "subSystemDocument", "transform" })]
+[NotNull(new string[] { "subSystemDocument" })]
 [NotNullObj(new string[] { "frontConnectionFrame", "rearConnectionFrame", "axle" })]
 [MatchTypeObj(new object[] { "frontConnectionFrame", typeof(IConnectable), "rearConnectionFrame", typeof(IConnectable), "axle", typeof(IConnectable) })]
 public static Obj CreateLeafSpring(this SubSystemDocument subSystemDocument, Obj frontConnectionFrame, Obj rearConnectionFrame, Obj axle, TMatrix transform, Vector eyePosition, Vector shackleToFramePosition, string name = "")
@@ -277,7 +278,7 @@ public static Obj CreateLeafSpring(this SubSystemDocument subSystemDocument, Obj
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a leaf spring.
 
@@ -305,7 +306,7 @@ The eye position of a leaf spring.
 
 The shackle to frame position of a leaf spring.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a leaf spring.
 
@@ -317,23 +318,23 @@ the new <xref href="VM.Models.Pre.Force.LeafSpring" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
-Will be thrown if 'subSystemDocument', 'transform', 'frontConnectionFrame', 'rearConnectionFrame', 'axle' argument is null.
+Will be thrown if 'subSystemDocument', 'frontConnectionFrame', 'rearConnectionFrame', 'axle' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'frontConnectionFrame', 'rearConnectionFrame', 'axle' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'frontConnectionFrame', 'rearConnectionFrame', 'axle' are same.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the X, Y, Z Vector magnitudes of 'transform' are equal to 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'eyePosition' is equal to 'shackleToFramePosition'.
 
@@ -348,21 +349,21 @@ public static void CreateMagnetic(this SubSystemDocument subSystemDocument, IEnu
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a magnetic force.
 
-`groups` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`groups` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The groups of a magnetic force.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'groups' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'groups' is not <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"></xref>.
 
@@ -379,7 +380,7 @@ public static Obj CreateMatrix(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a matrix force.
 
@@ -399,7 +400,7 @@ The base position of a matrix force.
 
 The action position of a matrix force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a matrix force.
 
@@ -415,11 +416,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -436,7 +437,7 @@ public static Obj CreateMatrix(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a matrix force.
 
@@ -460,7 +461,7 @@ The action position of a matrix force.
 
 The user subroutine of a matrix force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a matrix force.
 
@@ -476,19 +477,19 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'userSubroutine' is equal to <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -505,7 +506,7 @@ public static Obj CreateRotationalScalar(this SubSystemDocument subSystemDocumen
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a rotational scalar force.
 
@@ -517,7 +518,7 @@ The joint of a rotational scalar force.
 
 The function of a rotational scalar force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a rotational scalar force.
 
@@ -533,15 +534,15 @@ the new <xref href="VM.Managed.DAFUL.Force.RScalar" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'joint' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'joint' is not <xref href="VM.Managed.DAFUL.IRScalarComponent" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -559,7 +560,7 @@ public static Obj CreateRotationalScalar(this SubSystemDocument subSystemDocumen
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a rotational scalar force.
 
@@ -583,7 +584,7 @@ The Z-Axis of a rotational scalar force.
 
 The function of a rotational scalar force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a rotational scalar force.
 
@@ -599,19 +600,19 @@ the new <xref href="VM.Managed.DAFUL.Force.RScalar" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'axisZ' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -628,7 +629,7 @@ public static Obj CreateRotationalSpring(this SubSystemDocument subSystemDocumen
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a rotational spring damper force.
 
@@ -636,7 +637,7 @@ The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="
 
 The joint of a rotational spring damper force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a rotational spring damper force.
 
@@ -652,11 +653,11 @@ the new <xref href="VM.Managed.DAFUL.Force.RSpringDamper" data-throw-if-not-reso
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'joint' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'joint' is not <xref href="VM.Managed.DAFUL.IRotationalMotionComponent" data-throw-if-not-resolved="false"></xref>.
 
@@ -673,7 +674,7 @@ public static Obj CreateSpring(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a translational spring damper force.
 
@@ -693,7 +694,7 @@ The base position of a translational spring damper force.
 
 The action position of a translational spring damper force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a translational spring damper force.
 
@@ -709,15 +710,15 @@ the new <xref href="VM.Managed.DAFUL.Force.TSpringDamper" data-throw-if-not-reso
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity' or if 'basePosition' is equal to 'actionPosition'.
 
@@ -734,7 +735,7 @@ public static Obj CreateTranslationalScalar(this SubSystemDocument subSystemDocu
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a translational scalar force.
 
@@ -758,7 +759,7 @@ The action position of a translational scalar force.
 
 The function of a translational scalar force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a translational scalar force.
 
@@ -774,19 +775,19 @@ the new <xref href="VM.Managed.DAFUL.Force.TScalar" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity' or if 'basePosition' is equal to 'actionPosition'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -803,7 +804,7 @@ public static Obj CreateVector(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a vector force.
 
@@ -823,7 +824,7 @@ The position of a vector force.
 
 The functions of a vector force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a vector force.
 
@@ -839,11 +840,11 @@ the new <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="f
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -860,7 +861,7 @@ public static Obj CreateVector(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a vector force.
 
@@ -884,7 +885,7 @@ The action position of a vector force.
 
 The functions of a vector force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a vector force.
 
@@ -900,15 +901,15 @@ the new <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="f
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
@@ -925,7 +926,7 @@ public static Obj CreateVector(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a vector force.
 
@@ -945,7 +946,7 @@ The position of a vector force.
 
 The user subroutine of a vector force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a vector force.
 
@@ -961,11 +962,11 @@ the new <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="f
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity', 'userSubroutine' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -982,7 +983,7 @@ public static Obj CreateVector(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a vector force.
 
@@ -1006,7 +1007,7 @@ The action position of a vector force.
 
 The user subroutine of a vector force.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a vector force.
 
@@ -1022,19 +1023,19 @@ the new <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="f
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity', 'userSubroutine' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'userSubroutine' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -1050,7 +1051,7 @@ public static void RunLeafSpringSimulation(this SubSystemDocument subSystemDocum
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a leaf spring simulation.
 
@@ -1058,17 +1059,17 @@ The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="
 
 The leaf spring of a leaf spring simulation.
 
-`isForceTest` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isForceTest` bool
 
 The isForceTest of a leaf spring simulation.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'getLeafSpring' is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'leafSpring' is not <xref href="VM.Models.Pre.Force.LeafSpring" data-throw-if-not-resolved="false"></xref>.
 

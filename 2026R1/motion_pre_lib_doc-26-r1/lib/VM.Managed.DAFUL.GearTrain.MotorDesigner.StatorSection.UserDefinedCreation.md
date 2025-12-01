@@ -1,4 +1,5 @@
-#  Class MotorDesigner.StatorSection.UserDefinedCreation
+# Class MotorDesigner.StatorSection.UserDefinedCreation
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class MotorDesigner.StatorSection.UserDefinedCreation : MotorDesigner.Cre
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MotorDesigner.CreationBase](VM.Managed.DAFUL.GearTrain.MotorDesigner.CreationBase.md) ← 
 [MotorDesigner.StatorSection.UserDefinedCreation](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.UserDefinedCreation.md)
@@ -83,7 +84,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -124,7 +125,7 @@ public ExpressionValueVariable Height1 { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Height2"></a> Height2
 
@@ -136,7 +137,7 @@ public ExpressionValueVariable Height2 { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Height3"></a> Height3
 
@@ -148,7 +149,7 @@ public ExpressionValueVariable Height3 { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_InnerDiameter"></a> InnerDiameter
 
@@ -160,7 +161,7 @@ public ExpressionValueVariable InnerDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingFilletRound"></a> MountingFilletRound
 
@@ -172,7 +173,7 @@ public ExpressionValueVariable MountingFilletRound { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingInnerRound"></a> MountingInnerRound
 
@@ -184,7 +185,7 @@ public ExpressionValueVariable MountingInnerRound { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingOuterRound"></a> MountingOuterRound
 
@@ -196,7 +197,7 @@ public ExpressionValueVariable MountingOuterRound { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingRadius"></a> MountingRadius
 
@@ -208,7 +209,7 @@ public ExpressionValueVariable MountingRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_NumberOfMounting"></a> NumberOfMounting
 
@@ -220,7 +221,7 @@ public ExpressionValueVariable NumberOfMounting { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_NumberOfSlot"></a> NumberOfSlot
 
@@ -232,7 +233,7 @@ public ExpressionValueVariable NumberOfSlot { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_OuterDiameter"></a> OuterDiameter
 
@@ -244,7 +245,7 @@ public ExpressionValueVariable OuterDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_RoundS"></a> RoundS
 
@@ -256,7 +257,7 @@ public ExpressionValueVariable RoundS { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
 
@@ -280,7 +281,7 @@ public ExpressionValueVariable Width1 { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Width2"></a> Width2
 
@@ -292,7 +293,7 @@ public ExpressionValueVariable Width2 { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Width3"></a> Width3
 
@@ -304,7 +305,7 @@ public ExpressionValueVariable Width3 { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 

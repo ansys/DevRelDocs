@@ -1,4 +1,5 @@
-#  Class Layer
+# Class Layer
+<a id="VM_CAD_Kernel_Layer"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class Layer : KernelObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Layer](VM.CAD.Kernel.Layer.md)
 
@@ -41,9 +42,9 @@ public Layer(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Methods
 
@@ -55,7 +56,7 @@ public void Add(UIntPtr keyObject)
 
 #### Parameters
 
-`keyObject` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`keyObject` UIntPtr
 
 ### <a id="VM_CAD_Kernel_Layer_Remove_System_UIntPtr_"></a> Remove\(UIntPtr\)
 
@@ -65,7 +66,7 @@ public void Remove(UIntPtr keyObject)
 
 #### Parameters
 
-`keyObject` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`keyObject` UIntPtr
 
 ### <a id="VM_CAD_Kernel_Layer_SetVisibility_VM_CAD_Kernel_LayerVisibility_"></a> SetVisibility\(LayerVisibility\)
 

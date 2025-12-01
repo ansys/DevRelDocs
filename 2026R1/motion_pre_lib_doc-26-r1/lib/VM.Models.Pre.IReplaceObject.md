@@ -1,4 +1,5 @@
-#  Interface IReplaceObject
+# Interface IReplaceObject
+<a id="VM_Models_Pre_IReplaceObject"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -27,5 +28,5 @@ bool ReplaceObject(IDocument document)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

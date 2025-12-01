@@ -1,4 +1,5 @@
-#  Class GearSetRackAndPinion
+# Class GearSetRackAndPinion
+<a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetRackAndPinion"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,10 +10,10 @@ public class GearSetRackAndPinion : GearSetBase<GearSetRackAndPinion>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<GearSetRackAndPinion\> ← 
-BuilderSymmetric<GearSetRackAndPinion\> ← 
-BuilderNamed<GearSetRackAndPinion\> ← 
+object ← 
+[BuilderBase<GearSetRackAndPinion\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<GearSetRackAndPinion\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<GearSetRackAndPinion\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [OpenDesigner<GearSetRackAndPinion\>](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md) ← 
 [GearSetBase<GearSetRackAndPinion\>](VM.Managed.DAFUL.Builder.GearTrain.GearSetBase\-1.md) ← 
 [GearSetRackAndPinion](VM.Managed.DAFUL.Builder.GearTrain.GearSetRackAndPinion.md)
@@ -41,29 +42,29 @@ IBuilder
 [OpenDesigner<GearSetRackAndPinion\>.HiddenDocument](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_OpenDesigner\_1\_HiddenDocument), 
 [OpenDesigner<GearSetRackAndPinion\>.AlwaysDesignerOpen](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_OpenDesigner\_1\_AlwaysDesignerOpen), 
 [OpenDesigner<GearSetRackAndPinion\>.ShowDesigner](VM.Managed.DAFUL.Builder.GearTrain.OpenDesigner\-1.md\#VM\_Managed\_DAFUL\_Builder\_GearTrain\_OpenDesigner\_1\_ShowDesigner), 
-BuilderNamed<GearSetRackAndPinion\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<GearSetRackAndPinion\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<GearSetRackAndPinion\>.Name, 
-BuilderSymmetric<GearSetRackAndPinion\>.Build\(Document\), 
-BuilderSymmetric<GearSetRackAndPinion\>.Symmetric, 
-BuilderSymmetric<GearSetRackAndPinion\>.CurrentSymmetric, 
-BuilderBase<GearSetRackAndPinion\>.m\_bSuccess, 
-BuilderBase<GearSetRackAndPinion\>.Build\(Document\), 
-BuilderBase<GearSetRackAndPinion\>.Build\(Document, List<string\>\), 
-BuilderBase<GearSetRackAndPinion\>.Validate\(IList<string\>\), 
-BuilderBase<GearSetRackAndPinion\>.Success\(\), 
-BuilderBase<GearSetRackAndPinion\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<GearSetRackAndPinion\>.OnFinalBuild\(string, Document\), 
-BuilderBase<GearSetRackAndPinion\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<GearSetRackAndPinion\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<GearSetRackAndPinion\>.Parameters, 
-BuilderBase<GearSetRackAndPinion\>.AddToDoc, 
-BuilderBase<GearSetRackAndPinion\>.UseChangedObject, 
-BuilderBase<GearSetRackAndPinion\>.SetPointKey, 
-BuilderBase<GearSetRackAndPinion\>.BuildObject, 
-BuilderBase<GearSetRackAndPinion\>.BuildDocument, 
-BuilderBase<GearSetRackAndPinion\>.UseInterface, 
-BuilderBase<GearSetRackAndPinion\>.ErrorMessage
+[BuilderNamed<GearSetRackAndPinion\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<GearSetRackAndPinion\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<GearSetRackAndPinion\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<GearSetRackAndPinion\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<GearSetRackAndPinion\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<GearSetRackAndPinion\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<GearSetRackAndPinion\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -95,7 +96,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetRackAndPinion_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -105,9 +106,9 @@ public override bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

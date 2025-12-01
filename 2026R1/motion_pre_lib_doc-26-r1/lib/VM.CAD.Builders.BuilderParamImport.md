@@ -1,4 +1,5 @@
-#  Class BuilderParamImport
+# Class BuilderParamImport
+<a id="VM_CAD_Builders_BuilderParamImport"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public class BuilderParamImport : BuilderParamTransform
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamTransform](VM.CAD.Builders.BuilderParamTransform.md) ← 
@@ -54,7 +55,7 @@ public string ImportInfo { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Builders_BuilderParamImport_NameAttribute"></a> NameAttribute
 
@@ -66,7 +67,7 @@ public string NameAttribute { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_CAD_Builders_BuilderParamImport_Scale"></a> Scale
 
@@ -78,5 +79,5 @@ public double Scale { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.Dialog
+# Namespace VM.Managed.Dialog
+<a id="VM_Managed_Dialog"></a>
 
 ### Classes
 

@@ -1,4 +1,5 @@
-#  Class ShowAnalysisResult
+# Class ShowAnalysisResult
+<a id="VM_Managed_DAFUL_DOE_Operation_ShowAnalysisResult"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Operation](VM.Managed.DAFUL.DOE.Operation.md)  
 Assembly: VMOPDOE.dll  
@@ -9,7 +10,7 @@ public class ShowAnalysisResult : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ShowAnalysisResult](VM.Managed.DAFUL.DOE.Operation.ShowAnalysisResult.md)
 
@@ -103,7 +104,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

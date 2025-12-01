@@ -1,4 +1,5 @@
-#  Struct KeyInfo
+# Struct KeyInfo
+<a id="VM_CAD_Builders_KeyInfo"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -21,7 +22,7 @@ public string Key { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Operators
 
@@ -35,7 +36,7 @@ public static implicit operator KeyInfo(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key to convert.
 
@@ -59,5 +60,5 @@ The <xref href="VM.CAD.Builders.KeyInfo" data-throw-if-not-resolved="false"></xr
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 

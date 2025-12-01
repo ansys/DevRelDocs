@@ -1,4 +1,5 @@
-#  Enum ElementType
+# Enum ElementType
+<a id="VM_Managed_DAFUL_FE_ElementType"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

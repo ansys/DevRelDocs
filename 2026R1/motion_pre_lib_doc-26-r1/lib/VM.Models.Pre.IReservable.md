@@ -1,4 +1,5 @@
-#  Interface IReservable
+# Interface IReservable
+<a id="VM_Models_Pre_IReservable"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -27,13 +28,13 @@ object CreateReservedObject(object extra)
 
 #### Parameters
 
-`extra` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`extra` object
 
 The extra data to create reserved object.
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 The reserved object.
 

@@ -1,4 +1,5 @@
-#  Class Leaf4D
+# Class Leaf4D
+<a id="VM_Models_Pre_Force_Leaf4D"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -9,7 +10,7 @@ public class Leaf4D
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Leaf4D](VM.Models.Pre.Force.Leaf4D.md)
 
 #### Extension Methods
@@ -28,13 +29,13 @@ public Leaf4D(double dx, double dy, double dz, double thickness)
 
 #### Parameters
 
-`dx` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dx` double
 
-`dy` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dy` double
 
-`dz` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dz` double
 
-`thickness` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`thickness` double
 
 ## Properties
 
@@ -46,7 +47,7 @@ public double Thickness { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_Leaf4D_X"></a> X
 
@@ -56,7 +57,7 @@ public double X { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_Leaf4D_Y"></a> Y
 
@@ -66,7 +67,7 @@ public double Y { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Models_Pre_Force_Leaf4D_Z"></a> Z
 
@@ -76,5 +77,5 @@ public double Z { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

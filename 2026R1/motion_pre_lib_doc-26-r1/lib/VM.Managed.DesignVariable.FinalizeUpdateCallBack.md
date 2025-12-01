@@ -1,4 +1,5 @@
-#  Delegate DesignVariable.FinalizeUpdateCallBack
+# Delegate DesignVariable.FinalizeUpdateCallBack
+<a id="VM_Managed_DesignVariable_FinalizeUpdateCallBack"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -9,7 +10,7 @@ public delegate bool DesignVariable.FinalizeUpdateCallBack()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

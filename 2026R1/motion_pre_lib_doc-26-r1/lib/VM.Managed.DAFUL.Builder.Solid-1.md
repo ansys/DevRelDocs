@@ -1,4 +1,5 @@
-#  Class Solid<T\>
+# Class Solid<T\>
+<a id="VM_Managed_DAFUL_Builder_Solid_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public abstract class Solid<T> : BuilderBase<Body>, IBuilder where T : Builder, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<Body\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [Solid<T\>](VM.Managed.DAFUL.Builder.Solid\-1.md)
 
@@ -65,7 +66,7 @@ protected override bool AddToDoc { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Solid_1_Color"></a> Color
 
@@ -75,7 +76,7 @@ public string Color { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Solid_1_SolidBuilder"></a> SolidBuilder
 
@@ -113,7 +114,7 @@ protected override sealed bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Solid_1_SetSolidBuilderProperty__0_"></a> SetSolidBuilderProperty\(T\)
 

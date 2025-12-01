@@ -1,4 +1,5 @@
-#  Interface IIdentifier
+# Interface IIdentifier
+<a id="VM_IIdentifier"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -23,5 +24,5 @@ uint First { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

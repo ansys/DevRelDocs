@@ -1,4 +1,5 @@
-#  Class ReplaceDesignPosition
+# Class ReplaceDesignPosition
+<a id="VM_Managed_DAFUL_Chained_Operation_ReplaceDesignPosition"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class ReplaceDesignPosition : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ReplaceDesignPosition](VM.Managed.DAFUL.Chained.Operation.ReplaceDesignPosition.md)
 
@@ -87,11 +88,11 @@ public ReplaceDesignPosition(DesignPoint dp, double dValue, TMatrix matT, Docume
 
 #### Parameters
 
-`dp` DesignPoint
+`dp` [DesignPoint](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DesignPoint.cs)
 
 The dp.
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 The d value.
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -151,7 +152,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

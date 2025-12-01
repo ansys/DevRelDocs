@@ -1,4 +1,5 @@
-#  Interface ITemplateObject
+# Interface ITemplateObject
+<a id="VM_Managed_ITemplateObject"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -43,7 +44,7 @@ bool IsReadAndWrite()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ITemplateObject_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
@@ -55,7 +56,7 @@ void ReadTemplate(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the template object is deserialized.
 
@@ -69,7 +70,7 @@ bool SkipToUpdateSymmetric()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ITemplateObject_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
@@ -81,7 +82,7 @@ void WriteTemplate(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the template object is serialized.
 

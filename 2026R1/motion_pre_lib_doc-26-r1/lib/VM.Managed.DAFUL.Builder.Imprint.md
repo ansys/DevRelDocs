@@ -1,4 +1,5 @@
-#  Class Imprint
+# Class Imprint
+<a id="VM_Managed_DAFUL_Builder_Imprint"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public abstract class Imprint : BooleanBase<BuilderImprint>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BooleanBase<BuilderImprint\>](VM.Managed.DAFUL.Builder.BooleanBase\-1.md) ← 
 [Imprint](VM.Managed.DAFUL.Builder.Imprint.md)
 
@@ -74,7 +75,7 @@ protected override string Type { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

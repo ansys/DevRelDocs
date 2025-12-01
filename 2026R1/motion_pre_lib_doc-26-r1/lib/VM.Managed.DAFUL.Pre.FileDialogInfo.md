@@ -1,4 +1,5 @@
-#  Class FileDialogInfo
+# Class FileDialogInfo
+<a id="VM_Managed_DAFUL_Pre_FileDialogInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class FileDialogInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FileDialogInfo](VM.Managed.DAFUL.Pre.FileDialogInfo.md)
 
 #### Derived
@@ -47,7 +48,7 @@ public bool AddExtension { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_DefaultExt"></a> DefaultExt
 
@@ -59,7 +60,7 @@ public string DefaultExt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_FileName"></a> FileName
 
@@ -71,7 +72,7 @@ public string FileName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_Filter"></a> Filter
 
@@ -83,7 +84,7 @@ public string Filter { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_FilterIndex"></a> FilterIndex
 
@@ -95,7 +96,7 @@ public int FilterIndex { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_InitialDirectory"></a> InitialDirectory
 
@@ -107,7 +108,7 @@ public string InitialDirectory { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_RestoreDirectory"></a> RestoreDirectory
 
@@ -119,7 +120,7 @@ public bool RestoreDirectory { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_Title"></a> Title
 
@@ -131,5 +132,5 @@ public string Title { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

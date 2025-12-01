@@ -1,4 +1,5 @@
-#  Class AddBearingToShaft
+# Class AddBearingToShaft
+<a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToShaft"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -9,7 +10,7 @@ public class AddBearingToShaft : AddDesignerToShaftBase, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AddEntityBase](VM.Managed.DAFUL.Builder.GearTrain.AddEntityBase.md) ← 
 [AddDesignerToShaftBase](VM.Managed.DAFUL.Builder.GearTrain.AddDesignerToShaftBase.md) ← 
 [AddBearingToShaft](VM.Managed.DAFUL.Builder.GearTrain.AddBearingToShaft.md)

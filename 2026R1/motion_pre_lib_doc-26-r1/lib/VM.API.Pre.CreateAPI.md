@@ -1,4 +1,5 @@
-#  Class CreateAPI
+# Class CreateAPI
+<a id="VM_API_Pre_CreateAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class CreateAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateAPI](VM.API.Pre.CreateAPI.md)
 
 #### Extension Methods
@@ -38,11 +39,11 @@ public static T Create<T>(this IDocument document, string name, Func<string, T> 
 
 The document to create the entity.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the entity.
 
-`funcCreate` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), T\>
+`funcCreate` Func<string, T\>
 
 The customized create function.
 
@@ -60,7 +61,7 @@ The entity type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'name' arguments are null.
 

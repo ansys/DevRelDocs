@@ -1,4 +1,5 @@
-#  Class InterfaceManager
+# Class InterfaceManager
+<a id="VM_Managed_InterfaceManager"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,9 +12,9 @@ public class InterfaceManager : Object<ObjectEventCore>, IObservableObject, IDis
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 [InterfaceManager](VM.Managed.InterfaceManager.md)
@@ -32,7 +33,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer
 
 #### Inherited Members
@@ -129,7 +130,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -184,7 +185,7 @@ protected List<InterfaceManager.InterfaceInfo> InterfaceInfos { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InterfaceManager](VM.Managed.InterfaceManager.md).[InterfaceInfo](VM.Managed.InterfaceManager.InterfaceInfo.md)\>
+ List<[InterfaceManager](VM.Managed.InterfaceManager.md).[InterfaceInfo](VM.Managed.InterfaceManager.InterfaceInfo.md)\>
 
 ### <a id="VM_Managed_InterfaceManager_Interfaces"></a> Interfaces
 
@@ -208,7 +209,7 @@ public override bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -256,7 +257,7 @@ The interface.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 The name container
 
@@ -270,13 +271,13 @@ public List<string> GetInterfaceNames(string strFullName)
 
 #### Parameters
 
-`strFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFullName` string
 
 The full name of the interface.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 The name container
 
@@ -290,7 +291,7 @@ public int GetNumInterfaceObject()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 number of interface object
 
@@ -310,7 +311,7 @@ The interface.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified interface is interface; otherwise, <code>false</code>.
 
@@ -324,7 +325,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -342,13 +343,13 @@ protected string MakeXml(object ob)
 
 #### Parameters
 
-`ob` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`ob` object
 
 The object.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The interface information
 
@@ -380,7 +381,7 @@ public void SetInterfaceNames(IInterface itf, ICollection<string> strList)
 
 The itf.
 
-`strList` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`strList` ICollection<string\>
 
 The STR list.
 
@@ -398,7 +399,7 @@ public void SetInterfaceNames(IInterface itf, ArraySegment<string> strList)
 
 The itf.
 
-`strList` [ArraySegment](https://learn.microsoft.com/dotnet/api/system.arraysegment\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`strList` ArraySegment<string\>
 
 The STR list.
 

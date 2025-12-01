@@ -1,4 +1,5 @@
-#  Class DocCreate3DInfo
+# Class DocCreate3DInfo
+<a id="VM_Managed_DocCreate3DInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class DocCreate3DInfo : DocCreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocCreateInfo](VM.Managed.DocCreateInfo.md) ← 
 [DocCreate3DInfo](VM.Managed.DocCreate3DInfo.md)
 
@@ -49,7 +50,7 @@ public virtual double IconSize { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DocCreate3DInfo_IsAdvancedMode"></a> IsAdvancedMode
 
@@ -61,7 +62,7 @@ public bool IsAdvancedMode { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DocCreate3DInfo_SymmetricPlane"></a> SymmetricPlane
 
@@ -85,5 +86,5 @@ public bool UseSymmetric { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

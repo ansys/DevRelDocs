@@ -1,4 +1,5 @@
-#  Class TieAPI
+# Class TieAPI
+<a id="VM_API_Pre_FE_TieAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class TieAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TieAPI](VM.API.Pre.FE.TieAPI.md)
 
 #### Extension Methods
@@ -39,27 +40,27 @@ public static Obj CreateTie(this IDocument document, Obj baseContactable, Obj ac
 
 The document to create the tie.
 
-`baseContactable` Obj
+`baseContactable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The base contactable object.
 
-`actionContactable` Obj
+`actionContactable` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The action contactable object.
 
-`tieName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`tieName` string
 
 The name of the tie. If empty, default name starts with 'TIE_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Builder.FE.Contact.Tie" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'baseContactable' or 'actionContactable' arguments are empty.
 

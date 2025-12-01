@@ -1,4 +1,5 @@
-#  Class OperationConstructorNotFoundException
+# Class OperationConstructorNotFoundException
+<a id="VM_Managed_Operation_OperationConstructorNotFoundException"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class OperationConstructorNotFoundException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [OperationConstructorNotFoundException](VM.Managed.Operation.OperationConstructorNotFoundException.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public OperationConstructorNotFoundException(string strType, Exception innerExce
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The type of operation that does not founded.
 
-`innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`innerException` Exception
 
 The inner exception.
 
@@ -51,7 +52,7 @@ public OperationConstructorNotFoundException(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The type of operation that does not founded.
 
@@ -67,5 +68,5 @@ public override string Message { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

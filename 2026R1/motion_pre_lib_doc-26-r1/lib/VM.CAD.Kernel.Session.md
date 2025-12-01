@@ -1,4 +1,5 @@
-#  Class Session
+# Class Session
+<a id="VM_CAD_Kernel_Session"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public sealed class Session : KernelObject, ISession
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Session](VM.CAD.Kernel.Session.md)
 

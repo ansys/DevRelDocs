@@ -1,4 +1,5 @@
-#  Class BuilderSprocket
+# Class BuilderSprocket
+<a id="VM_Managed_CAD_Sprocket_BuilderSprocket"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -6,14 +7,14 @@ Assembly: VMDSprocket.dll
 The base builder class for sprocket
 
 ```csharp
-public abstract class BuilderSprocket : BuilderHasTransform, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public abstract class BuilderSprocket : BuilderHasTransform, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -40,8 +41,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
-IAttributeContainer
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IAttributeContainer, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -77,6 +79,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -180,7 +184,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -236,7 +240,7 @@ public bool ApplyToFileProperty { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_BooleanType"></a> BooleanType
 
@@ -261,7 +265,7 @@ public bool CreateShaft { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_ProfileType"></a> ProfileType
 
@@ -345,7 +349,7 @@ public override bool Uneditable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -359,7 +363,7 @@ public void SetToApplyToFileProperty(bool bFlag)
 
 #### Parameters
 
-`bFlag` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bFlag` bool
 
 The flag.
 
@@ -373,7 +377,7 @@ public void SetToCreateShaft(bool bFlag)
 
 #### Parameters
 
-`bFlag` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bFlag` bool
 
 The flag.
 

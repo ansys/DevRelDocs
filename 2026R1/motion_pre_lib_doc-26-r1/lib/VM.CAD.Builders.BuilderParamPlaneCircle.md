@@ -1,4 +1,5 @@
-#  Class BuilderParamPlaneCircle
+# Class BuilderParamPlaneCircle
+<a id="VM_CAD_Builders_BuilderParamPlaneCircle"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class BuilderParamPlaneCircle : BuilderParamPlane
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamColorGeom](VM.CAD.Builders.BuilderParamColorGeom.md) ← 
 [BuilderParamTransform](VM.CAD.Builders.BuilderParamTransform.md) ← 
@@ -51,5 +52,5 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

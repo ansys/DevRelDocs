@@ -1,4 +1,5 @@
-#  Class PathInfo
+# Class PathInfo
+<a id="VM_Managed_DAFUL_Chained_PathInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -11,7 +12,7 @@ public class PathInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PathInfo](VM.Managed.DAFUL.Chained.PathInfo.md)
 
 #### Extension Methods
@@ -53,7 +54,7 @@ public double[] m_arAngle
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_arOrientation"></a> m\_arOrientation
 
@@ -65,7 +66,7 @@ public double[] m_arOrientation
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_bCrossTangentLine"></a> m\_bCrossTangentLine
 
@@ -77,7 +78,7 @@ public bool m_bCrossTangentLine
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dArc_Angle"></a> m\_dArc\_Angle
 
@@ -89,7 +90,7 @@ public double m_dArc_Angle
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dArc_Length"></a> m\_dArc\_Length
 
@@ -101,7 +102,7 @@ public double m_dArc_Length
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dAssembledRadius"></a> m\_dAssembledRadius
 
@@ -113,7 +114,7 @@ public double m_dAssembledRadius
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dDirectionValue"></a> m\_dDirectionValue
 
@@ -125,7 +126,7 @@ public double m_dDirectionValue
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dExtendedRadius"></a> m\_dExtendedRadius
 
@@ -137,7 +138,7 @@ public double m_dExtendedRadius
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dFactor"></a> m\_dFactor
 
@@ -149,7 +150,7 @@ public double m_dFactor
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dMaxSegmentLength"></a> m\_dMaxSegmentLength
 
@@ -161,7 +162,7 @@ public double m_dMaxSegmentLength
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dRadius"></a> m\_dRadius
 
@@ -173,7 +174,7 @@ public double m_dRadius
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dRtheta"></a> m\_dRtheta
 
@@ -185,7 +186,7 @@ public double m_dRtheta
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dTan_Length"></a> m\_dTan\_Length
 
@@ -197,7 +198,7 @@ public double m_dTan_Length
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_dtheta"></a> m\_dtheta
 
@@ -209,7 +210,7 @@ public double m_dtheta
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_enEngageType"></a> m\_enEngageType
 
@@ -245,7 +246,7 @@ public int m_ndirection
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_ptCenterPosition"></a> m\_ptCenterPosition
 
@@ -257,7 +258,7 @@ public double[] m_ptCenterPosition
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_ptLocalTangent1"></a> m\_ptLocalTangent1
 
@@ -270,7 +271,7 @@ public double[] m_ptLocalTangent1
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_ptLocalTangent2"></a> m\_ptLocalTangent2
 
@@ -283,7 +284,7 @@ public double[] m_ptLocalTangent2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_ptTangent1"></a> m\_ptTangent1
 
@@ -296,7 +297,7 @@ public double[] m_ptTangent1
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_ptTangent2"></a> m\_ptTangent2
 
@@ -309,7 +310,7 @@ public double[] m_ptTangent2
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 ### <a id="VM_Managed_DAFUL_Chained_PathInfo_m_vecRotationAxis"></a> m\_vecRotationAxis
 

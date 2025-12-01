@@ -1,31 +1,34 @@
-#  Interface IOperationsLine2DViewModel
+# Interface IOperationsLine2DViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents the interface for 2D chart operations view models.
 
-```python
-public interface IOperationsLine2DViewModel : IOperationsLine2DViewModelBase, IOperationsChartViewModel, IView, IOperationsBase
+```csharp
+public interface IOperationsLine2DViewModel : IOperationsLine2DViewModelBase, IOperationsChartViewModel, IView
 ```
 
 #### Implements
 
 [IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md), 
 [IOperationsChartViewModel](VM.Operations.Post.Interfaces.IOperationsChartViewModel.md), 
-[IView](VM.Operations.Post.Interfaces.IView.md), 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+[IView](VM.Operations.Post.Interfaces.IView.md)
 
 ## Examples
 
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsLine2DViewModel.py
+```python
+# IOperationsLine2DViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -39,12 +42,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 chartView.AxisX = False
@@ -59,7 +67,7 @@ page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -67,13 +75,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets a value indicating whether the X-axis is visible.
 
-```python
+```csharp
 bool AxisX { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -88,13 +96,13 @@ In the UI, this property is represented under the "Chart" category with the prop
 
 Gets or sets a value indicating whether the Y-axis is visible.
 
-```python
+```csharp
 bool AxisY { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -109,13 +117,13 @@ In the UI, this property is represented under the "Chart" category with the prop
 
 Gets or sets a value indicating whether the Animation Bar is visible.
 
-```python
+```csharp
 bool ShowAnimationBar { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -130,13 +138,13 @@ In the UI, this property is represented under the "Data Tracking" category with 
 
 Gets or sets a value indicating whether the legend of the 2D chart is visible.
 
-```python
+```csharp
 bool ShowLegend { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -151,13 +159,13 @@ In the UI, this property is represented under the "Chart" category with the prop
 
 Gets or sets a value indicating whether the Tracking Curve is visible.
 
-```python
+```csharp
 bool TrackingCurve { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -172,7 +180,7 @@ In the UI, this property is represented under the "Data Tracking" category with 
 
 Gets or sets the tracking option for displaying data points on the chart.
 
-```python
+```csharp
 ChartAxisType TrackingOption { get; set; }
 ```
 
@@ -186,7 +194,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 #### Remarks
 
-This property determines whether the data point values are shown for the closest curve or for all curves in the chart 
+This property determines whether the data point values are shown for the closest curve or for all curves in the chart
 when the mouse is hovered over it. The property does not function if the Tracking Curve option is disabled.
 In the UI, this property is labeled as "Tracking Type".
 The supported types are:
@@ -198,13 +206,13 @@ The supported types are:
 
 Transforms data series into absolute values for the Y-Axis as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateAbsolute(IEnumerable<string> lstSeriesName, SignType signType)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
@@ -216,7 +224,7 @@ The supported types are:
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with transformed absolute values.
 
@@ -226,22 +234,22 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 #### Remarks
 
-This function iterates over each series specified in <code class="paramref">lstSeriesName</code> and transforms the Y values of each point in the series 
-to their absolute values based on the provided <code class="paramref">signType</code>. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Positive" data-throw-if-not-resolved="false"></xref>, 
-the Y values are converted to their positive absolute values. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Negative" data-throw-if-not-resolved="false"></xref>, the Y values 
+This function iterates over each series specified in <code class="paramref">lstSeriesName</code> and transforms the Y values of each point in the series
+to their absolute values based on the provided <code class="paramref">signType</code>. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Positive" data-throw-if-not-resolved="false"></xref>,
+the Y values are converted to their positive absolute values. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Negative" data-throw-if-not-resolved="false"></xref>, the Y values
 are converted to their negative absolute values.
 
 ### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateAbsolute_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_SignType_"></a> CreateAbsolute\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SignType\)
 
 Transforms data series into absolute values for the Y-Axis as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateAbsolute(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, SignType signType)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -253,7 +261,7 @@ The supported types are:
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with transformed absolute values.
 
@@ -263,22 +271,22 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 #### Remarks
 
-This function iterates over each series in <code class="paramref">seriesViewModels</code> and transforms the Y values of each point in the series 
-to their absolute values based on the provided <code class="paramref">signType</code>. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Positive" data-throw-if-not-resolved="false"></xref>, 
-the Y values are converted to their positive absolute values. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Negative" data-throw-if-not-resolved="false"></xref>, the Y values 
+This function iterates over each series in <code class="paramref">seriesViewModels</code> and transforms the Y values of each point in the series
+to their absolute values based on the provided <code class="paramref">signType</code>. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Positive" data-throw-if-not-resolved="false"></xref>,
+the Y values are converted to their positive absolute values. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Negative" data-throw-if-not-resolved="false"></xref>, the Y values
 are converted to their negative absolute values.
 
 ### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateAlign_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_AlignType_"></a> CreateAlign\(IEnumerable<string\>, AlignType\)
 
 Aligns data series to zero or the first point of the target curve as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateAlign(IEnumerable<string> lstSeriesName, AlignType alignType)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
@@ -290,7 +298,7 @@ The supported types are:
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with aligned values.
 
@@ -300,22 +308,22 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 #### Remarks
 
-This function iterates over each series specified in <code class="paramref">lstSeriesName</code> and aligns the Y values of each point in the series 
-based on the provided <code class="paramref">alignType</code>. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Zero" data-throw-if-not-resolved="false"></xref>, 
-the Y values are aligned to zero. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Curve" data-throw-if-not-resolved="false"></xref>, 
+This function iterates over each series specified in <code class="paramref">lstSeriesName</code> and aligns the Y values of each point in the series
+based on the provided <code class="paramref">alignType</code>. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Zero" data-throw-if-not-resolved="false"></xref>,
+the Y values are aligned to zero. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Curve" data-throw-if-not-resolved="false"></xref>,
 the Y values are aligned to the first point of the target curve.
 
 ### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateAlign_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_AlignType_"></a> CreateAlign\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, AlignType\)
 
 Aligns data series to zero or the first point of the target curve as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateAlign(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, AlignType alignType)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -327,7 +335,7 @@ The supported types are:
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with aligned values.
 
@@ -337,28 +345,28 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 #### Remarks
 
-This function iterates over each series in <code class="paramref">seriesViewModels</code> and aligns the Y values of each point in the series 
-based on the provided <code class="paramref">alignType</code>. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Zero" data-throw-if-not-resolved="false"></xref>, 
-the Y values are aligned to zero. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Curve" data-throw-if-not-resolved="false"></xref>, 
+This function iterates over each series in <code class="paramref">seriesViewModels</code> and aligns the Y values of each point in the series
+based on the provided <code class="paramref">alignType</code>. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Zero" data-throw-if-not-resolved="false"></xref>,
+the Y values are aligned to zero. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Curve" data-throw-if-not-resolved="false"></xref>,
 the Y values are aligned to the first point of the target curve.
 
 ### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateDifferentiatedCurve_System_Collections_Generic_IEnumerable_System_String__"></a> CreateDifferentiatedCurve\(IEnumerable<string\>\)
 
 Differentiates data series as part of the chart tab's Calculus functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateDifferentiatedCurve(IEnumerable<string> lstSeriesName)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the differentiation on.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with differentiated values.
 
@@ -368,26 +376,26 @@ For an example that includes this property, see the [Interface IOperationsCalcul
 
 #### Remarks
 
-This function iterates over each series specified in <code class="paramref">lstSeriesName</code> and applies differentiation to the Y values 
+This function iterates over each series specified in <code class="paramref">lstSeriesName</code> and applies differentiation to the Y values
 of each point in the series. The differentiation calculates the difference between consecutive points.
 
 ### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateDifferentiatedCurve_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__"></a> CreateDifferentiatedCurve\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
 
 Differentiates data series as part of the chart tab's Calculus functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateDifferentiatedCurve(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the differentiation on.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with differentiated values.
 
@@ -397,20 +405,20 @@ For an example that includes this property, see the [Interface IOperationsCalcul
 
 #### Remarks
 
-This function iterates over each series in <code class="paramref">seriesViewModels</code> and applies differentiation to the Y values 
+This function iterates over each series in <code class="paramref">seriesViewModels</code> and applies differentiation to the Y values
 of each point in the series. The differentiation calculates the difference between consecutive points.
 
 ### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateFFT_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_FFTType_VM_Models_Post_FFTWindowType_VM_Models_Post_ScaleType_System_Int32_System_Double_System_Double_"></a> CreateFFT\(IEnumerable<string\>, FFTType, FFTWindowType, ScaleType, int, double, double\)
 
 Applies FFT (Fast Fourier Transform) to data series as part of the chart tab's functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateFFT(IEnumerable<string> lstSeriesName, FFTType fftType, FFTWindowType fftWindowType, ScaleType scaleType, int points, double start, double end)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
@@ -432,21 +440,21 @@ The scale type to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.ScaleType.Original" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ScaleType.Logarithm" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ScaleType.Decibel" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`points` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`points` int
 
 The number of data points for FFT.
 
-`start` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`start` double
 
 The start time for using FFT on target data series.
 
-`end` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`end` double
 
 The end time for using FFT on target data series.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with FFT applied.
 
@@ -463,13 +471,13 @@ using the specified FFT type, window type, scale type, and number of points.
 
 Applies FFT (Fast Fourier Transform) to data series as part of the chart tab's functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateFFT(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, FFTType fftType, FFTWindowType fftWindowType, ScaleType scaleType, int points, double start, double end)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -491,21 +499,21 @@ The scale type to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.ScaleType.Original" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ScaleType.Logarithm" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ScaleType.Decibel" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`points` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`points` int
 
 The number of data points for FFT.
 
-`start` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`start` double
 
 The start time for using FFT on target data series.
 
-`end` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`end` double
 
 The end time for using FFT on target data series.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with FFT applied.
 
@@ -522,13 +530,13 @@ using the specified FFT type, window type, scale type, and number of points.
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateFiltering(IEnumerable<string> lstSeriesName, FilteringType filteringType, int order, double frequency1, double frequency2)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
@@ -538,21 +546,21 @@ The type of filter to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.FilteringType.LowPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.HighPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.BandPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.BandStop" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`order` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`order` int
 
 The order of the filter. As the value decreases, the output becomes smoother.
 
-`frequency1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frequency1` double
 
 The first frequency value for the filter.
 
-`frequency2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frequency2` double
 
 The second frequency value for the filter, used in band filters.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with filtering applied.
 
@@ -569,13 +577,13 @@ filter order, and frequency values. The filtering operation can smooth the data 
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateFiltering(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, FilteringType filteringType, int order, double frequency1, double frequency2)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -585,21 +593,21 @@ The type of filter to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.FilteringType.LowPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.HighPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.BandPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.BandStop" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`order` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`order` int
 
 The order of the filter. As the value decreases, the output becomes smoother.
 
-`frequency1` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frequency1` double
 
 The first frequency value for the filter.
 
-`frequency2` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`frequency2` double
 
 The second frequency value for the filter, used in band filters.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with filtering applied.
 
@@ -616,13 +624,13 @@ filter order, and frequency values. The filtering operation can smooth the data 
 
 Applies frequency weighting to data series as part of the chart tab's Signal Processing functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateFrequencyWeighting(IEnumerable<string> lstSeriesName, WeightingType weightingType, FrequencyAxisType axisType)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
@@ -640,7 +648,7 @@ The supported types are:
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with frequency weighting applied.
 
@@ -657,13 +665,13 @@ and axis type. A-weighting is the most commonly used to measure the sound pressu
 
 Applies frequency weighting to data series as part of the chart tab's Signal Processing functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateFrequencyWeighting(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, WeightingType weightingType, FrequencyAxisType axisType)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -681,7 +689,7 @@ The supported types are:
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with frequency weighting applied.
 
@@ -698,19 +706,19 @@ and axis type. A-weighting is the most commonly used to measure the sound pressu
 
 Integrates data series as part of the chart tab's Calculus functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateIntegratedCurve(IEnumerable<string> lstSeriesName)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the integration on.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with integrated values.
 
@@ -727,19 +735,19 @@ of each point in the series.
 
 Integrates data series as part of the chart tab's Calculus functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateIntegratedCurve(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with integrated values.
 
@@ -756,23 +764,23 @@ of each point in the series.
 
 Applies interpolation to data series as part of the chart tab's Interpolation functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateInterpolation(IEnumerable<string> lstSeriesName, int points)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the interpolation on.
 
-`points` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`points` int
 
 The number of data points for interpolation.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with interpolated values.
 
@@ -789,23 +797,23 @@ based on the specified number of points.
 
 Applies interpolation to data series as part of the chart tab's Interpolation functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateInterpolation(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, int points)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
-`points` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`points` int
 
 The number of data points for interpolation.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with interpolated values.
 
@@ -822,31 +830,31 @@ based on the specified number of points.
 
 Applies a logarithmic scale to data series as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateLogScale(IEnumerable<string> lstSeriesName, double coefficient, double baseValue, bool decibel)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
-`coefficient` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`coefficient` double
 
 The value of the coefficient.
 
-`baseValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`baseValue` double
 
 The value of the base for the logarithmic scale.
 
-`decibel` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`decibel` bool
 
 Indicates whether to apply the decibel scale (20 * Log10(Y)) to the data series.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with logarithmic scaling applied.
 
@@ -863,31 +871,31 @@ base value, and whether to use the decibel scale.
 
 Applies a logarithmic scale to data series as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateLogScale(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, double coefficient, double baseValue, bool decibel)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
-`coefficient` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`coefficient` double
 
 The value of the coefficient.
 
-`baseValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`baseValue` double
 
 The value of the base for the logarithmic scale.
 
-`decibel` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`decibel` bool
 
 Indicates whether to apply the decibel scale (20 * Log10(Y)) to the data series.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with logarithmic scaling applied.
 
@@ -900,22 +908,22 @@ For an example that includes this property, see the [Interface IOperationsTransf
 This function performs a logarithmic transformation on each series specified in <code class="paramref">seriesViewModels</code> using the specified coefficient,
 base value, and whether to use the decibel scale.
 
-### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSTFT_VM_Models_Post_IHeatMapSTFTDataViewModel_System_Collections_Generic_IList_System_String__"></a> CreateSTFT\(IHeatMapSTFTDataViewModel, IList<string\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSTFT_VM_Models_Post_ISTFTParameters_System_Collections_Generic_IList_System_String__"></a> CreateSTFT\(ISTFTParameters, IList<string\>\)
 
 Creates a Short Time Fourier Transform (STFT) for data series and updates the heatmap data.
 
-```python
-IOperationsHeatMapSTFTViewModel[] CreateSTFT(IHeatMapSTFTDataViewModel hitmapData, IList<string> lstSeriesName)
+```csharp
+IOperationsHeatMapSTFTViewModel[] CreateSTFT(ISTFTParameters hitmapData, IList<string> lstSeriesName)
 ```
 
 #### Parameters
 
-`hitmapData` IHeatMapSTFTDataViewModel
+`hitmapData` ISTFTParameters
 
 The heatmap data model to update with STFT results.
 <ul><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SamplingFrequency" data-throw-if-not-resolved="false"></xref> - The value about setting the number of the interval for dividing Y direction grids on color map.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.TimeSlice" data-throw-if-not-resolved="false"></xref> - The value about setting the number of the interval for dividing X direction grids on color map.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.Overlap" data-throw-if-not-resolved="false"></xref> - The value of the percentage for setting overlapped intervals.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedPoints" data-throw-if-not-resolved="false"></xref> - The number of data point for FFT.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.Start" data-throw-if-not-resolved="false"></xref> - The start time for using FFT on target data series.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.End" data-throw-if-not-resolved="false"></xref> - The end time for using FFT on target data series.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ReferenceValue" data-throw-if-not-resolved="false"></xref> - The reference value on decibel as the type of the scale.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ScaleFactor" data-throw-if-not-resolved="false"></xref> - the scale factor to change from time domain to another domain.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedScaleType" data-throw-if-not-resolved="false"></xref> - An STFTScaleType enumeration value that represents the scale type for the STFT.</li></ul>
 
-`lstSeriesName` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IList<string\>
 
 The list of curve names to perform the STFT operation on.
 
@@ -934,22 +942,22 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This function performs the STFT on each series specified in <code class="paramref">lstSeriesName</code> and updates the heatmap data
 model with the results. The heatmap data model is defined by the <xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel" data-throw-if-not-resolved="false"></xref> interface.
 
-### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSTFT_VM_Models_Post_IHeatMapSTFTDataViewModel_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__"></a> CreateSTFT\(IHeatMapSTFTDataViewModel, IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSTFT_VM_Models_Post_ISTFTParameters_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__"></a> CreateSTFT\(ISTFTParameters, IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
 
 Creates a Short Time Fourier Transform (STFT) for data series and updates the heatmap data.
 
-```python
-IOperationsHeatMapSTFTViewModel[] CreateSTFT(IHeatMapSTFTDataViewModel hitmapData, IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels)
+```csharp
+IOperationsHeatMapSTFTViewModel[] CreateSTFT(ISTFTParameters hitmapData, IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels)
 ```
 
 #### Parameters
 
-`hitmapData` IHeatMapSTFTDataViewModel
+`hitmapData` ISTFTParameters
 
 The heatmap data model to update with STFT results.
 <ul><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SamplingFrequency" data-throw-if-not-resolved="false"></xref> - The value about setting the number of the interval for dividing Y direction grids on color map.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.TimeSlice" data-throw-if-not-resolved="false"></xref> - The value about setting the number of the interval for dividing X direction grids on color map.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.Overlap" data-throw-if-not-resolved="false"></xref> - The value of the percentage for setting overlapped intervals.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedPoints" data-throw-if-not-resolved="false"></xref> - The number of data point for FFT.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.Start" data-throw-if-not-resolved="false"></xref> - The start time for using FFT on target data series.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.End" data-throw-if-not-resolved="false"></xref> - The end time for using FFT on target data series.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ReferenceValue" data-throw-if-not-resolved="false"></xref> - The reference value on decibel as the type of the scale.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ScaleFactor" data-throw-if-not-resolved="false"></xref> - the scale factor to change from time domain to another domain.</li><li><xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedScaleType" data-throw-if-not-resolved="false"></xref> - An STFTScaleType enumeration value that represents the scale type for the STFT.</li></ul>
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -972,27 +980,27 @@ model with the results. The heatmap data model is defined by the <xref href="VM.
 
 Scales data series by the specified scale values as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateScale(IEnumerable<string> lstSeriesName, double scaleX, double scaleY)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
-`scaleX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scaleX` double
 
 The value to scale for the X-axis.
 
-`scaleY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scaleY` double
 
 The value to scale for the Y-axis.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with scaled values.
 
@@ -1009,27 +1017,27 @@ of each point in the series by the specified scale values.
 
 Scales data series by the specified scale values as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateScale(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, double scaleX, double scaleY)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
-`scaleX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scaleX` double
 
 The value to scale for the X-axis.
 
-`scaleY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scaleY` double
 
 The value to scale for the Y-axis.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with scaled values.
 
@@ -1046,13 +1054,13 @@ of each point in the series by the specified scale values.
 
 Performs simple mathematical operations (+, -, *) on data series as part of the chart tab's Simple Math functionality.
 
-```python
+```csharp
 IOperationsLineDataSeriesViewModelBase CreateSimpleMath(IEnumerable<string> lstSeriesName, SimpleMathType simpleMathType, int points)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
@@ -1062,7 +1070,7 @@ The type of simple math operation to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SimpleMathType.Add" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SimpleMathType.Subtract" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SimpleMathType.Multiply" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`points` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`points` int
 
 The number of data points for interpolation.
 
@@ -1085,13 +1093,13 @@ into a single series. The function supports addition, subtraction, and multiplic
 
 Performs simple mathematical operations (+, -, *) on data series as part of the chart tab's Simple Math functionality.
 
-```python
+```csharp
 IOperationsLineDataSeriesViewModelBase CreateSimpleMath(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, SimpleMathType simpleMathType, int points)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -1101,7 +1109,7 @@ The type of simple math operation to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SimpleMathType.Add" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SimpleMathType.Subtract" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SimpleMathType.Multiply" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`points` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`points` int
 
 The number of data points for interpolation.
 
@@ -1124,13 +1132,13 @@ into a single series. The function supports addition, subtraction, and multiplic
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateSmoothing(IEnumerable<string> lstSeriesName, SmoothingType smoothingType, int pointsOfWindow, int polyOrder)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the operation on.
 
@@ -1140,17 +1148,17 @@ The type of smoothing to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SmoothingType.SavitzkyGloay" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SmoothingType.MovingWindowAveraging" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`pointsOfWindow` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`pointsOfWindow` int
 
 The number of points for the smoothing window.
 
-`polyOrder` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`polyOrder` int
 
 The polynomial order for the smoothing operation.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with smoothing applied.
 
@@ -1167,13 +1175,13 @@ window size, and polynomial order. The function supports moving average and Savi
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateSmoothing(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, SmoothingType smoothingType, int pointsOfWindow, int polyOrder)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
@@ -1183,17 +1191,17 @@ The type of smoothing to apply.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SmoothingType.SavitzkyGloay" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SmoothingType.MovingWindowAveraging" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`pointsOfWindow` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`pointsOfWindow` int
 
 The number of points for the smoothing window.
 
-`polyOrder` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`polyOrder` int
 
 The polynomial order for the smoothing operation.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of data series with smoothing applied.
 
@@ -1210,27 +1218,27 @@ window size, and polynomial order. The function supports moving average and Savi
 
 Translates data series by the specified offsets as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateTranslate(IEnumerable<string> lstSeriesName, double offsetX, double offsetY)
 ```
 
 #### Parameters
 
-`lstSeriesName` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstSeriesName` IEnumerable<string\>
 
 The list of curve names to perform the translation on.
 
-`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offsetX` double
 
 The offset value to translate on the X-axis.
 
-`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offsetY` double
 
 The offset value to translate on the Y-axis.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of translated data series.
 
@@ -1247,27 +1255,27 @@ of each point in the series.
 
 Translates data series by the specified offsets as part of the chart tab's Transform functionality.
 
-```python
+```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateTranslate(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, double offsetX, double offsetY)
 ```
 
 #### Parameters
 
-`seriesViewModels` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+`seriesViewModels` IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 The list of instances of the curves to perform the operation on.
 
-`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offsetX` double
 
 The offset value to translate on the X-axis.
 
-`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offsetY` double
 
 The offset value to translate on the Y-axis.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
+ IEnumerable<[IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md)\>
 
 A collection of translated data series.
 
@@ -1279,5 +1287,4 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 This function translates each series specified in <code class="paramref">seriesViewModels</code> by adding the specified offsets to the X and Y values
 of each point in the series.
-
 

@@ -1,4 +1,5 @@
-#  Class LinkBaseAttribute
+# Class LinkBaseAttribute
+<a id="VM_Models_Pre_LinkBaseAttribute"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -9,8 +10,8 @@ public abstract class LinkBaseAttribute : Attribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [LinkBaseAttribute](VM.Models.Pre.LinkBaseAttribute.md)
 
 #### Derived
@@ -42,7 +43,7 @@ public IEnumerable CacheItems { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
+ IEnumerable
 
 ### <a id="VM_Models_Pre_LinkBaseAttribute_IsCacheEmpty"></a> IsCacheEmpty
 
@@ -52,7 +53,7 @@ public bool IsCacheEmpty { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -64,9 +65,9 @@ protected void AddCache(string propertyName, IDisposable subscriber)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`subscriber` [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+`subscriber` IDisposable
 
 ### <a id="VM_Models_Pre_LinkBaseAttribute_Dispose"></a> Dispose\(\)
 
@@ -88,7 +89,7 @@ public void Initialize(object owner)
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
 ### <a id="VM_Models_Pre_LinkBaseAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
@@ -98,9 +99,9 @@ protected abstract void InitializeProperty(object owner, IEnumerable<PropertyInf
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+`propertyInfos` IEnumerable<PropertyInfo\>
 
 ### <a id="VM_Models_Pre_LinkBaseAttribute_Unsubscribe_System_String_"></a> Unsubscribe\(string\)
 
@@ -110,5 +111,5 @@ protected void Unsubscribe(string propertyName)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 

@@ -1,11 +1,12 @@
-#  Interface IOperationsHeatmapNumericAxis2DViewModel
+# Interface IOperationsHeatmapNumericAxis2DViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Interface for managing axes in a 2D Numeric Heatmap related to STFT.
 
-```python
+```csharp
 public interface IOperationsHeatmapNumericAxis2DViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsHeatmapNumericAxis2DViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsHeatmapNumericAxis2DViewModel.py
+```python
+# IOperationsHeatmapNumericAxis2DViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,19 +37,28 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set array about combination of characteristic and component
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -110,7 +123,7 @@ page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -118,13 +131,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the number of digits for the label format.
 
-```python
+```csharp
 int Digit { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 #### Examples
 
@@ -138,13 +151,13 @@ Use this property to specify or retrieve the number of digits displayed in the l
 
 Gets or sets the font color of the axis.
 
-```python
+```csharp
 Color FontColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
@@ -159,13 +172,13 @@ You can set this property to any valid <xref href="System.Windows.Media.Color" d
 
 Gets or sets the font family for the axis labels.
 
-```python
+```csharp
 FontFamily FontFace { get; set; }
 ```
 
 #### Property Value
 
- [FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.media.fontfamily)
+ FontFamily
 
 #### Examples
 
@@ -179,13 +192,13 @@ Use this property to specify or retrieve the font family used for the labels on 
 
 Gets or sets the font size of the labels on the axis.
 
-```python
+```csharp
 double FontSize { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -199,13 +212,13 @@ Use this property to specify or retrieve the font size of the labels displayed o
 
 Gets or sets the font style for the axis.
 
-```python
+```csharp
 FontStyle FontStyle { get; set; }
 ```
 
 #### Property Value
 
- [FontStyle](https://learn.microsoft.com/dotnet/api/system.windows.fontstyle)
+ FontStyle
 
 #### Examples
 
@@ -221,13 +234,13 @@ The available options are:
 
 Gets or sets the font weight for the labels on the axis.
 
-```python
+```csharp
 FontWeight FontWeight { get; set; }
 ```
 
 #### Property Value
 
- [FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.fontweight)
+ FontWeight
 
 #### Examples
 
@@ -243,13 +256,13 @@ The available options are:
 
 Gets or sets a value indicating whether the label format is set automatically or manually.
 
-```python
+```csharp
 bool General { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -264,7 +277,7 @@ Use this property to specify whether the label format should be determined autom
 
 Gets or sets the format type for the labels on the axis.
 
-```python
+```csharp
 LabelFormatType LabelFormatType { get; set; }
 ```
 
@@ -286,13 +299,13 @@ The available options are:
 
 Gets or sets the scale interval of the axis.
 
-```python
+```csharp
 double ScaleInterval { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -306,13 +319,13 @@ Use this property to manually set the intervals for the axis range.
 
 Gets or sets the maximum value of the axis scale.
 
-```python
+```csharp
 double ScaleMax { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -326,13 +339,13 @@ Use this property to manually set the maximum value for the axis scale.
 
 Gets or sets the minimum value of the axis scale.
 
-```python
+```csharp
 double ScaleMin { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -341,5 +354,4 @@ For an example that includes this property, see the [Interface IOperationsHeatma
 #### Remarks
 
 Use this property to manually set the minimum value for the axis scale.
-
 

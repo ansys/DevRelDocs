@@ -1,4 +1,5 @@
-#  Class UpdateDesignerInMesh
+# Class UpdateDesignerInMesh
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateDesignerInMesh : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateDesignerInMesh](VM.Managed.DAFUL.GearTrain.Operation.UpdateDesignerInMesh.md)
@@ -132,7 +133,7 @@ protected object m_MeshEntity
 
 #### Field Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh_m_hiddenDoc"></a> m\_hiddenDoc
 
@@ -144,7 +145,7 @@ protected HiddenDocumentMeshBase m_hiddenDoc
 
 #### Field Value
 
- HiddenDocumentMeshBase
+ [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 ## Properties
 
@@ -158,7 +159,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -172,7 +173,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

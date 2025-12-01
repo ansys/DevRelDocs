@@ -1,4 +1,5 @@
-#  Class GearShapeBase.BuilderInfo
+# Class GearShapeBase.BuilderInfo
+<a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class GearShapeBase.BuilderInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearShapeBase.BuilderInfo](VM.Managed.DAFUL.GearTrain.GearShapeBase.BuilderInfo.md)
 
 #### Extension Methods
@@ -54,7 +55,7 @@ public bool IsDesigner { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_IsInternal"></a> IsInternal
 
@@ -66,7 +67,7 @@ public bool IsInternal { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_MateAngle"></a> MateAngle
 
@@ -78,7 +79,7 @@ public double MateAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_Offset"></a> Offset
 
@@ -90,7 +91,7 @@ public double Offset { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_Orientation"></a> Orientation
 
@@ -126,5 +127,5 @@ public double Transparency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

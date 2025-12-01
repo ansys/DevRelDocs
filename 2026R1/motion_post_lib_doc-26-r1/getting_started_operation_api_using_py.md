@@ -119,9 +119,13 @@ By using the ApplicationHandler class, you can gain a comprehensive understandin
 ```python
 # OperationAPIUsingThePythonLanguage.py
 import sys
+
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + "\\Modules"
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -136,6 +140,10 @@ result_file_path = get_result_file_path()
 
 paths = List[str](1)
 paths.Add(result_file_path)
+
+# Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(paths)
 
 ```

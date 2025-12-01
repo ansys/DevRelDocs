@@ -1,4 +1,5 @@
-#  Class AddObjectListToActiveDocument
+# Class AddObjectListToActiveDocument
+<a id="VM_Managed_DAFUL_Chained_Operation_AddObjectListToActiveDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -11,7 +12,7 @@ public class AddObjectListToActiveDocument : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [AddObjectListToActiveDocument](VM.Managed.DAFUL.Chained.Operation.AddObjectListToActiveDocument.md)
 
@@ -105,7 +106,7 @@ public AddObjectListToActiveDocument(List<ObjectBase> lstObj, Document doc)
 
 #### Parameters
 
-`lstObj` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+`lstObj` List<ObjectBase\>
 
 The LST object.
 
@@ -139,7 +140,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -161,7 +162,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

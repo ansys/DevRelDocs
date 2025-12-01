@@ -1,4 +1,5 @@
-#  Enum HeatFlowUnit.HeatFlow
+# Enum HeatFlowUnit.HeatFlow
+<a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit_HeatFlow"></a>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  

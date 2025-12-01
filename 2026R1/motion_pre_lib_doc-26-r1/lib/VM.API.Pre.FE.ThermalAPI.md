@@ -1,4 +1,5 @@
-#  Class ThermalAPI
+# Class ThermalAPI
+<a id="VM_API_Pre_FE_ThermalAPI"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class ThermalAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ThermalAPI](VM.API.Pre.FE.ThermalAPI.md)
 
 #### Extension Methods
@@ -33,51 +34,51 @@ public static Obj CreateConvectionWithFunction(this SubSystemDocument document, 
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the convection.
 
-`convectionComponent` Obj
+`convectionComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The convection component
 
-`convectionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`convectionName` string
 
 The name of the convection. If empty, default name starts with 'Convection_' will be generated and used.
 
-`convectionCoefficientFunction` Obj?
+`convectionCoefficientFunction` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The name of the convection coefficient function.
 
-`ambientTemperatureFunction` Obj?
+`ambientTemperatureFunction` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The name of the ambient temperature function.
 
-`convectionCoefficientUnit` ConvectionCoefficientUnit.ConvectionCoefficient
+`convectionCoefficientUnit` [ConvectionCoefficientUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[ConvectionCoefficient](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the convection coefficient.
 
-`ambientTemperatureUnit` TemperatureUnit.Temperature
+`ambientTemperatureUnit` [TemperatureUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[Temperature](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the ambient temperature.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.Convection" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'convectionComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'convectionCoefficientFunction' argument is not empty and type of 'convectionCoefficientFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'ambientTemperatureFunction' argument is not empty and type of 'ambientTemperatureFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -92,35 +93,35 @@ public static Obj CreateConvectionWithUserSubroutine(this SubSystemDocument docu
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the convection.
 
-`convectionComponent` Obj
+`convectionComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The convection component
 
-`usub` Obj
+`usub` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The name of the user-subrooutine.
 
-`convectionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`convectionName` string
 
 The name of the convection. If empty, default name starts with 'Convection_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.Convection" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'convectionComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -135,39 +136,39 @@ public static Obj CreateHeatFlowWithFunction(this SubSystemDocument document, Ob
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the heat flow.
 
-`heatFlowComponent` Obj
+`heatFlowComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The heat flow component
 
-`heatFlowName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`heatFlowName` string
 
 The name of the heat flow. If empty, default name starts with 'HeatFlow_' will be generated and used.
 
-`heatFlowFunction` Obj?
+`heatFlowFunction` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The name of the heat flow function.
 
-`heatFlowUnit` HeatFlowUnit.HeatFlow
+`heatFlowUnit` [HeatFlowUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[HeatFlow](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the heat flow.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.HeatFlow" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'heatFlowComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'heatFlowFunction' argument is not empty and type of 'heatFlowFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -182,35 +183,35 @@ public static Obj CreateHeatFlowWithUserSubroutine(this SubSystemDocument docume
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the heat flow.
 
-`heatFlowComponent` Obj
+`heatFlowComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The heat flow component
 
-`usub` Obj
+`usub` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The name of the user-subrooutine.
 
-`heatFlowName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`heatFlowName` string
 
 The name of the heat flow. If empty, default name starts with 'HeatFlow_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.HeatFlow" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'heatFlowComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -225,39 +226,39 @@ public static Obj CreateHeatFluxWithFunction(this SubSystemDocument document, Ob
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the heat flux.
 
-`heatFluxComponent` Obj
+`heatFluxComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The heat flux component
 
-`heatFluxName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`heatFluxName` string
 
 The name of the heat flux. If empty, default name starts with 'HeatFlux_' will be generated and used.
 
-`heatFluxFunction` Obj?
+`heatFluxFunction` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The name of the heat flux function.
 
-`heatFluxUnit` HeatFluxUnit.HeatFlux
+`heatFluxUnit` [HeatFluxUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[HeatFlux](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the heat flux.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.HeatFlux" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'heatFluxComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'heatFluxFunction' argument is not empty and type of 'heatFluxFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -272,35 +273,35 @@ public static Obj CreateHeatFluxWithUserSubroutine(this SubSystemDocument docume
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the heat flux.
 
-`heatFluxComponent` Obj
+`heatFluxComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The heat flux component
 
-`usub` Obj
+`usub` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The name of the user-subrooutine.
 
-`heatFluxName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`heatFluxName` string
 
 The name of the heat flux. If empty, default name starts with 'HeatFlux_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.HeatFlux" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'heatFluxComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -315,39 +316,39 @@ public static Obj CreateHeatGenerationWithFunction(this SubSystemDocument docume
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the heat generation.
 
-`heatGenerationComponent` Obj
+`heatGenerationComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The heat generation component
 
-`heatGenerationName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`heatGenerationName` string
 
 The name of the heat generation. If empty, default name starts with 'HeatGeneration_' will be generated and used.
 
-`heatGenerationFunction` Obj?
+`heatGenerationFunction` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The name of the heat generation function.
 
-`heatGenerationUnit` HeatGenerationUnit.HeatGeneration
+`heatGenerationUnit` [HeatGenerationUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[HeatGeneration](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the heat generation.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.HeatGeneration" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'heatGenerationComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'heatGenerationFunction' argument is not empty and type of 'heatGenerationFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -362,35 +363,35 @@ public static Obj CreateHeatGenerationWithUserSubroutine(this SubSystemDocument 
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the heat generation.
 
-`heatGenerationComponent` Obj
+`heatGenerationComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The heat generation component
 
-`usub` Obj
+`usub` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The name of the user-subrooutine.
 
-`heatGenerationName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`heatGenerationName` string
 
 The name of the heat generation. If empty, default name starts with 'HeatGeneration_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.HeatGeneration" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'heatGenerationComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -405,43 +406,43 @@ public static Obj CreateTemperatureWithDFTHFile(this SubSystemDocument document,
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the temperature.
 
-`temperatureComponent` Obj
+`temperatureComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The temperature component
 
-`dfthFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`dfthFilePath` string
 
 The .dfth file path.
 
-`temperatureUnit` TemperatureUnit.Temperature
+`temperatureUnit` [TemperatureUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[Temperature](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the temperature.
 
-`temperatureName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`temperatureName` string
 
 The name of the temperature. If empty, default name starts with 'Temperature_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.Temperature" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'temperatureComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'temperatureFunction' is not <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if dfthFilePath file is not exist.
 
@@ -456,43 +457,43 @@ public static Obj CreateTemperatureWithFunction(this SubSystemDocument document,
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the temperature.
 
-`temperatureComponent` Obj
+`temperatureComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The temperature component
 
-`temperatureName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`temperatureName` string
 
 The name of the temperature. If empty, default name starts with 'Temperature_' will be generated and used.
 
-`temperatureFunction` Obj?
+`temperatureFunction` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The name of the temperature function.
 
-`temperatureUnit` TemperatureUnit.Temperature
+`temperatureUnit` [TemperatureUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[Temperature](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the temperature.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.Temperature" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'temperatureComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'temperatureFunction' is not <xref href="VM.Managed.DAFUL.ITemperatureComponent" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'temperatureFunction' argument is not empty and type of 'temperatureFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -507,39 +508,39 @@ public static Obj CreateTemperatureWithUserSubroutine(this SubSystemDocument doc
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the temperature.
 
-`temperatureComponent` Obj
+`temperatureComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The temperature component
 
-`usub` Obj
+`usub` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The name of the user-subrooutine.
 
-`temperatureName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`temperatureName` string
 
 The name of the temperature. If empty, default name starts with 'Temperature_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.Temperature" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'temperatureComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'temperatureFunction' is not <xref href="VM.Managed.DAFUL.ITemperatureComponent" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
@@ -554,39 +555,39 @@ public static Obj CreateThermalContactWithFunction(this SubSystemDocument docume
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the thermal contact.
 
-`thermalContactComponent` Obj
+`thermalContactComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The thermal contact component
 
-`thermalContactName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`thermalContactName` string
 
 The name of the thermal contact. If empty, default name starts with 'ThermalContact_' will be generated and used.
 
-`thermalContactFunction` Obj?
+`thermalContactFunction` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)?
 
 The name of the thermal contact function.
 
-`convectionCoefficient` ConvectionCoefficientUnit.ConvectionCoefficient
+`convectionCoefficient` [ConvectionCoefficientUnit](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs).[ConvectionCoefficient](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMThermalBase/ThermalFunction.cs)
 
 The unit of the thermal contact conductance coefficient.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.ThermalContact" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'thermalContactComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'thermalContactFunction' argument is not empty and type of 'thermalContactFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -601,35 +602,35 @@ public static Obj CreateThermalContactWithUserSubroutine(this SubSystemDocument 
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the thermal contact.
 
-`thermalContactComponent` Obj
+`thermalContactComponent` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The thermal contact component
 
-`usub` Obj
+`usub` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The name of the user-subrooutine.
 
-`thermalContactName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`thermalContactName` string
 
 The name of the thermal contact. If empty, default name starts with 'ThermalContact_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.Thermal.ThermalContact" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'thermalContactComponent' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 

@@ -1,4 +1,5 @@
-#  Class MultiObjectContactGeometryFinderByName
+# Class MultiObjectContactGeometryFinderByName
+<a id="VM_Managed_DAFUL_Contact_MultiObjectContactGeometryFinderByName"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -11,9 +12,9 @@ public class MultiObjectContactGeometryFinderByName : MultiObjectContactGeometry
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [MultiObjectContactGeometryFinderBase](VM.Managed.DAFUL.Contact.MultiObjectContactGeometryFinderBase.md) ← 
 [MultiObjectContactGeometryFinderByName](VM.Managed.DAFUL.Contact.MultiObjectContactGeometryFinderByName.md)
@@ -77,7 +78,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -132,7 +133,7 @@ public string ContactGeometryName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

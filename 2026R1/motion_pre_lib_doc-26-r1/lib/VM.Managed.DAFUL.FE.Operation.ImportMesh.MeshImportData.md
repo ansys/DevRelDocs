@@ -1,4 +1,5 @@
-#  Struct ImportMesh.MeshImportData
+# Struct ImportMesh.MeshImportData
+<a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -19,7 +20,7 @@ public Color Color
 
 #### Field Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_DegenerateElement"></a> DegenerateElement
 
@@ -29,7 +30,7 @@ public bool DegenerateElement
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_ImportOnlyRBEIncludingStaticCorrectionMode"></a> ImportOnlyRBEIncludingStaticCorrectionMode
 
@@ -39,7 +40,7 @@ public bool ImportOnlyRBEIncludingStaticCorrectionMode
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_IsDeleteOldModal"></a> IsDeleteOldModal
 
@@ -49,7 +50,7 @@ public bool IsDeleteOldModal
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_ModalFilePath"></a> ModalFilePath
 
@@ -59,7 +60,7 @@ public string ModalFilePath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_NodalFilePath"></a> NodalFilePath
 
@@ -69,7 +70,7 @@ public string NodalFilePath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_TypeOfImport"></a> TypeOfImport
 

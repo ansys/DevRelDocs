@@ -1,4 +1,5 @@
-#  Class VehicleValidator
+# Class VehicleValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_VehicleValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class VehicleValidator : AbstractValidator<Vehicle>, IValidator<Vehicle>,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<Vehicle\> ← 
 [VehicleValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.VehicleValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<Vehicle\>.GetEnumerator\(\),
 AbstractValidator<Vehicle\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<Vehicle\>.PreValidate\(ValidationContext<Vehicle\>, ValidationResult\), 
 AbstractValidator<Vehicle\>.RaiseValidationException\(ValidationContext<Vehicle\>, ValidationResult\), 
+AbstractValidator<Vehicle\>.OnRuleAdded\(IValidationRule<Vehicle\>\), 
 AbstractValidator<Vehicle\>.CascadeMode, 
 AbstractValidator<Vehicle\>.ClassLevelCascadeMode, 
 AbstractValidator<Vehicle\>.RuleLevelCascadeMode

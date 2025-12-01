@@ -1,4 +1,5 @@
-#  Class DocMinorRoleCreateInfo
+# Class DocMinorRoleCreateInfo
+<a id="VM_Managed_DAFUL_Car_DocMinorRoleCreateInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class DocMinorRoleCreateInfo : DocFromTemplateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 DocCreateInfo ← 
 DocFromTemplateInfo ← 
 [DocMinorRoleCreateInfo](VM.Managed.DAFUL.Car.DocMinorRoleCreateInfo.md)
@@ -51,5 +52,5 @@ public int MinorRole { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

@@ -1,4 +1,5 @@
-#  Class DurabilityDataUtil
+# Class DurabilityDataUtil
+<a id="VM_Models_Pre_Durability_DurabilityDataUtil"></a>
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -9,7 +10,7 @@ public class DurabilityDataUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DurabilityDataUtil](VM.Models.Pre.Durability.DurabilityDataUtil.md)
 
 #### Extension Methods
@@ -36,11 +37,11 @@ public static string GetChangeName(string strBodyFullName)
 
 #### Parameters
 
-`strBodyFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyFullName` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_Durability_DurabilityDataUtil_GetChildName_System_String_"></a> GetChildName\(string\)
 
@@ -50,9 +51,9 @@ public static string GetChildName(string strBodyFullName)
 
 #### Parameters
 
-`strBodyFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBodyFullName` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

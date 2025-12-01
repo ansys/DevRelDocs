@@ -1,4 +1,5 @@
-#  Class PickedDirection
+# Class PickedDirection
+<a id="VM_Managed_DAFUL_Builder_PickedDirection"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -9,7 +10,7 @@ public class PickedDirection : PickedResult
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md) ← 
 [PickedDirection](VM.Managed.DAFUL.Builder.PickedDirection.md)
 

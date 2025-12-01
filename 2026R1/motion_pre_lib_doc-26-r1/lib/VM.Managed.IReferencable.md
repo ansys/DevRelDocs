@@ -1,4 +1,5 @@
-#  Interface IReferencable
+# Interface IReferencable
+<a id="VM_Managed_IReferencable"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ bool Referencable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_IReferencable_Visible"></a> Visible
 
@@ -39,7 +40,7 @@ bool Visible { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -57,7 +58,7 @@ void Instantiate(Reference reference, Canvas canvas)
 
 The reference.
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas.
 
@@ -69,5 +70,5 @@ void MakeReference(LinkedList<Reference> lstRef)
 
 #### Parameters
 
-`lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[Reference](VM.Managed.Reference.md)\>
+`lstRef` LinkedList<[Reference](VM.Managed.Reference.md)\>
 

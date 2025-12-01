@@ -1,4 +1,5 @@
-#  Class SplineInfo
+# Class SplineInfo
+<a id="VM_CAD_Builders_SplineInfo"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -9,7 +10,7 @@ public class SplineInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SplineInfo](VM.CAD.Builders.SplineInfo.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public List<Vector> Left { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 
 ### <a id="VM_CAD_Builders_SplineInfo_Right"></a> Right
 
@@ -46,5 +47,5 @@ public List<Vector> Right { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 

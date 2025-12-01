@@ -1,4 +1,5 @@
-#  Interface IHasResult
+# Interface IHasResult
+<a id="VM_Managed_DAFUL_IHasResult"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -27,7 +28,7 @@ void AddLargeAmountResult(int nCount)
 
 #### Parameters
 
-`nCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCount` int
 
 The amount count.
 

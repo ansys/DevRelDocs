@@ -1,4 +1,5 @@
-#  Enum ShimmyJudderAnalysisType
+# Enum ShimmyJudderAnalysisType
+<a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisType"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

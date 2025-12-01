@@ -1,4 +1,5 @@
-#  Struct LinkerFE<T\>
+# Struct LinkerFE<T\>
+<a id="VM_Managed_DAFUL_FE_LinkerFE_1"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -53,7 +54,7 @@ public bool IsReference { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_Key"></a> Key
 
@@ -65,7 +66,7 @@ public UIntPtr Key { get; }
 
 #### Property Value
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_Object"></a> Object
 
@@ -106,7 +107,7 @@ public XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 ### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -118,7 +119,7 @@ public void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -132,7 +133,7 @@ public void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

@@ -1,4 +1,5 @@
-#  Class SetPatchBase
+# Class SetPatchBase
+<a id="VM_Managed_DAFUL_FE_SetPatchBase"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,12 +12,12 @@ public abstract class SetPatchBase : SetBase, IObservableObject, IDisposableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
 [FESubEntity](VM.Managed.DAFUL.FE.FESubEntity.md) ← 
 [SetBase](VM.Managed.DAFUL.FE.SetBase.md) ← 
 [SetPatchBase](VM.Managed.DAFUL.FE.SetPatchBase.md)
@@ -33,7 +34,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -81,17 +82,17 @@ IGapTarget
 [FESubEntity.GetNodalBodyForSubsystem\(SubSystem, Mesh\)](VM.Managed.DAFUL.FE.FESubEntity.md\#VM\_Managed\_DAFUL\_FE\_FESubEntity\_GetNodalBodyForSubsystem\_VM\_Managed\_DAFUL\_SubSystem\_VM\_Managed\_DAFUL\_FE\_Mesh\_), 
 [FESubEntity.FEID](VM.Managed.DAFUL.FE.FESubEntity.md\#VM\_Managed\_DAFUL\_FE\_FESubEntity\_FEID), 
 [FESubEntity.OwnerMesh](VM.Managed.DAFUL.FE.FESubEntity.md\#VM\_Managed\_DAFUL\_FE\_FESubEntity\_OwnerMesh), 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -184,7 +185,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -215,11 +216,11 @@ public SetPatchBase(string strProxyName, string strBuildInfo)
 
 #### Parameters
 
-`strProxyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strProxyName` string
 
 Name of the proxy.
 
-`strBuildInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuildInfo` string
 
 The build information.
 
@@ -241,7 +242,7 @@ protected bool m_bActionGeometry
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_m_bBaseGeometry"></a> m\_bBaseGeometry
 
@@ -251,7 +252,7 @@ protected bool m_bBaseGeometry
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_m_bFailedConnectProxy"></a> m\_bFailedConnectProxy
 
@@ -261,7 +262,7 @@ protected bool m_bFailedConnectProxy
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_m_lstPatch"></a> m\_lstPatch
 
@@ -271,7 +272,7 @@ protected List<Patch> m_lstPatch
 
 #### Field Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
+ List<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
 ## Properties
 
@@ -297,7 +298,7 @@ public virtual uint Count { get; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_Gap"></a> Gap
 
@@ -309,7 +310,7 @@ public virtual ExpressionValueVariable Gap { get; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GeometryFullName"></a> GeometryFullName
 
@@ -321,7 +322,7 @@ public string GeometryFullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
 
@@ -333,7 +334,7 @@ public string GeometryNameForMultiContact { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_HalfThickness"></a> HalfThickness
 
@@ -345,7 +346,7 @@ public virtual ExpressionValueVariable HalfThickness { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_IsVisible"></a> IsVisible
 
@@ -357,7 +358,7 @@ bool IsVisible { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_Layer"></a> Layer
 
@@ -381,7 +382,7 @@ public virtual ExpressionValueVariable MaxPenetration { get; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_ReferenceType"></a> ReferenceType
 
@@ -393,7 +394,7 @@ public virtual string ReferenceType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_SurfaceSmoothingType"></a> SurfaceSmoothingType
 
@@ -441,7 +442,19 @@ public virtual void AddPatches(ICollection<Patch> patches)
 
 #### Parameters
 
-`patches` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
+`patches` ICollection<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
+
+### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetAllNodeIndexes"></a> GetAllNodeIndexes\(\)
+
+Gets all node.
+
+```csharp
+public uint[] GetAllNodeIndexes()
+```
+
+#### Returns
+
+ uint\[\]
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetCenterPositionDirectionImpl_System_UInt32_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetCenterPositionDirectionImpl\(uint, ref VectorBase, ref VectorBase, IReferencable\)
 
@@ -451,7 +464,7 @@ protected virtual void GetCenterPositionDirectionImpl(uint index, ref VectorBase
 
 #### Parameters
 
-`index` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`index` uint
 
 `center` VectorBase
 
@@ -467,13 +480,13 @@ protected virtual bool GetDefaultMaxPenetrationImpl(ref double dMaxPenetration, 
 
 #### Parameters
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 `reference` IReferencable
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetPointDirectionImpl_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirectionImpl\(ref VectorBase, ref VectorBase, IReferencable\)
 
@@ -491,7 +504,7 @@ protected virtual bool GetPointDirectionImpl(ref VectorBase point, ref VectorBas
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetSchema"></a> GetSchema\(\)
 
@@ -506,7 +519,7 @@ public virtual XmlSchema GetSchema()
 
 #### Returns
 
- [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
+ XmlSchema
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
@@ -520,7 +533,7 @@ protected virtual void InstantiateImpl(Reference reference, Canvas canvas)
 
 `reference` Reference
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
@@ -530,7 +543,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 #### Parameters
 
-`lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
+`lstRef` LinkedList<Reference\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
@@ -542,7 +555,7 @@ public virtual void ReadXml(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The XmlReader stream from which the object is deserialized.
 
@@ -554,9 +567,9 @@ protected virtual void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
-`bNeedUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNeedUpdate` bool
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_RemovePatches_VM_Managed_DAFUL_FE_Patch___"></a> RemovePatches\(Patch\[\]\)
 
@@ -580,7 +593,7 @@ public void RemovePatches(ICollection<Patch> patches)
 
 #### Parameters
 
-`patches` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
+`patches` ICollection<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
 ### <a id="VM_Managed_DAFUL_FE_SetPatchBase_SetGap_System_String_"></a> SetGap\(string\)
 
@@ -592,7 +605,7 @@ public virtual void SetGap(string strValue)
 
 #### Parameters
 
-`strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strValue` string
 
 The value
 
@@ -616,7 +629,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The XmlWriter stream to which the object is serialized.
 

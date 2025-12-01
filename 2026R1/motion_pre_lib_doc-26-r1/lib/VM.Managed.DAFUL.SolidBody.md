@@ -1,4 +1,5 @@
-#  Class SolidBody
+# Class SolidBody
+<a id="VM_Managed_DAFUL_SolidBody"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -6,19 +7,19 @@ Assembly: VMDFBase.dll
 This class is to represent the solid body.
 
 ```csharp
-public class SolidBody : BodyBase<SolidBodyProperty>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IMarkerCreatable, IFacesetCreatable, ICurvesetCreatable, IConnectableNotReference, IReferencable, IConnectableHasGeometry, IBody, IInterface, ITemplateObject, IHasBuilder, IDrawIcon, ITransformable, IGeometryContainer, IMassProp, IChainedSegmentConnector, IArgument, ITransparentable, IMFModalable, IBodyAnalysisType, IAutoContactable, ITemperatureComponent, IHeatGenerationComponent, IGeometricalComponent, IContactableGeometry2Dot5D, IConnectable, IMarkerParent, IEntityRelation, IHasBody, IHasMaterial
+public class SolidBody : BodyBase<SolidBodyProperty>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IMarkerCreatable, IFacesetCreatable, ICurvesetCreatable, IConnectableNotReference, IReferencable, IConnectableHasGeometry, IBody, IInterface, ITemplateObject, IHasBuilder, IDrawIcon, ITransformable, IGeometryContainer, IMassProp, IChainedSegmentConnector, IArgument, ITransparentable, IMFModalable, IBodyAnalysisType, IAutoContactable, ITemperatureComponent, IHeatGenerationComponent, IGeometricalComponent, IContactableGeometry2Dot5D, IConnectable, IMarkerParent, IEntityRelation, IHasBody, IHasMaterial, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<EntityEventCore\> ← 
 ContainerObject<EntityEventCore\> ← 
-EntityBase ← 
-Entity<SolidBodyProperty\> ← 
+[EntityBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
+[Entity<SolidBodyProperty\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
 [BodyBase<SolidBodyProperty\>](VM.Managed.DAFUL.BodyBase\-1.md) ← 
 [SolidBody](VM.Managed.DAFUL.SolidBody.md)
 
@@ -29,7 +30,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 IEntity, 
@@ -80,7 +81,8 @@ IAutoContactable,
 [IMarkerParent](VM.Managed.DAFUL.IMarkerParent.md), 
 IEntityRelation, 
 IHasBody, 
-IHasMaterial
+IHasMaterial, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -108,34 +110,34 @@ IHasMaterial
 [BodyBase<SolidBodyProperty\>.IsVisible](VM.Managed.DAFUL.BodyBase\-1.md\#VM\_Managed\_DAFUL\_BodyBase\_1\_IsVisible), 
 [BodyBase<SolidBodyProperty\>.ReferencableImpl](VM.Managed.DAFUL.BodyBase\-1.md\#VM\_Managed\_DAFUL\_BodyBase\_1\_ReferencableImpl), 
 [BodyBase<SolidBodyProperty\>.Geometry](VM.Managed.DAFUL.BodyBase\-1.md\#VM\_Managed\_DAFUL\_BodyBase\_1\_Geometry), 
-Entity<SolidBodyProperty\>.Initialize\(Unit.ConvertFactor\), 
-Entity<SolidBodyProperty\>.GetUnnamedObjectName\(object\), 
-Entity<SolidBodyProperty\>.FindLocal\(string\), 
-Entity<SolidBodyProperty\>.Property, 
-EntityBase.Initialize\(Unit.ConvertFactor\), 
-EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\), 
-EntityBase.OnDeserializationForAttribute\(\), 
-EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-EntityBase.LinkRequestDestroying\(object, LinkEventArgs\), 
-EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-EntityBase.FixUp\(ObjectBase\), 
-EntityBase.FindLocal\(string\), 
-EntityBase.WriteTemplateImpl\(XmlWriter\), 
-EntityBase.ReadTemplateImpl\(XmlReader\), 
-EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\), 
-EntityBase.OnDeserialization\(object\), 
-EntityBase.Name, 
-EntityBase.FullName, 
-EntityBase.NonSymmetricName, 
-EntityBase.DisplayName, 
-EntityBase.IsEnabled, 
-EntityBase.Comment, 
-EntityBase.HasLayerExplicitly, 
-EntityBase.UntypedProperty, 
-EntityBase.IsFileProperty, 
-EntityBase.Layer, 
-EntityBase.IsVisible, 
+[Entity<SolidBodyProperty\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<SolidBodyProperty\>.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<SolidBodyProperty\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<SolidBodyProperty\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserializationForAttribute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkRequestDestroying\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.HasLayerExplicitly](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsFileProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
 ContainerObject<EntityEventCore\>.Find\(string\), 
 ContainerObject<EntityEventCore\>.FindLocal\(string\), 
 ContainerObject<EntityEventCore\>.GetUnnamedObjectName\(object\), 
@@ -234,7 +236,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -273,7 +275,7 @@ public SolidBody(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the solid body.
 
@@ -287,7 +289,7 @@ public SolidBody(string strName, Builder builder)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the solid body.
 
@@ -358,7 +360,7 @@ public string DFMFPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SolidBody_Geometry"></a> Geometry
 
@@ -370,7 +372,7 @@ public override List<Body> Geometry { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
+ List<Body\>
 
 ### <a id="VM_Managed_DAFUL_SolidBody_HalfThickness"></a> HalfThickness
 
@@ -382,7 +384,7 @@ public ExpressionValueVariable HalfThickness { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_SolidBody_IsActionGeometry"></a> IsActionGeometry
 
@@ -394,7 +396,7 @@ public bool IsActionGeometry { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_IsBaseGeometry"></a> IsBaseGeometry
 
@@ -406,7 +408,7 @@ public bool IsBaseGeometry { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_IsEditCM"></a> IsEditCM
 
@@ -418,7 +420,7 @@ public virtual bool IsEditCM { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_IsInterface"></a> IsInterface
 
@@ -430,7 +432,7 @@ public bool IsInterface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_IsRepresentedAsBSurface"></a> IsRepresentedAsBSurface
 
@@ -442,7 +444,7 @@ public bool IsRepresentedAsBSurface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_LastModifiedTimeToDFMFFile"></a> LastModifiedTimeToDFMFFile
 
@@ -454,7 +456,7 @@ public string LastModifiedTimeToDFMFFile { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SolidBody_MaxPenetration"></a> MaxPenetration
 
@@ -466,7 +468,7 @@ public ExpressionValueVariable MaxPenetration { get; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_SolidBody_MeshFreeProperty"></a> MeshFreeProperty
 
@@ -539,7 +541,7 @@ public virtual string ReferenceType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SolidBody_SurfaceSmoothingType"></a> SurfaceSmoothingType
 
@@ -563,7 +565,7 @@ public override string TopologyEntityTypeName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_SolidBody_UseAdvancedOption"></a> UseAdvancedOption
 
@@ -575,7 +577,7 @@ public bool UseAdvancedOption { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_UseModalReferencePosition"></a> UseModalReferencePosition
 
@@ -587,7 +589,7 @@ public bool UseModalReferencePosition { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_UseRMovingReferenceFrame"></a> UseRMovingReferenceFrame
 
@@ -599,7 +601,7 @@ public bool UseRMovingReferenceFrame { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_UseTMovingReferenceFrame"></a> UseTMovingReferenceFrame
 
@@ -611,7 +613,7 @@ public bool UseTMovingReferenceFrame { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody__MovingReferenceFrame"></a> \_MovingReferenceFrame
 
@@ -645,7 +647,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -671,7 +673,7 @@ The ob.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_SolidBody_GetAnalysisLevelInfo_System_Collections_Generic_List_System_Double___System_Collections_Generic_List_System_UInt32___"></a> GetAnalysisLevelInfo\(ref List<double\>, ref List<uint\>\)
 
@@ -683,17 +685,17 @@ public bool GetAnalysisLevelInfo(ref List<double> lstNodeDistance, ref List<uint
 
 #### Parameters
 
-`lstNodeDistance` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+`lstNodeDistance` List<double\>
 
 Node distance list
 
-`lstNodeCount` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+`lstNodeCount` List<uint\>
 
 Node count list
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether it's successful.
 
@@ -735,7 +737,7 @@ public bool GetDefaultMaxPenetration(ref double dMaxPenetration, IReferencable r
 
 #### Parameters
 
-`dMaxPenetration` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dMaxPenetration` double
 
 The max penetration.
 
@@ -745,7 +747,7 @@ The reference [no use].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -759,17 +761,17 @@ public bool GetGeometryNavigatorInformation(XmlDocument xmlDom, XmlElement xmlEl
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for geometry.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement for geometry.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -797,21 +799,21 @@ public bool GetMarkerArrayModelNavigatorInfo(XmlDocument xmlDom, XmlElement xmlE
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for marker array.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement for marker array.
 
-`arMarker` NamedObjectDictionary<[Marker](VM.Managed.DAFUL.Marker.md)\>
+`arMarker` [NamedObjectDictionary](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/NamedObjectDictionary.cs)<[Marker](VM.Managed.DAFUL.Marker.md)\>
 
 The marker array.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -825,11 +827,11 @@ protected bool GetMarkerModelNavigatorInfo(XmlDocument xmlDom, XmlElement xmlEle
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for marker.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement for marker.
 
@@ -839,7 +841,7 @@ The marker.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -853,21 +855,21 @@ protected override bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, Xml
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement for object.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 if set to <code>true</code> [has child].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -895,7 +897,7 @@ The reference [no use].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -923,7 +925,7 @@ The reference [no use].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -937,13 +939,13 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 #### Parameters
 
-`obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obUnnamed` object
 
 The ob unnamed.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The unnamed object name.
 
@@ -971,7 +973,7 @@ public bool IsAutoContactable()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
 
@@ -985,7 +987,7 @@ protected override void LinkRemovedFromDocument(object objNotifier, RemoveFromDo
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -1003,7 +1005,7 @@ protected override void LinkRequestDestroy(object objNotifier, LinkEventArgs arg
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -1021,7 +1023,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 #### Parameters
 
-`lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
+`lstRef` LinkedList<Reference\>
 
 The container.
 
@@ -1035,7 +1037,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -1065,7 +1067,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -1101,7 +1103,7 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

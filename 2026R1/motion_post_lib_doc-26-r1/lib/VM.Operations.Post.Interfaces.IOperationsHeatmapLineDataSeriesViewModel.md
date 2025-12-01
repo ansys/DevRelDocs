@@ -1,12 +1,13 @@
-#  Interface IOperationsHeatmapLineDataSeriesViewModel
+# Interface IOperationsHeatmapLineDataSeriesViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsHeatmapLineDataSeriesViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents a view model for the heatmap line data series.
 
-```python
-public interface IOperationsHeatmapLineDataSeriesViewModel : IOperationsLineDataSeriesViewModelBase, ILineDataSeriesViewModelBase, IHasSourceViewModel, IViewModel, IObservableObject, IDisposableObject, IEnabled, IExpanded, ISelected, IVisible, IThicknessProperty, IOperationsBase
+```csharp
+public interface IOperationsHeatmapLineDataSeriesViewModel : IOperationsLineDataSeriesViewModelBase, ILineDataSeriesViewModelBase, IHasSourceViewModel, IViewModel, IObservableObject, IDisposableObject, IEnabled, IExpanded, ISelected, IVisible, IThicknessProperty
 ```
 
 #### Implements
@@ -21,20 +22,22 @@ IEnabled,
 IExpanded, 
 ISelected, 
 IVisible, 
-IThicknessProperty, 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+IThicknessProperty
 
 ## Examples
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsHeatmapLineDataSeriesViewModel.py
+```python
+# IOperationsHeatmapLineDataSeriesViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -48,19 +51,28 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set array about combination of characteristic and component
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -92,18 +104,25 @@ data.ScaleFactor = 1.0
 data.SelectedScaleType = STFTScaleType.Original
 stfts = chartView.CreateSTFT(data, curves)
 
-# Documentation Example
+# Importing Numeric Data
 parameters = List[INumericParameter](2)
+
+# To create a curve from a file, create a NumericParameter.
+# Name - The name of the curve to be created.
+# TargetX - The name of the X-axis data.
+# TargetY - The name of the Y-axis data.
+# In this example, a curve named 'OrderTrackingCurve' is created, and data corresponding to the X and Y headers is retrieved from the file.
 parameter = NumericParameter()
 parameter.Name = r'Y'
 parameter.TargetX = r'X'
 parameter.TargetY = r'Y'
 parameters.Add(parameter)
 
-# The output path is 'examples/Output'.
+# file_path - The path to the file containing the numeric data.
+# parameters - The list of numeric parameters that define how to interpret the data in the file.
 output_dir = get_output_directory()
-export_filepath = combine_path(output_dir, r'example.csv')
-applicationHandler.ImportNumeric(stfts[0], export_filepath, parameters)
+file_path = combine_path(output_dir, r'example.csv')
+applicationHandler.ImportNumeric(stfts[0], file_path, parameters)
 
 curves = stfts[0].STFT2DViewModel.GetCurves("Y")
 curves[0].Harmonic = 5
@@ -114,7 +133,7 @@ page.Close()
 
 # Close Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -122,13 +141,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the slope of the curve at the start point.
 
-```python
+```csharp
 double Harmonic { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -142,13 +161,13 @@ Use this property to specify or retrieve the slope of the curve at the start poi
 
 Gets or sets the value of the interval.
 
-```python
+```csharp
 double Interval { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 #### Examples
 
@@ -157,5 +176,4 @@ For an example that includes this property, see the [Interface IOperationsHeatma
 #### Remarks
 
 Use this property to specify or retrieve the value of the interval.
-
 

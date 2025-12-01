@@ -1,4 +1,5 @@
-#  Interface ILinkable
+# Interface ILinkable
+<a id="VM_Models_Pre_ILinkable"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,7 +24,7 @@ IObservable<object> WhenNotifyDestroyed { get; }
 
 #### Property Value
 
- [IObservable](https://learn.microsoft.com/dotnet/api/system.iobservable\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+ IObservable<object\>
 
 ### <a id="VM_Models_Pre_ILinkable_WhenRequestReplace"></a> WhenRequestReplace
 
@@ -33,7 +34,7 @@ IObservable<object> WhenRequestReplace { get; }
 
 #### Property Value
 
- [IObservable](https://learn.microsoft.com/dotnet/api/system.iobservable\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+ IObservable<object\>
 
 ## Methods
 
@@ -45,7 +46,7 @@ void Destroyed(object caller)
 
 #### Parameters
 
-`caller` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`caller` object
 
 ### <a id="VM_Models_Pre_ILinkable_Initialize"></a> Initialize\(\)
 
@@ -61,5 +62,5 @@ void RequestReplace(object newValue)
 
 #### Parameters
 
-`newValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`newValue` object
 

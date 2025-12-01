@@ -1,4 +1,5 @@
-#  Class SaveFileDialogInfo
+# Class SaveFileDialogInfo
+<a id="VM_Managed_DAFUL_Pre_SaveFileDialogInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class SaveFileDialogInfo : FileDialogInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FileDialogInfo](VM.Managed.DAFUL.Pre.FileDialogInfo.md) ← 
 [SaveFileDialogInfo](VM.Managed.DAFUL.Pre.SaveFileDialogInfo.md)
 
@@ -54,5 +55,5 @@ public bool OverwritePrompt { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

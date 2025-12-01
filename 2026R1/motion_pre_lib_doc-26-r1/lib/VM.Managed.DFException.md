@@ -1,4 +1,5 @@
-#  Class DFException
+# Class DFException
+<a id="VM_Managed_DFException"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class DFException : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [DFException](VM.Managed.DFException.md)
 
 #### Derived
@@ -37,7 +38,7 @@ public DFException(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The exception message.
 
@@ -51,11 +52,11 @@ public DFException(string strMessage, Exception inner)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The exception message.
 
-`inner` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`inner` Exception
 
 The inner exception.
 

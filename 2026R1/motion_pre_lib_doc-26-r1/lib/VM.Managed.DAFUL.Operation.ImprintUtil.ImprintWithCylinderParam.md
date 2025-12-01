@@ -1,4 +1,5 @@
-#  Class ImprintUtil.ImprintWithCylinderParam
+# Class ImprintUtil.ImprintWithCylinderParam
+<a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class ImprintUtil.ImprintWithCylinderParam
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ImprintUtil.ImprintWithCylinderParam](VM.Managed.DAFUL.Operation.ImprintUtil.ImprintWithCylinderParam.md)
 
 #### Extension Methods
@@ -52,7 +53,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam_TargetKey"></a> TargetKey
 
@@ -64,7 +65,7 @@ public KeyInfo TargetKey { get; set; }
 
 #### Property Value
 
- KeyInfo
+ [KeyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/KeyInfo.cs)
 
 ### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam_Top"></a> Top
 

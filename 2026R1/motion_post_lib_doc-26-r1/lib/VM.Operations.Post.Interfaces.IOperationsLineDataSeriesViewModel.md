@@ -1,12 +1,13 @@
-#  Interface IOperationsLineDataSeriesViewModel
+# Interface IOperationsLineDataSeriesViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Represents a view model for the line data series.
 
-```python
-public interface IOperationsLineDataSeriesViewModel : IOperationsLineDataSeriesViewModelBase, ILineDataSeriesViewModelBase, IHasSourceViewModel, IViewModel, IObservableObject, IDisposableObject, IEnabled, IExpanded, ISelected, IVisible, IThicknessProperty, IOperationsBase
+```csharp
+public interface IOperationsLineDataSeriesViewModel : IOperationsLineDataSeriesViewModelBase, ILineDataSeriesViewModelBase, IHasSourceViewModel, IViewModel, IObservableObject, IDisposableObject, IEnabled, IExpanded, ISelected, IVisible, IThicknessProperty
 ```
 
 #### Implements
@@ -21,20 +22,22 @@ IEnabled,
 IExpanded, 
 ISelected, 
 IVisible, 
-IThicknessProperty, 
-[IOperationsBase](VM.Operations.Post.Interfaces.IOperationsBase.md)
+IThicknessProperty
 
 ## Examples
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsLineDataSeriesViewModel.py
+```python
+# IOperationsLineDataSeriesViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -48,12 +51,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Documentation Example
@@ -61,7 +69,11 @@ chartView = page.CreateChart("Chart")
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -79,7 +91,7 @@ page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -87,7 +99,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the source X instance of the series.
 
-```python
+```csharp
 ILineDataSeriesAxisViewModel SourceX { get; set; }
 ```
 
@@ -107,7 +119,7 @@ Use this property to specify or retrieve the source X instance of the series.
 
 Gets or sets the source Y instance of the series.
 
-```python
+```csharp
 ILineDataSeriesAxisViewModel SourceY { get; set; }
 ```
 
@@ -129,29 +141,29 @@ Use this property to specify or retrieve the source Y instance of the series.
 
 Creates information of Axis for data series. It is used for modifying information of axis for data series.
 
-```python
+```csharp
 IOperationsLineDataSeriesAxisViewModel CreateLineDataSeries(string filepath, string fullTarget, string characteristic, string component, string csys)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The path of the result to access.
 
-`fullTarget` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`fullTarget` string
 
 The name of the target entity.
 
-`characteristic` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`characteristic` string
 
 The name of the characteristic.
 
-`component` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`component` string
 
 The name of the component.
 
-`csys` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`csys` string
 
 The name of the coordinate system.
 
@@ -173,38 +185,38 @@ This method creates axis information for a data series, allowing for the modific
 
 Creates information of Axis for data series. It is used for modifying information of axis for data series.
 
-```python
+```csharp
 [Obsolete("This method is considered outdated and its use is discouraged.", true)]
 IOperationsLineDataSeriesAxisViewModel CreateLineDataSeries(string filepath, string parent, string fullTarget, string subTarget, string characteristic, string component, string csys)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The path of the result to access.
 
-`parent` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`parent` string
 
 The parent entity. If the entity does not have a parent, it should be <xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>.
 
-`fullTarget` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`fullTarget` string
 
 The name of the target entity.
 
-`subTarget` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`subTarget` string
 
 The name of the child item such as node, element, or marker. If there is no child item, it should be <xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>.
 
-`characteristic` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`characteristic` string
 
 The name of the characteristic.
 
-`component` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`component` string
 
 The name of the component.
 
-`csys` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`csys` string
 
 The name of the coordinate system.
 
@@ -221,5 +233,4 @@ For an example that includes this property, see the [Interface IOperationsLineDa
 #### Remarks
 
 This method creates axis information for a data series, allowing for the modification of axis information for the data series.
-
 

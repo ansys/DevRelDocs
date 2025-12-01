@@ -1,4 +1,5 @@
-#  Enum VerifiedResult.ResultType
+# Enum VerifiedResult.ResultType
+<a id="VM_Managed_VerifiedResult_ResultType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

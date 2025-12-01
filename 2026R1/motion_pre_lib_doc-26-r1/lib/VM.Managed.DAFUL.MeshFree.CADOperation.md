@@ -1,4 +1,5 @@
-#  Class CADOperation
+# Class CADOperation
+<a id="VM_Managed_DAFUL_MeshFree_CADOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -11,7 +12,7 @@ public class CADOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CADOperation](VM.Managed.DAFUL.MeshFree.CADOperation.md)
 
 #### Extension Methods
@@ -66,7 +67,7 @@ The lower point.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_MeshFree_CADOperation_UpdateMeshFreeNodePropertyAndMaxFacetSize_VM_Managed_IAttributeContainer_"></a> UpdateMeshFreeNodePropertyAndMaxFacetSize\(IAttributeContainer\)
 
@@ -84,5 +85,5 @@ The container.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Class AssembledBodyAPI
+# Class AssembledBodyAPI
+<a id="VM_API_Pre_AssembledBodyAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class AssembledBodyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AssembledBodyAPI](VM.API.Pre.AssembledBodyAPI.md)
 
 #### Extension Methods
@@ -34,11 +35,11 @@ public static Obj CreateAssembledBody(this SubSystemDocument document, string pa
 
 #### Parameters
 
-`document` SubSystemDocument
+`document` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the assembled body.
 
-`partFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`partFilePath` string
 
 The file path of imported part document
 
@@ -46,7 +47,7 @@ The file path of imported part document
 
 The transformation matrix for a assembled body.
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The name of the body. If empty, default name starts with 'ABD_' will be generated and used.
 
@@ -58,11 +59,11 @@ The new <xref href="VM.Managed.DAFUL.AssembledBody" data-throw-if-not-resolved="
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'transform' or 'partFilePath' arguments are empty.
 
- [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
+ FileNotFoundException
 
 Will be thrown if 'partFilePath' does not exist.
 
@@ -76,11 +77,11 @@ public static Obj CreateAssembledBody(this SubSystemDocument doc, string partFil
 
 #### Parameters
 
-`doc` SubSystemDocument
+`doc` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The document to create the assembled body.
 
-`partFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`partFilePath` string
 
 The file path of imported part document
 

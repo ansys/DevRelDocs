@@ -1,4 +1,5 @@
-#  Class HousingAPI
+# Class HousingAPI
+<a id="VM_API_Pre_GearTrain_HousingAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class HousingAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [HousingAPI](VM.API.Pre.GearTrain.HousingAPI.md)
 
 #### Extension Methods
@@ -33,23 +34,23 @@ public static Obj CreateEFHousing(this GearTrainDocument document, string housin
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The document to create the EF housing.
 
-`housingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`housingName` string
 
 The name of the EF housing. If empty, default name starts with 'Housing_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.HousingMeshFree" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -64,23 +65,23 @@ public static Obj CreateFEHousing(this GearTrainDocument document, string housin
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> to create the FE housing.
 
-`housingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`housingName` string
 
 The name of the FE housing. If empty, default name starts with 'Housing_' will be generated and used.
 
 #### Returns
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The new <xref href="VM.Managed.DAFUL.GearTrain.HousingFE" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 
@@ -95,7 +96,7 @@ public static void UpdateBodyInFE(this HiddenDocumentFEBase document, BodyAnalys
 
 #### Parameters
 
-`document` HiddenDocumentFEBase
+`document` [HiddenDocumentFEBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentFEBase" data-throw-if-not-resolved="false"></xref> to exist nodal body.
 
@@ -105,7 +106,7 @@ The body analysis type.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'nodalBody' arguments are empty.
 
@@ -120,7 +121,7 @@ public static void UpdateBodyInMeshFree(this HiddenDocumentMeshFreeBase document
 
 #### Parameters
 
-`document` HiddenDocumentMeshFreeBase
+`document` [HiddenDocumentMeshFreeBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentMeshFreeBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshFreeBase" data-throw-if-not-resolved="false"></xref> to exist assembled body.
 
@@ -128,29 +129,29 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshFreeBase" data-thro
 
 The body analysis type.
 
-`massPropertyType` SolidBodyProperty.MassPropertyType
+`massPropertyType` [SolidBodyProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs).[MassPropertyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The mass property type. The default value is PreDefined.
 
-`mass` ExpressionValueVariable?
+`mass` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The mass when 'massPropertyType' is User. The default value is 1.
 
-`momentOfInertia` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ExpressionValueVariable\>
+`momentOfInertia` IEnumerable<[ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)\>
 
 The moment of inertia when 'massPropertyType' is User.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'assembledBody' arguments are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'massPropertyType' is User and 'mass' or 'momentOfInertia' are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if the length of 'momentOfInertia' is not 6.
 
@@ -165,13 +166,13 @@ public static void UpdateDesignerInMesh(this HiddenDocumentMeshBase document)
 
 #### Parameters
 
-`document` HiddenDocumentMeshBase
+`document` [HiddenDocumentMeshBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/HiddenDocumentFEBase.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> to update designer.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' argument is empty.
 

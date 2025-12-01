@@ -1,4 +1,5 @@
-#  Class Spring
+# Class Spring
+<a id="VM_Managed_DAFUL_Car_Force_Spring"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -11,16 +12,16 @@ public class Spring : ForceCar<PropertySpring>, IObservableObject, IDisposableOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<EntityEventCore\> ← 
 ContainerObject<EntityEventCore\> ← 
-EntityBase ← 
-Entity<PropertySpring\> ← 
-Connector<PropertySpring\> ← 
-Force<PropertySpring\> ← 
+[EntityBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
+[Entity<PropertySpring\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
+[Connector<PropertySpring\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs) ← 
+[Force<PropertySpring\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs) ← 
 [ForceCar<PropertySpring\>](VM.Managed.DAFUL.Car.Force.ForceCar\-1.md) ← 
 [Spring](VM.Managed.DAFUL.Car.Force.Spring.md)
 
@@ -31,7 +32,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 IEntity, 
@@ -75,69 +76,69 @@ ITemplateObject
 [ForceCar<PropertySpring\>.Initialize\(Unit.ConvertFactor\)](VM.Managed.DAFUL.Car.Force.ForceCar\-1.md\#VM\_Managed\_DAFUL\_Car\_Force\_ForceCar\_1\_Initialize\_VM\_Unit\_ConvertFactor\_), 
 [ForceCar<PropertySpring\>.WriteTemplateImpl\(XmlWriter\)](VM.Managed.DAFUL.Car.Force.ForceCar\-1.md\#VM\_Managed\_DAFUL\_Car\_Force\_ForceCar\_1\_WriteTemplateImpl\_System\_Xml\_XmlWriter\_), 
 [ForceCar<PropertySpring\>.ReadTemplateImpl\(XmlReader\)](VM.Managed.DAFUL.Car.Force.ForceCar\-1.md\#VM\_Managed\_DAFUL\_Car\_Force\_ForceCar\_1\_ReadTemplateImpl\_System\_Xml\_XmlReader\_), 
-Force<PropertySpring\>.Initialize\(Unit.ConvertFactor\), 
-Force<PropertySpring\>.WriteMarker\(XmlWriter, Marker, string\), 
-Force<PropertySpring\>.ReadMarker\(XmlReader, Marker, string\), 
-Force<PropertySpring\>.UseForSimulationScenario, 
-Connector<PropertySpring\>.Initialize\(Unit.ConvertFactor\), 
-Connector<PropertySpring\>.GetTargetListForUpdate\(\), 
-Connector<PropertySpring\>.PostAddToDocument\(\), 
-Connector<PropertySpring\>.ResetInvalidEntity\(\), 
-Connector<PropertySpring\>.Verify\(VerifiedResult\), 
-Connector<PropertySpring\>.LinkRequestUpdate\(object, LinkEventArgs\), 
-Connector<PropertySpring\>.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-Connector<PropertySpring\>.Draw\(Canvas\), 
-Connector<PropertySpring\>.ReDraw\(\), 
-Connector<PropertySpring\>.FindLocal\(string\), 
-Connector<PropertySpring\>.Instantiate\(Reference, Canvas\), 
-Connector<PropertySpring\>.MakeReference\(LinkedList<Reference\>\), 
-Connector<PropertySpring\>.MakeReferenceImpl\(LinkedList<Reference\>\), 
-Connector<PropertySpring\>.GetLayerImpl\(\), 
-Connector<PropertySpring\>.SetLayerImpl\(Layer\), 
-Connector<PropertySpring\>.SwitchImpl\(\), 
-Connector<PropertySpring\>.BaseMarker, 
-Connector<PropertySpring\>.ActionMarker, 
-Connector<PropertySpring\>.ConnectorReferenceMarker, 
-Connector<PropertySpring\>.PreventDuplicatedRBE, 
-Connector<PropertySpring\>.Generable, 
-Connector<PropertySpring\>.HasLayerExplicitly, 
-Connector<PropertySpring\>.Hide, 
-Connector<PropertySpring\>.Referencable, 
-Connector<PropertySpring\>.Visible, 
-Connector<PropertySpring\>.Layer, 
-Connector<PropertySpring\>.ReferenceType, 
-Connector<PropertySpring\>.ArgumentType, 
-Connector<PropertySpring\>.CanWriteToOutFileImpl, 
-Connector<PropertySpring\>.ReportTypeImpl, 
-Connector<PropertySpring\>.CanSwitchImpl, 
-Entity<PropertySpring\>.Initialize\(Unit.ConvertFactor\), 
-Entity<PropertySpring\>.GetUnnamedObjectName\(object\), 
-Entity<PropertySpring\>.FindLocal\(string\), 
-Entity<PropertySpring\>.Property, 
-EntityBase.Initialize\(Unit.ConvertFactor\), 
-EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\), 
-EntityBase.OnDeserializationForAttribute\(\), 
-EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-EntityBase.LinkRequestDestroying\(object, LinkEventArgs\), 
-EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-EntityBase.FixUp\(ObjectBase\), 
-EntityBase.FindLocal\(string\), 
-EntityBase.WriteTemplateImpl\(XmlWriter\), 
-EntityBase.ReadTemplateImpl\(XmlReader\), 
-EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\), 
-EntityBase.OnDeserialization\(object\), 
-EntityBase.Name, 
-EntityBase.FullName, 
-EntityBase.NonSymmetricName, 
-EntityBase.DisplayName, 
-EntityBase.IsEnabled, 
-EntityBase.Comment, 
-EntityBase.HasLayerExplicitly, 
-EntityBase.UntypedProperty, 
-EntityBase.IsFileProperty, 
-EntityBase.Layer, 
-EntityBase.IsVisible, 
+[Force<PropertySpring\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs), 
+[Force<PropertySpring\>.WriteMarker\(XmlWriter, Marker, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs), 
+[Force<PropertySpring\>.ReadMarker\(XmlReader, Marker, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs), 
+[Force<PropertySpring\>.UseForSimulationScenario](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs), 
+[Connector<PropertySpring\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.GetTargetListForUpdate\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.PostAddToDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.ResetInvalidEntity\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Verify\(VerifiedResult\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Draw\(Canvas\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.ReDraw\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Instantiate\(Reference, Canvas\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.MakeReference\(LinkedList<Reference\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.MakeReferenceImpl\(LinkedList<Reference\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.GetLayerImpl\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.SetLayerImpl\(Layer\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.SwitchImpl\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.BaseMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.ActionMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.ConnectorReferenceMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.PreventDuplicatedRBE](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Generable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.HasLayerExplicitly](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Hide](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Referencable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Visible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.ArgumentType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.CanWriteToOutFileImpl](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.ReportTypeImpl](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Connector<PropertySpring\>.CanSwitchImpl](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Connector.cs), 
+[Entity<PropertySpring\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertySpring\>.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertySpring\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertySpring\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserializationForAttribute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkRequestDestroying\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.HasLayerExplicitly](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsFileProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
 ContainerObject<EntityEventCore\>.Find\(string\), 
 ContainerObject<EntityEventCore\>.FindLocal\(string\), 
 ContainerObject<EntityEventCore\>.GetUnnamedObjectName\(object\), 
@@ -236,7 +237,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -275,7 +276,7 @@ public Spring(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the STR.
 
@@ -291,7 +292,7 @@ public string GeomColor { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Car_Force_Spring_InstallMethod"></a> InstallMethod
 
@@ -303,7 +304,7 @@ public ExpressionValueVariable InstallMethod { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Car_Force_Spring_InstallMethodType"></a> InstallMethodType
 
@@ -339,7 +340,7 @@ public int SpringCoilCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_Force_Spring_SpringDiameter"></a> SpringDiameter
 
@@ -351,7 +352,7 @@ public double SpringDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -365,7 +366,7 @@ public override void Draw(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas has icon information.
 
@@ -393,7 +394,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -407,7 +408,7 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

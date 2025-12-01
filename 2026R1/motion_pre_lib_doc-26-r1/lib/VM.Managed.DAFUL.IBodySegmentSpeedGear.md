@@ -1,4 +1,5 @@
-#  Interface IBodySegmentSpeedGear
+# Interface IBodySegmentSpeedGear
+<a id="VM_Managed_DAFUL_IBodySegmentSpeedGear"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

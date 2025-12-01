@@ -1,4 +1,5 @@
-#  Class ControlCreateInfo
+# Class ControlCreateInfo
+<a id="VM_Managed_ControlCreateInfo"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ControlCreateInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ControlCreateInfo](VM.Managed.ControlCreateInfo.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public string Assembly
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_ControlCreateInfo_Control"></a> Control
 
@@ -52,7 +53,7 @@ public string Control
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_ControlCreateInfo_XPath"></a> XPath
 
@@ -64,5 +65,5 @@ public string XPath
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

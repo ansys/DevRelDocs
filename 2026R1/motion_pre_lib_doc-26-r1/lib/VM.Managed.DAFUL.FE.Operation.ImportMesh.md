@@ -1,4 +1,5 @@
-#  Class ImportMesh
+# Class ImportMesh
+<a id="VM_Managed_DAFUL_FE_Operation_ImportMesh"></a>
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -11,7 +12,7 @@ public class ImportMesh : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ImportMesh](VM.Managed.DAFUL.FE.Operation.ImportMesh.md)
 
@@ -97,7 +98,7 @@ public ImportMesh(Document doc, string strMeshFile)
 
 `doc` Document
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh__ctor_VM_Managed_Document_VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_"></a> ImportMesh\(Document, MeshImportData\)
 
@@ -131,7 +132,7 @@ public static bool IsExistMeshData { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_Mesh"></a> Mesh
 
@@ -153,7 +154,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -173,7 +174,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 ### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 

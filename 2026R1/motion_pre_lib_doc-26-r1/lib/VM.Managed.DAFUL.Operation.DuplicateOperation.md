@@ -1,4 +1,5 @@
-#  Class DuplicateOperation
+# Class DuplicateOperation
+<a id="VM_Managed_DAFUL_Operation_DuplicateOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -11,7 +12,7 @@ public class DuplicateOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [DuplicateOperation](VM.Managed.DAFUL.Operation.DuplicateOperation.md)
 
@@ -87,7 +88,7 @@ public DuplicateOperation(Document3D doc, string[] arDuplicateTargetName)
 
 `doc` Document3D
 
-`arDuplicateTargetName` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arDuplicateTargetName` string\[\]
 
 ### <a id="VM_Managed_DAFUL_Operation_DuplicateOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> DuplicateOperation\(JournalParameter\)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -131,5 +132,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

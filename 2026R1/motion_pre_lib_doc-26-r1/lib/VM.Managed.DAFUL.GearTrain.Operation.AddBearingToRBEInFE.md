@@ -1,4 +1,5 @@
-#  Class AddBearingToRBEInFE
+# Class AddBearingToRBEInFE
+<a id="VM_Managed_DAFUL_GearTrain_Operation_AddBearingToRBEInFE"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,9 +12,9 @@ public class AddBearingToRBEInFE : Create, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
-Create ← 
+[Create](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs) ← 
 [AddBearingToRBEInFE](VM.Managed.DAFUL.GearTrain.Operation.AddBearingToRBEInFE.md)
 
 #### Implements
@@ -22,13 +23,13 @@ IOperation
 
 #### Inherited Members
 
-Create.m\_strInitializerXml, 
-Create.Execute\(\), 
-Create.PostExecute\(\), 
-Create.ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\), 
-Create.Name, 
-Create.IsHistoryMerge, 
-Create.UseMacro, 
+[Create.m\_strInitializerXml](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.Execute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.PostExecute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.IsHistoryMerge](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
+[Create.UseMacro](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Operations/VMOP/CreateObject.cs), 
 OperationBase.g\_bRedrawKernel, 
 OperationBase.g\_bVerify, 
 OperationBase.g\_bSkipAddEvent, 
@@ -103,7 +104,7 @@ public AddBearingToRBEInFE(string strInitializerXml)
 
 #### Parameters
 
-`strInitializerXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitializerXml` string
 
 The STR initializer XML.
 
@@ -119,29 +120,29 @@ protected override bool ExecutePickOperation(XmlDocument dom, string[] arPickRes
 
 #### Parameters
 
-`dom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`dom` XmlDocument
 
 The DOM.
 
-`arPickResult` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arPickResult` string\[\]
 
 The ar pick result.
 
-`arPickOp` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arPickOp` string\[\]
 
 The ar pick op.
 
-`start` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`start` int
 
 The start.
 
-`end` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`end` int
 
 The end.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddBearingToRBEInFE_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 

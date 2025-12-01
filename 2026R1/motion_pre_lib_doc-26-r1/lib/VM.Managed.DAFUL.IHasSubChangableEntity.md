@@ -1,4 +1,5 @@
-#  Interface IHasSubChangableEntity
+# Interface IHasSubChangableEntity
+<a id="VM_Managed_DAFUL_IHasSubChangableEntity"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -29,7 +30,7 @@ void GetSubChangableEntity(Dictionary<string, ObjectBase> dicObj)
 
 #### Parameters
 
-`dicObj` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), ObjectBase\>
+`dicObj` Dictionary<string, ObjectBase\>
 
 The object dictionary.
 

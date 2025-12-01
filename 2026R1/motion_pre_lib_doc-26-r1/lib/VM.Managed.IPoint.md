@@ -1,4 +1,5 @@
-#  Interface IPoint
+# Interface IPoint
+<a id="VM_Managed_IPoint"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -44,7 +45,7 @@ double X { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_IPoint_Y"></a> Y
 
@@ -56,7 +57,7 @@ double Y { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_IPoint_Z"></a> Z
 
@@ -68,5 +69,5 @@ double Z { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

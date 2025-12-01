@@ -1,36 +1,39 @@
-#  Class OutputReader
+# Class OutputReader
+<a id="VM_Post_API_OutputReader_OutputReader"></a>
 
 Namespace: [VM.Post.API.OutputReader](VM.Post.API.OutputReader.md)  
 Assembly: VM.Post.API.OutputReader.dll  
 
 Represents the API class for reading result files.
 
-```python
+```csharp
 public class OutputReader : IOutputReader
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OutputReader](VM.Post.API.OutputReader.OutputReader.md)
 
 #### Implements
 
-IOutputReader
+[IOutputReader](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IOutputReader.cs)
 
 ## Examples
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># OutputReader.py
+```python
+# OutputReader.py
 import clr, os, sys
 from pathlib import Path
 
+# Get the current file's path and set the path for external modules.
 current_dir = Path(__file__).resolve().parent
-
 external_modules_path = Path(current_dir, r'../../Modules').resolve()
 sys.path.append('{0}'.format(external_modules_path))
 
+# Import necessary modules
 from ResultFileReaderAPI import *
 
 # Import result file
@@ -46,7 +49,7 @@ for entity in entities:
 
 # Close
 outputReader.Close()
-</code></pre>
+```
 
 ## Remarks
 
@@ -58,13 +61,13 @@ This class provides methods to interact with and retrieve information from resul
 
 Initializes a new instance of the <xref href="VM.Post.API.OutputReader.OutputReader" data-throw-if-not-resolved="false"></xref> class, used to open the result file.
 
-```python
+```csharp
 public OutputReader(string filepath)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 The path of the result file.
 
@@ -82,13 +85,13 @@ This constructor opens the specified result file.
 
 Gets the file path to the Ansys Motion result file (.dfr).
 
-```python
+```csharp
 public string Path { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -102,13 +105,13 @@ This property stores the file path to the Ansys Motion result file (.dfr).
 
 Gets the product version.
 
-```python
+```csharp
 public string Version { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -124,7 +127,7 @@ This property stores the version of the product.
 
 Closes the result file.
 
-```python
+```csharp
 public void Close()
 ```
 
@@ -140,30 +143,34 @@ This method closes the result file.
 
 Creates a new coordinate system marker with the specified name and optional parent.
 
-```python
+```csharp
 public GeneralMarker CreateCoordinateSystem(string newName, string parentFullName = "Ground")
 ```
 
 #### Parameters
 
-`newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newName` string
 
 The name of the new coordinate system marker.
 
-`parentFullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`parentFullName` string
 
 The full name of the parent marker. Defaults to <xref href="VM.Models.Post.NameService.GroundName" data-throw-if-not-resolved="false"></xref>.
 
 #### Returns
 
- GeneralMarker
+ [GeneralMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Data/Models/VM.Models.Post/Models/Markers/GeneralMarker.cs)
 
 A <xref href="VM.Models.Post.GeneralMarker" data-throw-if-not-resolved="false"></xref> representing the newly created coordinate system marker.
 
 #### Examples
 
 The following example demonstrates how to use the <code>CreateCoordinateSystem</code> method:
-<pre><code class="lang-python">print ("===Creating Marker===")
+```python
+print ("===Creating Marker===")
+# Create a Coordinate System
+# Name - Set the name of instance.
+# ParentInfo - Specifies The path of an parent entity.
 ground_csys = outputReader.CreateCoordinateSystem("Ground_CSYS")
 print(ground_csys.FullName)
 
@@ -175,7 +182,7 @@ print(rigid_cm_csys.FullName)
 
 nodal_node_csys = outputReader.CreateCoordinateSystem("FEBody_01_CSYS", "FEBody_01/Node/754")
 print(nodal_node_csys.FullName)
-</code></pre>
+```
 
 #### Remarks
 
@@ -186,21 +193,21 @@ it defaults to the ground marker name as defined by <xref href="VM.Models.Post.N
 
 Creates a vector for a specified target entity and characteristic path.
 
-```python
+```csharp
 public IVectorDisplay CreateVector(string newName, string target, string path)
 ```
 
 #### Parameters
 
-`newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newName` string
 
 The name of the new vector.
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the name of the vector displayable entity.
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 Specifies the characteristic on the vector display.
 
@@ -213,7 +220,8 @@ Returns an instance of the created vector.
 #### Examples
 
 The following example demonstrates how to use the <code>GetVector</code> method:
-<pre><code class="lang-python">print ("===CreateVector===")
+```python
+print ("===CreateVector===")
 vector = outputReader.CreateVector("vector", "TJ_01", "Action Force")
 print(f"Name : {vector.FullName}")    
 print(f"Type : {vector.Type}")
@@ -222,7 +230,7 @@ characteristics = list(vector.Target.Characteristics)
 for characteristic in characteristics:
     print(f"Target VectorDisplayType : {characteristic.VectorDisplayType}")
     print(f"Target CharacteristicName : {characteristic.CharacteristicName}")
-</code></pre>
+```
 
 #### Remarks
 
@@ -232,17 +240,17 @@ This method creates a new vector. The method returns the instance of the newly c
 
 Exports acoustic raw data to a file.
 
-```python
+```csharp
 public void ExportAcousticRawDataToFile(string filepath, string fullName, BehaviorType behaviorType, FFTParameters parameters, uint[] nodeIDs)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 Specifies the file path to export.
 
-`fullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`fullName` string
 
 Specifies the name of the entity.
 
@@ -252,19 +260,20 @@ Specifies the type of the target for Displacement, Velocity, or Acceleration.
 The available options are:
 <ul><li><xref href="VM.Models.Post.BehaviorType.Acceleration" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BehaviorType.Displacement" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BehaviorType.Velocity" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`parameters` FFTParameters
+`parameters` [FFTParameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Data/Models/VM.Models.Post.ChartMathLib/FFT/FFTParameters.cs)
 
 Specifies the FFT parameters. For a description of the parameters, see <xref href="VM.Models.Post.ChartMathLib.FFTParameters" data-throw-if-not-resolved="false"></xref> in the API Reference.
 <ul><li><xref href="VM.Models.Post.ChartMathLib.FFTParameters.WindowType" data-throw-if-not-resolved="false"></xref> - The window type of FFT.</li><li><xref href="VM.Models.Post.ChartMathLib.FFTParameters.States" data-throw-if-not-resolved="false"></xref> - An array of state IDs from the result file.</li><li><xref href="VM.Models.Post.ChartMathLib.FFTParameters.Points" data-throw-if-not-resolved="false"></xref> - The number of data points for FFT. </li></ul>
 
-`nodeIDs` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`nodeIDs` uint\[\]
 
 Specifies the ID array of the nodes.
 
 #### Examples
 
 The following example demonstrates how to use the <code>ExportAcousticRawDataToFile</code> method:
-<pre><code class="lang-python">print("===ExportAcousticRawDataToFile===")
+```python
+print("===ExportAcousticRawDataToFile===")
 parameters = FFTParameters()
 parameters.WindowType = FFTWindowType.Rectangular
 parameters.Points = 128
@@ -279,7 +288,7 @@ outputReader.ExportAcousticRawDataToFile(accoustic_result_path, target, Behavior
 
 accoustic_without_nodeids_result_path = os.path.join(output_dir, r'AcousticWithoutNodeIDsRawDataToFile.txt')
 outputReader.ExportAcousticRawDataToFile(accoustic_without_nodeids_result_path, target, BehaviorType.Displacement, parameters)
-</code></pre>
+```
 
 #### Remarks
 
@@ -289,17 +298,17 @@ This method exports acoustic raw data to a specified file path.
 
 Exports acoustic raw data to a file.
 
-```python
+```csharp
 public void ExportAcousticRawDataToFile(string filepath, string fullName, BehaviorType behaviorType, FFTParameters parameters)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 Specifies the file path to export.
 
-`fullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`fullName` string
 
 Specifies the name of the entity.
 
@@ -309,7 +318,7 @@ Specifies the type of behavior for Displacement, Velocity, or Acceleration.
 The available options are:
 <ul><li><xref href="VM.Models.Post.BehaviorType.Acceleration" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BehaviorType.Displacement" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BehaviorType.Velocity" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`parameters` FFTParameters
+`parameters` [FFTParameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Data/Models/VM.Models.Post.ChartMathLib/FFT/FFTParameters.cs)
 
 Specifies the FFT parameters. For a description of the parameters, see <xref href="VM.Models.Post.ChartMathLib.FFTParameters" data-throw-if-not-resolved="false"></xref> in the API Reference.
 <ul><li><xref href="VM.Models.Post.ChartMathLib.FFTParameters.WindowType" data-throw-if-not-resolved="false"></xref> - The window type of FFT.</li><li><xref href="VM.Models.Post.ChartMathLib.FFTParameters.States" data-throw-if-not-resolved="false"></xref> - An array of state IDs from the result file.</li><li><xref href="VM.Models.Post.ChartMathLib.FFTParameters.Points" data-throw-if-not-resolved="false"></xref> - The number of data points for FFT. </li></ul>
@@ -317,7 +326,8 @@ Specifies the FFT parameters. For a description of the parameters, see <xref hre
 #### Examples
 
 The following example demonstrates how to use the <code>ExportAcousticRawDataToFile</code> method:
-<pre><code class="lang-python">print("===ExportAcousticRawDataToFile===")
+```python
+print("===ExportAcousticRawDataToFile===")
 parameters = FFTParameters()
 parameters.WindowType = FFTWindowType.Rectangular
 parameters.Points = 128
@@ -332,7 +342,7 @@ outputReader.ExportAcousticRawDataToFile(accoustic_result_path, target, Behavior
 
 accoustic_without_nodeids_result_path = os.path.join(output_dir, r'AcousticWithoutNodeIDsRawDataToFile.txt')
 outputReader.ExportAcousticRawDataToFile(accoustic_without_nodeids_result_path, target, BehaviorType.Displacement, parameters)
-</code></pre>
+```
 
 #### Remarks
 
@@ -342,27 +352,27 @@ This method exports acoustic raw data to a specified file path.
 
 Exports contour results to a file.
 
-```python
+```csharp
 public void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stateids, string fullName, ContourMappingType type, string path, AnalysisResultType analysisResultType = AnalysisResultType.Dynamics, FileFormatType formatType = FileFormatType.BINARY)
 ```
 
 #### Parameters
 
-`resultpath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultpath` string
 
 Specifies the file path to export.
 
-`mode` [FileMode](https://learn.microsoft.com/dotnet/api/system.io.filemode)
+`mode` FileMode
 
 Specifies how the operating system should open a file.
 The available options are:
 <ul><li><xref href="System.IO.FileMode.Append" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.CreateNew" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.Create" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.OpenOrCreate" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.Open" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.Truncate" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`stateids` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`stateids` IList<int\>
 
 Specifies the list of state IDs to time.
 
-`fullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`fullName` string
 
 Specifies the name of the entities.
 
@@ -372,7 +382,7 @@ Specifies the type of the target for displaying contour.
 The available options are:
 <ul><li><xref href="VM.Models.ContourMappingType.None" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FENode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElement" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElementNode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEMaterial" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.BeamGroup" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Contact" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.ChainedSystem" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Usersubroutine" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 This is a combination of characteristic and component.
 
@@ -391,7 +401,8 @@ The available options are:
 #### Examples
 
 The following example demonstrates how to use the <code>ExportContourResultToFile</code> method:
-<pre><code class="lang-python">print("===ExportContourResultToFile===")
+```python
+print("===ExportContourResultToFile===")
 # resultpath - Specifies the file path to export
 # mode - Specifies how the operating system should open a file.
 # stateids - Specifies the id list of the states to time.
@@ -410,7 +421,7 @@ path = "Top Stress/X"
 output_dir = get_output_directory()
 nodal_result_path = os.path.join(output_dir, r'ContourResultToFile.txt')
 outputReader.ExportContourResultToFile(nodal_result_path, FileMode.Create, stateids, target, ContourMappingType.FENode, path, analysisResultType = AnalysisResultType.Dynamics, formatType = FileFormatType.BINARY)
-</code></pre>
+```
 
 #### Remarks
 
@@ -420,27 +431,27 @@ This method exports contour results to a specified file path.
 
 Exports contour results to a file.
 
-```python
+```csharp
 public void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stateids, IList<string> fullNames, ContourMappingType type, string path, AnalysisResultType analysisResultType = AnalysisResultType.Dynamics, FileFormatType formatType = FileFormatType.BINARY)
 ```
 
 #### Parameters
 
-`resultpath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`resultpath` string
 
 Specifies the file path to export.
 
-`mode` [FileMode](https://learn.microsoft.com/dotnet/api/system.io.filemode)
+`mode` FileMode
 
 Specifies how the operating system should open a file.
 The available options are:
 <ul><li><xref href="System.IO.FileMode.Append" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.CreateNew" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.Create" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.OpenOrCreate" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.Open" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.IO.FileMode.Truncate" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`stateids` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`stateids` IList<int\>
 
 Specifies the list of state IDs to time.
 
-`fullNames` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`fullNames` IList<string\>
 
 Specifies the names of the entities.
 
@@ -450,7 +461,7 @@ Specifies the type of the target for displaying contour.
 The available options are:
 <ul><li><xref href="VM.Models.ContourMappingType.None" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FENode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElement" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElementNode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEMaterial" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.BeamGroup" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Contact" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.ChainedSystem" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Usersubroutine" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 This is a combination of characteristic and component.
 
@@ -469,7 +480,8 @@ The available options are:
 #### Examples
 
 The following example demonstrates how to use the <code>ExportContourResultToFile</code> method:
-<pre><code class="lang-python">print("===ExportContourResultToFile===")
+```python
+print("===ExportContourResultToFile===")
 # resultpath - Specifies the file path to export
 # mode - Specifies how the operating system should open a file.
 # stateids - Specifies the id list of the states to time.
@@ -488,7 +500,7 @@ path = "Top Stress/X"
 output_dir = get_output_directory()
 nodal_result_path = os.path.join(output_dir, r'ContourResultToFile.txt')
 outputReader.ExportContourResultToFile(nodal_result_path, FileMode.Create, stateids, target, ContourMappingType.FENode, path, analysisResultType = AnalysisResultType.Dynamics, formatType = FileFormatType.BINARY)
-</code></pre>
+```
 
 #### Remarks
 
@@ -498,17 +510,17 @@ This method exports contour results to a specified file path.
 
 Exports marker results to a file.
 
-```python
+```csharp
 public void ExportMarkerToFile(string filePath, int[] stateids, IResultMarker[] markers)
 ```
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 Specifies the file path to export.
 
-`stateids` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`stateids` int\[\]
 
 Specifies the list of state IDs to time.
 
@@ -519,12 +531,13 @@ Specifies the list of the marker entities.
 #### Examples
 
 The following example demonstrates how to use the <code>ExportMarkerToFile</code> method:
-<pre><code class="lang-python">print("===ExportMarkerToFile===")
+```python
+print("===ExportMarkerToFile===")
 # markers = List[IResultMarker](1)
 # markers.Add(ground_csys)
 
 # outputReader.ExportMarkerToFile(r'D:\MarkerToFile.txt', stateids, markers)
-</code></pre>
+```
 
 #### Remarks
 
@@ -534,38 +547,39 @@ This method exports marker results to a specified file path.
 
 Exports raw data about the FE modal body to a file.
 
-```python
+```csharp
 public void ExportModalBodyRawDataToFile(string filePath, string target, bool includeGeometry, bool includeModeShape)
 ```
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 Specifies the file path to export.
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the name of the entity.
 
-`includeGeometry` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeGeometry` bool
 
 Specifies whether to include geometry data.
 
-`includeModeShape` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeModeShape` bool
 
 Specifies whether to include mode shape data.
 
 #### Examples
 
 The following example demonstrates how to use the <code>ExportModalBodyRawDataToFile</code> method:
-<pre><code class="lang-python">print("===ExportModalBodyRawDataToFile===")
+```python
+print("===ExportModalBodyRawDataToFile===")
 # State ID Array
 stateids = outputReader.GetStateIDArray()
 
 modal_result_path = os.path.join(output_dir, r'ModalBodyRawDataToFile.txt')
 outputReader.ExportModalBodyRawDataToFile(modal_result_path, "FEBody_01", True, True)
-</code></pre>
+```
 
 #### Remarks
 
@@ -575,33 +589,33 @@ This method exports raw data about the FE modal body to a specified file path, i
 
 Exports vector results to a file.
 
-```python
+```csharp
 public void ExportVectorDisplayToFile(string filepath, int[] stateids, IEnumerable<object> targets, bool isIncludePosition, bool includeVector, bool includeMagnitude, AnalysisResultType analysisResultType)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 Specifies the file path to export.
 
-`stateids` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`stateids` int\[\]
 
 Specifies the list of state IDs to time.
 
-`targets` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`targets` IEnumerable<object\>
 
 Specifies the list of the entities.
 
-`isIncludePosition` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isIncludePosition` bool
 
 Specifies whether to include position data.
 
-`includeVector` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeVector` bool
 
 Specifies whether to include vector data.
 
-`includeMagnitude` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeMagnitude` bool
 
 Specifies whether to include magnitude data.
 
@@ -612,7 +626,8 @@ Specifies the type of analysis result.
 #### Examples
 
 The following example demonstrates how to use the <code>ExportVectorDisplayToFile</code> method:
-<pre><code class="lang-python">print("===ExportVectorDisplayToFile===")
+```python
+print("===ExportVectorDisplayToFile===")
 targets = List[IVectorDisplay]()
 
 # target - Specifies the name of vector displayable entity
@@ -625,7 +640,7 @@ outputReader.ExportVectorDisplayToFile(vector_result_path, stateids, targets, Tr
 
 vectors_result_path = os.path.join(output_dir, r'VectorsDisplayToFile.txt')
 outputReader.ExportVectorDisplayToFile(vectors_result_path, stateids, target, "Base Force", True, True, True, AnalysisResultType.Dynamics)
-</code></pre>
+```
 
 #### Remarks
 
@@ -635,37 +650,37 @@ This method exports vector results to a specified file path.
 
 Exports vector results to a file.
 
-```python
+```csharp
 public void ExportVectorDisplayToFile(string filepath, int[] stateids, string target, string characteristic, bool isIncludePosition, bool includeVector, bool includeMagnitude, AnalysisResultType analysisResultType)
 ```
 
 #### Parameters
 
-`filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filepath` string
 
 Specifies the file path to export.
 
-`stateids` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`stateids` int\[\]
 
 Specifies the list of state IDs to time.
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the list of the entities.
 
-`characteristic` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`characteristic` string
 
 The name of the characteristic.
 
-`isIncludePosition` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isIncludePosition` bool
 
 Specifies whether to include position data.
 
-`includeVector` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeVector` bool
 
 Specifies whether to include vector data.
 
-`includeMagnitude` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeMagnitude` bool
 
 Specifies whether to include magnitude data.
 
@@ -676,7 +691,8 @@ Specifies the type of analysis result.
 #### Examples
 
 The following example demonstrates how to use the <code>ExportVectorDisplayToFile</code> method:
-<pre><code class="lang-python">print("===ExportVectorDisplayToFile===")
+```python
+print("===ExportVectorDisplayToFile===")
 targets = List[IVectorDisplay]()
 
 # target - Specifies the name of vector displayable entity
@@ -689,7 +705,7 @@ outputReader.ExportVectorDisplayToFile(vector_result_path, stateids, targets, Tr
 
 vectors_result_path = os.path.join(output_dir, r'VectorsDisplayToFile.txt')
 outputReader.ExportVectorDisplayToFile(vectors_result_path, stateids, target, "Base Force", True, True, True, AnalysisResultType.Dynamics)
-</code></pre>
+```
 
 #### Remarks
 
@@ -699,35 +715,36 @@ This method exports vector results to a specified file path.
 
 Retrieves an array of state IDs representing sequential states.
 
-```python
+```csharp
 public AssemblyInfo[] GetAssemblyInfo(AssemblyType assemblyType = AssemblyType.All)
 ```
 
 #### Parameters
 
-`assemblyType` AssemblyType
+`assemblyType` [AssemblyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Common/VM.Enums.Post/Enums/AssemblyType.cs)
 
 The available options are:
 <ul><li><xref href="VM.Enums.Post.AssemblyType.All" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Enums.Post.AssemblyType.ASSEMBLY_PART" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Enums.Post.AssemblyType.ASSEMBLY_SUBSYSTEM" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Enums.Post.AssemblyType.Mechanical_Rigid_Part" data-throw-if-not-resolved="false"></xref></li></ul>
 
 #### Returns
 
- AssemblyInfo\[\]
+ [AssemblyInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Data/Models/VM.Models.Post.EntityTypes/Assembly/AssemblyInfo.cs)\[\]
 
 #### Examples
 
 The following example demonstrates how to use the <code>CreateCoordinateSystem</code> method:
-<pre><code class="lang-python">print ("===Assembly Info===")
+```python
+print ("===Assembly Info===")
 assemblyInfo = outputReader.GetAssemblyInfo()
 for assembly in assemblyInfo:
     print(assembly.FullName)
-</code></pre>
+```
 
 ### <a id="VM_Post_API_OutputReader_OutputReader_GetBodies_VM_Models_Post_BodyType_System_Boolean_"></a> GetBodies\(BodyType, bool\)
 
 Retrieves the types and names of bodies based on the specified type and optional inclusion of dummy bodies.
 
-```python
+```csharp
 public IEnumerable<(BodyType, string)> GetBodies(BodyType type, bool includeDuymmy = false)
 ```
 
@@ -739,25 +756,26 @@ Specifies the type of bodies to retrieve.
 The available options are:
 <ul><li><xref href="VM.Models.Post.BodyType.RIGID" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BodyType.NODAL" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BodyType.MODAL" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BodyType.GROUND" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BodyType.EF_NODAL" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.BodyType.EF_MODAL" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`includeDuymmy` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeDuymmy` bool
 
 Specifies whether to include dummy bodies in the result.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<\(BodyType, [string](https://learn.microsoft.com/dotnet/api/system.string)\)\>
+ IEnumerable<\(BodyType, string\)\>
 
 An enumerable collection of tuples where each tuple contains a BodyType and its corresponding name.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetBodies</code> method:
-<pre><code class="lang-python">print ("===Get Bodies===")
+```python
+print ("===Get Bodies===")
 bodies = outputReader.GetBodies(BodyType.RIGID)
 bodiesList = list(bodies)
 for body in bodiesList:
     print(f"Body Type : {body.Item1}, Body Name : {body.Item2}")
-</code></pre>
+```
 
 #### Remarks
 
@@ -768,31 +786,32 @@ The returned collection contains tuples where each tuple represents a body type 
 
 Gets the count of nodes for the specified bodies.
 
-```python
+```csharp
 public long GetBodiesNodeCount(IList<string> bodyNames)
 ```
 
 #### Parameters
 
-`bodyNames` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`bodyNames` IList<string\>
 
 Specifies the list of names of the entities.
 
 #### Returns
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 The count of nodes for the specified bodies.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetBodiesNodeCount</code> method:
-<pre><code class="lang-python">print("===Bodies Node Count===")
+```python
+print("===Bodies Node Count===")
 entities = List[str]()
 entities.Add(r'FEBody_01')
 nodecount = outputReader.GetBodiesNodeCount(entities)
 print(nodecount)
-</code></pre>
+```
 
 #### Remarks
 
@@ -802,30 +821,31 @@ This method retrieves the count of nodes for the specified bodies.
 
 Retrieves information about connectors associated with the specified body.
 
-```python
+```csharp
 public IList<(ConnectorType, ActionType, string)> GetConnectors(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of the body to retrieve connector information for.
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<\(ConnectorType, ActionType, [string](https://learn.microsoft.com/dotnet/api/system.string)\)\>
+ IList<\(ConnectorType, ActionType, string\)\>
 
 A list of tuples containing the connector type, action type, and names of connectors such as joint, force, and contact.
 The available connector type are:
-<ul><li><xref href="VM.Models.Post.ConnectorType.Ball" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.BC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.ConstantVelocity" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.CVCV" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Cylindrical" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Distance" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Fixed" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Inline" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Inplane" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Orientation" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Parallel" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Perpendicular" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Plane" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.PTCV" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.PTS" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Revolute" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Screw" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Translational" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Universal" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.CYTMC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTF2D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTF3D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTR2D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTR3D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.GENERAL" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.MCTMC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.NTSF" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RTR2D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RTR3D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.SPTMC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.TIE" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Beam" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Bush" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.ExternalForce" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FECload" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FEPload" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Matrix" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RScalar" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RSpringDamper" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Tire" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.TScalar" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.TSpringDamper" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Vector" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFBC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFCLoad" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFPLoad" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFRBE" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFTie" data-throw-if-not-resolved="false"></xref></li></ul>
+<ul><li><xref href="VM.Models.Post.ConnectorType.Ball" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.BC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.ConstantVelocity" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.CVCV" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Cylindrical" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Distance" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Fixed" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Inline" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Inplane" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Orientation" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Parallel" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Perpendicular" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Plane" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.PTCV" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.PTS" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Revolute" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Screw" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Translational" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Universal" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.SixDOF" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.CYTMC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTF2D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTF3D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTR2D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FTR3D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.GENERAL" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.MCTMC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.NTSF" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RTR2D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RTR3D" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.SPTMC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.TIE" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Beam" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Bush" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.ExternalForce" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FECload" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.FEPload" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Matrix" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RScalar" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.RSpringDamper" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Tire" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.TScalar" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.TSpringDamper" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.Vector" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFBC" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFCLoad" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFPLoad" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFRBE" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ConnectorType.EFTie" data-throw-if-not-resolved="false"></xref></li></ul>
 The available action type are:
 <ul><li><xref href="VM.Models.Post.ActionType.Base" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ActionType.Action" data-throw-if-not-resolved="false"></xref></li></ul>
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetConnectors</code> method:
-<pre><code class="lang-python">print ("===GetConnectors===")
+```python
+print ("===GetConnectors===")
 connectors = outputReader.GetConnectors("Crank")
 connectorlist = list(connectors)
 
@@ -833,7 +853,7 @@ for connector in connectorlist:
     print (f"ConnectorType : {connector.Item1}")
     print (f"Action Type : {connector.Item2}")
     print (f"Name : {connector.Item3}")
-</code></pre>
+```
 
 #### Remarks
 
@@ -845,17 +865,17 @@ action type, and names of connectors such as joint, force, and contact.
 
 Exports contour results to a file.
 
-```python
+```csharp
 public void GetContourResult(IList<int> stateids, string fullName, ContourMappingType type, string path, Action<int, IList<double[]>> fncallback, AnalysisResultType analysisType = AnalysisResultType.Dynamics)
 ```
 
 #### Parameters
 
-`stateids` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`stateids` IList<int\>
 
 Specifies the list of state IDs to time.
 
-`fullName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`fullName` string
 
 Specifies the name of an entity.
 
@@ -865,11 +885,11 @@ Specifies the type of a target for displaying contour.
 The available options are:
 <ul><li><xref href="VM.Models.ContourMappingType.None" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FENode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElement" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElementNode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEMaterial" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.BeamGroup" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Contact" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.ChainedSystem" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Usersubroutine" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 Specifies the path of the result file to save.
 
-`fncallback` [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>\>
+`fncallback` Action<int, IList<double\[\]\>\>
 
 Specifies the callback function for getting contour results by report step.
 
@@ -882,7 +902,8 @@ The available options are:
 #### Examples
 
 The following example demonstrates how to use the <code>GetContourResult</code> method:
-<pre><code class="lang-python">#print ("===GetContourResult===")
+```python
+#print ("===GetContourResult===")
 ## resultpath - Specifies the file path to export
 ## mode - Specifies how the operating system should open a file.
 ## stateids - Specifies the id list of the states to time.
@@ -908,7 +929,7 @@ def python_action(stateid, resultGroup):
 action = Action[Int32, IList[Array[Double]]](python_action)
 outputReader.GetContourResult(stateids, target, ContourMappingType.FENode, path, action, AnalysisResultType.Dynamics)
 
-</code></pre>
+```
 
 #### Remarks
 
@@ -918,17 +939,17 @@ This method exports contour results to a specified file path.
 
 Exports contour results to a file.
 
-```python
+```csharp
 public void GetContourResult(IList<int> stateids, IList<string> fullNames, ContourMappingType type, string path, Action<int, IList<double[]>> fncallback, AnalysisResultType analysisType = AnalysisResultType.Dynamics)
 ```
 
 #### Parameters
 
-`stateids` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`stateids` IList<int\>
 
 Specifies the list of state IDs to time.
 
-`fullNames` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`fullNames` IList<string\>
 
 Specifies the names of entities.
 
@@ -938,11 +959,11 @@ Specifies the type of a target for displaying contour.
 The available options are:
 <ul><li><xref href="VM.Models.ContourMappingType.None" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FENode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElement" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEElementNode" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.FEMaterial" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.BeamGroup" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Contact" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.ChainedSystem" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.ContourMappingType.Usersubroutine" data-throw-if-not-resolved="false"></xref></li></ul>
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 Specifies the path of the result file to save.
 
-`fncallback` [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>\>
+`fncallback` Action<int, IList<double\[\]\>\>
 
 Specifies the callback function for getting contour results by report step.
 
@@ -955,7 +976,8 @@ The available options are:
 #### Examples
 
 The following example demonstrates how to use the <code>GetContourResult</code> method:
-<pre><code class="lang-python">#print ("===GetContourResult===")
+```python
+#print ("===GetContourResult===")
 ## resultpath - Specifies the file path to export
 ## mode - Specifies how the operating system should open a file.
 ## stateids - Specifies the id list of the states to time.
@@ -981,7 +1003,7 @@ def python_action(stateid, resultGroup):
 action = Action[Int32, IList[Array[Double]]](python_action)
 outputReader.GetContourResult(stateids, target, ContourMappingType.FENode, path, action, AnalysisResultType.Dynamics)
 
-</code></pre>
+```
 
 #### Remarks
 
@@ -991,13 +1013,13 @@ This method exports contour results to a specified file path.
 
 Retrieves plot data based on the specified plot parameters.
 
-```python
-public IDictionary<string, Point2D[]> GetCurves(PlotParameters parameters)
+```csharp
+public IDictionary<string, Point2D[]> GetCurves(PlotParameters parameter)
 ```
 
 #### Parameters
 
-`parameters` PlotParameters
+`parameter` [PlotParameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Models/PlotParameters.cs)
 
 For a description of parameter, see PlotParameters in the API Reference.
 The parameters used for plotting the curves, including target entity, data paths, coordinate system, and plot data type.
@@ -1005,7 +1027,7 @@ The parameters used for plotting the curves, including target entity, data paths
 
 #### Returns
 
- [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), Point2D\[\]\>
+ IDictionary<string, [Point2D](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Extensions/Models/Point2D.cs)\[\]\>
 
 A dictionary containing plot data where each key represents the name or identifier of the curve,
 and each value is an array of <xref href="VM.Point2D" data-throw-if-not-resolved="false"></xref> representing the plot points (x, y).
@@ -1014,12 +1036,18 @@ The name of plot, List of X and Y data point of plot
 #### Examples
 
 The following example demonstrates how to use the <code>GetCurves</code> method:
-<pre><code class="lang-python">print ("===Plot Info===")
+```python
+print ("===Plot Info===")
 curvepaths = List[str]()
 
 curve_paths = List[str]()
 curve_paths.Add(r'Displacement/Magnitude')
-			
+
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curve_paths
 parameters.Target = "Crank"
@@ -1030,7 +1058,7 @@ for curve in curves:
     print(curve.Key)
     for point in curve.Value:
         print(f"X : {point.X}, Y : {point.Y}")
-</code></pre>
+```
 
 #### Remarks
 
@@ -1041,7 +1069,7 @@ It generates x and y coordinates for each curve specified in the parameters.
 
 Retrieves all entities of the specified type.
 
-```python
+```csharp
 public IEnumerable<EntityBase> GetEntities(EntityType entityType)
 ```
 
@@ -1053,7 +1081,7 @@ The type of the entities to be retrieved.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<EntityBase\>
+ IEnumerable<[EntityBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Data/Models/VM.Models.Post/Models/EntityBase.Series.cs)\>
 
 An <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> containing all entities of the specified type.
 
@@ -1071,30 +1099,31 @@ The available options are:
 
 Gets the reference frame of a flexible body.
 
-```python
-public IList<double[]> GetFlexibleBodyReferenceFrame(string target, bool reCalculateOrientation = false)
+```csharp
+public IList<double[]> GetFlexibleBodyReferenceFrame(string target, bool recalculateOrientation = false)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 The name of the flexible body.
 
-`reCalculateOrientation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`recalculateOrientation` bool
 
 Get the orientation from element reference frame instead of FE body reference frame
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+ IList<double\[\]\>
 
 Postion and orientation array with the number of states.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetFlexibleBodyReferenceFrame</code> method:
-<pre><code class="lang-python">print("===GetFlexibleBodyReferenceFrame===")
+```python
+print("===GetFlexibleBodyReferenceFrame===")
 
 # State ID Array
 stateids = outputReader.GetStateIDArray()
@@ -1116,7 +1145,7 @@ for i in range(len(referenceframes)):
     print(referenceframes[i][9])
     print(referenceframes[i][10])
     print(referenceframes[i][11])
-</code></pre>
+```
 
 #### Remarks
 
@@ -1126,13 +1155,13 @@ This method retrieves the reference frame of the specified flexible body.
 
 Retrieves information about all instances of frequencies.
 
-```python
+```csharp
 public IList<(string path, double time, double[] frequencies)> GetFrequenciesInfoArray()
 ```
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string) [path](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.double,system.double\[\]\-.path), [double](https://learn.microsoft.com/dotnet/api/system.double) [time](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.double,system.double\[\]\-.time), [double](https://learn.microsoft.com/dotnet/api/system.double)\[\] [frequencies](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.double,system.double\[\]\-.frequencies)\)\>
+ IList<\(string path, double time, double\[\] frequencies\)\>
 
 A list containing tuples where each tuple contains:
 - <xref href="System.String" data-throw-if-not-resolved="false"></xref> path: The file path of the frequency instance.
@@ -1142,7 +1171,8 @@ A list containing tuples where each tuple contains:
 #### Examples
 
 The following example demonstrates how to use the <code>GetFrequenciesInfoArray</code> method:
-<pre><code class="lang-python">print ("===GetFrequenciesInfoArray===")
+```python
+print ("===GetFrequenciesInfoArray===")
 frequencies = outputReader.GetFrequenciesInfoArray()
 frequencyInfoArray = list(frequencies)
 for frequency in frequencyInfoArray:
@@ -1150,7 +1180,7 @@ for frequency in frequencyInfoArray:
     print(f"Sampling Time : {frequency.Item2}")
     indexes = list(frequency.Item3)
     print("Sampling Index :", *indexes, sep=',')
-</code></pre>
+```
 
 #### Remarks
 
@@ -1161,13 +1191,13 @@ including their file paths, available sampling times, and corresponding frequenc
 
 Gets the geometry information for a specified entity.
 
-```python
+```csharp
 public IDataPart GetGeometryInfo(string target)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the name of the entity.
 
@@ -1180,14 +1210,15 @@ An instance of <xref href="VM.Models.Post.IDataPart" data-throw-if-not-resolved=
 #### Examples
 
 The following example demonstrates how to use the <code>GetGeometryInfo</code> method:
-<pre><code class="lang-python">print("===Geometry Info===")
+```python
+print("===Geometry Info===")
 nodal = outputReader.GetGeometryInfo("FEBody_01")
 print(nodal.DummyNodes)
 print(nodal.ElementCount)
 print(nodal.ElementsNodeCount)
 print(nodal.NodesCount)
 print(nodal.PartIndex)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1197,25 +1228,26 @@ This method retrieves the geometry information for the specified entity.
 
 Gets an array of geometry information.
 
-```python
+```csharp
 public IEnumerable<BodyBase> GetGeometryInfoArray()
 ```
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<BodyBase\>
+ IEnumerable<[BodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Data/Models/VM.Models.Post/Models/Bodies/BodyBase.cs)\>
 
 An <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> containing the geometry information.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetGeometryInfoArray</code> method:
-<pre><code class="lang-python">print("===GeometryArray===")
+```python
+print("===GeometryArray===")
 geometries = outputReader.GetGeometryInfoArray()
 geometry_list = list(geometries)
 for geometry in geometry_list:
     print(geometry.FullName)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1225,30 +1257,31 @@ This method retrieves an array of geometry information for all entities.
 
 Gets the nodes of a specified geometry.
 
-```python
+```csharp
 public double[] GetGeometryNodes(string target)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the path of the entity.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+ double\[\]
 
 An array of doubles representing the nodes of the geometry.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetGeometryNodes</code> method:
-<pre><code class="lang-python">print("===Geometry Nodes===")
+```python
+print("===Geometry Nodes===")
 geometries = outputReader.GetGeometryNodes("FEBody_01")
 for geometry_value in geometries:
     print(geometry_value)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1258,33 +1291,34 @@ This method retrieves the nodes of the specified geometry entity.
 
 Gets the marker information including position, orientation, velocity, angular velocity, acceleration, and angular acceleration.
 
-```python
+```csharp
 public IList<double[]> GetMarkerInfo(string name)
 ```
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 Specifies the name of the marker.
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+ IList<double\[\]\>
 
 A list of double arrays representing the marker values from the start state to the end state, stored sequentially.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetMarkerInfo</code> method:
-<pre><code class="lang-python">print ("===Marker Info===")
+```python
+print ("===Marker Info===")
 marker_name = r'Crank/CM'
 marker = outputReader.GetMarkerInfo(marker_name)
 
 for marker_values in marker:
     for marker_value in marker_values:
         print(marker_value)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1294,26 +1328,27 @@ This method retrieves detailed information about the specified marker, including
 
 Gets the marker positions for the specified list of marker names.
 
-```python
+```csharp
 public IDictionary<string, IList<double[]>> GetMarkerPosition(IList<string> names)
 ```
 
 #### Parameters
 
-`names` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`names` IList<string\>
 
 Specifies the list of marker names to retrieve positions for.
 
 #### Returns
 
- [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>\>
+ IDictionary<string, IList<double\[\]\>\>
 
 A dictionary where each key is a marker name and the value is a list of double arrays representing marker positions from the start state to the end state, stored sequentially.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetMarkerPosition</code> method:
-<pre><code class="lang-python">print ("===Marker Position===")
+```python
+print ("===Marker Position===")
 
 entities = List[str]()
 entities.Add(marker_name)
@@ -1323,7 +1358,7 @@ marker_position = markers[marker_name]
 for marker_values in marker_position:
     for marker_value in marker_values:
         print(marker_value)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1333,29 +1368,30 @@ This method retrieves the positions of markers identified by the provided list o
 
 Retrieves the count of modes for the finite element modal body specified by its name.
 
-```python
+```csharp
 public int GetModalModeCount(string target)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 The name of the entity representing the finite element modal body.
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 The number of modes available for the specified finite element modal body.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetModalModeCount</code> method:
-<pre><code class="lang-python">print ("===Get Modal Mode Count===")
+```python
+print ("===Get Modal Mode Count===")
 modecount = outputReader.GetModalModeCount("FEBody_01")
 print (modecount)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1366,24 +1402,25 @@ identified by its name passed as the <code class="paramref">target</code> parame
 
 Gets the named selection information.
 
-```python
+```csharp
 public NamedSelection[] GetNamedSelections()
 ```
 
 #### Returns
 
- NamedSelection\[\]
+ [NamedSelection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Post/Data/Models/VM.Models.Post/Models/SubEntities/NamedSelection.cs)\[\]
 
 An array of <xref href="VM.Models.Post.EntityTypes.NamedSelection" data-throw-if-not-resolved="false"></xref> instances representing the named selections.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetNamedSelections</code> method:
-<pre><code class="lang-python">print("===Named Selections===")
+```python
+print("===Named Selections===")
 namedselections = outputReader.GetNamedSelections()
 for namedselection in namedselections:
     print(namedselection.FullName)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1393,30 +1430,31 @@ This method retrieves the named selection information for the entities.
 
 Gets the geometry connectivity of an outer face.
 
-```python
+```csharp
 public uint[] GetOuterface(string target)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the name of the entity.
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 An array of unsigned integers representing the geometry connectivity of the outer face.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetOuterface</code> method:
-<pre><code class="lang-python">print("===Outerface===")
+```python
+print("===Outerface===")
 outerface = outputReader.GetOuterface("FEBody_01")
 for outerface_value in outerface:
     print(outerface_value)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1427,36 +1465,37 @@ The connectivity is structured in a triangular patch form, allowing for efficien
 
 Gets the count of nodes for the specified bodies before a certain entity.
 
-```python
+```csharp
 public long GetPreviousBodiesNodeCount(IList<string> bodyNames, string target)
 ```
 
 #### Parameters
 
-`bodyNames` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`bodyNames` IList<string\>
 
 Specifies the list of names of the bodies.
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the name of the entity.
 
 #### Returns
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 The count of nodes for the previous bodies.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetPreviousBodiesNodeCount</code> method:
-<pre><code class="lang-python">print("===Previous Bodies NodeCount===")
+```python
+print("===Previous Bodies NodeCount===")
 targets = List[str]()
 targets.Add("FEBody_01")
 nodeCount = outputReader.GetPreviousBodiesNodeCount(targets, "FEBody_01")
 
 print(nodeCount)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1466,7 +1505,7 @@ This method retrieves the count of nodes for the specified bodies that are proce
 
 Retrieves the type of the primary analysis result.
 
-```python
+```csharp
 public AnalysisResultType GetPrimaryAnalysisResultType()
 ```
 
@@ -1482,10 +1521,11 @@ The available analysis are:
 #### Examples
 
 The following example demonstrates how to use the <code>GetPrimaryAnalysisResultType</code> method:
-<pre><code class="lang-python">print ("===GetPrimaryAnalysisResultType===")
+```python
+print ("===GetPrimaryAnalysisResultType===")
 analysistype = outputReader.GetPrimaryAnalysisResultType()
 print (analysistype)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1496,24 +1536,25 @@ If the primary analysis result is not set or available, it returns <xref href="V
 
 Retrieves an array of reference times from the result report.
 
-```python
+```csharp
 public IList<double> GetReferenceTimeArray()
 ```
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ IList<double\>
 
 A list of doubles representing time values from the start state to the end state sequentially.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetReferenceTimeArray</code> method:
-<pre><code class="lang-python">print ("===Reference TimeArray===")
+```python
+print ("===Reference TimeArray===")
 referenceTimeArray = outputReader.GetReferenceTimeArray()
 for referenceTime in referenceTimeArray:
     print(referenceTime)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1524,24 +1565,25 @@ are stored in a list in sequential order.
 
 Get id array of state
 
-```python
+```csharp
 public IList<int> GetStateIDArray()
 ```
 
 #### Returns
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ IList<int\>
 
 A list of integers representing state IDs from the start state to the end state sequentially.
 
 #### Examples
 
 The following example demonstrates how to use the <code>GetStateIDArray</code> method:
-<pre><code class="lang-python">print ("===Get StateIDArray===")
+```python
+print ("===Get StateIDArray===")
 stateIDs = outputReader.GetStateIDArray()
 for ids in stateIDs:
     print(ids)
-</code></pre>
+```
 
 #### Remarks
 
@@ -1552,13 +1594,13 @@ stored in a list in sequential order.
 
 Retrieves units of results including type, unit, and factor.
 
-```python
+```csharp
 public Dictionary<string, KeyValuePair<string, double>> GetUnits()
 ```
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
+ Dictionary<string, KeyValuePair<string, double\>\>
 
 A dictionary where:
 - The key is the type of the result.
@@ -1569,12 +1611,13 @@ A dictionary where:
 #### Examples
 
 The following example demonstrates how to use the <code>GetUnits</code> method:
-<pre><code class="lang-python">print ("===GetUnits===")
+```python
+print ("===GetUnits===")
 units = outputReader.GetUnits()
 for unit in units:
     print(f"Unit Symbol : {unit.Key}")    
     print(f"Unit : {unit.Value.Key}, Value : {unit.Value.Value}")
-</code></pre>
+```
 
 #### Remarks
 
@@ -1586,19 +1629,19 @@ and each value is a key-value pair consisting of the unit and its corresponding 
 
 Retrieves unit information from a dfmf file for a specified target.
 
-```python
+```csharp
 public Dictionary<string, KeyValuePair<string, double>> GetUnitsFromModeShapeFile(string target)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the target entity for which unit information is retrieved.
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
+ Dictionary<string, KeyValuePair<string, double\>\>
 
 A dictionary where:
 - Key: Dimension of the result (e.g., length, time).
@@ -1609,12 +1652,13 @@ A dictionary where:
 #### Examples
 
 The following example demonstrates how to use the <code>GetUnitsFromModeShapeFile</code> method:
-<pre><code class="lang-python">print ("===GetUnitsFromModeShapeFile===")
+```python
+print ("===GetUnitsFromModeShapeFile===")
 units = outputReader.GetUnitsFromModeShapeFile("FEBody_01")
 for unit in units:
     print(f"Unit Symbol : {unit.Key}")    
     print(f"Unit : {unit.Value.Key}, Value : {unit.Value.Value}")
-</code></pre>
+```
 
 #### Remarks
 
@@ -1626,23 +1670,23 @@ and each value is a key-value pair consisting of the unit string and its corresp
 
 Retrieves vector results for a specified target entity and characteristic path.
 
-```python
+```csharp
 public IDictionary<string, IVectorDisplayAnimationData> GetVector(string target, string path)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the name of the vector displayable entity.
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 Specifies the characteristic on the vector display.
 
 #### Returns
 
- [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), IVectorDisplayAnimationData\>
+ IDictionary<string, [IVectorDisplayAnimationData](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IVectorDisplayAnimationData.cs)\>
 
 A dictionary where:
 - Key: String identifier associated with the vector data.
@@ -1651,7 +1695,8 @@ A dictionary where:
 #### Examples
 
 The following example demonstrates how to use the <code>GetVector</code> method:
-<pre><code class="lang-python">print ("===GetVector===")
+```python
+print ("===GetVector===")
 vectors = outputReader.GetVector("TJ_01", "Action Force")
 for vector in vectors:
     print(f"Vector : {vector.Key}")
@@ -1670,7 +1715,7 @@ for vector in vectors:
         for j in range(first_vectors):
             second_vectors = list(animation_data.Vectors[i][j])
             print("Vectors :", *second_vectors, sep=',')
-</code></pre>
+```
 
 #### Remarks
 
@@ -1683,17 +1728,17 @@ containing animation data specific to the vector display.
 
 Retrieves vector results for a specified target entity, characteristic path, and analysis result type.
 
-```python
+```csharp
 public IDictionary<string, IVectorDisplayAnimationData> GetVector(string target, string path, AnalysisResultType analysisResultType = AnalysisResultType.Dynamics)
 ```
 
 #### Parameters
 
-`target` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`target` string
 
 Specifies the name of the vector displayable entity.
 
-`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`path` string
 
 Specifies the characteristic on the vector display.
 
@@ -1705,7 +1750,7 @@ The available options are:
 
 #### Returns
 
- [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), IVectorDisplayAnimationData\>
+ IDictionary<string, [IVectorDisplayAnimationData](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.OutputReader/Interfaces/IVectorDisplayAnimationData.cs)\>
 
 A dictionary where:
 - Key: String identifier associated with the vector data.
@@ -1714,7 +1759,8 @@ A dictionary where:
 #### Examples
 
 The following example demonstrates how to use the <code>GetVector</code> method:
-<pre><code class="lang-python">print ("===GetVector===")
+```python
+print ("===GetVector===")
 vectors = outputReader.GetVector("TJ_01", "Action Force")
 for vector in vectors:
     print(f"Vector : {vector.Key}")
@@ -1733,7 +1779,7 @@ for vector in vectors:
         for j in range(first_vectors):
             second_vectors = list(animation_data.Vectors[i][j])
             print("Vectors :", *second_vectors, sep=',')
-</code></pre>
+```
 
 #### Remarks
 
@@ -1746,39 +1792,39 @@ containing animation data specific to the vector display.
 
 Interpolates data series using the Akima spline method.
 
-```python
+```csharp
 public (InterpolationErrorType, double[], double[]) InterpolationAkimaSpline(double[] X, double[] Y, int NoOfPnt, int NoOfDesiredPnt, double StartPnt, double EndPnt)
 ```
 
 #### Parameters
 
-`X` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`X` double\[\]
 
 The array of x-values representing plot data.
 
-`Y` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`Y` double\[\]
 
 The array of y-values representing plot data.
 
-`NoOfPnt` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NoOfPnt` int
 
 The number of points in the original data series.
 
-`NoOfDesiredPnt` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`NoOfDesiredPnt` int
 
 The number of points desired in the interpolated data series.
 
-`StartPnt` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`StartPnt` double
 
 The start point for using the curve on the plot data.
 
-`EndPnt` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`EndPnt` double
 
 The end point for using the curve on the plot data.
 
 #### Returns
 
- \(InterpolationErrorType, [double](https://learn.microsoft.com/dotnet/api/system.double)\[\], [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\)
+ \(InterpolationErrorType, double\[\], double\[\]\)
 
 A tuple containing:
 - An <xref href="VM.Models.Post.InterpolationErrorType" data-throw-if-not-resolved="false"></xref> indicating the interpolation error type.
@@ -1789,7 +1835,8 @@ A tuple containing:
 #### Examples
 
 The following example demonstrates how to use the <code>InterpolationAkimaSpline</code> method:
-<pre><code class="lang-python">print ("===Interpolation===")
+```python
+print ("===Interpolation===")
 x = [1,2,3,4,5]
 y = [1,2,3,4,5]
 plot = outputReader.InterpolationAkimaSpline(x, y, 5, 100, 0.0, 10.0);
@@ -1798,11 +1845,10 @@ print(f"InterpolationErrorType : {plot.Item1}")
 
 for index in range(count):
     print(f"X : {plot.Item2[index]}, Y : {plot.Item3[index]}")
-</code></pre>
+```
 
 #### Remarks
 
 This method interpolates the given data series using the Akima spline interpolation method.
 It returns the interpolated x and y data points based on the specified parameters.
-
 

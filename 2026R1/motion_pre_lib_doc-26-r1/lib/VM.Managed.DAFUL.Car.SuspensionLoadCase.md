@@ -1,4 +1,5 @@
-#  Class SuspensionLoadCase
+# Class SuspensionLoadCase
+<a id="VM_Managed_DAFUL_Car_SuspensionLoadCase"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class SuspensionLoadCase : LoadCaseBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LoadCaseBase](VM.Managed.DAFUL.Car.LoadCaseBase.md) ← 
 [SuspensionLoadCase](VM.Managed.DAFUL.Car.SuspensionLoadCase.md)
 
@@ -85,7 +86,7 @@ public void CreateSimulation(Configuration configActive, ref SuspensionAnalysisC
 
 #### Parameters
 
-`configActive` Configuration
+`configActive` [Configuration](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Configuration.cs)
 
 The config
 
@@ -103,7 +104,7 @@ public void GetXmlData(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -117,11 +118,11 @@ public void Initialize(int nStep, double dTime, SuspensionAnalysisBase analysis)
 
 #### Parameters
 
-`nStep` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nStep` int
 
 The n step.
 
-`dTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dTime` double
 
 The d time.
 
@@ -139,7 +140,7 @@ public void MakeSpline(List<double[]>[] arSpl)
 
 #### Parameters
 
-`arSpl` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>\[\]
+`arSpl` List<double\[\]\>\[\]
 
 The ar SPL.
 
@@ -153,7 +154,7 @@ public void SetXmlData(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 

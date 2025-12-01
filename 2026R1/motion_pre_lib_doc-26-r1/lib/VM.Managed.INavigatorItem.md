@@ -1,4 +1,5 @@
-#  Interface INavigatorItem
+# Interface INavigatorItem
+<a id="VM_Managed_INavigatorItem"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +28,7 @@ string GetModelNavigateorRenameRemoveInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The model navigator's rename or remove information.
 
@@ -41,7 +42,7 @@ string GetModelNavigatorInformation()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The model navigator information.
 
@@ -55,21 +56,21 @@ bool GetModelNavigatorInformationBase(XmlDocument xmlDom, XmlElement xmlRootEle,
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The navigator information xml.
 
-`xmlRootEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlRootEle` XmlElement
 
 The navigator information xml root element.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 <code>true</code> if has a child object; otherwise, <code>false</code>.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_INavigatorItem_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
@@ -81,19 +82,19 @@ bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, XmlElement xmlRootEle,
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The navigator information xml.
 
-`xmlRootEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlRootEle` XmlElement
 
 The navigator information xml root element.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 <code>true</code> if has a child object; otherwise, <code>false</code>.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

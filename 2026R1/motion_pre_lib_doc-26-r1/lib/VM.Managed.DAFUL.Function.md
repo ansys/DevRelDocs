@@ -1,4 +1,5 @@
-#  Class Function
+# Class Function
+<a id="VM_Managed_DAFUL_Function"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -11,12 +12,12 @@ public class Function : SubEntity, IObservableObject, IDisposableObject, ILinkab
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
-SubEntity ← 
+[SubEntity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs) ← 
 [Function](VM.Managed.DAFUL.Function.md)
 
 #### Implements
@@ -26,7 +27,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -51,17 +52,17 @@ IPostDeserialized
 
 #### Inherited Members
 
-SubEntity.Initialize\(Unit.ConvertFactor\), 
-SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-SubEntity.FixUp\(ObjectBase\), 
-SubEntity.WriteTemplateImpl\(XmlWriter\), 
-SubEntity.ReadTemplateImpl\(XmlReader\), 
-SubEntity.Name, 
-SubEntity.FullName, 
-SubEntity.NonSymmetricName, 
-SubEntity.DisplayName, 
-SubEntity.IsEnabled, 
-SubEntity.Comment, 
+[SubEntity.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
+[SubEntity.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/SubEntity.cs), 
 Object<ObjectEventCore\>.GetKey\(\), 
 Object<ObjectEventCore\>.Initialize\(Unit.ConvertFactor\), 
 Object<ObjectEventCore\>.SetIconColor\(Canvas\), 
@@ -154,7 +155,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -209,7 +210,7 @@ public Function(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the function.
 
@@ -223,7 +224,7 @@ public Function(string strName, ExpressionTypes expressionTypes)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the function.
 
@@ -267,7 +268,7 @@ public string Expression { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Function_FunctionExpressionType"></a> FunctionExpressionType
 
@@ -289,7 +290,7 @@ public bool IsInterface { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Function_IsPerformanceIndex"></a> IsPerformanceIndex
 
@@ -301,7 +302,7 @@ public bool IsPerformanceIndex { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Function_PredefinedKeywords"></a> PredefinedKeywords
 
@@ -311,7 +312,7 @@ public static IEnumerable<string> PredefinedKeywords { get; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 
 ### <a id="VM_Managed_DAFUL_Function_PythonInterpreterPath"></a> PythonInterpreterPath
 
@@ -323,7 +324,7 @@ public static string PythonInterpreterPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Function_ReferenceType"></a> ReferenceType
 
@@ -335,7 +336,7 @@ public string ReferenceType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Function_SolverModulePath"></a> SolverModulePath
 
@@ -347,7 +348,7 @@ public static string SolverModulePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -361,7 +362,7 @@ public bool ContainsReservedArgument()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if [contains] [the reserved arg]; otherwise, <code>false</code>.
 
@@ -373,7 +374,7 @@ public static Function CreateSimplePythonFunction(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 #### Returns
 
@@ -403,7 +404,7 @@ protected override void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
 
 `owner` IOwned
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ### <a id="VM_Managed_DAFUL_Function_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
@@ -415,7 +416,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -433,7 +434,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -455,13 +456,13 @@ public bool VerifyExpression(string strPathPythonExe = null, string strPathSolve
 
 #### Parameters
 
-`strPathPythonExe` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPathPythonExe` string
 
-`strPathSolverDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPathSolverDir` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Function_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
@@ -473,7 +474,7 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

@@ -1,4 +1,5 @@
-#  Class BearingDimensionTaperedRoller
+# Class BearingDimensionTaperedRoller
+<a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,9 +12,9 @@ public class BearingDimensionTaperedRoller : BearingDimensionBase, IObservableOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [BearingDimensionBase](VM.Managed.DAFUL.GearTrain.BearingDimensionBase.md) ← 
 [BearingDimensionTaperedRoller](VM.Managed.DAFUL.GearTrain.BearingDimensionTaperedRoller.md)
@@ -82,7 +83,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -123,7 +124,7 @@ public ExpressionValueVariable ActionPoint { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ConeRoundingRadius"></a> ConeRoundingRadius
 
@@ -135,7 +136,7 @@ public ExpressionValueVariable ConeRoundingRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ConeShoulderDiameter"></a> ConeShoulderDiameter
 
@@ -147,7 +148,7 @@ public ExpressionValueVariable ConeShoulderDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ConeWidth"></a> ConeWidth
 
@@ -159,7 +160,7 @@ public ExpressionValueVariable ConeWidth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ContactAngle"></a> ContactAngle
 
@@ -171,7 +172,7 @@ public ExpressionValueVariable ContactAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_CupRoundingRadius"></a> CupRoundingRadius
 
@@ -183,7 +184,7 @@ public ExpressionValueVariable CupRoundingRadius { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_CupWidth"></a> CupWidth
 
@@ -195,7 +196,7 @@ public ExpressionValueVariable CupWidth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_NumberOfRoller"></a> NumberOfRoller
 
@@ -207,7 +208,7 @@ public ExpressionValueVariable NumberOfRoller { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerCenterPoint"></a> RollerCenterPoint
 
@@ -219,7 +220,7 @@ public ExpressionValueVariable RollerCenterPoint { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerDiameter"></a> RollerDiameter
 
@@ -231,7 +232,7 @@ public ExpressionValueVariable RollerDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerLength"></a> RollerLength
 
@@ -243,7 +244,7 @@ public ExpressionValueVariable RollerLength { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerPitchDiameter"></a> RollerPitchDiameter
 
@@ -255,7 +256,7 @@ public ExpressionValueVariable RollerPitchDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerTaperedAngle"></a> RollerTaperedAngle
 
@@ -267,7 +268,7 @@ public ExpressionValueVariable RollerTaperedAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -293,11 +294,11 @@ The raceway type.
 
 The transformation.
 
-`bTruncated` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bTruncated` bool
 
 The truncated falg.
 
-`bReverse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReverse` bool
 
 The reverse direction falg.
 

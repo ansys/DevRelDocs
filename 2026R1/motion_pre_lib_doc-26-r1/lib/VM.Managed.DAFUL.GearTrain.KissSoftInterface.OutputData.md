@@ -1,4 +1,5 @@
-#  Class KissSoftInterface.OutputData
+# Class KissSoftInterface.OutputData
+<a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class KissSoftInterface.OutputData
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KissSoftInterface.OutputData](VM.Managed.DAFUL.GearTrain.KissSoftInterface.OutputData.md)
 
 #### Extension Methods
@@ -40,19 +41,19 @@ public OutputData(string strFilePath, uint nNumberOfTrochoid, uint nNumberOfInvo
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path
 
-`nNumberOfTrochoid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfTrochoid` uint
 
 The number of trochoid
 
-`nNumberOfInvolute` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfInvolute` uint
 
 The number of involute
 
-`nNumberOfSlice` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`nNumberOfSlice` uint
 
 The number of slice
 
@@ -68,7 +69,7 @@ public double AxialCrossingAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_CenterDistancePair1"></a> CenterDistancePair1
 
@@ -80,7 +81,7 @@ public double CenterDistancePair1 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_CenterDistancePair2"></a> CenterDistancePair2
 
@@ -92,7 +93,7 @@ public double CenterDistancePair2 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_CenterDistancePair3"></a> CenterDistancePair3
 
@@ -104,7 +105,7 @@ public double CenterDistancePair3 { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_FilePath"></a> FilePath
 
@@ -116,7 +117,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_GearDataList"></a> GearDataList
 
@@ -140,7 +141,7 @@ public double NormalModule { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NormalPressureAngle"></a> NormalPressureAngle
 
@@ -152,7 +153,7 @@ public double NormalPressureAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfGear"></a> NumberOfGear
 
@@ -164,7 +165,7 @@ public uint NumberOfGear { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfInvolute"></a> NumberOfInvolute
 
@@ -176,7 +177,7 @@ public uint NumberOfInvolute { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfPlaneraryGear"></a> NumberOfPlaneraryGear
 
@@ -188,7 +189,7 @@ public uint NumberOfPlaneraryGear { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfSlice"></a> NumberOfSlice
 
@@ -200,7 +201,7 @@ public uint NumberOfSlice { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfTrochoid"></a> NumberOfTrochoid
 
@@ -212,7 +213,7 @@ public uint NumberOfTrochoid { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_TypeOfGear"></a> TypeOfGear
 

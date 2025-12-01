@@ -1,11 +1,12 @@
-#  Interface IOperationsVectorDisplayBaseViewModel
+# Interface IOperationsVectorDisplayBaseViewModel
+<a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
 
 Interface representing information for the vector display view model.
 
-```python
+```csharp
 public interface IOperationsVectorDisplayBaseViewModel
 ```
 
@@ -13,13 +14,16 @@ public interface IOperationsVectorDisplayBaseViewModel
 
 For an example that includes information about interfaces, see this example.
 To view the examples, refer to the location of the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' file.
-<pre><code class="lang-python"># IOperationsVectorDisplayBaseViewModel.py
+```python
+# IOperationsVectorDisplayBaseViewModel.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -33,9 +37,12 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Find Page
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 
 findViews = list()
@@ -48,7 +55,14 @@ for page in pages :
 
 viewCount = len(findViews)
 if viewCount > 0 :
+    # result_file_path - Get the document from the result file path.
     document = applicationHandler.GetDocument(result_file_path)
+
+    # This retrieves the analysis result from the document.
+    # Types of Analysis Results
+    # - Dynamics
+    # - Eigenvalue
+    # - Statics
     analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 
     # Create Vector Display
@@ -60,14 +74,15 @@ if viewCount > 0 :
     vector.IsVisible = True
     vector.SetCharacteristic("Base Torque")
 
-# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
 pages = applicationHandler.GetPages()
 for page in pages :
     page.Close()
 
 # Close the Document
 applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+```
 
 ## Properties
 
@@ -75,13 +90,13 @@ applicationHandler.CloseDocument(result_file_path)
 
 Gets or sets the full name of the vector display.
 
-```python
+```csharp
 string FullName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Examples
 
@@ -95,13 +110,13 @@ Use this property to specify or retrieve the full name of the vector display.
 
 Gets or sets a value indicating whether to display or hide the object name, and force and position vectors in the animation view.
 
-```python
+```csharp
 bool IsLabel { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
@@ -115,18 +130,19 @@ Use this property to specify or retrieve the visibility of the object name, and 
 
 Gets or sets a value indicating whether the vector display is visible in the animation view.
 
-```python
+```csharp
 bool IsVisible { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Examples
 
 The following example demonstrates how to use the <code>IsVisible</code> property:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
+```python
+For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).```
 
 #### Remarks
 
@@ -136,18 +152,19 @@ Use this property to specify or retrieve the visibility of the vector display in
 
 Gets or sets the background color of the label in the vector display.
 
-```python
+```csharp
 Color LabelBackgroundColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
 The following example demonstrates how to use the <code>LabelBackGroundColor</code> property:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
+```python
+For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).```
 
 #### Remarks
 
@@ -157,18 +174,19 @@ Use this property to specify or retrieve the background color of the label in th
 
 Gets or sets the text color of the label in the vector display.
 
-```python
+```csharp
 Color LabelTextColor { get; set; }
 ```
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+ Color
 
 #### Examples
 
 The following example demonstrates how to use the <code>LabelTextColor</code> property:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
+```python
+For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).```
 
 #### Remarks
 
@@ -180,23 +198,23 @@ Use this property to specify or retrieve the text color of the label in the vect
 
 Sets the characteristic for the vector display.
 
-```python
+```csharp
 void SetCharacteristic(string characteristic)
 ```
 
 #### Parameters
 
-`characteristic` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`characteristic` string
 
 The characteristic to be set.
 
 #### Examples
 
 The following example demonstrates how to use the <code>SetCharacteristic</code> method:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
+```python
+For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).```
 
 #### Remarks
 
 This method sets or changes the characteristic for the vector display.
-
 

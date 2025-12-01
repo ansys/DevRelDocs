@@ -1,4 +1,5 @@
-#  Interface IConnectable
+# Interface IConnectable
+<a id="VM_Managed_DAFUL_IConnectable"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -57,7 +58,7 @@ string ConnectableFullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_IConnectable_ConnectableName"></a> ConnectableName
 
@@ -69,7 +70,7 @@ string ConnectableName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_IConnectable_ConnectablePosition"></a> ConnectablePosition
 
@@ -93,5 +94,5 @@ string ConnectablePostfixName { set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

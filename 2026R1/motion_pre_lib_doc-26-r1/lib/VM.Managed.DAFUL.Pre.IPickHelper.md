@@ -1,4 +1,5 @@
-#  Interface IPickHelper
+# Interface IPickHelper
+<a id="VM_Managed_DAFUL_Pre_IPickHelper"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -72,7 +73,7 @@ bool ApplyEdge()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -86,7 +87,7 @@ bool ApplyEntityVM()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -100,7 +101,7 @@ bool ApplyFace()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -114,7 +115,7 @@ bool ApplyFaceset()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -128,7 +129,7 @@ bool ApplyHole()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -142,7 +143,7 @@ bool ApplyMesh()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -156,7 +157,7 @@ bool ApplyNode()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -170,7 +171,7 @@ bool ApplyPatchset()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -200,7 +201,7 @@ void SetAdjacentUseFaceNormal(bool bUseFaceNormal)
 
 #### Parameters
 
-`bUseFaceNormal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bUseFaceNormal` bool
 
 true then use face normal angle, else use edge tangential angle.
 
@@ -214,7 +215,7 @@ void SetAdjacentValue(double dValue)
 
 #### Parameters
 
-`dValue` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dValue` double
 
 the angle value.
 
@@ -228,7 +229,7 @@ void SetDirection(string strDirectionXml)
 
 #### Parameters
 
-`strDirectionXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDirectionXml` string
 
 The direction XML.
 
@@ -242,35 +243,35 @@ void SetDirection(string strDirectionX, string strDirectionY, string strDirectio
 
 #### Parameters
 
-`strDirectionX` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDirectionX` string
 
 The direction X.
 
-`strDirectionY` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDirectionY` string
 
 The direction Y.
 
-`strDirectionZ` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDirectionZ` string
 
 The direction Z.
 
-`strParamU` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParamU` string
 
 The param U.
 
-`strParamV` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParamV` string
 
 The param V.
 
-`strDirectionXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strDirectionXml` string
 
 The STR direction XML.
 
-`isReverse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isReverse` bool
 
 if set to <code>true</code> [is reverse].
 
-`isParameterizable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isParameterizable` bool
 
 if set to <code>true</code> [is parameterizable].
 
@@ -284,7 +285,7 @@ void SetMultiSelectShape_Circle(bool bAlreadyOperation)
 
 #### Parameters
 
-`bAlreadyOperation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAlreadyOperation` bool
 
 the operation flag.
 
@@ -298,7 +299,7 @@ void SetMultiSelectShape_Circle2(bool bAlreadyOperation)
 
 #### Parameters
 
-`bAlreadyOperation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAlreadyOperation` bool
 
 the operation flag.
 
@@ -312,7 +313,7 @@ void SetMultiSelectShape_None(bool bAlreadyOperation)
 
 #### Parameters
 
-`bAlreadyOperation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAlreadyOperation` bool
 
 the operation flag.
 
@@ -326,7 +327,7 @@ void SetMultiSelectShape_Polyline(bool bAlreadyOperation)
 
 #### Parameters
 
-`bAlreadyOperation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAlreadyOperation` bool
 
 the operation flag.
 
@@ -340,7 +341,7 @@ void SetMultiSelectShape_Rectangle(bool bAlreadyOperation)
 
 #### Parameters
 
-`bAlreadyOperation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bAlreadyOperation` bool
 
 the operation flag.
 
@@ -378,7 +379,7 @@ void SetPoint(string strPointXml)
 
 #### Parameters
 
-`strPointXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPointXml` string
 
 The point XML.
 
@@ -392,31 +393,31 @@ void SetPoint(string strPointX, string strPointY, string strPointZ, string strPa
 
 #### Parameters
 
-`strPointX` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPointX` string
 
 The point X.
 
-`strPointY` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPointY` string
 
 The point Y.
 
-`strPointZ` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPointZ` string
 
 The point Z.
 
-`strParamU` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParamU` string
 
 The param U.
 
-`strParamV` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strParamV` string
 
 The param V.
 
-`strPointXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPointXml` string
 
 The point XML.
 
-`isParameterizable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isParameterizable` bool
 
 if set to <code>true</code> [is parameterizable].
 

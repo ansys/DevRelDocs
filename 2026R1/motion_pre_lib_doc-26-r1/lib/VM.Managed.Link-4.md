@@ -1,4 +1,5 @@
-#  Class Link<T, TUpdate, TDestroy, TOwnerDestroy\>
+# Class Link<T, TUpdate, TDestroy, TOwnerDestroy\>
+<a id="VM_Managed_Link_4"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +22,7 @@ public class Link<T, TUpdate, TDestroy, TOwnerDestroy> : ITypedLink<T>, ILink, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Link<T, TUpdate, TDestroy, TOwnerDestroy\>](VM.Managed.Link\-4.md)
 
 #### Implements
@@ -84,9 +85,9 @@ protected Link(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 ## Fields
 
@@ -122,7 +123,7 @@ public string FullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Link_4_IsReference"></a> IsReference
 
@@ -134,7 +135,7 @@ public bool IsReference { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Link_4_LinkedObj"></a> LinkedObj
 
@@ -158,7 +159,7 @@ public string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Link_4_Object"></a> Object
 
@@ -212,7 +213,7 @@ virtual void DestroyObject(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 <p>The linked object.</p>
 
@@ -228,7 +229,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_Link_4_Dispose"></a> Dispose\(\)
 
@@ -246,7 +247,7 @@ virtual void GetChilds(HashSet<ILinkContainer> A_0)
 
 #### Parameters
 
-`A_0` [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<ILinkContainer\>
+`A_0` HashSet<ILinkContainer\>
 
 ### <a id="VM_Managed_Link_4_GetFirstDesignEntities"></a> GetFirstDesignEntities\(\)
 
@@ -258,7 +259,7 @@ virtual IEnumerable<IObject> GetFirstDesignEntities()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
+ IEnumerable<IObject\>
 
 ### <a id="VM_Managed_Link_4_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectData\(SerializationInfo, StreamingContext\)
 
@@ -268,9 +269,9 @@ virtual void GetObjectData(SerializationInfo info, StreamingContext __unnamed001
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
-`__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`__unnamed001` StreamingContext
 
 ### <a id="VM_Managed_Link_4_RegisterEvent_System_Boolean_"></a> RegisterEvent\(bool\)
 
@@ -280,7 +281,7 @@ protected virtual void RegisterEvent(bool bBackup)
 
 #### Parameters
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ### <a id="VM_Managed_Link_4_Reserve_VM_Managed_LinkEventArgs_"></a> Reserve\(LinkEventArgs\)
 
@@ -298,7 +299,7 @@ The event argument.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if succeess to reserve, otherwise false.
 
@@ -318,7 +319,7 @@ protected virtual void UnregisterEvent(bool bBackup)
 
 #### Parameters
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ## Operators
 

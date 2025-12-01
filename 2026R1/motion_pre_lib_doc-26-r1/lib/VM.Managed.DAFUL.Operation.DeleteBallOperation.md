@@ -1,4 +1,5 @@
-#  Class DeleteBallOperation
+# Class DeleteBallOperation
+<a id="VM_Managed_DAFUL_Operation_DeleteBallOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -9,7 +10,7 @@ public class DeleteBallOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [DeleteBallOperation](VM.Managed.DAFUL.Operation.DeleteBallOperation.md)
 
@@ -83,7 +84,7 @@ public DeleteBallOperation(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 ### <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation__ctor_System_UIntPtr_"></a> DeleteBallOperation\(UIntPtr\)
 
@@ -93,7 +94,7 @@ public DeleteBallOperation(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 ## Properties
 
@@ -105,7 +106,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation_Name"></a> Name
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

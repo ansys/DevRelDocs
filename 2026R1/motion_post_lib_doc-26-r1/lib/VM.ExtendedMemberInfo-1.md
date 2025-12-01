@@ -1,9 +1,10 @@
-#  Class ExtendedMemberInfo<T\>
+# Class ExtendedMemberInfo<T\>
+<a id="VM_ExtendedMemberInfo_1"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public abstract class ExtendedMemberInfo<T> where T : MemberInfo
 ```
 
@@ -13,14 +14,14 @@ public abstract class ExtendedMemberInfo<T> where T : MemberInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ExtendedMemberInfo<T\>](VM.ExtendedMemberInfo\-1.md)
 
 ## Constructors
 
 ### <a id="VM_ExtendedMemberInfo_1__ctor__0_"></a> ExtendedMemberInfo\(T\)
 
-```python
+```csharp
 public ExtendedMemberInfo(T info)
 ```
 
@@ -32,7 +33,7 @@ public ExtendedMemberInfo(T info)
 
 ### <a id="VM_ExtendedMemberInfo_1_Info"></a> Info
 
-```python
+```csharp
 protected T Info { get; }
 ```
 
@@ -44,13 +45,13 @@ protected T Info { get; }
 
 ### <a id="VM_ExtendedMemberInfo_1_HasAttribute__1"></a> HasAttribute<TAttribute\>\(\)
 
-```python
+```csharp
 public bool HasAttribute<TAttribute>() where TAttribute : Attribute
 ```
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 
@@ -58,7 +59,7 @@ public bool HasAttribute<TAttribute>() where TAttribute : Attribute
 
 ### <a id="VM_ExtendedMemberInfo_1_TryGetAttributeInstance__1___0__"></a> TryGetAttributeInstance<TAttribute\>\(out TAttribute\)
 
-```python
+```csharp
 public bool TryGetAttributeInstance<TAttribute>(out TAttribute attribute) where TAttribute : Attribute
 ```
 
@@ -68,10 +69,9 @@ public bool TryGetAttributeInstance<TAttribute>(out TAttribute attribute) where 
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 
 `TAttribute` 
-
 

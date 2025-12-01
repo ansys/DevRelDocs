@@ -1,4 +1,5 @@
-#  Enum StepType
+# Enum StepType
+<a id="VM_Models_StepType"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

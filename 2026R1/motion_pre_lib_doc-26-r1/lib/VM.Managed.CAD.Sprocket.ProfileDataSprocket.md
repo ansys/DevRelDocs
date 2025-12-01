@@ -1,4 +1,5 @@
-#  Struct ProfileDataSprocket
+# Struct ProfileDataSprocket
+<a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket"></a>
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -21,7 +22,7 @@ public double AddendumCircleDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_AngleBetweenTeeth"></a> AngleBetweenTeeth
 
@@ -33,7 +34,7 @@ public double AngleBetweenTeeth
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_BushingRadius"></a> BushingRadius
 
@@ -45,7 +46,7 @@ public double BushingRadius
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_ClearanceofToothRoot"></a> ClearanceofToothRoot
 
@@ -57,7 +58,7 @@ public double ClearanceofToothRoot
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_DedendumCircleDiameter"></a> DedendumCircleDiameter
 
@@ -69,7 +70,7 @@ public double DedendumCircleDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_NoOfTeeth"></a> NoOfTeeth
 
@@ -81,7 +82,7 @@ public int NoOfTeeth
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_PitchCircleDiameter"></a> PitchCircleDiameter
 
@@ -93,7 +94,7 @@ public double PitchCircleDiameter
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_ToothRoundRadius"></a> ToothRoundRadius
 
@@ -105,7 +106,7 @@ public double ToothRoundRadius
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_WorkPlane"></a> WorkPlane
 

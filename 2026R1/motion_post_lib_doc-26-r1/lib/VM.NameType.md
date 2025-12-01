@@ -1,11 +1,12 @@
-#  Enum NameType
+# Enum NameType
+<a id="VM_NameType"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
 This enumerator represents the name display type
 
-```python
+```csharp
 public enum NameType
 ```
 
@@ -32,7 +33,6 @@ Full name
 `Name = 3` 
 
 Name
-
 
 
 

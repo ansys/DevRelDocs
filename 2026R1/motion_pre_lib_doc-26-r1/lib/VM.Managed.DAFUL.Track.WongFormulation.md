@@ -1,4 +1,5 @@
-#  Class WongFormulation
+# Class WongFormulation
+<a id="VM_Managed_DAFUL_Track_WongFormulation"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,9 +12,9 @@ public class WongFormulation : ShearPressureFormulationBase, IObservableObject, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [ShearPressureFormulationBase](VM.Managed.DAFUL.Track.ShearPressureFormulationBase.md) ← 
 [WongFormulation](VM.Managed.DAFUL.Track.WongFormulation.md)
@@ -77,7 +78,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -118,11 +119,11 @@ public ExpressionValueVariable Cohesion { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Cohesion is null.
 
@@ -136,11 +137,11 @@ public ExpressionValueVariable FrictionAngle { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Friction Angle is null.
 
@@ -154,11 +155,11 @@ public ExpressionValueVariable MaxShearDisplacement { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Max. Shear Displacement is null.
 
@@ -172,11 +173,11 @@ public ExpressionValueVariable Sensitivity { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Sensitivity is null.
 

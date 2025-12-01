@@ -1,4 +1,5 @@
-#  Class GetAreaOfFaceOp
+# Class GetAreaOfFaceOp
+<a id="VM_Managed_CAD_GetAreaOfFaceOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetAreaOfFaceOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetAreaOfFaceOp](VM.Managed.CAD.GetAreaOfFaceOp.md)
 
@@ -105,7 +106,7 @@ public double Area { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_CAD_GetAreaOfFaceOp_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -117,7 +118,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_GetAreaOfFaceOp_Name"></a> Name
 
@@ -129,7 +130,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

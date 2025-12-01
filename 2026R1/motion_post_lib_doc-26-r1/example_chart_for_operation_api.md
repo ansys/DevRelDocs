@@ -9,11 +9,12 @@ Chart view is useful for analyzing simulation results by using a graph which is 
 # OperationAPI_CreatingAChartView.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -27,12 +28,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Set Background
@@ -55,10 +61,12 @@ For combinations of paths(Characteristic, Component) on the curve, refer to Comm
 # OperationAPI_CreatingCurves.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -72,12 +80,17 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
 # Documentation Example
@@ -86,7 +99,11 @@ curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 curvePaths.Add(r'Displacement/Z')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -116,10 +133,12 @@ It is perform addition, subtraction and multiplication between graphs in the cha
 # OperationAPI_CreatingAPage.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -133,20 +152,32 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
-# Set array about combination of characteristic and component
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 curvePaths.Add(r'Displacement/Z')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -157,18 +188,17 @@ parameters.Target = "Crank"
 # The instance of the curve.
 curves = chartView.AddCurves(result_file_path, parameters)
 
-# Documentation Example
 # SeriesNames - A list of curve names.
 # SimpleMathType - The types of the simple math are as follows.
 # Points - The number of data points for interpolation.
 
-# Add
+# SimpleMath - Add
 chartView.CreateSimpleMath(curves, SimpleMathType.Add, 100)
 
-# Subtract
+# SimpleMath - Subtract
 chartView.CreateSimpleMath(curves, SimpleMathType.Subtract, 100)
 
-# Multiply
+# SimpleMath - Multiply
 chartView.CreateSimpleMath(curves, SimpleMathType.Multiply, 100)
 
 # Close the Pages
@@ -185,10 +215,12 @@ It is transform graphs through translate, align, scale, and absolute in the char
 # OperationAPI_CreatingATransform.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -202,20 +234,32 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
-# Set array about combination of characteristic and component
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 curvePaths.Add(r'Displacement/Z')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -265,10 +309,12 @@ It is interpolate graphs with the desired number of data points in the chart vie
 # OperationAPI_CreatingAInterpolation.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -282,19 +328,31 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
-# Set array about combination of characteristic and component
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -325,10 +383,12 @@ It is integrate or differentiate graphs in the chart view.
 # OperationAPI_CreatingACalculus.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
 sys.path.append(external_modules_path)
 
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -342,22 +402,34 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
-# Set array about combination of characteristic and component
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
 parameters.Target = "Crank"
+parameters.Paths = curvePaths
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
@@ -387,10 +459,12 @@ It is perform data filtering and smoothing of graphs in the chart view.
 # OperationAPI_SignalProcessing.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -404,20 +478,32 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
-# Set array about combination of characteristic and component
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 curvePaths.Add(r'Displacement/Z')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -465,10 +551,12 @@ It is transform data in the time domain to the frequency domain by using the Fas
 # OperationAPI_CreatingAFFT.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -482,19 +570,31 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
-# Set array about combination of characteristic and component
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"
@@ -532,10 +632,12 @@ The short time furrier transformation method(STFT) can transform the data in tim
 # OperationAPI_CreatingSTFT.py
 import sys
 
+# Get the current file's path and set the path for external modules.
 current_dir = __file__.rsplit('\\', 1)[0]
 external_modules_path = current_dir + '\\..\\..\\Modules'
-
 sys.path.append(external_modules_path)
+
+# Import necessary modules
 from OperationAPI import *
 
 # Start the headless application interface
@@ -549,19 +651,31 @@ filepaths = List[str]()
 filepaths.Add(result_file_path)
 
 # Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
 applicationHandler.AddDocument(filepaths)
 
-# Get Page
+# Get Active Page
+# This retrieves the currently active page in the application.
 page = applicationHandler.GetActivePage()
 
-# Create PlotView
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
 chartView = page.CreateChart("Chart")
 
-# Set array about combination of characteristic and component
+# Specify the paths for the curves you want to retrieve.
+# For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
+# In this case, we are retrieving the Y component of Acceleration for the Crank.
+# You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
 curvePaths = List[str]()
 curvePaths.Add(r'Displacement/Magnitude')
 
-# Set a Curve Parameter
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
 parameters.Paths = curvePaths
 parameters.Target = "Crank"

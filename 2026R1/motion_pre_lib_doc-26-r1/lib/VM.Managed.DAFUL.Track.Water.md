@@ -1,4 +1,5 @@
-#  Class Water
+# Class Water
+<a id="VM_Managed_DAFUL_Track_Water"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,14 +12,14 @@ public class Water : Entity<PropertyWater>, IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<EntityEventCore\> ← 
 ContainerObject<EntityEventCore\> ← 
-EntityBase ← 
-Entity<PropertyWater\> ← 
+[EntityBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
+[Entity<PropertyWater\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs) ← 
 [Water](VM.Managed.DAFUL.Track.Water.md)
 
 #### Implements
@@ -28,7 +29,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 IEntity, 
@@ -61,34 +62,34 @@ IHasReplaceableEntity
 
 #### Inherited Members
 
-Entity<PropertyWater\>.Initialize\(Unit.ConvertFactor\), 
-Entity<PropertyWater\>.GetUnnamedObjectName\(object\), 
-Entity<PropertyWater\>.FindLocal\(string\), 
-Entity<PropertyWater\>.Property, 
-EntityBase.Initialize\(Unit.ConvertFactor\), 
-EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\), 
-EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\), 
-EntityBase.OnDeserializationForAttribute\(\), 
-EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-EntityBase.LinkRequestDestroying\(object, LinkEventArgs\), 
-EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\), 
-EntityBase.FixUp\(ObjectBase\), 
-EntityBase.FindLocal\(string\), 
-EntityBase.WriteTemplateImpl\(XmlWriter\), 
-EntityBase.ReadTemplateImpl\(XmlReader\), 
-EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\), 
-EntityBase.OnDeserialization\(object\), 
-EntityBase.Name, 
-EntityBase.FullName, 
-EntityBase.NonSymmetricName, 
-EntityBase.DisplayName, 
-EntityBase.IsEnabled, 
-EntityBase.Comment, 
-EntityBase.HasLayerExplicitly, 
-EntityBase.UntypedProperty, 
-EntityBase.IsFileProperty, 
-EntityBase.Layer, 
-EntityBase.IsVisible, 
+[Entity<PropertyWater\>.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyWater\>.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyWater\>.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[Entity<PropertyWater\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserializationForAttribute\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkRequestDestroying\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FixUp\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.WriteTemplateImpl\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.ReadTemplateImpl\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.LinkAddedToDocument\(object, AddToDocEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.FullName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.NonSymmetricName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsEnabled](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Comment](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.HasLayerExplicitly](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsFileProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.Layer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
+[EntityBase.IsVisible](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Entity.cs), 
 ContainerObject<EntityEventCore\>.Find\(string\), 
 ContainerObject<EntityEventCore\>.FindLocal\(string\), 
 ContainerObject<EntityEventCore\>.GetUnnamedObjectName\(object\), 
@@ -187,7 +188,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -226,7 +227,7 @@ public Water(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the string.
 
@@ -242,7 +243,7 @@ public Color Color { get; set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_Managed_DAFUL_Track_Water_DepthAtDeepWater"></a> DepthAtDeepWater
 
@@ -254,11 +255,11 @@ public ExpressionValueVariable DepthAtDeepWater { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Depth at Deep Water is null.
 
@@ -272,11 +273,11 @@ public ExpressionValueVariable DistanceToDeepWater { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Distance to DeepWater is null.
 
@@ -290,7 +291,7 @@ protected override bool HasLayerExplicitly { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_Water_Hide"></a> Hide
 
@@ -302,7 +303,7 @@ public bool Hide { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_Water_Layer"></a> Layer
 
@@ -326,11 +327,11 @@ public ExpressionValueVariable LengthInXAxis { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Length in X Axis is null.
 
@@ -344,7 +345,7 @@ public List<double> RandomPhase { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ List<double\>
 
 ### <a id="VM_Managed_DAFUL_Track_Water_ReferenceFrame"></a> ReferenceFrame
 
@@ -356,7 +357,7 @@ public Marker ReferenceFrame { get; set; }
 
 #### Property Value
 
- Marker
+ [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
 ### <a id="VM_Managed_DAFUL_Track_Water_Slope"></a> Slope
 
@@ -368,11 +369,11 @@ public ExpressionValueVariable Slope { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Slope is null.
 
@@ -386,7 +387,7 @@ public double Transparency { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Track_Water_UseSlope"></a> UseSlope
 
@@ -398,7 +399,7 @@ public bool UseSlope { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Track_Water_WidthInYAxis"></a> WidthInYAxis
 
@@ -410,11 +411,11 @@ public ExpressionValueVariable WidthInYAxis { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 #### Exceptions
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+ Exception
 
 Width in Y Axis is null.
 
@@ -428,7 +429,7 @@ public int _Color { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -450,15 +451,15 @@ The Document
 
 The wave structure
 
-`bOnlyFirstResult` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bOnlyFirstResult` bool
 
 whether only first result gets or not
 
-`ardX` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardX` double\[\]
 
 The X array
 
-`lstResult` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Water](VM.Managed.DAFUL.Track.Water.md).[WaveResult](VM.Managed.DAFUL.Track.Water.WaveResult.md)\>
+`lstResult` List<[Water](VM.Managed.DAFUL.Track.Water.md).[WaveResult](VM.Managed.DAFUL.Track.Water.WaveResult.md)\>
 
 The result
 
@@ -480,7 +481,7 @@ public void CreateCurrentFile(string strCurrentFilePath)
 
 #### Parameters
 
-`strCurrentFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCurrentFilePath` string
 
 The current file path
 
@@ -506,7 +507,7 @@ public void CreateWaveFile(Document doc, string strWaveFilePath)
 
 The document
 
-`strWaveFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strWaveFilePath` string
 
 The wave file path
 
@@ -524,15 +525,15 @@ public static void CreateWaveMesh(TransformBase transform, double dWidth, double
 
 The Transform
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width
 
-`ardX` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardX` double\[\]
 
 The x array
 
-`lstResult` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Water](VM.Managed.DAFUL.Track.Water.md).[WaveResult](VM.Managed.DAFUL.Track.Water.WaveResult.md)\>
+`lstResult` List<[Water](VM.Managed.DAFUL.Track.Water.md).[WaveResult](VM.Managed.DAFUL.Track.Water.WaveResult.md)\>
 
 The wave result for height
 
@@ -540,7 +541,7 @@ The wave result for height
 
 The position array
 
-`arConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arConnectivity` int\[\]
 
 The Connectivity array
 
@@ -562,7 +563,7 @@ The document
 
 The Transform
 
-`dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dWidth` double
 
 The width
 
@@ -570,7 +571,7 @@ The width
 
 The position array
 
-`arConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arConnectivity` int\[\]
 
 The Connectivity array
 
@@ -584,7 +585,7 @@ public virtual void Draw(Canvas canvas)
 
 #### Parameters
 
-`canvas` Canvas
+`canvas` [Canvas](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Kernel/Render/Canvas.cs)
 
 The canvas has icon information.
 
@@ -598,7 +599,7 @@ public static List<double> GenerateRandomPhase()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+ List<double\>
 
 ### <a id="VM_Managed_DAFUL_Track_Water_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
@@ -610,21 +611,21 @@ protected override bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, Xml
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement for object.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 if set to <code>true</code> [has child].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -652,7 +653,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -670,7 +671,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -688,31 +689,31 @@ public static void PiersonMoskowitzSpectrum(Wave.PMPeriodType typePMPeriod, List
 
 The Pierson-Moskowitz period type
 
-`lstWave` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+`lstWave` List<double\[\]\>
 
 The wave list
 
-`dGravity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dGravity` double
 
 The gravity
 
-`dConvertedPeriod` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dConvertedPeriod` double
 
 The convert period
 
-`ardFrequency` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardFrequency` double\[\]
 
 The frequency set
 
-`ardWaveAmp` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardWaveAmp` double\[\]
 
 The wave ampitude set
 
-`ardK` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+`ardK` double\[\]
 
 The k set
 
-`lstFreqToSpm` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
+`lstFreqToSpm` List<Tuple<double, double\>\>
 
 The Frequency and Spectrum data set
 

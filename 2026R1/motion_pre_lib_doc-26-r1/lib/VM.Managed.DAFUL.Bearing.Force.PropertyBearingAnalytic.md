@@ -1,4 +1,5 @@
-#  Class PropertyBearingAnalytic
+# Class PropertyBearingAnalytic
+<a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic"></a>
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -11,14 +12,14 @@ public class PropertyBearingAnalytic : PropertyBearingBase, IObservableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<PropertyEventCore\> ← 
 ContainerObject<PropertyEventCore\> ← 
-Property ← 
-PropertyForce ← 
+[Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs) ← 
+[PropertyForce](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs) ← 
 [PropertyBearingBase](VM.Managed.DAFUL.Bearing.Force.PropertyBearingBase.md) ← 
 [PropertyBearingAnalytic](VM.Managed.DAFUL.Bearing.Force.PropertyBearingAnalytic.md)
 
@@ -37,7 +38,7 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 IContainer, 
 ILinkContainer, 
@@ -48,14 +49,14 @@ IArgument
 #### Inherited Members
 
 [PropertyBearingBase.ArgumentType](VM.Managed.DAFUL.Bearing.Force.PropertyBearingBase.md\#VM\_Managed\_DAFUL\_Bearing\_Force\_PropertyBearingBase\_ArgumentType), 
-PropertyForce.ArgumentType, 
-PropertyForce.ReferenceType, 
-Property.Initialize\(Unit.ConvertFactor\), 
-Property.PropertyRequestUpdate\(object, LinkEventArgs\), 
-Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\), 
-Property.GetUnnamedObjectName\(object\), 
-Property.FindLocal\(string\), 
-Property.Draw\(Canvas, TMatrix, TMatrix, bool\), 
+[PropertyForce.ArgumentType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs), 
+[PropertyForce.ReferenceType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Force.cs), 
+[Property.Initialize\(Unit.ConvertFactor\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.PropertyRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.OnUpdatePropertyImpl\(Property, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.GetUnnamedObjectName\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
+[Property.Draw\(Canvas, TMatrix, TMatrix, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs), 
 ContainerObject<PropertyEventCore\>.Find\(string\), 
 ContainerObject<PropertyEventCore\>.FindLocal\(string\), 
 ContainerObject<PropertyEventCore\>.GetUnnamedObjectName\(object\), 
@@ -154,7 +155,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -195,7 +196,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_FrictionCoefficient"></a> FrictionCoefficient
 
@@ -207,7 +208,7 @@ public ExpressionValueVariable FrictionCoefficient { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_GapInAxialDirection"></a> GapInAxialDirection
 
@@ -219,7 +220,7 @@ public ExpressionValueVariable GapInAxialDirection { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_IsAxial"></a> IsAxial
 
@@ -231,7 +232,7 @@ public bool IsAxial { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_IsRadial"></a> IsRadial
 
@@ -243,7 +244,7 @@ public bool IsRadial { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_Viscosity"></a> Viscosity
 
@@ -255,7 +256,7 @@ public ExpressionValueVariable Viscosity { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_YoungsModulus"></a> YoungsModulus
 
@@ -267,7 +268,7 @@ public ExpressionValueVariable YoungsModulus { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 

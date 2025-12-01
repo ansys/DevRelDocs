@@ -1,4 +1,5 @@
-#  Class ChangeGroupDrivelineOperation
+# Class ChangeGroupDrivelineOperation
+<a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupDrivelineOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class ChangeGroupDrivelineOperation : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ChangeGroupDrivelineOperation](VM.Managed.DAFUL.Car.Operation.ChangeGroupDrivelineOperation.md)
 
@@ -87,9 +88,9 @@ public ChangeGroupDrivelineOperation(Document3D doc, bool bActiveFront, bool bAc
 
 `doc` Document3D
 
-`bActiveFront` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActiveFront` bool
 
-`bActiveRear` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bActiveRear` bool
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupDrivelineOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeGroupDrivelineOperation\(JournalParameter\)
 
@@ -113,7 +114,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -133,5 +134,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

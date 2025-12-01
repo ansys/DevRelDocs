@@ -1,11 +1,12 @@
-#  Class ObservableHashSet<T\>
+# Class ObservableHashSet<T\>
+<a id="VM_Collections_ObservableHashSet_1"></a>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
 
 Represents an observable set of values.
 
-```python
+```csharp
 public sealed class ObservableHashSet<T> : HashSet<T>
 ```
 
@@ -17,49 +18,49 @@ The type of elements in the hash set.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[HashSet<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1) ← 
+object ← 
+HashSet<T\> ← 
 [ObservableHashSet<T\>](VM.Collections.ObservableHashSet\-1.md)
 
 ## Constructors
 
 ### <a id="VM_Collections_ObservableHashSet_1__ctor"></a> ObservableHashSet\(\)
 
-```python
+```csharp
 public ObservableHashSet()
 ```
 
 ### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__"></a> ObservableHashSet\(IEnumerable<T\>\)
 
-```python
+```csharp
 public ObservableHashSet(IEnumerable<T> collection)
 ```
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
 ### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEqualityComparer__0__"></a> ObservableHashSet\(IEqualityComparer<T\>\)
 
-```python
+```csharp
 public ObservableHashSet(IEqualityComparer<T> comparer)
 ```
 
 #### Parameters
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__"></a> ObservableHashSet\(IEnumerable<T\>, IEqualityComparer<T\>\)
 
-```python
+```csharp
 public ObservableHashSet(IEnumerable<T> collection, IEqualityComparer<T> comparer)
 ```
 
 #### Parameters
 
-`collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`collection` IEnumerable<T\>
 
-`comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
+`comparer` IEqualityComparer<T\>
 
 ## Methods
 
@@ -67,7 +68,7 @@ public ObservableHashSet(IEnumerable<T> collection, IEqualityComparer<T> compare
 
 Adds the specified element to a set.
 
-```python
+```csharp
 public bool Add(T item)
 ```
 
@@ -79,7 +80,7 @@ The element to add to the set.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the element is added to the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object; false if the element is already present.
 
@@ -87,13 +88,13 @@ true if the element is added to the <xref href="VM.Collections.ObservableHashSet
 
 Removes all elements from a <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-```python
+```csharp
 public void Clear()
 ```
 
 ### <a id="VM_Collections_ObservableHashSet_1_Dispose"></a> Dispose\(\)
 
-```python
+```csharp
 public void Dispose()
 ```
 
@@ -101,13 +102,13 @@ public void Dispose()
 
 Removes all elements in the specified collection from the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-```python
+```csharp
 public void ExceptWith(IEnumerable<T> other)
 ```
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection of items to remove from the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -115,13 +116,13 @@ The collection of items to remove from the <xref href="VM.Collections.Observable
 
 Modifies the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object to contain only elements that are present in that object and in the specified collection.
 
-```python
+```csharp
 public void IntersectWith(IEnumerable<T> other)
 ```
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -129,7 +130,7 @@ The collection to compare to the current <xref href="VM.Collections.ObservableHa
 
 Removes the specified element from a <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-```python
+```csharp
 public bool Remove(T item)
 ```
 
@@ -141,13 +142,13 @@ The element to remove.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if the element is successfully found and removed; otherwise, false. This method returns false if item is not found in the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
 ### <a id="VM_Collections_ObservableHashSet_1_Reset"></a> Reset\(\)
 
-```python
+```csharp
 public void Reset()
 ```
 
@@ -155,13 +156,13 @@ public void Reset()
 
 Modifies the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object to contain only elements that are present either in that object or in the specified collection, but not both.
 
-```python
+```csharp
 public void SymmetricExceptWith(IEnumerable<T> other)
 ```
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -169,24 +170,23 @@ The collection to compare to the current <xref href="VM.Collections.ObservableHa
 
 Modifies the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object to contain all elements that are present in itself, the specified collection, or both.
 
-```python
+```csharp
 public void UnionWith(IEnumerable<T> other)
 ```
 
 #### Parameters
 
-`other` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+`other` IEnumerable<T\>
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
 ### <a id="VM_Collections_ObservableHashSet_1_CollectionChanged"></a> CollectionChanged
 
-```python
+```csharp
 public event NotifyCollectionChangedEventHandler CollectionChanged
 ```
 
 #### Event Type
 
- [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
-
+ NotifyCollectionChangedEventHandler
 

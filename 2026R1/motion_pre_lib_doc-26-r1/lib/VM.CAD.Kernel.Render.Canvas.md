@@ -1,4 +1,5 @@
-#  Class Canvas
+# Class Canvas
+<a id="VM_CAD_Kernel_Render_Canvas"></a>
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public sealed class Canvas : KernelObject, IDrawReference
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Canvas](VM.CAD.Kernel.Render.Canvas.md)
 
@@ -40,7 +41,7 @@ public bool BackplaneCull { set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_Color"></a> Color
 
@@ -52,7 +53,7 @@ public Color Color { set; }
 
 #### Property Value
 
- [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+ Color
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_Document"></a> Document
 
@@ -100,7 +101,7 @@ public double LineWeight { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_TextSize"></a> TextSize
 
@@ -112,7 +113,7 @@ public double TextSize { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_Transparency"></a> Transparency
 
@@ -124,7 +125,7 @@ public double Transparency { set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_WireframeMode"></a> WireframeMode
 
@@ -136,7 +137,7 @@ public bool WireframeMode { set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -176,7 +177,7 @@ public static Canvas Create(IDocument3D doc, bool ThreadSafeCanvas = true)
 
 The document
 
-`ThreadSafeCanvas` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`ThreadSafeCanvas` bool
 
 true if to create thread-safe canvas, otherwise false.
 
@@ -194,7 +195,7 @@ public static Canvas Create(UIntPtr key, IDocument3D doc, bool ThreadSafeCanvas 
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 The key of the canvas
 
@@ -202,7 +203,7 @@ The key of the canvas
 
 The document
 
-`ThreadSafeCanvas` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`ThreadSafeCanvas` bool
 
 true if to create thread-safe canvas, otherwise false.
 
@@ -220,7 +221,7 @@ public void DisplayTheFront(double dDepthRange = -1)
 
 #### Parameters
 
-`dDepthRange` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dDepthRange` double
 
 The depth range. If it is negative value, default value will be used.
 
@@ -248,7 +249,7 @@ The third point
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawArrow_VM_Vector_VM_Vector_System_Double_"></a> DrawArrow\(Vector, Vector, double\)
 
@@ -268,13 +269,13 @@ The start point
 
 The end point
 
-`dArrowSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dArrowSize` double
 
 The arrow size. If dArrowSize is negative or zero value, default value will be used.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawCircle_VM_Vector_System_Double_VM_Vector_System_Boolean_"></a> DrawCircle\(Vector, double, Vector, bool\)
 
@@ -290,7 +291,7 @@ public UIntPtr DrawCircle(Vector vecCenter, double dRad, Vector vecNormal, bool 
 
 The center point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
@@ -298,13 +299,13 @@ The radius
 
 The normal vector
 
-`bFill` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bFill` bool
 
 The fill flag
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawCylinder_VM_Vector_VM_Vector_System_Double_System_Boolean_System_Boolean_"></a> DrawCylinder\(Vector, Vector, double, bool, bool\)
 
@@ -324,18 +325,18 @@ The start point
 
 The end point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
-`bFirstCap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bFirstCap` bool
 
 if first cap and second cap is true, "both";
             if first cap is true and second cap is false, "first";
             if first cap is false and second cap is true, "second";
             if first cap and second cap is false, "none"
 
-`bSecondCap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bSecondCap` bool
 
 if first cap and second cap is true, "both";
             if first cap is true and second cap is false, "first";
@@ -344,7 +345,7 @@ if first cap and second cap is true, "both";
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawCylinder_VM_Vector_VM_Vector_System_Double_System_String_"></a> DrawCylinder\(Vector, Vector, double, string\)
 
@@ -364,17 +365,17 @@ The start point
 
 The end point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
-`strCapOption` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCapOption` string
 
 String specifying which ends to cap, either "first", "second", "none", or "both"
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawDimension_VM_Vector_System_String_"></a> DrawDimension\(Vector, string\)
 
@@ -390,13 +391,13 @@ public UIntPtr DrawDimension(Vector vecCenter, string strText)
 
 The center position.
 
-`strText` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strText` string
 
 The string text.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawIcon_VM_CAD_Kernel_Render_IconInfo_"></a> DrawIcon\(IconInfo\)
 
@@ -426,7 +427,7 @@ public void DrawIcon(IconInfo iconInfo, double dScale)
 
 The icon information
 
-`dScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dScale` double
 
 The scale
 
@@ -450,7 +451,7 @@ The end point
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawMarker_VM_Vector_"></a> DrawMarker\(Vector\)
 
@@ -468,7 +469,7 @@ The center point
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawMesh_System_Int32_System_Int32_System_Collections_Generic_ICollection_VM_Vector__"></a> DrawMesh\(int, int, ICollection<Vector\>\)
 
@@ -480,21 +481,21 @@ public UIntPtr DrawMesh(int nRows, int nColumns, ICollection<Vector> points)
 
 #### Parameters
 
-`nRows` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRows` int
 
 The rows numner
 
-`nColumns` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nColumns` int
 
 The columns number
 
-`points` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`points` ICollection<Vector\>
 
 The collection of points
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawMesh_System_Int32_System_Int32_VM_Vector___"></a> DrawMesh\(int, int, Vector\[\]\)
 
@@ -506,11 +507,11 @@ public UIntPtr DrawMesh(int nRows, int nColumns, Vector[] points)
 
 #### Parameters
 
-`nRows` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nRows` int
 
 The rows numner
 
-`nColumns` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nColumns` int
 
 The columns number
 
@@ -520,7 +521,7 @@ The array of points
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawNurbs_System_Int32_System_Int32_System_Int32_System_Int32_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Single__System_Collections_Generic_ICollection_System_Single__System_Collections_Generic_ICollection_System_Single__"></a> DrawNurbs\(int, int, int, int, ICollection<Vector\>, ICollection<float\>, ICollection<float\>, ICollection<float\>\)
 
@@ -532,41 +533,41 @@ public UIntPtr DrawNurbs(int u_degree, int v_degree, int u_count, int v_count, I
 
 #### Parameters
 
-`u_degree` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`u_degree` int
 
 Degree of the surface in the u direction
 
-`v_degree` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`v_degree` int
 
 Degree of the surface in the v direction
 
-`u_count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`u_count` int
 
 Number of valid control points in the u direction
 
-`v_count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`v_count` int
 
 Number of valid control points in the v direction
 
-`ctrlPts` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`ctrlPts` ICollection<Vector\>
 
 Vector of x-y-z triplets for the coordinates of the control points
 
-`weights` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)\>
+`weights` ICollection<float\>
 
 Control point weights
 
-`u_knots` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)\>
+`u_knots` ICollection<float\>
 
 Knot sequence in the u direction
 
-`v_knots` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)\>
+`v_knots` ICollection<float\>
 
 Knot sequence in the v direction
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawNurbs_System_Int32_System_Int32_System_Int32_System_Int32_VM_Vector___System_Single___System_Single___System_Single___"></a> DrawNurbs\(int, int, int, int, Vector\[\], float\[\], float\[\], float\[\]\)
 
@@ -578,19 +579,19 @@ public UIntPtr DrawNurbs(int u_degree, int v_degree, int u_count, int v_count, V
 
 #### Parameters
 
-`u_degree` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`u_degree` int
 
 Degree of the surface in the u direction
 
-`v_degree` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`v_degree` int
 
 Degree of the surface in the v direction
 
-`u_count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`u_count` int
 
 Number of valid control points in the u direction
 
-`v_count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`v_count` int
 
 Number of valid control points in the v direction
 
@@ -598,21 +599,21 @@ Number of valid control points in the v direction
 
 Vector of x-y-z triplets for the coordinates of the control points
 
-`weights` [float](https://learn.microsoft.com/dotnet/api/system.single)\[\]
+`weights` float\[\]
 
 Control point weights
 
-`u_knots` [float](https://learn.microsoft.com/dotnet/api/system.single)\[\]
+`u_knots` float\[\]
 
 Knot sequence in the u direction
 
-`v_knots` [float](https://learn.microsoft.com/dotnet/api/system.single)\[\]
+`v_knots` float\[\]
 
 Knot sequence in the v direction
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolygon_System_Collections_Generic_ICollection_VM_Vector__"></a> DrawPolygon\(ICollection<Vector\>\)
 
@@ -624,13 +625,13 @@ public UIntPtr DrawPolygon(ICollection<Vector> colPoint)
 
 #### Parameters
 
-`colPoint` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`colPoint` ICollection<Vector\>
 
 The collection of points
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolygon_VM_Vector___"></a> DrawPolygon\(Vector\[\]\)
 
@@ -648,7 +649,7 @@ The array of points
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolyline_System_Collections_Generic_ICollection_VM_Vector__"></a> DrawPolyline\(ICollection<Vector\>\)
 
@@ -660,13 +661,13 @@ public UIntPtr DrawPolyline(ICollection<Vector> colPoint)
 
 #### Parameters
 
-`colPoint` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`colPoint` ICollection<Vector\>
 
 The collection of points
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolyline_VM_Vector___"></a> DrawPolyline\(Vector\[\]\)
 
@@ -684,7 +685,7 @@ The array of points
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawShell_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Int32__System_Double_"></a> DrawShell\(ICollection<Vector\>, ICollection<int\>, double\)
 
@@ -696,21 +697,21 @@ public UIntPtr DrawShell(ICollection<Vector> points, ICollection<int> connectivi
 
 #### Parameters
 
-`points` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`points` ICollection<Vector\>
 
 The collection of points.
 
-`connectivities` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`connectivities` ICollection<int\>
 
 The collection of connectivities.
 
-`dScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dScale` double
 
 The scale to draw.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawShell_VM_Vector___System_Int32___System_Double_"></a> DrawShell\(Vector\[\], int\[\], double\)
 
@@ -726,17 +727,17 @@ public UIntPtr DrawShell(Vector[] points, int[] connectivities, double dScale = 
 
 The array of points.
 
-`connectivities` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`connectivities` int\[\]
 
 The array of connectivities.
 
-`dScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dScale` double
 
 The scale factor to draw.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithFaceNormal_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Int32__System_Collections_Generic_ICollection_VM_Vector__"></a> DrawShellWithFaceNormal\(ICollection<Vector\>, ICollection<int\>, ICollection<Vector\>\)
 
@@ -748,21 +749,21 @@ public UIntPtr DrawShellWithFaceNormal(ICollection<Vector> points, ICollection<i
 
 #### Parameters
 
-`points` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`points` ICollection<Vector\>
 
 The collection of points.
 
-`connectivities` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`connectivities` ICollection<int\>
 
 The collection of connectivities.
 
-`faceNormals` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`faceNormals` ICollection<Vector\>
 
 The collection of face normal vectors.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithFaceNormal_VM_Vector___System_Int32___VM_Vector___"></a> DrawShellWithFaceNormal\(Vector\[\], int\[\], Vector\[\]\)
 
@@ -778,7 +779,7 @@ public UIntPtr DrawShellWithFaceNormal(Vector[] points, int[] connectivities, Ve
 
 The array of points.
 
-`connectivities` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`connectivities` int\[\]
 
 The array of connectivities.
 
@@ -788,7 +789,7 @@ The array of face normal vectors.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithVertexNormal_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Int32__System_Collections_Generic_ICollection_VM_Vector__"></a> DrawShellWithVertexNormal\(ICollection<Vector\>, ICollection<int\>, ICollection<Vector\>\)
 
@@ -800,21 +801,21 @@ public UIntPtr DrawShellWithVertexNormal(ICollection<Vector> points, ICollection
 
 #### Parameters
 
-`points` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`points` ICollection<Vector\>
 
 The collection of points.
 
-`connectivities` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+`connectivities` ICollection<int\>
 
 The collection of connectivities.
 
-`vertexNormals` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`vertexNormals` ICollection<Vector\>
 
 The collection of vertex normal vectors.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithVertexNormal_VM_Vector___System_Int32___VM_Vector___"></a> DrawShellWithVertexNormal\(Vector\[\], int\[\], Vector\[\]\)
 
@@ -830,7 +831,7 @@ public UIntPtr DrawShellWithVertexNormal(Vector[] points, int[] connectivities, 
 
 The array of points.
 
-`connectivities` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`connectivities` int\[\]
 
 The array of connectivities.
 
@@ -840,7 +841,7 @@ The array of vertex normal vectors.
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawSphere_VM_Vector_System_Double_"></a> DrawSphere\(Vector, double\)
 
@@ -856,13 +857,13 @@ public UIntPtr DrawSphere(Vector vecCenter, double dRad)
 
 The center point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawSphere_VM_Vector_System_Double_VM_Vector_VM_Vector_"></a> DrawSphere\(Vector, double, Vector, Vector\)
 
@@ -878,7 +879,7 @@ public UIntPtr DrawSphere(Vector vecCenter, double dRad, Vector vecAxis, Vector 
 
 The center point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
@@ -892,7 +893,7 @@ The orthogonal vector
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawText_VM_Vector_System_String_"></a> DrawText\(Vector, string\)
 
@@ -908,13 +909,13 @@ public UIntPtr DrawText(Vector vecCenter, string strText)
 
 The center position of text
 
-`strText` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strText` string
 
 The text
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawWireCylinder_VM_Vector_VM_Vector_System_Double_"></a> DrawWireCylinder\(Vector, Vector, double\)
 
@@ -934,13 +935,13 @@ The start point
 
 The end point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawWireSphere_VM_Vector_System_Double_"></a> DrawWireSphere\(Vector, double\)
 
@@ -956,13 +957,13 @@ public UIntPtr DrawWireSphere(Vector vecCenter, double dRad)
 
 The center point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_DrawWireSphere_VM_Vector_System_Double_VM_Vector_VM_Vector_"></a> DrawWireSphere\(Vector, double, Vector, Vector\)
 
@@ -978,7 +979,7 @@ public UIntPtr DrawWireSphere(Vector vecCenter, double dRad, Vector vecAxis, Vec
 
 The center point
 
-`dRad` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dRad` double
 
 The radius
 
@@ -992,7 +993,7 @@ The orthogonal vector
 
 #### Returns
 
- [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+ UIntPtr
 
 ### <a id="VM_CAD_Kernel_Render_Canvas_EndGeometryEdit"></a> EndGeometryEdit\(\)
 
@@ -1012,23 +1013,23 @@ public void FastDrawShell(UIntPtr points, ulong nPoints, UIntPtr connectivities,
 
 #### Parameters
 
-`points` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`points` UIntPtr
 
 The points array
 
-`nPoints` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nPoints` ulong
 
 The number of points
 
-`connectivities` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`connectivities` UIntPtr
 
 The connectivities array
 
-`nConnectivities` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nConnectivities` ulong
 
 The number of connectivities
 
-`dScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dScale` double
 
 The scale
 
@@ -1042,19 +1043,19 @@ public void FastDrawShellWithFaceNormal(UIntPtr points, ulong nPoints, UIntPtr c
 
 #### Parameters
 
-`points` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`points` UIntPtr
 
 The points array
 
-`nPoints` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nPoints` ulong
 
 The number of points
 
-`connectivities` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`connectivities` UIntPtr
 
 The connectivities array
 
-`nConnectivities` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+`nConnectivities` ulong
 
 The number of connectivities
 
@@ -1088,7 +1089,7 @@ public T GetExtension<T>(string strExtensionName) where T : KernelExtension
 
 #### Parameters
 
-`strExtensionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strExtensionName` string
 
 The name of the canvas extension.
 
@@ -1114,7 +1115,7 @@ public Canvas GetSubCanvas(string strCanvasName)
 
 #### Parameters
 
-`strCanvasName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCanvasName` string
 
 The canvas name
 
@@ -1144,7 +1145,7 @@ public void SetMarkerSymbol(MarkerType type, double dSize = -1)
 
 The type of the marker to draw.
 
-`dSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dSize` double
 
 The marker size. If it is negative value, default value will be used.
 
@@ -1172,15 +1173,15 @@ public void SetScale(double dX, double dY, double dZ)
 
 #### Parameters
 
-`dX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dX` double
 
 The X coordinate of scale
 
-`dY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dY` double
 
 The Y coordinate of scale
 
-`dZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dZ` double
 
 The Z coordinate of scale
 
@@ -1194,11 +1195,11 @@ public void SetWireframeMode(bool bWireframe, bool bVisibleEdge)
 
 #### Parameters
 
-`bWireframe` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bWireframe` bool
 
 Whether use wire frame mode
 
-`bVisibleEdge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bVisibleEdge` bool
 
 Whether visible edge
 
@@ -1212,7 +1213,7 @@ public void StartGeometryEdit(UIntPtr pKeyGeom)
 
 #### Parameters
 
-`pKeyGeom` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pKeyGeom` UIntPtr
 
 The geometry key
 
@@ -1226,31 +1227,31 @@ public void TrimNurbs(int degree, int cpcount, ICollection<Vector> ctrlPts, ICol
 
 #### Parameters
 
-`degree` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`degree` int
 
 Degree of the curve
 
-`cpcount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`cpcount` int
 
 Number of valid points in control_points
 
-`ctrlPts` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Vector\>
+`ctrlPts` ICollection<Vector\>
 
 The points
 
-`weights` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)\>
+`weights` ICollection<float\>
 
 Control point weights
 
-`knots` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)\>
+`knots` ICollection<float\>
 
 Knot sequence
 
-`start_u` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`start_u` double
 
 Start parameter
 
-`end_u` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`end_u` double
 
 End parameter
 
@@ -1264,11 +1265,11 @@ public void TrimNurbs(int degree, int cpcount, Vector[] ctrlPts, float[] weights
 
 #### Parameters
 
-`degree` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`degree` int
 
 Degree of the curve
 
-`cpcount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`cpcount` int
 
 Number of valid points in control_points
 
@@ -1276,19 +1277,19 @@ Number of valid points in control_points
 
 The points
 
-`weights` [float](https://learn.microsoft.com/dotnet/api/system.single)\[\]
+`weights` float\[\]
 
 Control point weights
 
-`knots` [float](https://learn.microsoft.com/dotnet/api/system.single)\[\]
+`knots` float\[\]
 
 Knot sequence
 
-`start_u` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`start_u` double
 
 Start parameter
 
-`end_u` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`end_u` double
 
 End parameter
 

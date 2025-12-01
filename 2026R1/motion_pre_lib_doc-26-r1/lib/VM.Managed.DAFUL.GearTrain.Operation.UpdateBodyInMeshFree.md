@@ -1,4 +1,5 @@
-#  Class UpdateBodyInMeshFree
+# Class UpdateBodyInMeshFree
+<a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInMeshFree"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class UpdateBodyInMeshFree : OperationInHiddenDocument, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [OperationInHiddenDocument](VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument.md) ← 
 [UpdateBodyInMeshFree](VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInMeshFree.md)
@@ -94,7 +95,7 @@ public UpdateBodyInMeshFree(AssembledBody assem, BodyAnalysisType bodyAnalysisTy
 
 #### Parameters
 
-`assem` AssembledBody
+`assem` [AssembledBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/AssembledBody.cs)
 
 The assem.
 
@@ -102,11 +103,11 @@ The assem.
 
 The body analysis type.
 
-`massPropertyType` SolidBodyProperty.MassPropertyType
+`massPropertyType` [SolidBodyProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs).[MassPropertyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The mass property type.
 
-`massInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`massInfo` string\[\]
 
 The mass information.
 
@@ -124,7 +125,7 @@ public UpdateBodyInMeshFree(Document3D document3D, AssembledBody assem, BodyAnal
 
 The document.
 
-`assem` AssembledBody
+`assem` [AssembledBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/AssembledBody.cs)
 
 The assem.
 
@@ -132,11 +133,11 @@ The assem.
 
 The body analysis type.
 
-`massPropertyType` SolidBodyProperty.MassPropertyType
+`massPropertyType` [SolidBodyProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs).[MassPropertyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 The mass property type.
 
-`massInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`massInfo` string\[\]
 
 The mass information.
 
@@ -174,7 +175,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

@@ -1,4 +1,5 @@
-#  Class SetSelectionObjectOp
+# Class SetSelectionObjectOp
+<a id="VM_Managed_CAD_SetSelectionObjectOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class SetSelectionObjectOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [SetSelectionObjectOp](VM.Managed.CAD.SetSelectionObjectOp.md)
 
@@ -105,7 +106,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_SetSelectionObjectOp_Name"></a> Name
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

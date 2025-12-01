@@ -1,4 +1,5 @@
-#  Class Eye
+# Class Eye
+<a id="VM_Models_Pre_Force_Eye"></a>
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -11,9 +12,9 @@ public class Eye : LinkContainer, IObservableObject, IDisposableObject, ILinkabl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [Eye](VM.Models.Pre.Force.Eye.md)
 
@@ -75,7 +76,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -142,7 +143,7 @@ public PropertyBush ConnectorProperty { get; set; }
 
 #### Property Value
 
- PropertyBush
+ [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
 ### <a id="VM_Models_Pre_Force_Eye_InnerDiameter"></a> InnerDiameter
 
@@ -154,7 +155,7 @@ public ExpressionValueVariable InnerDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Models_Pre_Force_Eye_Location"></a> Location
 
@@ -166,7 +167,7 @@ public (double X, double Z) Location { get; set; }
 
 #### Property Value
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
+ \(double X, double Z\)
 
 ### <a id="VM_Models_Pre_Force_Eye_PositionType"></a> PositionType
 
@@ -208,7 +209,7 @@ public static (Vector Top, Vector Bottom) GetEyeBodyPosition(Vector centerPositi
 
 The center position
 
-`mainLeafWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainLeafWidth` double
 
 The main leaf width.
 
@@ -218,7 +219,7 @@ the reposition matrix.
 
 #### Returns
 
- \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+ \(Vector Top, Vector Bottom\)
 
 The top, bottom position.
 
@@ -232,7 +233,7 @@ public (Vector Top, Vector Bottom) GetEyeBodyPosition(double mainLeafWidth, TMat
 
 #### Parameters
 
-`mainLeafWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainLeafWidth` double
 
 The main leaf width.
 
@@ -242,7 +243,7 @@ The reposition matrix.
 
 #### Returns
 
- \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+ \(Vector Top, Vector Bottom\)
 
 The top, bottom position
 
@@ -262,7 +263,7 @@ The main leaf.
 
 #### Returns
 
- \([double](https://learn.microsoft.com/dotnet/api/system.double) [OuterRadius](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.outerradius), [double](https://learn.microsoft.com/dotnet/api/system.double) [InnerRadius](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.innerradius)\)
+ \(double OuterRadius, double InnerRadius\)
 
 The outer, inner radius
 
@@ -288,5 +289,5 @@ public override void RaisePropertyChanged(string propertyName)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 

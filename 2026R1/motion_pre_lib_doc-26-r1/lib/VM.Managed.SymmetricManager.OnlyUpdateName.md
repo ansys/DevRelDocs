@@ -1,4 +1,5 @@
-#  Delegate SymmetricManager.OnlyUpdateName
+# Delegate SymmetricManager.OnlyUpdateName
+<a id="VM_Managed_SymmetricManager_OnlyUpdateName"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -23,7 +24,7 @@ public delegate bool SymmetricManager.OnlyUpdateName(ObjectBase tool, ObjectBase
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Extension Methods
 

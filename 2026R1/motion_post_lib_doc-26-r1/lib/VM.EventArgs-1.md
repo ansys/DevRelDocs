@@ -1,9 +1,10 @@
-#  Class EventArgs<T\>
+# Class EventArgs<T\>
+<a id="VM_EventArgs_1"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class EventArgs<T> : EventArgs
 ```
 
@@ -13,15 +14,15 @@ public class EventArgs<T> : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [EventArgs<T\>](VM.EventArgs\-1.md)
 
 ## Constructors
 
 ### <a id="VM_EventArgs_1__ctor__0_"></a> EventArgs\(T\)
 
-```python
+```csharp
 public EventArgs(T data)
 ```
 
@@ -33,12 +34,11 @@ public EventArgs(T data)
 
 ### <a id="VM_EventArgs_1_Data"></a> Data
 
-```python
+```csharp
 public T Data { get; }
 ```
 
 #### Property Value
 
  T
-
 

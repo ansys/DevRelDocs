@@ -1,4 +1,5 @@
-#  Class DOESimulationAttribute
+# Class DOESimulationAttribute
+<a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -9,9 +10,9 @@ public class DOESimulationAttribute : AttributeBase, IObservableObject, IDisposa
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 AttributeBase ← 
 [DOESimulationAttribute](VM.Managed.DAFUL.DOE.DOESimulationAttribute.md)
@@ -76,7 +77,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -135,7 +136,7 @@ public int[] RunIndexs { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+ int\[\]
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_TypeOfDOE"></a> TypeOfDOE
 
@@ -155,7 +156,7 @@ public bool UseAppendDateAndTime { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_UseCreateGraphicFile"></a> UseCreateGraphicFile
 
@@ -165,7 +166,7 @@ public bool UseCreateGraphicFile { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_UseCreateModel"></a> UseCreateModel
 
@@ -175,7 +176,7 @@ public bool UseCreateModel { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_UseSimResultPath"></a> UseSimResultPath
 
@@ -185,7 +186,7 @@ public bool UseSimResultPath { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute__Level"></a> \_Level
 
@@ -195,7 +196,7 @@ public uint _Level { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute__ResultPath"></a> \_ResultPath
 
@@ -205,7 +206,7 @@ public string _ResultPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute__Run"></a> \_Run
 
@@ -215,7 +216,7 @@ public double _Run { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -261,7 +262,7 @@ public string GetAbsoluteResultPath(Document document)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_GetAllFiles"></a> GetAllFiles\(\)
 
@@ -271,7 +272,7 @@ public List<string> GetAllFiles()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_GetCaseCount"></a> GetCaseCount\(\)
 
@@ -281,7 +282,7 @@ public int GetCaseCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
@@ -293,7 +294,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 `arg` LinkEventArgs
 
@@ -309,7 +310,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 

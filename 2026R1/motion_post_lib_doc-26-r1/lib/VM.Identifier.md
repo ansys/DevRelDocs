@@ -1,9 +1,10 @@
-#  Struct Identifier
+# Struct Identifier
+<a id="VM_Identifier"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public struct Identifier : IIdentifier
 ```
 
@@ -15,7 +16,7 @@ public struct Identifier : IIdentifier
 
 ### <a id="VM_Identifier_Initial"></a> Initial
 
-```python
+```csharp
 public static Identifier Initial { get; }
 ```
 
@@ -27,7 +28,7 @@ public static Identifier Initial { get; }
 
 ### <a id="VM_Identifier_CompareTo_VM_Identifier_"></a> CompareTo\(Identifier\)
 
-```python
+```csharp
 public int CompareTo(Identifier other)
 ```
 
@@ -37,25 +38,25 @@ public int CompareTo(Identifier other)
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Identifier_CompareTo_System_Object_"></a> CompareTo\(object\)
 
-```python
+```csharp
 public int CompareTo(object obj)
 ```
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Identifier_Equals_VM_Identifier_"></a> Equals\(Identifier\)
 
-```python
+```csharp
 public bool Equals(Identifier other)
 ```
 
@@ -65,35 +66,35 @@ public bool Equals(Identifier other)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Identifier_Equals_System_Object_"></a> Equals\(object\)
 
-```python
+```csharp
 public override bool Equals(object obj)
 ```
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Identifier_GetHashCode"></a> GetHashCode\(\)
 
-```python
+```csharp
 public override int GetHashCode()
 ```
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Identifier_GetNextIdentifier_VM_Identifier_"></a> GetNextIdentifier\(Identifier\)
 
-```python
+```csharp
 public static Identifier GetNextIdentifier(Identifier other)
 ```
 
@@ -107,19 +108,19 @@ public static Identifier GetNextIdentifier(Identifier other)
 
 ### <a id="VM_Identifier_ToString"></a> ToString\(\)
 
-```python
+```csharp
 public override string ToString()
 ```
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Operators
 
 ### <a id="VM_Identifier_op_Equality_VM_Identifier_VM_Identifier_"></a> operator ==\(Identifier, Identifier\)
 
-```python
+```csharp
 public static bool operator ==(Identifier left, Identifier right)
 ```
 
@@ -131,11 +132,11 @@ public static bool operator ==(Identifier left, Identifier right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Identifier_op_GreaterThan_VM_Identifier_VM_Identifier_"></a> operator \>\(Identifier, Identifier\)
 
-```python
+```csharp
 public static bool operator >(Identifier left, Identifier right)
 ```
 
@@ -147,11 +148,11 @@ public static bool operator >(Identifier left, Identifier right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Identifier_op_GreaterThanOrEqual_VM_Identifier_VM_Identifier_"></a> operator \>=\(Identifier, Identifier\)
 
-```python
+```csharp
 public static bool operator >=(Identifier left, Identifier right)
 ```
 
@@ -163,11 +164,11 @@ public static bool operator >=(Identifier left, Identifier right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Identifier_op_Inequality_VM_Identifier_VM_Identifier_"></a> operator \!=\(Identifier, Identifier\)
 
-```python
+```csharp
 public static bool operator !=(Identifier left, Identifier right)
 ```
 
@@ -179,11 +180,11 @@ public static bool operator !=(Identifier left, Identifier right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Identifier_op_LessThan_VM_Identifier_VM_Identifier_"></a> operator <\(Identifier, Identifier\)
 
-```python
+```csharp
 public static bool operator <(Identifier left, Identifier right)
 ```
 
@@ -195,11 +196,11 @@ public static bool operator <(Identifier left, Identifier right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Identifier_op_LessThanOrEqual_VM_Identifier_VM_Identifier_"></a> operator <=\(Identifier, Identifier\)
 
-```python
+```csharp
 public static bool operator <=(Identifier left, Identifier right)
 ```
 
@@ -211,6 +212,5 @@ public static bool operator <=(Identifier left, Identifier right)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

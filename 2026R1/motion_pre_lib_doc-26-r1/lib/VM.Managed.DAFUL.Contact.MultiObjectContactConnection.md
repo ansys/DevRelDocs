@@ -1,4 +1,5 @@
-#  Class MultiObjectContactConnection
+# Class MultiObjectContactConnection
+<a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection"></a>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -11,11 +12,11 @@ public class MultiObjectContactConnection : MultiObjectConnection, IObservableOb
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
-MultiObjectConnection ← 
+[MultiObjectConnection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs) ← 
 [MultiObjectContactConnection](VM.Managed.DAFUL.Contact.MultiObjectContactConnection.md)
 
 #### Implements
@@ -33,9 +34,9 @@ IVerifiable
 
 #### Inherited Members
 
-MultiObjectConnection.GetConnection\(object, object\), 
-MultiObjectConnection.Reset\(\), 
-MultiObjectConnection.Connection, 
+[MultiObjectConnection.GetConnection\(object, object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectConnection.Reset\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
+[MultiObjectConnection.Connection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/MultiObject.cs), 
 LinkContainer.SetModified\(\), 
 LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
 LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
@@ -79,7 +80,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -160,11 +161,11 @@ public override ObjectBase GetConnection(object obBase, object obAction)
 
 #### Parameters
 
-`obBase` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obBase` object
 
 The base object for the connection object.
 
-`obAction` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obAction` object
 
 The action object for the connection object.
 

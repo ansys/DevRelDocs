@@ -1,4 +1,5 @@
-#  Class PythonFunctionIntellisenseService
+# Class PythonFunctionIntellisenseService
+<a id="VM_Models_Pre_PythonFunctionIntellisenseService"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -11,7 +12,7 @@ public static class PythonFunctionIntellisenseService
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PythonFunctionIntellisenseService](VM.Models.Pre.PythonFunctionIntellisenseService.md)
 
 #### Extension Methods
@@ -32,7 +33,7 @@ public static EventHandler OnUpdatePythonModule
 
 #### Field Value
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ## Methods
 
@@ -50,13 +51,13 @@ public static IEnumerable<string> GetImportStrings(IDocument document, bool incl
 
 The <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xref> of user defined python modules.
 
-`includeAddToPathCommand` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`includeAddToPathCommand` bool
 
 if true, include command to add path of module directory.
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 
 The header strings.
 
@@ -76,7 +77,7 @@ The <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xr
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The path to the reorganized user defined python module.
 
@@ -92,7 +93,7 @@ public static bool IsRegistered(IDocument document)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Pre_PythonFunctionIntellisenseService_Register_VM_Models_Pre_IDocument_"></a> Register\(IDocument\)
 
@@ -110,7 +111,7 @@ the <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xr
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Raised when document is null.
 

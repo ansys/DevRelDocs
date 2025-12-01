@@ -1,4 +1,5 @@
-#  Delegate Document.ActiveDocChange
+# Delegate Document.ActiveDocChange
+<a id="VM_Managed_Document_ActiveDocChange"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

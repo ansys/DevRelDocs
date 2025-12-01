@@ -16,16 +16,18 @@
   items:
   - name: Result File Reader
     href: example_result_file_reader.md  
+  - name: Analysis for Operation API
+    href: example_analysis_for_operation_api.md
   - name: Animation for Operation API
     href: example_animation_for_operation_api.md
   - name: Chart for Operation API
     href: example_chart_for_operation_api.md
   - name: Export for Operation API
-    href: example_export_for_operation_api.md
-  - name: Analysis for Operation API
-    href: example_analysis_for_operation_api.md
+    href: example_export_for_operation_api.md  
+  - name: Import for Operation API
+    href: example_Import_for_operation_api.md
   - name: View for Operation API
-    href: example_view_for_operation_api.md
+    href: example_view_for_operation_api.md  
 - name: Trobleshooting
   href: troubleshooting.md
 - name: Reference
@@ -185,6 +187,10 @@
       items:
       - name: ApplicationHandler
         href: lib/VM.API.Post.Operations.ApplicationHandler.md
+      - name: DurabilityAnalysis
+        href: lib/VM.API.Post.Operations.DurabilityAnalysis.md
+      - name: Export
+        href: lib/VM.API.Post.Operations.Export.md
       - name: OperationAPIService
         href: lib/VM.API.Post.Operations.OperationAPIService.md
   - name: VM.Collections
@@ -219,19 +225,30 @@
       items:
       - name: Convert
         href: lib/VM.Managed.Utility.Convert.md
+  - name: VM.Operations.Post
+    href: lib/VM.Operations.Post.md
+    items:
+    - name: Classes
+      items:
+      - name: DurabilityAnalysisParameter
+        href: lib/VM.Operations.Post.DurabilityAnalysisParameter.md
+      - name: FatigueParameter
+        href: lib/VM.Operations.Post.FatigueParameter.md
   - name: VM.Operations.Post.Interfaces
     href: lib/VM.Operations.Post.Interfaces.md
     items:
     - name: Interfaces
       items:
-      - name: IOperationAnalysisResultViewModel
-        href: lib/VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md
+      - name: IOperationAnalysisResult
+        href: lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.md
+      - name: IOperationFEProperty
+        href: lib/VM.Operations.Post.Interfaces.IOperationFEProperty.md
+      - name: IOperationMaterial
+        href: lib/VM.Operations.Post.Interfaces.IOperationMaterial.md
       - name: IOperationsAnimation
         href: lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md
       - name: IOperationsAxisViewModelBase
         href: lib/VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.md
-      - name: IOperationsBase
-        href: lib/VM.Operations.Post.Interfaces.IOperationsBase.md
       - name: IOperationsCSYSViewModel
         href: lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md
       - name: IOperationsCalculusLineDataSeriesViewModel
@@ -248,8 +265,8 @@
         href: lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md
       - name: IOperationsElementViewModel
         href: lib/VM.Operations.Post.Interfaces.IOperationsElementViewModel.md
-      - name: IOperationsFEBodyViewModel
-        href: lib/VM.Operations.Post.Interfaces.IOperationsFEBodyViewModel.md
+      - name: IOperationsFEBody
+        href: lib/VM.Operations.Post.Interfaces.IOperationsFEBody.md
       - name: IOperationsFFTLineDataSeriesViewModel
         href: lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md
       - name: IOperationsFrequencyViewModel

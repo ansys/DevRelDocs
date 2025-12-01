@@ -1,4 +1,5 @@
-#  Class StepItemMetadata
+# Class StepItemMetadata
+<a id="VM_Models_StepItemMetadata"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -9,7 +10,7 @@ public class StepItemMetadata : IStepItemMetadata
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [StepItemMetadata](VM.Models.StepItemMetadata.md)
 
 #### Implements
@@ -40,5 +41,5 @@ public Type StepType { get; set; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 

@@ -1,4 +1,5 @@
-#  Interface IStepItemMetadata
+# Interface IStepItemMetadata
+<a id="VM_Models_IStepItemMetadata"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -23,5 +24,5 @@ Type StepType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 

@@ -16,10 +16,11 @@ The Ansys Motion Standalone Postprocessor C# Library is installed with the Ansys
 Operation script is a useful functionality that allows you to execute functions provided by Postprocess by using Python Script, allowing you to automate repetitive and time-consuming operations using Python Script.
 For example, you can use operation script to save time by automating everything from creating screens, adding results, Postprocessor results, and importing and using other library modules. (Some features may not be available.)
 Accessible functionalities by Python operation script:
+* [Analysis](example_analysis_for_operation_api.md)
 * [Animation](example_animation_for_operation_api.md)
 * [Chart](example_chart_for_operation_api.md)
 * [Export](example_export_for_operation_api.md)
-* [Analysis](example_analysis_for_operation_api.md)
+* [Import](example_Import_for_operation_api.md)
 * [View](example_view_for_operation_api.md)
 
 ## Result File Reader

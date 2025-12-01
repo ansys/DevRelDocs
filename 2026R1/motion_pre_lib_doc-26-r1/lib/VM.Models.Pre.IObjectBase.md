@@ -1,4 +1,5 @@
-#  Interface IObjectBase
+# Interface IObjectBase
+<a id="VM_Models_Pre_IObjectBase"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -52,5 +53,5 @@ event EventHandler<Identifier> Destroying
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
+ EventHandler<Identifier\>
 

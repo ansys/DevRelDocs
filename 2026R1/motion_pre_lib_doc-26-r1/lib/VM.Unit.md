@@ -1,4 +1,5 @@
-#  Class Unit
+# Class Unit
+<a id="VM_Unit"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -11,7 +12,7 @@ public sealed class Unit
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Unit](VM.Unit.md)
 
 #### Extension Methods
@@ -68,11 +69,11 @@ public Unit(SerializationInfo information, StreamingContext context)
 
 #### Parameters
 
-`information` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`information` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context
 
@@ -88,7 +89,7 @@ public string Angle { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Force"></a> Force
 
@@ -100,7 +101,7 @@ public string Force { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Handle"></a> Handle
 
@@ -112,7 +113,7 @@ public IntPtr Handle { get; }
 
 #### Property Value
 
- [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
+ IntPtr
 
 ### <a id="VM_Unit_Length"></a> Length
 
@@ -124,7 +125,7 @@ public string Length { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Mass"></a> Mass
 
@@ -136,7 +137,7 @@ public string Mass { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Power"></a> Power
 
@@ -148,7 +149,7 @@ public string Power { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Temperature"></a> Temperature
 
@@ -160,7 +161,7 @@ public string Temperature { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Time"></a> Time
 
@@ -172,7 +173,7 @@ public string Time { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Work"></a> Work
 
@@ -184,7 +185,7 @@ public string Work { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Unit_Item_System_String_"></a> this\[string\]
 
@@ -196,7 +197,7 @@ public string this[string type] { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -214,13 +215,13 @@ public double ConvertTo(Unit referenceUnit, string stringType)
 
 The reference unit
 
-`stringType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringType` string
 
 The type
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The convert data
 
@@ -238,11 +239,11 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Unit_GetFactor_System_String_"></a> GetFactor\(string\)
 
@@ -254,13 +255,13 @@ public double GetFactor(string type)
 
 #### Parameters
 
-`type` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`type` string
 
 The unit type
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The factor
 
@@ -272,7 +273,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Unit_Initialize_System_String_"></a> Initialize\(string\)
 
@@ -284,7 +285,7 @@ public static void Initialize(string stringUnitPath)
 
 #### Parameters
 
-`stringUnitPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringUnitPath` string
 
 The path of unit.
 
@@ -298,13 +299,13 @@ public bool IsContain(string stringType)
 
 #### Parameters
 
-`stringType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`stringType` string
 
 The type of unit.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if contains unit type, otherwise false.
 
@@ -330,7 +331,7 @@ The unit to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two units are equal, otherwise false.
 
@@ -354,7 +355,7 @@ The unit to compare
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true if two units are not equal, otherwise false.
 

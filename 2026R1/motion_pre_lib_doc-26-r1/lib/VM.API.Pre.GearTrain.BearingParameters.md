@@ -1,4 +1,5 @@
-#  Struct BearingParameters
+# Struct BearingParameters
+<a id="VM_API_Pre_GearTrain_BearingParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -29,11 +30,11 @@ public BearingParameters(string bodyName, string bearingName, Vector position)
 
 #### Parameters
 
-`bodyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bodyName` string
 
 The bodyName of the bearing parameters.
 
-`bearingName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`bearingName` string
 
 The bearingName of the bearing parameters.
 
@@ -53,7 +54,7 @@ public string BearingName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_BearingParameters_BodyName"></a> BodyName
 
@@ -65,7 +66,7 @@ public string BodyName { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_BearingParameters_Position"></a> Position
 

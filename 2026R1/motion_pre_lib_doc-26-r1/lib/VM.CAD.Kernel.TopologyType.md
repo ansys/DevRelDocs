@@ -1,4 +1,5 @@
-#  Enum TopologyType
+# Enum TopologyType
+<a id="VM_CAD_Kernel_TopologyType"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

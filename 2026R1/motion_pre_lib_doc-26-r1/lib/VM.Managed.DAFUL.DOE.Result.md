@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.DOE.Result
+# Namespace VM.Managed.DAFUL.DOE.Result
+<a id="VM_Managed_DAFUL_DOE_Result"></a>
 
 ### Classes
 

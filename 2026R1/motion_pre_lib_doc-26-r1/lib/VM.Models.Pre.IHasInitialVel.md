@@ -1,4 +1,5 @@
-#  Interface IHasInitialVel
+# Interface IHasInitialVel
+<a id="VM_Models_Pre_IHasInitialVel"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -27,7 +28,7 @@ double InitialVelocity { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 
@@ -41,7 +42,7 @@ double GetConvertedInitialVelocity()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The initial velocity converted to unit.
 

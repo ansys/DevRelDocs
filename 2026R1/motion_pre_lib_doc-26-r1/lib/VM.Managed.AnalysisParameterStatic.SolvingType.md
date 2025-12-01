@@ -1,4 +1,5 @@
-#  Enum AnalysisParameterStatic.SolvingType
+# Enum AnalysisParameterStatic.SolvingType
+<a id="VM_Managed_AnalysisParameterStatic_SolvingType"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,5 @@
-#  Enum UserSubroutine.UserDefinedDisplay.DisplayType
+# Enum UserSubroutine.UserDefinedDisplay.DisplayType
+<a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplayType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  

@@ -1,4 +1,5 @@
-#  Class IConnectable
+# Class IConnectable
+<a id="VM_Managed_Symmetric_IConnectable"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class IConnectable : ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IConnectable](VM.Managed.Symmetric.IConnectable.md)
 
 #### Implements
@@ -46,7 +47,7 @@ public virtual bool Initialize(ISymmetricManager Manager)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -80,7 +81,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

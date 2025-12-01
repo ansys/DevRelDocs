@@ -1,4 +1,5 @@
-#  Interface IFaceInformation
+# Interface IFaceInformation
+<a id="VM_Managed_IFaceInformation"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -39,13 +40,13 @@ The matrix.
 
 The matrix of compare.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The minimum distance.
 
@@ -75,13 +76,13 @@ The matrix of compare.
 
 The direction.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 The minimum distance and direction.
 
@@ -95,7 +96,7 @@ void GetPointAndConnectivity(FacetOption facetOptions, ref VectorBase[] arPt, re
 
 #### Parameters
 
-`facetOptions` FacetOption
+`facetOptions` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 The facet options.
 
@@ -103,11 +104,11 @@ The facet options.
 
 The facet point array.
 
-`arConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arConnectivity` int\[\]
 
 The facet connetivity array.
 
-`arNumOfConnectivity` [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+`arNumOfConnectivity` int\[\]
 
 The number of connectivity node array.
 
@@ -115,7 +116,7 @@ The number of connectivity node array.
 
 The reference.
 
-`dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dLengthFactor` double
 
 The length factor.
 

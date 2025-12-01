@@ -1,4 +1,5 @@
-#  Class Topology.IndexContainer
+# Class Topology.IndexContainer
+<a id="VM_Managed_CAD_Topology_IndexContainer"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,9 +12,9 @@ public sealed class Topology.IndexContainer : LinkContainer, IObservableObject, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 [LinkContainer](VM.Managed.LinkContainer.md) ← 
 [Topology.IndexContainer](VM.Managed.CAD.Topology.IndexContainer.md)
 
@@ -83,5 +84,5 @@ public int Index { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

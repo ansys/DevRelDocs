@@ -1,4 +1,5 @@
-#  Class DrawInfoPointList
+# Class DrawInfoPointList
+<a id="VM_CAD_Builders_DrawInfoPointList"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public class DrawInfoPointList : DrawInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DrawInfo](VM.CAD.Builders.DrawInfo.md) ← 
 [DrawInfoPointList](VM.CAD.Builders.DrawInfoPointList.md)
 
@@ -41,7 +42,7 @@ public bool Closed { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Builders_DrawInfoPointList_Points"></a> Points
 
@@ -53,5 +54,5 @@ public List<Vector> Points { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+ List<Vector\>
 

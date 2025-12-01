@@ -1,4 +1,5 @@
-#  Interface IHasLink
+# Interface IHasLink
+<a id="VM_Managed_Collections_IHasLink"></a>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +24,7 @@ void GetLink(ICollection<ILink> colLinks)
 
 #### Parameters
 
-`colLinks` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[ILink](VM.Managed.ILink.md)\>
+`colLinks` ICollection<[ILink](VM.Managed.ILink.md)\>
 
 ### <a id="VM_Managed_Collections_IHasLink_RemoveLink_VM_Managed_ILink_"></a> RemoveLink\(ILink\)
 
@@ -41,7 +42,7 @@ The link to remove.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 true when need to erase this object, otherwise false.
 

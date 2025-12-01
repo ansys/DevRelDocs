@@ -1,4 +1,5 @@
-#  Class SolidBodyTireSimple
+# Class SolidBodyTireSimple
+<a id="VM_Managed_Symmetric_CAD_Tire_SolidBodyTireSimple"></a>
 
 Namespace: [VM.Managed.Symmetric.CAD.Tire](VM.Managed.Symmetric.CAD.Tire.md)  
 Assembly: VMSymTire.dll  
@@ -9,8 +10,8 @@ public class SolidBodyTireSimple : SolidBodyGeometry, ISymmetricUpdater, ISymmet
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-SolidBodyGeometry ← 
+object ← 
+[SolidBodyGeometry](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/SolidBodyGeometry.cs) ← 
 [SolidBodyTireSimple](VM.Managed.Symmetric.CAD.Tire.SolidBodyTireSimple.md)
 
 #### Implements
@@ -21,9 +22,9 @@ ISymmetricUpdaterAfterAddDoc
 
 #### Inherited Members
 
-SolidBodyGeometry.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-SolidBodyGeometry.Initialize\(ISymmetricManager\), 
-SolidBodyGeometry.UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
+[SolidBodyGeometry.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/SolidBodyGeometry.cs), 
+[SolidBodyGeometry.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/SolidBodyGeometry.cs), 
+[SolidBodyGeometry.UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/SolidBodyGeometry.cs)
 
 #### Extension Methods
 
@@ -55,7 +56,7 @@ public override bool Initialize(ISymmetricManager Manager)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -89,7 +90,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -123,7 +124,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

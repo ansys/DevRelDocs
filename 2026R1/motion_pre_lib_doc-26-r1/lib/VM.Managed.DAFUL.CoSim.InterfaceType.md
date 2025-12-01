@@ -1,4 +1,5 @@
-#  Enum InterfaceType
+# Enum InterfaceType
+<a id="VM_Managed_DAFUL_CoSim_InterfaceType"></a>
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  

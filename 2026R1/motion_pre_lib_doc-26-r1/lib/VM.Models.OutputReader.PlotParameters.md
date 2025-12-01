@@ -1,4 +1,5 @@
-#  Class PlotParameters
+# Class PlotParameters
+<a id="VM_Models_OutputReader_PlotParameters"></a>
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  
@@ -9,7 +10,7 @@ public class PlotParameters
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PlotParameters](VM.Models.OutputReader.PlotParameters.md)
 
 #### Derived
@@ -40,7 +41,7 @@ public object CSYS { get; set; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Models_OutputReader_PlotParameters_Paths"></a> Paths
 
@@ -50,7 +51,7 @@ public IEnumerable<string> Paths { get; set; }
 
 #### Property Value
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IEnumerable<string\>
 
 ### <a id="VM_Models_OutputReader_PlotParameters_PlotDataType"></a> PlotDataType
 
@@ -70,5 +71,5 @@ public string Target { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

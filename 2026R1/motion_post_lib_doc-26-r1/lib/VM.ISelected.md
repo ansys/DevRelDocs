@@ -1,9 +1,10 @@
-#  Interface ISelected
+# Interface ISelected
+<a id="VM_ISelected"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface ISelected
 ```
 
@@ -11,12 +12,11 @@ public interface ISelected
 
 ### <a id="VM_ISelected_IsSelected"></a> IsSelected
 
-```python
+```csharp
 bool IsSelected { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

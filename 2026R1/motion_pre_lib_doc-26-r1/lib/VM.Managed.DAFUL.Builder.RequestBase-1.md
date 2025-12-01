@@ -1,4 +1,5 @@
-#  Class RequestBase<T\>
+# Class RequestBase<T\>
+<a id="VM_Managed_DAFUL_Builder_RequestBase_1"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +14,7 @@ public class RequestBase<T> : BuilderNamed<T>, IBuilder where T : RequestBase, n
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderBase<T\>](VM.Managed.DAFUL.Builder.BuilderBase\-1.md) ← 
 [BuilderSymmetric<T\>](VM.Managed.DAFUL.Builder.BuilderSymmetric\-1.md) ← 
 [BuilderNamed<T\>](VM.Managed.DAFUL.Builder.BuilderNamed\-1.md) ← 

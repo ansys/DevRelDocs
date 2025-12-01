@@ -1,4 +1,5 @@
-#  Interface IScenarioService
+# Interface IScenarioService
+<a id="VM_Models_Project_IScenarioService"></a>
 
 Namespace: [VM.Models.Project](VM.Models.Project.md)  
 Assembly: VM.Models.Project.dll  
@@ -29,7 +30,7 @@ void Compose(IEnumerable<Assembly> assemblies)
 
 #### Parameters
 
-`assemblies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)\>
+`assemblies` IEnumerable<Assembly\>
 
 ### <a id="VM_Models_Project_IScenarioService_ContainsName_System_String_"></a> ContainsName\(string\)
 
@@ -39,11 +40,11 @@ bool ContainsName(string typeName)
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Project_IScenarioService_TryGetInstance_System_String_VM_Models_IProjectDocument_System_String_VM_Models_IScenario__"></a> TryGetInstance\(string, IProjectDocument, string, out IScenario\)
 
@@ -53,17 +54,17 @@ bool TryGetInstance(string typeName, IProjectDocument parent, string scenarioNam
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
 `parent` [IProjectDocument](VM.Models.IProjectDocument.md)
 
-`scenarioName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`scenarioName` string
 
 `scenario` [IScenario](VM.Models.IScenario.md)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Models_Project_IScenarioService_TryGetType_System_String_System_Type__"></a> TryGetType\(string, out Type\)
 
@@ -73,11 +74,11 @@ bool TryGetType(string typeName, out Type scenarioType)
 
 #### Parameters
 
-`typeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`typeName` string
 
-`scenarioType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`scenarioType` Type
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

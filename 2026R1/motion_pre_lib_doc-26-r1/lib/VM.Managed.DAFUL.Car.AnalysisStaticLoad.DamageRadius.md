@@ -1,4 +1,5 @@
-#  Class AnalysisStaticLoad.DamageRadius
+# Class AnalysisStaticLoad.DamageRadius
+<a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadius"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisStaticLoad.DamageRadius
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisStaticLoad.DamageRadius](VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageRadius.md)
 
 #### Extension Methods
@@ -56,7 +57,7 @@ public double L { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadius_R"></a> R
 
@@ -68,7 +69,7 @@ public double R { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Enum LayerVisibility
+# Enum LayerVisibility
+<a id="VM_CAD_Kernel_LayerVisibility"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

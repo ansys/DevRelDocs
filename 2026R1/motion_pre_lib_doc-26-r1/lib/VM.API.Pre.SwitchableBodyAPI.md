@@ -1,4 +1,5 @@
-#  Class SwitchableBodyAPI
+# Class SwitchableBodyAPI
+<a id="VM_API_Pre_SwitchableBodyAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class SwitchableBodyAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SwitchableBodyAPI](VM.API.Pre.SwitchableBodyAPI.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public static Obj CreateSwitchableBody(this SubSystemDocument doc, IEnumerable<O
 
 #### Parameters
 
-`doc` SubSystemDocument
+`doc` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a switchable body.
 
-`bodies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`bodies` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 The connectable bodies of a switchable body.
 
@@ -45,7 +46,7 @@ The connectable bodies of a switchable body.
 
 The selected connectable body of a switchable body.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of  a switchable body.
 
@@ -61,15 +62,15 @@ The new <xref href="VM.Managed.DAFUL.SwitchableBody" data-throw-if-not-resolved=
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'doc', 'bodies' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'bodies', 'selectedBody' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the element of 'bodies' does not contain 'selectedBody'.
 

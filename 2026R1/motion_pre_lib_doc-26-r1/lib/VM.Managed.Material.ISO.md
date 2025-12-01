@@ -1,4 +1,5 @@
-#  Class ISO
+# Class ISO
+<a id="VM_Managed_Material_ISO"></a>
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -11,9 +12,9 @@ public class ISO : MaterialBase, IObservableObject, IDisposableObject, ILinkable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 [SubEntity](VM.Managed.SubEntity.md) ← 
@@ -27,7 +28,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -162,7 +163,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -201,7 +202,7 @@ public ISO(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the isotropic material.
 
@@ -217,7 +218,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Material_ISO_DisableHScaleFactor"></a> DisableHScaleFactor
 
@@ -230,7 +231,7 @@ public bool DisableHScaleFactor { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Material_ISO_HeatCapacityMatrix"></a> HeatCapacityMatrix
 
@@ -254,7 +255,7 @@ public ExpressionValueVariable PoissonRatio { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Material_ISO_ReferenceTemperature"></a> ReferenceTemperature
 
@@ -266,7 +267,7 @@ public ExpressionValueVariable ReferenceTemperature { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Material_ISO_ShearModulus"></a> ShearModulus
 
@@ -278,7 +279,7 @@ public ExpressionValueVariable ShearModulus { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Material_ISO_SpecificHeat"></a> SpecificHeat
 
@@ -290,7 +291,7 @@ public ExpressionValueVariable SpecificHeat { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Material_ISO_ThermalConductivity"></a> ThermalConductivity
 
@@ -302,7 +303,7 @@ public ExpressionValueVariable ThermalConductivity { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Material_ISO_ThermalExpansionCoefficient"></a> ThermalExpansionCoefficient
 
@@ -314,7 +315,7 @@ public ExpressionValueVariable ThermalExpansionCoefficient { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_Material_ISO_UseShearModulusWithUserInput"></a> UseShearModulusWithUserInput
 
@@ -327,7 +328,7 @@ public bool UseShearModulusWithUserInput { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Material_ISO_YoungsModulus"></a> YoungsModulus
 
@@ -339,7 +340,7 @@ public ExpressionValueVariable YoungsModulus { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ## Methods
 
@@ -351,13 +352,13 @@ public static double GetShearModulus(double youngsModulus, double poissonsRatio)
 
 #### Parameters
 
-`youngsModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`youngsModulus` double
 
-`poissonsRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`poissonsRatio` double
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_Material_ISO_GetShearModulusString_System_Double_System_Double_"></a> GetShearModulusString\(double, double\)
 
@@ -367,13 +368,13 @@ public static string GetShearModulusString(double youngsModulus, double poissons
 
 #### Parameters
 
-`youngsModulus` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`youngsModulus` double
 
-`poissonsRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`poissonsRatio` double
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Material_ISO_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -399,7 +400,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The linked object.
 
@@ -417,7 +418,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -431,7 +432,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -445,7 +446,7 @@ public void SetDisableHScaleFactor(bool bFactor)
 
 #### Parameters
 
-`bFactor` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bFactor` bool
 
 The [disable Hscale] factor.
 
@@ -459,7 +460,7 @@ public void SetUseShearModulusWithUserInput(bool bInput)
 
 #### Parameters
 
-`bInput` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bInput` bool
 
 The [use shear modulus with user input].
 
@@ -473,7 +474,7 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

@@ -1,4 +1,5 @@
-#  Class IEnableImpl
+# Class IEnableImpl
+<a id="VM_Managed_IEnableImpl"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class IEnableImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IEnableImpl](VM.Managed.IEnableImpl.md)
 
 #### Extension Methods
@@ -46,7 +47,7 @@ The object has name.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified object is enable; otherwise, <code>false</code>.
 
@@ -64,7 +65,7 @@ public static void SetEnabled(INamed namedObj, bool bEnabled)
 
 The object has name.
 
-`bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnabled` bool
 
 whether or not enabled.
 

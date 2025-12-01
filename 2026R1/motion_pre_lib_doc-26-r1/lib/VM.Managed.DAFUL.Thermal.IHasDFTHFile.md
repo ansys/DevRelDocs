@@ -1,4 +1,5 @@
-#  Interface IHasDFTHFile
+# Interface IHasDFTHFile
+<a id="VM_Managed_DAFUL_Thermal_IHasDFTHFile"></a>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -27,5 +28,5 @@ string DFTHRelativeFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

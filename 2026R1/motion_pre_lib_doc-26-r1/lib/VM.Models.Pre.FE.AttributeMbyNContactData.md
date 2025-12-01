@@ -1,4 +1,5 @@
-#  Struct AttributeMbyNContactData
+# Struct AttributeMbyNContactData
+<a id="VM_Models_Pre_FE_AttributeMbyNContactData"></a>
 
 Namespace: [VM.Models.Pre.FE](VM.Models.Pre.FE.md)  
 Assembly: VM.Models.Pre.FE.dll  
@@ -19,7 +20,7 @@ public AttributeMbyNContactData(VectorBase centerPosition, bool isUP)
 
 `centerPosition` VectorBase
 
-`isUP` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isUP` bool
 
 ## Properties
 
@@ -41,5 +42,5 @@ public bool IsUP { readonly get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

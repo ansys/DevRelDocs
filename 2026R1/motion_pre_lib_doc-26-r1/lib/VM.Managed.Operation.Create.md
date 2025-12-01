@@ -1,4 +1,5 @@
-#  Class Create
+# Class Create
+<a id="VM_Managed_Operation_Create"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -11,7 +12,7 @@ public class Create : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [Create](VM.Managed.Operation.Create.md)
 
@@ -101,7 +102,7 @@ public Create(string strInitializerXml)
 
 #### Parameters
 
-`strInitializerXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strInitializerXml` string
 
 The STR initializer XML.
 
@@ -115,7 +116,7 @@ protected string m_strInitializerXml
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Properties
 
@@ -129,7 +130,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_Create_Name"></a> Name
 
@@ -141,7 +142,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Operation_Create_UseMacro"></a> UseMacro
 
@@ -153,7 +154,7 @@ public override bool UseMacro { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -175,29 +176,29 @@ protected virtual bool ExecutePickOperation(XmlDocument dom, string[] arPickResu
 
 #### Parameters
 
-`dom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`dom` XmlDocument
 
 The DOM.
 
-`arPickResult` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arPickResult` string\[\]
 
 The ar pick result.
 
-`arPickOp` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arPickOp` string\[\]
 
 The ar pick op.
 
-`start` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`start` int
 
 The start.
 
-`end` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`end` int
 
 The end.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_Operation_Create_PostExecute"></a> PostExecute\(\)
 

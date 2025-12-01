@@ -1,4 +1,5 @@
-#  Class UpdateAssembledBodyEvent
+# Class UpdateAssembledBodyEvent
+<a id="VM_Managed_DAFUL_History_UpdateAssembledBodyEvent"></a>
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  
@@ -11,23 +12,23 @@ public class UpdateAssembledBodyEvent : HistoryEvent
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-HistoryEvent ← 
+object ← 
+[HistoryEvent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs) ← 
 [UpdateAssembledBodyEvent](VM.Managed.DAFUL.History.UpdateAssembledBodyEvent.md)
 
 #### Inherited Members
 
-HistoryEvent.ClearEvent\(bool\), 
-HistoryEvent.Undo\(HistoryEventArgs\), 
-HistoryEvent.Redo\(HistoryEventArgs\), 
-HistoryEvent.Clear\(bool\), 
-HistoryEvent.BeforeUndo\(HistoryEventArgs\), 
-HistoryEvent.AfterUndo\(HistoryEventArgs\), 
-HistoryEvent.BeforeRedo\(HistoryEventArgs\), 
-HistoryEvent.AfterRedo\(HistoryEventArgs\), 
-HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\), 
-HistoryEvent.AfterAdded\(HistoryEventArgs\), 
-HistoryEvent.IsValid
+[HistoryEvent.ClearEvent\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Undo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Redo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.Clear\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterUndo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterRedo\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.BeforeAdded\(AddToHistoryManagerEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.AfterAdded\(HistoryEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs), 
+[HistoryEvent.IsValid](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEvent.cs)
 
 #### Extension Methods
 
@@ -49,7 +50,7 @@ public UpdateAssembledBodyEvent(PartDocument doc, UIntPtr key)
 
 `doc` [PartDocument](VM.Managed.DAFUL.PartDocument.md)
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 ## Methods
 
@@ -63,7 +64,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 The event argument
 
@@ -77,7 +78,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 The event argument
 
@@ -91,7 +92,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 #### Parameters
 
-`bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bReserveReferenceCount` bool
 
 true to reserve reference count, otherwise false.
 
@@ -105,7 +106,7 @@ protected override void Redo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 The event argument
 
@@ -119,7 +120,7 @@ protected override void Undo(HistoryEventArgs args)
 
 #### Parameters
 
-`args` HistoryEventArgs
+`args` [HistoryEventArgs](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/HistoryEventArgs.cs)
 
 The event argument
 

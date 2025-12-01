@@ -1,4 +1,5 @@
-#  Class Model
+# Class Model
+<a id="VM_Managed_DAFUL_Pre_Model"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class Model : FileGroup<Model.ModelItemGroup, GroupItem>, IFileGroup
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Group<Model.ModelItemGroup, GroupItem\>](VM.Managed.DAFUL.Pre.Group\-2.md) ← 
 [FileGroup<Model.ModelItemGroup, GroupItem\>](VM.Managed.DAFUL.Pre.FileGroup\-2.md) ← 
 [Model](VM.Managed.DAFUL.Pre.Model.md)
@@ -56,7 +57,7 @@ public static string DefaultDirectory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Pre_Model_Toolkit"></a> Toolkit
 
@@ -68,7 +69,7 @@ public string Toolkit { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -88,7 +89,7 @@ The item.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -102,7 +103,7 @@ public static void AddInsertedFile(string strFileName)
 
 #### Parameters
 
-`strFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFileName` string
 
 Name of the STR file.
 
@@ -128,7 +129,7 @@ public Model.ModelItemGroup FindGroup(GroupItem item, List<Model.ModelItemGroup>
 
 The item.
 
-`groups` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Model](VM.Managed.DAFUL.Pre.Model.md).[ModelItemGroup](VM.Managed.DAFUL.Pre.Model.ModelItemGroup.md)\>
+`groups` List<[Model](VM.Managed.DAFUL.Pre.Model.md).[ModelItemGroup](VM.Managed.DAFUL.Pre.Model.ModelItemGroup.md)\>
 
 The groups.
 
@@ -146,7 +147,7 @@ public List<string> GetALLFilterList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 The filters.
 
@@ -160,17 +161,17 @@ public static string GetDefaultLocation(bool bModel, bool bNew)
 
 #### Parameters
 
-`bModel` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModel` bool
 
 if set to <code>true</code> [model].
 
-`bNew` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNew` bool
 
 if set to <code>true</code> [new].
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 <code>The name of recent directory</code> if success; otherwise, <code>null</code>.
 
@@ -184,13 +185,13 @@ public string GetFilterName(string filter)
 
 #### Parameters
 
-`filter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filter` string
 
 The filter.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The filter name.
 
@@ -204,13 +205,13 @@ public string GetFullPath(string strRefDir)
 
 #### Parameters
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The full path.
 
@@ -224,7 +225,7 @@ public List<GroupItem> GetGroupItemList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GroupItem](VM.Managed.DAFUL.Pre.GroupItem.md)\>
+ List<[GroupItem](VM.Managed.DAFUL.Pre.GroupItem.md)\>
 
 The group items.
 
@@ -238,13 +239,13 @@ public List<GroupItem> GetGroupItemList(string filter)
 
 #### Parameters
 
-`filter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filter` string
 
 The filter.
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GroupItem](VM.Managed.DAFUL.Pre.GroupItem.md)\>
+ List<[GroupItem](VM.Managed.DAFUL.Pre.GroupItem.md)\>
 
 The group items.
 
@@ -258,7 +259,7 @@ public static List<string> GetInsertedFile()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_Pre_Model_IsExistingItem_VM_Managed_DAFUL_Pre_GroupItem_"></a> IsExistingItem\(GroupItem\)
 
@@ -276,7 +277,7 @@ The group item.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is existing item; otherwise, <code>false</code>.
 
@@ -290,17 +291,17 @@ public bool IsExistingItem(string strRefDir, string strAbsolutePath)
 
 #### Parameters
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
-`strAbsolutePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAbsolutePath` string
 
 The absolute path.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is existing item; otherwise, <code>false</code>.
 
@@ -314,17 +315,17 @@ public bool IsExistingItemFromDirectory(string strRefDir, string strAbsoluteDire
 
 #### Parameters
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The STR ref dir.
 
-`strAbsoluteDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strAbsoluteDirectory` string
 
 The STR absolute directory.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if [is existing item from directory] [the specified STR ref dir]; otherwise, <code>false</code>.
 
@@ -338,13 +339,13 @@ public bool IsExistingName(string ItemName)
 
 #### Parameters
 
-`ItemName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`ItemName` string
 
 Name of the item.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is existing name; otherwise, <code>false</code>.
 
@@ -358,21 +359,21 @@ public static bool SetDefaultLocation(string strPath, bool bModel, bool bNew)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 The path of current work.
 
-`bModel` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModel` bool
 
 if set to <code>true</code> [model].
 
-`bNew` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bNew` bool
 
 if set to <code>true</code> [new].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

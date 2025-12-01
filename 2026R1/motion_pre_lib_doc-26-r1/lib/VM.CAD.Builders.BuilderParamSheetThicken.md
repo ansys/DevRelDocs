@@ -1,4 +1,5 @@
-#  Class BuilderParamSheetThicken
+# Class BuilderParamSheetThicken
+<a id="VM_CAD_Builders_BuilderParamSheetThicken"></a>
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +12,7 @@ public class BuilderParamSheetThicken : BuilderParamBase
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md) ← 
 [BuilderParamSheetThicken](VM.CAD.Builders.BuilderParamSheetThicken.md)
 
@@ -74,5 +75,5 @@ public double Thickness { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -1,4 +1,5 @@
-#  Struct OutputShaftSetParameters
+# Struct OutputShaftSetParameters
+<a id="VM_API_Pre_GearTrain_OutputShaftSetParameters"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -31,7 +32,7 @@ public ExpressionValueVariable Efficiency { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_OutputShaftSet"></a> OutputShaftSet
 
@@ -43,7 +44,7 @@ public Obj OutputShaftSet { readonly get; set; }
 
 #### Property Value
 
- Obj
+ [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 ### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_OutputTorqueFilePath"></a> OutputTorqueFilePath
 
@@ -55,7 +56,7 @@ public string OutputTorqueFilePath { readonly get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_ReductionRatio"></a> ReductionRatio
 
@@ -67,7 +68,7 @@ public ExpressionValueVariable ReductionRatio { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_Split"></a> Split
 
@@ -79,5 +80,5 @@ public ExpressionValueVariable Split { readonly get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 

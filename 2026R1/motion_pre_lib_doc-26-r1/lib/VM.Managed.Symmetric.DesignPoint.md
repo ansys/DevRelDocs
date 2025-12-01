@@ -1,4 +1,5 @@
-#  Class DesignPoint
+# Class DesignPoint
+<a id="VM_Managed_Symmetric_DesignPoint"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class DesignPoint : SubEntity, ISymmetricUpdater
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Named<SubEntity\>](VM.Managed.Symmetric.Named\-1.md) ← 
 [SubEntity](VM.Managed.Symmetric.SubEntity.md) ← 
 [DesignPoint](VM.Managed.Symmetric.DesignPoint.md)
@@ -72,7 +73,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

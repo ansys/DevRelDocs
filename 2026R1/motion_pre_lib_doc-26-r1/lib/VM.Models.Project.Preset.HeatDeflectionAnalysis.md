@@ -1,4 +1,5 @@
-#  Class HeatDeflectionAnalysis
+# Class HeatDeflectionAnalysis
+<a id="VM_Models_Project_Preset_HeatDeflectionAnalysis"></a>
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -10,10 +11,10 @@ public class HeatDeflectionAnalysis : AnalysisScenarioBase, IObservableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-ProjectObjectBase ← 
-ScenarioBase ← 
+[ProjectObjectBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs) ← 
+[ScenarioBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs) ← 
 [AnalysisScenarioBase](VM.Models.Project.Preset.AnalysisScenarioBase.md) ← 
 [HeatDeflectionAnalysis](VM.Models.Project.Preset.HeatDeflectionAnalysis.md)
 
@@ -33,26 +34,26 @@ IHasParent<IProjectDocument\>
 
 [AnalysisScenarioBase.SaveScenarioData\(IScenarioDocument\)](VM.Models.Project.Preset.AnalysisScenarioBase.md\#VM\_Models\_Project\_Preset\_AnalysisScenarioBase\_SaveScenarioData\_VM\_IScenarioDocument\_), 
 [AnalysisScenarioBase.CategoryName](VM.Models.Project.Preset.AnalysisScenarioBase.md\#VM\_Models\_Project\_Preset\_AnalysisScenarioBase\_CategoryName), 
-ScenarioBase.Add\(IStep\), 
-ScenarioBase.Clear\(\), 
-ScenarioBase.Remove\(IStep\), 
-ScenarioBase.TryGetItem\(Identifier, out IStep\), 
-ScenarioBase.DisposeManagedResources\(\), 
-ScenarioBase.CategoryName, 
-ScenarioBase.IsSelected, 
-ScenarioBase.Items, 
-ScenarioBase.Left, 
-ScenarioBase.Name, 
-ScenarioBase.Parent, 
-ScenarioBase.ParentDocument, 
-ScenarioBase.Top, 
-ScenarioBase.this\[Identifier\], 
-ScenarioBase.this\[int\], 
-ProjectObjectBase.OnDeserialization\(object\), 
-ProjectObjectBase.DisposeManagedResources\(\), 
-ProjectObjectBase.DisplayName, 
-ProjectObjectBase.ID, 
-ProjectObjectBase.Name, 
+[ScenarioBase.Add\(IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.Clear\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.Remove\(IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.TryGetItem\(Identifier, out IStep\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.DisposeManagedResources\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.CategoryName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.IsSelected](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.Items](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.Left](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.Parent](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.ParentDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.Top](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.this\[Identifier\]](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ScenarioBase.this\[int\]](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ScenarioBase.cs), 
+[ProjectObjectBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.DisposeManagedResources\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.DisplayName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.ID](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
+[ProjectObjectBase.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models.Project/Models/ProjectObjectBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -83,7 +84,7 @@ public HeatDeflectionAnalysis(IProjectDocument parent, string name)
 
 `parent` IProjectDocument
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 ## Properties
 
@@ -95,7 +96,7 @@ public override string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

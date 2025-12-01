@@ -1,4 +1,5 @@
-#  Class SimulationParameter
+# Class SimulationParameter
+<a id="VM_Managed_SimulationParameter"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class SimulationParameter
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SimulationParameter](VM.Managed.SimulationParameter.md)
 
 #### Extension Methods
@@ -52,7 +53,7 @@ public double RelativeErrorValue { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_SimulationParameter_RoundErrorOfRedundant"></a> RoundErrorOfRedundant
 
@@ -64,7 +65,7 @@ public double RoundErrorOfRedundant { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_SimulationParameter_TimeOfDynamicSimulation"></a> TimeOfDynamicSimulation
 
@@ -76,7 +77,7 @@ public double TimeOfDynamicSimulation { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_SimulationParameter_TimeOfStaticSimulation"></a> TimeOfStaticSimulation
 
@@ -88,7 +89,7 @@ public double TimeOfStaticSimulation { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 

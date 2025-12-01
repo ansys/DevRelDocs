@@ -1,4 +1,5 @@
-#  Class PropertyMotorEMForce.DivisionArray
+# Class PropertyMotorEMForce.DivisionArray
+<a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_DivisionArray"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -9,7 +10,7 @@ public class PropertyMotorEMForce.DivisionArray
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PropertyMotorEMForce.DivisionArray](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.DivisionArray.md)
 
 #### Extension Methods
@@ -36,5 +37,5 @@ public LinkedList<PropertyMotorEMForce.PositionArray> Divisions
 
 #### Field Value
 
- [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[PositionArray](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.PositionArray.md)\>
+ LinkedList<[PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[PositionArray](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.PositionArray.md)\>
 

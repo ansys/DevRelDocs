@@ -1,4 +1,5 @@
-#  Class ElementFunction
+# Class ElementFunction
+<a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -6,12 +7,12 @@ Assembly: VMFlexibleBase.dll
 <p>This class is to represent the element function.</p>
 <p>이 클래스는 함수에 들어가는 요소를 나타냅니다.</p>
 <p>
-        Symmetric Modeling : No
-        Reference : Yes
-        Reference Type : VM.Managed.Reference
-        삭제시 Reservable한 Link 변수 : N/A
-        Generic Collection에 담겨있는 Link 변수 : N/A
-        </p>
+Symmetric Modeling : No
+Reference : Yes
+Reference Type : VM.Managed.Reference
+삭제시 Reservable한 Link 변수 : N/A
+Generic Collection에 담겨있는 Link 변수 : N/A
+</p>
 
 ```csharp
 public class ElementFunction : LinkContainer, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
@@ -19,9 +20,9 @@ public class ElementFunction : LinkContainer, IObservableObject, IDisposableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [ElementFunction](VM.Managed.DAFUL.Flexible.Force.ElementFunction.md)
 
@@ -83,7 +84,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -107,8 +108,7 @@ ObservableObject.PropertyChanged
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction__ctor"></a> ElementFunction\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.</p>
-<p>
-  <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
+<p><xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public ElementFunction()
@@ -117,8 +117,7 @@ public ElementFunction()
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction__ctor_System_String_"></a> ElementFunction\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.</p>
-<p>
-  <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
+<p><xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public ElementFunction(string strUniqueName)
@@ -126,7 +125,7 @@ public ElementFunction(string strUniqueName)
 
 #### Parameters
 
-`strUniqueName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strUniqueName` string
 
 ## Properties
 
@@ -154,7 +153,7 @@ public CompositeFieldUsable FunctionX { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionY"></a> FunctionY
 
@@ -167,7 +166,7 @@ public CompositeFieldUsable FunctionY { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionZ"></a> FunctionZ
 
@@ -180,7 +179,7 @@ public CompositeFieldUsable FunctionZ { get; set; }
 
 #### Property Value
 
- CompositeFieldUsable
+ [CompositeFieldUsable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/CompositeField.cs)
 
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_Orientation"></a> Orientation
 

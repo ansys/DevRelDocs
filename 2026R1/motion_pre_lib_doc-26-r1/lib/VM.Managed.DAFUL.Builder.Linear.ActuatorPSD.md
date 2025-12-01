@@ -1,4 +1,5 @@
-#  Class ActuatorPSD
+# Class ActuatorPSD
+<a id="VM_Managed_DAFUL_Builder_Linear_ActuatorPSD"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -9,10 +10,10 @@ public class ActuatorPSD : Actuator<ActuatorPSD, PropertyActuatorPSD>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<ActuatorPSD\> ← 
-BuilderSymmetric<ActuatorPSD\> ← 
-BuilderNamed<ActuatorPSD\> ← 
+object ← 
+[BuilderBase<ActuatorPSD\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<ActuatorPSD\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<ActuatorPSD\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [Actuator<ActuatorPSD, PropertyActuatorPSD\>](VM.Managed.DAFUL.Builder.Linear.Actuator\-2.md) ← 
 [ActuatorPSD](VM.Managed.DAFUL.Builder.Linear.ActuatorPSD.md)
 
@@ -22,29 +23,29 @@ IBuilder
 
 #### Inherited Members
 
-BuilderNamed<ActuatorPSD\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<ActuatorPSD\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<ActuatorPSD\>.Name, 
-BuilderSymmetric<ActuatorPSD\>.Build\(Document\), 
-BuilderSymmetric<ActuatorPSD\>.Symmetric, 
-BuilderSymmetric<ActuatorPSD\>.CurrentSymmetric, 
-BuilderBase<ActuatorPSD\>.m\_bSuccess, 
-BuilderBase<ActuatorPSD\>.Build\(Document\), 
-BuilderBase<ActuatorPSD\>.Build\(Document, List<string\>\), 
-BuilderBase<ActuatorPSD\>.Validate\(IList<string\>\), 
-BuilderBase<ActuatorPSD\>.Success\(\), 
-BuilderBase<ActuatorPSD\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<ActuatorPSD\>.OnFinalBuild\(string, Document\), 
-BuilderBase<ActuatorPSD\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<ActuatorPSD\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<ActuatorPSD\>.Parameters, 
-BuilderBase<ActuatorPSD\>.AddToDoc, 
-BuilderBase<ActuatorPSD\>.UseChangedObject, 
-BuilderBase<ActuatorPSD\>.SetPointKey, 
-BuilderBase<ActuatorPSD\>.BuildObject, 
-BuilderBase<ActuatorPSD\>.BuildDocument, 
-BuilderBase<ActuatorPSD\>.UseInterface, 
-BuilderBase<ActuatorPSD\>.ErrorMessage
+[BuilderNamed<ActuatorPSD\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ActuatorPSD\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ActuatorPSD\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<ActuatorPSD\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ActuatorPSD\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ActuatorPSD\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorPSD\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -70,7 +71,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -88,7 +89,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorPSD_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -98,9 +99,9 @@ public override bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

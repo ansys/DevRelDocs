@@ -1,4 +1,5 @@
-#  Class Ball\_Bearing\_Data
+# Class Ball\_Bearing\_Data
+<a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -9,7 +10,7 @@ public class Ball_Bearing_Data
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Ball\_Bearing\_Data](VM.Managed.DAFUL.GearTrain.Ball\_Bearing\_Data.md)
 
 #### Extension Methods
@@ -36,7 +37,7 @@ public double D
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Ki"></a> Ki
 
@@ -46,7 +47,7 @@ public double Ki
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Kn"></a> Kn
 
@@ -56,7 +57,7 @@ public double Kn
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Ko"></a> Ko
 
@@ -66,7 +67,7 @@ public double Ko
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Ri"></a> Ri
 
@@ -76,7 +77,7 @@ public double Ri
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Z"></a> Z
 
@@ -86,7 +87,7 @@ public int Z
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_d_i"></a> d\_i
 
@@ -96,7 +97,7 @@ public double d_i
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_d_o"></a> d\_o
 
@@ -106,7 +107,7 @@ public double d_o
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_ri"></a> ri
 
@@ -116,7 +117,7 @@ public double ri
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_ro"></a> ro
 
@@ -126,7 +127,7 @@ public double ro
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ## Methods
 

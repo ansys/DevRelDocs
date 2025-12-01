@@ -1,4 +1,5 @@
-#  Enum JointType
+# Enum JointType
+<a id="VM_Managed_DAFUL_JointType"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

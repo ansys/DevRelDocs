@@ -1,4 +1,5 @@
-#  Class LinkOwnerDestroyAttribute
+# Class LinkOwnerDestroyAttribute
+<a id="VM_Models_Pre_LinkOwnerDestroyAttribute"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -13,8 +14,8 @@ public class LinkOwnerDestroyAttribute : LinkDestroyAttribute, ILinkUpdateOwner,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [LinkBaseAttribute](VM.Models.Pre.LinkBaseAttribute.md) ← 
 [LinkUpdateAttribute](VM.Models.Pre.LinkUpdateAttribute.md) ← 
 [LinkDestroyAttribute](VM.Models.Pre.LinkDestroyAttribute.md) ← 
@@ -83,7 +84,7 @@ public LinkOwnerDestroyAttribute(Type behaviorType)
 
 #### Parameters
 
-`behaviorType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`behaviorType` Type
 
 ### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute__ctor_VM_Models_Pre_LinkBehaviorType_System_String___"></a> LinkOwnerDestroyAttribute\(LinkBehaviorType, params string\[\]\)
 
@@ -95,7 +96,7 @@ public LinkOwnerDestroyAttribute(LinkBehaviorType linkBehaviorType, params strin
 
 `linkBehaviorType` LinkBehaviorType
 
-`behaviorNames` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`behaviorNames` string\[\]
 
 ## Fields
 
@@ -120,13 +121,13 @@ public override void AfterSetter(object owner, string propertyName, object[] val
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`values` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`values` object\[\]
 
-`triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
+`triggers` Attribute\[\]
 
 ### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute_BeforeSetter_System_String_"></a> BeforeSetter\(string\)
 
@@ -137,7 +138,7 @@ public override void BeforeSetter(string propertyName)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 ### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
@@ -147,7 +148,7 @@ protected override void InitializeProperty(object owner, IEnumerable<PropertyInf
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+`propertyInfos` IEnumerable<PropertyInfo\>
 

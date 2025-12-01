@@ -1,4 +1,5 @@
-#  Class MeshFile
+# Class MeshFile
+<a id="VM_Models_FE_Mesh_MeshFile"></a>
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -9,7 +10,7 @@ public class MeshFile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
 #### Extension Methods
@@ -42,7 +43,7 @@ protected bool IsTemporary { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -54,7 +55,7 @@ public void Add(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 ### <a id="VM_Models_FE_Mesh_MeshFile_AddBunch_System_Collections_IEnumerable_"></a> AddBunch\(IEnumerable\)
 
@@ -64,7 +65,7 @@ public void AddBunch(IEnumerable enumObjs)
 
 #### Parameters
 
-`enumObjs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
+`enumObjs` IEnumerable
 
 ### <a id="VM_Models_FE_Mesh_MeshFile_Connect_System_String_"></a> Connect\(string\)
 
@@ -74,7 +75,7 @@ public static MeshFile Connect(string pathMeshFile)
 
 #### Parameters
 
-`pathMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathMeshFile` string
 
 #### Returns
 
@@ -88,7 +89,7 @@ public static MeshFile Create(string pathMeshFile)
 
 #### Parameters
 
-`pathMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathMeshFile` string
 
 #### Returns
 
@@ -128,7 +129,7 @@ protected virtual void Dispose(bool disposing)
 
 #### Parameters
 
-`disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`disposing` bool
 
 ### <a id="VM_Models_FE_Mesh_MeshFile_Initialize_System_String_"></a> Initialize\(string\)
 
@@ -138,7 +139,7 @@ protected void Initialize(string pathMeshFile)
 
 #### Parameters
 
-`pathMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pathMeshFile` string
 
 ### <a id="VM_Models_FE_Mesh_MeshFile_QueryByColumn__1_System_String_System_Object_"></a> QueryByColumn<T\>\(string, object\)
 
@@ -148,13 +149,13 @@ public IEnumerable<T> QueryByColumn<T>(string columnName, object value) where T 
 
 #### Parameters
 
-`columnName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`columnName` string
 
-`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`value` object
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+ IEnumerable<T\>
 
 #### Type Parameters
 
@@ -168,7 +169,7 @@ public IEnumerable<T> Table<T>() where T : class, new()
 
 #### Returns
 
- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
+ IEnumerable<T\>
 
 #### Type Parameters
 
@@ -182,13 +183,13 @@ public bool TryQueryByID<T>(int id, out T result) where T : class, new()
 
 #### Parameters
 
-`id` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`id` int
 
 `result` T
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 #### Type Parameters
 

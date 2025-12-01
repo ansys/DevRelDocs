@@ -1,4 +1,5 @@
-#  Class ChangeGroupKinematicAndComplianceOperation
+# Class ChangeGroupKinematicAndComplianceOperation
+<a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupKinematicAndComplianceOperation"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class ChangeGroupKinematicAndComplianceOperation : OperationBase, IOperat
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ChangeGroupKinematicAndComplianceOperation](VM.Managed.DAFUL.Car.Operation.ChangeGroupKinematicAndComplianceOperation.md)
 
@@ -87,7 +88,7 @@ public ChangeGroupKinematicAndComplianceOperation(Document3D doc, bool bKinemati
 
 `doc` Document3D
 
-`bKinematic` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bKinematic` bool
 
 ### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupKinematicAndComplianceOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeGroupKinematicAndComplianceOperation\(JournalParameter\)
 
@@ -111,7 +112,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -131,5 +132,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

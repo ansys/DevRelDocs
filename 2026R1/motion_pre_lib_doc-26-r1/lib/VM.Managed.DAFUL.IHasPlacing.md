@@ -1,4 +1,5 @@
-#  Interface IHasPlacing
+# Interface IHasPlacing
+<a id="VM_Managed_DAFUL_IHasPlacing"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -27,7 +28,7 @@ InstanceContainer[] Paths { get; }
 
 #### Property Value
 
- InstanceContainer\[\]
+ [InstanceContainer](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InstanceContainer.cs)\[\]
 
 ### <a id="VM_Managed_DAFUL_IHasPlacing_Placing"></a> Placing
 

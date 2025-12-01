@@ -1,4 +1,5 @@
-#  Class WarningMessage
+# Class WarningMessage
+<a id="VM_Managed_DAFUL_Operation_WarningMessage"></a>
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -9,7 +10,7 @@ public class WarningMessage : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [WarningMessage](VM.Managed.DAFUL.Operation.WarningMessage.md)
 
@@ -83,7 +84,7 @@ public WarningMessage(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 ## Properties
 
@@ -95,7 +96,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Operation_WarningMessage_Name"></a> Name
 
@@ -107,7 +108,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

@@ -1,4 +1,5 @@
-#  Class SolidBodySubtract
+# Class SolidBodySubtract
+<a id="VM_Managed_Symmetric_CAD_SolidBodySubtract"></a>
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -9,7 +10,7 @@ public class SolidBodySubtract : SolidBodyPair, ISymmetricMultiBuilder, ISymmetr
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SolidBodyMulti](VM.Managed.Symmetric.CAD.SolidBodyMulti.md) ← 
 [SolidBodyPair](VM.Managed.Symmetric.CAD.SolidBodyPair.md) ← 
 [SolidBodySubtract](VM.Managed.Symmetric.CAD.SolidBodySubtract.md)
@@ -72,7 +73,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

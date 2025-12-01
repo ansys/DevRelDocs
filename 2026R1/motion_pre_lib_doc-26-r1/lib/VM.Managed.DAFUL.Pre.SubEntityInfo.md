@@ -1,4 +1,5 @@
-#  Class SubEntityInfo
+# Class SubEntityInfo
+<a id="VM_Managed_DAFUL_Pre_SubEntityInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -11,7 +12,7 @@ public class SubEntityInfo : DockableWindowInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DockableWindowInfo](VM.Managed.DAFUL.Pre.DockableWindowInfo.md) ← 
 [SubEntityInfo](VM.Managed.DAFUL.Pre.SubEntityInfo.md)
 
@@ -50,7 +51,7 @@ public List<InputDocument> InputDocuments { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InputDocument](VM.Managed.DAFUL.Pre.InputDocument.md)\>
+ List<[InputDocument](VM.Managed.DAFUL.Pre.InputDocument.md)\>
 
 ### <a id="VM_Managed_DAFUL_Pre_SubEntityInfo_RibbonCommand"></a> RibbonCommand
 
@@ -62,5 +63,5 @@ public string RibbonCommand { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

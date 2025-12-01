@@ -1,4 +1,5 @@
-#  Delegate Application.StartOption.WriteMessage
+# Delegate Application.StartOption.WriteMessage
+<a id="VM_Managed_Application_StartOption_WriteMessage"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public delegate void Application.StartOption.WriteMessage(string A_0)
 
 #### Parameters
 
-`A_0` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`A_0` string
 
 #### Extension Methods
 

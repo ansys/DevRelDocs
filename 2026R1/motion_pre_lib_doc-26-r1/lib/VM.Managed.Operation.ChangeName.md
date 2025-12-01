@@ -1,4 +1,5 @@
-#  Class ChangeName
+# Class ChangeName
+<a id="VM_Managed_Operation_ChangeName"></a>
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  
@@ -9,7 +10,7 @@ public class ChangeName : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ChangeName](VM.Managed.Operation.ChangeName.md)
 
@@ -83,7 +84,7 @@ public ChangeName(List<object> lstInfo)
 
 #### Parameters
 
-`lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`lstInfo` List<object\>
 
 ### <a id="VM_Managed_Operation_ChangeName__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeName\(JournalParameter\)
 
@@ -107,7 +108,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -127,5 +128,5 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 

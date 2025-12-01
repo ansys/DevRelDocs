@@ -1,4 +1,5 @@
-#  Class CalculateSegmentStiffness
+# Class CalculateSegmentStiffness
+<a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness"></a>
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -11,7 +12,7 @@ public class CalculateSegmentStiffness : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [CalculateSegmentStiffness](VM.Managed.DAFUL.CPlacingConnector.Operation.CalculateSegmentStiffness.md)
 
@@ -87,7 +88,7 @@ public CalculateSegmentStiffness(string strFilePath)
 
 #### Parameters
 
-`strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strFilePath` string
 
 The file path
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -139,7 +140,7 @@ public override void GetInformation(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 
@@ -153,7 +154,7 @@ public Dictionary<string, VectorBase> Result()
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), VectorBase\>
+ Dictionary<string, VectorBase\>
 
 ### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_Success"></a> Success\(\)
 
@@ -165,5 +166,5 @@ public bool Success()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

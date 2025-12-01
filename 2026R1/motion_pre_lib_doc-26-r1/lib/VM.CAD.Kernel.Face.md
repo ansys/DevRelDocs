@@ -1,4 +1,5 @@
-#  Class Face
+# Class Face
+<a id="VM_CAD_Kernel_Face"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +10,7 @@ public class Face : Topology, ITopology, IHasID, ISelected
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [KernelObject](VM.CAD.Kernel.KernelObject.md) ← 
 [Entity](VM.CAD.Kernel.Entity.md) ← 
 [Topology](VM.CAD.Kernel.Topology.md) ← 
@@ -55,9 +56,9 @@ public Face(UIntPtr key, bool isLock = true)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
-`isLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isLock` bool
 
 ## Properties
 
@@ -69,7 +70,7 @@ public bool IsCylinder { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_Face_IsPlane"></a> IsPlane
 
@@ -79,7 +80,7 @@ public bool IsPlane { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_CAD_Kernel_Face_IsSphere"></a> IsSphere
 
@@ -89,7 +90,7 @@ public bool IsSphere { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -131,9 +132,9 @@ public Vector GetNormalDirection(double u, double v)
 
 #### Parameters
 
-`u` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`u` double
 
-`v` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`v` double
 
 #### Returns
 
@@ -147,9 +148,9 @@ public Vector GetPointOnFace(double u, double v)
 
 #### Parameters
 
-`u` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`u` double
 
-`v` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`v` double
 
 #### Returns
 
@@ -173,9 +174,9 @@ public static bool IsFace(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Struct ElementInfo
+# Struct ElementInfo
+<a id="VM_Managed_DAFUL_FE_ElementInfo"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -33,5 +34,5 @@ public uint m_nIndex
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

@@ -1,4 +1,5 @@
-#  Interface IForcePropertyDocument
+# Interface IForcePropertyDocument
+<a id="VM_Managed_IForcePropertyDocument"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -27,5 +28,5 @@ object Splines { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 

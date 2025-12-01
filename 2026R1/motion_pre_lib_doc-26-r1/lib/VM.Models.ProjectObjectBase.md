@@ -1,4 +1,5 @@
-#  Class ProjectObjectBase
+# Class ProjectObjectBase
+<a id="VM_Models_ProjectObjectBase"></a>
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -9,7 +10,7 @@ public abstract class ProjectObjectBase : ObservableObject, IObservableObject, I
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
 [ProjectObjectBase](VM.Models.ProjectObjectBase.md)
 
@@ -66,7 +67,7 @@ public virtual string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_ProjectObjectBase_ID"></a> ID
 
@@ -87,7 +88,7 @@ public virtual string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -105,5 +106,5 @@ public virtual void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 

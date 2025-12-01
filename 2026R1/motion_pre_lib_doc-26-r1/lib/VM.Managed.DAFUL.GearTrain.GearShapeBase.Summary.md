@@ -1,4 +1,5 @@
-#  Class GearShapeBase.Summary
+# Class GearShapeBase.Summary
+<a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class GearShapeBase.Summary
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [GearShapeBase.Summary](VM.Managed.DAFUL.GearTrain.GearShapeBase.Summary.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public double APoint { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_AddendmumCoefficient"></a> AddendmumCoefficient
 
@@ -52,7 +53,7 @@ public double AddendmumCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_BPoint"></a> BPoint
 
@@ -64,7 +65,7 @@ public double BPoint { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_BackLash"></a> BackLash
 
@@ -76,7 +77,7 @@ public double BackLash { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_BaseCircleDiameter"></a> BaseCircleDiameter
 
@@ -88,7 +89,7 @@ public double BaseCircleDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_DedendmumCoefficient"></a> DedendmumCoefficient
 
@@ -100,7 +101,7 @@ public double DedendmumCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_FaceWidth"></a> FaceWidth
 
@@ -112,7 +113,7 @@ public double FaceWidth { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_HandOfHelix"></a> HandOfHelix
 
@@ -124,7 +125,7 @@ public double HandOfHelix { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_HelixAngle"></a> HelixAngle
 
@@ -136,7 +137,7 @@ public double HelixAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NormalModule"></a> NormalModule
 
@@ -148,7 +149,7 @@ public double NormalModule { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NormalPressureAngle"></a> NormalPressureAngle
 
@@ -160,7 +161,7 @@ public double NormalPressureAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NormalProfileShiftCoefficient"></a> NormalProfileShiftCoefficient
 
@@ -172,7 +173,7 @@ public double NormalProfileShiftCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NumberOfTeeth"></a> NumberOfTeeth
 
@@ -184,7 +185,7 @@ public uint NumberOfTeeth { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_PitchCircleDiameter"></a> PitchCircleDiameter
 
@@ -196,7 +197,7 @@ public double PitchCircleDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_RootCircleDiameter"></a> RootCircleDiameter
 
@@ -208,7 +209,7 @@ public double RootCircleDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TipCircleDiameter"></a> TipCircleDiameter
 
@@ -220,7 +221,7 @@ public double TipCircleDiameter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TransverseModule"></a> TransverseModule
 
@@ -232,7 +233,7 @@ public double TransverseModule { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TransversePressureAngle"></a> TransversePressureAngle
 
@@ -244,7 +245,7 @@ public double TransversePressureAngle { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TransverseProfileShiftCoefficient"></a> TransverseProfileShiftCoefficient
 
@@ -256,7 +257,7 @@ public double TransverseProfileShiftCoefficient { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_WorkingPitchCircleDiamter"></a> WorkingPitchCircleDiamter
 
@@ -268,7 +269,7 @@ public double WorkingPitchCircleDiamter { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_WorkingPitchCircleDiamterIdeal"></a> WorkingPitchCircleDiamterIdeal
 
@@ -280,7 +281,7 @@ public double WorkingPitchCircleDiamterIdeal { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_ZPoint"></a> ZPoint
 
@@ -292,5 +293,5 @@ public double ZPoint { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

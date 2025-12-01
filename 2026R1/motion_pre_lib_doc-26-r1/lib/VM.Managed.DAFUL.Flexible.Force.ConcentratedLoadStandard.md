@@ -1,4 +1,5 @@
-#  Class ConcentratedLoadStandard
+# Class ConcentratedLoadStandard
+<a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard"></a>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -11,9 +12,9 @@ public sealed class ConcentratedLoadStandard : ConcentratedLoadFunction, IObserv
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 [ConcentratedLoadFunction](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.md) ← 
 [ConcentratedLoadStandard](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.md)
@@ -81,8 +82,7 @@ ObservableObject.PropertyChanged
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard__ctor"></a> ConcentratedLoadStandard\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard" data-throw-if-not-resolved="false"></xref> class.</p>
-<p>
-  <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
+<p><xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public ConcentratedLoadStandard()
@@ -95,17 +95,17 @@ public ConcentratedLoadStandard()
 <p>Gets or sets the force function.</p>
 <p>힘 함수를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : ElementFunction
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : false
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : ElementFunction
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : false
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public ElementFunction ForceFunction { get; set; }
@@ -120,23 +120,23 @@ public ElementFunction ForceFunction { get; set; }
 <p>Gets or sets the type of the direction.</p>
 <p>방향의 타입을 가져오거나 넣어줍니다.</p>
 <p>
-        Type : DirectionType
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : true
-        Label : Direction Type
-        Control Type : N/A
-        ToolTip : N/A
-        Error Message : N/A
-        Category : Load
-        Category Index : 1
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : DirectionType
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : true
+Label : Direction Type
+Control Type : N/A
+ToolTip : N/A
+Error Message : N/A
+Category : Load
+Category Index : 1
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public ConcentratedLoadStandard.DirectionType FunctionDirectionType { get; set; }
@@ -151,17 +151,17 @@ public ConcentratedLoadStandard.DirectionType FunctionDirectionType { get; set; 
 <p>Gets or sets the torque function.</p>
 <p>회전력 함수를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : ElementFunction
-        LinkRequestUpdate 시 처리 : N/A
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : false
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : ElementFunction
+LinkRequestUpdate 시 처리 : N/A
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : false
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public ElementFunction TorqueFunction { get; set; }
@@ -189,17 +189,17 @@ public override ConcentratedLoadFunction.FunctionType Type { get; }
 <p>Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.ForceFunction" data-throw-if-not-resolved="false"></xref> is use.</p>
 <p>이 <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.ForceFunction" data-throw-if-not-resolved="false"></xref> 사용 여부를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : bool
-        LinkRequestUpdate 시 처리 :
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : false
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : bool
+LinkRequestUpdate 시 처리 :
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : false
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public bool UseForceFunction { get; set; }
@@ -207,24 +207,24 @@ public bool UseForceFunction { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_UseTorqueFunction"></a> UseTorqueFunction
 
 <p>Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.TorqueFunction" data-throw-if-not-resolved="false"></xref> is use.</p>
 <p>이 <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.TorqueFunction" data-throw-if-not-resolved="false"></xref> 사용 여부를 가져오거나 넣어줍니다.</p>
 <p>
-        Type : bool
-        LinkRequestUpdate 시 처리 :
-        Read/Write : Read/Write
-        Read/Write Condition : N/A
-        연관 프로퍼티 : N/A
-        Validation 조건 : N/A
-        UI Visibility : false
-        변경 시 DFS 재생성 여부 : Yes
-        변경 시 DFG 재생성 여부 : No
-        변경 시 GINF 재생성 여부 : No
-        </p>
+Type : bool
+LinkRequestUpdate 시 처리 :
+Read/Write : Read/Write
+Read/Write Condition : N/A
+연관 프로퍼티 : N/A
+Validation 조건 : N/A
+UI Visibility : false
+변경 시 DFS 재생성 여부 : Yes
+변경 시 DFG 재생성 여부 : No
+변경 시 GINF 재생성 여부 : No
+</p>
 
 ```csharp
 public bool UseTorqueFunction { get; set; }
@@ -232,7 +232,7 @@ public bool UseTorqueFunction { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

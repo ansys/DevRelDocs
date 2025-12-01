@@ -1,4 +1,5 @@
-#  Class BuilderRollerDoubleFlangeSimple
+# Class BuilderRollerDoubleFlangeSimple
+<a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple"></a>
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -6,14 +7,14 @@ Assembly: VMDRoller.dll
 The double flange roller builder class.
 
 ```csharp
-public class BuilderRollerDoubleFlangeSimple : BuilderRollerFlange, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer
+public class BuilderRollerDoubleFlangeSimple : BuilderRollerFlange, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IHasReplaceableEntity
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 Builder ← 
@@ -40,8 +41,9 @@ IEventProvider,
 IHasKeyObject, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
-IAttributeContainer
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IAttributeContainer, 
+IHasReplaceableEntity
 
 #### Inherited Members
 
@@ -111,6 +113,8 @@ Builder.LinkRequestUpdate\(object, LinkEventArgs\),
 Builder.PostWorkWhenFailedToGetXmlString\(\), 
 Builder.GetFilledParameter\(\), 
 Builder.GetXmlString\(\), 
+Builder.HasReplaceableEntity\(IObjectBase\), 
+Builder.ReplaceEntity\(IObjectBase, IObjectBase\), 
 Builder.GetFactorForLength\(\), 
 Builder.CheckCircularReferenceForPoint\(PointBase, ObjectBase\), 
 Builder.CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\), 
@@ -214,7 +218,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -255,7 +259,7 @@ public ExpressionValueVariable InnerFlangeDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_InnerFlangeWidth"></a> InnerFlangeWidth
 
@@ -267,7 +271,7 @@ public ExpressionValueVariable InnerFlangeWidth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_OuterFlangeDiameter"></a> OuterFlangeDiameter
 
@@ -279,7 +283,7 @@ public ExpressionValueVariable OuterFlangeDiameter { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_OuterFlangeWidth"></a> OuterFlangeWidth
 
@@ -291,7 +295,7 @@ public ExpressionValueVariable OuterFlangeWidth { get; set; }
 
 #### Property Value
 
- ExpressionValueVariable
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_RollerType"></a> RollerType
 
@@ -313,7 +317,7 @@ public override string TypeOfBuilder { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -333,7 +337,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 #### Parameters
 
-`parameter` BuilderParamBase
+`parameter` [BuilderParamBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VM.CAD.Builders/VM.CAD.Builders/VMAppCore/BuilderParamBase.cs)
 
 ### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
@@ -359,7 +363,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`objNotifier` object
 
 The obj notifier.
 

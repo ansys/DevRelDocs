@@ -1,4 +1,5 @@
-#  Enum DocumentType
+# Enum DocumentType
+<a id="VM_Models_Pre_DocumentType"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

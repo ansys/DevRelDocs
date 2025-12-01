@@ -1,4 +1,5 @@
-#  Interface IMainThread
+# Interface IMainThread
+<a id="VM_Managed_DAFUL_Pre_IMainThread"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,7 +28,7 @@ bool InvokeRequired { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -41,7 +42,7 @@ void InvokeMainThread(Action action)
 
 #### Parameters
 
-`action` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`action` Action
 
 The <xref href="System.Action" data-throw-if-not-resolved="false"></xref> to invoke.
 

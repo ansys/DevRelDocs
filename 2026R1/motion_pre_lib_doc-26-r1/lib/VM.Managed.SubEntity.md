@@ -1,4 +1,5 @@
-#  Class SubEntity
+# Class SubEntity
+<a id="VM_Managed_SubEntity"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,9 +12,9 @@ public abstract class SubEntity : Object<ObjectEventCore>, IObservableObject, ID
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 ObjectBase ← 
 Object<ObjectEventCore\> ← 
 [SubEntity](VM.Managed.SubEntity.md)
@@ -34,7 +35,7 @@ IDisposableObject,
 ILinkable, 
 ILinkContainerEvent, 
 IVerifiable, 
-IHistoryObjectSerializable, 
+[IHistoryObjectSerializable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 IAttributeContainer, 
 ISubEntity, 
 IEntityBase, 
@@ -145,7 +146,7 @@ ObjectBase.OnDestroy,
 ObjectBase.OnDestroying, 
 ObjectBase.OnUpdate, 
 ObjectBase.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -184,11 +185,11 @@ protected SubEntity(string strProxyName, string strBuildInfo)
 
 #### Parameters
 
-`strProxyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strProxyName` string
 
 Name of the proxy.
 
-`strBuildInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strBuildInfo` string
 
 The build information.
 
@@ -202,7 +203,7 @@ protected SubEntity(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name of the sub entity.
 
@@ -218,7 +219,7 @@ public string Comment { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_SubEntity_DisplayName"></a> DisplayName
 
@@ -230,7 +231,7 @@ public virtual string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_SubEntity_FullName"></a> FullName
 
@@ -242,7 +243,7 @@ public string FullName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_SubEntity_IsEnabled"></a> IsEnabled
 
@@ -254,7 +255,7 @@ public virtual bool IsEnabled { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_SubEntity_Name"></a> Name
 
@@ -266,7 +267,7 @@ public virtual string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_SubEntity_NonSymmetricName"></a> NonSymmetricName
 
@@ -278,7 +279,7 @@ public string NonSymmetricName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -298,7 +299,7 @@ The old object.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -312,21 +313,21 @@ protected virtual bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, XmlE
 
 #### Parameters
 
-`xmlDom` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+`xmlDom` XmlDocument
 
 The XmlDocument for object.
 
-`xmlEle` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
+`xmlEle` XmlElement
 
 The XmlElement for object.
 
-`bHasChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bHasChild` bool
 
 if set to <code>true</code> [b has child].
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -354,7 +355,7 @@ protected virtual void ReadTemplateImpl(XmlReader reader)
 
 #### Parameters
 
-`reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
+`reader` XmlReader
 
 The reader.
 
@@ -368,7 +369,7 @@ protected virtual void WriteTemplateImpl(XmlWriter writer)
 
 #### Parameters
 
-`writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+`writer` XmlWriter
 
 The writer.
 

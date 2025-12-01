@@ -1,4 +1,5 @@
-#  Class AnalysisParameterThermal
+# Class AnalysisParameterThermal
+<a id="VM_Managed_AnalysisParameterThermal"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +12,7 @@ public class AnalysisParameterThermal : AnalysisParameterDynamic
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisParameterDynamic](VM.Managed.AnalysisParameterDynamic.md) ← 
 [AnalysisParameterThermal](VM.Managed.AnalysisParameterThermal.md)
 
@@ -63,5 +64,5 @@ public bool UseSteadyStateAnalysis { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

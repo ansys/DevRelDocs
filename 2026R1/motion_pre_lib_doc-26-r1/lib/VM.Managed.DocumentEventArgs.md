@@ -1,4 +1,5 @@
-#  Class DocumentEventArgs
+# Class DocumentEventArgs
+<a id="VM_Managed_DocumentEventArgs"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class DocumentEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+object ← 
+EventArgs ← 
 [DocumentEventArgs](VM.Managed.DocumentEventArgs.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public DocumentEventArgs(string strUpdateInfoXml)
 
 #### Parameters
 
-`strUpdateInfoXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strUpdateInfoXml` string
 
 The document update information.
 
@@ -49,5 +50,5 @@ public string InformationXml { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

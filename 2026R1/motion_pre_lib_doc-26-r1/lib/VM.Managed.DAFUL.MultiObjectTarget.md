@@ -1,4 +1,5 @@
-#  Struct MultiObjectTarget
+# Struct MultiObjectTarget
+<a id="VM_Managed_DAFUL_MultiObjectTarget"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -47,7 +48,7 @@ The base object.
 
 The action object.
 
-`bSwapBaseAction` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bSwapBaseAction` bool
 
 if set to <code>true</code> [swap base action].
 
@@ -89,13 +90,13 @@ public override bool Equals(object obj)
 
 #### Parameters
 
-`obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obj` object
 
 The <xref href="System.Object" data-throw-if-not-resolved="false"></xref> to compare with this instance.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if the specified <xref href="System.Object" data-throw-if-not-resolved="false"></xref> is equal to this instance; otherwise, <code>false</code>.
 
@@ -109,7 +110,7 @@ public override int GetHashCode()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.
 
@@ -135,7 +136,7 @@ The right.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The result of the operator.
 
@@ -159,7 +160,7 @@ The right.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The result of the operator.
 

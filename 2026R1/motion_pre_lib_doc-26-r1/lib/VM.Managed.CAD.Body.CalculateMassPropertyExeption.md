@@ -1,4 +1,5 @@
-#  Class Body.CalculateMassPropertyExeption
+# Class Body.CalculateMassPropertyExeption
+<a id="VM_Managed_CAD_Body_CalculateMassPropertyExeption"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class Body.CalculateMassPropertyExeption : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [Body.CalculateMassPropertyExeption](VM.Managed.CAD.Body.CalculateMassPropertyExeption.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public CalculateMassPropertyExeption(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The error message.
 

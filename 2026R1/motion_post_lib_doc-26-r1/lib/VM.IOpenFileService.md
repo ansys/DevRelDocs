@@ -1,9 +1,10 @@
-#  Interface IOpenFileService
+# Interface IOpenFileService
+<a id="VM_IOpenFileService"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public interface IOpenFileService : IFileSupport
 ```
 
@@ -15,34 +16,33 @@ public interface IOpenFileService : IFileSupport
 
 ### <a id="VM_IOpenFileService_FileNames"></a> FileNames
 
-```python
+```csharp
 IReadOnlyCollection<string> FileNames { get; }
 ```
 
 #### Property Value
 
- [IReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IReadOnlyCollection<string\>
 
 ### <a id="VM_IOpenFileService_IsMultiSelect"></a> IsMultiSelect
 
-```python
+```csharp
 bool IsMultiSelect { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
 ### <a id="VM_IOpenFileService_ShowDialog"></a> ShowDialog\(\)
 
-```python
+```csharp
 bool ShowDialog()
 ```
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
+ bool
 

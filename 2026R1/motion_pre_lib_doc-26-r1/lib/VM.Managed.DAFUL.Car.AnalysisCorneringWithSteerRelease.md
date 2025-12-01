@@ -1,4 +1,5 @@
-#  Class AnalysisCorneringWithSteerRelease
+# Class AnalysisCorneringWithSteerRelease
+<a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease"></a>
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -11,7 +12,7 @@ public class AnalysisCorneringWithSteerRelease : CorneringBase, IHasInitialVel, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md) ← 
 [FullCarAnalysisBase](VM.Managed.DAFUL.Car.FullCarAnalysisBase.md) ← 
 [CorneringBase](VM.Managed.DAFUL.Car.CorneringBase.md) ← 
@@ -85,7 +86,7 @@ public double Acceleration { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_AccelerationUnitType"></a> AccelerationUnitType
 
@@ -109,7 +110,7 @@ public override double InitialVelocityCornering { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_LongitudinalVelocity"></a> LongitudinalVelocity
 
@@ -121,7 +122,7 @@ public double LongitudinalVelocity { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_Radius"></a> Radius
 
@@ -133,7 +134,7 @@ public double Radius { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_SteadyStatePrephaseType"></a> SteadyStatePrephaseType
 
@@ -157,7 +158,7 @@ public override int TireRadiusPosition { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_UnitOfLength"></a> UnitOfLength
 
@@ -195,7 +196,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 #### Parameters
 
-`arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`arParameter` string\[\]
 
 The parameter array.
 

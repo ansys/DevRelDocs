@@ -1,4 +1,5 @@
-#  Class ConstraintAPI
+# Class ConstraintAPI
+<a id="VM_API_Pre_ConstraintAPI"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +12,7 @@ public static class ConstraintAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ConstraintAPI](VM.API.Pre.ConstraintAPI.md)
 
 #### Extension Methods
@@ -35,7 +36,7 @@ public static Obj CreateBall(this SubSystemDocument subSystemDocument, Obj baseE
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a ball constraint.
 
@@ -51,7 +52,7 @@ The action entity of a ball constraint.
 
 The position of a ball constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a ball constraint.
 
@@ -71,11 +72,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -93,7 +94,7 @@ public static Obj CreateConstantVelocity(this SubSystemDocument subSystemDocumen
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a constant velocity constraint.
 
@@ -121,7 +122,7 @@ The action Z-Axis of a constant velocity constraint.
 
 The orthogonal Axis of a constant velocity constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a constant velocity constraint.
 
@@ -137,15 +138,15 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'baseZAxis', 'actionZAxis', 'orthogonalAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseZAxis' is equal to 'actionZAxis', 'orthogonalAxis' or if 'actionZAxis' is equal to 'orthogonalAxis'.
 
@@ -163,7 +164,7 @@ public static Obj CreateCylindrical(this SubSystemDocument subSystemDocument, Ob
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a cylindrical constraint.
 
@@ -183,7 +184,7 @@ The position of a cylindrical constraint.
 
 The Z-Axis of cylindrical constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a cylindrical constraint.
 
@@ -231,11 +232,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -252,7 +253,7 @@ public static Obj CreateDistance(this SubSystemDocument subSystemDocument, Obj b
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a distance constraint.
 
@@ -272,7 +273,7 @@ The base position of a distance constraint.
 
 The action position of a distance constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a distance constraint.
 
@@ -288,15 +289,15 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'basePosition' is equal to 'actionPosition'.
 
@@ -313,7 +314,7 @@ public static Obj CreateFixed(this SubSystemDocument subSystemDocument, Obj base
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a fixed constraint.
 
@@ -329,7 +330,7 @@ The action entity of a fixed constraint.
 
 The position of a fixed constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a fixed constraint.
 
@@ -345,11 +346,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -362,9 +363,9 @@ public static void CreateGroupAutoConnector(this SubSystemDocument subSystemDocu
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
-`groups` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
+`groups` IEnumerable<[Obj](VM.API.Pre.Obj.md)\>
 
 ### <a id="VM_API_Pre_ConstraintAPI_CreateInline_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateInline\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
@@ -379,7 +380,7 @@ public static Obj CreateInline(this SubSystemDocument subSystemDocument, Obj bas
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a inline constraint.
 
@@ -399,7 +400,7 @@ The base position of a inline constraint.
 
 The action position of a inline constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a inline constraint.
 
@@ -415,15 +416,15 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'basePosition' is equal to 'actionPosition'..
 
@@ -441,7 +442,7 @@ public static Obj CreateInplane(this SubSystemDocument subSystemDocument, Obj ba
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a inplane constraint.
 
@@ -465,7 +466,7 @@ The action position of a inplane constraint.
 
 The Z-Axis of a inplane constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a inplane constraint.
 
@@ -481,11 +482,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -502,7 +503,7 @@ public static Obj CreateOrientation(this SubSystemDocument subSystemDocument, Ob
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a orientation constraint.
 
@@ -518,7 +519,7 @@ The action entity of a orientation constraint.
 
 The position of a orientation constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a orientation constraint.
 
@@ -534,11 +535,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -556,7 +557,7 @@ public static Obj CreateParallel(this SubSystemDocument subSystemDocument, Obj b
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a parallel constraint.
 
@@ -580,7 +581,7 @@ The action position of a parallel constraint.
 
 The Z-Axis of a parallel constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a parallel constraint.
 
@@ -596,11 +597,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -618,7 +619,7 @@ public static Obj CreatePerpendicular(this SubSystemDocument subSystemDocument, 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a perpendicular constraint.
 
@@ -642,7 +643,7 @@ The base Z-Axis of a perpendicular constraint.
 
 The action Z-Axis of a perpendicular constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a perpendicular constraint.
 
@@ -658,11 +659,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'baseZAxis', 'actionZAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -680,7 +681,7 @@ public static Obj CreatePerpendicular(this SubSystemDocument subSystemDocument, 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a perpendicular constraint.
 
@@ -708,7 +709,7 @@ The base Z-Axis of a perpendicular constraint.
 
 The action Z-Axis of a perpendicular constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a perpendicular constraint.
 
@@ -724,15 +725,15 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'baseZAxis', 'actionZAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if 'baseZAxis' is equal to 'actionZAxis'.
 
@@ -750,7 +751,7 @@ public static Obj CreatePlane(this SubSystemDocument subSystemDocument, Obj base
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a planar constraint.
 
@@ -770,7 +771,7 @@ The position of a planar constraint.
 
 The Z-Axis of a planar constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a planar constraint.
 
@@ -786,11 +787,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -807,7 +808,7 @@ public static Obj CreateRevolute(this SubSystemDocument subSystemDocument, Obj b
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a revolute constraint.
 
@@ -823,7 +824,7 @@ The action entity of a revolute constraint.
 
 The position of a revolute constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a revolute constraint.
 
@@ -859,11 +860,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -881,7 +882,7 @@ public static Obj CreateRevolute(this SubSystemDocument subSystemDocument, Obj b
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a revolute constraint.
 
@@ -901,7 +902,7 @@ The position of a revolute constraint.
 
 The Z-Axis of a revolute constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a revolute constraint.
 
@@ -937,11 +938,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -959,7 +960,7 @@ public static Obj CreateScrew(this SubSystemDocument subSystemDocument, Obj base
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a screw.
 
@@ -979,11 +980,11 @@ The position of a screw.
 
 The Z-Axis of a screw.
 
-`pitch` ExpressionValueVariable?
+`pitch` [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)?
 
 The pitch of a screw.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a screw.
 
@@ -999,11 +1000,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1021,7 +1022,7 @@ public static Obj CreateTranslational(this SubSystemDocument subSystemDocument, 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a translational constraint.
 
@@ -1041,7 +1042,7 @@ The position of a translational constraint.
 
 The Z-Axis of a translational constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a translational constraint.
 
@@ -1077,11 +1078,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -1099,7 +1100,7 @@ public static Obj CreateUniversal(this SubSystemDocument subSystemDocument, Obj 
 
 #### Parameters
 
-`subSystemDocument` SubSystemDocument
+`subSystemDocument` [SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> to create a universal constraint.
 
@@ -1123,7 +1124,7 @@ The base X-Axis of a universal constraint.
 
 The action X-Axis of a universal constraint.
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The name of a universal constraint.
 
@@ -1147,11 +1148,11 @@ the new <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolve
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is null.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'baseXAxis', 'actionXAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 

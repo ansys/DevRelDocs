@@ -1,4 +1,5 @@
-#  Class LinkUpdateAttribute
+# Class LinkUpdateAttribute
+<a id="VM_Models_Pre_LinkUpdateAttribute"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -13,8 +14,8 @@ public class LinkUpdateAttribute : LinkBaseAttribute, ILinkUpdateOwner
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
+object ← 
+Attribute ← 
 [LinkBaseAttribute](VM.Models.Pre.LinkBaseAttribute.md) ← 
 [LinkUpdateAttribute](VM.Models.Pre.LinkUpdateAttribute.md)
 
@@ -59,7 +60,7 @@ public LinkUpdateAttribute(Type behaviorType)
 
 #### Parameters
 
-`behaviorType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`behaviorType` Type
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute__ctor_VM_Models_Pre_LinkBehaviorType_System_String___"></a> LinkUpdateAttribute\(LinkBehaviorType, params string\[\]\)
 
@@ -71,7 +72,7 @@ public LinkUpdateAttribute(LinkBehaviorType linkBehaviorType, params string[] be
 
 `linkBehaviorType` LinkBehaviorType
 
-`behaviorNames` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`behaviorNames` string\[\]
 
 ## Fields
 
@@ -95,7 +96,7 @@ protected virtual string AfterEventName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute_BeforeEventName"></a> BeforeEventName
 
@@ -105,7 +106,7 @@ protected virtual string BeforeEventName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute_TypeId"></a> TypeId
 
@@ -115,7 +116,7 @@ public override object TypeId { get; }
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ## Methods
 
@@ -128,13 +129,13 @@ public virtual void AfterSetter(object owner, string propertyName, object[] valu
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`values` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`values` object\[\]
 
-`triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
+`triggers` Attribute\[\]
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute_BeforeSetter_System_String_"></a> BeforeSetter\(string\)
 
@@ -145,7 +146,7 @@ public virtual void BeforeSetter(string propertyName)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute_GetAfterBehavior__1_System_Object_System_String_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs____0_System_Boolean_"></a> GetAfterBehavior<TAttribute\>\(object, string, object, EventPattern<LinkEventArgs\>, TAttribute, bool\)
 
@@ -155,21 +156,21 @@ protected Action GetAfterBehavior<TAttribute>(object owner, string propertyName,
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`link` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`link` object
 
 `eventPattern` EventPattern<LinkEventArgs\>
 
 `attribute` TAttribute
 
-`isSwap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSwap` bool
 
 #### Returns
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 #### Type Parameters
 
@@ -183,19 +184,19 @@ protected IDisposable GetAfterSubscriber<TAttribute>(object owner, string proper
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`link` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`link` object
 
 `linkAttribute` TAttribute
 
-`isSwap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSwap` bool
 
 #### Returns
 
- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+ IDisposable
 
 #### Type Parameters
 
@@ -209,21 +210,21 @@ protected Action GetBeforeBehavior<TAttribute>(object owner, string propertyName
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`link` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`link` object
 
 `eventPattern` EventPattern<LinkEventArgs\>
 
 `attribute` TAttribute
 
-`isSwap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSwap` bool
 
 #### Returns
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 #### Type Parameters
 
@@ -237,19 +238,19 @@ protected IDisposable GetBeforeSubscriber<TAttribute>(object owner, string prope
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`link` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`link` object
 
 `linkAttribute` TAttribute
 
-`isSwap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSwap` bool
 
 #### Returns
 
- [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+ IDisposable
 
 #### Type Parameters
 
@@ -263,21 +264,21 @@ protected static Action GetBehavior<TAttribute>(object caller, object owner, str
 
 #### Parameters
 
-`caller` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`caller` object
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`link` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`link` object
 
 `attribute` TAttribute
 
-`isSwap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSwap` bool
 
 #### Returns
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 #### Type Parameters
 
@@ -291,13 +292,13 @@ protected virtual Action GetDefaultAfterBehavior(object source, EventPattern<Lin
 
 #### Parameters
 
-`source` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`source` object
 
 `eventPattern` EventPattern<LinkEventArgs\>
 
 #### Returns
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute_GetDefaultBeforeBehavior_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs__"></a> GetDefaultBeforeBehavior\(object, EventPattern<LinkEventArgs\>\)
 
@@ -307,13 +308,13 @@ protected virtual Action GetDefaultBeforeBehavior(object source, EventPattern<Li
 
 #### Parameters
 
-`source` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`source` object
 
 `eventPattern` EventPattern<LinkEventArgs\>
 
 #### Returns
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
@@ -323,9 +324,9 @@ protected override void InitializeProperty(object owner, IEnumerable<PropertyInf
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+`propertyInfos` IEnumerable<PropertyInfo\>
 
 ### <a id="VM_Models_Pre_LinkUpdateAttribute_InitializeProperty__1_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__System_Boolean_"></a> InitializeProperty<TAttribute\>\(object, IEnumerable<PropertyInfo\>, bool\)
 
@@ -335,11 +336,11 @@ protected void InitializeProperty<TAttribute>(object owner, IEnumerable<Property
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+`propertyInfos` IEnumerable<PropertyInfo\>
 
-`isSwap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSwap` bool
 
 #### Type Parameters
 
@@ -353,15 +354,15 @@ protected void Subscribe<TAttribute>(object owner, string propertyName, object l
 
 #### Parameters
 
-`owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`owner` object
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
-`link` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`link` object
 
-`attributes` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\>
+`attributes` IEnumerable<Attribute\>
 
-`isSwap` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSwap` bool
 
 #### Type Parameters
 

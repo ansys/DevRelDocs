@@ -1,4 +1,5 @@
-#  Class Cylindrical
+# Class Cylindrical
+<a id="VM_Managed_Symmetric_Constraints_Cylindrical"></a>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  
@@ -9,9 +10,9 @@ public class Cylindrical : Constraint<Cylindrical, PropertyCylindrical>, ISymmet
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<Cylindrical\> ← 
-Connector<Cylindrical, PropertyCylindrical\> ← 
+object ← 
+[Named<Cylindrical\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<Cylindrical, PropertyCylindrical\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
 [Constraint<Cylindrical, PropertyCylindrical\>](VM.Managed.Symmetric.Constraints.Constraint\-2.md) ← 
 [Cylindrical](VM.Managed.Symmetric.Constraints.Cylindrical.md)
 
@@ -22,11 +23,11 @@ ISymmetricUpdater
 #### Inherited Members
 
 [Constraint<Cylindrical, PropertyCylindrical\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](VM.Managed.Symmetric.Constraints.Constraint\-2.md\#VM\_Managed\_Symmetric\_Constraints\_Constraint\_2\_Update\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_VM\_Managed\_SymmetricType\_VM\_Plane\_VM\_Managed\_Document\_), 
-Connector<Cylindrical, PropertyCylindrical\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Cylindrical\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<Cylindrical\>.Initialize\(ISymmetricManager\), 
-Named<Cylindrical\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<Cylindrical\>.SymmetricManager
+[Connector<Cylindrical, PropertyCylindrical\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<Cylindrical\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Cylindrical\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Cylindrical\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<Cylindrical\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 
@@ -74,7 +75,7 @@ Plane of symmetric.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -86,9 +87,9 @@ public static void UpdateProperty(PropertyCylindrical toolProperty, PropertyCyli
 
 #### Parameters
 
-`toolProperty` PropertyCylindrical
+`toolProperty` [PropertyCylindrical](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Cylindrical.cs)
 
-`targetProperty` PropertyCylindrical
+`targetProperty` [PropertyCylindrical](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCB/Cylindrical.cs)
 
 `sym_type` SymmetricType
 

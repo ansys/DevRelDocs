@@ -1,4 +1,5 @@
-#  Enum PropertyBearingGeneral.FormulationType
+# Enum PropertyBearingGeneral.FormulationType
+<a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_FormulationType"></a>
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  

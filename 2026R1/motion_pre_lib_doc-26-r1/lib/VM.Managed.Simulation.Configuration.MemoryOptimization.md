@@ -1,4 +1,5 @@
-#  Enum Configuration.MemoryOptimization
+# Enum Configuration.MemoryOptimization
+<a id="VM_Managed_Simulation_Configuration_MemoryOptimization"></a>
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

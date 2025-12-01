@@ -1,4 +1,5 @@
-#  Class ActuatorRotatingMass
+# Class ActuatorRotatingMass
+<a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -9,10 +10,10 @@ public class ActuatorRotatingMass : Actuator<ActuatorRotatingMass, PropertyActua
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<ActuatorRotatingMass\> ← 
-BuilderSymmetric<ActuatorRotatingMass\> ← 
-BuilderNamed<ActuatorRotatingMass\> ← 
+object ← 
+[BuilderBase<ActuatorRotatingMass\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<ActuatorRotatingMass\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<ActuatorRotatingMass\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [Actuator<ActuatorRotatingMass, PropertyActuatorRotatingMass\>](VM.Managed.DAFUL.Builder.Linear.Actuator\-2.md) ← 
 [ActuatorRotatingMass](VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass.md)
 
@@ -22,29 +23,29 @@ IBuilder
 
 #### Inherited Members
 
-BuilderNamed<ActuatorRotatingMass\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<ActuatorRotatingMass\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<ActuatorRotatingMass\>.Name, 
-BuilderSymmetric<ActuatorRotatingMass\>.Build\(Document\), 
-BuilderSymmetric<ActuatorRotatingMass\>.Symmetric, 
-BuilderSymmetric<ActuatorRotatingMass\>.CurrentSymmetric, 
-BuilderBase<ActuatorRotatingMass\>.m\_bSuccess, 
-BuilderBase<ActuatorRotatingMass\>.Build\(Document\), 
-BuilderBase<ActuatorRotatingMass\>.Build\(Document, List<string\>\), 
-BuilderBase<ActuatorRotatingMass\>.Validate\(IList<string\>\), 
-BuilderBase<ActuatorRotatingMass\>.Success\(\), 
-BuilderBase<ActuatorRotatingMass\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<ActuatorRotatingMass\>.OnFinalBuild\(string, Document\), 
-BuilderBase<ActuatorRotatingMass\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<ActuatorRotatingMass\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<ActuatorRotatingMass\>.Parameters, 
-BuilderBase<ActuatorRotatingMass\>.AddToDoc, 
-BuilderBase<ActuatorRotatingMass\>.UseChangedObject, 
-BuilderBase<ActuatorRotatingMass\>.SetPointKey, 
-BuilderBase<ActuatorRotatingMass\>.BuildObject, 
-BuilderBase<ActuatorRotatingMass\>.BuildDocument, 
-BuilderBase<ActuatorRotatingMass\>.UseInterface, 
-BuilderBase<ActuatorRotatingMass\>.ErrorMessage
+[BuilderNamed<ActuatorRotatingMass\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ActuatorRotatingMass\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<ActuatorRotatingMass\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<ActuatorRotatingMass\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ActuatorRotatingMass\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<ActuatorRotatingMass\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<ActuatorRotatingMass\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -70,7 +71,7 @@ public string[] InputArray { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ## Methods
 
@@ -88,7 +89,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
@@ -98,9 +99,9 @@ public override bool Validate(IList<string> lstErrorMessage)
 
 #### Parameters
 
-`lstErrorMessage` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`lstErrorMessage` IList<string\>
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Enum MultiConnectorType
+# Enum MultiConnectorType
+<a id="VM_Models_Pre_Connections_MultiConnectorType"></a>
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  

@@ -1,4 +1,5 @@
-#  Class MatchTypeObjAttribute
+# Class MatchTypeObjAttribute
+<a id="VM_API_Pre_MatchTypeObjAttribute"></a>
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -14,17 +15,17 @@ public class MatchTypeObjAttribute : ValidationAttribute
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute) ← 
-ValidationAttribute ← 
+object ← 
+Attribute ← 
+[ValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models/Models/Attributes/ValidationAttribute.cs) ← 
 [MatchTypeObjAttribute](VM.API.Pre.MatchTypeObjAttribute.md)
 
 #### Inherited Members
 
-ValidationAttribute.CheckValidationCore\(Attribute\[\], MethodBase, object\[\]\), 
-ValidationAttribute.ValidationCondition\(ValidationAttribute, string, object\), 
-ValidationAttribute.ExecuteException\(string\), 
-ValidationAttribute.Names
+[ValidationAttribute.CheckValidationCore\(Attribute\[\], MethodBase, object\[\]\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models/Models/Attributes/ValidationAttribute.cs), 
+[ValidationAttribute.ValidationCondition\(ValidationAttribute, string, object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models/Models/Attributes/ValidationAttribute.cs), 
+[ValidationAttribute.ExecuteException\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models/Models/Attributes/ValidationAttribute.cs), 
+[ValidationAttribute.Names](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models/Models/Attributes/ValidationAttribute.cs)
 
 #### Extension Methods
 
@@ -52,7 +53,7 @@ public MatchTypeObjAttribute(params object[] list)
 
 #### Parameters
 
-`list` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`list` object\[\]
 
 The target objects.
 
@@ -81,15 +82,15 @@ public void CheckValidation(MethodBase method, object[] argument, Attribute[] tr
 
 #### Parameters
 
-`method` [MethodBase](https://learn.microsoft.com/dotnet/api/system.reflection.methodbase)
+`method` MethodBase
 
 The method.
 
-`argument` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`argument` object\[\]
 
 The argument.
 
-`triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
+`triggers` Attribute\[\]
 
 The triggers
 
@@ -103,7 +104,7 @@ protected override void ExecuteException(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 The argument name.
 
@@ -117,21 +118,21 @@ protected override bool ValidationCondition(ValidationAttribute attribute, strin
 
 #### Parameters
 
-`attribute` ValidationAttribute
+`attribute` [ValidationAttribute](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Common/VM.Models/Models/Attributes/ValidationAttribute.cs)
 
 The attribute.
 
-`paramName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`paramName` string
 
 The parameter name.
 
-`argument` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`argument` object
 
 The argument.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 The flag for success.
 

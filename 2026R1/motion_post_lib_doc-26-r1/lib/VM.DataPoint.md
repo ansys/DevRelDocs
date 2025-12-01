@@ -1,15 +1,16 @@
-#  Class DataPoint
+# Class DataPoint
+<a id="VM_DataPoint"></a>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-```python
+```csharp
 public class DataPoint : ObservableObject, IObservableObject, IDisposableObject, IDataPoint
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObservableObject](VM.ObservableObject.md) ← 
 [DataPoint](VM.DataPoint.md)
 
@@ -37,7 +38,7 @@ public class DataPoint : ObservableObject, IObservableObject, IDisposableObject,
 
 ### <a id="VM_DataPoint__ctor"></a> DataPoint\(\)
 
-```python
+```csharp
 public DataPoint()
 ```
 
@@ -45,22 +46,21 @@ public DataPoint()
 
 ### <a id="VM_DataPoint_X"></a> X
 
-```python
+```csharp
 public double X { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_DataPoint_Y"></a> Y
 
-```python
+```csharp
 public double Y { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
-
+ double
 

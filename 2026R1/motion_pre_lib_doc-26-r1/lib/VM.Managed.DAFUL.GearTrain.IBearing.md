@@ -1,4 +1,5 @@
-#  Interface IBearing
+# Interface IBearing
+<a id="VM_Managed_DAFUL_GearTrain_IBearing"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -57,25 +58,25 @@ bool FillBearingData(Document doc, string InnerColor, string OuterColor, string 
 
 The document
 
-`InnerColor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`InnerColor` string
 
 The inner color
 
-`OuterColor` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`OuterColor` string
 
 The outer color
 
-`strPropertyFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPropertyFilePath` string
 
 The property file path
 
-`InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+`InputArray` string\[\]
 
 The input array
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_GearTrain_IBearing_RemoveBuilder_VM_Managed_CAD_Builder_"></a> RemoveBuilder\(Builder\)
 

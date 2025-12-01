@@ -1,4 +1,5 @@
-#  Interface IStatusBar
+# Interface IStatusBar
+<a id="VM_Managed_DAFUL_Pre_IStatusBar"></a>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,7 +28,7 @@ void SetValue(string strStatus)
 
 #### Parameters
 
-`strStatus` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStatus` string
 
 The status.
 
@@ -41,11 +42,11 @@ void SetValue(string strStatus, bool bLazy)
 
 #### Parameters
 
-`strStatus` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strStatus` string
 
 The status.
 
-`bLazy` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bLazy` bool
 
 if set to <code>true</code> [lazy].
 

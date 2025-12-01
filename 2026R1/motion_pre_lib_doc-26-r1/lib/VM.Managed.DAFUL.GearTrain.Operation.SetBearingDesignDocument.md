@@ -1,4 +1,5 @@
-#  Class SetBearingDesignDocument
+# Class SetBearingDesignDocument
+<a id="VM_Managed_DAFUL_GearTrain_Operation_SetBearingDesignDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -11,7 +12,7 @@ public class SetBearingDesignDocument : SetDesignDocumentBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [SetDesignDocumentBase](VM.Managed.DAFUL.GearTrain.Operation.SetDesignDocumentBase.md) ← 
 [SetBearingDesignDocument](VM.Managed.DAFUL.GearTrain.Operation.SetBearingDesignDocument.md)
@@ -97,7 +98,7 @@ public SetBearingDesignDocument(Bearing bearing)
 
 #### Parameters
 
-`bearing` Bearing
+`bearing` [Bearing](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/Bearing.cs)
 
 The bearing.
 

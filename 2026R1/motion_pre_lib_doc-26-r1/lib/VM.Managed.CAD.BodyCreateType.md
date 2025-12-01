@@ -1,4 +1,5 @@
-#  Enum BodyCreateType
+# Enum BodyCreateType
+<a id="VM_Managed_CAD_BodyCreateType"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

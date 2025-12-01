@@ -1,4 +1,5 @@
-#  Enum MTL.PathData.PathType
+# Enum MTL.PathData.PathType
+<a id="VM_Managed_DAFUL_Track_MTL_PathData_PathType"></a>
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

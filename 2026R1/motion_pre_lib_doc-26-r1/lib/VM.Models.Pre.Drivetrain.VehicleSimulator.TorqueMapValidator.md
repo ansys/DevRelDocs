@@ -1,4 +1,5 @@
-#  Class TorqueMapValidator
+# Class TorqueMapValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class TorqueMapValidator : AbstractValidator<TorqueMap>, IValidator<Torqu
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<TorqueMap\> ← 
 [TorqueMapValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.TorqueMapValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<TorqueMap\>.GetEnumerator\(\),
 AbstractValidator<TorqueMap\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<TorqueMap\>.PreValidate\(ValidationContext<TorqueMap\>, ValidationResult\), 
 AbstractValidator<TorqueMap\>.RaiseValidationException\(ValidationContext<TorqueMap\>, ValidationResult\), 
+AbstractValidator<TorqueMap\>.OnRuleAdded\(IValidationRule<TorqueMap\>\), 
 AbstractValidator<TorqueMap\>.CascadeMode, 
 AbstractValidator<TorqueMap\>.ClassLevelCascadeMode, 
 AbstractValidator<TorqueMap\>.RuleLevelCascadeMode

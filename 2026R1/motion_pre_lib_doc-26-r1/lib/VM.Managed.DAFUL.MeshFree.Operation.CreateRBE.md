@@ -1,4 +1,5 @@
-#  Class CreateRBE
+# Class CreateRBE
+<a id="VM_Managed_DAFUL_MeshFree_Operation_CreateRBE"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -11,7 +12,7 @@ public class CreateRBE
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CreateRBE](VM.Managed.DAFUL.MeshFree.Operation.CreateRBE.md)
 
 #### Extension Methods
@@ -44,7 +45,7 @@ public static RigidBodyElementSingle CreateRigidBodyElementSingle(Document3D act
 
 The document
 
-`setFace` SetFace
+`setFace` [SetFace](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SetFace.cs)
 
 The setface
 
@@ -52,11 +53,11 @@ The setface
 
 The point
 
-`strPrefixName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPrefixName` string
 
 The prefix name
 
 #### Returns
 
- RigidBodyElementSingle
+ [RigidBodyElementSingle](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDMeshFree/RigidBodyElement.cs)
 

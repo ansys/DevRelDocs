@@ -1,4 +1,5 @@
-#  Interface IOrientation
+# Interface IOrientation
+<a id="VM_Managed_IOrientation"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

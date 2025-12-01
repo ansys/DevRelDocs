@@ -1,4 +1,5 @@
-#  Struct NodalBody.NodeCurrentOrientation
+# Struct NodalBody.NodeCurrentOrientation
+<a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -21,7 +22,7 @@ public double XX
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_XY"></a> XY
 
@@ -33,7 +34,7 @@ public double XY
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_XZ"></a> XZ
 
@@ -45,7 +46,7 @@ public double XZ
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_YX"></a> YX
 
@@ -57,7 +58,7 @@ public double YX
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_YY"></a> YY
 
@@ -69,7 +70,7 @@ public double YY
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_YZ"></a> YZ
 
@@ -81,7 +82,7 @@ public double YZ
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_ZX"></a> ZX
 
@@ -93,7 +94,7 @@ public double ZX
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_ZY"></a> ZY
 
@@ -105,7 +106,7 @@ public double ZY
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_ZZ"></a> ZZ
 
@@ -117,5 +118,5 @@ public double ZZ
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

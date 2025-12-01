@@ -1,4 +1,5 @@
-#  Interface IConnector
+# Interface IConnector
+<a id="VM_Managed_DAFUL_IConnector"></a>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -92,7 +93,7 @@ bool PreventDuplicatedRBE { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_IConnector_Property"></a> Property
 
@@ -104,5 +105,5 @@ Property Property { get; set; }
 
 #### Property Value
 
- Property
+ [Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/Property.cs)
 

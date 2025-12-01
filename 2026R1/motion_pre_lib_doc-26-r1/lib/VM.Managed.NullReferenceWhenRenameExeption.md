@@ -1,4 +1,5 @@
-#  Class NullReferenceWhenRenameExeption
+# Class NullReferenceWhenRenameExeption
+<a id="VM_Managed_NullReferenceWhenRenameExeption"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,8 +12,8 @@ public class NullReferenceWhenRenameExeption : Exception
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
+object ← 
+Exception ← 
 [NullReferenceWhenRenameExeption](VM.Managed.NullReferenceWhenRenameExeption.md)
 
 #### Extension Methods
@@ -33,7 +34,7 @@ public NullReferenceWhenRenameExeption(string strMessage)
 
 #### Parameters
 
-`strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMessage` string
 
 The error message.
 

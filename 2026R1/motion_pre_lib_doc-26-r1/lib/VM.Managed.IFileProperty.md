@@ -1,4 +1,5 @@
-#  Interface IFileProperty
+# Interface IFileProperty
+<a id="VM_Managed_IFileProperty"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -27,7 +28,7 @@ string AbsolutePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_IFileProperty_PropertyDocument"></a> PropertyDocument
 
@@ -65,13 +66,13 @@ string GetRelativePath(string strRefDir)
 
 #### Parameters
 
-`strRefDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRefDir` string
 
 The reference directory.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The relative path.
 
@@ -85,7 +86,7 @@ void LoadExtraData(SerializationInfo info)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 ### <a id="VM_Managed_IFileProperty_SaveExtraData_System_Runtime_Serialization_SerializationInfo_"></a> SaveExtraData\(SerializationInfo\)
 
@@ -97,5 +98,5 @@ void SaveExtraData(SerializationInfo info)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 

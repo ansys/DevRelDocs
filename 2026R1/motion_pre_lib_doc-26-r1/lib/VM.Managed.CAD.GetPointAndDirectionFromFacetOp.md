@@ -1,4 +1,5 @@
-#  Class GetPointAndDirectionFromFacetOp
+# Class GetPointAndDirectionFromFacetOp
+<a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetPointAndDirectionFromFacetOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetPointAndDirectionFromFacetOp](VM.Managed.CAD.GetPointAndDirectionFromFacetOp.md)
 
@@ -87,7 +88,7 @@ public GetPointAndDirectionFromFacetOp(Face face, FacetOption options, VectorBas
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-`options` FacetOption
+`options` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 `vecPoint` [VectorBase](VM.Managed.VectorBase.md)
 
@@ -117,7 +118,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp_Point"></a> Point
 
@@ -141,7 +142,7 @@ public bool Result { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 

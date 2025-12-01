@@ -1,4 +1,5 @@
-#  Class ShowInterfaceDlgForCar
+# Class ShowInterfaceDlgForCar
+<a id="VM_Managed_DAFUL_Car_Operation_ShowInterfaceDlgForCar"></a>
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -11,7 +12,7 @@ public class ShowInterfaceDlgForCar : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 OperationBase ← 
 [ShowInterfaceDlgForCar](VM.Managed.DAFUL.Car.Operation.ShowInterfaceDlgForCar.md)
 
@@ -99,7 +100,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

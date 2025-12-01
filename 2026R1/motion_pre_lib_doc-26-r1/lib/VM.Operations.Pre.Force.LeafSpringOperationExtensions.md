@@ -1,4 +1,5 @@
-#  Class LeafSpringOperationExtensions
+# Class LeafSpringOperationExtensions
+<a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions"></a>
 
 Namespace: [VM.Operations.Pre.Force](VM.Operations.Pre.Force.md)  
 Assembly: VM.Operations.Pre.Force.dll  
@@ -9,7 +10,7 @@ public static class LeafSpringOperationExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LeafSpringOperationExtensions](VM.Operations.Pre.Force.LeafSpringOperationExtensions.md)
 
 #### Extension Methods
@@ -28,9 +29,9 @@ public static void CopyBushPropertyValue(PropertyBush target, PropertyBush sourc
 
 #### Parameters
 
-`target` PropertyBush
+`target` [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
-`source` PropertyBush
+`source` [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions_CreateCenterBoltBody_VM_Managed_Document_System_String_VM_Vector_System_Double_System_Boolean_"></a> CreateCenterBoltBody\(Document, string, Vector, double, bool\)
 
@@ -42,17 +43,17 @@ public static SolidBody CreateCenterBoltBody(Document document, string name, Vec
 
 `document` Document
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 `position` Vector
 
-`mass` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mass` double
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 #### Returns
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions_CreateClipToLeafVectorForceUserSubroutine_VM_Managed_Document_VM_Managed_DAFUL_Force_PropertyVector_System_String_VM_Models_Pre_Force_Clip_VM_Managed_DAFUL_Beam_BeamGroup_System_Int32_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_CenterMarker_VM_Managed_DAFUL_SolidBody_System_Boolean_"></a> CreateClipToLeafVectorForceUserSubroutine\(Document, PropertyVector, string, Clip, BeamGroup, int, Marker, CenterMarker, SolidBody, bool\)
 
@@ -64,27 +65,27 @@ public static UserSubroutine CreateClipToLeafVectorForceUserSubroutine(Document 
 
 `document` Document
 
-`property` PropertyVector
+`property` [PropertyVector](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Vector.cs)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`clip` Clip
+`clip` [Clip](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/Clip.cs)
 
-`leafBeamGroup` BeamGroup
+`leafBeamGroup` [BeamGroup](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDBeamGroup/BeamGroup.cs)
 
-`beamGroupBodyIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`beamGroupBodyIndex` int
 
-`upperMarker` Marker
+`upperMarker` [Marker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
-`fixedBodyCenterMarker` CenterMarker
+`fixedBodyCenterMarker` [CenterMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
-`beamGroupBody` SolidBody
+`beamGroupBody` [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 #### Returns
 
- UserSubroutine
+ [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions_CreateEyeBody_VM_Managed_Document_System_String_System_ValueTuple_VM_Vector_VM_Vector__System_ValueTuple_System_Double_System_Double__System_Boolean_"></a> CreateEyeBody\(Document, string, \(Vector Top, Vector Bottom\), \(double Outer, double Inner\), bool\)
 
@@ -96,17 +97,17 @@ public static SolidBody CreateEyeBody(Document document, string name, (Vector To
 
 `document` Document
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`position` \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+`position` \(Vector Top, Vector Bottom\)
 
-`radius` \([double](https://learn.microsoft.com/dotnet/api/system.double) [Outer](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.outer), [double](https://learn.microsoft.com/dotnet/api/system.double) [Inner](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.inner)\)
+`radius` \(double Outer, double Inner\)
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 #### Returns
 
- SolidBody
+ [SolidBody](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Body.cs)
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions_CreateLeafToLeafVectorForceUserSubroutine_VM_Managed_Document_VM_Managed_DAFUL_Force_PropertyVector_System_String_VM_Models_Pre_Force_Leaf___System_Collections_Generic_IList_VM_Models_Pre_Force_LeafInfo__System_Int32_System_Int32_System_Int32_System_Int32_VM_Managed_DAFUL_CenterMarker_VM_Managed_DAFUL_CenterMarker_System_Boolean_"></a> CreateLeafToLeafVectorForceUserSubroutine\(Document, PropertyVector, string, Leaf\[\], IList<LeafInfo\>, int, int, int, int, CenterMarker, CenterMarker, bool\)
 
@@ -118,41 +119,37 @@ public static UserSubroutine CreateLeafToLeafVectorForceUserSubroutine(Document 
 
 `document` Document
 
-`property` PropertyVector
+`property` [PropertyVector](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFP/Vector.cs)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`leaves` Leaf\[\]
+`leaves` [Leaf](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/Leaf.Linker.cs)\[\]
 
-`leafInfos` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<LeafInfo\>
+`leafInfos` IList<LeafInfo\>
 
-`baseLeafIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`baseLeafIndex` int
 
-`baseBodyIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`baseBodyIndex` int
 
-`actionLeafIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`actionLeafIndex` int
 
-`actionBodyIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`actionBodyIndex` int
 
-`baseBodyCenterMarker` CenterMarker
+`baseBodyCenterMarker` [CenterMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
-`actionBodyCenterMarker` CenterMarker
+`actionBodyCenterMarker` [CenterMarker](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/Marker.cs)
 
-`addToDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`addToDocument` bool
 
 #### Returns
 
- UserSubroutine
+ [UserSubroutine](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDSP/UserSubroutine.cs)
 
-### <a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions_GetConnectionOrientation_VM_Models_Pre_Force_ConnectionType_"></a> GetConnectionOrientation\(ConnectionType\)
+### <a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions_GetConnectionOrientationForTestSimulation"></a> GetConnectionOrientationForTestSimulation\(\)
 
 ```csharp
-public static OMatrix GetConnectionOrientation(ConnectionType connectionType)
+public static OMatrix GetConnectionOrientationForTestSimulation()
 ```
-
-#### Parameters
-
-`connectionType` ConnectionType
 
 #### Returns
 
@@ -166,15 +163,15 @@ public static BuilderMulti GetShackleBodyBuilder(double mainLeafWidth, int direc
 
 #### Parameters
 
-`mainLeafWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`mainLeafWidth` double
 
-`directionY` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`directionY` int
 
-`eyeHolePosition` \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+`eyeHolePosition` \(Vector Top, Vector Bottom\)
 
-`shackleHolePosition` \(Vector [Top](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.top), Vector [Bottom](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.vector,vm.vector\-.bottom)\)
+`shackleHolePosition` \(Vector Top, Vector Bottom\)
 
-`shackle` Shackle
+`shackle` [Shackle](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/Shackle.cs)
 
 #### Returns
 
@@ -188,11 +185,11 @@ public static double GetclipBodyRadius(Clip clip)
 
 #### Parameters
 
-`clip` Clip
+`clip` [Clip](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre.Force/Models/LeafSpring/Clip.cs)
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="VM_Operations_Pre_Force_LeafSpringOperationExtensions_SetBushPropertyAllZero_VM_Managed_DAFUL_Force_PropertyBush_"></a> SetBushPropertyAllZero\(PropertyBush\)
 
@@ -202,5 +199,5 @@ public static void SetBushPropertyAllZero(PropertyBush propertyBush)
 
 #### Parameters
 
-`propertyBush` PropertyBush
+`propertyBush` [PropertyBush](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFB/Bush.cs)
 

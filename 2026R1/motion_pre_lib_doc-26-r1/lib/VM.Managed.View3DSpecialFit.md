@@ -1,4 +1,5 @@
-#  Class View3DSpecialFit
+# Class View3DSpecialFit
+<a id="VM_Managed_View3DSpecialFit"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class View3DSpecialFit : View3D, ISpecialFitView
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [View](VM.Managed.View.md) ← 
 [HandledView](VM.Managed.HandledView.md) ← 
 [View3D](VM.Managed.View3D.md) ← 
@@ -98,7 +99,7 @@ public View3DSpecialFit(UIntPtr handleView, Document doc)
 
 #### Parameters
 
-`handleView` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`handleView` UIntPtr
 
 The view handle.
 
@@ -117,7 +118,7 @@ protected override void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_View3DSpecialFit_Finalize"></a> \~View3DSpecialFit\(\)
 

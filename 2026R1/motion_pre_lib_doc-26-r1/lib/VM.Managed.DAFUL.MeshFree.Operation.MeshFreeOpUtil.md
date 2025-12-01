@@ -1,4 +1,5 @@
-#  Class MeshFreeOpUtil
+# Class MeshFreeOpUtil
+<a id="VM_Managed_DAFUL_MeshFree_Operation_MeshFreeOpUtil"></a>
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -11,7 +12,7 @@ public static class MeshFreeOpUtil
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MeshFreeOpUtil](VM.Managed.DAFUL.MeshFree.Operation.MeshFreeOpUtil.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ Document to check SolidBody
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether has only 1 lump for all SolidBodies
 
@@ -58,7 +59,7 @@ Document to check SolidBody
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 Whether exist material for all SolidBodies
 

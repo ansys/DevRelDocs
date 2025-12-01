@@ -1,4 +1,5 @@
-#  Class TireTR
+# Class TireTR
+<a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.Tire.Force](VM.Managed.DAFUL.Builder.Tire.Force.md)  
 Assembly: VMBldTire.dll  
@@ -9,10 +10,10 @@ public class TireTR : TireTRBase<Tire>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<Tire\> ← 
-BuilderSymmetric<Tire\> ← 
-BuilderNamed<Tire\> ← 
+object ← 
+[BuilderBase<Tire\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<Tire\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<Tire\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [TireTRBase<Tire\>](VM.Managed.DAFUL.Builder.Tire.Force.TireTRBase\-1.md) ← 
 [TireTR](VM.Managed.DAFUL.Builder.Tire.Force.TireTR.md)
 
@@ -37,29 +38,29 @@ IBuilder
 [TireTRBase<Tire\>.WheelCenterOffset](VM.Managed.DAFUL.Builder.Tire.Force.TireTRBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Tire\_Force\_TireTRBase\_1\_WheelCenterOffset), 
 [TireTRBase<Tire\>.TreadColor](VM.Managed.DAFUL.Builder.Tire.Force.TireTRBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Tire\_Force\_TireTRBase\_1\_TreadColor), 
 [TireTRBase<Tire\>.Transform](VM.Managed.DAFUL.Builder.Tire.Force.TireTRBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_Tire\_Force\_TireTRBase\_1\_Transform), 
-BuilderNamed<Tire\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<Tire\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<Tire\>.Name, 
-BuilderSymmetric<Tire\>.Build\(Document\), 
-BuilderSymmetric<Tire\>.Symmetric, 
-BuilderSymmetric<Tire\>.CurrentSymmetric, 
-BuilderBase<Tire\>.m\_bSuccess, 
-BuilderBase<Tire\>.Build\(Document\), 
-BuilderBase<Tire\>.Build\(Document, List<string\>\), 
-BuilderBase<Tire\>.Validate\(IList<string\>\), 
-BuilderBase<Tire\>.Success\(\), 
-BuilderBase<Tire\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<Tire\>.OnFinalBuild\(string, Document\), 
-BuilderBase<Tire\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<Tire\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<Tire\>.Parameters, 
-BuilderBase<Tire\>.AddToDoc, 
-BuilderBase<Tire\>.UseChangedObject, 
-BuilderBase<Tire\>.SetPointKey, 
-BuilderBase<Tire\>.BuildObject, 
-BuilderBase<Tire\>.BuildDocument, 
-BuilderBase<Tire\>.UseInterface, 
-BuilderBase<Tire\>.ErrorMessage
+[BuilderNamed<Tire\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Tire\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Tire\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<Tire\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Tire\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Tire\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Tire\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -95,7 +96,7 @@ public string RoadFilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_SpinVelocity"></a> SpinVelocity
 
@@ -121,7 +122,7 @@ protected override WheelBodyBase MakeWheelBody(Document doc)
 
 #### Returns
 
- WheelBodyBase
+ [WheelBodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs)
 
 ### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
@@ -137,7 +138,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_SetDataWheelBody_VM_Managed_DAFUL_Tire_WheelBodyBase_VM_Managed_Document_"></a> SetDataWheelBody\(WheelBodyBase, Document\)
 
@@ -147,7 +148,7 @@ protected override void SetDataWheelBody(WheelBodyBase wheel, Document doc)
 
 #### Parameters
 
-`wheel` WheelBodyBase
+`wheel` [WheelBodyBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDTire/WheelBodyBase.cs)
 
 `doc` Document
 

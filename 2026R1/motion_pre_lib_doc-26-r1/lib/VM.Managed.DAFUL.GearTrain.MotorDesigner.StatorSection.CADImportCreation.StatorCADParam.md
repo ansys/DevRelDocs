@@ -1,4 +1,5 @@
-#  Class MotorDesigner.StatorSection.CADImportCreation.StatorCADParam
+# Class MotorDesigner.StatorSection.CADImportCreation.StatorCADParam
+<a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_StatorCADParam"></a>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +12,7 @@ public class MotorDesigner.StatorSection.CADImportCreation.StatorCADParam
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MotorDesigner.StatorSection.CADImportCreation.StatorCADParam](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.CADImportCreation.StatorCADParam.md)
 
 #### Extension Methods
@@ -40,5 +41,5 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -1,4 +1,5 @@
-#  Class SimulationDataSetValidator
+# Class SimulationDataSetValidator
+<a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSetValidator"></a>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -9,7 +10,7 @@ public class SimulationDataSetValidator : AbstractValidator<SimulationDataSet>, 
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 AbstractValidator<SimulationDataSet\> ← 
 [SimulationDataSetValidator](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSetValidator.md)
 
@@ -46,6 +47,7 @@ AbstractValidator<SimulationDataSet\>.GetEnumerator\(\),
 AbstractValidator<SimulationDataSet\>.EnsureInstanceNotNull\(object\), 
 AbstractValidator<SimulationDataSet\>.PreValidate\(ValidationContext<SimulationDataSet\>, ValidationResult\), 
 AbstractValidator<SimulationDataSet\>.RaiseValidationException\(ValidationContext<SimulationDataSet\>, ValidationResult\), 
+AbstractValidator<SimulationDataSet\>.OnRuleAdded\(IValidationRule<SimulationDataSet\>\), 
 AbstractValidator<SimulationDataSet\>.CascadeMode, 
 AbstractValidator<SimulationDataSet\>.ClassLevelCascadeMode, 
 AbstractValidator<SimulationDataSet\>.RuleLevelCascadeMode

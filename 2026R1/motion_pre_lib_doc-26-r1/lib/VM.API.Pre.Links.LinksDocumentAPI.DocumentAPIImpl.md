@@ -1,4 +1,5 @@
-#  Class LinksDocumentAPI.DocumentAPIImpl
+# Class LinksDocumentAPI.DocumentAPIImpl
+<a id="VM_API_Pre_Links_LinksDocumentAPI_DocumentAPIImpl"></a>
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +12,7 @@ public static class LinksDocumentAPI.DocumentAPIImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LinksDocumentAPI.DocumentAPIImpl](VM.API.Pre.Links.LinksDocumentAPI.DocumentAPIImpl.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public static T CreateNewLinksDocumentImpl<T>(string newLinksSubsystemFilePath, 
 
 #### Parameters
 
-`newLinksSubsystemFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newLinksSubsystemFilePath` string
 
 The file path of new subsystem file path.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document. The default value is Subsystem_LinksPath.
 
@@ -53,11 +54,11 @@ The working plane. The default value is XZ.
 
 The length unit of kernel. The default value is mm.
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 The extension.
 
-`documentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentType` string
 
 The document type.
 
@@ -75,7 +76,7 @@ The document type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newLinksSubsystemFilePath' argument is null.
 

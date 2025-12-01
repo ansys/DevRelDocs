@@ -1,4 +1,5 @@
-#  Interface ICunstomLink
+# Interface ICunstomLink
+<a id="VM_Managed_ICunstomLink"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -25,11 +26,11 @@ void GetAllLink(ICollection<ILink> colLinks, ICollection<ILinkCollection> colLin
 
 #### Parameters
 
-`colLinks` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[ILink](VM.Managed.ILink.md)\>
+`colLinks` ICollection<[ILink](VM.Managed.ILink.md)\>
 
-`colLinkCollections` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[ILinkCollection](VM.Managed.Collections.ILinkCollection.md)\>
+`colLinkCollections` ICollection<[ILinkCollection](VM.Managed.Collections.ILinkCollection.md)\>
 
-`bIncludeNullLinks` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bIncludeNullLinks` bool
 
 ### <a id="VM_Managed_ICunstomLink_GetAllLink_System_Collections_Generic_HashSet_VM_Managed_ILink___"></a> GetAllLink\(ref HashSet<ILink\>\)
 
@@ -39,5 +40,5 @@ void GetAllLink(ref HashSet<ILink> hs)
 
 #### Parameters
 
-`hs` [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[ILink](VM.Managed.ILink.md)\>
+`hs` HashSet<[ILink](VM.Managed.ILink.md)\>
 

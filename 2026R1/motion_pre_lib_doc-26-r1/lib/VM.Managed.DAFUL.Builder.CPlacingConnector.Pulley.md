@@ -1,4 +1,5 @@
-#  Class Pulley
+# Class Pulley
+<a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pulley"></a>
 
 Namespace: [VM.Managed.DAFUL.Builder.CPlacingConnector](VM.Managed.DAFUL.Builder.CPlacingConnector.md)  
 Assembly: VMBldCPlacingConnector.dll  
@@ -9,10 +10,10 @@ public class Pulley : GeometryBase<Pulley>, IBuilder
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-BuilderBase<Pulley\> ← 
-BuilderSymmetric<Pulley\> ← 
-BuilderNamed<Pulley\> ← 
+object ← 
+[BuilderBase<Pulley\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderSymmetric<Pulley\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs) ← 
+[BuilderNamed<Pulley\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs) ← 
 [GeometryBase<Pulley\>](VM.Managed.DAFUL.Builder.CPlacingConnector.GeometryBase\-1.md) ← 
 [Pulley](VM.Managed.DAFUL.Builder.CPlacingConnector.Pulley.md)
 
@@ -25,29 +26,29 @@ IBuilder
 [GeometryBase<Pulley\>.Body](VM.Managed.DAFUL.Builder.CPlacingConnector.GeometryBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_CPlacingConnector\_GeometryBase\_1\_Body), 
 [GeometryBase<Pulley\>.Position](VM.Managed.DAFUL.Builder.CPlacingConnector.GeometryBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_CPlacingConnector\_GeometryBase\_1\_Position), 
 [GeometryBase<Pulley\>.DirectionZ](VM.Managed.DAFUL.Builder.CPlacingConnector.GeometryBase\-1.md\#VM\_Managed\_DAFUL\_Builder\_CPlacingConnector\_GeometryBase\_1\_DirectionZ), 
-BuilderNamed<Pulley\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderNamed<Pulley\>.CheckUnit\(Document3D, Document3D, string\), 
-BuilderNamed<Pulley\>.Name, 
-BuilderSymmetric<Pulley\>.Build\(Document\), 
-BuilderSymmetric<Pulley\>.Symmetric, 
-BuilderSymmetric<Pulley\>.CurrentSymmetric, 
-BuilderBase<Pulley\>.m\_bSuccess, 
-BuilderBase<Pulley\>.Build\(Document\), 
-BuilderBase<Pulley\>.Build\(Document, List<string\>\), 
-BuilderBase<Pulley\>.Validate\(IList<string\>\), 
-BuilderBase<Pulley\>.Success\(\), 
-BuilderBase<Pulley\>.OnPostBuild\(ObjectBase, Document\), 
-BuilderBase<Pulley\>.OnFinalBuild\(string, Document\), 
-BuilderBase<Pulley\>.OnObjectChangeBuild\(string, Document\), 
-BuilderBase<Pulley\>.OnPostAddDoc\(ObjectBase\), 
-BuilderBase<Pulley\>.Parameters, 
-BuilderBase<Pulley\>.AddToDoc, 
-BuilderBase<Pulley\>.UseChangedObject, 
-BuilderBase<Pulley\>.SetPointKey, 
-BuilderBase<Pulley\>.BuildObject, 
-BuilderBase<Pulley\>.BuildDocument, 
-BuilderBase<Pulley\>.UseInterface, 
-BuilderBase<Pulley\>.ErrorMessage
+[BuilderNamed<Pulley\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Pulley\>.CheckUnit\(Document3D, Document3D, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderNamed<Pulley\>.Name](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderNamed.cs), 
+[BuilderSymmetric<Pulley\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Pulley\>.Symmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderSymmetric<Pulley\>.CurrentSymmetric](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.m\_bSuccess](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.Build\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.Build\(Document, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.Validate\(IList<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.Success\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.OnPostBuild\(ObjectBase, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.OnFinalBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.OnObjectChangeBuild\(string, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.OnPostAddDoc\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.Parameters](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.AddToDoc](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.UseChangedObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.SetPointKey](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.BuildObject](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.BuildDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.UseInterface](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs), 
+[BuilderBase<Pulley\>.ErrorMessage](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Builders/VMBld/BuilderBase.cs)
 
 #### Extension Methods
 
@@ -79,5 +80,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

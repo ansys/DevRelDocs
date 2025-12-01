@@ -1,4 +1,5 @@
-#  Class TireCar
+# Class TireCar
+<a id="VM_Managed_Symmetric_Tire_Car_Force_TireCar"></a>
 
 Namespace: [VM.Managed.Symmetric.Tire.Car.Force](VM.Managed.Symmetric.Tire.Car.Force.md)  
 Assembly: VMSymTireCar.dll  
@@ -9,11 +10,11 @@ public class TireCar : TireBase<TireCar>, ISymmetricUpdater, ISymmetricUpdaterAf
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-Named<TireCar\> ← 
-Connector<TireCar, PropertyTire\> ← 
-Force<TireCar, PropertyTire\> ← 
-TireBase<TireCar\> ← 
+object ← 
+[Named<TireCar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs) ← 
+[Connector<TireCar, PropertyTire\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs) ← 
+[Force<TireCar, PropertyTire\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs) ← 
+[TireBase<TireCar\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymTire/TireBase.cs) ← 
 [TireCar](VM.Managed.Symmetric.Tire.Car.Force.TireCar.md)
 
 #### Implements
@@ -23,13 +24,13 @@ ISymmetricUpdaterAfterAddDoc
 
 #### Inherited Members
 
-TireBase<TireCar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Force<TireCar, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Connector<TireCar, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<TireCar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\), 
-Named<TireCar\>.Initialize\(ISymmetricManager\), 
-Named<TireCar\>.FindObject\(string, SymmetricType, Plane, Document\), 
-Named<TireCar\>.SymmetricManager
+[TireBase<TireCar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymTire/TireBase.cs), 
+[Force<TireCar, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymFB/Force.cs), 
+[Connector<TireCar, PropertyTire\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Connector.cs), 
+[Named<TireCar\>.Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TireCar\>.Initialize\(ISymmetricManager\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TireCar\>.FindObject\(string, SymmetricType, Plane, Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs), 
+[Named<TireCar\>.SymmetricManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Symmetric/VMSymBase/Named.cs)
 
 #### Extension Methods
 

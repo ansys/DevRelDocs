@@ -1,4 +1,5 @@
-#  Class ObjectEventCore
+# Class ObjectEventCore
+<a id="VM_Managed_ObjectEventCore"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class ObjectEventCore : IObject, ILinkContainer, IOwned, IHasID, IEventPr
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ObjectEventCore](VM.Managed.ObjectEventCore.md)
 
 #### Derived
@@ -26,7 +27,7 @@ IOwned,
 IHasID, 
 IEventProvider, 
 [ILinkContainerEvent](VM.Managed.ILinkContainerEvent.md), 
-IHistoryObjectSerializableDelegate
+[IHistoryObjectSerializableDelegate](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs)
 
 #### Extension Methods
 
@@ -68,11 +69,11 @@ protected ObjectEventCore(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -112,7 +113,7 @@ bool IsChildExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectEventCore_IsExternable"></a> IsExternable
 
@@ -124,7 +125,7 @@ bool IsExternable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectEventCore_Object"></a> Object
 
@@ -161,7 +162,7 @@ protected virtual void Dispose(bool A_0)
 
 #### Parameters
 
-`A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`A_0` bool
 
 ### <a id="VM_Managed_ObjectEventCore_Dispose"></a> Dispose\(\)
 
@@ -188,7 +189,7 @@ public List<ObjectBase> GetInvocationDestroyTargetList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_ObjectEventCore_GetInvocationUpdateTargetList"></a> GetInvocationUpdateTargetList\(\)
 
@@ -198,7 +199,7 @@ public List<ObjectBase> GetInvocationUpdateTargetList()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
+ List<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
 ### <a id="VM_Managed_ObjectEventCore_GetObjectDataImpl_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectDataImpl\(SerializationInfo, StreamingContext\)
 
@@ -210,11 +211,11 @@ virtual void GetObjectDataImpl(SerializationInfo info, StreamingContext context)
 
 #### Parameters
 
-`info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
+`info` SerializationInfo
 
 The info.
 
-`context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+`context` StreamingContext
 
 The context.
 
@@ -228,7 +229,7 @@ virtual List<IEventProvider> GetTargetListForUpdate()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
+ List<IEventProvider\>
 
 ### <a id="VM_Managed_ObjectEventCore_RemoveInvocationDestroyTargetList_VM_Managed_ObjectBase_"></a> RemoveInvocationDestroyTargetList\(ObjectBase\)
 
@@ -270,7 +271,7 @@ public virtual void SetContainer(IOwned obOwner, bool bBackup)
 
 `obOwner` IOwned
 
-`bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bBackup` bool
 
 ### <a id="VM_Managed_ObjectEventCore_SkipUpdateObjectImpl"></a> SkipUpdateObjectImpl\(\)
 
@@ -282,7 +283,7 @@ virtual bool SkipUpdateObjectImpl()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_ObjectEventCore_Swap_VM_Managed_ObjectEventCore_VM_Managed_ObjectEventCore_"></a> Swap\(ObjectEventCore, ObjectEventCore\)
 

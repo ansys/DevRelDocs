@@ -1,4 +1,5 @@
-#  Class MeshDocument
+# Class MeshDocument
+<a id="VM_Managed_DAFUL_FE_MeshDocument"></a>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,15 +12,15 @@ public class MeshDocument : DocumentAnalysis, IObservableObject, IDisposableObje
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 ObservableObject ← 
-LinkableBase ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
 LinkContainer ← 
 Container ← 
 Document ← 
 HandledDocument ← 
 Document3D ← 
-DocumentAnalysis ← 
+[DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs) ← 
 [MeshDocument](VM.Managed.DAFUL.FE.MeshDocument.md)
 
 #### Implements
@@ -31,7 +32,7 @@ ILinkContainerEvent,
 IVerifiable, 
 IEnableManager, 
 IRelatedDocument, 
-IHistorySupport, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
 ITemplateDocument, 
 ITreatValidObject, 
 IDocumentAnalysis, 
@@ -49,48 +50,48 @@ IInterfaceSupport
 
 #### Inherited Members
 
-DocumentAnalysis.m\_bSkipGravity, 
-DocumentAnalysis.RegisterAddon\(\), 
-DocumentAnalysis.IsContainSimulationScenarioInMap\(Scenario\), 
-DocumentAnalysis.GetStateFromActiveSimulationScenarioMap\(Scenario\), 
-DocumentAnalysis.SetStateFromActiveSimulationScenarioMap\(Scenario, bool\), 
-DocumentAnalysis.AddConfiguration\(Configuration\), 
-DocumentAnalysis.RemoveConfiguration\(Configuration\), 
-DocumentAnalysis.ClearConfiguration\(\), 
-DocumentAnalysis.GetDefaultMaterial\(\), 
-DocumentAnalysis.GetDefaultMaterial\(bool\), 
-DocumentAnalysis.IsExistDefaultMaterial\(\), 
-DocumentAnalysis.LinkRequestUpdate\(object, LinkEventArgs\), 
-DocumentAnalysis.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\), 
-DocumentAnalysis.IsEnabledImpl\(ObjectBase\), 
-DocumentAnalysis.SetEnableImpl\(ObjectBase, bool\), 
-DocumentAnalysis.SkipObjectInWriting\(ObjectBase\), 
-DocumentAnalysis.OnPostMakeDocument\(DocCreateInfo\), 
-DocumentAnalysis.OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\), 
-DocumentAnalysis.InitializeSimParam\(\), 
-DocumentAnalysis.GetData\(XmlNode\), 
-DocumentAnalysis.SetData\(XmlNode\), 
-DocumentAnalysis.PostOpenDocument\(\), 
-DocumentAnalysis.GetAllArgumentList\(\), 
-DocumentAnalysis.GetEntityRequest\(\), 
-DocumentAnalysis.GetSimulationConfigurationType\(\), 
-DocumentAnalysis.OnDeserialization\(object\), 
-DocumentAnalysis.CheckBeforeSave\(\), 
-DocumentAnalysis.PostOpenDocumentAfterHookEvent\(\), 
-DocumentAnalysis.ClearDocument\(\), 
-DocumentAnalysis.ReAssemblyImpl\(ObjectBase\), 
-DocumentAnalysis.SkipDelete\(ObjectBase\), 
-DocumentAnalysis.PostOpenDocumentAfterErrCheckEvent\(\), 
-DocumentAnalysis.PostCloseDocument\(\), 
-DocumentAnalysis.Configurations, 
-DocumentAnalysis.CountOfMFLinearStaticSimulationConfigurations, 
-DocumentAnalysis.ActiveSimulationConfiguration, 
-DocumentAnalysis.Gravity, 
-DocumentAnalysis.UseIncrementTime, 
-DocumentAnalysis.IncrementTime, 
-DocumentAnalysis.IconSize, 
-DocumentAnalysis.SimulationScenarioTypeName, 
-DocumentAnalysis.UseToolkitSubsystem, 
+[DocumentAnalysis.m\_bSkipGravity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.RegisterAddon\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IsContainSimulationScenarioInMap\(Scenario\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetStateFromActiveSimulationScenarioMap\(Scenario\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SetStateFromActiveSimulationScenarioMap\(Scenario, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.AddConfiguration\(Configuration\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.RemoveConfiguration\(Configuration\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ClearConfiguration\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetDefaultMaterial\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetDefaultMaterial\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IsExistDefaultMaterial\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IsEnabledImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SetEnableImpl\(ObjectBase, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SkipObjectInWriting\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.OnPostMakeDocument\(DocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.InitializeSimParam\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostOpenDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetAllArgumentList\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetEntityRequest\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetSimulationConfigurationType\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.CheckBeforeSave\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostOpenDocumentAfterHookEvent\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ClearDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ReAssemblyImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SkipDelete\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostOpenDocumentAfterErrCheckEvent\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostCloseDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.Configurations](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.CountOfMFLinearStaticSimulationConfigurations](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ActiveSimulationConfiguration](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.Gravity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.UseIncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IconSize](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SimulationScenarioTypeName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.UseToolkitSubsystem](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
 Document3D.RibbonGalleryIndex, 
 Document3D.m\_lstAssem, 
 Document3D.m\_bReload, 
@@ -185,8 +186,6 @@ Document3D.EraseAllDisplayObject\(\),
 Document3D.ImportCADBody\(BuilderImport\[\]\), 
 Document3D.ReAssemblyCore\(\), 
 Document3D.ReAssemblyImpl\(ObjectBase\), 
-Document3D.StartCADImportLog\(string\), 
-Document3D.EndCADImportLog\(\), 
 Document3D.ClearDocument\(\), 
 Document3D.SkipDelete\(ObjectBase\), 
 Document3D.RepairImpl\(\), 
@@ -197,9 +196,9 @@ Document3D.GetBodies\(ref List<ObjectBase\>\),
 Document3D.CheckBeforeSave\(\), 
 Document3D.LinkRequestUpdate\(object, LinkEventArgs\), 
 Document3D.FindBodyFromCADBody\(ObjectBase\), 
-Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string\), 
+Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string, string, string, string\), 
 Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string\), 
-Document3D.ExportCADFile\(string, string, string\), 
+Document3D.ExportCADFile\(string, string, string, string, string, string\), 
 Document3D.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\), 
 Document3D.SkipShowHide\(ObjectBase\), 
 Document3D.WriteMessageForShowHide\(\), 
@@ -213,12 +212,9 @@ Document3D.ChildAdd\(ObjectBase, string\),
 Document3D.ChildRemove\(ObjectBase, string\), 
 Document3D.ChildUpdate\(ObjectBase, string\), 
 Document3D.ChildRename\(ObjectBase, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, Document3D.CadImportUnitType\), 
-Document3D.LoadCADFile\(string, Color, Document3D.CadImportResultType\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string\), 
-Document3D.LoadCADFile\(string, Document3D.CadImportResultType\), 
-Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, ref BuilderImport\[\]\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string, string, string, string\), 
+Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string, ref BuilderImport\[\]\), 
 Document3D.SetSelectionObject\(List<ObjectBase\>\), 
 Document3D.ExistUnderCursor\(\), 
 Document3D.ActiveObject\(List<ObjectBase\>\), 
@@ -496,7 +492,7 @@ LinkContainer.OnDestroy,
 LinkContainer.OnDestroying, 
 LinkContainer.OnUpdate, 
 LinkContainer.OnUpdating, 
-LinkableBase.OnDeserialization\(object\), 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
 ObservableObject.Dispose\(\), 
 ObservableObject.RaisePropertyChanged\(string\), 
 ObservableObject.RaisePropertyChanged\(string, object, object\), 
@@ -527,7 +523,7 @@ public MeshDocument(UIntPtr pDoc)
 
 #### Parameters
 
-`pDoc` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pDoc` UIntPtr
 
 The document handle.
 
@@ -541,7 +537,7 @@ public static bool g_bSkipDisplayModeShape
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_m_pDocMesh"></a> m\_pDocMesh
 
@@ -553,7 +549,7 @@ protected IDocumentMesh* m_pDocMesh
 
 #### Field Value
 
- [IDocumentMesh](VM.DAFUL.FE.IDocumentMesh.md)\*
+ IDocumentMesh\*
 
 ## Properties
 
@@ -567,7 +563,7 @@ protected override List<string> InitialCategories { get; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_Interfaces"></a> Interfaces
 
@@ -579,7 +575,7 @@ public virtual InterfaceManager Interfaces { get; set; }
 
 #### Property Value
 
- InterfaceManager
+ [InterfaceManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_KeepOldKernelUnit"></a> KeepOldKernelUnit
 
@@ -591,7 +587,7 @@ protected override sealed bool KeepOldKernelUnit { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_NodalFilePath"></a> NodalFilePath
 
@@ -603,7 +599,7 @@ public string NodalFilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_UseDFMFForNodal"></a> UseDFMFForNodal
 
@@ -615,7 +611,7 @@ public bool UseDFMFForNodal { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -624,6 +620,24 @@ public bool UseDFMFForNodal { get; }
 ```csharp
 public override void AfterDelete()
 ```
+
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_AppendHashInformation_System_IO_BinaryWriter_System_String_System_String_"></a> AppendHashInformation\(BinaryWriter, string, string\)
+
+```csharp
+public static long AppendHashInformation(BinaryWriter binaryWriter, string categoryName, string strTextForHash)
+```
+
+#### Parameters
+
+`binaryWriter` BinaryWriter
+
+`categoryName` string
+
+`strTextForHash` string
+
+#### Returns
+
+ long
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_BeforeDelete_VM_Managed_ObjectBase_"></a> BeforeDelete\(ObjectBase\)
 
@@ -671,9 +685,9 @@ public SetEdge CreateEdgeset(Tuple<uint, uint>[] edges, string strName)
 
 #### Parameters
 
-`edges` [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\[\]
+`edges` Tuple<uint, uint\>\[\]
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 #### Returns
 
@@ -687,7 +701,7 @@ public SetEdge CreateEdgeset(Tuple<uint, uint>[] edges)
 
 #### Parameters
 
-`edges` [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\[\]
+`edges` Tuple<uint, uint\>\[\]
 
 #### Returns
 
@@ -703,7 +717,7 @@ public SetEdge CreateEdgeset(uint[] arNodeIndex)
 
 #### Parameters
 
-`arNodeIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`arNodeIndex` uint\[\]
 
 node index.
 
@@ -755,11 +769,11 @@ public SetNode CreateNodeset(uint[] nodes, string strName)
 
 #### Parameters
 
-`nodes` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`nodes` uint\[\]
 
 node indexes.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name.
 
@@ -779,7 +793,7 @@ public SetNode CreateNodeset(uint[] nodes)
 
 #### Parameters
 
-`nodes` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+`nodes` uint\[\]
 
 node indexes.
 
@@ -803,7 +817,7 @@ public SetPatch CreatePatchset(Patch[] patches, string strName)
 
 patch informations.
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name.
 
@@ -843,11 +857,11 @@ public override void DisplayModeShape(int nModeSeq, double dScale)
 
 #### Parameters
 
-`nModeSeq` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nModeSeq` int
 
 The sequence of mode.
 
-`dScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`dScale` double
 
 The scale factor.
 
@@ -861,7 +875,7 @@ public override void EnableModeShape(bool bEnable)
 
 #### Parameters
 
-`bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bEnable` bool
 
 The enable flag.
 
@@ -875,13 +889,13 @@ public override string FindCategory(string strType)
 
 #### Parameters
 
-`strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strType` string
 
 The fullname of type.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The category.
 
@@ -895,7 +909,7 @@ public override IObjectBase FindLocal(string strName)
 
 #### Parameters
 
-`strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strName` string
 
 Name to search for.
 
@@ -929,9 +943,23 @@ public override void GetData(XmlNode writer)
 
 #### Parameters
 
-`writer` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`writer` XmlNode
 
 The writer.
+
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetHashFromDFMF_System_String_"></a> GetHashFromDFMF\(string\)
+
+```csharp
+public static string GetHashFromDFMF(string strDFMFFilePath)
+```
+
+#### Parameters
+
+`strDFMFFilePath` string
+
+#### Returns
+
+ string
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetMeshFileType_System_String_"></a> GetMeshFileType\(string\)
 
@@ -943,13 +971,13 @@ public static uint GetMeshFileType(string strMeshFile)
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 BDF, DAT(Nastran) = 1, DAT(ANSYS), INP, CDB = 2, UDFF = 4, DFMF = 5
 
@@ -963,7 +991,7 @@ public override List<ObjectBase> GetObjectsForChangeAssembly()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
+ List<ObjectBase\>
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetUsedNodes"></a> GetUsedNodes\(\)
 
@@ -975,7 +1003,7 @@ public uint[] GetUsedNodes()
 
 #### Returns
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
+ uint\[\]
 
 used node indexes.
 
@@ -989,15 +1017,15 @@ public void ImportMesh(string strMeshFile, Color color, string strModalFile, Uni
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The mesh color.
 
-`strModalFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModalFile` string
 
 The modal file path.
 
@@ -1005,11 +1033,11 @@ The modal file path.
 
 The unit convert factor.
 
-`bDropOffHighOrder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDropOffHighOrder` bool
 
 The drop off high order flag.
 
-`bModalOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModalOnly` bool
 
 The modal only flag.
 
@@ -1023,15 +1051,15 @@ public virtual void ImportMesh(string strMeshFile, Color color, string strModalF
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The mesh color.
 
-`strModalFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModalFile` string
 
 The modal file path.
 
@@ -1049,11 +1077,11 @@ public void ImportMesh(string strMeshFile, string strModalFile, Unit unit)
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
-`strModalFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModalFile` string
 
 The modal file path.
 
@@ -1071,11 +1099,11 @@ public Mesh ImportMesh(string strMeshFile, Color color, Unit unit, bool bDropOff
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The mesh color.
 
@@ -1083,11 +1111,11 @@ The mesh color.
 
 The unit convert factor.
 
-`bDropOffHighOrder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDropOffHighOrder` bool
 
 The drop off high order flag.
 
-`bModalOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModalOnly` bool
 
 The modal only flag.
 
@@ -1095,11 +1123,11 @@ The modal only flag.
 
 Create set.
 
-`strRunDllPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRunDllPath` string
 
 The rundll exe path.
 
-`strNF2DFPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNF2DFPath` string
 
 The nfedf dll path.
 
@@ -1117,11 +1145,11 @@ public Mesh ImportMesh(string strMeshFile, Color color, Unit unit, bool bDropOff
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The mesh color.
 
@@ -1129,11 +1157,11 @@ The mesh color.
 
 The unit convert factor.
 
-`bDropOffHighOrder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDropOffHighOrder` bool
 
 The drop off high order flag.
 
-`bModalOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModalOnly` bool
 
 The modal only flag.
 
@@ -1155,11 +1183,11 @@ public Mesh ImportMesh(string strMeshFile, Color color, Unit unit, bool bDropOff
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The mesh color.
 
@@ -1167,11 +1195,11 @@ The mesh color.
 
 The unit convert factor.
 
-`bDropOffHighOrder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bDropOffHighOrder` bool
 
 The drop off high order flag.
 
-`bModalOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bModalOnly` bool
 
 The modal only flag.
 
@@ -1189,11 +1217,11 @@ public Mesh ImportMesh(string strMeshFile, Color color, Unit unit)
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
-`color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+`color` Color
 
 The mesh color.
 
@@ -1215,7 +1243,7 @@ public Mesh ImportMesh(string strMeshFile, Unit unit, string strRunDll, string s
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
@@ -1223,11 +1251,11 @@ The mesh file path.
 
 The unit convert factor.
 
-`strRunDll` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strRunDll` string
 
 The rundll exe path.
 
-`strNF2DF` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNF2DF` string
 
 The nfedf dll path.
 
@@ -1245,7 +1273,7 @@ public Mesh ImportMesh(string strMeshFile, Unit unit)
 
 #### Parameters
 
-`strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strMeshFile` string
 
 The mesh file path.
 
@@ -1267,7 +1295,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 #### Parameters
 
-`strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strCategoryName` string
 
 The category name.
 
@@ -1289,7 +1317,7 @@ public bool IsExistMesh()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [exist mesh]; otherwise, <code>false</code>.
 
@@ -1303,7 +1331,7 @@ public bool IsPatchsetMakeable()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if is [makeable patchset]; otherwise, <code>false</code>.
 
@@ -1317,7 +1345,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 #### Parameters
 
-`obNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`obNotifier` object
 
 The linked object.
 
@@ -1335,7 +1363,7 @@ public virtual void ModifyModal(string strModalFile, Unit unit, bool bOnlyDelete
 
 #### Parameters
 
-`strModalFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strModalFile` string
 
 The modal file path.
 
@@ -1343,7 +1371,7 @@ The modal file path.
 
 The unit convert factor.
 
-`bOnlyDelete` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bOnlyDelete` bool
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
@@ -1355,7 +1383,7 @@ protected override void OnDeserialization(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 The sender.
 
@@ -1369,7 +1397,7 @@ public override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo docCreateAnaly
 
 #### Parameters
 
-`docCreateAnalysisInfo` DocCreateAnalysisInfo
+`docCreateAnalysisInfo` [DocCreateAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/DocCreate3DInfo.cs)
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_PostOpenDocument"></a> PostOpenDocument\(\)
 
@@ -1405,7 +1433,7 @@ public void SetAcitveMesh(UIntPtr pProxyMesh)
 
 #### Parameters
 
-`pProxyMesh` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pProxyMesh` UIntPtr
 
 The mesh proxy.
 
@@ -1419,7 +1447,7 @@ public override void SetData(XmlNode reader)
 
 #### Parameters
 
-`reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+`reader` XmlNode
 
 The reader.
 
@@ -1433,7 +1461,7 @@ protected override void SetHandle(UIntPtr pDocHandle)
 
 #### Parameters
 
-`pDocHandle` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pDocHandle` UIntPtr
 
 The document handle.
 
@@ -1453,7 +1481,7 @@ The obj.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_FE_MeshDocument_UpdateNavigatorForReference_VM_Managed_DAFUL_FE_Mesh_System_Boolean_"></a> UpdateNavigatorForReference\(Mesh, bool\)
 
@@ -1469,7 +1497,7 @@ public void UpdateNavigatorForReference(Mesh mesh, bool bRemove)
 
 The mesh.
 
-`bRemove` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRemove` bool
 
 if set to <code>true</code> [b remove].
 

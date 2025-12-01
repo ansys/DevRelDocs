@@ -1,4 +1,5 @@
-#  Class IDocumentExtensions
+# Class IDocumentExtensions
+<a id="VM_Models_Pre_IDocumentExtensions"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public static class IDocumentExtensions
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IDocumentExtensions](VM.Models.Pre.IDocumentExtensions.md)
 
 #### Extension Methods
@@ -30,9 +31,9 @@ public static bool IsExistNameInDocument(this IDocument document, string name)
 
 `document` [IDocument](VM.Models.Pre.IDocument.md)
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

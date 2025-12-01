@@ -1,4 +1,5 @@
-#  Interface ISymmetricUpdaterAfterAddDoc
+# Interface ISymmetricUpdaterAfterAddDoc
+<a id="VM_Managed_Symmetric_ISymmetricUpdaterAfterAddDoc"></a>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  

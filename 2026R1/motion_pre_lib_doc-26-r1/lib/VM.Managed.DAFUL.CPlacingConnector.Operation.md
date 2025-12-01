@@ -1,4 +1,5 @@
-#  Namespace VM.Managed.DAFUL.CPlacingConnector.Operation
+# Namespace VM.Managed.DAFUL.CPlacingConnector.Operation
+<a id="VM_Managed_DAFUL_CPlacingConnector_Operation"></a>
 
 ### Classes
 

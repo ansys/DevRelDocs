@@ -1,4 +1,5 @@
-#  Class Environments
+# Class Environments
+<a id="VM_CAD_Kernel_Environments"></a>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -11,7 +12,7 @@ public class Environments
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Environments](VM.CAD.Kernel.Environments.md)
 
 #### Extension Methods

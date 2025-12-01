@@ -1,4 +1,5 @@
-#  Class AssemblyManagerAPI
+# Class AssemblyManagerAPI
+<a id="VM_API_Pre_GearTrain_AssemblyManagerAPI"></a>
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +12,7 @@ public static class AssemblyManagerAPI
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AssemblyManagerAPI](VM.API.Pre.GearTrain.AssemblyManagerAPI.md)
 
 #### Extension Methods
@@ -35,29 +36,29 @@ public static void ApplyAssemblyBearing(this GearTrainDocument document, Obj ref
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for assembly bearing apply. If null, the active document will be used.
 
-`referenceBody` Obj
+`referenceBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The reference body. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-`bearingInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[BearingInformationInAssemblyManager](VM.API.Pre.GearTrain.BearingInformationInAssemblyManager.md)\>
+`bearingInfo` IEnumerable<[BearingInformationInAssemblyManager](VM.API.Pre.GearTrain.BearingInformationInAssemblyManager.md)\>
 
 The bearing information. If it is not given, default values will be used..
 
-`cycloidPinInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[CycloidPinInformationInAssemblyManager](VM.API.Pre.GearTrain.CycloidPinInformationInAssemblyManager.md)\>
+`cycloidPinInfo` IEnumerable<[CycloidPinInformationInAssemblyManager](VM.API.Pre.GearTrain.CycloidPinInformationInAssemblyManager.md)\>
 
 The cycloid information. If it is not given, default values will be used..
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'referenceBody' arguments are empty.
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if type of 'referenceBody' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -75,11 +76,11 @@ public static void ApplyAssemblyIOShaft(this GearTrainDocument document, Obj ref
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for assembly IO shaft apply. If null, the active document will be used.
 
-`referenceBody` Obj
+`referenceBody` [Obj](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/API/VM.API.Pre/Models/Obj.cs)
 
 The reference body. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -87,33 +88,33 @@ The reference body. The type is <xref href="VM.Managed.DAFUL.IConnectable" data-
 
 The reference vector.
 
-`inputInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ShaftInformationInAssemblyManager](VM.API.Pre.GearTrain.ShaftInformationInAssemblyManager.md)\>
+`inputInfo` IEnumerable<[ShaftInformationInAssemblyManager](VM.API.Pre.GearTrain.ShaftInformationInAssemblyManager.md)\>
 
 The input information. If it is not given, default values will be used.
 
-`outputInfo` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ShaftInformationInAssemblyManager](VM.API.Pre.GearTrain.ShaftInformationInAssemblyManager.md)\>
+`outputInfo` IEnumerable<[ShaftInformationInAssemblyManager](VM.API.Pre.GearTrain.ShaftInformationInAssemblyManager.md)\>
 
 The output information. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'referenceBody' arguments are empty.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if the magnitude of 'referenceVector' is 0.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'referenceBody' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'inputInfo' is not (<xref href="VM.Managed.DAFUL.GearTrain.IPowerLoad" data-throw-if-not-resolved="false"></xref>, <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>).
 
- [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
+ ArgumentException
 
 Will be thrown if type of 'outputInfo' is not (<xref href="VM.Managed.DAFUL.GearTrain.IPowerLoad" data-throw-if-not-resolved="false"></xref>, <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>).
 
@@ -128,7 +129,7 @@ public static void ApplyPowerFlow(this GearTrainDocument document, PowerFlowPara
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for power apply. If null, the active document will be used.
 
@@ -138,7 +139,7 @@ The power flow parameters. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'powerFlow' arguments are empty.
 
@@ -153,11 +154,11 @@ public static void ApplyRequest(this GearTrainDocument document, IEnumerable<boo
 
 #### Parameters
 
-`document` GearTrainDocument
+`document` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for request apply. If null, the active document will be used.
 
-`gearsetForceDisplay` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`gearsetForceDisplay` IEnumerable<bool\>
 
 The flags whether using force display of gearset.
 
@@ -167,7 +168,7 @@ The request parameters. If it is not given, default values will be used.
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'document' or 'request' arguments are empty.
 
@@ -182,7 +183,7 @@ public static void SimulateInAssemblyManager(this GearTrainDocument doc)
 
 #### Parameters
 
-`doc` GearTrainDocument
+`doc` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
@@ -197,7 +198,7 @@ public static void UpdateAssemblyManager(this GearTrainDocument doc)
 
 #### Parameters
 
-`doc` GearTrainDocument
+`doc` [GearTrainDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDGearTrain/GearTrainDocument.cs)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for assembly manager update. If null, the active document will be used.
 

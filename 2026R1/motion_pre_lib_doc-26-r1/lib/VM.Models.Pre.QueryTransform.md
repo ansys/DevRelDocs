@@ -1,4 +1,5 @@
-#  Class QueryTransform
+# Class QueryTransform
+<a id="VM_Models_Pre_QueryTransform"></a>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -9,7 +10,7 @@ public class QueryTransform
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [QueryTransform](VM.Models.Pre.QueryTransform.md)
 
 #### Extension Methods
@@ -38,7 +39,7 @@ public int Count { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Models_Pre_QueryTransform_SingleParams"></a> SingleParams
 
@@ -48,7 +49,7 @@ public List<ITransformable> SingleParams { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+ List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 ### <a id="VM_Models_Pre_QueryTransform_Singles"></a> Singles
 
@@ -58,7 +59,7 @@ public List<ITransformable> Singles { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+ List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 ### <a id="VM_Models_Pre_QueryTransform_SymmetricParams"></a> SymmetricParams
 
@@ -68,7 +69,7 @@ public List<ITransformable> SymmetricParams { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+ List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 ### <a id="VM_Models_Pre_QueryTransform_Symmetrics"></a> Symmetrics
 
@@ -78,7 +79,7 @@ public List<ITransformable> Symmetrics { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+ List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 ## Methods
 
@@ -92,7 +93,7 @@ public void AddData(List<ITransformable> transformables, ITransformable transfor
 
 #### Parameters
 
-`transformables` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+`transformables` List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 The transformable object container.
 
@@ -110,7 +111,7 @@ public void GetDataNoParam(List<ITransformable> transformables)
 
 #### Parameters
 
-`transformables` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+`transformables` List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 The transformable object container.
 
@@ -124,7 +125,7 @@ public void GetDataParamSingle(List<ITransformable> transformables)
 
 #### Parameters
 
-`transformables` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+`transformables` List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 The transformable object container.
 
@@ -138,7 +139,7 @@ public void GetDataParamSym(List<ITransformable> transformables)
 
 #### Parameters
 
-`transformables` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
+`transformables` List<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 The transformable object container.
 

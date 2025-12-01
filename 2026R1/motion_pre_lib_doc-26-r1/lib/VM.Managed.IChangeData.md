@@ -1,4 +1,5 @@
-#  Interface IChangeData
+# Interface IChangeData
+<a id="VM_Managed_IChangeData"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

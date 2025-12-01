@@ -1,4 +1,5 @@
-#  Interface IPerformanceIndexable
+# Interface IPerformanceIndexable
+<a id="VM_Managed_IPerformanceIndexable"></a>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,5 +28,5 @@ bool UsePerformanceIndex { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

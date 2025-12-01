@@ -1,4 +1,5 @@
-#  Class PickerMultiEdge
+# Class PickerMultiEdge
+<a id="VM_Managed_Picker_Core_PickerMultiEdge"></a>
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class PickerMultiEdge : PickerMultiTopol
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PickerBase](VM.Managed.Picker.Core.PickerBase.md) ← 
 [PickerMulti](VM.Managed.Picker.Core.PickerMulti.md) ← 
 [PickerMultiTopol](VM.Managed.Picker.Core.PickerMultiTopol.md) ← 
@@ -95,7 +96,7 @@ public Type[] PickableTypes { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)\[\]
+ Type\[\]
 
 ## Methods
 
@@ -109,13 +110,13 @@ public override bool Filtering(UIntPtr pTarget)
 
 #### Parameters
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -129,13 +130,13 @@ public override bool FilteringAnother(UIntPtr pTarget)
 
 #### Parameters
 
-`pTarget` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`pTarget` UIntPtr
 
 Filtering target.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
@@ -149,7 +150,7 @@ public override string GetPickerInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_Picker_Core_PickerMultiEdge_GetResultXmlFromKey_System_UIntPtr___"></a> GetResultXmlFromKey\(UIntPtr\[\]\)
 
@@ -161,11 +162,11 @@ public override string GetResultXmlFromKey(UIntPtr[] arKey)
 
 #### Parameters
 
-`arKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
+`arKey` UIntPtr\[\]
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -179,13 +180,13 @@ public override string GetResultXmlFromKey(UIntPtr key)
 
 #### Parameters
 
-`key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+`key` UIntPtr
 
 Picking destination key.
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 The valid result xml.
 
@@ -207,17 +208,17 @@ protected override bool SetResultImpl(ref string strXml, bool bXmlOnly)
 
 #### Parameters
 
-`strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strXml` string
 
 The picked data.
 
-`bXmlOnly` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bXmlOnly` bool
 
 If it is true, skip the result setting.
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 <code>true</code> if success; otherwise, <code>false</code>.
 

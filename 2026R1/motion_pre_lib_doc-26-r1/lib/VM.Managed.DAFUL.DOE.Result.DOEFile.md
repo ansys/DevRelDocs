@@ -1,4 +1,5 @@
-#  Class DOEFile
+# Class DOEFile
+<a id="VM_Managed_DAFUL_DOE_Result_DOEFile"></a>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -9,7 +10,7 @@ public class DOEFile
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DOEFile](VM.Managed.DAFUL.DOE.Result.DOEFile.md)
 
 #### Extension Methods
@@ -40,7 +41,7 @@ public DOEFile(enProc proc, string strPath)
 
 `proc` [enProc](VM.Managed.DAFUL.DOE.Result.enProc.md)
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 ## Methods
 
@@ -52,7 +53,7 @@ public bool CanWrite()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_CanWrite_System_String_"></a> CanWrite\(string\)
 
@@ -62,11 +63,11 @@ public static bool CanWrite(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_ClosePost"></a> ClosePost\(\)
 
@@ -76,7 +77,7 @@ public bool ClosePost()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_CloseSolver"></a> CloseSolver\(\)
 
@@ -86,7 +87,7 @@ public bool CloseSolver()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_ConverMemToObjet_System_IO_MemoryStream_System_Type_"></a> ConverMemToObjet\(MemoryStream, Type\)
 
@@ -96,13 +97,13 @@ public static object ConverMemToObjet(MemoryStream stream, Type type)
 
 #### Parameters
 
-`stream` [MemoryStream](https://learn.microsoft.com/dotnet/api/system.io.memorystream)
+`stream` MemoryStream
 
-`type` [Type](https://learn.microsoft.com/dotnet/api/system.type)
+`type` Type
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_Create_System_String_"></a> Create\(string\)
 
@@ -112,11 +113,11 @@ public bool Create(string strPath)
 
 #### Parameters
 
-`strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strPath` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_Finalize"></a> \~DOEFile\(\)
 
@@ -132,7 +133,7 @@ public int GetCurrentCase()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_GetDefaultInnerFileName_VM_Managed_DAFUL_DOE_Result_enProc_"></a> GetDefaultInnerFileName\(enProc\)
 
@@ -146,7 +147,7 @@ public string GetDefaultInnerFileName(enProc proc)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_GetDefaultInnerFileName_VM_Managed_DAFUL_DOE_Result_enProc_System_Int32_"></a> GetDefaultInnerFileName\(enProc, int\)
 
@@ -158,11 +159,11 @@ public string GetDefaultInnerFileName(enProc proc, int nCaseIdx)
 
 `proc` [enProc](VM.Managed.DAFUL.DOE.Result.enProc.md)
 
-`nCaseIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCaseIdx` int
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_GetResult_VM_Managed_DAFUL_DOE_Result_DOEFile_VM_Managed_DAFUL_DOE_Result_enProc_"></a> GetResult\(DOEFile, enProc\)
 
@@ -178,7 +179,7 @@ public static object GetResult(DOEFile doe_file, enProc proc)
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_GetResult_VM_Managed_DAFUL_DOE_Result_DOEFile_VM_Managed_DAFUL_DOE_Result_enProc_System_Int32_"></a> GetResult\(DOEFile, enProc, int\)
 
@@ -192,11 +193,11 @@ public static object GetResult(DOEFile doe_file, enProc proc, int nIdx)
 
 `proc` [enProc](VM.Managed.DAFUL.DOE.Result.enProc.md)
 
-`nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nIdx` int
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_IsExists"></a> IsExists\(\)
 
@@ -206,7 +207,7 @@ public bool IsExists()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_IsExists_VM_Managed_DAFUL_DOE_Result_enProc_"></a> IsExists\(enProc\)
 
@@ -220,7 +221,7 @@ public bool IsExists(enProc proc)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_Load_VM_Managed_DAFUL_DOE_Result_enProc_System_IO_MemoryStream__"></a> Load\(enProc, ref MemoryStream\)
 
@@ -232,11 +233,11 @@ public bool Load(enProc proc, ref MemoryStream stream)
 
 `proc` [enProc](VM.Managed.DAFUL.DOE.Result.enProc.md)
 
-`stream` [MemoryStream](https://learn.microsoft.com/dotnet/api/system.io.memorystream)
+`stream` MemoryStream
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_LoadCase_System_Int32_System_IO_MemoryStream__"></a> LoadCase\(int, ref MemoryStream\)
 
@@ -246,13 +247,13 @@ public bool LoadCase(int nCaseIdx, ref MemoryStream stream)
 
 #### Parameters
 
-`nCaseIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCaseIdx` int
 
-`stream` [MemoryStream](https://learn.microsoft.com/dotnet/api/system.io.memorystream)
+`stream` MemoryStream
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_Save_System_IO_MemoryStream_"></a> Save\(MemoryStream\)
 
@@ -262,11 +263,11 @@ public bool Save(MemoryStream stream)
 
 #### Parameters
 
-`stream` [MemoryStream](https://learn.microsoft.com/dotnet/api/system.io.memorystream)
+`stream` MemoryStream
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_SaveAs_System_String_System_IO_MemoryStream_"></a> SaveAs\(string, MemoryStream\)
 
@@ -276,13 +277,13 @@ public bool SaveAs(string strNewPath, MemoryStream stream)
 
 #### Parameters
 
-`strNewPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`strNewPath` string
 
-`stream` [MemoryStream](https://learn.microsoft.com/dotnet/api/system.io.memorystream)
+`stream` MemoryStream
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_DAFUL_DOE_Result_DOEFile_SaveCase_System_Int32_System_IO_MemoryStream_"></a> SaveCase\(int, MemoryStream\)
 
@@ -292,11 +293,11 @@ public bool SaveCase(int nCaseIdx, MemoryStream stream)
 
 #### Parameters
 
-`nCaseIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nCaseIdx` int
 
-`stream` [MemoryStream](https://learn.microsoft.com/dotnet/api/system.io.memorystream)
+`stream` MemoryStream
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

@@ -1,4 +1,5 @@
-#  Class GetFacetInformationForFaceOp
+# Class GetFacetInformationForFaceOp
+<a id="VM_Managed_CAD_GetFacetInformationForFaceOp"></a>
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -11,7 +12,7 @@ public class GetFacetInformationForFaceOp : OperationBase, IOperation
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [OperationBase](VM.Managed.Operation.OperationBase.md) ← 
 [GetFacetInformationForFaceOp](VM.Managed.CAD.GetFacetInformationForFaceOp.md)
 
@@ -87,7 +88,7 @@ public GetFacetInformationForFaceOp(Face face, FacetOption options)
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-`options` FacetOption
+`options` [FacetOption](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/FacetOption.cs)
 
 ## Properties
 
@@ -101,7 +102,7 @@ public int[] Connectivities { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
+ int\[\]
 
 ### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_IsHistoryMerge"></a> IsHistoryMerge
 
@@ -113,7 +114,7 @@ public override bool IsHistoryMerge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_Name"></a> Name
 
@@ -125,7 +126,7 @@ public override string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_Points"></a> Points
 

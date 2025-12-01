@@ -1,4 +1,5 @@
-#  Class DocumentAPIImpl
+# Class DocumentAPIImpl
+<a id="VM_API_Pre_FE_DocumentAPIImpl"></a>
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -11,7 +12,7 @@ public static class DocumentAPIImpl
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DocumentAPIImpl](VM.API.Pre.FE.DocumentAPIImpl.md)
 
 #### Extension Methods
@@ -33,11 +34,11 @@ public static T CreateNewMeshDocumentImpl<T>(string newMeshFilePath, string docu
 
 #### Parameters
 
-`newMeshFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newMeshFilePath` string
 
 The file path of new mesh.
 
-`documentName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentName` string
 
 The name of document.
 
@@ -45,15 +46,15 @@ The name of document.
 
 The unit information.
 
-`iconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`iconSize` double
 
 The size of icon.
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 The extension.
 
-`documentType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`documentType` string
 
 The document type.
 
@@ -71,7 +72,7 @@ The document type
 
 #### Exceptions
 
- [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
+ ArgumentNullException
 
 Will be thrown if 'newMeshFilePath' argument is empty.
 
