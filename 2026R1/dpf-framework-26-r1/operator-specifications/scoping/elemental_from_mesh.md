@@ -44,6 +44,45 @@ Retrieves the elemental scoping from a mesh, containing all element IDs with ele
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("GetElementScopingFromMesh"); // operator instantiation
+op.connect(0, my_mesh);
+ansys::dpf::Scoping my_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.scoping.elemental_from_mesh() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+my_mesh_scoping = op.outputs.mesh_scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.scoping.elemental_from_mesh() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+my_mesh_scoping = op.outputs.mesh_scoping.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

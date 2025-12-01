@@ -48,6 +48,57 @@ Adds a given rigid translation, center and rotation from a displacement field. T
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("RigidBodyAddition"); // operator instantiation
+op.connect(0, my_displacement_field);
+op.connect(1, my_translation_field);
+op.connect(2, my_rotation_field);
+op.connect(3, my_center_field);
+op.connect(7, my_mesh);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.add_rigid_body_motion() # operator instantiation
+op.inputs.displacement_field.connect(my_displacement_field)
+op.inputs.translation_field.connect(my_translation_field)
+op.inputs.rotation_field.connect(my_rotation_field)
+op.inputs.center_field.connect(my_center_field)
+op.inputs.mesh.connect(my_mesh)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.add_rigid_body_motion() # operator instantiation
+op.inputs.displacement_field.Connect(my_displacement_field)
+op.inputs.translation_field.Connect(my_translation_field)
+op.inputs.rotation_field.Connect(my_rotation_field)
+op.inputs.center_field.Connect(my_center_field)
+op.inputs.mesh.Connect(my_mesh)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

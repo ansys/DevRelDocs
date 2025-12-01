@@ -46,6 +46,51 @@ Sums all the elementary data of a field to produce one elementary data point.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("accumulate"); // operator instantiation
+op.connect(0, my_fieldA);
+op.connect(1, my_weights);
+op.connect(2, my_time_scoping);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fieldA.connect(my_fieldA)
+op.inputs.weights.connect(my_weights)
+op.inputs.time_scoping.connect(my_time_scoping)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.None() # operator instantiation
+op.inputs.fieldA.Connect(my_fieldA)
+op.inputs.weights.Connect(my_weights)
+op.inputs.time_scoping.Connect(my_time_scoping)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

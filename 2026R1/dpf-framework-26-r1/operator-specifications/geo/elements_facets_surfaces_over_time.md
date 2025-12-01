@@ -47,6 +47,54 @@ Calculates for a mesh, the surface of each element's facet over time for each sp
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("surfaces_provider"); // operator instantiation
+op.connect(1, my_scoping);
+op.connect(2, my_displacement);
+op.connect(7, my_mesh);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.geo.elements_facets_surfaces_over_time() # operator instantiation
+op.inputs.scoping.connect(my_scoping)
+op.inputs.displacement.connect(my_displacement)
+op.inputs.mesh.connect(my_mesh)
+my_fields_container = op.outputs.fields_container()
+my_mesh = op.outputs.mesh()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.geo.elements_facets_surfaces_over_time() # operator instantiation
+op.inputs.scoping.Connect(my_scoping)
+op.inputs.displacement.Connect(my_displacement)
+op.inputs.mesh.Connect(my_mesh)
+my_fields_container = op.outputs.fields_container.GetData()
+my_mesh = op.outputs.mesh.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

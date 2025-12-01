@@ -45,6 +45,45 @@ Return all the inputs as outputs.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("forward"); // operator instantiation
+op.connect(0, my_any);
+ansys::dpf::Any my_any = op.getOutput<ansys::dpf::Any>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.forward() # operator instantiation
+op.inputs.any.connect(my_any)
+my_any = op.outputs.any()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.forward() # operator instantiation
+op.inputs.any.Connect(my_any)
+my_any = op.outputs.any.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

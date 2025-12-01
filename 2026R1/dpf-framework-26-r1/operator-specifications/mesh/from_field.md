@@ -44,6 +44,45 @@ Extracts the meshed region from the support of a field.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("GetSupportFromField"); // operator instantiation
+op.connect(0, my_field);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.from_field() # operator instantiation
+op.inputs.field.connect(my_field)
+my_mesh = op.outputs.mesh()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.from_field() # operator instantiation
+op.inputs.field.Connect(my_field)
+my_mesh = op.outputs.mesh.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

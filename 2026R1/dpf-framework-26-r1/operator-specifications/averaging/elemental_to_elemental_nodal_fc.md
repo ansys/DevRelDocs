@@ -46,6 +46,51 @@ Transforms Elemental field to Elemental Nodal field.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("elemental_to_elemental_nodal_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_mesh);
+op.connect(3, my_mesh_scoping);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.elemental_to_elemental_nodal_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.elemental_to_elemental_nodal_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

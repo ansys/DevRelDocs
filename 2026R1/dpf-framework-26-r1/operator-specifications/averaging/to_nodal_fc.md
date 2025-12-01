@@ -50,6 +50,57 @@ Transforms fields into Nodal fields using an averaging process. The result is co
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("to_nodal_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_mesh);
+op.connect(3, my_mesh_scoping);
+op.connect(26, my_merge_solid_shell);
+op.connect(27, my_shell_layer);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.to_nodal_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.merge_solid_shell.connect(my_merge_solid_shell)
+op.inputs.shell_layer.connect(my_shell_layer)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.to_nodal_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.merge_solid_shell.Connect(my_merge_solid_shell)
+op.inputs.shell_layer.Connect(my_shell_layer)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

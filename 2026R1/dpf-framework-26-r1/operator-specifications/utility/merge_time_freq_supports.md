@@ -44,6 +44,46 @@ Assembles a set of time/frequency supports into a unique one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("merge::time_freq_support"); // operator instantiation
+op.connect(0, my_time_freq_supports);
+ansys::dpf::TimeFreqSupport my_merged_support = op.getOutput<ansys::dpf::TimeFreqSupport>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.merge_time_freq_supports() # operator instantiation
+op.inputs.time_freq_supports1.connect(my_time_freq_supports1)
+op.inputs.time_freq_supports2.connect(my_time_freq_supports2)
+my_merged_support = op.outputs.merged_support()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.merge_time_freq_supports() # operator instantiation
+op.inputs.time_freq_supports.Connect(my_time_freq_supports)
+my_merged_support = op.outputs.merged_support.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

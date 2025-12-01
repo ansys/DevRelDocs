@@ -47,6 +47,54 @@ Generates a workflow that can map results from a support to another one.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("prepare_mapping_workflow"); // operator instantiation
+op.connect(0, my_input_support);
+op.connect(1, my_output_support);
+op.connect(2, my_filter_radius);
+op.connect(3, my_influence_box);
+ansys::dpf::Workflow my_mapping_workflow = op.getOutput<ansys::dpf::Workflow>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.prepare_mapping_workflow() # operator instantiation
+op.inputs.input_support.connect(my_input_support)
+op.inputs.output_support.connect(my_output_support)
+op.inputs.filter_radius.connect(my_filter_radius)
+op.inputs.influence_box.connect(my_influence_box)
+my_mapping_workflow = op.outputs.mapping_workflow()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.prepare_mapping_workflow() # operator instantiation
+op.inputs.input_support.Connect(my_input_support)
+op.inputs.output_support.Connect(my_output_support)
+op.inputs.filter_radius.Connect(my_filter_radius)
+op.inputs.influence_box.Connect(my_influence_box)
+my_mapping_workflow = op.outputs.mapping_workflow.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

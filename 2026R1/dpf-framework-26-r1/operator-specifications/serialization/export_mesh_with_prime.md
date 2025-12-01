@@ -44,6 +44,45 @@ Transfer DPF's meshed region into an external layer prime model and serialize it
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("serialization::export_mesh_with_prime"); // operator instantiation
+op.connect(0, my_path);
+op.connect(7, my_mesh);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.export_mesh_with_prime() # operator instantiation
+op.inputs.path.connect(my_path)
+op.inputs.mesh.connect(my_mesh)
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.export_mesh_with_prime() # operator instantiation
+op.inputs.path.Connect(my_path)
+op.inputs.mesh.Connect(my_mesh)
+```
+</details>
+<br>
 
 ## Changelog
 

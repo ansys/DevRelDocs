@@ -46,6 +46,51 @@ Converts 3D meshes of arbitrary 3D element types into a tetrahedral mesh, output
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh_to_tetra"); // operator instantiation
+op.connect(0, my_mesh);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+ansys::dpf::Scoping my_node_mapping = op.getOutput<ansys::dpf::Scoping>(1);
+ansys::dpf::Scoping my_element_mapping = op.getOutput<ansys::dpf::Scoping>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.mesh_to_tetra() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+my_mesh = op.outputs.mesh()
+my_node_mapping = op.outputs.node_mapping()
+my_element_mapping = op.outputs.element_mapping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.mesh_to_tetra() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+my_mesh = op.outputs.mesh.GetData()
+my_node_mapping = op.outputs.node_mapping.GetData()
+my_element_mapping = op.outputs.element_mapping.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

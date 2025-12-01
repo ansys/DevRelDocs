@@ -51,6 +51,48 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("MaterialPropertyOfElement"); // operator instantiation
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+ansys::dpf::Field my_material_properties = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.material_property_of_element() # operator instantiation
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_material_properties = op.outputs.material_properties()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.material_property_of_element() # operator instantiation
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_material_properties = op.outputs.material_properties.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

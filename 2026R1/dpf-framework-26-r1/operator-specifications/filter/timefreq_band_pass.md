@@ -47,6 +47,54 @@ The band pass filter returns all the values above (but not equal to) the minimum
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("core::timefreq::band_pass"); // operator instantiation
+op.connect(0, my_time_freq_support);
+op.connect(1, my_min_threshold);
+op.connect(2, my_max_threshold);
+ansys::dpf::TimeFreqSupport my_time_freq_support = op.getOutput<ansys::dpf::TimeFreqSupport>(0);
+ansys::dpf::Scoping my_scoping = op.getOutput<ansys::dpf::Scoping>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.filter.timefreq_band_pass() # operator instantiation
+op.inputs.time_freq_support.connect(my_time_freq_support)
+op.inputs.min_threshold.connect(my_min_threshold)
+op.inputs.max_threshold.connect(my_max_threshold)
+my_time_freq_support = op.outputs.time_freq_support()
+my_scoping = op.outputs.scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.filter.timefreq_band_pass() # operator instantiation
+op.inputs.time_freq_support.Connect(my_time_freq_support)
+op.inputs.min_threshold.Connect(my_min_threshold)
+op.inputs.max_threshold.Connect(my_max_threshold)
+my_time_freq_support = op.outputs.time_freq_support.GetData()
+my_scoping = op.outputs.scoping.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

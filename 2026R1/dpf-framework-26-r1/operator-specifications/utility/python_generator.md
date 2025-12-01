@@ -46,6 +46,51 @@ Generates .py file with specifications for loaded plugin(s).
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("python_generator"); // operator instantiation
+op.connect(0, my_dll_source_path);
+op.connect(1, my_output_path);
+op.connect(2, my_load_symbol);
+op.connect(3, my_library_key);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.None() # operator instantiation
+op.inputs.dll_source_path.connect(my_dll_source_path)
+op.inputs.output_path.connect(my_output_path)
+op.inputs.load_symbol.connect(my_load_symbol)
+op.inputs.library_key.connect(my_library_key)
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.None() # operator instantiation
+op.inputs.dll_source_path.Connect(my_dll_source_path)
+op.inputs.output_path.Connect(my_output_path)
+op.inputs.load_symbol.Connect(my_load_symbol)
+op.inputs.library_key.Connect(my_library_key)
+```
+</details>
+<br>
 
 ## Changelog
 

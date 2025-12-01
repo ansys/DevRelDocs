@@ -46,6 +46,51 @@ Sort a field (in 0) in ascending order with an optional component priority table
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("ascending_sort"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_component_priority_table);
+op.connect(2, my_sort_by_scoping);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.logic.ascending_sort() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.component_priority_table.connect(my_component_priority_table)
+op.inputs.sort_by_scoping.connect(my_sort_by_scoping)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.logic.ascending_sort() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.component_priority_table.Connect(my_component_priority_table)
+op.inputs.sort_by_scoping.Connect(my_sort_by_scoping)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

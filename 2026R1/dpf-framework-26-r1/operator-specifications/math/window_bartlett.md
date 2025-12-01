@@ -44,6 +44,45 @@ Apply bartlett windowing on a given FieldsContainer having time label or a Field
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("window::bartlett"); // operator instantiation
+op.connect(0, my_field);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.window_bartlett() # operator instantiation
+op.inputs.field.connect(my_field)
+my_field_as_field = op.outputs.field_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.window_bartlett() # operator instantiation
+op.inputs.field.Connect(my_field)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

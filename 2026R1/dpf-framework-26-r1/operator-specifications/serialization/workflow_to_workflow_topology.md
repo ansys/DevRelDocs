@@ -44,6 +44,45 @@ Creates a GenericDataContainer based on WorkflowTopology structure from a Workfl
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("workflow_to_workflow_topology"); // operator instantiation
+op.connect(0, my_workflow);
+ansys::dpf::GenericDataContainer my_workflow_topology = op.getOutput<ansys::dpf::GenericDataContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.workflow.connect(my_workflow)
+my_workflow_topology = op.outputs.workflow_topology()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.workflow.Connect(my_workflow)
+my_workflow_topology = op.outputs.workflow_topology.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

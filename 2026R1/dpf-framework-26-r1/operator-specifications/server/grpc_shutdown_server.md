@@ -43,6 +43,42 @@ Shutdowns dpf's grpc server
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("grpc_server_shutdown"); // operator instantiation
+op.connect(0, my_grpc_stream);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.server.grpc_shutdown_server() # operator instantiation
+op.inputs.grpc_stream.connect(my_grpc_stream)
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.server.grpc_shutdown_server() # operator instantiation
+op.inputs.grpc_stream.Connect(my_grpc_stream)
+```
+</details>
+<br>
 
 ## Changelog
 

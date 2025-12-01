@@ -57,6 +57,51 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh_info_provider"); // operator instantiation
+op.connect(0, my_time_scoping);
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+ansys::dpf::GenericDataContainer my_mesh_info = op.getOutput<ansys::dpf::GenericDataContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.mesh_info_provider() # operator instantiation
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_mesh_info = op.outputs.mesh_info()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.mesh_info_provider() # operator instantiation
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_mesh_info = op.outputs.mesh_info.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

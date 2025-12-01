@@ -53,6 +53,48 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("MeshSelectionManagerProvider"); // operator instantiation
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+ansys::dpf::MeshSelectionManager my_mesh_selection_manager = op.getOutput<ansys::dpf::MeshSelectionManager>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.metadata.mesh_selection_manager_provider() # operator instantiation
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_mesh_selection_manager = op.outputs.mesh_selection_manager()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.metadata.mesh_selection_manager_provider() # operator instantiation
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_mesh_selection_manager = op.outputs.mesh_selection_manager.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

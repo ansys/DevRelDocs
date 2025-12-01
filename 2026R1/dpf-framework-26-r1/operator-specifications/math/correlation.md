@@ -48,6 +48,57 @@ Takes two fields and a weighting and computes their correlation: aMb/(||aMa||.||
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("correlation"); // operator instantiation
+op.connect(0, my_fieldA);
+op.connect(1, my_fieldB);
+op.connect(2, my_weights);
+op.connect(3, my_absoluteValue);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+int my_index = op.getOutput<int>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.math.correlation() # operator instantiation
+op.inputs.fieldA.connect(my_fieldA)
+op.inputs.fieldB.connect(my_fieldB)
+op.inputs.weights.connect(my_weights)
+op.inputs.absoluteValue.connect(my_absoluteValue)
+my_field = op.outputs.field()
+my_index = op.outputs.index()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.math.correlation() # operator instantiation
+op.inputs.fieldA.Connect(my_fieldA)
+op.inputs.fieldB.Connect(my_fieldB)
+op.inputs.weights.Connect(my_weights)
+op.inputs.absoluteValue.Connect(my_absoluteValue)
+my_field = op.outputs.field.GetData()
+my_index = op.outputs.index.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

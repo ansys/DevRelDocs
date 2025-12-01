@@ -48,6 +48,51 @@ Maps a field defined on solid elements to a field defined on skin elements. Thre
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("solid_to_skin"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_mesh);
+op.connect(2, my_solid_mesh);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.solid_to_skin() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.solid_mesh.connect(my_solid_mesh)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.solid_to_skin() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.solid_mesh.Connect(my_solid_mesh)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

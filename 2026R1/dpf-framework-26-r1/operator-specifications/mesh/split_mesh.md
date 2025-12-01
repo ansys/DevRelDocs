@@ -46,6 +46,51 @@ Split the input mesh into several meshes based on a given property (material pro
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("split_mesh"); // operator instantiation
+op.connect(1, my_mesh_scoping);
+op.connect(7, my_mesh);
+op.connect(13, my_property);
+ansys::dpf::MeshesContainer my_meshes = op.getOutput<ansys::dpf::MeshesContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.split_mesh() # operator instantiation
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.property.connect(my_property)
+my_meshes = op.outputs.meshes()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.split_mesh() # operator instantiation
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.property.Connect(my_property)
+my_meshes = op.outputs.meshes.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -46,6 +46,51 @@ Extract timefreqs with sets scoping from a time freq support
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("extract_time_freq"); // operator instantiation
+op.connect(0, my_time_freq_support);
+op.connect(1, my_time_scoping);
+op.connect(2, my_real_or_complex);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.extract_time_freq() # operator instantiation
+op.inputs.time_freq_support.connect(my_time_freq_support)
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.real_or_complex.connect(my_real_or_complex)
+my_field_as_field = op.outputs.field_as_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.extract_time_freq() # operator instantiation
+op.inputs.time_freq_support.Connect(my_time_freq_support)
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.real_or_complex.Connect(my_real_or_complex)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

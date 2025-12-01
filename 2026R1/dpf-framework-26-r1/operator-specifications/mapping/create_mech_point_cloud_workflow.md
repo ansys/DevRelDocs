@@ -47,6 +47,54 @@ Prepares a workflow able to map data from an input mesh to a target mesh.
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mech_point_cloud_wf"); // operator instantiation
+op.connect(0, my_source_mesh);
+op.connect(1, my_target_mesh);
+op.connect(6, my_target_scoping);
+op.connect(10, my_options_data_tree);
+ansys::dpf::Workflow my_mapping_workflow = op.getOutput<ansys::dpf::Workflow>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.create_mech_point_cloud_workflow() # operator instantiation
+op.inputs.source_mesh.connect(my_source_mesh)
+op.inputs.target_mesh.connect(my_target_mesh)
+op.inputs.target_scoping.connect(my_target_scoping)
+op.inputs.options_data_tree.connect(my_options_data_tree)
+my_mapping_workflow = op.outputs.mapping_workflow()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.create_mech_point_cloud_workflow() # operator instantiation
+op.inputs.source_mesh.Connect(my_source_mesh)
+op.inputs.target_mesh.Connect(my_target_mesh)
+op.inputs.target_scoping.Connect(my_target_scoping)
+op.inputs.options_data_tree.Connect(my_options_data_tree)
+my_mapping_workflow = op.outputs.mapping_workflow.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

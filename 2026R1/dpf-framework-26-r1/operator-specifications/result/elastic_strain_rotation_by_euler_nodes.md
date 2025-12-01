@@ -46,6 +46,51 @@ read Euler angles on elements from the result file and rotate the fields in the 
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mapdl::rst::EPEL_rotation_by_euler_nodes"); // operator instantiation
+op.connect(2, my_fields_container);
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.elastic_strain_rotation_by_euler_nodes() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.elastic_strain_rotation_by_euler_nodes() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

@@ -54,6 +54,75 @@ This operator is a non-certified example of buckling resistance verification for
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("members_in_compression_not_certified"); // operator instantiation
+op.connect(0, my_time_scoping);
+op.connect(1, my_field_yield_strength);
+op.connect(2, my_field_end_condition);
+op.connect(3, my_streams);
+op.connect(4, my_data_sources);
+op.connect(5, my_manufacture);
+op.connect(6, my_partial_factor);
+op.connect(7, my_mesh);
+op.connect(8, my_axial_force);
+op.connect(12, my_fabrication_type);
+ansys::dpf::FieldsContainer my_buckling_resistance_compression_yy = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::FieldsContainer my_buckling_resistance_compression_zz = op.getOutput<ansys::dpf::FieldsContainer>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.members_in_compression_not_certified() # operator instantiation
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.field_yield_strength.connect(my_field_yield_strength)
+op.inputs.field_end_condition.connect(my_field_end_condition)
+op.inputs.streams.connect(my_streams)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.manufacture.connect(my_manufacture)
+op.inputs.partial_factor.connect(my_partial_factor)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.axial_force.connect(my_axial_force)
+op.inputs.fabrication_type.connect(my_fabrication_type)
+my_buckling_resistance_compression_yy = op.outputs.buckling_resistance_compression_yy()
+my_buckling_resistance_compression_zz = op.outputs.buckling_resistance_compression_zz()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.members_in_compression_not_certified() # operator instantiation
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.field_yield_strength.Connect(my_field_yield_strength)
+op.inputs.field_end_condition.Connect(my_field_end_condition)
+op.inputs.streams.Connect(my_streams)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.manufacture.Connect(my_manufacture)
+op.inputs.partial_factor.Connect(my_partial_factor)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.axial_force.Connect(my_axial_force)
+op.inputs.fabrication_type.Connect(my_fabrication_type)
+my_buckling_resistance_compression_yy = op.outputs.buckling_resistance_compression_yy.GetData()
+my_buckling_resistance_compression_zz = op.outputs.buckling_resistance_compression_zz.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

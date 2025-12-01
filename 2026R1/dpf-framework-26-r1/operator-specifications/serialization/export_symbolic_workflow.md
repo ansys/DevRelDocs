@@ -47,6 +47,54 @@ Transforms a Workflow into a symbolic Workflow and writes it to a file (if a pat
 
  **License**: any_dpf_supported_increments
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("export_symbolic_workflow"); // operator instantiation
+op.connect(0, my_workflow);
+op.connect(1, my_path);
+op.connect(2, my_format);
+op.connect(3, my_options);
+ansys::dpf::DataSources my_data_sources = op.getOutput<ansys::dpf::DataSources>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.workflow.connect(my_workflow)
+op.inputs.path.connect(my_path)
+op.inputs.format.connect(my_format)
+op.inputs.options.connect(my_options)
+my_data_sources_as_data_sources = op.outputs.data_sources_as_data_sources()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.workflow.Connect(my_workflow)
+op.inputs.path.Connect(my_path)
+op.inputs.format.Connect(my_format)
+op.inputs.options.Connect(my_options)
+my_data_sources = op.outputs.data_sources.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

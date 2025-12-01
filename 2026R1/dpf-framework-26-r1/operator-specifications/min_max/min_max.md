@@ -45,6 +45,48 @@ Compute the component-wise minimum (out 0) and maximum (out 1) over a field.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("min_max"); // operator instantiation
+op.connect(0, my_field);
+ansys::dpf::Field my_field_min = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Field my_field_max = op.getOutput<ansys::dpf::Field>(1);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.min_max.None() # operator instantiation
+op.inputs.field.connect(my_field)
+my_field_min = op.outputs.field_min()
+my_field_max = op.outputs.field_max()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.min_max.None() # operator instantiation
+op.inputs.field.Connect(my_field)
+my_field_min = op.outputs.field_min.GetData()
+my_field_max = op.outputs.field_max.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

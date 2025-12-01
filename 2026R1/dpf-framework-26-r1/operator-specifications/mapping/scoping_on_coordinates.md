@@ -45,6 +45,48 @@ Finds the Elemental scoping of a set of coordinates.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("scoping::on_coordinates"); // operator instantiation
+op.connect(0, my_coordinates);
+op.connect(7, my_mesh);
+ansys::dpf::Scoping my_scoping = op.getOutput<ansys::dpf::Scoping>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.scoping_on_coordinates() # operator instantiation
+op.inputs.coordinates.connect(my_coordinates)
+op.inputs.mesh.connect(my_mesh)
+my_scoping = op.outputs.scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.scoping_on_coordinates() # operator instantiation
+op.inputs.coordinates.Connect(my_coordinates)
+op.inputs.mesh.Connect(my_mesh)
+my_scoping = op.outputs.scoping.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

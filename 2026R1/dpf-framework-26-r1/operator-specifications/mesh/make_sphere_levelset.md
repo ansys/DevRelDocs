@@ -46,6 +46,51 @@ Computes the level set for a sphere using coordinates.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("levelset::make_sphere"); // operator instantiation
+op.connect(0, my_coordinates);
+op.connect(1, my_origin);
+op.connect(2, my_radius);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.make_sphere_levelset() # operator instantiation
+op.inputs.coordinates.connect(my_coordinates)
+op.inputs.origin.connect(my_origin)
+op.inputs.radius.connect(my_radius)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.make_sphere_levelset() # operator instantiation
+op.inputs.coordinates.Connect(my_coordinates)
+op.inputs.origin.Connect(my_origin)
+op.inputs.radius.Connect(my_radius)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

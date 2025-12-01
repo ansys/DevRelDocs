@@ -51,6 +51,64 @@ Extract all results from a datasources and exports them into vtu format. All the
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("migrate_to_vtu"); // operator instantiation
+op.connect(0, my_time_scoping);
+op.connect(3, my_streams_container);
+op.connect(4, my_data_sources);
+op.connect(20, my_directory);
+op.connect(21, my_base_name);
+op.connect(30, my_result);
+op.connect(100, my_write_mode);
+ansys::dpf::DataSources my_path = op.getOutput<ansys::dpf::DataSources>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.time_scoping.connect(my_time_scoping)
+op.inputs.streams_container.connect(my_streams_container)
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.directory.connect(my_directory)
+op.inputs.base_name.connect(my_base_name)
+op.inputs.result1.connect(my_result1)
+op.inputs.result2.connect(my_result2)
+op.inputs.write_mode.connect(my_write_mode)
+my_path = op.outputs.path()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.serialization.None() # operator instantiation
+op.inputs.time_scoping.Connect(my_time_scoping)
+op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.directory.Connect(my_directory)
+op.inputs.base_name.Connect(my_base_name)
+op.inputs.result.Connect(my_result)
+op.inputs.write_mode.Connect(my_write_mode)
+my_path = op.outputs.path.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

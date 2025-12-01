@@ -49,6 +49,60 @@ Removes rigid body mode from a total displacement field by minimization. Use a r
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("ExtractRigidBodyMotion"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_reference_node_id);
+op.connect(7, my_mesh);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Field my_translation_field = op.getOutput<ansys::dpf::Field>(1);
+ansys::dpf::Field my_rotation_field = op.getOutput<ansys::dpf::Field>(2);
+ansys::dpf::Field my_center_field = op.getOutput<ansys::dpf::Field>(3);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.remove_rigid_body_motion() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.reference_node_id.connect(my_reference_node_id)
+op.inputs.mesh.connect(my_mesh)
+my_field = op.outputs.field()
+my_translation_field = op.outputs.translation_field()
+my_rotation_field = op.outputs.rotation_field()
+my_center_field = op.outputs.center_field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.remove_rigid_body_motion() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.reference_node_id.Connect(my_reference_node_id)
+op.inputs.mesh.Connect(my_mesh)
+my_field = op.outputs.field.GetData()
+my_translation_field = op.outputs.translation_field.GetData()
+my_rotation_field = op.outputs.rotation_field.GetData()
+my_center_field = op.outputs.center_field.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

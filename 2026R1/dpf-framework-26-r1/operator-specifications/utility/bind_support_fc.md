@@ -45,6 +45,48 @@ Ties a support to a fields container.
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("BindSupportFC"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_support);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.utility.bind_support_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.support.connect(my_support)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.utility.bind_support_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.support.Connect(my_support)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 

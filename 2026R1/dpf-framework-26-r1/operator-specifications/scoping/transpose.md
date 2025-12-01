@@ -47,6 +47,54 @@ Transposes the input scoping or scopings container (Elemental/Faces --> Nodal, o
 
  **License**: None
 
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("transpose_scoping"); // operator instantiation
+op.connect(0, my_mesh_scoping);
+op.connect(1, my_meshed_region);
+op.connect(2, my_inclusive);
+op.connect(9, my_requested_location);
+ansys::dpf::Scoping my_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.scoping.transpose() # operator instantiation
+op.inputs.mesh_scoping.connect(my_mesh_scoping)
+op.inputs.meshed_region.connect(my_meshed_region)
+op.inputs.inclusive.connect(my_inclusive)
+op.inputs.requested_location.connect(my_requested_location)
+my_mesh_scoping_as_scoping = op.outputs.mesh_scoping_as_scoping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.scoping.transpose() # operator instantiation
+op.inputs.mesh_scoping.Connect(my_mesh_scoping)
+op.inputs.meshed_region.Connect(my_meshed_region)
+op.inputs.inclusive.Connect(my_inclusive)
+op.inputs.requested_location.Connect(my_requested_location)
+my_mesh_scoping = op.outputs.mesh_scoping.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 
