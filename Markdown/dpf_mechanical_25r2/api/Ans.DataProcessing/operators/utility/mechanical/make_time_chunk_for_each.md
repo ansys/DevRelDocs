@@ -19,6 +19,64 @@ make_time_chunk_for_each(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Mechanical_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### target_time_freq_values
+
+List of time/freq values to potentially split in chunks.
+
+**Type:** *LinkableInput*
+
+### operator_to_iterate
+
+Operator that must be reconnected with the range values.
+
+**Type:** *LinkableInput*
+
+### pin_index
+
+**Type:** *LinkableInput*
+
+### meshed_region
+
+The number of nodes (for "Nodal" results) or number of elements (for "Elemental" results) is used to compute the chunk.
+
+**Type:** *LinkableInput*
+
+### chunk_config
+
+a data tree with an int attribute "max_num_bytes", an int attribute "dimensionality" (average result size by entity), a string attribute "location" ("Nodal" or"Elemental") is expected.
+
+**Type:** *LinkableInput*
+
+### producer_op11
+
+**Type:** *LinkableInput*
+
+### producer_op12
+
+**Type:** *LinkableInput*
+
+### output_pin_of_producer_op12
+
+**Type:** *LinkableInput*
+
+### input_pin_of_consumer_op12
+
+**Type:** *LinkableInput*
+
+### consumer_op12
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### chunks
+
+To connect to "producer_consumer_for_each" Operator on pin 0
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

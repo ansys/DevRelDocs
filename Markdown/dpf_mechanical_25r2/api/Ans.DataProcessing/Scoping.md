@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.Scoping
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-The scoping contains entities ids representing a subset of the model's support. Typically, scoping can represent node ids, element ids, time steps, frequencies, joints... 
-            Its location indicates what kind of entity the scoping is referring to
-
-Scoping()
-Scoping(ptrScoping: IntPtr)
-Scoping(ids: IList[Int32], location: str)
+## Summary
 
+The scoping contains entities ids representing a subset of the model's support. Typically, scoping can represent node ids, element ids, time steps, frequencies, joints...
+
+Its location indicates what kind of entity the scoping is referring to
+
+## Example
+
+```python
+my_scoping = dpf.data.Scoping()
+
+my_scoping.Location = 'Nodal' #optional
+
+my_scoping.Ids = range(1,11)
+```
 
 ## Class Information
 
@@ -101,6 +109,8 @@ result = obj.GetInternalData()
 
 #### Ids
 
+Property `Ids` entity ids
+
 **Type:** *list*
 
 ```python
@@ -111,6 +121,8 @@ obj.Ids = new_value
 
 #### Count
 
+Property `Count` returns the number of ids in the scoping
+
 **Type:** *int*
 
 ```python
@@ -119,6 +131,8 @@ value = obj.Count
 ```
 
 #### Location
+
+Property `Location` indicates what kind of entity the scoping is referring to
 
 **Type:** *str*
 

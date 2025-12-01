@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.strain_from_voigt
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Converts the strain field from Voigt notation into standard format.   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-strain_from_voigt()
-strain_from_voigt(field: object, config: OperatorConfig)
-strain_from_voigt(config: OperatorConfig)
+## Summary
 
+Converts the strain field from Voigt notation into standard format.
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = strain_from_voigt()
+
+op = strain_from_voigt(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ strain_from_voigt(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

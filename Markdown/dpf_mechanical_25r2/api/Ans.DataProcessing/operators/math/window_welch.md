@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.window_welch
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Apply welch windowing on a given FieldsContainer having time label or a Field located on time. Assume that time sampling is evenly spaced (use time_freq_interpolation before otherwise).   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field ,FieldsContainer)
-
-window_welch()
-window_welch(field: object, config: OperatorConfig)
-window_welch(config: OperatorConfig)
+## Summary
 
+Apply welch windowing on a given FieldsContainer having time label or a Field located on time. Assume that time sampling is evenly spaced (use time_freq_interpolation before otherwise).
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field ,FieldsContainer)
+
+## Example
+
+```python
+op = window_welch()
+
+op = window_welch(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ window_welch(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

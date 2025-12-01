@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.split_fields
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Split the input field or fields container based on the input mesh regions    ///available inputs: field_or_fields_container (Field, FieldsContainer), meshes (MeshesContainer)
-            available outputs: fields_container (FieldsContainer)
-
-split_fields()
-split_fields(field_or_fields_container: object, meshes: object, config: OperatorConfig)
-split_fields(config: OperatorConfig)
+## Summary
 
+Split the input field or fields container based on the input mesh regions
+
+available inputs: `field_or_fields_container` (Field, FieldsContainer), `meshes` (MeshesContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = split_fields()
+
+op = split_fields(field_or_fields_container=my_field_or_fields_container,meshes=my_meshes)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ split_fields(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field_or_fields_container
+
+**Type:** *LinkableInput*
+
+### meshes
+
+body meshes in the mesh controller cannot be mixed shell/solid
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

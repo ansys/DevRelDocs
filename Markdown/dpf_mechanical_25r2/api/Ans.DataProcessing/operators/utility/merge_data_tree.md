@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.merge_data_tree
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Merges a list of data trees. Attributes names shouldn't be shared accross data tree instances.   ///available inputs: data_tree1 (DataTree), data_tree2 (DataTree)
-            available outputs: any (object)
-
-merge_data_tree()
-merge_data_tree(data_tree1: object, data_tree2: object, config: OperatorConfig)
-merge_data_tree(config: OperatorConfig)
+## Summary
 
+Merges a list of data trees. Attributes names shouldn't be shared accross data tree instances.
+
+available inputs: `data_tree1` (DataTree), `data_tree2` (DataTree)
+
+available outputs: `any` (object)
+
+## Example
+
+```python
+op = merge_data_tree()
+
+op = merge_data_tree(data_tree1=my_data_tree1,data_tree2=my_data_tree2)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ merge_data_tree(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### data_tree1
+
+Either a vector of data trees or data trees from pin 0 to ... to merge.
+
+**Type:** *LinkableInput*
+
+### data_tree2
+
+Either a vector of data trees or data trees from pin 0 to ... to merge.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### any
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

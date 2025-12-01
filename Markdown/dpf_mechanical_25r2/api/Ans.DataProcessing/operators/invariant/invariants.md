@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.invariant.invariants
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 
-Computes the element-wise invariants of a tensor field.   ///available inputs: field (Field)
-            available outputs: field_int (Field), field_eqv (Field), field_max_shear (Field)
-
-invariants()
-invariants(field: object, config: OperatorConfig)
-invariants(config: OperatorConfig)
+## Summary
 
+Computes the element-wise invariants of a tensor field.
+
+available inputs: `field` (Field)
+
+available outputs: `field_int` (Field), `field_eqv` (Field), `field_max_shear` (Field)
+
+## Example
+
+```python
+op = invariants()
+
+op = invariants(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ invariants(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.invariant` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field_int
+
+stress intensity field
+
+**Type:** *LinkableOutput*
+
+### field_eqv
+
+stress equivalent intensity
+
+**Type:** *LinkableOutput*
+
+### field_max_shear
+
+max shear stress field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

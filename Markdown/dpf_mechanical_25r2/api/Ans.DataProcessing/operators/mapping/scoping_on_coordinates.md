@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mapping.scoping_on_coordinates
 
 **Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
 
-Finds the Elemental scoping of a set of coordinates.   ///available inputs: coordinates (Field), mesh (MeshedRegion)
-            available outputs: scoping (Scoping)
-
-scoping_on_coordinates()
-scoping_on_coordinates(coordinates: object, mesh: object, config: OperatorConfig)
-scoping_on_coordinates(config: OperatorConfig)
+## Summary
 
+Finds the Elemental scoping of a set of coordinates.
+
+available inputs: `coordinates` (Field), `mesh` (MeshedRegion)
+
+available outputs: `scoping` (Scoping)
+
+## Example
+
+```python
+op = scoping_on_coordinates()
+
+op = scoping_on_coordinates(coordinates=my_coordinates,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ scoping_on_coordinates(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mapping` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### coordinates
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

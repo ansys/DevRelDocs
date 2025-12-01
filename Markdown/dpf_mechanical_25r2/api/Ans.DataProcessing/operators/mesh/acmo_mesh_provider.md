@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.acmo_mesh_provider
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Converts an Assembly Mesh into a DPF Meshes container   ///available inputs: assembly_mesh (AnsDispatchHolder), unit (string) (optional)
-            available outputs: meshes_container (MeshesContainer)
-
-acmo_mesh_provider()
-acmo_mesh_provider(assembly_mesh: object, config: OperatorConfig)
-acmo_mesh_provider(config: OperatorConfig)
+## Summary
 
+Converts an Assembly Mesh into a DPF Meshes container
+
+available inputs: `assembly_mesh` (AnsDispatchHolder), `unit` (string) (optional)
+
+available outputs: `meshes_container` (MeshesContainer)
+
+## Example
+
+```python
+op = acmo_mesh_provider()
+
+op = acmo_mesh_provider(assembly_mesh=my_assembly_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ acmo_mesh_provider(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `Ans_Dpf_Mechanical_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### assembly_mesh
+
+**Type:** *LinkableInput*
+
+### unit
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### meshes_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

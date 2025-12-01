@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.merge_property_fields
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Assembles a set of property fields into a unique one.   ///available inputs: naive_merge (bool), property_fields1 (PropertyField, PropertyFieldsContainer), property_fields2 (PropertyField, PropertyFieldsContainer)
-            available outputs: property_field (PropertyField)
-
-merge_property_fields()
-merge_property_fields(naive_merge: object, property_fields1: object, property_fields2: object, config: OperatorConfig)
-merge_property_fields(config: OperatorConfig)
+## Summary
 
+Assembles a set of property fields into a unique one.
+
+available inputs: `naive_merge` (bool), `property_fields1` (PropertyField, PropertyFieldsContainer), `property_fields2` (PropertyField, PropertyFieldsContainer)
+
+available outputs: `property_field` (PropertyField)
+
+## Example
+
+```python
+op = merge_property_fields()
+
+op = merge_property_fields(naive_merge=my_naive_merge,property_fields1=my_property_fields1,property_fields2=my_property_fields2)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ merge_property_fields(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### naive_merge
+
+If true, merge the input property fields assuming that there is no repetition in their scoping ids. Default is false.
+
+**Type:** *LinkableInput*
+
+### property_fields1
+
+Either a property fields container, a vector of property fields to merge or property fields from pin 0 to ...
+
+**Type:** *LinkableInput*
+
+### property_fields2
+
+Either a property fields container, a vector of property fields to merge or property fields from pin 0 to ...
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### property_field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

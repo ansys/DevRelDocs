@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.rigid_transformation_provider
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Extracts rigid body transformation from dsub file.   ///available inputs: streams (Stream) (optional), data_sources (DataSources)
-            available outputs: fields_container (FieldsContainer)
-
-rigid_transformation_provider()
-rigid_transformation_provider(streams: object, data_sources: object, config: OperatorConfig)
-rigid_transformation_provider(config: OperatorConfig)
+## Summary
 
+Extracts rigid body transformation from dsub file.
+
+available inputs: `streams` (Stream) (optional), `data_sources` (DataSources)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = rigid_transformation_provider()
+
+op = rigid_transformation_provider(streams=my_streams,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ rigid_transformation_provider(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### streams
+
+streams (result file container) (optional)
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+data source of dsub file.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

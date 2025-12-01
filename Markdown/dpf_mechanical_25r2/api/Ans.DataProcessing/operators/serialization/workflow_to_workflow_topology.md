@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.serialization.workflow_to_workflow_topology
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 
-Creates a GenericDataContainer based on WorkflowTopology structure from a Workflow object, allowing to access its operators, operator connections, data connections, and exposed pins.   ///available inputs: workflow (Workflow)
-            available outputs: workflow_topology (GenericDataContainer)
-
-workflow_to_workflow_topology()
-workflow_to_workflow_topology(workflow: object, config: OperatorConfig)
-workflow_to_workflow_topology(config: OperatorConfig)
+## Summary
 
+Creates a GenericDataContainer based on WorkflowTopology structure from a Workflow object, allowing to access its operators, operator connections, data connections, and exposed pins.
+
+available inputs: `workflow` (Workflow)
+
+available outputs: `workflow_topology` (GenericDataContainer)
+
+## Example
+
+```python
+op = workflow_to_workflow_topology()
+
+op = workflow_to_workflow_topology(workflow=my_workflow)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ workflow_to_workflow_topology(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.serialization` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### workflow
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### workflow_topology
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

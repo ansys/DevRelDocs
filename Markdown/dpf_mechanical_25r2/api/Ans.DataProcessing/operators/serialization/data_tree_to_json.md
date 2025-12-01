@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.serialization.data_tree_to_json
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 
-Writes a json file or string from a DataTree   ///available inputs: data_tree (DataTree), path (string) (optional)
-            available outputs: data_sources (DataSources ,string)
-
-data_tree_to_json()
-data_tree_to_json(data_tree: object, path: object, config: OperatorConfig)
-data_tree_to_json(config: OperatorConfig)
+## Summary
 
+Writes a json file or string from a DataTree
+
+available inputs: `data_tree` (DataTree), `path` (string) (optional)
+
+available outputs: `data_sources` (DataSources ,string)
+
+## Example
+
+```python
+op = data_tree_to_json()
+
+op = data_tree_to_json(data_tree=my_data_tree,path=my_path)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ data_tree_to_json(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.serialization` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### data_tree
+
+**Type:** *LinkableInput*
+
+### path
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### data_sources
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

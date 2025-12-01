@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.field_to_fc
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Creates a fields container containing the field provided on pin 0.   ///available inputs: field (Field, FieldsContainer), label (LabelSpace)
-            available outputs: fields_container (FieldsContainer)
-
-field_to_fc()
-field_to_fc(field: object, label: object, config: OperatorConfig)
-field_to_fc(config: OperatorConfig)
+## Summary
 
+Creates a fields container containing the field provided on pin 0.
+
+available inputs: `field` (Field, FieldsContainer), `label` (LabelSpace)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = field_to_fc()
+
+op = field_to_fc(field=my_field,label=my_label)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ field_to_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+If a fields container is set in input, it is passed on as an output with the additional label space (if any).
+
+**Type:** *LinkableInput*
+
+### label
+
+Sets a label space.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

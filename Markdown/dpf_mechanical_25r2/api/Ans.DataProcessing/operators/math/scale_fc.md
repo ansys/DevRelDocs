@@ -19,6 +19,44 @@ scale_fc(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### fields_container
+
+fields container to be scaled
+
+**Type:** *LinkableInput*
+
+### weights
+
+Double/Vector of doubles/Field/FieldsContainer. When scoped on overall, same value(s) applied on all the data, when scoped elsewhere, corresponding values will be multiplied due to the scoping
+
+**Type:** *LinkableInput*
+
+### ponderation
+
+Deprecated alias of: weights
+
+**Type:** *LinkableInput*
+
+### boolean
+
+Default is false. If set to true, output of scale is made dimensionless
+
+**Type:** *LinkableInput*
+
+### algorithm
+
+Default is 0 use mkl. If set to 1, don't
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

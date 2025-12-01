@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.mesh_to_graphics_edges
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Generate edges of surface elements for input mesh   ///available inputs: mesh_scoping (Scoping) (optional), include_mid_nodes (bool) (optional), mesh (MeshedRegion)
-            available outputs: nodes (Field), connectivity (PropertyField)
-
-mesh_to_graphics_edges()
-mesh_to_graphics_edges(mesh_scoping: object, include_mid_nodes: object, mesh: object, config: OperatorConfig)
-mesh_to_graphics_edges(config: OperatorConfig)
+## Summary
 
+Generate edges of surface elements for input mesh
+
+available inputs: `mesh_scoping` (Scoping) (optional), `include_mid_nodes` (bool) (optional), `mesh` (MeshedRegion)
+
+available outputs: `nodes` (Field), `connectivity` (PropertyField)
+
+## Example
+
+```python
+op = mesh_to_graphics_edges()
+
+op = mesh_to_graphics_edges(mesh_scoping=my_mesh_scoping,include_mid_nodes=my_include_mid_nodes,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ mesh_to_graphics_edges(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh_scoping
+
+**Type:** *LinkableInput*
+
+### include_mid_nodes
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### nodes
+
+node coordinates
+
+**Type:** *LinkableOutput*
+
+### connectivity
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

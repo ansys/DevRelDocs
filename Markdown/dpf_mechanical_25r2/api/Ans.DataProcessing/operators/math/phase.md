@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.phase
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes the phase (in rad) between a real and an imaginary field.   ///available inputs: fieldA (Field, FieldsContainer), fieldB (Field, FieldsContainer)
-            available outputs: field (Field)
-
-phase()
-phase(fieldA: object, fieldB: object, config: OperatorConfig)
-phase(config: OperatorConfig)
+## Summary
 
+Computes the phase (in rad) between a real and an imaginary field.
+
+available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = phase()
+
+op = phase(fieldA=my_fieldA,fieldB=my_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ phase(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

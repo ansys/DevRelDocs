@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mapping.prepare_mapping_workflow
 
 **Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
 
-Generates a workflow that can map results from a support to another one.   ///available inputs: input_support (Field, MeshedRegion), output_support (Field, MeshedRegion), filter_radius (double), influence_box (double) (optional)
-            available outputs: mapping_workflow (Workflow)
-
-prepare_mapping_workflow()
-prepare_mapping_workflow(input_support: object, output_support: object, filter_radius: object, influence_box: object, config: OperatorConfig)
-prepare_mapping_workflow(config: OperatorConfig)
+## Summary
 
+Generates a workflow that can map results from a support to another one.
+
+available inputs: `input_support` (Field, MeshedRegion), `output_support` (Field, MeshedRegion), `filter_radius` (double), `influence_box` (double) (optional)
+
+available outputs: `mapping_workflow` (Workflow)
+
+## Example
+
+```python
+op = prepare_mapping_workflow()
+
+op = prepare_mapping_workflow(input_support=my_input_support,output_support=my_output_support,filter_radius=my_filter_radius,influence_box=my_influence_box)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ prepare_mapping_workflow(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mapping` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### input_support
+
+**Type:** *LinkableInput*
+
+### output_support
+
+**Type:** *LinkableInput*
+
+### filter_radius
+
+Radius size for the RBF filter
+
+**Type:** *LinkableInput*
+
+### influence_box
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mapping_workflow
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

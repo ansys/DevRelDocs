@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.field_get_attribute
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-A Field in pin 0 and a property name (string) in pin 1 are expected in input.   ///available inputs: field (Field), property_name (string)
-            available outputs: property (TimeFreqSupport ,Scoping)
-
-field_get_attribute()
-field_get_attribute(field: object, property_name: object, config: OperatorConfig)
-field_get_attribute(config: OperatorConfig)
+## Summary
 
+A Field in pin 0 and a property name (string) in pin 1 are expected in input.
+
+available inputs: `field` (Field), `property_name` (string)
+
+available outputs: `property` (TimeFreqSupport ,Scoping)
+
+## Example
+
+```python
+op = field_get_attribute()
+
+op = field_get_attribute(field=my_field,property_name=my_property_name)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ field_get_attribute(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### property_name
+
+Accepted inputs are: 'time_freq_support' and 'scoping'.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### property
+
+Property value.
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

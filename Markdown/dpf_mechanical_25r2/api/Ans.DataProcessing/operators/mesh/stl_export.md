@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.stl_export
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-export a mesh into a stl file.   ///available inputs: mesh (MeshedRegion), file_path (string)
-            available outputs: data_sources (DataSources)
-
-stl_export()
-stl_export(mesh: object, file_path: object, config: OperatorConfig)
-stl_export(config: OperatorConfig)
+## Summary
 
+export a mesh into a stl file.
+
+available inputs: `mesh` (MeshedRegion), `file_path` (string)
+
+available outputs: `data_sources` (DataSources)
+
+## Example
+
+```python
+op = stl_export()
+
+op = stl_export(mesh=my_mesh,file_path=my_file_path)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ stl_export(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### file_path
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### data_sources
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

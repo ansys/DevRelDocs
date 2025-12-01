@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.serialization.csv_to_field
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 
-transform csv file to a field or fields container   ///available inputs: time_scoping (Scoping) (optional), data_sources (DataSources)
-            available outputs: fields_container (FieldsContainer)
-
-csv_to_field()
-csv_to_field(time_scoping: object, data_sources: object, config: OperatorConfig)
-csv_to_field(config: OperatorConfig)
+## Summary
 
+transform csv file to a field or fields container
+
+available inputs: `time_scoping` (Scoping) (optional), `data_sources` (DataSources)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = csv_to_field()
+
+op = csv_to_field(time_scoping=my_time_scoping,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ csv_to_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.serialization` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### time_scoping
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+data sources containing a file with csv extension
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

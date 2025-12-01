@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.averaging.elemental_difference
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-Transforms an Elemental Nodal or Nodal field into an Elemental field. Each elemental value is the maximum difference between the computed result for all nodes in this element. The result is computed on a given element scoping.   ///available inputs: field (Field, FieldsContainer), mesh_scoping (Scoping) (optional), mesh (MeshedRegion) (optional), through_layers (bool) (optional)
-            available outputs: field (Field)
-
-elemental_difference()
-elemental_difference(field: object, mesh_scoping: object, mesh: object, through_layers: object, config: OperatorConfig)
-elemental_difference(config: OperatorConfig)
+## Summary
 
+Transforms an Elemental Nodal or Nodal field into an Elemental field. Each elemental value is the maximum difference between the computed result for all nodes in this element. The result is computed on a given element scoping.
+
+available inputs: `field` (Field, FieldsContainer), `mesh_scoping` (Scoping) (optional), `mesh` (MeshedRegion) (optional), `through_layers` (bool) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = elemental_difference()
+
+op = elemental_difference(field=my_field,mesh_scoping=my_mesh_scoping,mesh=my_mesh,through_layers=my_through_layers)
+```
 
 ## Class Information
 
@@ -21,6 +29,36 @@ elemental_difference(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.averaging` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+average only on these entities
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### through_layers
+
+The maximum elemental difference is taken through the different shell layers if true (default is false).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

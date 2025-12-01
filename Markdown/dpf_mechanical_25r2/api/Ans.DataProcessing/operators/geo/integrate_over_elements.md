@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.geo.integrate_over_elements
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 
-Integration of an input field over mesh.   ///available inputs: field (Field), scoping (Scoping) (optional), mesh (MeshedRegion) (optional)
-            available outputs: field (Field)
-
-integrate_over_elements()
-integrate_over_elements(field: object, scoping: object, mesh: object, config: OperatorConfig)
-integrate_over_elements(config: OperatorConfig)
+## Summary
 
+Integration of an input field over mesh.
+
+available inputs: `field` (Field), `scoping` (Scoping) (optional), `mesh` (MeshedRegion) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = integrate_over_elements()
+
+op = integrate_over_elements(field=my_field,scoping=my_scoping,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ integrate_over_elements(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.geo` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### scoping
+
+Integrate the input field over a specific scoping.
+
+**Type:** *LinkableInput*
+
+### mesh
+
+Mesh to integrate on. If not provided, the one from input field is employed.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

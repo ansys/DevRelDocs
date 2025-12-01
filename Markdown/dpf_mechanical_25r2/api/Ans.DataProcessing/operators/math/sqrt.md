@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.sqrt
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes element-wise sqrt(field1).   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-sqrt()
-sqrt(field: object, config: OperatorConfig)
-sqrt(config: OperatorConfig)
+## Summary
 
+Computes element-wise sqrt(field1).
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = sqrt()
+
+op = sqrt(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ sqrt(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

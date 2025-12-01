@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.metadata.datasources_provider
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 
-Creates a DataSources by expanding another.   ///available inputs: data_sources (DataSources)
-            available outputs: data_sources (DataSources)
-
-datasources_provider()
-datasources_provider(data_sources: object, config: OperatorConfig)
-datasources_provider(config: OperatorConfig)
+## Summary
 
+Creates a DataSources by expanding another.
+
+available inputs: `data_sources` (DataSources)
+
+available outputs: `data_sources` (DataSources)
+
+## Example
+
+```python
+op = datasources_provider()
+
+op = datasources_provider(data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ datasources_provider(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.metadata` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### data_sources
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.split_data_sources
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Splits a Data Sources into multiple coherent data sources, actual number of outputs is always less or equal to the given desired number of ouputs.   ///available inputs: data_sources (DataSources), output_count (Int32)
-            available outputs: output_count (Int32), outputs1 (DataSources), outputs2 (DataSources)
-
-split_data_sources()
-split_data_sources(data_sources: object, output_count: object, config: OperatorConfig)
-split_data_sources(config: OperatorConfig)
+## Summary
 
+Splits a Data Sources into multiple coherent data sources, actual number of outputs is always less or equal to the given desired number of ouputs.
+
+available inputs: `data_sources` (DataSources), `output_count` (Int32)
+
+available outputs: `output_count` (Int32), `outputs1` (DataSources), `outputs2` (DataSources)
+
+## Example
+
+```python
+op = split_data_sources()
+
+op = split_data_sources(data_sources=my_data_sources,output_count=my_output_count)
+```
 
 ## Class Information
 
@@ -21,6 +29,40 @@ split_data_sources(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### data_sources
+
+Data sources to split.
+
+**Type:** *LinkableInput*
+
+### output_count
+
+Number of desired outputs.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### output_count
+
+Actual number of outputs.
+
+**Type:** *LinkableOutput*
+
+### outputs1
+
+Data sources outputs.
+
+**Type:** *LinkableOutput*
+
+### outputs2
+
+Data sources outputs.
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

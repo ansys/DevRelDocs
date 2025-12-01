@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.incremental.merge.mesh
 
 **Namespace:** [Ans.DataProcessing.operators.utility.incremental.merge](Ans_DataProcessing_operators_utility_incremental_merge.md)
 
-Incrementaly merge the input.   ///available inputs: input (MeshedRegion)
-            available outputs: incremented_result (object)
-
-mesh()
-mesh(input: object, config: OperatorConfig)
-mesh(config: OperatorConfig)
+## Summary
 
+Incrementaly merge the input.
+
+available inputs: `input` (MeshedRegion)
+
+available outputs: `incremented_result` (object)
+
+## Example
+
+```python
+op = mesh()
+
+op = mesh(input=my_input)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ mesh(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility.incremental.merge` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### input
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### incremented_result
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

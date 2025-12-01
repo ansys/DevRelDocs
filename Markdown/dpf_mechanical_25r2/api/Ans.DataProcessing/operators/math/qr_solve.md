@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.qr_solve
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes the solution using QR factorization.   ///available inputs: fields_container (FieldsContainer), rhs (FieldsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-qr_solve()
-qr_solve(fields_container: object, rhs: object, config: OperatorConfig)
-qr_solve(config: OperatorConfig)
+## Summary
 
+Computes the solution using QR factorization.
+
+available inputs: `fields_container` (FieldsContainer), `rhs` (FieldsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = qr_solve()
+
+op = qr_solve(fields_container=my_fields_container,rhs=my_rhs)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ qr_solve(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+fields_container
+
+**Type:** *LinkableInput*
+
+### rhs
+
+fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

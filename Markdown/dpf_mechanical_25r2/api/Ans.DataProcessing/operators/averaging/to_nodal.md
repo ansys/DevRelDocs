@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.averaging.to_nodal
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-Transforms a field into a Nodal field using an averaging process. The result is computed on a given node's scoping.   ///available inputs: field (Field, FieldsContainer), mesh_scoping (Scoping) (optional), merge_solid_shell (bool) (optional), shell_layer (Int32) (optional)
-            available outputs: field (Field)
-
-to_nodal()
-to_nodal(field: object, mesh_scoping: object, merge_solid_shell: object, shell_layer: object, config: OperatorConfig)
-to_nodal(config: OperatorConfig)
+## Summary
 
+Transforms a field into a Nodal field using an averaging process. The result is computed on a given node's scoping.
+
+available inputs: `field` (Field, FieldsContainer), `mesh_scoping` (Scoping) (optional), `merge_solid_shell` (bool) (optional), `shell_layer` (Int32) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = to_nodal()
+
+op = to_nodal(field=my_field,mesh_scoping=my_mesh_scoping,merge_solid_shell=my_merge_solid_shell,shell_layer=my_shell_layer)
+```
 
 ## Class Information
 
@@ -21,6 +29,36 @@ to_nodal(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.averaging` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+**Type:** *LinkableInput*
+
+### merge_solid_shell
+
+For shell/solid mixed fields, group in the same field all solids and shells (false by default). If this pin is true, a shell_layer needs to be specified.
+
+**Type:** *LinkableInput*
+
+### shell_layer
+
+0: Top, 1: Bottom, 2: BottomTop, 3: Mid, 4: BottomTopMid. If merge_solid_shell is true, this pin needs to be specified to a value that extracts only one layer (Top, Bottom or Mid).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

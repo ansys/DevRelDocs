@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.metadata.time_freq_support_get_attribute
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 
-Uses the TimeFreqSupport APIs to return a given attribute of the scoping in input.   ///available inputs: time_freq_support (TimeFreqSupport), property_name (string), property_identifier (Int32) (optional), property_identifier_2 (Int32) (optional)
-            available outputs: property (double ,Field ,Scoping)
-
-time_freq_support_get_attribute()
-time_freq_support_get_attribute(time_freq_support: object, property_name: object, property_identifier: object, property_identifier_2: object, config: OperatorConfig)
-time_freq_support_get_attribute(config: OperatorConfig)
+## Summary
 
+Uses the TimeFreqSupport APIs to return a given attribute of the scoping in input.
+
+available inputs: `time_freq_support` (TimeFreqSupport), `property_name` (string), `property_identifier` (Int32) (optional), `property_identifier_2` (Int32) (optional)
+
+available outputs: `property` (double ,Field ,Scoping)
+
+## Example
+
+```python
+op = time_freq_support_get_attribute()
+
+op = time_freq_support_get_attribute(time_freq_support=my_time_freq_support,property_name=my_property_name,property_identifier=my_property_identifier,property_identifier_2=my_property_identifier_2)
+```
 
 ## Class Information
 
@@ -21,6 +29,38 @@ time_freq_support_get_attribute(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.metadata` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### time_freq_support
+
+**Type:** *LinkableInput*
+
+### property_name
+
+Supported property names are: "time_freqs", "imaginary_freqs", "frequency_tolerance", "set_id", "cummulative_index", "sets_freqs".
+
+**Type:** *LinkableInput*
+
+### property_identifier
+
+Additional pin for properties "set_id" and "cummulative_index": the step id, for "sets_freqs": the sets scoping.
+
+**Type:** *LinkableInput*
+
+### property_identifier_2
+
+Additional pin for properties "set_id" and "cummulative_index": the substep id (if none, last substep is considered).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### property
+
+Returns a double for property: "frequency_tolerance", a single-value Scoping for properties for "set_id" and "cummulative_index", and a Field otherwise.
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

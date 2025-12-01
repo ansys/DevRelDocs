@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.scoping.intersect
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 
-Intersect 2 scopings and return the intersection and the difference between the intersection and the first scoping.   ///available inputs: scopingA (Scoping), scopingB (Scoping)
-            available outputs: intersection (Scoping), scopingA_min_intersection (Scoping)
-
-intersect()
-intersect(scopingA: object, scopingB: object, config: OperatorConfig)
-intersect(config: OperatorConfig)
+## Summary
 
+Intersect 2 scopings and return the intersection and the difference between the intersection and the first scoping.
+
+available inputs: `scopingA` (Scoping), `scopingB` (Scoping)
+
+available outputs: `intersection` (Scoping), `scopingA_min_intersection` (Scoping)
+
+## Example
+
+```python
+op = intersect()
+
+op = intersect(scopingA=my_scopingA,scopingB=my_scopingB)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ intersect(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.scoping` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### scopingA
+
+**Type:** *LinkableInput*
+
+### scopingB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### intersection
+
+**Type:** *LinkableOutput*
+
+### scopingA_min_intersection
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

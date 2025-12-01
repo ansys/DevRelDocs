@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.filter.field_band_pass_fc
 
 **Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
 
-The band pass filter returns all the values above (but not equal to) the minimum threshold value and below (but not equal to) the maximum threshold value in input.   ///available inputs: fields_container (FieldsContainer), min_threshold (double, Field), max_threshold (double, Field) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-field_band_pass_fc()
-field_band_pass_fc(fields_container: object, min_threshold: object, max_threshold: object, config: OperatorConfig)
-field_band_pass_fc(config: OperatorConfig)
+## Summary
 
+The band pass filter returns all the values above (but not equal to) the minimum threshold value and below (but not equal to) the maximum threshold value in input.
+
+available inputs: `fields_container` (FieldsContainer), `min_threshold` (double, Field), `max_threshold` (double, Field) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = field_band_pass_fc()
+
+op = field_band_pass_fc(fields_container=my_fields_container,min_threshold=my_min_threshold,max_threshold=my_max_threshold)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ field_band_pass_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.filter` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### min_threshold
+
+A minimum threshold scalar or a field containing one value is expected.
+
+**Type:** *LinkableInput*
+
+### max_threshold
+
+A maximum threshold scalar or a field containing one value is expected.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

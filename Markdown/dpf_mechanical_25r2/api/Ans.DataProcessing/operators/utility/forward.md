@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.forward
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Return all the inputs as outputs.   ///available inputs: any (object)
-            available outputs: any (object)
-
-forward()
-forward(any: object, config: OperatorConfig)
-forward(config: OperatorConfig)
+## Summary
 
+Return all the inputs as outputs.
+
+available inputs: `any` (object)
+
+available outputs: `any` (object)
+
+## Example
+
+```python
+op = forward()
+
+op = forward(any=my_any)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ forward(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### any
+
+any type of input
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### any
+
+same types as inputs
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

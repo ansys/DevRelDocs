@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.make_label_space
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Assemble strings and integers to make a label space.   ///available inputs: base_label (LabelSpace, FieldsContainer, ScopingsContainer) (optional), label_name (string), label_value1 (Int32), label_value2 (Int32)
-            available outputs: label (LabelSpace)
-
-make_label_space()
-make_label_space(base_label: object, label_name: object, label_value1: object, label_value2: object, config: OperatorConfig)
-make_label_space(config: OperatorConfig)
+## Summary
 
+Assemble strings and integers to make a label space.
+
+available inputs: `base_label` (LabelSpace, FieldsContainer, ScopingsContainer) (optional), `label_name` (string), `label_value1` (Int32), `label_value2` (Int32)
+
+available outputs: `label` (LabelSpace)
+
+## Example
+
+```python
+op = make_label_space()
+
+op = make_label_space(base_label=my_base_label,label_name=my_label_name,label_value1=my_label_value1,label_value2=my_label_value2)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ make_label_space(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### base_label
+
+Used as a base label (extracted from Fields/Scoping Container, or directly from Label Space) that is concatenated with provided values.
+
+**Type:** *LinkableInput*
+
+### label_name
+
+**Type:** *LinkableInput*
+
+### label_value1
+
+**Type:** *LinkableInput*
+
+### label_value2
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### label
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

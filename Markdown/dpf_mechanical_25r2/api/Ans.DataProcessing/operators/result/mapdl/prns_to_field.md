@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.mapdl.prns_to_field
 
 **Namespace:** [Ans.DataProcessing.operators.result.mapdl](Ans_DataProcessing_operators_result_mapdl.md)
 
-Read the presol of nodal field generated file from mapdl.   ///available inputs: filepath (string), columns_to_read (Int32, IList int, System.Collections.IEnumerable) (optional)
-            available outputs: field (Field)
-
-prns_to_field()
-prns_to_field(filepath: object, columns_to_read: object, config: OperatorConfig)
-prns_to_field(config: OperatorConfig)
+## Summary
 
+Read the presol of nodal field generated file from mapdl.
+
+available inputs: `filepath` (string), `columns_to_read` (Int32, IList int, System.Collections.IEnumerable) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = prns_to_field()
+
+op = prns_to_field(filepath=my_filepath,columns_to_read=my_columns_to_read)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ prns_to_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result.mapdl` |
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### filepath
+
+filepath
+
+**Type:** *LinkableInput*
+
+### columns_to_read
+
+columns_to_read
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

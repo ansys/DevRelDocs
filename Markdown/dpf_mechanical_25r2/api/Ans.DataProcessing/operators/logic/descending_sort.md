@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.descending_sort
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Sort a field (in 0) in descending order, with an optional component priority table or a boolean to enable sort by scoping (in 1). This operator doesn't support multiple elementary data per entity.   ///available inputs: field (Field, FieldsContainer), component_priority_table (IList int, System.Collections.IEnumerable) (optional), sort_by_scoping (bool) (optional)
-            available outputs: field (Field)
-
-descending_sort()
-descending_sort(field: object, component_priority_table: object, sort_by_scoping: object, config: OperatorConfig)
-descending_sort(config: OperatorConfig)
+## Summary
 
+Sort a field (in 0) in descending order, with an optional component priority table or a boolean to enable sort by scoping (in 1). This operator doesn't support multiple elementary data per entity.
+
+available inputs: `field` (Field, FieldsContainer), `component_priority_table` (IList int, System.Collections.IEnumerable) (optional), `sort_by_scoping` (bool) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = descending_sort()
+
+op = descending_sort(field=my_field,component_priority_table=my_component_priority_table,sort_by_scoping=my_sort_by_scoping)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ descending_sort(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### component_priority_table
+
+component priority table (vector of int)
+
+**Type:** *LinkableInput*
+
+### sort_by_scoping
+
+if true, uses scoping to sort the field (default is false)
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

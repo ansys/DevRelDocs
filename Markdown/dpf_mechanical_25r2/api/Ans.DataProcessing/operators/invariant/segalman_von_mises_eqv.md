@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.invariant.segalman_von_mises_eqv
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 
-Computes the element-wise Segalman Von-Mises criteria on a tensor field.   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-segalman_von_mises_eqv()
-segalman_von_mises_eqv(field: object, config: OperatorConfig)
-segalman_von_mises_eqv(config: OperatorConfig)
+## Summary
 
+Computes the element-wise Segalman Von-Mises criteria on a tensor field.
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = segalman_von_mises_eqv()
+
+op = segalman_von_mises_eqv(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ segalman_von_mises_eqv(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.invariant` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.node_coordinates
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Returns the node coordinates of the mesh(es) in input.   ///available inputs: mesh (MeshedRegion, MeshesContainer)
-            available outputs: coordinates (Field ,FieldsContainer)
-
-node_coordinates()
-node_coordinates(mesh: object, config: OperatorConfig)
-node_coordinates(config: OperatorConfig)
+## Summary
 
+Returns the node coordinates of the mesh(es) in input.
+
+available inputs: `mesh` (MeshedRegion, MeshesContainer)
+
+available outputs: `coordinates` (Field ,FieldsContainer)
+
+## Example
+
+```python
+op = node_coordinates()
+
+op = node_coordinates(mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ node_coordinates(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### coordinates
+
+if the input is a meshed region, a field of coordinates is the output, else if the input is a  meshes container, a fields container (one field by mesh) is the output
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.overall_dot
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes a dot product between two fields (fields are seen like a single large vector) and returns a scalar.   ///available inputs: fieldA (Field), fieldB (Field)
-            available outputs: field (Field)
-
-overall_dot()
-overall_dot(fieldA: object, fieldB: object, config: OperatorConfig)
-overall_dot(config: OperatorConfig)
+## Summary
 
+Computes a dot product between two fields (fields are seen like a single large vector) and returns a scalar.
+
+available inputs: `fieldA` (Field), `fieldB` (Field)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = overall_dot()
+
+op = overall_dot(fieldA=my_fieldA,fieldB=my_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ overall_dot(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+Field defined on over-all location, contains a unique scalar value
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

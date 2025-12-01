@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.averaging.extend_to_mid_nodes
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-Extends an Elemental Nodal or Nodal field defined on corner nodes to a field defined also on the mid nodes.   ///available inputs: field (Field, FieldsContainer), mesh (MeshedRegion) (optional)
-            available outputs: field (Field)
-
-extend_to_mid_nodes()
-extend_to_mid_nodes(field: object, mesh: object, config: OperatorConfig)
-extend_to_mid_nodes(config: OperatorConfig)
+## Summary
 
+Extends an Elemental Nodal or Nodal field defined on corner nodes to a field defined also on the mid nodes.
+
+available inputs: `field` (Field, FieldsContainer), `mesh` (MeshedRegion) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = extend_to_mid_nodes()
+
+op = extend_to_mid_nodes(field=my_field,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ extend_to_mid_nodes(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.averaging` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

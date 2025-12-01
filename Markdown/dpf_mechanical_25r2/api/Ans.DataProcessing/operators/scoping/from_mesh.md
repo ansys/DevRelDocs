@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.scoping.from_mesh
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 
-Provides the entire mesh scoping based on the requested location   ///available inputs: mesh (MeshedRegion), requested_location (string) (optional)
-            available outputs: scoping (Scoping)
-
-from_mesh()
-from_mesh(mesh: object, requested_location: object, config: OperatorConfig)
-from_mesh(config: OperatorConfig)
+## Summary
 
+Provides the entire mesh scoping based on the requested location
+
+available inputs: `mesh` (MeshedRegion), `requested_location` (string) (optional)
+
+available outputs: `scoping` (Scoping)
+
+## Example
+
+```python
+op = from_mesh()
+
+op = from_mesh(mesh=my_mesh,requested_location=my_requested_location)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ from_mesh(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.scoping` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### requested_location
+
+if nothing the operator returns the nodes scoping, possible locations are: Nodal(default) or Elemental
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

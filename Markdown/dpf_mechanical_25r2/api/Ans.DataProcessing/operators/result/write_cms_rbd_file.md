@@ -19,6 +19,124 @@ write_cms_rbd_file(config: OperatorConfig)
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### model_data
+
+data describing the finite element model
+
+**Type:** *LinkableInput*
+
+### center_of_mass
+
+center of mass of the body
+
+**Type:** *LinkableInput*
+
+### inertia_relief
+
+inertia matrix
+
+**Type:** *LinkableInput*
+
+### model_size
+
+size of the diagonal box containing the body
+
+**Type:** *LinkableInput*
+
+### master_node_coordinates
+
+**Type:** *LinkableInput*
+
+### v_trsf
+
+translational and rotational shape functions
+
+**Type:** *LinkableInput*
+
+### k_mat
+
+**Type:** *LinkableInput*
+
+### mass_mat
+
+**Type:** *LinkableInput*
+
+### c_mat
+
+**Type:** *LinkableInput*
+
+### rhs
+
+**Type:** *LinkableInput*
+
+### dn
+
+**Type:** *LinkableInput*
+
+### dr_cross_n
+
+**Type:** *LinkableInput*
+
+### drn
+
+**Type:** *LinkableInput*
+
+### dn_cross_n
+
+**Type:** *LinkableInput*
+
+### dnx_y
+
+**Type:** *LinkableInput*
+
+### dny_y
+
+**Type:** *LinkableInput*
+
+### dnz_y
+
+**Type:** *LinkableInput*
+
+### dyx_n
+
+**Type:** *LinkableInput*
+
+### dyy_n
+
+**Type:** *LinkableInput*
+
+### dyz_n
+
+**Type:** *LinkableInput*
+
+### dnxn
+
+**Type:** *LinkableInput*
+
+### dnyn
+
+**Type:** *LinkableInput*
+
+### dnzn
+
+**Type:** *LinkableInput*
+
+### file_path
+
+path with cms_rbd extension where the export occurs
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### data_sources
+
+Data Source containing the cms_rbd file generated.
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

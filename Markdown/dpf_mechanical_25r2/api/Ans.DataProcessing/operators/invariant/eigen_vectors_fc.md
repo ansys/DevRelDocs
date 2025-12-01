@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.invariant.eigen_vectors_fc
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 
-Computes the element-wise Eigen vectors for each tensor in the fields of the field container.   ///available inputs: fields_container (FieldsContainer, Field)
-            available outputs: fields_container (FieldsContainer)
-
-eigen_vectors_fc()
-eigen_vectors_fc(fields_container: object, config: OperatorConfig)
-eigen_vectors_fc(config: OperatorConfig)
+## Summary
 
+Computes the element-wise Eigen vectors for each tensor in the fields of the field container.
+
+available inputs: `fields_container` (FieldsContainer, Field)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = eigen_vectors_fc()
+
+op = eigen_vectors_fc(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ eigen_vectors_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.invariant` |
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

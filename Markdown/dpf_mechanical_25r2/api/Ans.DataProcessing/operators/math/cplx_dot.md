@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.cplx_dot
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes product between two field containers containing complex fields.   ///available inputs: fields_containerA (FieldsContainer), fields_containerB (FieldsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-cplx_dot()
-cplx_dot(fields_containerA: object, fields_containerB: object, config: OperatorConfig)
-cplx_dot(config: OperatorConfig)
+## Summary
 
+Computes product between two field containers containing complex fields.
+
+available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (FieldsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = cplx_dot()
+
+op = cplx_dot(fields_containerA=my_fields_containerA,fields_containerB=my_fields_containerB)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ cplx_dot(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_containerA
+
+**Type:** *LinkableInput*
+
+### fields_containerB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

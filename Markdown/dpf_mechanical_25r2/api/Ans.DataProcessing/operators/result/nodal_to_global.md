@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.nodal_to_global
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Rotates nodal elemental results to global coordinate system   ///available inputs: fieldA (Field), fieldB (Field)
-            available outputs: field (Field)
-
-nodal_to_global()
-nodal_to_global(fieldA: object, fieldB: object, config: OperatorConfig)
-nodal_to_global(config: OperatorConfig)
+## Summary
 
+Rotates nodal elemental results to global coordinate system
+
+available inputs: `fieldA` (Field), `fieldB` (Field)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = nodal_to_global()
+
+op = nodal_to_global(fieldA=my_fieldA,fieldB=my_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,28 @@ nodal_to_global(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+Vector or tensor field that must be rotated, expressed in nodal coordinate system.
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+Nodal euler angles defined from a result file. Those must be the rotations from Nodal to Global.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+Rotated field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

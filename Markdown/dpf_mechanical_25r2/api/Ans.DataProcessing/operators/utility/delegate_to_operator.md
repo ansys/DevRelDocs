@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.delegate_to_operator
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Delegate the run to an Operator instantiated by the name in input (forwards all the input of this Operator to the sub Operator).   ///available inputs: operator_name (string)
-            available outputs: any1 (object), any2 (object)
-
-delegate_to_operator()
-delegate_to_operator(operator_name: object, config: OperatorConfig)
-delegate_to_operator(config: OperatorConfig)
+## Summary
 
+Delegate the run to an Operator instantiated by the name in input (forwards all the input of this Operator to the sub Operator).
+
+available inputs: `operator_name` (string)
+
+available outputs: `any1` (object), `any2` (object)
+
+## Example
+
+```python
+op = delegate_to_operator()
+
+op = delegate_to_operator(operator_name=my_operator_name)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ delegate_to_operator(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### operator_name
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### any1
+
+inputs
+
+**Type:** *LinkableOutput*
+
+### any2
+
+inputs
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

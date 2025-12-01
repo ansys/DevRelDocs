@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.geo.elements_volume
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 
-Compute the measure of the Elements (volume for 3D elements, surface for 2D elements or length for 1D elements) using default shape functions, except for polyhedrons.   ///available inputs: mesh (MeshedRegion), mesh_scoping (Scoping)
-            available outputs: field (Field)
-
-elements_volume()
-elements_volume(mesh: object, mesh_scoping: object, config: OperatorConfig)
-elements_volume(config: OperatorConfig)
+## Summary
 
+Compute the measure of the Elements (volume for 3D elements, surface for 2D elements or length for 1D elements) using default shape functions, except for polyhedrons.
+
+available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = elements_volume()
+
+op = elements_volume(mesh=my_mesh,mesh_scoping=my_mesh_scoping)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ elements_volume(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.geo` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+If not provided, the measure of all elements for the mesh is computed. If provided, the Scoping needs to have "Elemental" location.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

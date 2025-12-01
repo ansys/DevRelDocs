@@ -19,6 +19,28 @@ rescope(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### fields
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+**Type:** *LinkableInput*
+
+### default_value
+
+If pin 2 is used, the IDs not found in the field are added with this default value.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

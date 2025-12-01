@@ -6,14 +6,39 @@ uid: Ans.DataProcessing.Workflow
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Container of fields.
-            A workflow is a black box containing operators and exposing only the necessary operator's
-            inputs and outputs to compute a given algorithm
-
-Workflow()
-Workflow(wf_ptr: IntPtr)
-Workflow(id: Int32)
+## Summary
 
+Container of fields.
+
+A workflow is a black box containing operators and exposing only the necessary operator's
+
+inputs and outputs to compute a given algorithm
+
+## Example
+
+```python
+disp_op = dpf.operators.result.displacement()
+
+max_fc_op = dpf.operators.min_max.min_max_fc(disp_op)
+
+workfow = dpf.Workflow()
+
+workfow.Add(disp_op)
+
+workfow.Add(max_fc_op)
+
+workfow.SetInputName(disp_op, 4, "data_sources")
+
+workfow.SetOutputName(max_fc_op, 0, "min")
+
+workfow.SetOutputName(max_fc_op, 1, "max")
+
+workfow.connect("data_sources", my_data_sources)
+
+min = workfow.GetOutputAsField("min")
+
+max = workfow.GetOutputAsField("max")
+```
 
 ## Class Information
 
@@ -71,6 +96,10 @@ result = obj.GetInternalData()
 
 #### Record
 
+Add the workflow to DPF's internal registry with an id returned by this method.
+
+The workflow can be recovered by wf = Workflow(id)
+
 ```python
 result = obj.Record(identifier, transferOwnership)
 ```
@@ -115,6 +144,12 @@ obj.LoadFromFile(filePath)
 
 #### Add
 
+Method `Add` adds an Operator to the list of operators in the workflow.
+
+You do not need to add all operators to the workflow. The list of operators is mostly used
+
+to compute progress while a workflow is running.
+
 ```python
 obj.Add(op)
 ```
@@ -143,6 +178,8 @@ result = obj.GetNumberOfOperators()
 
 #### SetInputName
 
+Method `SetInputName` exposes an input using its name. You can then connect inputs using the input name on the given operator.
+
 ```python
 obj.SetInputName(op, pin, name)
 ```
@@ -155,6 +192,8 @@ obj.SetInputName(op, pin, name)
 
 #### SetOutputName
 
+Method `SetOutputName` forwards data as an output so you can request this data by its name.
+
 ```python
 obj.SetOutputName(data, name)
 ```
@@ -165,6 +204,10 @@ obj.SetOutputName(data, name)
 - `name` (*str*)
 
 #### SetOutputName
+
+Method `SetOutputName` exposes an output by its name so that you can request the computed outputs of the given operator
+
+using the output name aftewards.
 
 ```python
 obj.SetOutputName(op, pin, name)
@@ -238,6 +281,10 @@ obj.SetOutputChart(pin, chart, chart_label)
 - `chart_label` (*str* (optional))
 
 #### SetOutputContour
+
+Method `SetOutputContour` exposes an output as "contour".
+
+This contour output can be requested and computed afterwards to be plotted.
 
 ```python
 obj.SetOutputContour(op, pin, gfxCntrType)
@@ -317,6 +364,10 @@ obj.SetOutputContour(field, gfxCntrType)
 
 #### SetOutputWarpField
 
+Method `SetOutputWarpField` exposes an output as "warp".
+
+This warping output can be requested and computed afterwards to be used as warping (or deformed shape) of a contour.
+
 ```python
 obj.SetOutputWarpField(op, pin)
 ```
@@ -387,6 +438,10 @@ obj.SetOutputWarpField(field)
 - `field` (*Field*)
 
 #### SetOutputMesh
+
+Method `SetOutputMesh` exposes an output as "mesh".
+
+This mesh (which should be a MehedRegion or a MeshesContainer) output can be requested and computed afterwards to be used as a mesh to plot a contour on.
 
 ```python
 obj.SetOutputMesh(op, pin)
@@ -504,6 +559,12 @@ obj.SetInputBodyScoping(op, pin)
 - `pin` (*int*)
 
 #### ConnectWith
+
+Method `ConnectWith` Chain 2 workflows together so that they become one workflow.
+
+All the operators, inputs and outputs of left_workflow are exposed in
+
+this workflow.
 
 ```python
 obj.ConnectWith(leftWorkflow)
@@ -921,6 +982,8 @@ value = obj.Id
 
 #### Operators
 
+Property `Operators` returns the list of Operators added with the method Workflow.Add
+
 **Type:** *list*
 
 ```python
@@ -930,6 +993,10 @@ value = obj.Operators
 
 #### Inputs
 
+Property `Inputs` returns the list of input names that have been exposed with the method Workflow.SetInputName
+
+and its derivates (Workflow.SetInputMeshScoping, Workflow.SetInputBodyScoping...)
+
 **Type:** *list*
 
 ```python
@@ -938,6 +1005,10 @@ value = obj.Inputs
 ```
 
 #### Outputs
+
+Property `Outputs` returns the list of output names that have been exposed with the method Workflow.SetOutputName
+
+and its derivates (Workflow.SetOutputChart, Workflow.SetOutputContour, Workflow.SetOutputWarpField...)
 
 **Type:** *list*
 

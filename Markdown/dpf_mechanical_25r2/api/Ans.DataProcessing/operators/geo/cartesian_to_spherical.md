@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.geo.cartesian_to_spherical
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 
-Converts 3D field from cartesian coordinates to spherical coordinates.   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-cartesian_to_spherical()
-cartesian_to_spherical(field: object, config: OperatorConfig)
-cartesian_to_spherical(config: OperatorConfig)
+## Summary
 
+Converts 3D field from cartesian coordinates to spherical coordinates.
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = cartesian_to_spherical()
+
+op = cartesian_to_spherical(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ cartesian_to_spherical(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.geo` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

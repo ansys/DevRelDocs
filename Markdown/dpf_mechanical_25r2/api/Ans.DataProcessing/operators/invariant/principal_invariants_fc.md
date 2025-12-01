@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.invariant.principal_invariants_fc
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 
-Computes the element-wise Eigen values of all the tensor fields of a fields container.   ///available inputs: fields_container (FieldsContainer)
-            available outputs: fields_eig_1 (FieldsContainer), fields_eig_2 (FieldsContainer), fields_eig_3 (FieldsContainer)
-
-principal_invariants_fc()
-principal_invariants_fc(fields_container: object, config: OperatorConfig)
-principal_invariants_fc(config: OperatorConfig)
+## Summary
 
+Computes the element-wise Eigen values of all the tensor fields of a fields container.
+
+available inputs: `fields_container` (FieldsContainer)
+
+available outputs: `fields_eig_1` (FieldsContainer), `fields_eig_2` (FieldsContainer), `fields_eig_3` (FieldsContainer)
+
+## Example
+
+```python
+op = principal_invariants_fc()
+
+op = principal_invariants_fc(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ principal_invariants_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.invariant` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_eig_1
+
+first eigen value fields
+
+**Type:** *LinkableOutput*
+
+### fields_eig_2
+
+second eigen value fields
+
+**Type:** *LinkableOutput*
+
+### fields_eig_3
+
+third eigen value fields
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

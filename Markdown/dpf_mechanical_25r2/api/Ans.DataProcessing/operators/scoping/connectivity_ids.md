@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.scoping.connectivity_ids
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 
-Returns the ordered node ids corresponding to the element ids scoping in input. For each element the node ids are its connectivity.   ///available inputs: mesh_scoping (Scoping), mesh (MeshedRegion) (optional), take_mid_nodes (bool) (optional)
-            available outputs: mesh_scoping (Scoping), elemental_scoping (Scoping)
-
-connectivity_ids()
-connectivity_ids(mesh_scoping: object, mesh: object, take_mid_nodes: object, config: OperatorConfig)
-connectivity_ids(config: OperatorConfig)
+## Summary
 
+Returns the ordered node ids corresponding to the element ids scoping in input. For each element the node ids are its connectivity.
+
+available inputs: `mesh_scoping` (Scoping), `mesh` (MeshedRegion) (optional), `take_mid_nodes` (bool) (optional)
+
+available outputs: `mesh_scoping` (Scoping), `elemental_scoping` (Scoping)
+
+## Example
+
+```python
+op = connectivity_ids()
+
+op = connectivity_ids(mesh_scoping=my_mesh_scoping,mesh=my_mesh,take_mid_nodes=my_take_mid_nodes)
+```
 
 ## Class Information
 
@@ -21,6 +29,38 @@ connectivity_ids(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.scoping` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh_scoping
+
+Elemental scoping
+
+**Type:** *LinkableInput*
+
+### mesh
+
+the support of the scoping is expected if there is no mesh in input
+
+**Type:** *LinkableInput*
+
+### take_mid_nodes
+
+default is true
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mesh_scoping
+
+**Type:** *LinkableOutput*
+
+### elemental_scoping
+
+same as the input scoping but with ids duplicated to have the same size as nodal output scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.geo.to_polar_coordinates
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 
-Finds r, theta (rad), and z coordinates of a coordinates (nodal) field in a cartesian coordinates system where the input coordinate system defines the rotation axis and the origin.   ///available inputs: field (Field, FieldsContainer), coordinate_system (Field) (optional)
-            available outputs: field (Field)
-
-to_polar_coordinates()
-to_polar_coordinates(field: object, coordinate_system: object, config: OperatorConfig)
-to_polar_coordinates(config: OperatorConfig)
+## Summary
 
+Finds r, theta (rad), and z coordinates of a coordinates (nodal) field in a cartesian coordinates system where the input coordinate system defines the rotation axis and the origin.
+
+available inputs: `field` (Field, FieldsContainer), `coordinate_system` (Field) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = to_polar_coordinates()
+
+op = to_polar_coordinates(field=my_field,coordinate_system=my_coordinate_system)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ to_polar_coordinates(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.geo` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### coordinate_system
+
+3-3 rotation matrix and origin coordinates must be set here to define a coordinate system. By default, the rotation axis is the z axis and the origin is [0,0,0].
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

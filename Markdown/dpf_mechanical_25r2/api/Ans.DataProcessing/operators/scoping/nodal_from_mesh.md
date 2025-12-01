@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.scoping.nodal_from_mesh
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 
-Retrieves the nodal scoping of a given input mesh, which contains the node IDs.   ///available inputs: mesh (MeshedRegion)
-            available outputs: mesh_scoping (Scoping)
-
-nodal_from_mesh()
-nodal_from_mesh(mesh: object, config: OperatorConfig)
-nodal_from_mesh(config: OperatorConfig)
+## Summary
 
+Retrieves the nodal scoping of a given input mesh, which contains the node IDs.
+
+available inputs: `mesh` (MeshedRegion)
+
+available outputs: `mesh_scoping` (Scoping)
+
+## Example
+
+```python
+op = nodal_from_mesh()
+
+op = nodal_from_mesh(mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ nodal_from_mesh(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.scoping` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mesh_scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

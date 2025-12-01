@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.change_location
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-change the location of a field.   ///available inputs: field (Field), new_location (string)
-            available outputs: field (Field)
-
-change_location()
-change_location(field: object, new_location: object, config: OperatorConfig)
-change_location(config: OperatorConfig)
+## Summary
 
+change the location of a field.
+
+available inputs: `field` (Field), `new_location` (string)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = change_location()
+
+op = change_location(field=my_field,new_location=my_new_location)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ change_location(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### new_location
+
+new location of the output field ex 'Nodal', 'ElementalNodal', 'Elemental'...
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -19,6 +19,102 @@ write_motion_dfmf_file(config: OperatorConfig)
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### model_data
+
+data describing the finite element model
+
+**Type:** *LinkableInput*
+
+### mode_shapes
+
+FieldsContainers containing the mode shapes, which are CST and NOR for the cms method
+
+**Type:** *LinkableInput*
+
+### lumped_mass
+
+FieldsContainers containing the lumped mass
+
+**Type:** *LinkableInput*
+
+### field_coordinates
+
+coordinates of all nodes
+
+**Type:** *LinkableInput*
+
+### nod
+
+**Type:** *LinkableInput*
+
+### used_node_index
+
+**Type:** *LinkableInput*
+
+### eigenvalue
+
+**Type:** *LinkableInput*
+
+### translational_mode_shape
+
+**Type:** *LinkableInput*
+
+### rotational_mode_shape
+
+**Type:** *LinkableInput*
+
+### invrt_1
+
+**Type:** *LinkableInput*
+
+### invrt_2
+
+**Type:** *LinkableInput*
+
+### invrt_3
+
+**Type:** *LinkableInput*
+
+### invrt_4
+
+**Type:** *LinkableInput*
+
+### invrt_5
+
+**Type:** *LinkableInput*
+
+### invrt_6
+
+**Type:** *LinkableInput*
+
+### invrt_7
+
+**Type:** *LinkableInput*
+
+### invrt_8
+
+**Type:** *LinkableInput*
+
+### dfmffile_path
+
+path with motion dfmf extension where the export occurs
+
+**Type:** *LinkableInput*
+
+### rstfile_path
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### dfmf_data_source
+
+Data Source containing the dfmf file generated.
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

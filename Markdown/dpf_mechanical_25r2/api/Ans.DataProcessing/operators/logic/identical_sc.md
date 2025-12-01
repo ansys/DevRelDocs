@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.identical_sc
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Checks if two scopings_container are identical.   ///available inputs: scopings_containerA (ScopingsContainer), scopings_containerB (ScopingsContainer)
-            available outputs: boolean (bool), message (string)
-
-identical_sc()
-identical_sc(scopings_containerA: object, scopings_containerB: object, config: OperatorConfig)
-identical_sc(config: OperatorConfig)
+## Summary
 
+Checks if two scopings_container are identical.
+
+available inputs: `scopings_containerA` (ScopingsContainer), `scopings_containerB` (ScopingsContainer)
+
+available outputs: `boolean` (bool), `message` (string)
+
+## Example
+
+```python
+op = identical_sc()
+
+op = identical_sc(scopings_containerA=my_scopings_containerA,scopings_containerB=my_scopings_containerB)
+```
 
 ## Class Information
 
@@ -21,6 +29,28 @@ identical_sc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### scopings_containerA
+
+**Type:** *LinkableInput*
+
+### scopings_containerB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### boolean
+
+bool (true if identical...)
+
+**Type:** *LinkableOutput*
+
+### message
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

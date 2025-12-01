@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.merge.solid_shell_fields
 
 **Namespace:** [Ans.DataProcessing.operators.logic.merge](Ans_DataProcessing_operators_logic_merge.md)
 
-Merges shell and solid fields for each time step/frequency in the fields container.   ///available inputs: fields_container (FieldsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-solid_shell_fields()
-solid_shell_fields(fields_container: object, config: OperatorConfig)
-solid_shell_fields(config: OperatorConfig)
+## Summary
 
+Merges shell and solid fields for each time step/frequency in the fields container.
+
+available inputs: `fields_container` (FieldsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = solid_shell_fields()
+
+op = solid_shell_fields(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ solid_shell_fields(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic.merge` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.identical_string_fields
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Takes two string fields and compares them.   ///available inputs: string_fieldA (StringField), string_fieldB (StringField)
-            available outputs: are_identical (bool), information (string)
-
-identical_string_fields()
-identical_string_fields(string_fieldA: object, string_fieldB: object, config: OperatorConfig)
-identical_string_fields(config: OperatorConfig)
+## Summary
 
+Takes two string fields and compares them.
+
+available inputs: `string_fieldA` (StringField), `string_fieldB` (StringField)
+
+available outputs: `are_identical` (bool), `information` (string)
+
+## Example
+
+```python
+op = identical_string_fields()
+
+op = identical_string_fields(string_fieldA=my_string_fieldA,string_fieldB=my_string_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ identical_string_fields(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### string_fieldA
+
+**Type:** *LinkableInput*
+
+### string_fieldB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### are_identical
+
+**Type:** *LinkableOutput*
+
+### information
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

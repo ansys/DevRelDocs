@@ -19,6 +19,50 @@ scalars_to_field(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### double_or_vector_double
+
+Data of the field, default is 0-field. Specify a double to have a field of same value or specify directly the data vector.
+
+**Type:** *LinkableInput*
+
+### unit
+
+Unit symbol (m, Hz, kg, ...)
+
+**Type:** *LinkableInput*
+
+### location
+
+Location of the field ex 'Nodal', 'ElementalNodal', 'Elemental'... Default is 'numeric'.
+
+**Type:** *LinkableInput*
+
+### num_entity
+
+Number of field entities. Default is 1 or the size of the scoping in input if specified.
+
+**Type:** *LinkableInput*
+
+### num_comp
+
+Number of field components. Default is 1.
+
+**Type:** *LinkableInput*
+
+### scoping
+
+Scoping.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

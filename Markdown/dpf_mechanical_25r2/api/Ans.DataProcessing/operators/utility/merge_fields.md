@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.merge_fields
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Assembles a set of fields into a unique one.   ///available inputs: sum_merge (bool) (optional), merged_support (AbstractFieldSupport) (optional), fields1 (Field, FieldsContainer), fields2 (Field, FieldsContainer)
-            available outputs: merged_field (Field)
-
-merge_fields()
-merge_fields(sum_merge: object, merged_support: object, fields1: object, fields2: object, config: OperatorConfig)
-merge_fields(config: OperatorConfig)
+## Summary
 
+Assembles a set of fields into a unique one.
+
+available inputs: `sum_merge` (bool) (optional), `merged_support` (AbstractFieldSupport) (optional), `fields1` (Field, FieldsContainer), `fields2` (Field, FieldsContainer)
+
+available outputs: `merged_field` (Field)
+
+## Example
+
+```python
+op = merge_fields()
+
+op = merge_fields(sum_merge=my_sum_merge,merged_support=my_merged_support,fields1=my_fields1,fields2=my_fields2)
+```
 
 ## Class Information
 
@@ -21,6 +29,38 @@ merge_fields(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### sum_merge
+
+Default is false. If true, redundant quantities are summed instead of being ignored.
+
+**Type:** *LinkableInput*
+
+### merged_support
+
+Already merged field support.
+
+**Type:** *LinkableInput*
+
+### fields1
+
+Either a fields container, a vector of fields to merge, or fields from pin 0 to ...
+
+**Type:** *LinkableInput*
+
+### fields2
+
+Either a fields container, a vector of fields to merge, or fields from pin 0 to ...
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### merged_field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

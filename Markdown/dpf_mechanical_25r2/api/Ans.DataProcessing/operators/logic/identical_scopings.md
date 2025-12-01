@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.identical_scopings
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Check if two scopings are identical.   ///available inputs: scopingA (Scoping), scopingB (Scoping)
-            available outputs: boolean (bool), message (string)
-
-identical_scopings()
-identical_scopings(scopingA: object, scopingB: object, config: OperatorConfig)
-identical_scopings(config: OperatorConfig)
+## Summary
 
+Check if two scopings are identical.
+
+available inputs: `scopingA` (Scoping), `scopingB` (Scoping)
+
+available outputs: `boolean` (bool), `message` (string)
+
+## Example
+
+```python
+op = identical_scopings()
+
+op = identical_scopings(scopingA=my_scopingA,scopingB=my_scopingB)
+```
 
 ## Class Information
 
@@ -21,6 +29,28 @@ identical_scopings(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### scopingA
+
+**Type:** *LinkableInput*
+
+### scopingB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### boolean
+
+bool (true if identical...)
+
+**Type:** *LinkableOutput*
+
+### message
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

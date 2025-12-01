@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.modulus
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes element-wise modulus of field containers containing complex fields.   ///available inputs: fields_container (FieldsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-modulus()
-modulus(fields_container: object, config: OperatorConfig)
-modulus(config: OperatorConfig)
+## Summary
 
+Computes element-wise modulus of field containers containing complex fields.
+
+available inputs: `fields_container` (FieldsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = modulus()
+
+op = modulus(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ modulus(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

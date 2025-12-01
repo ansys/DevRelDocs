@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.default_value
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Default return value from input pin 1 to output pin 0 if there is nothing on input pin 0.   ///available inputs: forced_value (object) (optional), default_value (object)
-            available outputs: output (object)
-
-default_value()
-default_value(forced_value: object, default_value: object, config: OperatorConfig)
-default_value(config: OperatorConfig)
+## Summary
 
+Default return value from input pin 1 to output pin 0 if there is nothing on input pin 0.
+
+available inputs: `forced_value` (object) (optional), `default_value` (object)
+
+available outputs: `output` (object)
+
+## Example
+
+```python
+op = default_value()
+
+op = default_value(forced_value=my_forced_value,default_value=my_default_value)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ default_value(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### forced_value
+
+**Type:** *LinkableInput*
+
+### default_value
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### output
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

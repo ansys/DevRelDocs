@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.geo.faces_area
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 
-Compute the measure of the Faces (surface for 2D faces of a 3D model or length for 1D faces of a 2D model) using default shape functions, except for polygons.   ///available inputs: mesh (MeshedRegion), mesh_scoping (Scoping)
-            available outputs: field (Field)
-
-faces_area()
-faces_area(mesh: object, mesh_scoping: object, config: OperatorConfig)
-faces_area(config: OperatorConfig)
+## Summary
 
+Compute the measure of the Faces (surface for 2D faces of a 3D model or length for 1D faces of a 2D model) using default shape functions, except for polygons.
+
+available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = faces_area()
+
+op = faces_area(mesh=my_mesh,mesh_scoping=my_mesh_scoping)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ faces_area(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.geo` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+If not provided, the measure of all Faces in the mesh is computed. If provided, the Scoping needs to have "Faces" location.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

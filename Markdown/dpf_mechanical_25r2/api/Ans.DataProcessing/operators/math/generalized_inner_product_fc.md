@@ -19,6 +19,26 @@ generalized_inner_product_fc(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### field_or_fields_container_A
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### field_or_fields_container_B
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

@@ -6,13 +6,35 @@ uid: Ans.DataProcessing.FieldsContainer
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Container of fields.
-            Can be used to handle results on different times/frequencies, to handle real and imaginary fields in complex results or
-            to split spatially results on properties (bodies, element shapes (solid, shell, beams), material...)
-
-FieldsContainer()
-FieldsContainer(intptr: IntPtr)
+## Summary
 
+Container of fields.
+
+Can be used to handle results on different times/frequencies, to handle real and imaginary fields in complex results or
+
+to split spatially results on properties (bodies, element shapes (solid, shell, beams), material...)
+
+## Example
+
+```python
+u_op = dpf.operators.result.displacement()
+
+u_op.inputs.data_sources.Connect(my_data_sources)
+
+my_fields_container = u_op.outputs.fields_container.GetData()
+
+my_fields_container.FieldCount
+
+my_fields_container.GetLabelSpace(index) #ie. {'time',1} for the first time set
+
+#return the real Fields on {'time',1}
+
+my_field = my_fields_container.GetFieldByTimeId(1)
+
+my_field = my_fields_container.Get({'time':1}) #same
+
+my_field = my_fields_container[0] #returns the first Field
+```
 
 ## Class Information
 
@@ -44,6 +66,8 @@ FieldsContainer(intptr)
 
 #### GetFieldByTimeId
 
+Method `GetFieldByTimeId` get the field (real field for complex analysis) corresponding to the param time id
+
 ```python
 result = obj.GetFieldByTimeId(timeId)
 ```
@@ -55,6 +79,8 @@ result = obj.GetFieldByTimeId(timeId)
 **Returns:** *Field*
 
 #### GetImaginaryField
+
+Method `GetImaginaryField` get the imaginary field (for complex analysis) corresponding to the param time id
 
 ```python
 result = obj.GetImaginaryField(timeId)
@@ -68,6 +94,10 @@ result = obj.GetImaginaryField(timeId)
 
 #### AddFieldByTimeId
 
+Method `AddFieldByTimeId` when building a fields container this can be used to add fields.
+
+This can only be used for fields container with labels "time" (optionally "complex")
+
 ```python
 obj.AddFieldByTimeId(field, timeId)
 ```
@@ -78,6 +108,10 @@ obj.AddFieldByTimeId(field, timeId)
 - `timeId` (*int*)
 
 #### AddImaginaryField
+
+Method `AddFieldByTimeId` when building a fields container this can be used to add an imaginary field.
+
+This can only be used for fields container with labels "time" AND "complex"
 
 ```python
 obj.AddImaginaryField(field, timeId)
@@ -364,6 +398,8 @@ result = obj.op_Multiply(a, b)
 ## Properties
 
 #### FieldCount
+
+Property `FieldCount` number of fields
 
 **Type:** *int*
 

@@ -19,6 +19,22 @@ add_fc(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### fields_container1
+
+**Type:** *LinkableInput*
+
+### fields_container2
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

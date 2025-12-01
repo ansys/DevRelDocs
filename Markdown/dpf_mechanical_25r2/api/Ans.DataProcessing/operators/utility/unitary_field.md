@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.unitary_field
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Takes a field and returns another field of scalars in the same location and scoping as the input field.   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-unitary_field()
-unitary_field(field: object, config: OperatorConfig)
-unitary_field(config: OperatorConfig)
+## Summary
 
+Takes a field and returns another field of scalars in the same location and scoping as the input field.
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = unitary_field()
+
+op = unitary_field(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ unitary_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

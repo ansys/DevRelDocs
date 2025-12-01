@@ -19,6 +19,38 @@ nvh_curve_fitting_solver(config: OperatorConfig)
 | Assembly | `Ans_Dpf_PointCloudSearch_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### frf_fc
+
+**Type:** *LinkableInput*
+
+### frequency_start
+
+**Type:** *LinkableInput*
+
+### frequency_end
+
+**Type:** *LinkableInput*
+
+### analysis_order
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### frequencies
+
+**Type:** *LinkableOutput*
+
+### damping
+
+**Type:** *LinkableOutput*
+
+### filtered_frf
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

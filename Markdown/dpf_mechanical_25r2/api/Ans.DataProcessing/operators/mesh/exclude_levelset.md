@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.exclude_levelset
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Takes two level sets and excludes the second one from the first.   ///available inputs: fieldA (Field), fieldB (Field)
-            available outputs: field (Field)
-
-exclude_levelset()
-exclude_levelset(fieldA: object, fieldB: object, config: OperatorConfig)
-exclude_levelset(config: OperatorConfig)
+## Summary
 
+Takes two level sets and excludes the second one from the first.
+
+available inputs: `fieldA` (Field), `fieldB` (Field)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = exclude_levelset()
+
+op = exclude_levelset(fieldA=my_fieldA,fieldB=my_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ exclude_levelset(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

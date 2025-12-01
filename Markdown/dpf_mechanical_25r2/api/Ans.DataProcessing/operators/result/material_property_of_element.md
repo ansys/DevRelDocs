@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.material_property_of_element
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Loads the appropriate operator based on the data sources and retrieves material properties.   ///available inputs: streams_container (StreamsContainer) (optional), data_sources (DataSources)
-            available outputs: material_properties (Field)
-
-material_property_of_element()
-material_property_of_element(streams_container: object, data_sources: object, config: OperatorConfig)
-material_property_of_element(config: OperatorConfig)
+## Summary
 
+Loads the appropriate operator based on the data sources and retrieves material properties.
+
+available inputs: `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources)
+
+available outputs: `material_properties` (Field)
+
+## Example
+
+```python
+op = material_property_of_element()
+
+op = material_property_of_element(streams_container=my_streams_container,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ material_property_of_element(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### streams_container
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### material_properties
+
+material properties
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

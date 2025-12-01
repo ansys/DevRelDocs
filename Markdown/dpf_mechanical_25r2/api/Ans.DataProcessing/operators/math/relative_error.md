@@ -19,6 +19,38 @@ relative_error(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### value
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### reference
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
+
+### zero_ref_scoping
+
+Ids of entities where reference value is zero.
+
+**Type:** *LinkableOutput*
+
+### no_ref_scoping
+
+Ids of entities where there are no reference value.
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

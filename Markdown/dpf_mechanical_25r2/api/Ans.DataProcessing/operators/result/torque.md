@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.torque
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Compute torque of a force based on a 3D point.   ///available inputs: fields_container (FieldsContainer), field (Field)
-            available outputs: fields_container (FieldsContainer)
-
-torque()
-torque(fields_container: object, field: object, config: OperatorConfig)
-torque(config: OperatorConfig)
+## Summary
 
+Compute torque of a force based on a 3D point.
+
+available inputs: `fields_container` (FieldsContainer), `field` (Field)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = torque()
+
+op = torque(fields_container=my_fields_container,field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ torque(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+fields_container
+
+**Type:** *LinkableInput*
+
+### field
+
+field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

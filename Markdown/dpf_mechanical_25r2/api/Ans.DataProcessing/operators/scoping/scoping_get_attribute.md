@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.scoping.scoping_get_attribute
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 
-Uses the Scoping APIs to return a given attribute of the scoping in input.   ///available inputs: scoping (Scoping), property_name (string)
-            available outputs: property (IList int  ,string ,System.Collections.IEnumerable)
-
-scoping_get_attribute()
-scoping_get_attribute(scoping: object, property_name: object, config: OperatorConfig)
-scoping_get_attribute(config: OperatorConfig)
+## Summary
 
+Uses the Scoping APIs to return a given attribute of the scoping in input.
+
+available inputs: `scoping` (Scoping), `property_name` (string)
+
+available outputs: `property` (IList int  ,string ,System.Collections.IEnumerable)
+
+## Example
+
+```python
+op = scoping_get_attribute()
+
+op = scoping_get_attribute(scoping=my_scoping,property_name=my_property_name)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ scoping_get_attribute(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.scoping` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### scoping
+
+**Type:** *LinkableInput*
+
+### property_name
+
+Supported property names are: "ids", "location".
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### property
+
+Returns a vector of int for property: "ids" and a string for property: "location".
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

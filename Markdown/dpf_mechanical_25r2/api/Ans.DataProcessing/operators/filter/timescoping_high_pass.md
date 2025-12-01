@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.filter.timescoping_high_pass
 
 **Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
 
-The high pass filter returns all the values above (but not equal to) the threshold value in input.   ///available inputs: time_freq_support (TimeFreqSupport), threshold (double, Field), both (bool) (optional)
-            available outputs: scoping (Scoping)
-
-timescoping_high_pass()
-timescoping_high_pass(time_freq_support: object, threshold: object, both: object, config: OperatorConfig)
-timescoping_high_pass(config: OperatorConfig)
+## Summary
 
+The high pass filter returns all the values above (but not equal to) the threshold value in input.
+
+available inputs: `time_freq_support` (TimeFreqSupport), `threshold` (double, Field), `both` (bool) (optional)
+
+available outputs: `scoping` (Scoping)
+
+## Example
+
+```python
+op = timescoping_high_pass()
+
+op = timescoping_high_pass(time_freq_support=my_time_freq_support,threshold=my_threshold,both=my_both)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ timescoping_high_pass(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.filter` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### time_freq_support
+
+**Type:** *LinkableInput*
+
+### threshold
+
+A threshold scalar or a field containing one value is expected.
+
+**Type:** *LinkableInput*
+
+### both
+
+The default is false. If set to true, the complement of the filtered fields container is returned on output pin 1.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -19,6 +19,34 @@ point_cloud_search(config: OperatorConfig)
 | Assembly | `Ans_Dpf_PointCloudSearch_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### search_domain
+
+**Type:** *LinkableInput*
+
+### reference_domain
+
+**Type:** *LinkableInput*
+
+### tolerance
+
+**Type:** *LinkableInput*
+
+### exclusive_search
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### search_indices
+
+**Type:** *LinkableOutput*
+
+### reference_indices
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.mesh_extraction
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Take a mesh and a scoping (elemental or nodal) and create a new mesh that contains this selection only.   ///available inputs: mesh (MeshedRegion), mesh_scoping (Scoping), extension (Int32) (optional)
-            available outputs: meshed_region (MeshedRegion)
-
-mesh_extraction()
-mesh_extraction(mesh: object, mesh_scoping: object, extension: object, config: OperatorConfig)
-mesh_extraction(config: OperatorConfig)
+## Summary
 
+Take a mesh and a scoping (elemental or nodal) and create a new mesh that contains this selection only.
+
+available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping), `extension` (Int32) (optional)
+
+available outputs: `meshed_region` (MeshedRegion)
+
+## Example
+
+```python
+op = mesh_extraction()
+
+op = mesh_extraction(mesh=my_mesh,mesh_scoping=my_mesh_scoping,extension=my_extension)
+```
 
 ## Class Information
 
@@ -21,6 +29,28 @@ mesh_extraction(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+**Type:** *LinkableInput*
+
+### extension
+
+Number of extension layer
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### meshed_region
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.invariant.convertnum_bcs_to_nod
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 
-Converts a fields container from BCS to NOD ordering.   ///available inputs: fields_container (FieldsContainer), data_sources (DataSources)
-            available outputs: fields_container (FieldsContainer)
-
-convertnum_bcs_to_nod()
-convertnum_bcs_to_nod(fields_container: object, data_sources: object, config: OperatorConfig)
-convertnum_bcs_to_nod(config: OperatorConfig)
+## Summary
 
+Converts a fields container from BCS to NOD ordering.
+
+available inputs: `fields_container` (FieldsContainer), `data_sources` (DataSources)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = convertnum_bcs_to_nod()
+
+op = convertnum_bcs_to_nod(fields_container=my_fields_container,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ convertnum_bcs_to_nod(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.invariant` |
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+fields_container
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+Data_sources (must contain the full file).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

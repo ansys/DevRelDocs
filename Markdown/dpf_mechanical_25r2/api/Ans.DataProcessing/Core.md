@@ -6,9 +6,9 @@ uid: Ans.DataProcessing.Core
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Contains DPF main actions
-
+## Summary
 
+Contains DPF main actions
 
 ## Class Information
 
@@ -20,6 +20,16 @@ Contains DPF main actions
 ## Methods
 
 #### CreateOperator
+
+Method `CreateOperator` create an operator with its name. If plugins have been loaded, inputs and outputs APIs are available.
+
+ '''''''''''''_________
+
+ "input1"  -> |operator| ->  "output1"
+
+ "input2"  -> |''''''''| ->  "output2"
+
+              |________|
 
 ```python
 result = obj.CreateOperator(opName, config)

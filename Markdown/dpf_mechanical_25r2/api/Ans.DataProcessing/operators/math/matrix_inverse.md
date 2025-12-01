@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.matrix_inverse
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes the complex matrix inverse for each field in the given fields container.   ///available inputs: fields_container (FieldsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-matrix_inverse()
-matrix_inverse(fields_container: object, config: OperatorConfig)
-matrix_inverse(config: OperatorConfig)
+## Summary
 
+Computes the complex matrix inverse for each field in the given fields container.
+
+available inputs: `fields_container` (FieldsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = matrix_inverse()
+
+op = matrix_inverse(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ matrix_inverse(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

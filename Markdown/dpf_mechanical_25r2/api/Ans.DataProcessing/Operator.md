@@ -6,20 +6,29 @@ uid: Ans.DataProcessing.Operator
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Object used to create, transform and stream the data              
-            '''''''''''''_________                
-            "input1"  -> |operator| ->  "output1"
-            "input2"  -> |''''''''| ->  "output2"		            
-            '''''''''''''|________|
-
-Operator(name: str)
-Operator(name: str, input: object, config: OperatorConfig)
-Operator(name: str, input: object, input2: object, config: OperatorConfig)
-Operator(name: str, input: object, input2: object, input3: object, config: OperatorConfig)
-Operator(name: str, input: object, input2: object, input3: object, input4: object, config: OperatorConfig)
-Operator(id: Int64)
-Operator(name: str, config: OperatorConfig)
+## Summary
 
+Object used to create, transform and stream the data
+
+'''''''''''''_________
+
+"input1"  -> |operator| ->  "output1"
+
+"input2"  -> |''''''''| ->  "output2"
+
+'''''''''''''|________|
+
+## Example
+
+```python
+my_op = Ans.DataProcessing.Core.CreateOperators("U")
+
+my_op.inputs.data_sources.Connect(my_data_sources) # my_op.inputs.Connect(4, my_data_sources)
+
+my_op.inputs.time_scoping.Connect(105.0) # my_op.inputs.Connect(0, 105.0)
+
+fields_container = my_op.outputs.fields_container.GetData()
+```
 
 ## Class Information
 

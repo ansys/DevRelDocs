@@ -6,12 +6,11 @@ uid: Ans.DataProcessing.MeshesContainer
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Container of meshes.
-            Can be used to split the model or handle changing meshes over time
-
-MeshesContainer()
-MeshesContainer(iptr: IntPtr)
+## Summary
 
+Container of meshes.
+
+Can be used to split the model or handle changing meshes over time
 
 ## Class Information
 

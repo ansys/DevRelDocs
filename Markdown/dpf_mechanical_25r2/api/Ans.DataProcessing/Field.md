@@ -6,12 +6,31 @@ uid: Ans.DataProcessing.Field
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-The field is the main simulation data container.
-            Results data are defined by values associated to entities (scoping), and these entities are a subset of a model (support)
-
-Field(pField: IntPtr)
-Field()
+## Summary
 
+The field is the main simulation data container.
+
+Results data are defined by values associated to entities (scoping), and these entities are a subset of a model (support)
+
+## Example
+
+```python
+my_field = dpf.FieldsFactory.CreateScalarField(num_entities, 'Nodal')
+
+my_field.ComponentCount #returns the nuber of component of the elementary data
+
+my_field.Location
+
+my_field.Scoping
+
+my_field.Unit
+
+my_field.Data #returns the full list of data
+
+my_field.GetEntityDataByIndex(0) #returns the data list for the first entity
+
+my_field.GetEntityDataById(1) #returns the data list for the entity of scoping's id 1
+```
 
 ## Class Information
 
@@ -43,6 +62,8 @@ Field()
 
 #### GetEntityDataByIndex
 
+Method `GetEntityDataByIndex` data container of the entity asked
+
 ```python
 result = obj.GetEntityDataByIndex(index)
 ```
@@ -54,6 +75,8 @@ result = obj.GetEntityDataByIndex(index)
 **Returns:** *list*
 
 #### GetEntityDataById
+
+Method `GetEntityDataById` data container of the entity asked
 
 ```python
 result = obj.GetEntityDataById(id)
@@ -89,6 +112,8 @@ obj.Add(id, data)
 
 #### Reserve
 
+Method `Reserve` reserve the data vectors
+
 ```python
 obj.Reserve(scopingSize, dataSize)
 ```
@@ -99,6 +124,8 @@ obj.Reserve(scopingSize, dataSize)
 - `dataSize` (*int*)
 
 #### GetHardCopy
+
+Method `GetHardCopy` create a copy of the field by allocating the data size and getting a copy of the scoping
 
 ```python
 result = obj.GetHardCopy(copyData)
@@ -317,6 +344,8 @@ result = obj.GetInternalData()
 
 #### Location
 
+Property `Location` describes what kind of entity the results are scoped to
+
 **Type:** *str*
 
 ```python
@@ -327,6 +356,8 @@ obj.Location = new_value
 
 #### NComp
 
+Property `NComp` number of components by entity
+
 **Type:** *int*
 
 ```python
@@ -335,6 +366,8 @@ value = obj.NComp
 ```
 
 #### ComponentCount
+
+Property `ComponentCount` number of components by entity
 
 **Type:** *int*
 
@@ -345,6 +378,8 @@ value = obj.ComponentCount
 
 #### ElementaryDataCount
 
+Property `ElementaryDataCount` number of times numComp can be found in the data container
+
 **Type:** *int*
 
 ```python
@@ -353,6 +388,10 @@ value = obj.ElementaryDataCount
 ```
 
 #### Data
+
+Property `Data`access the data container row values
+
+ Data can be seen as a list of elementary data (one by scoping id)
 
 **Type:** *list*
 
@@ -364,6 +403,8 @@ obj.Data = new_value
 
 #### ScopingIds
 
+Property `ScopingIds` ids belonging to the scoping, identical to my_field.Scoping.Ids
+
 **Type:** *list*
 
 ```python
@@ -374,6 +415,8 @@ obj.ScopingIds = new_value
 
 #### Scoping
 
+Property `Scoping` entities ids representing a subset of the model and on which the data container is scoped
+
 **Type:** *Scoping*
 
 ```python
@@ -383,6 +426,8 @@ obj.Scoping = new_value
 ```
 
 #### Unit
+
+Property `unit` unit symbol of the field
 
 **Type:** *str*
 
@@ -404,6 +449,8 @@ obj.eShellLayers = new_value
 
 #### MeshedRegionSupport
 
+Property `MeshedRegionSupport` returns the field's support if it's a meshed region
+
 **Type:** *MeshedRegion*
 
 ```python
@@ -413,6 +460,8 @@ obj.MeshedRegionSupport = new_value
 ```
 
 #### TimeFreqSupport
+
+Property `TimeFreqSupport` returns the field's support if it's a time freq support
 
 **Type:** *TimeFreqSupport*
 
@@ -433,6 +482,8 @@ obj.Name = new_value
 ```
 
 #### Clone
+
+Property `Clone` create a copy of the field, change its dimensionnality and allocate the data according to the fields scoping and the new dimensionnality
 
 **Type:** *FieldCloning*
 

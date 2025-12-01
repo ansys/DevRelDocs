@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.invariant.eigen_values_fc
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 
-Computes the element-wise Eigen values of all the tensor fields of a fields container.   ///available inputs: fields_container (FieldsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-eigen_values_fc()
-eigen_values_fc(fields_container: object, config: OperatorConfig)
-eigen_values_fc(config: OperatorConfig)
+## Summary
 
+Computes the element-wise Eigen values of all the tensor fields of a fields container.
+
+available inputs: `fields_container` (FieldsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = eigen_values_fc()
+
+op = eigen_values_fc(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ eigen_values_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.invariant` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

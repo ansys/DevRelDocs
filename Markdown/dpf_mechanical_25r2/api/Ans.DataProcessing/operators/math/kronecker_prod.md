@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.kronecker_prod
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes element-wise Kronecker product between two tensor fields.   ///available inputs: fieldA (Field, FieldsContainer), fieldB (Field, FieldsContainer)
-            available outputs: field (Field)
-
-kronecker_prod()
-kronecker_prod(fieldA: object, fieldB: object, config: OperatorConfig)
-kronecker_prod(config: OperatorConfig)
+## Summary
 
+Computes element-wise Kronecker product between two tensor fields.
+
+available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = kronecker_prod()
+
+op = kronecker_prod(fieldA=my_fieldA,fieldB=my_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ kronecker_prod(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

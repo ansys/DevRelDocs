@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.metadata.boundary_condition_provider
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 
-Reads boundary conditions from the results files contained in the streams or data sources.   ///available inputs: streams_container (StreamsContainer) (optional), data_sources (DataSources)
-            available outputs: results_info (Field ,FieldsContainer)
-
-boundary_condition_provider()
-boundary_condition_provider(streams_container: object, data_sources: object, config: OperatorConfig)
-boundary_condition_provider(config: OperatorConfig)
+## Summary
 
+Reads boundary conditions from the results files contained in the streams or data sources.
+
+available inputs: `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources)
+
+available outputs: `results_info` (Field ,FieldsContainer)
+
+## Example
+
+```python
+op = boundary_condition_provider()
+
+op = boundary_condition_provider(streams_container=my_streams_container,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ boundary_condition_provider(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.metadata` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### streams_container
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### results_info
+
+results info
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

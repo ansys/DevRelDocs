@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.centroid_fc
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes the centroid of all the matching fields of a fields container at a given time or frequency, using fieldOut = field1*(1.-fact)+field2*(fact).   ///available inputs: fields_container (FieldsContainer), time_freq (double), step (Int32) (optional), time_freq_support (TimeFreqSupport) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-centroid_fc()
-centroid_fc(fields_container: object, time_freq: object, step: object, time_freq_support: object, config: OperatorConfig)
-centroid_fc(config: OperatorConfig)
+## Summary
 
+Computes the centroid of all the matching fields of a fields container at a given time or frequency, using fieldOut = field1*(1.-fact)+field2*(fact).
+
+available inputs: `fields_container` (FieldsContainer), `time_freq` (double), `step` (Int32) (optional), `time_freq_support` (TimeFreqSupport) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = centroid_fc()
+
+op = centroid_fc(fields_container=my_fields_container,time_freq=my_time_freq,step=my_step,time_freq_support=my_time_freq_support)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ centroid_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### time_freq
+
+**Type:** *LinkableInput*
+
+### step
+
+**Type:** *LinkableInput*
+
+### time_freq_support
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

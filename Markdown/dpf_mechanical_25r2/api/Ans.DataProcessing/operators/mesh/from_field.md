@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.from_field
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Returns the meshed region contained in the support of the mesh.   ///available inputs: field (Field)
-            available outputs: mesh (MeshedRegion)
-
-from_field()
-from_field(field: object, config: OperatorConfig)
-from_field(config: OperatorConfig)
+## Summary
 
+Returns the meshed region contained in the support of the mesh.
+
+available inputs: `field` (Field)
+
+available outputs: `mesh` (MeshedRegion)
+
+## Example
+
+```python
+op = from_field()
+
+op = from_field(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ from_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mesh
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

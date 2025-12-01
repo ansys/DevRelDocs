@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.identical_fc
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Checks if two fields_container are identical.   ///available inputs: fields_containerA (FieldsContainer), fields_containerB (FieldsContainer), small_value (double) (optional), tolerance (double) (optional)
-            available outputs: boolean (bool), message (string)
-
-identical_fc()
-identical_fc(fields_containerA: object, fields_containerB: object, small_value: object, tolerance: object, config: OperatorConfig)
-identical_fc(config: OperatorConfig)
+## Summary
 
+Checks if two fields_container are identical.
+
+available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (FieldsContainer), `small_value` (double) (optional), `tolerance` (double) (optional)
+
+available outputs: `boolean` (bool), `message` (string)
+
+## Example
+
+```python
+op = identical_fc()
+
+op = identical_fc(fields_containerA=my_fields_containerA,fields_containerB=my_fields_containerB,small_value=my_small_value,tolerance=my_tolerance)
+```
 
 ## Class Information
 
@@ -21,6 +29,38 @@ identical_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_containerA
+
+**Type:** *LinkableInput*
+
+### fields_containerB
+
+**Type:** *LinkableInput*
+
+### small_value
+
+Double positive small value. Smallest value which will be considered during the comparison step. All the abs(values) in the field less than this value are considered as null, (default value:1.0e-14).
+
+**Type:** *LinkableInput*
+
+### tolerance
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### boolean
+
+bool (true if identical...)
+
+**Type:** *LinkableOutput*
+
+### message
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.conjugate
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes element-wise conjugate of field containers containing complex fields.   ///available inputs: fields_container (FieldsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-conjugate()
-conjugate(fields_container: object, config: OperatorConfig)
-conjugate(config: OperatorConfig)
+## Summary
 
+Computes element-wise conjugate of field containers containing complex fields.
+
+available inputs: `fields_container` (FieldsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = conjugate()
+
+op = conjugate(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ conjugate(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

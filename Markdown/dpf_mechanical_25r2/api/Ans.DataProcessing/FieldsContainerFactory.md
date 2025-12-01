@@ -6,9 +6,19 @@ uid: Ans.DataProcessing.FieldsContainerFactory
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Helpers to create user defined fields container
-
+## Summary
 
+Helpers to create user defined fields container
+
+## Example
+
+```python
+time1_disp = dpf.FieldsFactory.Create3DVectorField(numEntities=100)
+
+time2_disp = dpf.FieldsFactory.Create3DVectorField(numEntities=100)
+
+my_displacements = dpf.FieldsContainerFactory.OverTimeFreqFieldsContainer([time1_disp, time2_disp])
+```
 
 ## Class Information
 
@@ -58,6 +68,8 @@ result = obj.OverTimeFreqComplexFieldsContainer(realFields, imaginaryFields)
 **Returns:** *FieldsContainer*
 
 #### ComplexFieldsContainer
+
+Method `ComplexFieldsContainer` create fields container with one real and one imaginary field
 
 ```python
 result = obj.ComplexFieldsContainer(realField, imaginaryField)

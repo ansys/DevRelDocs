@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.accumulate_fc
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Sums all the elementary data of a field to produce one elementary data point.   ///available inputs: fields_container (FieldsContainer), weights (Field) (optional), time_scoping (Scoping) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-accumulate_fc()
-accumulate_fc(fields_container: object, weights: object, time_scoping: object, config: OperatorConfig)
-accumulate_fc(config: OperatorConfig)
+## Summary
 
+Sums all the elementary data of a field to produce one elementary data point.
+
+available inputs: `fields_container` (FieldsContainer), `weights` (Field) (optional), `time_scoping` (Scoping) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = accumulate_fc()
+
+op = accumulate_fc(fields_container=my_fields_container,weights=my_weights,time_scoping=my_time_scoping)
+```
 
 ## Class Information
 
@@ -21,6 +29,40 @@ accumulate_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### weights
+
+Field containing weights, one weight per entity
+
+**Type:** *LinkableInput*
+
+### ponderation
+
+Deprecated alias of: weights
+
+**Type:** *LinkableInput*
+
+### time_scoping
+
+time_scoping
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+Field containing the (weighted) sum for each component in an elementary data
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

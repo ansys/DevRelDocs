@@ -19,6 +19,46 @@ time_freq_interpolation(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### time_freq_values
+
+list of frequencies or times needed. To specify load steps, put a Field (and not a list) in input with a scoping located on "TimeFreq_steps".
+
+**Type:** *LinkableInput*
+
+### step
+
+if a Field is set as input, the step ids should be its scoping.
+
+**Type:** *LinkableInput*
+
+### interpolation_type
+
+1 is ramped, 2 is stepped, default is 1.
+
+**Type:** *LinkableInput*
+
+### force_new_time_freq_support
+
+If set to true, the output fields container will always have a new time freq support rescoped to the output time_freq_values (default is false). If set to false, the time freq support is only recreated when time or frequency values are between existing ones.
+
+**Type:** *LinkableInput*
+
+### time_freq_support
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.fft_eval
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Evaluate the fast fourier transforms at a given set of fields.   ///available inputs: field_t (Field), time_scoping (Scoping) (optional)
-            available outputs: field (Field), offset (Field)
-
-fft_eval()
-fft_eval(field_t: object, time_scoping: object, config: OperatorConfig)
-fft_eval(config: OperatorConfig)
+## Summary
 
+Evaluate the fast fourier transforms at a given set of fields.
+
+available inputs: `field_t` (Field), `time_scoping` (Scoping) (optional)
+
+available outputs: `field` (Field), `offset` (Field)
+
+## Example
+
+```python
+op = fft_eval()
+
+op = fft_eval(field_t=my_field_t,time_scoping=my_time_scoping)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ fft_eval(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field_t
+
+field of values to evaluate
+
+**Type:** *LinkableInput*
+
+### time_scoping
+
+if specified only the results at these set ids are used
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
+
+### offset
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

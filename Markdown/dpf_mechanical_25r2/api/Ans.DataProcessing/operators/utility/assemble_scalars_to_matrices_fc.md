@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.assemble_scalars_to_matrices_fc
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Take nine scalar fields container and assemble them as a 3x3 matrix fields. If the 'symmetrical' input is set to true, only six field containers are required (xx, yy, zz, xy, xz and yz).   ///available inputs: xx (FieldsContainer) (optional), yy (FieldsContainer) (optional), zz (FieldsContainer) (optional), xy (FieldsContainer) (optional), yz (FieldsContainer) (optional), xz (FieldsContainer) (optional), yx (FieldsContainer) (optional), zy (FieldsContainer) (optional), zx (FieldsContainer) (optional), symmetrical (bool) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-assemble_scalars_to_matrices_fc()
-assemble_scalars_to_matrices_fc(xx: object, yy: object, zz: object, xy: object, yz: object, xz: object, yx: object, zy: object, zx: object, symmetrical: object, config: OperatorConfig)
-assemble_scalars_to_matrices_fc(config: OperatorConfig)
+## Summary
 
+Take nine scalar fields container and assemble them as a 3x3 matrix fields. If the 'symmetrical' input is set to true, only six field containers are required (xx, yy, zz, xy, xz and yz).
+
+available inputs: `xx` (FieldsContainer) (optional), `yy` (FieldsContainer) (optional), `zz` (FieldsContainer) (optional), `xy` (FieldsContainer) (optional), `yz` (FieldsContainer) (optional), `xz` (FieldsContainer) (optional), `yx` (FieldsContainer) (optional), `zy` (FieldsContainer) (optional), `zx` (FieldsContainer) (optional), `symmetrical` (bool) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = assemble_scalars_to_matrices_fc()
+
+op = assemble_scalars_to_matrices_fc(xx=my_xx,yy=my_yy,zz=my_zz,xy=my_xy,yz=my_yz,xz=my_xz,yx=my_yx,zy=my_zy,zx=my_zx,symmetrical=my_symmetrical)
+```
 
 ## Class Information
 
@@ -21,6 +29,54 @@ assemble_scalars_to_matrices_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### xx
+
+**Type:** *LinkableInput*
+
+### yy
+
+**Type:** *LinkableInput*
+
+### zz
+
+**Type:** *LinkableInput*
+
+### xy
+
+**Type:** *LinkableInput*
+
+### yz
+
+**Type:** *LinkableInput*
+
+### xz
+
+**Type:** *LinkableInput*
+
+### yx
+
+**Type:** *LinkableInput*
+
+### zy
+
+**Type:** *LinkableInput*
+
+### zx
+
+**Type:** *LinkableInput*
+
+### symmetrical
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

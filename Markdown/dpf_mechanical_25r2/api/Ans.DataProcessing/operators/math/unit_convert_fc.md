@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.unit_convert_fc
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Converts an input fields container of a given unit to another unit.   ///available inputs: fields_container (FieldsContainer), unit_name (string)
-            available outputs: fields_container (FieldsContainer)
-
-unit_convert_fc()
-unit_convert_fc(fields_container: object, unit_name: object, config: OperatorConfig)
-unit_convert_fc(config: OperatorConfig)
+## Summary
 
+Converts an input fields container of a given unit to another unit.
+
+available inputs: `fields_container` (FieldsContainer), `unit_name` (string)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = unit_convert_fc()
+
+op = unit_convert_fc(fields_container=my_fields_container,unit_name=my_unit_name)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ unit_convert_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### unit_name
+
+unit as a string, ex 'm' for meter, 'Pa' for pascal,...
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

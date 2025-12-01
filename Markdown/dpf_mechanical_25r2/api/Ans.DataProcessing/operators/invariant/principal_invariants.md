@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.invariant.principal_invariants
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 
-Computes the element-wise Eigen values of a tensor field.   ///available inputs: field (Field)
-            available outputs: field_eig_1 (Field), field_eig_2 (Field), field_eig_3 (Field)
-
-principal_invariants()
-principal_invariants(field: object, config: OperatorConfig)
-principal_invariants(config: OperatorConfig)
+## Summary
 
+Computes the element-wise Eigen values of a tensor field.
+
+available inputs: `field` (Field)
+
+available outputs: `field_eig_1` (Field), `field_eig_2` (Field), `field_eig_3` (Field)
+
+## Example
+
+```python
+op = principal_invariants()
+
+op = principal_invariants(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ principal_invariants(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.invariant` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field_eig_1
+
+first eigen value field
+
+**Type:** *LinkableOutput*
+
+### field_eig_2
+
+second eigen value field
+
+**Type:** *LinkableOutput*
+
+### field_eig_3
+
+third eigen value field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

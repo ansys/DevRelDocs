@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.geo.rotate_fc
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 
-Apply a transformation (rotation) matrix on all the fields of a fields container.   ///available inputs: fields_container (FieldsContainer), coordinate_system (Field)
-            available outputs: fields_container (FieldsContainer)
-
-rotate_fc()
-rotate_fc(fields_container: object, coordinate_system: object, config: OperatorConfig)
-rotate_fc(config: OperatorConfig)
+## Summary
 
+Apply a transformation (rotation) matrix on all the fields of a fields container.
+
+available inputs: `fields_container` (FieldsContainer), `coordinate_system` (Field)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = rotate_fc()
+
+op = rotate_fc(fields_container=my_fields_container,coordinate_system=my_coordinate_system)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ rotate_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.geo` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### coordinate_system
+
+3-3 rotation matrix
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

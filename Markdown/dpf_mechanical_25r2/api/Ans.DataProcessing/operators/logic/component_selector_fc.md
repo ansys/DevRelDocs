@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.component_selector_fc
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Creates a scalar fields container based on the selected component for each field.   ///available inputs: fields_container (FieldsContainer, Field), component_number (Int32, IList int, System.Collections.IEnumerable)
-            available outputs: fields_container (FieldsContainer)
-
-component_selector_fc()
-component_selector_fc(fields_container: object, component_number: object, config: OperatorConfig)
-component_selector_fc(config: OperatorConfig)
+## Summary
 
+Creates a scalar fields container based on the selected component for each field.
+
+available inputs: `fields_container` (FieldsContainer, Field), `component_number` (Int32, IList int, System.Collections.IEnumerable)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = component_selector_fc()
+
+op = component_selector_fc(fields_container=my_fields_container,component_number=my_component_number)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ component_selector_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### component_number
+
+one or several component index that will be extracted from the initial field.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

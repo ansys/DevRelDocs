@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.make_sphere_levelset
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Computes the level set for a sphere using coordinates.   ///available inputs: coordinates (MeshedRegion, Field), origin (Field), radius (double)
-            available outputs: field (Field)
-
-make_sphere_levelset()
-make_sphere_levelset(coordinates: object, origin: object, radius: object, config: OperatorConfig)
-make_sphere_levelset(config: OperatorConfig)
+## Summary
 
+Computes the level set for a sphere using coordinates.
+
+available inputs: `coordinates` (MeshedRegion, Field), `origin` (Field), `radius` (double)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = make_sphere_levelset()
+
+op = make_sphere_levelset(coordinates=my_coordinates,origin=my_origin,radius=my_radius)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ make_sphere_levelset(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### coordinates
+
+**Type:** *LinkableInput*
+
+### origin
+
+An overall 3d vector that gives a point of the plane.
+
+**Type:** *LinkableInput*
+
+### radius
+
+Sphere radius.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

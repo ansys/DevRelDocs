@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.serialization.field_to_csv
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 
-Exports a field or a fields container into a csv file   ///available inputs: field_or_fields_container (FieldsContainer, Field), file_path (string), storage_type (Int32) (optional)
-            available outputs:
-
-field_to_csv()
-field_to_csv(field_or_fields_container: object, file_path: object, storage_type: object, config: OperatorConfig)
-field_to_csv(config: OperatorConfig)
+## Summary
 
+Exports a field or a fields container into a csv file
+
+available inputs: `field_or_fields_container` (FieldsContainer, Field), `file_path` (string), `storage_type` (Int32) (optional)
+
+available outputs:
+
+## Example
+
+```python
+op = field_to_csv()
+
+op = field_to_csv(field_or_fields_container=my_field_or_fields_container,file_path=my_file_path,storage_type=my_storage_type)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ field_to_csv(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.serialization` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field_or_fields_container
+
+field_or_fields_container
+
+**Type:** *LinkableInput*
+
+### file_path
+
+**Type:** *LinkableInput*
+
+### storage_type
+
+storage type : if matrices (without any particularity) are included in the fields container, the storage format can be chosen. 0 : flat/line format, 1 : ranked format. If 1 is chosen, the csv can not be read by "csv to field" operator anymore. Default : 0.
+
+**Type:** *LinkableInput*
+
+## Outputs
 
 ## Constructors
 

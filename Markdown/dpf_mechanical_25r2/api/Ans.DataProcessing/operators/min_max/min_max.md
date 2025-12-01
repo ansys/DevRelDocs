@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.min_max.min_max
 
 **Namespace:** [Ans.DataProcessing.operators.min_max](Ans_DataProcessing_operators_min_max.md)
 
-Compute the component-wise minimum (out 0) and maximum (out 1) over a field.   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field_min (Field), field_max (Field)
-
-min_max()
-min_max(field: object, config: OperatorConfig)
-min_max(config: OperatorConfig)
+## Summary
 
+Compute the component-wise minimum (out 0) and maximum (out 1) over a field.
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field_min` (Field), `field_max` (Field)
+
+## Example
+
+```python
+op = min_max()
+
+op = min_max(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ min_max(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.min_max` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field_min
+
+**Type:** *LinkableOutput*
+
+### field_max
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

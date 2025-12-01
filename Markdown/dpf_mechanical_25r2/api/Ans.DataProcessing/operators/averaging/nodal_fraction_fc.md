@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.averaging.nodal_fraction_fc
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-Transforms Elemental Nodal fields into Nodal fields. Each nodal value is the fraction between the nodal difference and the nodal average. The result is computed on a given node's scoping.   ///available inputs: fields_container (FieldsContainer), mesh (MeshedRegion) (optional), scoping (Scoping) (optional), denominator (FieldsContainer) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-nodal_fraction_fc()
-nodal_fraction_fc(fields_container: object, mesh: object, scoping: object, denominator: object, config: OperatorConfig)
-nodal_fraction_fc(config: OperatorConfig)
+## Summary
 
+Transforms Elemental Nodal fields into Nodal fields. Each nodal value is the fraction between the nodal difference and the nodal average. The result is computed on a given node's scoping.
+
+available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion) (optional), `scoping` (Scoping) (optional), `denominator` (FieldsContainer) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = nodal_fraction_fc()
+
+op = nodal_fraction_fc(fields_container=my_fields_container,mesh=my_mesh,scoping=my_scoping,denominator=my_denominator)
+```
 
 ## Class Information
 
@@ -21,6 +29,36 @@ nodal_fraction_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.averaging` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### mesh
+
+The mesh region in this pin is used to perform the averaging. It is used if there is no fields support.
+
+**Type:** *LinkableInput*
+
+### scoping
+
+Average only on these nodes. If it is a scoping container, the label must correspond to the one of the fields containers.
+
+**Type:** *LinkableInput*
+
+### denominator
+
+If a fields container is set in this pin, it is used as the denominator of the fraction instead of elemental_nodal_To_nodal_fc.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

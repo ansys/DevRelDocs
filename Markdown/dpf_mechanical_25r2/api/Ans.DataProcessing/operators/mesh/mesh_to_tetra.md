@@ -19,6 +19,34 @@ mesh_to_tetra(config: OperatorConfig)
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### mesh
+
+Mesh with arbitrary element types.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mesh
+
+Tetrahedralized mesh.
+
+**Type:** *LinkableOutput*
+
+### node_mapping
+
+Node mapping.
+
+**Type:** *LinkableOutput*
+
+### element_mapping
+
+Element mapping.
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

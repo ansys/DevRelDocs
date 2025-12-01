@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.merge_fields_by_label
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Merges the fields of a fields container that share the same label value.   ///available inputs: fields_container (FieldsContainer), label (string), merged_field_support (AbstractFieldSupport) (optional), sum_merge (bool) (optional)
-            available outputs: fields_container (FieldsContainer), merged_field_support (AbstractFieldSupport)
-
-merge_fields_by_label()
-merge_fields_by_label(fields_container: object, label: object, merged_field_support: object, sum_merge: object, config: OperatorConfig)
-merge_fields_by_label(config: OperatorConfig)
+## Summary
 
+Merges the fields of a fields container that share the same label value.
+
+available inputs: `fields_container` (FieldsContainer), `label` (string), `merged_field_support` (AbstractFieldSupport) (optional), `sum_merge` (bool) (optional)
+
+available outputs: `fields_container` (FieldsContainer), `merged_field_support` (AbstractFieldSupport)
+
+## Example
+
+```python
+op = merge_fields_by_label()
+
+op = merge_fields_by_label(fields_container=my_fields_container,label=my_label,merged_field_support=my_merged_field_support,sum_merge=my_sum_merge)
+```
 
 ## Class Information
 
@@ -21,6 +29,40 @@ merge_fields_by_label(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### label
+
+Label identifier that should be merged.
+
+**Type:** *LinkableInput*
+
+### merged_field_support
+
+The FieldsContainer's support that has already been merged.
+
+**Type:** *LinkableInput*
+
+### sum_merge
+
+Default is false. If true, redundant quantities are summed instead of being ignored.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
+
+### merged_field_support
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

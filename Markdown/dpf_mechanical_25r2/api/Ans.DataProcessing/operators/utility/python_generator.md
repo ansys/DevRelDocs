@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.python_generator
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Generates .py file with specifications for loaded plugin(s).   ///available inputs: dll_source_path (string), output_path (string), load_symbol (string) (optional), library_key (string) (optional)
-            available outputs:
-
-python_generator()
-python_generator(dll_source_path: object, output_path: object, load_symbol: object, library_key: object, config: OperatorConfig)
-python_generator(config: OperatorConfig)
+## Summary
 
+Generates .py file with specifications for loaded plugin(s).
+
+available inputs: `dll_source_path` (string), `output_path` (string), `load_symbol` (string) (optional), `library_key` (string) (optional)
+
+available outputs:
+
+## Example
+
+```python
+op = python_generator()
+
+op = python_generator(dll_source_path=my_dll_source_path,output_path=my_output_path,load_symbol=my_load_symbol,library_key=my_library_key)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ python_generator(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### dll_source_path
+
+**Type:** *LinkableInput*
+
+### output_path
+
+**Type:** *LinkableInput*
+
+### load_symbol
+
+**Type:** *LinkableInput*
+
+### library_key
+
+**Type:** *LinkableInput*
+
+## Outputs
 
 ## Constructors
 

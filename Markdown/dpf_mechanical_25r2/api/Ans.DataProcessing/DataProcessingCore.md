@@ -150,6 +150,8 @@ obj.DeactivateDebugTrace()
 
 #### LoadLibrary
 
+Method `LoadLibrary` loads a DPF's plugin and register its operators
+
 ```python
 obj.LoadLibrary(name, dllPath, symbol)
 ```

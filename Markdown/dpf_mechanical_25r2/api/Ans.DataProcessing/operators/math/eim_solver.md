@@ -19,6 +19,38 @@ eim_solver(config: OperatorConfig)
 | Assembly | `Ans_Dpf_PointCloudSearch_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### mode_shapes_fc
+
+**Type:** *LinkableInput*
+
+### initial_sensors
+
+**Type:** *LinkableInput*
+
+### n_max
+
+**Type:** *LinkableInput*
+
+### minimum_sensor_distance
+
+**Type:** *LinkableInput*
+
+### restrict_n_max
+
+**Type:** *LinkableInput*
+
+### coords
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### ED_sorted
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

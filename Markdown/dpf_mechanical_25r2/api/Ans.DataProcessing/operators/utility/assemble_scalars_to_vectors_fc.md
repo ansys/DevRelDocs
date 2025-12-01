@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.assemble_scalars_to_vectors_fc
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Takes three scalar fields container and assembles them as a 3D vector fields container.   ///available inputs: x (FieldsContainer) (optional), y (FieldsContainer) (optional), z (FieldsContainer) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-assemble_scalars_to_vectors_fc()
-assemble_scalars_to_vectors_fc(x: object, y: object, z: object, config: OperatorConfig)
-assemble_scalars_to_vectors_fc(config: OperatorConfig)
+## Summary
 
+Takes three scalar fields container and assembles them as a 3D vector fields container.
+
+available inputs: `x` (FieldsContainer) (optional), `y` (FieldsContainer) (optional), `z` (FieldsContainer) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = assemble_scalars_to_vectors_fc()
+
+op = assemble_scalars_to_vectors_fc(x=my_x,y=my_y,z=my_z)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ assemble_scalars_to_vectors_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### x
+
+**Type:** *LinkableInput*
+
+### y
+
+**Type:** *LinkableInput*
+
+### z
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

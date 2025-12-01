@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.merge_materials
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Assembles a set of materials into a unique one.   ///available inputs: materials1 (Materials), materials2 (Materials)
-            available outputs: merged_materials (Materials)
-
-merge_materials()
-merge_materials(materials1: object, materials2: object, config: OperatorConfig)
-merge_materials(config: OperatorConfig)
+## Summary
 
+Assembles a set of materials into a unique one.
+
+available inputs: `materials1` (Materials), `materials2` (Materials)
+
+available outputs: `merged_materials` (Materials)
+
+## Example
+
+```python
+op = merge_materials()
+
+op = merge_materials(materials1=my_materials1,materials2=my_materials2)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ merge_materials(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### materials1
+
+A vector of materials to merge or materials from pin 0 to ...
+
+**Type:** *LinkableInput*
+
+### materials2
+
+A vector of materials to merge or materials from pin 0 to ...
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### merged_materials
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

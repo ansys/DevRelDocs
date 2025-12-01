@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.make_one_on_comp
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Takes the input field's scoping and creates a field full of zeros, except for the indexes from pin 1 that will hold 1.0.   ///available inputs: fieldA (Field), scalar_int (Int32)
-            available outputs: field (Field)
-
-make_one_on_comp()
-make_one_on_comp(fieldA: object, scalar_int: object, config: OperatorConfig)
-make_one_on_comp(config: OperatorConfig)
+## Summary
 
+Takes the input field's scoping and creates a field full of zeros, except for the indexes from pin 1 that will hold 1.0.
+
+available inputs: `fieldA` (Field), `scalar_int` (Int32)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = make_one_on_comp()
+
+op = make_one_on_comp(fieldA=my_fieldA,scalar_int=my_scalar_int)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ make_one_on_comp(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+**Type:** *LinkableInput*
+
+### scalar_int
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.incremental_concatenate_as_fc
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Assemble fields in a fields container.   ///available inputs: field (Field), label (LabelSpace) (optional)
-            available outputs: output (FieldsContainer)
-
-incremental_concatenate_as_fc()
-incremental_concatenate_as_fc(field: object, label: object, config: OperatorConfig)
-incremental_concatenate_as_fc(config: OperatorConfig)
+## Summary
 
+Assemble fields in a fields container.
+
+available inputs: `field` (Field), `label` (LabelSpace) (optional)
+
+available outputs: `output` (FieldsContainer)
+
+## Example
+
+```python
+op = incremental_concatenate_as_fc()
+
+op = incremental_concatenate_as_fc(field=my_field,label=my_label)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ incremental_concatenate_as_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### label
+
+Label space value that must be applied to the added field.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### output
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

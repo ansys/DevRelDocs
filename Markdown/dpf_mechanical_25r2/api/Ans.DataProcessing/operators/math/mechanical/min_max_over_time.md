@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.mechanical.min_max_over_time
 
 **Namespace:** [Ans.DataProcessing.operators.math.mechanical](Ans_DataProcessing_operators_math_mechanical.md)
 
-Evaluates minimum/maximum over time/frequency.   ///available inputs: fields_container (FieldsContainer), int32 (Int32)
-            available outputs: field_container_1 (FieldsContainer), field_container_2 (FieldsContainer)
-
-min_max_over_time()
-min_max_over_time(fields_container: object, int32: object, config: OperatorConfig)
-min_max_over_time(config: OperatorConfig)
+## Summary
 
+Evaluates minimum/maximum over time/frequency.
+
+available inputs: `fields_container` (FieldsContainer), `int32` (Int32)
+
+available outputs: `field_container_1` (FieldsContainer), `field_container_2` (FieldsContainer)
+
+## Example
+
+```python
+op = min_max_over_time()
+
+op = min_max_over_time(fields_container=my_fields_container,int32=my_int32)
+```
 
 ## Class Information
 
@@ -21,6 +29,28 @@ min_max_over_time(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math.mechanical` |
 | Assembly | `Ans_Dpf_Mechanical_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### int32
+
+Define min or max.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field_container_1
+
+**Type:** *LinkableOutput*
+
+### field_container_2
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

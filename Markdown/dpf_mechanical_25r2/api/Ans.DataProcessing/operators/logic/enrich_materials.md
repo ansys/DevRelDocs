@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.enrich_materials
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Takes a MaterialContainer and a stream and enriches the MaterialContainer using stream data.   ///available inputs: MaterialContainer (object), streams (StreamsContainer, FieldsContainer), streams_mapping (PropertyFieldsContainer)
-            available outputs: MaterialContainer (bool)
-
-enrich_materials()
-enrich_materials(MaterialContainer: object, streams: object, streams_mapping: object, config: OperatorConfig)
-enrich_materials(config: OperatorConfig)
+## Summary
 
+Takes a MaterialContainer and a stream and enriches the MaterialContainer using stream data.
+
+available inputs: `MaterialContainer` (object), `streams` (StreamsContainer, FieldsContainer), `streams_mapping` (PropertyFieldsContainer)
+
+available outputs: `MaterialContainer` (bool)
+
+## Example
+
+```python
+op = enrich_materials()
+
+op = enrich_materials(MaterialContainer=my_MaterialContainer,streams=my_streams,streams_mapping=my_streams_mapping)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ enrich_materials(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### MaterialContainer
+
+**Type:** *LinkableInput*
+
+### streams
+
+**Type:** *LinkableInput*
+
+### streams_mapping
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### MaterialContainer
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,9 +6,17 @@ uid: Ans.DataProcessing.TimeFreqScopingFactory
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Helpers to create time scoping inputs
-
+## Summary
 
+Helpers to create time scoping inputs
+
+## Example
+
+```python
+my_displacement = dpf.operators.result.displacement(TimeFreqScopingFactory.ScopingByLoadStep(2))
+
+my_displacement = dpf.operators.result.displacement(TimeFreqScopingFactory.ScopingBySet([1,2,3]))
+```
 
 ## Class Information
 
@@ -20,6 +28,8 @@ Helpers to create time scoping inputs
 ## Methods
 
 #### ScopingByLoadStep
+
+Method `ScopingByLoadStep` create time/freq scoping to get results by loadstep
 
 ```python
 result = obj.ScopingByLoadStep(loadStep)
@@ -45,6 +55,8 @@ result = obj.ScopingByLoadSteps(loadSteps)
 
 #### ScopingBySet
 
+Method `ScopingBySet` create time/freq scoping to get results by time/freq set
+
 ```python
 result = obj.ScopingBySet(cumulativeSet)
 ```
@@ -69,6 +81,8 @@ result = obj.ScopingBySets(cumulativeSets)
 
 #### ScopingByStepAndSubstep
 
+Method `ScopingByStepAndSubstep` create time/freq scoping by step and substep
+
 ```python
 result = obj.ScopingByStepAndSubstep(loadStepId, subsetId, timeFreqSupport)
 ```
@@ -82,6 +96,8 @@ result = obj.ScopingByStepAndSubstep(loadStepId, subsetId, timeFreqSupport)
 **Returns:** *Scoping*
 
 #### ScopingByStepAndSubstep
+
+Method `ScopingByStepAndSubstep` create time/freq scoping by step and substep
 
 ```python
 result = obj.ScopingByStepAndSubstep(loadStepId, subsetId, model)
@@ -97,6 +113,8 @@ result = obj.ScopingByStepAndSubstep(loadStepId, subsetId, model)
 
 #### ScopingOnAllTimeFreqs
 
+Method `ScopingOnAllTimeFreqs` creates time/freq scoping for all time or frequency sets
+
 ```python
 result = obj.ScopingOnAllTimeFreqs(timeFreqSupport)
 ```
@@ -108,6 +126,8 @@ result = obj.ScopingOnAllTimeFreqs(timeFreqSupport)
 **Returns:** *Scoping*
 
 #### ScopingOnAllTimeFreqs
+
+Method `ScopingOnAllTimeFreqs` creates time/freq scoping for all time or frequency sets
 
 ```python
 result = obj.ScopingOnAllTimeFreqs(model)

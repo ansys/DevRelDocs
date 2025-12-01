@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.remote_workflow_instantiate
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Sends a local workflow to a remote process (and keep a local image of it) or create a local image of an existing remote workflow (identified by an id and an address) for a given protocol registered in the streams.   ///available inputs: workflow_to_send (Workflow, Int32), streams_to_remote (StreamsContainer), data_sources_to_remote (DataSources) (optional)
-            available outputs: remote_workflow (Workflow)
-
-remote_workflow_instantiate()
-remote_workflow_instantiate(workflow_to_send: object, streams_to_remote: object, data_sources_to_remote: object, config: OperatorConfig)
-remote_workflow_instantiate(config: OperatorConfig)
+## Summary
 
+Sends a local workflow to a remote process (and keep a local image of it) or create a local image of an existing remote workflow (identified by an id and an address) for a given protocol registered in the streams.
+
+available inputs: `workflow_to_send` (Workflow, Int32), `streams_to_remote` (StreamsContainer), `data_sources_to_remote` (DataSources) (optional)
+
+available outputs: `remote_workflow` (Workflow)
+
+## Example
+
+```python
+op = remote_workflow_instantiate()
+
+op = remote_workflow_instantiate(workflow_to_send=my_workflow_to_send,streams_to_remote=my_streams_to_remote,data_sources_to_remote=my_data_sources_to_remote)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ remote_workflow_instantiate(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### workflow_to_send
+
+local workflow to push to a remote or id of a remote workflow
+
+**Type:** *LinkableInput*
+
+### streams_to_remote
+
+**Type:** *LinkableInput*
+
+### data_sources_to_remote
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### remote_workflow
+
+remote workflow containing an image of the remote workflow and the protocols streams
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

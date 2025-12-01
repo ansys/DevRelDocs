@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.mesh_to_graphics
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Generate tessellation for input mesh   ///available inputs: mesh_scoping (Scoping) (optional), node_normals (bool) (optional), mesh (MeshedRegion)
-            available outputs: nodes (Field), normals (Field), connectivity (PropertyField)
-
-mesh_to_graphics()
-mesh_to_graphics(mesh_scoping: object, node_normals: object, mesh: object, config: OperatorConfig)
-mesh_to_graphics(config: OperatorConfig)
+## Summary
 
+Generate tessellation for input mesh
+
+available inputs: `mesh_scoping` (Scoping) (optional), `node_normals` (bool) (optional), `mesh` (MeshedRegion)
+
+available outputs: `nodes` (Field), `normals` (Field), `connectivity` (PropertyField)
+
+## Example
+
+```python
+op = mesh_to_graphics()
+
+op = mesh_to_graphics(mesh_scoping=my_mesh_scoping,node_normals=my_node_normals,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,40 @@ mesh_to_graphics(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh_scoping
+
+**Type:** *LinkableInput*
+
+### node_normals
+
+average element normals for node normals (default no, use element normals for node normals)
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### nodes
+
+node coordinates
+
+**Type:** *LinkableOutput*
+
+### normals
+
+node normals
+
+**Type:** *LinkableOutput*
+
+### connectivity
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

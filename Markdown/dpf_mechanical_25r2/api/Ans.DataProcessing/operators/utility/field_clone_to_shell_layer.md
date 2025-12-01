@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.field_clone_to_shell_layer
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Generates a Field from the Field in input 0 that has the same FieldDefinition with the exception of the shellLayers enum that is specified in input 1. The DataPointer is recomputed to the appropriate value. The Data of the output Field is 0.0 for all entities. Scoping can be shared or not based on the optional pin 2.   ///available inputs: field (Field), shell_layer (Int32), duplicate_scoping (bool) (optional)
-            available outputs: field (Field)
-
-field_clone_to_shell_layer()
-field_clone_to_shell_layer(field: object, shell_layer: object, duplicate_scoping: object, config: OperatorConfig)
-field_clone_to_shell_layer(config: OperatorConfig)
+## Summary
 
+Generates a Field from the Field in input 0 that has the same FieldDefinition with the exception of the shellLayers enum that is specified in input 1. The DataPointer is recomputed to the appropriate value. The Data of the output Field is 0.0 for all entities. Scoping can be shared or not based on the optional pin 2.
+
+available inputs: `field` (Field), `shell_layer` (Int32), `duplicate_scoping` (bool) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = field_clone_to_shell_layer()
+
+op = field_clone_to_shell_layer(field=my_field,shell_layer=my_shell_layer,duplicate_scoping=my_duplicate_scoping)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ field_clone_to_shell_layer(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### shell_layer
+
+0: Top, 1: Bottom, 2: BottomTop, 3: Mid, 4: BottomTopMid.
+
+**Type:** *LinkableInput*
+
+### duplicate_scoping
+
+If true, a new scoping is computed for the output Field. If false, the input Field scoping is used. Default is false.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

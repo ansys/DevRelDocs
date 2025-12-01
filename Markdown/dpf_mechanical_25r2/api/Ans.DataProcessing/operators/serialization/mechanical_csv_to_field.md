@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.serialization.mechanical_csv_to_field
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 
-Reads mechanical exported csv file   ///available inputs: unit (), mesh (MeshedRegion) (optional), data_sources (DataSources), requested_location (string, FieldDefinition)
-            available outputs: field (Field)
-
-mechanical_csv_to_field()
-mechanical_csv_to_field(mesh: object, data_sources: object, requested_location: object, config: OperatorConfig)
-mechanical_csv_to_field(config: OperatorConfig)
+## Summary
 
+Reads mechanical exported csv file
+
+available inputs: `unit` (), `mesh` (MeshedRegion) (optional), `data_sources` (DataSources), `requested_location` (string, FieldDefinition)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = mechanical_csv_to_field()
+
+op = mechanical_csv_to_field(mesh=my_mesh,data_sources=my_data_sources,requested_location=my_requested_location)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ mechanical_csv_to_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.serialization` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+### requested_location
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

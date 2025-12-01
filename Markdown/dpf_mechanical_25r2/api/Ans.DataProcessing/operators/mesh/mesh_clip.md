@@ -19,6 +19,44 @@ mesh_clip(config: OperatorConfig)
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### iso_value
+
+iso value
+
+**Type:** *LinkableInput*
+
+### closed_surface
+
+1: closed surface, 0: iso surface.
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### slice_surfaces
+
+True: slicing will also take into account shell and skin elements. False: slicing will ignore shell and skin elements. The default is true.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
+
+### mesh
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

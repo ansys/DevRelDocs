@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.total_mass
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Reads total mass from mode file.   ///available inputs: data_sources (DataSources)
-            available outputs: mass (double)
-
-total_mass()
-total_mass(data_sources: object, config: OperatorConfig)
-total_mass(config: OperatorConfig)
+## Summary
 
+Reads total mass from mode file.
+
+available inputs: `data_sources` (DataSources)
+
+available outputs: `mass` (double)
+
+## Example
+
+```python
+op = total_mass()
+
+op = total_mass(data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ total_mass(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### data_sources
+
+Data sources (must contain at least one mode file).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mass
+
+the unit should be grabbed from the rst file
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

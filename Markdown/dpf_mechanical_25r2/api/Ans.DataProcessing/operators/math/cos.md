@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.cos
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes element-wise cos(field[i]).   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-cos()
-cos(field: object, config: OperatorConfig)
-cos(config: OperatorConfig)
+## Summary
 
+Computes element-wise cos(field[i]).
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = cos()
+
+op = cos(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ cos(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

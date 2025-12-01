@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.enf_rotation_by_euler_nodes
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-read Euler angles on elements from the result file and rotate the fields in the fieldsContainer.   ///available inputs: fields_container (FieldsContainer) (optional), streams_container (StreamsContainer, Stream) (optional), data_sources (DataSources)
-            available outputs: fields_container (FieldsContainer)
-
-enf_rotation_by_euler_nodes()
-enf_rotation_by_euler_nodes(fields_container: object, streams_container: object, data_sources: object, config: OperatorConfig)
-enf_rotation_by_euler_nodes(config: OperatorConfig)
+## Summary
 
+read Euler angles on elements from the result file and rotate the fields in the fieldsContainer.
+
+available inputs: `fields_container` (FieldsContainer) (optional), `streams_container` (StreamsContainer, Stream) (optional), `data_sources` (DataSources)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = enf_rotation_by_euler_nodes()
+
+op = enf_rotation_by_euler_nodes(fields_container=my_fields_container,streams_container=my_streams_container,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ enf_rotation_by_euler_nodes(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### streams_container
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

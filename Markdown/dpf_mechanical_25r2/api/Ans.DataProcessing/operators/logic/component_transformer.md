@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.logic.component_transformer
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 
-Takes the input field and creates a field with overriden value on given components.   ///available inputs: field (Field, FieldsContainer), component_number (Int32, IList int, System.Collections.IEnumerable), default_value (double) (optional)
-            available outputs: field (Field)
-
-component_transformer()
-component_transformer(field: object, component_number: object, default_value: object, config: OperatorConfig)
-component_transformer(config: OperatorConfig)
+## Summary
 
+Takes the input field and creates a field with overriden value on given components.
+
+available inputs: `field` (Field, FieldsContainer), `component_number` (Int32, IList int, System.Collections.IEnumerable), `default_value` (double) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = component_transformer()
+
+op = component_transformer(field=my_field,component_number=my_component_number,default_value=my_default_value)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ component_transformer(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.logic` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### component_number
+
+One or several component index that will be modified from the initial field.
+
+**Type:** *LinkableInput*
+
+### default_value
+
+Set a default value for components selected.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

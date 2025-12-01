@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.average_over_label_fc
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Compute the component-wise average over all the fields that have the same ID as the label set as input in the fields container. This computation can be incremental. If the input fields container is connected and the operator is run multiple times, the output field will be on all the connected inputs.   ///available inputs: fields_container (FieldsContainer), label (string) (optional)
-            available outputs: field (Field)
-
-average_over_label_fc()
-average_over_label_fc(fields_container: object, label: object, config: OperatorConfig)
-average_over_label_fc(config: OperatorConfig)
+## Summary
 
+Compute the component-wise average over all the fields that have the same ID as the label set as input in the fields container. This computation can be incremental. If the input fields container is connected and the operator is run multiple times, the output field will be on all the connected inputs.
+
+available inputs: `fields_container` (FieldsContainer), `label` (string) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = average_over_label_fc()
+
+op = average_over_label_fc(fields_container=my_fields_container,label=my_label)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ average_over_label_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### label
+
+Label of the fields container where it should operate.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

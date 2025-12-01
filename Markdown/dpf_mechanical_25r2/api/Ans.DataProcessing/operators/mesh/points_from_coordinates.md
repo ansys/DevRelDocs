@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.points_from_coordinates
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Extract a mesh made of points elements. This mesh is made from input meshes coordinates on the input scopings.   ///available inputs: nodes_to_keep (Scoping, ScopingsContainer), mesh (MeshedRegion, MeshesContainer)
-            available outputs: meshed_region (MeshedRegion)
-
-points_from_coordinates()
-points_from_coordinates(nodes_to_keep: object, mesh: object, config: OperatorConfig)
-points_from_coordinates(config: OperatorConfig)
+## Summary
 
+Extract a mesh made of points elements. This mesh is made from input meshes coordinates on the input scopings.
+
+available inputs: `nodes_to_keep` (Scoping, ScopingsContainer), `mesh` (MeshedRegion, MeshesContainer)
+
+available outputs: `meshed_region` (MeshedRegion)
+
+## Example
+
+```python
+op = points_from_coordinates()
+
+op = points_from_coordinates(nodes_to_keep=my_nodes_to_keep,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ points_from_coordinates(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### nodes_to_keep
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### meshed_region
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

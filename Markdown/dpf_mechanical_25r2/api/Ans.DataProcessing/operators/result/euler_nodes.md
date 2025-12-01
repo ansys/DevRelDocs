@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.euler_nodes
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Reads a field made of 3 coordinates and 3 Euler angles (6 dofs) by node from the result file.   ///available inputs: streams_container (StreamsContainer, Stream) (optional), data_sources (DataSources), filter_zeros (bool), coord_and_euler (bool), mesh (MeshedRegion) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-euler_nodes()
-euler_nodes(streams_container: object, data_sources: object, filter_zeros: object, coord_and_euler: object, mesh: object, config: OperatorConfig)
-euler_nodes(config: OperatorConfig)
+## Summary
 
+Reads a field made of 3 coordinates and 3 Euler angles (6 dofs) by node from the result file.
+
+available inputs: `streams_container` (StreamsContainer, Stream) (optional), `data_sources` (DataSources), `filter_zeros` (bool), `coord_and_euler` (bool), `mesh` (MeshedRegion) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = euler_nodes()
+
+op = euler_nodes(streams_container=my_streams_container,data_sources=my_data_sources,filter_zeros=my_filter_zeros,coord_and_euler=my_coord_and_euler,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,38 @@ euler_nodes(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### streams_container
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+### filter_zeros
+
+if true, then the field will only contain the scoping if any rotation is not zero. (default is false).
+
+**Type:** *LinkableInput*
+
+### coord_and_euler
+
+if true, then the field has ncomp=6 with 3 coordinates and 3 Euler angles, else there is only the Euler angles (default is true).
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

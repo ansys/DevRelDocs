@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.metadata.material_support_provider
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 
-Reads the material support.   ///available inputs: streams_container (StreamsContainer) (optional), data_sources (DataSources)
-            available outputs: abstract_field_support (AbstractFieldSupport)
-
-material_support_provider()
-material_support_provider(streams_container: object, data_sources: object, config: OperatorConfig)
-material_support_provider(config: OperatorConfig)
+## Summary
 
+Reads the material support.
+
+available inputs: `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources)
+
+available outputs: `abstract_field_support` (AbstractFieldSupport)
+
+## Example
+
+```python
+op = material_support_provider()
+
+op = material_support_provider(streams_container=my_streams_container,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ material_support_provider(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.metadata` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### streams_container
+
+Streams result file container (optional).
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+if the stream is null, get the file path from the data sources.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### abstract_field_support
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

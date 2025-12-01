@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.make_overall
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Extracts a value from a field and makes a new field containing only this value, with the associated scoping's location set as 'overall'.   ///available inputs: field (Field), id (Int32)
-            available outputs: field (Field)
-
-make_overall()
-make_overall(field: object, id: object, config: OperatorConfig)
-make_overall(config: OperatorConfig)
+## Summary
 
+Extracts a value from a field and makes a new field containing only this value, with the associated scoping's location set as 'overall'.
+
+available inputs: `field` (Field), `id` (Int32)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = make_overall()
+
+op = make_overall(field=my_field,id=my_id)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ make_overall(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+### id
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

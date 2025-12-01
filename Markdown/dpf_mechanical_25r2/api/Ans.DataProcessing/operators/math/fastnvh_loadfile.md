@@ -19,6 +19,22 @@ fastnvh_loadfile(config: OperatorConfig)
 | Assembly | `Ans_Dpf_PointCloudSearch_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### stream_h5
+
+**Type:** *LinkableInput*
+
+### ds_h5
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### load_fc
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

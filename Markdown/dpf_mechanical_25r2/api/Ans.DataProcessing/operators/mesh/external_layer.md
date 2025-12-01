@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.external_layer
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Extracts the external layer (thick skin) of the mesh (3D elements) in a new meshed region.   ///available inputs: mesh (MeshedRegion)
-            available outputs: mesh (MeshedRegion), nodes_mesh_scoping (Scoping), elements_mesh_scoping (Scoping)
-
-external_layer()
-external_layer(mesh: object, config: OperatorConfig)
-external_layer(config: OperatorConfig)
+## Summary
 
+Extracts the external layer (thick skin) of the mesh (3D elements) in a new meshed region.
+
+available inputs: `mesh` (MeshedRegion)
+
+available outputs: `mesh` (MeshedRegion), `nodes_mesh_scoping` (Scoping), `elements_mesh_scoping` (Scoping)
+
+## Example
+
+```python
+op = external_layer()
+
+op = external_layer(mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ external_layer(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mesh
+
+**Type:** *LinkableOutput*
+
+### nodes_mesh_scoping
+
+**Type:** *LinkableOutput*
+
+### elements_mesh_scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

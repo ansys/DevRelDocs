@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.averaging.nodal_to_elemental_nodal_fc
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-Transforms Nodal fields_container to Elemental Nodal fields_container.   ///available inputs: fields_container (FieldsContainer), mesh (MeshedRegion) (optional), mesh_scoping (Scoping) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-nodal_to_elemental_nodal_fc()
-nodal_to_elemental_nodal_fc(fields_container: object, mesh: object, mesh_scoping: object, config: OperatorConfig)
-nodal_to_elemental_nodal_fc(config: OperatorConfig)
+## Summary
 
+Transforms Nodal fields_container to Elemental Nodal fields_container.
+
+available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion) (optional), `mesh_scoping` (Scoping) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = nodal_to_elemental_nodal_fc()
+
+op = nodal_to_elemental_nodal_fc(fields_container=my_fields_container,mesh=my_mesh,mesh_scoping=my_mesh_scoping)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ nodal_to_elemental_nodal_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.averaging` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

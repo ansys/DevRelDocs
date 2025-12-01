@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.scale_by_field
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-DEPRECATED, PLEASE USE SCALE. Scales a field (in 0) by a scalar field (in 1). If one field's scoping has an 'overall' location, then this field's values are applied on the other field entirely.   ///available inputs: fieldA (Field, FieldsContainer), fieldB (Field, FieldsContainer)
-            available outputs: field (Field)
-
-scale_by_field()
-scale_by_field(fieldA: object, fieldB: object, config: OperatorConfig)
-scale_by_field(config: OperatorConfig)
+## Summary
 
+DEPRECATED, PLEASE USE SCALE. Scales a field (in 0) by a scalar field (in 1). If one field's scoping has an 'overall' location, then this field's values are applied on the other field entirely.
+
+available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = scale_by_field()
+
+op = scale_by_field(fieldA=my_fieldA,fieldB=my_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ scale_by_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

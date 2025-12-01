@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.entity_extractor
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Extracts an entity from a field, based on its ID.   ///available inputs: fieldA (Field), scalar_int (Int32)
-            available outputs: field (Field)
-
-entity_extractor()
-entity_extractor(fieldA: object, scalar_int: object, config: OperatorConfig)
-entity_extractor(config: OperatorConfig)
+## Summary
 
+Extracts an entity from a field, based on its ID.
+
+available inputs: `fieldA` (Field), `scalar_int` (Int32)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = entity_extractor()
+
+op = entity_extractor(fieldA=my_fieldA,scalar_int=my_scalar_int)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ entity_extractor(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+**Type:** *LinkableInput*
+
+### scalar_int
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

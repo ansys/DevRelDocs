@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.combine_levelset
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Takes two level sets and computes their binary union.   ///available inputs: fieldA (Field), fieldB (Field)
-            available outputs: field (Field)
-
-combine_levelset()
-combine_levelset(fieldA: object, fieldB: object, config: OperatorConfig)
-combine_levelset(config: OperatorConfig)
+## Summary
 
+Takes two level sets and computes their binary union.
+
+available inputs: `fieldA` (Field), `fieldB` (Field)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = combine_levelset()
+
+op = combine_levelset(fieldA=my_fieldA,fieldB=my_fieldB)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ combine_levelset(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fieldA
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

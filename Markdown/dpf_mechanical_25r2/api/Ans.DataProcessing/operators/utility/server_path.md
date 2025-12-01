@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.server_path
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Returns the platform-specific path to a folder in the Dpf server   ///available inputs: subpath (Int32) (optional)
-            available outputs: path (string)
-
-server_path()
-server_path(subpath: object, config: OperatorConfig)
-server_path(config: OperatorConfig)
+## Summary
 
+Returns the platform-specific path to a folder in the Dpf server
+
+available inputs: `subpath` (Int32) (optional)
+
+available outputs: `path` (string)
+
+## Example
+
+```python
+op = server_path()
+
+op = server_path(subpath=my_subpath)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ server_path(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### subpath
+
+Subpath of the Dpf server. Supported values: 0 (default): root of the server, 1: "dpf/bin/platform", 2: "aisol/bin(dll)/platform", 3: "dpf/plugins", 4: "dpf/workflows".
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### path
+
+Path to the requested folder in the Dpf server
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

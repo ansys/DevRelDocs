@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.mesh_plan_clip
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Clips a volume mesh along a plane and keeps one side.   ///available inputs: mesh_or_field (MeshedRegion, Field), normal (Field), origin (Field)
-            available outputs: field (Field), mesh (MeshedRegion)
-
-mesh_plan_clip()
-mesh_plan_clip(mesh_or_field: object, normal: object, origin: object, config: OperatorConfig)
-mesh_plan_clip(config: OperatorConfig)
+## Summary
 
+Clips a volume mesh along a plane and keeps one side.
+
+available inputs: `mesh_or_field` (MeshedRegion, Field), `normal` (Field), `origin` (Field)
+
+available outputs: `field` (Field), `mesh` (MeshedRegion)
+
+## Example
+
+```python
+op = mesh_plan_clip()
+
+op = mesh_plan_clip(mesh_or_field=my_mesh_or_field,normal=my_normal,origin=my_origin)
+```
 
 ## Class Information
 
@@ -21,6 +29,34 @@ mesh_plan_clip(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh_or_field
+
+**Type:** *LinkableInput*
+
+### normal
+
+An overall 3D vector that gives the normal direction of the plane.
+
+**Type:** *LinkableInput*
+
+### origin
+
+An overall 3D vector that gives a point of the plane.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
+
+### mesh
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

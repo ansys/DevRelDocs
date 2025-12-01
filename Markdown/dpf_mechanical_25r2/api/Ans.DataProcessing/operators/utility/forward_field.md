@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.forward_field
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Returns the input field or fields container.   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-forward_field()
-forward_field(field: object, config: OperatorConfig)
-forward_field(config: OperatorConfig)
+## Summary
 
+Returns the input field or fields container.
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = forward_field()
+
+op = forward_field(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ forward_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

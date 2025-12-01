@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.incremental.merge.property_field
 
 **Namespace:** [Ans.DataProcessing.operators.utility.incremental.merge](Ans_DataProcessing_operators_utility_incremental_merge.md)
 
-Incrementaly merge the input.   ///available inputs: input (PropertyField)
-            available outputs: incremented_result (object)
-
-property_field()
-property_field(input: object, config: OperatorConfig)
-property_field(config: OperatorConfig)
+## Summary
 
+Incrementaly merge the input.
+
+available inputs: `input` (PropertyField)
+
+available outputs: `incremented_result` (object)
+
+## Example
+
+```python
+op = property_field()
+
+op = property_field(input=my_input)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ property_field(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility.incremental.merge` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### input
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### incremented_result
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

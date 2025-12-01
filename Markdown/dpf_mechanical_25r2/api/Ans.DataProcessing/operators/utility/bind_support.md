@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.bind_support
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Ties a support to a field.   ///available inputs: field (Field, FieldsContainer), support (MeshedRegion, AbstractFieldSupport)
-            available outputs: field (Field)
-
-bind_support()
-bind_support(field: object, support: object, config: OperatorConfig)
-bind_support(config: OperatorConfig)
+## Summary
 
+Ties a support to a field.
+
+available inputs: `field` (Field, FieldsContainer), `support` (MeshedRegion, AbstractFieldSupport)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = bind_support()
+
+op = bind_support(field=my_field,support=my_support)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ bind_support(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### support
+
+meshed region or a support of the field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

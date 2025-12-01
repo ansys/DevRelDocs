@@ -6,13 +6,19 @@ uid: Ans.DataProcessing.DataSources
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Container of files paths on which the analysis results can be found
-
-DataSources()
-DataSources(pDataSources: IntPtr)
-DataSources(resultPath: str)
-DataSources(resultPath: str, extension: str)
+## Summary
 
+Container of files paths on which the analysis results can be found
+
+## Example
+
+```python
+my_data_sources = dpf.DataSources()
+
+my_data_sources.SetResultFilePath(r'c:/temp/file.rst')
+
+my_data_sources.AddFilePath(r'c:/temp/file.mode')
+```
 
 ## Class Information
 
@@ -77,6 +83,8 @@ result = obj.GetFilePath(key)
 
 #### SetResultFilePath
 
+Method `SetResultFilePath` change or set the result file path
+
 ```python
 obj.SetResultFilePath(filePath, sKey)
 ```
@@ -88,6 +96,8 @@ obj.SetResultFilePath(filePath, sKey)
 
 #### SetResultFilePath
 
+Method `SetResultFilePath` change or set the result file path
+
 ```python
 obj.SetResultFilePath(filePath)
 ```
@@ -97,6 +107,8 @@ obj.SetResultFilePath(filePath)
 - `filePath` (*str*)
 
 #### SetResultFilePath
+
+Method `SetResultFilePath` change or set the result file path
 
 ```python
 obj.SetResultFilePath(source, sKey)
@@ -108,6 +120,8 @@ obj.SetResultFilePath(source, sKey)
 - `sKey` (*str*)
 
 #### AddFilePath
+
+Method `AddFilePath` add secondary path containing part of the analysis' information
 
 ```python
 obj.AddFilePath(filePath, sKey, sResultKey)
@@ -121,6 +135,8 @@ obj.AddFilePath(filePath, sKey, sResultKey)
 
 #### AddFilePath
 
+Method `AddFilePath` add secondary path containing part of the analysis' information
+
 ```python
 obj.AddFilePath(filePath, sKey)
 ```
@@ -132,6 +148,8 @@ obj.AddFilePath(filePath, sKey)
 
 #### AddFilePath
 
+Method `AddFilePath` add secondary path containing part of the analysis' information
+
 ```python
 obj.AddFilePath(filePath)
 ```
@@ -142,6 +160,8 @@ obj.AddFilePath(filePath)
 
 #### AppendUpStreamDataSources
 
+Method `AppendUpStreamDataSources`the recursivity of specific results (mainly expansion results) can be defined with upstreams
+
 ```python
 obj.AppendUpStreamDataSources(up_stream)
 ```
@@ -151,6 +171,8 @@ obj.AppendUpStreamDataSources(up_stream)
 - `up_stream` (*DataSources*)
 
 #### SetDomainResultFilePath
+
+Method `SetDomainResultFilePath` change or set the domain result file path
 
 ```python
 obj.SetDomainResultFilePath(filePath, sKey, id)
@@ -164,6 +186,8 @@ obj.SetDomainResultFilePath(filePath, sKey, id)
 
 #### SetDomainResultFilePath
 
+Method `SetDomainResultFilePath` change or set the domain result file path
+
 ```python
 obj.SetDomainResultFilePath(filePath, id)
 ```
@@ -174,6 +198,8 @@ obj.SetDomainResultFilePath(filePath, id)
 - `id` (*int*)
 
 #### AddDomainFilePath
+
+Method `SetDomainResultFilePath` change or set the domain result file path
 
 ```python
 obj.AddDomainFilePath(filePath, sKey, id)
@@ -197,6 +223,8 @@ result = obj.GetInternalData()
 
 #### ResultFileKey
 
+Property `ResultFileKey` extension of the results contained in the data sources
+
 **Type:** *str*
 
 ```python
@@ -205,6 +233,8 @@ value = obj.ResultFileKey
 ```
 
 #### ResultFilePath
+
+Property `ResultFilePath` path to the result file registered in the data sources
 
 **Type:** *str*
 

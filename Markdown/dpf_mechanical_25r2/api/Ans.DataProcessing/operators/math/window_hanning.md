@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.window_hanning
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Apply hanning windowing on a given FieldsContainer having time label or a Field located on time. Assume that time sampling is evenly spaced (use time_freq_interpolation before otherwise).   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field ,FieldsContainer)
-
-window_hanning()
-window_hanning(field: object, config: OperatorConfig)
-window_hanning(config: OperatorConfig)
+## Summary
 
+Apply hanning windowing on a given FieldsContainer having time label or a Field located on time. Assume that time sampling is evenly spaced (use time_freq_interpolation before otherwise).
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field ,FieldsContainer)
+
+## Example
+
+```python
+op = window_hanning()
+
+op = window_hanning(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ window_hanning(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

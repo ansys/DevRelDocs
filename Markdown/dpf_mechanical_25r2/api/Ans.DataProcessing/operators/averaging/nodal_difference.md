@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.averaging.nodal_difference
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-Transforms an Elemental Nodal field into a Nodal field. Each nodal value is the maximum difference between the unaveraged computed result for all elements that share this particular node. The result is computed on a given node's scoping.   ///available inputs: field (Field, FieldsContainer), mesh_scoping (Scoping) (optional), mesh (MeshedRegion) (optional)
-            available outputs: field (Field)
-
-nodal_difference()
-nodal_difference(field: object, mesh_scoping: object, mesh: object, config: OperatorConfig)
-nodal_difference(config: OperatorConfig)
+## Summary
 
+Transforms an Elemental Nodal field into a Nodal field. Each nodal value is the maximum difference between the unaveraged computed result for all elements that share this particular node. The result is computed on a given node's scoping.
+
+available inputs: `field` (Field, FieldsContainer), `mesh_scoping` (Scoping) (optional), `mesh` (MeshedRegion) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = nodal_difference()
+
+op = nodal_difference(field=my_field,mesh_scoping=my_mesh_scoping,mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ nodal_difference(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.averaging` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+average only on these entities
+
+**Type:** *LinkableInput*
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

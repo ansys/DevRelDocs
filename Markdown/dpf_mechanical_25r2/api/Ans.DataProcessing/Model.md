@@ -6,13 +6,25 @@ uid: Ans.DataProcessing.Model
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Entity able to access the model's metadata and results thanks to the result file path
-
-Model(allowKeepFileOpen: bool)
-Model(dataSources: DataSources, allowKeepFileOpen: bool)
-Model(resultPath: str, extension: str, allowKeepFileOpen: bool)
-Model(resultPath: str, allowKeepFileOpen: bool)
+## Summary
 
+Entity able to access the model's metadata and results thanks to the result file path
+
+## Example
+
+```python
+my_model = Ans.DataProcessing.Model(r"../.../file.rst")
+
+my_model.TimeFreqSupport.NumberSets
+
+my_model.MeshedRegion.NodeCount
+
+my_model.MeshedRegion.ElementCount
+
+my_model.ResultInfo.PhysicsType
+
+disp_op = my_model.results.displacement()
+```
 
 ## Class Information
 
@@ -71,6 +83,8 @@ Model(resultPath, allowKeepFileOpen)
 
 #### SetResultFilePath
 
+Method `SetResultFilePath` change or set the result file path
+
 ```python
 obj.SetResultFilePath(filePath, sKey)
 ```
@@ -82,11 +96,15 @@ obj.SetResultFilePath(filePath, sKey)
 
 #### ReleaseStreams
 
+Method `ReleaseStreams` if the model was allowed to keep files open using streams (see constructors), this method closes the files.
+
 ```python
 obj.ReleaseStreams()
 ```
 
 #### CreateOperator
+
+Method `CreateOperator` create an operator with its name and connect the datasources/streams to it. If plugins have been loaded, inputs and outputs APIs are available.
 
 ```python
 result = obj.CreateOperator(opName, config)
@@ -109,6 +127,8 @@ result = obj.ToString()
 
 #### GetNamedSelection
 
+Method `GetNamedSelection` get the scoping related to the asked named selection
+
 ```python
 result = obj.GetNamedSelection(name)
 ```
@@ -123,6 +143,8 @@ result = obj.GetNamedSelection(name)
 
 #### results
 
+Access results provider of the model
+
 **Type:** *ModelsResults*
 
 ```python
@@ -132,6 +154,8 @@ obj.results = new_value
 ```
 
 #### DataSources
+
+Property `DataSources` containing the file paths
 
 **Type:** *DataSources*
 
@@ -143,6 +167,8 @@ obj.DataSources = new_value
 
 #### TimeFreqSupport
 
+Property `TimeFreqSupport` describes the time or frequency support of the model
+
 **Type:** *TimeFreqSupport*
 
 ```python
@@ -151,6 +177,8 @@ value = obj.TimeFreqSupport
 ```
 
 #### TimeFreqSupportProvider
+
+Property `TimeFreqSupportProvider` operator allowing to access the TimeFreqSupport
 
 **Type:** *BaseOperator*
 
@@ -161,6 +189,8 @@ value = obj.TimeFreqSupportProvider
 
 #### Mesh
 
+Property `Mesh` contains spatial information of the model
+
 **Type:** *MeshedRegion*
 
 ```python
@@ -169,6 +199,8 @@ value = obj.Mesh
 ```
 
 #### MeshProvider
+
+Property `MeshProvider` operator allowing to access the MeshedRegion
 
 **Type:** *BaseOperator*
 
@@ -179,6 +211,8 @@ value = obj.MeshProvider
 
 #### ResultInfo
 
+Property `ResultInfo` contains information about the analysis
+
 **Type:** *ResultInfo*
 
 ```python
@@ -188,6 +222,8 @@ value = obj.ResultInfo
 
 #### ResultInfoProvider
 
+Property `ResultInfoProvider` operator allowing to access the ResultInfo
+
 **Type:** *BaseOperator*
 
 ```python
@@ -196,6 +232,8 @@ value = obj.ResultInfoProvider
 ```
 
 #### ResultFilePath
+
+Property `ResultFilePath` path to the result file registered in the data sources
 
 **Type:** *str*
 
@@ -207,6 +245,8 @@ obj.ResultFilePath = new_value
 
 #### StreamsProvider
 
+Property `StreamsProvider` operator allowing to access the Streams containing the DataSources and allowing to keep some data in cache
+
 **Type:** *Operator*
 
 ```python
@@ -215,6 +255,8 @@ value = obj.StreamsProvider
 ```
 
 #### AvailableNamedSelections
+
+Property `AvailableNamedSelections` list of named selections' names availables in the mesh
 
 **Type:** *list*
 

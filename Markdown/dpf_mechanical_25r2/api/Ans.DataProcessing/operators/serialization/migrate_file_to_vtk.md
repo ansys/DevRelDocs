@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.serialization.migrate_file_to_vtk
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 
-Take an input data sources or streams and convert as much data as possible to vtk.   ///available inputs: output_filename (string) (optional), streams_container (StreamsContainer) (optional), data_sources (DataSources) (optional)
-            available outputs: data_sources (DataSources)
-
-migrate_file_to_vtk()
-migrate_file_to_vtk(output_filename: object, streams_container: object, data_sources: object, config: OperatorConfig)
-migrate_file_to_vtk(config: OperatorConfig)
+## Summary
 
+Take an input data sources or streams and convert as much data as possible to vtk.
+
+available inputs: `output_filename` (string) (optional), `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources) (optional)
+
+available outputs: `data_sources` (DataSources)
+
+## Example
+
+```python
+op = migrate_file_to_vtk()
+
+op = migrate_file_to_vtk(output_filename=my_output_filename,streams_container=my_streams_container,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,28 @@ migrate_file_to_vtk(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.serialization` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### output_filename
+
+**Type:** *LinkableInput*
+
+### streams_container
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### data_sources
+
+Generated output vtk file
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

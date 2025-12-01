@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.norm
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes the element-wise Lp norm of the field elementary data. Default Lp=L2   ///available inputs: field (Field, FieldsContainer), scalar_int (Int32) (optional)
-            available outputs: field (Field)
-
-norm()
-norm(field: object, scalar_int: object, config: OperatorConfig)
-norm(config: OperatorConfig)
+## Summary
 
+Computes the element-wise Lp norm of the field elementary data. Default Lp=L2
+
+available inputs: `field` (Field, FieldsContainer), `scalar_int` (Int32) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = norm()
+
+op = norm(field=my_field,scalar_int=my_scalar_int)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ norm(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### scalar_int
+
+Lp normalisation type, p = 1, 2, ...n - Default Lp=L2
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.time_integration
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Integrates a field of time varying quantities over time   ///available inputs: field (Field), resample_output (bool) (optional), absolute_error (double) (optional), minimum_step_size (double) (optional), integration_constant (double) (optional)
-            available outputs: field (Field)
-
-time_integration()
-time_integration(field: object, resample_output: object, absolute_error: object, minimum_step_size: object, integration_constant: object, config: OperatorConfig)
-time_integration(config: OperatorConfig)
+## Summary
 
+Integrates a field of time varying quantities over time
+
+available inputs: `field` (Field), `resample_output` (bool) (optional), `absolute_error` (double) (optional), `minimum_step_size` (double) (optional), `integration_constant` (double) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = time_integration()
+
+op = time_integration(field=my_field,resample_output=my_resample_output,absolute_error=my_absolute_error,minimum_step_size=my_minimum_step_size,integration_constant=my_integration_constant)
+```
 
 ## Class Information
 
@@ -21,6 +29,44 @@ time_integration(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field
+
+**Type:** *LinkableInput*
+
+### resample_output
+
+Resample the output
+
+**Type:** *LinkableInput*
+
+### absolute_error
+
+Absolute error for the resampling
+
+**Type:** *LinkableInput*
+
+### minimum_step_size
+
+Minimum time step size for the resamplig
+
+**Type:** *LinkableInput*
+
+### integration_constant
+
+Constant to be added to the integrated field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

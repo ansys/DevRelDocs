@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.scoping.change_fc
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 
-DEPRECATED, PLEASE USE ADAPT WITH SCOPINGS CONTAINER. Rescopes/splits a fields container to correspond to a scopings container.   ///available inputs: field_or_fields_container (FieldsContainer, Field), scopings_container (ScopingsContainer)
-            available outputs: fields_container (FieldsContainer)
-
-change_fc()
-change_fc(field_or_fields_container: object, scopings_container: object, config: OperatorConfig)
-change_fc(config: OperatorConfig)
+## Summary
 
+DEPRECATED, PLEASE USE ADAPT WITH SCOPINGS CONTAINER. Rescopes/splits a fields container to correspond to a scopings container.
+
+available inputs: `field_or_fields_container` (FieldsContainer, Field), `scopings_container` (ScopingsContainer)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = change_fc()
+
+op = change_fc(field_or_fields_container=my_field_or_fields_container,scopings_container=my_scopings_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ change_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.scoping` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field_or_fields_container
+
+**Type:** *LinkableInput*
+
+### scopings_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -19,6 +19,46 @@ modal_damping_ratio(config: OperatorConfig)
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### natural_freq
+
+input vector expects natural frequencies.
+
+**Type:** *LinkableInput*
+
+### const_ratio
+
+constant modal damping ratio
+
+**Type:** *LinkableInput*
+
+### ratio_by_modes
+
+modal damping ratio for each mode shape
+
+**Type:** *LinkableInput*
+
+### m_coefficient
+
+global mass matrix multiplier
+
+**Type:** *LinkableInput*
+
+### k_coefficient
+
+global stiffness matrix multiplier
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+field of modal damping ratio.
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

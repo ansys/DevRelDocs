@@ -19,6 +19,52 @@ correlation(config: OperatorConfig)
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### fieldA
+
+Field a. The reference field.
+
+**Type:** *LinkableInput*
+
+### fieldB
+
+Field b. If a fields container is provided, correlation is computed for each field.
+
+**Type:** *LinkableInput*
+
+### weights
+
+Field M, optional weighting for correlation computation.
+
+**Type:** *LinkableInput*
+
+### ponderation
+
+Deprecated alias of: weights
+
+**Type:** *LinkableInput*
+
+### absoluteValue
+
+If true, correlation factor is ||aMb||/(||aMa||.||bMb||)
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+Correlation factor for each input field b.
+
+**Type:** *LinkableOutput*
+
+### index
+
+If several b are provided, this output contains the index of the highest correlation factor.
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

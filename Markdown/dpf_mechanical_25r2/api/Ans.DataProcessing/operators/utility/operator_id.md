@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.operator_id
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Return the id of an Operator.   ///available inputs: op (Operator)
-            available outputs: id (Int32)
-
-operator_id()
-operator_id(op: object, config: OperatorConfig)
-operator_id(config: OperatorConfig)
+## Summary
 
+Return the id of an Operator.
+
+available inputs: `op` (Operator)
+
+available outputs: `id` (Int32)
+
+## Example
+
+```python
+op = operator_id()
+
+op = operator_id(op=my_op)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ operator_id(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### op
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### id
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

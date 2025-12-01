@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.pow_fc
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes element-wise field[i]^p.   ///available inputs: fields_container (FieldsContainer), factor (double)
-            available outputs: fields_container (FieldsContainer)
-
-pow_fc()
-pow_fc(fields_container: object, factor: object, config: OperatorConfig)
-pow_fc(config: OperatorConfig)
+## Summary
 
+Computes element-wise field[i]^p.
+
+available inputs: `fields_container` (FieldsContainer), `factor` (double)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = pow_fc()
+
+op = pow_fc(fields_container=my_fields_container,factor=my_factor)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ pow_fc(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### factor
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.sin
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes element-wise sin(field[i]).   ///available inputs: field (Field)
-            available outputs: field (Field)
-
-sin()
-sin(field: object, config: OperatorConfig)
-sin(config: OperatorConfig)
+## Summary
 
+Computes element-wise sin(field[i]).
+
+available inputs: `field` (Field)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = sin()
+
+op = sin(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ sin(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

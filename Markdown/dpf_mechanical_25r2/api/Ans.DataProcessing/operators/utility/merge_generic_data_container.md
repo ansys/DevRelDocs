@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.merge_generic_data_container
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Merges a list of generic data container. For each data entry, the merge operation is forwarded to the correct merge Operator. Primitive types cannot be merged, first instance found will be maintained in the result.   ///available inputs: generic_data_container1 (GenericDataContainer), generic_data_container2 (GenericDataContainer)
-            available outputs: generic_data_container (GenericDataContainer)
-
-merge_generic_data_container()
-merge_generic_data_container(generic_data_container1: object, generic_data_container2: object, config: OperatorConfig)
-merge_generic_data_container(config: OperatorConfig)
+## Summary
 
+Merges a list of generic data container. For each data entry, the merge operation is forwarded to the correct merge Operator. Primitive types cannot be merged, first instance found will be maintained in the result.
+
+available inputs: `generic_data_container1` (GenericDataContainer), `generic_data_container2` (GenericDataContainer)
+
+available outputs: `generic_data_container` (GenericDataContainer)
+
+## Example
+
+```python
+op = merge_generic_data_container()
+
+op = merge_generic_data_container(generic_data_container1=my_generic_data_container1,generic_data_container2=my_generic_data_container2)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ merge_generic_data_container(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### generic_data_container1
+
+Either a vector of generic data containers (sharing the same data types) or generic data containers from pin 0 to ... to merge. Supported types rely on existing type specific merge operators.
+
+**Type:** *LinkableInput*
+
+### generic_data_container2
+
+Either a vector of generic data containers (sharing the same data types) or generic data containers from pin 0 to ... to merge. Supported types rely on existing type specific merge operators.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### generic_data_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

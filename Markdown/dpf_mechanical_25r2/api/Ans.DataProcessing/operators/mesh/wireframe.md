@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.mesh.wireframe
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-Take a mesh and extracts its sharp edges, using pin 1 value as a threshold angle.   ///available inputs: mesh (MeshedRegion), threshold (double)
-            available outputs: wireframe (MeshedRegion)
-
-wireframe()
-wireframe(mesh: object, threshold: object, config: OperatorConfig)
-wireframe(config: OperatorConfig)
+## Summary
 
+Take a mesh and extracts its sharp edges, using pin 1 value as a threshold angle.
+
+available inputs: `mesh` (MeshedRegion), `threshold` (double)
+
+available outputs: `wireframe` (MeshedRegion)
+
+## Example
+
+```python
+op = wireframe()
+
+op = wireframe(mesh=my_mesh,threshold=my_threshold)
+```
 
 ## Class Information
 
@@ -21,6 +29,24 @@ wireframe(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.mesh` |
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+### threshold
+
+angle threshold in radian that will trigger an edge detection.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### wireframe
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

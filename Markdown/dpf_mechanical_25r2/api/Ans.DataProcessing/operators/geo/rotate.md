@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.geo.rotate
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 
-Applies a transformation (rotation) matrix on a field.   ///available inputs: field (Field, FieldsContainer), field_rotation_matrix (Field)
-            available outputs: field (Field)
-
-rotate()
-rotate(field: object, field_rotation_matrix: object, config: OperatorConfig)
-rotate(config: OperatorConfig)
+## Summary
 
+Applies a transformation (rotation) matrix on a field.
+
+available inputs: `field` (Field, FieldsContainer), `field_rotation_matrix` (Field)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = rotate()
+
+op = rotate(field=my_field,field_rotation_matrix=my_field_rotation_matrix)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ rotate(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.geo` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### field_rotation_matrix
+
+3-3 rotation matrix
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.cms_dst_table_provider
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Read CST table from a subfile.   ///available inputs: data_sources (DataSources)
-            available outputs: dst_table (PropertyField)
-
-cms_dst_table_provider()
-cms_dst_table_provider(data_sources: object, config: OperatorConfig)
-cms_dst_table_provider(config: OperatorConfig)
+## Summary
 
+Read CST table from a subfile.
+
+available inputs: `data_sources` (DataSources)
+
+available outputs: `dst_table` (PropertyField)
+
+## Example
+
+```python
+op = cms_dst_table_provider()
+
+op = cms_dst_table_provider(data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,22 @@ cms_dst_table_provider(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `mapdlOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### data_sources
+
+Data_sources (must contain at least one subfile).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### dst_table
+
+returns integer values of the dst table
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.svd
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Computes the matrix singular value decomposition (SVD) for each field in the given fields container.   ///available inputs: fields_container (FieldsContainer)
-            available outputs: s_svd (FieldsContainer), u_svd (FieldsContainer), vt_svd (FieldsContainer)
-
-svd()
-svd(fields_container: object, config: OperatorConfig)
-svd(config: OperatorConfig)
+## Summary
 
+Computes the matrix singular value decomposition (SVD) for each field in the given fields container.
+
+available inputs: `fields_container` (FieldsContainer)
+
+available outputs: `s_svd` (FieldsContainer), `u_svd` (FieldsContainer), `vt_svd` (FieldsContainer)
+
+## Example
+
+```python
+op = svd()
+
+op = svd(fields_container=my_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,34 @@ svd(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### fields_container
+
+fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### s_svd
+
+Singular values of the input data, where A=U.S.Vt
+
+**Type:** *LinkableOutput*
+
+### u_svd
+
+U of the input data, where A=U.S.Vt
+
+**Type:** *LinkableOutput*
+
+### vt_svd
+
+Vt of the input data, where A=U.S.Vt
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.scoping.elemental_from_mesh
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 
-Retrieves the elemental scoping of a given input mesh, which contains the element IDs.   ///available inputs: mesh (MeshedRegion)
-            available outputs: mesh_scoping (Scoping)
-
-elemental_from_mesh()
-elemental_from_mesh(mesh: object, config: OperatorConfig)
-elemental_from_mesh(config: OperatorConfig)
+## Summary
 
+Retrieves the elemental scoping of a given input mesh, which contains the element IDs.
+
+available inputs: `mesh` (MeshedRegion)
+
+available outputs: `mesh_scoping` (Scoping)
+
+## Example
+
+```python
+op = elemental_from_mesh()
+
+op = elemental_from_mesh(mesh=my_mesh)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ elemental_from_mesh(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.scoping` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### mesh
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mesh_scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.invert
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-DEPRECATED, PLEASE USE DIVIDE. Computes the element-wise and component-wise inverse of a field (1./x).   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field)
-
-invert()
-invert(field: object, config: OperatorConfig)
-invert(config: OperatorConfig)
+## Summary
 
+DEPRECATED, PLEASE USE DIVIDE. Computes the element-wise and component-wise inverse of a field (1./x).
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = invert()
+
+op = invert(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,20 @@ invert(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

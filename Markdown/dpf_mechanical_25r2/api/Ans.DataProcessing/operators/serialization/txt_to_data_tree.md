@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.serialization.txt_to_data_tree
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 
-Reads a txt file or string to a DataTree   ///available inputs: string_or_path (string, DataSources)
-            available outputs: data_tree (DataTree)
-
-txt_to_data_tree()
-txt_to_data_tree(string_or_path: object, config: OperatorConfig)
-txt_to_data_tree(config: OperatorConfig)
+## Summary
 
+Reads a txt file or string to a DataTree
+
+available inputs: `string_or_path` (string, DataSources)
+
+available outputs: `data_tree` (DataTree)
+
+## Example
+
+```python
+op = txt_to_data_tree()
+
+op = txt_to_data_tree(string_or_path=my_string_or_path)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ txt_to_data_tree(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.serialization` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### string_or_path
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### data_tree
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.rigid_transformation
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Extracts rigid body motions from a displacement in input.   ///available inputs: streams_container (StreamsContainer) (optional), data_sources (DataSources)
-            available outputs: fields_container (FieldsContainer)
-
-rigid_transformation()
-rigid_transformation(streams_container: object, data_sources: object, config: OperatorConfig)
-rigid_transformation(config: OperatorConfig)
+## Summary
 
+Extracts rigid body motions from a displacement in input.
+
+available inputs: `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = rigid_transformation()
+
+op = rigid_transformation(streams_container=my_streams_container,data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,26 @@ rigid_transformation(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### streams_container
+
+streams (result file container) (optional)
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+If the stream is null, retrieves the file path from the data sources.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

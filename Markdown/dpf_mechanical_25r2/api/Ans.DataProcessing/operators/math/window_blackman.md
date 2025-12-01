@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.math.window_blackman
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-Apply blackman windowing on a given FieldsContainer having time label or a Field located on time. Assume that time sampling is evenly spaced (use time_freq_interpolation before otherwise).   ///available inputs: field (Field, FieldsContainer)
-            available outputs: field (Field ,FieldsContainer)
-
-window_blackman()
-window_blackman(field: object, config: OperatorConfig)
-window_blackman(config: OperatorConfig)
+## Summary
 
+Apply blackman windowing on a given FieldsContainer having time label or a Field located on time. Assume that time sampling is evenly spaced (use time_freq_interpolation before otherwise).
+
+available inputs: `field` (Field, FieldsContainer)
+
+available outputs: `field` (Field ,FieldsContainer)
+
+## Example
+
+```python
+op = window_blackman()
+
+op = window_blackman(field=my_field)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ window_blackman(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.math` |
 | Assembly | `Ans_Dpf_Math_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

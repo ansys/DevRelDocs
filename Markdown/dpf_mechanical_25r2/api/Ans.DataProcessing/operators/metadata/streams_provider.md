@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.metadata.streams_provider
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 
-Creates streams (files with cache) from the data sources.   ///available inputs: data_sources (DataSources)
-            available outputs: streams_container (StreamsContainer)
-
-streams_provider()
-streams_provider(data_sources: object, config: OperatorConfig)
-streams_provider(config: OperatorConfig)
+## Summary
 
+Creates streams (files with cache) from the data sources.
+
+available inputs: `data_sources` (DataSources)
+
+available outputs: `streams_container` (StreamsContainer)
+
+## Example
+
+```python
+op = streams_provider()
+
+op = streams_provider(data_sources=my_data_sources)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ streams_provider(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.metadata` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### streams_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

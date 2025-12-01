@@ -56,6 +56,8 @@ obj.Add(id, data)
 
 #### GetEntityDataByIndex
 
+Method `GetEntityDataByIndex` data container of the entity asked
+
 ```python
 result = obj.GetEntityDataByIndex(index)
 ```
@@ -67,6 +69,8 @@ result = obj.GetEntityDataByIndex(index)
 **Returns:** *list*
 
 #### GetEntityDataById
+
+Method `GetEntityDataById` data container of the entity asked
 
 ```python
 result = obj.GetEntityDataById(id)
@@ -90,6 +94,8 @@ result = obj.GetInternalData()
 
 #### ElementaryDataCount
 
+Property `ElementaryDataCount` number of times numComp can be found in the data container
+
 **Type:** *int*
 
 ```python
@@ -98,6 +104,10 @@ value = obj.ElementaryDataCount
 ```
 
 #### Data
+
+Property `Data`access the data container row values
+
+ Data can be seen as a list of elementary data (one by scoping id)
 
 **Type:** *list*
 
@@ -108,6 +118,8 @@ obj.Data = new_value
 ```
 
 #### Scoping
+
+Property `Scoping` entities ids representing a subset of the model and on which the data container is scoped
 
 **Type:** *Scoping*
 

@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.result.global_rigid_body_stopper_energy
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-Read Global Rigid Body Stopper Energy (LSDyna) by calling the readers defined by the datasources.   ///available inputs: streams_container (StreamsContainer) (optional), data_sources (DataSources), unit_system (Int32, string) (optional)
-            available outputs: fields_container (FieldsContainer)
-
-global_rigid_body_stopper_energy()
-global_rigid_body_stopper_energy(data_sources: object, unit_system: object, config: OperatorConfig)
-global_rigid_body_stopper_energy(config: OperatorConfig)
+## Summary
 
+Read Global Rigid Body Stopper Energy (LSDyna) by calling the readers defined by the datasources.
+
+available inputs: `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources), `unit_system` (Int32, string) (optional)
+
+available outputs: `fields_container` (FieldsContainer)
+
+## Example
+
+```python
+op = global_rigid_body_stopper_energy()
+
+op = global_rigid_body_stopper_energy(data_sources=my_data_sources,unit_system=my_unit_system)
+```
 
 ## Class Information
 
@@ -21,6 +29,32 @@ global_rigid_body_stopper_energy(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.result` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### streams_container
+
+result file container allowed to be kept open to cache data
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+result file path container, used if no streams are set
+
+**Type:** *LinkableInput*
+
+### unit_system
+
+Unit System ID (int), semicolon-separated list of base unit strings (str) or UnitSystem instance
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

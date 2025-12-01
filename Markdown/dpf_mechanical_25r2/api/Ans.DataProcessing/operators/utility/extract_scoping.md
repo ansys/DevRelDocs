@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.utility.extract_scoping
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-Takes a field or a fields container and extracts its scoping or scopings container.   ///available inputs: field_or_fields_container (Field, FieldsContainer) (optional)
-            available outputs: mesh_scoping (Scoping ,ScopingsContainer)
-
-extract_scoping()
-extract_scoping(field_or_fields_container: object, config: OperatorConfig)
-extract_scoping(config: OperatorConfig)
+## Summary
 
+Takes a field or a fields container and extracts its scoping or scopings container.
+
+available inputs: `field_or_fields_container` (Field, FieldsContainer) (optional)
+
+available outputs: `mesh_scoping` (Scoping ,ScopingsContainer)
+
+## Example
+
+```python
+op = extract_scoping()
+
+op = extract_scoping(field_or_fields_container=my_field_or_fields_container)
+```
 
 ## Class Information
 
@@ -21,6 +29,18 @@ extract_scoping(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.utility` |
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field_or_fields_container
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### mesh_scoping
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

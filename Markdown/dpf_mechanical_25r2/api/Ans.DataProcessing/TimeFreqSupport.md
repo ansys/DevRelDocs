@@ -6,14 +6,37 @@ uid: Ans.DataProcessing.TimeFreqSupport
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-The time freq support describes an analysis' temporal or frequential space. 
-            For a transient or static analysis all the time sets cumulatives indices with their times and their load steps are described. 
-            For a harmonic analysis, the real and imaginary frequencies, the RPMs, the load steps are described.
-            For a modal analysis, the modes frequencies can be found.
-
-TimeFreqSupport()
-TimeFreqSupport(pTimeFreqSupport: IntPtr)
+## Summary
 
+The time freq support describes an analysis' temporal or frequential space.
+
+For a transient or static analysis all the time sets cumulatives indices with their times and their load steps are described.
+
+For a harmonic analysis, the real and imaginary frequencies, the RPMs, the load steps are described.
+
+For a modal analysis, the modes frequencies can be found.
+
+## Example
+
+```python
+my_model = dpf.Model("../.../file.rst")
+
+time_freq = my_model.TimeFreqSupport
+
+#get number of time/freq sets
+
+time_freq.NumberSets
+
+# get field of real time freqs
+
+my_time_freq_field = time_freq.TimeFreqs
+
+my_time_freq_field.Unit #usually s or Hz
+
+#get time or freqs on the first load step
+
+my_time_freq_field.GetEntityDataById(1)
+```
 
 ## Class Information
 
@@ -53,6 +76,8 @@ result = obj.GetInternalData()
 
 #### GetHarmonicIndices
 
+Method `GetHarmonicIndices` return the harmonic indices field that matches with the specified stage number
+
 ```python
 result = obj.GetHarmonicIndices(num_stage)
 ```
@@ -64,6 +89,8 @@ result = obj.GetHarmonicIndices(num_stage)
 **Returns:** *Field*
 
 #### SetHarmonicIndices
+
+Method `SetHarmonicIndices` set the TimeFreqSupport harmonic indices field for a specified stage number
 
 ```python
 obj.SetHarmonicIndices(field, num_stage)
@@ -89,6 +116,10 @@ result = obj.GetTimeFreqCummulativeIndex(dVal, i1, i2)
 **Returns:** *int*
 
 #### GetTimeFreqCummulativeIndex
+
+Method `GetTimeFreqCummulativeIndex` return the index through all the steps of the step and substep asked
+
+This cumulative index + 1 allow to request specific time set to the result provider (stress, strain...)
 
 ```python
 result = obj.GetTimeFreqCummulativeIndex(stepIndex, subStepIndex)
@@ -117,6 +148,8 @@ result = obj.GetImaginaryFreqsCummulativeIndex(dVal, i1, i2)
 
 #### GetTimeFreq
 
+Method `GetTimeFreq` return the time or frequency at the step and substep asked
+
 ```python
 result = obj.GetTimeFreq(stepIndex, subStepIndex)
 ```
@@ -129,6 +162,8 @@ result = obj.GetTimeFreq(stepIndex, subStepIndex)
 **Returns:** *float*
 
 #### GetImaginaryFreq
+
+Method `GetImaginaryFreq` return the time or frequency at the step and substep asked
 
 ```python
 result = obj.GetImaginaryFreq(stepIndex, subStepIndex)
@@ -143,6 +178,8 @@ result = obj.GetImaginaryFreq(stepIndex, subStepIndex)
 
 #### GetTimeFreq
 
+Method `GetTimeFreq` return the time or frequency at the cumulative index asked
+
 ```python
 result = obj.GetTimeFreq(iCumulativeIndex)
 ```
@@ -155,6 +192,8 @@ result = obj.GetTimeFreq(iCumulativeIndex)
 
 #### GetImaginaryFreq
 
+Method `GetImaginaryFreq` return the time or frequency at the cumulative index asked
+
 ```python
 result = obj.GetImaginaryFreq(iCumulativeIndex)
 ```
@@ -166,6 +205,8 @@ result = obj.GetImaginaryFreq(iCumulativeIndex)
 **Returns:** *float*
 
 #### GetCyclicHarmonicIndex
+
+Method `GetCyclicHarmonicIndex` return the cyclic harmonic index at the cumulative index asked
 
 ```python
 result = obj.GetCyclicHarmonicIndex(iCumulativeIndex)
@@ -195,6 +236,8 @@ obj.AppendStep(step_id, step_time_frequencies, step_complex_frequencies, rpm_val
 
 #### NumberSets
 
+Property `NumberSets` number of time/freq sets in the model (in all the steps)
+
 **Type:** *int*
 
 ```python
@@ -203,6 +246,8 @@ value = obj.NumberSets
 ```
 
 #### TimeFreqs
+
+Property `TimeFreqs` field of time frequency of the model. Each entity data of the field is a time/freq step
 
 **Type:** *Field*
 
@@ -214,6 +259,8 @@ obj.TimeFreqs = new_value
 
 #### ImaginaryFreqs
 
+Property `TimeFreqs` field of the imaginary time frequency of the model. Each entity data of the field is a time/freq step
+
 **Type:** *Field*
 
 ```python
@@ -223,6 +270,8 @@ obj.ImaginaryFreqs = new_value
 ```
 
 #### Rpms
+
+Property `Rpms` field having one rpm value by step
 
 **Type:** *Field*
 

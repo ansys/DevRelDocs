@@ -6,13 +6,21 @@ uid: Ans.DataProcessing.operators.averaging.nodal_to_elemental_nodal
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-Transforms a Nodal field to an ElementalNodal field, The result is computed on a given element's scoping.   ///available inputs: field (Field, FieldsContainer), mesh_scoping (Scoping) (optional), collapse_shell_layers (bool) (optional)
-            available outputs: field (Field)
-
-nodal_to_elemental_nodal()
-nodal_to_elemental_nodal(field: object, mesh_scoping: object, collapse_shell_layers: object, config: OperatorConfig)
-nodal_to_elemental_nodal(config: OperatorConfig)
+## Summary
 
+Transforms a Nodal field to an ElementalNodal field, The result is computed on a given element's scoping.
+
+available inputs: `field` (Field, FieldsContainer), `mesh_scoping` (Scoping) (optional), `collapse_shell_layers` (bool) (optional)
+
+available outputs: `field` (Field)
+
+## Example
+
+```python
+op = nodal_to_elemental_nodal()
+
+op = nodal_to_elemental_nodal(field=my_field,mesh_scoping=my_mesh_scoping,collapse_shell_layers=my_collapse_shell_layers)
+```
 
 ## Class Information
 
@@ -21,6 +29,30 @@ nodal_to_elemental_nodal(config: OperatorConfig)
 | Namespace | `Ans.DataProcessing.operators.averaging` |
 | Assembly | `Ans_Dpf_FEMutils_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
+
+## Inputs
+
+### field
+
+field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### mesh_scoping
+
+**Type:** *LinkableInput*
+
+### collapse_shell_layers
+
+If true, the data across different shell layers is averaged as well (default is false).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### field
+
+**Type:** *LinkableOutput*
 
 ## Constructors
 

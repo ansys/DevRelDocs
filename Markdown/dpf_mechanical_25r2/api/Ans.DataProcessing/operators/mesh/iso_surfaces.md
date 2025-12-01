@@ -19,6 +19,48 @@ iso_surfaces(config: OperatorConfig)
 | Assembly | `meshOperatorsCore_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### field
+
+Field containing the values for the iso-surface computation. The mesh can be retrieved from this field's support or through pin 2.
+
+**Type:** *LinkableInput*
+
+### num_surfaces
+
+If provided, iso_values are linearly computed between the min and the max of the field of results. If not, iso_values must be provided by the user through pin 4
+
+**Type:** *LinkableInput*
+
+### mesh
+
+Mesh to compute the iso-surface from. Used when not given through the support of the field in pin 0.
+
+**Type:** *LinkableInput*
+
+### slice_surfaces
+
+True: slicing will also take into account shell and skin elements. False: slicing will ignore shell and skin elements. The default is true.
+
+**Type:** *LinkableInput*
+
+### vector_iso_values
+
+If provided, user defined iso_values to compute. If not provided, iso_values are linearly compute between the min and the max of the field of results.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### meshes
+
+**Type:** *LinkableOutput*
+
+### fields_container
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor

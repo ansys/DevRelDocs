@@ -6,10 +6,9 @@ uid: Ans.DataProcessing.CyclicSupport
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-The cyclic support has information to allow cyclic expansion (or multistage)
-
-CyclicSupport(ptrSupport: IntPtr)
+## Summary
 
+The cyclic support has information to allow cyclic expansion (or multistage)
 
 ## Class Information
 
@@ -43,6 +42,8 @@ result = obj.GetInternalData()
 
 #### GetNumSectors
 
+Method `GetNumSectors` returns the number of sectors necessary to do 360deg
+
 ```python
 result = obj.GetNumSectors(istage)
 ```
@@ -54,6 +55,10 @@ result = obj.GetNumSectors(istage)
 **Returns:** *int*
 
 #### GetSectorsScoping
+
+Method `GetSectorsScoping` returns the list of sectors that are currently set for expansion
+
+(ids go from 0 to NumSectors)
 
 ```python
 result = obj.GetSectorsScoping(istage)
@@ -67,6 +72,10 @@ result = obj.GetSectorsScoping(istage)
 
 #### GetBaseNodesScoping
 
+Method `GetBaseNodesScoping` returns the node ids in the base sector
+
+of a given stage
+
 ```python
 result = obj.GetBaseNodesScoping(istage)
 ```
@@ -79,6 +88,10 @@ result = obj.GetBaseNodesScoping(istage)
 
 #### GetBaseElementsScoping
 
+Method `GetBaseElementsScoping` returns the element ids in the base sector
+
+of a given stage
+
 ```python
 result = obj.GetBaseElementsScoping(istage)
 ```
@@ -90,6 +103,10 @@ result = obj.GetBaseElementsScoping(istage)
 **Returns:** *Scoping*
 
 #### GetNodeIdsWhenExpanded
+
+Method `GetNodeIdsWhenExpanded` returns the nodes ids corresponding to
+
+the base nodeId given in input for the  expanded sectors given in sectorsScoping
 
 ```python
 result = obj.GetNodeIdsWhenExpanded(nodeId, sectorsScoping, istage)
@@ -105,6 +122,10 @@ result = obj.GetNodeIdsWhenExpanded(nodeId, sectorsScoping, istage)
 
 #### GetElementIdsWhenExpanded
 
+Method `GetElementIdsWhenExpanded` returns the elements ids corresponding
+
+the base elementId given in input for the expanded sectors given in sectorsScoping
+
 ```python
 result = obj.GetElementIdsWhenExpanded(elementId, sectorsScoping, istage)
 ```
@@ -119,6 +140,8 @@ result = obj.GetElementIdsWhenExpanded(elementId, sectorsScoping, istage)
 
 #### GetCS
 
+Method `GetCS` returns the Coordinate System Id corresponding to the cyclic region
+
 ```python
 result = obj.GetCS()
 ```
@@ -126,6 +149,8 @@ result = obj.GetCS()
 **Returns:** *Field*
 
 #### GetLowHighMap
+
+Method `GetLowHighMap` returns the Low High Scoping Map
 
 ```python
 result = obj.GetLowHighMap(istage)
@@ -138,6 +163,8 @@ result = obj.GetLowHighMap(istage)
 **Returns:** *PropertyField*
 
 #### GetHighLowMap
+
+Method `GetHighLowMap` returns the Low High Scoping Map
 
 ```python
 result = obj.GetHighLowMap(istage)
@@ -152,6 +179,8 @@ result = obj.GetHighLowMap(istage)
 ## Properties
 
 #### NumStages
+
+Property `NumStages` returns the number of cyclic stages in the analysis (1 if cyclic)
 
 **Type:** *int*
 

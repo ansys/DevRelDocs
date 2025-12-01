@@ -19,6 +19,42 @@ compute_time_scoping(config: OperatorConfig)
 | Assembly | `Ans_Dpf_Native_dll_cs` |
 | Base Class | `Ans.DataProcessing.internal_objects.BaseOperator` |
 
+## Inputs
+
+### time_freq_values
+
+List of frequencies or times needed. To specify load steps, put a field (and not a list) in input with a scoping located on "TimeFreq_steps".
+
+**Type:** *LinkableInput*
+
+### step
+
+**Type:** *LinkableInput*
+
+### interpolation_type
+
+1:ramped' or 2:stepped', default is ramped
+
+**Type:** *LinkableInput*
+
+### time_freq_support
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### scoping
+
+time_scoping
+
+**Type:** *LinkableOutput*
+
+### field
+
+time_freq_values
+
+**Type:** *LinkableOutput*
+
 ## Constructors
 
 #### Constructor
