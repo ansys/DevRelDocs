@@ -1,0 +1,29 @@
+---
+uid: Ans.DataProcessing.operators.scoping
+---
+
+# Ans.DataProcessing.operators.scoping Namespace
+
+## Classes
+
+| Class | Description |
+|-------|-------------|
+| [adapt_with_scopings_container](Ans_DataProcessing_operators_scoping_adapt_with_scopings_container.md) | Rescopes/splits a fields container to correspond to a scopings container.   ///available inputs: field_or_fields_container (FieldsContainer, Field), scopings_container (ScopingsContainer) |
+| [change_fc](Ans_DataProcessing_operators_scoping_change_fc.md) | DEPRECATED, PLEASE USE ADAPT WITH SCOPINGS CONTAINER. Rescopes/splits a fields container to correspond to a scopings container.   ///available inputs: field_or_fields_container (FieldsContainer, Field), scopings_container (ScopingsContainer) |
+| [compute_element_centroids](Ans_DataProcessing_operators_scoping_compute_element_centroids.md) | Computes the element centroids of the mesh. It also outputs the element measure.   ///available inputs: element_scoping (Scoping) (optional), mesh (MeshedRegion) |
+| [connectivity_ids](Ans_DataProcessing_operators_scoping_connectivity_ids.md) | Returns the ordered node ids corresponding to the element ids scoping in input. For each element the node ids are its connectivity.   ///available inputs: mesh_scoping (Scoping), mesh (MeshedRegion) (optional), take_mid_nodes (bool) (optional) |
+| [elemental_from_mesh](Ans_DataProcessing_operators_scoping_elemental_from_mesh.md) | Retrieves the elemental scoping of a given input mesh, which contains the element IDs.   ///available inputs: mesh (MeshedRegion) |
+| [from_mesh](Ans_DataProcessing_operators_scoping_from_mesh.md) | Provides the entire mesh scoping based on the requested location   ///available inputs: mesh (MeshedRegion), requested_location (string) (optional) |
+| [intersect](Ans_DataProcessing_operators_scoping_intersect.md) | Intersect 2 scopings and return the intersection and the difference between the intersection and the first scoping.   ///available inputs: scopingA (Scoping), scopingB (Scoping) |
+| [nodal_from_mesh](Ans_DataProcessing_operators_scoping_nodal_from_mesh.md) | Retrieves the nodal scoping of a given input mesh, which contains the node IDs.   ///available inputs: mesh (MeshedRegion) |
+| [on_mesh_property](Ans_DataProcessing_operators_scoping_on_mesh_property.md) | Provides a scoping on a given property name and a property number.   ///available inputs: requested_location (string) (optional), property_name (string), property_id (IList int, Int32, System.Collections.IEnumerable) (optional), inclusive (Int32) (optional), mesh (MeshedRegion) |
+| [on_named_selection](Ans_DataProcessing_operators_scoping_on_named_selection.md) | provides a scoping at a given location based on a given named selection   ///available inputs: requested_location (string), named_selection_name (string), int_inclusive (Int32) (optional), streams_container (StreamsContainer) (optional), data_sources (DataSources) |
+| [on_property](Ans_DataProcessing_operators_scoping_on_property.md) | Provides a scoping at a given location based on a given property name and a property number.   ///available inputs: requested_location (string), property_name (string), property_id (Int32), streams_container (StreamsContainer) (optional), data_sources (DataSources), inclusive (Int32) (optional) |
+| [reduce_sampling](Ans_DataProcessing_operators_scoping_reduce_sampling.md) | Take a scoping and remove half of it's content.   ///available inputs: mesh_scoping (Scoping), denominator (Int32) (optional) |
+| [rescope](Ans_DataProcessing_operators_scoping_rescope.md) | rescope() |
+| [rescope_custom_type_field](Ans_DataProcessing_operators_scoping_rescope_custom_type_field.md) | Rescopes a custom type field on the given scoping. If an ID does not exist in the original custom type field, the default value (in 2) is used when defined.   ///available inputs: fields (CustomTypeFieldsContainer, CustomTypeField), mesh_scoping (Scoping, IList int, System.Collections.IEnumerable) (optional), default_value (CustomTypeFieldCustomTypeField) (optional) |
+| [rescope_fc](Ans_DataProcessing_operators_scoping_rescope_fc.md) | rescope_fc() |
+| [rescope_property_field](Ans_DataProcessing_operators_scoping_rescope_property_field.md) | Rescopes a property field on the given scoping. If an ID does not exist in the original property field, the default value (in 2) is used when defined.   ///available inputs: fields (PropertyFieldsContainer, PropertyField), mesh_scoping (Scoping, IList int, System.Collections.IEnumerable) (optional), default_value (Int32, IList int, System.Collections.IEnumerable) (optional) |
+| [scoping_get_attribute](Ans_DataProcessing_operators_scoping_scoping_get_attribute.md) | Uses the Scoping APIs to return a given attribute of the scoping in input.   ///available inputs: scoping (Scoping), property_name (string) |
+| [split_on_property_type](Ans_DataProcessing_operators_scoping_split_on_property_type.md) | Splits a given scoping or the mesh scoping (nodal or elemental) on given properties (elshape and/or material, since 2025R1 it supports any scalar property field name contained in the mesh property fields) and returns a scopings container with those split scopings.   ///available inputs: mesh_scoping (Scoping) (optional), mesh (MeshedRegion), requested_location (string), skin_case (Int32) (optional), label1 (string) (optional), label2 (string) (optional) |
+| [transpose](Ans_DataProcessing_operators_scoping_transpose.md) | Transposes the input scoping or scopings container (Elemental/Faces --> Nodal, or Nodal ---> Elemental/Faces), based on the input mesh region.   ///available inputs: mesh_scoping (Scoping, ScopingsContainer), meshed_region (MeshedRegion, MeshesContainer), inclusive (Int32) (optional), requested_location (string) (optional) |
