@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-11-29).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-01).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -25,12 +25,12 @@ The following table shows which components have updates in each category.
 | framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
-| h5dpf | [2 items](#Features_h5dpf) |[3 items](#Fixes_h5dpf) |
+| h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[1 item](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[24 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[25 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -465,6 +465,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_h5dpf"></a> Fixes
 
+- Migrate to export NAR results:
+  > Migrate to export NAR results by default
+  >
+  > 
+  >
+  > 
+
 - Only write support for collections if support is available:
   >  Only write support for collections if support is available
   >
@@ -737,6 +744,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Nodal Averaged Result operators return wrong values when setting a mesh scoping for midside nodes:
+  > Nodal Averaged Result operators return wrong values when setting a mesh scoping for midside nodes
+  >
+  > 
+  >
+  > 
 
 - Avoid expanding mesh for higher harmonics of the same physical stage:
   > 
