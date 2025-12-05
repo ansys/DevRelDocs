@@ -20,6 +20,7 @@ Prepare mapping of source data from source mesh to target mesh by operating the 
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  target_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) | Target mesh. Can be a meshed region or a node coordinates field depending on the algorithm that is used. Refer to the dedicated algorithm operator documentation. |
 | <strong>Pin 3</strong>|  target_mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Target mesh scoping. If used, ensure to give only the elements where results are expected into source mesh input to have optimized computation. |
 | <strong>Pin 8</strong>|  html_report_path |[`string`](../../core-concepts/dpf-types.md#standard-types) | Path for html report (for example 'my_disk/my_report.html'). If set, an html report will be generated and exported to the html file. If not set, nothing will be generated. |
+| <strong>Pin 9</strong>|  threads_user_requested |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of threads to be used to parallelize apply operations. |
 | <strong>Pin 30</strong>|  shape_function_volumes_mapping |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) | Mapping options as DataTree object with 'mapping_options' subtree for mapping with shape function algorithm. Another 'data_definition' subtree needs to be contained, with at least 'dimensionality' int and 'location' string attributes. The other 'data_definition' and 'mapping_options' attributes can be found looking at the corresponding operator definition. The available mapping_options are: scale (int), edge_tolerance (double), conservative (bool), ignore_outside_nodes (bool). Corresponding operator definition can be checked to know the default values of the mapping options. |
 | <strong>Pin 31</strong>|  shape_function_surfaces_mapping |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) | Mapping options as DataTree object with 'mapping_options' subtree for mapping with shape function algorithm. Another 'data_definition' subtree needs to be contained, with at least 'dimensionality' int and 'location' string attributes. The other 'data_definition' and 'mapping_options' attributes can be found looking at the corresponding operator definition. The available mapping_options are: scale (int), edge_tolerance (double), conservative (bool), ignore_outside_nodes (bool), key (string), normal_distance_check (bool), normal_tolerance (double), pinball_controll (bool), pinball_key (string), exclude_elements_outside_pinball (bool), pinball_value (double). Corresponding operator definition can be checked to know the default values of the mapping options. |
 | <strong>Pin 32</strong>|  point_cloud_mapping |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) | Mapping options as DataTree object with 'mapping_options' subtree for mapping with point cloud algorithm. Another 'data_definition' subtree needs to be contained, with at least 'dimensionality' int and 'location' string attributes. The other 'data_definition' and 'mapping_options' attributes can be found looking at the corresponding operator definition. The available mapping_options are: weighting_type (string), outside_option (string), num_outside_nodes (int), max_outside_distance (double), search_limit (int), bouding_box_range (double), geometry_type (string),shell_thickness_factor (double). Corresponding operator definition can be checked to know the default values of the mapping options. |
@@ -76,6 +77,7 @@ op.connect(0, my_source_mesh);
 op.connect(1, my_target_mesh);
 op.connect(3, my_target_mesh_scoping);
 op.connect(8, my_html_report_path);
+op.connect(9, my_threads_user_requested);
 op.connect(30, my_shape_function_volumes_mapping);
 op.connect(31, my_shape_function_surfaces_mapping);
 op.connect(32, my_point_cloud_mapping);
@@ -107,6 +109,7 @@ op.inputs.source_mesh.connect(my_source_mesh)
 op.inputs.target_mesh.connect(my_target_mesh)
 op.inputs.target_mesh_scoping.connect(my_target_mesh_scoping)
 op.inputs.html_report_path.connect(my_html_report_path)
+op.inputs.threads_user_requested.connect(my_threads_user_requested)
 op.inputs.shape_function_volumes_mapping.connect(my_shape_function_volumes_mapping)
 op.inputs.shape_function_surfaces_mapping.connect(my_shape_function_surfaces_mapping)
 op.inputs.point_cloud_mapping.connect(my_point_cloud_mapping)
@@ -139,6 +142,7 @@ op.inputs.source_mesh.Connect(my_source_mesh)
 op.inputs.target_mesh.Connect(my_target_mesh)
 op.inputs.target_mesh_scoping.Connect(my_target_mesh_scoping)
 op.inputs.html_report_path.Connect(my_html_report_path)
+op.inputs.threads_user_requested.Connect(my_threads_user_requested)
 op.inputs.shape_function_volumes_mapping.Connect(my_shape_function_volumes_mapping)
 op.inputs.shape_function_surfaces_mapping.Connect(my_shape_function_surfaces_mapping)
 op.inputs.point_cloud_mapping.Connect(my_point_cloud_mapping)
