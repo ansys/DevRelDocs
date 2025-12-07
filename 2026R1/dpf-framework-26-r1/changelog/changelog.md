@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-04).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-06).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -21,7 +21,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[7 items](#Fixes_femutils) |
+| femutils |  |[8 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -38,7 +38,7 @@ The following table shows which components have updates in each category.
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[1 item](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[8 items](#Fixes_native) |
+| native |  |[9 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -294,6 +294,13 @@ The following table shows which components have updates in each category.
 ## femutils
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Memory allocation bug:
+  > This PR fixes a memory allocation bug in poynting_vector_surface operator.
+  >
+  > 
+  >
+  > 
 
 - Incorrect number of data on the last id after nodal_to_elemental_nodal_fc:
   > Fixing error of incorrect number of data on the last id after `nodal_to_elemental_nodal_fc`.
@@ -1386,6 +1393,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Fix solid_shell_fields operator:
+  > 
+  >
+  > The operator solid_shell_fields is now able to handle fields containers with empty fields.
+  >
+  > 
+  >
+  > 
+
 - Improve transpose scoping operator performance 2:
   > Refactoring of the transpose scoping operator for performance improvements
   >
@@ -1974,6 +1990,11 @@ The following table shows which components have updates in each category.
   > 0.1.0: fix of crash when input field data pointer is empty, the operator will output an empty field in this case moving forward.
 
 
+- [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/logic/solid_shell_fields.md)
+
+  > 0.0.1: Input Fields Containers can contain empty fields.
+
+
 
 #### mapping
 
@@ -2236,6 +2257,11 @@ The following table shows which components have updates in each category.
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
+- [coordinate_system](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/coordinate_system.md)
+
+  > 0.0.1: Output pin 0 documentation update.
+
+
 - [creep_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_energy_density.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
@@ -2399,6 +2425,11 @@ The following table shows which components have updates in each category.
 - [plastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [poynting_vector_surface](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/poynting_vector_surface.md)
+
+  > 0.0.1: Fix bug in memory allocation for some local variables participating in interpolation at integration points.
 
 
 - [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
