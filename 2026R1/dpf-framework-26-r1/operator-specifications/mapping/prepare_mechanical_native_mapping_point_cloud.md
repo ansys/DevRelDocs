@@ -24,6 +24,7 @@ Prepare mapping of source data from source mesh to target mesh by operating the 
 | <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dimensionality |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Dimensionality of the result to map (for example it will be 3 for a displacement along (x, y, z) axes). |
 | <strong>Pin 7</strong>|  e_shell_layers |[`int32`](../../core-concepts/dpf-types.md#standard-types) | EShellLayers enum value if field has shell layers |
 | <strong>Pin 8</strong>|  html_report_path |[`string`](../../core-concepts/dpf-types.md#standard-types) | Path for html report (for example 'my_disk/my_report.html'). If set, an html report will be generated and exported to the html file. If not set, nothing will be generated. |
+| <strong>Pin 9</strong>|  threads_user_requested |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of threads to be used to parallelize apply operations. |
 | <strong>Pin 10</strong>|  weighting_type |[`string`](../../core-concepts/dpf-types.md#standard-types) | Default 'triangulation'. Can also be 'weighted_average'. |
 | <strong>Pin 11</strong>|  outside_option |[`string`](../../core-concepts/dpf-types.md#standard-types) | Default is 'weighted_average'. Can also be 'ignore', 'projection', 'nearest_node'. |
 | <strong>Pin 12</strong>|  num_outside_points |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Default is 3 |
@@ -88,6 +89,7 @@ op.connect(5, my_location);
 op.connect(6, my_dimensionality);
 op.connect(7, my_e_shell_layers);
 op.connect(8, my_html_report_path);
+op.connect(9, my_threads_user_requested);
 op.connect(10, my_weighting_type);
 op.connect(11, my_outside_option);
 op.connect(12, my_num_outside_points);
@@ -127,6 +129,7 @@ op.inputs.location.connect(my_location)
 op.inputs.dimensionality.connect(my_dimensionality)
 op.inputs.e_shell_layers.connect(my_e_shell_layers)
 op.inputs.html_report_path.connect(my_html_report_path)
+op.inputs.threads_user_requested.connect(my_threads_user_requested)
 op.inputs.weighting_type.connect(my_weighting_type)
 op.inputs.outside_option.connect(my_outside_option)
 op.inputs.num_outside_points.connect(my_num_outside_points)
@@ -167,6 +170,7 @@ op.inputs.location.Connect(my_location)
 op.inputs.dimensionality.Connect(my_dimensionality)
 op.inputs.e_shell_layers.Connect(my_e_shell_layers)
 op.inputs.html_report_path.Connect(my_html_report_path)
+op.inputs.threads_user_requested.Connect(my_threads_user_requested)
 op.inputs.weighting_type.Connect(my_weighting_type)
 op.inputs.outside_option.Connect(my_outside_option)
 op.inputs.num_outside_points.Connect(my_num_outside_points)

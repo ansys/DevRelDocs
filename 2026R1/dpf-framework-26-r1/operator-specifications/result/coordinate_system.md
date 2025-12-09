@@ -30,7 +30,7 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | the first 9 double are the rotation (3x3 matrix) and the last 3 is the translation vector |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | The first 9 double are the rotation (3x3 matrix) and the last 3 is the translation vector. The rotation matrix stored is from local to global coordinate system. |
 
 ## Configurations
 

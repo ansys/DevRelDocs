@@ -17,13 +17,14 @@ Prepare mapping of source data from source mesh to target mesh by operating the 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  source_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Source mesh |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  target_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Target mesh |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  target_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) | Target mesh/coordinates |
 | <strong>Pin 3</strong>|  target_mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Target mesh scoping. If used, ensure to give only the elements where results are expected into source mesh input to have optimized computation. |
 | <strong>Pin 4</strong>|  unit |[`string`](../../core-concepts/dpf-types.md#standard-types) | Unit of the result to map |
 | <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  location |[`string`](../../core-concepts/dpf-types.md#standard-types) | Location of the result to map |
 | <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dimensionality |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Dimensionality of the result to map (for example it will be 3 for a displacement along (x, y, z) axes). |
 | <strong>Pin 7</strong>|  e_shell_layers |[`int32`](../../core-concepts/dpf-types.md#standard-types) | EShellLayers enum value if field has shell layers |
 | <strong>Pin 8</strong>|  html_report_path |[`string`](../../core-concepts/dpf-types.md#standard-types) | Path for html report (for example 'my_disk/my_report.html'). If set, an html report will be generated and exported to the html file. If not set, nothing will be generated. |
+| <strong>Pin 9</strong>|  threads_user_requested |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of threads to be used to parallelize apply operations. |
 | <strong>Pin 10</strong>|  samples_limit |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Default is 20 |
 | <strong>Pin 11</strong>|  correlation_function_type |[`string`](../../core-concepts/dpf-types.md#standard-types) | Default is 'gaussian'. Can also be 'exponential', 'linear', 'none', 'spherical', 'cubic', 'multi_quadratic', 'thin_plate_spline'. |
 | <strong>Pin 12</strong>|  polynomial_type |[`string`](../../core-concepts/dpf-types.md#standard-types) | Default is 'adaptive'. Can also be 'pure_quadratic', 'linear', 'constant', 'none'. |
@@ -87,6 +88,7 @@ op.connect(5, my_location);
 op.connect(6, my_dimensionality);
 op.connect(7, my_e_shell_layers);
 op.connect(8, my_html_report_path);
+op.connect(9, my_threads_user_requested);
 op.connect(10, my_samples_limit);
 op.connect(11, my_correlation_function_type);
 op.connect(12, my_polynomial_type);
@@ -125,6 +127,7 @@ op.inputs.location.connect(my_location)
 op.inputs.dimensionality.connect(my_dimensionality)
 op.inputs.e_shell_layers.connect(my_e_shell_layers)
 op.inputs.html_report_path.connect(my_html_report_path)
+op.inputs.threads_user_requested.connect(my_threads_user_requested)
 op.inputs.samples_limit.connect(my_samples_limit)
 op.inputs.correlation_function_type.connect(my_correlation_function_type)
 op.inputs.polynomial_type.connect(my_polynomial_type)
@@ -164,6 +167,7 @@ op.inputs.location.Connect(my_location)
 op.inputs.dimensionality.Connect(my_dimensionality)
 op.inputs.e_shell_layers.Connect(my_e_shell_layers)
 op.inputs.html_report_path.Connect(my_html_report_path)
+op.inputs.threads_user_requested.Connect(my_threads_user_requested)
 op.inputs.samples_limit.Connect(my_samples_limit)
 op.inputs.correlation_function_type.Connect(my_correlation_function_type)
 op.inputs.polynomial_type.Connect(my_polynomial_type)

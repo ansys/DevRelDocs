@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-01).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-06).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -21,23 +21,24 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[7 items](#Fixes_femutils) |
+| femutils |  |[8 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[1 item](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
-| kernel | [2 items](#Features_kernel) |[2 items](#Fixes_kernel) |
+| kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[25 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[28 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
+| multiphysicsmapper |  |[1 item](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[4 items](#Fixes_native) |
+| native |  |[9 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -293,6 +294,13 @@ The following table shows which components have updates in each category.
 ## femutils
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Memory allocation bug:
+  > This PR fixes a memory allocation bug in poynting_vector_surface operator.
+  >
+  > 
+  >
+  > 
 
 - Incorrect number of data on the last id after nodal_to_elemental_nodal_fc:
   > Fixing error of incorrect number of data on the last id after `nodal_to_elemental_nodal_fc`.
@@ -607,6 +615,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_kernel"></a> Fixes
 
+- Fix parallelization in several operators:
+  > 
+  >
+  > Multithreading parallelization was not properly enforced in several operators (like merge_fields or generalized_inner_product).
+  >
+  > 
+  >
+  > 
+
 - Fixed issue with Qua4FindElementCoordinates for mapping and find_reduced_coordinates:
   > Fix bug with interpolation points at corner node in the mapping operator.
   >
@@ -744,6 +761,27 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Update rotation matrix documentation for coordinate system provider:
+  > Update rotation matrix documentation for coordinate system provider
+  >
+  > 
+  >
+  > 
+
+- Fix issues with handling of input/output dofs number in modal_solve with harmonic load:
+  > 
+  >
+  > 
+
+- Fix Scoping in mapdl_connectivity:
+  > 
+  >
+  > Fix the location of the Scoping of the "degenerated_connectivity" PropertyField in MAPDL meshes.
+  >
+  > 
+  >
+  > 
 
 - Nodal Averaged Result operators return wrong values when setting a mesh scoping for midside nodes:
   > Nodal Averaged Result operators return wrong values when setting a mesh scoping for midside nodes
@@ -1329,6 +1367,18 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## multiphysicsmapper
+
+### <a id="Fixes_multiphysicsmapper"></a> Fixes
+
+- Fix parallelization in Linux:
+  > 
+  >
+  > The `mechanical_native_mapping::apply` operator now runs properly in parallel in Linux.
+  >
+  > 
+  >
+  > 
 ## name
 
 ### <a id="Fixes_name"></a> Fixes
@@ -1342,6 +1392,43 @@ The following table shows which components have updates in each category.
 ## native
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix solid_shell_fields operator:
+  > 
+  >
+  > The operator solid_shell_fields is now able to handle fields containers with empty fields.
+  >
+  > 
+  >
+  > 
+
+- Improve transpose scoping operator performance 2:
+  > Refactoring of the transpose scoping operator for performance improvements
+  >
+  > 
+  >
+  > 
+
+- Improve transpose scoping operator performance':
+  > 
+
+- Fix stream_provider error handling:
+  > Fix stream_provider returning an empty stream when the datasources is in input is empty. Throw instead.
+  >
+  > Fix the stream_provider returning a nullptr if a stream_provider is not found for this namespace. Throw instead.
+  >
+  > Also update the descriptions of the operator.
+  >
+  > 
+  >
+  > 
+
+- Improve transpose scoping operator performance:
+  > Refactoring of the transpose scoping operator for performance improvements
+  >
+  > 
+  >
+  > 
 
 - Access violation in scale operator:
   > Program was crashing when not using the mkl to do the computation in CScale operator ("scale").
@@ -1903,6 +1990,11 @@ The following table shows which components have updates in each category.
   > 0.1.0: fix of crash when input field data pointer is empty, the operator will output an empty field in this case moving forward.
 
 
+- [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/logic/solid_shell_fields.md)
+
+  > 0.0.1: Input Fields Containers can contain empty fields.
+
+
 
 #### mapping
 
@@ -2025,6 +2117,16 @@ The following table shows which components have updates in each category.
   > 0.0.2: Fixing issue with connectivity.
 
 
+- [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/mesh_provider.md)
+
+  > 0.1.0: Update the effect of the permissive configuration.
+
+
+- [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/meshes_provider.md)
+
+  > 0.1.0: Update the effect of the permissive configuration.
+
+
 - [skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/skin.md)
 
   > 0.0.1: Fixing issue related to share pointers of property fields and mesh.
@@ -2045,6 +2147,11 @@ The following table shows which components have updates in each category.
 - [element_types_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/element_types_provider.md)
 
   > 0.1.0: Added the possibility to output a PropertyField.
+
+
+- [streams_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/streams_provider.md)
+
+  > 0.1.0: Add the permissive configuration.
 
 
 - [time_freq_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/time_freq_support_get_attribute.md)
@@ -2148,6 +2255,11 @@ The following table shows which components have updates in each category.
 - [contact_total_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_total_stress.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [coordinate_system](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/coordinate_system.md)
+
+  > 0.0.1: Output pin 0 documentation update.
 
 
 - [creep_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_energy_density.md)
@@ -2313,6 +2425,11 @@ The following table shows which components have updates in each category.
 - [plastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
+
+
+- [poynting_vector_surface](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/poynting_vector_surface.md)
+
+  > 0.0.1: Fix bug in memory allocation for some local variables participating in interpolation at integration points.
 
 
 - [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
