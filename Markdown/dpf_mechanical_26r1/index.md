@@ -2,9 +2,9 @@
 uid: index
 ---
 
-# DPF Mechanical 2026 R1 Documentation
+# DPF Mechanical ||DPF_VERSION|| Documentation
 
-Welcome to the DPF Mechanical 2026 R1 documentation for Ansys Mechanical.
+Welcome to the DPF Mechanical ||DPF_VERSION|| documentation for Ansys Mechanical.
 
 ## Overview
 

@@ -2,15 +2,15 @@
 uid: getting-started
 ---
 
-# Getting Started with DPF Mechanical 2026 R1
+# Getting Started with DPF Mechanical ||DPF_VERSION||
 
-This section will help you get up and running with DPF Mechanical 2026 R1 in Ansys Mechanical.
+This section will help you get up and running with DPF Mechanical ||DPF_VERSION|| in Ansys Mechanical.
 
 ## Prerequisites
 
 Before you begin, ensure you have:
 
-- Ansys Mechanical 2026 R1 installed
+- Ansys Mechanical ||DPF_VERSION|| installed
 - Access to the Mechanical scripting window or Python Result object
 - Basic understanding of Python programming
 - Familiarity with Ansys Mechanical and simulation concepts

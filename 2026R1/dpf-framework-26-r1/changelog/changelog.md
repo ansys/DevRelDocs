@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-06).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-10).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -30,7 +30,7 @@ The following table shows which components have updates in each category.
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[28 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[29 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -38,7 +38,7 @@ The following table shows which components have updates in each category.
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[1 item](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[9 items](#Fixes_native) |
+| native |  |[10 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -762,6 +762,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- MAPDLOperators cache to be refreshed if the file changes.:
+  > MAPDLOperators cache to be refreshed if the file changes.
+  >
+  > 
+  >
+  > 
+
 - Update rotation matrix documentation for coordinate system provider:
   > Update rotation matrix documentation for coordinate system provider
   >
@@ -1392,6 +1399,11 @@ The following table shows which components have updates in each category.
 ## native
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix timefreqsupport::get_attribute for of STFT wf:
+  > 
+  >
+  > 
 
 - Fix solid_shell_fields operator:
   > 
@@ -2430,6 +2442,16 @@ The following table shows which components have updates in each category.
 - [poynting_vector_surface](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/poynting_vector_surface.md)
 
   > 0.0.1: Fix bug in memory allocation for some local variables participating in interpolation at integration points.
+
+
+- [raw_displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/raw_displacement.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [raw_reaction_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/raw_reaction_force.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
