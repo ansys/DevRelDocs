@@ -8,6 +8,7 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
+| 1297620 |  |[1 item](#Fixes_1297620) |
 | cff | [2 items](#Features_cff) |[2 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
@@ -15,22 +16,22 @@ The following table shows which components have updates in each category.
 | compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
-| doc | [2 items](#Features_doc) | |
+| doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[1 item](#Fixes_documentation) |
 | dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[8 items](#Fixes_femutils) |
-| framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
+| femutils |  |[9 items](#Fixes_femutils) |
+| framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [6 items](#Features_hdf5) |[1 item](#Fixes_hdf5) |
+| hdf5 | [6 items](#Features_hdf5) |[2 items](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[29 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[33 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -47,6 +48,16 @@ The following table shows which components have updates in each category.
 | workflows |  |[1 item](#Fixes_workflows) |
 
 
+## 1297620
+
+### <a id="Fixes_1297620"></a> Fixes
+
+- Cplx division operator has to high tolerance:
+  > Change the tolerance for cplx division from 1e-10 to 1e-15.
+  >
+  > 
+  >
+  > 
 ## cff
 ### <a id="Features_cff"></a> Features
 
@@ -202,6 +213,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_doc"></a> Fixes
+
+- Update documentation of raw_operators to remove bool_rotate_to_global pin.:
+  > Update documentation of raw_operators to remove bool_rotate_to_global pin.
+  >
+  > 
+  >
+  > 
 ## documentation
 ### <a id="Features_documentation"></a> Features
 
@@ -295,6 +314,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Wrong initialization of tolerance in mapping operator:
+  > The tolerance initialization in mapping operator has been moved outside loops over input fields. This seems to cause a random bug as this tolerance is updated for each iteration of the loop. The randomness of the bug is certainly due to a if condition that use the tolerance.
+  >
+  > 
+  >
+  > 
+
 - Memory allocation bug:
   > This PR fixes a memory allocation bug in poynting_vector_surface operator.
   >
@@ -376,6 +402,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Expose PinSpecification.ellipsis to replace PinSpecification.ellispis:
+  > 
+  >
+  > 
 
 - Fix header copy in Field copy:
   > 
@@ -540,6 +571,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Performance fix when reading Results By Scoping:
+  > 
+  >
+  > 
 
 - Correction of mesh detection in HDF5 mesh_property_provider:
   > 
@@ -761,6 +797,36 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix missing available results in result info provider:
+  > Fix available results in result info from result_info_provider operator when the available results are coming from the mode file. Only displacements results were listed before.
+  >
+  > 
+  >
+  > 
+
+- Avoid unnecessary nodal filtering:
+  > Avoid going through the nodal filtering operation when it's not needed.
+  >
+  > 
+  >
+  > 
+
+- Add the effnu header on ETH fields too:
+  > 
+  >
+  > Fix the missing "effnu" header when reading ETH fields
+  >
+  > 
+  >
+  > 
+
+- Fix nodal result PRES filtering:
+  > Fix a bug where Pressure was filtered out on midside nodes for acoustic elements with linear pressure behavior (FLUID220, FLUID221 & FLUID244 with KEYOPT(2) =5/6)
+  >
+  > 
+  >
+  > 
 
 - MAPDLOperators cache to be refreshed if the file changes.:
   > MAPDLOperators cache to be refreshed if the file changes.
