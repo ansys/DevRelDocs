@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-06).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-10).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,6 +8,7 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
+| 1297620 |  |[1 item](#Fixes_1297620) |
 | cff | [2 items](#Features_cff) |[2 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
@@ -15,22 +16,22 @@ The following table shows which components have updates in each category.
 | compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
-| doc | [2 items](#Features_doc) | |
+| doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[1 item](#Fixes_documentation) |
 | dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[8 items](#Fixes_femutils) |
-| framework | [2 items](#Features_framework) |[4 items](#Fixes_framework) |
+| femutils |  |[9 items](#Fixes_femutils) |
+| framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [6 items](#Features_hdf5) |[1 item](#Fixes_hdf5) |
+| hdf5 | [6 items](#Features_hdf5) |[2 items](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[28 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[33 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -38,7 +39,7 @@ The following table shows which components have updates in each category.
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[1 item](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[9 items](#Fixes_native) |
+| native |  |[10 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -47,6 +48,16 @@ The following table shows which components have updates in each category.
 | workflows |  |[1 item](#Fixes_workflows) |
 
 
+## 1297620
+
+### <a id="Fixes_1297620"></a> Fixes
+
+- Cplx division operator has to high tolerance:
+  > Change the tolerance for cplx division from 1e-10 to 1e-15.
+  >
+  > 
+  >
+  > 
 ## cff
 ### <a id="Features_cff"></a> Features
 
@@ -202,6 +213,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_doc"></a> Fixes
+
+- Update documentation of raw_operators to remove bool_rotate_to_global pin.:
+  > Update documentation of raw_operators to remove bool_rotate_to_global pin.
+  >
+  > 
+  >
+  > 
 ## documentation
 ### <a id="Features_documentation"></a> Features
 
@@ -295,6 +314,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Wrong initialization of tolerance in mapping operator:
+  > The tolerance initialization in mapping operator has been moved outside loops over input fields. This seems to cause a random bug as this tolerance is updated for each iteration of the loop. The randomness of the bug is certainly due to a if condition that use the tolerance.
+  >
+  > 
+  >
+  > 
+
 - Memory allocation bug:
   > This PR fixes a memory allocation bug in poynting_vector_surface operator.
   >
@@ -376,6 +402,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Expose PinSpecification.ellipsis to replace PinSpecification.ellispis:
+  > 
+  >
+  > 
 
 - Fix header copy in Field copy:
   > 
@@ -540,6 +571,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Performance fix when reading Results By Scoping:
+  > 
+  >
+  > 
 
 - Correction of mesh detection in HDF5 mesh_property_provider:
   > 
@@ -761,6 +797,43 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix missing available results in result info provider:
+  > Fix available results in result info from result_info_provider operator when the available results are coming from the mode file. Only displacements results were listed before.
+  >
+  > 
+  >
+  > 
+
+- Avoid unnecessary nodal filtering:
+  > Avoid going through the nodal filtering operation when it's not needed.
+  >
+  > 
+  >
+  > 
+
+- Add the effnu header on ETH fields too:
+  > 
+  >
+  > Fix the missing "effnu" header when reading ETH fields
+  >
+  > 
+  >
+  > 
+
+- Fix nodal result PRES filtering:
+  > Fix a bug where Pressure was filtered out on midside nodes for acoustic elements with linear pressure behavior (FLUID220, FLUID221 & FLUID244 with KEYOPT(2) =5/6)
+  >
+  > 
+  >
+  > 
+
+- MAPDLOperators cache to be refreshed if the file changes.:
+  > MAPDLOperators cache to be refreshed if the file changes.
+  >
+  > 
+  >
+  > 
 
 - Update rotation matrix documentation for coordinate system provider:
   > Update rotation matrix documentation for coordinate system provider
@@ -1392,6 +1465,11 @@ The following table shows which components have updates in each category.
 ## native
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix timefreqsupport::get_attribute for of STFT wf:
+  > 
+  >
+  > 
 
 - Fix solid_shell_fields operator:
   > 
@@ -2430,6 +2508,16 @@ The following table shows which components have updates in each category.
 - [poynting_vector_surface](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/poynting_vector_surface.md)
 
   > 0.0.1: Fix bug in memory allocation for some local variables participating in interpolation at integration points.
+
+
+- [raw_displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/raw_displacement.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [raw_reaction_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/raw_reaction_force.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
