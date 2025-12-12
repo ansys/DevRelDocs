@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-10).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-11).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -29,9 +29,10 @@ The following table shows which components have updates in each category.
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[2 items](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
+| hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[33 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[35 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
@@ -39,7 +40,7 @@ The following table shows which components have updates in each category.
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[1 item](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[10 items](#Fixes_native) |
+| native |  |[11 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -630,6 +631,14 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## hgptests
+
+### <a id="Fixes_hgptests"></a> Fixes
+
+- Ensure no hacks in cyclic tests:
+  > 
+  >
+  > 
 ## kernel
 ### <a id="Features_kernel"></a> Features
 
@@ -797,6 +806,18 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- SVAR Beam results filtering:
+  > Fix the reading of state variable result on BEAM elements
+  >
+  > 
+  >
+  > 
+
+- Improve performance of Cyclic ENF reading for Topo:
+  > 
+  >
+  > 
 
 - Fix missing available results in result info provider:
   > Fix available results in result info from result_info_provider operator when the available results are coming from the mode file. Only displacements results were listed before.
@@ -1465,6 +1486,15 @@ The following table shows which components have updates in each category.
 ## native
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Support fields with different scopings in concatenate_fields:
+  > Added the possibility to merge fields with different scopings in operators *concatenate_fields* and *concatenate_fields_containers*, with the possibility to choose the scoping to keep for output.
+  >
+  > These operators are now public.
+  >
+  > 
+  >
+  > 
 
 - Fix timefreqsupport::get_attribute for of STFT wf:
   > 
