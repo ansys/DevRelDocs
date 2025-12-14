@@ -17,7 +17,7 @@ Read/compute nodal rotational velocity by calling the readers defined by the dat
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - hdf5: h5dpf 
-- mapdl: mode, rst, rstp 
+- mapdl: mode, rdsp, rst, rstp 
 
 ## Inputs
 

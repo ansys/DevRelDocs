@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-11).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-13).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -32,13 +32,13 @@ The following table shows which components have updates in each category.
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[35 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[37 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
-| multiphysicsmapper |  |[1 item](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[2 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
 | native |  |[11 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
@@ -807,6 +807,18 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- ApdlElementDescriptor issues:
+  > 
+  >
+  > 
+
+- Fix reading from RDSP and RFRQ files when outres is used with MXPAND,OFF:
+  > Fix reading from RDSP and RFRQ files when outres is used with MXPAND,OFF
+  >
+  > 
+  >
+  > 
+
 - SVAR Beam results filtering:
   > Fix the reading of state variable result on BEAM elements
   >
@@ -1465,6 +1477,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
 
+- Ensure Linux thread safety of add_field:
+  > 
+  >
+  > 
+
 - Fix parallelization in Linux:
   > 
   >
@@ -2021,6 +2038,28 @@ The following table shows which components have updates in each category.
 
 
 #### utility
+
+- [concatenate_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields.md):
+  > Concatenates fields into a unique one by incrementing the number of components.
+  > 
+  > Example:
+  > - Field1 components: { UX, UY, UZ }
+  > - Field2 components: { RX, RY, RZ }
+  > - Output field : { UX, UY, UZ, RX, RY, RZ }
+
+- [concatenate_fields_containers](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields_containers.md):
+  > Concatenates fields containers into a unique one by concatenating each of their fields.
+  > 
+  > Example:
+  > - Fields Container 1:
+  > 	- Field1 with components: { UX, UY, UZ }
+  > 	- Field2 with components: { VX, VY, VZ }
+  > - Fields Container 2:
+  > 	- Field1 with components: { RX, RY, RZ }
+  > 	- Field2 with components: { AX, AY, AZ }
+  > - Output Fields Container:
+  > 	- Field1 with components: { UX, UY, UZ, RX, RY, RZ }
+  > 	- Field2 with components: { VX, VY, VZ, AX, AY, AZ }
 
 - [customtypefield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/customtypefield_get_attribute.md):
   > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
