@@ -1,0 +1,50 @@
+# Structure and Use of the Transport Utilities
+
+The Transport utilities must be used in conjunction with the Gas-phase
+Kinetics utilities. The general flow of information is depicted in [Figure 1.3: Relationships between the CHEMKIN Pre-processors and an Application](pgfId-1017373.md#i62358 "Figure 1.3: Relationships between the CHEMKIN Pre-processors and an Application") . The Transport utilities can be used with or without the Surface Kinetics utilities.
+
+As with the Surface Kinetics utilities, the Gas-phase Kinetics Pre-processor
+must be run prior to the Transport Pre-processor. The Transport Pre-processor
+requires input from the Transport Database, and from the Gas-phase Kinetics
+Linking File. The Transport Database contains molecular parameters for a
+number of species; these parameters are: The Lennard-Jones well depth
+![](graphics/eq71036551-1681-9604-2918-673011385917.svg) in Kelvins, the
+Lennard-Jones collision diameter
+![](graphics/eq20681490-1039-3612-7152-814451337282.svg) in Angstroms, the
+dipole moment ![](graphics/eq66249785-7445-0260-8347-157091667088.svg) in
+Debyes, the polarizability
+![](graphics/eq00280314-3537-3805-6224-978331845878.svg) in cubic angstroms,
+rotational relaxation collision number
+![](graphics/eq97454377-1223-6035-1708-479487087431.svg) and an indicator
+regarding the nature and geometrical configuration of the molecule. A
+supplemental input file may also contain this information. The information
+coming from the Gas-phase Kinetics Linking File contains the species names and
+molecular weights, as well as thermodynamic data. Like the Gas-phase Kinetics
+Pre-processor, the Transport Pre-processor produces a Transport Linking File
+that is later needed in the Transport Subroutine Library.
+
+Both the Gas-phase Kinetics and the Transport Subroutine Libraries must be
+initialized before use and there is a similar initialization subroutine in
+each. The Transport Subroutine Library is initialized by a call to subroutine
+`MCINIT`. Its purpose is to read the Transport Linking File and populate the
+storage arrays, allocated by the calling program, which must be made available
+to all other subroutines in the library. Once initialized, any subroutine in
+the library may be called from the application program. There are just
+eighteen (18) subroutines contained in the Transport subroutine library. These
+return pure-species, binary, and gas-mixture transport properties, using
+either a mixture-averaged or full multicomponent formulation, as described in
+the [Chemkin Theory Manual](../chemkin_th/chemkin_th.md "Chemkin Theory
+Manual") Theory Manual.
+
+[ « 1.5.1. Example of Using the Surface Kinetics Pre-
+processor](pgfId-1020396.md)
+
+ [Chapter 2: User Supplemental Programming » ](i13005api_user_sup_prog.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2026 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:37-04:00
+

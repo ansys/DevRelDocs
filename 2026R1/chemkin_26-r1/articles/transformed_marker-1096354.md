@@ -1,0 +1,73 @@
+# Output from Chemkin Sample Program (CONP)
+
+    
+```
+ADIABATIC FIXED PRESSURE PROBLEM,
+
+INPUT PRESSURE(ATM) AND TEMPERATURE(K):
+ 0.100E+01  0.100E+04
+
+INPUT MOLES OF NEXT SPECIES
+H2                                                                            
+
+INPUT MOLES OF NEXT SPECIES
+O2                                                                            
+
+INPUT MOLES OF NEXT SPECIES
+N2 .                                                                          
+
+INPUT MOLES OF NEXT SPECIES
+END                                                                            
+
+INPUT FINAL TIME AND DT
+ 0.300E-03  0.300E-04
+
+ T(SEC)      TMP(K)       H2         H          O2         O          OH        
+                          HO2        H2O2       H2O        N          N2        
+                          NO        
+ 0.000E+00  0.100E+04  0.244E+00  0.000E+00  0.732E+00  0.000E+00  0.000E+00
+                       0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.244E-01
+                       0.000E+00
+ 0.300E-04  0.100E+04  0.244E+00  0.817E-05  0.732E+00  0.425E-05  0.144E-05
+                       0.129E-04  0.103E-07  0.259E-04  0.181E-20  0.244E-01
+                       0.375E-19
+ 0.600E-04  0.196E+04  0.890E-02  0.169E-01  0.625E+00  0.570E-01  0.411E-01
+                       0.174E-03  0.355E-04  0.224E+00  0.229E-09  0.262E-01
+                       0.167E-07
+ 0.900E-04  0.235E+04  0.367E-02  0.331E-02  0.658E+00  0.235E-01  0.392E-01
+                       0.845E-04  0.445E-05  0.246E+00  0.193E-08  0.271E-01
+                       0.163E-05
+ 0.120E-03  0.243E+04  0.258E-02  0.185E-02  0.665E+00  0.165E-01  0.352E-01
+                       0.693E-04  0.254E-05  0.251E+00  0.229E-08  0.272E-01
+                       0.438E-05
+ 0.150E-03  0.246E+04  0.216E-02  0.139E-02  0.669E+00  0.138E-01  0.330E-01
+                       0.641E-04  0.197E-05  0.254E+00  0.236E-08  0.273E-01
+                       0.730E-05
+ 0.180E-03  0.248E+04  0.197E-02  0.120E-02  0.670E+00  0.125E-01  0.319E-01
+                       0.619E-04  0.173E-05  0.255E+00  0.237E-08  0.273E-01
+                       0.102E-04
+ 0.210E-03  0.248E+04  0.188E-02  0.111E-02  0.671E+00  0.119E-01  0.313E-01
+                       0.609E-04  0.162E-05  0.255E+00  0.238E-08  0.273E-01
+                       0.131E-04
+ 0.240E-03  0.249E+04  0.183E-02  0.106E-02  0.671E+00  0.116E-01  0.310E-01
+                       0.604E-04  0.157E-05  0.256E+00  0.239E-08  0.273E-01
+                       0.160E-04
+ 0.270E-03  0.249E+04  0.181E-02  0.104E-02  0.672E+00  0.115E-01  0.308E-01
+                       0.602E-04  0.154E-05  0.256E+00  0.240E-08  0.273E-01
+                       0.188E-04
+ 0.300E-03  0.249E+04  0.179E-02  0.103E-02  0.672E+00  0.114E-01  0.307E-01
+                       0.600E-04  0.152E-05  0.256E+00  0.241E-08  0.273E-01
+                       0.217E-04                        0.217E-04
+```
+
+[ « 3.2.3. Input to Chemkin Sample Program (CONP)](marker-1082818.md)
+
+ [3.3. Surface Kinetics Sample Program (SKSAMPLE) » ](pgfId-1126317.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2026 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:38-04:00
+
