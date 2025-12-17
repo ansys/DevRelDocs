@@ -1793,6 +1793,10 @@
       href: operator-specifications/utility/change_shell_layers.md
     - name: compute time scoping
       href: operator-specifications/utility/compute_time_scoping.md
+    - name: concatenate fields
+      href: operator-specifications/utility/concatenate_fields.md
+    - name: concatenate fields containers
+      href: operator-specifications/utility/concatenate_fields_containers.md
     - name: customtypefield get attribute
       href: operator-specifications/utility/customtypefield_get_attribute.md
     - name: cyclic support get attribute

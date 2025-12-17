@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-11).
+Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-15).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -22,23 +22,23 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[9 items](#Fixes_femutils) |
+| femutils |  |[11 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [6 items](#Features_hdf5) |[2 items](#Fixes_hdf5) |
+| hdf5 | [6 items](#Features_hdf5) |[3 items](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[35 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[38 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
-| multiphysicsmapper |  |[1 item](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[2 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
 | native |  |[11 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
@@ -315,6 +315,22 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Keep the input unit when computing torque and force summation:
+  > 
+  >
+  > The torque and force summation operator now output moments matching the mesh and force units
+  >
+  > 
+  >
+  > 
+
+- Seg fault in mapping solid to skin for heterogenous location:
+  > In case of mixed location (Elemental + Nodal for example), seg fault appears using mapping solid to skin op.
+  >
+  > 
+  >
+  > 
+
 - Wrong initialization of tolerance in mapping operator:
   > The tolerance initialization in mapping operator has been moved outside loops over input fields. This seems to cause a random bug as this tolerance is updated for each iteration of the loop. The randomness of the bug is certainly due to a if condition that use the tolerance.
   >
@@ -573,6 +589,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Serialize_to_hdf5 deprecation message mentions new operator by scripting name:
+  > The operator serialize_to_hdf5 is marked as deprecated in its description but redirects to the internal name of the new operator to use. This changes the message to use the scripting name (hdf5dpf_generate_result_file).
+  >
+  > 
+  >
+  > 
+
 - Performance fix when reading Results By Scoping:
   > 
   >
@@ -806,6 +829,25 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Heat Transfer Results for Link33:
+  > Add Heat Flux Result support for LINK33 Elements
+  >
+  > 
+  >
+  > 
+
+- ApdlElementDescriptor issues:
+  > 
+  >
+  > 
+
+- Fix reading from RDSP and RFRQ files when outres is used with MXPAND,OFF:
+  > Fix reading from RDSP and RFRQ files when outres is used with MXPAND,OFF
+  >
+  > 
+  >
+  > 
 
 - SVAR Beam results filtering:
   > Fix the reading of state variable result on BEAM elements
@@ -1465,6 +1507,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
 
+- Ensure Linux thread safety of add_field:
+  > 
+  >
+  > 
+
 - Fix parallelization in Linux:
   > 
   >
@@ -2022,6 +2069,28 @@ The following table shows which components have updates in each category.
 
 #### utility
 
+- [concatenate_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields.md):
+  > Concatenates fields into a unique one by incrementing the number of components.
+  > 
+  > Example:
+  > - Field1 components: { UX, UY, UZ }
+  > - Field2 components: { RX, RY, RZ }
+  > - Output field : { UX, UY, UZ, RX, RY, RZ }
+
+- [concatenate_fields_containers](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields_containers.md):
+  > Concatenates fields containers into a unique one by concatenating each of their fields.
+  > 
+  > Example:
+  > - Fields Container 1:
+  > 	- Field1 with components: { UX, UY, UZ }
+  > 	- Field2 with components: { VX, VY, VZ }
+  > - Fields Container 2:
+  > 	- Field1 with components: { RX, RY, RZ }
+  > 	- Field2 with components: { AX, AY, AZ }
+  > - Output Fields Container:
+  > 	- Field1 with components: { UX, UY, UZ, RX, RY, RZ }
+  > 	- Field2 with components: { VX, VY, VZ, AX, AY, AZ }
+
 - [customtypefield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/customtypefield_get_attribute.md):
   > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
 
@@ -2049,12 +2118,16 @@ The following table shows which components have updates in each category.
 
   > 0.2.0: Add support for excluding or not contact elements.
 
+  > 1.0.0: The moment unit is now kept from the input units and not converted to N.m.
+
 
 - [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation_psd.md)
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
 
   > 0.1.1: Contact elements are now excluded from the summation.
+
+  > 1.0.0: The moment unit is now kept from the input units and not converted to N*m.
 
 
 - [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal.md)
@@ -2142,6 +2215,8 @@ The following table shows which components have updates in each category.
   > 0.2.1: Fixed issue with different scopings in the input field.
 
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
+
+  > 0.2.3: Fixed issue with fields container with mixed location.
 
 
 
@@ -2653,6 +2728,8 @@ The following table shows which components have updates in each category.
 - [torque](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/torque.md)
 
   > 0.1.0: Fields container supported on pin 1. Pin 1 name changed.
+
+  > 1.0.0: The torque unit is now kept from the input units and not converted to N*m.
 
 
 

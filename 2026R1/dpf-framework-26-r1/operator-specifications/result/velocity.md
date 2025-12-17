@@ -19,7 +19,7 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 - cff: cas, flprj 
 - hdf5: h5dpf 
 - lsdyna: d3plot, d3psd, d3ssd, lsda, moddynout 
-- mapdl: cms, mode, rst, rstp 
+- mapdl: cms, mode, rdsp, rst, rstp 
 
 ## Inputs
 

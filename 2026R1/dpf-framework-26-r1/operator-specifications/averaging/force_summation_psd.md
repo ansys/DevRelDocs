@@ -10,7 +10,7 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Computes the sum of elemental forces contribution on a set of nodes in Global Coordinate System for a PSD analysis. Equivalent to MAPDL FSUM/NFORCE.
+Computes the sum of elemental forces contribution on a set of nodes in Global Coordinate System for a PSD analysis. Equivalent to MAPDL FSUM/NFORCE.  The moment is computed in the unit system of the data source.
 
 ## Inputs
 
@@ -20,7 +20,7 @@ Computes the sum of elemental forces contribution on a set of nodes in Global Co
 | <strong>Pin 2</strong>|  elemental_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | Elemental scoping or scopings container with a single label. Set of elements contributing to the force calculation. Defaults to all elements. |
 | <strong>Pin 3</strong>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Streams container for RST and PSD files (optional if using data sources). The operator supports both a single RST file and two separate RST files. See data sources pin specifications for details on how to define the streams for both cases. |
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Data sources containing RST and PSD files (optional if using a streams container). The operator supports both a single RST file (containing both modal and PSD results) and two separate RST files (one for modal and one for PSD analyses).The data source containing modal results must be defined as an upstream data source.If using a single RST file for PSD and modal analysis, the RST file must be in an upstream data source.If using two separate RST files, only the modal RST must be in an upstream data source. |
-| <strong>Pin 6</strong>|  spoint |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Field or fields container of the coordinates of the point used for moment summations. Defaults to (0,0,0). |
+| <strong>Pin 6</strong>|  spoint |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Field or fields container of the coordinates of the point used for moment summations. Defaults to (0,0,0). If unitless, it is assumed to be in meters. |
 | <strong>Pin 7</strong>|  abs_rel_key |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Key to select the type of response: 0 for relative response (default) or 1 for absolute response. |
 | <strong>Pin 8</strong>|  signif |[`double`](../../core-concepts/dpf-types.md#standard-types) | Significance threshold, defaults to 0.0001. Any mode with a significance level above this value will be included in the combination.The significance level is defined as the modal covariance matrix term, divided by the maximum modal covariance matrix term. |
 
