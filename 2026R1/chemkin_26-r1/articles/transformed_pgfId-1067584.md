@@ -1,0 +1,31 @@
+# Mean Thermodynamic Properties (Mass Units)
+
+Table 4.10: Mean Thermodynamic Properties (Mass Units) Subroutines[a]
+
+Subroutine |  Description  
+---|---  
+`SUBROUTINE CKABMS (P, T, Y, ICKWRK, RCKWRK, ABMS)*` |  Returns the mean Helmholtz free energy of the mixture in mass units given pressure, temperature(s) and mass fractions; see [Equation 2-57](../chemkin_th/pgfId-1116238.md#i79378e "Equation 2–57") .  
+`SUBROUTINE CKCPBS (T, Y, ICKWRK, RCKWRK, CPBMS)` |  Returns the mean specific heat at constant pressure; see [Equation 2-44](../chemkin_th/pgfId-1116238.md#i57588 "Equation 2–44") .  
+`SUBROUTINE CKCVBS (T, Y, ICKWRK, RCKWRK, CVBMS)` |  Returns the mean specific heat at constant volume in mass units; see [Equation 2-46](../chemkin_th/pgfId-1116238.md#i59175 "Equation 2–46") .  
+`SUBROUTINE CKGBMS (P, T, Y, ICKWRK, RCKWRK, GBMS)*` |  Returns the mean Gibbs free energy of the mixture in mass units given pressure, temperature(s), and mass fractions; see [Equation 2-55](../chemkin_th/pgfId-1116238.md#i91617 "Equation 2–55") .   
+`SUBROUTINE CKHBMS (T, Y, ICKWRK, RCKWRK, HBMS)` |  Returns the mean enthalpy of the mixture in mass units; see [Equation 2-48](../chemkin_th/pgfId-1116238.md#i45291 "Equation 2–48") .  
+`SUBROUTINE CKSBMS (P, T, Y, ICKWRK, RCKWRK, SBMS)*` |  Returns the mean entropy of the mixture in mass units given pressure, temperature(s) and mass fractions; see [Equation 2-53](../chemkin_th/pgfId-1116238.md#i67018 "Equation 2–53") .  
+`SUBROUTINE CKUBMS (T, Y, ICKWRK, RCKWRK, UBMS)` |  Returns the mean internal energy of the mixture in mass units; see [Equation 2-50](../chemkin_th/pgfId-1116238.md#i65954 "Equation 2–50") .  
+  
+[a] Where appropriate, the description refers to an equation number in
+[Chemkin Theory Manual](../chemkin_th/chemkin_th.md "Chemkin Theory Manual")
+.
+
+  
+
+[ « 4.10. Thermodynamic Properties (Molar Units)](pgfId-1067510.md)
+
+ [4.12. Mean Thermodynamic Properties (Molar Units) » ](pgfId-1067658.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2026 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:39-04:00
+

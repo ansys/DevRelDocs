@@ -1,0 +1,29 @@
+# Conductivity
+
+Table 6.3: Conductivity Subroutines
+
+Subroutine| Description  
+---|---  
+`SUBROUTINE MCSCON (T, RMCWRK, CON)`| This subroutine computes the array pure
+species conductivities given the temperature.  
+`SUBROUTINE MCACON (T, X, RMCWRK, CONMIX)`| This subroutine computes the
+mixture thermal conductivity given the temperature and the species mole
+fractions.  
+`SUBROUTINE MCMCDT (P, T, X, IMCWRK, RMCWRK, ICKWRK, CKWRK, DT, COND)`| This
+subroutine computes the thermal diffusion coefficients and mixture thermal
+conductivities given the pressure, temperature, and mole fractions.  
+`SUBROUTINE MCCCEX (K, KDIM, RCKWRK, COFCON)` | Gets or puts values of the fitting coefficients for the polynomial fits to species conductivity.  
+  
+  
+
+[ « 6.3. Viscosity](pgfId-1062756.md)
+
+ [6.5. Diffusion Coefficients » ](pgfId-1062833.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2026 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:40-04:00
+
