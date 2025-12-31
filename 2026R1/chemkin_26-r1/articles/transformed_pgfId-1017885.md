@@ -114,12 +114,12 @@ Kinetics Pre-processor
 Consider a simple form of the electron conservation equation for a closed
 system:
 
-![](graphics/pgfId-1017950.svg)| (1-2)  
+![image](./graphics/pgfId-1017950.svg)| (1-2)  
 ---|---  
   
-where ![](graphics/eq70293795-5452-9866-0474-453739521730.svg) is the electron
+where ![image](./graphics/eq70293795-5452-9866-0474-453739521730.svg) is the electron
 molar concentration and
-![](graphics/eq84267563-8249-6958-8288-169867362915.svg) the electron molar
+![image](./graphics/eq84267563-8249-6958-8288-169867362915.svg) the electron molar
 production rate. The representation of this equation begins with Gas-phase
 Kinetics subroutine calls:
 
@@ -154,8 +154,8 @@ the electron temperature, the user sets `KTFL(KEL) = 2`, and all other entries
 are set to '`1` '. Finally, in the call to `CKWC`, `T` is the temperature
 array, and `C` is the vector of species molar concentrations. The output
 variable, `WDOT`, is the
-![](graphics/eq22231585-5692-0452-7401-330238388594.svg) vector, where
-![](graphics/eq66094508-0315-9064-8010-069988328246.svg) is the `KEL`th entry.
+![image](./graphics/eq22231585-5692-0452-7401-330238388594.svg) vector, where
+![image](./graphics/eq66094508-0315-9064-8010-069988328246.svg) is the `KEL`th entry.
 
 * * *
 

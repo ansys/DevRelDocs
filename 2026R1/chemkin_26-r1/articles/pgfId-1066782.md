@@ -16,11 +16,11 @@ properties are referred to by `CP` and `CV` (Specific heats), `H` (enthalpy),
 to return properties in mass units, denoted by `MS` or `S` as the last
 letter(s), or in molar units, denoted by `ML` or `L` as the last letter(s).
 The letter `B` (for the bar as in
-![](graphics/eq73873444-8841-3181-0623-555850045825.svg)) in a thermodynamic
+![image](./graphics/eq73873444-8841-3181-0623-555850045825.svg)) in a thermodynamic
 property subroutine name indicates that it returns mean mixture properties.
 
 Subroutines that return net chemical production rates have a `W` (for
-![](graphics/eq77412692-1043-8389-0663-974839952253.svg)) following the `CK`,
+![image](./graphics/eq77412692-1043-8389-0663-974839952253.svg)) following the `CK`,
 and routines that return creation and destruction rates or creation rates and
 destruction times have a `CD` or a `CT`, respectively, following the `CK`.
 Rate-of-progress variables are denoted by `Q` and equilibrium constants by
