@@ -84,7 +84,7 @@ and species composition.
 Figure 1.1: Schematic representing the relationship of Gas-phase Kinetics and
 the Application.
 
-![Schematic representing the relationship of Gas-phase Kinetics and the Application.](graphics/CHEMKIN_relationship_Gas-phase_Kinetics_and_Application.png)
+![Schematic representing the relationship of Gas-phase Kinetics and the Application.](./graphics/CHEMKIN_relationship_Gas-phase_Kinetics_and_Application.png)
 
   
 

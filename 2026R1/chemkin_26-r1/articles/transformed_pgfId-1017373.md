@@ -22,7 +22,7 @@ there are no gas-phase reactions.
 Figure 1.3: Relationships between the CHEMKIN Pre-processors and an
 Application</a></p>
 
-![Relationships between the CHEMKIN Pre-processors and an Application](graphics/CHEMKIN_Relationships_between_Pre-proc_and_Application.png)
+![Relationships between the CHEMKIN Pre-processors and an Application](./graphics/CHEMKIN_Relationships_between_Pre-proc_and_Application.png)
 
   
 
