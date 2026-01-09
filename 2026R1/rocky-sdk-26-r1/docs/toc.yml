@@ -1,0 +1,27 @@
+- name: Introduction
+  href: introduction.md
+- name: Getting started
+  href: getting_started.md
+- name: Module specification
+  href: module_specification.md
+- name: Solver Hooks
+  href: solver_hooks.md
+- name: Macros and specifiers
+  href: macros_and_specifiers.md
+- name: Usage examples
+  href: usage_examples.md
+- name: Glossary
+  href: glossary.md
+- name: Class reference
+  href: class_reference_index.md
+  items:
+  - name: Global Contents
+    href: global_contents.md
+  - name: Global Index
+    href: global_index.md
+  - name: Struct Contents
+    href: struct_contents.md
+  - name: Class Contents
+    href: class_contents.md
+- name: Changelog
+  href: changelog.md
