@@ -10,14 +10,20 @@
 - name: User guide
   href: user_guide/index.md
   items:
-  - name: Streamlined API structure
-    href: user_guide/streamlined_api.md
+  - name: Package overview
+    href: user_guide/package_overview.md
   - name: Versioning
     href: user_guide/versioning.md
-  - name: Performance optimization
-    href: user_guide/performance_optimization.md
+  - name: Streamlined API structure
+    href: user_guide/streamlined_api_structure.md
   - name: Authentication
     href: user_guide/authentication.md
+  - name: Performance optimization
+    href: user_guide/performance_optimization.md
+  - name: Logging
+    href: user_guide/logging.md
+  - name: Exceptions
+    href: user_guide/exceptions.md
   - name: MI Scripting Toolkit and PyAnsys
     href: user_guide/pyansys.md
 - name: Example notebooks
@@ -34,26 +40,26 @@
       href: samples/streamlined/03_Search_MI.md
     - name: Fetch attribute data in bulk
       href: samples/streamlined/04_Fetch_Attribute_Data_in_Bulk.md
-    - name: Edit data
-      href: samples/streamlined/05_Edit_Data.md
     - name: Create and delete records in bulk
-      href: samples/streamlined/06_Create_Records.md
-    - name: Import functional data
-      href: samples/streamlined/07_Import_Functional_Data.md
-    - name: Create functional data
-      href: samples/streamlined/08_Create_Functional_Data.md
-    - name: Edit tabular data
-      href: samples/streamlined/09_Edit_Tabular_Data.md
-    - name: Edit pseudo-attributes
-      href: samples/streamlined/10_Edit_Pseudo-attributes.md
-    - name: Add files, pictures, and hyperlinks
-      href: samples/streamlined/11_Add_Files_Pictures_and_Hyperlinks.md
-    - name: Add point and range data
-      href: samples/streamlined/12_Add_Point_Range_Data.md
-    - name: Add date, integer and logical data
-      href: samples/streamlined/13_Add_Date_Integer_and_Logical_Data.md
-    - name: Create and edit tabular data
-      href: samples/streamlined/14_Create_and_Edit_Tabular_Data.md
+      href: samples/streamlined/05_Create_Records.md
+    - name: Text data
+      href: samples/streamlined/06_Edit_Text_Data.md
+    - name: Point and range data
+      href: samples/streamlined/07_Edit_Point_Range_Data.md
+    - name: Date, integer and logical data
+      href: samples/streamlined/08_Edit_Data_Integer_and_Logical_Data.md
+    - name: Files, pictures, and hyperlinks
+      href: samples/streamlined/09_Edit_Files_Pictures_and_Hyperlinks.md
+    - name: Float functional data
+      href: samples/streamlined/10_Edit_Float_Functional_Data.md
+    - name: Local tabular data
+      href: samples/streamlined/11_Edit_Local_Tabular_Data.md
+    - name: Linked tabular data
+      href: samples/streamlined/12_Edit_Linked_Tabular_Data.md
+    - name: Pseudo-attributes
+      href: samples/streamlined/13_Edit_Pseudo-attributes.md
+    - name: Data with precision
+      href: samples/streamlined/14_Data_with_Precision.md
     - name: Export data for FEA
       href: samples/streamlined/15_Use_Exporters_for_FEA_Export.md
     - name: Link records
@@ -94,7 +100,31 @@
       href: samples/data-analytics/12_Preparing_data_for_Power_BI.md
     - name: Data validation using Scripting Toolkit
       href: samples/data-analytics/13_Data_validation.md
-- name: API reference
+  - name: Foundation API notebooks
+    items:
+      - name: Exporting data
+        href: samples/foundation/01_Exporting_data.md
+      - name: Exporting data using the Engineering Data Service
+        href: samples/foundation/02_Exporting_data_using_EngineeringDataService.md
+      - name: Text search
+        href: samples/foundation/03_Text_Search.md
+      - name: Deleting records
+        href: samples/foundation/04_Deleting_records.md
+      - name: Functional data and importing data
+        href: samples/foundation/05_Functional_data_and_importing_data.md
+      - name: Importing and exporting tabular data
+        href: samples/foundation/06_Importing_and_exporting_tabular_data.md
+      - name: Modified date
+        href: samples/foundation/07_Modified_date.md
+      - name: Inspecting record link groups
+        href: samples/foundation/08_Inspecting_Record_Link_Groups.md
+      - name: Modifying record link groups
+        href: samples/foundation/09_Modifying_Record_Link_Groups.md
+      - name: Resolve references
+        href: samples/foundation/10_Resolve_references.md
+      - name: Get unit conversions
+        href: samples/foundation/11_Get_unit_conversions.md
+- name: Streamlined API reference
   href: api/index.md
   items:
   - name: Session
@@ -111,44 +141,28 @@
     href: api/attribute-values.md
   - name: Schema and supporting items
     href: api/supporting.md
-  - name: Bulk operators
-    href: api/bulk-operators.md
-  - name: Helpers
+  - name: Tabular attribute value items
+    href: api/tabular.md
+  - name: Helper functions
     href: api/helpers.md
   - name: Constants
     href: api/constants.md
   - name: Exceptions
     href: api/exceptions.md
-- name: Changelog
-  href: changelog.md
-- name: Foundation API
-  href: foundation/index.md
+- name: Release notes
+  href: index.md
   items:
-  - name: Example notebooks
-    items:
-    - name: Exporting data
-      href: samples/foundation/01_Exporting_data.md
-    - name: Exporting data using the Engineering Data Service
-      href: samples/foundation/02_Exporting_data_using_EngineeringDataService.md
-    - name: Text search
-      href: samples/foundation/03_Text_Search.md
-    - name: Deleting records
-      href: samples/foundation/04_Deleting_records.md
-    - name: Functional data and importing data
-      href: samples/foundation/05_Functional_data_and_importing_data.md
-    - name: Importing and exporting tabular data
-      href: samples/foundation/06_Importing_and_exporting_tabular_data.md
-    - name: Modified date
-      href: samples/foundation/07_Modified_date.md
-    - name: Inspecting record link groups
-      href: samples/foundation/08_Inspecting_Record_Link_Groups.md
-    - name: Modifying record link groups
-      href: samples/foundation/09_Modifying_Record_Link_Groups.md
-    - name: Resolve references
-      href: samples/foundation/10_Resolve_references.md
-    - name: Get unit conversions
-      href: samples/foundation/11_Get_unit_conversions.md
-  - name: API reference
-    href: foundation/api.md
+  - name: What's new in 5.0
+    href: whats_new.md
+  - name: Enhancements and bug fixes
+    href: bug_fixes_and_enhancements.md
+  - name: Upgrading from earlier versions
+    href: breaking_changes.md
+  - name: Planned changes and deprecations
+    href: deprecations.md
+  - name: Known issues
+    href: known_issues.md
+- name: Foundation API reference
+  href: foundation_api.md
 - name: Copyright and Trademark Information
   href: copyright.md

@@ -9,14 +9,14 @@ Connect to MI and specify a database.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 db.unit_system = "Metric"
 ```
 
-Specify the records and attributes you want to export from the first table. 
+Specify the records and attributes you want to export from the first table.
 
 For this example, we need *Build ID* and *Travel Speed* for all records in the *AM Builds* table.
 
@@ -367,7 +367,7 @@ Finally, create a `units` dict so you can create plots with meaningful axis labe
 ```python
 attr_defs = [am_builds.attributes[attr] for attr in build_attributes] + \
             [tensile_test_data.attributes[attr] for attr in tensile_attributes]
-units = {attr.name: attr.unit for attr in attr_defs if attr.unit}
+units = {attr.name: attr.unit for attr in attr_defs if getattr(attr, "unit", None) is not None}
 units
 ```
 
@@ -418,7 +418,7 @@ _ = ax.set_title("$F_{{tu}}$ vs Travel Speed")
 
 
 There is a clear dependence of the *Ultimate Tensile Strength* on the *Travel Speed*. It is also clear that *Travel Speed*
-is an independent variable, with the values chosen for each build falling into a set of well-defined bins. 
+is an independent variable, with the values chosen for each build falling into a set of well-defined bins.
 
 Instead of judging the distribution by eye, we can use box plots to describe the distribution of values.
 
@@ -454,7 +454,7 @@ _ = ax.set_title("$F_{{tu}}$ vs Travel Speed (Violin Plot)")
 
 ### Investigate the impact of a third property
 
-The orientation of each specimen during the test was also exported, but not included on the plots above. 
+The orientation of each specimen during the test was also exported, but not included on the plots above.
 
 The simplest way to visualize this data is to add it to the original scatter plot as a color axis.
 
@@ -504,7 +504,7 @@ Name: count, dtype: int64
 ```
 
 
-There are only 7 values for 'AT', which is less than 10% of the overall dataset. 
+There are only 7 values for 'AT', which is less than 10% of the overall dataset.
 
 The code below creates a series of `True` or `False` values in `rows_to_keep` (set to `True` if the value is in the
 specified list). `rows_to_keep` is then passed as a selector into the DataFrame, which maps the list onto the
@@ -512,7 +512,7 @@ DataFrame rows and returns a new DataFrame with only the `True` rows included.
 
 
 ```python
-rows_to_keep = df_processed["Specimen Orientation"].map(lambda x: x in ['L', 'LT'])
+rows_to_keep = df_processed["Specimen Orientation"].map(lambda x: x in ["L", "LT"])
 df_L_or_LT = df_processed[rows_to_keep]
 df_L_or_LT.head()
 ```

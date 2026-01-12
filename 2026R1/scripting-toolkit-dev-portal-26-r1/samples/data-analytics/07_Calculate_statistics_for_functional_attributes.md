@@ -9,9 +9,9 @@ Connect to Granta MI and specify a database and tables.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 
 db = mi.get_db(db_key="MI_Training")
 test_table = db.get_table("Tensile Test Data")
@@ -45,11 +45,7 @@ test_records = plate_folder.get_descendants()
 test_records = bulk_fetch_attributes_and_return_populated_records(
     table=test_table,
     records=test_records,
-    attributes=[
-        "Specimen ID",
-        "Tensile Response (11 axis)",
-        "Test Temperature"
-    ]
+    attributes=["Specimen ID", "Tensile Response (11 axis)", "Test Temperature"],
 )
 temperature_unit = test_table.attributes["Test Temperature"].unit
 temperature_column_name = f"Test Temperature [{temperature_unit}]"
@@ -73,7 +69,9 @@ for record in test_records:
     specimen_id = record.attributes["Specimen ID"].value
     test_temperature = record.attributes["Test Temperature"].value
 
-    df_functional_data = pd.DataFrame(response_attr.value[1:], columns=response_attr.value[0])
+    df_functional_data = pd.DataFrame(
+        response_attr.table_view.table_view[1:], columns=response_attr.table_view.table_view[0]
+    )
 
     df_current = pd.concat(
         [
@@ -85,7 +83,7 @@ for record in test_records:
                 ]
             ]
             .mean(axis=1)
-            .rename("Tensile Response (11 axis) [MPa]")
+            .rename("Tensile Response (11 axis) [MPa]"),
         ],
         axis=1,
     )
@@ -143,7 +141,7 @@ for temperature_index, temperature in enumerate(grouped_by.groups):
             data=zip(
                 *[
                     [row[temperature_index] for row in confidence_intervals[0]],
-                    [row[temperature_index] for row in confidence_intervals[1]]
+                    [row[temperature_index] for row in confidence_intervals[1]],
                 ],
             ),
             index=df_interpolated.index,
@@ -156,7 +154,7 @@ for temperature_index, temperature in enumerate(grouped_by.groups):
             grouped_by.mean().T[temperature].rename("mean"),
             grouped_by.min().T[temperature].rename("min"),
             grouped_by.max().T[temperature].rename("max"),
-            df_cis
+            df_cis,
         ],
         axis=1,
     ).dropna()
@@ -224,7 +222,7 @@ plt.show()
 ## Import roll-up data into Granta MI
 
 Define two helper functions: one that resamples a DataFrame linearly based on a target column's values, and one that
-appends a series of range values to a `FloatFunctionalAttributeValue`, skipping any `NaN` values.
+creates a series of range values.
 
 (Although `pandas` has a built-in `resample()` function, it only operates on time-series data.)
 
@@ -235,23 +233,22 @@ import numpy as np
 def subsample_dataframe(df, x_axis, n_samples):
     new_index = np.linspace(df[x_axis].min(), df[x_axis].max(), n_samples)
     df.index = df[x_axis]
-    df_subsampled = (
-        df
-        .reindex(df.index.union(new_index))
-        .interpolate("index")
-        .reindex(index=new_index)
-    )
+    df_subsampled = df.reindex(df.index.union(new_index)).interpolate("index").reindex(index=new_index)
     df_subsampled.index = range(n_samples)
     return df_subsampled
 
 
-def append_series(functional_attribute, x_data, y_low_data, y_high_data=None, data_type=None):
+def make_series(x_data, y_low_data, y_high_data=None, data_type=None) -> mpy.SeriesRange:
     if y_high_data is None:
         y_high_data = y_low_data
-    for x, y_low, y_high in zip(x_data, y_low_data, y_high_data):
-        if pd.isna(y_low) or pd.isna(y_high):
-            continue
-        functional_attribute.value.append([y_low, y_high, x, data_type, False])
+    return mpy.SeriesRange(
+        x=tuple(x_data),
+        y_low=tuple(y_low_data),
+        y_high=tuple(y_high_data),
+        parameters=(
+            mpy.SeriesParameterValue("Data Type", data_type),
+        ) if data_type is not None else tuple()
+    )
 ```
 
 Import the roll-up data into a Granta MI database. Use `path_from()` to create a folder path, and then create a
@@ -279,44 +276,44 @@ for plot_index, temperature in enumerate(grouped_by.groups):
         name=f"Functional Rollup ({round(temperature, 0)} {temperature_unit})",
         parent=folder,
     )
-    
+
     temp_attribute = rec.attributes["Test Temperature"]
     temp_attribute.value = temperature
     temp_attribute.unit = temperature_unit
 
-    func_attr = rec.attributes["Tensile Response Analysis (11 axis)"]
+    func_attr: mpy.AttributeFunctionalSeriesRange = rec.attributes["Tensile Response Analysis (11 axis)"]
     func_attr.unit = "MPa"
 
     # Get the rows corresponding to the current temperature
     df_current = df_all_plots.loc[df_all_plots["temperature"] == temperature]
 
     df_current = subsample_dataframe(df_current, "strain", 101)
-    append_series(
-        func_attr,
-        df_current["strain"],
-        df_current["mean"],
-        data_type="Mean",
-    )
-    append_series(
-        func_attr,
-        df_current["strain"],
-        df_current["lower_ci"],
-        df_current["upper_ci"],
-        data_type="95% Confidence Interval",
-    )
-    append_series(
-        func_attr,
-        df_current["strain"],
-        df_current["min"],
-        df_current["max"],
-        data_type="Range",
+    func_attr.value = (
+        make_series(
+            df_current["strain"],
+            df_current["mean"],
+            data_type="Mean",
+        ),
+        make_series(
+            df_current["strain"],
+            df_current["lower_ci"],
+            df_current["upper_ci"],
+            data_type="95% Confidence Interval",
+        ),
+        make_series(
+            df_current["strain"],
+            df_current["min"],
+            df_current["max"],
+            data_type="Range",
+        ),
     )
 
     rec.set_attributes([temp_attribute, func_attr])
     rec = mi.update([rec])[0]
 
     associated_test_records = [
-        test_record for test_record in test_records
+        test_record
+        for test_record in test_records
         if round(test_record.attributes["Test Temperature"].value, 1) == temperature
     ]
     rec.set_links("Tensile Test Data", associated_test_records)

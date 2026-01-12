@@ -12,13 +12,13 @@ This example demonstrates:
 
 ## Create a Granta MI Session
 
-Import the GRANTA_MIScriptingToolkit package, and create a connection to a Granta MI server.
+Import the ansys.grantami.backend.soap package, and create a connection to a Granta MI server.
 
 
 ```python
-import GRANTA_MIScriptingToolkit as gdl
+import ansys.grantami.backend.soap as gdl
 
-session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", autoLogon=True)
+session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", auto_logon=True)
 ```
 
 ## Get the Databases
@@ -27,12 +27,12 @@ Access the browse service from the session and execute the *GetDatabases* method
 
 
 ```python
-browseService = session.browseService
-databases = browseService.GetDatabases().databases
+browse_service = session.browse_service
+databases = browse_service.get_databases().databases
 
 print(f"Found {len(databases)} databases on the Granta MI Server")
 for d in databases:
-    print(f"Database key: {d.DBKey}, database name: {d.volumeName}")
+    print(f"Database key: {d.db_key}, database name: {d.volume_name}")
 ```
 *Previous cell output:*
 ```output
@@ -47,8 +47,8 @@ import pandas as pd
 
 df = pd.DataFrame(
     {
-        "DBKey": [db.DBKey for db in databases],
-        "DBName": [db.volumeName for db in databases]
+        "DBKey": [db.db_key for db in databases],
+        "DBName": [db.volume_name for db in databases],
     }
 )
 df
@@ -86,12 +86,12 @@ Use the *GetTables* method from the browse service to see what tables are availa
 ```python
 dbKey = "MI_Training"
 
-tables = browseService.GetTables(gdl.GetTables(DBKey=dbKey)).tableDetails
+tables = browse_service.get_tables(gdl.GetTables(db_key=dbKey)).table_details
 
 print(f"Found {len(tables)} tables in database {dbKey}")
 print("Printing the first 5")
 for t in tables[:5]:
-    print(f"Table name: {t.tableReference.name}")
+    print(f"Table name: {t.table_reference.name}")
 ```
 *Previous cell output:*
 ```output
@@ -113,22 +113,22 @@ normalized)*
 table = "Tensile Test Data"
 attribute = "Young's modulus (11-axis) (normalized)"
 
-tableRef = gdl.PartialTableReference(tableName=table)
-attrRef = gdl.AttributeReference(
+table_ref = gdl.PartialTableReference(table_name=table)
+attr_ref = gdl.AttributeReference(
     name=attribute,
-    DBKey=dbKey,
-    partialTableReference=tableRef,
+    db_key=dbKey,
+    partial_table_reference=table_ref,
 )
-searchCriterion = gdl.RecordSearchCriterion(
-    searchAttribute=attrRef,
-    existsSearchValue=gdl.ExistsSearchValue(),
+search_criterion = gdl.RecordSearchCriterion(
+    search_attribute=attr_ref,
+    exists_search_value=gdl.ExistsSearchValue(),
 )
 request = gdl.CriteriaSearch(
-    DBKey=dbKey,
-    searchCriteria=[searchCriterion],
+    db_key=dbKey,
+    search_criteria=[search_criterion],
 )
 
-searchResults = session.searchService.CriteriaSearch(request).searchResults
+search_results = session.search_service.criteria_search(request).search_results
 ```
 
 Print the *shortName* and *longName* of the first 5 records returned by the search.
@@ -137,8 +137,8 @@ Print the *shortName* and *longName* of the first 5 records returned by the sear
 ```python
 df2 = pd.DataFrame(
     {
-        "ShortName": [r.shortName for r in searchResults],
-        "LongName": [r.longName  for r in searchResults]
+        "ShortName": [r.short_name for r in search_results],
+        "LongName": [r.long_name for r in search_results],
     }
 )
 df2.head()
@@ -201,20 +201,21 @@ attributes = [
     "Elastic Poisson's Ratio (12-plane)",
 ]
 
-attrRefs = [
+attribute_refs = [
     gdl.AttributeReference(
         name=a,
-        DBKey=dbKey,
-        partialTableReference=tableRef,
-    ) for a in attributes
+        db_key=dbKey,
+        partial_table_reference=table_ref,
+    )
+    for a in attributes
 ]
-recordRefs = [r.recordReference for r in searchResults]
+record_refs = [r.record_reference for r in search_results]
 request = gdl.GetRecordAttributesByRefRequest(
-    recordReferences=recordRefs,
-    attributeReferences=attrRefs,
+    record_references=record_refs,
+    attribute_references=attribute_refs,
 )
-       
-recordData = session.dataExportService.GetRecordAttributesByRef(request).recordData
+
+record_data = session.data_export_service.get_record_attributes_by_ref(request).record_data
 ```
 
 Print the values of the attributes from the first 5 exported records. Note that some records may not have values for
@@ -222,13 +223,13 @@ all attributes.
 
 
 ```python
-s = [None]*len(df2)
+s = [None] * len(df2)
 for attribute in attributes:
-    for idx, record in enumerate(recordData):
-        attrValue = next((x for x in record.attributeValues if x.attributeName == attribute), None)
-        s[idx] = attrValue.pointDataType.points[0].value if attrValue else None
+    for idx, record in enumerate(record_data):
+        attr_value = next((x for x in record.attribute_values if x.attribute_name == attribute), None)
+        s[idx] = attr_value.point_data_value.points[0].value if attr_value else None
     df2[attribute] = s
-    
+
 df2.head()
 ```
 

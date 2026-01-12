@@ -9,14 +9,14 @@ test data.
 Connect to Granta MI and specify the database and table containing the test results.
 
 Since this operation is likely to be performed as a batch operation, see
-[Authentication](./../../user_guide/authentication.rst) for more information about connecting to Granta MI securely in
+[Authentication](../../user_guide/authentication.rst) for more information about connecting to Granta MI securely in
 batch mode operation.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 test_data_table = db.get_table("Tensile Test Data")
 print(test_data_table)
@@ -52,7 +52,6 @@ where the attribute is populated, but the meta-attribute is empty.
 
 ```python
 from typing import List
-
 
 def find_unprocessed_records_for_attribute(test_attribute_name: str) -> List[mpy.Record]:
     test_attribute_definition = test_data_table.attributes[test_attribute_name]
@@ -138,7 +137,7 @@ for attribute_name in COMPARISON_ATTRIBUTES.values():
     attribute = test_data_table.attributes[attribute_name]
     meta_attribute = attribute.meta_attributes[SPEC_STATUS_META_ATTRIBUTE]
     test_data_attributes.extend([attribute, meta_attribute])
-    
+
 test_data_table.bulk_fetch(records=records_to_process, attributes=test_data_attributes)
 print(f"Bulk fetched {len(test_data_attributes)} attributes across {len(records_to_process)} records")
 ```
@@ -160,7 +159,7 @@ spec_records = set()
 for r in records_to_process:
     spec_records.update(r.links[SPEC_LINK_GROUP_NAME])
 spec_records = list(spec_records)
-    
+
 # Step 2: Get the specification table object
 specification_table_name = spec_records[0].table_name
 specification_table = db.get_table(specification_table_name)
@@ -188,9 +187,9 @@ def compare_test_to_spec(test_attribute: mpy.AttributePoint, spec_attribute: mpy
     if test_attribute.is_empty() or spec_attribute.is_empty():
         return None
     test_value = test_attribute.value
-    low_spec_value = spec_attribute.value["low"] or float("-inf")
-    high_spec_value = spec_attribute.value["high"] or float("inf")
-    
+    low_spec_value = spec_attribute.value.low if spec_attribute.value.low is not None else float("-inf")
+    high_spec_value = spec_attribute.value.high if spec_attribute.value.high is not None else float("inf")
+
     if low_spec_value <= test_value <= high_spec_value:
         return "Test meets specification"
     else:
@@ -199,7 +198,7 @@ def compare_test_to_spec(test_attribute: mpy.AttributePoint, spec_attribute: mpy
 
 ### Compare the data
 Finally, iterate over all records in the `records_to_process` list and all attributes in the `COMPARISON_ATTRIBUTES`
-constant. For each combination of record and attribute, call the function defined above and store the result in the 
+constant. For each combination of record and attribute, call the function defined above and store the result in the
 *Specification Status* meta-attribute. The comparison is skipped if the meta-attribute is already populated.
 
 
@@ -209,22 +208,22 @@ records_to_update = []
 for test_record in records_to_process:
     test_specimen_id = test_record.attributes[SPECIMEN_ID_ATTRIBUTE].value
     print(f"{test_specimen_id}")
-    
+
     spec_record = next(iter(test_record.links[SPEC_LINK_GROUP_NAME]))
     modified_attributes = []
     for spec_attribute_name, test_attribute_name in COMPARISON_ATTRIBUTES.items():
         test_attribute = test_record.attributes[test_attribute_name]
-        spec_status_meta_attribute = test_attribute.meta_attributes[SPEC_STATUS_META_ATTRIBUTE]  
+        spec_status_meta_attribute = test_attribute.meta_attributes[SPEC_STATUS_META_ATTRIBUTE]
         if not spec_status_meta_attribute.is_empty():
             print(f" - {test_attribute_name} skipped: <Already populated>")
             continue
-        
+
         spec_attribute = spec_record.attributes[spec_attribute_name]
         status = compare_test_to_spec(test_attribute, spec_attribute)
         if not status:
             print(f" - {test_attribute_name} skipped: <No data>")
             continue
-        
+
         print(f" - {test_attribute_name} result: {status}")
         spec_status_meta_attribute.value = status
         modified_attributes.append(spec_status_meta_attribute)
@@ -275,8 +274,7 @@ if records_to_update:
     modified_records = mi.update(records_to_update)
     print(f"{len(modified_records)} records modified. Links to the MI Viewer datasheets are provided below.")
     for modified_record in modified_records:
-        print(f"{modified_record.attributes[SPECIMEN_ID_ATTRIBUTE].value}"
-              f": {modified_record.viewer_url}")
+        print(f"{modified_record.attributes[SPECIMEN_ID_ATTRIBUTE].value}: {modified_record.viewer_url}")
 else:
     print("No records modified")
 ```
