@@ -2,7 +2,7 @@
 
 <a id="copyright-and-trademark-information"></a>
 
-© 2025 ANSYS, Inc. or its affiliated companies. All rights reserved
+© 2026 ANSYS, Inc. or its affiliated companies. All rights reserved
 
 Ansys, Ansys Workbench, AUTODYN, CFX, FLUENT and any and all ANSYS, Inc. brand, product, service and feature names,
 logos and slogans are registered trademarks or trademarks of ANSYS, Inc. or its subsidiaries located in the United

@@ -30,7 +30,7 @@ logging in general, see the Python documentation:
 ## Creating a logger
 
 The `GDL` logger can be accessed in two ways. The first is via the
-[`get_foundation_logger()`](./../api/helpers.md#GRANTA_MIScriptingToolkit.granta.mi_functions.get_foundation_logger) function:
+[`get_foundation_logger()`](../streamlined_api/helpers.md#ansys.grantami.core.mi_functions.get_foundation_logger) function:
 
 ```default
 logger = mpy.get_foundation_logger()
@@ -118,5 +118,8 @@ used to capture information from all Scripting Toolkit loggers and loggers creat
 The MI Scripting Toolkit underlying C libraries also perform their own additional logging separate to the Python
 logging. These logs can be found in the following locations:
 
-* Windows: `%LOCALAPPDATA%\Granta Design\MIScriptingToolkit`
-* Linux: `~/.appdata/Granta Design/MIScriptingToolkit`
+* Windows: `%LOCALAPPDATA%\Granta\Granta MI\ScriptingToolkit`
+* Linux: `~/.appdata/Granta/Granta MI/ScriptingToolkit`
+
+#### Versionchanged
+Changed in version 4.2: Log location changed

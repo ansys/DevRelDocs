@@ -24,11 +24,10 @@ and in batch mode.
 
 ## Autologon
 
-To use autologon (also known as Integrated Windows Authentication), specify `autologon=True` in the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session)
-constructor:
+To use autologon (also known as Integrated Windows Authentication), use [`SessionBuilder.with_autologon()`](../streamlined_api/session.md#ansys.grantami.core.mi.SessionBuilder.with_autologon):
 
 ```pycon
->>> mi = mpy.Session("https://my.server.name/mi_servicelayer", autologon=True)
+>>> mi = mpy.SessionBuilder("https://my.server.name/mi_servicelayer").with_autologon()
 ```
 
 Autologon uses the user’s current login session to authenticate with Granta MI, and so the user’s credentials are not
@@ -73,15 +72,16 @@ script, which in turn executes the Python script.
 
 ## Basic authentication
 
-To connect with basic authentication, specify the username, password, and optional domain in the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session)
-constructor:
+To connect with basic authentication, use [`SessionBuilder.with_credentials()`](../streamlined_api/session.md#ansys.grantami.core.mi.SessionBuilder.with_credentials) to specify the username, password,
+and optional domain:
 
 ```pycon
->>> mi = mpy.Session(
-...   "https://my.server.name/mi_servicelayer",
-...   user_name="user",
-...   password="password",
-...   domain="domain",
+>>> mi = mpy.SessionBuilder(
+...     service_layer_url="https://my.server.name/mi_servicelayer",
+... ).with_credentials(
+...     username="user",
+...     password="password",
+...     domain="domain",
 ... )
 ```
 
@@ -109,11 +109,12 @@ below:
 
 >>> password = getpass.getpass()
 
->>> mi = mpy.Session(
-...   "https://my.server.name/mi_servicelayer",
-...   user_name="user",
-...   password=password,
-...   domain="domain",
+>>> mi = mpy.SessionBuilder(
+...     service_layer_url="https://my.server.name/mi_servicelayer",
+... ).with_credentials(
+...     username="user",
+...     password=password,
+...     domain="domain",
 ... )
 ```
 
@@ -126,7 +127,7 @@ other options in this section should be used instead.
 ### Environment variables
 
 Credentials can be injected into the script using environment variables. The [`os`](https://docs.python.org/3/library/os.html#module-os) standard library module provides
-access to environment variables, and can be used with the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) constructor as follows:
+access to environment variables, and can be used with [`SessionBuilder.with_credentials()`](../streamlined_api/session.md#ansys.grantami.core.mi.SessionBuilder.with_credentials) as follows:
 
 ```pycon
 >>> import os
@@ -135,11 +136,12 @@ access to environment variables, and can be used with the [`Session`](./../api/s
 >>> password = os.getenv("MI_PASSWORD")
 >>> domain = os.getenv("MI_DOMAIN")
 
->>> mi = mpy.Session(
-...   "https://my.server.name/mi_servicelayer",
-...   user_name=user_name,
-...   password=password,
-...   domain=domain,
+>>> mi = mpy.SessionBuilder(
+...     service_layer_url="https://my.server.name/mi_servicelayer",
+... ).with_credentials(
+...     username=user_name,
+...     password=password,
+...     domain=domain,
 ... )
 ```
 
@@ -253,8 +255,9 @@ Python:
 >>> keyring.set_password("my-python-script", "granta-admin-user", "my_secret_password")
 ```
 
-In general, credentials should always retrieved programmatically and provided directly to the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session)
-constructor without them ever being visible on screen. To access a credential programmatically, use the following:
+In general, credentials should always be retrieved programmatically and provided directly to
+[`SessionBuilder.with_credentials()`](../streamlined_api/session.md#ansys.grantami.core.mi.SessionBuilder.with_credentials) without being visible on screen. To access a credential programmatically, use
+the following:
 
 ```pycon
 >>> my_password = keyring.get_password("my-python-script", "granta-admin-user")
@@ -300,17 +303,27 @@ supported OIDC IdPs and for configuration and setup documentation, refer to Gran
 Configuration on [Ansys help](https://ansyshelp.ansys.com/).
 
 #### NOTE
-To use OIDC with MI Scripting Toolkit you must install the `[oidc]` extra. See [Getting started](./../getting_started/index.md) for more details.
+To use OIDC with MI Scripting Toolkit you must install the `[oidc]` extra. See [Getting started](../getting_started/index.md) for more details.
 
 <a id="interactive-mode"></a>
 
 ### Interactive mode
 
-To use OIDC authentication interactively, specify `oidc=True` in the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) constructor. The following
-example loads the default web browser and redirects the user to their OIDC Identity Provider (IdP) login screen:
+To use OIDC authentication interactively, use [`SessionBuilder.with_oidc()`](../streamlined_api/session.md#ansys.grantami.core.mi.SessionBuilder.with_oidc) to obtain a [`OIDCSessionBuilder`](../streamlined_api/session.md#ansys.grantami.core.mi.OIDCSessionBuilder)
+object, and then use [`OIDCSessionBuilder.with_authorization_code_flow()`](../streamlined_api/session.md#ansys.grantami.core.mi.OIDCSessionBuilder.with_authorization_code_flow).
+
+The following example loads the default web browser and redirects the user to their OIDC Identity Provider (IdP) login
+screen:
 
 ```pycon
->>> mi = mpy.Session('https://my.server.name/mi_servicelayer', oidc=True)
+>>> mi = mpy.SessionBuilder('https://my.server.name/mi_servicelayer').with_oidc().with_authorization_code_flow()
+```
+
+If a browser is not available, use [`OIDCSessionBuilder.with_device_code_flow()`](../streamlined_api/session.md#ansys.grantami.core.mi.OIDCSessionBuilder.with_device_code_flow) instead. The following example
+displays a URL and code which are used to authenticate instead:
+
+```pycon
+>>> mi = mpy.SessionBuilder('https://my.server.name/mi_servicelayer').with_oidc().with_device_code_flow()
 ```
 
 <a id="batch-mode-storing-refresh-tokens"></a>
@@ -320,8 +333,8 @@ example loads the default web browser and redirects the user to their OIDC Ident
 In most cases, following a successful interactive authentication, the IdP returns both an access token and a refresh
 token:
 
-* Access token: Short lifetime, not transferable, not accessible on the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) object.
-* Refresh token: Long lifetime, transferable between scripts, accessible via the [`Session.refresh_token`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.refresh_token)
+* Access token: Short lifetime, not transferable, not accessible on the [`Session`](../streamlined_api/session.md#ansys.grantami.core.mi.Session) object.
+* Refresh token: Long lifetime, transferable between scripts, accessible via the [`Session.refresh_token`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.refresh_token)
   property.
 
 #### WARNING
@@ -330,11 +343,11 @@ Refresh tokens are bearer tokens that grant access to the Granta MI server, and 
 For unattended use, the refresh token can be stored securely in the OS credential manager and used to login
 automatically. This approach uses the `keyring` library, see the [Keyring](https://pypi.org/project/keyring/) section above for more details.
 
-Tokens can be securely persisted with the [`Session.persist_oidc_token()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.persist_oidc_token) method:
+Tokens can be securely persisted with the [`Session.persist_oidc_token()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.persist_oidc_token) method:
 
 ```pycon
 # Connect to Granta MI interactively
->>> mi = mpy.Session('https://my.server.name/mi_servicelayer', oidc=True)
+>>> mi = mpy.SessionBuilder('https://my.server.name/mi_servicelayer').with_oidc().with_authorization_code_flow()
 
 # Store the refresh token in the credential store using keyring
 >>> mi.persist_oidc_token()
@@ -343,5 +356,5 @@ Tokens can be securely persisted with the [`Session.persist_oidc_token()`](./../
 Tokens can then be retrieved from the store and used to create a new Session object with no user interaction:
 
 ```pycon
->>> mi = mpy.Session("https://my.server.name/mi_servicelayer", oidc=True, use_stored_token=True)
+>>> mi = mpy.SessionBuilder("https://my.server.name/mi_servicelayer").with_oidc().with_stored_token()
 ```

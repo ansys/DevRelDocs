@@ -1,4 +1,4 @@
-# Get Started 
+# Get Started
 Load MI Scripting Toolkit, connect to your MI Session, and select a database and table.
 
 ## Connect to MI
@@ -7,9 +7,9 @@ replacing `my.server.name` with the name of your Granta MI server.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 ```
 
 ## Select a database
@@ -24,12 +24,12 @@ Set a unit system, and choose whether to use absolute or relative temperatures (
 
 
 ```python
-my_db.unit_system = 'UK Imperial'
+my_db.unit_system = "UK Imperial"
 my_db.absolute_temperatures = False
 ```
 
 ## Select a table
-Select *MaterialUniverse* and print its number of attributes. 
+Select *MaterialUniverse* and print its number of attributes.
 
 
 ```python
@@ -128,7 +128,7 @@ with data like this:
 
 *Previous cell output:*
 ```output
-<RangeValue name: Mg (magnesium), value: {'low': 2.5, 'high': 2.5}, high_value_is_inclusive: True, low_value_is_inclusive: True, unit: %>
+<RangeValue name: Mg (magnesium), value: Range(low=2.5, high=2.5, low_value_is_inclusive=True, high_value_is_inclusive=True), unit: %>
 ```
 
 

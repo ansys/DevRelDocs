@@ -6,8 +6,8 @@
 
 ## Server software requirements
 
-To use MI Scripting Toolkit 4.2, your Granta MI server must be running 2023 R1 or later, which includes Service Layer
-Interface 22/04.
+To use MI Scripting Toolkit 5.0, your Granta MI server must be running 2024 R2 or later, which includes Service Layer
+Interface 23/10.
 
 <a id="client-software-requirements"></a>
 
@@ -15,23 +15,23 @@ Interface 22/04.
 
 MI Scripting Toolkit for pip is supported on the following platforms:
 
-| Platform                                                | Python 3.10                       | Python 3.11   | Python 3.12   | Python 3.13   |
-|---------------------------------------------------------|-----------------------------------|---------------|---------------|---------------|
-| Windows <sup>[1](#id7)</sup>                            | Certified                         | Certified     | Certified     | Certified     |
-| Linux                                                   | Ubuntu 22.04 <sup>[2](#id8)</sup> | Certified     | Certified     | Certified     |
-| Ubuntu 24.04 <sup>[3](#id9)</sup>                       | Supported                         | Supported     | Certified     | Supported     |
-| SUSE Linux Enterprise<br/>15 SP4+ <sup>[4](#id10)</sup> | Supported                         | Supported     | Certified     | Supported     |
-| RHEL 8.8+, 9.3+ <sup>[5](#id11)</sup>                   | Supported                         | Supported     | Certified     | Supported     |
-| Rocky Linux<br/>8.9+, 9.3+ <sup>[6](#id12)</sup>        | Supported                         | Supported     | Certified     | Supported     |
+| Platform                                                         | Python 3.11                       | Python 3.12   | Python 3.13   | Python 3.14   |
+|------------------------------------------------------------------|-----------------------------------|---------------|---------------|---------------|
+| Windows <sup>[1](#id7)</sup>                                     | Recommended                       | Recommended   | Recommended   | Recommended   |
+| Linux                                                            | Ubuntu 22.04 <sup>[2](#id8)</sup> | Recommended   | Recommended   | Recommended   |
+| Ubuntu 24.04 <sup>[3](#id9)</sup>                                | Supported                         | Supported     | Recommended   | Supported     |
+| SUSE Linux Enterprise<br/>15 SP5+, 16 SP0  <sup>[4](#id10)</sup> | Supported                         | Supported     | Recommended   | Supported     |
+| RHEL 8.8, 8.10, 9.4,<br/>9.6 <sup>[5](#id11)</sup>               | Supported                         | Supported     | Recommended   | Supported     |
+| Rocky Linux<br/>8.10, 9.4, 9.6 <sup>[6](#id12)</sup>             | Supported                         | Supported     | Recommended   | Supported     |
 
 Test platform details:
 
-* <a id='id7'>**[1]**</a> Automated testing performed on Windows Server 2022. Manual testing performed on Windows Server 2019 and Windows 11.
-* <a id='id8'>**[2]**</a> Automated testing performed on Ubuntu 22.04 development release. Manual testing performed on Ubuntu 22.04.4.
+* <a id='id7'>**[1]**</a> Automated testing performed on Windows Server 2022. Manual testing performed on Windows Server 2025 and Windows 11.
+* <a id='id8'>**[2]**</a> Automated testing performed on Ubuntu 22.04 development release. Manual testing performed on Ubuntu 22.04.5.
 * <a id='id9'>**[3]**</a> Automated testing performed on Ubuntu 24.04 development release. Manual testing performed on Ubuntu 24.04.2.
-* <a id='id10'>**[4]**</a> Automated testing performed on SLES 15 SP4. Manual testing performed on SLES 15 SP5.
-* <a id='id11'>**[5]**</a> Automated testing performed on RHEL 8.8 and 9.3. Manual testing performed on RHEL 8.10.
-* <a id='id12'>**[6]**</a> Automated testing performed on Rocky Linux 8.9 and 9.3. Manual testing performed on Rocky Linux 9.4.
+* <a id='id10'>**[4]**</a> Automated testing performed on SLES 15 SP4 and 16 SP0. Manual testing performed on SLES 15 SP6.
+* <a id='id11'>**[5]**</a> Automated testing performed on RHEL 8.8 and 9.6. Manual testing performed on RHEL 8.10.
+* <a id='id12'>**[6]**</a> Automated testing performed on Rocky Linux 8.9 and 9.6. Manual testing performed on Rocky Linux 9.6.
 
 <a id="linux-requirements"></a>
 
@@ -70,9 +70,8 @@ library on our build environment is listed in the right-hand column.
 
 MI Scripting Toolkit depends on the following third-party packages:
 
-- filetype (>=1.2.0,<2.0.0)
-- packaging (>=24.0,<25.0)
-- python-dateutil (>=2.9.0,<3.0.0)
+- filetype>=1.2.0
+- packaging>=24.0
 
 #### NOTE
 The list above include only the direct dependencies of the MI Scripting Toolkit package. The transitive dependencies
@@ -106,20 +105,32 @@ example, the path `C:\Users\user\scripting_toolkit\pip` in Windows would be equi
 
 ## Installing and upgrading MI Scripting Toolkit
 
+#### Versionchanged
+Changed in version 5.0: MI Scripting Toolkit is now provided as a package called `ansys-grantami-core`. `GRANTA_MIScriptingToolkit` is provided
+for compatibility purposes only, and will be removed in a future release.
+
+When `GRANTA_MIScriptingToolkit` is installed, imports from the `GRANTA_MIScriptingToolkit` and
+`granta_miscriptingtoolkit.granta` modules succeed and a
+[`APIDeprecationWarning`](../streamlined_api/exceptions.md#ansys.grantami.core.mi_meta_classes.APIDeprecationWarning) is emitted.
+
 Install MI Scripting Toolkit in a virtual environment. If you are installing MI Scripting Toolkit in an activated virtual environment, enter
 the following:
 
 ```default
-$ pip install --upgrade granta_miscriptingtoolkit --find-links="C:\Users\user\scripting_toolkit\pip"
+$ pip install --upgrade ansys-grantami-core --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 If you are installing MI Scripting Toolkit in a Python environment which is not available on the path, enter the following:
 
 ```default
-$ path/to/python -m pip install --upgrade granta_miscriptingtoolkit --find-links="C:\Users\user\scripting_toolkit\pip"
+$ path/to/python -m pip install --upgrade ansys-grantami-core --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 When installation is complete, the MI Scripting Toolkit files are installed into the Python site-packages location.
+
+#### WARNING
+Do not manually install the `ansys-grantami-core` wheel file. There are additional dependencies included in the
+`pip` folder which must be installed for MI Scripting Toolkit to function correctly.
 
 <a id="pip-extras"></a>
 
@@ -129,40 +140,40 @@ When installation is complete, the MI Scripting Toolkit files are installed into
 
 MI Scripting Toolkit defines additional optional dependencies in the form of extras:
 
-* `[notebooks]`: Required to execute the [Example notebooks](./../notebooks/index.md).
+* `[notebooks]`: Required to execute the [Example notebooks](../examples/index.md).
 * `[oidc]`: Required to use OpenID Connect (OIDC) authentication.
 
 To install an extra, include the extra name after the package name when installing MI Scripting Toolkit. For example, to install
 MI Scripting Toolkit with the additional notebook dependencies:
 
 ```default
-$ pip install --upgrade granta_miscriptingtoolkit[notebooks] --find-links="C:\Users\user\scripting_toolkit\pip"
+$ pip install --upgrade ansys-grantami-core[notebooks] --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 Or to install both the notebook and OIDC dependencies:
 
 ```default
-$ pip install --upgrade granta_miscriptingtoolkit[notebooks,oidc] --find-links="C:\Users\user\scripting_toolkit\pip"
+$ pip install --upgrade ansys-grantami-core[notebooks,oidc] --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 The `[notebooks]` extra includes the following additional dependencies:
 
 - Linux and Windows platforms:
-  : - jupyterlab (>=4.0.0,<5.0.0)
-    - matplotlib (>=3.6.0,<4.0.0)
-    - numpy (>=2.0.0,<3.0.0)
-    - pandas (>=2.1,<3.0)
-    - python-docx (>=1.1.0,<2.0.0)
-    - python-pptx (>=1.0.0,<2.0.0)
-    - scipy (>=1.11.0,<2.0.0)
-    - seaborn (>=0.13,<0.14)
+  : - jupyterlab>=4.0.0
+    - matplotlib>=3.6.0
+    - numpy>=1.23.5
+    - pandas>=2.1
+    - python-docx>=1.1.0
+    - python-pptx>=1.0.0
+    - scipy>=1.11.0
+    - seaborn>=0.13
 - Windows only:
-  : - docx2pdf (>=0.1.8,<0.2.0)
-    - tqdm[notebook] (>=4.0,<5.0)
+  : - docx2pdf>=0.1.8
+    - tqdm[notebook]>=4.0
 
 The `[oidc]` extra includes the following additional dependencies:
 
-- keyring (>23,<26)
+- keyring<26,>23
 
 If you encounter dependency errors when installing the `[notebooks]` extra, you may need to first upgrade `pip`:
 
@@ -175,9 +186,9 @@ python -m pip install --upgrade pip
 ## Upgrading from MI Scripting Toolkit v3.0 or earlier
 
 #### WARNING
-The MI Scripting Toolkit package name changed with v3.1 from `miscriptingtoolkit` to `GRANTA_MIScriptingToolkit`. If you
-are upgrading from MI Scripting Toolkit v3.0 or earlier, you **must** follow the instructions in this section or `pip install`
-may fail with dependency conflicts.
+The MI Scripting Toolkit package name changed with v3.1 from `miscriptingtoolkit` to `GRANTA_MIScriptingToolkit`, and has
+since changed to `ansys-grantami-core`. If you are upgrading from MI Scripting Toolkit v3.0 or earlier, you **must** follow
+the instructions in this section or `pip install` may fail with dependency conflicts.
 
 If you are using a virtual environment, you should delete your virtual environment and create a new one.
 
@@ -205,14 +216,14 @@ environment with PyPI access. Enter the following into the command line to downl
 `C:\Users\user\all_wheels` directory:
 
 ```default
-$ pip download GRANTA_MIScriptingToolkit --find-links=pip --dest="C:\Users\user\all_wheels"
+$ pip download ansys-grantami-core --find-links=pip --dest="C:\Users\user\all_wheels"
 ```
 
 Copy the `all_wheels` directory to the machine without access to PyPI, and enter the following into the command line
 to install MI Scripting Toolkit using the packages in the `all_wheels` directory:
 
 ```default
-$ pip install GRANTA_MIScriptingToolkit --find-links="C:\Users\user\all_wheels"
+$ pip install ansys-grantami-core --find-links="C:\Users\user\all_wheels" --no-index
 ```
 
 These instructions describe how to download the required packages for the current platform only. To download packages

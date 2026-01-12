@@ -1,4 +1,4 @@
-# Inspecting record link groups 
+# Inspecting record link groups
 Find which record link groups are in a specified database, and find which records are contained in a specified record
 link group.
 
@@ -9,13 +9,13 @@ This example demonstrates:
 - Retrieve a list of records within a specified record link group
 
 ## Create a Granta MI session
-Import the GRANTA_MIScriptingToolkit package, and create a connection to a Granta MI server.
+Import the ansys.grantami.backend.soap package, and create a connection to a Granta MI server.
 
 
 ```python
-import GRANTA_MIScriptingToolkit as gdl
+import ansys.grantami.backend.soap as gdl
 
-session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", autoLogon=True)
+session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", auto_logon=True)
 
 print("Session created")
 ```
@@ -24,23 +24,23 @@ print("Session created")
 Session created
 ```
 ## Retrieve record link groups from a given database
-You can use GetRecordLinkGroups to retrieve information about all the link groups in a given database.
+You can use get_record_link_groups to retrieve information about all the link groups in a given database.
 Find the record link groups and the group IDs for groups in the MI_Training database.
 
 
 ```python
-dbKey = "MI_Training"
-tableName = "Metals Pedigree"
+db_key = "MI_Training"
+table_name = "Metals Pedigree"
 
-req = gdl.GetRecordLinkGroups(DBKey=dbKey)
-grlg_resp = session.browseService.GetRecordLinkGroups(req)
+req = gdl.GetRecordLinkGroups(db_key=db_key)
+grlg_resp = session.browse_service.get_record_link_groups(req)
 
-groups = {} # Will be populated as RLG name -> RLG object
-for i, r in enumerate(grlg_resp.recordLinkGroups):
-    if i < 20: # Print first 20 group names
-        print(f"{r.name}: id={r.reference.recordLinkGroupIdentity}")
-    if r.fromTable.name == tableName:
-        groups[r.name] = r
+groups = {}  # Will be populated as RLG name -> RLG object
+for idx, rlg in enumerate(grlg_resp.record_link_groups):
+    if idx < 5:  # Print first 5 group names
+        print(f"{rlg.name}: id={rlg.reference.record_link_group_identity}")
+    if rlg.from_table.name == table_name:
+        groups[rlg.name] = rlg
 ```
 *Previous cell output:*
 ```output
@@ -49,39 +49,27 @@ Tensile Statistical Data: id=106
 Design Data: id=105
 Tensile Test Data: id=104
 Metals Pedigree: id=102
-Specification Values: id=127
-Tensile Statistical Data: id=103
-Fatigue Test Data: id=125
-Fatigue Statistical Data: id=126
-Test Data: id=128
-AM builds using this batch: id=123
-Tensile Test Data: id=101
-Tensile test data: id=8
-Material batch: id=124
-Tensile tests from this build: id=10
-Machine learning: Build parameters: id=11
-MaterialUniverse: id=115
-Smart Link to MaterialUniverse: id=3
 ```
 ## List the records within a record link group
 Search for records containing "ICS-46634". Subsequent steps will use only these search results.
 
 
 ```python
-def TextSearch(session, text, dbKey):
+def text_search(session: gdl.GRANTA_MISession, text: str, db_key: str):
     """
     Simple wrapper around textsearch
     """
-    search = session.searchService
-    s = gdl.SimpleTextSearch()
-    s.DBKey = dbKey
-    s.searchValue = text
-    s.populateGUIDs = True
-    resp = search.SimpleTextSearch(s)
+    search = session.search_service
+    s = gdl.SimpleTextSearch(
+        db_key=db_key,
+        search_value=text,
+        populate_guids=True,
+    )
+    resp = search.simple_text_search(s)
     return resp
 
 
-results = TextSearch(session, "ICS-46634", dbKey)
+results = text_search(session, "ICS-46634", db_key)
 ```
 
 Collate the record references from the search results. Use GetLinkedRecords to specify the record link group "Tensile
@@ -89,29 +77,29 @@ Test Data".
 
 
 ```python
-recs = [r.recordReference for r in results.searchResults]
+records = [r.record_reference for r in results.search_results]
 
 name = "Tensile Test Data"
-g = groups[name]
+rlg = groups[name]
 
 req = gdl.GetLinkedRecordsRequest(
-    recordLinkGroups=[g.reference],
-    recordReferences=recs,
+    record_link_groups=[rlg.reference],
+    record_references=records,
 )
 
-glr_resp = session.browseService.GetLinkedRecords(req)
+glr_resp = session.browse_service.get_linked_records(req)
 ```
 
 Collate and list the number of results from the record link group.
 
 
 ```python
-links = [] # list of ordered pairs of refs
-for sr in glr_resp.sourceRecords:
-    for rlg in sr.recordLinkGroups.recordLinkGroups:
-        for tr in rlg.linkedRecords:
-            links.append((sr.record, tr.recordReference))
-print(f"{len(links)} links found from {len(recs)} source records")
+links = []  # list of ordered pairs of refs
+for sr in glr_resp.source_records:
+    for rlg in sr.record_link_groups.record_link_groups:
+        for tr in rlg.linked_records:
+            links.append((sr.record, tr.record_reference))
+print(f"{len(links)} links found from {len(records)} source records")
 ```
 *Previous cell output:*
 ```output
@@ -123,24 +111,24 @@ group.
 
 ```python
 # Prepare to use GetTreeRecords to find record names corresponding to record references
-idsToFetch = set([pair[0].identity for pair in links])      # source records
-idsToFetch.update([pair[1].identity for pair in links])     # also add target records
+ids_to_fetch = set([pair[0].identity for pair in links])  # source records
+ids_to_fetch.update([pair[1].identity for pair in links])  # also add target records
 
 # create ref objects for all source/target records
-recordRefs = [gdl.RecordReference(DBKey=dbKey, identity=recId) for recId in idsToFetch]
+record_references = [gdl.RecordReference(db_key=db_key, identity=recId) for recId in ids_to_fetch]
 
 # use GetTreeRecords to find record names
-req = gdl.GetTreeRecordsRequest(records=recordRefs)
-resp = session.browseService.GetTreeRecords(req)
-nameLookup = {tr.recordReference.identity:tr.shortName for tr in resp.treeRecords}
+req = gdl.GetTreeRecordsRequest(records=record_references)
+resp = session.browse_service.get_tree_records(req)
+name_lookup = {tr.record_reference.identity: tr.short_name for tr in resp.tree_records}
 
 # Get and print record names
-linkPairs = []
+link_pairs = []
 for r in links:
-    linkPairs.append((nameLookup[r[0].identity], nameLookup[r[1].identity]))
-    
+    link_pairs.append((name_lookup[r[0].identity], name_lookup[r[1].identity]))
+
 print(f"Records linked by '{name}':")
-for pair in linkPairs:
+for pair in link_pairs:
     print(f"{pair[0]:<30}-> {pair[1]}")
 ```
 *Previous cell output:*

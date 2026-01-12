@@ -33,11 +33,11 @@ becomes significant.
 The first steps in any MI Scripting Toolkit script are to connect to Granta MI and fetch a database and table. The three objects,
 and the fastest ways of acquiring them, are as follows:
 
-1. [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session): [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) is the fastest way to create a session.
-2. [`Database`](./../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database): [`Session.get_db()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.get_db) is the fastest way to fetch a database.
-3. [`Table`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table): [`Database.get_table()`](./../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database.get_table) is the fastest way to fetch a table.
+1. [`Session`](../streamlined_api/session.md#ansys.grantami.core.mi.Session): [`SessionBuilder`](../streamlined_api/session.md#ansys.grantami.core.mi.SessionBuilder) is the fastest way to create a session.
+2. [`Database`](../streamlined_api/database.md#ansys.grantami.core.mi_tree_classes.Database): [`Session.get_db()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.get_db) is the fastest way to fetch a database.
+3. [`Table`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table): [`Database.get_table()`](../streamlined_api/database.md#ansys.grantami.core.mi_tree_classes.Database.get_table) is the fastest way to fetch a table.
 
-However, [`Session.get_db()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.get_db) and [`Database.get_table()`](./../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database.get_table) fetch *all* databases and *all* tables (for the
+However, [`Session.get_db()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.get_db) and [`Database.get_table()`](../streamlined_api/database.md#ansys.grantami.core.mi_tree_classes.Database.get_table) fetch *all* databases and *all* tables (for the
 selected database) loaded on the server, cache the results, and then return the requested database or table. Because the
 results are cached, those calls to Granta MI are not repeated when the objects are accessed again. As a result, it
 is not necessary to pass references to database and tables between functions, as long as the session itself is shared.
@@ -61,7 +61,7 @@ table = db.get_table("Design Data")
 
 There are many search methods in the Streamlined API that return records that match a user-defined attribute-based
 criterion or text-based criterion. However, there are some record properties that are not searchable, for example
-queries based on details of the tree structure of a table. In this case, use [`Table.all_records()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.all_records) to fetch all
+queries based on details of the tree structure of a table. In this case, use [`Table.all_records()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.all_records) to fetch all
 records in the table with the children of each record pre-cached. Then apply your own search filters to the record list
 using standard Python operations:
 
@@ -73,18 +73,18 @@ recs = table.all_records(include_folders=True, include_generics=True)
 filtered_recs = [r for r in recs if len(r.children) > 3]
 ```
 
-This approach can be used to filter on the following [`Record`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) properties:
+This approach can be used to filter on the following [`Record`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record) properties:
 
-* [`name`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.name)
-* [`short_name`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.short_name)
-* [`color`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.color)
-* [`type`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.type)
-* [`history_guid`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.history_guid)
-* [`record_guid`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.record_guid)
-* [`parent`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.parent)
-* [`children`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.children)
+* [`name`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.name)
+* [`short_name`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.short_name)
+* [`color`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.color)
+* [`type`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.type)
+* [`history_guid`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.history_guid)
+* [`record_guid`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.record_guid)
+* [`parent`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.parent)
+* [`children`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.children)
 
-These properties are pre-populated on all [`Record`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) objects returned by the [`Table.all_records()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.all_records) method.
+These properties are pre-populated on all [`Record`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record) objects returned by the [`Table.all_records()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.all_records) method.
 Other properties will require additional calls to Granta MI unless the appropriate ‘bulk fetch’ methods are used before
 the properties are accessed. See [Table bulk operations]() and [Session bulk operations]() for more information about
 these methods.
@@ -95,9 +95,9 @@ these methods.
 
 To create records:
 
-1. Use [`Table.path_from()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.path_from) or [`Table.paths_from()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.paths_from) to create the required tree structure if required.
-2. Use [`Table.create_record()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.create_record) to create record objects, and optionally add attribute values and links.
-3. Import the records using [`Session.update()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.update).
+1. Use [`Table.path_from()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.path_from) or [`Table.paths_from()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.paths_from) to create the required tree structure if required.
+2. Use [`Table.create_record()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.create_record) to create record objects, and optionally add attribute values and links.
+3. Import the records using [`Session.update()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.update).
 
 <a id="step-1-creating-a-tree-structure"></a>
 
@@ -110,11 +110,11 @@ ensure:
   separate requests.
 * that folder names are unique before creation or the operation will fail.
 
-Using the dedicated method for creating a tree structure, [`Table.path_from()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.path_from), overcomes these issues. All levels
+Using the dedicated method for creating a tree structure, [`Table.path_from()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.path_from), overcomes these issues. All levels
 of a hierarchy can be created in a single operation, and no exceptions or warnings are generated if a folder already
 exists with the same name. The record color can also be specified, which is applied to all records or folders created by
 the method. The method returns the last node specified in the path, allowing it to be provided as the `parent`
-argument to the [`Table.create_record()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.create_record) method.
+argument to the [`Table.create_record()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.create_record) method.
 
 Firstly, an example of creating a new folder structure. Create three new folders with the names “our”, “new”, and
 “path”:
@@ -167,7 +167,7 @@ Fuchsia
 
 ### Step 2: Creating and populating records
 
-The [`Table.create_record()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.create_record) method creates a new record object in Python only, and does not push that record to the
+The [`Table.create_record()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.create_record) method creates a new record object in Python only, and does not push that record to the
 server. These records can therefore be modified, for example by adding attribute values:
 
 ```python
@@ -188,7 +188,7 @@ for material_name in material_names:
 
 ### Step 3: Importing records and data
 
-The [`Session.update()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.update) method is used to import changes to attribute values, and by default accepts multiple
+The [`Session.update()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.update) method is used to import changes to attribute values, and by default accepts multiple
 records to update which are passed to Granta MI in an appropriately batched request:
 
 ```python
@@ -196,10 +196,10 @@ records = mi.update(records)
 ```
 
 However, after importing records, the default behavior also re-exports the updated records to ensure the
-[`Record`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) objects reflect the latest state of the Granta MI server.
+[`Record`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record) objects reflect the latest state of the Granta MI server.
 
-This behavior can be suppressed by calling [`Session.update()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.update) with `refresh_attributes=False`. Then either export
-only the required attributes with [`Table.bulk_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch) (see [Bulk fetching attributes]() section for more
+This behavior can be suppressed by calling [`Session.update()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.update) with `refresh_attributes=False`. Then either export
+only the required attributes with [`Table.bulk_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch) (see [Bulk fetching attributes]() section for more
 information):
 
 ```python
@@ -207,7 +207,7 @@ records = mi.update(records, refresh_attributes=False)
 table.bulk_fetch(records, attributes=["Material name"])
 ```
 
-Alternatively, omit the [`Table.bulk_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch) step entirely if the [`Record`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) objects are no longer required:
+Alternatively, omit the [`Table.bulk_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch) step entirely if the [`Record`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record) objects are no longer required:
 
 ```python
 mi.update(records, refresh_attributes=False)
@@ -217,13 +217,14 @@ mi.update(records, refresh_attributes=False)
 
 ## Table bulk operations
 
-The following bulk operations are implemented on the [`Table`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table) object and are used to group requests to to improve
+The following bulk operations are implemented on the [`Table`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table) object and are used to group requests to to improve
 script performance:
 
-* [`Table.bulk_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch)
-* [`Table.bulk_link_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_link_fetch)
-* [`Table.bulk_fetch_associated_records()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch_associated_records)
-* [`Table.bulk_fetch_data_revision_history()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch_data_revision_history)
+* [`Table.bulk_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch)
+* [`Table.bulk_link_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_link_fetch)
+* [`Table.bulk_fetch_associated_records()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch_associated_records)
+* [`Table.bulk_fetch_data_revision_history()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch_data_revision_history)
+* [`Table.bulk_fetch_all_record_versions()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch_all_record_versions)
 
 The `bulk_fetch` and `bulk_link_fetch` methods are described in more detail in the following subsections.
 
@@ -231,15 +232,15 @@ The `bulk_fetch` and `bulk_link_fetch` methods are described in more detail in t
 
 ### Bulk fetching attributes
 
-Accessing [`Record.attributes`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.attributes) causes the Streamlined API to check to see if the `attributes` property has been
+Accessing [`Record.attributes`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.attributes) causes the Streamlined API to check to see if the `attributes` property has been
 populated yet. If not, it automatically populates it by exporting all the attributes for that record. This is
 inefficient if only specific attributes are needed.
 
-Instead, the [`Table.bulk_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch) method should be used to ensure only the required attributes are fetched. Also,
+Instead, the [`Table.bulk_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch) method should be used to ensure only the required attributes are fetched. Also,
 attributes can be requested for multiple records, which fetches the data in a smaller number of batched requests.
 
 #### NOTE
-The [`Table.bulk_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch) method does not return a value. Instead, the appropriate properties in the provided
+The [`Table.bulk_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch) method does not return a value. Instead, the appropriate properties in the provided
 records are updated in-place.
 
 This example shows how to fetch a single attribute value for all records in a table. In this case, the table contains
@@ -251,15 +252,15 @@ This example shows how to fetch a single attribute value for all records in a ta
 1000
 ```
 
-The first code example shows accessing the [`Record.attributes`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.attributes) property directly. This example contains the
+The first code example shows accessing the [`Record.attributes`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.attributes) property directly. This example contains the
 fewest lines of code, but is the least efficient approach because all attributes are fetched for each record separately.
 
 ```python
 density_values = [r.attributes["Density"].value for r in records]
 ```
 
-To improve performance, use the [`Table.bulk_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch) method to fetch all attributes for all records in a smaller
-number of requests before accessing the [`Record.attributes`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.attributes) dictionary. By default, [`Table.bulk_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_fetch)
+To improve performance, use the [`Table.bulk_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch) method to fetch all attributes for all records in a smaller
+number of requests before accessing the [`Record.attributes`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.attributes) dictionary. By default, [`Table.bulk_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_fetch)
 groups records into batches of 100, and requests all attributes for those records. Performance is improved, but unused
 attributes are still being fetched:
 
@@ -304,16 +305,16 @@ density_values = [r.attributes["Density"].value for r in records]
 
 ### Bulk fetching record links
 
-Record link groups are accessed similarly to attributes. Accessing [`Record.links`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.links) causes the Streamlined API
+Record link groups are accessed similarly to attributes. Accessing [`Record.links`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.links) causes the Streamlined API
 to check if the `links` property has been populated yet. If not, it automatically exports all record link groups for
 the record. This is inefficient if only specific record link groups are needed.
 
-Instead, the [`Table.bulk_link_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_link_fetch) method should be used to ensure only the required record link groups are
+Instead, the [`Table.bulk_link_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_link_fetch) method should be used to ensure only the required record link groups are
 fetched. Also, record link groups can be requested for multiple records, which fetches the data in a smaller number of
 batched requests.
 
 #### NOTE
-The [`Table.bulk_link_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_link_fetch) method does not return a value. Instead, the appropriate properties in the
+The [`Table.bulk_link_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_link_fetch) method does not return a value. Instead, the appropriate properties in the
 provided records are updated in-place.
 
 This example shows how to fetch the links in a single record link group for all records in a table. In this case, the
@@ -325,7 +326,7 @@ table contains 1,000 records.
 1000
 ```
 
-The first code example shows accessing the [`Record.links`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.links) property directly. This example contains
+The first code example shows accessing the [`Record.links`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.links) property directly. This example contains
 the fewest lines of code, but is the least efficient approach because all record link groups are fetched for each record
 separately:
 
@@ -337,9 +338,9 @@ for record in records:
     linked_test_data_record_guids |= guids
 ```
 
-To improve performance, use the [`Table.bulk_link_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_link_fetch) method to fetch all record links for all records in a
-smaller number of requests before accessing the [`Record.links`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.links) dictionary. By default,
-[`Table.bulk_link_fetch()`](./../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table.bulk_link_fetch) groups records into batches of 100, and requests all record link groups for those
+To improve performance, use the [`Table.bulk_link_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_link_fetch) method to fetch all record links for all records in a
+smaller number of requests before accessing the [`Record.links`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.links) dictionary. By default,
+[`Table.bulk_link_fetch()`](../streamlined_api/table.md#ansys.grantami.core.mi_tree_classes.Table.bulk_link_fetch) groups records into batches of 100, and requests all record link groups for those
 records. Performance is improved, but unused record link groups are still being fetched:
 
 ```python
@@ -392,24 +393,24 @@ for record in records:
 
 ## Session bulk operations
 
-The following bulk operations are implemented on the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) object and are used to group requests to to
+The following bulk operations are implemented on the [`Session`](../streamlined_api/session.md#ansys.grantami.core.mi.Session) object and are used to group requests to to
 improve script performance:
 
-* [`Session.bulk_fetch_release_states()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.bulk_fetch_release_states)
-* [`Session.bulk_delete_or_withdraw_records()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.bulk_delete_or_withdraw_records)
+* [`Session.bulk_fetch_release_states()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.bulk_fetch_release_states)
+* [`Session.bulk_delete_or_withdraw_records()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.bulk_delete_or_withdraw_records)
 
 <a id="fetching-release-states"></a>
 
 ### Fetching release states
 
-Accessing [`Record.release_state`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.release_state) causes the Streamlined API to check if the `release_state` property has been
+Accessing [`Record.release_state`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.release_state) causes the Streamlined API to check if the `release_state` property has been
 populated yet. If not, it automatically exports the release state and release history for the record. This is
 inefficient if the property is accessed for multiple records in a short space of time, for example within a loop or
 comprehension.
 
-Instead, the [`Session.bulk_fetch_release_states()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.bulk_fetch_release_states) method should be used to request the revision information for
+Instead, the [`Session.bulk_fetch_release_states()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.bulk_fetch_release_states) method should be used to request the revision information for
 multiple records in a smaller number of batched requests. Additionally, since the `bulk_fetch_release_states` method
-is implemented on the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) object, release states can be fetched for records in multiple tables and
+is implemented on the [`Session`](../streamlined_api/session.md#ansys.grantami.core.mi.Session) object, release states can be fetched for records in multiple tables and
 databases simultaneously.
 
 This method can also be parallelized and batched by using the appropriate arguments, see the API guide for more details.
@@ -430,8 +431,8 @@ The first example fetches the release states for records individually, with one 
 release_states = {r.name: r.release_state for r in records}
 ```
 
-To improve performance, fetch the release states in bulk first before accessing the [`Record.release_state`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.release_state)
-property. By default, [`Session.bulk_fetch_release_states()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.bulk_fetch_release_states) groups records into batches of 100:
+To improve performance, fetch the release states in bulk first before accessing the [`Record.release_state`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.release_state)
+property. By default, [`Session.bulk_fetch_release_states()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.bulk_fetch_release_states) groups records into batches of 100:
 
 ```python
 # 10 record version export requests, each to export record versions for 100 records, executed sequentially
@@ -459,13 +460,13 @@ release_states = {r.name: r.release_state for r in records}
 
 ### Deleting records
 
-Calling [`Record.delete_or_withdraw_record_on_server()`](./../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.delete_or_withdraw_record_on_server) causes the Streamlined API to immediately delete or
+Calling [`Record.delete_or_withdraw_record_on_server()`](../streamlined_api/record.md#ansys.grantami.core.mi_record_classes.Record.delete_or_withdraw_record_on_server) causes the Streamlined API to immediately delete or
 withdraw the record on the server. This is inefficient if multiple records are deleted or withdrawn in a short space of
 time, for example within a loop or comprehension.
 
-Instead, the [`Session.bulk_delete_or_withdraw_records()`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.bulk_delete_or_withdraw_records) method should be used to delete or withdraw multiple
+Instead, the [`Session.bulk_delete_or_withdraw_records()`](../streamlined_api/session.md#ansys.grantami.core.mi.Session.bulk_delete_or_withdraw_records) method should be used to delete or withdraw multiple
 records in smaller number of batched requests. Additionally, since the `bulk_delete_or_withdraw_records` method
-is implemented on the [`Session`](./../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) object, records in multiple tables and databases can be deleted or withdrawn
+is implemented on the [`Session`](../streamlined_api/session.md#ansys.grantami.core.mi.Session) object, records in multiple tables and databases can be deleted or withdrawn
 simultaneously.
 
 This method can also be parallelized and batched by using the appropriate arguments, see the API guide for more details.
@@ -507,3 +508,33 @@ mi.bulk_delete_or_withdraw_records(
     max_num_threads=3,
 )
 ```
+
+<a id="batch-sizes"></a>
+
+## Batch sizes
+
+As described in the table and session bulk operations section on this page, MI Scripting Toolkit performance can be improved
+significantly through the use of bulk operations. The performance increase is dependent on the chosen batch size and
+degree of parallelism for bulk operations, captured in the `batch_size` and `max_num_threads` properties for bulk
+methods respectively. There is an optimal value for both of these settings which depends on the operation type, the
+schema structure <sup>[1](#id2)</sup>, and the complexity of the operation.
+
+If `batch_size` is too small, then the overhead of sending and receiving requests and responses becomes significant,
+which reduces performance. However, if `batch_size` is too large, the request may time out. Equally, if
+`max_num_threads` is too small, then the server is under-utilized. However, if `max_num_threads` is too large, the
+server may become saturated, slowing down performance for all users.
+
+To cope with large `batch_size` and `max_num_threads` values, the operation timeout can be increased through use of
+the [`SessionConfiguration`](../streamlined_api/session.md#ansys.grantami.core.mi.SessionConfiguration) `timeout` parameter, but this can hamper development by increasing the time taken
+to receive invalid or null responses also. Additionally, [timeout errors](exceptions.md#timeout-errors) have to be handled
+carefully to avoid interacting with the database in an inconsistent state.
+
+The default `batch_size` value for each bulk operation is chosen as a starting point, with parallelization disabled by
+default. These settings will result in improved performance when compared to making each request individually, but there
+is still often significant scope for further performance improvement. A common approach is to measure the time taken to
+complete a request as a function of `batch_size` and `max_num_threads` to find an optimal value.
+
+However, you should always leave some margin for error between the expected request duration and the allowed timeout to
+account for variable server load and changes in both the schema structure and the amount of data stored in the database.
+
+* <a id='id2'>**[1]**</a> Certain Granta MI attribute types take longer to export than others. For example, tabular data can take longer to export than other data types due to the need to resolve associated records and linked attribute values. In general, testing should be performed to understand how your particular database schema impacts the performance of associated scripts and tools.

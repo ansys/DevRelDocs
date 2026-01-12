@@ -18,7 +18,7 @@ Before we define the rules, import the Scripting Toolkit so we can use Python ty
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 ```
 
 ### check_attribute_is_populated
@@ -29,7 +29,7 @@ Next, define the first data validation rule. This rule will check that an attrib
 ```python
 def check_attribute_is_populated(record: mpy.Record, attribute_name: str) -> tuple[bool, str | None]:
     attribute = record.attributes[attribute_name]
-    if attribute.is_empty(): 
+    if attribute.is_empty():
         return False, f'Attribute "{attribute_name}" is not populated for record "{record.name}"'
     return True, None
 ```
@@ -70,33 +70,24 @@ monotonically increasing for each individual series.
 
 ```python
 def check_attribute_is_monotonically_increasing(record: mpy.Record, attribute_name: str) -> tuple[bool, str | None]:
-    attribute = record.attributes[attribute_name]
-    
-    # Initialize values for the previous datapoint and series
-    previous_y = previous_x = -float("inf")
-    current_series = 0
+    attribute: mpy.AttributeFunctionalSeriesPoint = record.attributes[attribute_name]
 
-    # Iterate over each row in the database, splitting the data by series
-    for row in attribute.data_with_series_number[1:]:
-        y = row[0]  # First value is always the y attribute
-        x = row[2]  # Third value is always the x parameter
-        series = row[-1]  # The final value is the series number
+    for series_index, series in enumerate(attribute.value):
+        # Initialize values
+        previous_y = previous_x = -float("inf")
+        for y, x in zip(series.y, series.x):
+            # Check values
+            if y <= previous_y or x <= previous_x:
+                return (
+                    False,
+                    f'Attribute "{attribute_name}", series {series_index} is not monotonically increasing for record '
+                    f'"{record.name}"',
+                )
 
-        # If the series has changed, then update the series value
-        if series != current_series:
-            current_series = series
+            # Update the previous values
+            previous_y = y
+            previous_x = x
 
-        # If the series hasn't changed, then check values
-        elif y <= previous_y or x <= previous_x:
-            return (
-                False,
-                f'Attribute "{attribute_name}", series {series} is not monotonically increasing for record '
-                f'"{record.name}"'
-            )
-    
-        # Update the previous values
-        previous_y = y
-        previous_x = x
     return True, None
 ```
 
@@ -137,7 +128,7 @@ produces a list of records, for example searching for a last modified date, or u
 
 
 ```python
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 table = db.get_table("Design Data")
 
@@ -189,7 +180,7 @@ for record in records:
 
         # Iterate over all validation rules for this attribute
         for rule in validation_rules:
-            
+
             # These column values describe the check that will be performed.
             check_result = {
                 "Record Name": record.name,
@@ -440,7 +431,7 @@ the following ways:
   temperature is equal to a certain attribute.
 * Automatically modifying the database to ensure consistency.
 * Running the script automatically in batch mode. For more information see
-  [Authentication](./../../user_guide/authentication.rst).
+  [Authentication](../../user_guide/authentication.rst).
 * Tracking previous failures to provide a delta between multiple validation runs.
 * Using a Python testing framework like [pytest](https://docs.pytest.org/en/stable/) to organize test cases
   and provide result reports.

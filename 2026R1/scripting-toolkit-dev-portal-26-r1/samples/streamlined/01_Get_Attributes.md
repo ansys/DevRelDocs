@@ -5,12 +5,12 @@ Find out about the database schema by accessing the `attributes` property of the
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 ```
 
-## Get table 
+## Get table
 Get a database, then set the unit system for the **Database** object.
 
 
@@ -32,8 +32,8 @@ Get a table from the database.
 
 
 ```python
-tab = db.get_table("Training Exercise for Import")
-tab
+table = db.get_table("Training Exercise for Import")
+table
 ```
 
 
@@ -44,16 +44,16 @@ tab
 ```
 
 
-## Access the attribute definitions 
+## Access the attribute definitions
 These are associated with the **Table** object through the `attributes` property,
 which returns a dictionary of **AttributeDefinition** objects.
 
 
 ```python
 print(f"{'Name':30.30} - {'Type':^10.10} - {'Unit':^10.10} - {'Meta?':^10.10}")
-print("-"*70)
-for name, att in tab.attributes.items():
-    print(f"{name:30.30} - {att.type:^10.10} - {att.unit:^10.10} - {str(att.is_meta):^10.10}")
+print("-" * 70)
+for name, att in table.attributes.items():
+    print(f"{name:30.30} - {att.type:^10.10} - {getattr(att, 'unit', ''):^10.10} - {str(att.is_meta):^10.10}")
 ```
 *Previous cell output:*
 ```output

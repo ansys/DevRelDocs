@@ -11,15 +11,14 @@ This example demonstrates:
 
 ## Create a Granta MI Session
 
-Import the GRANTA_MIScriptingToolkit package, and create a connection to a Granta MI server.
+Import the ansys.grantami.backend.soap package, and create a connection to a Granta MI server.
 
 
 ```python
 from datetime import datetime
-import sys
-import GRANTA_MIScriptingToolkit as gdl
+import ansys.grantami.backend.soap as gdl
 
-session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", autoLogon=True)
+session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", auto_logon=True)
 ```
 
 ## Browse for records
@@ -30,28 +29,30 @@ Set the folder path for the record to browse to as: High Alloy Steel / AMS 6520 
 
 
 ```python
-dbKey = "MI_Training"
+db_key = "MI_Training"
 table = "Tensile Statistical Data"
-folderPath = ["High Alloy Steel", "AMS 6520", "Plate", "Room Temperature °F"]
+folder_path = ["High Alloy Steel", "AMS 6520", "Plate", "Room Temperature °F"]
 ```
 
 Get the root node of the table of interest.
 
 
 ```python
-tableReference = gdl.TableReference(DBKey=dbKey, name=table)
-treeRecord = session.browseService.GetRootNode(gdl.GetRootNode(tableReference)).rootNode
+table_reference = gdl.TableReference(db_key=db_key, name=table)
+tree_record = session.browse_service.get_root_node(gdl.GetRootNode(table_reference)).root_node
 ```
 
 Find the record of interest, *AMS 6520, Plate, Room Temperature °F*.
 
 
 ```python
-for folder in folderPath:
-    treeRecords = session.browseService.GetChildNodes(gdl.GetChildNodes(parent=treeRecord.recordReference)).treeRecords
-    treeRecord = next((r for r in treeRecords if r.shortName == folder), None)
-    if treeRecord:
-        print(f"Found treeRecord: {treeRecord.shortName}")
+for folder in folder_path:
+    tree_records = session.browse_service.get_child_nodes(
+        gdl.GetChildNodes(parent=tree_record.record_reference)
+    ).tree_records
+    tree_record = next((r for r in tree_records if r.short_name == folder), None)
+    if tree_record:
+        print(f"Found treeRecord: {tree_record.short_name}")
     else:
         raise ValueError(f"Unable to find folder: {folder}")
 ```
@@ -70,26 +71,26 @@ Export *Tensile Response (11 axis)* data from the record of interest.
 ```python
 attribute = "Tensile Response (11 axis)"
 
-partialTableRef = gdl.PartialTableReference(tableName=table)
-attrRef = gdl.AttributeReference(
+partial_table_ref = gdl.PartialTableReference(table_name=table)
+attribute_reference = gdl.AttributeReference(
     name=attribute,
-    DBKey=dbKey,
-    partialTableReference=partialTableRef,
+    db_key=db_key,
+    partial_table_reference=partial_table_ref,
 )
 request = gdl.GetRecordAttributesByRefRequest(
-    recordReferences=[treeRecord.recordReference],
-    attributeReferences=[attrRef],
+    record_references=[tree_record.record_reference],
+    attribute_references=[attribute_reference],
 )
 
-data = session.dataExportService.GetRecordAttributesByRef(request).recordData[0]
+data = session.data_export_service.get_record_attributes_by_ref(request).record_data[0]
 ```
 
 Check the data type of the *Tensile Response (11 axis)* attribute is FLOAT_FUNCTIONAL_SERIES.
 
 
 ```python
-value = data.attributeValues[0]
-print(f"Attribute Name: {value.attributeName}, Type {value.dataType}")
+value = data.attribute_values[0]
+print(f"Attribute Name: {value.attribute_name}, Type {value.data_type}")
 ```
 *Previous cell output:*
 ```output
@@ -99,17 +100,17 @@ Extract the data from each curve into a list.
 
 
 ```python
-graph = value.floatFunctionalSeriesDataType.graph
+graph = value.float_functional_series_data_value.graph
 series = graph.series
 
 curves = []
 
 for curve in series:
-    points = curve.XYPoints.XYPoints
-    x = [point.parameterValue.numericValue for point in points]
-    y = [point.Y for point in points]
-    curves.append([x,y])
-    
+    points = curve.xy_points.xy_points
+    x = [point.parameter_value.numeric_value for point in points]
+    y = [point.y for point in points]
+    curves.append([x, y])
+
 print(curves)
 ```
 *Previous cell output:*
@@ -122,7 +123,7 @@ Plot the curves using the matplotlib package.
 ```python
 import matplotlib.pyplot as plt
 
-x_label = f"{graph.XAxisParameter.name} ({graph.XAxisParameter.unit.unitSymbol})"
+x_label = f"{graph.x_axis_parameter.name} ({graph.x_axis_parameter.unit.unit_symbol})"
 y_label = "Tensile stress 10^6 (Pa)"
 
 fig = plt.figure()
@@ -149,14 +150,11 @@ import matplotlib.pyplot as plt
 from scipy.optimize import leastsq
 import numpy as np
 
-
 def ramberg_osgood(p, stress):
-    return (stress/p[0])*(1.0 + p[1]*(stress/p[2])**(p[3]-1))
-
+    return (stress / p[0]) * (1.0 + p[1] * (stress / p[2]) ** (p[3] - 1))
 
 def error_function(p, stress, strain):
     return ramberg_osgood(p, stress) - strain
-
 
 strain = 0.01 * np.array(curves[0][0])
 stress = np.array(curves[0][1])
@@ -171,23 +169,15 @@ ax.set_xlabel(x_label)
 ax.set_ylabel(y_label)
 
 ax.plot(ramberg_osgood(plsq[0], stress), stress, label="Fit")
-ax.plot(strain, stress, marker='o', linestyle=' ', label="Data")
+ax.plot(strain, stress, marker="o", linestyle=" ", label="Data")
 
 ax.set_title("Ramberg-Osgood fit")
-ax.legend()
+_ = ax.legend()
 ```
-
-
-
-*Previous cell output:*
-```output
-<matplotlib.legend.Legend at 0x7f0fcb3426f0>
-```
-
 
 
     
-![png](05_Functional_data_and_importing_data_files/05_Functional_data_and_importing_data_17_1.png)
+![png](05_Functional_data_and_importing_data_files/05_Functional_data_and_importing_data_17_0.png)
     
 
 
@@ -200,20 +190,22 @@ Identify the folder to upload the new record to. Browse the record tree to get t
 
 
 ```python
-importDBKey = "MI_Training"
-importTableName = "Tensile Statistical Data"
-importFolders = ["High Alloy Steel", "AMS 6520"]
+import_db_key = "MI_Training"
+import_table_name = "Tensile Statistical Data"
+import_folders = ["High Alloy Steel", "AMS 6520"]
 now = datetime.now().strftime("%c")
-importRecordName = f"Scripting toolkit foundation layer example 05:{now}"
+import_record_name = f"Scripting Toolkit Foundation Layer Example 5:{now}"
 
-importTableReference = gdl.TableReference(DBKey=importDBKey, name=importTableName)
-treeRecord = session.browseService.GetRootNode(gdl.GetRootNode(table=importTableReference)).rootNode
+import_table_reference = gdl.TableReference(db_key=import_db_key, name=import_table_name)
+tree_record = session.browse_service.get_root_node(gdl.GetRootNode(table=import_table_reference)).root_node
 
-for folder in importFolders:
-    treeRecords = session.browseService.GetChildNodes(gdl.GetChildNodes(parent=treeRecord.recordReference)).treeRecords
-    treeRecord = next((r for r in treeRecords if r.shortName == folder), None)
-    if treeRecord:
-        print(f"Found treeRecord folder: {treeRecord.shortName}")
+for folder in import_folders:
+    tree_records = session.browse_service.get_child_nodes(
+        gdl.GetChildNodes(parent=tree_record.record_reference)
+    ).tree_records
+    tree_record = next((r for r in tree_records if r.short_name == folder), None)
+    if tree_record:
+        print(f"Found treeRecord folder: {tree_record.short_name}")
     else:
         raise ValueError(f"Unable to find import folder: {folder}")
 ```
@@ -226,10 +218,10 @@ Define the record attribute to include in the new record.
 
 
 ```python
-modulusAttributeReference = gdl.AttributeReference(
+modulus_attribute_reference = gdl.AttributeReference(
     name="Young's Modulus (11-axis)",
-    DBKey=importDBKey,
-    partialTableReference=gdl.PartialTableReference(tableName=importTableName)
+    db_key=import_db_key,
+    partial_table_reference=gdl.PartialTableReference(table_name=import_table_name),
 )
 ```
 
@@ -237,12 +229,12 @@ Set values and units for the attributes of the new record.
 
 
 ```python
-fittedEValue = plsq[0][0]
-modulusValue = gdl.PointValueWithParameters(value=fittedEValue)
-modulusPointValue = gdl.PointDataType(unitSymbol="psi", points=[modulusValue])
-importModulusValue = gdl.ImportAttributeValue(
-    attributeReference=modulusAttributeReference,
-    pointDataValue=modulusPointValue,
+fitted_e_value = plsq[0][0]
+modulus_value = gdl.PointValueWithParameters(value=fitted_e_value)
+modulus_point_value = gdl.PointDataType(unit_symbol="psi", points=[modulus_value])
+import_modulus_value = gdl.ImportAttributeValue(
+    attribute_reference=modulus_attribute_reference,
+    point_data_value=modulus_point_value,
 )
 ```
 
@@ -250,10 +242,10 @@ Create a reference to the subset that the new record will be added to.
 
 
 ```python
-subsetReference = gdl.SubsetReference(
+subset_reference = gdl.SubsetReference(
     name="Statistical Test Data",
-    DBKey=importDBKey,
-    partialTableReference=gdl.PartialTableReference(tableName=importTableName)
+    db_key=import_db_key,
+    partial_table_reference=gdl.PartialTableReference(table_name=import_table_name),
 )
 ```
 
@@ -261,20 +253,20 @@ Import the record to the Granta MI database.
 
 
 ```python
-importRecord = gdl.ImportRecord(
-    recordName=importRecordName,
-    existingRecord=treeRecord.recordReference,
-    subsetReferences=[subsetReference],
-    importAttributeValues=[importModulusValue],
+import_record = gdl.ImportRecord(
+    record_name=import_record_name,
+    existing_record=tree_record.record_reference,
+    subset_references=[subset_reference],
+    import_attribute_values=[import_modulus_value],
 )
 
-setRecordAttributesRequest = gdl.SetRecordAttributesRequest(importRecords=[importRecord])
-setRecordAttributesResponse = session.dataImportService.SetRecordAttributes(setRecordAttributesRequest)
+set_record_attributes_request = gdl.SetRecordAttributesRequest(import_records=[import_record])
+set_record_attributes_response = session.data_import_service.set_record_attributes(set_record_attributes_request)
 
-for record in setRecordAttributesResponse.recordsImported:
-    print(f"Imported record {record.shortName} to Granta MI database")
+for record in set_record_attributes_response.records_imported:
+    print(f"Imported record {record.short_name} to Granta MI database")
 ```
 *Previous cell output:*
 ```output
-Imported record Scripting toolkit foundation layer example 05:Mon May 12 16:20:13 2025 to Granta MI database
+Imported record Scripting Toolkit Foundation Layer Example 5:Wed Jan  7 19:31:10 2026 to Granta MI database
 ```

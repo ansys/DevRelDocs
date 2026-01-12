@@ -10,13 +10,13 @@ This example demonstrates:
 
 ## Create a Granta MI Session
 
-Import the GRANTA_MIScriptingToolkit package, and create a connection to a Granta MI server.
+Import the ansys.grantami.backend.soap package, and create a connection to a Granta MI server.
 
 
 ```python
-import GRANTA_MIScriptingToolkit as gdl
+import ansys.grantami.backend.soap as gdl
 
-session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", autoLogon=True)
+session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", auto_logon=True)
 ```
 
 ## Select a database
@@ -25,11 +25,11 @@ View the databases available on your Granta MI server.
 
 
 ```python
-databases = session.browseService.GetDatabases().databases
+databases = session.browse_service.get_databases().databases
 
 print(f"Found {len(databases)} databases on the Granta MI Server")
 for d in databases:
-    print(f"Database key: {d.DBKey}, Database name: {d.volumeName}")
+    print(f"Database key: {d.db_key}, Database name: {d.volume_name}")
 ```
 *Previous cell output:*
 ```output
@@ -42,19 +42,19 @@ Search in the MI Training database for records containing the text *Leather*.
 
 
 ```python
-dbKey = "MI_Training"
-searchText = "leather"
+db_key = "MI_Training"
+search_text = "leather"
 
-simpleTextSearch = gdl.SimpleTextSearch(searchValue=searchText, DBKey=dbKey)
-simpleTextSearchResponse = session.searchService.SimpleTextSearch(simpleTextSearch)
+simple_text_search = gdl.SimpleTextSearch(search_value=search_text, db_key=db_key)
+search_response = session.search_service.simple_text_search(simple_text_search)
 ```
 
 Print the results returned by the search.
 
 
 ```python
-for result in simpleTextSearchResponse.searchResults:
-    print(result.shortName)
+for result in search_response.search_results:
+    print(result.short_name)
 ```
 *Previous cell output:*
 ```output

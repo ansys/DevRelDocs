@@ -11,8 +11,9 @@ This notebook shows three methods of browsing for records in Granta MI:
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+import ansys.grantami.core as mpy
+
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 ```
 
@@ -128,12 +129,12 @@ parent with the short name *Baryta*.
 
 
 ```python
-recs = material_universe.get_records_from_path(
+baryta_children = material_universe.get_records_from_path(
     starting_node=None,
     tree_path=["Ceramics and glasses", None, "Baryta"],
     use_short_names=True,
 )
-recs
+baryta_children
 ```
 
 
@@ -148,11 +149,11 @@ Get all records that are great-grandchildren of the folder *Ceramics and glasses
 
 
 ```python
-recs = material_universe.get_records_from_path(
+ceramics_great_grandchildren = material_universe.get_records_from_path(
     starting_node=ceramics_and_glasses,
     tree_path=[None, None],
 )
-recs
+ceramics_great_grandchildren
 ```
 
 
@@ -196,7 +197,7 @@ Print the results and whether the object is a record or folder.
 
 ```python
 print(f"{'Record Name':^30.30} | {'Short Name':^30.30} | {'Record / Folder?':^30.30}")
-print("-"*96)
+print("-" * 96)
 for r in all_ceramics_and_glasses:
     print(f"{r.name:^30.30} | {r.short_name:^30.30} | {r.type:^30.30}")
 ```

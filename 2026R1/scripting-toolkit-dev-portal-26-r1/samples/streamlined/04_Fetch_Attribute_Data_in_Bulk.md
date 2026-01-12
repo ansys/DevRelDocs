@@ -5,20 +5,20 @@ and as export requests are performed for each individual record.
 By grouping records into fewer requests through batching, and allowing the export of only a subset of attributes,
 `bulk_fetch()` can be used to enhance performance.
 
-## Connect to MI 
+## Connect to MI
 Specify a database and table.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 
 db = mi.get_db(db_key="MI_Training")
 db.unit_system = "Metric"
 db.absolute_temperatures = True
 
-tab = db.get_table("MaterialUniverse")
+table = db.get_table("MaterialUniverse")
 ```
 
 ## Define a list of records to fetch
@@ -40,7 +40,7 @@ Get each record using its Record GUID, using the `get_records_by_ids` method.
 
 
 ```python
-records = tab.get_records_by_ids([{"vguid": guid} for guid in guids])
+records = table.get_records_by_ids([{"vguid": guid} for guid in guids])
 records
 ```
 
@@ -57,31 +57,31 @@ records
 ```
 
 
-## Fetch attribute data values 
+## Fetch attribute data values
 Fetch the *Base*, *Density* and *Young's modulus* attribute values for each record, and print the results.
 Default units can be overridden before export using the `table.set_display_unit()` method.
 
 
 ```python
-tab.set_display_unit("Young's modulus", "ksi")
-tab.bulk_fetch(records=records, attributes=["Base", "Density", "Young's modulus"])
+table.set_display_unit("Young's modulus", "ksi")
+table.bulk_fetch(records=records, attributes=["Base", "Density", "Young's modulus"])
 
-density_unit = tab.attributes["Density"].unit
+density_unit = table.attributes["Density"].unit
 density_header = f"Density / {density_unit}"
 
-youngs_mod_unit = tab.attributes["Young's modulus"].unit
+youngs_mod_unit = table.attributes["Young's modulus"].unit
 youngs_mod_header = f"Young's modulus / {youngs_mod_unit}"
 
 print(f"{'Name':50.50} | {density_header:^21} | {youngs_mod_header:^21} | {'Base':^18}")
-print("-"*120)
+print("-" * 120)
 for record in records:
     formatted_name = f"{record.name:50.50}"
 
     density = record.attributes["Density"].value
-    formatted_density = f"{density['low']:^10.2f}-{density['high']:^10.2f}"
+    formatted_density = f"{density.low:^10.2f}-{density.high:^10.2f}"
 
     youngs_mod = record.attributes["Young's modulus"].value
-    formatted_youngs_mod = f"{youngs_mod['low']:^10.2f}-{youngs_mod['high']:^10.2f}"
+    formatted_youngs_mod = f"{youngs_mod.low:^10.2f}-{youngs_mod.high:^10.2f}"
 
     base = record.attributes["Base"].value
     formatted_base = f"{base:^20}"
@@ -110,13 +110,13 @@ Fetch the attribute *Food contact* and associated meta-attribute *Notes* for eac
 ```python
 import textwrap
 
-food_contact = tab.attributes["Food contact"]
+food_contact = table.attributes["Food contact"]
 food_contact_notes = food_contact.meta_attributes["Notes"]
 
-tab.bulk_fetch(records=records, attributes=[food_contact, food_contact_notes])
+table.bulk_fetch(records=records, attributes=[food_contact, food_contact_notes])
 
 print(f"{'Name':50.50} | {'Food contact':^18} | {'Notes':^42}")
-print("-"*120)
+print("-" * 120)
 for record in records:
     formatted_name = f"{record.name:50.50}"
 

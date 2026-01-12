@@ -86,9 +86,9 @@ Export the data for all the required attributes for the 'released' version of th
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 
 db = mi.get_db(db_key="MI_Training")
 db.unit_system = UNIT_SYSTEM
@@ -132,7 +132,7 @@ instead.
 ```python
 from docx import Document
 
-report = Document(docx="supporting_files/10_report_template.docx")
+report = Document(docx="./supporting_files/10_report_template.docx")
 ```
 
 <div class="alert alert-info">
@@ -170,13 +170,13 @@ style respectively.
 from typing import Optional
 from docx import table
 
-def write_value_to_cell(cell: table._Cell, value: str, style: Optional[str]=None) -> None:
+def write_value_to_cell(cell: table._Cell, value: str, style: Optional[str] = None) -> None:
     paragraph = next(cell.iter_inner_content())
     paragraph.text = value
     paragraph.style = style
 ```
 
-### Write the datasheet title 
+### Write the datasheet title
 
 The first table in the template contains identifying information about the material. The first row
 contains the title, and subsequent rows contain additional information about the material.
@@ -249,15 +249,15 @@ def format_attribute(
     format_spec: str = ".3g",
     include_unit: bool = False,
 ) -> Optional[str]:
-
     value = attribute.value
+
     # A null value may either be None or an empty list
     if not value and value != 0:
         return None
 
     # Switch based on the attribute type
     if attribute.type == "RNGE":
-        formatted_value = f"{value['low']:{format_spec}} - {value['high']:{format_spec}}"
+        formatted_value = f"{value.low:{format_spec}} - {value.high:{format_spec}}"
     elif attribute.type == "POIN":
         # Single-valued point only
         if isinstance(attribute.value, (float, int)):
@@ -270,7 +270,7 @@ def format_attribute(
         raise NotImplementedError(f'Attribute type "{attribute.type}" not supported.')
 
     # Include the unit in the output if requested and if it exists
-    if include_unit and attribute.unit:
+    if include_unit and hasattr(attribute, "unit") and attribute.unit:
         return f"{formatted_value} {attribute.unit}"
     else:
         return formatted_value
@@ -349,11 +349,11 @@ for idx, (attribute_name, label) in enumerate(SINGLE_VALUED_PROPERTIES.items()):
     write_value_to_cell(label_cell, label, "Property Label")
 
     # Write the value to the cell in the center column (column 1 or 4) with the style "Property Value"
-    value_cell = property_table.cell(target_row, target_column_offset+1)
+    value_cell = property_table.cell(target_row, target_column_offset + 1)
     write_value_to_cell(value_cell, value, "Property Value")
 
     # Write the unit to the cell in the rightmost column (column 2 or 5) with the style "Property Unit"
-    unit_cell = property_table.cell(target_row, target_column_offset+2)
+    unit_cell = property_table.cell(target_row, target_column_offset + 2)
     write_value_to_cell(unit_cell, unit, "Property Unit")
 ```
 
@@ -388,7 +388,7 @@ import seaborn as sns
 
 sns.set_theme(
     palette=["black"],  # Datasheet reports are typically black and white
-    rc={"figure.figsize": (7, 5)}  # This size produces plots suitable for printing
+    rc={"figure.figsize": (7, 5)},  # This size produces plots suitable for printing
 )
 sns.set_style("ticks")  # Include tickmarks on axes
 ```
@@ -403,38 +403,31 @@ import io
 import pandas as pd
 
 def make_graph(
-    attribute: mpy.AttributeFunctional,
+    attribute: mpy.AttributeFunctionalSeriesPoint,
     plot_title: str,
     y_label: str,
     x_label: str,
     constraint_param_name: Optional[str] = None,
     constraint_label: Optional[str] = None,
 ) -> io.BytesIO:
-    
     value = attribute.value
 
     # This dictionary will be used to construct a dataframe
     data = {"y": list(), "x": list(), "constraint": list()}
-    
+
     # If a constraint_param_name was provided, set a CONSTRAINT flag to True
     if constraint_param_name:
         CONSTRAINT = True
     else:
         CONSTRAINT = False
 
-    # Get the position of the constraint parameter in the functional data value object
-    if CONSTRAINT:
-        param_idx = attribute.constraint_column_index[constraint_param_name]
-    else:
-        param_idx = None
-        parameter_unit = None
-
     # Add the functional data to the dataframe dictionary
-    for row in value[1:]:
-        data["y"].append(row[0])
-        data["x"].append(row[2])
+    for series in value:
+        data["y"].extend(series.y)
+        data["x"].extend(series.x)
         if CONSTRAINT:
-            data["constraint"].append(f"{row[param_idx]:.3g}")
+            constraint_value = f"{series.parameters_by_name[constraint_param_name]:.3g}"
+            data["constraint"].extend([constraint_value]*len(series.x))
 
     if not CONSTRAINT:
         # Remove the constraint key from the dictionary before converting to a dataframe
@@ -459,21 +452,21 @@ def make_graph(
             y="y",
             marker="o",
         )
-    
-    x_unit = attribute.xaxis_parameter.unit
+
+    x_unit = attribute.parameters[attribute.x_axis].unit
     y_unit = attribute.unit
     plt.set(
         title=plot_title,
         xlabel=f"{x_label} / {x_unit}",
         ylabel=f"{y_label} / {y_unit}",
     )
-    
+
     # If we have a constraint, add a legend
     if CONSTRAINT:
         parameter_unit = attribute.parameters[constraint_param_name].unit
         legend_title = f"{constraint_label} [{parameter_unit}]"
         plt.legend(title=legend_title)
-    
+
     png = convert_plot_to_png(plt)
     return png
 ```

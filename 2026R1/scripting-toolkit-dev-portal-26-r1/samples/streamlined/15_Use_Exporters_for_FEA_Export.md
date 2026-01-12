@@ -6,9 +6,9 @@ Check which exporters are available for a specific table.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 table = db.get_table("Design Data")
 
@@ -23,17 +23,17 @@ for exporter in exporters_in_table:
 
 Output of available ANSYS Workbench Exporters
 458E9A7E-C268-4ED0-9CC1-FF7438521B4F (ANSYS Workbench) - Exports linear, temperature-independent, isotropic data to the Ansys Workbench format
-CE8DCFA2-B3EE-4545-8D3E-82810FA92AFC (ANSYS Workbench) - Exports linear, temperature-dependent, isotropic data to the Ansys Workbench format
 4B0B1EA3-8760-43DF-8060-2C79CA471D4C (ANSYS Workbench) - Exports linear, temperature-independent, isotropic with simple failure data to the Ansys Workbench format
+CE8DCFA2-B3EE-4545-8D3E-82810FA92AFC (ANSYS Workbench) - Exports linear, temperature-dependent, isotropic data to the Ansys Workbench format
 ```
 Check which exporters are applicable to a specific record.
 
 
 ```python
-rec = table.search_for_records_by_name(
+record = table.search_for_records_by_name(
     "250 Grade Maraging, Maraged at 900F, Plate, Thickness: 0.1875 to 0.251 in, AMS 6520, S basis"
 )[0]
-applicable_exporters = rec.get_available_exporters()
+applicable_exporters = record.get_available_exporters()
 print("\nOutput of exporters for 250 Grade Maraging steel:")
 
 for exporter in applicable_exporters:
@@ -43,15 +43,15 @@ for exporter in applicable_exporters:
 ```output
 
 Output of exporters for 250 Grade Maraging steel:
-71CE1C21-FDEA-4119-B481-81BDC41BD900 (Abaqus 6) - Exports temperature dependent, isotropic data to the Abaqus format.
-5C560880-4FD3-4E5C-992B-4B6CEF6A055A (Abaqus 6) - Exports temperature independent, isotropic data to the Abaqus 6 format.
-911AF055-B388-439A-8AF6-EB18480E2D80 (Abaqus 6) - Linear, temperature-independent, isotropic, simple failure
 3AE2BEA5-B1DB-45D3-A431-48915B8D1317 (Abaqus 6) - Linear, temperature-independent, isotropic, simple failure with thermal expansion
-722E5C46-3633-4B72-BF93-74E8112C20C3 (Abaqus 6) - Exports temperature dependent, isotropic data to the Abaqus 6 format.
 B653C213-8BEB-42A7-8512-5F340EEBFAB4 (Abaqus 6) - Exports temperature independent, isotropic data to the Abaqus 6 format.
 458E9A7E-C268-4ED0-9CC1-FF7438521B4F (ANSYS Workbench) - Exports linear, temperature-independent, isotropic data to the Ansys Workbench format
-CE8DCFA2-B3EE-4545-8D3E-82810FA92AFC (ANSYS Workbench) - Exports linear, temperature-dependent, isotropic data to the Ansys Workbench format
+71CE1C21-FDEA-4119-B481-81BDC41BD900 (Abaqus 6) - Exports temperature dependent, isotropic data to the Abaqus format.
+911AF055-B388-439A-8AF6-EB18480E2D80 (Abaqus 6) - Linear, temperature-independent, isotropic, simple failure
 4B0B1EA3-8760-43DF-8060-2C79CA471D4C (ANSYS Workbench) - Exports linear, temperature-independent, isotropic with simple failure data to the Ansys Workbench format
+722E5C46-3633-4B72-BF93-74E8112C20C3 (Abaqus 6) - Exports temperature dependent, isotropic data to the Abaqus 6 format.
+5C560880-4FD3-4E5C-992B-4B6CEF6A055A (Abaqus 6) - Exports temperature independent, isotropic data to the Abaqus 6 format.
+CE8DCFA2-B3EE-4545-8D3E-82810FA92AFC (ANSYS Workbench) - Exports linear, temperature-dependent, isotropic data to the Ansys Workbench format
 ```
 ## Working with parameters
 Some exporters support parameters. The exported parameters have default values but they can also be set manually.
@@ -60,13 +60,13 @@ Get the required parameters for an exporter.
 
 
 ```python
-all_exporters = rec.get_available_exporters(
+all_exporters = record.get_available_exporters(
     package="Abaqus 6",
-    model="Linear, temperature-dependent, isotropic, thermal, plastic"
+    model="Linear, temperature-dependent, isotropic, thermal, plastic",
 )
 exporter_to_use = all_exporters[0]
 
-parameters_required = exporter_to_use.get_parameters_required_for_export([rec])
+parameters_required = exporter_to_use.get_parameters_required_for_export([record])
 print(parameters_required)
 ```
 *Previous cell output:*
@@ -83,7 +83,7 @@ parameter_values = {"Time": 100.0}
 for parameter_name in parameters_required.keys():
     parameters_required[parameter_name].value_for_exporters = parameter_values[parameter_name]
 
-material_card = exporter_to_use.run_exporter([rec], parameter_defs=parameters_required)
+material_card = exporter_to_use.run_exporter([record], parameter_defs=parameters_required)
 print(material_card)
 ```
 *Previous cell output:*
@@ -93,7 +93,7 @@ print(material_card)
 **Model Type: Linear, temperature-dependent, isotropic, thermal, plastic
 **Unit System: SI (Consistent)
 **Export User: ANSYS\mi-sw-admin
-**Export DateTime: 2025-05-12T12:17:04.8602976-04:00
+**Export DateTime: 2026-01-07T14:29:09.7626809-05:00
 **Database Name: MI Training
 **Table Name: Design Data
 **Material Record History Id: 20673
@@ -281,13 +281,16 @@ are left as their defaults.
 
 
 ```python
-path_to_save = "./"
+from pathlib import Path
+
+path_to_save = "./output/"
+Path(path_to_save).mkdir(exist_ok=True)
 file_name = "Example_Export"
 exporter_to_use.save(path_to_save, file_name="Example_Export")
 file_extension = exporter_to_use.default_file_extension
-print(f"Exporter output saved to \"{path_to_save}{file_name}.{file_extension}\"")
+print(f'Exporter output saved to "{path_to_save}{file_name}.{file_extension}"')
 ```
 *Previous cell output:*
 ```output
-Exporter output saved to "./Example_Export.inp"
+Exporter output saved to "./output/Example_Export.inp"
 ```

@@ -33,10 +33,10 @@ First create an MI Scripting Toolkit session.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
 SERVICE_LAYER_URL = "http://my.server.name/mi_servicelayer"
-mi = mpy.connect(SERVICE_LAYER_URL, autologon=True)
+mi = mpy.SessionBuilder(SERVICE_LAYER_URL).with_autologon()
 ```
 
 Search for all *MaterialUniverse* records with a density above a certain threshold. The
@@ -49,8 +49,8 @@ db.unit_system = "SI (Consistent)"
 material_universe = db.get_table("MaterialUniverse")
 
 criterion = material_universe.attributes["Density"].search_criterion(greater_than=7000.0)
-results = material_universe.search_for_records_where([criterion])
-results
+material_universe_results = material_universe.search_for_records_where([criterion])
+material_universe_results
 ```
 
 
@@ -97,7 +97,7 @@ items = [
         table_guid=record.table.guid,
         record_history_guid=record.history_guid,
     )
-    for record in results
+    for record in material_universe_results
 ]
 ```
 
@@ -196,7 +196,7 @@ Search for all *Design Data* records with a density above a certain threshold.
 design_data = db.get_table("Design Data")
 
 criterion = design_data.attributes["Density"].search_criterion(greater_than=7000.0)
-results = design_data.search_for_records_where([criterion])
+design_data_results = design_data.search_for_records_where([criterion])
 ```
 
 Since the *Design Data* table is version-controlled, each `Record` object represents a particular
@@ -205,8 +205,8 @@ property.
 
 
 ```python
-for r in results:
-    print(f"'{r.name}'", ", version: ",  r.version_number)
+for r in design_data_results:
+    print(f"'{r.name}'", ", version: ", r.version_number)
 ```
 *Previous cell output:*
 ```output
@@ -228,7 +228,7 @@ version_controlled_items = [
         record_history_guid=record.history_guid,
         record_version=record.version_number,
     )
-    for record in results
+    for record in design_data_results
 ]
 record_list_items = api_client.add_items_to_list(record_list, version_controlled_items)
 record_list_items
@@ -277,7 +277,7 @@ identifiers = [
     {
         "db_key": mi.dbs_by_guid[item.database_guid].db_key,
         "hguid": item.record_history_guid,
-        "vguid": item.record_guid
+        "vguid": item.record_guid,
     }
     for item in record_list_items
 ]
