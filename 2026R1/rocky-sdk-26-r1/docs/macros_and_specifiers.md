@@ -30,7 +30,7 @@ and `ROCKY_PLUGIN_TEAR_DOWN_CUDA`.*
 
 
 
-### CUDA_MALLOC
+## CUDA_MALLOC
 
 This macro must be used to allocate a block of memory in a device for
 storing custom data. This allocation must be made before any copy
@@ -50,7 +50,7 @@ operation of custom data to a device.
     An integer value that indicates the number of bytes that must be
     allocated in the device.
 
-### CUDA_MALLOC_TYPE
+## CUDA_MALLOC_TYPE
 
 A variant of `CUDA_MALLOC` that, instead of receiving the number of bytes that must
 be allocated in the device, receives the type of data that
@@ -75,7 +75,7 @@ will be stored and the number of elements as parameters, if it happens to be an 
     The type of variable that will be stored in the device, which can be
     a C++ built-in type or a custom data structure.
 
-### CUDA_COPY_H2D
+## CUDA_COPY_H2D
 
 This macro must be used to copy custom data from the [host](glossary.md#host)
 to a device. Prior to this copy operation, the right amount of memory
@@ -99,7 +99,7 @@ segmentation fault will occur.
     An integer value that indicates the number of elements of the same
     type that will be copied.
 
-### CUDA_COPY_D2H
+## CUDA_COPY_D2H
 
 This macro performs the inverse operation of `CUDA_COPY_H2D`, that is, it copies data
 from the device back to the host. This operation may be needed when
@@ -123,7 +123,7 @@ or delivered to the Rocky UI for visualization.
     An integer value that indicates the number of elements of the same
     type that will be copied.
 
-### CUDA_MEMSET
+## CUDA_MEMSET
 
 This macro sets a memory block within a device to a given value. It is
 commonly used to reset a block of memory that previously contained some data to zero.
@@ -143,7 +143,7 @@ commonly used to reset a block of memory that previously contained some data to 
     An integer value that indicates the number of elements of the same
     type that currently occupy the memory block.
 
-### CUDA_FREE
+## CUDA_FREE
 
 This macro must be used to free the memory block allocated previously by
 `CUDA_MALLOC`.
@@ -154,7 +154,7 @@ This macro must be used to free the memory block allocated previously by
 
     Device pointer that points to the memory block that must be freed.
 
-### ROCKY_FUNCTIONS
+## ROCKY_FUNCTIONS
 
 This is a function specifier that enables a function to be executed on CPU
 or on GPU. Its use is mandatory in the declaration of auxiliary functions
