@@ -1,5 +1,6 @@
-<a id="classIRockyPluginDataEntry"></a>
 # Class IRockyPluginDataEntry
+
+<a id="classIRockyPluginDataEntry"></a>
 
 ![][C++]
 ![][public]

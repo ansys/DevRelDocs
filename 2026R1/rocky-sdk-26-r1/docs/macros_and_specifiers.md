@@ -1,4 +1,6 @@
-## Macros and specifiers<p id="macros_and_specifiers"></p>
+## Macros and specifiers
+
+<p id="macros_and_specifiers"></p>
 
 [CUDA](glossary.md#cuda) is the parallel computing platform used by Rocky to
 enable the execution of simulations on CUDA-enabled GPU cards. In order

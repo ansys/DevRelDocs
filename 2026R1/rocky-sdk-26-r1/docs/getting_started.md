@@ -1,4 +1,6 @@
-## Getting started<p id="getting_started"></p>
+## Getting started
+
+<p id="getting_started"></p>
 
 
 The Rocky Solver SDK is supported for the following operating systems:
@@ -34,7 +36,9 @@ Install the [CUDA](glossary.md#cuda) toolkit 12.8.0 for x86\_64 Rocky Linux 8. S
 the environment variable `CUDA_PATH_V12_8` with the location of the
 installed CUDA toolkit. Example: `CUDA_PATH_V12_8=/usr/local/cuda-12.8/`.
 
-### Build tools - Linux <p id="build-tools-linux"></p>
+### Build tools - Linux
+
+<p id="build-tools-linux"></p>
 
 Install Miniforge 3 for Linux 64-bit, then, activate a conda
 prompt and install the following packages:

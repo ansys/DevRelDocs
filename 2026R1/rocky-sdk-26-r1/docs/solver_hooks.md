@@ -1,4 +1,6 @@
-### Solver hooks<p id="solver_hooks"></p>
+### Solver hooks
+
+<p id="solver_hooks"></p>
 
 The Rocky Solver SDK allows users to attach customized C++ code
 into strategic points of the code that executes a simulation in Rocky.

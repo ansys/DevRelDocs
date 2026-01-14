@@ -1,5 +1,6 @@
-<a id="classIRockyAdhesiveDistanceData"></a>
 # Class IRockyAdhesiveDistanceData
+
+<a id="classIRockyAdhesiveDistanceData"></a>
 
 ![][C++]
 ![][public]

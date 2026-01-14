@@ -1,5 +1,5 @@
 # Index
-## @
+
 ## A
 * [add](structIRockyContactScalarsModel.md#structIRockyContactScalarsModel_1a00693cfaa879794cda713e943549644f) Function
 * [add](structIRockyContactScalarsModel.md#structIRockyContactScalarsModel_1a295989b18e690130d92c31881a61ba76) Function

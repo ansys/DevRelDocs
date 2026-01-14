@@ -1,4 +1,6 @@
-## Introduction<p id="introduction"></p>
+## Introduction
+
+<p id="introduction"></p>
 
 The Rocky Solver SDK enables the development of custom modules for Rocky. A
 Rocky [module](glossary.md#module) is a compiled library that attaches to the

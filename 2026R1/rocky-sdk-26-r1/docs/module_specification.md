@@ -1,4 +1,6 @@
-## Module specification<p id="module_specification"></p>
+## Module specification
+
+<p id="module_specification"></p>
 
 
 The way that a custom [module](glossary.md#module) must interact with the
@@ -336,7 +338,9 @@ values of the new particle scalar must be stored in disk throughout a
 simulation, and be able to be displayed in a 3D view window at output
 times, as shown in Figure 2.7.
 
-### Specification of custom models <p id="specification-of-custom-models"></p>
+### Specification of custom models
+
+<p id="specification-of-custom-models"></p>
 
 
 One of the main motivations for developing custom modules is to add new
@@ -602,7 +606,9 @@ how a module can perform that replacement.
 | Temperature            |  temperature              |  Temperature             |
 
 
-### The .plugin file <p id="plugin-file"></p>
+### The .plugin file
+
+<p id="plugin-file"></p>
 
 
 In addition to the Python file containing an `IPlugin` subclass, every module
@@ -650,7 +656,9 @@ where:
 
 See Section [Class Reference](class_reference_index.md) for an example plugin file.
 
-### Module version<p id="module-version"></p>
+### Module version
+
+<p id="module-version"></p>
 
 
 Every module has two versions: one "explicit" version, defined by the

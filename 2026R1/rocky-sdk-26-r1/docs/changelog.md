@@ -1,4 +1,4 @@
-### Changelog
+# Changelog
 
 ### Release notes for 2025 R2
 

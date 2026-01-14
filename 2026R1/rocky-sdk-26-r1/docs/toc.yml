@@ -4,7 +4,7 @@
   href: getting_started.md
 - name: Module specification
   href: module_specification.md
-- name: Solver Hooks
+- name: Solver hooks
   href: solver_hooks.md
 - name: Macros and specifiers
   href: macros_and_specifiers.md
@@ -15,13 +15,13 @@
 - name: Class reference
   href: class_reference_index.md
   items:
-  - name: Global Contents
+  - name: Global contents
     href: global_contents.md
   - name: Global Index
     href: global_index.md
-  - name: Struct Contents
+  - name: Struct contents
     href: struct_contents.md
-  - name: Class Contents
+  - name: Class contents
     href: class_contents.md
 - name: Changelog
   href: changelog.md

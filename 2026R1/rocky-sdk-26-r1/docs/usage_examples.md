@@ -1,4 +1,6 @@
-## Usage examples<p id="usage_examples">
+## Usage examples
+
+<p id="usage_examples">
 
 
 The first section of this chapter provides a step-by-step description of
