@@ -1,4 +1,4 @@
-## Macros and specifiers
+# Macros and specifiers
 
 <p id="macros_and_specifiers"></p>
 

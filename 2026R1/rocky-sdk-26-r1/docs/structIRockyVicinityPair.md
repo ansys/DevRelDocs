@@ -1,5 +1,6 @@
-<a id="structIRockyVicinityPair"></a>
 # Structure IRockyVicinityPair
+
+<a id="structIRockyVicinityPair"></a>
 
 ![][C++]
 ![][public]

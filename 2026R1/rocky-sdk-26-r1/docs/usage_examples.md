@@ -1,4 +1,4 @@
-## Usage examples
+# Usage examples
 
 <p id="usage_examples">
 
@@ -10,7 +10,7 @@ implementation of all the required source files, until the execution of
 the compiled module. The second section describes the code associated to
 a custom module that implements a contact model.
 
-### A simple custom module
+## A simple custom module
 
 This section describes the implementation of the code of a simple module
 in order to illustrate the use of the Rocky Solver SDK. The
@@ -35,7 +35,7 @@ The following sections reproduce and describe the content of each one of
 the four source files. For a walk-through example of setting up and
 using this simple custom module, refer to *Tutorial 23: Rocky Solver SDK*.
 
-#### File spherical_region.plugin
+### File spherical_region.plugin
 
 ```
 [Core]
@@ -56,7 +56,7 @@ compiled library file of the module in the filesystem. The data in the
 block between lines 5 and 9 is displayed within the
 **Info** tab associated to the module in the Rocky UI.
 
-#### File spherical_region.py
+### File spherical_region.py
 
 This is a Python file that specifies which are the module parameters
 that must be displayed in the Rocky UI*. When a project is set up in
@@ -117,14 +117,14 @@ Finally, at line 29, the definition of the `SphericalRegionModule` class is incl
 one method is implemented in this class, `get_addin_specs`, which makes available all
 the specifications made previously in the file.
 
-#### File spherical_region.pdf
+### File spherical_region.pdf
 
 This is an optional help file that may include usage instructions and/or
 technical details about the implementation of the module. If included,
 Rocky will automatically link it to a special icon displayed in the UI
 that will allow users of the module to open the file.
 
-#### File CMakeLists.txt
+### File CMakeLists.txt
 
 This file includes compilation, linkage and install instructions in the
 CMake language, needed to build the module. Several commands defined by
@@ -167,7 +167,7 @@ set(ROCKY_PLUGIN_INSTALLATION_DIR ${CMAKE_CURRENT_SOURCE_DIR}/custom_path/)
 where `custom_path` is the path of the folder where the module must be installed,
 relative to the source directory being processed.
 
-#### File spherical_region.cu
+### File spherical_region.cu
 
 This file includes the C++ code that implements the intended
 functionality of the module during the execution of a simulation. Every
@@ -353,7 +353,7 @@ structure in the CPU memory area. The equivalent operation on the GPU
 memory area is made in the `ROCKY_PLUGIN_TEAR_DOWN_CUDA` hook.
 
 
-#### <p id="building-procedures">Building procedures</p>
+### <p id="building-procedures">Building procedures</p>
 
 This section shows a way to compile the module `spherical_region` described in the
 previous section.
@@ -405,7 +405,7 @@ environment variable:
         spherical_region.py
 ```
 
-#### Running the module in Rocky
+### Running the module in Rocky
 
 After having completed successfully all the steps described in previous
 sections, the new module will be ready to be executed in a Rocky
@@ -421,7 +421,7 @@ activation of the module in a simulation requires that the corresponding
 checkbox is turned on, as shown in Figure
 5.1.
 
-![](./images/sim_modules.png
+![sim modules](./images/sim_modules.png)
 
 *Figure 5.1: The new module displayed in the Data Editors panel.*
 
@@ -435,11 +435,11 @@ convenience. On the other hand, if the
 **Info** tab is selected, the reference data included in the `spherical_region.plugin` is displayed in the
 panel.
 
-![](./images/sim_params.png
+![sim params](./images/sim_params.png)
 
 *Figure 5.2: The custom parameters for the module displayed in the Data Editors panel.*
 
-![](./images/mod_info.png
+![mod info](./images/mod_info.png)
 
 *Figure 5.3: The module's Info tab on the Data Editors panel*
 
@@ -453,11 +453,11 @@ inside the specified spherical region will have an scalar value equal to
 1, as depicted in the example of Figure 5.4, while particles outside it will have
 associated a zero value.
 
-![](./images/sim_scalar.png
+![sim scalar](./images/sim_scalar.png)
 
 *Figure 5.4: Example of a simulation processed using the new module.*
 
-### A module implementing a custom
+## A module implementing a custom
 
 As an example of the implementation of a custom model using the Rocky
 Solver SDK, this section describes the code associated to a
@@ -472,7 +472,7 @@ component of the contact force depends on the normal component, and the
 impact energy on both of them. Because of that, they are calculated in a
 fixed sequence, as shown schematically in Figure 5.4.
 
-![](./images/contact_pipeline.png
+![contact pipeline](./images/contact_pipeline.png)
 
 *Figure 5.5: Contact model pipeline in Rocky.*
 
@@ -506,7 +506,7 @@ and the Linear Spring Coulomb Limit, respectively. Moreover, the impact
 energy calculation included in the module is the one used in Rocky when
 the Hysteretic Linear Spring model is selected as normal contact force.
 
-#### Module specification file
+### Module specification file
 
 The following listing reproduces the Python file that includes the
 specifications for the custom module, which is named simply as `Contact Model Example`.
@@ -574,7 +574,7 @@ impact energy calculation. In runtime, Rocky will read these
 specifications and will override those model categories, using instead
 the custom models implemented by the module, as explained in section [Specification of custom models](module_specification.md#specification-of-custom-models).
 
-#### Implementation of the contact model
+### Implementation of the contact model
 
 This section describes the different parts that make up the `custom_model_example.cu` file that
 includes the C++ code that implements the custom models.
@@ -921,11 +921,11 @@ implemented on it will override built-in models in those categories.
 This will be indicated within the **Physics | Momentum** tab, which
 will appear as shown in Figure 5.5.
 
-![](./images/mod_phys.png
+![mod phys](./images/mod_phys.png)
 
 *Figure 5.6: The normal force, tangential force and impact energy categories overriden by the models implemented in Contact Model Example.*
 
-### <p id="a-module-implementing-variable-properties">A module implementing variable properties </p>
+## <p id="a-module-implementing-variable-properties">A module implementing variable properties </p>
 
 
 As an example of the implementation of modules that override built-in
@@ -946,7 +946,7 @@ $$
 $$
 where \f(T_O\f) and \f(C_Q\f) are two module parameters and \f(x_t\f) is the \f(x\f)-coordinate of the triangle's centroid.
 
-#### Module specification file
+### Module specification file
 
 The following listing reproduces the Python file with the specifications
 of the module, which is named as `Variable Properties Example`.
@@ -1040,7 +1040,7 @@ Since the module will define the thermal conductivity as a variable
 property for particles exclusively, only parameter values from materials associated to particles
 will be effectively used by the module.
 
-#### Module implementation
+### Module implementation
 
 This section describes the C++ code of the main parts of the `variable_properties_example.cu` file.
 The code from initialization and termination hooks related to CUDA operations is omitted,
@@ -1170,7 +1170,7 @@ the following way:
 98	}
 ```
 
-![](./images/ex_prop_temp.png
+![ex prop temp](./images/ex_prop_temp.png)
 
 *Figure 5.7: Example of the temperature distribution on a boundary specified by the module.*
 
@@ -1225,11 +1225,11 @@ property values being replaced will remain editable in the Rocky UI, it
 is important to note that they will be ignored in all the calculations
 done by the Rocky solver.
 
-![](./images/ex_prop_cond.png
+![ex prop cond](./images/ex_prop_cond.png)
 
 *Figure 5.8: Example of the variable thermal conductivity on particles specified by the module*
 
-### A module implementing a custom SPH model
+## A module implementing a custom SPH model
 
 As an example of the implementation of a custom SPH model using the
 Rocky Solver SDK, this section describes the code associated to
@@ -1248,7 +1248,7 @@ R., International Journal of Numerical
 Methods in Fluids, vol. 53, pp. 277-304,
 2007.*
 
-#### Module specification file
+### Module specification file
 
 The following listing reproduces the Python file that includes the
 specifications for the custom module, which is named simply as `LES Turbulence Model`.
@@ -1289,7 +1289,7 @@ specifications for the custom module, which is named simply as `LES Turbulence M
 33	        return SPHModelAPISpecs
 ```
 
-#### Implementation of the SPH LES turbulence model
+### Implementation of the SPH LES turbulence model
 
 This section describes the different parts that make up the `sph_les_model.cu` file that
 includes the C++ code implementing the custom models.

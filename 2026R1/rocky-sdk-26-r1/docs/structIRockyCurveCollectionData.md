@@ -1,5 +1,6 @@
-<a id="structIRockyCurveCollectionData"></a>
 # Structure IRockyCurveCollectionData
+
+<a id="structIRockyCurveCollectionData"></a>
 
 ![][C++]
 ![][public]

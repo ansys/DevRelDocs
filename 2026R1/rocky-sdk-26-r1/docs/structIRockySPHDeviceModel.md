@@ -1,5 +1,6 @@
-<a id="structIRockySPHDeviceModel"></a>
 # Structure IRockySPHDeviceModel
+
+<a id="structIRockySPHDeviceModel"></a>
 
 ![][C++]
 ![][public]

@@ -1,4 +1,4 @@
-## Getting started
+# Getting started
 
 <p id="getting_started"></p>
 
@@ -20,7 +20,7 @@ downloaded from Ansys Customer Portal.
 It is assumed that users of the Rocky Solver SDK have basic knowledge of the
 C++ and Python programming languages.
 
-### Prerequisites for Linux
+## Prerequisites for Linux
 
 Unzip the Rocky Solver SDK for Linux in a folder of your choice. Set the
 environment variable `RockySDK_DIR` with the location of the unzipped
@@ -36,7 +36,7 @@ Install the [CUDA](glossary.md#cuda) toolkit 12.8.0 for x86\_64 Rocky Linux 8. S
 the environment variable `CUDA_PATH_V12_8` with the location of the
 installed CUDA toolkit. Example: `CUDA_PATH_V12_8=/usr/local/cuda-12.8/`.
 
-### Build tools - Linux
+## Build tools - Linux
 
 <p id="build-tools-linux"></p>
 
@@ -52,7 +52,7 @@ prompt and install the following packages:
 The conda prompt now contains a minimum set of tools required to build
 Rocky modules.
 
-### Prerequisites for Windows 10
+## Prerequisites for Windows 10
 
 Unzip the Rocky SDK for Windows in a folder of your choice. Set the
 environment variable `RockySDK_DIR` with the location of the unzipped
@@ -76,7 +76,7 @@ installation. This can be done by opening a PowerShell window and running the fo
 cp "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\extras\visual_studio_integration\MSBuildExtensions\*" "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\BuildCustomizations" -r -force
 ```
 
-### Build tools - Windows
+## Build tools - Windows
 
 Install Visual Studio Build Tools 2022, version 17.6.17.
 

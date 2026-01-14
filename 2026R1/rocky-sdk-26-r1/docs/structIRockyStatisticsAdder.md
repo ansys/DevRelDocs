@@ -1,5 +1,6 @@
-<a id="structIRockyStatisticsAdder"></a>
 # Structure IRockyStatisticsAdder
+
+<a id="structIRockyStatisticsAdder"></a>
 
 ![][C++]
 ![][public]

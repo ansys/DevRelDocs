@@ -1,5 +1,6 @@
-<a id="structIRockyJointOutputData"></a>
 # Structure IRockyJointOutputData
+
+<a id="structIRockyJointOutputData"></a>
 
 ![][C++]
 ![][public]

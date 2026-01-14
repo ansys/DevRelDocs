@@ -1,5 +1,6 @@
-<a id="structIRockyGeometryTriangleHost"></a>
 # Structure IRockyGeometryTriangleHost
+
+<a id="structIRockyGeometryTriangleHost"></a>
 
 ![][C++]
 ![][public]

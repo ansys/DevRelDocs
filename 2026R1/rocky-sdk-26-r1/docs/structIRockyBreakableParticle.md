@@ -1,5 +1,6 @@
-<a id="structIRockyBreakableParticle"></a>
 # Structure IRockyBreakableParticle
+
+<a id="structIRockyBreakableParticle"></a>
 
 ![][C++]
 ![][public]

@@ -1,5 +1,6 @@
-<a id="structIRockyParticleHost"></a>
 # Structure IRockyParticleHost
+
+<a id="structIRockyParticleHost"></a>
 
 ![][C++]
 ![][public]

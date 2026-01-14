@@ -1,4 +1,4 @@
-## Glossary
+# Glossary
 
 <p id="glossary"></p>
 
@@ -6,7 +6,7 @@ The glossary below includes the definition of the main terms and
 concepts used in the description of the Rocky Solver SDK in the
 remainder of this manual.
 
-### Adhesive contact
+## Adhesive contact
 
 <p id="adhesive-contact"></p>
 
@@ -17,7 +17,7 @@ Rocky, an adhesive contact will exist if an adhesive model is active
 and the gap between the two entities is smaller than the adhesive
 distance.
 
-### Adhesive distance
+## Adhesive distance
 
 <p id="adhesive-distance"></p>
 
@@ -25,7 +25,7 @@ A value defined per material interaction, that specifies the limiting
 distance (gap) for an adhesion contact to exist between two entities
 associated to that material interaction.
 
-### Boundary
+## Boundary
 
 <p id="boundary"></p>
 
@@ -34,13 +34,13 @@ formed by boundary triangles, that interacts with the particles during a simulat
 properties whose values can be specified in runtime through the
 Rocky UI for each boundary in a project.
 
-### Boundary triangle
+## Boundary triangle
 
 <p id="boundary-triangle"></p>
 
 Each one of the triangles that make up a geometry or boundary.
 
-### CUDA
+## CUDA
 
 <p id="cuda"></p>
 
@@ -48,7 +48,7 @@ Acronym for Compute Unified Device Architecture, which is a
 parallel computing platform that allows developers to use a CUDA-enabled GPU for general purpose processing. It is the platform used
 by Rocky to process simulations in GPU.
 
-### Contact
+## Contact
 
 <p id="cuda"></p>
 
@@ -58,7 +58,7 @@ time in a simulation. Rocky is constantly updating the list of active
 contacts, according to the instantaneous positions of the particles in
 a simulation.
 
-### Contact model pipeline
+## Contact model pipeline
 
 <p id="contact-model-pipeline"></p>
 
@@ -67,13 +67,13 @@ output of one calculation is passed as an input to the next one. It
 can be customized through the implementation of a custom contact
 model on an external module.
 
-### Device
+## Device
 
 <p id="device"></p>
 
 In CUDA-related operations, it refers to the GPU and its memory.
 
-### Discrete breakage
+## Discrete breakage
 
 <p id="discrete-breakage"></p>
 
@@ -81,7 +81,7 @@ Breakage modeling applicable only to flexible particles (fibers, shells,
 and solid) in which the bonding action of a joint is disabled when
 the breakage criterion is satisfied.
 
-### Element
+## Element
 
 <p id="element"></p>
 
@@ -89,7 +89,7 @@ Each one of the pieces that make up a flexible particle. In Rocky,
 elements are sphero-cylinders in a flexible fiber, sphero-triangles in
 a flexible shell, and tetrahedra in a solid flexible particle.
 
-### Frictional contact
+## Frictional contact
 
 <p id="frictional-contact"></p>
 
@@ -98,7 +98,7 @@ other. That is, there is an actual overlap between the entities and,
 therefore, a contact force acting on both of them.
 
 
-### Home entity
+## Home entity
 
 <p id="home-entity"></p>
 
@@ -108,7 +108,7 @@ independent of the contact type. In joints, it is always an individual
 element making up the particle. There is no special rule for labeling
 an entity as *home* when the two entities have the same type.
 
-### Hook
+## Hook
 
 <p id="hook"></p>
 
@@ -116,7 +116,7 @@ Location within the Rocky solver at which the Rocky Solver SDK
 allows modules to insert custom C++ code in order to implement
 new functionalities or modify some specific behavior
 
-### Host
+## Host
 
 <p id="host"></p>
 
@@ -124,7 +124,7 @@ In CUDA-related operations, it refers to the CPU and its memory.
 
 
 
-### Instantaneous breakage
+## Instantaneous breakage
 
 <p id="instantaneous-breakage"></p>
 
@@ -132,7 +132,7 @@ Breakage modeling applicable only to non-flexible polyhedral
 particles in which all the resulting fragments are generated at the
 same time when the breakage criterion is satisfied.
 
-### Joint
+## Joint
 
 <p id="joint"></p>
 
@@ -142,14 +142,14 @@ elements as a reaction to translational and angular deformations,
 respectively. A joint model specifies how those forces and moments
 are related to those deformations
 
-### Known scalar
+## Known scalar
 
 <p id="known-scalar"></p>
 
 A type of scalar variable that is defined within the Rocky solver, but
 can be accessed from a custom module, if necessary.
 
-### Material
+## Material
 
 <p id="material"></p>
 
@@ -158,7 +158,7 @@ in Rocky. A material has associated values of physical properties
 that are common to all particles in a particle group or to a whole
 boundary.
 
-### Material interaction
+## Material interaction
 
 <p id="material-interaction"></p>
 
@@ -171,7 +171,7 @@ material interaction properties whose values can be specified in
 runtime through the Rocky UI for each material interaction in a
 project.
 
-### Module
+## Module
 
 <p id="module"></p>
 
@@ -180,7 +180,7 @@ implements a specific feature or overrides a built-in model. The
 main purpose of the Rocky SDK is to enable users to implement
 custom modules.
 
-### Multi-element particle
+## Multi-element particle
 
 <p id="multi-element-particle"></p>
 
@@ -188,7 +188,7 @@ A flexible particle formed by more than one element. Rocky supports
 three types of multi-element particles: fibers, shells and solid
 particles.
 
-### Near entity
+## Near entity
 
 <p id="near-entity"></p>
 
@@ -196,7 +196,7 @@ In contexts where a pair of entities is involved, one of these entities
 is always labeled as near. In contacts, it is always the entity (particle or triangle) in contact with the home particle. In joints, it is always
 the individual element that is linked to the home element by a joint.
 
-### Particle group
+## Particle group
 
 <p id="particle-group"></p>
 
@@ -204,7 +204,7 @@ A collection of particles with the same shape, material, and other
 defining characteristics, such as size distribution, flexibility, breakage
 capabilities, etc.
 
-### Point cloud
+## Point cloud
 
 <p id="point-cloud"></p>
 
@@ -215,7 +215,7 @@ to a point cloud. Those values can be retrieved during the execution
 of a simulation though special SDK methods, in order to be used in
 custom models.
 
-### SPH element
+## SPH element
 
 <p id="sph-element"></p>
 
@@ -228,7 +228,7 @@ elements within the fluid phase, while the latter are auxiliary SPH
 elements placed inside solid particles in order to model the physical
 interaction between those particles and the fluid.
 
-### SPH interaction
+## SPH interaction
 
 <p id="sph-interaction"></p>
 
@@ -241,7 +241,7 @@ triangle interaction. Thoughout the simulation, Rocky periodically
 updates the lists of SPH interactions, based on the instantaneous
 positions of SPH elements and boundary triangles.
 
-### SPH kernel
+## SPH kernel
 
 <p id="sph-kernel"></p>
 
@@ -255,7 +255,7 @@ radius. Only SPH elements located at a distance smaller than the
 kernel radius of other SPH elements are considered to have a force
 interaction between them
 
-### Scalar
+## Scalar
 
 <p id="scalar"></p>
 
@@ -263,7 +263,7 @@ A special type of variable associated to a specific type of entity
 in Rocky (particles, boundary triangles, joints, or contacts) that is
 designed to store values that persist throughout a simulation.
 
-### Smoothed Particle Hydrodynamics (SPH)
+## Smoothed Particle Hydrodynamics (SPH)
 
 <p id="smoothed-particle-hydrodynamics-sph"></p>
 
@@ -273,7 +273,7 @@ used in Rocky for simulating the motion of solid particles, since the
 fluid is represented by discrete elements of constant mass whose
 motion is determined by integration of Newton’s second law.
 
-### Transfer scalar<p id="transfer-scalars"></p>
+## Transfer scalar<p id="transfer-scalars"></p>
 
 A type of scalar variable whose values are reset automatically at the
 beginning of each new time iteration. Currently defined only for

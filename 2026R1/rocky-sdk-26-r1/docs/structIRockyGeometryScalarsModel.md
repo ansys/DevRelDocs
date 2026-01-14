@@ -1,5 +1,6 @@
-<a id="structIRockyGeometryScalarsModel"></a>
 # Structure IRockyGeometryScalarsModel
+
+<a id="structIRockyGeometryScalarsModel"></a>
 
 ![][C++]
 ![][public]

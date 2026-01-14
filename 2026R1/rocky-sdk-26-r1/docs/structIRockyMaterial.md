@@ -1,5 +1,6 @@
-<a id="structIRockyMaterial"></a>
 # Structure IRockyMaterial
+
+<a id="structIRockyMaterial"></a>
 
 ![][C++]
 ![][public]

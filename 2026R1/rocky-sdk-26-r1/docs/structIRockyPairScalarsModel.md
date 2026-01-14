@@ -1,5 +1,6 @@
-<a id="structIRockyPairScalarsModel"></a>
 # Structure IRockyPairScalarsModel
+
+<a id="structIRockyPairScalarsModel"></a>
 
 ![][C++]
 ![][public]

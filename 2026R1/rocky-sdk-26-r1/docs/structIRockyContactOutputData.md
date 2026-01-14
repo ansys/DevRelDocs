@@ -1,5 +1,6 @@
-<a id="structIRockyContactOutputData"></a>
 # Structure IRockyContactOutputData
+
+<a id="structIRockyContactOutputData"></a>
 
 ![][C++]
 ![][public]

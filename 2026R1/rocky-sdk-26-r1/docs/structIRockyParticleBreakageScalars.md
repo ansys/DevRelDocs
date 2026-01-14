@@ -1,5 +1,6 @@
-<a id="structIRockyParticleBreakageScalars"></a>
 # Structure IRockyParticleBreakageScalars
+
+<a id="structIRockyParticleBreakageScalars"></a>
 
 ![][C++]
 ![][public]

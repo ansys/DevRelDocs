@@ -1,4 +1,4 @@
-## Module specification
+# Module specification
 
 <p id="module_specification"></p>
 
@@ -18,7 +18,7 @@ The way in which these specifications must be coded is described
 throughout this chapter. It is assumed that users have a basic knowledge
 of the Python language.
 
-### <p id="structure-of-the-specification-file">Structure of the specification file</p>
+##  <p id="structure-of-the-specification-file">Structure of the specification file</p>
 
 The first operation that must be made in the file is the importation of
 some utilities, most of them defined by the Rocky Solver SDK itself. The
@@ -121,7 +121,7 @@ The other variables are in fact classes that contain the specification
 of each individual parameter needed by the module. Examples of the
 implementation of such classes are given in the following sections.
 
-### Module general properties
+##  Module general properties
 
 Module general properties are not associated to specific entities in a
 Rocky UI as are the other types of properties described in the following
@@ -131,7 +131,7 @@ associated to the module itself, when it is selected in the
 **Data** panel, as
 shown in the example of Figure 2.1.
 
-![](./images/model_param_1.png
+![model param 1](./images/model_param_1.png)
 
 *Figure 2.1: General module parameters in the Data Editors panel of the Rocky UI*
 
@@ -176,7 +176,7 @@ class CustomGeneralParameters:
     custom_list = List(item_class=CustomListSpecs, caption='Custom List')
 ```
 
-![](./images/model_param_2.png
+![model param 2](./images/model_param_2.png)
 
 *Figure 2.2: General list displayed as a table in the Rocky UI.*
 
@@ -194,7 +194,7 @@ class CustomListSpecs:
     custom_list_quantity_2 = Quantity(value=0.2, unit='m', caption='Quantity 2')
 ```
 
-### Module material properties
+##  Module material properties
 
 A module can add custom properties to [materials](glossary.md#material) apart
 from the ones defined by default in Rocky. The specification of these
@@ -204,7 +204,7 @@ material properties will be displayed in the **Data Editors** panel
 associated to each one of the materials defined in a project, as shown
 in the example of Figure 2.3.
 
-![](./images/mat_prop.png
+![mat prop](./images/mat_prop.png)
 
 *Figure 2.3: Module material properties displayed in the Rocky UI*
 
@@ -218,7 +218,7 @@ class CustomMaterialProperties:
     mat_prop_2 = Quantity(value=300.0, unit='K', caption='Custom Material Property 2')
 ```
 
-### Module materials interactions properties
+##  Module materials interactions properties
 
 
 Rocky can associate module parameters to [materials
@@ -232,7 +232,7 @@ The materials interactions parameters of a module are displayed as shown
 in Figure 2.4,
 below the built-in materials interactions parameters in the **Data Editors** panel.
 
-![ ](./images/mat_inter.png
+![mat inter](./images/mat_inter.png)
 
 *Figure 2.4: Module materials interaction parameters displayed in the Rocky UI.*
 
@@ -246,7 +246,7 @@ class CustomInteractionProperties:
     custom_mi_quantity_2 = Quantity(value=7.0, unit='-', caption='Custom Quantity 2')
 ```
 
-### Module geometry properties
+##  Module geometry properties
 
 When Rocky associates module parameters to each one of the individual
 boundaries in a project, those parameters are called geometry
@@ -254,7 +254,7 @@ properties. In the Rocky UI, they are displayed in the **Data Editors** panel as
 shown in Figure 2.5, when an individual geometry is selected in the
 **Data** panel.
 
-![](./images/geom_prop.png
+![geom prop](./images/geom_prop.png)
 
 *Figure 2.5: Module geometry properties displayed in the Rocky UI.*
 
@@ -267,7 +267,7 @@ class CustomGeometryProperties:
     custom_property = Quantity(value=0.0, unit='N', caption='Custom Geometry Property')
 ```
 
-### Module particle group properties
+##  Module particle group properties
 
 
 When this type of property is defined in a module, different values can
@@ -288,11 +288,11 @@ class CustomParticleGroupProperties:
                                   caption='Custom Particle Group Property')
 ```
 
-![](./images/pg_prop.png
+![pg prop](./images/pg_prop.png)
 
 *Figure 2.6: Module particle group properties displayed in the Rocky UI*
 
-### Module particle input properties
+##  Module particle input properties
 
 Rocky supports the ability to associate custom values to every particle
 in a simulation. In Rocky, these values are associated to special
@@ -314,7 +314,7 @@ the associated particle group, since it is not possible to associate
 individual values per particle as it is done with the built-in particle
 properties.
 
-![](./images/input_prop_sc.png
+![input prop](./images/input_prop_sc.png)
 
 *Figure 2.7: Custom scalar displayed in the Rocky UI with the initial value set in the module’s particle-input properties sub-tab.*
 
@@ -338,7 +338,7 @@ values of the new particle scalar must be stored in disk throughout a
 simulation, and be able to be displayed in a 3D view window at output
 times, as shown in Figure 2.7.
 
-### Specification of custom models
+##  Specification of custom models
 
 <p id="specification-of-custom-models"></p>
 
@@ -440,7 +440,7 @@ may treat a custom model:
     is turned off. All model categories that behave in this way are
     marked with the word "override" in the third column of Table 2.1
 
-![](./images/mod_override.png
+![mod override](./images/mod_override.png)
 
 *Figure 2.8: Example of custom models overriding other models in the Rocky UI.*
 
@@ -453,7 +453,7 @@ may treat a custom model:
     that behave in this way are marked with the word "addition" in the
     third column of Table 2.1.
 
-![](./images/mod_add.png 
+![mod add](./images/mod_add.png)
 
 *Figure 2.9: Example of a custom model being added to the available models in a category.*
 
@@ -468,7 +468,7 @@ other two. An example of the latter case is the pair of models
 instantaneous breakage and fragment size distribution, in which the
 first one can calculate custom data needed by the second one.
 
-### Specification of variable properties
+##  Specification of variable properties
 
 
 Since Rocky 2022R1, the Rocky Solver SDK gives developers the ability
@@ -606,7 +606,7 @@ how a module can perform that replacement.
 | Temperature            |  temperature              |  Temperature             |
 
 
-### The .plugin file
+##  The .plugin file
 
 <p id="plugin-file"></p>
 
@@ -656,7 +656,7 @@ where:
 
 See Section [Class Reference](class_reference_index.md) for an example plugin file.
 
-### Module version
+##  Module version
 
 <p id="module-version"></p>
 
@@ -681,7 +681,7 @@ format, where:
 -   Increment the patch version *Z* when your make backwards-compatible
     bug fixes only.
 
-#### Migrating between module versions
+### Migrating between module versions
 
 When a module is changed in a way that makes the new specification
 incompatible with the old one, the author can write a function to

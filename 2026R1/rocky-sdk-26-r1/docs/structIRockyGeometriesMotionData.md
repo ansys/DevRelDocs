@@ -1,5 +1,6 @@
-<a id="structIRockyGeometriesMotionData"></a>
 # Structure IRockyGeometriesMotionData
+
+<a id="structIRockyGeometriesMotionData"></a>
 
 ![][C++]
 ![][public]

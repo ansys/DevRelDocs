@@ -1,5 +1,6 @@
-<a id="structIRockyCloudPoint"></a>
 # Structure IRockyCloudPoint
+
+<a id="structIRockyCloudPoint"></a>
 
 ![][C++]
 ![][public]

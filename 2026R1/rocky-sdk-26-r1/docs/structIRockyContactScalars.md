@@ -1,5 +1,6 @@
-<a id="structIRockyContactScalars"></a>
 # Structure IRockyContactScalars
+
+<a id="structIRockyContactScalars"></a>
 
 ![][C++]
 ![][public]

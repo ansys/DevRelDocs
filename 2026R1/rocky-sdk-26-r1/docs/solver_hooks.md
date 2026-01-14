@@ -1,4 +1,4 @@
-### Solver hooks
+# Solver hooks
 
 <p id="solver_hooks"></p>
 
@@ -12,7 +12,7 @@ As an illustration, Figure 3.1 shows the position of the main hooks provided by
 the Rocky Solver SDK in a very simplified flowchart of a
 simulation in Rocky.
 
-![](./images/hooks_flowchart.png
+![hooks flowchart](./images/hooks_flowchart.png)
 
 *Figure 3.1: Position of the main hooks provided by the Rocky Solver SDK, relative to the main operations made during a simulation*
 
@@ -780,7 +780,7 @@ a custom tangential force model*
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-![](./images/hooks_contact.png
+![hooks contact](./images/hooks_contact.png)
 
 *Figure 3.2: Hooks used for the implementation of a contact model. The code associated to the hooks is executed in the order ndicated in this diagram*
 
@@ -1524,7 +1524,7 @@ describes the hooks that the current version includes for that effect.
 Figure 3.3 shows schematically the points where the SPH hooks are located in
 relation to the regular hooks provided by the Rocky Solver SDK.
 
-![](./images/hooks_sph_flowchart.png
+![hooks sph flowchart](./images/hooks_sph_flowchart.png)
 
 *Figure 3.3: Position of the SPH hooks (in black) relative to the regular hooks (in green) and the main operations made during a simulation.*
 
@@ -1560,7 +1560,7 @@ algorithm. All the SPH hooks included in Figure
 4; therefore, these iterative subroutines
 may have up to 5 iterations altogether.
 
-![](./images/hooks_sph_detail.png
+![hooks sph detail](./images/hooks_sph_detail.png)
 
 *Figure 3.4: Replication of SPH hooks for the implementation of short iterative subroutines.*
 
