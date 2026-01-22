@@ -171,41 +171,15 @@ Creates an animation with the given name.
 virtual bool ANSYS::AVZ::GLTFWriter::Animation::AppendChannel(AnimationSampler *sampler, Node *target, const char *path)=0
 ```
 
-
-
-
 Adds a channel to an animation. The channel changes the target/path using the sampler. Only some properties can be animated: 
+
 * node - matrix
-
-* node - visible
-
-
-
-
-
-
-
-
-
-
-
-
-**Returns**:
-
-**Returns**:
-
-**Returns**:
-
-**Returns**:
-
-**Returns**:
-
-**Returns**: Any value 
+* node - visibe
+* material - Any value 
 
 **Returns**:
 
 Status of AppendChannel.
-
 
 
 **Parameters**:

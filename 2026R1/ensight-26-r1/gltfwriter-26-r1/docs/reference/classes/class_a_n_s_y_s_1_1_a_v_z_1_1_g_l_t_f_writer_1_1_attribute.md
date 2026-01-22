@@ -158,10 +158,6 @@ Creates an attribute of the given type and name. There are several names that ar
 * TEXCOORD0 - variable value at element index
 
 
-
-
-**Returns**:
-
 **Returns**:
 
 [Attribute](class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_attribute.md#class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_attribute) object. Do not delete this pointer.
