@@ -14,7 +14,7 @@ This example creates a simple box object that is colored by a randomized texture
 
 
 
-Two lights are added to the scene to provide feature enhancement as the scene is transformed in the [ANSYS](../api/namespaces/namespace_a_n_s_y_s.md) Viewer.
+Two lights are added to the scene to provide feature enhancement as the scene is transformed in the [ANSYS](../reference/namespace_a_n_s_y_s.md#namespace_a_n_s_y_s) Viewer.
 
 
 

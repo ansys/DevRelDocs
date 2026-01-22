@@ -124,37 +124,5 @@
       href: api/files/test__dvs__client__simple_8py.md
     - name: test\_dvs\_reader.cpp
       href: api/files/test__dvs__reader_8cpp.md
-- name: Examples
-  items:
-  - name: Example 00
-    href: examples/dvs-example-00.md
-  - name: Example 01
-    href: examples/dvs-example-01.md
-  - name: Example 02
-    href: examples/dvs-example-02.md
-  - name: Example 03
-    href: examples/dvs-example-03.md
-  - name: Example 04
-    href: examples/dvs-example-04.md
-  - name: Example 05
-    href: examples/dvs-example-05.md
-  - name: Example 06
-    href: examples/dvs-example-06.md
-  - name: Example 07
-    href: examples/dvs-example-07.md
-  - name: Example 08
-    href: examples/dvs-example-08.md
-  - name: Example 09
-    href: examples/dvs-example-09.md
-  - name: Example 10
-    href: examples/dvs-example-10.md
-  - name: Example 11
-    href: examples/dvs-example-11.md
-  - name: Example 12
-    href: examples/dvs-example-12.md
-  - name: Example 13
-    href: examples/dvs-example-13.md
-  - name: Example 14
-    href: examples/dvs-example-14.md
 - name: Changelog
   href: changelog.md

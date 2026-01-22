@@ -1,0 +1,26 @@
+- name: Introduction
+  href: index.md
+- name: Classes
+  items:
+  - name: LibUserd
+    href: classlibuserd_1_1_lib_userd.md
+  - name: Part
+    href: classlibuserd_1_1_part.md
+  - name: Query
+    href: classlibuserd_1_1_query.md
+  - name: Reader
+    href: classlibuserd_1_1_reader.md
+  - name: ReaderInfo
+    href: classlibuserd_1_1_reader_info.md
+  - name: Variable
+    href: classlibuserd_1_1_variable.md
+  - name: fileExtensions
+    href: structlibuserd_1_1file_extensions.md
+  href: classlibuserd_1_1_lib_userd.md
+- name: Files
+  href: libuserd__interface_8h.md
+  items:
+  - name: libuserd_interface.h
+    href: libuserd__interface_8h.md
+  - name: libuserd_main.md
+    href: libuserd__main_8md.md

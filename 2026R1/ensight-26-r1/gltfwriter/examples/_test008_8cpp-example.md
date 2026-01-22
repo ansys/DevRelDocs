@@ -16,7 +16,7 @@ Animated textured sphere.
 
 
 
-See [Test006.cpp](_test006_8cpp-example.html) for more information about animations.
+See [Test006.cpp](../../_test006_8cpp-example.html) for more information about animations.
 
 
 

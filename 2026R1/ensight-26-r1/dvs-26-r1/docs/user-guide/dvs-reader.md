@@ -4,6 +4,8 @@
 
 DVS Reader API can be used to read data from a cache.
 
+![dvs_reader_data_model_concept](../images/dvs_reader_data_model_concept.png)
+
 The DVS Reader API is an external API to allow applications to read data from a DVS Cache.
 
 

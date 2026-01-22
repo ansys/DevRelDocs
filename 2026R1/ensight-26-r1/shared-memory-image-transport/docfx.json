@@ -1,0 +1,12 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "Shared Memory Image Transport 2026 R1",
+            "summary": "",
+            "version": "2026 R1",
+            "product": "Shared Memory Image Transport",
+            "programming language": "C, C++, Python",
+            "physics": "Fluids"
+        }
+    }
+}
