@@ -1,4 +1,4 @@
-# Example Test.cpp undefined
+# Test
 
 <a id="_test_8cpp-example"></a>
 
