@@ -29,7 +29,7 @@
     href: user-guide/dvs-metadata.md
   - name: DVS Server
     href: user-guide/dvs-server.md
-- name: DVS API
+- name: Reference
   items:
   - name: Structures
     href: api/structures/struct_contents.md
