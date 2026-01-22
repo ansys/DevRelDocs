@@ -2,45 +2,20 @@
 
 <a id="_test002_8cpp-example"></a>
 
-/// <script src='./ansys261/nexus/viewer-loader.js'></script>
-/// <ansys-adr-viewer src='TestLightedTextured.avz' aspect_ratio=1.777></ansys-adr-viewer>
-///
-
-
-
-
 
 Textured sphere with custom shaders and legends.
 
 
-
-
-
 This example creates a banded texture with 5 bands of color, and uses this texture to color a spherical object and to color several legends.
-
-
-
-
 
 No camera is created or added to the scene. This causes the ANSYSViewer to use the min and max values of the POSITION attribute to create a viewing transformation that encompasses the entire scene. The min and max values are not provided for the POSITION attribute, using the SetMinMax method, so the range of the POSITION is automatically calculated by the GLTFWriter API.
 
-
-
-
-
 The texture coordinates for the sphere range from the minimum Z value, -0.5, to the maximum Z value, 0.5. This range is used for the legends that are created with the identical texture as the sphere. The legends then correctly show the colors on the sphere, and agree with the tooltip.
-
-
-
-
 
 This example uses a non-default or custom shader. This shows the steps involved to connect the material to the technique and to the shader program.
 
-
-
-
-
 This example also shows the usage of the Repack class. This is how a single large mesh with unsigned integer indices and be converted into multiple sub-meshes with unsigned short indices. 
+
 ```
 /*
  * COPYRIGHT ANSYS, ALL RIGHTS RESERVED

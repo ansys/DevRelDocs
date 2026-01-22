@@ -2,13 +2,6 @@
 
 <a id="_test014_8cpp-example"></a>
 
-/// <script src='./ansys261/nexus/viewer-loader.js'></script>
-/// <ansys-adr-viewer src='TestLegends.avz' aspect_ratio=1.777></ansys-adr-viewer>
-///
-
-
-
-
 
 Scaled and textured spheres
 

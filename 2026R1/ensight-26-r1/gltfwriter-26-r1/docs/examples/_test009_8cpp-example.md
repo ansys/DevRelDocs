@@ -2,11 +2,6 @@
 
 <a id="_test009_8cpp-example"></a>
 
-/// <script src='./ansys261/nexus/viewer-loader.js'></script>
-/// <ansys-adr-viewer src='TestLightedTexturedSphere.avz' aspect_ratio=1.777></ansys-adr-viewer>
-///
-
-
 
 
 

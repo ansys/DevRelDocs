@@ -2,12 +2,6 @@
 
 <a id="_test003_8cpp-example"></a>
 
-/// <script src='./ansys261/nexus/viewer-loader.js'></script>
-/// <ansys-adr-viewer src='TestCustomShaders.avz' aspect_ratio=1.777></ansys-adr-viewer>
-///
-
-
-
 
 
 Unlighted vertex colored box.
