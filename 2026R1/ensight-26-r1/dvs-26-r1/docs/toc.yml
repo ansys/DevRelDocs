@@ -1,0 +1,160 @@
+- name: Introduction
+  href: index.md
+- name: User guide
+  href: user-guide/user-guide.md
+  items:
+  - name: Current limitations
+    href: user-guide/dvs-limitations.md
+  - name: Get DVS
+    href: user-guide/dvs-get.md
+  - name: Available APIs
+    href: user-guide/dvs-apis.md
+  - name: Getting started
+    href: user-guide/dvs-get-started.md
+  - name: DVS URIs
+    href: user-guide/dvs-uri.md
+  - name: DVS Files
+    href: user-guide/dvs-file.md
+  - name: DVS Filtering
+    href: user-guide/dvs-filtering.md
+  - name: DVS Cache
+    href: user-guide/dvs-cache.md
+  - name: DVS Features
+    href: user-guide/dvs-features.md
+  - name: DVS Reader
+    href: user-guide/dvs-reader.md
+  - name: DVS Data Model
+    href: user-guide/dvs-data-model.md
+  - name: DVS Metadata
+    href: user-guide/dvs-metadata.md
+  - name: DVS Server
+    href: user-guide/dvs-server.md
+- name: DVS API
+  items:
+  - name: Structures
+    href: api/structures/struct_contents.md
+    items:
+    - name: dvs\_part\_info
+      href: api/structures/structdvs__part__info.md
+    - name: dvs\_plot\_info
+      href: api/structures/structdvs__plot__info.md
+    - name: dvs\_var\_info
+      href: api/structures/structdvs__var__info.md
+  - name: Classes
+    href: api/classes/class_contents.md
+    items:
+    - name: DVS::IDataset
+      href: api/classes/class_d_v_s_1_1_i_dataset.md
+    - name: DVS::ILogger
+      href: api/classes/class_d_v_s_1_1_i_logger.md
+    - name: DVS::IHash
+      href: api/classes/class_d_v_s_1_1_i_hash.md
+    - name: DVS::IPlotChunk
+      href: api/classes/class_d_v_s_1_1_i_plot_chunk.md
+    - name: DVS::IClient
+      href: api/classes/class_d_v_s_1_1_i_client.md
+    - name: DVS::IObject
+      href: api/classes/class_d_v_s_1_1_i_object.md
+    - name: DVS::IElementBlock
+      href: api/classes/class_d_v_s_1_1_i_element_block.md
+    - name: DVS::IVarHash
+      href: api/classes/class_d_v_s_1_1_i_var_hash.md
+    - name: DVS::IVar
+      href: api/classes/class_d_v_s_1_1_i_var.md
+    - name: DVS::IMeshChunk
+      href: api/classes/class_d_v_s_1_1_i_mesh_chunk.md
+    - name: DVS::IServer
+      href: api/classes/class_d_v_s_1_1_i_server.md
+    - name: DVS::LoggerVerbose
+      href: api/classes/class_d_v_s_1_1_logger_verbose.md
+    - name: DVS::IQuery
+      href: api/classes/class_d_v_s_1_1_i_query.md
+  - name: Namespaces
+    href: api/namespaces/namespace_contents.md
+    items:
+    - name: DVS
+      href: api/namespaces/namespace_d_v_s.md
+    - name: test\_dvs\_client\_simple
+      href: api/namespaces/namespacetest__dvs__client__simple.md
+    - name: test\_dvs\_python\_reader\_api
+      href: api/namespaces/namespacetest__dvs__python__reader__api.md
+  - name: Files
+    href: api/files/file_contents.md
+    items:
+    - name: dynamic__visualization__store__api.h
+      href: api/files/dynamic__visualization__store__api_8h.md
+    - name: dynamic__visualization__store__enums.h
+      href: api/files/dynamic__visualization__store__enums_8h.md
+    - name: dynamic__visualization__store__error__codes.h
+      href: api/files/dynamic__visualization__store__error__codes_8h.md
+    - name: dynamic__visualization__store__version.h
+      href: api/files/dynamic__visualization__store__version_8h.md
+    - name: dvs\_dataset\_interface.h
+      href: api/files/dvs__dataset__interface_8h.md
+    - name: dvs\_reader.md
+    - name: dvs\_element\_block\_interface.h
+      href: api/files/dvs__element__block__interface_8h.md
+    - name: dvs\_hash\_interface.h
+      href: api/files/dvs__hash__interface_8h.md
+    - name: dvs\_object\_interface.h
+      href: api/files/dvs__object__interface_8h.md
+    - name: dvs\_var\_hash\_interface.h
+      href: api/files/dvs__var__hash__interface_8h.md
+    - name: dvs\_mesh\_chunk\_interface.h
+      href: api/files/dvs__mesh__chunk__interface_8h.md
+    - name: dvs\_client\_interface.h
+      href: api/files/dvs__client__interface_8h.md
+    - name: dvs\_server\_interface.h
+      href: api/files/dvs__server__interface_8h.md
+    - name: dvs\_query\_interface.h
+      href: api/files/dvs__query__interface_8h.md
+    - name: dvs\_plot\_chunk\_interface.h
+      href: api/files/dvs__plot__chunk__interface_8h.md
+    - name: dvs\_var\_interface.h
+      href: api/files/dvs__var__interface_8h.md
+    - name: test\_dvs\_server.cpp
+      href: api/files/test__dvs__server_8cpp.md
+    - name: test\_dvs\_client.c
+      href: api/files/test__dvs__client_8c.md
+    - name: test\_dvs\_client\_cxx.cpp
+      href: api/files/test__dvs__client__cxx_8cpp.md
+    - name: test\_dvs\_python\_reader\_api.py
+      href: api/files/test__dvs__python__reader__api_8py.md
+    - name: test\_dvs\_client\_simple.py
+      href: api/files/test__dvs__client__simple_8py.md
+    - name: test\_dvs\_reader.cpp
+      href: api/files/test__dvs__reader_8cpp.md
+- name: Examples
+  items:
+  - name: Example 00
+    href: examples/dvs-example-00.md
+  - name: Example 01
+    href: examples/dvs-example-01.md
+  - name: Example 02
+    href: examples/dvs-example-02.md
+  - name: Example 03
+    href: examples/dvs-example-03.md
+  - name: Example 04
+    href: examples/dvs-example-04.md
+  - name: Example 05
+    href: examples/dvs-example-05.md
+  - name: Example 06
+    href: examples/dvs-example-06.md
+  - name: Example 07
+    href: examples/dvs-example-07.md
+  - name: Example 08
+    href: examples/dvs-example-08.md
+  - name: Example 09
+    href: examples/dvs-example-09.md
+  - name: Example 10
+    href: examples/dvs-example-10.md
+  - name: Example 11
+    href: examples/dvs-example-11.md
+  - name: Example 12
+    href: examples/dvs-example-12.md
+  - name: Example 13
+    href: examples/dvs-example-13.md
+  - name: Example 14
+    href: examples/dvs-example-14.md
+- name: Changelog
+  href: changelog.md
