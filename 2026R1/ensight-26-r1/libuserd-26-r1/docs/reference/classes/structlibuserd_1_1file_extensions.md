@@ -6,19 +6,16 @@
 ![][public]
 
 
-
-
-
-
 ## Members
 
-* [file\_1\_extension](structlibuserd_1_1file_extensions.md#structlibuserd_1_1file_extensions_1a787ed0f0d0620242f86a92a82f93e062)
-* [file\_2\_extension](structlibuserd_1_1file_extensions.md#structlibuserd_1_1file_extensions_1a633e5082c4d677e0726a5529b47153a2)
-* [name](structlibuserd_1_1file_extensions.md#structlibuserd_1_1file_extensions_1a5d31fc9858d2935d8637e2b57ebf5295)
+* [file\_1\_extension](#variable-file_1_extension)
+* [file\_2\_extension](#variable-file_2_extension)
+* [name](#variable-name)
 
 ## Public attributes
 
 <a id="structlibuserd_1_1file_extensions_1a5d31fc9858d2935d8637e2b57ebf5295"></a>
+
 ### Variable name
 
 ![][public]

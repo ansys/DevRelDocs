@@ -1,18 +1,11 @@
-# LibUserd
-
-<a id="group__userd"></a>
-
-Interface to the EnSight user-defined readers.
-
+---
+_layout: landing
 ---
 
- This API is currently under construction.
+# This is the **HOMEPAGE**.
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Python]: https://img.shields.io/badge/language-Python-blue (Python)
-[private]: https://img.shields.io/badge/-private-red (private)
-[const]: https://img.shields.io/badge/-const-lightblue (const)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
+Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
+
+## Quick Start Notes:
+
+1. Add images to the *images* folder if the file is referencing an image.

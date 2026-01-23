@@ -1,0 +1,12 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "LibUserd 2026 R1",
+            "summary": "",
+            "version": "2026 R1",
+            "product": "LibUserd",
+            "programming language": "C, C++, Python",
+            "physics": "Fluids"
+        }
+    }
+}

@@ -40,7 +40,7 @@ The source code to the built in example above is included in the distribution in
 
 * <code>qt_gui.py</code> - a Python PyQt GUI application that launches EnSight and talks to it via gRPC
 
-## Simple Python Eexample (for a non-Ansys Python distribution)
+## Simple Python example (for a non-Ansys Python distribution)
 
 In this example, we will configure a Python instance to connect to EnSight and enable it to make gRPC calls.
 

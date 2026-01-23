@@ -99,7 +99,7 @@ std::vector<fileExtensions> libuserd::LibUserd::m_reader_extensions
 
 
 
-**Type**: std::vector< [fileExtensions](structlibuserd_1_1file_extensions.md#structlibuserd_1_1file_extensions) >
+**Type**: std::vector< [fileExtensions](./structlibuserd_1_1file_extensions.md#structlibuserd_1_1file_extensions) >
 
 ## Friends
 
