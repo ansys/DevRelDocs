@@ -1,4 +1,4 @@
-# Automated post-processing with PyAEDT and PyDPF
+# Automate postprocessing with PyAEDT and PyDPF
 
 > Automate extraction, analysis, and reporting of electronics simulation results using PyAEDT to orchestrate solves and PyDPF to compute KPIs and generate shareable artifacts.
 

@@ -1,35 +1,34 @@
-# Color records by discrete values: visually organise your records by color in your Granta Materials database
+# Color records by discrete values
+
+This use case explains how you can color records in your Granta Materials database by discrete values to visually organize them.
 
 > One sentence summary: Use the Granta MI Python Scripting Toolkit to automate record color assignment based on discrete values in each record or some other variable for quick visual identification in record viewing software.
 
 ## Audience and persona
 
-- **Primary users:** database admins (developers), application engineers (beneficiaries)
+- **Primary users:** Database administrators (developers) and application engineers (beneficiaries)
 - **Industry:** Any
-- **Prerequisites:** Python MI Scripting Toolkit v2.0 or later, "write" rights in the database
+- **Prerequisites:** Python MI Scripting Toolkit v2.0 or later and "write" permissions in the database
 
 ## Problem
 
-**Challenge:**  
+**Challenge**  
 
-- Users waste time drilling into records to check key properties like expiry dates or compliance flags
-- This key information may require calculation such as "proximity to expiry", or "number of unpopulated attributes"
-- Looking for, or manually calculating, these slows workflows and increases error risk
+Users waste time drilling into records to check key properties like expiry dates or compliance flags. This key information might require calculations such as "proximity to expiry" or "number of unpopulated attributes." Looking for or manually calculating needed information slows workflows and increases error risk
 
-**Why this matters now:**  
+**Why this matters**  
 
-As data volumes grow, and quick decisions require immediate visibility into critical attributes, efficient analysis of this data is becoming more and more important.
+Quick decisions require immediate visibility into critical attributes. As data volumes grow, efficient analysis of this data becomes more and more important.
 
 ## Solution
 
-**What this delivers:**
+**What this delivers**
 
-- Visual indicators for discrete metrics (e.g., expiry status, proximity to expiry, compliance flags)
-  - Updated weekly, nightly, or as often as is desired
+- Visual indicators for discrete metrics (such as expiry status, proximity to expiry, and compliance flags), which are updated weekly, nightly, or as often as desired
 - Configurable tagging for any property of interest
 - Integration with existing UI or API for seamless adoption
 
-**Key benefits (business & technical):**
+**Key benefits (business & technical)**
 
 - Reduces lookup time
 - Improves accuracy in time-sensitive workflows
@@ -37,7 +36,7 @@ As data volumes grow, and quick decisions require immediate visibility into crit
 
 ## Features and capabilities used
 
-- MI Database records can be colored one of several discrete colors
+- MI database records can be colored one of several discrete colors
 - Timed/scheduled script execution
 - Discrete attributes
 - Date attributes
