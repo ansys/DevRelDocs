@@ -1,6 +1,6 @@
 # PyFluent to OpenUSD Tutorial
 
-This tutorial demonstrates how to use Ansys Fluent's Python API (`pyfluent`) to extract simulation data and export it to the OpenUSD format. We'll walk through each step, from importing libraries to exporting the final USD file.
+This case study shows how to use Ansys Fluent's Python API (PyFluent) to extract simulation data and export it to the OpenUSD format. It walks you through each step, from importing libraries to exporting the final USD file.
 
 
 ```python
