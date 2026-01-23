@@ -88,7 +88,7 @@ def print_scalar_field_names(solver, field_data=field_data):
         print(field_name)  
 ```
 
-### Print Surface Names
+### Print surface names
 
 Print the names of all surfaces present in the simulation.
 

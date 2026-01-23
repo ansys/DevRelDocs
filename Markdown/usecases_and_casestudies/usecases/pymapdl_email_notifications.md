@@ -1,6 +1,6 @@
 # Automate simulation execution with PyMAPDL and email notifications: automatically trigger simulations with real-time email updates
 
-> Enable engineers to run ANSYS Mechanical simulations programmatically and receive status updates and results via email.
+> This use case explains how you can run Ansys Mechanical simulations programmatically and receive emails with status updates and results.
 
 ## Audience and persona
 
