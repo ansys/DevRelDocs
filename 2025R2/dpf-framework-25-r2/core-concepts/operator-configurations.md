@@ -197,13 +197,14 @@ op.config.set_permissive(False)
 ```cpp
 #include "dpf_api.h"
 
-// Create an operator
-auto op = ansys::dpf::Operator("math::add");
+// Get default config and modify it
+ansys::dpf::OperatorConfig config = ansys::dpf::core::defaultOperatorConfig("add");
+config.set(ansys::dpf::OperatorConfig::options::runInParallel, true);
+config.set(ansys::dpf::OperatorConfig::options::numThreads, 4);
+config.set(ansys::dpf::OperatorConfig::options::permissive, false);
 
-// Set configurations
-op.Config().SetRunInParallel(true);
-op.Config().SetNumThreads(4);
-op.Config().SetPermissive(false);
+// Create an operator with the config
+auto op = ansys::dpf::Operator("add", config);
 
 // Connect inputs and evaluate
 // ...
