@@ -22,7 +22,7 @@ from pxr import Vt, Sdf, Usd, UsdGeom, UsdShade
 
 ## Download Example Files
 
-First, we download the example Fluent case and data files required for the simulation. These files will be used to demonstrate the workflow.
+Download the example Fluent case and data files required for the simulation. These files are used to demonstrate the workflow.
 
 
 ```python
