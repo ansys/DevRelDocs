@@ -20,7 +20,7 @@ from ansys.fluent.core import (
 from pxr import Vt, Sdf, Usd, UsdGeom, UsdShade
 ```
 
-## Download Example Files
+## Download example files
 
 Download the example Fluent case and data files required for the simulation. These files are used to demonstrate the workflow.
 
@@ -51,7 +51,7 @@ solver_session = pyfluent.launch_fluent(
 print(solver_session.get_fluent_version())
 ```
 
-## Read Case and Data Files
+## Load case and data files
 
 Load the case and data files into the Fluent solver session to access simulation results.
 
@@ -60,7 +60,7 @@ Load the case and data files into the Fluent solver session to access simulation
 solver_session.settings.file.read_case_data(file_name=case_file)
 ```
 
-## Access Field Data
+## Retrieve field data
 
 Retrieve the field data object from the solver session. This object provides access to surface and field information needed for export.
 
