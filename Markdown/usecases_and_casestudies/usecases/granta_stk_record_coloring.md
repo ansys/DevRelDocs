@@ -2,7 +2,7 @@
 
 This use case explains how you can color records in your Granta Materials database by discrete values to visually organize them.
 
-> One sentence summary: Use the Granta MI Python Scripting Toolkit to automate record color assignment based on discrete values in each record or some other variable for quick visual identification in record viewing software.
+> One sentence summary: use the Granta MI Python Scripting Toolkit to automate record color assignment based on discrete values in each record or some other variable for quick visual identification in record viewing software.
 
 ## Audience and persona
 

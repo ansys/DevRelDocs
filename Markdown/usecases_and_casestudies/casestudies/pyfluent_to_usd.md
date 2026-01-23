@@ -69,7 +69,7 @@ Retrieve the field data object from the solver session. This object provides acc
 field_data = solver_session.fields.field_data
 ```
 
-## List Available Surfaces and Scalar Fields
+## Print names of surfaces and scalar fields
 
 Define helper functions to print the names of all available surfaces and scalar fields in the loaded Fluent case. This helps identify what data can be exported.
 
@@ -90,16 +90,16 @@ def print_scalar_field_names(solver, field_data=field_data):
 
 ### Print Surface Names
 
-Display the names of all surfaces present in the simulation.
+Print the names of all surfaces present in the simulation.
 
 
 ```python
 print_surface_names(solver_session, field_data=field_data)
 ```
 
-### Print Scalar Field Names
+### Print scalar field names
 
-Display the names of all scalar fields available for export.
+Print the names of all scalar fields available for export.
 
 
 ```python
@@ -108,7 +108,7 @@ print_scalar_field_names(solver_session, field_data=field_data)
 
 ## Print solution variables
 
-Define and call a function to print all solution variables available in the solver session. These variables can be exported to USD.
+Define and call a function to print all solution variables available in the solver session. You can export these variables to USD files.
 
 
 ```python
@@ -127,9 +127,9 @@ def print_solution_variables(solver):
 print_solution_variables(solver_session)
 ```
 
-## Collect Data for Export
+## Collect data for export
 
-Gather the names of solution variables, surfaces, scalar fields, and vector fields. Also, set the path for the output USD file.
+Collect the names of solution variables, surfaces, scalar fields, and vector fields. Also, set the path to export the USD file to.
 
 
 ```python
@@ -152,9 +152,9 @@ print(sv_names, surface_names, scalar_field_names, vector_field_names, usd_base_
 
 ```
 
-## Define Export Constants
+## Define export constants
 
-Set constants for scaling between Fluent and Omniverse units, and define tokens used in the USD export process.
+Define constants for scaling between Fluent and Omniverse units. Also define tokens used in the USD export process.
 
 
 ```python
@@ -164,7 +164,7 @@ POINT_SCALE = 1
 FLUENT_FIELD_TOKEN = "ansys:fluent:surface_name"  
 ```
 
-## Sanitize USD Paths
+## Sanitize USD paths
 
 Define a helper function to sanitize names for use as USD paths, ensuring compatibility with USD naming conventions.
 
@@ -186,9 +186,9 @@ def sanitize_path(path):
     )
 ```
 
-## Export Mesh Surfaces to USD
+## Export mesh surfaces to USD
 
-Define a function to export mesh surfaces from Fluent to USD. This includes geometry and (optionally) field data for each surface.
+Define a function to export mesh surfaces from Fluent to USD. This includes geometry and optionally field data for each surface.
 
 
 ```python
@@ -266,7 +266,7 @@ def export_mesh_surfaces(
                 vectorAttr.Set(vector_values[surface_name])
 ```
 
-## Export Volume Points to USD
+## Export volume points to USD
 
 Define a function to export volume points (centroids) and associated solution variables from Fluent to USD.
 
@@ -300,7 +300,7 @@ def export_volume_points(usd_stage, rootxform_path, solver, sv_names, zones_info
                 colorAttr.Set(sv_values)
 ```
 
-## Setup and Export USD Scene
+## Set up and export USD scene
 
 Combine all previous steps to set up the USD scene, export mesh surfaces and volume points, and save the USD file.
 
@@ -327,9 +327,9 @@ def setup_fluent_usd_scene(solver, sv_names, surface_names, scalar_field_names, 
     print("USD stage saved:", usd_base_path)
 ```
 
-## Run the Export Process
+## Run the export process
 
-Call the setup function to execute the export process and generate the USD file from the Fluent simulation data.
+Call the setup function to run the export process and generate the USD file from the Fluent simulation data.
 
 
 ```python
@@ -343,24 +343,24 @@ setup_fluent_usd_scene(
 )
 ```
 
-## Exit Fluent Session
+## Exit Fluent session
 
-Exit the Fluent solver session after the export is complete.
+After the export is complete, exit the Fluent solver session.
 
 
 ```python
 solver_session.exit()
 ```
 
-## How to Run in Omniverse Python Script Environment
+## Run in Omniverse Python script environment
 
-1. Open Omniverse Kit.
-2. Open the Script Editor. Menu: Window -> Script Editor
+1. Open the Omniverse Kit.
+2. Select **Window > Script Editor** to open the Script Editor.
 3. Paste and run the Python script. Make sure to update the paths for the USD file and MDL material as needed.
-4. The script will assign the FieldToColor MDL material and rainbow colormap to `/Fluent`.
-5. Load the USDA file in Omniverse to visualize the temperature field mapped to the colormap.
+   The script assigns the `FieldToColor` MDL material and rainbow colormap to `/Fluent`.
+5. Load the USD file in Omniverse to visualize the temperature field mapped to the colormap.
 
-This workflow enables postprocessing and visualization using Omniverse's MDL and texture capabilities.
+The following code shows how to postprocess and visualize the USD file using Omniverse's MDL and texture capabilities.
 
 
 ```python
@@ -389,7 +389,7 @@ min_temp, max_temp = min(temperature_data), max(temperature_data)
 norm_temp = [(t - min_temp) / (max_temp - min_temp) if max_temp > min_temp else 0.0 for t in temperature_data]
 primvars_api.CreatePrimvar("st", Sdf.ValueTypeNames.TexCoord2fArray, UsdGeom.Tokens.varying).Set([(u, 0.0) for u in norm_temp])
 
-# Material and colormap setup
+# Set up material and colormap
 material = UsdShade.Material.Define(stage, "/World/FieldMaterial")
 pbr = UsdShade.Shader.Define(stage, "/World/FieldMaterial/PBRShader")
 pbr.CreateIdAttr("UsdPreviewSurface")
