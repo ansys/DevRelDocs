@@ -106,7 +106,7 @@ Display the names of all scalar fields available for export.
 print_scalar_field_names(solver_session, field_data=field_data)
 ```
 
-## List Solution Variables
+## Print solution variables
 
 Define and call a function to print all solution variables available in the solver session. These variables can be exported to USD.
 
