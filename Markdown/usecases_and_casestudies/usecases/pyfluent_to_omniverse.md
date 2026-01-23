@@ -1,23 +1,23 @@
 
-# Exporting Fluent simulation data to OpenUSD for omniverse visualization
+# Export Fluent simulation data to OpenUSD format for Omniverse visualization
 
-> Enable engineers to convert CFD simulation results from Ansys Fluent into OpenUSD format for advanced visualization in NVIDIA Omniverse.
+> This use case explains how you can convert CFD simulation results from Ansys Fluent into OpenUSD format for advanced visualization in NVIDIA Omniverse.
 
 ## Audience and persona
 
-- **Primary users:** CFD engineers, visualization specialists, Python developers
+- **Primary users:** CFD engineers, visualization specialists, and Python developers
 - **Industry:** Any
-- **Prerequisites:** Ansys Fluent installed, PyFluent library, Omniverse
+- **Prerequisites:** Installations of Ansys Fluent, PyFluent, and NVIDIA Omniverse
 
-## Problem
+## Problems
 
-- Post-processing CFD results in traditional tools limits interactive visualization and collaboration.
+- Postprocessing CFD results in traditional tools limits interactive visualization and collaboration.
 - Engineers need a way to export simulation data into a modern, interoperable format for advanced rendering and analysis.
-- Desktop applications need to be configured significantly to interact
+- Desktop applications must be configured significantly to interact
 
 ## Solution
 
-Use PyFluent to extract simulation data from Ansys Fluent and export it to OpenUSD, which enables rich visualization workflows in Omniverse via Universal Scene Descriptors (USDs).
+Use PyFluent to extract simulation data from Ansys Fluent and export it to an OpenUSD format file, which enables rich visualization workflows in Omniverse using Universal Scene Descriptors (USDs).
 
 **Benefits:**
 
@@ -27,6 +27,6 @@ Use PyFluent to extract simulation data from Ansys Fluent and export it to OpenU
 
 ## Features and capabilities used
 
-- **PyFluent:** Access Fluent solver session and field data via scripting
-- **USD Python Bindings:** Create USD scene, geometry, and attributes
-- **Omniverse Integration:** Omniverse uses USDs for visualization
+- **PyFluent:** Access Fluent solver session and field data using scripting
+- **USD Python bindings:** Create USD scene, geometry, and attributes
+- **Omniverse integration:** In Omniverse, use USDs for visualization
