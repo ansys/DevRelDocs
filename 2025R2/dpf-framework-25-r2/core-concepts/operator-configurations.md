@@ -178,7 +178,7 @@ Configurations are set on operator objects before evaluation. The exact syntax d
 ### Python example
 
 ```python
-from ansys.dpf import core as dpf
+import ansys.dpf.core as dpf
 
 # Create an operator
 op = dpf.operators.math.add()
