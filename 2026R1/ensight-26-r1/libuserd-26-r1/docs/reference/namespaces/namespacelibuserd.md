@@ -15,3 +15,4 @@
 * [libuserd::Reader](../classes/classlibuserd_1_1_reader.md#classlibuserd_1_1_reader)
 * [libuserd::LibUserd](../classes/classlibuserd_1_1_lib_userd.md#classlibuserd_1_1_lib_userd)
 
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
