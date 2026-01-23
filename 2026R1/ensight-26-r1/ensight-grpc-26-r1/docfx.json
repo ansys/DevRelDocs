@@ -1,12 +1,46 @@
 {
-    "build": {
-        "globalMetadata": {
-            "title": "EnSight gRPC interface 2026 R1",
-            "summary": "",
-            "version": "2026 R1",
-            "product": "EnSight gRPC interface",
-            "programming language": "C, C++, Python",
-            "physics": "Fluids"
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src",
+          "files": [
+            "**/*.csproj"
+          ]
         }
+      ],
+      "dest": "api"
     }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Project-for-tests",
+      "_appTitle": "Project-for-tests",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
 }

@@ -4,14 +4,13 @@
 
 ![][Python]
 
-## Classes
+## Classe
 
-* [ensight\_grpc::EnSightGRPC](../classensight__grpc_1_1_en_sight_g_r_p_c.md#classensight__grpc_1_1_en_sight_g_r_p_c)
-* [ensight\_grpc::EnSightSubServicer](../classensight__grpc_1_1_en_sight_sub_servicer.md#classensight__grpc_1_1_en_sight_sub_servicer)
+* [ensight\_grpc::EnSightGRPC](../classes/classensight__grpc_1_1_en_sight_g_r_p_c.md#classensight__grpc_1_1_en_sight_g_r_p_c)
 
-## Namespaces
+## Namespace
 
-* [ensight\_grpc](../namespaceensight__grpc.md#namespaceensight__grpc)
+* [ensight\_grpc](../namespaces/namespaceensight__grpc.md)
 
 ## Source
 
