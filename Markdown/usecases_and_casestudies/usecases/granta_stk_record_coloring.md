@@ -8,7 +8,7 @@ This use case explains how you can color records in your Granta Materials databa
 
 - **Primary users:** Database administrators (developers) and application engineers (beneficiaries)
 - **Industry:** Any
-- **Prerequisites:** Python MI Scripting Toolkit v2.0 or later and "write" permissions in the database
+- **Prerequisites:** Granta MI Scripting Toolkit v2.0 or later and "write" permissions in the database
 
 ## Problem
 
@@ -36,7 +36,7 @@ Quick decisions require immediate visibility into critical attributes. As data v
 
 ## Features and capabilities used
 
-- MI database records can be colored one of several discrete colors
+- Granta MI database records can be colored one of several discrete colors
 - Timed/scheduled script execution
 - Discrete attributes
 - Date attributes

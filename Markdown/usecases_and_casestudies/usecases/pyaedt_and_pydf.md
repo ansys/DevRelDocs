@@ -1,6 +1,6 @@
 # Automate postprocessing with PyAEDT and PyDPF
 
-> This use case explains how you can automate extraction, analysis, and reporting of electronics simulation results using PyAEDT to orchestrate solves and PyDPF to compute KPIs and generate shareable artifacts.
+> This use case explains how you can automate extraction, analysis, and reporting of electronics simulation results using PyAEDT to orchestrate solves and PyDPF to compute Key Performance Indicators (KPIs) and generate shareable artifacts.
 
 ## Audience and persona
 
@@ -25,7 +25,7 @@ Use PyAEDT to launch AEDT non-interactively, solve or load existing results, and
 ## Features and capabilities used
 
 - **PyAEDT automation:** Headless AEDT launch, project/design access, solve orchestration, parametric sweep control
-- **PyDPF operators:** Query fields (E/H/J), S-parameters, losses, temperature; compute norms, min/max/averages over meshes/selections; integrate/area-reduce results
+- **PyDPF operators:** Query fields (E/H/J), S-parameters, losses, temperature, compute norms, min/max/averages over meshes/selections, integrate/area-reduce results
 - **Batch processing:** Loop over designs/variants/frequencies and aggregate KPIs
 - **Export utilities:** Write CSV/JSON summaries and PNG plots for dashboards and reviews
 - **Reproducibility:** Scripted pipeline with explicit versions and deterministic outputs

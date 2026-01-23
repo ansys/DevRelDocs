@@ -113,7 +113,7 @@ Define and call a function to print all solution variables available in the solv
 
 ```python
 def print_solution_variables(solver): 
-    """Prints the names of all solution variables in the solver session.""" 
+    """Print the names of all solution variables in the solver session.""" 
     solution_variable_info = solver.fields.solution_variable_info  
     zones_info = solution_variable_info.get_zones_info()  
     domain = zones_info.domains[0]  
@@ -302,7 +302,7 @@ def export_volume_points(usd_stage, rootxform_path, solver, sv_names, zones_info
 
 ## Set up and export USD scene
 
-Combine all previous steps to set up the USD scene, export mesh surfaces and volume points, and save the USD file.
+Bring all previous steps together to set up the USD scene, then export mesh surfaces and volume points, and save the USD file.
 
 
 ```python
@@ -379,7 +379,7 @@ stage = omni.usd.get_context().get_stage()
 # Get mesh prim (update path as needed)
 mesh = stage.GetPrimAtPath("/Fluent/symmetry_xyplane/Mesh")
 
-# Access existing temperature primvar
+# Access existing temperature primitive variables
 primvars_api = UsdGeom.PrimvarsAPI(mesh)
 temp_primvar = primvars_api.GetPrimvar("primvars:temperature")
 temperature_data = temp_primvar.Get()  # Use the already available data
