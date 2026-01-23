@@ -183,10 +183,10 @@ from ansys.dpf import core as dpf
 # Create an operator
 op = dpf.operators.math.add()
 
-# Set configurations
-op.config.set_run_in_parallel(True)
-op.config.set_num_threads(4)
-op.config.set_permissive(False)
+# Set configurations using attribute assignment
+op.config.run_in_parallel = True
+op.config.num_threads = 4
+op.config.permissive = False
 
 # Connect inputs and evaluate
 # ...
