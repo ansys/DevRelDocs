@@ -24,5 +24,9 @@
       href: reference/files/libuserd__interface_8h.md
     - name: libuserd_main.md
       href: reference/files/libuserd__main_8md.md
+  - name: Namespaces
+    items:
+    - name: libuserd
+      href: reference/namespaces/namespacelibuserd.md
 - name: Changelog
   href: changelog.md
