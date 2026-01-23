@@ -13,26 +13,11 @@ Randy Frank ([randy.frank@ansys.com](mailto:randy.frank@ansys.com))
 **version**\
 1.0
 
-
-
-
-
-
-
 ## ensight_grpc_shmem python module
 
 This module implements a set of Python bindings to the shared memory image transport API.
 
-
-
-
-
 A simple example exercising the API might be:
-
-
-
-
-
 
 ```cpp
 import ensight_grpc_shmem
@@ -130,12 +115,7 @@ click 1 "shared__memory__image__client__python_8c.md#shared__memory__image__clie
 #define MAX_STREAMS 50
 ```
 
-
-
-
 the maximum number of active streams we allow
-
-
 
 ## Variables
 
@@ -145,18 +125,11 @@ the maximum number of active streams we allow
 ![][public]
 ![][static]
 
-
-
 ```cpp
 SharedMemoryImageStream streamlist[MAX_STREAMS][MAX_STREAMS] = { 0 }
 ```
 
-
-
-
 the table of active stream objects
-
-
 
 **Type**: [SharedMemoryImageStream](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1af5b8eb2ae90823f10e9a17698ea80749)
 
@@ -172,35 +145,29 @@ the table of active stream objects
 stream_id stream_create(str filename, int options=IMAGESTREAM_OPTIONS_NONE)
 ```
 
-
 Create a shared memory image stream.
 
-Python wrapper for [SharedMemoryImageStream\_create()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a03ba052ae823b3e39fef153db8f03ea2). Function in the [ensight\_grpc\_shmem python module](#shared__memory__image__client__python_8c_1ensight_grpc_shmem) Python module. 
+Python wrapper for [SharedMemoryImageStream\_create()](shared__memory__image__client_8h.md#function-sharedmemoryimagestream_create). Function in the [ensight\_grpc\_shmem python module](#ensight_grpc_shmem-python-module) Python module. 
 
 **Parameters**:
 
 * **filename**: the name of the shared memory file to use.
 * **options**: the stream creation options
 
-
 **Exceptions**:
 
-* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac2b3e8a36182f38dab1c5fd7a700a0c6)**: 
+* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#macro-imagestream_bad_args)**: 
 * **[IMAGESTREAM\_BAD\_FILE\_SIZE](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a54a45d2f039e6275c28249eedfa2515d)**: 
 * **[IMAGESTREAM\_UNABLE\_TO\_OPEN\_FILE](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a5b68da171a139f688d317320d0a4eb3e)**: 
 * **[IMAGESTREAM\_UNABLE\_TO\_MAP\_FILE](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac7eb344cf60975382720f71182dab490)**: 
 * **[IMAGESTREAM\_MEMORY\_ALLOC\_ERROR](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ae37af5c9dcf1d89b30b82ca4be840cfe)**: 
 * **[IMAGESTREAM\_THREAD\_CREATE\_ERROR](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac0d310d75b0c3ff53d524a0a5fe25b6f)**:
 
-
 **Returns**:
 
 the allocated stream id.
 
-
 **See also**: [SharedMemoryImageStream\_create()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a03ba052ae823b3e39fef153db8f03ea2).
-
-
 
 **Parameters**:
 
@@ -214,36 +181,29 @@ the allocated stream id.
 
 ![][public]
 
-
 ```cpp
 frame stream_lock(stream_id id)
 ```
 
-
 Get any available image frame.
 
-Python wrapper for [SharedMemoryImageStream\_lock()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1afefb8f5297147640b46d1f9eb1e77c9e). Function in the [ensight\_grpc\_shmem python module](#shared__memory__image__client__python_8c_1ensight_grpc_shmem) Python module. 
+Python wrapper for [SharedMemoryImageStream\_lock()](shared__memory__image__client_8h.md#function-sharedmemoryimagestream_lock). Function in the [ensight\_grpc\_shmem python module](#ensight_grpc_shmem-python-module) Python module. 
 
 **Parameters**:
 
 * **id**: the stream to read from.
 
-
 **Exceptions**:
 
-* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac2b3e8a36182f38dab1c5fd7a700a0c6)**: 
-* **[IMAGESTREAM\_IS\_SERVER](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac914cc76952081d1ccc7c520e12770b1)**: 
-* **[IMAGESTREAM\_LOCKED](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a8389f19c29b726a2bed3c5831d1fb267)**:
-
+* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#macro-imagestream_bad_args)**: 
+* **[IMAGESTREAM\_IS\_SERVER](shared__memory__image__client_8h.md#macro-imagestream_is_server)**: 
+* **[IMAGESTREAM\_LOCKED](shared__memory__image__client_8h.md#macro-imagestream_locked)**:
 
 **Returns**:
 
-[SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a) if no images are read or a dictionary with the same fields as [\_SharedMemoryFrame](struct___shared_memory_frame.md#struct___shared_memory_frame).
-
+[SharedMemoryImageError](shared__memory__image__client_8h.md#typedef-sharedmemoryimageerror) if no images are read or a dictionary with the same fields as [\_SharedMemoryFrame](../classes/struct___shared_memory_frame.md#struct___shared_memory_frame).
 
 **See also**: [SharedMemoryImageStream\_lock()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1afefb8f5297147640b46d1f9eb1e77c9e). <br/>
-
-
 
 **Parameters**:
 
@@ -262,9 +222,9 @@ SharedMemoryImageError stream_unlock(stream_id id)
 ```
 
 
-Unlock the frame allocated by [stream\_lock()](shared__memory__image__client__python_8c.md#shared__memory__image__client__python_8c_1ac78db99f06d47f7718fdcac4ae3cc374).
+Unlock the frame allocated by [stream\_lock()](shared__memory__image__client__python_8c.md).
 
-Python wrapper for [SharedMemoryImageStream\_unlock()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac885e449551afd5fb5a7f19c5ec785a6). Function in the [ensight\_grpc\_shmem python module](#shared__memory__image__client__python_8c_1ensight_grpc_shmem) Python module. 
+Python wrapper for [SharedMemoryImageStream\_unlock()](shared__memory__image__client_8h.md). Function in the [ensight\_grpc\_shmem python module](#ensight_grpc_shmem-python-module) Python module. 
 
 **Parameters**:
 
@@ -273,17 +233,17 @@ Python wrapper for [SharedMemoryImageStream\_unlock()](shared__memory__image__cl
 
 **Exceptions**:
 
-* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac2b3e8a36182f38dab1c5fd7a700a0c6)**: 
-* **[IMAGESTREAM\_IS\_SERVER](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac914cc76952081d1ccc7c520e12770b1)**: 
-* **[IMAGESTREAM\_NOT\_LOCKED](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ab7873d9185a495020022f80c238142bc)**:
+* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#macro-imagestream_bad_args)**: 
+* **[IMAGESTREAM\_IS\_SERVER](shared__memory__image__client_8h.md#macro-imagestream_is_server)**: 
+* **[IMAGESTREAM\_NOT\_LOCKED](shared__memory__image__client_8h.md#macro-imagestream_not_locked)**:
 
 
 **Returns**:
 
-[SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a) if no images are read or a dictionary with the same fields as [\_SharedMemoryFrame](struct___shared_memory_frame.md#struct___shared_memory_frame).
+[SharedMemoryImageError](shared__memory__image__client_8h.md#typedef-sharedmemoryimageerror) if no images are read or a dictionary with the same fields as [\_SharedMemoryFrame](../classes/struct___shared_memory_frame.md).
 
 
-**See also**: [SharedMemoryImageStream\_unlock()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac885e449551afd5fb5a7f19c5ec785a6). <br/>
+**See also**: [SharedMemoryImageStream\_unlock()](shared__memory__image__client_8h.md#function-sharedmemoryimagestream_unlock). <br/>
 
 
 
@@ -291,9 +251,10 @@ Python wrapper for [SharedMemoryImageStream\_unlock()](shared__memory__image__cl
 
 * stream_id **id**
 
-**Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a)
+**Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#typedef-sharedmemoryimageerror)
 
 <a id="shared__memory__image__client__python_8c_1af656cd2bf739307f1d52221d49da37ae"></a>
+
 ### Function stream\_destroy
 
 ![][public]
@@ -303,10 +264,9 @@ Python wrapper for [SharedMemoryImageStream\_unlock()](shared__memory__image__cl
 SharedMemoryImageError stream_destroy(stream_id id)
 ```
 
-
 Close down and destroy a shared memory transport interface.
 
-Python wrapper for [SharedMemoryImageStream\_destroy()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a4ea47b6bda387b71ed5f91db329eff65). Function in the [ensight\_grpc\_shmem python module](#shared__memory__image__client__python_8c_1ensight_grpc_shmem) Python module. 
+Python wrapper for [SharedMemoryImageStream\_destroy()](shared__memory__image__client_8h.md#function-sharedmemoryimagestream_destroy). Function in the [ensight\_grpc\_shmem python module](#ensight_grpc_shmem-python-module) Python module. 
 
 **Parameters**:
 
@@ -315,7 +275,7 @@ Python wrapper for [SharedMemoryImageStream\_destroy()](shared__memory__image__c
 
 **Exceptions**:
 
-* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac2b3e8a36182f38dab1c5fd7a700a0c6)**:
+* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#macro-imagestream_bad_args)**:
 
 
 **Returns**:
@@ -331,7 +291,7 @@ IMAGESTREAM_NOERROR
 
 * stream_id **id**
 
-**Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a)
+**Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#typedef-sharedmemoryimageerror)
 
 <a id="shared__memory__image__client__python_8c_1a23b3d9929aaff2a388402452ce5228c1"></a>
 ### Function stream\_putframe
@@ -346,7 +306,7 @@ SharedMemoryImageError stream_putframe(stream_id id, int width, int height, int 
 
 Push an image into the shared memory transport buffer.
 
-Python wrapper for [SharedMemoryImageStream\_putframe()](shared__memory__image__client__priv_8h.md#shared__memory__image__client__priv_8h_1abe3cb5374af97eeccf691864f6e2b2ad). Only used by server connections. Function in the [ensight\_grpc\_shmem python module](#shared__memory__image__client__python_8c_1ensight_grpc_shmem) Python module. 
+Python wrapper for [SharedMemoryImageStream\_putframe()](shared__memory__image__client__priv_8h.md#function-sharedmemoryimagestream_putframe). Only used by server connections. Function in the [ensight\_grpc\_shmem python module](#ensight_grpc_shmem-python-module) Python module. 
 
 **Parameters**:
 
@@ -359,14 +319,14 @@ Python wrapper for [SharedMemoryImageStream\_putframe()](shared__memory__image__
 
 **Exceptions**:
 
-* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ac2b3e8a36182f38dab1c5fd7a700a0c6)**: 
+* **[IMAGESTREAM\_BAD\_ARGS](shared__memory__image__client_8h.md#macro-imagestream_bad_args)**: 
 * **[IMAGESTREAM\_IS\_NOTSERVER](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1aff57dd9d671a32995d562d68fcfa5fff)**: 
 * **[IMAGESTREAM\_FRAME\_TOO\_LARGE](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1ae5bdc8c10b2aa9db85d0955c99cba2c6)**:
 
 
 **Returns**:
 
-[SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a) IMAGESTREAM_UNCONNECTED, IMAGESTREAM_NO_BUFFERAVAILABLE, IMAGESTREAM_NOERROR
+[SharedMemoryImageError](shared__memory__image__client_8h.md#typedef-sharedmemoryimageerror) IMAGESTREAM_UNCONNECTED, IMAGESTREAM_NO_BUFFERAVAILABLE, IMAGESTREAM_NOERROR
 
 
 **See also**: [SharedMemoryImageStream\_putframe()](shared__memory__image__client__priv_8h.md#shared__memory__image__client__priv_8h_1abe3cb5374af97eeccf691864f6e2b2ad). <br/>
@@ -381,7 +341,7 @@ Python wrapper for [SharedMemoryImageStream\_putframe()](shared__memory__image__
 * int **framenumber**
 * bytes **pixeldata**
 
-**Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a)
+**Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#typedef-sharedmemoryimageerror)
 
 <a id="shared__memory__image__client__python_8c_1aeba34290ea6015f65d64f909b0fc56a3"></a>
 ### Function PyDict\_SetItemString\_DECREF

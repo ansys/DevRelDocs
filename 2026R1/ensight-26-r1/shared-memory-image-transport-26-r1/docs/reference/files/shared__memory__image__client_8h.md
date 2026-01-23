@@ -11,11 +11,6 @@ C API for using the EnSight grpc shared memory image transport API.
 
 This library implements a shared memory (memory mapped file) image transport system. To use the system, the client needs to do the following:
 
-
-
-
-
-
 1. Create a physical file on disk that will serve as the memory mapped interface.
 
 2. Make sure the file is large enough to hold 2 frames of imagery at maximum size plus 2K. So if the largest image would be for a 4K display, the file needs to be at least 24M + 2K in size (4K*3bytes/pixel*2 frames).
@@ -24,7 +19,7 @@ This library implements a shared memory (memory mapped file) image transport sys
 
 4. The EnSight grpc server will initialize the shared memory communication block and register it with the 'prefix' passed in the SubscribeImages() call. If the shared memory system can be constructed, it returns success.
 
-5. On successful return from SubscribeImages(), the client then calls [SharedMemoryImageStream\_create()](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a03ba052ae823b3e39fef153db8f03ea2) to connect to the server. 
+5. On successful return from SubscribeImages(), the client then calls [SharedMemoryImageStream\_create()](shared__memory__image__client_8h.md#function-sharedmemoryimagestream_create) to connect to the server. 
 ```cpp
 SharedMemoryImageStream stream;
 SharedMemoryImageError err;
@@ -32,7 +27,6 @@ err = SharedMemoryImageStream_create("shared_memory_file",
                                      IMAGESTREAM_OPTIONS_NONE, &stream);
 if (err < IMAGESTREAM_NOERROR) <handle error>
 ```
-
 
 6. Periodically, the client checks for a new image: 
 ```cpp
@@ -51,7 +45,7 @@ SharedMemoryImageError err = SharedMemoryImageStream_destroy(stream);
 
 ## Classes
 
-* [\_SharedMemoryFrame](struct___shared_memory_frame.md#struct___shared_memory_frame)
+* [\_SharedMemoryFrame](../classes/struct___shared_memory_frame.md#struct___shared_memory_frame)
 
 ## Includes
 
@@ -93,6 +87,7 @@ click 3 "shared__memory__image__client__python_8c.md#shared__memory__image__clie
 ## Macros
 
 <a id="shared__memory__image__client_8h_1a64df229b0ac6942d9bdee4b94b2c096a"></a>
+
 ### Macro IMAGESTREAM\_API\_VERSION
 
 ![][public]
@@ -102,14 +97,10 @@ click 3 "shared__memory__image__client__python_8c.md#shared__memory__image__clie
 #define IMAGESTREAM_API_VERSION "1.0"
 ```
 
-
-
-
 The current API version
 
-
-
 <a id="shared__memory__image__client_8h_1a2cc13f7eda736fddce876cf5cae2c502"></a>
+
 ### Macro IMAGESTREAM\_UNCONNECTED
 
 ![][public]
@@ -127,6 +118,7 @@ Not an error, but no client is listening to the stream
 
 
 <a id="shared__memory__image__client_8h_1aa17e85c9001e414b9ac1db640884b944"></a>
+
 ### Macro IMAGESTREAM\_RECONNECTING
 
 ![][public]
@@ -144,6 +136,7 @@ The stream being connected to was already active, this may or may not be an erro
 
 
 <a id="shared__memory__image__client_8h_1a7a7491d1019b67d55ac6488c0e3cb637"></a>
+
 ### Macro IMAGESTREAM\_NO\_FRAMEAVAILABLE
 
 ![][public]
@@ -161,6 +154,7 @@ Not an error, but there was no frame available to read
 
 
 <a id="shared__memory__image__client_8h_1a78414d594aa9bb3f9bcea84c768d2826"></a>
+
 ### Macro IMAGESTREAM\_NO\_BUFFERAVAILABLE
 
 ![][public]
@@ -178,6 +172,7 @@ Not an error, but there were no free buffers to put the frame into
 
 
 <a id="shared__memory__image__client_8h_1af995dd87ffd7dd178eef1d343f7b72bf"></a>
+
 ### Macro IMAGESTREAM\_NOERROR
 
 ![][public]
@@ -195,6 +190,7 @@ Operation successful
 
 
 <a id="shared__memory__image__client_8h_1ac2b3e8a36182f38dab1c5fd7a700a0c6"></a>
+
 ### Macro IMAGESTREAM\_BAD\_ARGS
 
 ![][public]
@@ -212,6 +208,7 @@ one of the input parameters is invalid
 
 
 <a id="shared__memory__image__client_8h_1ab7873d9185a495020022f80c238142bc"></a>
+
 ### Macro IMAGESTREAM\_NOT\_LOCKED
 
 ![][public]
@@ -229,6 +226,7 @@ an attempt was made to unlock without it having been locked
 
 
 <a id="shared__memory__image__client_8h_1a54a45d2f039e6275c28249eedfa2515d"></a>
+
 ### Macro IMAGESTREAM\_BAD\_FILE\_SIZE
 
 ![][public]
@@ -246,6 +244,7 @@ the shared memory file is too small (<10MB) or non-existant
 
 
 <a id="shared__memory__image__client_8h_1a5b68da171a139f688d317320d0a4eb3e"></a>
+
 ### Macro IMAGESTREAM\_UNABLE\_TO\_OPEN\_FILE
 
 ![][public]
@@ -263,6 +262,7 @@ the shared memory file could not be opened with necessary permissions
 
 
 <a id="shared__memory__image__client_8h_1ac7eb344cf60975382720f71182dab490"></a>
+
 ### Macro IMAGESTREAM\_UNABLE\_TO\_MAP\_FILE
 
 ![][public]
@@ -280,6 +280,7 @@ the shared memory file could not be memory mapped
 
 
 <a id="shared__memory__image__client_8h_1ae37af5c9dcf1d89b30b82ca4be840cfe"></a>
+
 ### Macro IMAGESTREAM\_MEMORY\_ALLOC\_ERROR
 
 ![][public]
@@ -297,6 +298,7 @@ insufficient system memory for internal object allocation
 
 
 <a id="shared__memory__image__client_8h_1ac0d310d75b0c3ff53d524a0a5fe25b6f"></a>
+
 ### Macro IMAGESTREAM\_THREAD\_CREATE\_ERROR
 
 ![][public]
@@ -314,6 +316,7 @@ unable to create background processing threads
 
 
 <a id="shared__memory__image__client_8h_1ac914cc76952081d1ccc7c520e12770b1"></a>
+
 ### Macro IMAGESTREAM\_IS\_SERVER
 
 ![][public]
@@ -331,6 +334,7 @@ the call is not valid for shared memory server to make
 
 
 <a id="shared__memory__image__client_8h_1aff57dd9d671a32995d562d68fcfa5fff"></a>
+
 ### Macro IMAGESTREAM\_IS\_NOTSERVER
 
 ![][public]
@@ -348,6 +352,7 @@ the call is not valid for shared memory client to make
 
 
 <a id="shared__memory__image__client_8h_1ae5bdc8c10b2aa9db85d0955c99cba2c6"></a>
+
 ### Macro IMAGESTREAM\_FRAME\_TOO\_LARGE
 
 ![][public]
@@ -365,6 +370,7 @@ the image frame is too large for the size of the shared memory file
 
 
 <a id="shared__memory__image__client_8h_1a8389f19c29b726a2bed3c5831d1fb267"></a>
+
 ### Macro IMAGESTREAM\_LOCKED
 
 ![][public]
@@ -382,6 +388,7 @@ this call is not legal until the stream has been unlocked
 
 
 <a id="shared__memory__image__client_8h_1a7fbe522f7a46875a755f07c8ff69e2df"></a>
+
 ### Macro IMAGESTREAM\_OPTIONS\_NONE
 
 ![][public]
@@ -399,6 +406,7 @@ the default options for a client stream
 
 
 <a id="shared__memory__image__client_8h_1a536935e36e51aade42c2a49f8ecd7ae1"></a>
+
 ### Macro IMAGESTREAM\_OPTIONS\_FLIPVERTICAL
 
 ![][public]
@@ -418,6 +426,7 @@ this is a server flag that requests that pixels be flipped vertically relative t
 ## Typedefs
 
 <a id="shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a"></a>
+
 ### Typedef SharedMemoryImageError
 
 ![][public]
@@ -438,6 +447,7 @@ common error codes see the non-hex, non-string IMAGESTREAM macros
 **Return type**: int
 
 <a id="shared__memory__image__client_8h_1af5b8eb2ae90823f10e9a17698ea80749"></a>
+
 ### Typedef SharedMemoryImageStream
 
 ![][public]
@@ -458,6 +468,7 @@ image transport stream pointer
 **Return type**: struct _SharedMemoryImageStream *
 
 <a id="shared__memory__image__client_8h_1a995c49496fcc1a41fb2d104c6473223b"></a>
+
 ### Typedef SharedMemoryFrame
 
 ![][public]
@@ -475,11 +486,12 @@ Structure representing a frame of imagery in sequence
 
 
 
-**Return type**: struct [\_SharedMemoryFrame](struct___shared_memory_frame.md#struct___shared_memory_frame) *
+**Return type**: struct [\_SharedMemoryFrame](../classes/struct___shared_memory_frame.md) *
 
 ## Functions
 
 <a id="shared__memory__image__client_8h_1a03ba052ae823b3e39fef153db8f03ea2"></a>
+
 ### Function SharedMemoryImageStream\_create
 
 ![][public]
@@ -539,6 +551,7 @@ Note: server instances can be created using undocumented option flags.
 **Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a)
 
 <a id="shared__memory__image__client_8h_1afefb8f5297147640b46d1f9eb1e77c9e"></a>
+
 ### Function SharedMemoryImageStream\_lock
 
 ![][public]
@@ -590,6 +603,7 @@ The buffer pointer must not be deallocated by the application.
 **Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a)
 
 <a id="shared__memory__image__client_8h_1ac885e449551afd5fb5a7f19c5ec785a6"></a>
+
 ### Function SharedMemoryImageStream\_unlock
 
 ![][public]
@@ -627,6 +641,7 @@ If [SharedMemoryImageStream\_lock()](shared__memory__image__client_8h.md#shared_
 **Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a)
 
 <a id="shared__memory__image__client_8h_1a4ea47b6bda387b71ed5f91db329eff65"></a>
+
 ### Function SharedMemoryImageStream\_destroy
 
 ![][public]
@@ -664,6 +679,7 @@ This function is called to shutdown one end of an image transport stream. It can
 **Return type**: [SharedMemoryImageError](shared__memory__image__client_8h.md#shared__memory__image__client_8h_1a0496a9a3db499fa9145fe97d2e6dae9a)
 
 <a id="shared__memory__image__client_8h_1a16abb961cf38273321e81cc64d71fad7"></a>
+
 ### Function SharedMemoryImageStream\_errorstring
 
 ![][public]
