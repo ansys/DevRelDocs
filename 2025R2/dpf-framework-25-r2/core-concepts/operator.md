@@ -19,16 +19,16 @@ The Operator is the only object used to create and transform the data. It can be
 
     | Name| Expected type(s) |  Description |
     |---|---|---|
-    |binary_operation|(enum dataProcessing::EBinaryOperation , [`int32`](./dpf-types.md#standard-types))| This option allows to choose how two inputs will be treated together. eOnlyIntersection (0) means that the output will only contain the entities shared by all the inputs.eUnion (1) means that the output will contain all the entities contained in at least one of the inputs.|
-    |incremental|[`bool`](./dpf-types.md#standard-types)| This operator can be ran several time with different inputs so that the ouput will take all the inputs of the different run into account.It can be used to save memory. For example, a large time scoping can be split in smaller ranges of time to compute the result range by range.|
-    |inplace|[`bool`](./dpf-types.md#standard-types)| The output is written over the input to save memory if this config is set to true.|
-    |mutex|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.|
-    |num_threads|[`int32`](./dpf-types.md#standard-types)| Number of threads to use to run in parallel|
-    |permissive|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, warning checks (like unit or data sizes) won't be done.|
-    |read_inputs_in_parallel|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, the operators inputs will be evaluated in parallel.|
-    |run_in_parallel|[`bool`](./dpf-types.md#standard-types)| Loops are allowed to run in parallel if the value of this config is set to true.|
-    |use_cache|[`bool`](./dpf-types.md#standard-types)| Some intermediate data is put in cache if this config is set to true. This option can reduce computation time after the first run.|
-    |work_by_index|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, loops and comparisons by entity will be done by index instead of ids.|
+    |[`binary_operation`](./operator-configurations.md#binary_operation)|(enum dataProcessing::EBinaryOperation , [`int32`](./dpf-types.md#standard-types))| This option allows to choose how two inputs will be treated together. eOnlyIntersection (0) means that the output will only contain the entities shared by all the inputs.eUnion (1) means that the output will contain all the entities contained in at least one of the inputs.|
+    |[`incremental`](./operator-configurations.md#incremental)|[`bool`](./dpf-types.md#standard-types)| This operator can be ran several time with different inputs so that the ouput will take all the inputs of the different run into account.It can be used to save memory. For example, a large time scoping can be split in smaller ranges of time to compute the result range by range.|
+    |[`inplace`](./operator-configurations.md#inplace)|[`bool`](./dpf-types.md#standard-types)| The output is written over the input to save memory if this config is set to true.|
+    |[`mutex`](./operator-configurations.md#mutex)|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.|
+    |[`num_threads`](./operator-configurations.md#num_threads)|[`int32`](./dpf-types.md#standard-types)| Number of threads to use to run in parallel|
+    |[`permissive`](./operator-configurations.md#permissive)|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, warning checks (like unit or data sizes) won't be done.|
+    |[`read_inputs_in_parallel`](./operator-configurations.md#read_inputs_in_parallel)|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, the operators inputs will be evaluated in parallel.|
+    |[`run_in_parallel`](./operator-configurations.md#run_in_parallel)|[`bool`](./dpf-types.md#standard-types)| Loops are allowed to run in parallel if the value of this config is set to true.|
+    |[`use_cache`](./operator-configurations.md#use_cache)|[`bool`](./dpf-types.md#standard-types)| Some intermediate data is put in cache if this config is set to true. This option can reduce computation time after the first run.|
+    |[`work_by_index`](./operator-configurations.md#work_by_index)|[`bool`](./dpf-types.md#standard-types)| If this option is set to true, loops and comparisons by entity will be done by index instead of ids.|
 
 - Data transformation: this is the internal operation that will occur when an operator is evaluated. The operation will return outputs depending on the inputs and configurations given by the user. The operation applied by each operator is described in its description.
 
