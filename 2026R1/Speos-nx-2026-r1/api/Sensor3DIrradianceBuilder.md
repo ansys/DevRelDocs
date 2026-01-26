@@ -5,7 +5,7 @@ title: Sensor3DIrradianceBuilder
 
 # Sensor3DIrradianceBuilder Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `FeatureBuilder`
 

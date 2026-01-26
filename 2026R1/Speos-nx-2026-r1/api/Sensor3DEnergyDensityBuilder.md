@@ -5,7 +5,7 @@ title: Sensor3DEnergyDensityBuilder
 
 # Sensor3DEnergyDensityBuilder Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `FeatureBuilder`
 

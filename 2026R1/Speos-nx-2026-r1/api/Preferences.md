@@ -5,7 +5,7 @@ title: Preferences
 
 # Preferences Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `object`
 

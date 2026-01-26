@@ -5,7 +5,7 @@ title: MeasureCollection
 
 # MeasureCollection Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `object`
 

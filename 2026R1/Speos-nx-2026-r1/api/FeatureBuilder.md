@@ -5,7 +5,7 @@ title: FeatureBuilder
 
 # FeatureBuilder Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `Builder`
 

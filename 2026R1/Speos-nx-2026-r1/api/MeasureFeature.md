@@ -5,7 +5,7 @@ title: MeasureFeature
 
 # MeasureFeature Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `Feature`
 

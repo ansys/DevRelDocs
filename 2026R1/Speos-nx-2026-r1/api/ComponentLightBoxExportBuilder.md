@@ -5,7 +5,7 @@ title: ComponentLightBoxExportBuilder
 
 # ComponentLightBoxExportBuilder Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `FeatureBuilder`
 

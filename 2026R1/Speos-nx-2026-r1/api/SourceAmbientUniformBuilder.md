@@ -5,7 +5,7 @@ title: SourceAmbientUniformBuilder
 
 # SourceAmbientUniformBuilder Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `SourceAmbientCommonBuilder`
 

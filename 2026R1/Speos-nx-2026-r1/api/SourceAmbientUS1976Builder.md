@@ -5,7 +5,7 @@ title: SourceAmbientUS1976Builder
 
 # SourceAmbientUS1976Builder Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `SourceAmbientCommonBuilder`
 

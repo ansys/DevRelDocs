@@ -5,7 +5,7 @@ title: FeatureCollection
 
 # FeatureCollection Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `object`
 

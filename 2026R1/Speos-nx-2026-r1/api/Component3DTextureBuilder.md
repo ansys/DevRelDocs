@@ -5,7 +5,7 @@ title: Component3DTextureBuilder
 
 # Component3DTextureBuilder Class
 
-**Namespace:** `SpeosNX_2512`
+**Namespace:** `SpeosNX`
 
 **Inherits from:** `FeatureBuilder`
 
