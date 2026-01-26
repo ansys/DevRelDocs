@@ -14,23 +14,63 @@ Take any input and serialize them in a string.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin -1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  stream_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 for string (default), 1 for binary, 2 for binary with chunked output (the output string will be returned in several chunks to prevent string memory overflows). |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  any_input |[`any`](../../core-concepts/dpf-types.md#any) | any input |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>-1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [stream_type](#input_-1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [any_input](#input_1) |[`any`](../../core-concepts/dpf-types.md#any) |
+
+
+<a id="input_-1"></a>
+### stream_type (Pin -1)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+0 for string (default), 1 for binary, 2 for binary with chunked output (the output string will be returned in several chunks to prevent string memory overflows).
+
+<a id="input_1"></a>
+### any_input (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`any`](../../core-concepts/dpf-types.md#any)
+
+any input
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin -1**| nof_chunks |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of chunks when mode passed to input pin(-1) = 2. |
-|  **Pin 0**| serialized_string |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **-1**| [nof_chunks](#output_-1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **0**| [serialized_string](#output_0) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="output_-1"></a>
+### nof_chunks (Pin -1)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Number of chunks when mode passed to input pin(-1) = 2.
+
+<a id="output_0"></a>
+### serialized_string (Pin 0)
+
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

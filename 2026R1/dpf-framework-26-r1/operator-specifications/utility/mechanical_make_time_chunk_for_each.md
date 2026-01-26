@@ -14,29 +14,118 @@ Splits a list of time/freq values into chunks depending on evaluated result prop
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  target_time_freq_values |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`double`](../../core-concepts/dpf-types.md#standard-types) | List of time/freq values to potentially split in chunks. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  operator_to_iterate |[`operator`](../../core-concepts/dpf-types.md#operator) | Operator that must be reconnected with the range values. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  pin_index |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  abstract_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | The number of nodes (for "Nodal" results) or number of elements (for "Elemental" results) is used to compute the chunk. |
-| <strong>Pin 200</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  chunk_config |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) | a data tree with an int attribute "max_num_bytes", an int attribute "dimensionality" (average result size by entity), a string attribute "location" ("Nodal" or"Elemental") is expected. |
-| <strong>Pin 1000</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  producer_op1 |[`operator`](../../core-concepts/dpf-types.md#operator) |  |
-| <strong>Pin 1001</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_pin_of_producer_op1 |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 1002</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_pin_of_consumer_op1 |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 1003</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  consumer_op1 |[`operator`](../../core-concepts/dpf-types.md#operator) |  |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [target_time_freq_values](#input_0) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [operator_to_iterate](#input_1) |[`operator`](../../core-concepts/dpf-types.md#operator) |
+| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [pin_index](#input_2) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [abstract_meshed_region](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>200</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [chunk_config](#input_200) |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>1000</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [producer_op1](#input_1000) |[`operator`](../../core-concepts/dpf-types.md#operator) |
+| <strong>1001</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [output_pin_of_producer_op1](#input_1001) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1002</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [input_pin_of_consumer_op1](#input_1002) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1003</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [consumer_op1](#input_1003) |[`operator`](../../core-concepts/dpf-types.md#operator) |
+
+
+<a id="input_0"></a>
+### target_time_freq_values (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+List of time/freq values to potentially split in chunks.
+
+<a id="input_1"></a>
+### operator_to_iterate (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+
+Operator that must be reconnected with the range values.
+
+<a id="input_2"></a>
+### pin_index (Pin 2)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_7"></a>
+### abstract_meshed_region (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+The number of nodes (for "Nodal" results) or number of elements (for "Elemental" results) is used to compute the chunk.
+
+<a id="input_200"></a>
+### chunk_config (Pin 200)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+a data tree with an int attribute "max_num_bytes", an int attribute "dimensionality" (average result size by entity), a string attribute "location" ("Nodal" or"Elemental") is expected.
+
+<a id="input_1000"></a>
+### producer_op1 (Pin 1000)
+
+- **Required:** Yes
+- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+
+
+
+<a id="input_1001"></a>
+### output_pin_of_producer_op1 (Pin 1001)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_1002"></a>
+### input_pin_of_consumer_op1 (Pin 1002)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_1003"></a>
+### consumer_op1 (Pin 1003)
+
+- **Required:** Yes
+- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| chunks | | To connect to "producer_consumer_for_each" Operator on pin 0 |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [chunks](#output_0) | |
+
+
+<a id="output_0"></a>
+### chunks (Pin 0)
+
+- **Expected type(s):** 
+
+To connect to "producer_consumer_for_each" Operator on pin 0
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

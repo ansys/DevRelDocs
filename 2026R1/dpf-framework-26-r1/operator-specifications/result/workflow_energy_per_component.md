@@ -14,33 +14,147 @@ Calculates the cumulated energy per component (Named Selection). For cyclic and 
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  time_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | When the input is a scoping, it is treated as the master scoping. All named selections will intersect with it. When the input is a scopings container, named selections will not be needed. |
-| <strong>Pin 2</strong>|  energy_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Type of energy to be processed: (0: Strain + Kinetic energy (default), 1: Strain energy, 2: Kinetic energy, 3: All energy types) |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |  |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |  |
-| <strong>Pin 5</strong>|  named_selection |[`string`](../../core-concepts/dpf-types.md#standard-types) | Named Selections. Intersection of all  Named Selections with the master scoping will be done. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [time_scoping](#input_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>1</strong>|  [mesh_scoping](#input_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>2</strong>|  [energy_type](#input_2) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [streams_container](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>5</strong>|  [named_selection](#input_5) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### time_scoping (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
+<a id="input_1"></a>
+### mesh_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+When the input is a scoping, it is treated as the master scoping. All named selections will intersect with it. When the input is a scopings container, named selections will not be needed.
+
+<a id="input_2"></a>
+### energy_type (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Type of energy to be processed: (0: Strain + Kinetic energy (default), 1: Strain energy, 2: Kinetic energy, 3: All energy types)
+
+<a id="input_3"></a>
+### streams_container (Pin 3)
+
+- **Required:** Yes
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+
+
+<a id="input_5"></a>
+### named_selection (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Named Selections. Intersection of all  Named Selections with the master scoping will be done.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| component_energy |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 1**| component_energy_percentage |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 2**| component_total_energy |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 3**| component_total_energy_percentage |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 4**| component_strain_energy |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 5**| component_strain_energy_percentage |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 6**| component_kinetic_energy |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 7**| component_kinetic_energy_percentage |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [component_energy](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [component_energy_percentage](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **2**| [component_total_energy](#output_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **3**| [component_total_energy_percentage](#output_3) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **4**| [component_strain_energy](#output_4) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **5**| [component_strain_energy_percentage](#output_5) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **6**| [component_kinetic_energy](#output_6) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **7**| [component_kinetic_energy_percentage](#output_7) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### component_energy (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_1"></a>
+### component_energy_percentage (Pin 1)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_2"></a>
+### component_total_energy (Pin 2)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_3"></a>
+### component_total_energy_percentage (Pin 3)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_4"></a>
+### component_strain_energy (Pin 4)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_5"></a>
+### component_strain_energy_percentage (Pin 5)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_6"></a>
+### component_kinetic_energy (Pin 6)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_7"></a>
+### component_kinetic_energy_percentage (Pin 7)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

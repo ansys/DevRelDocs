@@ -14,25 +14,82 @@ Integrates a field of time varying quantities over time
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field) | field |
-| <strong>Pin 1</strong>|  resample_output |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Resample the output |
-| <strong>Pin 2</strong>|  absolute_error |[`double`](../../core-concepts/dpf-types.md#standard-types) | Absolute error for the resampling |
-| <strong>Pin 3</strong>|  minimum_step_size |[`double`](../../core-concepts/dpf-types.md#standard-types) | Minimum time step size for the resamplig |
-| <strong>Pin 4</strong>|  integration_constant |[`double`](../../core-concepts/dpf-types.md#standard-types) | Constant to be added to the integrated field |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong>|  [resample_output](#input_1) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [absolute_error](#input_2) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [minimum_step_size](#input_3) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong>|  [integration_constant](#input_4) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### field (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+field
+
+<a id="input_1"></a>
+### resample_output (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Resample the output
+
+<a id="input_2"></a>
+### absolute_error (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Absolute error for the resampling
+
+<a id="input_3"></a>
+### minimum_step_size (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Minimum time step size for the resamplig
+
+<a id="input_4"></a>
+### integration_constant (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Constant to be added to the integrated field
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### field (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

@@ -20,29 +20,109 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 3</strong>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Result file container allowed to be kept open to cache data. |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Result file path container, used if no streams are set. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>3</strong>|  [streams](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+
+
+<a id="input_3"></a>
+### streams (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Result file container allowed to be kept open to cache data.
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+Result file path container, used if no streams are set.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| participation_factors |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Fields container holding participation factors. |
-|  **Pin 1**| mode_coefficients |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Fields container holding mode coefficients (PRS File). |
-|  **Pin 2**| damping_ratios |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Fields container holding damping ratios (PRS File). |
-|  **Pin 3**| global_damping |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Fields container holding for each spectrum: Global Damping Ratio, Damping Stiffness Coefficient & Damping Mass Coefficient (PRS File). |
-|  **Pin 4**| missing_mass |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Fields container holding for each spectrum: Missing Mass Mode (0: None, 1: Active), Missing Mass Effect ZPA (PRS File). |
-|  **Pin 5**| rigid_response |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Fields container holding for each spectrum: Rigid Response Mode (0: None, 1: Gupta, 2: Lindley), Freq Begin (Gupta) / ZPA (Lindley), Freq End (Gupta) (PRS File). |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [participation_factors](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [mode_coefficients](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **2**| [damping_ratios](#output_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **3**| [global_damping](#output_3) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **4**| [missing_mass](#output_4) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **5**| [rigid_response](#output_5) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### participation_factors (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container holding participation factors.
+
+<a id="output_1"></a>
+### mode_coefficients (Pin 1)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container holding mode coefficients (PRS File).
+
+<a id="output_2"></a>
+### damping_ratios (Pin 2)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container holding damping ratios (PRS File).
+
+<a id="output_3"></a>
+### global_damping (Pin 3)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container holding for each spectrum: Global Damping Ratio, Damping Stiffness Coefficient & Damping Mass Coefficient (PRS File).
+
+<a id="output_4"></a>
+### missing_mass (Pin 4)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container holding for each spectrum: Missing Mass Mode (0: None, 1: Active), Missing Mass Effect ZPA (PRS File).
+
+<a id="output_5"></a>
+### rigid_response (Pin 5)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container holding for each spectrum: Rigid Response Mode (0: None, 1: Gupta, 2: Lindley), Freq Begin (Gupta) / ZPA (Lindley), Freq End (Gupta) (PRS File).
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### num_threads
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### run_in_parallel
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
+
 
 ## Scripting
 

@@ -14,23 +14,64 @@ Creates a new meshes container with all the meshed regions corresponding to the 
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | meshes |
-| <strong>Pin 1</strong>|  label_space |[`label_space`](../../core-concepts/dpf-types.md#label-space), [`scoping`](../../core-concepts/dpf-types.md#scoping) | Label space, or scoping defining the label space (scoping location), values to keep (scoping IDs) |
-| <strong>Pin 2</strong>|  collapse_labels |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If set to true (default) the input label space (scoping location) is suppressed from the output meshes container, otherwise, label space is kept. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [meshes](#input_0) |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>1</strong>|  [label_space](#input_1) |[`label_space`](../../core-concepts/dpf-types.md#label-space), [`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>2</strong>|  [collapse_labels](#input_2) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### meshes (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+meshes
+
+<a id="input_1"></a>
+### label_space (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`label_space`](../../core-concepts/dpf-types.md#label-space), [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Label space, or scoping defining the label space (scoping location), values to keep (scoping IDs)
+
+<a id="input_2"></a>
+### collapse_labels (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If set to true (default) the input label space (scoping location) is suppressed from the output meshes container, otherwise, label space is kept.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| meshes_container |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | meshes |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [meshes_container](#output_0) |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+
+
+<a id="output_0"></a>
+### meshes_container (Pin 0)
+
+- **Expected type(s):** [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+meshes
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

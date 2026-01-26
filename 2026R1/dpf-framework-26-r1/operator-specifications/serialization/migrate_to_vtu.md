@@ -14,28 +14,107 @@ Extract all results from a datasources and exports them into vtu format. All the
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  time_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | time sets to export, default is all |
-| <strong>Pin 3</strong>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | result file container allowed to be kept open to cache data |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | result file path container, used if no streams are set |
-| <strong>Pin 20</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  directory |[`string`](../../core-concepts/dpf-types.md#standard-types) | directory path |
-| <strong>Pin 21</strong>|  base_name |[`string`](../../core-concepts/dpf-types.md#standard-types) | vtu base file name, (default is file) |
-| <strong>Pin 30</strong>|  result |[`string`](../../core-concepts/dpf-types.md#standard-types) | if Operator's names are connected to this Pin, only these results are exported (else all available results are exported) |
-| <strong>Pin 100</strong>|  write_mode |[`string`](../../core-concepts/dpf-types.md#standard-types) | Available are rawbinarycompressed, rawbinary, base64appended, base64inline, ascii, default is (rawbinarycompressed) |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [time_scoping](#input_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [streams_container](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>20</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [directory](#input_20) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>21</strong>|  [base_name](#input_21) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>30</strong>|  [result](#input_30) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>100</strong>|  [write_mode](#input_100) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### time_scoping (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+time sets to export, default is all
+
+<a id="input_3"></a>
+### streams_container (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+result file container allowed to be kept open to cache data
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+result file path container, used if no streams are set
+
+<a id="input_20"></a>
+### directory (Pin 20)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+directory path
+
+<a id="input_21"></a>
+### base_name (Pin 21)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+vtu base file name, (default is file)
+
+<a id="input_30"></a>
+### result (Pin 30)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+if Operator's names are connected to this Pin, only these results are exported (else all available results are exported)
+
+<a id="input_100"></a>
+### write_mode (Pin 100)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Available are rawbinarycompressed, rawbinary, base64appended, base64inline, ascii, default is (rawbinarycompressed)
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| path |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | list of output vtu file path |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [path](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+
+
+<a id="output_0"></a>
+### path (Pin 0)
+
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+list of output vtu file path
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### permissive
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+If this option is set to true, warning checks (like unit or data sizes) won't be done.
+
+
 
 ## Scripting
 

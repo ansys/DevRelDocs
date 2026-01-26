@@ -14,21 +14,46 @@ Assembles a set of scopings containers into a unique one.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scopings_containers |`vector<shared_ptr<scopings_container>>`, [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | A vector of scopings containers to merge or scopings containers from pin 0 to ... |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [scopings_containers](#input_0) |`vector<shared_ptr<scopings_container>>`, [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+
+
+<a id="input_0"></a>
+### scopings_containers (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** `vector<shared_ptr<scopings_container>>`, [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+A vector of scopings containers to merge or scopings containers from pin 0 to ...
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| merged_scopings_container |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [merged_scopings_container](#output_0) |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+
+
+<a id="output_0"></a>
+### merged_scopings_container (Pin 0)
+
+- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 
