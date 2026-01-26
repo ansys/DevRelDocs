@@ -1,0 +1,174 @@
+- name: Core
+  items:
+  - name: Feature
+    href: Feature.md
+  - name: Part
+    href: Part.md
+  - name: Preferences
+    href: Preferences.md
+  - name: Preset
+    href: Preset.md
+  - name: Session
+    href: Session.md
+- name: Builders
+  items:
+  - name: Builder
+    href: Builder.md
+  - name: Component3DTextureBuilder
+    href: Component3DTextureBuilder.md
+  - name: ComponentAmbientMaterialBuilder
+    href: ComponentAmbientMaterialBuilder.md
+  - name: ComponentLightBoxExportBuilder
+    href: ComponentLightBoxExportBuilder.md
+  - name: ComponentLightBoxImportBuilder
+    href: ComponentLightBoxImportBuilder.md
+  - name: ComponentOpticalDesignExchangeBuilder
+    href: ComponentOpticalDesignExchangeBuilder.md
+  - name: ComponentOpticalDesignExchangeResultBuilder
+    href: ComponentOpticalDesignExchangeResultBuilder.md
+  - name: ComponentPolarizationPlateBuilder
+    href: ComponentPolarizationPlateBuilder.md
+  - name: CopyPasteBuilder
+    href: CopyPasteBuilder.md
+  - name: ExportAsGeometryBuilder
+    href: ExportAsGeometryBuilder.md
+  - name: FeatureBuilder
+    href: FeatureBuilder.md
+  - name: FolderBuilder
+    href: FolderBuilder.md
+  - name: LightExpertSensorGroupBuilder
+    href: LightExpertSensorGroupBuilder.md
+  - name: NewComponentBuilder
+    href: NewComponentBuilder.md
+  - name: OpticalPropertiesBuilder
+    href: OpticalPropertiesBuilder.md
+  - name: ResultLXPBuilder
+    href: ResultLXPBuilder.md
+  - name: Sensor3DEnergyDensityBuilder
+    href: Sensor3DEnergyDensityBuilder.md
+  - name: Sensor3DIrradianceBuilder
+    href: Sensor3DIrradianceBuilder.md
+  - name: SensorCameraBuilder
+    href: SensorCameraBuilder.md
+  - name: SensorCommonBuilder
+    href: SensorCommonBuilder.md
+  - name: SensorHumanEyeBuilder
+    href: SensorHumanEyeBuilder.md
+  - name: SensorIntensityBuilder
+    href: SensorIntensityBuilder.md
+  - name: SensorIrradianceBuilder
+    href: SensorIrradianceBuilder.md
+  - name: SensorLiDARBuilder
+    href: SensorLiDARBuilder.md
+  - name: SensorLightFieldBuilder
+    href: SensorLightFieldBuilder.md
+  - name: SensorObserverBuilder
+    href: SensorObserverBuilder.md
+  - name: SensorPhysicalCameraBuilder
+    href: SensorPhysicalCameraBuilder.md
+  - name: SensorRadianceBuilder
+    href: SensorRadianceBuilder.md
+  - name: SensorVRImmersiveBuilder
+    href: SensorVRImmersiveBuilder.md
+  - name: SimulationCommonBuilder
+    href: SimulationCommonBuilder.md
+  - name: SimulationDirectBuilder
+    href: SimulationDirectBuilder.md
+  - name: SimulationInteractiveBuilder
+    href: SimulationInteractiveBuilder.md
+  - name: SimulationInverseBuilder
+    href: SimulationInverseBuilder.md
+  - name: SimulationLiDARBuilder
+    href: SimulationLiDARBuilder.md
+  - name: SourceAmbientCommonBuilder
+    href: SourceAmbientCommonBuilder.md
+  - name: SourceAmbientEnvironmentBuilder
+    href: SourceAmbientEnvironmentBuilder.md
+  - name: SourceAmbientGeneralSkyBuilder
+    href: SourceAmbientGeneralSkyBuilder.md
+  - name: SourceAmbientNaturalLightBuilder
+    href: SourceAmbientNaturalLightBuilder.md
+  - name: SourceAmbientOvercastSkyBuilder
+    href: SourceAmbientOvercastSkyBuilder.md
+  - name: SourceAmbientUS1976Builder
+    href: SourceAmbientUS1976Builder.md
+  - name: SourceAmbientUniformBuilder
+    href: SourceAmbientUniformBuilder.md
+  - name: SourceDisplayBuilder
+    href: SourceDisplayBuilder.md
+  - name: SourceGroupBuilder
+    href: SourceGroupBuilder.md
+  - name: SourceInteractiveBuilder
+    href: SourceInteractiveBuilder.md
+  - name: SourceLightFieldBuilder
+    href: SourceLightFieldBuilder.md
+  - name: SourceLuminaireBuilder
+    href: SourceLuminaireBuilder.md
+  - name: SourceRayFileBuilder
+    href: SourceRayFileBuilder.md
+  - name: SourceSurfaceBuilder
+    href: SourceSurfaceBuilder.md
+  - name: SourceSurfaceThermicBuilder
+    href: SourceSurfaceThermicBuilder.md
+  - name: SpeosPatternBuilder
+    href: SpeosPatternBuilder.md
+- name: Collections
+  items:
+  - name: ComponentOpticalDesignExchangeResultCollection
+    href: ComponentOpticalDesignExchangeResultCollection.md
+  - name: FeatureCollection
+    href: FeatureCollection.md
+  - name: MeasureCollection
+    href: MeasureCollection.md
+  - name: PartCollection
+    href: PartCollection.md
+  - name: ResultCollection
+    href: ResultCollection.md
+  - name: RuleCollection
+    href: RuleCollection.md
+- name: Sensors
+  items:
+  - name: SensorFilter
+    href: SensorFilter.md
+  - name: SensorFilterGroup
+    href: SensorFilterGroup.md
+  - name: SensorLightFieldSelections
+    href: SensorLightFieldSelections.md
+- name: Sources
+  items:
+  - name: SourceSurfaceEmissiveFaces
+    href: SourceSurfaceEmissiveFaces.md
+- name: Simulations
+  items:
+  - name: FeatureSimulation
+    href: FeatureSimulation.md
+  - name: SimulationSettings
+    href: SimulationSettings.md
+- name: Components
+  items:
+  - name: ComponentOpticalDesignExchangeFeature
+    href: ComponentOpticalDesignExchangeFeature.md
+  - name: ComponentOpticalDesignExchangeResultFeature
+    href: ComponentOpticalDesignExchangeResultFeature.md
+- name: Other
+  items:
+  - name: AxisSystem
+    href: AxisSystem.md
+  - name: MeasureFeature
+    href: MeasureFeature.md
+  - name: OpticalPropertiesGeometry
+    href: OpticalPropertiesGeometry.md
+  - name: RayFileData
+    href: RayFileData.md
+  - name: ResultFeature
+    href: ResultFeature.md
+  - name: RuleFeature
+    href: RuleFeature.md
+  - name: SelectFaceList
+    href: SelectFaceList.md
+  - name: SelectObjectList
+    href: SelectObjectList.md
+  - name: Timezone
+    href: Timezone.md
+  - name: ZenithNorthSystem
+    href: ZenithNorthSystem.md

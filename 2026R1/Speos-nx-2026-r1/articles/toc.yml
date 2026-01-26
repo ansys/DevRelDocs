@@ -1,0 +1,6 @@
+- name: Changelog
+  href: Changelog.md
+- name: User guide
+  href: User-guide.md
+- name: Usage examples
+  href: Usage-examples.md
