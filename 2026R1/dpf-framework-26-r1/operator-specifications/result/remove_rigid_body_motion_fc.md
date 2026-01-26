@@ -14,26 +14,88 @@ Removes rigid body mode from a total displacement field by minimization. Use a r
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | field or fields container with only one field is expected |
-| <strong>Pin 1</strong>|  reference_node_id |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Id of the reference entity (node). |
-| <strong>Pin 7</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | default is the mesh in the support |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [fields_container](#input_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>1</strong>|  [reference_node_id](#input_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong>|  [mesh](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+
+
+<a id="input_0"></a>
+### fields_container (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+field or fields container with only one field is expected
+
+<a id="input_1"></a>
+### reference_node_id (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Id of the reference entity (node).
+
+<a id="input_7"></a>
+### mesh (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+default is the mesh in the support
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 1**| translation_field |[`field`](../../core-concepts/dpf-types.md#field) | Global rigid translation vector |
-|  **Pin 2**| rotation_field |[`field`](../../core-concepts/dpf-types.md#field) | Global rigid rotation angles |
-|  **Pin 3**| center_field |[`field`](../../core-concepts/dpf-types.md#field) | Center of the rigid rotation |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [translation_field](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **2**| [rotation_field](#output_2) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **3**| [center_field](#output_3) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### fields_container (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_1"></a>
+### translation_field (Pin 1)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Global rigid translation vector
+
+<a id="output_2"></a>
+### rotation_field (Pin 2)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Global rigid rotation angles
+
+<a id="output_3"></a>
+### center_field (Pin 3)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Center of the rigid rotation
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

@@ -14,24 +14,73 @@ Computes the average of a multi-entity field, (ElementalNodal -> Elemental), (No
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 1</strong>|  collapse_shell_layers |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true, shell layers are averaged as well (default is false). |
-| <strong>Pin 2</strong>|  force_averaging |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true you average, if false you just sum. |
-| <strong>Pin 3</strong>|  scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Average only on these elements. If it is a scoping container, the label must correspond to the one of the fields containers. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong>|  [collapse_shell_layers](#input_1) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [force_averaging](#input_2) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [scoping](#input_3) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="input_0"></a>
+### field (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_1"></a>
+### collapse_shell_layers (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true, shell layers are averaged as well (default is false).
+
+<a id="input_2"></a>
+### force_averaging (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true you average, if false you just sum.
+
+<a id="input_3"></a>
+### scoping (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Average only on these elements. If it is a scoping container, the label must correspond to the one of the fields containers.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### field (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

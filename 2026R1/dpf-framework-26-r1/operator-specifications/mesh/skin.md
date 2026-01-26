@@ -14,28 +14,105 @@ Extracts a skin of the mesh in a new meshed region. The material ID of initial e
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Nodal scoping to restrict the skin extraction to a set of nodes. If provided, a skin element is added to the skin mesh if all its nodes are in the scoping. |
-| <strong>Pin 2</strong>|  duplicate_shell |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If input mesh contains shell elements, output mesh shell elements (boolean = 1) are duplicated, one per each orientation, or (boolean = 0) remain unchanged. |
-| <strong>Pin 3</strong>|  add_beam_point |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If input mesh contains beam or point elements, output mesh beam point elements (boolean = 1) are added or (boolean = 0) are ignored. Default: False |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mesh](#input_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong>|  [mesh_scoping](#input_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>2</strong>|  [duplicate_shell](#input_2) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [add_beam_point](#input_3) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### mesh (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+
+
+<a id="input_1"></a>
+### mesh_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Nodal scoping to restrict the skin extraction to a set of nodes. If provided, a skin element is added to the skin mesh if all its nodes are in the scoping.
+
+<a id="input_2"></a>
+### duplicate_shell (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If input mesh contains shell elements, output mesh shell elements (boolean = 1) are duplicated, one per each orientation, or (boolean = 0) remain unchanged.
+
+<a id="input_3"></a>
+### add_beam_point (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If input mesh contains beam or point elements, output mesh beam point elements (boolean = 1) are added or (boolean = 0) are ignored. Default: False
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Skin meshed region with facets and facets_to_ele property fields. |
-|  **Pin 1**| nodes_mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-|  **Pin 2**| map_new_elements_to_old |`umap<int32,int32>` |  |
-|  **Pin 3**| property_field_new_elements_to_old |[`property_field`](../../core-concepts/dpf-types.md#property-field) | This property field provides, for each new face element ID (in the scoping), the corresponding 3D volume element index (in the data) it has been extracted from. The 3D volume element ID can be found with the element scoping of the input mesh. |
-|  **Pin 4**| facet_indices |[`property_field`](../../core-concepts/dpf-types.md#property-field) | This property field gives, for each new face element ID (in the scoping), the corresponding face index on the source 3D volume element. The 3D volume element can be extracted from the previous output. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+|  **1**| [nodes_mesh_scoping](#output_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **2**| [map_new_elements_to_old](#output_2) |`umap<int32,int32>` |
+|  **3**| [property_field_new_elements_to_old](#output_3) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+|  **4**| [facet_indices](#output_4) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+
+
+<a id="output_0"></a>
+### mesh (Pin 0)
+
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Skin meshed region with facets and facets_to_ele property fields.
+
+<a id="output_1"></a>
+### nodes_mesh_scoping (Pin 1)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
+<a id="output_2"></a>
+### map_new_elements_to_old (Pin 2)
+
+- **Expected type(s):** `umap<int32,int32>`
+
+
+
+<a id="output_3"></a>
+### property_field_new_elements_to_old (Pin 3)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+This property field provides, for each new face element ID (in the scoping), the corresponding 3D volume element index (in the data) it has been extracted from. The 3D volume element ID can be found with the element scoping of the input mesh.
+
+<a id="output_4"></a>
+### facet_indices (Pin 4)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+This property field gives, for each new face element ID (in the scoping), the corresponding face index on the source 3D volume element. The 3D volume element can be extracted from the previous output.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

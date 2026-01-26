@@ -29,26 +29,87 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 1</strong>|  solver_element_types_ids |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | Element Type ids to recover used by the solver. If not set, all available element types are recovered. |
-| <strong>Pin 3</strong>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Result file container allowed to be kept open to cache data. |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Result file path container, used if no streams are set. |
-| <strong>Pin 200</strong>|  output_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Get the output as a GenericDataContainer (pin value 1, default) or as a PropertyField (pin value 2). |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>1</strong>|  [solver_element_types_ids](#input_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [streams](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>200</strong>|  [output_type](#input_200) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_1"></a>
+### solver_element_types_ids (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+Element Type ids to recover used by the solver. If not set, all available element types are recovered.
+
+<a id="input_3"></a>
+### streams (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Result file container allowed to be kept open to cache data.
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+Result file path container, used if no streams are set.
+
+<a id="input_200"></a>
+### output_type (Pin 200)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Get the output as a GenericDataContainer (pin value 1, default) or as a PropertyField (pin value 2).
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| element_types_data |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container), [`property_field`](../../core-concepts/dpf-types.md#property-field) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [element_types_data](#output_0) |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container), [`property_field`](../../core-concepts/dpf-types.md#property-field) |
+
+
+<a id="output_0"></a>
+### element_types_data (Pin 0)
+
+- **Expected type(s):** [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container), [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### num_threads
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### run_in_parallel
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
+
 
 ## Scripting
 

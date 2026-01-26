@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2025-12-15).
+Changes since the last released version for DPF 26.1.pre1 (as of 2026-01-26).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,7 +9,8 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
-| cff | [2 items](#Features_cff) |[2 items](#Fixes_cff) |
+| c# | [1 item](#Features_c#) | |
+| cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
@@ -22,28 +23,29 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils |  |[11 items](#Fixes_femutils) |
-| framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
+| femutils |  |[13 items](#Fixes_femutils) |
+| framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [6 items](#Features_hdf5) |[3 items](#Fixes_hdf5) |
-| hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
+| hdf5 | [6 items](#Features_hdf5) |[7 items](#Fixes_hdf5) |
+| hgp | [3 items](#Features_hgp) |[3 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[38 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[51 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
-| multiphysicsmapper |  |[2 items](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[11 items](#Fixes_native) |
+| native |  |[18 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
+| rbd |  |[1 item](#Fixes_rbd) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | workflows |  |[1 item](#Fixes_workflows) |
@@ -59,6 +61,16 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## c#
+### <a id="Features_c#"></a> Features
+
+- Enable C# wrapping of DPF C++ plugins:
+  > Add the capability to expose any DPF C++ plugin in C# using DPF_Plugin_CSharp_Wrapper.exe.
+  >
+  > 
+  >
+  > 
+
 ## cff
 ### <a id="Features_cff"></a> Features
 
@@ -81,6 +93,14 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_cff"></a> Fixes
+
+- Ensure that gRPC servers are running on 1 thread:
+  > 
+
+- Adapt User-Defined memory behavior to FBU feedback:
+  > 
+  >
+  > 
 
 - Fix out of bounds issue in units handling:
   > 
@@ -315,6 +335,16 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Performance issues on Nodal Extend To Mid Nodes:
+  > 
+
+- Correction for averaged midside nodes from corner nodes when having multiple shell layers.:
+  > Correction of size for averaging operators when having multiple shell layers and skin elements.
+  >
+  > 
+  >
+  > 
+
 - Keep the input unit when computing torque and force summation:
   > 
   >
@@ -419,6 +449,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Property field not available:
+  > Throw an error when the queried property field is not available.
+  >
+  > 
+  >
+  > 
 
 - Expose PinSpecification.ellipsis to replace PinSpecification.ellispis:
   > 
@@ -589,6 +626,22 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Performance improvements when splitting skin mesh by material:
+  > 
+
+- Improve Performance When Reading Large Numbers of Fields from H5DPF:
+  > 
+  >
+  > 
+
+- Expose missing solver version in hdf5:
+  > 
+
+- Read mesh from input in solution provider:
+  > 
+  >
+  > 
+
 - Serialize_to_hdf5 deprecation message mentions new operator by scripting name:
   > The operator serialize_to_hdf5 is marked as deprecated in its description but redirects to the internal name of the new operator to use. This changes the message to use the scripting name (hdf5dpf_generate_result_file).
   >
@@ -640,6 +693,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Fix Streams constructor on the HgP:
+  > 
 
 - Empty vector copy:
   > 
@@ -829,6 +885,93 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Gradient and fluxes results incorrectly extracted:
+  > 
+
+- Fix "incomplete connectivity" error when loading CompositeModel:
+  > 
+  >
+  > Fix mesh loading failure for some quadratic elements with dropped nodes.
+  >
+  > 
+  >
+  > 
+
+- Physics type for RSTP files to be eMechanic:
+  > Physics type for RSTP files to be Mechanic
+  >
+  > 
+  >
+  > 
+
+- Generate doc for record_reader op:
+  > The documentation of the record_reader op was not generated. The fix consists on rewritting the spec with a const and the good order.
+  >
+  > 
+  >
+  > 
+
+- Fix number of plies detection on Filtering of Elemental Results:
+  > 
+
+- Fix mapdl::rst::mesh_property_provider in composite with a mesh scoping (or scoping mismatch):
+  > 
+  >
+  > Fix mapdl::rst::mesh_property_provider building incorect fields with a scoping mismatch or in composite
+  >
+  > 
+  >
+  > This operator was building corrupted fields when used with a distributed datasource and a specific scoping, or when a scoping was including elements outside of the result file
+  >
+  > 
+  >
+  > 
+
+- Fix nodal averaging results hanging with a big number of scoping:
+  > 
+
+- Add heat generation unit and fix JC:
+  > Fix results JC or EFD result not available for some elements
+  >
+  > 
+  >
+  > 
+
+- Filter::mesh operator fix of indeces of property fields.:
+  > 
+
+- Out of bound fix for unfilter operator unit tests:
+  > Correction of out of bound issue with solids utot results in unfilter operator
+  >
+  > 
+  >
+  > 
+
+- Block unsupported files and fix multiple memory management issues:
+  > 
+  >
+  > - Fix multiple memory management issues when using older or specific MAPDL result files
+  >
+  > - **Block the reading of MAPDL result files created with the option /fsplit,1**
+  >
+  > - **Deprecate the reading of MAPDL result file created before the release 14.5, this will be an error in 2027R1**
+  >
+  > 
+  >
+  > 
+
+- Fix filter_section_data for unsupported section types:
+  > 
+  >
+  > 
+
+- Add an option for unfiltered results and not support the files generated with split config:
+  > Add an option for unfiltered results
+  >
+  > 
+  >
+  > 
 
 - Heat Transfer Results for Link33:
   > Add Heat Flux Result support for LINK33 Elements
@@ -1507,6 +1650,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
 
+- Pass num_threads and run_in_parallel to Rescope:
+  > 
+
+- Ensure all fields have the same scoping in ApplyMapping:
+  > 
+
+- Final performance improvements:
+  > 
+
 - Ensure Linux thread safety of add_field:
   > 
   >
@@ -1533,6 +1685,45 @@ The following table shows which components have updates in each category.
 ## native
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Avoid crashing when connecting streams or data sources to the wrong pin in Source Operators:
+  > 
+
+- Enhance identical_fields documentation:
+  > Explain in the specification of the identical_fields operator the expected behavior.
+  >
+  > 
+  >
+  > 
+
+- Clarify documentation for bool_rotate_to_global pin.:
+  > 
+
+- Csv to field doesn't handle empty field:
+  > 
+
+- Boundary_condition_provider operator crashes:
+  > If using the operator _boundary_conditions_provider_ only with pins exposed in the documentation, it was crashing without a clear message.
+  >
+  > Now, all the available pins are exposed in the documentation, and the operator outputs an understandable message when using wrong inputs.
+  >
+  > 
+  >
+  > 
+
+- Fix bool_rotate_to_global specification of operators.:
+  > Fix bool_rotate_to_global specification of operators.
+  >
+  > 
+  >
+  > 
+
+- Fix elementary data selector when no dataptr is available.:
+  > Fix elementary data selector when no dataptr is available.
+  >
+  > 
+  >
+  > 
 
 - Support fields with different scopings in concatenate_fields:
   > Added the possibility to merge fields with different scopings in operators *concatenate_fields* and *concatenate_fields_containers*, with the possibility to choose the scoping to keep for output.
@@ -1666,6 +1857,12 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+## rbd
+
+### <a id="Fixes_rbd"></a> Fixes
+
+- Create first version of ResultInfo to avoid crash:
   > 
 ## refactor
 ### <a id="Features_refactor"></a> Features
@@ -2057,6 +2254,9 @@ The following table shows which components have updates in each category.
 - [output_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/output_sound_power.md):
   > Read/compute POUT by calling the readers defined by the datasources.
 
+- [record_reader](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/record_reader.md):
+  > Extracts a record from a file.
+
 - [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/squared_l2norm_pressure.md):
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
@@ -2169,6 +2369,8 @@ The following table shows which components have updates in each category.
 - [elementary_data_selector](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/logic/elementary_data_selector.md)
 
   > 0.1.0: fix of crash when input field data pointer is empty, the operator will output an empty field in this case moving forward.
+
+  > 0.2.0: fix of crash when input field had no data pointer, the operator will output an empty field in this case moving forward.
 
 
 - [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/logic/solid_shell_fields.md)
@@ -2327,6 +2529,11 @@ The following table shows which components have updates in each category.
 
 #### metadata
 
+- [boundary_condition_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/boundary_condition_provider.md)
+
+  > 0.0.1: Improved documentation and exceptions handling.
+
+
 - [element_types_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/element_types_provider.md)
 
   > 0.1.0: Added the possibility to output a PropertyField.
@@ -2347,12 +2554,17 @@ The following table shows which components have updates in each category.
 
 - [accu_eqv_creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/accu_eqv_creep_strain.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [accu_eqv_plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/accu_eqv_plastic_strain.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [artificial_hourglass_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/artificial_hourglass_energy.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [beam_axial_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_axial_force.md)
@@ -2395,49 +2607,54 @@ The following table shows which components have updates in each category.
   > 0.1.0: MAPDL results supported.
 
 
+- [co_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/co_energy.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
 - [contact_fluid_penetration_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_fluid_penetration_pressure.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_friction_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_friction_stress.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_gap_distance](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_gap_distance.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_penetration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_penetration.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_pressure.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_sliding_distance](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_sliding_distance.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_status](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_status.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_surface_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_surface_heat_flux.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_total_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_total_stress.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [coordinate_system](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/coordinate_system.md)
@@ -2447,7 +2664,7 @@ The following table shows which components have updates in each category.
 
 - [creep_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_energy_density.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/displacement.md)
@@ -2462,12 +2679,12 @@ The following table shows which components have updates in each category.
 
 - [elastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_energy_density.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [elastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_eqv.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [elastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_intensity.md)
@@ -2505,6 +2722,16 @@ The following table shows which components have updates in each category.
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
+- [electric_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/electric_potential.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [element_centroids](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/element_centroids.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
 - [element_nodal_forces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/element_nodal_forces.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
@@ -2512,27 +2739,47 @@ The following table shows which components have updates in each category.
 
 - [element_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/element_orientations.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [elemental_heat_generation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_heat_generation.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [elemental_mass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_mass.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [elemental_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_volume.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [equivalent_mass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/equivalent_mass.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [eqv_stress_parameter](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/eqv_stress_parameter.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [gasket_inelastic_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_inelastic_closure.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [gasket_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_stress.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [gasket_thermal_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_thermal_closure.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/heat_flux.md)
@@ -2542,7 +2789,17 @@ The following table shows which components have updates in each category.
 
 - [hydrostatic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/hydrostatic_pressure.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [incremental_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/incremental_energy.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [kinetic_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/kinetic_energy.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_field.md)
@@ -2555,19 +2812,34 @@ The following table shows which components have updates in each category.
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
+- [magnetic_scalar_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_scalar_potential.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [magnetic_vector_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_vector_potential.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
 - [mapdl.pres_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/mapdl.pres_to_field.md)
 
   > 0.0.1: Fix crash caused by invalid iterator when reading shell data.
 
 
+- [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nmisc.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
 - [num_surface_status_changes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/num_surface_status_changes.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [plastic_state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_state_variable.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain.md)
@@ -2577,12 +2849,12 @@ The following table shows which components have updates in each category.
 
 - [plastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_energy_density.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [plastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_eqv.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [plastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_intensity.md)
@@ -2615,6 +2887,11 @@ The following table shows which components have updates in each category.
   > 0.0.1: Fix bug in memory allocation for some local variables participating in interpolation at integration points.
 
 
+- [pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/pressure.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
 - [raw_displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/raw_displacement.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
@@ -2640,9 +2917,24 @@ The following table shows which components have updates in each category.
   > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
 
 
+- [result_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/result_provider.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were only performed if the requested result was a 3D vector or a symmetrical 3x3 matrix.
+
+
+- [smisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/smisc.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
 - [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/state_variable.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [stiffness_matrix_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stiffness_matrix_energy.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress.md)
@@ -2677,7 +2969,7 @@ The following table shows which components have updates in each category.
 
 - [stress_ratio](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_ratio.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [stress_von_mises](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_von_mises.md)
@@ -2687,17 +2979,27 @@ The following table shows which components have updates in each category.
 
 - [structural_temperature](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/structural_temperature.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [swelling_strains](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/swelling_strains.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [temperature](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/temperature.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [temperature_grad](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/temperature_grad.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+
+
+- [thermal_dissipation_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_dissipation_energy.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [thermal_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain.md)
@@ -2722,7 +3024,12 @@ The following table shows which components have updates in each category.
 
 - [thermal_strains_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strains_eqv.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
+
+
+- [thickness](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thickness.md)
+
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [torque](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/torque.md)
@@ -2759,9 +3066,29 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: Improvement of performance
 
+  > 0.1.1: Error with license
+
+
+
+#### serialization
+
+- [csv_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/serialization/csv_to_field.md)
+
+  > 1.0.0: Fixed issue while reading csv with multiple fields and common time id between fields.
+
+
+- [field_to_csv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/serialization/field_to_csv.md)
+
+  > 1.0.0: Fixed issue while writing csv with multiple fields and common time id between fields.
+
 
 
 #### utility
+
+- [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/extract_scoping.md)
+
+  > 0.0.1: Error with license
+
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/html_doc.md)
 

@@ -14,23 +14,63 @@ Splits a Streams into multiple coherent streams, actual number of outputs is alw
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Streams to split. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_count |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of desired outputs. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [streams](#input_0) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [output_count](#input_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### streams (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Streams to split.
+
+<a id="input_1"></a>
+### output_count (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Number of desired outputs.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin -1**| output_count |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Actual number of outputs. |
-|  **Pin 0**| outputs |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Streams outputs. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **-1**| [output_count](#output_-1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **0**| [outputs](#output_0) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+
+
+<a id="output_-1"></a>
+### output_count (Pin -1)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Actual number of outputs.
+
+<a id="output_0"></a>
+### outputs (Pin 0)
+
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Streams outputs.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 
