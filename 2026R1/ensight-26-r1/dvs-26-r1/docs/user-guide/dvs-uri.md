@@ -10,7 +10,7 @@ URIs are used in the DVS API and dvs_file to specify protocol's, locations, and 
 
 ## Server URIs
 
-The Server URI specifies what transport protocol to use, the machine and port to connect to if using a network connection. This is used by [dvs\_server\_create()](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_server_create) or [DVS::CREATE\_SERVER\_INSTANCE()](../api/namespaces/namespace_d_v_s.md#function-create_server_instance) to create a server to connect to.
+The Server URI specifies what transport protocol to use, the machine and port to connect to if using a network connection. This is used by [dvs\_server\_create()](../reference/files/dynamic__visualization__store__api_8h.md#function-dvs_server_create) or [DVS::CREATE\_SERVER\_INSTANCE()](../reference/namespaces/namespace_d_v_s.md#function-create_server_instance) to create a server to connect to.
  
 | Server URI Format | Description |
 | --- | --- |
@@ -33,7 +33,7 @@ The Server URI specifies what transport protocol to use, the machine and port to
 
 ## Cache URIs
 
-Cache URIs are used to specify what domain/type of dvs_cache to use, the host and port of the machine to connect if needed, the path of the cache on the machine, filters and options. Cache URIs are used by both the DVS API if wanting to cache data or a dvs_file to load data previously cached. The URI is set via the API by calling <code>[dvs\_server\_set\_option()](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_server_set_option)</code> in tha C API or <code>[DVS::IServer::set\_option()](../api/classes/class_d_v_s_1_1_i_server.md#function-set_option)</code> in the C API, using `CACHE_URI` as the key, and the URI as the value.<br/>
+Cache URIs are used to specify what domain/type of dvs_cache to use, the host and port of the machine to connect if needed, the path of the cache on the machine, filters and options. Cache URIs are used by both the DVS API if wanting to cache data or a dvs_file to load data previously cached. The URI is set via the API by calling <code>[dvs\_server\_set\_option()](../reference/files/dynamic__visualization__store__api_8h.md#function-dvs_server_set_option)</code> in tha C API or <code>[DVS::IServer::set\_option()](../reference/classes/class_d_v_s_1_1_i_server.md#function-set_option)</code> in the C API, using `CACHE_URI` as the key, and the URI as the value.<br/>
 
 > Example: `dvs_server_set_option("CACHE_URI", "hdf5://localhost:1234/D:/temp/cache")`
 

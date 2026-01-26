@@ -6,7 +6,7 @@ Description of supported metadata for the DVS API.
 
 ## DVS Dataset Metadata
 
-The DVS API supports writing dataset metadata via the [dvs\_add\_metadata()](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_add_metadata) or [DVS::IClient::add\_metadata()](../api/classes/class_d_v_s_1_1_i_client.md#class-dvsiclient) methods for the C/C++ API (similarly named methods for the Python API). This must be done during the initialization step between `begin_init` and `end_init`.
+The DVS API supports writing dataset metadata via the [dvs\_add\_metadata()](../reference/files/dynamic__visualization__store__api_8h.md#function-dvs_add_metadata) or [DVS::IClient::add\_metadata()](../reference/classes/class_d_v_s_1_1_i_client.md#class-dvsiclient) methods for the C/C++ API (similarly named methods for the Python API). This must be done during the initialization step between `begin_init` and `end_init`.
 
 ### Supported EnSight Dataset Metadata
 
@@ -50,7 +50,7 @@ A user would like to filter out elements based on the variable `delete_element` 
 
 ## DVS Part Metadata
 
-The DVS API supports writing part metadata via [dvs\_add\_part\_info()](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_add_part_info) or [DVS::IClient::add\_part\_info()](../api/classes/class_d_v_s_1_1_i_client.md#function-add_part_info) methods for the C/C++ API through the [dvs\_part\_info::\_metadata\_keys](../api/structures/structdvs__part__info.md#variable-_metadata_keys) and [dvs\_part\_info::\_metadata\_vals](../api/structures/structdvs__part__info.md#variable-_metadata_vals). The Python API method is dvs_add_part_info and metadata is passed via the tags dictionary on an object.
+The DVS API supports writing part metadata via [dvs\_add\_part\_info()](../reference/files/dynamic__visualization__store__api_8h.md#function-dvs_add_part_info) or [DVS::IClient::add\_part\_info()](../reference/classes/class_d_v_s_1_1_i_client.md#function-add_part_info) methods for the C/C++ API through the [dvs\_part\_info::\_metadata\_keys](../reference/structures/structdvs__part__info.md#variable-_metadata_keys) and [dvs\_part\_info::\_metadata\_vals](../reference/structures/structdvs__part__info.md#variable-_metadata_vals). The Python API method is dvs_add_part_info and metadata is passed via the tags dictionary on an object.
 
 ### Supported EnSight Part Metadata
 
@@ -64,11 +64,11 @@ The DVS API supports writing part metadata via [dvs\_add\_part\_info()](../api/f
 
 ## DVS Plot Metadata
 
-The DVS API supports writing plot metadata via [dvs\_add\_plot\_info()](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_add_plot_info) or [DVS::IClient::add\_plot\_info()](../api/classes/class_d_v_s_1_1_i_client.md#function-add_plot_info) methods for the C/C++ API through the [dvs\_plot\_info::\_metadata\_keys](../api/structures/structdvs__plot__info.md#variable-_metadata_keys) and [dvs\_plot\_info::\_metadata\_vals](../api/structures/structdvs__plot__info.md#variable-_metadata_vals). The Python API method is dvs_add_plot_info and metadata is passed via the tags dictionary on an object.
+The DVS API supports writing plot metadata via [dvs\_add\_plot\_info()](../reference/files/dynamic__visualization__store__api_8h.md#function-dvs_add_plot_info) or [DVS::IClient::add\_plot\_info()](../reference/classes/class_d_v_s_1_1_i_client.md#function-add_plot_info) methods for the C/C++ API through the [dvs\_plot\_info::\_metadata\_keys](../reference/structures/structdvs__plot__info.md#variable-_metadata_keys) and [dvs\_plot\_info::\_metadata\_vals](../reference/structures/structdvs__plot__info.md#variable-_metadata_vals). The Python API method is dvs_add_plot_info and metadata is passed via the tags dictionary on an object.
 
 ## DVS Variable Metadata
 
-The DVS API supports writing variable metadata via [dvs\_add\_var\_info()](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_add_var_info) or [DVS::IClient::add\_var\_info()](../api/classes/class_d_v_s_1_1_i_client.md#function-add_var_info) methods for the C/C++ API through the [dvs\_var\_info::\_metadata\_keys](../api/structures/structdvs__var__info.md#variable-_metadata_keys) and [dvs\_var\_info::\_metadata\_vals](../api/structures/structdvs__var__info.md#variable-_metadata_vals). The Python API method is dvs_add_var_info and metadata is passed via the tags dictionary on an object.
+The DVS API supports writing variable metadata via [dvs\_add\_var\_info()](../reference/files/dynamic__visualization__store__api_8h.md#function-dvs_add_var_info) or [DVS::IClient::add\_var\_info()](../reference/classes/class_d_v_s_1_1_i_client.md#function-add_var_info) methods for the C/C++ API through the [dvs\_var\_info::\_metadata\_keys](../reference/structures/structdvs__var__info.md#variable-_metadata_keys) and [dvs\_var\_info::\_metadata\_vals](../reference/structures/structdvs__var__info.md#variable-_metadata_vals). The Python API method is dvs_add_var_info and metadata is passed via the tags dictionary on an object.
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

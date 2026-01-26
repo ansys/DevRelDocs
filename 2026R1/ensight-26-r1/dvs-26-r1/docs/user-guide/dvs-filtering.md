@@ -6,7 +6,7 @@ Description of filtering of data within the DVS project.
 
 Data selection of the current view of data is done via a chained set of filters ([Query Stanzas](#query-stanzas)). These filters make it possible to dynamically down select to a subset of data in the cache. This can be used to filter data within a single cache and in the future form multiple DVS data sources at the same time. This will enable the creation of ensemble views of multiple disparate DVS data sources, allowing users to combine design points or even data from different domains (i.e. mechanical and fluids) into one overall view to iterate over. Allowing more powerful and interesting postprocessing of the data for comparison.
 
-These filters are used in the [Query Stanzas](#query-stanzas) section of the [Cache URIs](./dvs-uri.md#cache-uris) and also in the DVS Reader API [DVS::IQuery](../api/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery).
+These filters are used in the [Query Stanzas](#query-stanzas) section of the [Cache URIs](./dvs-uri.md#cache-uris) and also in the DVS Reader API [DVS::IQuery](../reference/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery).
 
 In [Cache URIs](./dvs-uri.md#cache-uris) the filters are specified by adding a query option to the [Cache URI Options](./dvs-uri.md#cache-uri-options) section of the [Cache URIs](./dvs-uri.md#cache-uris).
 

@@ -9,7 +9,7 @@ DVS Reader API can be used to read data from a cache.
 The DVS Reader API is an external API to allow applications to read data from a DVS Cache.
 
 
-The API is built around using chained queries and filtering (dvs_filtering_overview) to select what data you are interested in and then iterate over that data. You start with a high level [DVS::IQuery](../api/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery), add filters based on what you are interesting in looking at and then make calls to iterate over the data. The filtering mechanism is used to let you iterate over the data in different axis. Eg. A single part over all of time or all parts over a specific timestep. The filtering also allows for letting you set your parallelism model. I.E. if the data was written with 3 DVS servers you can easily tell it if you want to process all data at once (eg. 1 postprocessing processes) or possibly round robin them (eg. 2 postprocessing processes). This should be clearer in the examples [DVS Reader Examples](#dvs-reader-examples).
+The API is built around using chained queries and filtering (dvs_filtering_overview) to select what data you are interested in and then iterate over that data. You start with a high level [DVS::IQuery](../reference/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery), add filters based on what you are interesting in looking at and then make calls to iterate over the data. The filtering mechanism is used to let you iterate over the data in different axis. Eg. A single part over all of time or all parts over a specific timestep. The filtering also allows for letting you set your parallelism model. I.E. if the data was written with 3 DVS servers you can easily tell it if you want to process all data at once (eg. 1 postprocessing processes) or possibly round robin them (eg. 2 postprocessing processes). This should be clearer in the examples [DVS Reader Examples](#dvs-reader-examples).
 
 ## DVS Reader Data Model
 
@@ -17,13 +17,13 @@ A conceptual view of the DVS Reader data model is below.
 
 DVS Reader Data Model.
 
-For a high level view of the overall DVS Data model see dvs_data_model. A high level summary is that you start with a [DVS::IQuery](../api/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery) object, point it towards a DVS URI, interrogate the data model, set filters, and then begin iterating over [DVS::IPlotChunk](../api/classes/class_d_v_s_1_1_i_plot_chunk.md#function-iplotchunk), [DVS::IMeshChunk](../api/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk), and [DVS::IElementBlock](../api/classes/class_d_v_s_1_1_i_element_block.md#class-dvsielementblock) objects. The [DVS::IPlotChunk](../api/classes/class_d_v_s_1_1_i_plot_chunk.md#class-dvsiplotchunk) and [DVS::IMeshChunk](../api/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk) objects each refer to a unique tuple of {Time,Object,Rank,Chunk} where Object is based on the Part or Plot they refer to.
+For a high level view of the overall DVS Data model see dvs_data_model. A high level summary is that you start with a [DVS::IQuery](../reference/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery) object, point it towards a DVS URI, interrogate the data model, set filters, and then begin iterating over [DVS::IPlotChunk](../reference/classes/class_d_v_s_1_1_i_plot_chunk.md#function-iplotchunk), [DVS::IMeshChunk](../reference/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk), and [DVS::IElementBlock](../reference/classes/class_d_v_s_1_1_i_element_block.md#class-dvsielementblock) objects. The [DVS::IPlotChunk](../reference/classes/class_d_v_s_1_1_i_plot_chunk.md#class-dvsiplotchunk) and [DVS::IMeshChunk](../reference/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk) objects each refer to a unique tuple of {Time,Object,Rank,Chunk} where Object is based on the Part or Plot they refer to.
 
-[DVS::IPlotChunk](../api/classes/class_d_v_s_1_1_i_plot_chunk.md#function-iplotchunk) objects shouldn't need to be split into rank/chunks. Currently EnSight expects to only see one [DVS::IPlotChunk](../api/classes/class_d_v_s_1_1_i_plot_chunk.md#function-iplotchunk) per time over all ranks/chunks.
+[DVS::IPlotChunk](../reference/classes/class_d_v_s_1_1_i_plot_chunk.md#function-iplotchunk) objects shouldn't need to be split into rank/chunks. Currently EnSight expects to only see one [DVS::IPlotChunk](../reference/classes/class_d_v_s_1_1_i_plot_chunk.md#function-iplotchunk) per time over all ranks/chunks.
 
-[DVS::IMeshChunk](../api/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk) is a subportion of the mesh and contains methods to get coordinates of the mesh for this chunk and nodal variable data. The elemental connectivity data for the current [DVS::IMeshChunk](../api/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk) is stored on an [DVS::IElementBlock](../api/classes/class_d_v_s_1_1_i_element_block.md#class-dvsielementblock) for each element type.
+[DVS::IMeshChunk](../reference/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk) is a subportion of the mesh and contains methods to get coordinates of the mesh for this chunk and nodal variable data. The elemental connectivity data for the current [DVS::IMeshChunk](../reference/classes/class_d_v_s_1_1_i_mesh_chunk.md#class-dvsimeshchunk) is stored on an [DVS::IElementBlock](../reference/classes/class_d_v_s_1_1_i_element_block.md#class-dvsielementblock) for each element type.
 
-[DVS::IElementBlock](../api/classes/class_d_v_s_1_1_i_element_block.md#class-dvsielementblock) contains the connectivity for unstructured meshes (Structured mesh connectivity is implied) and elemental variable data.
+[DVS::IElementBlock](../reference/classes/class_d_v_s_1_1_i_element_block.md#class-dvsielementblock) contains the connectivity for unstructured meshes (Structured mesh connectivity is implied) and elemental variable data.
 
 All coordinates, connectivity, and variables also contain a hash which can be used for comparison so see if the internal data is different.
 
@@ -33,7 +33,7 @@ The latest stable code and binaries and can be found in [Artifactory](http://can
 
 The binaries to statically link against can be found under either `linux_2.6_64` for Linux and `win64` for Windows. For the DVS Reader API you will need the `libdvsreader.lib`/`dll` or `libdvsreader.so` depending on the platform.
 
-All the headers needed for the DVS Reader API are under the `include` directory. The top level header being the [dvs\_query\_interface.h](../api/files/dvs__query__interface_8h.md#file-dvs_query_interfaceh) which includes the [DVS::IQuery](../api/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery) interface.
+All the headers needed for the DVS Reader API are under the `include` directory. The top level header being the [dvs\_query\_interface.h](../reference/files/dvs__query__interface_8h.md#file-dvs_query_interfaceh) which includes the [DVS::IQuery](../reference/classes/class_d_v_s_1_1_i_query.md#class-dvsiquery) interface.
 
 For examples of using the API refer to [DVS Reader Examples](#dvs-reader-examples). 
 
