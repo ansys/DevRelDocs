@@ -30,7 +30,7 @@ Directly, without running pip or protoc, as the ensight_pb2 and ensight_pb2_grpc
 
 The demo will launch EnSight in batch mode with the gRPC interface active, connect to it and allow simple brokered interactions (the File->Open menu will allow CFX .res data and EnSight .case files to be loaded in the session).
 
-The source code to the built in example above is included in the distribution in: <code>v261\CEI\ensight261\site_preferences\extensions\[EnSight gRPC Interface](group__grpc.md#group__grpc)</code>. Files include:
+The source code to the built in example above is included in the distribution in: <code>v261\CEI\ensight261\site_preferences\extensions\</code>. Files include:
 
 * <code>build.sh</code> - a script file that compiles the .proto file into Python modules
 

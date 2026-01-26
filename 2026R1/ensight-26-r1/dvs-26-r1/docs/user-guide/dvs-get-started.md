@@ -42,7 +42,7 @@ Currently the C API allows for the startup DVS servers without running EnSight b
 
 1. Create a server using <code>[dvs\_server\_create()](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_server_create)</code>. This method takes a <code>uri</code>, a <code>server_number</code> and <code>local_ranks</code>.
    1. <code>URI</code>: The URI param specifies the protocol, machine, and port of the server. The URI is of the form <code>protcol://hostname:port</code>.
-      1. <code>protocol</code>: Valid protocol value are <code>[EnSight gRPC Interface](group__grpc.md)</code> (which uses gRPC communication) or <code>null</code> which uses direct method calls and no network communications. Examples: `grpc://localhost:50055`, `grpc://person.ansys.com:56789`, `null://`
+      1. <code>protocol</code>: Valid protocol value are <code>[EnSight gRPC Interface](https://developer.ansys.com/docs/ensight-grpc-interface-2026-r1/index.md)</code> (which uses gRPC communication) or <code>null</code> which uses direct method calls and no network communications. Examples: `grpc://localhost:50055`, `grpc://person.ansys.com:56789`, `null://`
    2. <code>server_id</code>: A return value of a dynamically created handle to the server that was created. `-1` if it failed to create.
 2. Server Options: The <code>dvs_server_set_options()</code> and <code>dvs_server_clear_options()</code> calls allow you to set specific server key/value pairs before calling <code>[dvs\_server\_start](../api/files/dynamic__visualization__store__api_8h.md#function-dvs_server_start)</code>. The current options are:
    1. <code>VERBOSE</code> : Sets the verbosity of the server, set to `3` for decent debug info.
