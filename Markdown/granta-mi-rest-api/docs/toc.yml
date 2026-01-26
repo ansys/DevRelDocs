@@ -40,4 +40,4 @@
     - name: Requests are blocked with a 403 Forbidden error
       href: ts-request-blocked-403.md
 - name: API reference
-  href: /docs/granta-integration-service-1-0-0
+  href: grant-mi-rest-api.md
