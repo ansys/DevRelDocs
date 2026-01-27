@@ -77,7 +77,7 @@ This class cannot be instantiated from Python
 
 <a id="PyOptimizerBase.OptimizerBase.initialize"></a>
 
-#### initialize(arg2: [SettingsBase](#PyOptimizerBase.SettingsBase))
+#### initialize(arg2: SettingsBase)
 
 <a id="PyOptimizerBase.OptimizerBase.is_converged"></a>
 

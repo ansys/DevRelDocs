@@ -245,6 +245,10 @@ This class cannot be instantiated from Python
 
 #### has_single_cop(parameter_name: str) → bool
 
+<a id="py_omdb.PySurrogateInfo.is_response_scalar"></a>
+
+#### is_response_scalar() → bool
+
 <a id="py_omdb.SurrogateInfoContainerList"></a>
 
 ## *class* py_omdb.SurrogateInfoContainerList
