@@ -1,9 +1,4 @@
----
-uid: sensor_intensity_builder
-title: SensorIntensityBuilder
----
-
-# SensorIntensityBuilder
+﻿# SensorIntensityBuilder
 
 **Full Name**: `SpeosNX_2512::SensorIntensityBuilder`
 

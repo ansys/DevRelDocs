@@ -1,9 +1,4 @@
----
-uid: part_collection
-title: PartCollection
----
-
-# PartCollection
+﻿# PartCollection
 
 **Full Name**: `SpeosNX_2512::PartCollection`
 

@@ -1,9 +1,4 @@
----
-uid: component_optical_design_exchange_result_builder
-title: ComponentOpticalDesignExchangeResultBuilder
----
-
-# ComponentOpticalDesignExchangeResultBuilder
+﻿# ComponentOpticalDesignExchangeResultBuilder
 
 **Full Name**: `SpeosNX_2512::ComponentOpticalDesignExchangeResultBuilder`
 

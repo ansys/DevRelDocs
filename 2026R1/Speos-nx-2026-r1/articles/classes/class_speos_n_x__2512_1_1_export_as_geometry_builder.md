@@ -1,9 +1,4 @@
----
-uid: export_as_geometry_builder
-title: ExportAsGeometryBuilder
----
-
-# ExportAsGeometryBuilder
+﻿# ExportAsGeometryBuilder
 
 **Full Name**: `SpeosNX_2512::ExportAsGeometryBuilder`
 

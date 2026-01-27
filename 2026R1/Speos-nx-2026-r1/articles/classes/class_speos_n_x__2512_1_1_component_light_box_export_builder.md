@@ -1,9 +1,4 @@
----
-uid: component_light_box_export_builder
-title: ComponentLightBoxExportBuilder
----
-
-# ComponentLightBoxExportBuilder
+﻿# ComponentLightBoxExportBuilder
 
 **Full Name**: `SpeosNX_2512::ComponentLightBoxExportBuilder`
 

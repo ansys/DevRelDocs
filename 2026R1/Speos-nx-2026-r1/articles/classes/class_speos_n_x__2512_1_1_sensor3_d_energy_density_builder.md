@@ -1,9 +1,4 @@
----
-uid: sensor3_d_energy_density_builder
-title: Sensor3DEnergyDensityBuilder
----
-
-# Sensor3DEnergyDensityBuilder
+﻿# Sensor3DEnergyDensityBuilder
 
 **Full Name**: `SpeosNX_2512::Sensor3DEnergyDensityBuilder`
 

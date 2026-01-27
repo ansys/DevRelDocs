@@ -1,11 +1,6 @@
----
-uid: _usage_examples
-title: Usage Examples
----
+﻿# Usage examples
 
-# Usage examples
-
-### Creating a feature Source
+## Creating a feature Source
 
 
 

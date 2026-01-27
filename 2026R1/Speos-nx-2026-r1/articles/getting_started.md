@@ -1,9 +1,4 @@
----
-uid: getting-started
-title: Getting Started
----
-
-# Getting Started
+﻿# Getting Started
 
 This section provides information on how to get started with the SpeosNX Python API.
 

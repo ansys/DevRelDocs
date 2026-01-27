@@ -1,9 +1,4 @@
----
-uid: source_interactive_builder
-title: SourceInteractiveBuilder
----
-
-# SourceInteractiveBuilder
+﻿# SourceInteractiveBuilder
 
 **Full Name**: `SpeosNX_2512::SourceInteractiveBuilder`
 

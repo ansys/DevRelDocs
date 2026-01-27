@@ -1,9 +1,4 @@
----
-uid: source_group_builder
-title: SourceGroupBuilder
----
-
-# SourceGroupBuilder
+﻿# SourceGroupBuilder
 
 **Full Name**: `SpeosNX_2512::SourceGroupBuilder`
 

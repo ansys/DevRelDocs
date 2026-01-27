@@ -1,9 +1,4 @@
----
-uid: source_ambient_overcast_sky_builder
-title: SourceAmbientOvercastSkyBuilder
----
-
-# SourceAmbientOvercastSkyBuilder
+﻿# SourceAmbientOvercastSkyBuilder
 
 **Full Name**: `SpeosNX_2512::SourceAmbientOvercastSkyBuilder`
 

@@ -1,9 +1,4 @@
----
-uid: component_ambient_material_builder
-title: ComponentAmbientMaterialBuilder
----
-
-# ComponentAmbientMaterialBuilder
+﻿# ComponentAmbientMaterialBuilder
 
 **Full Name**: `SpeosNX_2512::ComponentAmbientMaterialBuilder`
 

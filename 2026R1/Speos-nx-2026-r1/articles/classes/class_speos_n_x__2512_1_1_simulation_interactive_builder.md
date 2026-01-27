@@ -1,9 +1,4 @@
----
-uid: simulation_interactive_builder
-title: SimulationInteractiveBuilder
----
-
-# SimulationInteractiveBuilder
+﻿# SimulationInteractiveBuilder
 
 **Full Name**: `SpeosNX_2512::SimulationInteractiveBuilder`
 

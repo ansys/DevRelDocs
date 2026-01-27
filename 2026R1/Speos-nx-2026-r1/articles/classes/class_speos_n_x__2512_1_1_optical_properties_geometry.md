@@ -1,9 +1,4 @@
----
-uid: optical_properties_geometry
-title: OpticalPropertiesGeometry
----
-
-# OpticalPropertiesGeometry
+﻿# OpticalPropertiesGeometry
 
 **Full Name**: `SpeosNX_2512::OpticalPropertiesGeometry`
 

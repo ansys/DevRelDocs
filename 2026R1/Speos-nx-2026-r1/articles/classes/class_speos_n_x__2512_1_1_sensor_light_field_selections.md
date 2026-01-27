@@ -1,9 +1,4 @@
----
-uid: sensor_light_field_selections
-title: SensorLightFieldSelections
----
-
-# SensorLightFieldSelections
+﻿# SensorLightFieldSelections
 
 **Full Name**: `SpeosNX_2512::SensorLightFieldSelections`
 

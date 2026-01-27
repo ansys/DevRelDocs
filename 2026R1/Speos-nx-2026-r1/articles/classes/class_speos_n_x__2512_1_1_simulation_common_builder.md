@@ -1,9 +1,4 @@
----
-uid: simulation_common_builder
-title: SimulationCommonBuilder
----
-
-# SimulationCommonBuilder
+﻿# SimulationCommonBuilder
 
 **Full Name**: `SpeosNX_2512::SimulationCommonBuilder`
 

@@ -1,9 +1,4 @@
----
-uid: ray_file_data
-title: RayFileData
----
-
-# RayFileData
+﻿# RayFileData
 
 **Full Name**: `SpeosNX_2512::RayFileData`
 

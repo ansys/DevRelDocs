@@ -1,9 +1,4 @@
----
-uid: source_ambient_u_s1976_builder
-title: SourceAmbientUS1976Builder
----
-
-# SourceAmbientUS1976Builder
+﻿# SourceAmbientUS1976Builder
 
 **Full Name**: `SpeosNX_2512::SourceAmbientUS1976Builder`
 

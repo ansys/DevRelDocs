@@ -1,9 +1,4 @@
----
-uid: source_luminaire_builder
-title: SourceLuminaireBuilder
----
-
-# SourceLuminaireBuilder
+﻿# SourceLuminaireBuilder
 
 **Full Name**: `SpeosNX_2512::SourceLuminaireBuilder`
 

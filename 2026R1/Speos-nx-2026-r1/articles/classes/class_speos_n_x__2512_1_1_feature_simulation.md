@@ -1,9 +1,4 @@
----
-uid: feature_simulation
-title: FeatureSimulation
----
-
-# FeatureSimulation
+﻿# FeatureSimulation
 
 **Full Name**: `SpeosNX_2512::FeatureSimulation`
 

@@ -1,9 +1,4 @@
----
-uid: source_display_builder
-title: SourceDisplayBuilder
----
-
-# SourceDisplayBuilder
+﻿# SourceDisplayBuilder
 
 **Full Name**: `SpeosNX_2512::SourceDisplayBuilder`
 

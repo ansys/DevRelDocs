@@ -1,9 +1,4 @@
----
-uid: feature
-title: Feature
----
-
-# Feature
+﻿# Feature
 
 **Full Name**: `SpeosNX_2512::Feature`
 

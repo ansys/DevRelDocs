@@ -1,9 +1,4 @@
----
-uid: source_ambient_environment_builder
-title: SourceAmbientEnvironmentBuilder
----
-
-# SourceAmbientEnvironmentBuilder
+﻿# SourceAmbientEnvironmentBuilder
 
 **Full Name**: `SpeosNX_2512::SourceAmbientEnvironmentBuilder`
 

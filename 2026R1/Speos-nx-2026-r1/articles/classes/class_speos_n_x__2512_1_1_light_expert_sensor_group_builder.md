@@ -1,9 +1,4 @@
----
-uid: light_expert_sensor_group_builder
-title: LightExpertSensorGroupBuilder
----
-
-# LightExpertSensorGroupBuilder
+﻿# LightExpertSensorGroupBuilder
 
 **Full Name**: `SpeosNX_2512::LightExpertSensorGroupBuilder`
 

@@ -1,9 +1,4 @@
----
-uid: sensor_common_builder
-title: SensorCommonBuilder
----
-
-# SensorCommonBuilder
+﻿# SensorCommonBuilder
 
 **Full Name**: `SpeosNX_2512::SensorCommonBuilder`
 

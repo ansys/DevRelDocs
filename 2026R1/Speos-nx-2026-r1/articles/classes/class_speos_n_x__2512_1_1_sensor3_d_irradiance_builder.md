@@ -1,9 +1,4 @@
----
-uid: sensor3_d_irradiance_builder
-title: Sensor3DIrradianceBuilder
----
-
-# Sensor3DIrradianceBuilder
+﻿# Sensor3DIrradianceBuilder
 
 **Full Name**: `SpeosNX_2512::Sensor3DIrradianceBuilder`
 

@@ -1,11 +1,6 @@
----
-uid: _changelog
-title: Changelog
----
+﻿# Changelog
 
-# Changelog
-
-### Release 2026 R1 Beta
+## Release 2026 R1 Beta
 
 
 
@@ -20,7 +15,7 @@ title: Changelog
 
 
 
-### Release 2025 R2 Beta
+## Release 2025 R2 Beta
 
 
 
@@ -47,7 +42,7 @@ title: Changelog
 
 
 
-### Release 2025 R1.1 Beta
+## Release 2025 R1.1 Beta
 
 
 
@@ -64,7 +59,7 @@ title: Changelog
 
 
 
-### Release 2025 R1 Beta
+## Release 2025 R1 Beta
 
 
 
@@ -86,7 +81,7 @@ title: Changelog
 
 
 
-### Release 2024 R2 Beta
+## Release 2024 R2 Beta
 
 
 

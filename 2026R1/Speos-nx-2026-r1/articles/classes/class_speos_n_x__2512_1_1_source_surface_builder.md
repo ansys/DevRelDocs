@@ -1,9 +1,4 @@
----
-uid: source_surface_builder
-title: SourceSurfaceBuilder
----
-
-# SourceSurfaceBuilder
+﻿# SourceSurfaceBuilder
 
 **Full Name**: `SpeosNX_2512::SourceSurfaceBuilder`
 

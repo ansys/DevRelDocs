@@ -1,9 +1,4 @@
----
-uid: session
-title: Session
----
-
-# Session
+﻿# Session
 
 **Full Name**: `SpeosNX_2512::Session`
 

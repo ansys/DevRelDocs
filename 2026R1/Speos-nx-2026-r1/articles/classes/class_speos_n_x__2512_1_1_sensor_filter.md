@@ -1,9 +1,4 @@
----
-uid: sensor_filter
-title: SensorFilter
----
-
-# SensorFilter
+﻿# SensorFilter
 
 **Full Name**: `SpeosNX_2512::SensorFilter`
 

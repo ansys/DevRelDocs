@@ -1,9 +1,4 @@
----
-uid: result_feature
-title: ResultFeature
----
-
-# ResultFeature
+﻿# ResultFeature
 
 **Full Name**: `SpeosNX_2512::ResultFeature`
 

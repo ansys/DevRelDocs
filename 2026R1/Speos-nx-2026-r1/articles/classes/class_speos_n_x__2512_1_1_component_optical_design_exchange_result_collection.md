@@ -1,9 +1,4 @@
----
-uid: component_optical_design_exchange_result_collection
-title: ComponentOpticalDesignExchangeResultCollection
----
-
-# ComponentOpticalDesignExchangeResultCollection
+﻿# ComponentOpticalDesignExchangeResultCollection
 
 **Full Name**: `SpeosNX_2512::ComponentOpticalDesignExchangeResultCollection`
 

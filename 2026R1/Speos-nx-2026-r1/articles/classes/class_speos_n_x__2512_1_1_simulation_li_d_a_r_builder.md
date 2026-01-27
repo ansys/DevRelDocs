@@ -1,9 +1,4 @@
----
-uid: simulation_li_d_a_r_builder
-title: SimulationLiDARBuilder
----
-
-# SimulationLiDARBuilder
+﻿# SimulationLiDARBuilder
 
 **Full Name**: `SpeosNX_2512::SimulationLiDARBuilder`
 

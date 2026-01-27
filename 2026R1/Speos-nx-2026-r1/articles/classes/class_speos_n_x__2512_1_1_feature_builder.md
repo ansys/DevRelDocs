@@ -1,9 +1,4 @@
----
-uid: feature_builder
-title: FeatureBuilder
----
-
-# FeatureBuilder
+﻿# FeatureBuilder
 
 **Full Name**: `SpeosNX_2512::FeatureBuilder`
 

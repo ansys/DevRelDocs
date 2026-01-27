@@ -1,9 +1,4 @@
----
-uid: source_ambient_natural_light_builder
-title: SourceAmbientNaturalLightBuilder
----
-
-# SourceAmbientNaturalLightBuilder
+﻿# SourceAmbientNaturalLightBuilder
 
 **Full Name**: `SpeosNX_2512::SourceAmbientNaturalLightBuilder`
 

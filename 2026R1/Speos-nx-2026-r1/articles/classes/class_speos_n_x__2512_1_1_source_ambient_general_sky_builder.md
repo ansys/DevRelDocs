@@ -1,9 +1,4 @@
----
-uid: source_ambient_general_sky_builder
-title: SourceAmbientGeneralSkyBuilder
----
-
-# SourceAmbientGeneralSkyBuilder
+﻿# SourceAmbientGeneralSkyBuilder
 
 **Full Name**: `SpeosNX_2512::SourceAmbientGeneralSkyBuilder`
 

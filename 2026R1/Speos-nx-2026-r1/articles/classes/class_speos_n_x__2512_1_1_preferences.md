@@ -1,9 +1,4 @@
----
-uid: preferences
-title: Preferences
----
-
-# Preferences
+﻿# Preferences
 
 **Full Name**: `SpeosNX_2512::Preferences`
 

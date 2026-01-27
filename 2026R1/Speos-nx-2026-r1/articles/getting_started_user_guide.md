@@ -1,11 +1,6 @@
----
-uid: _getting_started_user_guide
-title: Getting Started Guide
----
+﻿# User guide
 
-# User guide
-
-### What you can do with automation in Speos for NX
+## What you can do with automation in Speos for NX
 
 
 
@@ -27,7 +22,7 @@ This section contains the following topics:
 
 
 
-### How to create an NX journal python
+## How to create an NX journal python
 
 
 
@@ -56,7 +51,7 @@ This section contains the following topics:
 
 
 
-### How to create a Speos for NX python script
+## How to create a Speos for NX python script
 
 
 
@@ -136,7 +131,7 @@ This section contains the following topics:
 
 
 
-### How to run an NX journal
+## How to run an NX journal
 
 
 

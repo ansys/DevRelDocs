@@ -1,9 +1,4 @@
----
-uid: builder
-title: Builder
----
-
-# Builder
+﻿# Builder
 
 **Full Name**: `SpeosNX_2512::Builder`
 

@@ -1,9 +1,4 @@
----
-uid: result_l_x_p_builder
-title: ResultLXPBuilder
----
-
-# ResultLXPBuilder
+﻿# ResultLXPBuilder
 
 **Full Name**: `SpeosNX_2512::ResultLXPBuilder`
 

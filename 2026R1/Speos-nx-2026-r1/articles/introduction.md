@@ -1,9 +1,4 @@
----
-uid: introduction
-title: Introduction
----
-
-# Introduction
+﻿# Introduction
 
 This document provides you a complete documentation of the Speos for NX library for Python.
 

@@ -1,9 +1,4 @@
----
-uid: source_ray_file_builder
-title: SourceRayFileBuilder
----
-
-# SourceRayFileBuilder
+﻿# SourceRayFileBuilder
 
 **Full Name**: `SpeosNX_2512::SourceRayFileBuilder`
 

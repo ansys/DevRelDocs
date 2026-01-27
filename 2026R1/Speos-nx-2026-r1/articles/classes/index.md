@@ -1,9 +1,4 @@
----
-uid: classes-index
-title: Class Reference
----
-
-# SpeosNX Class Reference
+﻿# SpeosNX Class Reference
 
 Browse the complete API documentation for SpeosNX version 2512.
 

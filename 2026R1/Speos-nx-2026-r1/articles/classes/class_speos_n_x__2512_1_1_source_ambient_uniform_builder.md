@@ -1,9 +1,4 @@
----
-uid: source_ambient_uniform_builder
-title: SourceAmbientUniformBuilder
----
-
-# SourceAmbientUniformBuilder
+﻿# SourceAmbientUniformBuilder
 
 **Full Name**: `SpeosNX_2512::SourceAmbientUniformBuilder`
 

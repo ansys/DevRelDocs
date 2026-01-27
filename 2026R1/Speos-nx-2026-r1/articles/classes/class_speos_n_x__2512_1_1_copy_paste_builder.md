@@ -1,9 +1,4 @@
----
-uid: copy_paste_builder
-title: CopyPasteBuilder
----
-
-# CopyPasteBuilder
+﻿# CopyPasteBuilder
 
 **Full Name**: `SpeosNX_2512::CopyPasteBuilder`
 

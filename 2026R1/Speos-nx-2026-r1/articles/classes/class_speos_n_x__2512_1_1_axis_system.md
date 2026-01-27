@@ -1,9 +1,4 @@
----
-uid: axis_system
-title: AxisSystem
----
-
-# AxisSystem
+﻿# AxisSystem
 
 **Full Name**: `SpeosNX_2512::AxisSystem`
 

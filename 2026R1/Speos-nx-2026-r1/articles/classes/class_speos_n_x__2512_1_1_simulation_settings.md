@@ -1,9 +1,4 @@
----
-uid: simulation_settings
-title: SimulationSettings
----
-
-# SimulationSettings
+﻿# SimulationSettings
 
 **Full Name**: `SpeosNX_2512::SimulationSettings`
 

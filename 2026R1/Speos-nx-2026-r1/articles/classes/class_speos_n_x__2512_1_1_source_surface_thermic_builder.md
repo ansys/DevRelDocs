@@ -1,9 +1,4 @@
----
-uid: source_surface_thermic_builder
-title: SourceSurfaceThermicBuilder
----
-
-# SourceSurfaceThermicBuilder
+﻿# SourceSurfaceThermicBuilder
 
 **Full Name**: `SpeosNX_2512::SourceSurfaceThermicBuilder`
 

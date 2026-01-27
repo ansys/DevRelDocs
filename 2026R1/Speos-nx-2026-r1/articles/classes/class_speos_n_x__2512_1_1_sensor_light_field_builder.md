@@ -1,9 +1,4 @@
----
-uid: sensor_light_field_builder
-title: SensorLightFieldBuilder
----
-
-# SensorLightFieldBuilder
+﻿# SensorLightFieldBuilder
 
 **Full Name**: `SpeosNX_2512::SensorLightFieldBuilder`
 

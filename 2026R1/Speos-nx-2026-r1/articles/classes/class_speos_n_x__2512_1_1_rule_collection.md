@@ -1,9 +1,4 @@
----
-uid: rule_collection
-title: RuleCollection
----
-
-# RuleCollection
+﻿# RuleCollection
 
 **Full Name**: `SpeosNX_2512::RuleCollection`
 

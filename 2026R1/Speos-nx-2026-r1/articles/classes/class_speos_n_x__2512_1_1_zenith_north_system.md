@@ -1,9 +1,4 @@
----
-uid: zenith_north_system
-title: ZenithNorthSystem
----
-
-# ZenithNorthSystem
+﻿# ZenithNorthSystem
 
 **Full Name**: `SpeosNX_2512::ZenithNorthSystem`
 

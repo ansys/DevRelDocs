@@ -1,9 +1,4 @@
----
-uid: rule_feature
-title: RuleFeature
----
-
-# RuleFeature
+﻿# RuleFeature
 
 **Full Name**: `SpeosNX_2512::RuleFeature`
 

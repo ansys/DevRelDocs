@@ -1,9 +1,4 @@
----
-uid: folder_builder
-title: FolderBuilder
----
-
-# FolderBuilder
+﻿# FolderBuilder
 
 **Full Name**: `SpeosNX_2512::FolderBuilder`
 

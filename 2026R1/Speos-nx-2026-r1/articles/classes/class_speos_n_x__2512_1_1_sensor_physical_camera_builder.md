@@ -1,9 +1,4 @@
----
-uid: sensor_physical_camera_builder
-title: SensorPhysicalCameraBuilder
----
-
-# SensorPhysicalCameraBuilder
+﻿# SensorPhysicalCameraBuilder
 
 **Full Name**: `SpeosNX_2512::SensorPhysicalCameraBuilder`
 

@@ -1,9 +1,4 @@
----
-uid: source_surface_emissive_faces
-title: SourceSurfaceEmissiveFaces
----
-
-# SourceSurfaceEmissiveFaces
+﻿# SourceSurfaceEmissiveFaces
 
 **Full Name**: `SpeosNX_2512::SourceSurfaceEmissiveFaces`
 

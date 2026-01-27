@@ -1,9 +1,4 @@
----
-uid: source_ambient_common_builder
-title: SourceAmbientCommonBuilder
----
-
-# SourceAmbientCommonBuilder
+﻿# SourceAmbientCommonBuilder
 
 **Full Name**: `SpeosNX_2512::SourceAmbientCommonBuilder`
 
