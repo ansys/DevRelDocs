@@ -72,10 +72,10 @@ DataFrames have unique variable names.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
-import pandas
+import ansys.grantami.core as mpy
+import pandas as pd
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 
 # Create a DataFrame of all databases.
 _databases = [
@@ -86,7 +86,7 @@ _databases = [
     }
     for db in mi.dbs
 ]
-databases = pandas.DataFrame.from_records(_databases)
+databases = pd.DataFrame.from_records(_databases)
 
 # Create a DataFrame of all tables in all databases.
 _tables = [
@@ -97,7 +97,7 @@ _tables = [
     }
     for db in mi.dbs for table in db.tables
 ]
-tables = pandas.DataFrame.from_records(_tables)
+tables = pd.DataFrame.from_records(_tables)
 
 # Create a DataFrame of all attributes in all tables in all databases.
 _all_attributes = [
@@ -106,13 +106,13 @@ _all_attributes = [
         "Table.Guid": table.guid,
         "Attribute.Name": attribute.name,
         "Attribute.Type": attribute.type,
-        "Attribute.Unit": attribute.unit,
+        "Attribute.Unit": getattr(attribute, "unit", None) or "",
         "Attribute.Created": attribute.history.created_at,
         "Attribute.LastModified": attribute.history.last_modified_at,
     }
     for db in mi.dbs for table in db.tables for attribute in table.attributes.values()
 ]
-all_attributes = pandas.DataFrame.from_records(_all_attributes)
+all_attributes = pd.DataFrame.from_records(_all_attributes)
 ```
 
 ## Advanced usage
@@ -152,7 +152,7 @@ example_table.bulk_fetch(
         mpy.RecordProperties.last_modified_on,
         mpy.RecordProperties.created_by,
         mpy.RecordProperties.last_modified_by,
-    ]
+    ],
 )
 _example_records_properties = [
     {
@@ -167,7 +167,7 @@ _example_records_properties = [
     }
     for record in example_records
 ]
-example_records_revision = pandas.DataFrame.from_records(_example_records_properties)
+example_records_revision = pd.DataFrame.from_records(_example_records_properties)
 
 # Create a DataFrame with the data revision information for all attributes for all records in the example table.
 example_table.bulk_fetch_data_revision_history(example_records)
@@ -187,7 +187,7 @@ _example_records_data_revision = [
     }
     for record in example_records for attribute_name, attribute_revision in record.data_revision_history.items()
 ]
-example_records_data_revision = pandas.DataFrame.from_records(_example_records_data_revision)
+example_records_data_revision = pd.DataFrame.from_records(_example_records_data_revision)
 ```
 
 ### Performance considerations

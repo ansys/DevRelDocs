@@ -7,11 +7,11 @@ Connect to MI and get a database and table.
 
 ```python
 from datetime import datetime
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
-tab = db.get_table("Training Exercise for Import")
+table = db.get_table("Training Exercise for Import")
 ```
 
 Create a new record in the subset *Materials*.
@@ -19,8 +19,8 @@ Create a new record in the subset *Materials*.
 
 ```python
 now = datetime.now().strftime("%c")
-recordName = f"Scripting Toolkit Example 16:{now}"
-rec = tab.create_record(recordName, subsets={"Materials"})
+record_name = f"Scripting Toolkit Example 15:{now}"
+record = table.create_record(record_name, subsets={"Materials"})
 ```
 
 ## Smart links
@@ -32,17 +32,17 @@ server.
 
 
 ```python
-base = rec.attributes["Base"]
+base = record.attributes["Base"]
 base.value = "Oxide"
-rec.set_attributes([base])
-rec = mi.update([rec])[0]
+record.set_attributes([base])
+record = mi.update([record])[0]
 ```
 
 View the smart links that have just been created to the new record.
 
 
 ```python
-for link_group, records in rec.links.items():
+for link_group, records in record.links.items():
     print(f'Link group "{link_group}" contains links to the following records:')
     print(", ".join([r.name for r in records]))
 ```
@@ -51,7 +51,7 @@ for link_group, records in rec.links.items():
 Link group "MaterialUniverse" contains links to the following records:
 
 Link group "Smart Link to MaterialUniverse" contains links to the following records:
-Lithium aluminosilicate, Barium silicate, Alumino silicate - 1723, Alumino silicate - 1720, Soda barium glass
+Alumino silicate - 1720, Lithium aluminosilicate, Alumino silicate - 1723, Barium silicate, Soda barium glass
 ```
 ## Static links
 A static link can be created between two existing records, including cross-database.
@@ -60,30 +60,30 @@ Get a record from *MaterialUniverse* to link to your newly-created record.
 
 
 ```python
-mu_rec = db.get_record_by_id(hguid="bf5e6054-6cad-4c9d-ad7a-adfa124c504b")
+mu_record = db.get_record_by_id(hguid="bf5e6054-6cad-4c9d-ad7a-adfa124c504b")
 ```
 
 Add the *MaterialUniverse* record to the link group on the new record.
 
 
 ```python
-new_linked_recs = rec.links["MaterialUniverse"]
-new_linked_recs.add(mu_rec)
-rec.set_links(link_name="MaterialUniverse", records=new_linked_recs)
+new_linked_records = record.links["MaterialUniverse"]
+new_linked_records.add(mu_record)
+record.set_links(link_name="MaterialUniverse", records=new_linked_records)
 ```
 
 Write your changes to MI (use `update_links()` for changes to links, not `update()`).
 
 
 ```python
-rec = mi.update_links([rec])[0]
+record = mi.update_links([record])[0]
 ```
 
 View your new link on the list of record links.
 
 
 ```python
-for link_group, records in rec.links.items():
+for link_group, records in record.links.items():
     print(f'Link group "{link_group}" contains links to the following records:')
     print(", ".join([r.name for r in records]))
 ```
@@ -92,7 +92,7 @@ for link_group, records in rec.links.items():
 Link group "MaterialUniverse" contains links to the following records:
 Soda barium glass
 Link group "Smart Link to MaterialUniverse" contains links to the following records:
-Lithium aluminosilicate, Alumino silicate - 1723, Soda barium glass, Barium silicate, Alumino silicate - 1720
+Alumino silicate - 1720, Lithium aluminosilicate, Barium silicate, Alumino silicate - 1723, Soda barium glass
 ```
 ## Associated Records
 Associated Records are a way of traversing tabular links multiple steps at a time. This example finds all materials
