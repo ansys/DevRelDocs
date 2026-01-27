@@ -15,7 +15,7 @@
     href: index.md
   - name: Namespace
     href: namespace_speos_n_x__2512.md
-  - name: Core Classes
+  - name: Core classes
     items:
     - name: AxisSystem
       href: class_speos_n_x__2512_1_1_axis_system.md
@@ -85,7 +85,7 @@
     items:
     - name: SimulationSettings
       href: class_speos_n_x__2512_1_1_simulation_settings.md
-  - name: Sensor Builders
+  - name: Sensor builders
     items:
     - name: LightExpertSensorGroupBuilder
       href: class_speos_n_x__2512_1_1_light_expert_sensor_group_builder.md
@@ -115,7 +115,7 @@
       href: class_speos_n_x__2512_1_1_sensor_radiance_builder.md
     - name: SensorVRImmersiveBuilder
       href: class_speos_n_x__2512_1_1_sensor_v_r_immersive_builder.md
-  - name: Source Builders
+  - name: Source builders
     items:
     - name: SourceAmbientCommonBuilder
       href: class_speos_n_x__2512_1_1_source_ambient_common_builder.md
