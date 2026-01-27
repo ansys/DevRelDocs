@@ -138,7 +138,7 @@ for curve in curves:
 
 
     
-![png](05_Functional_data_and_importing_data_files/05_Functional_data_and_importing_data_15_0.png)
+![png](./05_Functional_data_and_importing_data_files/05_Functional_data_and_importing_data_15_0.png)
     
 
 

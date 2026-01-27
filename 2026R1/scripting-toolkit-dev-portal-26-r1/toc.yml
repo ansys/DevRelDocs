@@ -150,18 +150,18 @@
   - name: Exceptions
     href: api/exceptions.md
 - name: Release notes
-  href: index.md
+  href: release_notes/index.md
   items:
   - name: What's new in 5.0
-    href: whats_new.md
+    href: release_notes/whats_new.md
   - name: Enhancements and bug fixes
-    href: bug_fixes_and_enhancements.md
+    href: release_notes/bug_fixes_and_enhancements.md
   - name: Upgrading from earlier versions
-    href: breaking_changes.md
+    href: release_notes/breaking_changes.md
   - name: Planned changes and deprecations
-    href: deprecations.md
+    href: release_notes/deprecations.md
   - name: Known issues
-    href: known_issues.md
+    href: release_notes/known_issues.md
 - name: Foundation API reference
   href: foundation_api.md
 - name: Copyright and Trademark Information
