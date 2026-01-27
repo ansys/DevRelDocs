@@ -1,0 +1,193 @@
+﻿group,id,name,consolidateParameters,property,standardName,symbol,columnName,optional,freeParameter,parameterSymbol,parameterDefaultName,parameterUnit,numericDefault,*Workbench,*Mechanical,*LSDYNA,*Discovery,*ElectronicsDesktop,*ConceptSI,*MotorCAD,*Sherlock,*Fluent,*OpticStudio
+General,classification,Classification,,Material class,Material class,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,classification,,,Material family,Material family,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,classification,,,Material sub-class,Material sub-class,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,classification,,,Material form,Material form,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,classification,,,Material form,Form,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,classification,,,Material state,Material state,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,description,Description,,Description,Description,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,description,,,Estimation notes,Estimation notes,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,description,,,Extrapolation note,Extrapolation note,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,rendering,Rendering,,Red,Color R,R,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,rendering,,,Green,Color G,G,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,rendering,,,Blue,Color B,B,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,rendering,,,Opacity,Opacity,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+General,rendering,,,Metallic finish,Metallic finish,,,TRUE,,,,,,x,x,x,x,x,x,x,x,x,x
+Physical,density,Density,,Density,Density,rho,,,,,,,,x,x,x,x,x,x,x,x,x,x
+Physical,density.with.temp,Density with temperature,,Density,Density with temperature,rho,,,Temperature,T,,,,x,x,,x,x,x,x,,x,
+Physical,dynamic.viscosity,Dynamic viscosity,,Dynamic viscosity,Dynamic viscosity,,,,,,,,,x,,,x,x,x,x,,x,
+Physical,dynamic.viscosity.with.temp,Dynamic viscosity with temperature,,Dynamic viscosity,Dynamic viscosity with temperature,,,,Temperature,T,,,,x,,,x,x,x,,,x,
+Physical,kinematic.viscosity,Kinematic viscosity,,Kinematic viscosity,Kinematic viscosity,,,,,,,,,,,,,x,x,x,,x,
+Physical,kinematic.viscosity.with.temp,Kinematic viscosity with temperature,,Kinematic viscosity,Kinematic viscosity with temperature,,,,Temperature,T,,,,,,,,,,x,,x,
+Physical,molecular.mass,Molecular mass,,Molecular mass,Molecular mass,,,,,,,,,,,,x,x,x,,,x,
+Elastic,elasticity.isotropic,"Elasticity, isotropic",,Tensile modulus,Tensile modulus,E,,,,,,,,x,x,x,x,x,x,x,x,x,x
+Elastic,elasticity.isotropic,,,Poisson's ratio,Poisson's ratio,v,,,,,,,,x,x,x,x,x,x,x,x,x,x
+Elastic,elasticity.isotropic.with.temp,"Elasticity, isotropic with temperature",TRUE,Tensile modulus,Tensile modulus with temperature,E,,,Temperature,T,,,,x,x,,x,x,x,x,x,x,
+Elastic,elasticity.isotropic.with.temp,,,Poisson's ratio,Poisson's ratio with temperature,v,,,Temperature,T,,,,x,x,,x,x,x,x,x,x,
+Elastic,elasticity.isotropic.with.temp,,,Poisson's ratio,Poisson's ratio,,,,,,,,,x,x,,x,x,x,x,x,x,
+Elastic,elasticity.orthotropic,"Elasticity, orthotropic",,"Tensile modulus, xy direction","Tensile modulus, xy direction",,,,,,,,,,x,,,x,x,,x,,
+Elastic,elasticity.orthotropic,,,"Tensile modulus, z direction","Tensile modulus, z direction",,,,,,,,,,x,,,x,x,,x,,
+Elastic,bulk.modulus,Bulk modulus,,Bulk modulus,Bulk modulus,,,,,,,,,,,,x,,,,,,
+Elastic,shear.modulus,Shear modulus,,Shear modulus,Shear modulus,,,,,,,,,,,,x,,,,,,
+Plasticity,simple.failure,Simple failure,,"Tensile strength, yield","Tensile strength, yield",YS,,FALSE,,,,,,x,x,x,x,,,x,x,,
+Plasticity,simple.failure,,,"Tensile strength, ultimate","Tensile strength, ultimate",UTS,,TRUE,,,,,,x,x,x,x,,,x,x,,
+Plasticity,simple.failure,,,Tensile elongation,Tensile elongation,e,,TRUE,,,,,,x,x,x,x,,,x,x,,
+Plasticity,simple.failure.with.temp,Simple failure with temperature,,"Tensile strength, yield","Tensile strength, yield with temperature",YS,,,Temperature,T,,,,x,x,,x,,,,,,
+Plasticity,simple.failure.with.temp,,,"Tensile strength, ultimate","Tensile strength, ultimate with temperature",UTS,,,Temperature,T,,,,x,x,,x,,,,,,
+Plasticity,stress.strain,True stress with strain,,True stress with strain,True stress with strain,,Stress,,Strain,e,,,,x,x,x,,,,,,,
+Plasticity,stress.strain.temp.dependent,"True stress with strain, temperature dependent",,True stress with strain,True stress with strain,,Stress,,Strain,e,,,,x,x,x,,,,,,,
+Plasticity,stress.strain.temp.dependent,,,True stress with strain,,,,,Temperature,T,,,,x,x,x,,,,,,,
+Plasticity,stress.strain.rate.dependent,"True stress with strain, rate dependent",,True stress with strain,"True stress with strain, rate dependent",,Stress,,Strain,e,,,,,,x,,,,,,,
+Plasticity,stress.strain.rate.dependent,,,True stress with strain,,,,,Strain rate,R,,,,,,x,,,,,,,
+Plasticity,bilinear.hardening.with.temp,Bilinear hardening with temperature,TRUE,Tangent modulus,Isotropic Hardening | Tangent Modulus,TM,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,bilinear.hardening.with.temp,,,Tangent modulus,Tangent modulus with temperature,,,,,,,,,x,x,,,,,,,,
+Plasticity,bilinear.hardening.with.temp,,,Yield Strength,Isotropic Hardening | Yield Strength,YS,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,bilinear.hardening.with.temp,,,Yield Strength,"Tensile strength, yield with temperature",,,,,,,,,x,x,,,,,,,,
+Plasticity,bilinear.hardening.with.temp,,,Yield Strength,"Tensile strength, yield",,,,,,,,,x,x,,,,,,,,
+Plasticity,nonlinear.isotropic.hardening.power.law,"Nonlinear Isotropic Hardening, Power Law",TRUE,Exponent,Isotropic Hardening | Exponent,,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,nonlinear.isotropic.hardening.power.law,,,Initial Yield Stress,Isotropic Hardening | Initial Yield Stress,,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,nonlinear.isotropic.hardening.voce.law,"Nonlinear Isotropic Hardening, Voce Law",TRUE,Exponential Coefficient,Isotropic Hardening | Exponential Coefficient,,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,nonlinear.isotropic.hardening.voce.law,,,Exponential Saturation Parameter,Isotropic Hardening | Exponential Saturation Parameter,,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,nonlinear.isotropic.hardening.voce.law,,,Initial Yield Stress,Nonlinear Isotropic Hardening Voce Law | Initial Yield Stress,,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,nonlinear.isotropic.hardening.voce.law,,,Linear Coefficient,Isotropic Hardening | Linear Coefficient,,,,Temperature,T,,,,x,x,,,,,,,,
+Plasticity,tangent.modulus,Tangent modulus,,Tangent modulus,Tangent modulus,,,,,,,,,,,,x,,,,,,
+Thermal,specific.heat.capacity,Specific heat capacity,,Specific heat capacity,Specific heat capacity,Cp,,,,,,,,x,x,,x,x,x,x,x,x,x
+Thermal,specific.heat.capacity.with.temp,Specific heat capacity with temperature,,Specific heat capacity,Specific heat capacity with temperature,Cp,,,Temperature,T,,,,x,x,,x,x,x,x,,x,
+Thermal,thermal.conductivity,Thermal conductivity,,Thermal conductivity,Thermal conductivity,k,,,,,,,,x,x,,x,x,x,x,x,x,x
+Thermal,thermal.conductivity,,,Thermal conductivity,Thermal conductivity with temperature,k,,,,,,,,x,x,,x,x,x,x,x,x,x
+Thermal,thermal.conductivity.with.temp,Thermal conductivity with temperature,,Thermal conductivity,Thermal conductivity with temperature,k,,,Temperature,T,,,,x,x,,x,x,x,x,x,x,
+Thermal,thermal.diffusivity,Thermal diffusivity,,Thermal diffusivity,Thermal diffusivity,,,,,,,,,,,,,x,x,,,,
+Thermal,thermal.expansion.coefficient,Thermal expansion coefficient,,Thermal expansion coefficient,Thermal expansion coefficient,CTE,,,,,,,,x,x,x,x,x,x,x,x,x,
+Thermal,thermal.expansion.coefficient.with.temp,Thermal expansion coefficient with temperature,,Thermal expansion coefficient,Thermal expansion coefficient with temperature,CTE,,FALSE,Temperature,T,,,,x,x,x,x,x,x,,x,x,
+Thermal,thermal.expansion.coefficient.with.temp,,,Reference temperature,"Reference temperature, CTE",,,TRUE,,,,,,x,x,x,x,x,x,,x,x,
+Thermal,thermal.expansion.coefficient.orthotropic,"Thermal expansion coefficient, orthotropic",,"Thermal expansion coefficient, xy direction","Thermal expansion coefficient, xy direction",CTExy,,,,,,,,,x,x,,x,x,,x,,
+Thermal,thermal.expansion.coefficient.orthotropic,,,"Thermal expansion coefficient, z direction","Thermal expansion coefficient, z direction",CTEz,,,,,,,,,x,x,,x,x,,x,,
+Thermal,glass.transition.temperature,Glass transition temperature,,Glass transition temperature,Glass transition temperature,Tg,,,,,,,,,,,x,,,,x,,
+Electrical,electrical.conductivity,Electrical conductivity,,Electrical conductivity,Electrical conductivity,,,,,,,,,,,,,x,x,x,,x,
+Electrical,electrical.conductivity.with.temp,Electrical conductivity with temperature,,Electrical conductivity,Electrical conductivity with temperature,,,,Temperature,T,,,,,,,,x,x,x,,x,
+Electrical,electrical.resistivity,Electrical resistivity,,Electrical resistivity,Electrical resistivity,,,,,,,,,x,x,,x,x,x,x,,,
+Electrical,electrical.resistivity.with.temp,Electrical resistivity with temperature,,Electrical resistivity,Electrical resistivity with temperature,,,FALSE,Temperature,T,,,,x,x,,x,x,x,x,,,
+Electrical,electrical.resistivity.with.temp,,,Temperature coefficient,Temperature coefficient of resistivity,,,TRUE,,,,,,x,x,,x,x,x,x,,,
+Electromagnetic,df.dk,Df / Dk,,Dielectric constant,Dielectric constant,Dk,,,,,,,,,,,x,x,x,,,,
+Electromagnetic,df.dk,,,Dielectric loss tangent,Dielectric loss tangent,Df,,,,,,,,,,,x,x,x,,,,
+Electromagnetic,df.dk.with.frequency,Df / Dk with frequency,TRUE,Dielectric constant,Dielectric constant with frequency,Dk,,,Frequency (high),f,,,,,,,x,x,x,,,,
+Electromagnetic,df.dk.with.frequency,,,Dielectric loss tangent,Dielectric loss tangent with frequency,Df,,,Frequency (high),f,,,,,,,x,x,x,,,,
+Electromagnetic,d.s.model,Djordjevic-Sarkar model,,Conductivity at DC,D-S model conductivity DC,,,,,,,,,,,,,x,x,,,,
+Electromagnetic,d.s.model,,,Conductivity equation,Dielectric constant frequency equation,,,,,,,,,,,,,x,x,,,,
+Electromagnetic,d.s.model,,,Conductivity equation,Electrical conductivity frequency equation,,,,,,,,,,,,,x,x,,,,
+Electromagnetic,d.s.model,,,Frequency,D-S model frequency,,,,,,,,,,,,,x,x,,,,
+Electromagnetic,d.s.model,,,High frequency corner,D-S model high frequency corner,,,,,,,,,,,,,x,x,,,,
+Electromagnetic,d.s.model,,,Loss tangent,D-S model loss tangent,,,,,,,,,,,,,x,x,,,,
+Electromagnetic,d.s.model,,,Relative permittivity,D-S model permittivity,,,,,,,,,,,,,x,x,,,,
+Electromagnetic,d.s.model,,,Relative permittivity at DC,D-S model permittivity DC,,,,,,,,,,,,,x,x,,,,
+Magnetic,b.h.curve,B-H curve,,B-H curve,Magnetic B-H curve,B,Flux density,,Magnetic field intensity,H,,,,x,,,x,x,x,x,,,
+Magnetic,b.h.curve,,,B-H curve,"Magnetic B-H curve, initial",,,,,,,,,x,,,x,x,x,x,,,
+Magnetic,b.h.curve,,,B-H curve,"Magnetic B-H curve, demagnetization",,,,,,,,,x,,,x,x,x,x,,,
+Magnetic,b.h.curve.with.temp,"B-H curve, temperature dependent",,B-H curve,Magnetic B-H curve,B,Flux density,,Magnetic field intensity,H,,,,,,,,x,x,x,,,
+Magnetic,b.h.curve.with.temp,,,B-H curve,"Magnetic B-H curve, initial",,,,Temperature,T,,,,,,,,x,x,x,,,
+Magnetic,b.h.curve.with.temp,,,B-H curve,"Magnetic B-H curve, demagnetization",,,,,,,,,,,,,x,x,x,,,
+Magnetic,permenant.magnet,Permenant magnet properties,,"Coercivity, intrinsic","Magnetic coercivity, intrinsic",Hci,,TRUE,,,,,,x,,,,x,x,x,,,
+Magnetic,permenant.magnet,,,"Coercivity, normal","Magnetic coercivity, normal",Hc,,TRUE,,,,,,x,,,,x,x,x,,,
+Magnetic,permenant.magnet,,,Permeability,Magnetic permeability,Mu,,TRUE,,,,,,x,,,,x,x,x,,,
+Magnetic,permenant.magnet,,,Remanence,Magnetic remanence,Br,,FALSE,,,,,,x,,,,x,x,x,,,
+Magnetic,permenant.magnet,,,Saturation,Magnetic saturation,,,TRUE,,,,,,x,,,,x,x,x,,,
+Magnetic,permenant.magnet,,,Temperature coefficient of Br,Temperature coefficient of Br,,,TRUE,,,,,,x,,,,x,x,x,,,
+Magnetic,permenant.magnet,,,Temperature coefficient of Hci,Temperature coefficient of Hci,,,TRUE,,,,,,x,,,,x,x,x,,,
+Magnetic,magnetic.permeability.with.frequency,Magnetic permeability with frequency,,Permeability,Magnetic permeability with frequency,Mu,,,Frequency (high),f,,,,,,,,x,x,,,,
+Magnetic,magnetic.permeability.with.frequency,,,Loss tangent,Magnetic loss tangent with frequency,tanδ,,,Frequency (high),f,,,,,,,,x,x,,,,
+Magnetic,core.loss.curve,Core loss curve,,Core loss,Core loss by weight,P,Specific loss,,Flux density,B,,,,,,,,x,x,x,,,
+Magnetic,core.loss.curve,,,Core loss,,,,,Frequency,f,,,,,,,,x,x,x,,,
+Magnetic,core.loss.model.electrical.steel,"Core loss model, electrical steel",,Kc,Core loss (Maxwell) Kc,Kc,,FALSE,,,,,,,,,,x,x,x,,,
+Magnetic,core.loss.model.electrical.steel,,,Ke,Core loss (Maxwell) Ke,Ke,,FALSE,,,,,,,,,,x,x,x,,,
+Magnetic,core.loss.model.electrical.steel,,,Kh,Core loss (Maxwell) Kh,Kh,,FALSE,,,,,,,,,,x,x,x,,,
+Magnetic,core.loss.model.electrical.steel,,,alpha,Core loss (Maxwell) alpha,alpha,,TRUE,,,,,,,,,,x,x,x,,,
+Magnetic,core.loss.model.power.ferrite,"Core loss model, power ferrite",,Cm,Core loss (Maxwell) Cm,Cm,,FALSE,,,,,,,,,,x,x,x,,,
+Magnetic,core.loss.model.power.ferrite,,,X,Core loss (Maxwell) X,X,,FALSE,,,,,,,,,,x,x,x,,,
+Magnetic,core.loss.model.power.ferrite,,,Y,Core loss (Maxwell) Y,Y,,FALSE,,,,,,,,,,x,x,x,,,
+Hyperelastic,mooney.rivlin,Mooney-Rivlin,,Definition,Mooney-Rivlin | Definition,Def,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,mooney.rivlin,,,Incompressibility Parameter D1,Mooney-Rivlin | Incompressibility Parameter D1,D1,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,mooney.rivlin,,,Material Constant C01,Mooney-Rivlin | Material Constant C01,C01,,FALSE,,,,,,x,x,x,,,,,,,
+Hyperelastic,mooney.rivlin,,,Material Constant C10,Mooney-Rivlin | Material Constant C10,C10,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,mooney.rivlin,,,Material Constant C11,Mooney-Rivlin | Material Constant C11,C11,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,Ogden,,Definition,Ogden | Definition,Def,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,,,Incompressibility Parameter D1,Ogden | Incompressibility Parameter D1,D1,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,,,Incompressibility Parameter D2,Ogden | Incompressibility Parameter D2,D2,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,,,Incompressibility Parameter D3,Ogden | Incompressibility Parameter D3,D3,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,,,Material Constant A1,Ogden | Material Constant A1,A1,,FALSE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,,,Material Constant A2,Ogden | Material Constant A2,A2,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,,,Material Constant MU1,Ogden | Material Constant MU1,MU1,,FALSE,,,,,,x,x,x,,,,,,,
+Hyperelastic,ogden,,,Material Constant MU2,Ogden | Material Constant MU2,MU2,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,yeoh,Yeoh,,Definition,Yeoh | Definition,Def,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,yeoh,,,Incompressibility Parameter D1,Yeoh | Incompressibility Parameter D1,D1,,FALSE,,,,,,x,x,x,,,,,,,
+Hyperelastic,yeoh,,,Incompressibility Parameter D2,Yeoh | Incompressibility Parameter D2,D2,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,yeoh,,,Incompressibility Parameter D3,Yeoh | Incompressibility Parameter D3,D3,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,yeoh,,,Material Constant C10,Yeoh | Material Constant C10,C10,,FALSE,,,,,,x,x,x,,,,,,,
+Hyperelastic,yeoh,,,Material Constant C20,Yeoh | Material Constant C20,C20,,TRUE,,,,,,x,x,x,,,,,,,
+Hyperelastic,yeoh,,,Material Constant C30,Yeoh | Material Constant C30,C30,,TRUE,,,,,,x,x,x,,,,,,,
+Damage,gissmo,GISSMO,,Damage exponent,GISSMO Damage exponent,DMGEXP,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,Element deletion threshold,GISSMO Element deletion threshold,NUMFIP,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,Fading exponent,GISSMO Fading exponent,FADEXP,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,Fading exponent,"GISSMO Regularization curve, fading exponent",FADEXP,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,Failure curve,GISSMO Failure curve,LCSDG,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,Instability curve,GISSMO Instability curve,ECRIT,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,LS-DYNA Control parameters,GISSMO LS-DYNA Control parameters,CONTROL,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,"Reduction factor, biaxial","GISSMO Reduction factor, biaxial",BIAXF,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,"Reduction factor, shear","GISSMO Reduction factor, shear",SHRF,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,Reference element size,GISSMO Reference element size,REFSZ,,,,,,,,x,,x,,,,,,,
+Damage,gissmo,,,"Regularization curve, failure strain","GISSMO Regularization curve, failure strain",LCREGD,,,,,,,,x,,x,,,,,,,
+Sustainability,sustainability,Sustainability properties,,"Climate change (CO2-eq), primary production","Climate change (CO2-eq), primary production (typical grade)",CO2,,,,,,,,,,,x,,,,,,
+Sustainability,sustainability,,,"Climate change (CO2-eq), primary production","Climate change (CO2-eq), primary production (virgin grade)",,,,,,,,,,,,x,,,,,,
+Sustainability,sustainability,,,"Climate change (CO2-eq), primary production","Climate change (CO2-eq), primary production",,,,,,,,,,,,x,,,,,,
+Sustainability,sustainability,,,"Embodied energy, primary production","Embodied energy, primary production (typical grade)",EE,,,,,,,,,,,x,,,,,,
+Sustainability,sustainability,,,"Embodied energy, primary production","Embodied energy, primary production (virgin grade)",,,,,,,,,,,,x,,,,,,
+Sustainability,sustainability,,,"Embodied energy, primary production","Embodied energy, primary production",,,,,,,,,,,,x,,,,,,
+Sustainability,sustainability,,,Recycle,Recycle,R,,,,,,,,,,,x,,,,,,
+Optics,optical.classification,Optical classification,,Catalog,Catalog,Catalog,,TRUE,,,,,,,,,,,,,,,x
+Optics,optical.classification,,,Material name,Glass name,NM,,FALSE,,,,,,,,,,,,,,,x
+Optics,optical.classification,,,MIL number,MIL number,MIL,,TRUE,,,,,,,,,,,,,,,x
+Optics,optical.classification,,,Exclude substitution,Exclude substitution,ES,,TRUE,,,,,,,,,,,,,,,x
+Optics,optical.classification,,,Status,Status,Status,,TRUE,,,,,,,,,,,,,,,x
+Optics,optical.classification,,,Comments,Comments,GC,,TRUE,,,,,,,,,,,,,,,x
+Optics,optical.classification,,,Melt frequency,Melt frequency,MF,,TRUE,,,,,,,,,,,,,,,x
+Optics,model.glass,Model glass,,Refractive index at 587.6 nm,Refractive index at 587.6 nm,Nd,,FALSE,,,,,,,,,,,,,,,x
+Optics,model.glass,,,Refractive index at 587.6 nm,Refractive index,,,FALSE,,,,,,,,,,,,,,,x
+Optics,model.glass,,,Abbe number at 587.6 nm,Abbe number at 587.6 nm,Vd,,FALSE,,,,,,,,,,,,,,,x
+Optics,model.glass,,,Abbe number at 587.6 nm,Abbe number,,,FALSE,,,,,,,,,,,,,,,x
+Optics,model.glass,,,Differential partial dispersion,Differential partial dispersion,dPgF,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.expansion.coefficient.optics,"Thermal expansion coefficient, optics",,"Thermal expansion coefficient, -30°C to 70°C","Thermal expansion coefficient, -30°C to 70°C",TCE1,,FALSE,,,,,,,,,,,,,,,x
+Optics,thermal.expansion.coefficient.optics,,,"Thermal expansion coefficient, -30°C to 70°C",Thermal expansion coefficient,,,FALSE,,,,,,,,,,,,,,,x
+Optics,thermal.expansion.coefficient.optics,,,"Thermal expansion coefficient, 100°C to 300°C","Thermal expansion coefficient, 100°C to 300°C",TCE2,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.expansion.coefficient.optics,,,Ignore thermal expansion,Ignore thermal expansion,ITCE,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,Dispersion model,,Formula number,Dispersion formula number,Formula,,FALSE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Minimum valid wavelength,Dispersion model minimum wavelength,LDmin,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Maximum valid wavelength,Dispersion model maximum wavelength,LDmax,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D1,Dispersion coefficient D1,D1,,FALSE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D2,Dispersion coefficient D2,D2,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D3,Dispersion coefficient D3,D3,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D4,Dispersion coefficient D4,D4,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D5,Dispersion coefficient D5,D5,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D6,Dispersion coefficient D6,D6,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D7,Dispersion coefficient D7,D7,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D8,Dispersion coefficient D8,D8,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D9,Dispersion coefficient D9,D9,,TRUE,,,,,,,,,,,,,,,x
+Optics,dispersion.model,,,Coefficient D10,Dispersion coefficient D10,D10,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.model,Thermal model,,Coefficient D0,Thermal model coefficient D0,D0,,FALSE,,,,,,,,,,,,,,,x
+Optics,thermal.model,,,Coefficient D1,Thermal model coefficient D1,D1,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.model,,,Coefficient D2,Thermal model coefficient D2,D2,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.model,,,Coefficient E0,Thermal model coefficient E0,E0,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.model,,,Coefficient E1,Thermal model coefficient E1,E1,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.model,,,Coefficient of refractive index,Thermal model coefficient of refractive index,Ltk,,TRUE,,,,,,,,,,,,,,,x
+Optics,thermal.model,,,Reference temperature,Thermal model reference temperature,Temp,,TRUE,,,,,,,,,,,,,,,x
+Optics,knoop.hardness,Knoop hardness,,Knoop hardness,Knoop hardness,HK,,FALSE,,,,,,,,,,,,,,,x
+Optics,relative.cost,Relative cost,,Relative cost,Relative cost,RC,,FALSE,,,,,,,,,,,,,,,x
+Optics,climate.resistance,Climate resistance,,Climate resistance,Climate resistance,CR,,FALSE,,,,,,,,,,,,,,,x
+Optics,chemical.resistance,Chemical resistance,,Stain resistance,Stain resistance,FR,,FALSE,,,,,,,,,,,,,,,x
+Optics,chemical.resistance,,,Acid resistance,Acid resistance,SR,,FALSE,,,,,,,,,,,,,,,x
+Optics,chemical.resistance,,,Alkali resistance,Alkali resistance,AR,,FALSE,,,,,,,,,,,,,,,x
+Optics,chemical.resistance,,,Phosphate resistance,Phosphate resistance,PR,,FALSE,,,,,,,,,,,,,,,x
+Optics,Internal.transmission.vs.wavelength,Internal transmission vs. wavelength,,Internal transmission,Internal transmission vs. wavelength,IT,,FALSE,Wavelength,lambda,,,,,,,,,,,,,x
+Optics,Internal.transmission.vs.wavelength,,,Internal transmission,,,,FALSE,Thickness,t,,,,,,,,,,,,,x
+Optics,stress.birefringence,Stress birefringence,,Wavelength,Stress birefringence wavelength,lambda,,FALSE,,,,,,,,,,,,,,,x
+Optics,stress.birefringence,,,Coefficient K,Stress birefringence coefficient K,K,,FALSE,,,,,,,,,,,,,,,x
+Optics,stress.birefringence,,,Coefficient K11,Stress birefringence coefficient K11,K11,,TRUE,,,,,,,,,,,,,,,x
+Optics,stress.birefringence,,,Coefficient K12,Stress birefringence coefficient K12,K12,,TRUE,,,,,,,,,,,,,,,x
