@@ -251,7 +251,7 @@ plt.show()
 
 
     
-![png](06_Calculate_statistics_for_records_files/06_Calculate_statistics_for_records_12_0.png)
+![png](./06_Calculate_statistics_for_records_files/06_Calculate_statistics_for_records_12_0.png)
     
 
 

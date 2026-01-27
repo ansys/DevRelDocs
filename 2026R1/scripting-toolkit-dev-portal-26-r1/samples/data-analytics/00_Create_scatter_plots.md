@@ -502,7 +502,7 @@ _ = df_processed.plot(
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_31_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_31_0.png)
     
 
 
@@ -528,7 +528,7 @@ _ = ax.set_title("E vs Density using ax.scatter()")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_34_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_34_0.png)
     
 
 
@@ -565,7 +565,7 @@ _ = plt.legend(title="Base")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_37_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_37_0.png)
     
 
 
@@ -598,7 +598,7 @@ _ = ax.set_title(r"$\rho$ vs E vs Density")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_40_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_40_0.png)
     
 
 
@@ -646,7 +646,7 @@ _ = ax.set_title(r"E vs Density and $\rho$ (continuous marker color)")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_43_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_43_0.png)
     
 
 
@@ -796,7 +796,7 @@ _ = ax.set_title(r"E vs Density and $\rho$ (discrete marker color)")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_48_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_48_0.png)
     
 
 
@@ -831,7 +831,7 @@ _ = ax.set_title("E vs Density grouped by Base (using seaborn)")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_51_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_51_0.png)
     
 
 
@@ -885,6 +885,6 @@ _ = g.fig.suptitle(r"Pair plot comparing Density, E, $F_{{{tu}}}$ and $\rho$, gr
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_54_1.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_54_1.png)
     
 

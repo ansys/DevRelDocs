@@ -177,7 +177,7 @@ _ = ax.legend()
 
 
     
-![png](05_Functional_data_and_importing_data_files/05_Functional_data_and_importing_data_17_0.png)
+![png](./05_Functional_data_and_importing_data_files/05_Functional_data_and_importing_data_17_0.png)
     
 
 

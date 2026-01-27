@@ -523,7 +523,7 @@ _ = ax.set_title("Deformation Energy $U_T$ vs Temperature")
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_39_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_39_0.png)
     
 
 
@@ -571,7 +571,7 @@ _ = ax.legend(handles, labels)
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_43_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_43_0.png)
     
 
 
@@ -626,7 +626,7 @@ fig
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_47_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_47_0.png)
     
 
 
@@ -674,7 +674,7 @@ fig
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_49_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_49_0.png)
     
 
 

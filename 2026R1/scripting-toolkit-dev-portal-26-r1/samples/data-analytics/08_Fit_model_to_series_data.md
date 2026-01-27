@@ -332,6 +332,6 @@ plt.tight_layout()
 
 
     
-![png](08_Fit_model_to_series_data_files/08_Fit_model_to_series_data_16_0.png)
+![png](./08_Fit_model_to_series_data_files/08_Fit_model_to_series_data_16_0.png)
     
 

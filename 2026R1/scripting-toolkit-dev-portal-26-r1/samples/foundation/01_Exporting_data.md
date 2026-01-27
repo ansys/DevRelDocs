@@ -329,6 +329,6 @@ df2.plot.scatter(
 
 
     
-![png](01_Exporting_data_files/01_Exporting_data_17_1.png)
+![png](./01_Exporting_data_files/01_Exporting_data_17_1.png)
     
 

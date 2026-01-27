@@ -366,7 +366,7 @@ _ = ax.set_title(r"$F_{tu}$ vs Average ply thickness")
 
 
     
-![png](02_Plot_data_by_category_files/02_Plot_data_by_category_28_0.png)
+![png](./02_Plot_data_by_category_files/02_Plot_data_by_category_28_0.png)
     
 
 
@@ -561,7 +561,7 @@ _ = ax.set_title(r"$F_{tu}, 0^{{\circ}}$ vs Average ply thickness")
 
 
     
-![png](02_Plot_data_by_category_files/02_Plot_data_by_category_36_0.png)
+![png](./02_Plot_data_by_category_files/02_Plot_data_by_category_36_0.png)
     
 
 
@@ -606,6 +606,6 @@ _ = ax1.set_title(r"$F_{tu}, 0^{{\circ}}$ and $90^{{\circ}}$ vs Average ply thic
 
 
     
-![png](02_Plot_data_by_category_files/02_Plot_data_by_category_38_0.png)
+![png](./02_Plot_data_by_category_files/02_Plot_data_by_category_38_0.png)
     
 

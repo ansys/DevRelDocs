@@ -142,7 +142,7 @@ _ = ax.set_title("Load vs displacement")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_12_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_12_0.png)
     
 
 
@@ -237,7 +237,7 @@ _ = ax.set_title("Stress vs Strain")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_17_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_17_0.png)
     
 
 
@@ -265,7 +265,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_19_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_19_0.png)
     
 
 
@@ -315,7 +315,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_24_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_24_0.png)
     
 
 
@@ -362,7 +362,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_29_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_29_0.png)
     
 
 
@@ -391,7 +391,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_32_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_32_0.png)
     
 
 
@@ -467,7 +467,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_36_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_36_0.png)
     
 
 
@@ -531,7 +531,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_41_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_41_0.png)
     
 
 
@@ -655,7 +655,7 @@ _ = ax.set_title("Engineering and True Stress vs Strain")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_46_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_46_0.png)
     
 
 
@@ -740,7 +740,7 @@ _ = ax.set_title("True Stress vs True Plastic Strain")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_51_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_51_0.png)
     
 
 

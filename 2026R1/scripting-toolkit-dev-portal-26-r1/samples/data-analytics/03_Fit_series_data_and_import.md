@@ -211,7 +211,7 @@ plt.show()
 
 
     
-![png](03_Fit_series_data_and_import_files/03_Fit_series_data_and_import_12_0.png)
+![png](./03_Fit_series_data_and_import_files/03_Fit_series_data_and_import_12_0.png)
     
 
 
@@ -229,7 +229,7 @@ fig
 
 
     
-![png](03_Fit_series_data_and_import_files/03_Fit_series_data_and_import_14_0.png)
+![png](./03_Fit_series_data_and_import_files/03_Fit_series_data_and_import_14_0.png)
     
 
 

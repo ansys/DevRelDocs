@@ -413,7 +413,7 @@ _ = ax.set_title("$F_{{tu}}$ vs Travel Speed")
 
 
     
-![png](01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_30_0.png)
+![png](./01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_30_0.png)
     
 
 
@@ -432,7 +432,7 @@ _ = ax.set_title("$F_{{tu}}$ vs Travel Speed (Box Plot)")
 
 
     
-![png](01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_32_0.png)
+![png](./01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_32_0.png)
     
 
 
@@ -448,7 +448,7 @@ _ = ax.set_title("$F_{{tu}}$ vs Travel Speed (Violin Plot)")
 
 
     
-![png](01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_34_0.png)
+![png](./01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_34_0.png)
     
 
 
@@ -476,7 +476,7 @@ _ = ax.set_title("$F_{{tu}}$ vs Travel Speed Grouped by Specimen Orientation")
 
 
     
-![png](01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_37_0.png)
+![png](./01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_37_0.png)
     
 
 
@@ -626,6 +626,6 @@ _ = ax.set_title("$F_{{tu}}$ vs Travel Speed and Specimen Orientation (Split Vio
 
 
     
-![png](01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_45_0.png)
+![png](./01_Compare_datasets_graphically_files/01_Compare_datasets_graphically_45_0.png)
     
 

@@ -215,7 +215,7 @@ plt.show()
 
 
     
-![png](07_Calculate_statistics_for_functional_attributes_files/07_Calculate_statistics_for_functional_attributes_12_0.png)
+![png](./07_Calculate_statistics_for_functional_attributes_files/07_Calculate_statistics_for_functional_attributes_12_0.png)
     
 
 
