@@ -14,7 +14,7 @@ title: Usage Examples
 
 
 ```python
-import os 
+    import os 
     import sys
 
     # NXOpen Python

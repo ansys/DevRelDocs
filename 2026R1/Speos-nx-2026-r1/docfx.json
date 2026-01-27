@@ -30,9 +30,13 @@
     "keepFileLink": false,
     "disableGitFeatures": true,
     "globalMetadata": {
-      "_appTitle": "SpeosNX API Documentation",
-      "_appName": "SpeosNX API",
-      "_appFooter": "Ansys Speos NX API Documentation - Version 2512",
+      "title": "Speos for NX Library",
+      "summary": "The documentation of the Speos for NX library for Python",
+      "version": "2026 R1",
+      "product": "Speos",
+      "programming language": "python",
+      "product collection": "Optics",
+      "physics": "Optics",
       "_enableSearch": true,
       "_enableNewTab": true
     }

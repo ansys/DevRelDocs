@@ -72,63 +72,63 @@ This section contains the following topics:
 
 
 ```python
-# Imports system packages
-import sys
-import os
+    # Imports system packages
+    import sys
+    import os
 
-# Imports the NX library
-import NXOpen
+    # Imports the NX library
+    import NXOpen
 
-# Retrieves the Speos library directory path using the "SPEOS_NX_DIR" environment variable.
-snxdir = os.getenv('SPEOS_NX_DIR', '') + '\application\'
+    # Retrieves the Speos library directory path using the "SPEOS_NX_DIR" environment variable.
+    snxdir = os.getenv('SPEOS_NX_DIR', '') + '\\application\\'
 
-# Sets the Speos library directory path in the system environment.
-sys.path.append(snxdir)
+    # Sets the Speos library directory path in the system environment.
+    sys.path.append(snxdir)
 
-# Imports the Speos library
-import SpeosNX
+    # Imports the Speos library
+    import SpeosNX
 
-def main():
+    def main():
 
-    # Gets the NX session.
-    MyNXSession = NXOpen.Session.GetSession()
+        # Gets the NX session.
+        MyNXSession = NXOpen.Session.GetSession()
 
-    # Gets the Speos session.
-    Session = SpeosNX.Session.GetSession()
+        # Gets the Speos session.
+        Session = SpeosNX.Session.GetSession()
 
-    # Gets the Speos part collection.
-    PartCollection = Session.Parts
+        # Gets the Speos part collection.
+        PartCollection = Session.Parts
 
-    # Loads all parts that contain Speos features.
-    PartCollection.Load()
+        # Loads all parts that contain Speos features.
+        PartCollection.Load()
 
-    # Gets the currents NX work part.
-    workPart = MyNXSession.Parts.Work
+        # Gets the currents NX work part.
+        workPart = MyNXSession.Parts.Work
 
-    # Gets the current working part's Speos feature collection.
-    FeatureCollection = PartCollection.Work.Features
+        # Gets the current working part's Speos feature collection.
+        FeatureCollection = PartCollection.Work.Features
 
-    origin = workPart.Features.FindObject("DATUM_CSYS(0)").FindObject("POINT 1")
-    xAxis = workPart.Datums.FindObject("DATUM_CSYS(0) X axis")
-    yAxis = workPart.Datums.FindObject("DATUM_CSYS(0) Z axis")
+        origin = workPart.Features.FindObject("DATUM_CSYS(0)").FindObject("POINT 1")
+        xAxis = workPart.Datums.FindObject("DATUM_CSYS(0) X axis")
+        yAxis = workPart.Datums.FindObject("DATUM_CSYS(0) Z axis")
 
-    # Create the feature Builder
-    MySpeosFeature = None
-    IrradianceSensor = FeatureCollection.CreateSensorIrradianceBuilder(MySpeosFeature)
+        # Create the feature Builder
+        MySpeosFeature = None
+        IrradianceSensor = FeatureCollection.CreateSensorIrradianceBuilder(MySpeosFeature)
 
-    # Feature name,
-    IrradianceSensor.Name = "Irradiance Sensor"
+        # Feature name,
+        IrradianceSensor.Name = "Irradiance Sensor"
 
-    # Axis System
-    IrradianceSensor.AxisSystem.OriginPoint = origin.Tag
-    IrradianceSensor.AxisSystem.DirectionX = xAxis.Tag
-    IrradianceSensor.AxisSystem.DirectionY = yAxis.Tag
+        # Axis System
+        IrradianceSensor.AxisSystem.OriginPoint = origin.Tag
+        IrradianceSensor.AxisSystem.DirectionX = xAxis.Tag
+        IrradianceSensor.AxisSystem.DirectionY = yAxis.Tag
 
-    # Create the feature
-    IrradianceSensor.Commit()
+        # Create the feature
+        IrradianceSensor.Commit()
 
-if __name__ == '__main__':
-    main()
+    if __name__ == '__main__':
+        main()
 ```
 
 
