@@ -1,48 +1,41 @@
 ---
-title: Speos NX API Documentation
+_layout: landing
 ---
 
-# Speos NX API Documentation
+# SpeosNX API Documentation
 
-Welcome to the Speos NX API documentation. This documentation provides comprehensive information about the Speos NX Python API.
+This document provides you a complete documentation of the Speos for NX library for Python.
 
-## Getting Started
+Refer to [Changelog](articles/changelog.md) to see what's new in the latest version.
 
-- [User Guide](articles/User-guide.md) - Learn how to get started with Speos NX automation
-- [Usage Examples](articles/Usage-examples.md) - Explore practical examples
+## Main Features
 
-## API Reference
+- **Optical Properties**: Optical properties define how light rays interact with geometries.
+- **Sources**: Sources are light sources propagating rays in an optical system.
+- **Sensors**: Sensors integrate rays coming from the source to analyze the optical result in the optical system.
+- **Simulation**: Simulations give life to the optical system to generate the results, by propagating rays between sources and sensors.
 
-Browse the [API Reference](api/toc.yml) for detailed information about all classes, methods, and properties.
+The Speos for NX library is intricately linked to the GUI, ensuring that functionalities accessible in the GUI has a corresponding automation function. As the automation functions are directly derived from the GUI, they perfectly align with the actions you would have to perform in the software such as creating new Speos objects, editing existing ones, and modifying parameters.
 
-### Core Classes
+## Understanding the Doxygen Class Documentation
 
-- **Session** - The main entry point for Speos NX API
-- **Part** - Represents a Speos for NX part
-- **FeatureCollection** - Collection of Speos features
+The documentation provides a representation of the Speos for NX library in doxygen format. Each class has the following structure:
 
-### Categories
+- **The class inheritance diagram** - Graph that shows all parents of the current class.
+- **Public Member Functions** - List of functions that is available with the class, each function item has a brief description.
+- **Public Static Attributes** - List of static attributes. A static attribute is an unique variable that is shared among all instances of a class.
+- **Properties** - List of properties that is available with the class. A property is a class attribute that encapsulates accessors.
+- **Detailed Description** - Detailed description of the class.
+- **Additional Inherited Members** - List of functions that the class inherits from its parents.
+- **Member Function Documentation** - Detailed documentation of each functions such as parameters' type, return value, range of value.
+- **Property Documentation** - Detailed documentation of each properties such as its accessing privilege, type, range, prerequisite and detailed description.
 
-- **Builders** - Classes for creating and configuring features
-- **Sensors** - Sensor-related classes (Irradiance, Camera, LiDAR, etc.)
-- **Sources** - Light source classes (Surface, Luminaire, Ray File, etc.)
-- **Simulations** - Simulation configuration classes
-- **Components** - Component-related classes (3D Texture, Optical Design Exchange, etc.)
+## Quick Navigation
 
-## Quick Example
-
-```python
-import SpeosNX
-
-# Get the Speos session
-session = SpeosNX.Session.GetSession()
-
-# Get the part collection
-parts = session.Parts
-
-# Load all parts with Speos features
-parts.Load()
-
-# Access features
-features = parts.Work.Features
-```
+| Section | Description |
+|---------|-------------|
+| [Introduction](articles/introduction.md) | Overview of SpeosNX API |
+| [Getting Started](articles/getting_started.md) | How to get started with the API |
+| [Usage Examples](articles/usage_examples.md) | Code examples and tutorials |
+| [Changelog](articles/changelog.md) | Version history and changes |
+| [Classes](articles/classes/index.md) | Complete API reference |

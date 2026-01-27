@@ -4,21 +4,8 @@
     "content": [
       {
         "files": [
-          "api/**.md",
-          "api/toc.yml"
-        ]
-      },
-      {
-        "files": [
           "articles/**.md",
-          "articles/toc.yml"
-        ],
-        "exclude": [
-            "_site/**"
-        ]
-      },
-      {
-        "files": [
+          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -31,15 +18,23 @@
         ]
       }
     ],
-    "dest": "_site",
-    "globalMetadata": {
-      "_appTitle": "Speos NX API Documentation",
-      "_appFooter": "Speos NX API Reference",
-      "_enableSearch": true
-    },
+    "output": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
     "template": [
       "default",
       "modern"
-    ]
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "disableGitFeatures": true,
+    "globalMetadata": {
+      "_appTitle": "SpeosNX API Documentation",
+      "_appName": "SpeosNX API",
+      "_appFooter": "Ansys Speos NX API Documentation - Version 2512",
+      "_enableSearch": true,
+      "_enableNewTab": true
+    }
   }
 }

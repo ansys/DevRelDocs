@@ -1,6 +1,14 @@
-- name: Home
-  href: index.md
-- name: Articles
-  href: articles/
-- name: API Reference
-  href: api/
+- name: Introduction
+  href: articles/introduction.md
+- name: Getting Started
+  href: articles/getting_started.md
+  items:
+    - name: User Guide
+      href: articles/getting_started_user_guide.md
+- name: Usage Examples
+  href: articles/usage_examples.md
+- name: Changelog
+  href: articles/changelog.md
+- name: Classes
+  href: articles/classes/
+  topicHref: articles/classes/index.md
