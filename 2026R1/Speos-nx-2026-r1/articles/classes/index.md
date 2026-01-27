@@ -1,4 +1,4 @@
-﻿# SpeosNX Class Reference
+﻿# SpeosNX class reference
 
 Browse the complete API documentation for SpeosNX version 2512.
 
@@ -6,9 +6,9 @@ Browse the complete API documentation for SpeosNX version 2512.
 
 - [SpeosNX_2512](namespace_speos_n_x__2512.md) - Main namespace containing all classes
 
-## Class List
+## Class list
 
-### Core Classes
+### Core classes
 
 | Class | Description |
 |-------|-------------|
@@ -67,7 +67,7 @@ Browse the complete API documentation for SpeosNX version 2512.
 |-------|-------------|
 | [SimulationSettings](class_speos_n_x__2512_1_1_simulation_settings.md) | |
 
-### Sensor Builders
+### Sensor builders
 
 | Class | Description |
 |-------|-------------|
@@ -86,7 +86,7 @@ Browse the complete API documentation for SpeosNX version 2512.
 | [SensorRadianceBuilder](class_speos_n_x__2512_1_1_sensor_radiance_builder.md) | |
 | [SensorVRImmersiveBuilder](class_speos_n_x__2512_1_1_sensor_v_r_immersive_builder.md) | |
 
-### Source Builders
+### Source builders
 
 | Class | Description |
 |-------|-------------|
@@ -106,7 +106,7 @@ Browse the complete API documentation for SpeosNX version 2512.
 | [SourceSurfaceBuilder](class_speos_n_x__2512_1_1_source_surface_builder.md) | |
 | [SourceSurfaceThermicBuilder](class_speos_n_x__2512_1_1_source_surface_thermic_builder.md) | |
 
-### Simulation Builders
+### Simulation builders
 
 | Class | Description |
 |-------|-------------|
@@ -116,7 +116,7 @@ Browse the complete API documentation for SpeosNX version 2512.
 | [SimulationInverseBuilder](class_speos_n_x__2512_1_1_simulation_inverse_builder.md) | |
 | [SimulationLiDARBuilder](class_speos_n_x__2512_1_1_simulation_li_d_a_r_builder.md) | |
 
-### Component Builders
+### Component builders
 
 | Class | Description |
 |-------|-------------|
@@ -129,7 +129,7 @@ Browse the complete API documentation for SpeosNX version 2512.
 | [ComponentPolarizationPlateBuilder](class_speos_n_x__2512_1_1_component_polarization_plate_builder.md) | |
 | [NewComponentBuilder](class_speos_n_x__2512_1_1_new_component_builder.md) | |
 
-### Other Builders
+### Other builders
 
 | Class | Description |
 |-------|-------------|
