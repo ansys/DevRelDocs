@@ -1,7 +1,7 @@
 # Schedule activities in Simulation Framework
 An `Activity` is basic simulation participant in simulation framework, where Topics can be provided or consumed between other activities. To fulfill the simulation demands, all activities can be scheduled through user's `simulation_scheduling` input. 
 
-![Scheduling Concept](../images/scheduling_concept.png)
+![Scheduling Concept](./../images/scheduling_concept.png)
 
 It provides the feature that the user can define what Activities and how they should behave in simulation. With the configuration in json, user could define which activities, their topics' cycle times, their location and type. It is parsed and understood by scheduler core and during the simulation, scheduler sends corresponding events to different target activity via communication middleware. Thus, the activities can be scheduled under a deterministic behavior.
 

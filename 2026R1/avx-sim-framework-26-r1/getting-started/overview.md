@@ -33,18 +33,18 @@ For execution of the [reference simulation](#reference-simulation), following re
 ## Run example
 
 Within the deployment, an example code is provided to show how to use APIs of Simulation Framework and how to do customization.
-Before running the example, please make sure you have valid license setup and be able to connect with Ansys License Manager. More hint please see [setup License](../documentation/markdown/setup_license.md)
+Before running the example, please make sure you have valid license setup and be able to connect with Ansys License Manager. More hint please see [setup License](./../documentation/markdown/setup_license.md)
 
 ```bash
 cd simulation_framework/example
 ./my_activity/run.sh
 ```
 
-This script compiles automatically the example `my_activity` and triggers the simulation using `my_activity` by means of [command line tool](../documentation/markdown/command_line_tool.md) provided by Simulation Framework. It provides a basic example using bazel to show how Simulation Framework is used as lib. If the test works, you should see some simulation logs and then the evaluated `min_ttc` result in json format prints in console.
+This script compiles automatically the example `my_activity` and triggers the simulation using `my_activity` by means of [command line tool](./../documentation/markdown/command_line_tool.md) provided by Simulation Framework. It provides a basic example using bazel to show how Simulation Framework is used as lib. If the test works, you should see some simulation logs and then the evaluated `min_ttc` result in json format prints in console.
 
 ## Built-in and default standalone Activities
 
-The autonomy `simfwk_cli` stands as an exemplary application constructed with the Simulation Framework library, offering four predefined activities as references. Users have the flexibility to use these activities to initiate the default simulation application or seamlessly integrate them into a customized simulation. These activities, implemented in the `simfwk-autonomy`, can be selected as `built-in` activities based on their specified `type` in the configuration, contributing to the adaptability of the simulation at any given point. Details about config please refer to [schedule your simulation](../documentation/markdown/simulation_scheduling.md).
+The autonomy `simfwk_cli` stands as an exemplary application constructed with the Simulation Framework library, offering four predefined activities as references. Users have the flexibility to use these activities to initiate the default simulation application or seamlessly integrate them into a customized simulation. These activities, implemented in the `simfwk-autonomy`, can be selected as `built-in` activities based on their specified `type` in the configuration, contributing to the adaptability of the simulation at any given point. Details about config please refer to [schedule your simulation](./../documentation/markdown/simulation_scheduling.md).
 
 | Activity Description             | Type       | Name in Simulation Config        | Publish Topic(s)   | Subscribe Topic(s) |
 | -------------------------------- | ---------- | -------------------------------- | ------------------ | ------------------ |
@@ -120,7 +120,7 @@ The user needs to add the below config setting json node as a child of `simulati
 - Select `Open a Connection` at `localhost:8700` in Lichtblick.
 - Set any field to plot for y-axis from the /sim/groundtruth_topic
 - Set seconds from /sim/simulation_time on the x-axis.
-    Refer settings at ![Lichtblick settings for live streaming](../images/lichtblick_settings_live_streaming.png)
+    Refer settings at ![Lichtblick settings for live streaming](./../images/lichtblick_settings_live_streaming.png)
 - The plot will be drawn if the simulation has not ended yet.
 
 **Using MCAP file:**
@@ -129,7 +129,7 @@ The user needs to add the below config setting json node as a child of `simulati
 - Select `Open a local file` created in the previous step in Lichtblick.
 - Set any field to plot for y-axis from the /sim/groundtruth_topic
 - Set seconds from /sim/simulation_time on the x-axis.
-    Refer settings at ![Lichtblick settings for live streaming](../images/lichtblick_settings_mcap_file.png)
+    Refer settings at ![Lichtblick settings for live streaming](./../images/lichtblick_settings_mcap_file.png)
 - The plot will be drawn for the mcap file selected.
 
 ### GroundTruth Generator (GT Gen)
@@ -259,7 +259,7 @@ The KPI Evaluator calculates four KPIs based on GroundTruth:
 
     Note: The example in below section shows a case where the host collided with two objects simultaneously, and both collisions are recorded, one did reduce its speed other did not.
 
-To add more KPIs to the simulation, please refer to the [customized KPI chapter](../documentation/markdown/customized_kpi_evaluator.md).
+To add more KPIs to the simulation, please refer to the [customized KPI chapter](./../documentation/markdown/customized_kpi_evaluator.md).
 
 ### Default KPI logger
 
@@ -342,7 +342,7 @@ By following these guidelines, you can ensure the safe and effective use of the 
 
 The Simulation Framework Autonomy not only offers users the capability to extend or customize the default simulation setup but also empowers them to bring their own logic into specific activities and seamlessly communicate with other activities through the introduction of new topics. Additionally, users can incorporate new KPIs, which will be automatically logged by the Simulation Framework.
 
-For detailed instructions on implementing and using customized activities, refer to [how to implement and use customized Activity](../documentation/markdown/customized_activity.md). Furthermore, guidance on adding and utilizing customized KPIs can be found in [how to add and use customized KPIs](../documentation/markdown/customized_kpi_evaluator.md).
+For detailed instructions on implementing and using customized activities, refer to [how to implement and use customized Activity](./../documentation/markdown/customized_activity.md). Furthermore, guidance on adding and utilizing customized KPIs can be found in [how to add and use customized KPIs](./../documentation/markdown/customized_kpi_evaluator.md).
 
 ## Simulation domain ID
 
@@ -437,7 +437,7 @@ SchedulingFeedback for the Event with ID 11 received and its action result is Ac
 Executing original terminate handler...terminate called after throwing an instance of 'std::runtime_error'
 ```
 
-The root cause of this issue could be that the environment where your simulation applicaiont runs does not have enough resouces, e.g. the CPU was stressed or memory is not enough. Other possible reason is that you have another application process built with Simulation Framework running in the same simulation domain. Please refer to the documentation of [Simulation domain ID section in lifecycle](../documentation/markdown/lifecycle.md)
+The root cause of this issue could be that the environment where your simulation applicaiont runs does not have enough resouces, e.g. the CPU was stressed or memory is not enough. Other possible reason is that you have another application process built with Simulation Framework running in the same simulation domain. Please refer to the documentation of [Simulation domain ID section in lifecycle](./../documentation/markdown/lifecycle.md)
 
 ### Communication error
 

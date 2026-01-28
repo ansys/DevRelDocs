@@ -39,7 +39,7 @@ Note: If relative paths are used for files or the output directory, they must be
 ## "simulation_scheduling"
 This section is specifically designed for setting up simulation scheduling. It allows users to define the Activities and configure their behavior during simulations. Below is an example of `simulation_scheduling`.
 
-For a detailed explanation, please refer to the dedicated chapter: [Simulation Scheduling](../documentation/markdown/simulation_scheduling.md).
+For a detailed explanation, please refer to the dedicated chapter: [Simulation Scheduling](./../documentation/markdown/simulation_scheduling.md).
 
 
 ```json
@@ -133,7 +133,7 @@ where options are:
                                             the default behaviour.
 ```
 
-where `-s <simulation_configuration.json>` is the only mandatory argument. If extra parameters are required by customized autonomy simulation, they can be given through the CLI. Thus, the file path can be retrieved by using the getter API of any activity. More explanation about the getter API in activities can be found [here](../documentation/markdown/customized_activity.md).
+where `-s <simulation_configuration.json>` is the only mandatory argument. If extra parameters are required by customized autonomy simulation, they can be given through the CLI. Thus, the file path can be retrieved by using the getter API of any activity. More explanation about the getter API in activities can be found [here](./../documentation/markdown/customized_activity.md).
 
 E.g. if you want a file named "file_foo" with path "path/to/file_foo.txt", the following command can be given using the CLI:
 ```bash
