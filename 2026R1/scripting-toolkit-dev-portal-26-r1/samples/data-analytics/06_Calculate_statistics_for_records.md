@@ -1,6 +1,6 @@
 # Calculate statistics for a set of records
 
-Summarise (roll up) test results into new statistical data records. 
+Summarise (roll up) test results into new statistical data records.
 
 In this example, the tests are stored in *Tensile Test Data* table and the statistical data is stored in *Tensile
 Statistical Data*. Since the sample data is arranged by specimen, the mean and other statistics will be stored by
@@ -29,17 +29,17 @@ To simplify your own roll-up, you can:
 ```python
 import statistics
 from typing import List
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
 def rollup_point_attribute(
     source_attributes: List[mpy.AttributeValue],
     target_attribute: mpy.AttributeValue,
     record: mpy.Record,
 ) -> None:
-
+    if any(isinstance(attr, mpy.AttributePointMulti) for attr in source_attributes):
+        raise TypeError("Multi-valued points are not supported by this script")
+    
     values = [attr.value for attr in source_attributes if attr.value]
-
-    assert all([isinstance(value, float) for value in values]), "Multi-valued points are not supported by this script"
 
     if len(values) == 0:
         return
@@ -96,28 +96,29 @@ def copy_attribute(
     target_attribute: mpy.AttributeValue,
     record: mpy.Record,
 ) -> None:
-
     if target_attribute.type == "POIN":
-        values = set([attr.value for attr in source_attributes if attr.value])
-
-        assert all(
-            [isinstance(value, float) for value in values]
-        ), "Multi-valued points are not supported by this script"
-
-        assert len(values) == 1, "Values must be identical to copy, received '{0}'".format(', '.join(values))
+        if any(isinstance(attr, mpy.AttributePointMulti) for attr in source_attributes):
+            raise TypeError("Multi-valued points are not supported by this script")
+        values = {attr.value for attr in source_attributes if attr.value}
+        if len(values) != 1:
+            formatted_values = ", ".join(values)
+            raise ValueError(f"Values must be identical to copy, received '{formatted_values}'")
         target_attribute.value = values.pop()
 
     elif target_attribute.type == "DISC":
-        # No support for multivalued
-        if any(attr.is_multivalued for attr in source_attributes):
-            raise TypeError("No support for multivalued")
-        values = set([attr.value for attr in source_attributes if attr.value])
-        assert len(values) == 1, "Values must be identical to copy, received '{0}'".format(', '.join(values))
+        if any(isinstance(attr, mpy.AttributeDiscreteMulti) for attr in source_attributes):
+            raise TypeError("Multi-valued discretes are not supported by this script")
+        values = {attr.value for attr in source_attributes if attr.value}
+        if len(values) != 1:
+            formatted_values = ", ".join(values)
+            raise ValueError(f"Values must be identical to copy, received '{formatted_values}'")
         target_attribute.value = values.pop()
 
     else:
-        values = set([attr.value for attr in source_attributes if attr.value])
-        assert len(values) == 1, "Values must be identical to copy, received '{0}'".format(', '.join(values))
+        values = {attr.value for attr in source_attributes if attr.value}
+        if len(values) != 1:
+            formatted_values = ", ".join(values)
+            raise ValueError(f"Values must be identical to copy, received '{formatted_values}'")
         target_attribute.value = values.pop()
 
     record.set_attributes([target_attribute])
@@ -132,19 +133,24 @@ Connect to Granta MI and fetch the folder corresponding to the composite *3M, S-
 
 
 ```python
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 
 db = mi.get_db(db_key="MI_Training")
 test_table = db.get_table("Tensile Test Data")
 statistics_table = db.get_table("Tensile Statistical Data")
 
 material_record = test_table.search_for_records_by_name("3M, S-Glass Unitape S2/SP381")[0]
-print(material_record)
+material_record
 ```
+
+
+
 *Previous cell output:*
 ```output
 <Record long name: 3M, S-Glass Unitape S2/SP381>
 ```
+
+
 To make processing easier, convert the structure of the data from
 
     Material => Orientation => RTD => Specimen => Test result
@@ -167,8 +173,8 @@ to dealing with advanced tree-traversal.
 orientation_records = material_record.children
 test_records = {
     orientation.name: {
-        specimen.name: specimen.children for specimen in
-        test_table.get_records_from_path(
+        specimen.name: specimen.children
+        for specimen in test_table.get_records_from_path(
             starting_node=orientation,
             tree_path=["RTD"],
             use_short_names=True,
@@ -181,7 +187,7 @@ test_records = {
 Define the attributes you want to calculate statistics for, and those you want to copy from the test records.
 
 To fetch large numbers of records or attributes efficiently, use the `table.bulk_fetch()` method (see
-[Performance optimization](./../../user_guide/performance_optimization.rst)).
+[Performance optimization](../../user_guide/performance_optimization.rst)).
 
 
 ```python
@@ -245,7 +251,7 @@ plt.show()
 
 
     
-![png](06_Calculate_statistics_for_records_files/06_Calculate_statistics_for_records_12_0.png)
+![png](./06_Calculate_statistics_for_records_files/06_Calculate_statistics_for_records_12_0.png)
     
 
 
@@ -259,18 +265,19 @@ statistical data record and the test records it summarises.
 
 ```python
 import datetime
+
 timestamp = datetime.datetime.now().isoformat()
 for orientation, specimens in test_records.items():
     folder = statistics_table.path_from(
         starting_node=None,
-        tree_path = [
+        tree_path=[
             "Epoxy/Glass",
             "3M, S-Glass Unitape S2/SP381",
             timestamp,
             orientation,
             "RTD",
         ],
-        color=mpy.RecordColor.Aqua
+        color=mpy.RecordColor.Aqua,
     )
     for specimen, test_runs in specimens.items():
         rollup_record = statistics_table.create_record(name=specimen, parent=folder)
@@ -279,7 +286,7 @@ for orientation, specimens in test_records.items():
             try:
                 target_attribute = rollup_record.attributes[rollup]
                 rollup_point_attribute(source_attributes, target_attribute, rollup_record)
-            except AssertionError:  # Attribute contains multivalued data
+            except TypeError:  # Attribute contains multivalued data
                 continue
             except KeyError:
                 print("No attribute in target table to roll attribute '{0}' into.".format(rollup))
@@ -290,7 +297,7 @@ for orientation, specimens in test_records.items():
             try:
                 target_attribute = rollup_record.attributes[copy_attr]
                 copy_attribute(source_attributes, target_attribute, rollup_record)
-            except AssertionError:  # Attribute contains multivalued data
+            except TypeError:  # Attribute contains multivalued data
                 continue
             except KeyError:
                 print("No attribute in target table to copy attribute '{0}' into.".format(copy_attr))
@@ -307,12 +314,12 @@ for orientation, specimens in test_records.items():
 ```
 *Previous cell output:*
 ```output
-Rollup completed for the specimen 'LBU15', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=32d98e87-d538-4958-bf4d-93d4cf4bf61e'
-Rollup completed for the specimen 'LBU14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=58b52053-d236-447d-b5fd-7fa0e66cd1c3'
-Rollup completed for the specimen 'LBJ83', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=021bf20b-d0a8-4be6-99f3-9ee57993b1a3'
-Rollup completed for the specimen 'LBJ62', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=baab458e-ebd3-486c-9e50-d6da39493e27'
-Rollup completed for the specimen 'LBJ53', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=dbab2acf-fdc2-4444-9e0a-a2551063f3e4'
-Rollup completed for the specimen 'LBJ42', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=7a59d226-e6bb-4f55-97cc-b68157ef9355'
-Rollup completed for the specimen 'LBJ14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=ab4a3789-6adf-4302-b220-acd899a829ae'
-Rollup completed for the specimen 'LBJ13', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=6266db70-d0b5-4acd-95aa-6864b9ed2da0'
+Rollup completed for the specimen 'LBU15', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=de12216b-85c0-49c9-b605-3448a89e13c5'
+Rollup completed for the specimen 'LBU14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=00addbdf-1631-4bef-99cc-6c0a962f1833'
+Rollup completed for the specimen 'LBJ83', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=2395f499-c293-4446-acb3-1e904fafab90'
+Rollup completed for the specimen 'LBJ62', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=f44b6cb6-749e-4913-861d-5cd07d8db2d7'
+Rollup completed for the specimen 'LBJ53', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=f94cfc30-d44c-4100-b2f2-a7b57abf4d85'
+Rollup completed for the specimen 'LBJ42', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=219396fd-ad80-4def-a91c-f435074ef72c'
+Rollup completed for the specimen 'LBJ14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=6d964778-afc3-42e3-808f-c86f3253815f'
+Rollup completed for the specimen 'LBJ13', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=9de8cc1b-c728-4ed4-844c-ae47ee57f929'
 ```

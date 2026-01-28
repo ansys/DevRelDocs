@@ -9,15 +9,15 @@ This example demonstrates:
 - Create a link between the new record and another record
 
 ## Create a Granta MI session
-Import the GRANTA_MIScriptingToolkit package, and create a connection to a Granta MI server.
+Import the ansys.grantami.backend.soap package, and create a connection to a Granta MI server.
 
 
 ```python
 from datetime import datetime
 
-import GRANTA_MIScriptingToolkit as gdl
+import ansys.grantami.backend.soap as gdl
 
-session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", autoLogon=True)
+session = gdl.GRANTA_MISession("http://my.server.name/mi_servicelayer", auto_logon=True)
 ```
 
 ##  Create a link between a current record and a new record
@@ -25,18 +25,18 @@ Find the record link groups that can be created within MaterialUniverse.
 
 
 ```python
-dbkey = "MI_Training"
-tableName = "MaterialUniverse"
+db_key = "MI_Training"
+table_name = "MaterialUniverse"
 
-req = gdl.GetRecordLinkGroups(DBKey=dbkey)
+req = gdl.GetRecordLinkGroups(db_key=db_key)
 
-grlg_resp = session.browseService.GetRecordLinkGroups(req)
+grlg_resp = session.browse_service.get_record_link_groups(req)
 
 groups = {}
-for r in grlg_resp.recordLinkGroups:
-    if r.fromTable.name == tableName:
-        print(f"{r.name}: id={r.reference.recordLinkGroupIdentity}")
-        groups[r.name] = r
+for rlg in grlg_resp.record_link_groups:
+    if rlg.from_table.name == table_name:
+        print(f"{rlg.name}: id={rlg.reference.record_link_group_identity}")
+        groups[rlg.name] = rlg
 ```
 *Previous cell output:*
 ```output
@@ -47,19 +47,19 @@ be the target record to create a link to later.
 
 
 ```python
-grn_req = gdl.GetRootNode(table=groups["Training Exercise"].toTable)
-grn_resp = session.browseService.GetRootNode(grn_req)
+grn_req = gdl.GetRootNode(table=groups["Training Exercise"].to_table)
+grn_resp = session.browse_service.get_root_node(grn_req)
 
 now = datetime.now().strftime("%c")
-linkedRecordName = f"Scripting toolkit foundation layer example 09:{now}"
+linked_record_name = f"Scripting Toolkit Foundation Layer Example 9:{now}"
 
 ir = gdl.ImportRecord(
-    recordName=linkedRecordName,
-    existingRecord=grn_resp.rootNode.recordReference,
+    record_name=linked_record_name,
+    existing_record=grn_resp.root_node.record_reference,
 )
-req = gdl.SetRecordAttributesRequest(importRecords=[ir], importErrorMode=gdl.GRANTA_Constants.ImportErrorMode.Fault)
-resp = session.dataImportService.SetRecordAttributes(req)
-target = resp.recordsImported[0]
+req = gdl.SetRecordAttributesRequest(import_records=[ir], import_error_mode=gdl.GRANTA_Constants.ImportErrorMode.Fault)
+resp = session.data_import_service.set_record_attributes(req)
+target = resp.records_imported[0]
 ```
 
 Set "PMMA (cast sheet)" in MaterialUniverse as the source record to create a link from.
@@ -67,16 +67,16 @@ Set "PMMA (cast sheet)" in MaterialUniverse as the source record to create a lin
 
 ```python
 req = gdl.RecordNameSearchRequest(
-    caseSensitiveNames=False,
-    recordName="PMMA (cast sheet)",
-    populateGUIDs=True,
-    searchShortNames=True,
-    searchFullNames=True,
+    case_sensitive_names=False,
+    record_name="PMMA (cast sheet)",
+    populate_guids=True,
+    search_short_names=True,
+    search_full_names=True,
+    table=gdl.TableReference(db_key=db_key, name=table_name)
 )
-req.table = gdl.TableReference(DBKey=dbkey, name=tableName)
-resp = session.searchService.RecordNameSearch(req)
-sourceResult = resp.searchResults[0]
-source = sourceResult.recordReference
+resp = session.search_service.record_name_search(req)
+source_result = resp.search_results[0]
+source = source_result.record_reference
 ```
 
 Use the ModifyRecordLinks operation to create a link called "Training Exercise" from "PMMA (cast sheet)" to the new
@@ -84,23 +84,23 @@ imported record.
 
 
 ```python
-destinationRec = gdl.NotatedTargetRecord(
-    record=target.recordReference,
+destination_record = gdl.NotatedTargetRecord(
+    record=target.record_reference,
     notes="This will work",
 )
-mySourceRec = gdl.NotatedTargetedSourceRecord(
-    sourceRecord=source,
-    targetRecords=[destinationRec],
+source_record = gdl.NotatedTargetedSourceRecord(
+    source_record=source,
+    target_records=[destination_record],
 )
-linkThisRecord = gdl.LinkRecords(sourceRecords=[mySourceRec])
-recordLinksMod = gdl.RecordLinkModifications(linkRecords=[linkThisRecord])
+link_records = gdl.LinkRecords(source_records=[source_record])
+record_link_modifications = gdl.RecordLinkModifications(link_records=[link_records])
 
 req = gdl.ModifyRecordLinksRequest(
-    recordLinkGroupReference=groups["Training Exercise"].reference,
-    recordLinkModifications=recordLinksMod,
-    importErrorMode=gdl.GRANTA_Constants.ImportErrorMode.Fault,
+    record_link_group_reference=groups["Training Exercise"].reference,
+    record_link_modifications=record_link_modifications,
+    import_error_mode=gdl.GRANTA_Constants.ImportErrorMode.Fault,
 )
-mrlresp = session.dataImportService.ModifyRecordLinks(req)
+mrlresp = session.data_import_service.modify_record_links(req)
 ```
 
 Print the record names and GUIDs for the newly-linked records. You can also check this new link in MI Viewer, by
@@ -108,17 +108,17 @@ viewing the link on the "PMMA (cast sheet)" datasheet.
 
 
 ```python
-print(f"Created {len(mrlresp.recordLinkChanges.linked)} link(s)")
+print(f"Created {len(mrlresp.record_link_changes.linked)} link(s)")
 
-change = mrlresp.recordLinkChanges.linked[0]
-source_guid = change.record.recordReference.recordGUID
-source_name = sourceResult.shortName
-target_guid = change.targetRecords[0].recordReference.recordGUID
-target_name = ir.recordName
+change = mrlresp.record_link_changes.linked[0]
+source_guid = change.record.record_reference.record_guid
+source_name = source_result.short_name
+target_guid = change.target_records[0].record_reference.record_guid
+target_name = ir.record_name
 print(f"{source_guid} ({source_name}) -> {target_guid} ({target_name})")
 ```
 *Previous cell output:*
 ```output
 Created 1 link(s)
-000016f6-000e-4fff-8fff-dd92ffff0000 (Cast sheet) -> f630996a-c1f6-4840-8afe-a011f60c0d49 (Scripting toolkit foundation layer example 09:Mon May 12 16:21:51 2025)
+000016f6-000e-4fff-8fff-dd92ffff0000 (Cast sheet) -> 3481aff1-d5a8-4451-9e55-8557eed407fa (Scripting Toolkit Foundation Layer Example 9:Wed Jan  7 19:32:44 2026)
 ```

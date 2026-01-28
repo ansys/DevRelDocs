@@ -11,8 +11,9 @@ All three methods can be performed at either the Session, Database, or Table lev
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+import ansys.grantami.core as mpy
+
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 db.unit_system = "UK Imperial"
 material_universe = db.get_table("MaterialUniverse")
@@ -216,8 +217,8 @@ legislations = db.get_table("Legislations and Lists")
 effective_date_attribute = legislations.attributes["Effective date"]
 
 import datetime
-start_date = datetime.datetime(1970, 1, 1)
-end_date = datetime.datetime(2000, 1, 1)
+start_date = datetime.date(1970, 1, 1)
+end_date = datetime.date(2000, 1, 1)
 effective_date_1970_2000 = effective_date_attribute.search_criterion(between_dates=(start_date, end_date))
 legislations_1970_2000 = legislations.search_for_records_where([effective_date_1970_2000])
 legislations_1970_2000
@@ -342,7 +343,7 @@ Print the results of the tabular search.
 
 ```python
 print(f"{'Record Name':^55.55} | {'Short Name':^55.55}")
-print("-"*113)
+print("-" * 113)
 for r in affected_materials:
     print(f"{r.name:^55.55} | {r.short_name:^55.55}")
 ```
@@ -366,20 +367,18 @@ tensile_test_table = db.get_table("Tensile Test Data")
 
 name_criterion = mpy.SearchCriterion(mpy.RecordProperties.name, "CONTAINS", "MTS")
 
-start_datetime = datetime.datetime(year=2023, month=9, day=1)
-end_datetime = datetime.datetime(year=2023, month=9, day=30)
-created_criterion = mpy.SearchCriterion(
-    mpy.RecordProperties.created_on, "BETWEEN", (start_datetime, end_datetime)
-)
+start_datetime = datetime.datetime(year=2023, month=9, day=1, hour=0, minute=0, second=0)
+end_datetime = datetime.datetime(year=2023, month=10, day=1, hour=0, minute=0, second=0)
+created_criterion = mpy.SearchCriterion(mpy.RecordProperties.created_on, "BETWEEN", (start_datetime, end_datetime))
 
 created_records = tensile_test_table.search_for_records_where([name_criterion, created_criterion])
 
 print(f"{len(created_records)} records found. Displaying first 5...")
 print()
 print(f"{'Record Name':^55.55} | {'Created Date':^55.55}")
-print("-"*113)
+print("-" * 113)
 for r in created_records[:5]:
-    created_on = r.created_on.strftime('%Y/%m/%d %H:%M:%S')
+    created_on = r.created_on.strftime("%Y/%m/%d %H:%M:%S")
     print(f"{r.name:^55.55} | {created_on:^55.55}")
 ```
 *Previous cell output:*
