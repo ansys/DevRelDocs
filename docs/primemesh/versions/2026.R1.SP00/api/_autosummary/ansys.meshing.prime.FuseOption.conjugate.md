@@ -1,0 +1,9 @@
+# conjugate
+
+<a id="ansys.meshing.prime.FuseOption.conjugate"></a>
+
+#### FuseOption.conjugate()
+
+Returns self, the complex conjugate of any int.
+
+<!-- !! processed by numpydoc !! -->

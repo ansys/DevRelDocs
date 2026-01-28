@@ -1,0 +1,1044 @@
+# Class FullCarTestRigDocument
+<a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument"></a>
+
+Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
+Assembly: VMDCar.dll  
+
+The full car test rig subsystem documet
+
+```csharp
+public class FullCarTestRigDocument : TestRigDocumentBase, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IEnableManager, IRelatedDocument, IHistorySupport, ITemplateDocument, ITreatValidObject, ISubSystemDocument, IDocumentAnalysis, IDocument3D, IHandledDocument, IDocument, IObject, IEventProvider, IContainer, ILinkContainer, IOwned, IHasID, IDocumentOwner, IInterfaceSupport, IApplyInitialVelocity, IPostTemplateBasedDocument, IInterfaceTable, IHasMinorRole
+```
+
+#### Inheritance
+
+object ← 
+ObservableObject ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
+LinkContainer ← 
+Container ← 
+Document ← 
+HandledDocument ← 
+Document3D ← 
+[DocumentAnalysis](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs) ← 
+[SubSystemDocument](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs) ← 
+[TestRigDocumentBase](VM.Managed.DAFUL.Car.TestRigDocumentBase.md) ← 
+[FullCarTestRigDocument](VM.Managed.DAFUL.Car.FullCarTestRigDocument.md)
+
+#### Implements
+
+IObservableObject, 
+IDisposableObject, 
+ILinkable, 
+ILinkContainerEvent, 
+IVerifiable, 
+IEnableManager, 
+IRelatedDocument, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+ITemplateDocument, 
+ITreatValidObject, 
+ISubSystemDocument, 
+IDocumentAnalysis, 
+IDocument3D, 
+IHandledDocument, 
+IDocument, 
+IObject, 
+IEventProvider, 
+IContainer, 
+ILinkContainer, 
+IOwned, 
+IHasID, 
+IDocumentOwner, 
+IInterfaceSupport, 
+IApplyInitialVelocity, 
+IPostTemplateBasedDocument, 
+IInterfaceTable, 
+[IHasMinorRole](VM.Managed.DAFUL.Car.IHasMinorRole.md)
+
+#### Inherited Members
+
+[TestRigDocumentBase.PostOpenDocument\(\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_PostOpenDocument), 
+[TestRigDocumentBase.ReplaceAssembly\(string\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_ReplaceAssembly\_System\_String\_), 
+[TestRigDocumentBase.SetTemplateInfoImpl\(DocFromTemplateInfo\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_SetTemplateInfoImpl\_VM\_Managed\_DocFromTemplateInfo\_), 
+[TestRigDocumentBase.OnDeserialization\(object\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_OnDeserialization\_System\_Object\_), 
+[TestRigDocumentBase.AddSubSystem\(string\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_AddSubSystem\_System\_String\_), 
+[TestRigDocumentBase.AddSubSystemForOther\(string\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_AddSubSystemForOther\_System\_String\_), 
+[TestRigDocumentBase.AddErrorMessageToOutputWindow\(string\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_AddErrorMessageToOutputWindow\_System\_String\_), 
+[TestRigDocumentBase.InitializeInterfaceTable\(\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_InitializeInterfaceTable), 
+[TestRigDocumentBase.ReSetInterfacetable\(ObjectBase, ObjectBase\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_ReSetInterfacetable\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_), 
+[TestRigDocumentBase.BindInterfaces\(ObjectBase, ObjectBase\)](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_BindInterfaces\_VM\_Managed\_ObjectBase\_VM\_Managed\_ObjectBase\_), 
+[TestRigDocumentBase.UseAssembly](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_UseAssembly), 
+[TestRigDocumentBase.UpdateReInterface](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_UpdateReInterface), 
+[TestRigDocumentBase.KinematicGroupName](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_KinematicGroupName), 
+[TestRigDocumentBase.ComplianceGroupName](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_ComplianceGroupName), 
+[TestRigDocumentBase.DrivelineActiveGroupName](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_DrivelineActiveGroupName), 
+[TestRigDocumentBase.DrivelineInactiveGroupName](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_DrivelineInactiveGroupName), 
+[TestRigDocumentBase.UseCompliance](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_UseCompliance), 
+[TestRigDocumentBase.UseDriveLineActiveFront](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_UseDriveLineActiveFront), 
+[TestRigDocumentBase.UseDriveLineActiveRear](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_UseDriveLineActiveRear), 
+[TestRigDocumentBase.SkipBindInterfaceWhenOpen](VM.Managed.DAFUL.Car.TestRigDocumentBase.md\#VM\_Managed\_DAFUL\_Car\_TestRigDocumentBase\_SkipBindInterfaceWhenOpen), 
+[SubSystemDocument.OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.InitializeSimParam\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.CreateAssemblyImpl\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.RenameEntityImpl\(string, ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.RegisterAddon\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.FindCategory\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.InitializeCategoryInfo\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.PossibleToImport\(SubSystemDocument, out string, out string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.PossibleDifferentUnit\(SubSystemDocument, out string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.PossibleDifferentUnit\(out string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.InitializeInterface\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.SaveTemplateBasedXml\(XmlWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.SaveTemplateBasedXml\(XmlWriter, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.LoadTemplateBasedXml\(XmlReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.LoadTemplateBasedXml\(XmlReader, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.HideObjectInReading\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.SkipObjectInWriting\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.CheckMassPropForCADImport\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ImportCADBody\(BuilderImport\[\]\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ReplaceCADBody\(BuilderImport\[\]\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetCADBodyNameAttribute\(ref List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetImportCADBody\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ReAssemblyImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ReInitInterfaceForAssembly\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetReference\(ObjectBase, ref List<Reference\>, ref List<ObjectBase\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetReferDocument\(ref List<Document3D\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetSimulationConfigurationType\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ClearDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetTransformationOfGlobal\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetTransformationOfGlobal\(ObjectBase, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ReAssembleForChangeAssembly\(ChangeAssemblyType, string, string, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.GetRemovedConnectorForChangeAssembly\(ChangeAssemblyType, string, string, List<string\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.SkipDelete\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.FindObjectForSelection\(ObjectBase, Document3D.OperationTypeForSelection\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.FindBodyFromCADBody\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.SkipShowHide\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.WriteMessageForShowHide\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.PostOpenDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.PostOpenDocumentAfterErrCheckEvent\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.InitialCategories](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ApplyInitialVelocityImpl](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.InitialVelocityImpl](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.Interfaces](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.SkipBindInterfaceWhenOpen](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.TemplateXmlVersion](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.DocumentSessionOverride](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.SetDocumentSessionOverride](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ChangeNewFilePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ChangeOldFilePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ChangeNewFilePaths](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[SubSystemDocument.ChangeOldFilePaths](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/SubSystemDocument.cs), 
+[DocumentAnalysis.m\_bSkipGravity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.RegisterAddon\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IsContainSimulationScenarioInMap\(Scenario\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetStateFromActiveSimulationScenarioMap\(Scenario\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SetStateFromActiveSimulationScenarioMap\(Scenario, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.AddConfiguration\(Configuration\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.RemoveConfiguration\(Configuration\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ClearConfiguration\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetDefaultMaterial\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetDefaultMaterial\(bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IsExistDefaultMaterial\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.LinkRequestUpdate\(object, LinkEventArgs\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IsEnabledImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SetEnableImpl\(ObjectBase, bool\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SkipObjectInWriting\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.OnPostMakeDocument\(DocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.InitializeSimParam\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostOpenDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetAllArgumentList\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetEntityRequest\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.GetSimulationConfigurationType\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.CheckBeforeSave\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostOpenDocumentAfterHookEvent\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ClearDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ReAssemblyImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SkipDelete\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostOpenDocumentAfterErrCheckEvent\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.PostCloseDocument\(\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.Configurations](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.CountOfMFLinearStaticSimulationConfigurations](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.ActiveSimulationConfiguration](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.Gravity](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.UseIncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.IconSize](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.SimulationScenarioTypeName](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+[DocumentAnalysis.UseToolkitSubsystem](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDFBase/DocumentAnalysis.cs), 
+Document3D.RibbonGalleryIndex, 
+Document3D.m\_lstAssem, 
+Document3D.m\_bReload, 
+Document3D.m\_strVersion, 
+Document3D.g\_dRenderingType, 
+Document3D.m\_dicCategory, 
+Document3D.m\_dicCategoryCollection, 
+Document3D.IsContainsCategoryName\(string\), 
+Document3D.GetNearestUnderCursorObject\(\), 
+Document3D.SetSelectFromUnderCursor\(ulong\), 
+Document3D.SetSelectFromUnderCursor\(ObjectBase\), 
+Document3D.SetUnselectFromUnderCursor\(ulong\), 
+Document3D.IsSelectFromUnderCursor\(ulong\), 
+Document3D.SetPickFromUnderCursor\(ulong\), 
+Document3D.Activate\(\), 
+Document3D.CreateAssembly\(\), 
+Document3D.StartBasicOp\(Document3D.BasicOpType\), 
+Document3D.RefreshAllViews\(\), 
+Document3D.InitCategory\(\), 
+Document3D.AddAssembly\(Assembly\), 
+Document3D.AddNewReference\(ObjectBase\[\], string\), 
+Document3D.AddNewReference\(ObjectBase\), 
+Document3D.GetAssembly\(\), 
+Document3D.DeleteWithSelectionObjects\(ref DestroyType, bool\), 
+Document3D.DeleteWithSelectionObjects\(ref DestroyType\), 
+Document3D.DeleteWithSelectionObjects\(\), 
+Document3D.DeleteObjectBases\(ref DestroyType, IEnumerable<ObjectBase\>, bool\), 
+Document3D.DeleteObjectBases\(ref DestroyType, IEnumerable<ObjectBase\>\), 
+Document3D.OpenPropertyWithSelectionObjects\(\), 
+Document3D.OpenPropertyWithFirstSelectionObject\(\), 
+Document3D.OpenPropertyObjectBases\(List<ObjectBase\>\), 
+Document3D.ShowHideWithSelectionObjects\(bool\), 
+Document3D.ShowHideObjectBases\(bool, List<ObjectBase\>\), 
+Document3D.IsMatchSelectObjectAndUnderCursorObject\(\), 
+Document3D.Save\(XmlWriter\), 
+Document3D.Save\(string\), 
+Document3D.Save\(string, bool, Dictionary<string, string\>\), 
+Document3D.Save\(string, bool, bool\), 
+Document3D.Save\(string, bool\), 
+Document3D.SaveDocument\(string, Dictionary<string, string\>\), 
+Document3D.VerifyAllEntity\(\), 
+Document3D.InitializeKernelUnit\(\), 
+Document3D.ChangeKernelUnitWithScale\(string\), 
+Document3D.DeleteCore\(List<ObjectBase\>, List<DestroyEventArgs\>\), 
+Document3D.ContainsEntityToEntityDictionary\(ObjectBase\), 
+Document3D.RemoveEntityForReplace\(ObjectBase\), 
+Document3D.WriteCategoryToXml\(string, string, XmlWriter\), 
+Document3D.ReadCategoryXml\(string, string, XmlReader\), 
+Document3D.GetReplaceableInfo\(BuilderImport\[\]\), 
+Document3D.PostSave\(List<Document\>, bool\), 
+Document3D.CreateView\(UIntPtr\), 
+Document3D.FindLocal\(string\), 
+Document3D.GetUnnamedObjectName\(object\), 
+Document3D.Add\(ObjectBase, ObjectBase\), 
+Document3D.Add\(ObjectBase\), 
+Document3D.IsTypeSupported\(Type\), 
+Document3D.UpdateEnable\(ObjectBase, bool\), 
+Document3D.UpdateInterface\(ObjectBase, bool\), 
+Document3D.GetData\(XmlNode\), 
+Document3D.SetData\(XmlNode\), 
+Document3D.PostOpenDocumentAndInitLayer\(\), 
+Document3D.DisplayModeShape\(int, double\), 
+Document3D.EnableModeShape\(bool\), 
+Document3D.FindCategory\(string\), 
+Document3D.MakeXmlForDocumentPropertyGrid\(XmlDocument, ref string\), 
+Document3D.GetInfoFromDocumentPropertyGrid\(XmlDocument, XmlDocument\), 
+Document3D.ReplaceCADBody\(BuilderImport\[\]\), 
+Document3D.GetCADBodyNameAttribute\(ref List<string\>\), 
+Document3D.GetImportCADBody\(\), 
+Document3D.PostOpenDocument\(\), 
+Document3D.PostCloseDocument\(\), 
+Document3D.GetAllArgumentList\(\), 
+Document3D.FindObjectForSelection\(ObjectBase, Document3D.OperationTypeForSelection\), 
+Document3D.ChangeTopologyForVMPID\(\), 
+Document3D.BeforePostDeserialized\(\), 
+Document3D.SkipAddToDSDLWithCategory\(string\), 
+Document3D.SkipAddToDSDLWithEntity\(ObjectBase\), 
+Document3D.GetObjectsForChangeAssembly\(\), 
+Document3D.BeforeDelete\(ObjectBase\), 
+Document3D.AfterDelete\(\), 
+Document3D.CreateViewCore\(UIntPtr\), 
+Document3D.RenameEntityImpl\(string, ObjectBase\), 
+Document3D.CreateAssemblyImpl\(\), 
+Document3D.SetHandle\(UIntPtr\), 
+Document3D.SaveTemplateBasedXml\(XmlWriter\), 
+Document3D.OnDeserialization\(object\), 
+Document3D.GetOwnedDocuments\(LinkedList<IDocument\>\), 
+Document3D.LoadTemplateBasedXml\(XmlReader\), 
+Document3D.Load\(XmlReader\), 
+Document3D.OnPostMakeDocument\(DocCreateInfo\), 
+Document3D.EraseAllDisplayObject\(\), 
+Document3D.ImportCADBody\(BuilderImport\[\]\), 
+Document3D.ReAssemblyCore\(\), 
+Document3D.ReAssemblyImpl\(ObjectBase\), 
+Document3D.ClearDocument\(\), 
+Document3D.SkipDelete\(ObjectBase\), 
+Document3D.RepairImpl\(\), 
+Document3D.SkipObjectInWriting\(ObjectBase\), 
+Document3D.HideObjectInReading\(\), 
+Document3D.MappingEntity\(\), 
+Document3D.GetBodies\(ref List<ObjectBase\>\), 
+Document3D.CheckBeforeSave\(\), 
+Document3D.LinkRequestUpdate\(object, LinkEventArgs\), 
+Document3D.FindBodyFromCADBody\(ObjectBase\), 
+Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string, string, string, string, string\), 
+Document3D.ExportCADBody\(string, List<Document3D.ExportBodyInfo\>, string\), 
+Document3D.ExportCADFile\(string, string, string, string, string, string\), 
+Document3D.GetBodyAndTransformation\(ref List<Document3D.ExportBodyInfo\>\), 
+Document3D.SkipShowHide\(ObjectBase\), 
+Document3D.WriteMessageForShowHide\(\), 
+Document3D.Repair\(\), 
+Document3D.AddInterface\(string\), 
+Document3D.RemoveInterface\(string\), 
+Document3D.RenameInterface\(string\), 
+Document3D.RemoveAssembly\(Assembly\), 
+Document3D.ClearAssembly\(\), 
+Document3D.ChildAdd\(ObjectBase, string\), 
+Document3D.ChildRemove\(ObjectBase, string\), 
+Document3D.ChildUpdate\(ObjectBase, string\), 
+Document3D.ChildRename\(ObjectBase, string\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string\), 
+Document3D.LoadCADFile\(string, Document3D.CadImportResultType, string, string, string, string\), 
+Document3D.PreloadCADFile\(string, Document3D.CadImportColorType, Color, Document3D.CadImportResultType, Document3D.CadImportUnitType, string, string, string, string, ref BuilderImport\[\]\), 
+Document3D.SetSelectionObject\(List<ObjectBase\>\), 
+Document3D.ExistUnderCursor\(\), 
+Document3D.ActiveObject\(List<ObjectBase\>\), 
+Document3D.RegisterFaceset\(UIntPtr, UIntPtr, bool\), 
+Document3D.RegisterCurveset\(UIntPtr, UIntPtr, bool\), 
+Document3D.ActiveFaceset\(UIntPtr, bool\), 
+Document3D.ActiveCurveset\(UIntPtr, bool\), 
+Document3D.FindFaceset\(UIntPtr, bool\), 
+Document3D.FindCurveset\(UIntPtr, bool\), 
+Document3D.CreateCanvas\(bool\), 
+Document3D.CreateCanvas\(\), 
+Document3D.GetCategoryChildren\(string\), 
+Document3D.ActivateDocument\(\), 
+Document3D.CheckMassPropForCADImport\(\), 
+Document3D.GetReference\(ObjectBase, ref List<Reference\>, ref List<ObjectBase\>\), 
+Document3D.GetReferDocument\(ref List<Document3D\>\), 
+Document3D.ReInitInterfaceForAssembly\(\), 
+Document3D.XmlDocumentReLoad\(XmlReader\), 
+Document3D.RunPredefinedOperation\(\), 
+Document3D.IncreaseReferedDocumentCount\(\), 
+Document3D.DecreaseReferedDocumentCount\(\), 
+Document3D.GetReferedDocumentCount\(\), 
+Document3D.RedrawCuttingPlane\(\), 
+Document3D.ToggleCuttingPlane\(OMatrix\), 
+Document3D.ToggleCuttingPlane\(\), 
+Document3D.GetCuttingPlane\(\), 
+Document3D.IsCuttingPlaneSelected\(\), 
+Document3D.SetRenderingMode\(Document3D.enRenderingMode\), 
+Document3D.LoadCategoryFiles\(string\), 
+Document3D.LoadCategoryInfoFromFile\(string, Dictionary<string, string\>, List<string\>\), 
+Document3D.RegisterLoadingException\(Exception\), 
+Document3D.ResetFacesetSurfaceType\(\), 
+Document3D.Dispose\(bool\), 
+Document3D.LoadingExceptions, 
+Document3D.CategoryInfo, 
+Document3D.InitialCategories, 
+Document3D.VersionInfo, 
+Document3D.ChangeReference, 
+Document3D.VisibleTarget, 
+Document3D.CustomPerformanceIndexList, 
+Document3D.CustomDesignParameterList, 
+Document3D.AssembledBodyList, 
+Document3D.NodalBodyList, 
+Document3D.MessageWhenLoad, 
+Document3D.DoingCreateEntityOperation, 
+Document3D.DoingTemplateBasedXml, 
+Document3D.NodalOutputCandidateObjects, 
+Document3D.CountOfUnderCursorPickableObject, 
+Document3D.UnderCursorPickableObjects, 
+Document3D.CommentOfDocument, 
+Document3D.CountOfUnderCursorObject, 
+Document3D.UnderCursorObjects, 
+Document3D.CountOfSelectionObject, 
+Document3D.SelectionObjects, 
+Document3D.LayerManager, 
+Document3D.IsPropertySupport, 
+Document3D.ExtensionName, 
+Document3D.ToolKitName, 
+Document3D.Format, 
+Document3D.TemplatePath, 
+Document3D.FromTemplate, 
+Document3D.Categories, 
+Document3D.this\[string\], 
+Document3D.IconSize, 
+Document3D.UseMultipleAddition, 
+Document3D.SkipUIUpdating, 
+Document3D.IsAdvancedMode, 
+Document3D.UseSymmetric, 
+Document3D.SymmetricPlane, 
+Document3D.CurrentBasicOp, 
+Document3D.CanClose, 
+Document3D.Modified, 
+HandledDocument.AddToSelectionList\(ObjectBase\), 
+HandledDocument.CancelSelection\(bool, bool\), 
+HandledDocument.ExitCommandMode\(\), 
+HandledDocument.CancelSelectedFaceset\(bool\), 
+HandledDocument.SetHandle\(UIntPtr\), 
+HandledDocument.OnDeserialization\(object\), 
+HandledDocument.FromHandle\(UIntPtr\), 
+HandledDocument.PostOpenDocument\(\), 
+HandledDocument.Dispose\(bool\), 
+HandledDocument.DoNotCheckHandleWhenCreate, 
+HandledDocument.Handle, 
+Document.g\_OpenDocuments, 
+Document.m\_unit, 
+Document.m\_unitKernal, 
+Document.raise\_OnChildAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnChildRemoved\(object, DocumentEventArgs\), 
+Document.raise\_OnChildRenamed\(object, DocumentEventArgs\), 
+Document.raise\_OnChildUpdated\(object, DocumentEventArgs\), 
+Document.raise\_OnChildUpdatedEnable\(object, DocumentEventArgs\), 
+Document.raise\_OnChildUpdatedAll\(object, DocumentEventArgs\), 
+Document.raise\_OnChildDocNameUpdated\(object, DocumentEventArgs\), 
+Document.raise\_OnDependentDocumentAdded\(object, DependentDocEventArgs\), 
+Document.raise\_OnDependentDocumentRemoved\(object, DependentDocEventArgs\), 
+Document.raise\_OnClearSelectNavigator\(object, DocumentEventArgs\), 
+Document.raise\_OnChildRootSelect\(object, DocumentEventArgs\), 
+Document.raise\_OnChangeIconForNodalModal\(object, DocumentEventArgs\), 
+Document.raise\_OnDoingImport\(object, DocumentEventArgs\), 
+Document.raise\_OnSkipChildAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnSimulationCaseUpdated\(object, EventArgs\), 
+Document.raise\_OnSubentityRefreshed\(object, EventArgs\), 
+Document.raise\_OnSubentityAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnChildMultiAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnSingleObjectSelected\(object, ObjectBaseEventArgs\), 
+Document.raise\_Destroying\(object, EventArgs\), 
+Document.raise\_ChildAdded\(object, Identifier\), 
+Document.raise\_ChildRemoved\(object, Identifier\), 
+Document.raise\_ChildReplacing\(object, Identifier\), 
+Document.raise\_ChildReplaced\(object, Identifier\), 
+Document.raise\_SelectionChanged\(object, IEnumerable<Identifier\>\), 
+Document.Initialize\(Document.OpenDoc, Document.BrowseFile, Document.IsOpenDoc, Document.GetDocFromOpenedDoc, Document.ActiveDocChange, Document.ActiveViewChange\), 
+Document.Open\(string, bool, bool\), 
+Document.Open\(string, bool\), 
+Document.Open\(string\), 
+Document.Open\(string, string, bool\), 
+Document.Open\(string, string\), 
+Document.TryOpen\(string, LoadSerializeContext, bool\), 
+Document.TryOpen\(string, string, bool\), 
+Document.TryOpen\(string, string\), 
+Document.GetDocumentFromOpenedDocument\(string\), 
+Document.IsOpen\(string\), 
+Document.ActiveChangedDoc\(\), 
+Document.ActiveChangedView\(\), 
+Document.Save\(string\), 
+Document.PostSave\(List<Document\>, bool\), 
+Document.CreateView\(UIntPtr\), 
+Document.CloseView\(View\), 
+Document.Add\(ObjectBase\), 
+Document.UpdateEnable\(ObjectBase, bool\), 
+Document.UpdateInterface\(ObjectBase, bool\), 
+Document.IsTypeSupported\(Type\), 
+Document.AddToSelectionList\(ObjectBase\), 
+Document.CancelSelection\(bool, bool\), 
+Document.ExitCommandMode\(\), 
+Document.PostOpenDocument\(\), 
+Document.PostOpenDocumentAfterHookEvent\(\), 
+Document.PostOpenDocumentAfterErrCheckEvent\(\), 
+Document.PostOpenDocumentAfterRestoreObjectID\(\), 
+Document.PostOpenDocumentAfterSetFilePath\(\), 
+Document.PostCloseDocument\(\), 
+Document.LinkRequestDestroy\(object, LinkEventArgs\), 
+Document.PostOpenDocumentAndInitLayer\(\), 
+Document.DisplayModeShape\(int, double\), 
+Document.EnableModeShape\(bool\), 
+Document.GetData\(XmlNode\), 
+Document.SetData\(XmlNode\), 
+Document.OperationBegin\(\), 
+Document.OperationEnd\(\), 
+Document.GetCopyOfUnit\(\), 
+Document.GetCopyOfKernelUnit\(\), 
+Document.FastToConvertUnitLength\(bool\), 
+Document.ContainsNameAttribute\(string\), 
+Document.ReplacesNameAttribute\(string, string\), 
+Document.GetUniqueNameAttribute\(string\), 
+Document.UpdateItemInNavigaterForUndoRedo\(IObjectBase\), 
+Document.AddItemToNavigaterForUndoRedo\(ObjectBase\), 
+Document.RemoveItemFromNavigaterForUndoRedo\(ObjectBase\), 
+Document.RenameItemFromNavigaterForUndoRedo\(ObjectBase\), 
+Document.UpdateAllItemInNavigaterForUndoRedo\(\), 
+Document.UpdateSimulationConfigurationForUndoRedo\(\), 
+Document.AddItemToSubEntityForUndoRedo\(ObjectBase\), 
+Document.AddReferenceForUndoRedo\(ObjectBase\), 
+Document.RefreshReferenceForUndoRedo\(ObjectBase\), 
+Document.AddToIDMap\(IObject\), 
+Document.FindObjectFromID\(Identifier\), 
+Document.FindObjectFromKey\(UIntPtr\), 
+Document.RemoveFromIDMap\(IObject\), 
+Document.WriteIDInformation\(\), 
+Document.GetNextIdentifier\(\), 
+Document.GetChildren\(\), 
+Document.Close\(\), 
+Document.SetUnit\(Unit\), 
+Document.SetKernelUnit\(string\), 
+Document.IsEnabledImpl\(ObjectBase\), 
+Document.SetEnableImpl\(ObjectBase, bool\), 
+Document.OnDeserialization\(object\), 
+Document.OnPostMakeDocument\(DocCreateInfo\), 
+Document.RegisterAddon\(\), 
+Document.OnContainerDestroy\(object, LinkEventArgs\), 
+Document.ClearDocument\(\), 
+Document.Dispose\(bool\), 
+Document.KeepOldKernelUnit, 
+Document.ClearChildInfoBeforeDeserialize, 
+Document.ExpressionParser, 
+Document.IsHideEntityListWindow, 
+Document.IsHideFilterWindow, 
+Document.SelectedLayoutAlgorithmType, 
+Document.FilterdTypes, 
+Document.CloseAllDialogWhenCloseDoc, 
+Document.DoingOpen, 
+Document.DoingClose, 
+Document.Attributes, 
+Document.AutoSaved, 
+Document.IsChildExternable, 
+Document.IsExternable, 
+Document.IsReplaced, 
+Document.FilePath, 
+Document.DocumentName, 
+Document.InitialConvertFactor, 
+Document.DocumentSessionOverride, 
+Document.CanClose, 
+Document.Modified, 
+Document.SelectionChanged, 
+Document.ChildReplaced, 
+Document.ChildReplacing, 
+Document.ChildRemoved, 
+Document.ChildAdded, 
+Document.Destroying, 
+Document.OnSingleObjectSelected, 
+Document.OnChildMultiAdded, 
+Document.OnSubentityAdded, 
+Document.OnSubentityRefreshed, 
+Document.OnSimulationCaseUpdated, 
+Document.OnSkipChildAdded, 
+Document.OnDoingImport, 
+Document.OnChangeIconForNodalModal, 
+Document.OnChildRootSelect, 
+Document.OnClearSelectNavigator, 
+Document.OnDependentDocumentRemoved, 
+Document.OnDependentDocumentAdded, 
+Document.OnChildDocNameUpdated, 
+Document.OnChildUpdatedAll, 
+Document.OnChildUpdatedEnable, 
+Document.OnChildUpdated, 
+Document.OnChildRenamed, 
+Document.OnChildRemoved, 
+Document.OnChildAdded, 
+Container.Find\(string\), 
+Container.FindLocal\(string\), 
+Container.GetUnnamedObjectName\(object\), 
+Container.GetNewEntityName\(string, bool, int, int\), 
+Container.GetNewEntityName\(string, bool, int\), 
+Container.GetNewEntityName\(string\), 
+LinkContainer.SetModified\(\), 
+LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnDestroying\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnDestroy\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnAdded\(object, AddToDocEventArgs\), 
+LinkContainer.raise\_OnRemoved\(object, RemoveFromDocEventArgs\), 
+LinkContainer.GetTargetListForUpdate\(\), 
+LinkContainer.SkipUpdateObjectImpl\(\), 
+LinkContainer.Initialize\(Unit.ConvertFactor\), 
+LinkContainer.SetFlagWhenXMLFile\(string, bool\), 
+LinkContainer.IsSerializableEvent\(Delegate\), 
+LinkContainer.CustomGetObjectData\(SerializationInfo, StreamingContext\), 
+LinkContainer.GetSerializedData\(SerializationInfo, StreamingContext\), 
+LinkContainer.LinkRequestUpdating\(object, LinkEventArgs\), 
+LinkContainer.LinkRequestUpdate\(object, LinkEventArgs\), 
+LinkContainer.LinkRequestDestroying\(object, LinkEventArgs\), 
+LinkContainer.LinkRequestDestroy\(object, LinkEventArgs\), 
+LinkContainer.LinkAddedToDocument\(object, AddToDocEventArgs\), 
+LinkContainer.LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\), 
+LinkContainer.OnLinkReserved\(ILink, object, EventArgs\), 
+LinkContainer.CanBeDestroy\(object\), 
+LinkContainer.DisposeManagedResources\(\), 
+LinkContainer.SetContainer\(IOwned, bool\), 
+LinkContainer.OnChildUpdated\(object, LinkEventArgs\), 
+LinkContainer.OnContainerDestroy\(object, LinkEventArgs\), 
+LinkContainer.OnDeserialization\(object\), 
+LinkContainer.Verify\(VerifiedResult\), 
+LinkContainer.GetCopy\(object\), 
+LinkContainer.Dispose\(bool\), 
+LinkContainer.ClearChildInfoBeforeDeserialize, 
+LinkContainer.Container, 
+LinkContainer.Owner, 
+LinkContainer.Document, 
+LinkContainer.ID, 
+LinkContainer.IsChildExternable, 
+LinkContainer.IsExternable, 
+LinkContainer.OnRemoved, 
+LinkContainer.OnAdded, 
+LinkContainer.OnDestroy, 
+LinkContainer.OnDestroying, 
+LinkContainer.OnUpdate, 
+LinkContainer.OnUpdating, 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
+ObservableObject.Dispose\(\), 
+ObservableObject.RaisePropertyChanged\(string\), 
+ObservableObject.RaisePropertyChanged\(string, object, object\), 
+ObservableObject.Dispose\(bool\), 
+ObservableObject.DisposeManagedResources\(\), 
+ObservableObject.DisposeUnmanagedResources\(\), 
+ObservableObject.IsDisposed, 
+ObservableObject.TryDisposing, 
+ObservableObject.Disposed, 
+ObservableObject.Disposing, 
+ObservableObject.PropertyChanged
+
+#### Extension Methods
+
+[LinkPropertyItemCache.GetLinkProperties\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkProperties\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkPropertiesAndValues\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkPropertiesAndValues\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkedObjects<T\>\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkedObjects\_\_1\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_)
+
+## Constructors
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument__ctor_System_UIntPtr_"></a> FullCarTestRigDocument\(UIntPtr\)
+
+Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarTestRigDocument" data-throw-if-not-resolved="false"></xref> class.
+
+```csharp
+protected FullCarTestRigDocument(UIntPtr docCore)
+```
+
+#### Parameters
+
+`docCore` UIntPtr
+
+The document handle.
+
+## Properties
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ApplyInitialVelocityImpl"></a> ApplyInitialVelocityImpl
+
+Whether InitialVelocity is applicable or not
+
+```csharp
+protected override bool ApplyInitialVelocityImpl { get; }
+```
+
+#### Property Value
+
+ bool
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_BrakeBias"></a> BrakeBias
+
+Gets or sets the brake bias.
+
+```csharp
+public ExpressionValueVariable BrakeBias { get; set; }
+```
+
+#### Property Value
+
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitialCategories"></a> InitialCategories
+
+Gets the initial categories.
+
+```csharp
+protected override List<string> InitialCategories { get; }
+```
+
+#### Property Value
+
+ List<string\>
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitialVelocityImpl"></a> InitialVelocityImpl
+
+Gets the initial velocity
+
+```csharp
+protected override double InitialVelocityImpl { get; }
+```
+
+#### Property Value
+
+ double
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_Interfaces"></a> Interfaces
+
+Gets the interfaces.
+
+```csharp
+protected override InterfaceManager Interfaces { get; }
+```
+
+#### Property Value
+
+ [InterfaceManager](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/InterfaceManager.cs)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_IsPowerSteer"></a> IsPowerSteer
+
+Gets a value indicating whether this instance is power steering.
+
+```csharp
+public bool IsPowerSteer { get; }
+```
+
+#### Property Value
+
+ bool
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_MaxFrontBrakeTorque"></a> MaxFrontBrakeTorque
+
+Gets or sets the max front brake torque.
+
+```csharp
+public ExpressionValueVariable MaxFrontBrakeTorque { get; set; }
+```
+
+#### Property Value
+
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_MaxRearBrakeTorque"></a> MaxRearBrakeTorque
+
+Gets or sets the max rear brake torque.
+
+```csharp
+public ExpressionValueVariable MaxRearBrakeTorque { get; set; }
+```
+
+#### Property Value
+
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_MinorRoleType"></a> MinorRoleType
+
+Gets or sets the type of the minor role.
+
+```csharp
+public MinorRole MinorRoleType { get; set; }
+```
+
+#### Property Value
+
+ [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_RackRatio"></a> RackRatio
+
+Gets or sets the rack ratio.
+
+```csharp
+public ExpressionValueVariable RackRatio { get; set; }
+```
+
+#### Property Value
+
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
+
+Gets the name of the simulation scenario type.
+
+```csharp
+public override string SimulationScenarioTypeName { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SteeringRatio"></a> SteeringRatio
+
+Gets or sets the steering ratio.
+
+```csharp
+public ExpressionValueVariable SteeringRatio { get; set; }
+```
+
+#### Property Value
+
+ [ExpressionValueVariable](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/ExpressionValueVariable.cs)
+
+## Methods
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ClearDocument"></a> ClearDocument\(\)
+
+Clears the document.
+
+```csharp
+protected override void ClearDocument()
+```
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+
+Finds the category.
+
+```csharp
+public override string FindCategory(string strType)
+```
+
+#### Parameters
+
+`strType` string
+
+The fullname of type.
+
+#### Returns
+
+ string
+
+The category.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_GetAnalysisFromSimulationConfigurations_VM_Managed_DAFUL_Car_FullCarAnalysisType_"></a> GetAnalysisFromSimulationConfigurations\(FullCarAnalysisType\)
+
+Gets the analysis from simulation configurations.
+
+```csharp
+public AnalysisBase GetAnalysisFromSimulationConfigurations(FullCarAnalysisType type)
+```
+
+#### Parameters
+
+`type` [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
+
+The type.
+
+#### Returns
+
+ [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_GetFullCarConfigurationFromSimulationConfigurations_VM_Managed_DAFUL_Car_FullCarAnalysisType_"></a> GetFullCarConfigurationFromSimulationConfigurations\(FullCarAnalysisType\)
+
+Gets the full car configuration from simulation configurations.
+
+```csharp
+public FullCarAnalysisConfigurationBase GetFullCarConfigurationFromSimulationConfigurations(FullCarAnalysisType type)
+```
+
+#### Parameters
+
+`type` [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
+
+The type.
+
+#### Returns
+
+ [FullCarAnalysisConfigurationBase](VM.Managed.DAFUL.Car.FullCarAnalysisConfigurationBase.md)
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
+
+Gets the type of the simulation configuration.
+
+```csharp
+public override string GetSimulationConfigurationType()
+```
+
+#### Returns
+
+ string
+
+The type of the simulation configuration.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeAssemblyMember"></a> InitializeAssemblyMember\(\)
+
+Initializes the assembly member.
+
+```csharp
+protected void InitializeAssemblyMember()
+```
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+
+Initializes the category info.
+
+```csharp
+public static void InitializeCategoryInfo(string strCategoryName)
+```
+
+#### Parameters
+
+`strCategoryName` string
+
+Name of the STR category.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeInterface"></a> InitializeInterface\(\)
+
+Initializes the interface.
+
+```csharp
+protected override void InitializeInterface()
+```
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeSimParam"></a> InitializeSimParam\(\)
+
+Initializes the simulation parameter.
+
+```csharp
+protected override void InitializeSimParam()
+```
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+
+The destroying event occured from the linked object.
+
+```csharp
+protected override void LinkRequestDestroying(object objNotifier, LinkEventArgs arg)
+```
+
+#### Parameters
+
+`objNotifier` object
+
+The linked object.
+
+`arg` LinkEventArgs
+
+The destroy event information.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
+
+Loads the XML for template based document.
+
+```csharp
+protected override void LoadTemplateBasedXml(XmlReader reader)
+```
+
+#### Parameters
+
+`reader` XmlReader
+
+The reader.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_LoadTemplateBasedXmlCore_System_Xml_XmlReader_System_String_System_Type_"></a> LoadTemplateBasedXmlCore\(XmlReader, string, Type\)
+
+Loads the template based XML core.
+
+```csharp
+protected void LoadTemplateBasedXmlCore(XmlReader reader, string strInfo, Type typeInfo)
+```
+
+#### Parameters
+
+`reader` XmlReader
+
+The reader.
+
+`strInfo` string
+
+The string information.
+
+`typeInfo` Type
+
+The type information.
+
+#### Exceptions
+
+ ArgumentNullException
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ReplaceAssembly_System_String_"></a> ReplaceAssembly\(string\)
+
+Replaces the assembly.
+
+```csharp
+public override void ReplaceAssembly(string strAssemblyInfo)
+```
+
+#### Parameters
+
+`strAssemblyInfo` string
+
+The assembly info.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ReplaceAssemblyCore_VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_System_Xml_XmlDocument_"></a> ReplaceAssemblyCore\(DocCreateFullCarAnalysisInfoExceptWheel, XmlDocument\)
+
+Replaces the assembly core.
+
+```csharp
+protected void ReplaceAssemblyCore(DocCreateFullCarAnalysisInfoExceptWheel docCreateCarAnalysisInfo, XmlDocument xmlDoc)
+```
+
+#### Parameters
+
+`docCreateCarAnalysisInfo` [DocCreateFullCarAnalysisInfoExceptWheel](VM.Managed.DAFUL.Car.DocCreateFullCarAnalysisInfoExceptWheel.md)
+
+The document create car analysis information.
+
+`xmlDoc` XmlDocument
+
+The XML document.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ReplaceOneSubsystem_System_String_System_String_"></a> ReplaceOneSubsystem\(string, string\)
+
+Replaces the one subsystem.
+
+```csharp
+public void ReplaceOneSubsystem(string strOldSubsystem, string strNewSubsystem)
+```
+
+#### Parameters
+
+`strOldSubsystem` string
+
+The old subsystem.
+
+`strNewSubsystem` string
+
+The new subsystem.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
+
+Saves the XML for template based document.
+
+```csharp
+protected override void SaveTemplateBasedXml(XmlWriter writer)
+```
+
+#### Parameters
+
+`writer` XmlWriter
+
+The writer.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SaveTemplateBasedXmlCore_VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_System_Xml_XmlWriter_"></a> SaveTemplateBasedXmlCore\(DocCreateFullCarAnalysisInfoExceptWheel, XmlWriter\)
+
+Saves the template based XML core.
+
+```csharp
+protected void SaveTemplateBasedXmlCore(DocCreateFullCarAnalysisInfoExceptWheel info, XmlWriter writer)
+```
+
+#### Parameters
+
+`info` [DocCreateFullCarAnalysisInfoExceptWheel](VM.Managed.DAFUL.Car.DocCreateFullCarAnalysisInfoExceptWheel.md)
+
+The information.
+
+`writer` XmlWriter
+
+The writer.
+
+#### Exceptions
+
+ Exception
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SetPowerSteering_System_Boolean_"></a> SetPowerSteering\(bool\)
+
+Set power steering.
+
+```csharp
+public void SetPowerSteering(bool bIsPowerSteering)
+```
+
+#### Parameters
+
+`bIsPowerSteering` bool
+
+The flag.
+
+### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SetTemplateInfoImpl_VM_Managed_DocFromTemplateInfo_"></a> SetTemplateInfoImpl\(DocFromTemplateInfo\)
+
+Sets the template info. [Implemetation]
+
+```csharp
+protected override void SetTemplateInfoImpl(DocFromTemplateInfo docTemplateInfo)
+```
+
+#### Parameters
+
+`docTemplateInfo` DocFromTemplateInfo
+
+The doc template info.
+

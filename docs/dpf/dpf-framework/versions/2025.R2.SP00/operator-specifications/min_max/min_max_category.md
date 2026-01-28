@@ -1,0 +1,18 @@
+# Min_max operators
+
+- [max by component](max_by_component.md)
+- [max over phase](max_over_phase.md)
+- [max over time by entity](max_over_time_by_entity.md)
+- [min by component](min_by_component.md)
+- [min max](min_max.md)
+- [min max by entity](min_max_by_entity.md)
+- [min max by time](min_max_by_time.md)
+- [min max fc](min_max_fc.md)
+- [min max fc inc](min_max_fc_inc.md)
+- [min max inc](min_max_inc.md)
+- [min max over label fc](min_max_over_label_fc.md)
+- [min max over time by entity](min_max_over_time_by_entity.md)
+- [min over time by entity](min_over_time_by_entity.md)
+- [phase of max](phase_of_max.md)
+- [time of max by entity](time_of_max_by_entity.md)
+- [time of min by entity](time_of_min_by_entity.md)
