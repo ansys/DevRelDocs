@@ -157,7 +157,7 @@ Image(picture_attribute.value)
 
 
     
-![jpeg](09_Edit_Files_Pictures_and_Hyperlinks_files/09_Edit_Files_Pictures_and_Hyperlinks_20_0.jpg)
+![jpeg](./09_Edit_Files_Pictures_and_Hyperlinks_files/09_Edit_Files_Pictures_and_Hyperlinks_20_0.jpg)
     
 
 

@@ -125,30 +125,30 @@
       - name: Get unit conversions
         href: samples/foundation/11_Get_unit_conversions.md
 - name: Streamlined API reference
-  href: api/index.md
+  href: streamlined_api/index.md
   items:
   - name: Session
-    href: api/session.md
+    href: streamlined_api/session.md
   - name: Database
-    href: api/database.md
+    href: streamlined_api/database.md
   - name: Table
-    href: api/table.md
+    href: streamlined_api/table.md
   - name: Attribute definitions
-    href: api/attribute-definitions.md
+    href: streamlined_api/attribute-definitions.md
   - name: Record
-    href: api/record.md
+    href: streamlined_api/record.md
   - name: Attribute values
-    href: api/attribute-values.md
+    href: streamlined_api/attribute-values.md
   - name: Schema and supporting items
-    href: api/supporting.md
+    href: streamlined_api/supporting.md
   - name: Tabular attribute value items
-    href: api/tabular.md
+    href: streamlined_api/tabular.md
   - name: Helper functions
-    href: api/helpers.md
+    href: streamlined_api/helpers.md
   - name: Constants
-    href: api/constants.md
+    href: streamlined_api/constants.md
   - name: Exceptions
-    href: api/exceptions.md
+    href: streamlined_api/exceptions.md
 - name: Release notes
   href: release_notes/index.md
   items:
