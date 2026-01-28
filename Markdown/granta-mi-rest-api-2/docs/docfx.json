@@ -1,41 +1,5 @@
 {
     "build": {
-            "content": [
-      {
-        "files": [
-          "**/*.{md,yml}"
-        ],
-        "exclude": [
-          "_site/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.swagger.json",
-        ],
-        "exclude": [
-          "_site/**"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "images/**",
-          "resources/**",
-          "docs/images/**",
-          "docs/resources/**",
-		  "docs/data/**",
-		  "scripts/**"
-        ]
-      }
-    ],
-    "output": "_site",
-    "template": [
-      "default",
-      "modern"
-    ],
-    
         "globalMetadata": {
             "title": "Granta Cloud Connected Materials Data 2026 R1",
             "summary": "",
