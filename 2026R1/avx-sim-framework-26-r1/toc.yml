@@ -36,43 +36,43 @@
       href: reference/namespacecore.md
     - name: simulation_framework
       href: reference/namespacesimulation__framework.md
-    - name: simulation_framework::autonomy
+    - name: simulation_framework-autonomy
       href: reference/namespacesimulation__framework_1_1autonomy.md
-    - name: simulation_framework::autonomy::cli
+    - name: simulation_framework-autonomy-cli
       href: reference/namespacesimulation__framework_1_1autonomy_1_1cli.md
-    - name: simulation_framework::autonomy::communication
+    - name: simulation_framework-autonomy-communication
       href: reference/namespacesimulation__framework_1_1autonomy_1_1communication.md
-    - name: simulation_framework::autonomy::communication::utils
+    - name: simulation_framework-autonomy-communication-utils
       href: reference/namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md
-    - name: simulation_framework::autonomy::topic_registry
+    - name: simulation_framework-autonomy-topic_registry
       href: reference/namespacesimulation__framework_1_1autonomy_1_1topic__registry.md
-    - name: simulation_framework::autonomy::util
+    - name: simulation_framework-autonomy-util
       href: reference/namespacesimulation__framework_1_1autonomy_1_1util.md
-    - name: simulation_framework::avx_sensor_cosim
+    - name: simulation_framework-avx_sensor_cosim
       href: reference/namespacesimulation__framework_1_1avx__sensor__cosim.md
-    - name: simulation_framework::core
+    - name: simulation_framework-core
       href: reference/namespacesimulation__framework_1_1core.md
-    - name: simulation_framework::core::communication_manager_creator
+    - name: simulation_framework-core-communication_manager_creator
       href: reference/namespacesimulation__framework_1_1core_1_1communication__manager__creator.md
-    - name: simulation_framework::core::kpi
+    - name: simulation_framework-core-kpi
       href: reference/namespacesimulation__framework_1_1core_1_1kpi.md
-    - name: simulation_framework::core::lifecycle
+    - name: simulation_framework-core-lifecycle
       href: reference/namespacesimulation__framework_1_1core_1_1lifecycle.md
-    - name: simulation_framework::core::logging
+    - name: simulation_framework-core-logging
       href: reference/namespacesimulation__framework_1_1core_1_1logging.md
-    - name: simulation_framework::core::scheduling
+    - name: simulation_framework-core-scheduling
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling.md
-    - name: simulation_framework::core::scheduling::scheduling_client_creator
+    - name: simulation_framework-core-scheduling-scheduling_client_creator
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md
-    - name: simulation_framework::core::time
+    - name: simulation_framework-core-time
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
-    - name: simulation_framework::core::topic_registry
+    - name: simulation_framework-core-topic_registry
       href: reference/namespacesimulation__framework_1_1core_1_1topic__registry.md
-    - name: simulation_framework::evaluator
+    - name: simulation_framework-evaluator
       href: reference/namespacesimulation__framework_1_1evaluator.md
     - name: fmi4cpp
       href: reference/namespacefmi4cpp.md
-    - name: fmi4cpp::fmi2
+    - name: fmi4cpp-fmi2
       href: reference/namespacefmi4cpp_1_1fmi2.md
     - name: rtidds
       href: reference/namespacertidds.md
@@ -88,109 +88,109 @@
       href: reference/namespaceutils.md
   - name: Classes
     items:
-    - name: simulation_framework::autonomy::ISimInstanceCreator
+    - name: simulation_framework-autonomy-ISimInstanceCreator
       href: reference/classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md
-    - name: simulation_framework::autonomy::AutonomySimInstanceCreator
+    - name: simulation_framework-autonomy-AutonomySimInstanceCreator
       href: reference/classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md
-    - name: simulation_framework::autonomy::SimulationCompletionChecker
+    - name: simulation_framework-autonomy-SimulationCompletionChecker
       href: reference/classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md
-    - name: simulation_framework::autonomy::cli::CliProvider
+    - name: simulation_framework-autonomy-cli-CliProvider
       href: reference/classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md
-    - name: simulation_framework::core::CliParser
+    - name: simulation_framework-core-CliParser
       href: reference/classsimulation__framework_1_1core_1_1CliParser.md
-    - name: simulation_framework::core::IEvaluator
+    - name: simulation_framework-core-IEvaluator
       href: reference/classsimulation__framework_1_1core_1_1IEvaluator.md
-    - name: simulation_framework::autonomy::ActivityFactory
+    - name: simulation_framework-autonomy-ActivityFactory
       href: reference/classsimulation__framework_1_1autonomy_1_1ActivityFactory.md
-    - name: simulation_framework::core::Cli
+    - name: simulation_framework-core-Cli
       href: reference/classsimulation__framework_1_1core_1_1Cli.md
-    - name: simulation_framework::core::IPublisher
+    - name: simulation_framework-core-IPublisher
       href: reference/classsimulation__framework_1_1core_1_1IPublisher.md
-    - name: simulation_framework::core::IStandaloneActivityCreator
+    - name: simulation_framework-core-IStandaloneActivityCreator
       href: reference/classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md
-    - name: simulation_framework::core::ISimfwkCliServer
+    - name: simulation_framework-core-ISimfwkCliServer
       href: reference/classsimulation__framework_1_1core_1_1ISimfwkCliServer.md
-    - name: simulation_framework::avx_sensor_cosim::AvxVssApiAdapter
+    - name: simulation_framework-avx_sensor_cosim-AvxVssApiAdapter
       href: reference/classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md
-    - name: simulation_framework::core::ISubscriber
+    - name: simulation_framework-core-ISubscriber
       href: reference/classsimulation__framework_1_1core_1_1ISubscriber.md
-    - name: simulation_framework::core::ISimRunner
+    - name: simulation_framework-core-ISimRunner
       href: reference/classsimulation__framework_1_1core_1_1ISimRunner.md
-    - name: simulation_framework::core::ITopic
+    - name: simulation_framework-core-ITopic
       href: reference/classsimulation__framework_1_1core_1_1ITopic.md
-    - name: simulation_framework::core::kpi::Datatype
+    - name: simulation_framework-core-kpi-Datatype
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md
-    - name: simulation_framework::core::kpi::IKpi
+    - name: simulation_framework-core-kpi-IKpi
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md
-    - name: simulation_framework::core::kpi::IKpiMessageConverter
+    - name: simulation_framework-core-kpi-IKpiMessageConverter
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md
-    - name: simulation_framework::core::kpi::KpiMessageConverter
+    - name: simulation_framework-core-kpi-KpiMessageConverter
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md
-    - name: simulation_framework::core::lifecycle::FmuLogic
+    - name: simulation_framework-core-lifecycle-FmuLogic
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md
-    - name: simulation_framework::core::lifecycle::FmuBaseActivity
+    - name: simulation_framework-core-lifecycle-FmuBaseActivity
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md
-    - name: simulation_framework::core::lifecycle::BaseActivity
+    - name: simulation_framework-core-lifecycle-BaseActivity
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md
-    - name: simulation_framework::core::lifecycle::IActivityFactory
+    - name: simulation_framework-core-lifecycle-IActivityFactory
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md
-    - name: simulation_framework::core::lifecycle::IActivity
+    - name: simulation_framework-core-lifecycle-IActivity
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md
-    - name: simulation_framework::core::logging::ConsoleLogger
+    - name: simulation_framework-core-logging-ConsoleLogger
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md
-    - name: simulation_framework::core::lifecycle::ISimulationInstance
+    - name: simulation_framework-core-lifecycle-ISimulationInstance
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md
-    - name: simulation_framework::core::lifecycle::IFmuLogic
+    - name: simulation_framework-core-lifecycle-IFmuLogic
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md
-    - name: simulation_framework::core::lifecycle::SimulationInstance
+    - name: simulation_framework-core-lifecycle-SimulationInstance
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md
-    - name: simulation_framework::core::logging::ILogger
+    - name: simulation_framework-core-logging-ILogger
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ILogger.md
-    - name: simulation_framework::core::scheduling::ISchedulerClient
+    - name: simulation_framework-core-scheduling-ISchedulerClient
       href: reference/classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md
-    - name: simulation_framework::core::logging::LoggingInstance
+    - name: simulation_framework-core-logging-LoggingInstance
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md
-    - name: simulation_framework::core::SimRunner
+    - name: simulation_framework-core-SimRunner
       href: reference/classsimulation__framework_1_1core_1_1SimRunner.md
-    - name: simulation_framework::core::SimfwkCliServer
+    - name: simulation_framework-core-SimfwkCliServer
       href: reference/classsimulation__framework_1_1core_1_1SimfwkCliServer.md
-    - name: simulation_framework::core::StandaloneActivityService
+    - name: simulation_framework-core-StandaloneActivityService
       href: reference/classsimulation__framework_1_1core_1_1StandaloneActivityService.md
-    - name: simulation_framework::core::time::IClock
+    - name: simulation_framework-core-time-IClock
       href: reference/classsimulation__framework_1_1core_1_1time_1_1IClock.md
-    - name: simulation_framework::core::time::Clock
+    - name: simulation_framework-core-time-Clock
       href: reference/classsimulation__framework_1_1core_1_1time_1_1Clock.md
-    - name: simulation_framework::core::time::ISimulationCompletionChecker
+    - name: simulation_framework-core-time-ISimulationCompletionChecker
       href: reference/classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md
-    - name: simulation_framework::core::Topic
+    - name: simulation_framework-core-Topic
       href: reference/classsimulation__framework_1_1core_1_1Topic.md
-    - name: simulation_framework::evaluator::DistanceDrivenEvaluator
+    - name: simulation_framework-evaluator-DistanceDrivenEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md
-    - name: simulation_framework::evaluator::DistanceDrivenCalculator
+    - name: simulation_framework-evaluator-DistanceDrivenCalculator
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md
-    - name: simulation_framework::evaluator::MinTtcEvaluator
+    - name: simulation_framework-evaluator-MinTtcEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md
-    - name: simulation_framework::evaluator::TimeToCollisionCalculator
+    - name: simulation_framework-evaluator-TimeToCollisionCalculator
       href: reference/classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator.md
-    - name: simulation_framework::evaluator::GtBaseEvaluator
+    - name: simulation_framework-evaluator-GtBaseEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md
-    - name: simulation_framework::evaluator::PredictiveMinTtcEvaluator
+    - name: simulation_framework-evaluator-PredictiveMinTtcEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md
-    - name: simulation_framework::evaluator::PredictiveTimeToCollisionCalculator
+    - name: simulation_framework-evaluator-PredictiveTimeToCollisionCalculator
       href: reference/classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md
   - name: Structures
     items:
-    - name: simulation_framework::core::kpi::KpiContent
+    - name: simulation_framework-core-kpi-KpiContent
       href: reference/structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md
-    - name: simulation_framework::core::lifecycle::FmuConfig
+    - name: simulation_framework-core-lifecycle-FmuConfig
       href: reference/structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md
-    - name: simulation_framework::core::StateFeedback
+    - name: simulation_framework-core-StateFeedback
       href: reference/structsimulation__framework_1_1core_1_1StateFeedback.md
-    - name: simulation_framework::core::StandaloneInitData
+    - name: simulation_framework-core-StandaloneInitData
       href: reference/structsimulation__framework_1_1core_1_1StandaloneInitData.md
-    - name: simulation_framework::core::SimulationParameters
+    - name: simulation_framework-core-SimulationParameters
       href: reference/structsimulation__framework_1_1core_1_1SimulationParameters.md
-    - name: simulation_framework::core::time::Timestamp
+    - name: simulation_framework-core-time-Timestamp
       href: reference/structsimulation__framework_1_1core_1_1time_1_1Timestamp.md
   - name: Files
     items:
@@ -428,13 +428,13 @@
       href: reference/dir_1ceceec62c04a0e6911af44f7cafce80.md
   - name: Global Definitions
     items:
-    - name: simulation_framework::autonomy::ISimInstanceCreator
+    - name: simulation_framework-autonomy-ISimInstanceCreator
       href: reference/classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md
     - name: ~ISimInstanceCreator
       href: reference/classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md
     - name: Create
       href: reference/classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md
-    - name: simulation_framework::autonomy::AutonomySimInstanceCreator
+    - name: simulation_framework-autonomy-AutonomySimInstanceCreator
       href: reference/classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md
     - name: AutonomySimInstanceCreator
       href: reference/classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md
@@ -442,7 +442,7 @@
       href: reference/classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md
     - name: Create
       href: reference/classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md
-    - name: simulation_framework::autonomy::SimulationCompletionChecker
+    - name: simulation_framework-autonomy-SimulationCompletionChecker
       href: reference/classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md
     - name: clock_ptr_
       href: reference/classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md
@@ -452,7 +452,7 @@
       href: reference/classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md
     - name: GetSimulationDuration
       href: reference/classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md
-    - name: simulation_framework::autonomy::cli::CliProvider
+    - name: simulation_framework-autonomy-cli-CliProvider
       href: reference/classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md
     - name: core_parameters_
       href: reference/classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md
@@ -470,7 +470,7 @@
       href: reference/classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md
     - name: Parse
       href: reference/classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md
-    - name: simulation_framework::core::CliParser
+    - name: simulation_framework-core-CliParser
       href: reference/classsimulation__framework_1_1core_1_1CliParser.md
     - name: core_parameters_
       href: reference/classsimulation__framework_1_1core_1_1CliParser.md
@@ -486,7 +486,7 @@
       href: reference/classsimulation__framework_1_1core_1_1CliParser.md
     - name: ConvertCustomizedParameterFromArgs
       href: reference/classsimulation__framework_1_1core_1_1CliParser.md
-    - name: simulation_framework::core::IEvaluator
+    - name: simulation_framework-core-IEvaluator
       href: reference/classsimulation__framework_1_1core_1_1IEvaluator.md
     - name: ~IEvaluator
       href: reference/classsimulation__framework_1_1core_1_1IEvaluator.md
@@ -502,7 +502,7 @@
       href: reference/classsimulation__framework_1_1core_1_1IEvaluator.md
     - name: SetInput
       href: reference/classsimulation__framework_1_1core_1_1IEvaluator.md
-    - name: simulation_framework::autonomy::ActivityFactory
+    - name: simulation_framework-autonomy-ActivityFactory
       href: reference/classsimulation__framework_1_1autonomy_1_1ActivityFactory.md
     - name: sim_params_
       href: reference/classsimulation__framework_1_1autonomy_1_1ActivityFactory.md
@@ -520,7 +520,7 @@
       href: reference/classsimulation__framework_1_1autonomy_1_1ActivityFactory.md
     - name: IfAvxSensorSettingsDefined
       href: reference/classsimulation__framework_1_1autonomy_1_1ActivityFactory.md
-    - name: simulation_framework::core::Cli
+    - name: simulation_framework-core-Cli
       href: reference/classsimulation__framework_1_1core_1_1Cli.md
     - name: sim_runner_
       href: reference/classsimulation__framework_1_1core_1_1Cli.md
@@ -530,7 +530,7 @@
       href: reference/classsimulation__framework_1_1core_1_1Cli.md
     - name: Execute
       href: reference/classsimulation__framework_1_1core_1_1Cli.md
-    - name: simulation_framework::core::IPublisher
+    - name: simulation_framework-core-IPublisher
       href: reference/classsimulation__framework_1_1core_1_1IPublisher.md
     - name: ~IPublisher
       href: reference/classsimulation__framework_1_1core_1_1IPublisher.md
@@ -542,7 +542,7 @@
       href: reference/classsimulation__framework_1_1core_1_1IPublisher.md
     - name: WaitForSubscribersInNumberOf
       href: reference/classsimulation__framework_1_1core_1_1IPublisher.md
-    - name: simulation_framework::core::IStandaloneActivityCreator
+    - name: simulation_framework-core-IStandaloneActivityCreator
       href: reference/classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md
     - name: ~IStandaloneActivityCreator
       href: reference/classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md
@@ -550,7 +550,7 @@
       href: reference/classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md
     - name: Create
       href: reference/classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md
-    - name: simulation_framework::core::ISimfwkCliServer
+    - name: simulation_framework-core-ISimfwkCliServer
       href: reference/classsimulation__framework_1_1core_1_1ISimfwkCliServer.md
     - name: ~ISimfwkCliServer
       href: reference/classsimulation__framework_1_1core_1_1ISimfwkCliServer.md
@@ -560,7 +560,7 @@
       href: reference/classsimulation__framework_1_1core_1_1ISimfwkCliServer.md
     - name: GetServerAddress
       href: reference/classsimulation__framework_1_1core_1_1ISimfwkCliServer.md
-    - name: simulation_framework::avx_sensor_cosim::AvxVssApiAdapter
+    - name: simulation_framework-avx_sensor_cosim-AvxVssApiAdapter
       href: reference/classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md
     - name: SensorDataDescriptions
       href: reference/classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md
@@ -620,7 +620,7 @@
       href: reference/classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md
     - name: IsAllSensorDataDescriptionsAvailable
       href: reference/classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md
-    - name: simulation_framework::core::ISubscriber
+    - name: simulation_framework-core-ISubscriber
       href: reference/classsimulation__framework_1_1core_1_1ISubscriber.md
     - name: ~ISubscriber
       href: reference/classsimulation__framework_1_1core_1_1ISubscriber.md
@@ -630,7 +630,7 @@
       href: reference/classsimulation__framework_1_1core_1_1ISubscriber.md
     - name: WaitForPublisher
       href: reference/classsimulation__framework_1_1core_1_1ISubscriber.md
-    - name: simulation_framework::core::ISimRunner
+    - name: simulation_framework-core-ISimRunner
       href: reference/classsimulation__framework_1_1core_1_1ISimRunner.md
     - name: ~ISimRunner
       href: reference/classsimulation__framework_1_1core_1_1ISimRunner.md
@@ -652,7 +652,7 @@
       href: reference/classsimulation__framework_1_1core_1_1ISimRunner.md
     - name: RunOverSimulation
       href: reference/classsimulation__framework_1_1core_1_1ISimRunner.md
-    - name: simulation_framework::core::ITopic
+    - name: simulation_framework-core-ITopic
       href: reference/classsimulation__framework_1_1core_1_1ITopic.md
     - name: ~ITopic
       href: reference/classsimulation__framework_1_1core_1_1ITopic.md
@@ -674,7 +674,7 @@
       href: reference/classsimulation__framework_1_1core_1_1ITopic.md
     - name: GetPublishers
       href: reference/classsimulation__framework_1_1core_1_1ITopic.md
-    - name: simulation_framework::core::kpi::Datatype
+    - name: simulation_framework-core-kpi-Datatype
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md
     - name: Value
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md
@@ -708,7 +708,7 @@
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md
     - name: operator==
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md
-    - name: simulation_framework::core::kpi::IKpi
+    - name: simulation_framework-core-kpi-IKpi
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md
     - name: ~IKpi
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md
@@ -720,7 +720,7 @@
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md
     - name: GetKpiType
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md
-    - name: simulation_framework::core::kpi::KpiContent
+    - name: simulation_framework-core-kpi-KpiContent
       href: reference/structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md
     - name: timestamp
       href: reference/structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md
@@ -734,7 +734,7 @@
       href: reference/structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md
     - name: type
       href: reference/structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md
-    - name: simulation_framework::core::kpi::IKpiMessageConverter
+    - name: simulation_framework-core-kpi-IKpiMessageConverter
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md
     - name: ~IKpiMessageConverter
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md
@@ -742,13 +742,13 @@
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md
     - name: DecodeFromDds
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md
-    - name: simulation_framework::core::kpi::KpiMessageConverter
+    - name: simulation_framework-core-kpi-KpiMessageConverter
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md
     - name: ConvertToDds
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md
     - name: DecodeFromDds
       href: reference/classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md
-    - name: simulation_framework::core::lifecycle::FmuConfig
+    - name: simulation_framework-core-lifecycle-FmuConfig
       href: reference/structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md
     - name: MessageType
       href: reference/structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md
@@ -770,7 +770,7 @@
       href: reference/structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md
     - name: topic_to_message_type
       href: reference/structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md
-    - name: simulation_framework::core::lifecycle::FmuLogic
+    - name: simulation_framework-core-lifecycle-FmuLogic
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md
     - name: impl_
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md
@@ -814,7 +814,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md
     - name: GetFmuState
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md
-    - name: simulation_framework::core::lifecycle::FmuBaseActivity
+    - name: simulation_framework-core-lifecycle-FmuBaseActivity
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md
     - name: fmu_config_
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md
@@ -848,7 +848,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md
     - name: AddPublisherForTopic
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md
-    - name: simulation_framework::core::lifecycle::BaseActivity
+    - name: simulation_framework-core-lifecycle-BaseActivity
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md
     - name: name_
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md
@@ -902,7 +902,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md
     - name: WaitForPubSubConnection
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md
-    - name: simulation_framework::core::lifecycle::IActivityFactory
+    - name: simulation_framework-core-lifecycle-IActivityFactory
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md
     - name: ~IActivityFactory
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md
@@ -914,7 +914,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md
     - name: SetSimulationBaseCycleTime
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md
-    - name: simulation_framework::core::lifecycle::IActivity
+    - name: simulation_framework-core-lifecycle-IActivity
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md
     - name: ~IActivity
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md
@@ -942,7 +942,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md
     - name: SetSimulationSettings
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md
-    - name: simulation_framework::core::logging::ConsoleLogger
+    - name: simulation_framework-core-logging-ConsoleLogger
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md
     - name: log_level_
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md
@@ -960,7 +960,7 @@
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md
     - name: GetCurrentTimestamp
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md
-    - name: simulation_framework::core::lifecycle::ISimulationInstance
+    - name: simulation_framework-core-lifecycle-ISimulationInstance
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md
     - name: ~ISimulationInstance
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md
@@ -978,7 +978,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md
     - name: GetSimulationBaseCycleTime
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md
-    - name: simulation_framework::core::lifecycle::IFmuLogic
+    - name: simulation_framework-core-lifecycle-IFmuLogic
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md
     - name: ~IFmuLogic
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md
@@ -1006,7 +1006,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md
     - name: GetFmuState
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md
-    - name: simulation_framework::core::lifecycle::SimulationInstance
+    - name: simulation_framework-core-lifecycle-SimulationInstance
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md
     - name: impl_
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md
@@ -1030,7 +1030,7 @@
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md
     - name: GetSimulationBaseCycleTime
       href: reference/classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md
-    - name: simulation_framework::core::logging::ILogger
+    - name: simulation_framework-core-logging-ILogger
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ILogger.md
     - name: ~ILogger
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ILogger.md
@@ -1040,7 +1040,7 @@
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ILogger.md
     - name: Log
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1ILogger.md
-    - name: simulation_framework::core::scheduling::ISchedulerClient
+    - name: simulation_framework-core-scheduling-ISchedulerClient
       href: reference/classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md
     - name: ~ISchedulerClient
       href: reference/classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md
@@ -1058,7 +1058,7 @@
       href: reference/classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md
     - name: SetSimulationSettings
       href: reference/classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md
-    - name: simulation_framework::core::logging::LoggingInstance
+    - name: simulation_framework-core-logging-LoggingInstance
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md
     - name: ILoggerContainer
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md
@@ -1084,7 +1084,7 @@
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md
     - name: LoggingInstance
       href: reference/classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md
-    - name: simulation_framework::core::SimRunner
+    - name: simulation_framework-core-SimRunner
       href: reference/classsimulation__framework_1_1core_1_1SimRunner.md
     - name: impl_
       href: reference/classsimulation__framework_1_1core_1_1SimRunner.md
@@ -1110,7 +1110,7 @@
       href: reference/classsimulation__framework_1_1core_1_1SimRunner.md
     - name: RunOverSimulation
       href: reference/classsimulation__framework_1_1core_1_1SimRunner.md
-    - name: simulation_framework::core::SimfwkCliServer
+    - name: simulation_framework-core-SimfwkCliServer
       href: reference/classsimulation__framework_1_1core_1_1SimfwkCliServer.md
     - name: server_address_
       href: reference/classsimulation__framework_1_1core_1_1SimfwkCliServer.md
@@ -1128,19 +1128,19 @@
       href: reference/classsimulation__framework_1_1core_1_1SimfwkCliServer.md
     - name: BindSimRunner
       href: reference/classsimulation__framework_1_1core_1_1SimfwkCliServer.md
-    - name: simulation_framework::core::StateFeedback
+    - name: simulation_framework-core-StateFeedback
       href: reference/structsimulation__framework_1_1core_1_1StateFeedback.md
     - name: execute_status
       href: reference/structsimulation__framework_1_1core_1_1StateFeedback.md
     - name: error_msg
       href: reference/structsimulation__framework_1_1core_1_1StateFeedback.md
-    - name: simulation_framework::core::StandaloneInitData
+    - name: simulation_framework-core-StandaloneInitData
       href: reference/structsimulation__framework_1_1core_1_1StandaloneInitData.md
     - name: input_file_stream
       href: reference/structsimulation__framework_1_1core_1_1StandaloneInitData.md
     - name: primary_activity_cycle_time_in_ms
       href: reference/structsimulation__framework_1_1core_1_1StandaloneInitData.md
-    - name: simulation_framework::core::StandaloneActivityService
+    - name: simulation_framework-core-StandaloneActivityService
       href: reference/classsimulation__framework_1_1core_1_1StandaloneActivityService.md
     - name: StandaloneActivityService
       href: reference/classsimulation__framework_1_1core_1_1StandaloneActivityService.md
@@ -1148,7 +1148,7 @@
       href: reference/classsimulation__framework_1_1core_1_1StandaloneActivityService.md
     - name: Run
       href: reference/classsimulation__framework_1_1core_1_1StandaloneActivityService.md
-    - name: simulation_framework::core::SimulationParameters
+    - name: simulation_framework-core-SimulationParameters
       href: reference/structsimulation__framework_1_1core_1_1SimulationParameters.md
     - name: CustomizedParameters
       href: reference/structsimulation__framework_1_1core_1_1SimulationParameters.md
@@ -1182,7 +1182,7 @@
       href: reference/structsimulation__framework_1_1core_1_1SimulationParameters.md
     - name: breakpoints_file_path
       href: reference/structsimulation__framework_1_1core_1_1SimulationParameters.md
-    - name: simulation_framework::core::time::IClock
+    - name: simulation_framework-core-time-IClock
       href: reference/classsimulation__framework_1_1core_1_1time_1_1IClock.md
     - name: ~IClock
       href: reference/classsimulation__framework_1_1core_1_1time_1_1IClock.md
@@ -1196,7 +1196,7 @@
       href: reference/classsimulation__framework_1_1core_1_1time_1_1IClock.md
     - name: IncrementBy
       href: reference/classsimulation__framework_1_1core_1_1time_1_1IClock.md
-    - name: simulation_framework::core::time::Clock
+    - name: simulation_framework-core-time-Clock
       href: reference/classsimulation__framework_1_1core_1_1time_1_1Clock.md
     - name: ms_
       href: reference/classsimulation__framework_1_1core_1_1time_1_1Clock.md
@@ -1212,7 +1212,7 @@
       href: reference/classsimulation__framework_1_1core_1_1time_1_1Clock.md
     - name: IncrementBy
       href: reference/classsimulation__framework_1_1core_1_1time_1_1Clock.md
-    - name: simulation_framework::core::time::ISimulationCompletionChecker
+    - name: simulation_framework-core-time-ISimulationCompletionChecker
       href: reference/classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md
     - name: IsSimulationFinished
       href: reference/classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md
@@ -1220,7 +1220,7 @@
       href: reference/classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md
     - name: GetSimulationDuration
       href: reference/classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md
-    - name: simulation_framework::core::time::Timestamp
+    - name: simulation_framework-core-time-Timestamp
       href: reference/structsimulation__framework_1_1core_1_1time_1_1Timestamp.md
     - name: seconds
       href: reference/structsimulation__framework_1_1core_1_1time_1_1Timestamp.md
@@ -1228,7 +1228,7 @@
       href: reference/structsimulation__framework_1_1core_1_1time_1_1Timestamp.md
     - name: DebugString
       href: reference/structsimulation__framework_1_1core_1_1time_1_1Timestamp.md
-    - name: simulation_framework::core::Topic
+    - name: simulation_framework-core-Topic
       href: reference/classsimulation__framework_1_1core_1_1Topic.md
     - name: PublisherCallback
       href: reference/classsimulation__framework_1_1core_1_1Topic.md
@@ -1264,7 +1264,7 @@
       href: reference/classsimulation__framework_1_1core_1_1Topic.md
     - name: GetPublishers
       href: reference/classsimulation__framework_1_1core_1_1Topic.md
-    - name: simulation_framework::evaluator::DistanceDrivenEvaluator
+    - name: simulation_framework-evaluator-DistanceDrivenEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md
     - name: driven_dist_
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md
@@ -1286,7 +1286,7 @@
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md
     - name: GetKpiType
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md
-    - name: simulation_framework::evaluator::DistanceDrivenCalculator
+    - name: simulation_framework-evaluator-DistanceDrivenCalculator
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md
     - name: last_xpos_
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md
@@ -1296,7 +1296,7 @@
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md
     - name: Calculate
       href: reference/classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md
-    - name: simulation_framework::evaluator::MinTtcEvaluator
+    - name: simulation_framework-evaluator-MinTtcEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md
     - name: min_ttc_
       href: reference/classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md
@@ -1316,11 +1316,11 @@
       href: reference/classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md
     - name: GetKpiType
       href: reference/classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md
-    - name: simulation_framework::evaluator::TimeToCollisionCalculator
+    - name: simulation_framework-evaluator-TimeToCollisionCalculator
       href: reference/classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator.md
     - name: Calculate
       href: reference/classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator.md
-    - name: simulation_framework::evaluator::GtBaseEvaluator
+    - name: simulation_framework-evaluator-GtBaseEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md
     - name: kpis_
       href: reference/classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md
@@ -1346,7 +1346,7 @@
       href: reference/classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md
     - name: autonomy
       href: reference/namespaceautonomy.md
-    - name: simulation_framework::evaluator::PredictiveMinTtcEvaluator
+    - name: simulation_framework-evaluator-PredictiveMinTtcEvaluator
       href: reference/classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md
     - name: min_ttc_
       href: reference/classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md
@@ -1368,7 +1368,7 @@
       href: reference/classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md
     - name: cli
       href: reference/namespacecli.md
-    - name: simulation_framework::evaluator::PredictiveTimeToCollisionCalculator
+    - name: simulation_framework-evaluator-PredictiveTimeToCollisionCalculator
       href: reference/classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md
     - name: predictive_ttc_precision_
       href: reference/classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md
@@ -1394,7 +1394,7 @@
       href: reference/namespacertidds.md
     - name: kpi
       href: reference/namespacekpi.md
-    - name: simulation_framework::autonomy
+    - name: simulation_framework-autonomy
       href: reference/namespacesimulation__framework_1_1autonomy.md
     - name: kOpenScenarioFileName
       href: reference/namespacesimulation__framework_1_1autonomy.md
@@ -1406,25 +1406,25 @@
       href: reference/namespacesimulation__framework_1_1autonomy.md
     - name: kDefaultDriverInputFileContent
       href: reference/namespacesimulation__framework_1_1autonomy.md
-    - name: fmi4cpp::fmi2
+    - name: fmi4cpp-fmi2
       href: reference/namespacefmi4cpp_1_1fmi2.md
-    - name: simulation_framework::autonomy::communication
+    - name: simulation_framework-autonomy-communication
       href: reference/namespacesimulation__framework_1_1autonomy_1_1communication.md
-    - name: simulation_framework::autonomy::cli
+    - name: simulation_framework-autonomy-cli
       href: reference/namespacesimulation__framework_1_1autonomy_1_1cli.md
-    - name: simulation_framework::autonomy::topic_registry
+    - name: simulation_framework-autonomy-topic_registry
       href: reference/namespacesimulation__framework_1_1autonomy_1_1topic__registry.md
     - name: ScenarioVariableTopicType
       href: reference/namespacesimulation__framework_1_1autonomy_1_1topic__registry.md
     - name: GetExistingTopicById
       href: reference/namespacesimulation__framework_1_1autonomy_1_1topic__registry.md
-    - name: simulation_framework::autonomy::communication::utils
+    - name: simulation_framework-autonomy-communication-utils
       href: reference/namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md
     - name: CreateDdsMessageFromOsiProto
       href: reference/namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md
     - name: ParseOsiProtoFromDdsMessage
       href: reference/namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md
-    - name: simulation_framework::core
+    - name: simulation_framework-core
       href: reference/namespacesimulation__framework_1_1core.md
     - name: SimState
       href: reference/namespacesimulation__framework_1_1core.md
@@ -1464,7 +1464,7 @@
       href: reference/namespacesimulation__framework_1_1core.md
     - name: GetCoreInternalVersion
       href: reference/namespacesimulation__framework_1_1core.md
-    - name: simulation_framework::autonomy::util
+    - name: simulation_framework-autonomy-util
       href: reference/namespacesimulation__framework_1_1autonomy_1_1util.md
     - name: GetCustomizedParameterByName
       href: reference/namespacesimulation__framework_1_1autonomy_1_1util.md
@@ -1474,9 +1474,9 @@
       href: reference/namespacesimulation__framework_1_1autonomy_1_1util.md
     - name: GetDriverInputFilePath
       href: reference/namespacesimulation__framework_1_1autonomy_1_1util.md
-    - name: simulation_framework::avx_sensor_cosim
+    - name: simulation_framework-avx_sensor_cosim
       href: reference/namespacesimulation__framework_1_1avx__sensor__cosim.md
-    - name: simulation_framework::core::kpi
+    - name: simulation_framework-core-kpi
       href: reference/namespacesimulation__framework_1_1core_1_1kpi.md
     - name: Type
       href: reference/namespacesimulation__framework_1_1core_1_1kpi.md
@@ -1492,7 +1492,7 @@
       href: reference/namespacesimulation__framework_1_1core_1_1kpi.md
     - name: operator==
       href: reference/namespacesimulation__framework_1_1core_1_1kpi.md
-    - name: simulation_framework::core::communication_manager_creator
+    - name: simulation_framework-core-communication_manager_creator
       href: reference/namespacesimulation__framework_1_1core_1_1communication__manager__creator.md
     - name: Type
       href: reference/namespacesimulation__framework_1_1core_1_1communication__manager__creator.md
@@ -1502,7 +1502,7 @@
       href: reference/namespacesimulation__framework_1_1core_1_1communication__manager__creator.md
     - name: Create
       href: reference/namespacesimulation__framework_1_1core_1_1communication__manager__creator.md
-    - name: simulation_framework::core::logging
+    - name: simulation_framework-core-logging
       href: reference/namespacesimulation__framework_1_1core_1_1logging.md
     - name: LogLevel
       href: reference/namespacesimulation__framework_1_1core_1_1logging.md
@@ -1524,7 +1524,7 @@
       href: reference/namespacesimulation__framework_1_1core_1_1logging.md
     - name: Error
       href: reference/namespacesimulation__framework_1_1core_1_1logging.md
-    - name: simulation_framework::core::scheduling
+    - name: simulation_framework-core-scheduling
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling.md
     - name: SchedulerClientType
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling.md
@@ -1532,7 +1532,7 @@
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling.md
     - name: kDUMMY
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling.md
-    - name: simulation_framework::core::lifecycle
+    - name: simulation_framework-core-lifecycle
       href: reference/namespacesimulation__framework_1_1core_1_1lifecycle.md
     - name: FmuInOutType
       href: reference/namespacesimulation__framework_1_1core_1_1lifecycle.md
@@ -1546,9 +1546,9 @@
       href: reference/namespacesimulation__framework_1_1core_1_1lifecycle.md
     - name: FmuVarToMessageNames
       href: reference/namespacesimulation__framework_1_1core_1_1lifecycle.md
-    - name: simulation_framework::evaluator
+    - name: simulation_framework-evaluator
       href: reference/namespacesimulation__framework_1_1evaluator.md
-    - name: simulation_framework::core::time
+    - name: simulation_framework-core-time
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
     - name: timepoint
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
@@ -1556,7 +1556,7 @@
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
     - name: operator==
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
-    - name: simulation_framework::core::scheduling::scheduling_client_creator
+    - name: simulation_framework-core-scheduling-scheduling_client_creator
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md
     - name: Create
       href: reference/namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md
@@ -1572,7 +1572,7 @@
       href: reference/namespaceutils.md
     - name: autonomy/communication/topic_registry/topic_registry.h
       href: reference/autonomy_2communication_2topic__registry_2topic__registry_8h.md
-    - name: simulation_framework::core::topic_registry
+    - name: simulation_framework-core-topic_registry
       href: reference/namespacesimulation__framework_1_1core_1_1topic__registry.md
     - name: StringTopicType
       href: reference/namespacesimulation__framework_1_1core_1_1topic__registry.md
