@@ -3,7 +3,10 @@
 If your host application is no longer accepting materials, end the session by using the DELETE verb on the session URL:
 
 
-:::code source="scripts/SampleHostApps/NoHost/SimpleExample.py" language="python" range="35-36":::
+<!-- :::code source="scripts/SampleHostApps/NoHost/SimpleExample.py" language="python" range="35-36"::: -->
+```python
+requests.delete(f"{sessions_endpoint}{post_session_resp['id']}", json={}, headers=auth_header, verify=0)
+```
 
 This causes the Granta Material Picker to display the following message:
 
