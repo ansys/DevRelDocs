@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Prime Mesh Python client library 2025 R2 SP03",
+        "summary": "",
+        "version": "2025 R2 SP03",
+        "product": "Prime Mesh",
+        "programming language": "Python",
+        "physics": "Meshing,CAD"
+      }
+    }
+ }
