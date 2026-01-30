@@ -19,8 +19,9 @@
 
 ## Public functions
 
-<a id="structIRockyJointOutputData_1a73c6b5f900aa5916df2d2e10ba44cca3"></a>
 ### Function set\_force
+
+<a id="structIRockyJointOutputData_1a73c6b5f900aa5916df2d2e10ba44cca3"></a>
 
 ![][public]
 
@@ -57,8 +58,9 @@ This method must be used to set the value of the joint force calculated by the m
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointOutputData::set_force"}]}`
 -->
 
-<a id="structIRockyJointOutputData_1a4aa94a78c5ac86863e806a3948ee5a20"></a>
 ### Function set\_home\_moment
+
+<a id="structIRockyJointOutputData_1a4aa94a78c5ac86863e806a3948ee5a20"></a>
 
 ![][public]
 
@@ -93,8 +95,9 @@ moment acting on the home element. Rocky will sum subsequently this moment to ot
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointOutputData::set_home_moment"}]}`
 -->
 
-<a id="structIRockyJointOutputData_1a98238da308b6ce50bfa243a63a9842ae"></a>
 ### Function set\_near\_moment
+
+<a id="structIRockyJointOutputData_1a98238da308b6ce50bfa243a63a9842ae"></a>
 
 ![][public]
 

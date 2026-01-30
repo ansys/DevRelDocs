@@ -29,8 +29,9 @@ Triangle scalars are special variables within the Rocky solver that associate a 
 
 ## Public functions
 
-<a id="structIRockyTriangleScalars_1a05684b0ee2ad2ea56b3ed0d627d86cfe"></a>
 ### Function get\_thermal\_conductivity
+
+<a id="structIRockyTriangleScalars_1a05684b0ee2ad2ea56b3ed0d627d86cfe"></a>
 
 ![][public]
 ![][const]
@@ -57,8 +58,9 @@ The value of the thermal conductivity of the geometry triangle. The Rocky solver
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::get_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1adfb451a883a51e0e52bbb4fb304bdbee"></a>
 ### Function set\_thermal\_conductivity
+
+<a id="structIRockyTriangleScalars_1adfb451a883a51e0e52bbb4fb304bdbee"></a>
 
 ![][public]
 
@@ -93,8 +95,9 @@ triangle, if the corresponding built-in triangle scalar was enabled. Otherwise, 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::set_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1ac72837182e4220fc58411bad8db38042"></a>
 ### Function get\_poisson\_ratio
+
+<a id="structIRockyTriangleScalars_1ac72837182e4220fc58411bad8db38042"></a>
 
 ![][public]
 ![][const]
@@ -121,8 +124,9 @@ The value of the Poisson's ratio assigned to the geometry triangle. The Rocky so
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::get_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1abc7a467e91fb2232868c27518c92c844"></a>
 ### Function set\_poisson\_ratio
+
+<a id="structIRockyTriangleScalars_1abc7a467e91fb2232868c27518c92c844"></a>
 
 ![][public]
 
@@ -157,8 +161,9 @@ triangle, if the corresponding built-in triangle scalar was enabled. Otherwise, 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::set_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1afaf1ed93d75a4a75ad38c31f675decc2"></a>
 ### Function get\_exchanged\_heat
+
+<a id="structIRockyTriangleScalars_1afaf1ed93d75a4a75ad38c31f675decc2"></a>
 
 ![][public]
 ![][const]
@@ -185,8 +190,9 @@ The value of the total heat transferred to the triangle by surrounding particles
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::get_exchanged_heat"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1a27cf07c2dd9371c2b26106133266a327"></a>
 ### Function get\_scalar
+
+<a id="structIRockyTriangleScalars_1a27cf07c2dd9371c2b26106133266a327"></a>
 
 ![][public]
 ![][const]
@@ -227,8 +233,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1a2882608ab8fdf75777d411400604e135"></a>
 ### Function set\_scalar
+
+<a id="structIRockyTriangleScalars_1a2882608ab8fdf75777d411400604e135"></a>
 
 ![][public]
 ![][const]
@@ -266,8 +273,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1ab9721444212bd5fe4e3af03fe3a70294"></a>
 ### Function add\_scalar
+
+<a id="structIRockyTriangleScalars_1ab9721444212bd5fe4e3af03fe3a70294"></a>
 
 ![][public]
 ![][const]
@@ -305,8 +313,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyTriangleScalars_1a6d802b0828e406fd357377d8500625f5"></a>
 ### Function max\_scalar
+
+<a id="structIRockyTriangleScalars_1a6d802b0828e406fd357377d8500625f5"></a>
 
 ![][public]
 ![][const]

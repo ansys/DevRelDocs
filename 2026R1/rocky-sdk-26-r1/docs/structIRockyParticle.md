@@ -66,8 +66,9 @@
 
 ## Public functions
 
-<a id="structIRockyParticle_1a39ab5586c7a893cbe156d211a10c5efd"></a>
 ### Function get\_material
+
+<a id="structIRockyParticle_1a39ab5586c7a893cbe156d211a10c5efd"></a>
 
 ![][public]
 ![][const]
@@ -98,8 +99,9 @@ Invoking this method on assembly particles results on undefined behavior, as ass
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_material"}]}`
 -->
 
-<a id="structIRockyParticle_1ab6a1844166c571196740d7cb3e8331a2"></a>
 ### Function get\_centroid\_position
+
+<a id="structIRockyParticle_1ab6a1844166c571196740d7cb3e8331a2"></a>
 
 ![][public]
 ![][const]
@@ -126,8 +128,9 @@ The Cartesian coordinates of the current position of the particle's centroid.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_centroid_position"}]}`
 -->
 
-<a id="structIRockyParticle_1a9acf8ddfc5a9c3974e19e616193de571"></a>
 ### Function get\_mass
+
+<a id="structIRockyParticle_1a9acf8ddfc5a9c3974e19e616193de571"></a>
 
 ![][public]
 ![][const]
@@ -154,8 +157,9 @@ The current value of the particle's mass. This value will be different from the 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_mass"}]}`
 -->
 
-<a id="structIRockyParticle_1a0239b6fe520fb1bc69196cf4c7c298ac"></a>
 ### Function get\_original\_mass
+
+<a id="structIRockyParticle_1a0239b6fe520fb1bc69196cf4c7c298ac"></a>
 
 ![][public]
 ![][const]
@@ -182,8 +186,9 @@ The original value of the mass of a particle when it enters into the simulation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_original_mass"}]}`
 -->
 
-<a id="structIRockyParticle_1a702b4bce44c268065cf9961ea88375c3"></a>
 ### Function get\_size
+
+<a id="structIRockyParticle_1a702b4bce44c268065cf9961ea88375c3"></a>
 
 ![][public]
 ![][const]
@@ -210,8 +215,9 @@ The current value of the particle's size.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_size"}]}`
 -->
 
-<a id="structIRockyParticle_1af2ebac6fa5a5f9dbb5c37423ef96c471"></a>
 ### Function get\_release\_time
+
+<a id="structIRockyParticle_1af2ebac6fa5a5f9dbb5c37423ef96c471"></a>
 
 ![][public]
 ![][const]
@@ -238,8 +244,9 @@ The time at which the particle was released.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_release_time"}]}`
 -->
 
-<a id="structIRockyParticle_1ad931e6e8afe554323408148c245a537e"></a>
 ### Function get\_cgm\_scale\_factor
+
+<a id="structIRockyParticle_1ad931e6e8afe554323408148c245a537e"></a>
 
 ![][public]
 ![][const]
@@ -266,8 +273,9 @@ The particle's Coarse-grain Modeling (CGM) scale factor.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_cgm_scale_factor"}]}`
 -->
 
-<a id="structIRockyParticle_1a9a1df9319687462ce0c43b10e691299f"></a>
 ### Function get\_volume
+
+<a id="structIRockyParticle_1a9a1df9319687462ce0c43b10e691299f"></a>
 
 ![][public]
 ![][const]
@@ -294,8 +302,9 @@ The current value of the particle's volume. If the particle is porous (porosity 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_volume"}]}`
 -->
 
-<a id="structIRockyParticle_1a0fac38fa13ec5aa6495119247b8aa5d6"></a>
 ### Function get\_solid\_volume
+
+<a id="structIRockyParticle_1a0fac38fa13ec5aa6495119247b8aa5d6"></a>
 
 ![][public]
 ![][const]
@@ -322,8 +331,9 @@ The current value of the particle's solid volume. If the particle is porous (por
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_solid_volume"}]}`
 -->
 
-<a id="structIRockyParticle_1a2200149822388403dfd42afe5574f1f9"></a>
 ### Function get\_surface\_area
+
+<a id="structIRockyParticle_1a2200149822388403dfd42afe5574f1f9"></a>
 
 ![][public]
 ![][const]
@@ -350,8 +360,9 @@ The current value of the particle's surface area.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_surface_area"}]}`
 -->
 
-<a id="structIRockyParticle_1a5951469e0997dab052087895e2ebd95c"></a>
 ### Function get\_equivalent\_diameter
+
+<a id="structIRockyParticle_1a5951469e0997dab052087895e2ebd95c"></a>
 
 ![][public]
 ![][const]
@@ -378,8 +389,9 @@ The equivalent diameter of the particle, which is defined as the diameter of a s
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_equivalent_diameter"}]}`
 -->
 
-<a id="structIRockyParticle_1ad60e62be9c1084b624f690d94ce0474b"></a>
 ### Function get\_sphericity
+
+<a id="structIRockyParticle_1ad60e62be9c1084b624f690d94ce0474b"></a>
 
 ![][public]
 ![][const]
@@ -406,8 +418,9 @@ The particle's sphericity value, which is defined as the ratio of `formula {"typ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_sphericity"}]}`
 -->
 
-<a id="structIRockyParticle_1a38420bd69fec1d3a803cbc5d79ea0197"></a>
 ### Function get\_translational\_velocity
+
+<a id="structIRockyParticle_1a38420bd69fec1d3a803cbc5d79ea0197"></a>
 
 ![][public]
 ![][const]
@@ -434,8 +447,9 @@ The current particle's translational velocity vector expressed in Cartesian coor
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_translational_velocity"}]}`
 -->
 
-<a id="structIRockyParticle_1a1520d3fc8a40e54ad4c47ddb428fddff"></a>
 ### Function get\_rotational\_velocity
+
+<a id="structIRockyParticle_1a1520d3fc8a40e54ad4c47ddb428fddff"></a>
 
 ![][public]
 ![][const]
@@ -462,8 +476,9 @@ The current particle's rotational velocity vector expressed in Cartesian coordin
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_rotational_velocity"}]}`
 -->
 
-<a id="structIRockyParticle_1a35881133856b678e30b00dfa1c604b96"></a>
 ### Function get\_impact\_energy
+
+<a id="structIRockyParticle_1a35881133856b678e30b00dfa1c604b96"></a>
 
 ![][public]
 ![][const]
@@ -494,8 +509,9 @@ This value will be available only if an instantaneous breakage model is enabled 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_impact_energy"}]}`
 -->
 
-<a id="structIRockyParticle_1a3479e29c70b861ee7724b3dec473f126"></a>
 ### Function get\_strength
+
+<a id="structIRockyParticle_1a3479e29c70b861ee7724b3dec473f126"></a>
 
 ![][public]
 ![][const]
@@ -522,8 +538,9 @@ A random value between 0 and 1 assigned to a particle at the time of generation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_strength"}]}`
 -->
 
-<a id="structIRockyParticle_1a42a986a1659cf8a4374bf43ef6a53f63"></a>
 ### Function get\_gravity
+
+<a id="structIRockyParticle_1a42a986a1659cf8a4374bf43ef6a53f63"></a>
 
 ![][public]
 ![][const]
@@ -550,8 +567,9 @@ The gravitational acceleration vector in Cartesian coordinates.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_gravity"}]}`
 -->
 
-<a id="structIRockyParticle_1a063a7d183c621dfffd7fdd644635e51a"></a>
 ### Function get\_particle\_group\_index
+
+<a id="structIRockyParticle_1a063a7d183c621dfffd7fdd644635e51a"></a>
 
 ![][public]
 ![][const]
@@ -578,8 +596,9 @@ The index that uniquely identifies the particle group to which the particle belo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_particle_group_index"}]}`
 -->
 
-<a id="structIRockyParticle_1a42f25fc898697efc23ee5576b936efa4"></a>
 ### Function get\_material\_index
+
+<a id="structIRockyParticle_1a42f25fc898697efc23ee5576b936efa4"></a>
 
 ![][public]
 ![][const]
@@ -606,8 +625,9 @@ The material index associated to that particle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_material_index"}]}`
 -->
 
-<a id="structIRockyParticle_1ad9ba593e2adb58a8273b23214b14b60b"></a>
 ### Function get\_rolling\_resistance\_coefficient
+
+<a id="structIRockyParticle_1ad9ba593e2adb58a8273b23214b14b60b"></a>
 
 ![][public]
 ![][const]
@@ -634,8 +654,9 @@ The particle's rolling resistance coefficient
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_rolling_resistance_coefficient"}]}`
 -->
 
-<a id="structIRockyParticle_1adf12c219fb518212af2932b99c39ae52"></a>
 ### Function get\_orientation\_axis\_angle
+
+<a id="structIRockyParticle_1adf12c219fb518212af2932b99c39ae52"></a>
 
 ![][public]
 ![][const]
@@ -662,8 +683,9 @@ A tuple whose two components define the axis-angle particle orientation. The fir
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_orientation_axis_angle"}]}`
 -->
 
-<a id="structIRockyParticle_1afd3262f90c7304197e8915b4d40a58f6"></a>
 ### Function get\_orientation\_quaternion
+
+<a id="structIRockyParticle_1afd3262f90c7304197e8915b4d40a58f6"></a>
 
 ![][public]
 ![][const]
@@ -690,8 +712,9 @@ The quaternion that represents the particle's orientation, expressed as a four-d
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_orientation_quaternion"}]}`
 -->
 
-<a id="structIRockyParticle_1ac520e2ca9342f42a1260d42bb1f882a0"></a>
 ### Function get\_resultant\_force
+
+<a id="structIRockyParticle_1ac520e2ca9342f42a1260d42bb1f882a0"></a>
 
 ![][public]
 ![][const]
@@ -722,8 +745,9 @@ The force of gravity acting on the particle is not included in this resultant fo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_resultant_force"}]}`
 -->
 
-<a id="structIRockyParticle_1a58a9a71f0e2cd25a475c5681682a8c7e"></a>
 ### Function get\_resultant\_moment
+
+<a id="structIRockyParticle_1a58a9a71f0e2cd25a475c5681682a8c7e"></a>
 
 ![][public]
 ![][const]
@@ -750,8 +774,9 @@ The resultant moment vector applied to the particle, in Cartesian coordinates. T
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_resultant_moment"}]}`
 -->
 
-<a id="structIRockyParticle_1a8c3db18d0afb4ebe6d4654d833d904cb"></a>
 ### Function get\_thermal\_conductivity
+
+<a id="structIRockyParticle_1a8c3db18d0afb4ebe6d4654d833d904cb"></a>
 
 ![][public]
 ![][const]
@@ -778,8 +803,9 @@ The particle's thermal conductivity. If this property was defined as variable in
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyParticle_1a876773eeef5269e1335ae8a43cbb2d97"></a>
 ### Function set\_thermal\_conductivity
+
+<a id="structIRockyParticle_1a876773eeef5269e1335ae8a43cbb2d97"></a>
 
 ![][public]
 
@@ -814,8 +840,9 @@ be allowed only if thermal conductivity was defined as a variable property for p
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::set_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyParticle_1a6d11bc8367e406b7a56f98d92871f059"></a>
 ### Function get\_poisson\_ratio
+
+<a id="structIRockyParticle_1a6d11bc8367e406b7a56f98d92871f059"></a>
 
 ![][public]
 ![][const]
@@ -842,8 +869,9 @@ The particle's Poisson's ratio value. If this property was defined as variable i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyParticle_1a7225418a496fdaae3dc3ba7bc3d7ebca"></a>
 ### Function set\_poisson\_ratio
+
+<a id="structIRockyParticle_1a7225418a496fdaae3dc3ba7bc3d7ebca"></a>
 
 ![][public]
 
@@ -878,8 +906,9 @@ be allowed only if Poisson's ratio was defined as a variable property for partic
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::set_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyParticle_1a5007ecaea7e26cfe50579a959ba91c07"></a>
 ### Function get\_specific\_heat
+
+<a id="structIRockyParticle_1a5007ecaea7e26cfe50579a959ba91c07"></a>
 
 ![][public]
 ![][const]
@@ -906,8 +935,9 @@ The particle's specific heat value. If this property was defined as variable in 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_specific_heat"}]}`
 -->
 
-<a id="structIRockyParticle_1a2949c9bf228226090d1e7cf95b63c38f"></a>
 ### Function get\_tag
+
+<a id="structIRockyParticle_1a2949c9bf228226090d1e7cf95b63c38f"></a>
 
 ![][public]
 ![][const]
@@ -934,8 +964,9 @@ The tag value inherited from the tags assigned to the segments of a custom fiber
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_tag"}]}`
 -->
 
-<a id="structIRockyParticle_1a6ea5a3cc6356d1b80b3e8cde1fe43211"></a>
 ### Function set\_specific\_heat
+
+<a id="structIRockyParticle_1a6ea5a3cc6356d1b80b3e8cde1fe43211"></a>
 
 ![][public]
 
@@ -970,8 +1001,9 @@ be allowed only if Poisson's ratio was defined as a variable property for partic
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::set_specific_heat"}]}`
 -->
 
-<a id="structIRockyParticle_1a305fe472ba945e793d450053dc3b092f"></a>
 ### Function get\_scalars
+
+<a id="structIRockyParticle_1a305fe472ba945e793d450053dc3b092f"></a>
 
 ![][public]
 
@@ -997,8 +1029,9 @@ An <code>[IRockyParticleScalars](structIRockyParticleScalars.md#structIRockyPart
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_scalars"}]}`
 -->
 
-<a id="structIRockyParticle_1a0899498770cbebb4b538cbc736e82231"></a>
 ### Function get\_scalars
+
+<a id="structIRockyParticle_1a0899498770cbebb4b538cbc736e82231"></a>
 
 ![][public]
 ![][const]
@@ -1025,8 +1058,9 @@ A const <code>[IRockyParticleScalars](structIRockyParticleScalars.md#structIRock
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_scalars"}]}`
 -->
 
-<a id="structIRockyParticle_1af1bcfda3336619839953a01fbe7828ea"></a>
 ### Function get\_transfer\_scalars
+
+<a id="structIRockyParticle_1af1bcfda3336619839953a01fbe7828ea"></a>
 
 ![][public]
 
@@ -1052,8 +1086,9 @@ An <code>[IRockyParticleTransferScalars](structIRockyParticleTransferScalars.md#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_transfer_scalars"}]}`
 -->
 
-<a id="structIRockyParticle_1a9efea10efd70526b3ffe3f723253e44e"></a>
 ### Function get\_breakage\_scalars
+
+<a id="structIRockyParticle_1a9efea10efd70526b3ffe3f723253e44e"></a>
 
 ![][public]
 
@@ -1079,8 +1114,9 @@ An <code>[IRockyParticleBreakageScalars](structIRockyParticleBreakageScalars.md#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_breakage_scalars"}]}`
 -->
 
-<a id="structIRockyParticle_1a2fdb4c9362bd6b650aba18ad2fb6c66d"></a>
 ### Function remove
+
+<a id="structIRockyParticle_1a2fdb4c9362bd6b650aba18ad2fb6c66d"></a>
 
 ![][public]
 
@@ -1104,8 +1140,9 @@ ROCKY_FUNCTIONS void IRockyParticle::remove()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::remove"}]}`
 -->
 
-<a id="structIRockyParticle_1aebc83f532d4bd643046c1c8a93e09f1d"></a>
 ### Function add\_force
+
+<a id="structIRockyParticle_1aebc83f532d4bd643046c1c8a93e09f1d"></a>
 
 ![][public]
 
@@ -1140,8 +1177,9 @@ acting on the particle.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::add_force"}]}`
 -->
 
-<a id="structIRockyParticle_1a8bb789078434998231949cc5c7c5f3b4"></a>
 ### Function add\_moment
+
+<a id="structIRockyParticle_1a8bb789078434998231949cc5c7c5f3b4"></a>
 
 ![][public]
 
@@ -1176,8 +1214,9 @@ acting on the particle.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::add_moment"}]}`
 -->
 
-<a id="structIRockyParticle_1ae6c885d84af14576949205c3b9fb5bd5"></a>
 ### Function set\_frozen
+
+<a id="structIRockyParticle_1ae6c885d84af14576949205c3b9fb5bd5"></a>
 
 ![][public]
 
@@ -1212,8 +1251,9 @@ is set to <code>true</code>, the solution of the motion equations for this parti
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::set_frozen"}]}`
 -->
 
-<a id="structIRockyParticle_1a98c502d7e6af16bbefdb1ff769810980"></a>
 ### Function disable\_related\_particle\_contacts
+
+<a id="structIRockyParticle_1a98c502d7e6af16bbefdb1ff769810980"></a>
 
 ![][public]
 
@@ -1239,8 +1279,9 @@ A given particle-to-particle contact will be ignored during the detection stage 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::disable_related_particle_contacts"}]}`
 -->
 
-<a id="structIRockyParticle_1a964a3f27bd8217bbff4301539ecbc1fc"></a>
 ### Function enable\_related\_particle\_contacts
+
+<a id="structIRockyParticle_1a964a3f27bd8217bbff4301539ecbc1fc"></a>
 
 ![][public]
 
@@ -1266,8 +1307,9 @@ previously activated using the <code>[IRockyParticle::disable\_related\_particle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::enable_related_particle_contacts"}]}`
 -->
 
-<a id="structIRockyParticle_1a1c445981cc6ac5392560d863927b4211"></a>
 ### Function disable\_related\_triangle\_contacts
+
+<a id="structIRockyParticle_1a1c445981cc6ac5392560d863927b4211"></a>
 
 ![][public]
 
@@ -1291,8 +1333,9 @@ ROCKY_FUNCTIONS void IRockyParticle::disable_related_triangle_contacts()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::disable_related_triangle_contacts"}]}`
 -->
 
-<a id="structIRockyParticle_1a6d87618d43d29b5d2dcd7f5946e1d0f4"></a>
 ### Function enable\_related\_triangle\_contacts
+
+<a id="structIRockyParticle_1a6d87618d43d29b5d2dcd7f5946e1d0f4"></a>
 
 ![][public]
 
@@ -1316,8 +1359,9 @@ ROCKY_FUNCTIONS void IRockyParticle::enable_related_triangle_contacts()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::enable_related_triangle_contacts"}]}`
 -->
 
-<a id="structIRockyParticle_1a0ddf76406051617c1cf3ad5602230e74"></a>
 ### Function get\_moment\_of\_inertia
+
+<a id="structIRockyParticle_1a0ddf76406051617c1cf3ad5602230e74"></a>
 
 ![][public]
 ![][const]
@@ -1344,8 +1388,9 @@ A 3D vector whose components are the principal values of the particle's moment o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_moment_of_inertia"}]}`
 -->
 
-<a id="structIRockyParticle_1a0ede768e89206dcba2b8929eefa961e7"></a>
 ### Function is\_element
+
+<a id="structIRockyParticle_1a0ede768e89206dcba2b8929eefa961e7"></a>
 
 ![][public]
 ![][const]
@@ -1372,8 +1417,9 @@ True if the given particle is an element within a flexible particle, false other
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::is_element"}]}`
 -->
 
-<a id="structIRockyParticle_1a7324f759e40ff9147728dd7e666f9816"></a>
 ### Function is\_assembly
+
+<a id="structIRockyParticle_1a7324f759e40ff9147728dd7e666f9816"></a>
 
 ![][public]
 ![][const]
@@ -1400,8 +1446,9 @@ True if the given particle is an assembly, false otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::is_assembly"}]}`
 -->
 
-<a id="structIRockyParticle_1a7174efcf1264a05c6bd5cabe2e927148"></a>
 ### Function get\_number\_of\_assembly\_parts
+
+<a id="structIRockyParticle_1a7174efcf1264a05c6bd5cabe2e927148"></a>
 
 ![][public]
 ![][const]
@@ -1428,8 +1475,9 @@ The number of parts that compose the assembly.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_number_of_assembly_parts"}]}`
 -->
 
-<a id="structIRockyParticle_1a1a737fd34952d960d93f4f8940fd804e"></a>
 ### Function get\_assembly\_part\_material
+
+<a id="structIRockyParticle_1a1a737fd34952d960d93f4f8940fd804e"></a>
 
 ![][public]
 ![][const]
@@ -1465,8 +1513,9 @@ An <code>[IRockyMaterial](structIRockyMaterial.md#structIRockyMaterial)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::get_assembly_part_material"}]}`
 -->
 
-<a id="structIRockyParticle_1af4d25f3ada35c955fd0fe7ba24a244c4"></a>
 ### Function remove\_from\_contacts\_search
+
+<a id="structIRockyParticle_1af4d25f3ada35c955fd0fe7ba24a244c4"></a>
 
 ![][public]
 
@@ -1490,8 +1539,9 @@ ROCKY_FUNCTIONS void IRockyParticle::remove_from_contacts_search()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticle::remove_from_contacts_search"}]}`
 -->
 
-<a id="structIRockyParticle_1afe35f545701281de61b805237f4c5d8f"></a>
 ### Function add\_to\_contacts\_search
+
+<a id="structIRockyParticle_1afe35f545701281de61b805237f4c5d8f"></a>
 
 ![][public]
 

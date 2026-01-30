@@ -24,8 +24,9 @@
 
 ## Public functions
 
-<a id="structIRockySPHElementInteraction_1a72569f88c7d9a22615a3287ab7df33db"></a>
 ### Function calculate\_elements\_distance
+
+<a id="structIRockySPHElementInteraction_1a72569f88c7d9a22615a3287ab7df33db"></a>
 
 ![][public]
 ![][const]
@@ -52,8 +53,9 @@ The vector that joins the points at which the two neighbor SPH elements are loca
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementInteraction::calculate_elements_distance"}]}`
 -->
 
-<a id="structIRockySPHElementInteraction_1a14f9867d6104ce395f3a1d48a03fd9c8"></a>
 ### Function calculate\_elements\_relative\_velocity
+
+<a id="structIRockySPHElementInteraction_1a14f9867d6104ce395f3a1d48a03fd9c8"></a>
 
 ![][public]
 ![][const]
@@ -80,8 +82,9 @@ The relative velocity vector between the two neighbor SPH elements.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementInteraction::calculate_elements_relative_velocity"}]}`
 -->
 
-<a id="structIRockySPHElementInteraction_1acec345cb590d324b9729b8842b777906"></a>
 ### Function get\_home\_element\_velocity
+
+<a id="structIRockySPHElementInteraction_1acec345cb590d324b9729b8842b777906"></a>
 
 ![][public]
 ![][const]
@@ -108,8 +111,9 @@ The velocity vector of the SPH element labeled as _home_ in the SPH interaction.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementInteraction::get_home_element_velocity"}]}`
 -->
 
-<a id="structIRockySPHElementInteraction_1aa71223f8afaf50df1e511041157ba890"></a>
 ### Function get\_near\_element\_velocity
+
+<a id="structIRockySPHElementInteraction_1aa71223f8afaf50df1e511041157ba890"></a>
 
 ![][public]
 ![][const]
@@ -136,8 +140,9 @@ The velocity vector of the SPH element labeled as _near_ in the SPH interaction.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementInteraction::get_near_element_velocity"}]}`
 -->
 
-<a id="structIRockySPHElementInteraction_1a7eb0236ba9b25b58b0ca258b1e79976b"></a>
 ### Function get\_home\_element
+
+<a id="structIRockySPHElementInteraction_1a7eb0236ba9b25b58b0ca258b1e79976b"></a>
 
 ![][public]
 ![][const]
@@ -164,8 +169,9 @@ An <code>[IRockySPHElement](structIRockySPHElement.md#structIRockySPHElement)</c
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementInteraction::get_home_element"}]}`
 -->
 
-<a id="structIRockySPHElementInteraction_1a0e9d2687e1c8a66357730003f850fe26"></a>
 ### Function get\_near\_element
+
+<a id="structIRockySPHElementInteraction_1a0e9d2687e1c8a66357730003f850fe26"></a>
 
 ![][public]
 ![][const]
@@ -192,8 +198,9 @@ An <code>[IRockySPHElement](structIRockySPHElement.md#structIRockySPHElement)</c
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementInteraction::get_near_element"}]}`
 -->
 
-<a id="structIRockySPHElementInteraction_1a1ee1b8234e2660a09b7b1a7fe3ba0e07"></a>
 ### Function add\_force
+
+<a id="structIRockySPHElementInteraction_1a1ee1b8234e2660a09b7b1a7fe3ba0e07"></a>
 
 ![][public]
 
@@ -228,8 +235,9 @@ so they are applied to the SPH elements associated to the referred _SPH element 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementInteraction::add_force"}]}`
 -->
 
-<a id="structIRockySPHElementInteraction_1a713381036ee74bb8476435037c14124b"></a>
 ### Function add\_acceleration
+
+<a id="structIRockySPHElementInteraction_1a713381036ee74bb8476435037c14124b"></a>
 
 ![][public]
 

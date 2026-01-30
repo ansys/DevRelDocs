@@ -27,8 +27,9 @@ An <code>[IRockySPHElementScalarsModel](structIRockySPHElementScalarsModel.md#st
 
 ## Public functions
 
-<a id="structIRockySPHElementScalarsModel_1a16f0c80fcfcc46485a0cdb5523eba2bf"></a>
 ### Function set\_operation
+
+<a id="structIRockySPHElementScalarsModel_1a16f0c80fcfcc46485a0cdb5523eba2bf"></a>
 
 ![][public]
 
@@ -92,8 +93,9 @@ ability of configuring automatic operations that the Rocky solver can perform ov
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalarsModel::set_operation"}]}`
 -->
 
-<a id="structIRockySPHElementScalarsModel_1ac46511b18b436d5cec83047f8e1e331f"></a>
 ### Function enable\_velocity\_gradient
+
+<a id="structIRockySPHElementScalarsModel_1ac46511b18b436d5cec83047f8e1e331f"></a>
 
 ![][public]
 ![][const]
@@ -120,8 +122,9 @@ needed for the calculation of the strain-rate tensor.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalarsModel::enable_velocity_gradient"}]}`
 -->
 
-<a id="structIRockySPHElementScalarsModel_1a3fbb7ee252cf15717b7fbe4dfb148fa2"></a>
 ### Function enable\_variable\_molecular\_viscosity
+
+<a id="structIRockySPHElementScalarsModel_1a3fbb7ee252cf15717b7fbe4dfb148fa2"></a>
 
 ![][public]
 ![][const]
@@ -148,8 +151,9 @@ SPH Elements. When this scalar is enabled, a different value of molecular viscos
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalarsModel::enable_variable_molecular_viscosity"}]}`
 -->
 
-<a id="structIRockySPHElementScalarsModel_1a08368398c992a677000337a1c6b87836"></a>
 ### Function find
+
+<a id="structIRockySPHElementScalarsModel_1a08368398c992a677000337a1c6b87836"></a>
 
 ![][public]
 
@@ -189,8 +193,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalarsModel::find"}]}`
 -->
 
-<a id="structIRockySPHElementScalarsModel_1a9ee97eb19ead27e53c0e240f871d09b5"></a>
 ### Function reset
+
+<a id="structIRockySPHElementScalarsModel_1a9ee97eb19ead27e53c0e240f871d09b5"></a>
 
 ![][public]
 
@@ -223,8 +228,9 @@ void IRockySPHElementScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockySPHElementScalarsModel_1a0dd4ff3f064eea4b4d112155d20aadf1"></a>
 ### Function set\_dimension
+
+<a id="structIRockySPHElementScalarsModel_1a0dd4ff3f064eea4b4d112155d20aadf1"></a>
 
 ![][public]
 
@@ -261,8 +267,9 @@ to a scalar variable. This factor will be used to nondimensionalize their values
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalarsModel::set_dimension"}]}`
 -->
 
-<a id="structIRockySPHElementScalarsModel_1ab522d175868cf8f58efc33f6df21eb07"></a>
 ### Function add
+
+<a id="structIRockySPHElementScalarsModel_1ab522d175868cf8f58efc33f6df21eb07"></a>
 
 ![][public]
 

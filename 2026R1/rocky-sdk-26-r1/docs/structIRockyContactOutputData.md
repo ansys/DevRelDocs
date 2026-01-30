@@ -67,8 +67,9 @@ It is mandatory that the values of the properties above be defined in the respec
 
 ## Public functions
 
-<a id="structIRockyContactOutputData_1a396b63164b3e2d7792bca3c7ba1ae274"></a>
 ### Function set\_normal\_force
+
+<a id="structIRockyContactOutputData_1a396b63164b3e2d7792bca3c7ba1ae274"></a>
 
 ![][public]
 
@@ -103,8 +104,9 @@ contact model. Rocky will sum this force to both entities associated to the cont
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_normal_force"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1abaf1043a614caad9555e2c909eb21e12"></a>
 ### Function set\_tangential\_force
+
+<a id="structIRockyContactOutputData_1abaf1043a614caad9555e2c909eb21e12"></a>
 
 ![][public]
 
@@ -139,8 +141,9 @@ custom contact model. Rocky will sum this force to both entities associated to t
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_tangential_force"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1a6fa45c11ca5a3dc0e2e7ba76cceca590"></a>
 ### Function set\_home\_impact\_energy
+
+<a id="structIRockyContactOutputData_1a6fa45c11ca5a3dc0e2e7ba76cceca590"></a>
 
 ![][public]
 
@@ -175,8 +178,9 @@ special calculation scheme, different from the one defined in the DEM Technical 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_home_impact_energy"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1afaf9777156ccff17bad6b754bd9ec0e2"></a>
 ### Function set\_near\_impact\_energy
+
+<a id="structIRockyContactOutputData_1afaf9777156ccff17bad6b754bd9ec0e2"></a>
 
 ![][public]
 
@@ -211,8 +215,9 @@ special calculation scheme, different from the one defined in the DEM Technical 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_near_impact_energy"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1ae0f380ec4f65945e54d4e3b939116979"></a>
 ### Function set\_sliding
+
+<a id="structIRockyContactOutputData_1ae0f380ec4f65945e54d4e3b939116979"></a>
 
 ![][public]
 
@@ -247,8 +252,9 @@ contact force model as it specifies whether the particles (or the particle and t
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_sliding"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1a4016d11738ce592f4e0b2853c552db13"></a>
 ### Function set\_home\_moment
+
+<a id="structIRockyContactOutputData_1a4016d11738ce592f4e0b2853c552db13"></a>
 
 ![][public]
 
@@ -283,8 +289,9 @@ particle labeled as _home_ particle at a contact. This method is intended to be 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_home_moment"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1a7eea9b368237f35e06d1e3381fef9a13"></a>
 ### Function set\_near\_moment
+
+<a id="structIRockyContactOutputData_1a7eea9b368237f35e06d1e3381fef9a13"></a>
 
 ![][public]
 
@@ -319,8 +326,9 @@ particle labeled as _near_ particle at a particle-to-particle contact. This meth
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_near_moment"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1ad957c62e9c6bb92c8e13ef28ea8e0a3d"></a>
 ### Function set\_rolling\_dissipated\_power
+
+<a id="structIRockyContactOutputData_1ad957c62e9c6bb92c8e13ef28ea8e0a3d"></a>
 
 ![][public]
 
@@ -355,8 +363,9 @@ to the action of the rolling resistance moments calculated by a custom rolling r
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::set_rolling_dissipated_power"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1adfb7782976874a10981521e52742a015"></a>
 ### Function get\_normal\_force
+
+<a id="structIRockyContactOutputData_1adfb7782976874a10981521e52742a015"></a>
 
 ![][public]
 
@@ -386,8 +395,9 @@ Note that the value returned by this method may differ from the value returned b
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::get_normal_force"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1a25aeef724bbfb9eb24d8297df024f208"></a>
 ### Function get\_tangential\_force
+
+<a id="structIRockyContactOutputData_1a25aeef724bbfb9eb24d8297df024f208"></a>
 
 ![][public]
 
@@ -417,8 +427,9 @@ Note that the value returned from this method may differ from the value returned
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::get_tangential_force"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1adb3a62ea0f7da835ebeec3ec48d72214"></a>
 ### Function get\_normal\_relative\_velocity
+
+<a id="structIRockyContactOutputData_1adb3a62ea0f7da835ebeec3ec48d72214"></a>
 
 ![][public]
 
@@ -444,8 +455,9 @@ The normal component of the relative velocity at the contact point. This relativ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactOutputData::get_normal_relative_velocity"}]}`
 -->
 
-<a id="structIRockyContactOutputData_1aff6677ca9cfa1f58ae87e308d7b19286"></a>
 ### Function get\_tangential\_relative\_velocity
+
+<a id="structIRockyContactOutputData_1aff6677ca9cfa1f58ae87e308d7b19286"></a>
 
 ![][public]
 

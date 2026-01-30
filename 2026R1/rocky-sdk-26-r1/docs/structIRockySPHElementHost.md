@@ -57,8 +57,9 @@ This class is deprecated in favor of [IRockySPHElement](structIRockySPHElement.m
 
 ## Public functions
 
-<a id="structIRockySPHElementHost_1ac189516559b776a629f56aead8ac886b"></a>
 ### Function get\_linked\_dem\_particle
+
+<a id="structIRockySPHElementHost_1ac189516559b776a629f56aead8ac886b"></a>
 
 ![][public]
 ![][const]
@@ -89,8 +90,9 @@ An <code>[IRockyParticleHost](structIRockyParticleHost.md#structIRockyParticleHo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_linked_dem_particle"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1abe5925c0999262fc7128da90d3a3f401"></a>
 ### Function is\_dem\_coupled
+
+<a id="structIRockySPHElementHost_1abe5925c0999262fc7128da90d3a3f401"></a>
 
 ![][public]
 ![][const]
@@ -117,8 +119,9 @@ True, if the SPH element is placed inside a DEM particle in order to model the i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::is_dem_coupled"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a246b2e85d4b1568d8db488e0f212a358"></a>
 ### Function get\_density
+
+<a id="structIRockySPHElementHost_1a246b2e85d4b1568d8db488e0f212a358"></a>
 
 ![][public]
 ![][const]
@@ -145,8 +148,9 @@ The current value of density calculated for the SPH element.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_density"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a1e02d98c42706aad00a15f84090046b7"></a>
 ### Function get\_pressure
+
+<a id="structIRockySPHElementHost_1a1e02d98c42706aad00a15f84090046b7"></a>
 
 ![][public]
 ![][const]
@@ -173,8 +177,9 @@ The current value of the pressure at the location coincident with the SPH elemen
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_pressure"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a300c46b79175d050ec9e96c736732b98"></a>
 ### Function get\_release\_time
+
+<a id="structIRockySPHElementHost_1a300c46b79175d050ec9e96c736732b98"></a>
 
 ![][public]
 ![][const]
@@ -201,8 +206,9 @@ The time at which the SPH element entered into the simulation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_release_time"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a518652c4c9aaba36c6e2137c3ff60f70"></a>
 ### Function get\_position
+
+<a id="structIRockySPHElementHost_1a518652c4c9aaba36c6e2137c3ff60f70"></a>
 
 ![][public]
 ![][const]
@@ -229,8 +235,9 @@ The Cartesian coordinates of the point at which the SPH element is currently loc
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_position"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a1d9f8648a1c0ac0b575c9361ca5b9b96"></a>
 ### Function get\_velocity
+
+<a id="structIRockySPHElementHost_1a1d9f8648a1c0ac0b575c9361ca5b9b96"></a>
 
 ![][public]
 ![][const]
@@ -257,8 +264,9 @@ The velocity vector at which the SPH element is currently moving, expressed in C
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_velocity"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a9cae6ab2f89fc02fd3e944a5f1059d2d"></a>
 ### Function get\_normal
+
+<a id="structIRockySPHElementHost_1a9cae6ab2f89fc02fd3e944a5f1059d2d"></a>
 
 ![][public]
 ![][const]
@@ -285,8 +293,9 @@ An approximation of the normal vector to a free surface, if the SPH element is l
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_normal"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1aa1c7a1c2190108886098cf3918d29588"></a>
 ### Function get\_force
+
+<a id="structIRockySPHElementHost_1aa1c7a1c2190108886098cf3918d29588"></a>
 
 ![][public]
 ![][const]
@@ -313,8 +322,9 @@ The resultant of the forces currently acting over the SPH element, expressed in 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_force"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a9118b2d9c4e8d7f185d453503bfbb04f"></a>
 ### Function get\_acceleration
+
+<a id="structIRockySPHElementHost_1a9118b2d9c4e8d7f185d453503bfbb04f"></a>
 
 ![][public]
 ![][const]
@@ -341,8 +351,9 @@ The current acceleration resultant vector of the SPH element, expressed in Carte
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_acceleration"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a333bb7196556fbe6da90abe079747071"></a>
 ### Function get\_scalars
+
+<a id="structIRockySPHElementHost_1a333bb7196556fbe6da90abe079747071"></a>
 
 ![][public]
 
@@ -368,8 +379,9 @@ An <code>[IRockySPHElementScalars](structIRockySPHElementScalars.md#structIRocky
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementHost::get_scalars"}]}`
 -->
 
-<a id="structIRockySPHElementHost_1a0540a21d1483e3848494d71a7145d8ff"></a>
 ### Function get\_strain\_rate\_tensor
+
+<a id="structIRockySPHElementHost_1a0540a21d1483e3848494d71a7145d8ff"></a>
 
 ![][public]
 

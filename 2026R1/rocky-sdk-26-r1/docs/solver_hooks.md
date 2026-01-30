@@ -24,7 +24,7 @@ are called several times during the simulation, as Rocky updates the
 state of the particulate system.
 
 
-##  Initialization and termination hooks
+## Initialization and termination hooks
 
 
 The following hooks are called once, when the simulation starts or
@@ -280,7 +280,7 @@ in the GPU devices during the execution of `ROCKY_PLUGIN_INITIALIZE_CUDA`.
     mechanism to persist custom data between GPU devices during the
     simulation execution.
 
-##  General-purpose iteration hooks
+## General-purpose iteration hooks
 
 
 These hooks are called on each iteration during the simulation loop in
@@ -697,7 +697,7 @@ this hook must end with a `ROCKY_PLUGIN_POST_FORCE_ON_TRIANGLE_VICINITY_PAIR_END
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##  Hooks associated to specific models
+## Hooks associated to specific models
 
 
 The hooks described in this section must be used only by modules that
@@ -902,7 +902,7 @@ attractive adhesion force must be prescribed with a negative sign.
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_COMPUTE_JOINT_FORCES
+##  ROCKY_PLUGIN_COMPUTE_JOINT_FORCES
 
 A module implementing a custom joint model must include the calculation
 joint forces and moments in this block of code, based on the linear and
@@ -931,7 +931,7 @@ the module implements a custom joint model.*
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_COMPUTE_JOINT_BREAKAGE
+##  ROCKY_PLUGIN_COMPUTE_JOINT_BREAKAGE
 
 This hook must be used to implement a new criterion of [discrete breakage](glossary.md#discrete-breakage)
 for multi-element flexible particles. If implemented, the associated code will be executed in a
@@ -973,7 +973,7 @@ custom discrete breakage criterion.*
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_INITIALIZE_INSTANTANEOUS_BREAKAGE
+##  ROCKY_PLUGIN_INITIALIZE_INSTANTANEOUS_BREAKAGE
 
 The code associated to this hook will be executed during the
 initialization of the simulation and after the generation of every new
@@ -993,7 +993,7 @@ may need.
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_COMPUTE_INSTANTANEOUS_BREAKAGE
+##  ROCKY_PLUGIN_COMPUTE_INSTANTANEOUS_BREAKAGE
 
 This hook must be used to implement a new criterion for instantaneous
 breakage. If implemented, the associated code will be executed in a loop
@@ -1026,7 +1026,7 @@ that the module implements a custom instantaneous breakage criterion*
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_INITIALIZE_FRAGMENTS_SIZE_DISTRIBUTION
+##  ROCKY_PLUGIN_INITIALIZE_FRAGMENTS_SIZE_DISTRIBUTION
 
 The code associated to this hook will be executed during the
 initialization of the simulation and after the generation of every new
@@ -1046,7 +1046,7 @@ model may need.
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_COMPUTE_FRAGMENTS_SIZE_DISTRIBUTION
+##  ROCKY_PLUGIN_COMPUTE_FRAGMENTS_SIZE_DISTRIBUTION
 
 This hook can be used to implement a new model for the calculation of
 the size distribution of fragments in an instantaneous breakage event.
@@ -1081,7 +1081,7 @@ distribution.*
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_COMPUTE_BOUNDARIES_WEAR
+##  ROCKY_PLUGIN_COMPUTE_BOUNDARIES_WEAR
 
 This hook can be used to implement a custom calculation of the surface
 wear caused by particle collisions on the boundaries (geometries) in a
@@ -1116,7 +1116,7 @@ as explained in chapter [Module specification](module_specification.md), in orde
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_COMPUTE_CONTACT_HEAT_CONDUCTION
+##  ROCKY_PLUGIN_COMPUTE_CONTACT_HEAT_CONDUCTION
 
 This hook can be used to implement a custom calculation of the heat
 transfer rate by conduction between two particles or between a particle
@@ -1146,7 +1146,7 @@ model.*
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-## ROCKY_PLUGIN_COMPUTE_THERMAL_INTEGRATION
+##  ROCKY_PLUGIN_COMPUTE_THERMAL_INTEGRATION
 
 This hook can be used to integrate the energy balance equation for a
 single particle, in order to update its temperature. This operation will
@@ -1222,7 +1222,7 @@ constant and Fluent 1-way coupling modes, as well as on the Fluent 2-way
 coupling mode. For details about how the CFD coupling models are defined
 in Rocky, please refer to the DEM-CFD Coupling Technical Manual.
 
-##   ROCKY_PLUGIN_CFD_COUPLING_DRAG_COEFFICIENT
+##  ROCKY_PLUGIN_CFD_COUPLING_DRAG_COEFFICIENT
 
 This hook is intended for the calculation of a custom drag coefficient,
 which, in turn, Rocky will use to calculate the drag force acting over a
@@ -1252,7 +1252,7 @@ calculation, the module’s specification file must include the definition of th
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_CFD_COUPLING_LIFT_COEFFICIENT
+##  ROCKY_PLUGIN_CFD_COUPLING_LIFT_COEFFICIENT
 
 This hook is intended for the calculation of a custom lift coefficient,
 which, in turn, Rocky will use to calculate the lift force acting over a
@@ -1284,7 +1284,7 @@ file must include the definition of the
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##   ROCKY_PLUGIN_CFD_COUPLING_VIRTUAL_MASS_COEFFICIENT
+##  ROCKY_PLUGIN_CFD_COUPLING_VIRTUAL_MASS_COEFFICIENT
 
 This hook is intended for the calculation of a custom virtual mass
 coefficient, which, in turn, Rocky will use to calculate the virtual
@@ -1319,7 +1319,7 @@ file must include the definition of the
 as explained in chapter [Module specification](module_specification.md)*
 
 
-##   ROCKY_PLUGIN_CFD_COUPLING_TORQUE_COEFFICIENT
+##  ROCKY_PLUGIN_CFD_COUPLING_TORQUE_COEFFICIENT
 
 This hook is intended for the calculation of a custom torque
 coefficient, which, in turn, Rocky will use to calculate the
@@ -1350,7 +1350,7 @@ explained in chapter [Module specification](module_specification.md).*
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##  ROCKY_PLUGIN_CFD_COUPLING_NUSSELT_NUMBER
+## ROCKY_PLUGIN_CFD_COUPLING_NUSSELT_NUMBER
 
 This hook is intended for the calculation of a custom Nusselt number, which, in
 turn, Rocky will use to calculate the heat transfer rate between a particle and
@@ -1511,7 +1511,7 @@ be closed with a `ROCKY_PLUGIN_POST_MOVE_ON_FLUID_END()` statement.
 
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
-##  SPH hooks
+## SPH hooks
 
 Latest versions of Rocky include a feature that implements the Smoothed
 Particle Hydrodynamics (SPH) method as a new option for adding fluid
@@ -2398,7 +2398,7 @@ implementing a variable molecular viscosity model.*
     The generic pointer provided in `ROCKY_PLUGIN_CONFIGURE`, pointing to the user's custom data.
 
 
-##  Output hooks
+## Output hooks
 
 The current version of the Rocky Solver SDK includes some hooks
 intended for enabling modules to deliver custom data to Rocky in order
