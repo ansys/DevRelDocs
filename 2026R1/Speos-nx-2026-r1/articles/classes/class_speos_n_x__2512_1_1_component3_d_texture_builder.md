@@ -1,4 +1,9 @@
-﻿# Component3DTextureBuilder
+﻿---
+uid: component3_d_texture_builder
+title: Component3DTextureBuilder
+---
+
+# Component3DTextureBuilder
 
 **Full Name**: `SpeosNX_2512::Component3DTextureBuilder`
 

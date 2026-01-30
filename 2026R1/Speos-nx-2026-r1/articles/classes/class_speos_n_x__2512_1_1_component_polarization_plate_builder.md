@@ -1,4 +1,9 @@
-﻿# ComponentPolarizationPlateBuilder
+﻿---
+uid: component_polarization_plate_builder
+title: ComponentPolarizationPlateBuilder
+---
+
+# ComponentPolarizationPlateBuilder
 
 **Full Name**: `SpeosNX_2512::ComponentPolarizationPlateBuilder`
 

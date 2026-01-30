@@ -1,4 +1,9 @@
-﻿# SensorVRImmersiveBuilder
+﻿---
+uid: sensor_v_r_immersive_builder
+title: SensorVRImmersiveBuilder
+---
+
+# SensorVRImmersiveBuilder
 
 **Full Name**: `SpeosNX_2512::SensorVRImmersiveBuilder`
 

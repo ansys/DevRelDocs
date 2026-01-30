@@ -1,4 +1,9 @@
-﻿# Feature
+﻿---
+uid: feature
+title: Feature
+---
+
+# Feature
 
 **Full Name**: `SpeosNX_2512::Feature`
 

@@ -1,4 +1,9 @@
-﻿# SensorHumanEyeBuilder
+﻿---
+uid: sensor_human_eye_builder
+title: SensorHumanEyeBuilder
+---
+
+# SensorHumanEyeBuilder
 
 **Full Name**: `SpeosNX_2512::SensorHumanEyeBuilder`
 

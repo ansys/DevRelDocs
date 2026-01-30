@@ -1,4 +1,9 @@
-﻿# SpeosPatternBuilder
+﻿---
+uid: speos_pattern_builder
+title: SpeosPatternBuilder
+---
+
+# SpeosPatternBuilder
 
 **Full Name**: `SpeosNX_2512::SpeosPatternBuilder`
 

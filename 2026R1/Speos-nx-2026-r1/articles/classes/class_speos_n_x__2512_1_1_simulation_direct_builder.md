@@ -1,4 +1,9 @@
-﻿# SimulationDirectBuilder
+﻿---
+uid: simulation_direct_builder
+title: SimulationDirectBuilder
+---
+
+# SimulationDirectBuilder
 
 **Full Name**: `SpeosNX_2512::SimulationDirectBuilder`
 
