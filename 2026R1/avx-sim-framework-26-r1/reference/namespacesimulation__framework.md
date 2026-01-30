@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework"></a>
-# Namespace simulation\_framework
+# Namespace simulation_framework
 
 ![][C++]
 
-#include: <[activity_factory.h](activity__factory_8h.md#activity__factory_8h)>
+**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 13)
 
 The top namespace for simulation framework.
 
@@ -71,10 +70,10 @@ The top namespace for simulation framework
 
 ## Child namespaces
 
-* [simulation\_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
-* [simulation\_framework::avx\_sensor\_cosim](namespacesimulation__framework_1_1avx__sensor__cosim.md#namespacesimulation__framework_1_1avx__sensor__cosim)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
+* [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
+* [simulation_framework::avx_sensor_cosim](namespacesimulation__framework_1_1avx__sensor__cosim.md#namespacesimulation__framework_1_1avx__sensor__cosim)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

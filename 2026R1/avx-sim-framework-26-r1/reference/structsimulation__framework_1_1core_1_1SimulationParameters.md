@@ -1,10 +1,9 @@
-<a id="structsimulation__framework_1_1core_1_1SimulationParameters"></a>
-# Structure simulation\_framework::core::SimulationParameters
+# Structure simulation_framework::core::SimulationParameters
 
 ![][C++]
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 22)
 
 The [SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) struct encapsulates parameters related to simfwk-core configuration.
 
@@ -12,21 +11,21 @@ The [SimulationParameters](structsimulation__framework_1_1core_1_1SimulationPara
 
 ## Members
 
-* [breakpoints\_file\_path](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a8d443b6771dafc576ce1138f399e2760)
-* [cli\_control\_grpc\_address](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1af8a90b2bef8680b69a15813e60c93404)
-* [cli\_control\_mode\_enabled](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a0b5db8592c55e9a1c4eb17eae6d23283)
-* [customized\_parameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a1aabfd1ab24a9fec7079fe8bc391060b)
+* [breakpoints_file_path](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a8d443b6771dafc576ce1138f399e2760)
+* [cli_control_grpc_address](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1af8a90b2bef8680b69a15813e60c93404)
+* [cli_control_mode_enabled](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a0b5db8592c55e9a1c4eb17eae6d23283)
+* [customized_parameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a1aabfd1ab24a9fec7079fe8bc391060b)
 * [CustomizedParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a25a000c4c4dfefb04ff71a796e06c787)
-* [debugger\_enabled](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a045453a8cf2bac1ca819d5c49e5c9863)
+* [debugger_enabled](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a045453a8cf2bac1ca819d5c49e5c9863)
 * [id](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a1d05a88de7c8c3ff63adf06a52f53c7d)
 * [kMaxCustomizedParamNameLength](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1af9f3c73a22e76a7236e6f3300048a8f1)
 * [kMaxCustomizedParamValueLength](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a95b40e23aafac5285a11f2bf2dfeb84a)
-* [log\_level](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a394b1d58a15a471682013c63f4e37d13)
-* [output\_directory](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a3dc188eb45de6e1481b6ce35ce773588)
-* [scheduler\_event\_timeout](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a234596a492675e46f8c4c0900768093d)
-* [scheduling\_config](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1ad04340b459fca0559a426a198593af73)
-* [simulation\_config](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a2714b6d1f312742f94dc3222ac760fa9)
-* [timescale\_factor](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1aca58e1bd9cc396ed5b520495c61f818a)
+* [log_level](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a394b1d58a15a471682013c63f4e37d13)
+* [output_directory](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a3dc188eb45de6e1481b6ce35ce773588)
+* [scheduler_event_timeout](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a234596a492675e46f8c4c0900768093d)
+* [scheduling_config](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1ad04340b459fca0559a426a198593af73)
+* [simulation_config](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a2714b6d1f312742f94dc3222ac760fa9)
+* [timescale_factor](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1aca58e1bd9cc396ed5b520495c61f818a)
 * [version](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a394360d7e19a61151974fa528f4f1a2a)
 
 ## Public types
@@ -36,7 +35,7 @@ The [SimulationParameters](structsimulation__framework_1_1core_1_1SimulationPara
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 28)
 
 
 ```cpp
@@ -66,11 +65,11 @@ A definition of customized parameters which simulation could use as input. key i
 ![][public]
 ![][static]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 33)
 
 
 ```cpp
-size_t simulation_framework::core::SimulationParameters::kMaxCustomizedParamNameLength = 64
+constexpr size_t simulation_framework::core::SimulationParameters::kMaxCustomizedParamNameLength = 64
 ```
 
 
@@ -80,7 +79,7 @@ Maximum allowed lengths for customized parameter names and values, to prevent un
 
 
 
-**Type**: size_t
+**Type**: [constexpr](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [size_t](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -94,11 +93,11 @@ Maximum allowed lengths for customized parameter names and values, to prevent un
 ![][public]
 ![][static]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 34)
 
 
 ```cpp
-size_t simulation_framework::core::SimulationParameters::kMaxCustomizedParamValueLength = 1024
+constexpr size_t simulation_framework::core::SimulationParameters::kMaxCustomizedParamValueLength = 1024
 ```
 
 
@@ -108,7 +107,7 @@ size_t simulation_framework::core::SimulationParameters::kMaxCustomizedParamValu
 
 
 
-**Type**: size_t
+**Type**: [constexpr](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [size_t](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -123,7 +122,7 @@ size_t simulation_framework::core::SimulationParameters::kMaxCustomizedParamValu
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 38)
 
 
 ```cpp
@@ -146,11 +145,11 @@ version A string representing the version of the simulation.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a394b1d58a15a471682013c63f4e37d13"></a>
-### Variable log\_level
+### Variable log_level
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 43)
 
 
 ```cpp
@@ -177,7 +176,7 @@ A string indicating the logging level for the simulation.
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 48)
 
 
 ```cpp
@@ -200,11 +199,11 @@ A string indicating a unique ID for the simulation.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a2714b6d1f312742f94dc3222ac760fa9"></a>
-### Variable simulation\_config
+### Variable simulation_config
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 54)
 
 
 ```cpp
@@ -227,11 +226,11 @@ A string indicating the path to the simulation configuration file for your built
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1ad04340b459fca0559a426a198593af73"></a>
-### Variable scheduling\_config
+### Variable scheduling_config
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 59)
 
 
 ```cpp
@@ -254,11 +253,11 @@ A string containing the scheduling configuration file path for the simulation.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a3dc188eb45de6e1481b6ce35ce773588"></a>
-### Variable output\_directory
+### Variable output_directory
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 64)
 
 
 ```cpp
@@ -281,11 +280,11 @@ A string indicating the path where simulation shall dump out files.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a1aabfd1ab24a9fec7079fe8bc391060b"></a>
-### Variable customized\_parameters
+### Variable customized_parameters
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 69)
 
 
 ```cpp
@@ -308,11 +307,11 @@ A map of customized parameters which simulation could use as input.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1af8a90b2bef8680b69a15813e60c93404"></a>
-### Variable cli\_control\_grpc\_address
+### Variable cli_control_grpc_address
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 75)
 
 
 ```cpp
@@ -335,15 +334,15 @@ A string specifying the gRPC address for CLI (Command Line Interface) control. T
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a0b5db8592c55e9a1c4eb17eae6d23283"></a>
-### Variable cli\_control\_mode\_enabled
+### Variable cli_control_mode_enabled
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 80)
 
 
 ```cpp
-bool simulation_framework::core::SimulationParameters::cli_control_mode_enabled = false
+bool simulation_framework::core::SimulationParameters::cli_control_mode_enabled = [false](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 ```
 
 
@@ -353,7 +352,7 @@ A boolean indicating whether CLI control mode is enabled.
 
 
 
-**Type**: bool
+**Type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -362,11 +361,11 @@ A boolean indicating whether CLI control mode is enabled.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a234596a492675e46f8c4c0900768093d"></a>
-### Variable scheduler\_event\_timeout
+### Variable scheduler_event_timeout
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 85)
 
 
 ```cpp
@@ -389,11 +388,11 @@ A duration representing the timeout for scheduler events, expressed in milliseco
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1aca58e1bd9cc396ed5b520495c61f818a"></a>
-### Variable timescale\_factor
+### Variable timescale_factor
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 90)
 
 
 ```cpp
@@ -407,7 +406,7 @@ A floating-point value representing the timescale factor for simulation time.
 
 
 
-**Type**: float
+**Type**: [float](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -416,15 +415,15 @@ A floating-point value representing the timescale factor for simulation time.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a045453a8cf2bac1ca819d5c49e5c9863"></a>
-### Variable debugger\_enabled
+### Variable debugger_enabled
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 95)
 
 
 ```cpp
-bool simulation_framework::core::SimulationParameters::debugger_enabled = false
+bool simulation_framework::core::SimulationParameters::debugger_enabled = [false](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 ```
 
 
@@ -434,7 +433,7 @@ A boolean indicating whether the Debugger is enabled.
 
 
 
-**Type**: bool
+**Type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -443,11 +442,11 @@ A boolean indicating whether the Debugger is enabled.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1SimulationParameters_1a8d443b6771dafc576ce1138f399e2760"></a>
-### Variable breakpoints\_file\_path
+### Variable breakpoints_file_path
 
 ![][public]
 
-#include: <[simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)>
+**Definition**: `core/service/parameter/simulation_parameters.h` (line 100)
 
 
 ```cpp

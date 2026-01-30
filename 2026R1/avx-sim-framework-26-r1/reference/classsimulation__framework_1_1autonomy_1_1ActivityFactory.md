@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1autonomy_1_1ActivityFactory"></a>
-# Class simulation\_framework::autonomy::ActivityFactory
+# Class simulation_framework::autonomy::ActivityFactory
 
 ![][C++]
 ![][public]
 
-#include: <[activity_factory.h](activity__factory_8h.md#activity__factory_8h)>
+**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 38)
 
 Factory class for creating activities for autonomy simulation.
 
@@ -26,28 +25,28 @@ The class also manages the base cycle time for the simulation, which can be retr
 
 **Inherits from**:
 
-* [simulation\_framework::core::lifecycle::IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory)
+* [simulation_framework::core::lifecycle::IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory)
 
 ## Members
 
 * [ActivityFactory](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a95a2f9ae094f44fbbfec5391e5fbd97c)
-* [base\_cycle\_time\_](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a20e520974b59e234385790385389c0df)
+* [base_cycle_time_](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a20e520974b59e234385790385389c0df)
 * [Create](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1aadc073761ddca70660c778b109cd8f2a)
 * [CreateFmuActivity](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1ae25fb9a822daf739975964cdafb610d2)
 * [GetSimulationBaseCycleTime](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a94f462204396f9cb530415976df06210)
 * [IfAvxSensorSettingsDefined](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a37defb0d81b110616e4870d0406c19eb)
 * [SetSimulationBaseCycleTime](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1affd15ea8f52128efdef54859ed514dc7)
-* [sim\_params\_](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a1bfaa8abb6c8f26b16b2e8af1f2d0f1a)
+* [sim_params_](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a1bfaa8abb6c8f26b16b2e8af1f2d0f1a)
 * [~IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1adf2fbce25a6e1ead3b04a8490dfdc498)
 
 ## Private attributes
 
 <a id="classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a1bfaa8abb6c8f26b16b2e8af1f2d0f1a"></a>
-### Variable sim\_params\_
+### Variable sim_params_
 
 ![][private]
 
-#include: <[activity_factory.h](activity__factory_8h.md#activity__factory_8h)>
+**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 95)
 
 
 ```cpp
@@ -70,11 +69,11 @@ Simulation parameters used by the factory.
 -->
 
 <a id="classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a20e520974b59e234385790385389c0df"></a>
-### Variable base\_cycle\_time\_
+### Variable base_cycle_time_
 
 ![][private]
 
-#include: <[activity_factory.h](activity__factory_8h.md#activity__factory_8h)>
+**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 98)
 
 
 ```cpp
@@ -127,8 +126,8 @@ Initializes the factory with the simulation parameters and an optional base cycl
 
 **Parameters**:
 
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **sim_params**
-* const time::milliseconds & **base_cycle_time** = time::milliseconds{50} 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **sim_params**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) time::milliseconds & **base_cycle_time** = time::milliseconds{50} 
 
 **Return type**: 
 
@@ -177,8 +176,8 @@ A unique pointer to the created <code>[core::lifecycle::IActivity](classsimulati
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* const core::scheduling::SchedulerClientType **type** = core::scheduling::SchedulerClientType::kDUMMY 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) core::scheduling::SchedulerClientType **type** = core::scheduling::SchedulerClientType::kDUMMY 
 
 **Return type**: std::unique_ptr< [core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) >
 
@@ -230,9 +229,9 @@ A unique pointer to the created FMU activity as an <code>IActivity</code> instan
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* const [core::lifecycle::FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig) & **fmu_config**
-* const scheduling::SchedulerClientType **type** = scheduling::SchedulerClientType::kDUMMY 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::lifecycle::FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig) & **fmu_config**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) scheduling::SchedulerClientType **type** = scheduling::SchedulerClientType::kDUMMY 
 
 **Return type**: std::unique_ptr< [IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) >
 
@@ -309,9 +308,9 @@ Updates the base cycle time used for scheduling and synchronization in the simul
 
 **Parameters**:
 
-* const time::milliseconds & **time**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) time::milliseconds & **time**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1ae79c188b8b5e40fc4bfb4e87f24a4a9d)
 
@@ -343,10 +342,10 @@ Check if the AVxcelerate Sensor settings are defined.
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* const std::vector< avx_sensor_cosim::AvxSensorSetting > & **avx_sensor_settings**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::vector< avx_sensor_cosim::AvxSensorSetting > & **avx_sensor_settings**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

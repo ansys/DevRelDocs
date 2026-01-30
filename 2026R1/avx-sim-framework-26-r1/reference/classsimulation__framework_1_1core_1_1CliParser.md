@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1CliParser"></a>
-# Class simulation\_framework::core::CliParser
+# Class simulation_framework::core::CliParser
 
 ![][C++]
 ![][public]
 
-#include: <[cli_parser.h](cli__parser_8h.md#cli__parser_8h)>
+**Definition**: `core/service/cli/cli_parser.h` (line 25)
 
 Command-line argument parser for simulation framework.
 
@@ -15,21 +14,21 @@ The <code>[CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsi
 ## Members
 
 * [ConvertCustomizedParameterFromArgs](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a28eafcd480e1f5145b0d55d27fbc9677)
-* [core\_parameters\_](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a70998fd63a6aa647188c42f9e446ff40)
+* [core_parameters_](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a70998fd63a6aa647188c42f9e446ff40)
 * [GetParserMessage](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a8879b6b14d755297ec58b8d7af3361f8)
 * [GetSimulationConfig](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a2b6a9281bb2736988da72eae4e3a7bc8)
 * [GetSimulationParameters](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a475c151971317b0d7c2667053ea385a9)
 * [Parse](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1acc52be4547ba139f22bae8d100523c5f)
-* [parser\_message\_](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a30fd4b7316869f8f69360287c195b50f)
+* [parser_message_](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a30fd4b7316869f8f69360287c195b50f)
 
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1CliParser_1a70998fd63a6aa647188c42f9e446ff40"></a>
-### Variable core\_parameters\_
+### Variable core_parameters_
 
 ![][private]
 
-#include: <[cli_parser.h](cli__parser_8h.md#cli__parser_8h)>
+**Definition**: `core/service/cli/cli_parser.h` (line 58)
 
 
 ```cpp
@@ -52,11 +51,11 @@ The core simulation parameters.
 -->
 
 <a id="classsimulation__framework_1_1core_1_1CliParser_1a30fd4b7316869f8f69360287c195b50f"></a>
-### Variable parser\_message\_
+### Variable parser_message_
 
 ![][private]
 
-#include: <[cli_parser.h](cli__parser_8h.md#cli__parser_8h)>
+**Definition**: `core/service/cli/cli_parser.h` (line 61)
 
 
 ```cpp
@@ -108,10 +107,10 @@ Returns <code>false</code> if there is a parse error; otherwise, returns <code>t
 
 **Parameters**:
 
-* int **argc**
-* const char ** **argv**
+* [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **argc**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [char](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) ** **argv**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -167,7 +166,7 @@ A constant reference to <code>[SimulationParameters](structsimulation__framework
 
 
 
-**Return type**: const [SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) &
 
 <!--
 **TODO**:
@@ -233,10 +232,10 @@ This method processes command-line arguments to construct structured customized_
 
 **Parameters**:
 
-* const std::vector< std::string > & **input_args**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::vector< std::string > & **input_args**
 * [SimulationParameters::CustomizedParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a25a000c4c4dfefb04ff71a796e06c787) & **customized_parameters**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

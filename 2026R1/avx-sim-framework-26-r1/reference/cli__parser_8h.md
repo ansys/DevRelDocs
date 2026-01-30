@@ -1,9 +1,8 @@
-<a id="cli__parser_8h"></a>
-# File cli\_parser.h
+# File cli_parser.h
 
 ![][C++]
 
-**Location**: `core/service/cli/cli\_parser.h`
+**Location**: `core/service/cli/cli_parser.h`
 
 
 
@@ -11,12 +10,12 @@
 
 ## Classes
 
-* [simulation\_framework::core::CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser)
+* [simulation_framework::core::CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
 
 ## Includes
 
@@ -27,36 +26,6 @@
 * <vector>
 
 
-```mermaid
-graph LR
-1["cli_parser.h"]
-click 1 "cli__parser_8h.md#cli__parser_8h"
-1 --> 2
-1 --> 7
-1 --> 4
-1 --> 8
-1 --> 6
-
-2["core/service/parameter/simulation_parameters.h"]
-click 2 "simulation__parameters_8h_source.md#simulation__parameters_8h_source"
-2 --> 3
-2 --> 4
-2 --> 5
-2 --> 6
-
-3["chrono"]
-
-7["optional"]
-
-4["string"]
-
-5["unordered_map"]
-
-8["variant"]
-
-6["vector"]
-
-```
 
 
 ## Source

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1ISubscriber"></a>
-# Class simulation\_framework::core::ISubscriber
+# Class simulation_framework::core::ISubscriber
 
 ![][C++]
 ![][public]
 
-#include: <[i_subscriber.h](i__subscriber_8h.md#i__subscriber_8h)>
+**Definition**: `core/communication/i_subscriber.h` (line 22)
 
 
 
@@ -61,7 +60,7 @@ virtual void simulation_framework::core::ISubscriber::Execute()=0
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -86,7 +85,7 @@ virtual void simulation_framework::core::ISubscriber::Init()=0
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -115,7 +114,7 @@ virtual bool simulation_framework::core::ISubscriber::WaitForPublisher(std::chro
 
 * std::chrono::milliseconds **timeout** = std::chrono::milliseconds(60000) 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -127,3 +126,4 @@ virtual bool simulation_framework::core::ISubscriber::WaitForPublisher(std::chro
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

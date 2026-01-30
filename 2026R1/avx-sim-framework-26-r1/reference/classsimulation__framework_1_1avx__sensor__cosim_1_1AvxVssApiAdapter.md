@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter"></a>
-# Class simulation\_framework::avx\_sensor\_cosim::AvxVssApiAdapter
+# Class simulation_framework::avx_sensor_cosim::AvxVssApiAdapter
 
 ![][C++]
 ![][public]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 34)
 
 AVX VSS API Adapter.
 
@@ -12,14 +11,14 @@ This class is used to interact with AVX VSS API. Provides a simple interface, wi
 
 ## Members
 
-* [api\_variant\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4b590db627a6c93f3254f8cacb81de6f)
+* [api_variant_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4b590db627a6c93f3254f8cacb81de6f)
 * [AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a59b09da2ec12532a4342551366aab665)
-* [context\_sensor\_data\_notifier\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a270bfeac71fd61b77f40db25a3ae61bd)
+* [context_sensor_data_notifier_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a270bfeac71fd61b77f40db25a3ae61bd)
 * [DeserializeSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a353382be749e0909337e395af828bc61)
 * [GetLatestSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1aeb52b2acbff9db3edcd4a33d8ba9211c)
 * [GetSensorIdentifiers](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ac5a21c59e7e440e46a0bbbf88ece7a54)
-* [grpc\_channel\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1adf655bcef358c1e09c9a2ae21bce7475)
-* [grpc\_endpoint\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad55c8e53cedcf0b228730fb167e54c03)
+* [grpc_channel_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1adf655bcef358c1e09c9a2ae21bce7475)
+* [grpc_endpoint_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad55c8e53cedcf0b228730fb167e54c03)
 * [Initialize](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a91a12968c3e9a3f1e7601124347dc424)
 * [IsAllSensorDataDescriptionsAvailable](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad34f7a9ef15162b7cc5ed2d4e09db83f)
 * [IsRequestSuccessful](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af0c66b6549fea0cbc7a6f46c4e04ac07)
@@ -27,34 +26,33 @@ This class is used to interact with AVX VSS API. Provides a simple interface, wi
 * [Load](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a65b1764c35521d1454692fd3459c6f37)
 * [Load](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ab9ba91ec020160a02458f373f6847d09)
 * [ReadSensorDataDescription](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0620b9bd54dd8ce55579536b17133dc9)
-* [sensor\_data\_description\_reader\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a36eecdd0ff5acfa3db4755c72c659f05)
-* [sensor\_data\_notifier\_stub\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a2254896299de131e37ab707d627129a4)
-* [sensor\_identifiers\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0b882d5493c67a831fbc99cd514b7dcb)
-* [SensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af029961b3f5683aa1821b1e56bc310e1)
+* [sensor_data_description_reader_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a36eecdd0ff5acfa3db4755c72c659f05)
+* [sensor_data_notifier_stub_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a2254896299de131e37ab707d627129a4)
+* [sensor_identifiers_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0b882d5493c67a831fbc99cd514b7dcb)
+* [SensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a912b41e7bc7520b5321f8eedfa36dd07)
 * [SerializeSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a70012a5e06c4ba2f1292029f664e3fb8)
 * [SetSensorIdentifiers](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af1a11124e5274c64568d294ee629b68f)
 * [Stop](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a8bec37d202019eb3dc86ccbefa0b75a1)
 * [Unload](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af3fdcb93ae044c647df4e63ea9156571)
 * [Update](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1aeaf57c2d395c56a8141c4e3daf37b826)
 * [Update](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a444e4091516e63dcab3e627cbfe79968)
-* [vss\_simulation\_control\_osi\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a414d61218965bf1b20afe2a975687123)
-* [vss\_simulation\_control\_v1\_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4a4571d8a7032b22498b8f784253fdc6)
+* [vss_simulation_control_osi_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a414d61218965bf1b20afe2a975687123)
+* [vss_simulation_control_v1_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4a4571d8a7032b22498b8f784253fdc6)
 * [WaitForConnection](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a607bd314f3c7972927a14ec1b1952960)
 * [~AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0c49dcc2c769f8859994306149e0b92e)
 
 ## Public types
 
-<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af029961b3f5683aa1821b1e56bc310e1"></a>
+<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a912b41e7bc7520b5321f8eedfa36dd07"></a>
 ### Typedef SensorDataDescriptions
 
 ![][public]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 37)
 
 
 ```cpp
-using simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::SensorDataDescriptions = 
-        std::vector<ansys::api::avxcelerate::sensors::v1::data_access::SensorDataDescription>
+using simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::SensorDataDescriptions =  std::vector<ansys::api::avxcelerate::sensors::v1::data_access::SensorDataDescription>
 ```
 
 
@@ -75,11 +73,11 @@ using simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::SensorDataDescri
 ## Private attributes
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a414d61218965bf1b20afe2a975687123"></a>
-### Variable vss\_simulation\_control\_osi\_
+### Variable vss_simulation_control_osi_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 177)
 
 
 ```cpp
@@ -102,11 +100,11 @@ The grpc stub for the AVX Sensor service.
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4a4571d8a7032b22498b8f784253fdc6"></a>
-### Variable vss\_simulation\_control\_v1\_
+### Variable vss_simulation_control_v1_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 178)
 
 
 ```cpp
@@ -129,11 +127,11 @@ std::unique_ptr<ansys::api::avxcelerate::sensors::v1::simulation::Simulation::St
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a2254896299de131e37ab707d627129a4"></a>
-### Variable sensor\_data\_notifier\_stub\_
+### Variable sensor_data_notifier_stub_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 182)
 
 
 ```cpp
@@ -156,11 +154,11 @@ The grpc stub for the AVX SensorData Notifier service.
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a36eecdd0ff5acfa3db4755c72c659f05"></a>
-### Variable sensor\_data\_description\_reader\_
+### Variable sensor_data_description_reader_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 186)
 
 
 ```cpp
@@ -183,11 +181,11 @@ The grpc reader for the AVX SensorData Description.
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1adf655bcef358c1e09c9a2ae21bce7475"></a>
-### Variable grpc\_channel\_
+### Variable grpc_channel_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 189)
 
 
 ```cpp
@@ -210,11 +208,11 @@ The grpc channel to the AVX Sensor service.
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad55c8e53cedcf0b228730fb167e54c03"></a>
-### Variable grpc\_endpoint\_
+### Variable grpc_endpoint_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 192)
 
 
 ```cpp
@@ -237,11 +235,11 @@ The grpc endpoint of the AVX Sensor service.
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a270bfeac71fd61b77f40db25a3ae61bd"></a>
-### Variable context\_sensor\_data\_notifier\_
+### Variable context_sensor_data_notifier_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 196)
 
 
 ```cpp
@@ -264,11 +262,11 @@ The grpc client context for sensor data notifier. This context must be kept aliv
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0b882d5493c67a831fbc99cd514b7dcb"></a>
-### Variable sensor\_identifiers\_
+### Variable sensor_identifiers_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 199)
 
 
 ```cpp
@@ -291,11 +289,11 @@ The sensor identifiers set by VSS configuration.
 -->
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4b590db627a6c93f3254f8cacb81de6f"></a>
-### Variable api\_variant\_
+### Variable api_variant_
 
 ![][private]
 
-#include: <[avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)>
+**Definition**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h` (line 202)
 
 
 ```cpp

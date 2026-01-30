@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core_1_1time"></a>
-# Namespace simulation\_framework::core::time
+# Namespace simulation_framework::core::time
 
 ![][C++]
 
-#include: <[i_simulation_completion_checker.h](i__simulation__completion__checker_8h.md#i__simulation__completion__checker_8h)>
+**Definition**: `core/time/i_simulation_completion_checker/i_simulation_completion_checker.h` (line 18)
 
 
 
@@ -11,23 +10,23 @@
 
 ## Classes
 
-* [simulation\_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock)
-* [simulation\_framework::core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock)
-* [simulation\_framework::core::time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker)
-* [simulation\_framework::core::time::Timestamp](structsimulation__framework_1_1core_1_1time_1_1Timestamp.md#structsimulation__framework_1_1core_1_1time_1_1Timestamp)
+* [simulation_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock)
+* [simulation_framework::core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock)
+* [simulation_framework::core::time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker)
+* [simulation_framework::core::time::Timestamp](structsimulation__framework_1_1core_1_1time_1_1Timestamp.md#structsimulation__framework_1_1core_1_1time_1_1Timestamp)
 
 ## Typedefs
 
-<a id="i__clock_8h_1a6d411443fa093d24c8ae81aa1cc6d9c2"></a>
+<a id="i__clock_8h_1a933383468bb88c1c83b7295ee2deaac7"></a>
 ### Typedef timepoint
 
 ![][public]
 
-#include: <[i_clock.h](i__clock_8h.md#i__clock_8h)>
+**Definition**: `core/time/i_clock/i_clock.h` (line 28)
 
 
 ```cpp
-using simulation_framework::core::time::timepoint =  std::chrono::time_point<std::chrono::system_clock, Duration>
+using simulation_framework::core::time::timepoint = typedef std::chrono::time_point<std::chrono::system_clock, Duration>
 ```
 
 
@@ -37,7 +36,7 @@ using simulation_framework::core::time::timepoint =  std::chrono::time_point<std
 
 
 
-**Return type**: std::chrono::time_point< std::chrono::system_clock, Duration >
+**Return type**: std::chrono::time_point< std::chrono::system_clock, [Duration](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
 
 <!--
 **TODO**:
@@ -46,16 +45,16 @@ using simulation_framework::core::time::timepoint =  std::chrono::time_point<std
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::time::timepoint"}]}`
 -->
 
-<a id="i__clock_8h_1addb83cb03e230754522bfc8c59f63baf"></a>
+<a id="i__clock_8h_1a2759cf8fdb075261382ae0325c030245"></a>
 ### Typedef milliseconds
 
 ![][public]
 
-#include: <[i_clock.h](i__clock_8h.md#i__clock_8h)>
+**Definition**: `core/time/i_clock/i_clock.h` (line 29)
 
 
 ```cpp
-using simulation_framework::core::time::milliseconds =  std::chrono::milliseconds
+using simulation_framework::core::time::milliseconds = typedef std::chrono::milliseconds
 ```
 
 
@@ -94,10 +93,10 @@ bool simulation_framework::core::time::operator==(const Timestamp &lhs, const Ti
 
 **Parameters**:
 
-* const Timestamp & **lhs**
-* const Timestamp & **rhs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Timestamp & **lhs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Timestamp & **rhs**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

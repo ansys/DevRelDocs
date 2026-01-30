@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1SimfwkCliServer"></a>
-# Class simulation\_framework::core::SimfwkCliServer
+# Class simulation_framework::core::SimfwkCliServer
 
 ![][C++]
 ![][public]
 
-#include: <[cli_server.h](cli__server_8h.md#cli__server_8h)>
+**Definition**: `core/service/grpc/cli/cli_server.h` (line 27)
 
 class [SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer)
 
@@ -12,15 +11,15 @@ simulation framework cli server. The server holds an entity of simulation framew
 
 **Inherits from**:
 
-* [simulation\_framework::core::ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer)
+* [simulation_framework::core::ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer)
 
 ## Members
 
 * [BindSimRunner](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1a2298836e929027f610ee47cc6596616d)
 * [GetServerAddress](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1a8f16cb74b31d87361ee4da1b5c7ab9da)
-* [grpc\_server\_thread\_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1afdd29bc25f5b3e4ec34d0f7077a580eb)
-* [server\_address\_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1a2ef8d83c1198c96a58b595a49cbd0d1c)
-* [sim\_runner\_binded\_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1af5413384ac2a767a9dc427466074dfed)
+* [grpc_server_thread_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1afdd29bc25f5b3e4ec34d0f7077a580eb)
+* [server_address_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1a2ef8d83c1198c96a58b595a49cbd0d1c)
+* [sim_runner_binded_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1af5413384ac2a767a9dc427466074dfed)
 * [SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1a7d45c7dc24e6751063c9894339912009)
 * [WaitForCommand](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1ab9d3d3b02f9601efb7c4c979ffccce06)
 * [~ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ae0b305b84f2c9c13f7bafa2b258c2b4d)
@@ -29,11 +28,11 @@ simulation framework cli server. The server holds an entity of simulation framew
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1SimfwkCliServer_1a2ef8d83c1198c96a58b595a49cbd0d1c"></a>
-### Variable server\_address\_
+### Variable server_address_
 
 ![][private]
 
-#include: <[cli_server.h](cli__server_8h.md#cli__server_8h)>
+**Definition**: `core/service/grpc/cli/cli_server.h` (line 50)
 
 
 ```cpp
@@ -56,15 +55,15 @@ std::string simulation_framework::core::SimfwkCliServer::server_address_
 -->
 
 <a id="classsimulation__framework_1_1core_1_1SimfwkCliServer_1af5413384ac2a767a9dc427466074dfed"></a>
-### Variable sim\_runner\_binded\_
+### Variable sim_runner_binded_
 
 ![][private]
 
-#include: <[cli_server.h](cli__server_8h.md#cli__server_8h)>
+**Definition**: `core/service/grpc/cli/cli_server.h` (line 51)
 
 
 ```cpp
-std::atomic_bool simulation_framework::core::SimfwkCliServer::sim_runner_binded_ {false}
+std::atomic_bool simulation_framework::core::SimfwkCliServer::sim_runner_binded_ {[false](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)}
 ```
 
 
@@ -83,11 +82,11 @@ std::atomic_bool simulation_framework::core::SimfwkCliServer::sim_runner_binded_
 -->
 
 <a id="classsimulation__framework_1_1core_1_1SimfwkCliServer_1afdd29bc25f5b3e4ec34d0f7077a580eb"></a>
-### Variable grpc\_server\_thread\_
+### Variable grpc_server_thread_
 
 ![][private]
 
-#include: <[cli_server.h](cli__server_8h.md#cli__server_8h)>
+**Definition**: `core/service/grpc/cli/cli_server.h` (line 52)
 
 
 ```cpp
@@ -132,7 +131,7 @@ ctor of grpc cli server
 
 **Parameters**:
 
-* const std::string & **server_address**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **server_address**
 
 **Return type**: 
 
@@ -184,7 +183,7 @@ calling this to ensure the server is running and waiting for command to do any a
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [WaitForCommand](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1a762214a4e54414550af137c57b29d174)
 
@@ -242,9 +241,9 @@ set sim runner pointer which to be controlled
 
 **Parameters**:
 
-* std::unique_ptr< [simulation\_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner) > **sim_runner**
+* std::unique_ptr< [simulation_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner) > **sim_runner**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [BindSimRunner](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ac0aa11b3e94c4c6280ff4f45d247712c)
 

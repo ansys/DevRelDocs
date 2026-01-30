@@ -276,28 +276,28 @@ and use it in a simulation by running `simfwk_cli`:
 
 The `IActivity` interface and its derived class, `core/lifecycle/activity/base_activity.h`, provide several APIs to retrieve information related to the current simulation context. These include the current simulation timestamp, the cycle time for an activity, the simulation output directories, and input files. Available APIs are as follows:
 
-### Simulation timestamp
+## Simulation timestamp
 This API returns the current simulation timestamp, allowing your logic to access the exact simulation time at any given moment during execution.
 
 ```cpp
 time::Timestamp GetCurrentTimestamp() const final;
 ```
 
-### Cycle time
+## Cycle time
 This API returns the cycle time for this activity, based on the scheduling configuration you have provided for simulation.
 
 ```cpp
 std::chrono::milliseconds GetCycleTime() const final;
 ```
 
-### Simulation output directory
+## Simulation output directory
 This API returns the directory path where the outputs of the simulation are stored.
 
 ```cpp
 std::string GetSimulationOutputDirectory() const final;
 ```
 
-### 4. Customized parameter from comamnd line
+## 4. Customized parameter from comamnd line
 
 This API returns the customized parameters for the simulation as a map.
 
@@ -305,4 +305,4 @@ This API returns the customized parameters for the simulation as a map.
 const SimulationParameters::CustomizedParameters& GetCustomizedParameters() const final;
 ```
 
-In Simulation Framework Autonomy, three common input files, i.e. open scenario, driver input and user settings are assigned as "customized parameters" to the whole simulation and they can be retrieved by above API without any issue if the solver settings are correctly provided. The predefined names of these three common inputs can be found here `autonomy/simulation/sim_instance/simulation_input_definition.h`. To ensure any other custom input files or parameters are available via this API, they must be provided through CLI arguments using the pattern "name:value". For more instructions, please see [command line tool](./../documentation/markdown/command_line_tool.md)
+In Simulation Framework Autonomy, three common input files, i.e. open scenario, driver input and user settings are assigned as "customized parameters" to the whole simulation and they can be retrieved by above API without any issue if the solver settings are correctly provided. The predefined names of these three common inputs can be found here `autonomy/simulation/sim_instance/simulation_input_definition.h`. To ensure any other custom input files or parameters are available via this API, they must be provided through CLI arguments using the pattern "name:value". For more instructions, please see [command line tool](../getting-started/command_line_tool.md)

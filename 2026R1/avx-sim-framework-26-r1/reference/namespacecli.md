@@ -1,9 +1,8 @@
-<a id="namespacecli"></a>
 # Namespace cli
 
 ![][C++]
 
-#include: <[cli_provider.h](cli__provider_8h.md#cli__provider_8h)>
+**Definition**: `autonomy/cli/cli_provider/cli_provider.h` (line 24)
 
 The namespace for command line interface feature under autonomy.
 

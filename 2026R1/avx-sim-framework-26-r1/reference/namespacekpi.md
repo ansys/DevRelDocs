@@ -1,9 +1,8 @@
-<a id="namespacekpi"></a>
 # Namespace kpi
 
 ![][C++]
 
-#include: <[i_kpi.h](i__kpi_8h.md#i__kpi_8h)>
+**Definition**: `core/kpi/i_kpi/i_kpi.h` (line 24)
 
 The namespace for kpi definition and corresponding APIs under namespace simulation_framework::evaluator.
 

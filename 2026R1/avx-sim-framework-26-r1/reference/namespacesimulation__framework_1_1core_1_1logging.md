@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core_1_1logging"></a>
-# Namespace simulation\_framework::core::logging
+# Namespace simulation_framework::core::logging
 
 ![][C++]
 
-#include: <[logging.h](logging_8h.md#logging_8h)>
+**Definition**: `core/logging/logging.h` (line 20)
 
 
 
@@ -11,9 +10,9 @@
 
 ## Classes
 
-* [simulation\_framework::core::logging::ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger)
-* [simulation\_framework::core::logging::ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger)
-* [simulation\_framework::core::logging::LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance)
+* [simulation_framework::core::logging::ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger)
+* [simulation_framework::core::logging::ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger)
+* [simulation_framework::core::logging::LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance)
 
 ## Enumeration types
 
@@ -22,7 +21,7 @@
 
 ![][public]
 
-#include: <[i_logger.h](i__logger_8h.md#i__logger_8h)>
+**Definition**: `core/logging/i_logger.h` (line 20)
 
 
 ```cpp
@@ -101,7 +100,7 @@ Set Log level of logging instance.
 
 * LogLevel **log_level**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -134,7 +133,7 @@ Log a message with log level "Debug". This will use the singleton [LoggingInstan
 
 * std::string_view **message**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -167,7 +166,7 @@ Log a message with log level "Info". This will use the singleton [LoggingInstanc
 
 * std::string_view **message**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -200,7 +199,7 @@ Log a message with log level "Warning". This will use the singleton [LoggingInst
 
 * std::string_view **message**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -233,7 +232,7 @@ Log a message with log level "Error". This will use the singleton [LoggingInstan
 
 * std::string_view **message**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

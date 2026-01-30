@@ -1,4 +1,3 @@
-<a id="cli_8h"></a>
 # File cli.h
 
 ![][C++]
@@ -11,12 +10,12 @@
 
 ## Classes
 
-* [simulation\_framework::core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli)
+* [simulation_framework::core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
 
 ## Includes
 
@@ -25,28 +24,6 @@
 * <memory>
 
 
-```mermaid
-graph LR
-1["cli.h"]
-click 1 "cli_8h.md#cli_8h"
-1 --> 2
-1 --> 3
-1 --> 5
-
-2["core/service/grpc/cli/i_cli_server.h"]
-click 2 "i__cli__server_8h_source.md#i__cli__server_8h_source"
-2 --> 3
-2 --> 5
-
-3["core/service/sim_runner/i_sim_runner.h"]
-click 3 "i__sim__runner_8h_source.md#i__sim__runner_8h_source"
-3 --> 4
-
-5["memory"]
-
-4["string"]
-
-```
 
 
 ## Included by
@@ -54,16 +31,6 @@ click 3 "i__sim__runner_8h_source.md#i__sim__runner_8h_source"
 * [cli_provider.h](cli__provider_8h.md#cli__provider_8h)
 
 
-```mermaid
-graph RL
-2["cli_provider.h"]
-click 2 "cli__provider_8h_source.md#cli__provider_8h_source"
-
-1["cli.h"]
-click 1 "cli_8h.md#cli_8h"
-2 --> 1
-
-```
 
 
 ## Source

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1Cli"></a>
-# Class simulation\_framework::core::Cli
+# Class simulation_framework::core::Cli
 
 ![][C++]
 ![][public]
 
-#include: <[cli.h](cli_8h.md#cli_8h)>
+**Definition**: `core/service/cli/cli.h` (line 25)
 
 Handles the decision to start the simulation framework.
 
@@ -16,17 +15,17 @@ The <code>[Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__fr
 
 * [Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a807aa80e06431cbd27fe12c4856b668f)
 * [Execute](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a39259f9147a9151d89d372d4fa9f278f)
-* [sim\_runner\_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1ac350a9a1674fc9305d0600744ad0474c)
-* [simfwk\_cli\_server\_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a6fc4816cf540674cce0a2ed77de36b91)
+* [sim_runner_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1ac350a9a1674fc9305d0600744ad0474c)
+* [simfwk_cli_server_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a6fc4816cf540674cce0a2ed77de36b91)
 
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1Cli_1ac350a9a1674fc9305d0600744ad0474c"></a>
-### Variable sim\_runner\_
+### Variable sim_runner_
 
 ![][private]
 
-#include: <[cli.h](cli_8h.md#cli_8h)>
+**Definition**: `core/service/cli/cli.h` (line 41)
 
 
 ```cpp
@@ -49,11 +48,11 @@ The simulation runner instance controlled by the CLI.
 -->
 
 <a id="classsimulation__framework_1_1core_1_1Cli_1a6fc4816cf540674cce0a2ed77de36b91"></a>
-### Variable simfwk\_cli\_server\_
+### Variable simfwk_cli_server_
 
 ![][private]
 
-#include: <[cli.h](cli_8h.md#cli_8h)>
+**Definition**: `core/service/cli/cli.h` (line 44)
 
 
 ```cpp
@@ -100,7 +99,7 @@ Constructs the <code>[Cli](classsimulation__framework_1_1core_1_1Cli.md#classsim
 **Parameters**:
 
 * std::unique_ptr< [ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner) > **sim_runner**
-* std::unique_ptr< [ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer) > **simfwk_cli_server** = nullptr 
+* std::unique_ptr< [ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer) > **simfwk_cli_server** = [nullptr](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) 
 
 **Return type**: 
 
@@ -130,7 +129,7 @@ This function decides which action to take, such as running the simulation or pe
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

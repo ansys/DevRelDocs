@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1autonomy"></a>
-# Namespace simulation\_framework::autonomy
+# Namespace simulation_framework::autonomy
 
 ![][C++]
 
-#include: <[activity_factory.h](activity__factory_8h.md#activity__factory_8h)>
+**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 23)
 
 
 
@@ -11,17 +10,17 @@
 
 ## Child namespaces
 
-* [simulation\_framework::autonomy::cli](namespacesimulation__framework_1_1autonomy_1_1cli.md#namespacesimulation__framework_1_1autonomy_1_1cli)
-* [simulation\_framework::autonomy::communication](namespacesimulation__framework_1_1autonomy_1_1communication.md#namespacesimulation__framework_1_1autonomy_1_1communication)
-* [simulation\_framework::autonomy::topic\_registry](namespacesimulation__framework_1_1autonomy_1_1topic__registry.md#namespacesimulation__framework_1_1autonomy_1_1topic__registry)
-* [simulation\_framework::autonomy::util](namespacesimulation__framework_1_1autonomy_1_1util.md#namespacesimulation__framework_1_1autonomy_1_1util)
+* [simulation_framework::autonomy::cli](namespacesimulation__framework_1_1autonomy_1_1cli.md#namespacesimulation__framework_1_1autonomy_1_1cli)
+* [simulation_framework::autonomy::communication](namespacesimulation__framework_1_1autonomy_1_1communication.md#namespacesimulation__framework_1_1autonomy_1_1communication)
+* [simulation_framework::autonomy::topic_registry](namespacesimulation__framework_1_1autonomy_1_1topic__registry.md#namespacesimulation__framework_1_1autonomy_1_1topic__registry)
+* [simulation_framework::autonomy::util](namespacesimulation__framework_1_1autonomy_1_1util.md#namespacesimulation__framework_1_1autonomy_1_1util)
 
 ## Classes
 
-* [simulation\_framework::autonomy::ActivityFactory](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory)
-* [simulation\_framework::autonomy::AutonomySimInstanceCreator](classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator)
-* [simulation\_framework::autonomy::ISimInstanceCreator](classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator)
-* [simulation\_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker)
+* [simulation_framework::autonomy::ActivityFactory](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory)
+* [simulation_framework::autonomy::AutonomySimInstanceCreator](classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator)
+* [simulation_framework::autonomy::ISimInstanceCreator](classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator)
+* [simulation_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker)
 
 ## Variables
 
@@ -31,7 +30,7 @@
 ![][public]
 ![][static]
 
-#include: <[simulation_input_definition.h](simulation__input__definition_8h.md#simulation__input__definition_8h)>
+**Definition**: `autonomy/simulation/sim_instance/simulation_input_definition.h` (line 26)
 
 
 ```cpp
@@ -50,7 +49,7 @@ Represents the name used in the input files of [core::SimulationParameters](stru
 
 
 
-**Type**: const std::string
+**Type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string
 
 <!--
 **TODO**:
@@ -64,7 +63,7 @@ Represents the name used in the input files of [core::SimulationParameters](stru
 ![][public]
 ![][static]
 
-#include: <[simulation_input_definition.h](simulation__input__definition_8h.md#simulation__input__definition_8h)>
+**Definition**: `autonomy/simulation/sim_instance/simulation_input_definition.h` (line 32)
 
 
 ```cpp
@@ -79,7 +78,7 @@ Represents the name used in the input files of [core::SimulationParameters](stru
 
 
 
-**Type**: const std::string
+**Type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string
 
 <!--
 **TODO**:
@@ -93,7 +92,7 @@ Represents the name used in the input files of [core::SimulationParameters](stru
 ![][public]
 ![][static]
 
-#include: <[simulation_input_definition.h](simulation__input__definition_8h.md#simulation__input__definition_8h)>
+**Definition**: `autonomy/simulation/sim_instance/simulation_input_definition.h` (line 38)
 
 
 ```cpp
@@ -108,7 +107,7 @@ Represents the name used in the input files of [core::SimulationParameters](stru
 
 
 
-**Type**: const std::string
+**Type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string
 
 <!--
 **TODO**:
@@ -122,12 +121,12 @@ Represents the name used in the input files of [core::SimulationParameters](stru
 ![][public]
 ![][static]
 
-#include: <[simulation_input_definition.h](simulation__input__definition_8h.md#simulation__input__definition_8h)>
+**Definition**: `autonomy/simulation/sim_instance/simulation_input_definition.h` (line 43)
 
 
 ```cpp
 const std::string simulation_framework::autonomy::kDefaultDriverInputFilePath {
-    "/tmp/simulation_framework/default_data/driver_input_default.json"}
+    "/tmp/simulation_framework/[default_data](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)/driver_input_default.json"}
 ```
 
 
@@ -137,7 +136,7 @@ File containing driver-specific configurations or inputs for the simulation. Thi
 
 
 
-**Type**: const std::string
+**Type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string
 
 <!--
 **TODO**:
@@ -151,11 +150,11 @@ File containing driver-specific configurations or inputs for the simulation. Thi
 ![][public]
 ![][static]
 
-#include: <[simulation_input_definition.h](simulation__input__definition_8h.md#simulation__input__definition_8h)>
+**Definition**: `autonomy/simulation/sim_instance/simulation_input_definition.h` (line 50)
 
 
 ```cpp
-const std::string simulation_framework::autonomy::kDefaultDriverInputFileContent = R"(
+const std::string simulation_framework::autonomy::kDefaultDriverInputFileContent = [R"](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)(
 {
     "driverInput": [
         {
@@ -181,7 +180,7 @@ default content will be dumped into file if this is required by simulation (dumm
 
 
 
-**Type**: const std::string
+**Type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string
 
 <!--
 **TODO**:

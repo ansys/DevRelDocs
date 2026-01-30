@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker"></a>
-# Class simulation\_framework::autonomy::SimulationCompletionChecker
+# Class simulation_framework::autonomy::SimulationCompletionChecker
 
 ![][C++]
 ![][public]
 
-#include: <[simulation_completion_checker.h](simulation__completion__checker_8h.md#simulation__completion__checker_8h)>
+**Definition**: `autonomy/simulation/simulation_completion_checker/simulation_completion_checker.h` (line 35)
 
 Checks for the completion status of a simulation.
 
@@ -26,11 +25,11 @@ The class leverages the clock interface for time-based operations.
 
 **Inherits from**:
 
-* [simulation\_framework::core::time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker)
+* [simulation_framework::core::time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker)
 
 ## Members
 
-* [clock\_ptr\_](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1af1c0d738c53bf09dccec4eff20c78d11)
+* [clock_ptr_](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1af1c0d738c53bf09dccec4eff20c78d11)
 * [GetSimulationDuration](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a674728b07de32646b3cb51aa3e24f61f)
 * [IsSimulationFinished](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a0645db7a9eac221d6bb082aa9e17ee40)
 * [SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a85bd966e1832c48fc6c12667dc5f5e78)
@@ -39,11 +38,11 @@ The class leverages the clock interface for time-based operations.
 ## Private attributes
 
 <a id="classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1af1c0d738c53bf09dccec4eff20c78d11"></a>
-### Variable clock\_ptr\_
+### Variable clock_ptr_
 
 ![][private]
 
-#include: <[simulation_completion_checker.h](simulation__completion__checker_8h.md#simulation__completion__checker_8h)>
+**Definition**: `autonomy/simulation/simulation_completion_checker/simulation_completion_checker.h` (line 59)
 
 
 ```cpp
@@ -125,7 +124,7 @@ Checks if the simulation has completed.
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [IsSimulationFinished](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1a3c2a846e58738327837d794ed4ce6136)
 

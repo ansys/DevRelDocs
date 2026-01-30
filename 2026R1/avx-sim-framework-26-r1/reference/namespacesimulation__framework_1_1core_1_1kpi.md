@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core_1_1kpi"></a>
-# Namespace simulation\_framework::core::kpi
+# Namespace simulation_framework::core::kpi
 
 ![][C++]
 
-#include: <[kpi_message_converter.h](kpi__message__converter_8h.md#kpi__message__converter_8h)>
+**Definition**: `core/kpi/kpi_message_converter/kpi_message_converter.h` (line 18)
 
 
 
@@ -11,11 +10,11 @@
 
 ## Classes
 
-* [simulation\_framework::core::kpi::Datatype](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype)
-* [simulation\_framework::core::kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
-* [simulation\_framework::core::kpi::IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter)
-* [simulation\_framework::core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent)
-* [simulation\_framework::core::kpi::KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter)
+* [simulation_framework::core::kpi::Datatype](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype)
+* [simulation_framework::core::kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
+* [simulation_framework::core::kpi::IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter)
+* [simulation_framework::core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent)
+* [simulation_framework::core::kpi::KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter)
 
 ## Enumeration types
 
@@ -24,7 +23,7 @@
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 23)
 
 
 ```cpp
@@ -79,16 +78,16 @@ kOther: Other type of KPI
 
 ## Typedefs
 
-<a id="kpi__definition_8h_1a68595a1b8c526570fcd9fb2189b79a65"></a>
+<a id="kpi__definition_8h_1a1cab1b867d784412904244d649583679"></a>
 ### Typedef KpiMessage
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 90)
 
 
 ```cpp
-using simulation_framework::core::kpi::KpiMessage =  std::vector<KpiContent>
+using simulation_framework::core::kpi::KpiMessage = typedef std::vector<KpiContent>
 ```
 
 
@@ -127,10 +126,10 @@ bool simulation_framework::core::kpi::operator==(const core::kpi::KpiContent &lh
 
 **Parameters**:
 
-* const [core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent) & **lhs**
-* const [core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent) & **rhs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent) & **lhs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent) & **rhs**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

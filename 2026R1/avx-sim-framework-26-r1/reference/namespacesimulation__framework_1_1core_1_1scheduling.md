@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core_1_1scheduling"></a>
-# Namespace simulation\_framework::core::scheduling
+# Namespace simulation_framework::core::scheduling
 
 ![][C++]
 
-#include: <[i_scheduler_client.h](i__scheduler__client_8h.md#i__scheduler__client_8h)>
+**Definition**: `core/scheduler/i_scheduler_client/i_scheduler_client.h` (line 21)
 
 
 
@@ -11,11 +10,11 @@
 
 ## Child namespaces
 
-* [simulation\_framework::core::scheduling::scheduling\_client\_creator](namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md#namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator)
+* [simulation_framework::core::scheduling::scheduling_client_creator](namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md#namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator)
 
 ## Classes
 
-* [simulation\_framework::core::scheduling::ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient)
+* [simulation_framework::core::scheduling::ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient)
 
 ## Enumeration types
 
@@ -24,7 +23,7 @@
 
 ![][public]
 
-#include: <[i_scheduler_client.h](i__scheduler__client_8h.md#i__scheduler__client_8h)>
+**Definition**: `core/scheduler/i_scheduler_client/i_scheduler_client.h` (line 32)
 
 
 ```cpp

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1IStandaloneActivityCreator"></a>
-# Class simulation\_framework::core::IStandaloneActivityCreator
+# Class simulation_framework::core::IStandaloneActivityCreator
 
 ![][C++]
 ![][public]
 
-#include: <[i_standalone_activity_creator.h](i__standalone__activity__creator_8h.md#i__standalone__activity__creator_8h)>
+**Definition**: `core/service/standalone_activity_service/standalone_activity_creator/i_standalone_activity_creator.h` (line 55)
 
 This is the interface class for creating a standalone activity service. It defines how a customized activity needs to be instantiated through or not through StandaloneInitData.
 
@@ -125,7 +124,7 @@ A pointer of IActivity interface which will be controlled remotely by simfwk cor
 
 **Parameters**:
 
-* const core::StandaloneInitData & **standalone_init_data**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) core::StandaloneInitData & **standalone_init_data**
 
 **Return type**: std::unique_ptr< [core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) >
 
@@ -145,3 +144,4 @@ A pointer of IActivity interface which will be controlled remotely by simfwk cor
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

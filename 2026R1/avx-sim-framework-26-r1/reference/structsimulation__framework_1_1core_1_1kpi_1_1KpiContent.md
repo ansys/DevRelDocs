@@ -1,10 +1,9 @@
-<a id="structsimulation__framework_1_1core_1_1kpi_1_1KpiContent"></a>
-# Structure simulation\_framework::core::kpi::KpiContent
+# Structure simulation_framework::core::kpi::KpiContent
 
 ![][C++]
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 67)
 
 struct [KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent)
 
@@ -12,7 +11,7 @@ struct [KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#
 
 ## Members
 
-* [data\_type](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a4e2c56824798e6d55c9062552059d1bd)
+* [data_type](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a4e2c56824798e6d55c9062552059d1bd)
 * [name](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a19f476823880c2ce9f0b54bec0553410)
 * [timestamp](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a73325646ec9fb7f492a862661dacb6c5)
 * [type](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a2c9ab36a6b5e02f52ea9faa9ba7eed73)
@@ -26,7 +25,7 @@ struct [KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 69)
 
 
 ```cpp
@@ -53,7 +52,7 @@ core::time::Timestamp simulation_framework::core::kpi::KpiContent::timestamp
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 70)
 
 
 ```cpp
@@ -76,11 +75,11 @@ std::string simulation_framework::core::kpi::KpiContent::name
 -->
 
 <a id="structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a4e2c56824798e6d55c9062552059d1bd"></a>
-### Variable data\_type
+### Variable data_type
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 73)
 
 
 ```cpp
@@ -107,7 +106,7 @@ Datatype simulation_framework::core::kpi::KpiContent::data_type
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 74)
 
 
 ```cpp
@@ -134,7 +133,7 @@ std::string simulation_framework::core::kpi::KpiContent::value
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 75)
 
 
 ```cpp
@@ -161,7 +160,7 @@ std::string simulation_framework::core::kpi::KpiContent::unit
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 76)
 
 
 ```cpp

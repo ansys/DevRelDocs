@@ -1,9 +1,8 @@
-<a id="namespacefmi4cpp"></a>
 # Namespace fmi4cpp
 
 ![][C++]
 
-#include: <[fmu_logic.h](fmu__logic_8h.md#fmu__logic_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_logic.h` (line 11)
 
 
 

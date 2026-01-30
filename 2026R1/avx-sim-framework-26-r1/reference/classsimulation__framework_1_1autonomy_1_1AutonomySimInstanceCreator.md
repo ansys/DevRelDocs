@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator"></a>
-# Class simulation\_framework::autonomy::AutonomySimInstanceCreator
+# Class simulation_framework::autonomy::AutonomySimInstanceCreator
 
 ![][C++]
 ![][public]
 
-#include: <[autonomy_sim_instance_creator.h](autonomy__sim__instance__creator_8h.md#autonomy__sim__instance__creator_8h)>
+**Definition**: `autonomy/simulation/sim_instance/autonomy_sim_instance_creator.h` (line 31)
 
 Creates simulation instances specific to autonomy simulation.
 
@@ -26,7 +25,7 @@ The implementation uses the provided <code>[core::SimulationParameters](structsi
 
 **Inherits from**:
 
-* [simulation\_framework::autonomy::ISimInstanceCreator](classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator)
+* [simulation_framework::autonomy::ISimInstanceCreator](classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator)
 
 ## Members
 
@@ -120,7 +119,7 @@ A unique pointer to a domain-specific implementation of <code>[core::lifecycle::
 
 **Parameters**:
 
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
 
 **Return type**: std::unique_ptr< [core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance) >
 

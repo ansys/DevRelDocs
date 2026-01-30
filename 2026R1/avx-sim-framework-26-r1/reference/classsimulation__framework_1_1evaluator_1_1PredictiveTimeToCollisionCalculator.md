@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator"></a>
-# Class simulation\_framework::evaluator::PredictiveTimeToCollisionCalculator
+# Class simulation_framework::evaluator::PredictiveTimeToCollisionCalculator
 
 ![][C++]
 ![][public]
 
-#include: <[predictive_ttc_calculator.h](predictive__ttc__calculator_8h.md#predictive__ttc__calculator_8h)>
+**Definition**: `autonomy/evaluator/predictive_ttc_calculator/predictive_ttc_calculator.h` (line 44)
 
 class [PredictiveTimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator)
 
@@ -24,17 +23,17 @@ Algorithm explaination:
 ## Members
 
 * [Calculate](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1aeb6dab536ddc23eafec60a4dca7b066e)
-* [predictive\_ttc\_max\_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1a8470dab615a4276538dcb76ec677de5a)
-* [predictive\_ttc\_precision\_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1ab533c9a25f48054357c33ffe53a0f858)
+* [predictive_ttc_max_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1a8470dab615a4276538dcb76ec677de5a)
+* [predictive_ttc_precision_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1ab533c9a25f48054357c33ffe53a0f858)
 
 ## Private attributes
 
 <a id="classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1ab533c9a25f48054357c33ffe53a0f858"></a>
-### Variable predictive\_ttc\_precision\_
+### Variable predictive_ttc_precision_
 
 ![][private]
 
-#include: <[predictive_ttc_calculator.h](predictive__ttc__calculator_8h.md#predictive__ttc__calculator_8h)>
+**Definition**: `autonomy/evaluator/predictive_ttc_calculator/predictive_ttc_calculator.h` (line 50)
 
 
 ```cpp
@@ -57,11 +56,11 @@ uint64_t simulation_framework::evaluator::PredictiveTimeToCollisionCalculator::p
 -->
 
 <a id="classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1a8470dab615a4276538dcb76ec677de5a"></a>
-### Variable predictive\_ttc\_max\_
+### Variable predictive_ttc_max_
 
 ![][private]
 
-#include: <[predictive_ttc_calculator.h](predictive__ttc__calculator_8h.md#predictive__ttc__calculator_8h)>
+**Definition**: `autonomy/evaluator/predictive_ttc_calculator/predictive_ttc_calculator.h` (line 51)
 
 
 ```cpp

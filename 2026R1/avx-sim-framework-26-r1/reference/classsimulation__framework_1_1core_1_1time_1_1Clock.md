@@ -1,14 +1,19 @@
-<a id="classsimulation__framework_1_1core_1_1time_1_1Clock"></a>
-# Class simulation\_framework::core::time::Clock
+# Class simulation_framework::core::time::Clock
 
 ![][C++]
 ![][public]
 
-#include: <[clock.h](clock_8h.md#clock_8h)>
+**Definition**: `core/time/clock/clock.h` (line 27)
 
 class [IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock)
 
-Implementation of [IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock) interface to manipulate time.   Interface for managing and manipulating simulation time.   
+Implementation of [IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock) interface to manipulate time.
+
+
+
+
+
+Interface for managing and manipulating simulation time.  
 
 
 
@@ -24,7 +29,7 @@ This interface is particularly useful in simulations where time needs to be cont
 
 **Inherits from**:
 
-* [simulation\_framework::core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock)
+* [simulation_framework::core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock)
 
 ## Members
 
@@ -32,7 +37,7 @@ This interface is particularly useful in simulations where time needs to be cont
 * [GetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a42892510ffaad796e1e6944e57b4541b)
 * [GetNowAsTimestamp](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a1ce05facc1733248af0c7d0126904442)
 * [IncrementBy](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a4b6110fac75c44e37fa2fef35e551fc5)
-* [ms\_](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1aea060288e6563be195f4af8d7921d341)
+* [ms_](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1aea060288e6563be195f4af8d7921d341)
 * [SetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a6742585d7fab0823c46e9008fe2c7400)
 * [SetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1ab2bda9ca1779ea42389abd38a29b7202)
 * [~IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a81888860915574a48b4f436e87fbc35e)
@@ -40,11 +45,11 @@ This interface is particularly useful in simulations where time needs to be cont
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1time_1_1Clock_1aea060288e6563be195f4af8d7921d341"></a>
-### Variable ms\_
+### Variable ms_
 
 ![][private]
 
-#include: <[clock.h](clock_8h.md#clock_8h)>
+**Definition**: `core/time/clock/clock.h` (line 38)
 
 
 ```cpp
@@ -87,7 +92,7 @@ simulation_framework::core::time::Clock::Clock(const milliseconds &ms=millisecon
 
 **Parameters**:
 
-* const milliseconds & **ms** = milliseconds(0) 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) milliseconds & **ms** = milliseconds(0) 
 
 **Return type**: 
 
@@ -119,9 +124,9 @@ This method allows setting the simulation's current time to a specific duration 
 
 **Parameters**:
 
-* const milliseconds & **ms**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) milliseconds & **ms**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetNow](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a1c559515085520b85213dd1e85527149)
 
@@ -153,9 +158,9 @@ This method sets the simulation's current time to a specific point in time, repr
 
 **Parameters**:
 
-* const Timestamp & **timestamp**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Timestamp & **timestamp**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetNow](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a9a5d393c4f9087ad954b0d754cf73fb6)
 
@@ -249,9 +254,9 @@ This method adds the given duration (in milliseconds) to the current simulation 
 
 **Parameters**:
 
-* const milliseconds & **ms**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) milliseconds & **ms**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [IncrementBy](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a93cef605ec46a30ae9542ba40e5bda21)
 

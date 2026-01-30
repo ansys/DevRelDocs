@@ -1,14 +1,13 @@
-<a id="classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator"></a>
-# Class simulation\_framework::evaluator::GtBaseEvaluator
+# Class simulation_framework::evaluator::GtBaseEvaluator
 
 ![][C++]
 ![][public]
 
-#include: <[gt_base_evaluator.h](gt__base__evaluator_8h.md#gt__base__evaluator_8h)>
+**Definition**: `autonomy/evaluator/gt_base_evaluator/gt_base_evaluator.h` (line 132)
 
 This is the implementation of IEvaluator interface and provides users ability to evaluate KPIs that are added by themselves. This class controls all KPIs centrally and fill/reset the KpiMessage accordingly based on each KPI's calculation result.
 
-To join the simulation, the evaluator must be injected into an Activity and required KPIs need to be added using [AddKpi(std::unique\_ptr\<core::kpi::IKpi\<osi3::GroundTruth\>\> kpi)](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a7d9970bad7943a552c385b01785fb66f).
+To join the simulation, the evaluator must be injected into an Activity and required KPIs need to be added using [AddKpi(std::unique_ptr\<core::kpi::IKpi\<osi3::GroundTruth\>\> kpi)](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a7d9970bad7943a552c385b01785fb66f).
 
 
 
@@ -100,7 +99,7 @@ autonomy::topic_registry::GetExistingTopicById("KpiLoggerTopic")},
 
 **Inherits from**:
 
-* [simulation\_framework::core::IEvaluator\< osi3::GroundTruth \>](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator)
+* [simulation_framework::core::IEvaluator\< osi3::GroundTruth \>](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator)
 
 ## Members
 
@@ -108,11 +107,11 @@ autonomy::topic_registry::GetExistingTopicById("KpiLoggerTopic")},
 * [AddKpi](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a382b22c39881af2b0397df0caee82063)
 * [Evaluate](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a09b8959aaaacce2b842abfd304b63674)
 * [GetKpiMessage](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a2e37677f4b8884d78f028589c6adac48)
-* [ground\_truth\_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1af9435daa8efa20eadbd158f318a94bb8)
+* [ground_truth_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1af9435daa8efa20eadbd158f318a94bb8)
 * [GtBaseEvaluator](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1aa962203ea42d414d0584ada57d955203)
 * [Init](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a930cb234264aa995b30eab8c537a15ad)
-* [kpi\_message\_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a3b0accae5ed64a6e27b7c1643dca079e)
-* [kpis\_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a810c42382e79c8bb888193f874129d8d)
+* [kpi_message_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a3b0accae5ed64a6e27b7c1643dca079e)
+* [kpis_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a810c42382e79c8bb888193f874129d8d)
 * [Reset](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1acacfb885fab2f83b114e870fa9433f3d)
 * [SetInput](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1adc68080d44c2f5a294dbb511fe7d1c77)
 * [~GtBaseEvaluator](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1af8902ec9d60bf7a6fbb49f0d18d9c902)
@@ -121,11 +120,11 @@ autonomy::topic_registry::GetExistingTopicById("KpiLoggerTopic")},
 ## Private attributes
 
 <a id="classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a810c42382e79c8bb888193f874129d8d"></a>
-### Variable kpis\_
+### Variable kpis_
 
 ![][private]
 
-#include: <[gt_base_evaluator.h](gt__base__evaluator_8h.md#gt__base__evaluator_8h)>
+**Definition**: `autonomy/evaluator/gt_base_evaluator/gt_base_evaluator.h` (line 174)
 
 
 ```cpp
@@ -148,11 +147,11 @@ A vector of KPI pointer which needs to be calculated in this e evaluator.
 -->
 
 <a id="classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1af9435daa8efa20eadbd158f318a94bb8"></a>
-### Variable ground\_truth\_
+### Variable ground_truth_
 
 ![][private]
 
-#include: <[gt_base_evaluator.h](gt__base__evaluator_8h.md#gt__base__evaluator_8h)>
+**Definition**: `autonomy/evaluator/gt_base_evaluator/gt_base_evaluator.h` (line 177)
 
 
 ```cpp
@@ -175,11 +174,11 @@ OSI GroundTruth protobuf message as input of all KPI calculations.
 -->
 
 <a id="classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a3b0accae5ed64a6e27b7c1643dca079e"></a>
-### Variable kpi\_message\_
+### Variable kpi_message_
 
 ![][private]
 
-#include: <[gt_base_evaluator.h](gt__base__evaluator_8h.md#gt__base__evaluator_8h)>
+**Definition**: `autonomy/evaluator/gt_base_evaluator/gt_base_evaluator.h` (line 180)
 
 
 ```cpp

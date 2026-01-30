@@ -14,7 +14,7 @@ Use cases for the profiler:
 
 Based on the configuration, the data is either logged in the `.log` files or sent out to the `opentelemetry collector endpoint`.
 
-### Basic configuration
+## Basic configuration
 
 Add the following configuration to the `simulation_scheduling` section of your configuration file:
 
@@ -42,7 +42,7 @@ Add the following configuration to the `simulation_scheduling` section of your c
         "activities": [
 ```
 
-### Configuration parameters
+## Configuration parameters
 
 The `profiler` section contains the following parameters:
 
@@ -59,13 +59,13 @@ The `profiler` section contains the following parameters:
 
 - If the `opentelemtry endpoint` is unreachable an error will be thrown in the CLI output. Please make sure the endpoint is ready and active before running the simulation. [Refer: Troubleshooting](#troubleshooting)
 
-### Profiler behavior
+## Profiler behavior
 
 1. **Initialisation:** All activities from simulation configuration are identified for profiling.
 2. **Collect Telemetry Data:** Accumulate CPU usage times for each of the activities in the configuration during the run.
 3. **Report:** CPU usage times for respective activities are reported either via text based logs or opentelemetry metrics based on your configuration.
 
-### Example configuration
+## Example configuration
 
 Here's a complete Simfwk configuration example:
 
@@ -117,7 +117,7 @@ Here's a complete Simfwk configuration example:
 
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 1. If your Opentelemetry metrics are not received and you see errors in the `simfwk_cli` logs as shown below, this means your opentelemetry endpoint is not accessible. Please check your connections.
 

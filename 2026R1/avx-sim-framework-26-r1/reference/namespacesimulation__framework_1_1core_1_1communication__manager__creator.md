@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core_1_1communication__manager__creator"></a>
-# Namespace simulation\_framework::core::communication\_manager\_creator
+# Namespace simulation_framework::core::communication_manager_creator
 
 ![][C++]
 
-#include: <[communication_manager_creator.h](communication__manager__creator_8h.md#communication__manager__creator_8h)>
+**Definition**: `core/communication/communication_manager_creator.h` (line 27)
 
 class CommunicationManagerCreator
 
@@ -16,7 +15,7 @@ CommunicationManagerCreator is creator for different implementations of Communic
 
 ![][public]
 
-#include: <[communication_manager_creator.h](communication__manager__creator_8h.md#communication__manager__creator_8h)>
+**Definition**: `core/communication/communication_manager_creator.h` (line 30)
 
 
 ```cpp
@@ -81,10 +80,10 @@ A shared pointer of CommunicationManager
 
 **Parameters**:
 
-* const Type **type**
-* const Topics & **topics** = Topics{} 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Type **type**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Topics & **topics** = Topics{} 
 
-**Return type**: std::shared_ptr< CommunicationManager >
+**Return type**: std::shared_ptr< [CommunicationManager](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
 
 <!--
 **TODO**:

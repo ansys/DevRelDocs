@@ -1,4 +1,3 @@
-<a id="version_8h"></a>
 # File version.h
 
 ![][C++]
@@ -11,23 +10,14 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
 
 ## Includes
 
 * <string>
 
 
-```mermaid
-graph LR
-1["version.h"]
-click 1 "version_8h.md#version_8h"
-1 --> 2
-
-2["string"]
-
-```
 
 
 ## Source

@@ -1,9 +1,8 @@
-<a id="fmu__config_8h"></a>
-# File fmu\_config.h
+# File fmu_config.h
 
 ![][C++]
 
-**Location**: `core/lifecycle/fmu\_activity/fmu\_config.h`
+**Location**: `core/lifecycle/fmu_activity/fmu_config.h`
 
 
 
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::core::lifecycle::FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig)
+* [simulation_framework::core::lifecycle::FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
 
 ## Includes
 
@@ -28,27 +27,6 @@
 * <vector>
 
 
-```mermaid
-graph LR
-1["fmu_config.h"]
-click 1 "fmu__config_8h.md#fmu__config_8h"
-1 --> 2
-1 --> 3
-1 --> 4
-1 --> 5
-1 --> 6
-
-2["map"]
-
-3["set"]
-
-4["string"]
-
-5["variant"]
-
-6["vector"]
-
-```
 
 
 ## Included by
@@ -58,37 +36,6 @@ click 1 "fmu__config_8h.md#fmu__config_8h"
 * [i_fmu_logic.h](i__fmu__logic_8h.md#i__fmu__logic_8h)
 
 
-```mermaid
-graph RL
-4["activity_factory.h"]
-click 4 "activity__factory_8h_source.md#activity__factory_8h_source"
-
-2["fmu_base_activity.h"]
-click 2 "fmu__base__activity_8h_source.md#fmu__base__activity_8h_source"
-
-1["fmu_config.h"]
-click 1 "fmu__config_8h.md#fmu__config_8h"
-2 --> 1
-3 --> 1
-6 --> 1
-
-7["fmu_logic.h"]
-click 7 "fmu__logic_8h_source.md#fmu__logic_8h_source"
-
-6["i_fmu_logic.h"]
-click 6 "i__fmu__logic_8h_source.md#i__fmu__logic_8h_source"
-2 --> 6
-7 --> 6
-
-3["i_activity_factory.h"]
-click 3 "i__activity__factory_8h_source.md#i__activity__factory_8h_source"
-4 --> 3
-5 --> 3
-
-5["simulation_instance.h"]
-click 5 "simulation__instance_8h_source.md#simulation__instance_8h_source"
-
-```
 
 
 ## Source

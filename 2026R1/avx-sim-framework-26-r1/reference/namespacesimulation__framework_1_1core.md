@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core"></a>
-# Namespace simulation\_framework::core
+# Namespace simulation_framework::core
 
 ![][C++]
 
-#include: <[fmu_config.h](fmu__config_8h.md#fmu__config_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 18)
 
 
 
@@ -11,32 +10,32 @@
 
 ## Child namespaces
 
-* [simulation\_framework::core::communication\_manager\_creator](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator)
-* [simulation\_framework::core::kpi](namespacesimulation__framework_1_1core_1_1kpi.md#namespacesimulation__framework_1_1core_1_1kpi)
-* [simulation\_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
-* [simulation\_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging)
-* [simulation\_framework::core::scheduling](namespacesimulation__framework_1_1core_1_1scheduling.md#namespacesimulation__framework_1_1core_1_1scheduling)
-* [simulation\_framework::core::time](namespacesimulation__framework_1_1core_1_1time.md#namespacesimulation__framework_1_1core_1_1time)
-* [simulation\_framework::core::topic\_registry](namespacesimulation__framework_1_1core_1_1topic__registry.md#namespacesimulation__framework_1_1core_1_1topic__registry)
+* [simulation_framework::core::communication_manager_creator](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator)
+* [simulation_framework::core::kpi](namespacesimulation__framework_1_1core_1_1kpi.md#namespacesimulation__framework_1_1core_1_1kpi)
+* [simulation_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
+* [simulation_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging)
+* [simulation_framework::core::scheduling](namespacesimulation__framework_1_1core_1_1scheduling.md#namespacesimulation__framework_1_1core_1_1scheduling)
+* [simulation_framework::core::time](namespacesimulation__framework_1_1core_1_1time.md#namespacesimulation__framework_1_1core_1_1time)
+* [simulation_framework::core::topic_registry](namespacesimulation__framework_1_1core_1_1topic__registry.md#namespacesimulation__framework_1_1core_1_1topic__registry)
 
 ## Classes
 
-* [simulation\_framework::core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli)
-* [simulation\_framework::core::CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser)
-* [simulation\_framework::core::IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator)
-* [simulation\_framework::core::IPublisher](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher)
-* [simulation\_framework::core::ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer)
-* [simulation\_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner)
-* [simulation\_framework::core::IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator)
-* [simulation\_framework::core::ISubscriber](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber)
-* [simulation\_framework::core::ITopic](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic)
-* [simulation\_framework::core::SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer)
-* [simulation\_framework::core::SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner)
-* [simulation\_framework::core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters)
-* [simulation\_framework::core::StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService)
-* [simulation\_framework::core::StandaloneInitData](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData)
-* [simulation\_framework::core::StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)
-* [simulation\_framework::core::Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
+* [simulation_framework::core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli)
+* [simulation_framework::core::CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser)
+* [simulation_framework::core::IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator)
+* [simulation_framework::core::IPublisher](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher)
+* [simulation_framework::core::ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer)
+* [simulation_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner)
+* [simulation_framework::core::IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator)
+* [simulation_framework::core::ISubscriber](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber)
+* [simulation_framework::core::ITopic](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic)
+* [simulation_framework::core::SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer)
+* [simulation_framework::core::SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner)
+* [simulation_framework::core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters)
+* [simulation_framework::core::StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService)
+* [simulation_framework::core::StandaloneInitData](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData)
+* [simulation_framework::core::StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)
+* [simulation_framework::core::Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 ## Enumeration types
 
@@ -45,7 +44,7 @@
 
 ![][public]
 
-#include: <[i_sim_runner.h](i__sim__runner_8h.md#i__sim__runner_8h)>
+**Definition**: `core/service/sim_runner/i_sim_runner.h` (line 28)
 
 
 ```cpp
@@ -119,7 +118,7 @@ kError: An error occurred during simulation.
 
 ![][public]
 
-#include: <[i_topic.h](i__topic_8h.md#i__topic_8h)>
+**Definition**: `core/communication/i_topic.h` (line 25)
 
 
 ```cpp
@@ -158,16 +157,16 @@ This is the type of topic based on underlying communication middleware. Currentl
 
 ## Typedefs
 
-<a id="topic_8h_1ab4636e7186ae9dde42720b9a6611c5d4"></a>
+<a id="topic_8h_1a21a526e4bce9d32fba0512abfd62461a"></a>
 ### Typedef TopicId
 
 ![][public]
 
-#include: <[topic.h](topic_8h.md#topic_8h)>
+**Definition**: `core/communication/topic.h` (line 21)
 
 
 ```cpp
-typedef std::string simulation_framework::core::TopicId =  std::string
+typedef std::string simulation_framework::core::TopicId
 ```
 
 
@@ -185,16 +184,16 @@ typedef std::string simulation_framework::core::TopicId =  std::string
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::TopicId"}]}`
 -->
 
-<a id="i__subscriber_8h_1a06df5a20e17db762189eda26d2f44c16"></a>
+<a id="i__subscriber_8h_1ab00024dfb50b09a563faec9885263207"></a>
 ### Typedef Subscribers
 
 ![][public]
 
-#include: <[i_subscriber.h](i__subscriber_8h.md#i__subscriber_8h)>
+**Definition**: `core/communication/i_subscriber.h` (line 31)
 
 
 ```cpp
-using simulation_framework::core::Subscribers =  std::vector<std::unique_ptr<ISubscriber>>
+using simulation_framework::core::Subscribers = typedef std::vector<std::unique_ptr<ISubscriber> >
 ```
 
 
@@ -212,16 +211,16 @@ using simulation_framework::core::Subscribers =  std::vector<std::unique_ptr<ISu
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::Subscribers"}]}`
 -->
 
-<a id="i__topic_8h_1a111c573d3ae4e267f6f5dad27c30eb47"></a>
+<a id="i__topic_8h_1a94b6a1c6d6bd3c2b105a724d32ca5098"></a>
 ### Typedef TopicIdVector
 
 ![][public]
 
-#include: <[i_topic.h](i__topic_8h.md#i__topic_8h)>
+**Definition**: `core/communication/i_topic.h` (line 91)
 
 
 ```cpp
-using simulation_framework::core::TopicIdVector =  std::vector<TopicId>
+using simulation_framework::core::TopicIdVector = typedef std::vector<TopicId>
 ```
 
 
@@ -239,16 +238,16 @@ using simulation_framework::core::TopicIdVector =  std::vector<TopicId>
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::TopicIdVector"}]}`
 -->
 
-<a id="i__topic_8h_1a0708807f1442484672a0cbaae27814e3"></a>
+<a id="i__topic_8h_1a34845889c831f32aedfd137807f60f7b"></a>
 ### Typedef Topics
 
 ![][public]
 
-#include: <[i_topic.h](i__topic_8h.md#i__topic_8h)>
+**Definition**: `core/communication/i_topic.h` (line 92)
 
 
 ```cpp
-using simulation_framework::core::Topics =  std::vector<std::shared_ptr<ITopic>>
+using simulation_framework::core::Topics = typedef std::vector<std::shared_ptr<ITopic> >
 ```
 
 
@@ -266,16 +265,16 @@ using simulation_framework::core::Topics =  std::vector<std::shared_ptr<ITopic>>
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::Topics"}]}`
 -->
 
-<a id="i__publisher_8h_1aed96e25dcadeab12848048fbb25cef75"></a>
+<a id="i__publisher_8h_1ac9b8ae0ea6ab33d04941db88e7625f11"></a>
 ### Typedef Publishers
 
 ![][public]
 
-#include: <[i_publisher.h](i__publisher_8h.md#i__publisher_8h)>
+**Definition**: `core/communication/i_publisher.h` (line 33)
 
 
 ```cpp
-using simulation_framework::core::Publishers =  std::vector<std::unique_ptr<IPublisher>>
+using simulation_framework::core::Publishers = typedef std::vector<std::unique_ptr<IPublisher> >
 ```
 
 
@@ -314,10 +313,10 @@ bool simulation_framework::core::operator==(const StandaloneInitData &lhs, const
 
 **Parameters**:
 
-* const StandaloneInitData & **lhs**
-* const StandaloneInitData & **rhs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) StandaloneInitData & **lhs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) StandaloneInitData & **rhs**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

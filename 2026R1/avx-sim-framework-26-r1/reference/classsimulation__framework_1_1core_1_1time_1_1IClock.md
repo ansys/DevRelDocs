@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1time_1_1IClock"></a>
-# Class simulation\_framework::core::time::IClock
+# Class simulation_framework::core::time::IClock
 
 ![][C++]
 ![][public]
 
-#include: <[i_clock.h](i__clock_8h.md#i__clock_8h)>
+**Definition**: `core/time/i_clock/i_clock.h` (line 38)
 
 Interface for managing and manipulating simulation time.
 
@@ -18,7 +17,7 @@ This interface is particularly useful in simulations where time needs to be cont
 
 **Inherited by**:
 
-* [simulation\_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock)
+* [simulation_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock)
 
 ## Members
 
@@ -78,9 +77,9 @@ This method allows setting the simulation's current time to a specific duration 
 
 **Parameters**:
 
-* const milliseconds & **ms**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) milliseconds & **ms**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -114,9 +113,9 @@ This method sets the simulation's current time to a specific point in time, repr
 
 **Parameters**:
 
-* const Timestamp & **timestamp**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Timestamp & **timestamp**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -216,9 +215,9 @@ This method adds the given duration (in milliseconds) to the current simulation 
 
 **Parameters**:
 
-* const milliseconds & **ms**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) milliseconds & **ms**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 

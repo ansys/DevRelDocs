@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator"></a>
-# Class simulation\_framework::autonomy::ISimInstanceCreator
+# Class simulation_framework::autonomy::ISimInstanceCreator
 
 ![][C++]
 ![][public]
 
-#include: <[i_sim_instance_creator.h](i__sim__instance__creator_8h.md#i__sim__instance__creator_8h)>
+**Definition**: `autonomy/simulation/sim_instance/i_sim_instance_creator.h` (line 33)
 
 Defines a generic interface for creating instances of <code>[core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance)</code>.
 
@@ -26,7 +25,7 @@ The design supports extensibility by allowing the creation of simulation instanc
 
 **Inherited by**:
 
-* [simulation\_framework::autonomy::AutonomySimInstanceCreator](classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator)
+* [simulation_framework::autonomy::AutonomySimInstanceCreator](classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator)
 
 ## Members
 
@@ -87,7 +86,7 @@ A unique pointer to a concrete implementation of <code>[core::lifecycle::ISimula
 
 **Parameters**:
 
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
 
 **Return type**: std::unique_ptr< [core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance) >
 
@@ -109,3 +108,5 @@ A unique pointer to a concrete implementation of <code>[core::lifecycle::ISimula
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[private]: https://img.shields.io/badge/-private-red (private)
+[const]: https://img.shields.io/badge/-const-lightblue (const)

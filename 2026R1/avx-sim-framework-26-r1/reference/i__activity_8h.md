@@ -1,9 +1,8 @@
-<a id="i__activity_8h"></a>
-# File i\_activity.h
+# File i_activity.h
 
 ![][C++]
 
-**Location**: `core/lifecycle/activity/i\_activity.h`
+**Location**: `core/lifecycle/activity/i_activity.h`
 
 
 
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity)
+* [simulation_framework::core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
 
 ## Includes
 
@@ -28,41 +27,6 @@
 * <string>
 
 
-```mermaid
-graph LR
-1["i_activity.h"]
-click 1 "i__activity_8h.md#i__activity_8h"
-1 --> 2
-1 --> 3
-1 --> 8
-1 --> 4
-1 --> 5
-
-3["core/service/parameter/simulation_parameters.h"]
-click 3 "simulation__parameters_8h_source.md#simulation__parameters_8h_source"
-3 --> 4
-3 --> 5
-3 --> 6
-3 --> 7
-
-8["core/time/i_clock/timestamp.h"]
-click 8 "timestamp_8h_source.md#timestamp_8h_source"
-8 --> 9
-8 --> 5
-
-4["chrono"]
-
-2["core/scheduler/event/simulation_settings.h"]
-
-9["cstdint"]
-
-5["string"]
-
-6["unordered_map"]
-
-7["vector"]
-
-```
 
 
 ## Included by
@@ -73,52 +37,6 @@ click 8 "timestamp_8h_source.md#timestamp_8h_source"
 * [i_standalone_activity_creator.h](i__standalone__activity__creator_8h.md#i__standalone__activity__creator_8h)
 
 
-```mermaid
-graph RL
-5["activity_factory.h"]
-click 5 "activity__factory_8h_source.md#activity__factory_8h_source"
-
-2["base_activity.h"]
-click 2 "base__activity_8h_source.md#base__activity_8h_source"
-3 --> 2
-
-1["i_activity.h"]
-click 1 "i__activity_8h.md#i__activity_8h"
-2 --> 1
-4 --> 1
-7 --> 1
-9 --> 1
-
-3["fmu_base_activity.h"]
-click 3 "fmu__base__activity_8h_source.md#fmu__base__activity_8h_source"
-
-4["i_activity_factory.h"]
-click 4 "i__activity__factory_8h_source.md#i__activity__factory_8h_source"
-5 --> 4
-6 --> 4
-
-6["simulation_instance.h"]
-click 6 "simulation__instance_8h_source.md#simulation__instance_8h_source"
-
-7["i_scheduler_client.h"]
-click 7 "i__scheduler__client_8h_source.md#i__scheduler__client_8h_source"
-5 --> 7
-2 --> 7
-3 --> 7
-4 --> 7
-8 --> 7
-
-8["scheduler_client_creator.h"]
-click 8 "scheduler__client__creator_8h_source.md#scheduler__client__creator_8h_source"
-
-9["i_standalone_activity_creator.h"]
-click 9 "i__standalone__activity__creator_8h_source.md#i__standalone__activity__creator_8h_source"
-10 --> 9
-
-10["standalone_activity_service.h"]
-click 10 "standalone__activity__service_8h_source.md#standalone__activity__service_8h_source"
-
-```
 
 
 ## Source

@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils"></a>
-# Namespace simulation\_framework::autonomy::communication::utils
+# Namespace simulation_framework::autonomy::communication::utils
 
 ![][C++]
 
-#include: <[osi_to_dds_converter.h](osi__to__dds__converter_8h.md#osi__to__dds__converter_8h)>
+**Definition**: `autonomy/communication/utils/osi_to_dds_converter.h` (line 16)
 
 
 
@@ -53,9 +52,9 @@ A GenericBytesMessage containing the serialized OSI proto message
 
 **Parameters**:
 
-* const int **frame_counter**
-* const std::string & **header_name**
-* const OsiProtoType & **osi_proto_msg**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **frame_counter**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **header_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [OsiProtoType](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) & **osi_proto_msg**
 
 **Return type**: rtidds::GenericBytesMessage
 
@@ -103,10 +102,10 @@ Converts a DDS GenericBytesMessage back to an OSI proto message.
 
 **Parameters**:
 
-* const rtidds::GenericBytesMessage & **dds_msg**
-* OsiProtoType & **osi_proto_msg**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) rtidds::GenericBytesMessage & **dds_msg**
+* [OsiProtoType](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) & **osi_proto_msg**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

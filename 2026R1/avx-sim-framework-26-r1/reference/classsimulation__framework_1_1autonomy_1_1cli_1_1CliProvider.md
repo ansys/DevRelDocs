@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider"></a>
-# Class simulation\_framework::autonomy::cli::CliProvider
+# Class simulation_framework::autonomy::cli::CliProvider
 
 ![][C++]
 ![][public]
 
-#include: <[cli_provider.h](cli__provider_8h.md#cli__provider_8h)>
+**Definition**: `autonomy/cli/cli_provider/cli_provider.h` (line 71)
 
 Provides a command-line interface for simulation execution via dependency injection.
 
@@ -60,23 +59,23 @@ int main(int argc, const char** argv)
 
 ## Members
 
-* [cli\_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a89353709d46735be53952123878fb8e7)
+* [cli_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a89353709d46735be53952123878fb8e7)
 * [CliProvider](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1aaa4a83f8ce6c7532b64621c25a646eb3)
-* [core\_parameters\_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1afb2c42c4fc3a5092bf95ae6909148f40)
+* [core_parameters_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1afb2c42c4fc3a5092bf95ae6909148f40)
 * [GetCommandLineInterface](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a5989884eebef1c6a32141f72b7842b9f)
 * [GetCoreParameters](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a632fd12769ad3ba2aecaf2d854602e9a)
 * [Parse](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1abd689d5923a3218f0acb267f080ec591)
-* [sim\_instance\_creator\_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1aec36a2507049d8c06cfcbabf914189b8)
+* [sim_instance_creator_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1aec36a2507049d8c06cfcbabf914189b8)
 * [~CliProvider](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1ad471556a9f2093e7678b580843827f12)
 
 ## Private attributes
 
 <a id="classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1afb2c42c4fc3a5092bf95ae6909148f40"></a>
-### Variable core\_parameters\_
+### Variable core_parameters_
 
 ![][private]
 
-#include: <[cli_provider.h](cli__provider_8h.md#cli__provider_8h)>
+**Definition**: `autonomy/cli/cli_provider/cli_provider.h` (line 101)
 
 
 ```cpp
@@ -99,11 +98,11 @@ core::SimulationParameters simulation_framework::autonomy::cli::CliProvider::cor
 -->
 
 <a id="classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a89353709d46735be53952123878fb8e7"></a>
-### Variable cli\_
+### Variable cli_
 
 ![][private]
 
-#include: <[cli_provider.h](cli__provider_8h.md#cli__provider_8h)>
+**Definition**: `autonomy/cli/cli_provider/cli_provider.h` (line 102)
 
 
 ```cpp
@@ -126,11 +125,11 @@ std::unique_ptr<core::Cli> simulation_framework::autonomy::cli::CliProvider::cli
 -->
 
 <a id="classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1aec36a2507049d8c06cfcbabf914189b8"></a>
-### Variable sim\_instance\_creator\_
+### Variable sim_instance_creator_
 
 ![][private]
 
-#include: <[cli_provider.h](cli__provider_8h.md#cli__provider_8h)>
+**Definition**: `autonomy/cli/cli_provider/cli_provider.h` (line 103)
 
 
 ```cpp
@@ -229,7 +228,7 @@ The reference of '[core::Cli](classsimulation__framework_1_1core_1_1Cli.md#class
 
 
 
-**Return type**: const std::unique_ptr< [core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli) > &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::unique_ptr< [core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli) > &
 
 <!--
 **TODO**:
@@ -299,10 +298,10 @@ Processes the arguments passed from the process <code>main</code> function, allo
 
 **Parameters**:
 
-* int **argc**
-* const char ** **argv**
+* [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **argc**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [char](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) ** **argv**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

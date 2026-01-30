@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator"></a>
-# Class simulation\_framework::evaluator::DistanceDrivenCalculator
+# Class simulation_framework::evaluator::DistanceDrivenCalculator
 
 ![][C++]
 ![][public]
 
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
+**Definition**: `autonomy/evaluator/distance_calculator/distance_calculator.h` (line 38)
 
 class [DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator)
 
@@ -24,18 +23,18 @@ class [DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1Dist
 ## Members
 
 * [Calculate](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1ab8226778bd055bda3a5b216f57289092)
-* [is\_initialized\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256)
-* [last\_xpos\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb)
-* [last\_ypos\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334)
+* [is_initialized_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256)
+* [last_xpos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb)
+* [last_ypos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334)
 
 ## Private attributes
 
 <a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb"></a>
-### Variable last\_xpos\_
+### Variable last_xpos_
 
 ![][private]
 
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
+**Definition**: `autonomy/evaluator/distance_calculator/distance_calculator.h` (line 44)
 
 
 ```cpp
@@ -58,11 +57,11 @@ std::optional<double> simulation_framework::evaluator::DistanceDrivenCalculator:
 -->
 
 <a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334"></a>
-### Variable last\_ypos\_
+### Variable last_ypos_
 
 ![][private]
 
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
+**Definition**: `autonomy/evaluator/distance_calculator/distance_calculator.h` (line 45)
 
 
 ```cpp
@@ -85,11 +84,11 @@ std::optional<double> simulation_framework::evaluator::DistanceDrivenCalculator:
 -->
 
 <a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256"></a>
-### Variable is\_initialized\_
+### Variable is_initialized_
 
 ![][private]
 
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
+**Definition**: `autonomy/evaluator/distance_calculator/distance_calculator.h` (line 46)
 
 
 ```cpp

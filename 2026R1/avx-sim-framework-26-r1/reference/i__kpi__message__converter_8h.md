@@ -1,9 +1,8 @@
-<a id="i__kpi__message__converter_8h"></a>
-# File i\_kpi\_message\_converter.h
+# File i_kpi_message_converter.h
 
 ![][C++]
 
-**Location**: `core/kpi/kpi\_message\_converter/i\_kpi\_message\_converter.h`
+**Location**: `core/kpi/kpi_message_converter/i_kpi_message_converter.h`
 
 
 
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::core::kpi::IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter)
+* [simulation_framework::core::kpi::IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::core::kpi](namespacesimulation__framework_1_1core_1_1kpi.md#namespacesimulation__framework_1_1core_1_1kpi)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core::kpi](namespacesimulation__framework_1_1core_1_1kpi.md#namespacesimulation__framework_1_1core_1_1kpi)
 
 ## Includes
 
@@ -25,43 +24,6 @@
 * core/message/rtidds/kpi/kpi_message.hpp
 
 
-```mermaid
-graph LR
-2["core/kpi/definition/kpi_definition.h"]
-click 2 "kpi__definition_8h_source.md#kpi__definition_8h_source"
-2 --> 3
-2 --> 6
-2 --> 9
-
-1["i_kpi_message_converter.h"]
-click 1 "i__kpi__message__converter_8h.md#i__kpi__message__converter_8h"
-1 --> 2
-1 --> 10
-
-3["core/time/i_clock/i_clock.h"]
-click 3 "i__clock_8h_source.md#i__clock_8h_source"
-3 --> 4
-3 --> 7
-3 --> 8
-
-4["core/time/i_clock/timestamp.h"]
-click 4 "timestamp_8h_source.md#timestamp_8h_source"
-4 --> 5
-4 --> 6
-
-7["chrono"]
-
-10["core/message/rtidds/kpi/kpi_message.hpp"]
-
-5["cstdint"]
-
-8["memory"]
-
-6["string"]
-
-9["vector"]
-
-```
 
 
 ## Included by
@@ -69,16 +31,6 @@ click 4 "timestamp_8h_source.md#timestamp_8h_source"
 * [kpi_message_converter.h](kpi__message__converter_8h.md#kpi__message__converter_8h)
 
 
-```mermaid
-graph RL
-1["i_kpi_message_converter.h"]
-click 1 "i__kpi__message__converter_8h.md#i__kpi__message__converter_8h"
-2 --> 1
-
-2["kpi_message_converter.h"]
-click 2 "kpi__message__converter_8h_source.md#kpi__message__converter_8h_source"
-
-```
 
 
 ## Source

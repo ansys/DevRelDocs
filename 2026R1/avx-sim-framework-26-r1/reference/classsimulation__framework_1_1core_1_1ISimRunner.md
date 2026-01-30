@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1ISimRunner"></a>
-# Class simulation\_framework::core::ISimRunner
+# Class simulation_framework::core::ISimRunner
 
 ![][C++]
 ![][public]
 
-#include: <[i_sim_runner.h](i__sim__runner_8h.md#i__sim__runner_8h)>
+**Definition**: `core/service/sim_runner/i_sim_runner.h` (line 41)
 
 Interface for controlling and managing simulation execution.
 
@@ -12,7 +11,7 @@ The <code>[ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#class
 
 **Inherited by**:
 
-* [simulation\_framework::core::SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner)
+* [simulation_framework::core::SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner)
 
 ## Members
 
@@ -173,7 +172,7 @@ A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#
 
 **Parameters**:
 
-* int **n**
+* [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **n**
 
 **Return type**: [StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)
 
@@ -301,7 +300,7 @@ The total number of steps executed as a 64-bit unsigned integer.
 
 
 
-**Return type**: uint64_t
+**Return type**: [uint64_t](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -330,7 +329,7 @@ Runs any remaining parts of the simulation to completion.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -352,3 +351,4 @@ Runs any remaining parts of the simulation to completion.
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1ISimfwkCliServer"></a>
-# Class simulation\_framework::core::ISimfwkCliServer
+# Class simulation_framework::core::ISimfwkCliServer
 
 ![][C++]
 ![][public]
 
-#include: <[i_cli_server.h](i__cli__server_8h.md#i__cli__server_8h)>
+**Definition**: `core/service/grpc/cli/i_cli_server.h` (line 24)
 
 class [ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer)
 
@@ -12,7 +11,7 @@ simulation framework cli server interface. The server holds an entity of simulat
 
 **Inherited by**:
 
-* [simulation\_framework::core::SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer)
+* [simulation_framework::core::SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer)
 
 ## Members
 
@@ -67,9 +66,9 @@ virtual void simulation_framework::core::ISimfwkCliServer::BindSimRunner(std::un
 
 **Parameters**:
 
-* std::unique_ptr< [simulation\_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner) > **sim_runner**
+* std::unique_ptr< [simulation_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner) > **sim_runner**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -98,7 +97,7 @@ virtual void simulation_framework::core::ISimfwkCliServer::WaitForCommand()=0
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -149,3 +148,4 @@ virtual std::string simulation_framework::core::ISimfwkCliServer::GetServerAddre
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

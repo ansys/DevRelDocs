@@ -14,7 +14,7 @@ Simulation Framework excels at facilitating a faster software iteration process.
 
 Flexibility is a core aspect of Simulation Framework, enabling seamless integration and deployment. The framework features a modular architecture that can integrate with existing software stacks and simulation platforms. This flexibility allows developers to customize and adapt Simulation Framework to suit their specific project requirements, whether it involves integrating proprietary algorithms or deploying simulations across distributed computing resources.
 
-![Software Layers in Simulation Framework](./images/software_layers_in_simulation_framework.png)
+![Software Layers in Simulation Framework](images/software_layers_in_simulation_framework.png)
 
 ## Activity and simulation mode
 
@@ -22,18 +22,18 @@ To participate in the simulation as a distinct entity with specific logic, an `A
 
 Your simulation can be configured in various modes based on different combinations of activities. You can use different simulation modes or a hybrid of the two modes described below. The provided `built-in` activities in the reference simulation can be directly executed in the centralized simulation mode. Any custom `standalone` activity can be incorporated into the simulation after implementation and then used in a "Hybrid-mode" along with the reference simulation.
 
-![Simulation in hybrid mode](./images/simulation_hybrid_mode.png)
+![Simulation in hybrid mode](images/simulation_hybrid_mode.png)
 
-### Centralized simulation mode
+## Centralized simulation mode
 
 All activities run within the same process as the `simfwk_cli`. Activities in this mode are referred to as type `built-in` in the scheduling configuration. Communication between activities in this mode is optimized, resulting in the best stability and performance. Currently, the extension of `built-in` activities by users is not supported. However, in the future, users will be able to add custom activities using the Simulation Framework libraries, register them with the activity factory, and recompile the library.
 
-### Distributed simulation mode
+## Distributed simulation mode
 
 Users can create `standalone` activities using the `StandaloneActivityService` interfaces provided with the Simulation Framework. Activities in this mode are referred to as type `standalone` in the scheduling configuration. These standalone activities operate in a distributed mode, serving specific simulation requests. In this mode, significant benefits arise if the activity is independently deployed into an environment containing specific resources or hardware, without affecting other activities or the simulation core process. Standalone activities can be easily iterated, compiled, and deployed individually without changing the core library or affecting other components. Communication is ensured via DDS communication, even in distributed scenarios.
 
-For implementation details, refer to [how to implement and use customized standalone activity](documentation/markdown/customized_activity.md)
+For implementation details, refer to [how to implement and use customized standalone activity](user-guide/customized_activity.md)
 
 ## Evaluation
 
-The primary objective of native support for validation on the customer's System Under Test (SUT) guides the Simulation Framework. It furnishes a standardized KPI message format and evaluator interfaces, empowering users to seamlessly employ reference KPIs or incorporate new, customized KPI logic. This flexibility enables users to conduct thorough validation of their SUT using the AVxcelerate toolchain. For in-depth information, please consult [how to create customized KPIs and utilize them as evaluator activities](documentation/markdown/customized_kpi_evaluator.md)
+The primary objective of native support for validation on the customer's System Under Test (SUT) guides the Simulation Framework. It furnishes a standardized KPI message format and evaluator interfaces, empowering users to seamlessly employ reference KPIs or incorporate new, customized KPI logic. This flexibility enables users to conduct thorough validation of their SUT using the AVxcelerate toolchain. For in-depth information, please consult [how to create customized KPIs and utilize them as evaluator activities](user-guide/customized_kpi_evaluator.md)

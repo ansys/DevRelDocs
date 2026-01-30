@@ -1,9 +1,8 @@
-<a id="ttc__calculator_8cpp"></a>
-# File ttc\_calculator.cpp
+# File ttc_calculator.cpp
 
 ![][C++]
 
-**Location**: `autonomy/evaluator/ttc\_calculator/ttc\_calculator.cpp`
+**Location**: `autonomy/evaluator/ttc_calculator/ttc_calculator.cpp`
 
 
 
@@ -11,8 +10,8 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
 
 ## Includes
 
@@ -21,25 +20,6 @@
 * <optional>
 
 
-```mermaid
-graph LR
-1["ttc_calculator.cpp"]
-click 1 "ttc__calculator_8cpp.md#ttc__calculator_8cpp"
-1 --> 2
-1 --> 4
-1 --> 5
-
-2["autonomy/evaluator/ttc_calculator/ttc_calculator.h"]
-click 2 "ttc__calculator_8h_source.md#ttc__calculator_8h_source"
-2 --> 3
-
-4["autonomy/evaluator/ttc_calculator/utils.h"]
-
-5["optional"]
-
-3["osi_groundtruth.pb.h"]
-
-```
 
 
 ## Source

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity"></a>
-# Class simulation\_framework::core::lifecycle::BaseActivity
+# Class simulation_framework::core::lifecycle::BaseActivity
 
 ![][C++]
 ![][public]
 
-#include: <[base_activity.h](base__activity_8h.md#base__activity_8h)>
+**Definition**: `core/lifecycle/activity/base_activity.h` (line 75)
 
 This is the basic implementation of [IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) interface. Inheriting classes, i.e. a concrete simulation activity, should implement their logic in [ExecuteStep()](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aaf5d84e0430a2703b697eb867e8bf303) and add needed pub/sub in [AddPublisherAndSubscriber()](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aa898aa5e721f110f678994731a05aa6e) method.
 
@@ -53,11 +52,11 @@ class MyActivity : public BaseActivity
 
 **Inherits from**:
 
-* [simulation\_framework::core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity)
+* [simulation_framework::core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity)
 
 **Inherited by**:
 
-* [simulation\_framework::core::lifecycle::FmuBaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity)
+* [simulation_framework::core::lifecycle::FmuBaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity)
 
 ## Members
 
@@ -68,7 +67,7 @@ class MyActivity : public BaseActivity
 * [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a650b1e86ca7059ad464709ca0d06347f)
 * [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a4ccbf97b81ac7b2a43ceef2c151138e1)
 * [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a8a0d6519c43db4cd308cbe2e62af2810)
-* [communication\_manager\_ptr\_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a523727eb50a1a7e7af9abbec75f674f1)
+* [communication_manager_ptr_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a523727eb50a1a7e7af9abbec75f674f1)
 * [ExecuteStep](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aaf5d84e0430a2703b697eb867e8bf303)
 * [Finalize](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a9162ba92fb21fd805a6c72b1065b187c)
 * [GetCurrentTimestamp](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a2cfe6105cb8e660b2757e602d4fc1a87)
@@ -77,14 +76,14 @@ class MyActivity : public BaseActivity
 * [GetName](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a11d72f1e983f825e5d812224aa43c432)
 * [GetSimulationOutputDirectory](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aeca0631080d2751212ad8958d16860e9)
 * [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a7373af65d0b4c133cb5de42bf2f88caf)
-* [is\_init\_step\_finished\_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a57099acd8929a247b8206e56b4f0fa77)
-* [name\_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a35c8f4f3abcf43c034aee89011f30597)
-* [scheduler\_client\_ptr\_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a097c7767b500e8ee7551431fc36788a1)
+* [is_init_step_finished_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a57099acd8929a247b8206e56b4f0fa77)
+* [name_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a35c8f4f3abcf43c034aee89011f30597)
+* [scheduler_client_ptr_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a097c7767b500e8ee7551431fc36788a1)
 * [SetSimulationSettings](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a3f7d19a88d57a2b77941db44fe0a4e65)
 * [SetUpCommunication](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a3355c18c8d6519f9649ec7de4274e645)
 * [Shutdown](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1ac0a680a9bd6db9111ba085d641a16126)
 * [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a45bf4108dc4b3b77b4ca997b824ea07f)
-* [timeout\_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1ae3295afdda5cdc8455bc6554c81444e5)
+* [timeout_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1ae3295afdda5cdc8455bc6554c81444e5)
 * [WaitForPubSubConnection](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aec1044c8ce73f976233c54e496740b04)
 * [~BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aa52831f008141d199920090685f078fd)
 * [~IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1aa2353eb3f2ef5955c1c3c2d1024c8c48)
@@ -92,11 +91,11 @@ class MyActivity : public BaseActivity
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a35c8f4f3abcf43c034aee89011f30597"></a>
-### Variable name\_
+### Variable name_
 
 ![][private]
 
-#include: <[base_activity.h](base__activity_8h.md#base__activity_8h)>
+**Definition**: `core/lifecycle/activity/base_activity.h` (line 216)
 
 
 ```cpp
@@ -119,11 +118,11 @@ std::string simulation_framework::core::lifecycle::BaseActivity::name_
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a523727eb50a1a7e7af9abbec75f674f1"></a>
-### Variable communication\_manager\_ptr\_
+### Variable communication_manager_ptr_
 
 ![][private]
 
-#include: <[base_activity.h](base__activity_8h.md#base__activity_8h)>
+**Definition**: `core/lifecycle/activity/base_activity.h` (line 217)
 
 
 ```cpp
@@ -137,7 +136,7 @@ std::shared_ptr<core::CommunicationManager> simulation_framework::core::lifecycl
 
 
 
-**Type**: std::shared_ptr< core::CommunicationManager >
+**Type**: std::shared_ptr< [core::CommunicationManager](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
 
 <!--
 **TODO**:
@@ -146,11 +145,11 @@ std::shared_ptr<core::CommunicationManager> simulation_framework::core::lifecycl
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a097c7767b500e8ee7551431fc36788a1"></a>
-### Variable scheduler\_client\_ptr\_
+### Variable scheduler_client_ptr_
 
 ![][private]
 
-#include: <[base_activity.h](base__activity_8h.md#base__activity_8h)>
+**Definition**: `core/lifecycle/activity/base_activity.h` (line 218)
 
 
 ```cpp
@@ -173,11 +172,11 @@ std::unique_ptr<scheduling::ISchedulerClient> simulation_framework::core::lifecy
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1ae3295afdda5cdc8455bc6554c81444e5"></a>
-### Variable timeout\_
+### Variable timeout_
 
 ![][private]
 
-#include: <[base_activity.h](base__activity_8h.md#base__activity_8h)>
+**Definition**: `core/lifecycle/activity/base_activity.h` (line 219)
 
 
 ```cpp
@@ -200,15 +199,15 @@ std::chrono::milliseconds simulation_framework::core::lifecycle::BaseActivity::t
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a57099acd8929a247b8206e56b4f0fa77"></a>
-### Variable is\_init\_step\_finished\_
+### Variable is_init_step_finished_
 
 ![][private]
 
-#include: <[base_activity.h](base__activity_8h.md#base__activity_8h)>
+**Definition**: `core/lifecycle/activity/base_activity.h` (line 220)
 
 
 ```cpp
-bool simulation_framework::core::lifecycle::BaseActivity::is_init_step_finished_ {false}
+bool simulation_framework::core::lifecycle::BaseActivity::is_init_step_finished_ {[false](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)}
 ```
 
 
@@ -218,7 +217,7 @@ bool simulation_framework::core::lifecycle::BaseActivity::is_init_step_finished_
 
 
 
-**Type**: bool
+**Type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -251,8 +250,8 @@ Construct an [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1B
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* std::shared_ptr< core::CommunicationManager > **communication_manager_ptr**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* std::shared_ptr< [core::CommunicationManager](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > **communication_manager_ptr**
 * std::unique_ptr< scheduling::ISchedulerClient > **scheduler_client**
 
 **Return type**: 
@@ -287,8 +286,8 @@ Construct an [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1B
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* std::shared_ptr< core::CommunicationManager > **communication_manager_ptr**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* std::shared_ptr< [core::CommunicationManager](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > **communication_manager_ptr**
 * std::unique_ptr< scheduling::ISchedulerClient > **scheduler_client**
 * std::chrono::milliseconds **timeout**
 
@@ -322,8 +321,8 @@ Construct an [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1B
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* const Topics & **topics**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Topics & **topics**
 
 **Return type**: 
 
@@ -356,8 +355,8 @@ Construct an [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1B
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* const Topics & **topics**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Topics & **topics**
 * std::chrono::milliseconds **timeout**
 
 **Return type**: 
@@ -440,7 +439,7 @@ Register this activity's bounding communications, managed by higher level. Modif
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetUpCommunication](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1a08c573b82ec098a7ff5e31d5d827a40f)
 
@@ -467,7 +466,7 @@ Calls the [ExecuteStep()](classsimulation__framework_1_1core_1_1lifecycle_1_1Bas
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1a8ae00ca0fb6cf1116435bdbdfa573188)
 
@@ -494,7 +493,7 @@ Active shutdown the simulation. Simulation will finish planned events before thi
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Shutdown](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1a1753af46ca02f6d39442afa25ddca513)
 
@@ -614,7 +613,7 @@ A map of customized parameters. key is the name of the customized parameter, val
 
 
 
-**Return type**: const [SimulationParameters::CustomizedParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a25a000c4c4dfefb04ff71a796e06c787) &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [SimulationParameters::CustomizedParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a25a000c4c4dfefb04ff71a796e06c787) &
 
 **Reimplements**: [GetCustomizedParameters](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1a14b69f84754dcd92d6b5eb49a8be8f33)
 
@@ -645,9 +644,9 @@ Set the simulation settings for this activity.
 
 **Parameters**:
 
-* const scheduling::SimulationSettings & **sim_settings**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) scheduling::SimulationSettings & **sim_settings**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetSimulationSettings](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1a8ae386596598777d6ddfe4ae787ef5c4)
 
@@ -676,7 +675,7 @@ Initialize this activity with customized action.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1ada1e5ab14eb5c159068ccbfc1f8e559c)
 
@@ -707,7 +706,7 @@ Finalize this activity with customized action.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Finalize](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1ae83ad9c4711dfce8cf962da06e0a9193)
 
@@ -734,7 +733,7 @@ Core operation of customer logic in a concrete activity.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -763,7 +762,7 @@ Addition of Pub/Sub into a concrete activity.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -797,15 +796,15 @@ Template method which allows user to add one publisher pushing message to the gi
 
 **Parameters**:
 
-* const core::TopicId & **topic_id**
-* typename Topic::PublisherCallback **callback**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) core::TopicId & **topic_id**
+* [typename](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Topic::PublisherCallback **callback**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
 
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"Topic"}]}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"typename"}]},{"type":"text","text":" "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"Topic"}]}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::BaseActivity::AddPublisher"}]}`
 -->
 
@@ -831,15 +830,15 @@ Template method which allows user to add one subscriber receiving message to the
 
 **Parameters**:
 
-* const core::TopicId & **topic_id**
-* typename Topic::SubscriberMessageCallback **callback**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) core::TopicId & **topic_id**
+* [typename](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Topic::SubscriberMessageCallback **callback**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
 
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"Topic"}]}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"typename"}]},{"type":"text","text":" "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"Topic"}]}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::BaseActivity::AddSubscriber"}]}`
 -->
 
@@ -862,7 +861,7 @@ Default Initial methods called here, e.g. Communication hand-shaking. Modifying 
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [WaitForPubSubConnection](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1a29ff4fb0ec86c24b24ff9296107df773)
 

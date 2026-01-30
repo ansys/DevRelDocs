@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance"></a>
-# Class simulation\_framework::core::lifecycle::SimulationInstance
+# Class simulation_framework::core::lifecycle::SimulationInstance
 
 ![][C++]
 ![][public]
 
-#include: <[simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h)>
+**Definition**: `core/lifecycle/simulation_instance/simulation_instance.h` (line 34)
 
 class [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance)
 
@@ -12,13 +11,13 @@ class [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1Si
 
 **Inherits from**:
 
-* [simulation\_framework::core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance)
+* [simulation_framework::core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance)
 
 ## Members
 
 * [GetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1af6974f312cdfb505bcb95e6d7e7fa239)
 * [GetSimulationDuration](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a2d9fb927c4cc2bfe836b2743b547c0a2)
-* [impl\_](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ac3014d4327563f6020fb56428c78f8b0)
+* [impl_](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ac3014d4327563f6020fb56428c78f8b0)
 * [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a80fd1fe5ea5f8c1187464f0aab2cf035)
 * [IsPauseRequested](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1aa2fd258d5ef6c4b2f27e15d551748e21)
 * [IsSimulationFinished](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ace04d54df178ccb14d5c17817d010489)
@@ -32,11 +31,11 @@ class [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1Si
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ac3014d4327563f6020fb56428c78f8b0"></a>
-### Variable impl\_
+### Variable impl_
 
 ![][private]
 
-#include: <[simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h)>
+**Definition**: `core/lifecycle/simulation_instance/simulation_instance.h` (line 82)
 
 
 ```cpp
@@ -50,7 +49,7 @@ std::unique_ptr<SimulationInstanceImpl> simulation_framework::core::lifecycle::S
 
 
 
-**Type**: std::unique_ptr< SimulationInstanceImpl >
+**Type**: std::unique_ptr< [SimulationInstanceImpl](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
 
 <!--
 **TODO**:
@@ -91,8 +90,8 @@ Constructor for [SimulationInstance](classsimulation__framework_1_1core_1_1lifec
 * std::unique_ptr< [IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory) > **activity_factory**
 * std::shared_ptr< [core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock) > **sim_clock**
 * std::unique_ptr< [time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker) > **sim_state_checker**
-* const core::StandaloneInitData & **standalone_init_data**
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) core::StandaloneInitData & **standalone_init_data**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
 
 **Return type**: 
 
@@ -131,9 +130,9 @@ Constructor for [SimulationInstance](classsimulation__framework_1_1core_1_1lifec
 * std::unique_ptr< [IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory) > **activity_factory**
 * std::shared_ptr< [core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock) > **sim_clock**
 * std::unique_ptr< [time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker) > **sim_state_checker**
-* const core::StandaloneInitData & **standalone_init_data**
-* const std::string & **scheduling_config_path**
-* const logging::LogLevel **log_level** = logging::LogLevel::kDebug 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) core::StandaloneInitData & **standalone_init_data**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **scheduling_config_path**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) logging::LogLevel **log_level** = logging::LogLevel::kDebug 
 
 **Return type**: 
 
@@ -185,7 +184,7 @@ Initialize based on user config and turn the instance to ready state.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1a871729a4dedeafe05c8bece8d1792e0d)
 
@@ -212,7 +211,7 @@ Step the simulation based on base cycle time.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [StepOnce](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1a80cbbbd41aa237e59428d0becfe1dc0d)
 
@@ -239,7 +238,7 @@ provides the reset to [SimRunner](classsimulation__framework_1_1core_1_1SimRunne
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Reset](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1a5cdfd3b69391a260cdc1611cf4b5adff)
 
@@ -266,7 +265,7 @@ indicates whether this run if simulation reaches the end
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [IsSimulationFinished](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1ac7571086e9a65bb13fef8dd79d94edba)
 
@@ -293,7 +292,7 @@ indicates whether pause is requested
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [IsPauseRequested](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1a018d76d8a42d2371d0740b2ee7601a68)
 

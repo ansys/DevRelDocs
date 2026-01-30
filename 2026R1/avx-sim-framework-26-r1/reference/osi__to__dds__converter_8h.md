@@ -1,9 +1,8 @@
-<a id="osi__to__dds__converter_8h"></a>
-# File osi\_to\_dds\_converter.h
+# File osi_to_dds_converter.h
 
 ![][C++]
 
-**Location**: `autonomy/communication/utils/osi\_to\_dds\_converter.h`
+**Location**: `autonomy/communication/utils/osi_to_dds_converter.h`
 
 
 
@@ -11,10 +10,10 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
-* [simulation\_framework::autonomy::communication](namespacesimulation__framework_1_1autonomy_1_1communication.md#namespacesimulation__framework_1_1autonomy_1_1communication)
-* [simulation\_framework::autonomy::communication::utils](namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md#namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
+* [simulation_framework::autonomy::communication](namespacesimulation__framework_1_1autonomy_1_1communication.md#namespacesimulation__framework_1_1autonomy_1_1communication)
+* [simulation_framework::autonomy::communication::utils](namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md#namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils)
 
 ## Includes
 
@@ -24,24 +23,6 @@
 * <vector>
 
 
-```mermaid
-graph LR
-1["osi_to_dds_converter.h"]
-click 1 "osi__to__dds__converter_8h.md#osi__to__dds__converter_8h"
-1 --> 2
-1 --> 3
-1 --> 4
-1 --> 5
-
-2["core/message/rtidds/generic_bytes/generic_bytes.hpp"]
-
-3["stdexcept"]
-
-4["string"]
-
-5["vector"]
-
-```
 
 
 ## Source

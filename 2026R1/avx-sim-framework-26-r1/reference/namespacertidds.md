@@ -1,9 +1,8 @@
-<a id="namespacertidds"></a>
 # Namespace rtidds
 
 ![][C++]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 16)
 
 A dedicated namespace for messages in RTI-DDS communication.
 
@@ -11,16 +10,16 @@ A dedicated namespace for messages in RTI-DDS communication.
 
 ## Typedefs
 
-<a id="namespacertidds_1ac35b14c276cd5d698f53163f30132293"></a>
+<a id="namespacertidds_1a442f59bc02e5668d37a306af1c6faacd"></a>
 ### Typedef VariantMessage
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 33)
 
 
 ```cpp
-using rtidds::VariantMessage =  FmuMessage
+using rtidds::VariantMessage = typedef FmuMessage
 ```
 
 
@@ -38,7 +37,7 @@ Alias for variant message type (currently maps to FmuMessage).
 
 
 
-This alias allows VariantDataTopicType and other code to use a semantic name ([rtidds::VariantMessage](namespacertidds.md#namespacertidds_1ac35b14c276cd5d698f53163f30132293)) while maintaining compatibility with the underlying FmuMessage structure. If a dedicated VariantMessage type is introduced in the future, only this alias needs to be updated.
+This alias allows VariantDataTopicType and other code to use a semantic name ([rtidds::VariantMessage](namespacertidds.md#namespacertidds_1a442f59bc02e5668d37a306af1c6faacd)) while maintaining compatibility with the underlying FmuMessage structure. If a dedicated VariantMessage type is introduced in the future, only this alias needs to be updated.
 
 
 
@@ -50,22 +49,22 @@ This alias allows VariantDataTopicType and other code to use a semantic name ([r
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"rtidds::VariantMessage"}]}`
 -->
 
-<a id="namespacertidds_1aae35e1634347f425630b55b8e956864d"></a>
+<a id="namespacertidds_1a5d98a2ba88abe876a19cf09c458e06e1"></a>
 ### Typedef VariantData
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 38)
 
 
 ```cpp
-using rtidds::VariantData =  FmuData
+using rtidds::VariantData = typedef FmuData
 ```
 
 
 Alias for variant data type (currently maps to FmuData).
 
-This alias provides a generic name for variant data entries, allowing code to use [rtidds::VariantData](namespacertidds.md#namespacertidds_1aae35e1634347f425630b55b8e956864d) instead of rtidds::FmuData when working with variant-style messages.
+This alias provides a generic name for variant data entries, allowing code to use [rtidds::VariantData](namespacertidds.md#namespacertidds_1a5d98a2ba88abe876a19cf09c458e06e1) instead of rtidds::FmuData when working with variant-style messages.
 
 
 
@@ -77,16 +76,16 @@ This alias provides a generic name for variant data entries, allowing code to us
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"rtidds::VariantData"}]}`
 -->
 
-<a id="namespacertidds_1a4641aa3b5d2f6aa988504f083bb15126"></a>
+<a id="namespacertidds_1ae065fe2b5abd93b78891593a53ef039b"></a>
 ### Typedef VariantDatatype
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 43)
 
 
 ```cpp
-using rtidds::VariantDatatype =  FmuDatatype
+using rtidds::VariantDatatype = typedef FmuDatatype
 ```
 
 

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger"></a>
-# Class simulation\_framework::core::logging::ConsoleLogger
+# Class simulation_framework::core::logging::ConsoleLogger
 
 ![][C++]
 ![][public]
 
-#include: <[console_logger.h](console__logger_8h.md#console__logger_8h)>
+**Definition**: `core/logging/console_logger.h` (line 33)
 
 A basic implementation of the logger which logs to stdout/stderr.
 
@@ -12,14 +11,14 @@ A basic implementation of the logger which logs to stdout/stderr.
 
 **Inherits from**:
 
-* [simulation\_framework::core::logging::ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger)
+* [simulation_framework::core::logging::ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger)
 
 ## Members
 
 * [GetCurrentLogLevel](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a5fa0554c57b1663845e43bd72bd7f483)
 * [GetCurrentTimestamp](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a7ce6beb10222c900bd54acc10e78ba33)
 * [Log](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a9d2ff51ab9e4e3b050fc243b55f03fb7)
-* [log\_level\_](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a171a87d562a39f69472fe1d54605aa23)
+* [log_level_](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a171a87d562a39f69472fe1d54605aa23)
 * [SetCurrentLogLevel](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1aaf1a52b229da07a50705df5bf08307a3)
 * [ShouldUseColorsForStderr](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1afc3230e4743964d30f8a0abb24e63851)
 * [ShouldUseColorsForStdout](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1aac76cb16f147da289364d73baf353d90)
@@ -29,11 +28,11 @@ A basic implementation of the logger which logs to stdout/stderr.
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a171a87d562a39f69472fe1d54605aa23"></a>
-### Variable log\_level\_
+### Variable log_level_
 
 ![][private]
 
-#include: <[console_logger.h](console__logger_8h.md#console__logger_8h)>
+**Definition**: `core/logging/console_logger.h` (line 153)
 
 
 ```cpp
@@ -106,7 +105,7 @@ Set the current log level
 
 * LogLevel **log_level**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetCurrentLogLevel](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger_1ac6919addad8357c8e30bd3481b2974e7)
 
@@ -173,7 +172,7 @@ Log a message on the logging interface
 * LogLevel **level**
 * std::string_view **message**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Log](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger_1a4a984cd42c308ce570895a876337753f)
 
@@ -205,7 +204,7 @@ true if colors should be enabled, false otherwise
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -233,7 +232,7 @@ true if colors should be enabled, false otherwise
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1autonomy_1_1util"></a>
-# Namespace simulation\_framework::autonomy::util
+# Namespace simulation_framework::autonomy::util
 
 ![][C++]
 
-#include: <[simulation_input_utils.h](simulation__input__utils_8h.md#simulation__input__utils_8h)>
+**Definition**: `autonomy/simulation/sim_instance/simulation_input_utils.h` (line 25)
 
 
 
@@ -56,8 +55,8 @@ The full path of the input file as a string, if exists.
 
 **Parameters**:
 
-* const std::string & **name**
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
 
 **Return type**: std::optional< std::string >
 
@@ -105,7 +104,7 @@ The full path of the OpenScenario file as a string.
 
 **Parameters**:
 
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
 
 **Return type**: std::string
 
@@ -153,7 +152,7 @@ The full path of the GT-Gen user settings file as a string.
 
 **Parameters**:
 
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
 
 **Return type**: std::string
 
@@ -201,7 +200,7 @@ The full path of the driver input file as a string.
 
 **Parameters**:
 
-* const [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters) & **core_parameters**
 
 **Return type**: std::string
 

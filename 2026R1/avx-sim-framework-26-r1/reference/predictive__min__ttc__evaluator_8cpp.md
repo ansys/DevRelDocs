@@ -1,9 +1,8 @@
-<a id="predictive__min__ttc__evaluator_8cpp"></a>
-# File predictive\_min\_ttc\_evaluator.cpp
+# File predictive_min_ttc_evaluator.cpp
 
 ![][C++]
 
-**Location**: `autonomy/evaluator/predictive\_min\_ttc\_evaluator/predictive\_min\_ttc\_evaluator.cpp`
+**Location**: `autonomy/evaluator/predictive_min_ttc_evaluator/predictive_min_ttc_evaluator.cpp`
 
 
 
@@ -11,64 +10,14 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
 
 ## Includes
 
 * [autonomy/evaluator/predictive_min_ttc_evaluator/predictive_min_ttc_evaluator.h](predictive__min__ttc__evaluator_8h.md#predictive__min__ttc__evaluator_8h)
 
 
-```mermaid
-graph LR
-1["predictive_min_ttc_evaluator.cpp"]
-click 1 "predictive__min__ttc__evaluator_8cpp.md#predictive__min__ttc__evaluator_8cpp"
-1 --> 2
-
-2["autonomy/evaluator/predictive_min_ttc_evaluator/predictive_min_ttc_evaluator.h"]
-click 2 "predictive__min__ttc__evaluator_8h_source.md#predictive__min__ttc__evaluator_8h_source"
-2 --> 3
-2 --> 5
-
-3["autonomy/evaluator/predictive_ttc_calculator/predictive_ttc_calculator.h"]
-click 3 "predictive__ttc__calculator_8h_source.md#predictive__ttc__calculator_8h_source"
-3 --> 4
-
-6["core/kpi/definition/kpi_definition.h"]
-click 6 "kpi__definition_8h_source.md#kpi__definition_8h_source"
-6 --> 7
-6 --> 10
-6 --> 13
-
-5["core/kpi/i_kpi/i_kpi.h"]
-click 5 "i__kpi_8h_source.md#i__kpi_8h_source"
-5 --> 6
-5 --> 12
-
-7["core/time/i_clock/i_clock.h"]
-click 7 "i__clock_8h_source.md#i__clock_8h_source"
-7 --> 8
-7 --> 11
-7 --> 12
-
-8["core/time/i_clock/timestamp.h"]
-click 8 "timestamp_8h_source.md#timestamp_8h_source"
-8 --> 9
-8 --> 10
-
-11["chrono"]
-
-9["cstdint"]
-
-12["memory"]
-
-4["osi_groundtruth.pb.h"]
-
-10["string"]
-
-13["vector"]
-
-```
 
 
 ## Source

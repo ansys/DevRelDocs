@@ -1,9 +1,8 @@
-<a id="namespaceutil"></a>
 # Namespace util
 
 ![][C++]
 
-#include: <[simulation_input_utils.h](simulation__input__utils_8h.md#simulation__input__utils_8h)>
+**Definition**: `autonomy/simulation/sim_instance/simulation_input_utils.h` (line 22)
 
 The namespace for utilities under autonomy.
 

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1SimRunner"></a>
-# Class simulation\_framework::core::SimRunner
+# Class simulation_framework::core::SimRunner
 
 ![][C++]
 ![][public]
 
-#include: <[sim_runner.h](sim__runner_8h.md#sim__runner_8h)>
+**Definition**: `core/service/sim_runner/sim_runner.h` (line 26)
 
 Simulation runner with external control logic.
 
@@ -14,13 +13,13 @@ The <code>[SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsi
 
 **Inherits from**:
 
-* [simulation\_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner)
+* [simulation_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner)
 
 ## Members
 
 * [GetExecutedStepCount](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab7b56bf2aa50f1ca9b14b928268939eb)
 * [GetSimulationState](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab5f6d34b0bbd35000cfff95bcfeb901f)
-* [impl\_](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ae47e23a3e4257071739015ee0b74d626)
+* [impl_](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ae47e23a3e4257071739015ee0b74d626)
 * [Pause](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1a2008706db821aed76b79bee747a220ac)
 * [Resume](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1a0bc52ce914b51ce4fc709b0686d05475)
 * [Run](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1aa47196cb107ebc1c200ab5fd43fc22f9)
@@ -35,11 +34,11 @@ The <code>[SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsi
 ## Private attributes
 
 <a id="classsimulation__framework_1_1core_1_1SimRunner_1ae47e23a3e4257071739015ee0b74d626"></a>
-### Variable impl\_
+### Variable impl_
 
 ![][private]
 
-#include: <[sim_runner.h](sim__runner_8h.md#sim__runner_8h)>
+**Definition**: `core/service/sim_runner/sim_runner.h` (line 79)
 
 
 ```cpp
@@ -53,7 +52,7 @@ Implementation details of the <code>[SimRunner](classsimulation__framework_1_1co
 
 
 
-**Type**: std::unique_ptr< SimRunnerImpl >
+**Type**: std::unique_ptr< [SimRunnerImpl](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
 
 <!--
 **TODO**:
@@ -235,7 +234,7 @@ A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#
 
 **Parameters**:
 
-* int **n**
+* [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **n**
 
 **Return type**: [StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)
 
@@ -357,7 +356,7 @@ The number of executed simulation steps.
 
 
 
-**Return type**: uint64_t
+**Return type**: [uint64_t](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [GetExecutedStepCount](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1ae60fbe830aef619e8cbd39a092f1f995)
 
@@ -384,7 +383,7 @@ Runs the simulation until it ends without accepting further commands.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [RunOverSimulation](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1af5cc40c4bdd9360cd2e95e1c2f8e5626)
 

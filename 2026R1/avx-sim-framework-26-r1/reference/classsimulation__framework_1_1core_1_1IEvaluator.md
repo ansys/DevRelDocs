@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1IEvaluator"></a>
-# Class simulation\_framework::core::IEvaluator
+# Class simulation_framework::core::IEvaluator
 
 ![][C++]
 ![][public]
 
-#include: <[i_evaluator.h](i__evaluator_8h.md#i__evaluator_8h)>
+**Definition**: `core/kpi/i_evaluator/i_evaluator.h` (line 22)
 
 class [IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator)
 
@@ -12,7 +11,7 @@ Interface definition for evaluator where user can add KPIs and do evaluations in
 
 **Template parameters**:
 
-* typename T
+* [typename](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [T](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 ## Members
 
@@ -68,7 +67,7 @@ Implement any initialization related logic happens here
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -97,7 +96,7 @@ Implement any logic to reset your KPI calculations
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -126,7 +125,7 @@ Do calculation of all KPIs
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -151,18 +150,15 @@ virtual void simulation_framework::core::IEvaluator< T >::AddKpi(std::unique_ptr
 
 
 
-Add one KPI into this evaluator 
-**Parameters**:
 
-* **kpi**: iKpi interface
 
 
 
 **Parameters**:
 
-* std::unique_ptr< [kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)< T > > **kpi**
+* std::unique_ptr< [kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)< [T](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > > **kpi**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -225,9 +221,9 @@ Set input message for KPI calculations
 
 **Parameters**:
 
-* const T & **input**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [T](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) & **input**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -249,3 +245,4 @@ Set input message for KPI calculations
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

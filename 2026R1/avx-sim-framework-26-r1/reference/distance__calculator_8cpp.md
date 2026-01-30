@@ -1,9 +1,8 @@
-<a id="distance__calculator_8cpp"></a>
-# File distance\_calculator.cpp
+# File distance_calculator.cpp
 
 ![][C++]
 
-**Location**: `autonomy/evaluator/distance\_calculator/distance\_calculator.cpp`
+**Location**: `autonomy/evaluator/distance_calculator/distance_calculator.cpp`
 
 
 
@@ -11,8 +10,8 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
 
 ## Includes
 
@@ -20,25 +19,6 @@
 * <cmath>
 
 
-```mermaid
-graph LR
-1["distance_calculator.cpp"]
-click 1 "distance__calculator_8cpp.md#distance__calculator_8cpp"
-1 --> 2
-1 --> 5
-
-2["autonomy/evaluator/distance_calculator/distance_calculator.h"]
-click 2 "distance__calculator_8h_source.md#distance__calculator_8h_source"
-2 --> 3
-2 --> 4
-
-5["cmath"]
-
-4["optional"]
-
-3["osi_groundtruth.pb.h"]
-
-```
 
 
 ## Source

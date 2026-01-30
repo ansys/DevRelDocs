@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator"></a>
-# Namespace simulation\_framework::core::scheduling::scheduling\_client\_creator
+# Namespace simulation_framework::core::scheduling::scheduling_client_creator
 
 ![][C++]
 
-#include: <[scheduler_client_creator.h](scheduler__client__creator_8h.md#scheduler__client__creator_8h)>
+**Definition**: `core/scheduler/scheduler_client/scheduler_client_creator.h` (line 21)
 
 
 
@@ -44,7 +43,7 @@ A unique pointer of ISchedulerClient
 
 **Parameters**:
 
-* const SchedulerClientType **type**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) SchedulerClientType **type**
 
 **Return type**: std::unique_ptr< ISchedulerClient >
 

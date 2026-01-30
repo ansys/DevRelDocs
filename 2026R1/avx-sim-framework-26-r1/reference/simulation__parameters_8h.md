@@ -1,9 +1,8 @@
-<a id="simulation__parameters_8h"></a>
-# File simulation\_parameters.h
+# File simulation_parameters.h
 
 ![][C++]
 
-**Location**: `core/service/parameter/simulation\_parameters.h`
+**Location**: `core/service/parameter/simulation_parameters.h`
 
 
 
@@ -11,12 +10,12 @@
 
 ## Classes
 
-* [simulation\_framework::core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters)
+* [simulation_framework::core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
 
 ## Includes
 
@@ -26,24 +25,6 @@
 * <vector>
 
 
-```mermaid
-graph LR
-1["simulation_parameters.h"]
-click 1 "simulation__parameters_8h.md#simulation__parameters_8h"
-1 --> 2
-1 --> 3
-1 --> 4
-1 --> 5
-
-2["chrono"]
-
-3["string"]
-
-4["unordered_map"]
-
-5["vector"]
-
-```
 
 
 ## Included by
@@ -56,78 +37,6 @@ click 1 "simulation__parameters_8h.md#simulation__parameters_8h"
 * [simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h)
 
 
-```mermaid
-graph RL
-15["cli_provider.h"]
-click 15 "cli__provider_8h_source.md#cli__provider_8h_source"
-
-2["activity_factory.h"]
-click 2 "activity__factory_8h_source.md#activity__factory_8h_source"
-
-14["autonomy_sim_instance_creator.h"]
-click 14 "autonomy__sim__instance__creator_8h_source.md#autonomy__sim__instance__creator_8h_source"
-
-13["i_sim_instance_creator.h"]
-click 13 "i__sim__instance__creator_8h_source.md#i__sim__instance__creator_8h_source"
-14 --> 13
-15 --> 13
-
-16["simulation_input_utils.h"]
-click 16 "simulation__input__utils_8h_source.md#simulation__input__utils_8h_source"
-
-5["base_activity.h"]
-click 5 "base__activity_8h_source.md#base__activity_8h_source"
-6 --> 5
-
-4["i_activity.h"]
-click 4 "i__activity_8h_source.md#i__activity_8h_source"
-5 --> 4
-7 --> 4
-9 --> 4
-11 --> 4
-
-6["fmu_base_activity.h"]
-click 6 "fmu__base__activity_8h_source.md#fmu__base__activity_8h_source"
-
-7["i_activity_factory.h"]
-click 7 "i__activity__factory_8h_source.md#i__activity__factory_8h_source"
-2 --> 7
-8 --> 7
-
-8["simulation_instance.h"]
-click 8 "simulation__instance_8h_source.md#simulation__instance_8h_source"
-
-9["i_scheduler_client.h"]
-click 9 "i__scheduler__client_8h_source.md#i__scheduler__client_8h_source"
-2 --> 9
-5 --> 9
-6 --> 9
-7 --> 9
-10 --> 9
-
-10["scheduler_client_creator.h"]
-click 10 "scheduler__client__creator_8h_source.md#scheduler__client__creator_8h_source"
-
-3["cli_parser.h"]
-click 3 "cli__parser_8h_source.md#cli__parser_8h_source"
-
-1["simulation_parameters.h"]
-click 1 "simulation__parameters_8h.md#simulation__parameters_8h"
-2 --> 1
-3 --> 1
-4 --> 1
-13 --> 1
-16 --> 1
-8 --> 1
-
-11["i_standalone_activity_creator.h"]
-click 11 "i__standalone__activity__creator_8h_source.md#i__standalone__activity__creator_8h_source"
-12 --> 11
-
-12["standalone_activity_service.h"]
-click 12 "standalone__activity__service_8h_source.md#standalone__activity__service_8h_source"
-
-```
 
 
 ## Source

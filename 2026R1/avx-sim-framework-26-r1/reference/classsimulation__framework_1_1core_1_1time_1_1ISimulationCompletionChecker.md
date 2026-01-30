@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker"></a>
-# Class simulation\_framework::core::time::ISimulationCompletionChecker
+# Class simulation_framework::core::time::ISimulationCompletionChecker
 
 ![][C++]
 ![][public]
 
-#include: <[i_simulation_completion_checker.h](i__simulation__completion__checker_8h.md#i__simulation__completion__checker_8h)>
+**Definition**: `core/time/i_simulation_completion_checker/i_simulation_completion_checker.h` (line 25)
 
 Interface for determining simulation completion.
 
@@ -12,7 +11,7 @@ The <code>[ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1t
 
 **Inherited by**:
 
-* [simulation\_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker)
+* [simulation_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker)
 
 ## Members
 
@@ -42,7 +41,7 @@ Checks if the simulation has finished.
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 

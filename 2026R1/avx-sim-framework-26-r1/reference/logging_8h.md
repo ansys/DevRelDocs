@@ -1,4 +1,3 @@
-<a id="logging_8h"></a>
 # File logging.h
 
 ![][C++]
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::core::logging::LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance)
+* [simulation_framework::core::logging::LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging)
 
 ## Includes
 
@@ -28,50 +27,6 @@
 * <vector>
 
 
-```mermaid
-graph LR
-2["core/logging/console_logger.h"]
-click 2 "console__logger_8h_source.md#console__logger_8h_source"
-2 --> 3
-2 --> 6
-2 --> 7
-2 --> 8
-2 --> 9
-2 --> 5
-2 --> 10
-
-3["core/logging/i_logger.h"]
-click 3 "i__logger_8h_source.md#i__logger_8h_source"
-3 --> 4
-3 --> 5
-
-1["logging.h"]
-click 1 "logging_8h.md#logging_8h"
-1 --> 2
-1 --> 3
-1 --> 11
-1 --> 5
-1 --> 12
-
-6["chrono"]
-
-7["iomanip"]
-
-8["iostream"]
-
-11["memory"]
-
-9["sstream"]
-
-4["string"]
-
-5["string_view"]
-
-10["unistd.h"]
-
-12["vector"]
-
-```
 
 
 ## Included by
@@ -79,16 +34,6 @@ click 1 "logging_8h.md#logging_8h"
 * [simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h)
 
 
-```mermaid
-graph RL
-2["simulation_instance.h"]
-click 2 "simulation__instance_8h_source.md#simulation__instance_8h_source"
-
-1["logging.h"]
-click 1 "logging_8h.md#logging_8h"
-2 --> 1
-
-```
 
 
 ## Source

@@ -1,9 +1,8 @@
-<a id="namespacetopic__registry"></a>
-# Namespace topic\_registry
+# Namespace topic_registry
 
 ![][C++]
 
-#include: <topic_registry.h>
+**Definition**: `autonomy/communication/topic_registry/topic_registry.h` (line 31)
 
 The namespace for topic registry in communication module under namespace simulation_framework::autonomy.
 

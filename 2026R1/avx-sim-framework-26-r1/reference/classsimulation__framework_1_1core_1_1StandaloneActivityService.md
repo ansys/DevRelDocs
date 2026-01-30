@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1StandaloneActivityService"></a>
-# Class simulation\_framework::core::StandaloneActivityService
+# Class simulation_framework::core::StandaloneActivityService
 
 ![][C++]
 ![][public]
 
-#include: <[standalone_activity_service.h](standalone__activity__service_8h.md#standalone__activity__service_8h)>
+**Definition**: `core/service/standalone_activity_service/standalone_activity_service.h` (line 50)
 
 It provides a running process of desired activity returned by interface [IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator) and keeps it communicating and being scheduled by simulation framework core process.
 
@@ -117,7 +116,7 @@ Programm return code which indicates whether the Standalone Activity is healthy
 
 
 
-**Return type**: int
+**Return type**: [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

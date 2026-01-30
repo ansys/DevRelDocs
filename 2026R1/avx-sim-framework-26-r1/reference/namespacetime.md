@@ -1,9 +1,8 @@
-<a id="namespacetime"></a>
 # Namespace time
 
 ![][C++]
 
-#include: <[i_clock.h](i__clock_8h.md#i__clock_8h)>
+**Definition**: `core/time/i_clock/i_clock.h` (line 21)
 
 The namespace for simulation time related implementation under namespace simulation_framework::core.
 

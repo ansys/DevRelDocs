@@ -1,9 +1,8 @@
-<a id="simulation__input__definition_8h"></a>
-# File simulation\_input\_definition.h
+# File simulation_input_definition.h
 
 ![][C++]
 
-**Location**: `autonomy/simulation/sim\_instance/simulation\_input\_definition.h`
+**Location**: `autonomy/simulation/sim_instance/simulation_input_definition.h`
 
 
 
@@ -11,24 +10,15 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
 * [autonomy](namespaceautonomy.md#namespaceautonomy)
-* [simulation\_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
+* [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
 
 ## Includes
 
 * <string>
 
 
-```mermaid
-graph LR
-1["simulation_input_definition.h"]
-click 1 "simulation__input__definition_8h.md#simulation__input__definition_8h"
-1 --> 2
-
-2["string"]
-
-```
 
 
 ## Source
