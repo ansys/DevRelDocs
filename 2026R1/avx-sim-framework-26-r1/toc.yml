@@ -22,7 +22,6 @@
     href: user-guide/avx_sensor_co_simulation.md
   - name: Performance Profiler
     href: user-guide/performance_profiler.md
-
 - name: Reference
   items:
   - name: Namespaces
