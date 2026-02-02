@@ -153,6 +153,16 @@ Dictionary with connected input slots as keys and the slot’s sources as values
 
 Dictionary with connected output slots as keys and the slot’s destinations as values. Each destination is a tuple of the destination actor and the destination slot name.
 
+<a id="optiSLang_Kernel.Actor.delay_before_execution"></a>
+
+#### *property* delay_before_execution
+
+<a id="optiSLang_Kernel.Actor.free_cached_resources"></a>
+
+#### free_cached_resources()
+
+Release resources an actor may have cached for processing or other requests
+
 <a id="optiSLang_Kernel.Actor.get_cleaning_mode"></a>
 
 #### get_cleaning_mode() → int

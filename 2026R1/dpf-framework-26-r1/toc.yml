@@ -1370,6 +1370,8 @@
       href: operator-specifications/result/read_cms_rbd_file.md
     - name: recombine harmonic indeces cyclic
       href: operator-specifications/result/recombine_harmonic_indeces_cyclic.md
+    - name: record reader
+      href: operator-specifications/result/record_reader.md
     - name: remove rigid body motion
       href: operator-specifications/result/remove_rigid_body_motion.md
     - name: remove rigid body motion fc
@@ -1793,6 +1795,10 @@
       href: operator-specifications/utility/change_shell_layers.md
     - name: compute time scoping
       href: operator-specifications/utility/compute_time_scoping.md
+    - name: concatenate fields
+      href: operator-specifications/utility/concatenate_fields.md
+    - name: concatenate fields containers
+      href: operator-specifications/utility/concatenate_fields_containers.md
     - name: customtypefield get attribute
       href: operator-specifications/utility/customtypefield_get_attribute.md
     - name: cyclic support get attribute

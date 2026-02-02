@@ -6,8 +6,9 @@ This notebook shows how to access layouts through the Streamlined API.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+import ansys.grantami.core as mpy
+
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 ```
 

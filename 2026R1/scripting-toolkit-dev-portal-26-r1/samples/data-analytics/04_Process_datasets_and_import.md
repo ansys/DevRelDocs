@@ -142,7 +142,7 @@ _ = ax.set_title("Load vs displacement")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_12_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_12_0.png)
     
 
 
@@ -237,11 +237,11 @@ _ = ax.set_title("Stress vs Strain")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_17_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_17_0.png)
     
 
 
-Since the plastic region extends over a large strain range, it is difficult to see detail in the elastic region. 
+Since the plastic region extends over a large strain range, it is difficult to see detail in the elastic region.
 
 Create an inset and plot the elastic and yield region only.
 
@@ -265,14 +265,14 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_19_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_19_0.png)
     
 
 
 
 ### Calculate Ultimate tensile strength
 
-*Ultimate tensile strength* can be calculated by taking the maximum value of the `df.Stress` column. 
+*Ultimate tensile strength* can be calculated by taking the maximum value of the `df.Stress` column.
 
 Calculate and store the tensile strength in SI units and MPa (the latter will be used later).
 
@@ -292,12 +292,22 @@ strength*.
 
 ```python
 strain_at_uts = df.Strain[df.Stress == tens_strength].iloc[0]
-ax.scatter(x=[strain_at_uts], y=[tens_strength_MPa], color="black", marker="x", alpha=0.75, s=50, zorder=1)
-ax.annotate(rf"$\sigma_{{ts}}$: {tens_strength_MPa:.2f} MPa",
-            xy=(strain_at_uts, tens_strength_MPa),
-            xytext=(0,-14),
-            textcoords="offset points",
-            fontsize=8)
+ax.scatter(
+    x=[strain_at_uts],
+    y=[tens_strength_MPa],
+    color="black",
+    marker="x",
+    alpha=0.75,
+    s=50,
+    zorder=1,
+)
+ax.annotate(
+    rf"$\sigma_{{ts}}$: {tens_strength_MPa:.2f} MPa",
+    xy=(strain_at_uts, tens_strength_MPa),
+    xytext=(0, -14),
+    textcoords="offset points",
+    fontsize=8,
+)
 fig
 ```
 
@@ -305,7 +315,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_24_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_24_0.png)
     
 
 
@@ -327,7 +337,7 @@ def get_stress_strain_at_fraction_of_tensile_strength(fraction):
     nearest_row_number = stress_difference.abs().argsort()[0]
     nearest_row = df.iloc[nearest_row_number]
     return nearest_row.Strain, nearest_row.Stress
-    
+
 lower_strain, lower_stress = get_stress_strain_at_fraction_of_tensile_strength(LOWER_FRACTION)
 upper_strain, upper_stress = get_stress_strain_at_fraction_of_tensile_strength(UPPER_FRACTION)
 
@@ -352,7 +362,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_29_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_29_0.png)
     
 
 
@@ -381,7 +391,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_32_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_32_0.png)
     
 
 
@@ -446,9 +456,10 @@ ax_inset.scatter(
 ax_inset.annotate(
     rf"$\sigma_y$: {yield_stress_MPa:.2f} MPa",
     xy=(strain_at_yield, yield_stress_MPa),
-    xytext=(-60,6),
+    xytext=(-60, 6),
     textcoords="offset points",
-    fontsize=8)
+    fontsize=8,
+)
 fig
 ```
 
@@ -456,7 +467,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_36_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_36_0.png)
     
 
 
@@ -509,7 +520,7 @@ ax.legend(handles, labels, bbox_to_anchor=legend_position, prop={"size": 8})
 ax.annotate(
     rf"$\epsilon_f$: {elongation:.3}",
     xy=(elongation, 0),
-    xytext=(-40,5),
+    xytext=(-40, 5),
     textcoords="offset points",
     fontsize=8,
 )
@@ -520,7 +531,7 @@ fig
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_41_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_41_0.png)
     
 
 
@@ -644,7 +655,7 @@ _ = ax.set_title("Engineering and True Stress vs Strain")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_46_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_46_0.png)
     
 
 
@@ -660,7 +671,7 @@ plastic_strain = df.True_Strain - df.True_Stress / youngs_modulus - STRAIN_OFFSE
 df_plastic["Strain"] = plastic_strain[plastic_strain > 0]
 
 # Get only the stress values with a corresponding strain
-df_plastic["Stress"] = df.True_Stress.align(df_plastic.Strain, join='right')[0]
+df_plastic["Stress"] = df.True_Stress.align(df_plastic.Strain, join="right")[0]
 
 # Manually add the first point Strain = 0, Stress = yield stress
 first_point = pd.DataFrame({"Strain": [0], "Stress": [yield_stress]})
@@ -729,27 +740,27 @@ _ = ax.set_title("True Stress vs True Plastic Strain")
 
 
     
-![png](04_Process_datasets_and_import_files/04_Process_datasets_and_import_51_0.png)
+![png](./04_Process_datasets_and_import_files/04_Process_datasets_and_import_51_0.png)
     
 
 
 ## Import data and results into Granta MI
 
-Finally, import the raw data, processed data and results into a new Granta MI record. 
+Finally, import the raw data, processed data and results into a new Granta MI record.
 
 Connect to Granta MI and specify a database and table.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
-db = mi.get_db(db_key='MI_Training')
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
+db = mi.get_db(db_key="MI_Training")
 
-tensile_test_table = db.get_table('Tensile Test Data')
+tensile_test_table = db.get_table("Tensile Test Data")
 ```
 
-Create a new record to import the data into, using `datetime.now()` to ensure the record name is unique. 
+Create a new record to import the data into, using `datetime.now()` to ensure the record name is unique.
 
 At this stage, the record has only been created in the MI Scripting Toolkit. The changes will be pushed to Granta MI
 when `session.update()` is called at the end of the notebook.
@@ -788,7 +799,7 @@ dimensionless but will be imported as a percentage, so they are multiplied by 10
 stress_attrs = {
     "Ultimate Tensile Strength": tens_strength,
     "Young's Modulus (11-axis)": youngs_modulus,
-    "0.2% Offset Yield Stress": yield_stress
+    "0.2% Offset Yield Stress": yield_stress,
 }
 strain_attrs = {
     "Strain at Ultimate Tensile Strength": strain_at_uts * 100,
@@ -828,10 +839,10 @@ could easily be read from the source file.
 ```python
 range_text = f"Linear fit between [{LOWER_FRACTION:.1%}:{UPPER_FRACTION:.1%}] of Tensile strength"
 text_attrs = {
-    "Young's Modulus Calculation": 'Chord',
-    "Test Type": 'Tensile',
-    "Testing Standards": 'ASTM E8',
-    "Alloy": 'AMS 6520',
+    "Young's Modulus Calculation": "Chord",
+    "Test Type": "Tensile",
+    "Testing Standards": "ASTM E8",
+    "Alloy": "AMS 6520",
     "Modulus Calculation Range": range_text,
 }
 write_text(text_attrs)
@@ -847,9 +858,12 @@ def write_functional(attr_name, y_unit, x_unit, x_name, y_values, x_values):
     a = record.attributes[attr_name]
     a.unit = y_unit
     a.parameters[x_name].unit = x_unit
-    a.xaxis[x_name] = True
-    for x, y in zip(x_values, y_values):
-        a.add_point({'y': y, x_name: x})
+    a.value = (
+        mpy.SeriesPoint(
+            x=tuple(x_values),
+            y=tuple(y_values),
+        ),
+    )
     record.set_attributes([a])
 ```
 
@@ -896,6 +910,6 @@ mi.update([record])
 
 *Previous cell output:*
 ```output
-[<Record long name: Tensile analysis Mon May 12 16:07:45 2025>]
+[<Record long name: Tensile analysis Wed Jan  7 19:20:13 2026>]
 ```
 

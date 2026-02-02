@@ -1,0 +1,13 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "DPF Framework 2025 R2",
+            "summary": "",
+            "version": "2025 R2",
+            "product": "DPF",
+            "programming language": "C++",
+            "product collection": "Structures",
+            "physics": "Structures"
+        }
+    }
+}

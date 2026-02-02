@@ -1,0 +1,18 @@
+- name: Introduction
+  href: index.md
+- name: Reference
+  items:
+  - name: Classes
+    items:
+    - name: Structure \_SharedMemoryFrame
+      href: Reference/classes/struct___shared_memory_frame.md
+  - name: Files
+    items:
+    - name: shared_memory_image_client.h
+      href: Reference/files/shared__memory__image__client_8h.md
+    - name: shared_memory_image_client_priv.h
+      href: Reference/files/shared__memory__image__client__priv_8h.md
+    - name: shared_memory_image_client_python.c
+      href: Reference/files/shared__memory__image__client__python_8c.md
+- name: Changelog
+  href: changelog.md

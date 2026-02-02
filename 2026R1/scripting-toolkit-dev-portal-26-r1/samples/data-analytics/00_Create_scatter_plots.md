@@ -12,9 +12,9 @@ replacing `my.server.name` with the name of your Granta MI server. Specify a dat
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 db.unit_system = "SI (Consistent)"
 material_universe = db.get_table("MaterialUniverse")
@@ -101,50 +101,50 @@ df.head()
       <td>7075</td>
       <td>Al (Aluminum)</td>
       <td>Opaque</td>
-      <td>{'low': 69000000000.0, 'high': 72538459777.83203}</td>
-      <td>{'low': 2781.691551208496, 'high': 2809.648036...</td>
-      <td>{'low': 386000000.0, 'high': 510000000.0}</td>
-      <td>{'low': 4.199999809265137e-08, 'high': 4.40000...</td>
+      <td>Range(low=69000000000.0, high=72538459777.8320...</td>
+      <td>Range(low=2781.691551208496, high=2809.6480369...</td>
+      <td>Range(low=386000000.0, high=510000000.0, low_v...</td>
+      <td>Range(low=4.199999809265137e-08, high=4.400000...</td>
     </tr>
     <tr>
       <th>00000e38-000e-4fff-8fff-dd92ffff0000</th>
       <td>7075</td>
       <td>Al (Aluminum)</td>
       <td>Opaque</td>
-      <td>{'low': 69000000000.0, 'high': 76000000000.0}</td>
-      <td>{'low': 2769.9999809265137, 'high': 2829.99992...</td>
-      <td>{'low': 434000000.0, 'high': 580000000.0}</td>
-      <td>{'low': 5.0999999046325684e-08, 'high': 5.3000...</td>
+      <td>Range(low=69000000000.0, high=76000000000.0, l...</td>
+      <td>Range(low=2769.9999809265137, high=2829.999923...</td>
+      <td>Range(low=434000000.0, high=580000000.0, low_v...</td>
+      <td>Range(low=5.0999999046325684e-08, high=5.30000...</td>
     </tr>
     <tr>
       <th>02401a77-c3e7-4b68-875c-7be3b735b703</th>
       <td>Tungsten Carbide</td>
       <td>Carbide</td>
       <td>Opaque</td>
-      <td>{'low': 599999999999.9996, 'high': 67000000000...</td>
-      <td>{'low': 15299.99999999999, 'high': 15900.00000...</td>
-      <td>{'low': 372999999.9999999, 'high': 529999999.9...</td>
-      <td>{'low': 6.309999847412099e-07, 'high': 1.00000...</td>
+      <td>Range(low=599999999999.9996, high=670000000000...</td>
+      <td>Range(low=15299.99999999999, high=15900.000000...</td>
+      <td>Range(low=372999999.9999999, high=529999999.99...</td>
+      <td>Range(low=6.309999847412099e-07, high=1.000000...</td>
     </tr>
     <tr>
       <th>000009cc-000e-4fff-8fff-dd92ffff0000</th>
       <td>AISI 4130</td>
       <td>Fe (Iron)</td>
       <td>Opaque</td>
-      <td>{'low': 200000000000.0, 'high': 210256408691.4...</td>
-      <td>{'low': 7790.849685668945, 'high': 7869.149684...</td>
-      <td>{'low': 862000000.0, 'high': 1241000000.0}</td>
-      <td>{'low': 2e-07, 'high': 2.5e-07}</td>
+      <td>Range(low=200000000000.0, high=210256408691.40...</td>
+      <td>Range(low=7790.849685668945, high=7869.1496849...</td>
+      <td>Range(low=862000000.0, high=1241000000.0, low_...</td>
+      <td>Range(low=2e-07, high=2.5e-07, low_value_is_in...</td>
     </tr>
     <tr>
       <th>000009cb-000e-4fff-8fff-dd92ffff0000</th>
       <td>AISI 4130</td>
       <td>Fe (Iron)</td>
       <td>Opaque</td>
-      <td>{'low': 200000000000.0, 'high': 210256408691.4...</td>
-      <td>{'low': 7794.244766235352, 'high': 7872.578620...</td>
-      <td>{'low': 621000000.0, 'high': 686368408.203125}</td>
-      <td>{'low': 2e-07, 'high': 2.5e-07}</td>
+      <td>Range(low=200000000000.0, high=210256408691.40...</td>
+      <td>Range(low=7794.244766235352, high=7872.5786209...</td>
+      <td>Range(low=621000000.0, high=686368408.203125, ...</td>
+      <td>Range(low=2e-07, high=2.5e-07, low_value_is_in...</td>
     </tr>
   </tbody>
 </table>
@@ -165,22 +165,22 @@ geometric mean (depending on the signs of the input values).
 ```python
 import math
 
-def granta_mean(value):
+def granta_mean(value: mpy.Range | None):
     if value is None:
         return None
-    if "high" not in value:
-        return value["low"]
-    if "low" not in value:
-        return value["high"]
-    product = value["low"] * value["high"]
+    if value.high is None:
+        return value.low
+    if value.low is None:
+        return value.high
+    product = value.low * value.high
     if product > 0:
         gm = math.sqrt(product)
-        if value["low"] > 0:
+        if value.low > 0:
             return gm
         else:
             return -gm
     else:
-        return sum(value.values())/2
+        return sum([value.low, value.high]) / 2
 ```
 
 Apply the `granta_mean` function to each cell in the *Density*, *Young's modulus*, *Tensile strength*, and *Electrical
@@ -449,7 +449,7 @@ separate `dict` that provides a simple mapping between column headings and units
 units = {
     mi_attr: material_universe.attributes[mi_attr].unit
     for mi_attr in attributes
-    if material_universe.attributes[mi_attr].unit
+    if getattr(material_universe.attributes[mi_attr], "unit", None) is not None
 }
 units
 ```
@@ -502,7 +502,7 @@ _ = df_processed.plot(
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_31_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_31_0.png)
     
 
 
@@ -528,7 +528,7 @@ _ = ax.set_title("E vs Density using ax.scatter()")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_34_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_34_0.png)
     
 
 
@@ -565,7 +565,7 @@ _ = plt.legend(title="Base")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_37_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_37_0.png)
     
 
 
@@ -591,19 +591,20 @@ ax.scatter(
     df_processed["Density"],
     df_processed["Young's modulus"],
     df_processed["Electrical resistivity"],
-    s=50)
+    s=50,
+)
 _ = ax.set_title(r"$\rho$ vs E vs Density")
 ```
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_40_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_40_0.png)
     
 
 
 ### Adding a continuous color axis to a 2D scatter plot
 
-Add a continuous color axis using the `c` and `cmap` arguments to the `plot.scatter()` constructor. 
+Add a continuous color axis using the `c` and `cmap` arguments to the `plot.scatter()` constructor.
 
 This example uses the optional `norm` argument to specify an alternative method of mapping numeric values to a color
 in the colormap. The **color_norm** variable contains a logarithmic normalization which ensures color variation is
@@ -645,7 +646,7 @@ _ = ax.set_title(r"E vs Density and $\rho$ (continuous marker color)")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_43_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_43_0.png)
     
 
 
@@ -657,6 +658,7 @@ the continuous *Electrical resistivity* values to those categories.
 
 ```python
 import numpy as np
+
 min_value = df_processed["Electrical resistivity"].min()
 max_value = df_processed["Electrical resistivity"].max()
 
@@ -664,9 +666,10 @@ max_value = df_processed["Electrical resistivity"].max()
 spacing = np.geomspace(min_value, max_value, 6)
 
 df_processed["Electrical resistivity (binned)"] = pd.cut(
-    df_processed['Electrical resistivity'],
+    df_processed["Electrical resistivity"],
     spacing,
-    labels=['Very low', 'Low', 'Medium', 'High', 'Very high'],
+    labels=["Very low", "Low", "Medium", "High", "Very high"],
+    include_lowest=True,
 )
 df_processed.head()
 ```
@@ -710,7 +713,7 @@ df_processed.head()
       <td>Opaque</td>
       <td>Al (Aluminum)</td>
       <td>7075</td>
-      <td>NaN</td>
+      <td>Very low</td>
     </tr>
     <tr>
       <th>00000e38-000e-4fff-8fff-dd92ffff0000</th>
@@ -793,7 +796,7 @@ _ = ax.set_title(r"E vs Density and $\rho$ (discrete marker color)")
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_48_0.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_48_0.png)
     
 
 
@@ -823,20 +826,12 @@ ax.set_xscale("log")
 ax.set_xlabel(density_label)
 ax.set_yscale("log")
 ax.set_ylabel(ym_label)
-ax.set_title("E vs Density grouped by Base (using seaborn)")
+_ = ax.set_title("E vs Density grouped by Base (using seaborn)")
 ```
-
-
-
-*Previous cell output:*
-```output
-Text(0.5, 1.0, 'E vs Density grouped by Base (using seaborn)')
-```
-
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_51_1.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_51_0.png)
     
 
 
@@ -878,8 +873,8 @@ g = sns.pairplot(
 
 for i in range(len(g.axes)):
     for j in range(len(g.axes[i])):
-        g.axes[i,j].set_xscale("log")
-        g.axes[i,j].set_yscale("log")
+        g.axes[i, j].set_xscale("log")
+        g.axes[i, j].set_yscale("log")
 _ = g.fig.suptitle(r"Pair plot comparing Density, E, $F_{{{tu}}}$ and $\rho$, grouped by Base", y=1.03)
 ```
 
@@ -890,6 +885,6 @@ _ = g.fig.suptitle(r"Pair plot comparing Density, E, $F_{{{tu}}}$ and $\rho$, gr
 
 
     
-![png](00_Create_scatter_plots_files/00_Create_scatter_plots_54_1.png)
+![png](./00_Create_scatter_plots_files/00_Create_scatter_plots_54_1.png)
     
 

@@ -71,7 +71,7 @@ refers to:
 
 ```python
 GRAPHS = {
-    "Thermal Conductivity with Temp.": ("Thermal conductivity vs Temperature", "Thermal conductivity", "Temperature", None),
+    "Thermal Conductivity with Temp.": ("Thermal conductivity vs Temperature", "Thermal conductivity", "Temperature",  None),
     "Thermal Expansion with Temp.": ("Thermal expansion vs Temperature", "Thermal expansion", "Temperature", None),
     "Specific Heat with Temp.": ("Specific heat vs Temperature", "Specific heat", "Temperature", None),
     "Tensile Stress/Strain, L": ("Stress vs Strain and Temperature", "Stress", "Strain", ("Temperature", "Temperature")),
@@ -84,9 +84,9 @@ Export the data for all the required attributes for the 'released' version of th
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 
 db = mi.get_db(db_key=DATABASE)
 db.unit_system = UNIT_SYSTEM
@@ -130,7 +130,7 @@ instead.
 ```python
 from pptx import Presentation
 
-prs = Presentation(pptx="supporting_files/11_presentation_template.pptx")
+prs = Presentation(pptx="./supporting_files/11_presentation_template.pptx")
 ```
 
 <div class="alert alert-info">
@@ -187,13 +187,13 @@ title = f"{material_name} [v{record_version_number}]"
 # Since the title placeholder is so commonly used, it is available via the title property
 title_slide.shapes.title.text = title
 
-# The subtitle placeholder does not have a dedicated property. To determine the 
+# The subtitle placeholder does not have a dedicated property. To determine the
 # correct placeholder shape, iterate through each one and identify it by name.
 # If the same placeholder is used multiple times, the idx value is static for
 # each layout and can be used directly once identified.
 subtitle = placeholder_idx = None
 for shape in title_slide.placeholders:
-    print('%d %s' % (shape.placeholder_format.idx, shape.name))
+    print("%d %s" % (shape.placeholder_format.idx, shape.name))
     if shape.name.startswith("Subtitle"):
         placeholder_idx = shape.placeholder_format.idx
         subtitle = shape
@@ -214,6 +214,10 @@ was run previously that saved a file to disk.
 
 ```python
 from pathlib import Path
+```
+
+
+```python
 output_folder = Path("./output")
 output_folder.mkdir(exist_ok=True)
 ```
@@ -229,7 +233,7 @@ Open the `presentation_title_only.pptx` file to see the presentation template po
 the `PRESENTATION_TITLE_ATTRIBUTE` attribute value. A screenshot of the presentation title
 slide is shown below:
 
-![A PowerPoint title slide showing the name of the material.](assets/11_presentation-screenshot-title-slide.png)
+![A PowerPoint title slide showing the name of the material.](./assets/11_presentation-screenshot-title-slide.png)
 
 The presentation will not be saved to disk again until the report is complete. If you want to see
 the effects of individual operations on the presentation, use the ``prs.save`` method to save the
@@ -270,7 +274,6 @@ def format_attribute(
     format_spec: str = ".3g",
     include_unit: bool = False,
 ) -> Optional[str]:
-
     value = attribute.value
     # A null value may either be None or an empty list
     if not value and value != 0:
@@ -278,7 +281,7 @@ def format_attribute(
 
     # Switch based on the attribute type
     if attribute.type == "RNGE":
-        formatted_value = f"{value['low']:{format_spec}} - {value['high']:{format_spec}}"
+        formatted_value = f"{value.low:{format_spec}} - {value.high:{format_spec}}"
     elif attribute.type == "POIN":
         # Single-valued point only
         if isinstance(attribute.value, (float, int)):
@@ -291,10 +294,11 @@ def format_attribute(
         raise NotImplementedError(f'Attribute type "{attribute.type}" not supported.')
 
     # Include the unit in the output if requested and if it exists
-    if include_unit and attribute.unit:
+    if include_unit and hasattr(attribute, "unit") and attribute.unit:
         return f"{formatted_value} {attribute.unit}"
     else:
         return formatted_value
+
 ```
 
 Next, create the content slide and populate with the exported data.
@@ -348,7 +352,7 @@ for idx, (attribute_name, label) in enumerate(DESCRIPTION_ATTRIBUTES.items()):
 
 A screenshot of the generated slide is shown below.
 
-![A PowerPoint slide titled "Material details" with a bulleted list of material properties.](assets/11_presentation-screenshot-material-details.png)
+![A PowerPoint slide titled "Material details" with a bulleted list of material properties.](./assets/11_presentation-screenshot-material-details.png)
 
 ## Room temperature properties slide
 
@@ -402,7 +406,7 @@ value, and unit to the table.
 ```python
 for (attribute_name, label), row in zip(SINGLE_VALUED_PROPERTIES.items(), property_table.rows):
     attribute = released_record.attributes[attribute_name]
-    
+
     # Use standard form for numeric attributes
     value = format_attribute(attribute, format_spec=".4e", include_unit=False)
     unit = attribute.unit
@@ -410,7 +414,7 @@ for (attribute_name, label), row in zip(SINGLE_VALUED_PROPERTIES.items(), proper
     # If there is no value for this attribute, set the value and unit to a dash
     if value is None:
         value = unit = "-"
-    elif unit == "":
+    elif unit is None:
         unit = "-"
 
     # Write the label to the cell in the leftmost column (column 0 or 3) with the style "Property Label"
@@ -429,7 +433,7 @@ for (attribute_name, label), row in zip(SINGLE_VALUED_PROPERTIES.items(), proper
 
 A screenshot of the generated slide is shown below.
 
-![A PowerPoint slide titled "Room temperature properties" with a tabulated list of material properties.](assets/11_presentation-screenshot-room-temperature.png)
+![A PowerPoint slide titled "Room temperature properties" with a tabulated list of material properties.](./assets/11_presentation-screenshot-room-temperature.png)
 
 ## 5. Add functional data to the presentation
 
@@ -454,6 +458,7 @@ def convert_plot_to_png(plt: pyplot) -> io.BytesIO:
     fig.clf()
     buffer.seek(0)
     return buffer
+
 ```
 
 Next, import `seaborn` and set the plot style.
@@ -478,37 +483,30 @@ import io
 import pandas as pd
 
 def make_graph(
-    attribute: mpy.AttributeFunctional,
+    attribute: mpy.AttributeFunctionalSeriesPoint,
     y_label: str,
     x_label: str,
     constraint_param_name: Optional[str] = None,
     constraint_label: Optional[str] = None,
 ) -> io.BytesIO:
-    
     value = attribute.value
 
     # This dictionary will be used to construct a dataframe
     data = {"y": list(), "x": list(), "constraint": list()}
-    
+
     # If a constraint_param_name was provided, set a CONSTRAINT flag to True
     if constraint_param_name:
         CONSTRAINT = True
     else:
         CONSTRAINT = False
 
-    # Get the position of the constraint parameter in the functional data value object
-    if CONSTRAINT:
-        param_idx = attribute.constraint_column_index[constraint_param_name]
-    else:
-        param_idx = None
-        parameter_unit = None
-
     # Add the functional data to the dataframe dictionary
-    for row in value[1:]:
-        data["y"].append(row[0])
-        data["x"].append(row[2])
+    for series in value:
+        data["y"].extend(series.y)
+        data["x"].extend(series.x)
         if CONSTRAINT:
-            data["constraint"].append(f"{row[param_idx]:.3g}")
+            constraint_value = f"{series.parameters_by_name[constraint_param_name]:.3g}"
+            data["constraint"].extend([constraint_value]*len(series.x))
 
     if not CONSTRAINT:
         # Remove the constraint key from the dictionary before converting to a dataframe
@@ -534,22 +532,23 @@ def make_graph(
             y="y",
             marker="o",
         )
-    
-    x_unit = attribute.xaxis_parameter.unit
+
+    x_unit = attribute.parameters[attribute.x_axis].unit
     y_unit = attribute.unit
     plt.set(
         xlabel=f"{x_label} / {x_unit}",
         ylabel=f"{y_label} / {y_unit}",
     )
-    
+
     # If we have a constraint, add a legend
     if CONSTRAINT:
         parameter_unit = attribute.parameters[constraint_param_name].unit
         legend_title = f"{constraint_label} [{parameter_unit}]"
         plt.legend(title=legend_title)
-    
+
     png = convert_plot_to_png(plt)
     return png
+
 ```
 
 Finally, use this function to create a plot image for each functional attribute and add it to the
@@ -575,7 +574,7 @@ for attribute_name, (title, y_label, x_label, constraint_info) in GRAPHS.items()
     )
     # Create a new slide based on the graph layout
     graph_slide = prs.slides.add_slide(graph_layout)
-    
+
     # Set the title of the slide to be the graph title
     graph_slide.shapes.title.text = title
     for shape in graph_slide.placeholders:
@@ -591,7 +590,7 @@ for attribute_name, (title, y_label, x_label, constraint_info) in GRAPHS.items()
 
 A screenshot of the stress-strain slide is shown below.
 
-![A PowerPoint slide titled "Stress vs Strain and Temperature" with a graph showing a stress-strain response at multiple temperatures.](assets/11_presentation-screenshot-stress-strain.png)
+![A PowerPoint slide titled "Stress vs Strain and Temperature" with a graph showing a stress-strain response at multiple temperatures.](./assets/11_presentation-screenshot-stress-strain.png)
 
 ## 6. Save the presentation
 

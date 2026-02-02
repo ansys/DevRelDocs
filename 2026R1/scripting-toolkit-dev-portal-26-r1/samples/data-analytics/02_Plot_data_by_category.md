@@ -9,9 +9,9 @@ Connect to Granta MI and specify a database.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 db.unit_system = "Metric"
 ```
@@ -45,7 +45,8 @@ tensile_test_records = {tr for pr in pedigree_records for tr in pr.links[link_gr
 tensile_test_records = list(tensile_test_records)
 ```
 
-Specify the attributes you want to export from the second table. *Panel number* will be used to relate the tensile tests to the layup data.
+Specify the attributes you want to export from the second table. *Panel number* will be used to relate the tensile
+tests to the layup data.
 
 
 ```python
@@ -198,14 +199,14 @@ tensile_df.head()
     <tr>
       <th>LBJ14</th>
       <td>LBJ1413A</td>
-      <td>[]</td>
+      <td>NaN</td>
       <td>1613.614663</td>
       <td>0° tension</td>
     </tr>
     <tr>
       <th>LBJ14</th>
       <td>LBJ1415A</td>
-      <td>[]</td>
+      <td>NaN</td>
       <td>1611.201497</td>
       <td>0° tension</td>
     </tr>
@@ -291,7 +292,7 @@ df.head()
       <td>1.431636</td>
       <td>0.238044</td>
       <td>LBJ1413A</td>
-      <td>[]</td>
+      <td>NaN</td>
       <td>1613.614663</td>
       <td>0° tension</td>
     </tr>
@@ -301,7 +302,7 @@ df.head()
       <td>1.431636</td>
       <td>0.238044</td>
       <td>LBJ1415A</td>
-      <td>[]</td>
+      <td>NaN</td>
       <td>1611.201497</td>
       <td>0° tension</td>
     </tr>
@@ -317,7 +318,7 @@ Finally, create a `units` dict so you can create plots with meaningful axis labe
 ```python
 attr_defs = [comp_pedigree.attributes[attr] for attr in pedigree_attributes] + \
             [tensile_test_data.attributes[attr] for attr in tensile_attributes]
-units = {attr.name: attr.unit for attr in attr_defs if attr.unit}
+units = {attr.name: attr.unit for attr in attr_defs if getattr(attr, "unit", None) is not None}
 units
 ```
 
@@ -365,7 +366,7 @@ _ = ax.set_title(r"$F_{tu}$ vs Average ply thickness")
 
 
     
-![png](02_Plot_data_by_category_files/02_Plot_data_by_category_28_0.png)
+![png](./02_Plot_data_by_category_files/02_Plot_data_by_category_28_0.png)
     
 
 
@@ -379,7 +380,7 @@ each column.
 
 
 ```python
-df.describe(include='all')
+df.describe(include="all")
 ```
 
 
@@ -406,7 +407,7 @@ df.describe(include='all')
       <td>67.000000</td>
       <td>67.000000</td>
       <td>67</td>
-      <td>67</td>
+      <td>18.000000</td>
       <td>67.000000</td>
       <td>67</td>
     </tr>
@@ -416,7 +417,7 @@ df.describe(include='all')
       <td>NaN</td>
       <td>NaN</td>
       <td>67</td>
-      <td>19</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>2</td>
     </tr>
@@ -426,7 +427,7 @@ df.describe(include='all')
       <td>NaN</td>
       <td>NaN</td>
       <td>LBJ1311A</td>
-      <td>[]</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>0° tension</td>
     </tr>
@@ -436,7 +437,7 @@ df.describe(include='all')
       <td>NaN</td>
       <td>NaN</td>
       <td>1</td>
-      <td>49</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>56</td>
     </tr>
@@ -446,7 +447,7 @@ df.describe(include='all')
       <td>1.534167</td>
       <td>0.235604</td>
       <td>NaN</td>
-      <td>NaN</td>
+      <td>42.775844</td>
       <td>1288.110261</td>
       <td>NaN</td>
     </tr>
@@ -456,7 +457,7 @@ df.describe(include='all')
       <td>0.294450</td>
       <td>0.005039</td>
       <td>NaN</td>
-      <td>NaN</td>
+      <td>13.523385</td>
       <td>557.743977</td>
       <td>NaN</td>
     </tr>
@@ -466,7 +467,7 @@ df.describe(include='all')
       <td>1.379415</td>
       <td>0.229948</td>
       <td>NaN</td>
-      <td>NaN</td>
+      <td>13.217251</td>
       <td>44.629768</td>
       <td>NaN</td>
     </tr>
@@ -476,7 +477,7 @@ df.describe(include='all')
       <td>1.385455</td>
       <td>0.231279</td>
       <td>NaN</td>
-      <td>NaN</td>
+      <td>47.022249</td>
       <td>1353.613343</td>
       <td>NaN</td>
     </tr>
@@ -486,7 +487,7 @@ df.describe(include='all')
       <td>1.410677</td>
       <td>0.234618</td>
       <td>NaN</td>
-      <td>NaN</td>
+      <td>47.973725</td>
       <td>1545.653034</td>
       <td>NaN</td>
     </tr>
@@ -496,7 +497,7 @@ df.describe(include='all')
       <td>1.438564</td>
       <td>0.240007</td>
       <td>NaN</td>
-      <td>NaN</td>
+      <td>49.364743</td>
       <td>1603.610369</td>
       <td>NaN</td>
     </tr>
@@ -506,7 +507,7 @@ df.describe(include='all')
       <td>2.213429</td>
       <td>0.245727</td>
       <td>NaN</td>
-      <td>NaN</td>
+      <td>51.400420</td>
       <td>1639.559637</td>
       <td>NaN</td>
     </tr>
@@ -560,7 +561,7 @@ _ = ax.set_title(r"$F_{tu}, 0^{{\circ}}$ vs Average ply thickness")
 
 
     
-![png](02_Plot_data_by_category_files/02_Plot_data_by_category_36_0.png)
+![png](./02_Plot_data_by_category_files/02_Plot_data_by_category_36_0.png)
     
 
 
@@ -599,12 +600,12 @@ ax2.set_ylabel(ftu_90_label)
 h1, l1 = ax1.get_legend_handles_labels()
 h2, l2 = ax2.get_legend_handles_labels()
 
-ax1.legend(h1+h2, [ftu_0_label, ftu_90_label], loc="lower right")
+ax1.legend(h1 + h2, [ftu_0_label, ftu_90_label], loc="lower right")
 _ = ax1.set_title(r"$F_{tu}, 0^{{\circ}}$ and $90^{{\circ}}$ vs Average ply thickness")
 ```
 
 
     
-![png](02_Plot_data_by_category_files/02_Plot_data_by_category_38_0.png)
+![png](./02_Plot_data_by_category_files/02_Plot_data_by_category_38_0.png)
     
 

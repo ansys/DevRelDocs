@@ -1,0 +1,1966 @@
+- name: Introduction
+  href: index.md
+- name: Getting started
+  items:
+  - name: Installation
+    href: getting-started/installation.md
+  - name: Licensing
+    href: getting-started/licensing.md
+  - name: Configuration
+    href: getting-started/configuration.md
+- name: User guide
+  items:
+  - name: The server context
+    href: user-guide/server-context.md
+  - name: How to use data containers
+    href: user-guide/using-data-containers.md
+  - name: How to use operators
+    href: user-guide/using-operators.md
+  - name: Workflow examples for beginners
+    href: user-guide/workflow-examples.md
+  - name: Build local documentation
+    href: user-guide/dpf-docs-local-preview.md
+- name: Core concepts
+  items:
+  - name: Available types
+    href: core-concepts/dpf-types.md
+  - name: Operator fundamentals
+    href: core-concepts/operator.md
+- name: Operator specifications
+  items:
+  - name: Operator specifications
+    href: operator-specifications/operator-specifications.md
+  - name: averaging
+    href: operator-specifications/averaging/averaging_category.md
+    items:
+    - name: elemental difference
+      href: operator-specifications/averaging/elemental_difference.md
+    - name: elemental difference fc
+      href: operator-specifications/averaging/elemental_difference_fc.md
+    - name: elemental fraction fc
+      href: operator-specifications/averaging/elemental_fraction_fc.md
+    - name: elemental mean
+      href: operator-specifications/averaging/elemental_mean.md
+    - name: elemental mean fc
+      href: operator-specifications/averaging/elemental_mean_fc.md
+    - name: elemental nodal to nodal
+      href: operator-specifications/averaging/elemental_nodal_to_nodal.md
+    - name: elemental nodal to nodal elemental
+      href: operator-specifications/averaging/elemental_nodal_to_nodal_elemental.md
+    - name: elemental nodal to nodal elemental fc
+      href: operator-specifications/averaging/elemental_nodal_to_nodal_elemental_fc.md
+    - name: elemental nodal to nodal fc
+      href: operator-specifications/averaging/elemental_nodal_to_nodal_fc.md
+    - name: elemental to elemental nodal
+      href: operator-specifications/averaging/elemental_to_elemental_nodal.md
+    - name: elemental to elemental nodal fc
+      href: operator-specifications/averaging/elemental_to_elemental_nodal_fc.md
+    - name: elemental to nodal
+      href: operator-specifications/averaging/elemental_to_nodal.md
+    - name: elemental to nodal fc
+      href: operator-specifications/averaging/elemental_to_nodal_fc.md
+    - name: extend to mid nodes
+      href: operator-specifications/averaging/extend_to_mid_nodes.md
+    - name: extend to mid nodes fc
+      href: operator-specifications/averaging/extend_to_mid_nodes_fc.md
+    - name: force summation
+      href: operator-specifications/averaging/force_summation.md
+    - name: force summation psd
+      href: operator-specifications/averaging/force_summation_psd.md
+    - name: gauss to node fc
+      href: operator-specifications/averaging/gauss_to_node_fc.md
+    - name: nodal difference
+      href: operator-specifications/averaging/nodal_difference.md
+    - name: nodal difference fc
+      href: operator-specifications/averaging/nodal_difference_fc.md
+    - name: nodal fraction fc
+      href: operator-specifications/averaging/nodal_fraction_fc.md
+    - name: nodal to elemental
+      href: operator-specifications/averaging/nodal_to_elemental.md
+    - name: nodal to elemental fc
+      href: operator-specifications/averaging/nodal_to_elemental_fc.md
+    - name: nodal to elemental nodal
+      href: operator-specifications/averaging/nodal_to_elemental_nodal.md
+    - name: nodal to elemental nodal fc
+      href: operator-specifications/averaging/nodal_to_elemental_nodal_fc.md
+    - name: to elemental fc
+      href: operator-specifications/averaging/to_elemental_fc.md
+    - name: to elemental nodal fc
+      href: operator-specifications/averaging/to_elemental_nodal_fc.md
+    - name: to nodal
+      href: operator-specifications/averaging/to_nodal.md
+    - name: to nodal fc
+      href: operator-specifications/averaging/to_nodal_fc.md
+  - name: composite
+    href: operator-specifications/composite/composite_category.md
+    items:
+    - name: add default data
+      href: operator-specifications/composite/add_default_data.md
+    - name: composite failure operator
+      href: operator-specifications/composite/composite_failure_operator.md
+    - name: composite field variable operator
+      href: operator-specifications/composite/composite_field_variable_operator.md
+    - name: composite scoping operator
+      href: operator-specifications/composite/composite_scoping_operator.md
+    - name: convert sampling point to json
+      href: operator-specifications/composite/convert_sampling_point_to_json.md
+    - name: core shear operator
+      href: operator-specifications/composite/core_shear_operator.md
+    - name: cuntze operator
+      href: operator-specifications/composite/cuntze_operator.md
+    - name: evaluate failure criterion per scope
+      href: operator-specifications/composite/evaluate_failure_criterion_per_scope.md
+    - name: evaluate sampling point
+      href: operator-specifications/composite/evaluate_sampling_point.md
+    - name: face sheet wrinkling operator
+      href: operator-specifications/composite/face_sheet_wrinkling_operator.md
+    - name: failure measure converter
+      href: operator-specifications/composite/failure_measure_converter.md
+    - name: filter ply data operator
+      href: operator-specifications/composite/filter_ply_data_operator.md
+    - name: get field properties operator
+      href: operator-specifications/composite/get_field_properties_operator.md
+    - name: hashin operator
+      href: operator-specifications/composite/hashin_operator.md
+    - name: hill operator
+      href: operator-specifications/composite/hill_operator.md
+    - name: hoffman operator
+      href: operator-specifications/composite/hoffman_operator.md
+    - name: inistate field variable operator
+      href: operator-specifications/composite/inistate_field_variable_operator.md
+    - name: interlaminar normal stress operator
+      href: operator-specifications/composite/interlaminar_normal_stress_operator.md
+    - name: larc operator
+      href: operator-specifications/composite/larc_operator.md
+    - name: layup provider operator
+      href: operator-specifications/composite/layup_provider_operator.md
+    - name: ls dyna keyword parser
+      href: operator-specifications/composite/ls_dyna_keyword_parser.md
+    - name: ls dyna material support provider
+      href: operator-specifications/composite/ls_dyna_material_support_provider.md
+    - name: ls dyna preparing results
+      href: operator-specifications/composite/ls_dyna_preparing_results.md
+    - name: map to reference surface operator
+      href: operator-specifications/composite/map_to_reference_surface_operator.md
+    - name: max over multiple failure criteria operator
+      href: operator-specifications/composite/max_over_multiple_failure_criteria_operator.md
+    - name: max strain operator
+      href: operator-specifications/composite/max_strain_operator.md
+    - name: mechanical sampling point operator
+      href: operator-specifications/composite/mechanical_sampling_point_operator.md
+    - name: minmax per element operator
+      href: operator-specifications/composite/minmax_per_element_operator.md
+    - name: multiple failure criteria operator
+      href: operator-specifications/composite/multiple_failure_criteria_operator.md
+    - name: nearest neighbor operator
+      href: operator-specifications/composite/nearest_neighbor_operator.md
+    - name: puck operator
+      href: operator-specifications/composite/puck_operator.md
+    - name: reference surface operator
+      href: operator-specifications/composite/reference_surface_operator.md
+    - name: result definition
+      href: operator-specifications/composite/result_definition.md
+    - name: run mapdl operator
+      href: operator-specifications/composite/run_mapdl_operator.md
+    - name: scope config reader
+      href: operator-specifications/composite/scope_config_reader.md
+    - name: scope generator
+      href: operator-specifications/composite/scope_generator.md
+    - name: shear crimping operator
+      href: operator-specifications/composite/shear_crimping_operator.md
+    - name: short fiber failure criterion evaluator
+      href: operator-specifications/composite/short_fiber_failure_criterion_evaluator.md
+    - name: short fiber fatigue equivalent stress operator
+      href: operator-specifications/composite/short_fiber_fatigue_equivalent_stress_operator.md
+    - name: short fiber lifetime operator
+      href: operator-specifications/composite/short_fiber_lifetime_operator.md
+    - name: string container
+      href: operator-specifications/composite/string_container.md
+    - name: tsai hill operator
+      href: operator-specifications/composite/tsai_hill_operator.md
+    - name: tsai wu operator
+      href: operator-specifications/composite/tsai_wu_operator.md
+    - name: unit system default
+      href: operator-specifications/composite/unit_system_default.md
+    - name: von mises operator
+      href: operator-specifications/composite/von_mises_operator.md
+  - name: compression
+    href: operator-specifications/compression/compression_category.md
+    items:
+    - name: apply svd
+      href: operator-specifications/compression/apply_svd.md
+    - name: apply zfp
+      href: operator-specifications/compression/apply_zfp.md
+    - name: kmeans clustering
+      href: operator-specifications/compression/kmeans_clustering.md
+    - name: quantization
+      href: operator-specifications/compression/quantization.md
+    - name: quantization fc
+      href: operator-specifications/compression/quantization_fc.md
+    - name: zfp decompress
+      href: operator-specifications/compression/zfp_decompress.md
+  - name: filter
+    href: operator-specifications/filter/filter_category.md
+    items:
+    - name: abc weightings
+      href: operator-specifications/filter/abc_weightings.md
+    - name: field band pass
+      href: operator-specifications/filter/field_band_pass.md
+    - name: field band pass fc
+      href: operator-specifications/filter/field_band_pass_fc.md
+    - name: field high pass
+      href: operator-specifications/filter/field_high_pass.md
+    - name: field high pass fc
+      href: operator-specifications/filter/field_high_pass_fc.md
+    - name: field low pass
+      href: operator-specifications/filter/field_low_pass.md
+    - name: field low pass fc
+      href: operator-specifications/filter/field_low_pass_fc.md
+    - name: field signed high pass
+      href: operator-specifications/filter/field_signed_high_pass.md
+    - name: field signed high pass fc
+      href: operator-specifications/filter/field_signed_high_pass_fc.md
+    - name: filtering max over time
+      href: operator-specifications/filter/filtering_max_over_time.md
+    - name: scoping band pass
+      href: operator-specifications/filter/scoping_band_pass.md
+    - name: scoping high pass
+      href: operator-specifications/filter/scoping_high_pass.md
+    - name: scoping low pass
+      href: operator-specifications/filter/scoping_low_pass.md
+    - name: scoping signed high pass
+      href: operator-specifications/filter/scoping_signed_high_pass.md
+    - name: timefreq band pass
+      href: operator-specifications/filter/timefreq_band_pass.md
+    - name: timefreq high pass
+      href: operator-specifications/filter/timefreq_high_pass.md
+    - name: timefreq low pass
+      href: operator-specifications/filter/timefreq_low_pass.md
+    - name: timefreq signed high pass
+      href: operator-specifications/filter/timefreq_signed_high_pass.md
+    - name: timescoping band pass
+      href: operator-specifications/filter/timescoping_band_pass.md
+    - name: timescoping high pass
+      href: operator-specifications/filter/timescoping_high_pass.md
+    - name: timescoping low pass
+      href: operator-specifications/filter/timescoping_low_pass.md
+    - name: timescoping signed high pass
+      href: operator-specifications/filter/timescoping_signed_high_pass.md
+  - name: geo
+    href: operator-specifications/geo/geo_category.md
+    items:
+    - name: cartesian to spherical
+      href: operator-specifications/geo/cartesian_to_spherical.md
+    - name: cartesian to spherical fc
+      href: operator-specifications/geo/cartesian_to_spherical_fc.md
+    - name: elements facets surfaces over time
+      href: operator-specifications/geo/elements_facets_surfaces_over_time.md
+    - name: elements volume
+      href: operator-specifications/geo/elements_volume.md
+    - name: elements volumes over time
+      href: operator-specifications/geo/elements_volumes_over_time.md
+    - name: element nodal contribution
+      href: operator-specifications/geo/element_nodal_contribution.md
+    - name: faces area
+      href: operator-specifications/geo/faces_area.md
+    - name: gauss to node
+      href: operator-specifications/geo/gauss_to_node.md
+    - name: integrate over elements
+      href: operator-specifications/geo/integrate_over_elements.md
+    - name: normals
+      href: operator-specifications/geo/normals.md
+    - name: normals provider nl
+      href: operator-specifications/geo/normals_provider_nl.md
+    - name: rotate
+      href: operator-specifications/geo/rotate.md
+    - name: rotate fc
+      href: operator-specifications/geo/rotate_fc.md
+    - name: rotate in cylindrical cs
+      href: operator-specifications/geo/rotate_in_cylindrical_cs.md
+    - name: rotate in cylindrical cs fc
+      href: operator-specifications/geo/rotate_in_cylindrical_cs_fc.md
+    - name: spherical to cartesian
+      href: operator-specifications/geo/spherical_to_cartesian.md
+    - name: spherical to cartesian fc
+      href: operator-specifications/geo/spherical_to_cartesian_fc.md
+    - name: to polar coordinates
+      href: operator-specifications/geo/to_polar_coordinates.md
+  - name: info
+    href: operator-specifications/info/info_category.md
+    items:
+    - name: markdown latex example
+      href: operator-specifications/info/markdown_latex_example.md
+  - name: invariant
+    href: operator-specifications/invariant/invariant_category.md
+    items:
+    - name: convertnum bcs to nod
+      href: operator-specifications/invariant/convertnum_bcs_to_nod.md
+    - name: convertnum nod to bcs
+      href: operator-specifications/invariant/convertnum_nod_to_bcs.md
+    - name: convertnum op
+      href: operator-specifications/invariant/convertnum_op.md
+    - name: eigen values
+      href: operator-specifications/invariant/eigen_values.md
+    - name: eigen values fc
+      href: operator-specifications/invariant/eigen_values_fc.md
+    - name: eigen vectors
+      href: operator-specifications/invariant/eigen_vectors.md
+    - name: eigen vectors fc
+      href: operator-specifications/invariant/eigen_vectors_fc.md
+    - name: invariants
+      href: operator-specifications/invariant/invariants.md
+    - name: invariants fc
+      href: operator-specifications/invariant/invariants_fc.md
+    - name: principal invariants
+      href: operator-specifications/invariant/principal_invariants.md
+    - name: principal invariants fc
+      href: operator-specifications/invariant/principal_invariants_fc.md
+    - name: segalman von mises eqv
+      href: operator-specifications/invariant/segalman_von_mises_eqv.md
+    - name: segalman von mises eqv fc
+      href: operator-specifications/invariant/segalman_von_mises_eqv_fc.md
+    - name: von mises eqv
+      href: operator-specifications/invariant/von_mises_eqv.md
+    - name: von mises eqv fc
+      href: operator-specifications/invariant/von_mises_eqv_fc.md
+  - name: logic
+    href: operator-specifications/logic/logic_category.md
+    items:
+    - name: ascending sort
+      href: operator-specifications/logic/ascending_sort.md
+    - name: ascending sort fc
+      href: operator-specifications/logic/ascending_sort_fc.md
+    - name: component selector
+      href: operator-specifications/logic/component_selector.md
+    - name: component selector fc
+      href: operator-specifications/logic/component_selector_fc.md
+    - name: component transformer
+      href: operator-specifications/logic/component_transformer.md
+    - name: component transformer fc
+      href: operator-specifications/logic/component_transformer_fc.md
+    - name: descending sort
+      href: operator-specifications/logic/descending_sort.md
+    - name: descending sort fc
+      href: operator-specifications/logic/descending_sort_fc.md
+    - name: elementary data selector
+      href: operator-specifications/logic/elementary_data_selector.md
+    - name: elementary data selector fc
+      href: operator-specifications/logic/elementary_data_selector_fc.md
+    - name: enrich materials
+      href: operator-specifications/logic/enrich_materials.md
+    - name: identical anys
+      href: operator-specifications/logic/identical_anys.md
+    - name: identical fc
+      href: operator-specifications/logic/identical_fc.md
+    - name: identical fields
+      href: operator-specifications/logic/identical_fields.md
+    - name: identical generic data containers
+      href: operator-specifications/logic/identical_generic_data_containers.md
+    - name: identical mc
+      href: operator-specifications/logic/identical_mc.md
+    - name: identical meshes
+      href: operator-specifications/logic/identical_meshes.md
+    - name: identical pfc
+      href: operator-specifications/logic/identical_pfc.md
+    - name: identical property fields
+      href: operator-specifications/logic/identical_property_fields.md
+    - name: identical sc
+      href: operator-specifications/logic/identical_sc.md
+    - name: identical scopings
+      href: operator-specifications/logic/identical_scopings.md
+    - name: identical string fields
+      href: operator-specifications/logic/identical_string_fields.md
+    - name: included fields
+      href: operator-specifications/logic/included_fields.md
+    - name: merge solid shell fields
+      href: operator-specifications/logic/merge_solid_shell_fields.md
+    - name: solid shell fields
+      href: operator-specifications/logic/solid_shell_fields.md
+    - name: split data sources
+      href: operator-specifications/logic/split_data_sources.md
+    - name: split streams
+      href: operator-specifications/logic/split_streams.md
+  - name: mapping
+    href: operator-specifications/mapping/mapping_category.md
+    items:
+    - name: apply mechanical native mapping
+      href: operator-specifications/mapping/apply_mechanical_native_mapping.md
+    - name: create mech kriging workflow
+      href: operator-specifications/mapping/create_mech_kriging_workflow.md
+    - name: create mech point cloud workflow
+      href: operator-specifications/mapping/create_mech_point_cloud_workflow.md
+    - name: create mech shape func surf workflow
+      href: operator-specifications/mapping/create_mech_shape_func_surf_workflow.md
+    - name: create mech shape func vol workflow
+      href: operator-specifications/mapping/create_mech_shape_func_vol_workflow.md
+    - name: create sc mapping workflow
+      href: operator-specifications/mapping/create_sc_mapping_workflow.md
+    - name: fft
+      href: operator-specifications/mapping/fft.md
+    - name: find reduced coordinates
+      href: operator-specifications/mapping/find_reduced_coordinates.md
+    - name: on coordinates
+      href: operator-specifications/mapping/on_coordinates.md
+    - name: on reduced coordinates
+      href: operator-specifications/mapping/on_reduced_coordinates.md
+    - name: prepare mapping workflow
+      href: operator-specifications/mapping/prepare_mapping_workflow.md
+    - name: prepare mechanical native mapping
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping.md
+    - name: prepare mechanical native mapping kriging
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md
+    - name: prepare mechanical native mapping point cloud
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md
+    - name: prepare mechanical native mapping shape functions for surfaces
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md
+    - name: prepare mechanical native mapping shape functions for volume
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume.md
+    - name: prep sampling fft
+      href: operator-specifications/mapping/prep_sampling_fft.md
+    - name: scoping on coordinates
+      href: operator-specifications/mapping/scoping_on_coordinates.md
+    - name: sc mapping
+      href: operator-specifications/mapping/sc_mapping.md
+    - name: solid to skin
+      href: operator-specifications/mapping/solid_to_skin.md
+    - name: solid to skin fc
+      href: operator-specifications/mapping/solid_to_skin_fc.md
+    - name: sysc point cloud wf
+      href: operator-specifications/mapping/sysc_point_cloud_wf.md
+    - name: sysc shape function wf
+      href: operator-specifications/mapping/sysc_shape_function_wf.md
+  - name: math
+    href: operator-specifications/math/math_category.md
+    items:
+    - name: absolute value by component
+      href: operator-specifications/math/absolute_value_by_component.md
+    - name: absolute value by component fc
+      href: operator-specifications/math/absolute_value_by_component_fc.md
+    - name: accumulate
+      href: operator-specifications/math/accumulate.md
+    - name: accumulate fc
+      href: operator-specifications/math/accumulate_fc.md
+    - name: accumulate level over label fc
+      href: operator-specifications/math/accumulate_level_over_label_fc.md
+    - name: accumulate min over label fc
+      href: operator-specifications/math/accumulate_min_over_label_fc.md
+    - name: accumulate over label fc
+      href: operator-specifications/math/accumulate_over_label_fc.md
+    - name: accumulation per scoping
+      href: operator-specifications/math/accumulation_per_scoping.md
+    - name: add
+      href: operator-specifications/math/add.md
+    - name: add constant
+      href: operator-specifications/math/add_constant.md
+    - name: add constant fc
+      href: operator-specifications/math/add_constant_fc.md
+    - name: add fc
+      href: operator-specifications/math/add_fc.md
+    - name: amplitude
+      href: operator-specifications/math/amplitude.md
+    - name: amplitude fc
+      href: operator-specifications/math/amplitude_fc.md
+    - name: average over label fc
+      href: operator-specifications/math/average_over_label_fc.md
+    - name: centroid
+      href: operator-specifications/math/centroid.md
+    - name: centroid fc
+      href: operator-specifications/math/centroid_fc.md
+    - name: component wise divide
+      href: operator-specifications/math/component_wise_divide.md
+    - name: component wise divide fc
+      href: operator-specifications/math/component_wise_divide_fc.md
+    - name: component wise product
+      href: operator-specifications/math/component_wise_product.md
+    - name: component wise product fc
+      href: operator-specifications/math/component_wise_product_fc.md
+    - name: compute residual and error
+      href: operator-specifications/math/compute_residual_and_error.md
+    - name: conjugate
+      href: operator-specifications/math/conjugate.md
+    - name: correlation
+      href: operator-specifications/math/correlation.md
+    - name: cos
+      href: operator-specifications/math/cos.md
+    - name: cos fc
+      href: operator-specifications/math/cos_fc.md
+    - name: cplx derive
+      href: operator-specifications/math/cplx_derive.md
+    - name: cplx divide
+      href: operator-specifications/math/cplx_divide.md
+    - name: cplx dot
+      href: operator-specifications/math/cplx_dot.md
+    - name: cplx multiply
+      href: operator-specifications/math/cplx_multiply.md
+    - name: cross product
+      href: operator-specifications/math/cross_product.md
+    - name: cross product fc
+      href: operator-specifications/math/cross_product_fc.md
+    - name: dot
+      href: operator-specifications/math/dot.md
+    - name: dot tensor
+      href: operator-specifications/math/dot_tensor.md
+    - name: entity extractor
+      href: operator-specifications/math/entity_extractor.md
+    - name: expansion psd
+      href: operator-specifications/math/expansion_psd.md
+    - name: exponential
+      href: operator-specifications/math/exponential.md
+    - name: exponential fc
+      href: operator-specifications/math/exponential_fc.md
+    - name: fft approx
+      href: operator-specifications/math/fft_approx.md
+    - name: fft eval
+      href: operator-specifications/math/fft_eval.md
+    - name: fft gradient eval
+      href: operator-specifications/math/fft_gradient_eval.md
+    - name: fft multi harmonic minmax
+      href: operator-specifications/math/fft_multi_harmonic_minmax.md
+    - name: generalized inner product
+      href: operator-specifications/math/generalized_inner_product.md
+    - name: generalized inner product fc
+      href: operator-specifications/math/generalized_inner_product_fc.md
+    - name: hdf5 topo elemental density
+      href: operator-specifications/math/hdf5_topo_elemental_density.md
+    - name: hdf5 topo nodal density
+      href: operator-specifications/math/hdf5_topo_nodal_density.md
+    - name: img part
+      href: operator-specifications/math/img_part.md
+    - name: invert
+      href: operator-specifications/math/invert.md
+    - name: invert fc
+      href: operator-specifications/math/invert_fc.md
+    - name: kronecker prod
+      href: operator-specifications/math/kronecker_prod.md
+    - name: linear combination
+      href: operator-specifications/math/linear_combination.md
+    - name: ln
+      href: operator-specifications/math/ln.md
+    - name: ln fc
+      href: operator-specifications/math/ln_fc.md
+    - name: mac
+      href: operator-specifications/math/mac.md
+    - name: make one on comp
+      href: operator-specifications/math/make_one_on_comp.md
+    - name: matrix inverse
+      href: operator-specifications/math/matrix_inverse.md
+    - name: mechanical min max over time
+      href: operator-specifications/math/mechanical_min_max_over_time.md
+    - name: minus
+      href: operator-specifications/math/minus.md
+    - name: minus fc
+      href: operator-specifications/math/minus_fc.md
+    - name: modal damping ratio
+      href: operator-specifications/math/modal_damping_ratio.md
+    - name: modal participation
+      href: operator-specifications/math/modal_participation.md
+    - name: modal superposition
+      href: operator-specifications/math/modal_superposition.md
+    - name: modulus
+      href: operator-specifications/math/modulus.md
+    - name: norm
+      href: operator-specifications/math/norm.md
+    - name: norm fc
+      href: operator-specifications/math/norm_fc.md
+    - name: outer product
+      href: operator-specifications/math/outer_product.md
+    - name: overall dot
+      href: operator-specifications/math/overall_dot.md
+    - name: phase
+      href: operator-specifications/math/phase.md
+    - name: phase fc
+      href: operator-specifications/math/phase_fc.md
+    - name: polar to cplx
+      href: operator-specifications/math/polar_to_cplx.md
+    - name: pow
+      href: operator-specifications/math/pow.md
+    - name: pow fc
+      href: operator-specifications/math/pow_fc.md
+    - name: qr solve
+      href: operator-specifications/math/qr_solve.md
+    - name: real part
+      href: operator-specifications/math/real_part.md
+    - name: relative error
+      href: operator-specifications/math/relative_error.md
+    - name: scale
+      href: operator-specifications/math/scale.md
+    - name: scale by field
+      href: operator-specifications/math/scale_by_field.md
+    - name: scale by field fc
+      href: operator-specifications/math/scale_by_field_fc.md
+    - name: scale fc
+      href: operator-specifications/math/scale_fc.md
+    - name: sin
+      href: operator-specifications/math/sin.md
+    - name: sin fc
+      href: operator-specifications/math/sin_fc.md
+    - name: sqr
+      href: operator-specifications/math/sqr.md
+    - name: sqrt
+      href: operator-specifications/math/sqrt.md
+    - name: sqrt fc
+      href: operator-specifications/math/sqrt_fc.md
+    - name: sqr fc
+      href: operator-specifications/math/sqr_fc.md
+    - name: svd
+      href: operator-specifications/math/svd.md
+    - name: sweeping phase
+      href: operator-specifications/math/sweeping_phase.md
+    - name: sweeping phase fc
+      href: operator-specifications/math/sweeping_phase_fc.md
+    - name: time derivation
+      href: operator-specifications/math/time_derivation.md
+    - name: time freq interpolation
+      href: operator-specifications/math/time_freq_interpolation.md
+    - name: time integration
+      href: operator-specifications/math/time_integration.md
+    - name: unit convert
+      href: operator-specifications/math/unit_convert.md
+    - name: unit convert fc
+      href: operator-specifications/math/unit_convert_fc.md
+    - name: window bartlett
+      href: operator-specifications/math/window_bartlett.md
+    - name: window bartlett fc
+      href: operator-specifications/math/window_bartlett_fc.md
+    - name: window blackman
+      href: operator-specifications/math/window_blackman.md
+    - name: window blackman fc
+      href: operator-specifications/math/window_blackman_fc.md
+    - name: window hamming
+      href: operator-specifications/math/window_hamming.md
+    - name: window hamming fc
+      href: operator-specifications/math/window_hamming_fc.md
+    - name: window hanning
+      href: operator-specifications/math/window_hanning.md
+    - name: window hanning fc
+      href: operator-specifications/math/window_hanning_fc.md
+    - name: window triangular
+      href: operator-specifications/math/window_triangular.md
+    - name: window triangular fc
+      href: operator-specifications/math/window_triangular_fc.md
+    - name: window welch
+      href: operator-specifications/math/window_welch.md
+    - name: window welch fc
+      href: operator-specifications/math/window_welch_fc.md
+  - name: mesh
+    href: operator-specifications/mesh/mesh_category.md
+    items:
+    - name: acmo mesh provider
+      href: operator-specifications/mesh/acmo_mesh_provider.md
+    - name: beam properties
+      href: operator-specifications/mesh/beam_properties.md
+    - name: change cs
+      href: operator-specifications/mesh/change_cs.md
+    - name: combine levelset
+      href: operator-specifications/mesh/combine_levelset.md
+    - name: decimate mesh
+      href: operator-specifications/mesh/decimate_mesh.md
+    - name: exclude levelset
+      href: operator-specifications/mesh/exclude_levelset.md
+    - name: external layer
+      href: operator-specifications/mesh/external_layer.md
+    - name: from field
+      href: operator-specifications/mesh/from_field.md
+    - name: from scoping
+      href: operator-specifications/mesh/from_scoping.md
+    - name: from scopings
+      href: operator-specifications/mesh/from_scopings.md
+    - name: iso surfaces
+      href: operator-specifications/mesh/iso_surfaces.md
+    - name: make plane levelset
+      href: operator-specifications/mesh/make_plane_levelset.md
+    - name: make sphere levelset
+      href: operator-specifications/mesh/make_sphere_levelset.md
+    - name: meshes provider
+      href: operator-specifications/mesh/meshes_provider.md
+    - name: mesh clip
+      href: operator-specifications/mesh/mesh_clip.md
+    - name: mesh cut
+      href: operator-specifications/mesh/mesh_cut.md
+    - name: mesh extraction
+      href: operator-specifications/mesh/mesh_extraction.md
+    - name: mesh get attribute
+      href: operator-specifications/mesh/mesh_get_attribute.md
+    - name: mesh plan clip
+      href: operator-specifications/mesh/mesh_plan_clip.md
+    - name: mesh provider
+      href: operator-specifications/mesh/mesh_provider.md
+    - name: mesh to graphics
+      href: operator-specifications/mesh/mesh_to_graphics.md
+    - name: mesh to graphics edges
+      href: operator-specifications/mesh/mesh_to_graphics_edges.md
+    - name: mesh to pyvista
+      href: operator-specifications/mesh/mesh_to_pyvista.md
+    - name: mesh to tetra
+      href: operator-specifications/mesh/mesh_to_tetra.md
+    - name: morphed field
+      href: operator-specifications/mesh/morphed_field.md
+    - name: morphing
+      href: operator-specifications/mesh/morphing.md
+    - name: node coordinates
+      href: operator-specifications/mesh/node_coordinates.md
+    - name: points from coordinates
+      href: operator-specifications/mesh/points_from_coordinates.md
+    - name: prepare morphing
+      href: operator-specifications/mesh/prepare_morphing.md
+    - name: skin
+      href: operator-specifications/mesh/skin.md
+    - name: split fields
+      href: operator-specifications/mesh/split_fields.md
+    - name: split mesh
+      href: operator-specifications/mesh/split_mesh.md
+    - name: stl export
+      href: operator-specifications/mesh/stl_export.md
+    - name: tri mesh skin
+      href: operator-specifications/mesh/tri_mesh_skin.md
+    - name: wireframe
+      href: operator-specifications/mesh/wireframe.md
+  - name: metadata
+    href: operator-specifications/metadata/metadata_category.md
+    items:
+    - name: boundary condition provider
+      href: operator-specifications/metadata/boundary_condition_provider.md
+    - name: coordinate system data provider
+      href: operator-specifications/metadata/coordinate_system_data_provider.md
+    - name: cyclic mesh expansion
+      href: operator-specifications/metadata/cyclic_mesh_expansion.md
+    - name: cyclic support provider
+      href: operator-specifications/metadata/cyclic_support_provider.md
+    - name: datasources provider
+      href: operator-specifications/metadata/datasources_provider.md
+    - name: element types provider
+      href: operator-specifications/metadata/element_types_provider.md
+    - name: integrate over time freq
+      href: operator-specifications/metadata/integrate_over_time_freq.md
+    - name: is cyclic
+      href: operator-specifications/metadata/is_cyclic.md
+    - name: material support provider
+      href: operator-specifications/metadata/material_support_provider.md
+    - name: mesh info provider
+      href: operator-specifications/metadata/mesh_info_provider.md
+    - name: mesh property provider
+      href: operator-specifications/metadata/mesh_property_provider.md
+    - name: mesh selection manager provider
+      href: operator-specifications/metadata/mesh_selection_manager_provider.md
+    - name: mesh support provider
+      href: operator-specifications/metadata/mesh_support_provider.md
+    - name: property field provider by name
+      href: operator-specifications/metadata/property_field_provider_by_name.md
+    - name: real constants provider
+      href: operator-specifications/metadata/real_constants_provider.md
+    - name: result info provider
+      href: operator-specifications/metadata/result_info_provider.md
+    - name: streams provider
+      href: operator-specifications/metadata/streams_provider.md
+    - name: time freq provider
+      href: operator-specifications/metadata/time_freq_provider.md
+    - name: time freq support get attribute
+      href: operator-specifications/metadata/time_freq_support_get_attribute.md
+  - name: min_max
+    href: operator-specifications/min_max/min_max_category.md
+    items:
+    - name: max by component
+      href: operator-specifications/min_max/max_by_component.md
+    - name: max over phase
+      href: operator-specifications/min_max/max_over_phase.md
+    - name: max over time by entity
+      href: operator-specifications/min_max/max_over_time_by_entity.md
+    - name: min by component
+      href: operator-specifications/min_max/min_by_component.md
+    - name: min max
+      href: operator-specifications/min_max/min_max.md
+    - name: min max by entity
+      href: operator-specifications/min_max/min_max_by_entity.md
+    - name: min max by time
+      href: operator-specifications/min_max/min_max_by_time.md
+    - name: min max fc
+      href: operator-specifications/min_max/min_max_fc.md
+    - name: min max fc inc
+      href: operator-specifications/min_max/min_max_fc_inc.md
+    - name: min max inc
+      href: operator-specifications/min_max/min_max_inc.md
+    - name: min max over label fc
+      href: operator-specifications/min_max/min_max_over_label_fc.md
+    - name: min max over time by entity
+      href: operator-specifications/min_max/min_max_over_time_by_entity.md
+    - name: min over time by entity
+      href: operator-specifications/min_max/min_over_time_by_entity.md
+    - name: phase of max
+      href: operator-specifications/min_max/phase_of_max.md
+    - name: time of max by entity
+      href: operator-specifications/min_max/time_of_max_by_entity.md
+    - name: time of min by entity
+      href: operator-specifications/min_max/time_of_min_by_entity.md
+  - name: result
+    href: operator-specifications/result/result_category.md
+    items:
+    - name: acceleration
+      href: operator-specifications/result/acceleration.md
+    - name: acceleration X
+      href: operator-specifications/result/acceleration_X.md
+    - name: acceleration Y
+      href: operator-specifications/result/acceleration_Y.md
+    - name: acceleration Z
+      href: operator-specifications/result/acceleration_Z.md
+    - name: accu eqv creep strain
+      href: operator-specifications/result/accu_eqv_creep_strain.md
+    - name: accu eqv plastic strain
+      href: operator-specifications/result/accu_eqv_plastic_strain.md
+    - name: acoustic energy density
+      href: operator-specifications/result/acoustic_energy_density.md
+    - name: add rigid body motion
+      href: operator-specifications/result/add_rigid_body_motion.md
+    - name: add rigid body motion fc
+      href: operator-specifications/result/add_rigid_body_motion_fc.md
+    - name: artificial hourglass energy
+      href: operator-specifications/result/artificial_hourglass_energy.md
+    - name: beam axial force
+      href: operator-specifications/result/beam_axial_force.md
+    - name: beam axial plastic strain
+      href: operator-specifications/result/beam_axial_plastic_strain.md
+    - name: beam axial stress
+      href: operator-specifications/result/beam_axial_stress.md
+    - name: beam axial total strain
+      href: operator-specifications/result/beam_axial_total_strain.md
+    - name: beam rs shear stress
+      href: operator-specifications/result/beam_rs_shear_stress.md
+    - name: beam s bending moment
+      href: operator-specifications/result/beam_s_bending_moment.md
+    - name: beam s shear force
+      href: operator-specifications/result/beam_s_shear_force.md
+    - name: beam torsional moment
+      href: operator-specifications/result/beam_torsional_moment.md
+    - name: beam tr shear stress
+      href: operator-specifications/result/beam_tr_shear_stress.md
+    - name: beam t bending moment
+      href: operator-specifications/result/beam_t_bending_moment.md
+    - name: beam t shear force
+      href: operator-specifications/result/beam_t_shear_force.md
+    - name: cgns result provider
+      href: operator-specifications/result/cgns_result_provider.md
+    - name: cms dst table provider
+      href: operator-specifications/result/cms_dst_table_provider.md
+    - name: cms matrices provider
+      href: operator-specifications/result/cms_matrices_provider.md
+    - name: cms subfile info provider
+      href: operator-specifications/result/cms_subfile_info_provider.md
+    - name: compute invariant terms motion
+      href: operator-specifications/result/compute_invariant_terms_motion.md
+    - name: compute invariant terms rbd
+      href: operator-specifications/result/compute_invariant_terms_rbd.md
+    - name: compute stress
+      href: operator-specifications/result/compute_stress.md
+    - name: compute stress 1
+      href: operator-specifications/result/compute_stress_1.md
+    - name: compute stress 2
+      href: operator-specifications/result/compute_stress_2.md
+    - name: compute stress 3
+      href: operator-specifications/result/compute_stress_3.md
+    - name: compute stress von mises
+      href: operator-specifications/result/compute_stress_von_mises.md
+    - name: compute stress X
+      href: operator-specifications/result/compute_stress_X.md
+    - name: compute stress XY
+      href: operator-specifications/result/compute_stress_XY.md
+    - name: compute stress XZ
+      href: operator-specifications/result/compute_stress_XZ.md
+    - name: compute stress Y
+      href: operator-specifications/result/compute_stress_Y.md
+    - name: compute stress YZ
+      href: operator-specifications/result/compute_stress_YZ.md
+    - name: compute stress Z
+      href: operator-specifications/result/compute_stress_Z.md
+    - name: compute total strain
+      href: operator-specifications/result/compute_total_strain.md
+    - name: compute total strain 1
+      href: operator-specifications/result/compute_total_strain_1.md
+    - name: compute total strain 2
+      href: operator-specifications/result/compute_total_strain_2.md
+    - name: compute total strain 3
+      href: operator-specifications/result/compute_total_strain_3.md
+    - name: compute total strain X
+      href: operator-specifications/result/compute_total_strain_X.md
+    - name: compute total strain XY
+      href: operator-specifications/result/compute_total_strain_XY.md
+    - name: compute total strain XZ
+      href: operator-specifications/result/compute_total_strain_XZ.md
+    - name: compute total strain Y
+      href: operator-specifications/result/compute_total_strain_Y.md
+    - name: compute total strain YZ
+      href: operator-specifications/result/compute_total_strain_YZ.md
+    - name: compute total strain Z
+      href: operator-specifications/result/compute_total_strain_Z.md
+    - name: contact fluid penetration pressure
+      href: operator-specifications/result/contact_fluid_penetration_pressure.md
+    - name: contact friction stress
+      href: operator-specifications/result/contact_friction_stress.md
+    - name: contact gap distance
+      href: operator-specifications/result/contact_gap_distance.md
+    - name: contact penetration
+      href: operator-specifications/result/contact_penetration.md
+    - name: contact pressure
+      href: operator-specifications/result/contact_pressure.md
+    - name: contact sliding distance
+      href: operator-specifications/result/contact_sliding_distance.md
+    - name: contact status
+      href: operator-specifications/result/contact_status.md
+    - name: contact surface heat flux
+      href: operator-specifications/result/contact_surface_heat_flux.md
+    - name: contact total stress
+      href: operator-specifications/result/contact_total_stress.md
+    - name: coordinates
+      href: operator-specifications/result/coordinates.md
+    - name: coordinate system
+      href: operator-specifications/result/coordinate_system.md
+    - name: co energy
+      href: operator-specifications/result/co_energy.md
+    - name: creep strain
+      href: operator-specifications/result/creep_strain.md
+    - name: creep strain energy density
+      href: operator-specifications/result/creep_strain_energy_density.md
+    - name: creep strain eqv
+      href: operator-specifications/result/creep_strain_eqv.md
+    - name: creep strain intensity
+      href: operator-specifications/result/creep_strain_intensity.md
+    - name: creep strain max shear
+      href: operator-specifications/result/creep_strain_max_shear.md
+    - name: creep strain principal 1
+      href: operator-specifications/result/creep_strain_principal_1.md
+    - name: creep strain principal 2
+      href: operator-specifications/result/creep_strain_principal_2.md
+    - name: creep strain principal 3
+      href: operator-specifications/result/creep_strain_principal_3.md
+    - name: creep strain X
+      href: operator-specifications/result/creep_strain_X.md
+    - name: creep strain XY
+      href: operator-specifications/result/creep_strain_XY.md
+    - name: creep strain XZ
+      href: operator-specifications/result/creep_strain_XZ.md
+    - name: creep strain Y
+      href: operator-specifications/result/creep_strain_Y.md
+    - name: creep strain YZ
+      href: operator-specifications/result/creep_strain_YZ.md
+    - name: creep strain Z
+      href: operator-specifications/result/creep_strain_Z.md
+    - name: current density
+      href: operator-specifications/result/current_density.md
+    - name: cyclic analytic seqv max
+      href: operator-specifications/result/cyclic_analytic_seqv_max.md
+    - name: cyclic analytic usum max
+      href: operator-specifications/result/cyclic_analytic_usum_max.md
+    - name: cyclic expansion
+      href: operator-specifications/result/cyclic_expansion.md
+    - name: density
+      href: operator-specifications/result/density.md
+    - name: displacement
+      href: operator-specifications/result/displacement.md
+    - name: displacement X
+      href: operator-specifications/result/displacement_X.md
+    - name: displacement Y
+      href: operator-specifications/result/displacement_Y.md
+    - name: displacement Z
+      href: operator-specifications/result/displacement_Z.md
+    - name: div lighthill tensor
+      href: operator-specifications/result/div_lighthill_tensor.md
+    - name: dynamic viscosity
+      href: operator-specifications/result/dynamic_viscosity.md
+    - name: elastic strain
+      href: operator-specifications/result/elastic_strain.md
+    - name: elastic strain energy density
+      href: operator-specifications/result/elastic_strain_energy_density.md
+    - name: elastic strain eqv
+      href: operator-specifications/result/elastic_strain_eqv.md
+    - name: elastic strain intensity
+      href: operator-specifications/result/elastic_strain_intensity.md
+    - name: elastic strain max shear
+      href: operator-specifications/result/elastic_strain_max_shear.md
+    - name: elastic strain principal 1
+      href: operator-specifications/result/elastic_strain_principal_1.md
+    - name: elastic strain principal 2
+      href: operator-specifications/result/elastic_strain_principal_2.md
+    - name: elastic strain principal 3
+      href: operator-specifications/result/elastic_strain_principal_3.md
+    - name: elastic strain rotation by euler nodes
+      href: operator-specifications/result/elastic_strain_rotation_by_euler_nodes.md
+    - name: elastic strain X
+      href: operator-specifications/result/elastic_strain_X.md
+    - name: elastic strain XY
+      href: operator-specifications/result/elastic_strain_XY.md
+    - name: elastic strain XZ
+      href: operator-specifications/result/elastic_strain_XZ.md
+    - name: elastic strain Y
+      href: operator-specifications/result/elastic_strain_Y.md
+    - name: elastic strain YZ
+      href: operator-specifications/result/elastic_strain_YZ.md
+    - name: elastic strain Z
+      href: operator-specifications/result/elastic_strain_Z.md
+    - name: electric field
+      href: operator-specifications/result/electric_field.md
+    - name: electric field X
+      href: operator-specifications/result/electric_field_X.md
+    - name: electric field Y
+      href: operator-specifications/result/electric_field_Y.md
+    - name: electric field Z
+      href: operator-specifications/result/electric_field_Z.md
+    - name: electric flux density
+      href: operator-specifications/result/electric_flux_density.md
+    - name: electric flux density X
+      href: operator-specifications/result/electric_flux_density_X.md
+    - name: electric flux density Y
+      href: operator-specifications/result/electric_flux_density_Y.md
+    - name: electric flux density Z
+      href: operator-specifications/result/electric_flux_density_Z.md
+    - name: electric potential
+      href: operator-specifications/result/electric_potential.md
+    - name: elemental heat generation
+      href: operator-specifications/result/elemental_heat_generation.md
+    - name: elemental mass
+      href: operator-specifications/result/elemental_mass.md
+    - name: elemental volume
+      href: operator-specifications/result/elemental_volume.md
+    - name: element centroids
+      href: operator-specifications/result/element_centroids.md
+    - name: element nodal forces
+      href: operator-specifications/result/element_nodal_forces.md
+    - name: element orientations
+      href: operator-specifications/result/element_orientations.md
+    - name: element orientations X
+      href: operator-specifications/result/element_orientations_X.md
+    - name: element orientations Y
+      href: operator-specifications/result/element_orientations_Y.md
+    - name: element orientations Z
+      href: operator-specifications/result/element_orientations_Z.md
+    - name: enf rotation by euler nodes
+      href: operator-specifications/result/enf_rotation_by_euler_nodes.md
+    - name: enthalpy
+      href: operator-specifications/result/enthalpy.md
+    - name: entropy
+      href: operator-specifications/result/entropy.md
+    - name: epsilon
+      href: operator-specifications/result/epsilon.md
+    - name: equivalent mass
+      href: operator-specifications/result/equivalent_mass.md
+    - name: equivalent radiated power
+      href: operator-specifications/result/equivalent_radiated_power.md
+    - name: eqv stress parameter
+      href: operator-specifications/result/eqv_stress_parameter.md
+    - name: erp radiation efficiency
+      href: operator-specifications/result/erp_radiation_efficiency.md
+    - name: euler load buckling
+      href: operator-specifications/result/euler_load_buckling.md
+    - name: euler nodes
+      href: operator-specifications/result/euler_nodes.md
+    - name: fluid velocity
+      href: operator-specifications/result/fluid_velocity.md
+    - name: gasket deformation
+      href: operator-specifications/result/gasket_deformation.md
+    - name: gasket deformation X
+      href: operator-specifications/result/gasket_deformation_X.md
+    - name: gasket deformation XY
+      href: operator-specifications/result/gasket_deformation_XY.md
+    - name: gasket deformation XZ
+      href: operator-specifications/result/gasket_deformation_XZ.md
+    - name: gasket inelastic closure
+      href: operator-specifications/result/gasket_inelastic_closure.md
+    - name: gasket inelastic closure X
+      href: operator-specifications/result/gasket_inelastic_closure_X.md
+    - name: gasket inelastic closure XY
+      href: operator-specifications/result/gasket_inelastic_closure_XY.md
+    - name: gasket inelastic closure XZ
+      href: operator-specifications/result/gasket_inelastic_closure_XZ.md
+    - name: gasket stress
+      href: operator-specifications/result/gasket_stress.md
+    - name: gasket stress X
+      href: operator-specifications/result/gasket_stress_X.md
+    - name: gasket stress XY
+      href: operator-specifications/result/gasket_stress_XY.md
+    - name: gasket stress XZ
+      href: operator-specifications/result/gasket_stress_XZ.md
+    - name: gasket thermal closure
+      href: operator-specifications/result/gasket_thermal_closure.md
+    - name: gasket thermal closure X
+      href: operator-specifications/result/gasket_thermal_closure_X.md
+    - name: gasket thermal closure XY
+      href: operator-specifications/result/gasket_thermal_closure_XY.md
+    - name: gasket thermal closure XZ
+      href: operator-specifications/result/gasket_thermal_closure_XZ.md
+    - name: gasket total closure
+      href: operator-specifications/result/gasket_total_closure.md
+    - name: gasket total closure X
+      href: operator-specifications/result/gasket_total_closure_X.md
+    - name: gasket total closure XY
+      href: operator-specifications/result/gasket_total_closure_XY.md
+    - name: gasket total closure XZ
+      href: operator-specifications/result/gasket_total_closure_XZ.md
+    - name: global added mass
+      href: operator-specifications/result/global_added_mass.md
+    - name: global added mass pct
+      href: operator-specifications/result/global_added_mass_pct.md
+    - name: global center mass
+      href: operator-specifications/result/global_center_mass.md
+    - name: global energy ratio
+      href: operator-specifications/result/global_energy_ratio.md
+    - name: global energy ratio wo eroded
+      href: operator-specifications/result/global_energy_ratio_wo_eroded.md
+    - name: global eroded hourglass energy
+      href: operator-specifications/result/global_eroded_hourglass_energy.md
+    - name: global eroded internal energy
+      href: operator-specifications/result/global_eroded_internal_energy.md
+    - name: global eroded kinetic energy
+      href: operator-specifications/result/global_eroded_kinetic_energy.md
+    - name: global external work
+      href: operator-specifications/result/global_external_work.md
+    - name: global hourglass energy
+      href: operator-specifications/result/global_hourglass_energy.md
+    - name: global internal energy
+      href: operator-specifications/result/global_internal_energy.md
+    - name: global joint internal energy
+      href: operator-specifications/result/global_joint_internal_energy.md
+    - name: global kinetic energy
+      href: operator-specifications/result/global_kinetic_energy.md
+    - name: global rigid body stopper energy
+      href: operator-specifications/result/global_rigid_body_stopper_energy.md
+    - name: global sliding interface energy
+      href: operator-specifications/result/global_sliding_interface_energy.md
+    - name: global spring damper energy
+      href: operator-specifications/result/global_spring_damper_energy.md
+    - name: global system damping energy
+      href: operator-specifications/result/global_system_damping_energy.md
+    - name: global time step
+      href: operator-specifications/result/global_time_step.md
+    - name: global total energy
+      href: operator-specifications/result/global_total_energy.md
+    - name: global total mass
+      href: operator-specifications/result/global_total_mass.md
+    - name: global velocity
+      href: operator-specifications/result/global_velocity.md
+    - name: heat flux
+      href: operator-specifications/result/heat_flux.md
+    - name: heat flux X
+      href: operator-specifications/result/heat_flux_X.md
+    - name: heat flux Y
+      href: operator-specifications/result/heat_flux_Y.md
+    - name: heat flux Z
+      href: operator-specifications/result/heat_flux_Z.md
+    - name: hydrostatic pressure
+      href: operator-specifications/result/hydrostatic_pressure.md
+    - name: incremental energy
+      href: operator-specifications/result/incremental_energy.md
+    - name: initial coordinates
+      href: operator-specifications/result/initial_coordinates.md
+    - name: input sound power
+      href: operator-specifications/result/input_sound_power.md
+    - name: interface contact area
+      href: operator-specifications/result/interface_contact_area.md
+    - name: interface contact force
+      href: operator-specifications/result/interface_contact_force.md
+    - name: interface contact mass
+      href: operator-specifications/result/interface_contact_mass.md
+    - name: interface contact moment
+      href: operator-specifications/result/interface_contact_moment.md
+    - name: interface resultant contact force
+      href: operator-specifications/result/interface_resultant_contact_force.md
+    - name: joint force reaction
+      href: operator-specifications/result/joint_force_reaction.md
+    - name: joint moment reaction
+      href: operator-specifications/result/joint_moment_reaction.md
+    - name: joint relative acceleration
+      href: operator-specifications/result/joint_relative_acceleration.md
+    - name: joint relative angular acceleration
+      href: operator-specifications/result/joint_relative_angular_acceleration.md
+    - name: joint relative angular velocity
+      href: operator-specifications/result/joint_relative_angular_velocity.md
+    - name: joint relative displacement
+      href: operator-specifications/result/joint_relative_displacement.md
+    - name: joint relative rotation
+      href: operator-specifications/result/joint_relative_rotation.md
+    - name: joint relative velocity
+      href: operator-specifications/result/joint_relative_velocity.md
+    - name: kinetic energy
+      href: operator-specifications/result/kinetic_energy.md
+    - name: layer orientation provider
+      href: operator-specifications/result/layer_orientation_provider.md
+    - name: mach number
+      href: operator-specifications/result/mach_number.md
+    - name: magnetic field
+      href: operator-specifications/result/magnetic_field.md
+    - name: magnetic field X
+      href: operator-specifications/result/magnetic_field_X.md
+    - name: magnetic field Y
+      href: operator-specifications/result/magnetic_field_Y.md
+    - name: magnetic field Z
+      href: operator-specifications/result/magnetic_field_Z.md
+    - name: magnetic flux density
+      href: operator-specifications/result/magnetic_flux_density.md
+    - name: magnetic flux density X
+      href: operator-specifications/result/magnetic_flux_density_X.md
+    - name: magnetic flux density Y
+      href: operator-specifications/result/magnetic_flux_density_Y.md
+    - name: magnetic flux density Z
+      href: operator-specifications/result/magnetic_flux_density_Z.md
+    - name: magnetic scalar potential
+      href: operator-specifications/result/magnetic_scalar_potential.md
+    - name: magnetic vector potential
+      href: operator-specifications/result/magnetic_vector_potential.md
+    - name: mapdl.global to nodal
+      href: operator-specifications/result/mapdl.global_to_nodal.md
+    - name: mapdl.pres to field
+      href: operator-specifications/result/mapdl.pres_to_field.md
+    - name: mapdl.prns to field
+      href: operator-specifications/result/mapdl.prns_to_field.md
+    - name: mapdl.run
+      href: operator-specifications/result/mapdl.run.md
+    - name: mapdl material properties
+      href: operator-specifications/result/mapdl_material_properties.md
+    - name: mapdl section
+      href: operator-specifications/result/mapdl_section.md
+    - name: mapdl split on facet indices
+      href: operator-specifications/result/mapdl_split_on_facet_indices.md
+    - name: mapdl split to acmo facet indices
+      href: operator-specifications/result/mapdl_split_to_acmo_facet_indices.md
+    - name: mass flow rate
+      href: operator-specifications/result/mass_flow_rate.md
+    - name: mass fraction
+      href: operator-specifications/result/mass_fraction.md
+    - name: material property of element
+      href: operator-specifications/result/material_property_of_element.md
+    - name: mean static pressure
+      href: operator-specifications/result/mean_static_pressure.md
+    - name: mean temperature
+      href: operator-specifications/result/mean_temperature.md
+    - name: mean velocity
+      href: operator-specifications/result/mean_velocity.md
+    - name: members in bending not certified
+      href: operator-specifications/result/members_in_bending_not_certified.md
+    - name: members in compression not certified
+      href: operator-specifications/result/members_in_compression_not_certified.md
+    - name: members in linear compression bending not certified
+      href: operator-specifications/result/members_in_linear_compression_bending_not_certified.md
+    - name: migrate to h5dpf
+      href: operator-specifications/result/migrate_to_h5dpf.md
+    - name: modal acceleration
+      href: operator-specifications/result/modal_acceleration.md
+    - name: modal basis
+      href: operator-specifications/result/modal_basis.md
+    - name: modal coordinate
+      href: operator-specifications/result/modal_coordinate.md
+    - name: modal velocity
+      href: operator-specifications/result/modal_velocity.md
+    - name: nmisc
+      href: operator-specifications/result/nmisc.md
+    - name: nodal force
+      href: operator-specifications/result/nodal_force.md
+    - name: nodal moment
+      href: operator-specifications/result/nodal_moment.md
+    - name: nodal rotation
+      href: operator-specifications/result/nodal_rotation.md
+    - name: nodal rotational acceleration
+      href: operator-specifications/result/nodal_rotational_acceleration.md
+    - name: nodal rotational acceleration X
+      href: operator-specifications/result/nodal_rotational_acceleration_X.md
+    - name: nodal rotational acceleration Y
+      href: operator-specifications/result/nodal_rotational_acceleration_Y.md
+    - name: nodal rotational acceleration Z
+      href: operator-specifications/result/nodal_rotational_acceleration_Z.md
+    - name: nodal rotational velocity
+      href: operator-specifications/result/nodal_rotational_velocity.md
+    - name: nodal rotational velocity X
+      href: operator-specifications/result/nodal_rotational_velocity_X.md
+    - name: nodal rotational velocity Y
+      href: operator-specifications/result/nodal_rotational_velocity_Y.md
+    - name: nodal rotational velocity Z
+      href: operator-specifications/result/nodal_rotational_velocity_Z.md
+    - name: nodal rotation X
+      href: operator-specifications/result/nodal_rotation_X.md
+    - name: nodal rotation Y
+      href: operator-specifications/result/nodal_rotation_Y.md
+    - name: nodal rotation Z
+      href: operator-specifications/result/nodal_rotation_Z.md
+    - name: nodal to global
+      href: operator-specifications/result/nodal_to_global.md
+    - name: node orientations
+      href: operator-specifications/result/node_orientations.md
+    - name: node orientations X
+      href: operator-specifications/result/node_orientations_X.md
+    - name: node orientations Y
+      href: operator-specifications/result/node_orientations_Y.md
+    - name: node orientations Z
+      href: operator-specifications/result/node_orientations_Z.md
+    - name: normal contact force
+      href: operator-specifications/result/normal_contact_force.md
+    - name: normal contact moment
+      href: operator-specifications/result/normal_contact_moment.md
+    - name: num surface status changes
+      href: operator-specifications/result/num_surface_status_changes.md
+    - name: omega
+      href: operator-specifications/result/omega.md
+    - name: output sound power
+      href: operator-specifications/result/output_sound_power.md
+    - name: part added mass
+      href: operator-specifications/result/part_added_mass.md
+    - name: part eroded internal energy
+      href: operator-specifications/result/part_eroded_internal_energy.md
+    - name: part eroded kinetic energy
+      href: operator-specifications/result/part_eroded_kinetic_energy.md
+    - name: part hourglass energy
+      href: operator-specifications/result/part_hourglass_energy.md
+    - name: part internal energy
+      href: operator-specifications/result/part_internal_energy.md
+    - name: part kinetic energy
+      href: operator-specifications/result/part_kinetic_energy.md
+    - name: part momentum
+      href: operator-specifications/result/part_momentum.md
+    - name: part rigid body velocity
+      href: operator-specifications/result/part_rigid_body_velocity.md
+    - name: PL2
+      href: operator-specifications/result/PL2.md
+    - name: plastic state variable
+      href: operator-specifications/result/plastic_state_variable.md
+    - name: plastic strain
+      href: operator-specifications/result/plastic_strain.md
+    - name: plastic strain energy density
+      href: operator-specifications/result/plastic_strain_energy_density.md
+    - name: plastic strain eqv
+      href: operator-specifications/result/plastic_strain_eqv.md
+    - name: plastic strain intensity
+      href: operator-specifications/result/plastic_strain_intensity.md
+    - name: plastic strain max shear
+      href: operator-specifications/result/plastic_strain_max_shear.md
+    - name: plastic strain principal 1
+      href: operator-specifications/result/plastic_strain_principal_1.md
+    - name: plastic strain principal 2
+      href: operator-specifications/result/plastic_strain_principal_2.md
+    - name: plastic strain principal 3
+      href: operator-specifications/result/plastic_strain_principal_3.md
+    - name: plastic strain rotation by euler nodes
+      href: operator-specifications/result/plastic_strain_rotation_by_euler_nodes.md
+    - name: plastic strain X
+      href: operator-specifications/result/plastic_strain_X.md
+    - name: plastic strain XY
+      href: operator-specifications/result/plastic_strain_XY.md
+    - name: plastic strain XZ
+      href: operator-specifications/result/plastic_strain_XZ.md
+    - name: plastic strain Y
+      href: operator-specifications/result/plastic_strain_Y.md
+    - name: plastic strain YZ
+      href: operator-specifications/result/plastic_strain_YZ.md
+    - name: plastic strain Z
+      href: operator-specifications/result/plastic_strain_Z.md
+    - name: poynting vector
+      href: operator-specifications/result/poynting_vector.md
+    - name: poynting vector surface
+      href: operator-specifications/result/poynting_vector_surface.md
+    - name: pressure
+      href: operator-specifications/result/pressure.md
+    - name: pretension
+      href: operator-specifications/result/pretension.md
+    - name: raw displacement
+      href: operator-specifications/result/raw_displacement.md
+    - name: raw reaction force
+      href: operator-specifications/result/raw_reaction_force.md
+    - name: reaction force
+      href: operator-specifications/result/reaction_force.md
+    - name: reaction force X
+      href: operator-specifications/result/reaction_force_X.md
+    - name: reaction force Y
+      href: operator-specifications/result/reaction_force_Y.md
+    - name: reaction force Z
+      href: operator-specifications/result/reaction_force_Z.md
+    - name: read cms rbd file
+      href: operator-specifications/result/read_cms_rbd_file.md
+    - name: recombine harmonic indeces cyclic
+      href: operator-specifications/result/recombine_harmonic_indeces_cyclic.md
+    - name: remove rigid body motion
+      href: operator-specifications/result/remove_rigid_body_motion.md
+    - name: remove rigid body motion fc
+      href: operator-specifications/result/remove_rigid_body_motion_fc.md
+    - name: result provider
+      href: operator-specifications/result/result_provider.md
+    - name: rigid transformation
+      href: operator-specifications/result/rigid_transformation.md
+    - name: rigid transformation provider
+      href: operator-specifications/result/rigid_transformation_provider.md
+    - name: rms static pressure
+      href: operator-specifications/result/rms_static_pressure.md
+    - name: rms temperature
+      href: operator-specifications/result/rms_temperature.md
+    - name: rms velocity
+      href: operator-specifications/result/rms_velocity.md
+    - name: rom data provider
+      href: operator-specifications/result/rom_data_provider.md
+    - name: smisc
+      href: operator-specifications/result/smisc.md
+    - name: specific heat
+      href: operator-specifications/result/specific_heat.md
+    - name: spectrum data
+      href: operator-specifications/result/spectrum_data.md
+    - name: squared l2norm pressure
+      href: operator-specifications/result/squared_l2norm_pressure.md
+    - name: state variable
+      href: operator-specifications/result/state_variable.md
+    - name: static pressure
+      href: operator-specifications/result/static_pressure.md
+    - name: stiffness matrix energy
+      href: operator-specifications/result/stiffness_matrix_energy.md
+    - name: strain eqv as mechanical
+      href: operator-specifications/result/strain_eqv_as_mechanical.md
+    - name: strain eqv as mechanical workflow
+      href: operator-specifications/result/strain_eqv_as_mechanical_workflow.md
+    - name: stress
+      href: operator-specifications/result/stress.md
+    - name: stress eqv as mechanical
+      href: operator-specifications/result/stress_eqv_as_mechanical.md
+    - name: stress eqv as mechanical workflow
+      href: operator-specifications/result/stress_eqv_as_mechanical_workflow.md
+    - name: stress intensity
+      href: operator-specifications/result/stress_intensity.md
+    - name: stress max shear
+      href: operator-specifications/result/stress_max_shear.md
+    - name: stress principal 1
+      href: operator-specifications/result/stress_principal_1.md
+    - name: stress principal 2
+      href: operator-specifications/result/stress_principal_2.md
+    - name: stress principal 3
+      href: operator-specifications/result/stress_principal_3.md
+    - name: stress ratio
+      href: operator-specifications/result/stress_ratio.md
+    - name: stress rotation by euler nodes
+      href: operator-specifications/result/stress_rotation_by_euler_nodes.md
+    - name: stress von mises
+      href: operator-specifications/result/stress_von_mises.md
+    - name: stress X
+      href: operator-specifications/result/stress_X.md
+    - name: stress XY
+      href: operator-specifications/result/stress_XY.md
+    - name: stress XZ
+      href: operator-specifications/result/stress_XZ.md
+    - name: stress Y
+      href: operator-specifications/result/stress_Y.md
+    - name: stress YZ
+      href: operator-specifications/result/stress_YZ.md
+    - name: stress Z
+      href: operator-specifications/result/stress_Z.md
+    - name: structural temperature
+      href: operator-specifications/result/structural_temperature.md
+    - name: superficial velocity
+      href: operator-specifications/result/superficial_velocity.md
+    - name: surface heat rate
+      href: operator-specifications/result/surface_heat_rate.md
+    - name: swelling strains
+      href: operator-specifications/result/swelling_strains.md
+    - name: tangential contact force
+      href: operator-specifications/result/tangential_contact_force.md
+    - name: tangential contact moment
+      href: operator-specifications/result/tangential_contact_moment.md
+    - name: temperature
+      href: operator-specifications/result/temperature.md
+    - name: temperature grad
+      href: operator-specifications/result/temperature_grad.md
+    - name: temperature grad X
+      href: operator-specifications/result/temperature_grad_X.md
+    - name: temperature grad Y
+      href: operator-specifications/result/temperature_grad_Y.md
+    - name: temperature grad Z
+      href: operator-specifications/result/temperature_grad_Z.md
+    - name: thermal conductivity
+      href: operator-specifications/result/thermal_conductivity.md
+    - name: thermal dissipation energy
+      href: operator-specifications/result/thermal_dissipation_energy.md
+    - name: thermal strain
+      href: operator-specifications/result/thermal_strain.md
+    - name: thermal strains eqv
+      href: operator-specifications/result/thermal_strains_eqv.md
+    - name: thermal strain principal 1
+      href: operator-specifications/result/thermal_strain_principal_1.md
+    - name: thermal strain principal 2
+      href: operator-specifications/result/thermal_strain_principal_2.md
+    - name: thermal strain principal 3
+      href: operator-specifications/result/thermal_strain_principal_3.md
+    - name: thermal strain X
+      href: operator-specifications/result/thermal_strain_X.md
+    - name: thermal strain XY
+      href: operator-specifications/result/thermal_strain_XY.md
+    - name: thermal strain XZ
+      href: operator-specifications/result/thermal_strain_XZ.md
+    - name: thermal strain Y
+      href: operator-specifications/result/thermal_strain_Y.md
+    - name: thermal strain YZ
+      href: operator-specifications/result/thermal_strain_YZ.md
+    - name: thermal strain Z
+      href: operator-specifications/result/thermal_strain_Z.md
+    - name: thickness
+      href: operator-specifications/result/thickness.md
+    - name: torque
+      href: operator-specifications/result/torque.md
+    - name: total contact force
+      href: operator-specifications/result/total_contact_force.md
+    - name: total contact moment
+      href: operator-specifications/result/total_contact_moment.md
+    - name: total mass
+      href: operator-specifications/result/total_mass.md
+    - name: total pressure
+      href: operator-specifications/result/total_pressure.md
+    - name: total strain
+      href: operator-specifications/result/total_strain.md
+    - name: total temperature
+      href: operator-specifications/result/total_temperature.md
+    - name: transform invariant terms rbd
+      href: operator-specifications/result/transform_invariant_terms_rbd.md
+    - name: transient rayleigh integration
+      href: operator-specifications/result/transient_rayleigh_integration.md
+    - name: turbulent kinetic energy
+      href: operator-specifications/result/turbulent_kinetic_energy.md
+    - name: turbulent viscosity
+      href: operator-specifications/result/turbulent_viscosity.md
+    - name: velocity
+      href: operator-specifications/result/velocity.md
+    - name: velocity X
+      href: operator-specifications/result/velocity_X.md
+    - name: velocity Y
+      href: operator-specifications/result/velocity_Y.md
+    - name: velocity Z
+      href: operator-specifications/result/velocity_Z.md
+    - name: volume fraction
+      href: operator-specifications/result/volume_fraction.md
+    - name: wall shear stress
+      href: operator-specifications/result/wall_shear_stress.md
+    - name: workflow energy per component
+      href: operator-specifications/result/workflow_energy_per_component.md
+    - name: workflow energy per harmonic
+      href: operator-specifications/result/workflow_energy_per_harmonic.md
+    - name: write cms rbd file
+      href: operator-specifications/result/write_cms_rbd_file.md
+    - name: write motion dfmf file
+      href: operator-specifications/result/write_motion_dfmf_file.md
+    - name: y plus
+      href: operator-specifications/result/y_plus.md
+  - name: scoping
+    href: operator-specifications/scoping/scoping_category.md
+    items:
+    - name: adapt with scopings container
+      href: operator-specifications/scoping/adapt_with_scopings_container.md
+    - name: change fc
+      href: operator-specifications/scoping/change_fc.md
+    - name: compute element centroids
+      href: operator-specifications/scoping/compute_element_centroids.md
+    - name: connectivity ids
+      href: operator-specifications/scoping/connectivity_ids.md
+    - name: elemental from mesh
+      href: operator-specifications/scoping/elemental_from_mesh.md
+    - name: from mesh
+      href: operator-specifications/scoping/from_mesh.md
+    - name: intersect
+      href: operator-specifications/scoping/intersect.md
+    - name: nodal from mesh
+      href: operator-specifications/scoping/nodal_from_mesh.md
+    - name: on mesh property
+      href: operator-specifications/scoping/on_mesh_property.md
+    - name: on named selection
+      href: operator-specifications/scoping/on_named_selection.md
+    - name: on property
+      href: operator-specifications/scoping/on_property.md
+    - name: reduce sampling
+      href: operator-specifications/scoping/reduce_sampling.md
+    - name: rescope
+      href: operator-specifications/scoping/rescope.md
+    - name: rescope custom type field
+      href: operator-specifications/scoping/rescope_custom_type_field.md
+    - name: rescope fc
+      href: operator-specifications/scoping/rescope_fc.md
+    - name: rescope property field
+      href: operator-specifications/scoping/rescope_property_field.md
+    - name: scoping get attribute
+      href: operator-specifications/scoping/scoping_get_attribute.md
+    - name: split on property type
+      href: operator-specifications/scoping/split_on_property_type.md
+    - name: transpose
+      href: operator-specifications/scoping/transpose.md
+  - name: serialization
+    href: operator-specifications/serialization/serialization_category.md
+    items:
+    - name: csv to field
+      href: operator-specifications/serialization/csv_to_field.md
+    - name: data tree to json
+      href: operator-specifications/serialization/data_tree_to_json.md
+    - name: data tree to txt
+      href: operator-specifications/serialization/data_tree_to_txt.md
+    - name: deserializer
+      href: operator-specifications/serialization/deserializer.md
+    - name: export mesh with prime
+      href: operator-specifications/serialization/export_mesh_with_prime.md
+    - name: export symbolic workflow
+      href: operator-specifications/serialization/export_symbolic_workflow.md
+    - name: field to csv
+      href: operator-specifications/serialization/field_to_csv.md
+    - name: hdf5dpf custom read
+      href: operator-specifications/serialization/hdf5dpf_custom_read.md
+    - name: hdf5dpf generate result file
+      href: operator-specifications/serialization/hdf5dpf_generate_result_file.md
+    - name: import symbolic workflow
+      href: operator-specifications/serialization/import_symbolic_workflow.md
+    - name: json to data tree
+      href: operator-specifications/serialization/json_to_data_tree.md
+    - name: mechanical csv to field
+      href: operator-specifications/serialization/mechanical_csv_to_field.md
+    - name: migrate file to vtk
+      href: operator-specifications/serialization/migrate_file_to_vtk.md
+    - name: migrate to vtu
+      href: operator-specifications/serialization/migrate_to_vtu.md
+    - name: serializer
+      href: operator-specifications/serialization/serializer.md
+    - name: serializer to string
+      href: operator-specifications/serialization/serializer_to_string.md
+    - name: serialize to hdf5
+      href: operator-specifications/serialization/serialize_to_hdf5.md
+    - name: string deserializer
+      href: operator-specifications/serialization/string_deserializer.md
+    - name: txt to data tree
+      href: operator-specifications/serialization/txt_to_data_tree.md
+    - name: vtk export
+      href: operator-specifications/serialization/vtk_export.md
+    - name: vtk to fields
+      href: operator-specifications/serialization/vtk_to_fields.md
+    - name: vtu export
+      href: operator-specifications/serialization/vtu_export.md
+    - name: workflow to pydpf
+      href: operator-specifications/serialization/workflow_to_pydpf.md
+    - name: workflow to workflow topology
+      href: operator-specifications/serialization/workflow_to_workflow_topology.md
+  - name: server
+    href: operator-specifications/server/server_category.md
+    items:
+    - name: grpc shutdown server
+      href: operator-specifications/server/grpc_shutdown_server.md
+    - name: grpc start server
+      href: operator-specifications/server/grpc_start_server.md
+  - name: sound
+    href: operator-specifications/sound/sound_category.md
+    items:
+    - name: append zeros to signal
+      href: operator-specifications/sound/append_zeros_to_signal.md
+    - name: apply gain
+      href: operator-specifications/sound/apply_gain.md
+    - name: compute fluctuation strength
+      href: operator-specifications/sound/compute_fluctuation_strength.md
+    - name: compute istft
+      href: operator-specifications/sound/compute_istft.md
+    - name: compute level over time
+      href: operator-specifications/sound/compute_level_over_time.md
+    - name: compute loudness ansi s3 4
+      href: operator-specifications/sound/compute_loudness_ansi_s3_4.md
+    - name: compute loudness iso532 1
+      href: operator-specifications/sound/compute_loudness_iso532_1.md
+    - name: compute loudness iso532 1 frequency input
+      href: operator-specifications/sound/compute_loudness_iso532_1_frequency_input.md
+    - name: compute loudness iso532 1 vs time
+      href: operator-specifications/sound/compute_loudness_iso532_1_vs_time.md
+    - name: compute loudness iso532 2
+      href: operator-specifications/sound/compute_loudness_iso532_2.md
+    - name: compute octave levels from psd
+      href: operator-specifications/sound/compute_octave_levels_from_psd.md
+    - name: compute octave levels from psd ansi s1 11 1986
+      href: operator-specifications/sound/compute_octave_levels_from_psd_ansi_s1_11_1986.md
+    - name: compute octave levels from signal
+      href: operator-specifications/sound/compute_octave_levels_from_signal.md
+    - name: compute one third octave levels from psd
+      href: operator-specifications/sound/compute_one_third_octave_levels_from_psd.md
+    - name: compute one third octave levels from psd ansi s1 11 1986
+      href: operator-specifications/sound/compute_one_third_octave_levels_from_psd_ansi_s1_11_1986.md
+    - name: compute one third octave levels from signal
+      href: operator-specifications/sound/compute_one_third_octave_levels_from_signal.md
+    - name: compute overall level
+      href: operator-specifications/sound/compute_overall_level.md
+    - name: compute power spectral density
+      href: operator-specifications/sound/compute_power_spectral_density.md
+    - name: compute PR
+      href: operator-specifications/sound/compute_PR.md
+    - name: compute prominence ratio for orders over time
+      href: operator-specifications/sound/compute_prominence_ratio_for_orders_over_time.md
+    - name: compute roughness
+      href: operator-specifications/sound/compute_roughness.md
+    - name: compute sharpness
+      href: operator-specifications/sound/compute_sharpness.md
+    - name: compute sharpness din45692
+      href: operator-specifications/sound/compute_sharpness_din45692.md
+    - name: compute sharpness frequency input
+      href: operator-specifications/sound/compute_sharpness_frequency_input.md
+    - name: compute sharpness over time
+      href: operator-specifications/sound/compute_sharpness_over_time.md
+    - name: compute sound power level iso3744
+      href: operator-specifications/sound/compute_sound_power_level_iso3744.md
+    - name: compute spectral centroid
+      href: operator-specifications/sound/compute_spectral_centroid.md
+    - name: compute stft
+      href: operator-specifications/sound/compute_stft.md
+    - name: compute TNR
+      href: operator-specifications/sound/compute_TNR.md
+    - name: compute tonality aures
+      href: operator-specifications/sound/compute_tonality_aures.md
+    - name: compute tonality din45681
+      href: operator-specifications/sound/compute_tonality_din45681.md
+    - name: compute tonality ecma418 2
+      href: operator-specifications/sound/compute_tonality_ecma418_2.md
+    - name: compute tonality iso1996 2
+      href: operator-specifications/sound/compute_tonality_iso1996_2.md
+    - name: compute tonality iso1996 2 over time
+      href: operator-specifications/sound/compute_tonality_iso1996_2_over_time.md
+    - name: compute tonality isots 20065
+      href: operator-specifications/sound/compute_tonality_isots_20065.md
+    - name: compute tone to noise ratio for orders over time
+      href: operator-specifications/sound/compute_tone_to_noise_ratio_for_orders_over_time.md
+    - name: create field from vector
+      href: operator-specifications/sound/create_field_from_vector.md
+    - name: create noise profile from automatic estimation
+      href: operator-specifications/sound/create_noise_profile_from_automatic_estimation.md
+    - name: create noise profile from noise samples
+      href: operator-specifications/sound/create_noise_profile_from_noise_samples.md
+    - name: create noise profile from white noise power
+      href: operator-specifications/sound/create_noise_profile_from_white_noise_power.md
+    - name: filter design minimum phase FIR filter from FRF
+      href: operator-specifications/sound/filter_design_minimum_phase_FIR_filter_from_FRF.md
+    - name: filter signal
+      href: operator-specifications/sound/filter_signal.md
+    - name: get cropped signal
+      href: operator-specifications/sound/get_cropped_signal.md
+    - name: get frequency weighting
+      href: operator-specifications/sound/get_frequency_weighting.md
+    - name: isolate orders
+      href: operator-specifications/sound/isolate_orders.md
+    - name: load FRF from txt
+      href: operator-specifications/sound/load_FRF_from_txt.md
+    - name: load project sound power level iso3744
+      href: operator-specifications/sound/load_project_sound_power_level_iso3744.md
+    - name: load sound samples from txt
+      href: operator-specifications/sound/load_sound_samples_from_txt.md
+    - name: load wav sas
+      href: operator-specifications/sound/load_wav_sas.md
+    - name: resample
+      href: operator-specifications/sound/resample.md
+    - name: sound composer generate sound bbn
+      href: operator-specifications/sound/sound_composer_generate_sound_bbn.md
+    - name: sound composer generate sound bbn two parameters
+      href: operator-specifications/sound/sound_composer_generate_sound_bbn_two_parameters.md
+    - name: sound composer generate sound harmonics
+      href: operator-specifications/sound/sound_composer_generate_sound_harmonics.md
+    - name: sound composer generate sound harmonics two parameters
+      href: operator-specifications/sound/sound_composer_generate_sound_harmonics_two_parameters.md
+    - name: sound composer generate sound spectrum
+      href: operator-specifications/sound/sound_composer_generate_sound_spectrum.md
+    - name: sound composer load project
+      href: operator-specifications/sound/sound_composer_load_project.md
+    - name: sound composer load source bbn
+      href: operator-specifications/sound/sound_composer_load_source_bbn.md
+    - name: sound composer load source bbn two parameters
+      href: operator-specifications/sound/sound_composer_load_source_bbn_two_parameters.md
+    - name: sound composer load source harmonics
+      href: operator-specifications/sound/sound_composer_load_source_harmonics.md
+    - name: sound composer load source harmonics two parameters
+      href: operator-specifications/sound/sound_composer_load_source_harmonics_two_parameters.md
+    - name: sound composer load source spectrum
+      href: operator-specifications/sound/sound_composer_load_source_spectrum.md
+    - name: sound composer save project
+      href: operator-specifications/sound/sound_composer_save_project.md
+    - name: sum signals
+      href: operator-specifications/sound/sum_signals.md
+    - name: write wav sas
+      href: operator-specifications/sound/write_wav_sas.md
+    - name: xtract
+      href: operator-specifications/sound/xtract.md
+    - name: xtract denoiser
+      href: operator-specifications/sound/xtract_denoiser.md
+    - name: xtract tonal
+      href: operator-specifications/sound/xtract_tonal.md
+    - name: xtract transient
+      href: operator-specifications/sound/xtract_transient.md
+  - name: utility
+    href: operator-specifications/utility/utility_category.md
+    items:
+    - name: assemble scalars to matrices
+      href: operator-specifications/utility/assemble_scalars_to_matrices.md
+    - name: assemble scalars to matrices fc
+      href: operator-specifications/utility/assemble_scalars_to_matrices_fc.md
+    - name: assemble scalars to vectors
+      href: operator-specifications/utility/assemble_scalars_to_vectors.md
+    - name: assemble scalars to vectors fc
+      href: operator-specifications/utility/assemble_scalars_to_vectors_fc.md
+    - name: bind support
+      href: operator-specifications/utility/bind_support.md
+    - name: bind support fc
+      href: operator-specifications/utility/bind_support_fc.md
+    - name: change location
+      href: operator-specifications/utility/change_location.md
+    - name: change shell layers
+      href: operator-specifications/utility/change_shell_layers.md
+    - name: compute time scoping
+      href: operator-specifications/utility/compute_time_scoping.md
+    - name: concatenate fields
+      href: operator-specifications/utility/concatenate_fields.md
+    - name: concatenate fields containers
+      href: operator-specifications/utility/concatenate_fields_containers.md
+    - name: customtypefield get attribute
+      href: operator-specifications/utility/customtypefield_get_attribute.md
+    - name: cyclic support get attribute
+      href: operator-specifications/utility/cyclic_support_get_attribute.md
+    - name: default value
+      href: operator-specifications/utility/default_value.md
+    - name: delegate to operator
+      href: operator-specifications/utility/delegate_to_operator.md
+    - name: ds get attribute
+      href: operator-specifications/utility/ds_get_attribute.md
+    - name: extract field
+      href: operator-specifications/utility/extract_field.md
+    - name: extract scoping
+      href: operator-specifications/utility/extract_scoping.md
+    - name: extract sub fc
+      href: operator-specifications/utility/extract_sub_fc.md
+    - name: extract sub mc
+      href: operator-specifications/utility/extract_sub_mc.md
+    - name: extract sub sc
+      href: operator-specifications/utility/extract_sub_sc.md
+    - name: extract time freq
+      href: operator-specifications/utility/extract_time_freq.md
+    - name: fc get attribute
+      href: operator-specifications/utility/fc_get_attribute.md
+    - name: field
+      href: operator-specifications/utility/field.md
+    - name: fields container
+      href: operator-specifications/utility/fields_container.md
+    - name: field clone to shell layer
+      href: operator-specifications/utility/field_clone_to_shell_layer.md
+    - name: field get attribute
+      href: operator-specifications/utility/field_get_attribute.md
+    - name: field to fc
+      href: operator-specifications/utility/field_to_fc.md
+    - name: forward
+      href: operator-specifications/utility/forward.md
+    - name: forward field
+      href: operator-specifications/utility/forward_field.md
+    - name: forward fields container
+      href: operator-specifications/utility/forward_fields_container.md
+    - name: forward meshes container
+      href: operator-specifications/utility/forward_meshes_container.md
+    - name: for each
+      href: operator-specifications/utility/for_each.md
+    - name: get operators
+      href: operator-specifications/utility/get_operators.md
+    - name: hdf5dpf workglow provider
+      href: operator-specifications/utility/hdf5dpf_workglow_provider.md
+    - name: html doc
+      href: operator-specifications/utility/html_doc.md
+    - name: incremental concatenate as fc
+      href: operator-specifications/utility/incremental_concatenate_as_fc.md
+    - name: incremental merge field
+      href: operator-specifications/utility/incremental_merge_field.md
+    - name: incremental merge fields container
+      href: operator-specifications/utility/incremental_merge_fields_container.md
+    - name: incremental merge mesh
+      href: operator-specifications/utility/incremental_merge_mesh.md
+    - name: incremental merge meshes container
+      href: operator-specifications/utility/incremental_merge_meshes_container.md
+    - name: incremental merge property field
+      href: operator-specifications/utility/incremental_merge_property_field.md
+    - name: ints to scoping
+      href: operator-specifications/utility/ints_to_scoping.md
+    - name: make for each range
+      href: operator-specifications/utility/make_for_each_range.md
+    - name: make label space
+      href: operator-specifications/utility/make_label_space.md
+    - name: make overall
+      href: operator-specifications/utility/make_overall.md
+    - name: make producer consumer for each iterator
+      href: operator-specifications/utility/make_producer_consumer_for_each_iterator.md
+    - name: mechanical make time chunk for each
+      href: operator-specifications/utility/mechanical_make_time_chunk_for_each.md
+    - name: mechanical make time freq support chunk for each
+      href: operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each.md
+    - name: merge any
+      href: operator-specifications/utility/merge_any.md
+    - name: merge collections
+      href: operator-specifications/utility/merge_collections.md
+    - name: merge data tree
+      href: operator-specifications/utility/merge_data_tree.md
+    - name: merge fields
+      href: operator-specifications/utility/merge_fields.md
+    - name: merge fields by label
+      href: operator-specifications/utility/merge_fields_by_label.md
+    - name: merge fields containers
+      href: operator-specifications/utility/merge_fields_containers.md
+    - name: merge fields container matrices label
+      href: operator-specifications/utility/merge_fields_container_matrices_label.md
+    - name: merge generic data container
+      href: operator-specifications/utility/merge_generic_data_container.md
+    - name: merge materials
+      href: operator-specifications/utility/merge_materials.md
+    - name: merge meshes
+      href: operator-specifications/utility/merge_meshes.md
+    - name: merge meshes containers
+      href: operator-specifications/utility/merge_meshes_containers.md
+    - name: merge property fields
+      href: operator-specifications/utility/merge_property_fields.md
+    - name: merge result infos
+      href: operator-specifications/utility/merge_result_infos.md
+    - name: merge scopings
+      href: operator-specifications/utility/merge_scopings.md
+    - name: merge scopings containers
+      href: operator-specifications/utility/merge_scopings_containers.md
+    - name: merge string fields
+      href: operator-specifications/utility/merge_string_fields.md
+    - name: merge supports
+      href: operator-specifications/utility/merge_supports.md
+    - name: merge time freq supports
+      href: operator-specifications/utility/merge_time_freq_supports.md
+    - name: merge to field matrix
+      href: operator-specifications/utility/merge_to_field_matrix.md
+    - name: merge weighted fields
+      href: operator-specifications/utility/merge_weighted_fields.md
+    - name: merge weighted fields containers
+      href: operator-specifications/utility/merge_weighted_fields_containers.md
+    - name: mesh
+      href: operator-specifications/utility/mesh.md
+    - name: meshes container
+      href: operator-specifications/utility/meshes_container.md
+    - name: mesh to mc
+      href: operator-specifications/utility/mesh_to_mc.md
+    - name: operator changelog
+      href: operator-specifications/utility/operator_changelog.md
+    - name: operator id
+      href: operator-specifications/utility/operator_id.md
+    - name: overlap fields
+      href: operator-specifications/utility/overlap_fields.md
+    - name: producer consumer for each
+      href: operator-specifications/utility/producer_consumer_for_each.md
+    - name: propertyfield get attribute
+      href: operator-specifications/utility/propertyfield_get_attribute.md
+    - name: property field
+      href: operator-specifications/utility/property_field.md
+    - name: python generator
+      href: operator-specifications/utility/python_generator.md
+    - name: remote operator instantiate
+      href: operator-specifications/utility/remote_operator_instantiate.md
+    - name: remote workflow instantiate
+      href: operator-specifications/utility/remote_workflow_instantiate.md
+    - name: remove unnecessary labels
+      href: operator-specifications/utility/remove_unnecessary_labels.md
+    - name: scalars to field
+      href: operator-specifications/utility/scalars_to_field.md
+    - name: server path
+      href: operator-specifications/utility/server_path.md
+    - name: set attribute
+      href: operator-specifications/utility/set_attribute.md
+    - name: set property
+      href: operator-specifications/utility/set_property.md
+    - name: split in for each range
+      href: operator-specifications/utility/split_in_for_each_range.md
+    - name: strain from voigt
+      href: operator-specifications/utility/strain_from_voigt.md
+    - name: strain from voigt fc
+      href: operator-specifications/utility/strain_from_voigt_fc.md
+    - name: txt file to dpf
+      href: operator-specifications/utility/txt_file_to_dpf.md
+    - name: unitary field
+      href: operator-specifications/utility/unitary_field.md
+    - name: weighted merge fields by label
+      href: operator-specifications/utility/weighted_merge_fields_by_label.md
+  
+- name: Changelog
+  href: changelog/changelog.md

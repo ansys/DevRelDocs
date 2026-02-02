@@ -14,44 +14,253 @@ Write the invariant terms and the model data in a cms_rbd file
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  model_data |[`property_field`](../../core-concepts/dpf-types.md#property-field) | data describing the finite element model |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  center_of_mass |[`field`](../../core-concepts/dpf-types.md#field) | center of mass of the body |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  inertia_relief |[`field`](../../core-concepts/dpf-types.md#field) | inertia matrix |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  model_size |[`double`](../../core-concepts/dpf-types.md#standard-types) | size of the diagonal box containing the body |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  master_node_coordinates |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  v_trsf |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | translational and rotational shape functions |
-| <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  k_mat |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mass_mat |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 8</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  c_mat |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 9</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  rhs |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 10</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 11</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dr_cross_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 12</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  drn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 13</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dn_cross_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 14</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dnx_y |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 15</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dny_y |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 16</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dnz_y |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 17</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dyx_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 18</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dyy_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 19</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dyz_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 20</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dnxn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 21</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dnyn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 22</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dnzn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 23</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  file_path |[`string`](../../core-concepts/dpf-types.md#standard-types) | path with cms_rbd extension where the export occurs |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [model_data](#input_0) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [center_of_mass](#input_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [inertia_relief](#input_2) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [model_size](#input_3) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [master_node_coordinates](#input_4) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [v_trsf](#input_5) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [k_mat](#input_6) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mass_mat](#input_7) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>8</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [c_mat](#input_8) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>9</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [rhs](#input_9) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>10</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dn](#input_10) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>11</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dr_cross_n](#input_11) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>12</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [drn](#input_12) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>13</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dn_cross_n](#input_13) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>14</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dnx_y](#input_14) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>15</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dny_y](#input_15) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>16</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dnz_y](#input_16) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>17</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dyx_n](#input_17) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>18</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dyy_n](#input_18) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>19</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dyz_n](#input_19) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>20</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dnxn](#input_20) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>21</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dnyn](#input_21) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>22</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dnzn](#input_22) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>23</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [file_path](#input_23) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### model_data (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+data describing the finite element model
+
+<a id="input_1"></a>
+### center_of_mass (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+center of mass of the body
+
+<a id="input_2"></a>
+### inertia_relief (Pin 2)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+inertia matrix
+
+<a id="input_3"></a>
+### model_size (Pin 3)
+
+- **Required:** Yes
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+size of the diagonal box containing the body
+
+<a id="input_4"></a>
+### master_node_coordinates (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_5"></a>
+### v_trsf (Pin 5)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+translational and rotational shape functions
+
+<a id="input_6"></a>
+### k_mat (Pin 6)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_7"></a>
+### mass_mat (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_8"></a>
+### c_mat (Pin 8)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_9"></a>
+### rhs (Pin 9)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_10"></a>
+### dn (Pin 10)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_11"></a>
+### dr_cross_n (Pin 11)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_12"></a>
+### drn (Pin 12)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_13"></a>
+### dn_cross_n (Pin 13)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_14"></a>
+### dnx_y (Pin 14)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_15"></a>
+### dny_y (Pin 15)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_16"></a>
+### dnz_y (Pin 16)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_17"></a>
+### dyx_n (Pin 17)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_18"></a>
+### dyy_n (Pin 18)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_19"></a>
+### dyz_n (Pin 19)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_20"></a>
+### dnxn (Pin 20)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_21"></a>
+### dnyn (Pin 21)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_22"></a>
+### dnzn (Pin 22)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_23"></a>
+### file_path (Pin 23)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+path with cms_rbd extension where the export occurs
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Data Source containing the cms_rbd file generated. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [data_sources](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+
+
+<a id="output_0"></a>
+### data_sources (Pin 0)
+
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+Data Source containing the cms_rbd file generated.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

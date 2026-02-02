@@ -14,27 +14,99 @@ Read the values of the section properties for a given section property field (pr
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  properties_name |[`string`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 1</strong>|  section |[`property_field`](../../core-concepts/dpf-types.md#property-field) | Property field that contains a section id per element.(optional) |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |  |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |  |
-| <strong>Pin 5</strong>|  layer_property |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Property requested is layered. Default = False. |
-| <strong>Pin 6</strong>|  layers_requested |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | Array with layers requested for the section. Default = AllLayers. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [properties_name](#input_0) |[`string`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong>|  [section](#input_1) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [streams_container](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>5</strong>|  [layer_property](#input_5) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong>|  [layers_requested](#input_6) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### properties_name (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_1"></a>
+### section (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+Property field that contains a section id per element.(optional)
+
+<a id="input_3"></a>
+### streams_container (Pin 3)
+
+- **Required:** Yes
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+
+
+<a id="input_5"></a>
+### layer_property (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Property requested is layered. Default = False.
+
+<a id="input_6"></a>
+### layers_requested (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+Array with layers requested for the section. Default = AllLayers.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| properties_value |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 1**| layers_per_section |[`property_field`](../../core-concepts/dpf-types.md#property-field) | Only available if layer_property option is set to True. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [properties_value](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [layers_per_section](#output_1) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+
+
+<a id="output_0"></a>
+### properties_value (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_1"></a>
+### layers_per_section (Pin 1)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+Only available if layer_property option is set to True.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 
