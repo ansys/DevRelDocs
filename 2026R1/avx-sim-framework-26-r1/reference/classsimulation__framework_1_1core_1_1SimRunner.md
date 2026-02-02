@@ -31,35 +31,6 @@ The <code>[SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsi
 * [~ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1a28739232c9e3879e863cd5fa158ef709)
 * [~SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1a86df4168e20485587e74801f5400dda4)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1SimRunner_1ae47e23a3e4257071739015ee0b74d626"></a>
-### Variable impl_
-
-![][private]
-
-**Definition**: `core/service/sim_runner/sim_runner.h` (line 79)
-
-
-```cpp
-std::unique_ptr<SimRunnerImpl> simulation_framework::core::SimRunner::impl_
-```
-
-
-Implementation details of the <code>[SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner)</code>.
-
-
-
-
-
-**Type**: std::unique_ptr< [SimRunnerImpl](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::SimRunner::impl_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1core_1_1SimRunner_1a86df4168e20485587e74801f5400dda4"></a>

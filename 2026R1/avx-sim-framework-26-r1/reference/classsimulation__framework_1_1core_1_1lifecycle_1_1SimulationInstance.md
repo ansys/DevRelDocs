@@ -28,35 +28,6 @@ class [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1Si
 * [~ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1addee87e95b1819ef9db341cca0a302a2)
 * [~SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a40cfd8a4b227d2a02bc46554504ed372)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ac3014d4327563f6020fb56428c78f8b0"></a>
-### Variable impl_
-
-![][private]
-
-**Definition**: `core/lifecycle/simulation_instance/simulation_instance.h` (line 82)
-
-
-```cpp
-std::unique_ptr<SimulationInstanceImpl> simulation_framework::core::lifecycle::SimulationInstance::impl_
-```
-
-
-
-
-
-
-
-
-**Type**: std::unique_ptr< [SimulationInstanceImpl](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::SimulationInstance::impl_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ad1479260858b3f23ef24d5cdb2484f26"></a>

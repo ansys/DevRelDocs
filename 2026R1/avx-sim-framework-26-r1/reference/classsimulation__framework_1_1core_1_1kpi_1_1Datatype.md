@@ -98,35 +98,6 @@ Datatype of this KPI.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::kpi::Datatype::Value"}]}`
 -->
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a95adac444829848befdc53a24a06e6f7"></a>
-### Variable value_
-
-![][private]
-
-**Definition**: `core/kpi/definition/kpi_definition.h` (line 60)
-
-
-```cpp
-Value simulation_framework::core::kpi::Datatype::value_
-```
-
-
-
-
-
-
-
-
-**Type**: Value
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::kpi::Datatype::value_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a5e7dfd9dc099a2a02096b46d3e287249"></a>

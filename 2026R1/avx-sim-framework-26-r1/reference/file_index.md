@@ -19,7 +19,6 @@
 * [cli.h](cli_8h.md#cli_8h)
 * [clock.h](clock_8h.md#clock_8h)
 * [communication_manager_creator.h](communication__manager__creator_8h.md#communication__manager__creator_8h)
-* [console_logger.h](console__logger_8h.md#console__logger_8h)
 * [core/communication/topic_registry.h](core_2communication_2topic__registry_8h.md#core_2communication_2topic__registry_8h)
 
 ## D
@@ -49,7 +48,6 @@
 * [i_fmu_logic.h](i__fmu__logic_8h.md#i__fmu__logic_8h)
 * [i_kpi_message_converter.h](i__kpi__message__converter_8h.md#i__kpi__message__converter_8h)
 * [i_kpi.h](i__kpi_8h.md#i__kpi_8h)
-* [i_logger.h](i__logger_8h.md#i__logger_8h)
 * [i_publisher.h](i__publisher_8h.md#i__publisher_8h)
 * [i_scheduler_client.h](i__scheduler__client_8h.md#i__scheduler__client_8h)
 * [i_sim_instance_creator.h](i__sim__instance__creator_8h.md#i__sim__instance__creator_8h)

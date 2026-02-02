@@ -35,35 +35,6 @@ The class leverages the clock interface for time-based operations.
 * [SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a85bd966e1832c48fc6c12667dc5f5e78)
 * [~ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1ac4b8c8898ef46c452ef5631a5c4c62ee)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1af1c0d738c53bf09dccec4eff20c78d11"></a>
-### Variable clock_ptr_
-
-![][private]
-
-**Definition**: `autonomy/simulation/simulation_completion_checker/simulation_completion_checker.h` (line 59)
-
-
-```cpp
-std::shared_ptr<core::time::IClock> simulation_framework::autonomy::SimulationCompletionChecker::clock_ptr_ {}
-```
-
-
-Shared pointer to the clock interface.
-
-Provides access to the clock interface for managing simulation timing and synchronization.
-
-
-
-**Type**: std::shared_ptr< [core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::SimulationCompletionChecker::clock_ptr_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a85bd966e1832c48fc6c12667dc5f5e78"></a>

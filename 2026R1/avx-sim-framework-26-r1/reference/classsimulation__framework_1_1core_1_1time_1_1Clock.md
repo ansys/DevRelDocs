@@ -42,35 +42,6 @@ This interface is particularly useful in simulations where time needs to be cont
 * [SetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1ab2bda9ca1779ea42389abd38a29b7202)
 * [~IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a81888860915574a48b4f436e87fbc35e)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1time_1_1Clock_1aea060288e6563be195f4af8d7921d341"></a>
-### Variable ms_
-
-![][private]
-
-**Definition**: `core/time/clock/clock.h` (line 38)
-
-
-```cpp
-timepoint<milliseconds> simulation_framework::core::time::Clock::ms_
-```
-
-
-
-
-
-
-
-
-**Type**: timepoint< milliseconds >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::time::Clock::ms_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1core_1_1time_1_1Clock_1ae8da70736b2057ef064ed347106050a0"></a>

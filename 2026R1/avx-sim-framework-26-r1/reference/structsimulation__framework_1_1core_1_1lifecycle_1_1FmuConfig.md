@@ -260,3 +260,4 @@ A map used to store the message type for each topic.
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[protected]: https://img.shields.io/badge/-protected-yellow (protected)

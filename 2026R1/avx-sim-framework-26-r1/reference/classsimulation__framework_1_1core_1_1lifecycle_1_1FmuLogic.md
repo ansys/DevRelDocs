@@ -38,35 +38,6 @@ An implementation of the [IFmuLogic](classsimulation__framework_1_1core_1_1lifec
 * [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a00b5e8f8ecd66354c524a2cc1d4fe2e3)
 * [~IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a1d689116fcc83336da3bca36b0fc0bcc)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a3381d52429a868f805ceae49325399da"></a>
-### Variable impl_
-
-![][private]
-
-**Definition**: `core/lifecycle/fmu_activity/fmu_logic.h` (line 128)
-
-
-```cpp
-std::unique_ptr<FmuLogicImpl> simulation_framework::core::lifecycle::FmuLogic::impl_
-```
-
-
-Pointer to the implementation of this class.
-
-
-
-
-
-**Type**: std::unique_ptr< [FmuLogicImpl](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::FmuLogic::impl_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1abdb6a692a31b7ee3ddc87f87d353af22"></a>

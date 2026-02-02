@@ -39,62 +39,6 @@ The class also manages the base cycle time for the simulation, which can be retr
 * [sim_params_](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a1bfaa8abb6c8f26b16b2e8af1f2d0f1a)
 * [~IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1adf2fbce25a6e1ead3b04a8490dfdc498)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a1bfaa8abb6c8f26b16b2e8af1f2d0f1a"></a>
-### Variable sim_params_
-
-![][private]
-
-**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 95)
-
-
-```cpp
-core::SimulationParameters simulation_framework::autonomy::ActivityFactory::sim_params_
-```
-
-
-Simulation parameters used by the factory.
-
-
-
-
-
-**Type**: [core::SimulationParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::ActivityFactory::sim_params_"}]}`
--->
-
-<a id="classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a20e520974b59e234385790385389c0df"></a>
-### Variable base_cycle_time_
-
-![][private]
-
-**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 98)
-
-
-```cpp
-time::milliseconds simulation_framework::autonomy::ActivityFactory::base_cycle_time_
-```
-
-
-Base cycle time for the simulation.
-
-
-
-
-
-**Type**: time::milliseconds
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::ActivityFactory::base_cycle_time_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a95a2f9ae094f44fbbfec5391e5fbd97c"></a>

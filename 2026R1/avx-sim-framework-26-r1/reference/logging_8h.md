@@ -20,8 +20,8 @@
 
 ## Includes
 
-* [core/logging/console_logger.h](console__logger_8h.md#console__logger_8h)
-* [core/logging/i_logger.h](i__logger_8h.md#i__logger_8h)
+* core/logging/console_logger.h
+* core/logging/i_logger.h
 * <memory>
 * <string_view>
 * <vector>

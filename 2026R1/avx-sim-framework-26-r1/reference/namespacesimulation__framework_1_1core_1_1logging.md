@@ -10,69 +10,7 @@
 
 ## Classes
 
-* [simulation_framework::core::logging::ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger)
-* [simulation_framework::core::logging::ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger)
 * [simulation_framework::core::logging::LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance)
-
-## Enumeration types
-
-<a id="i__logger_8h_1a06ff84d486ccb89f1ca084e7d2b1063e"></a>
-### Enumeration type LogLevel
-
-![][public]
-
-**Definition**: `core/logging/i_logger.h` (line 20)
-
-
-```cpp
-enum LogLevel {
-  kDebug = 0,
-  kInfo,
-  kWarning,
-  kError
-}
-```
-
-
-Log levels for the logging interface.
-
-
-
-
-
-<a id="i__logger_8h_1a06ff84d486ccb89f1ca084e7d2b1063eabb53ce21b7c0b7c8a8f7860a41901d29"></a>
-#### Enumerator kDebug
-
-
-
-
-
-<a id="i__logger_8h_1a06ff84d486ccb89f1ca084e7d2b1063ea176a473e63c17ccdac91640c67f149bf"></a>
-#### Enumerator kInfo
-
-
-
-
-
-<a id="i__logger_8h_1a06ff84d486ccb89f1ca084e7d2b1063eaec0da41f4e48b52c362303eb27ed5dee"></a>
-#### Enumerator kWarning
-
-
-
-
-
-<a id="i__logger_8h_1a06ff84d486ccb89f1ca084e7d2b1063eae3587c730cc1aa530fa4ddc9c4204e97"></a>
-#### Enumerator kError
-
-
-
-
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::LogLevel"}]}`
--->
 
 ## Functions
 
@@ -98,7 +36,7 @@ Set Log level of logging instance.
 
 **Parameters**:
 
-* LogLevel **log_level**
+* [LogLevel](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **log_level**
 
 **Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 

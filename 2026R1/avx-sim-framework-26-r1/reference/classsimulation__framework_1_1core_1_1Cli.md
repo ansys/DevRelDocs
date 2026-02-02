@@ -18,62 +18,6 @@ The <code>[Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__fr
 * [sim_runner_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1ac350a9a1674fc9305d0600744ad0474c)
 * [simfwk_cli_server_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a6fc4816cf540674cce0a2ed77de36b91)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1Cli_1ac350a9a1674fc9305d0600744ad0474c"></a>
-### Variable sim_runner_
-
-![][private]
-
-**Definition**: `core/service/cli/cli.h` (line 41)
-
-
-```cpp
-std::unique_ptr<ISimRunner> simulation_framework::core::Cli::sim_runner_
-```
-
-
-The simulation runner instance controlled by the CLI.
-
-
-
-
-
-**Type**: std::unique_ptr< [ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::Cli::sim_runner_"}]}`
--->
-
-<a id="classsimulation__framework_1_1core_1_1Cli_1a6fc4816cf540674cce0a2ed77de36b91"></a>
-### Variable simfwk_cli_server_
-
-![][private]
-
-**Definition**: `core/service/cli/cli.h` (line 44)
-
-
-```cpp
-std::unique_ptr<ISimfwkCliServer> simulation_framework::core::Cli::simfwk_cli_server_
-```
-
-
-The CLI server instance used if CLI controller mode is enabled.
-
-
-
-
-
-**Type**: std::unique_ptr< [ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::Cli::simfwk_cli_server_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1core_1_1Cli_1a807aa80e06431cbd27fe12c4856b668f"></a>

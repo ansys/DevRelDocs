@@ -25,35 +25,6 @@ A basic implementation of the logger which logs to stdout/stderr.
 * [~ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1aaa9b346d25c28e8cb3d08a7bba1e44da)
 * [~ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger_1ae6ab6320b1ed845bc087b4fcd9c58346)
 
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a171a87d562a39f69472fe1d54605aa23"></a>
-### Variable log_level_
-
-![][private]
-
-**Definition**: `core/logging/console_logger.h` (line 153)
-
-
-```cpp
-LogLevel simulation_framework::core::logging::ConsoleLogger::log_level_ {LogLevel::kDebug}
-```
-
-
-
-
-
-
-
-
-**Type**: LogLevel
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::ConsoleLogger::log_level_"}]}`
--->
-
 ## Public functions
 
 <a id="classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1aaa9b346d25c28e8cb3d08a7bba1e44da"></a>

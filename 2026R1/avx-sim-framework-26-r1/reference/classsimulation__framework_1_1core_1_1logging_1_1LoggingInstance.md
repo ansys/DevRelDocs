@@ -5,7 +5,7 @@
 
 **Definition**: `core/logging/logging.h` (line 28)
 
-A singleton class to be used for all logging purposes. It can be used to register additional loggers based on the [ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger) class to introduce additional logging mechanisms. By default a [ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger) will be registered with each new [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance). If logging to console is not desired in your use case, you can call [ClearLoggers()](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a8d0242626303b56597a921397ccf0313) before adding your custom loggers to disable console logging.
+A singleton class to be used for all logging purposes. It can be used to register additional loggers based on the ILogger class to introduce additional logging mechanisms. By default a ConsoleLogger will be registered with each new [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance). If logging to console is not desired in your use case, you can call [ClearLoggers()](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a8d0242626303b56597a921397ccf0313) before adding your custom loggers to disable console logging.
 
 
 
@@ -45,41 +45,12 @@ using simulation_framework::core::logging::LoggingInstance::ILoggerContainer =  
 
 
 
-**Return type**: std::vector< std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger) > >
+**Return type**: std::vector< std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > >
 
 <!--
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::LoggingInstance::ILoggerContainer"}]}`
--->
-
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3cee128a45463b7df4981decc9f71b1d"></a>
-### Variable loggers_
-
-![][private]
-
-**Definition**: `core/logging/logging.h` (line 85)
-
-
-```cpp
-ILoggerContainer simulation_framework::core::logging::LoggingInstance::loggers_
-```
-
-
-
-
-
-
-
-
-**Type**: ILoggerContainer
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::LoggingInstance::loggers_"}]}`
 -->
 
 ## Public functions
@@ -188,7 +159,7 @@ Register a new logger.
 
 **Parameters**:
 
-* std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger) > **logger**
+* std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > **logger**
 
 **Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
@@ -271,7 +242,7 @@ Log a message on the logging interface.
 
 **Parameters**:
 
-* LogLevel **level**
+* [LogLevel](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **level**
 * std::string_view **message**
 
 **Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
@@ -303,7 +274,7 @@ Set Log level of all registered loggers.
 
 **Parameters**:
 
-* LogLevel **log_level**
+* [LogLevel](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **log_level**
 
 **Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
