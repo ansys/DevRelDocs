@@ -261,6 +261,7 @@ void simulation_framework::evaluator::GtBaseEvaluator::AddKpi(std::unique_ptr< c
 
 
 Add one KPI into this evaluator 
+
 **Parameters**:
 
 * **kpi**: The iKpi interface
@@ -294,6 +295,7 @@ core::kpi::KpiMessage simulation_framework::evaluator::GtBaseEvaluator::GetKpiMe
 
 
 Get the filled KPI messages based on calculation of all KPIs 
+
 **Returns**:
 
 A kpi::KpiMessage object, the vector of KpiContent represents of all added KPIs into this evaluator
@@ -324,6 +326,7 @@ void simulation_framework::evaluator::GtBaseEvaluator::SetInput(const osi3::Grou
 
 
 Set GroundTruth message for KPI calculations 
+
 **Parameters**:
 
 * **ground_truth**: The osi groundtruth type in protobuf
@@ -350,9 +353,9 @@ Set GroundTruth message for KPI calculations
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"gt__base__evaluator_8h"},"children":[{"type":"text","text":"gt_base_evaluator.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)

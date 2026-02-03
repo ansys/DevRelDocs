@@ -140,7 +140,7 @@ A pointer of IActivity interface which will be controlled remotely by simfwk cor
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__standalone__activity__creator_8h"},"children":[{"type":"text","text":"i_standalone_activity_creator.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

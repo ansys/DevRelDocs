@@ -195,6 +195,7 @@ virtual void simulation_framework::core::ITopic::AddPublisher(std::unique_ptr< I
 
 
 Add one publisher of this [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic). The max publisher count of a topic is limited to be one. 
+
 **Parameters**:
 
 * **pub_ptr**: The abstraction of publisher interface
@@ -231,6 +232,7 @@ virtual void simulation_framework::core::ITopic::AddSubscriber(std::unique_ptr< 
 
 
 Add one subscriber to this [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) 
+
 **Parameters**:
 
 * **sub_ptr**: The abstraction of subscriber interface
@@ -352,8 +354,7 @@ The list of assigned publisher which are publishing message to this [Topic](clas
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__topic_8h"},"children":[{"type":"text","text":"i_topic.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -53,10 +53,10 @@ Here is an example of `simulation_scheduling` content in solver settings:
     ]
 }
 ```
-## "sim_instance_name" 
+### "sim_instance_name" 
 Give a name or a description for the simulation setup.
 
-## "activities"
+### "activities"
 This section contains a list of activities that will be part of the simulation loop. The detail of the
 activities should be defined as shown below:
 

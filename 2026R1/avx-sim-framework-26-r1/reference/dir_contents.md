@@ -20,6 +20,8 @@
     * [simulation_completion_checker](dir_72b4319b30b6de811973398edb4eaf0c.md#dir_72b4319b30b6de811973398edb4eaf0c)
 * [co_sim](dir_5fb5adecbcf1de8ddc80f96793df9c8b.md#dir_5fb5adecbcf1de8ddc80f96793df9c8b)
   * [avx_sensor](dir_e7782c7468d93f38b31d187338700412.md#dir_e7782c7468d93f38b31d187338700412)
+    * [avx_sensor_data_player](dir_45ac55aa5af45fffd4822d631f29e831.md#dir_45ac55aa5af45fffd4822d631f29e831)
+    * [avx_sensor_data_recorder](dir_14a27a09c805594e711038baa11e0380.md#dir_14a27a09c805594e711038baa11e0380)
     * [avx_vss_api_adapter](dir_a861dcf56f10373b480cc8666b573612.md#dir_a861dcf56f10373b480cc8666b573612)
 * [core](dir_4270bfced15e0e73154b13468c7c9ad9.md#dir_4270bfced15e0e73154b13468c7c9ad9)
   * [communication](dir_0c9abbf4a1f92ca601c0207650d108cf.md#dir_0c9abbf4a1f92ca601c0207650d108cf)

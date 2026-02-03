@@ -24,11 +24,11 @@ Your simulation can be configured in various modes based on different combinatio
 
 ![Simulation in hybrid mode](images/simulation_hybrid_mode.png)
 
-## Centralized simulation mode
+### Centralized simulation mode
 
 All activities run within the same process as the `simfwk_cli`. Activities in this mode are referred to as type `built-in` in the scheduling configuration. Communication between activities in this mode is optimized, resulting in the best stability and performance. Currently, the extension of `built-in` activities by users is not supported. However, in the future, users will be able to add custom activities using the Simulation Framework libraries, register them with the activity factory, and recompile the library.
 
-## Distributed simulation mode
+### Distributed simulation mode
 
 Users can create `standalone` activities using the `StandaloneActivityService` interfaces provided with the Simulation Framework. Activities in this mode are referred to as type `standalone` in the scheduling configuration. These standalone activities operate in a distributed mode, serving specific simulation requests. In this mode, significant benefits arise if the activity is independently deployed into an environment containing specific resources or hardware, without affecting other activities or the simulation core process. Standalone activities can be easily iterated, compiled, and deployed individually without changing the core library or affecting other components. Communication is ensured via DDS communication, even in distributed scenarios.
 

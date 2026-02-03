@@ -347,8 +347,7 @@ Runs any remaining parts of the simulation to completion.
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__sim__runner_8h"},"children":[{"type":"text","text":"i_sim_runner.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

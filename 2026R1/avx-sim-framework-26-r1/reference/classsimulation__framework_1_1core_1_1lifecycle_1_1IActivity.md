@@ -100,6 +100,7 @@ virtual void simulation_framework::core::lifecycle::IActivity::WaitForPubSubConn
 Waits until Pub/Sub pairing is complete.
 
 Ensures the communication channels are correctly paired before proceeding. 
+
 **Returns**:
 
 <code>true</code> if pairing is successful, otherwise <code>false</code>.
@@ -252,6 +253,7 @@ virtual time::Timestamp simulation_framework::core::lifecycle::IActivity::GetCur
 Retrieves the current simulation timestamp.
 
 This provides the simulation's current time as a <code>Timestamp</code> object. 
+
 **Returns**:
 
 The current simulation timestamp.
@@ -285,6 +287,7 @@ virtual std::chrono::milliseconds simulation_framework::core::lifecycle::IActivi
 Retrieves the cycle time of the activity.
 
 The cycle time indicates how often the activity executes. 
+
 **Returns**:
 
 The cycle time as a duration in milliseconds.
@@ -350,6 +353,7 @@ virtual std::string simulation_framework::core::lifecycle::IActivity::GetSimulat
 Retrieves the output directory for simulation results.
 
 The directory where all simulation outputs will be stored. 
+
 **Returns**:
 
 The output directory as a string.
@@ -438,8 +442,9 @@ Set the simulation settings for this activity.
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__activity_8h"},"children":[{"type":"text","text":"i_activity.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[protected]: https://img.shields.io/badge/-protected-yellow (protected)

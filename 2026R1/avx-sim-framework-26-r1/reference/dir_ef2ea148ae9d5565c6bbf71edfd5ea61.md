@@ -13,9 +13,9 @@
 * [i_kpi](dir_08fdb092cd5ef1d7fb1a828de6d37285.md#dir_08fdb092cd5ef1d7fb1a828de6d37285)
 * [kpi_message_converter](dir_bf542fd3f1137680d37dc56d53e951c3.md#dir_bf542fd3f1137680d37dc56d53e951c3)
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)

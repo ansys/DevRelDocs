@@ -137,5 +137,7 @@ A unique pointer to a domain-specific implementation of <code>[core::lifecycle::
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"autonomy__sim__instance__creator_8h"},"children":[{"type":"text","text":"autonomy_sim_instance_creator.h"}]}`
 -->
 
+[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
+[const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -61,6 +61,7 @@ static void simulation_framework::core::logging::Debug(std::string_view message)
 
 
 Log a message with log level "Debug". This will use the singleton [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) to get the message logged by all registered loggers. 
+
 **Parameters**:
 
 * **message**: The log message
@@ -94,6 +95,7 @@ static void simulation_framework::core::logging::Info(std::string_view message) 
 
 
 Log a message with log level "Info". This will use the singleton [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) to get the message logged by all registered loggers. 
+
 **Parameters**:
 
 * **message**: The log message
@@ -127,6 +129,7 @@ static void simulation_framework::core::logging::Warning(std::string_view messag
 
 
 Log a message with log level "Warning". This will use the singleton [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) to get the message logged by all registered loggers. 
+
 **Parameters**:
 
 * **message**: The log message
@@ -160,6 +163,7 @@ static void simulation_framework::core::logging::Error(std::string_view message)
 
 
 Log a message with log level "Error". This will use the singleton [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) to get the message logged by all registered loggers. 
+
 **Parameters**:
 
 * **message**: The log message
@@ -178,9 +182,9 @@ Log a message with log level "Error". This will use the singleton [LoggingInstan
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::Error"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)

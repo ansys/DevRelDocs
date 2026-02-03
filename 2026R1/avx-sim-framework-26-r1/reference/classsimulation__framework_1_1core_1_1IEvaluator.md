@@ -181,6 +181,7 @@ virtual core::kpi::KpiMessage simulation_framework::core::IEvaluator< T >::GetKp
 
 
 Get the filled KPI messages based on calculation of all KPIs 
+
 **Returns**:
 
 A kpi::KpiMessage object, the vector of KpiContent represents of all added KPIs into this evaluator
@@ -213,6 +214,7 @@ virtual void simulation_framework::core::IEvaluator< T >::SetInput(const T &inpu
 
 
 Set input message for KPI calculations 
+
 **Parameters**:
 
 * **input**: The generic input for the evaluator to base the KPI calculations on
@@ -241,7 +243,7 @@ Set input message for KPI calculations
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__evaluator_8h"},"children":[{"type":"text","text":"i_evaluator.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

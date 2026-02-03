@@ -35,6 +35,7 @@ bool simulation_framework::core::CliParser::Parse(int argc, const char **argv)
 Takes the command-line arguments and parses them.
 
 Returns <code>false</code> if there is a parse error; otherwise, returns <code>true</code>. 
+
 **Parameters**:
 
 * **argc**: The number of arguments.
@@ -144,7 +145,7 @@ A string containing the simulation configuration.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::CliParser::GetSimulationConfig"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

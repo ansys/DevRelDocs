@@ -64,6 +64,7 @@ virtual std::unique_ptr< IActivity > simulation_framework::core::lifecycle::IAct
 Creates an activity instance based on the provided name and type.
 
 This method is used to create a standard activity with the specified name and scheduler client type. 
+
 **Parameters**:
 
 * **activity_name**: The name of the activity to create.
@@ -107,6 +108,7 @@ virtual std::unique_ptr< IActivity > simulation_framework::core::lifecycle::IAct
 Creates an FMU-based activity instance.
 
 This method creates an activity based on the provided FMU (Functional Mock-up Unit) configuration. 
+
 **Parameters**:
 
 * **activity_name**: The name of the FMU activity to create.
@@ -153,6 +155,7 @@ virtual time::milliseconds simulation_framework::core::lifecycle::IActivityFacto
 Retrieves the simulation's base cycle time.
 
 The base cycle time determines the frequency of activity execution in the simulation. 
+
 **Returns**:
 
 The base cycle time as a duration in milliseconds.
@@ -185,6 +188,7 @@ virtual void simulation_framework::core::lifecycle::IActivityFactory::SetSimulat
 Sets the simulation's base cycle time.
 
 Adjusts the frequency of activity execution by updating the base cycle time. 
+
 **Parameters**:
 
 * **time**: The new base cycle time as a duration in milliseconds.
@@ -213,9 +217,8 @@ Adjusts the frequency of activity execution by updating the base cycle time.
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__activity__factory_8h"},"children":[{"type":"text","text":"i_activity_factory.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)

@@ -13,6 +13,7 @@ This class is used to interact with AVX VSS API. Provides a simple interface, wi
 
 * [AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a59b09da2ec12532a4342551366aab665)
 * [DeserializeSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a353382be749e0909337e395af828bc61)
+* [GetGrpcChannel](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ac6002b11a6411cc69cb456a4340aada3)
 * [GetLatestSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1aeb52b2acbff9db3edcd4a33d8ba9211c)
 * [GetSensorIdentifiers](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ac5a21c59e7e440e46a0bbbf88ece7a54)
 * [Initialize](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a91a12968c3e9a3f1e7601124347dc424)
@@ -137,6 +138,7 @@ bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::Load(const ansys:
 Load the simulation configuration for OSI API.
 
 Loads AVX using Configuration containing a track, a list of assets, some simulation parameters, a sensor configuration, a lighting system (optional), some deployment parameters, and some simulation control parameters. 
+
 **Parameters**:
 
 * **configuration**: The VSS simulation configuration
@@ -176,6 +178,7 @@ bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::Load(const ansys:
 Load the simulation configuration for Sensors v1 API.
 
 Loads AVX using Configuration containing a track, a list of assets, some simulation parameters, a sensor configuration, a lighting system (optional), some deployment parameters, and some simulation control parameters. 
+
 **Parameters**:
 
 * **configuration**: The VSS simulation configuration
@@ -329,6 +332,7 @@ bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::Stop(const std::c
 Stop (Reset) the simulation.
 
 Applies a world model update to AVX. 
+
 **Parameters**:
 
 * **timeout_in_seconds**: The timeout in seconds
@@ -366,6 +370,7 @@ bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::Unload(const std:
 Unload the simulation.
 
 Unloads the simulation and switches AVX back to STARTED state. This command is used to restart a simulation without having to restart AVX. 
+
 **Parameters**:
 
 * **timeout_in_seconds**: The timeout in seconds
@@ -403,6 +408,7 @@ bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::Kill(const std::c
 Kill the simulation.
 
 Sends a signal to end the AVX program properly. Closes the Grpc server. 
+
 **Parameters**:
 
 * **timeout_in_seconds**: The timeout in seconds
@@ -440,6 +446,7 @@ SensorDataDescriptions simulation_framework::avx_sensor_cosim::AvxVssApiAdapter:
 Get the latest sensor data descriptions in a vector.
 
 This function will wait for all sensor data descriptions to be available and return them in a vector. If the sensor data descriptions are not available, the function will wait for them to be available. 
+
 **Parameters**:
 
 * **timeout_in_seconds**: The timeout in seconds
@@ -522,6 +529,34 @@ Set the sensor identifiers.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::SetSensorIdentifiers"}]}`
 -->
 
+<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ac6002b11a6411cc69cb456a4340aada3"></a>
+### Function GetGrpcChannel
+
+![][public]
+![][const]
+
+
+```cpp
+std::shared_ptr< grpc::Channel > simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::GetGrpcChannel() const
+```
+
+
+Get the gRPC channel.
+
+**Returns**:
+
+Shared pointer to the gRPC channel
+
+
+
+**Return type**: std::shared_ptr< grpc::Channel >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::GetGrpcChannel"}]}`
+-->
+
 ## Public static functions
 
 <a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a70012a5e06c4ba2f1292029f664e3fb8"></a>
@@ -539,6 +574,7 @@ static std::vector< unsigned char > simulation_framework::avx_sensor_cosim::AvxV
 Serialize SensorDataDescriptions to bytes array.
 
 Converts a vector of SensorDataDescription objects into a bytes array for transmission. This function can be used to prepare data for rtidds::GenericBytesMessage. 
+
 **Parameters**:
 
 * **sensor_data_descriptions**: The sensor data descriptions to serialize
@@ -577,6 +613,7 @@ static SensorDataDescriptions simulation_framework::avx_sensor_cosim::AvxVssApiA
 Deserialize bytes array to SensorDataDescriptions.
 
 Converts a bytes array back into a vector of SensorDataDescription objects. This function can be used to reconstruct data received from rtidds::GenericBytesMessage. 
+
 **Parameters**:
 
 * **bytes_array**: The bytes array containing the serialized data
@@ -605,8 +642,8 @@ A vector of SensorDataDescription objects
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::DeserializeSensorDataDescriptions"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

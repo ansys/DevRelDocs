@@ -178,6 +178,7 @@ Indicates the type of KPI, which can be one of the following:
 * <code>kpi::Type::kTimeSeries</code>: A time series representation.
 
 * <code>kpi::Type::kLog</code>: A continuous log. 
+
 **Returns**:
 
 The type of the KPI as a <code>kpi::Type</code> enum value.
@@ -204,8 +205,8 @@ The type of the KPI as a <code>kpi::Type</code> enum value.
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__kpi_8h"},"children":[{"type":"text","text":"i_kpi.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

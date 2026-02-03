@@ -8,7 +8,7 @@ The Simulation Framework includes a robust installation script to streamline set
 * **Privileges**: Root privileges may be required (via `sudo`) to install system packages and write to `/bin/` or `/ansys_inc`
 * **Dependencies**: Installed automatically by the script if not already present:
 
-  * `build-essential`, `manpages-dev`, `doxygen`, `graphviz`, `proj-bin`
+  * `build-essential`, `manpages-dev`, `libzstd-dev`, `graphviz`, `proj-bin`
   * `gcc-11`, `g++-11`, `wget`, `software-properties-common`
   * Bazelisk v1.5.0 or newer
 
@@ -42,7 +42,6 @@ You may select specific steps or run the full installer:
 | `-e, --example`       | Unpack `simfwk_examples.tar.gz` if found                  |
 | `-l, --license`       | Setup Ansys Licensing Client in system only               |
 | `-d, --dependencies`  | Install required system and build dependencies            |
-| `-g, --documentation` | Generate Doxygen API documentation from installed sources |
 
 ---
 
@@ -61,7 +60,6 @@ This performs the following:
 3. Sets up Ansys license client
 4. Configures Bazel (Bazelisk v1.5.0)
 5. Unpacks examples (if found)
-6. Generates Doxygen documentation
 
 ---
 
@@ -87,7 +85,6 @@ Once complete, you will find:
 
 * The core framework under: `simulation_framework/`
 * Examples (if installed): `simfwk_examples/`
-* Doxygen docs (if generated): `simulation_framework/documentation/doxygen/html/index.xhtml`
 
 ---
 

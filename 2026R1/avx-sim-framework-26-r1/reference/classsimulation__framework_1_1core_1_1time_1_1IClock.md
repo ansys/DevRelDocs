@@ -69,6 +69,7 @@ virtual void simulation_framework::core::time::IClock::SetNow(const milliseconds
 Sets the current simulation time.
 
 This method allows setting the simulation's current time to a specific duration from the epoch (0 milliseconds). 
+
 **Parameters**:
 
 * **ms**: The time to set, represented as milliseconds from the epoch.
@@ -105,6 +106,7 @@ virtual void simulation_framework::core::time::IClock::SetNow(const Timestamp &t
 Sets the current simulation time using a timestamp.
 
 This method sets the simulation's current time to a specific point in time, represented as a <code>Timestamp</code> object. 
+
 **Parameters**:
 
 * **timestamp**: The point in time to set as the current simulation time.
@@ -142,6 +144,7 @@ virtual milliseconds simulation_framework::core::time::IClock::GetNow() const =0
 Gets the current simulation time in milliseconds.
 
 This method returns the current simulation time as a duration measured in milliseconds since the epoch (0 milliseconds). 
+
 **Returns**:
 
 The current simulation time as a <code>milliseconds</code> object.
@@ -175,6 +178,7 @@ virtual Timestamp simulation_framework::core::time::IClock::GetNowAsTimestamp() 
 Gets the current simulation time as a timestamp.
 
 This method returns the current simulation time as a <code>Timestamp</code> object, providing a more precise representation of the current point in time. 
+
 **Returns**:
 
 The current simulation time as a <code>Timestamp</code> object.
@@ -207,6 +211,7 @@ virtual void simulation_framework::core::time::IClock::IncrementBy(const millise
 Increments the simulation time by a specified duration.
 
 This method adds the given duration (in milliseconds) to the current simulation time. It is useful for progressing the simulation clock in a controlled manner. 
+
 **Parameters**:
 
 * **ms**: The duration to add to the current simulation time.
@@ -235,9 +240,9 @@ This method adds the given duration (in milliseconds) to the current simulation 
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"i__clock_8h"},"children":[{"type":"text","text":"i_clock.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)

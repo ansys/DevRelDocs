@@ -2,7 +2,7 @@
 
 For detailed instructions, refer to the **installation** guide.
 
-## Environment dependencies
+# Environment dependencies
 
 If you install Simulation Framework locally in `ubuntu 24.04 machine` or inside `ubuntu 24.04 VM` , all build and runtime dependencies will be installed during the installation script above. Alternatively, a `Dockerfile` containing all required dependencies is also provided, if you need to build or test in virtual environment for cloud deployment.
 
@@ -25,8 +25,6 @@ In Simulation Framework deployment, a bazel `WORKSPACE` is provided as default b
 ## System requirement
 
 Depending on how complex your simulation is, you might need different recommended CPU/memory resources.
-## Reference simulation
-
 For execution of the [reference simulation](#reference-simulation), following requirements shall be considered:
 
 | Environment       | recommended. CPU           | recommended. Memory | recommended. Disk Space |
@@ -34,7 +32,7 @@ For execution of the [reference simulation](#reference-simulation), following re
 | Workstation or VM | 2.5 GHz processor, 4 cores | 8GB                 | 30 GB                   |
 | k8s Cluster       | 300m                       | 400Mi               | 30 GB                   |
 
-## Run example
+# Run example
 
 Within the deployment, an example code is provided to show how to use APIs of Simulation Framework and how to do customization.
 Before running the example, please make sure you have valid license setup and be able to connect with Ansys License Manager. More hint please see [setup License](setup_license.md)
@@ -46,7 +44,7 @@ cd simulation_framework/example
 
 This script compiles automatically the example `my_activity` and triggers the simulation using `my_activity` by means of [command line tool](command_line_tool.md) provided by Simulation Framework. It provides a basic example using bazel to show how Simulation Framework is used as lib. If the test works, you should see some simulation logs and then the evaluated `min_ttc` result in json format prints in console.
 
-## Built-in and default standalone Activities
+# Built-in and default standalone Activities
 
 The autonomy `simfwk_cli` stands as an exemplary application constructed with the Simulation Framework library, offering four predefined activities as references. Users have the flexibility to use these activities to initiate the default simulation application or seamlessly integrate them into a customized simulation. These activities, implemented in the `simfwk-autonomy`, can be selected as `built-in` activities based on their specified `type` in the configuration, contributing to the adaptability of the simulation at any given point. Details about config please refer to [schedule your simulation](simulation_scheduling.md).
 
@@ -72,7 +70,7 @@ A `Lichtblick Client(A Visualization Tool)` can connect to the server and consum
 The default host and port used are `localhost:8679`. The host and port can be configured by the user by setting values as given in
 `Enabling Visualization using Lichtblick` section.
 
-## Enabling Visualization using Lichtblick/Foxglove
+### Enabling Visualization using Lichtblick/Foxglove
 
 The user needs to add the below config setting json node as a child of `simulation_scheduling` in the `solver_setting_configuration.json` in order to enable visualization using Lichtblick/Foxglove Studio.
 
@@ -116,7 +114,7 @@ The user needs to add the below config setting json node as a child of `simulati
 
 **Note:** You can subscribe to any combination of the supported topics based on your visualization needs. All topics use OSI protobuf format except `KpiLoggerTopic` which uses JSON format.
 
-## Visualization Plots for GroundTruth wrt time from GroundTruth using Lichtblick
+### Visualization Plots for GroundTruth wrt time from GroundTruth using Lichtblick
 
 **Using live streaming:**
 
@@ -143,7 +141,7 @@ GT Gen serves as the default world simulator in Autonomy and provides ground tru
 - **InternalMovement**: This open-loop mode provides simulation ground truth based on a predefined trajectory in the open scenario and map.
 - **ExternalMovement (Closed-loop)**: This mode receives `TrafficUpdate` from an external driver and follows its movement commands for closed-loop behavior.
 
-## Subscribing to OSC Variable References
+### Subscribing to OSC Variable References
 
 GT Gen can optionally subscribe to `ScenarioVariableTopic` to receive dynamic variable updates during simulation. This feature enables runtime control of OpenScenario variable conditions (e.g., `CarSpeedChangeCondition`) from external activities. To enable this feature, add the `enable_external_scenario_variables` parameter to the `groundtruth_generator_activity` configuration:
 
@@ -226,7 +224,7 @@ The Dummy Driver Model mimics driver behavior based on GroundTruth and publishes
 
 The Standalone GroundTruth Generator functions similarly to the built-in GroundTruth Generator. The difference is that it is a separate executable using the Simulation Framework standalone activity service.
 
-## Command-Line Options
+### Command-Line Options
 
 The standalone GT Gen activity supports the following command-line options:
 
@@ -348,31 +346,31 @@ The Simulation Framework Autonomy not only offers users the capability to extend
 
 For detailed instructions on implementing and using customized activities, refer to [how to implement and use customized Activity](../user-guide/customized_activity.md). Furthermore, guidance on adding and utilizing customized KPIs can be found in [how to add and use customized KPIs](../user-guide/customized_kpi_evaluator.md).
 
-## Simulation domain ID
+# Simulation domain ID
 
 The connection between standalone activities, built-in activities and simfwk core is achieved through [RTIDDS communication](https://www.rti.com/products/dds-standard) using the domain ID (in type of uint16). By default, the binaries in the deployment package use the same domain `147` as default and can communicate with each other.
 
 For the use case where you want to customized the domain ID, i.e. to isolate one standalone activity from `simfwk_cli` or want to run two `simfwk_cli` executables in the same machine. for instance, you can adapt the `simfwk_cli` domain ID through environment variable:
 
 ```bash
-## open new terminal and adapt the Domian ID in this console
+# open new terminal and adapt the Domian ID in this console
 export SIMFWK_DDS_DOMAIN_ID=<other_uint16_number>
-## then execute simfwk_cli, it will runs in different domain
+# then execute simfwk_cli, it will runs in different domain
 ./simfwk_cli -s <your_solver_setting_config.json>
 ```
 
 or run one customized activity in different domain rather than default `147`
 
 ```bash
-## open new terminal and adapt the Domian ID in this console
+# open new terminal and adapt the Domian ID in this console
 export SIMFWK_DDS_DOMAIN_ID=407
-## then execute simfwk_cli, it will runs in domain 407
+# then execute simfwk_cli, it will runs in domain 407
 ./your_customized_activity_executable
 ```
 
 Note that please be careful to use this feature because two same processes in the same domain might interfere with each other and results in unexpected behavior, e.g. two `simfwk_cli` run in same domain will received events from other and simulation ends up with wrong scheduling or abortion. Please make sure the processes are isolated correctly if you use this feature and no unexpected hidden process running in background within the same domain, while testing your customized activity.
 
-## Troubleshooting
+# Troubleshooting
 
 If simulation or setup faced critical error and can not proceed, Simulation Framework will terminate the simulation or throw exceptions with proper messages to indicate a solution or root causes.
 
@@ -441,7 +439,7 @@ SchedulingFeedback for the Event with ID 11 received and its action result is Ac
 Executing original terminate handler...terminate called after throwing an instance of 'std::runtime_error'
 ```
 
-The root cause of this issue could be that the environment where your simulation applicaiont runs does not have enough resouces, e.g. the CPU was stressed or memory is not enough. Other possible reason is that you have another application process built with Simulation Framework running in the same simulation domain. Please refer to the [Simulation domain ID](#simulation-domain-id) section in this document
+The root cause of this issue could be that the environment where your simulation applicaiont runs does not have enough resouces, e.g. the CPU was stressed or memory is not enough. Other possible reason is that you have another application process built with Simulation Framework running in the same simulation domain. Please refer to the documentation of [Simulation domain ID section in lifecycle](lifecycle.md)
 
 ## Communication error
 
@@ -493,7 +491,7 @@ Terminating due to an unhandled exception:
     what(): [Communication] Awaiting publisher/subscriber failed.
 ```
 
-## Security consideration
+# Security consideration
 
 By prioritizing these security measures, Simulation Framework aims to provide a secure environment for the user to RTI DDS communication as middleware and mitigate risks associated with third-party integrations.
 

@@ -102,6 +102,7 @@ StateFeedback simulation_framework::core::SimRunner::Run() override
 Executes the simulation and changes the state to <code>kRunning</code>.
 
 The simulation runs until the scenario ends unless paused or stopped by the user. 
+
 **Returns**:
 
 A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)</code> object containing execution status and error information, if any.
@@ -132,6 +133,7 @@ StateFeedback simulation_framework::core::SimRunner::Pause() override
 Pauses the simulation.
 
 If the simulation is in the <code>kRunning</code> state, it transitions to the <code>kPaused</code> state. 
+
 **Returns**:
 
 A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)</code> object containing the status of the pause operation.
@@ -162,6 +164,7 @@ StateFeedback simulation_framework::core::SimRunner::Resume() override
 Resumes the simulation.
 
 The simulation state changes from <code>kPaused</code> back to <code>kRunning</code>. 
+
 **Returns**:
 
 A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)</code> object containing the status of the resume operation.
@@ -230,6 +233,7 @@ StateFeedback simulation_framework::core::SimRunner::Stop() override
 Stops the simulation immediately.
 
 The simulation state resets to <code>kInitialized</code>. 
+
 **Returns**:
 
 A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback)</code> object containing the status of the stop operation.
@@ -320,6 +324,7 @@ uint64_t simulation_framework::core::SimRunner::GetExecutedStepCount() const
 Retrieves the number of executed simulation steps.
 
 The step counter resets if the simulation is restarted. 
+
 **Returns**:
 
 The number of executed simulation steps.
@@ -369,9 +374,9 @@ Runs the simulation until it ends without accepting further commands.
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"sim__runner_8h"},"children":[{"type":"text","text":"sim_runner.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)

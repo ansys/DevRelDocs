@@ -54,6 +54,7 @@ simulation_framework::core::StandaloneActivityService::StandaloneActivityService
 
 
 Construct an Standalone Activity as Service to join simulation standalonely 
+
 **Parameters**:
 
 * **standalone_activity_creator**: An interface defines how the activity should be instanciated
@@ -130,9 +131,9 @@ Programm return code which indicates whether the Standalone Activity is healthy
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"standalone__activity__service_8h"},"children":[{"type":"text","text":"standalone_activity_service.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)

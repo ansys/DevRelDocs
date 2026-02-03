@@ -65,6 +65,7 @@ bool simulation_framework::core::Cli::Execute()
 Executes the appropriate function based on the parsed parameters.
 
 This function decides which action to take, such as running the simulation or performing other tasks, based on the parameters provided during initialization. 
+
 **Returns**:
 
 <code>true</code> if execution is successful; otherwise, <code>false</code>.
@@ -85,7 +86,7 @@ This function decides which action to take, such as running the simulation or pe
 * `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"cli_8h"},"children":[{"type":"text","text":"cli.h"}]}`
 -->
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

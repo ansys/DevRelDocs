@@ -276,28 +276,28 @@ and use it in a simulation by running `simfwk_cli`:
 
 The `IActivity` interface and its derived class, `core/lifecycle/activity/base_activity.h`, provide several APIs to retrieve information related to the current simulation context. These include the current simulation timestamp, the cycle time for an activity, the simulation output directories, and input files. Available APIs are as follows:
 
-## Simulation timestamp
+### Simulation timestamp
 This API returns the current simulation timestamp, allowing your logic to access the exact simulation time at any given moment during execution.
 
 ```cpp
 time::Timestamp GetCurrentTimestamp() const final;
 ```
 
-## Cycle time
+### Cycle time
 This API returns the cycle time for this activity, based on the scheduling configuration you have provided for simulation.
 
 ```cpp
 std::chrono::milliseconds GetCycleTime() const final;
 ```
 
-## Simulation output directory
+### Simulation output directory
 This API returns the directory path where the outputs of the simulation are stored.
 
 ```cpp
 std::string GetSimulationOutputDirectory() const final;
 ```
 
-## 4. Customized parameter from comamnd line
+### 4. Customized parameter from comamnd line
 
 This API returns the customized parameters for the simulation as a map.
 

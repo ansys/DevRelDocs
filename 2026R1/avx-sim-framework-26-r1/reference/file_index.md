@@ -5,6 +5,8 @@
 * [activity_factory.h](activity__factory_8h.md#activity__factory_8h)
 * [autonomy_sim_instance_creator.h](autonomy__sim__instance__creator_8h.md#autonomy__sim__instance__creator_8h)
 * [autonomy/communication/topic_registry/topic_registry.h](autonomy_2communication_2topic__registry_2topic__registry_8h.md#autonomy_2communication_2topic__registry_2topic__registry_8h): © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+* [avx_sensor_data_player.h](avx__sensor__data__player_8h.md#avx__sensor__data__player_8h)
+* [avx_sensor_data_recorder.h](avx__sensor__data__recorder_8h.md#avx__sensor__data__recorder_8h)
 * [avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)
 
 ## B
