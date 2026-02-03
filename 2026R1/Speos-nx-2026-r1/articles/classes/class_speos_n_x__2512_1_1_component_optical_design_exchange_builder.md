@@ -1,4 +1,9 @@
-﻿# ComponentOpticalDesignExchangeBuilder
+﻿---
+uid: component_optical_design_exchange_builder
+title: ComponentOpticalDesignExchangeBuilder
+---
+
+# ComponentOpticalDesignExchangeBuilder
 
 **Full Name**: `SpeosNX_2512::ComponentOpticalDesignExchangeBuilder`
 

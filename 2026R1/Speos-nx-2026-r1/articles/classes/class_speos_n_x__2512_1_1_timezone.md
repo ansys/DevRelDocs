@@ -1,4 +1,9 @@
-﻿# Timezone
+﻿---
+uid: timezone
+title: Timezone
+---
+
+# Timezone
 
 **Full Name**: `SpeosNX_2512::Timezone`
 

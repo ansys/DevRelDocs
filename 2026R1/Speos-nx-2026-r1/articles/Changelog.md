@@ -1,4 +1,9 @@
-﻿# Changelog
+﻿---
+uid: _changelog
+title: Changelog
+---
+
+# Changelog
 
 ## Release 2026 R1 Beta
 

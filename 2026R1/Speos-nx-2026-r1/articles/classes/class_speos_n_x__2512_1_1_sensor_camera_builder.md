@@ -1,4 +1,9 @@
-﻿# SensorCameraBuilder
+﻿---
+uid: sensor_camera_builder
+title: SensorCameraBuilder
+---
+
+# SensorCameraBuilder
 
 **Full Name**: `SpeosNX_2512::SensorCameraBuilder`
 

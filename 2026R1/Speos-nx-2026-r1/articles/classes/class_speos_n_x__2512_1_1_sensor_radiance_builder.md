@@ -1,4 +1,9 @@
-﻿# SensorRadianceBuilder
+﻿---
+uid: sensor_radiance_builder
+title: SensorRadianceBuilder
+---
+
+# SensorRadianceBuilder
 
 **Full Name**: `SpeosNX_2512::SensorRadianceBuilder`
 

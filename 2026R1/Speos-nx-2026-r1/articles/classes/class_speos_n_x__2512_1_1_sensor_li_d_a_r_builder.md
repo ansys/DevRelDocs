@@ -1,4 +1,9 @@
-﻿# SensorLiDARBuilder
+﻿---
+uid: sensor_li_d_a_r_builder
+title: SensorLiDARBuilder
+---
+
+# SensorLiDARBuilder
 
 **Full Name**: `SpeosNX_2512::SensorLiDARBuilder`
 

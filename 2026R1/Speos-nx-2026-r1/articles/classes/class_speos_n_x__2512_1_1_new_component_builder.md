@@ -1,4 +1,9 @@
-﻿# NewComponentBuilder
+﻿---
+uid: new_component_builder
+title: NewComponentBuilder
+---
+
+# NewComponentBuilder
 
 **Full Name**: `SpeosNX_2512::NewComponentBuilder`
 

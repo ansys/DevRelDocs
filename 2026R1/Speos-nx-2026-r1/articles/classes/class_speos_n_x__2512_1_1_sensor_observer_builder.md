@@ -1,4 +1,9 @@
-﻿# SensorObserverBuilder
+﻿---
+uid: sensor_observer_builder
+title: SensorObserverBuilder
+---
+
+# SensorObserverBuilder
 
 **Full Name**: `SpeosNX_2512::SensorObserverBuilder`
 
