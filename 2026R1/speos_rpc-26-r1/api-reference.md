@@ -1007,7 +1007,7 @@ arrays values of integers
 <a name="ansys-api-speos-common-v1-Magnitude"></a>
 
 ### Magnitude
-magnitudes in Speos data
+Magnitude represent a physical quantity
 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
@@ -1029,9 +1029,43 @@ magnitudes in Speos data
 | spectral_luminous_exposure | 15 | spectral photometric exposure |
 | radiant_flux | 16 | radiometric flux |
 | luminous_flux | 17 | photometric flux |
+| wavelength | 26 | wavelength |
 | ratio | 27 | magnitude ratio |
 | color | 37 | color |
 | ray_sampling | 38 | rays sampling |
+| distance | 48 | distance |
+| dimension | 49 | dimension |
+| plane_angle | 50 | plane angle |
+| curvature | 51 | curvature |
+| curvature_product | 52 | curvature product |
+| photometric_power_density | 62 | photometric power density |
+| radiometric_power_density | 63 | radiometric power density |
+| spherical_probability_density | 64 | spherical probability density |
+| temperature_elevation | 74 | temperature elevation |
+| colorimetric_error | 84 | colorimetric error |
+| signal_to_noise_ratio | 85 | SNR |
+| precision | 86 | precision |
+| relative_standard_error | 87 | relative standard error |
+| refractive_power | 97 | refractive power |
+| refractive_index | 98 | refractive index |
+| absorption | 99 | absorption |
+| x_color | 109 | xyY color space |
+| y_color | 110 | xyY color space |
+| u_color | 111 | uvY color space |
+| v_color | 112 | uvY color space |
+| u_prime_color | 113 | u'v'Y color space |
+| v_prime_color | 114 | u'v'Y color space |
+| u_star_color | 115 | L*u*v* color space |
+| v_star_color | 116 | L*u*v* color space |
+| a_star_color | 117 | L*a*b* color space |
+| b_star_color | 118 | L*a*b* color space |
+| uppercase_c_star_color | 119 | L*C*h color space |
+| h_color | 120 | L*C*h color space |
+| uppercase_x_color | 121 | XYZ color space |
+| uppercase_y_color | 122 | XYZ color space |
+| uppercase_z_color | 123 | XYZ color space |
+| uppercase_l_star_color | 124 | L*u*v* color space |
+| glare | 134 | glare |
 
 
 
@@ -1049,6 +1083,8 @@ Units used in Speos data
 | watts_per_square_meters_steradians | 4 | W/(m2.sr) |
 | watts_per_steradians_nanometers | 5 | W/(sr.nm) |
 | watts_per_square_meters_nanometers | 6 | W/(m2.nm) |
+| watts_per_square_foot | 7 | W/ft2 |
+| watts_per_square_foot_nanometer | 8 | W/(ft2.nm) |
 | joules | 16 | J |
 | joules_per_nanometers | 17 | J/(nm) |
 | joules_per_square_meters | 18 | J/(m2) |
@@ -1065,6 +1101,7 @@ Units used in Speos data
 | lumens_seconds | 56 | lm.s |
 | lumens_per_nanometers | 57 | lm/(nm) |
 | lumens_per_square_meters_nanometers | 49 | lm/(m2.nm) |
+| lumens_per_square_centimeter | 59 | lm/cm2 |
 | percent | 60 | % |
 | color_XYZ | 70 | XYZ CIE |
 | color_xyY | 71 | xy CIE |
@@ -1075,6 +1112,8 @@ Units used in Speos data
 | color_LCh | 76 | L*C*h CIELAB |
 | color_rgb | 77 | rgb |
 | color_rgba | 79 | rgba |
+| foot_candles | 90 | fc |
+| foot_candles_per_nanometer | 91 | fc/nm |
 | nanometers | 120 | nm |
 | micrometers | 121 | um |
 | millimeters | 122 | mm |
@@ -1083,6 +1122,14 @@ Units used in Speos data
 | degrees | 125 | deg |
 | steradians | 126 | sr |
 | ray_per_pixel | 127 | rays/pixel |
+| square_meters | 140 | m2 |
+| square_centimeters | 141 | cm2 |
+| square_millimeters | 142 | mm2 |
+| square_micrometers | 143 | micron2 |
+| square_nanometers | 144 | nm2 |
+| square_feet | 145 | ft2 |
+| square_inches | 146 | inch2 |
+| no_unit | 160 |  |
 
 
  <!-- end enums -->
@@ -1136,6 +1183,7 @@ Units used in Speos data
 | ----- | ---- | ----- | ----------- |
 | binary | [bytes](#bytes) |  |  |
 | size | [int64](#int64) |  |  |
+| file_name | [string](#string) |  | file name. Mandatory in the first chunk exchanged. |
 
 
 
@@ -1251,6 +1299,11 @@ Used in File Transfer helpers
 
 
 
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| file_name | [string](#string) |  | FileSystemItem's name |
+
+
 
 
 
@@ -1300,8 +1353,8 @@ Used in File Transfer helpers
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | Reserve | [Reserve_Request](#ansys-api-speos-file-v1-Reserve_Request) | [Reserve_Response](#ansys-api-speos-file-v1-Reserve_Response) | Reserve a FileSystemItem |
-| Upload | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | [Upload_Response](#ansys-api-speos-file-v1-Upload_Response) | Upload a file Mandatory Client's Metadata: key: "file-name" - value: file name key: "file-size" - value: size of the file in bytes |
-| Download | [Download_Request](#ansys-api-speos-file-v1-Download_Request) | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | Download a FileSystemItem Server's' Initial Metadata: key: "file-name" - value: file name key: "file-size" - value: size of the file in bytes |
+| Upload | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | [Upload_Response](#ansys-api-speos-file-v1-Upload_Response) | Upload a file Mandatory Client's Metadata: key: "file-size" - value: size of the file in bytes Optional Client's Metadata: key: "reserved-file-uri" - value: FileSystemItem reserved uri |
+| Download | [Download_Request](#ansys-api-speos-file-v1-Download_Request) | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | Download a FileSystemItem Server's' Initial Metadata: key: "file-size" - value: size of the file in bytes |
 | Delete | [Delete_Request](#ansys-api-speos-file-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-file-v1-Delete_Response) | Delete a FileSystemItem |
 | AddDependencies | [AddDependencies_Request](#ansys-api-speos-file-v1-AddDependencies_Request) | [AddDependencies_Response](#ansys-api-speos-file-v1-AddDependencies_Response) | Add dependencies to a FileSystemItem |
 | ListDependencies | [ListDependencies_Request](#ansys-api-speos-file-v1-ListDependencies_Request) | [ListDependencies_Response](#ansys-api-speos-file-v1-ListDependencies_Response) | List all dependencies of a FileSystemItem |
@@ -1326,6 +1379,7 @@ Request to create a Intensity in IntensityTemplatesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | intensity_template | [IntensityTemplate](#ansys-api-speos-intensity-v1-IntensityTemplate) |  | Intensity containing its basic characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -1757,7 +1811,7 @@ Actions available on a IntensityTemplate
 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
-| OptisIntensityOptis | 0 |  |
+| OptisIntensityOptis | 0 | Unsupported |
 | OptisIntensitySAETypeA | 1 |  |
 | OptisIntensitySAETypeB | 2 |  |
 | OptisIntensityConoscopic | 3 |  |
@@ -1774,7 +1828,7 @@ Actions available on a IntensityTemplate
 | OptisMapLayerTypeNone | 0 |  |
 | OptisMapLayerTypeSource | 1 |  |
 | OptisMapLayerTypeSurface | 2 |  |
-| OptisMapLayerTypeError | 3 |  |
+| OptisMapLayerTypeError | 3 | Unsupported |
 | OptisMapLayerTypeSequence | 4 |  |
 | OptisMapLayerTypePolarization | 5 |  |
 | OptisMapLayerTypeIncidenceAngle | 6 |  |
@@ -1788,8 +1842,8 @@ Actions available on a IntensityTemplate
 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
-| OptisMapTypeBasic | 0 |  |
-| OptisMapTypeLaser | 1 |  |
+| OptisMapTypeBasic | 0 | Unsupported |
+| OptisMapTypeLaser | 1 | Unsupported |
 | OptisMapTypeSpectral | 2 |  |
 | OptisMapTypeExtended | 3 |  |
 | OptisMapTypeUnknown | 4 |  |
@@ -1812,7 +1866,7 @@ Actions available on a IntensityTemplate
 | OptisUnitTypePhotometric | 1 |  |
 | OptisUnitTypeTemperature | 2 |  |
 | OptisUnitTypeUnknown | 3 |  |
-| OptisUnitTypeFTM | 4 |  |
+| OptisUnitTypeFTM | 4 | Unsupported |
 | OptisUnitTypeDegree | 5 |  |
 | OptisUnitTypeInverseMeter | 6 |  |
 | OptisUnitTypeInverseSquareMeter | 7 |  |
@@ -1834,14 +1888,14 @@ Actions available on a IntensityTemplate
 | OptisValueTypeIntensity | 1 |  |
 | OptisValueTypeRadiance | 2 |  |
 | OptisValueTypeVisual | 3 |  |
-| OptisValueTypeSel | 4 |  |
-| OptisValueTypeLaserPhase | 5 |  |
-| OptisValueTypeLaserPhasePlane | 6 |  |
+| OptisValueTypeSel | 4 | Unsupported |
+| OptisValueTypeLaserPhase | 5 | Unsupported |
+| OptisValueTypeLaserPhasePlane | 6 | Unsupported |
 | OptisValueTypeDirectionalIrradiance | 7 |  |
-| OptisValueTypeGain | 8 |  |
-| OptisValueTypeWaveFront | 9 |  |
-| OptisValueTypeFTM | 10 |  |
-| OptisValueTypeRP | 11 |  |
+| OptisValueTypeGain | 8 | Unsupported |
+| OptisValueTypeWaveFront | 9 | Unsupported |
+| OptisValueTypeFTM | 10 | Unsupported |
+| OptisValueTypeRP | 11 | Unsupported |
 | OptisValueTypePowerDensity | 12 |  |
 | OptisValueTypePopulation | 13 |  |
 | OptisValueTypeTemperature | 14 |  |
@@ -1911,9 +1965,9 @@ Actions available on a IntensityTemplate
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| number_lamps | [int32](#int32) |  |  |
+| number_lamps | [int32](#int32) |  | integer > 0 |
 | type_lamps | [string](#string) |  |  |
-| total_luminous_flux | [double](#double) |  |  |
+| total_luminous_flux | [double](#double) |  | double > 0 |
 | color_temperature | [string](#string) |  |  |
 | color_rendering_index | [string](#string) |  |  |
 | wattage_including_ballast | [double](#double) |  |  |
@@ -1939,17 +1993,17 @@ Actions available on a IntensityTemplate
 | distance_c_planes | [double](#double) |  |  |
 | g_angle_number | [int32](#int32) |  |  |
 | distance_g_angle | [double](#double) |  |  |
-| diameter_luminaire | [double](#double) |  |  |
-| width_luminaire | [double](#double) |  |  |
-| height_luminaire | [double](#double) |  |  |
-| diameter_luminous_area | [double](#double) |  |  |
-| width_luminous_area | [double](#double) |  |  |
-| height_luminous_area_c0 | [double](#double) |  |  |
-| height_luminous_area_c90 | [double](#double) |  |  |
-| height_luminous_area_c180 | [double](#double) |  |  |
-| height_luminous_area_c270 | [double](#double) |  |  |
-| downward_flux_fraction | [double](#double) |  |  |
-| light_ouput_ratio | [double](#double) |  |  |
+| diameter_luminaire | [double](#double) |  | (mm) |
+| width_luminaire | [double](#double) |  | (mm) |
+| height_luminaire | [double](#double) |  | (mm) |
+| diameter_luminous_area | [double](#double) |  | (mm) |
+| width_luminous_area | [double](#double) |  | (mm) |
+| height_luminous_area_c0 | [double](#double) |  | (mm) |
+| height_luminous_area_c90 | [double](#double) |  | (mm) |
+| height_luminous_area_c180 | [double](#double) |  | (mm) |
+| height_luminous_area_c270 | [double](#double) |  | (mm) |
+| downward_flux_fraction | [double](#double) |  | Percentage between 0% and 100% |
+| light_ouput_ratio | [double](#double) |  | Percentage between 0% and 100% |
 | conversion_factor | [double](#double) |  |  |
 | measurement_tilt | [double](#double) |  |  |
 | number_standard_set_lamps | [int32](#int32) |  |  |
@@ -1957,7 +2011,7 @@ Actions available on a IntensityTemplate
 | direct_ratio | [double](#double) | repeated |  |
 | c_plane | [double](#double) | repeated |  |
 | g_angle | [double](#double) | repeated |  |
-| luminous_intensity_per_klm | [double](#double) | repeated |  |
+| luminous_intensity_per_klm | [double](#double) | repeated | (cd/klm) |
 
 
 
@@ -2160,21 +2214,21 @@ service to manage eulumdat file
 | ----- | ---- | ----- | ----------- |
 | norme_version | [int32](#int32) |  |  |
 | key_words | [string](#string) | repeated |  |
-| unit | [int32](#int32) |  |  |
+| unit | [int32](#int32) |  | feet or meters |
 | nb_vertical_angle | [int32](#int32) |  |  |
 | nb_horizontal_angle | [int32](#int32) |  |  |
-| tilt_type | [int32](#int32) |  |  |
+| tilt_type | [int32](#int32) |  | tilt_type set to 1 means None. |
 | tilt_geometry | [int32](#int32) |  |  |
-| nb_lamp | [int32](#int32) |  |  |
+| nb_lamp | [int32](#int32) |  | integer > 0 |
 | photo_type | [int32](#int32) |  |  |
 | lumen_lamp | [double](#double) |  |  |
 | multiplier | [double](#double) |  |  |
-| width | [double](#double) |  |  |
-| length | [double](#double) |  |  |
-| height | [double](#double) |  |  |
-| ballast | [double](#double) |  |  |
-| future_use | [double](#double) |  |  |
-| input_watt | [double](#double) |  |  |
+| width | [double](#double) |  | (feet) or (meters) according to 'int32' unit type. |
+| length | [double](#double) |  | (feet) |
+| height | [double](#double) |  | (feet) |
+| ballast | [double](#double) |  | float > 0 |
+| future_use | [double](#double) |  | float > 0 |
+| input_watt | [double](#double) |  | float > 0 |
 | vertical_angle | [double](#double) | repeated |  |
 | horizontal_angle | [double](#double) | repeated |  |
 | candela_value | [double](#double) | repeated |  |
@@ -2379,9 +2433,9 @@ service to manage IES files
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | base_data | [Map](#ansys-api-speos-intensity_distributions-v1-xmp-Map) |  |  |
-| wavelength_nb | [int32](#int32) |  |  |
-| wavelength_min | [double](#double) |  |  |
-| wavelength_max | [double](#double) |  |  |
+| wavelength_nb | [int32](#int32) |  | Integer >= 3 |
+| wavelength_min | [double](#double) |  | Range is between 100nm and 100000nm |
+| wavelength_max | [double](#double) |  | Range is between 100nm and 100000nm |
 | spectral_value | [SpectralValues](#ansys-api-speos-intensity_distributions-v1-xmp-SpectralValues) |  | spectral values |
 | color_value | [ColorValues](#ansys-api-speos-intensity_distributions-v1-xmp-ColorValues) |  | colorimetric and radiometric data |
 | depth_value | [Depth](#ansys-api-speos-intensity_distributions-v1-xmp-Depth) |  |  |
@@ -2593,6 +2647,7 @@ Request to create a Job in JobsManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | job | [Job](#ansys-api-speos-job-v2-Job) |  | Job characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -2846,6 +2901,7 @@ Request to delete a Job in JobsManager
 | direct_mc_simulation_properties | [Job.DirectMCSimulationProperties](#ansys-api-speos-job-v2-Job-DirectMCSimulationProperties) |  | Properties to be filled for simulation based on DirectMCSimulationTemplate |
 | inverse_mc_simulation_properties | [Job.InverseMCSimulationProperties](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties) |  | Properties to be filled for simulation based on InverseMCSimulationTemplate |
 | interactive_simulation_properties | [Job.InteractiveSimulationProperties](#ansys-api-speos-job-v2-Job-InteractiveSimulationProperties) |  | Properties to be filled for simulation based on Interactive |
+| virtualbsdfbench_simulation_properties | [Job.VirtualBSDFBenchSimulationProperties](#ansys-api-speos-job-v2-Job-VirtualBSDFBenchSimulationProperties) |  | Properties to be filled for simulation based on VirtualBSDFBench |
 
 
 
@@ -2863,7 +2919,7 @@ If no stop condition is set, the simulation ends when you stop the process.
 | ----- | ---- | ----- | ----------- |
 | stop_condition_rays_number | [int64](#int64) | optional | To stop the simulation after a certain number of rays were sent |
 | stop_condition_duration | [int64](#int64) | optional | To stop the simulation after a certain duration |
-| automatic_save_frequency | [int32](#int32) |  | Define a backup interval (s). This option is useful when computing long simulations. But a reduced number of save operations naturally increases the simulation performance |
+| automatic_save_frequency | [int32](#int32) |  | Define a backup interval (s). This option is useful when computing long simulations. Note: A reduced number of save operations naturally increases the simulation performance. 0 disables intermediary backup saves. |
 
 
 
@@ -2916,7 +2972,7 @@ If no stop condition is set, the simulation ends when you stop the process.
 | optimized_propagation_relative | [Job.InverseMCSimulationProperties.OptimizedPropagationRelative](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties-OptimizedPropagationRelative) |  |  |
 | optimized_propagation_absolute | [Job.InverseMCSimulationProperties.OptimizedPropagationAbsolute](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties-OptimizedPropagationAbsolute) |  |  |
 | stop_condition_duration | [int64](#int64) | optional | To stop the simulation after a certain duration |
-| automatic_save_frequency | [int32](#int32) |  | Define a backup interval (s). This option is useful when computing long simulations. But a reduced number of save operations naturally increases the simulation performance |
+| automatic_save_frequency | [int32](#int32) |  | Define a backup interval (s). This option is useful when computing long simulations. Note: A reduced number of save operations naturally increases the simulation performance. 0 disables intermediary backup saves. |
 
 
 
@@ -2990,6 +3046,21 @@ The Optimized propagation algorithm is only compatible with the Radiance sensors
 
 
 
+<a name="ansys-api-speos-job-v2-Job-VirtualBSDFBenchSimulationProperties"></a>
+
+### Job.VirtualBSDFBenchSimulationProperties
+If no stop condition is set, the simulation ends when you stop the process.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| stop_condition_rays_number | [int64](#int64) |  | Number of rays sent per configuration, meaning number of rays per angle incident (and wavelength in iridescence case) |
+
+
+
+
+
+
 <a name="ansys-api-speos-job-v2-List_Request"></a>
 
 ### List_Request
@@ -3055,6 +3126,32 @@ Request to read a Job in JobsManager
 | ----- | ---- | ----- | ----------- |
 | path | [string](#string) |  | Result path on the server |
 | upload_response | [file.v1.Upload_Response](#ansys-api-speos-file-v1-Upload_Response) |  | Result uploaded to server's file system (via FileTransferService) -> returns Upload_Response |
+
+
+
+
+
+
+<a name="ansys-api-speos-job-v2-SaveFile_Request"></a>
+
+### SaveFile_Request
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| guid | [string](#string) |  | Guid of the Job in JobsManager. |
+| file_uri | [string](#string) |  | URI of the *.speos file to save. (Local path or guid from FileTransferService). |
+
+
+
+
+
+
+<a name="ansys-api-speos-job-v2-SaveFile_Response"></a>
+
+### SaveFile_Response
+
 
 
 
@@ -3186,6 +3283,7 @@ Service to handle a job
 | GetInformation | [GetInformation_Request](#ansys-api-speos-job-v2-GetInformation_Request) | [GetInformation_Response](#ansys-api-speos-job-v2-GetInformation_Response) | Get Information about a Job |
 | GetRayPaths | [GetRayPaths_Request](#ansys-api-speos-job-v2-GetRayPaths_Request) | [results.v1.RayPath](#ansys-api-speos-results-v1-RayPath) stream | Get RayPaths generated by a Job based on an interactive simulation |
 | GetProgressStatus | [GetProgressStatus_Request](#ansys-api-speos-job-v2-GetProgressStatus_Request) | [GetProgressStatus_Response](#ansys-api-speos-job-v2-GetProgressStatus_Response) | Get progress status about a Job |
+| SaveFile | [SaveFile_Request](#ansys-api-speos-job-v2-SaveFile_Request) | [SaveFile_Response](#ansys-api-speos-job-v2-SaveFile_Response) | Save a Job into .speos file |
 
 
 <a name="ansys-api-speos-job-v2-JobsManager"></a>
@@ -3612,7 +3710,8 @@ Body definition made of faces
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in its Part |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
 | metadata | [Body.MetadataEntry](#ansys-api-speos-body-v1-Body-MetadataEntry) | repeated | User defined metadata |
 | face_guids | [string](#string) | repeated | List of faces constituting the body |
@@ -3647,6 +3746,7 @@ Request to create a body
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | body | [Body](#ansys-api-speos-body-v1-Body) |  | body to create |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -3867,7 +3967,8 @@ Chunk of a Face
 | vertices | [Chunk.Vertices](#ansys-api-speos-face-v1-Chunk-Vertices) |  | coordinates of all points (p1x p1y p1z p2x p2y p2z ...) |
 | facets | [Chunk.Facets](#ansys-api-speos-face-v1-Chunk-Facets) |  | indexes of points for all triangles (t1_1 t1_2 t1_3 t2_1 t2_2 t2_3 ...) |
 | normals | [Chunk.Normals](#ansys-api-speos-face-v1-Chunk-Normals) |  | normal vector for all points (n1x n1y n1z n2x n2y n2z ...) |
-| texture_coordinates_channels | [Chunk.TextureCoordinatesChannels](#ansys-api-speos-face-v1-Chunk-TextureCoordinatesChannels) |  |  |
+| vertices_data | [Chunk.VerticesData](#ansys-api-speos-face-v1-Chunk-VerticesData) |  | List of data applied to vertices (like texture coordinates uv) |
+| facets_data | [Chunk.FacetsData](#ansys-api-speos-face-v1-Chunk-FacetsData) |  | List of data applied to facets (like temperature) |
 
 
 
@@ -3884,9 +3985,10 @@ Chunk of a Face
 | ----- | ---- | ----- | ----------- |
 | guid | [string](#string) |  | Guid of a FacesManager element - Used for FaceActions.Upload rpc |
 | name | [string](#string) |  |  |
+| display_name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
 | metadata | [Chunk.FaceHeader.MetadataEntry](#ansys-api-speos-face-v1-Chunk-FaceHeader-MetadataEntry) | repeated |  |
-| sizes | [int32](#int32) | repeated | total sizes for vectors: (vertices_normals_size, facets_size, texture_coordinates_channels_size) - vertices and normals vectors have same size, that's why it is gathered in vertices_normals_size |
+| sizes | [int32](#int32) | repeated | vectors sizes in Face: (vertices_normals_size, facets_size, vertices_data_size, facets_data_size) - vertices and normals vectors have same size, therefore they are grouped in vertices_normals_size |
 
 
 
@@ -3924,6 +4026,24 @@ Chunk of a Face
 
 
 
+<a name="ansys-api-speos-face-v1-Chunk-FacetsData"></a>
+
+### Chunk.FacetsData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| new_layer | [bool](#bool) |  | Boolean to express a new layer (MeshData) for facets_data. |
+| name | [string](#string) |  | Identifier name (uv, temperature...) |
+| size | [int32](#int32) |  | Total size for vector in MeshData: data_size |
+| data | [float](#float) | repeated | Raw data for each facet |
+
+
+
+
+
+
 <a name="ansys-api-speos-face-v1-Chunk-Normals"></a>
 
 ### Chunk.Normals
@@ -3933,21 +4053,6 @@ Chunk of a Face
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | data | [float](#float) | repeated |  |
-
-
-
-
-
-
-<a name="ansys-api-speos-face-v1-Chunk-TextureCoordinatesChannels"></a>
-
-### Chunk.TextureCoordinatesChannels
-
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| data | [Face.TextureCoordinates](#ansys-api-speos-face-v1-Face-TextureCoordinates) | repeated |  |
 
 
 
@@ -3969,6 +4074,24 @@ Chunk of a Face
 
 
 
+<a name="ansys-api-speos-face-v1-Chunk-VerticesData"></a>
+
+### Chunk.VerticesData
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| new_layer | [bool](#bool) |  | Boolean to express a new layer (MeshData) for vertices_data. |
+| name | [string](#string) |  | Identifier name (uv, temperature...) |
+| size | [int32](#int32) |  | Total size for vector in MeshData: data_size |
+| data | [float](#float) | repeated | Raw data for each vertice |
+
+
+
+
+
+
 <a name="ansys-api-speos-face-v1-Create_Request"></a>
 
 ### Create_Request
@@ -3978,6 +4101,7 @@ Request to create a face
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | face | [Face](#ansys-api-speos-face-v1-Face) |  | face to create |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -4049,13 +4173,31 @@ Face definition with meshing information
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in its Body |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
 | metadata | [Face.MetadataEntry](#ansys-api-speos-face-v1-Face-MetadataEntry) | repeated | user defined metadata |
 | vertices | [float](#float) | repeated | coordinates of all points (p1x p1y p1z p2x p2y p2z ...) |
 | facets | [uint32](#uint32) | repeated | indexes of points for all triangles (t1_1 t1_2 t1_3 t2_1 t2_2 t2_3 ...) |
 | normals | [float](#float) | repeated | normal vector for all points (n1x n1y n1z n2x n2y n2z ...) |
-| texture_coordinates_channels | [Face.TextureCoordinates](#ansys-api-speos-face-v1-Face-TextureCoordinates) | repeated | if we want apply textures on this face, we have to set a TextureCoordinates per texture |
+| vertices_data | [Face.MeshData](#ansys-api-speos-face-v1-Face-MeshData) | repeated | List of data applied to vertices (like texture coordinates uv) |
+| facets_data | [Face.MeshData](#ansys-api-speos-face-v1-Face-MeshData) | repeated | List of data applied to facets (like temperature) |
+
+
+
+
+
+
+<a name="ansys-api-speos-face-v1-Face-MeshData"></a>
+
+### Face.MeshData
+Store named data on meshed
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| name | [string](#string) |  | Identifier name (uv, temperature...) |
+| data | [float](#float) | repeated | Raw data for each mesh |
 
 
 
@@ -4072,21 +4214,6 @@ Face definition with meshing information
 | ----- | ---- | ----- | ----------- |
 | key | [string](#string) |  |  |
 | value | [string](#string) |  |  |
-
-
-
-
-
-
-<a name="ansys-api-speos-face-v1-Face-TextureCoordinates"></a>
-
-### Face.TextureCoordinates
-
-
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| uv | [float](#float) | repeated | coordinates (u_1 v_1 ... u_NbPoints v_NbPoints) representating bridge between vertices and point on texture |
 
 
 
@@ -4265,6 +4392,7 @@ Request to create an element
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | part | [Part](#ansys-api-speos-part-v1-Part) |  | Element to create |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -4379,10 +4507,28 @@ Instance of Part in parent coordinates system
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in its Part |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
+| metadata | [Part.PartInstance.MetadataEntry](#ansys-api-speos-part-v1-Part-PartInstance-MetadataEntry) | repeated | User defined metadata |
 | part_guid | [string](#string) |  | Guid of Part in PartsManager |
 | axis_system | [double](#double) | repeated | Part position relative to parent reference (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz). If the coordinate system is not orthonormal, it will be automatically orthonormalized |
+
+
+
+
+
+
+<a name="ansys-api-speos-part-v1-Part-PartInstance-MetadataEntry"></a>
+
+### Part.PartInstance.MetadataEntry
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| key | [string](#string) |  |  |
+| value | [string](#string) |  |  |
 
 
 
@@ -4579,6 +4725,36 @@ Service to manage geometrical objects
 
 
 
+
+<a name="ansys-api-speos-results-v1-SplitSpeos360IntoXMPs_Request"></a>
+
+### SplitSpeos360IntoXMPs_Request
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| file_uri | [string](#string) |  | Uri of the speos360 file to split. |
+
+
+
+
+
+
+<a name="ansys-api-speos-results-v1-SplitSpeos360IntoXMPs_Response"></a>
+
+### SplitSpeos360IntoXMPs_Response
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| splitted_map_uri | [string](#string) | repeated | List of uris to XMP files. |
+
+
+
+
+
  <!-- end messages -->
 
  <!-- end enums -->
@@ -4595,6 +4771,7 @@ Actions available with XMP and Speos360 result file.
 | ----------- | ------------ | ------------- | ------------|
 | MergeXMPsToXMPOrSpeos360 | [MergeXMPsToXMPOrSpeos360_Request](#ansys-api-speos-results-v1-MergeXMPsToXMPOrSpeos360_Request) | [MergeXMPsToXMPOrSpeos360_Response](#ansys-api-speos-results-v1-MergeXMPsToXMPOrSpeos360_Response) | Merge list of XMP files into a XMP or Speos360 file. [Unsupported] |
 | MergeSpeos360ToStereoSpeos360 | [MergeSpeos360ToStereoSpeos360_Request](#ansys-api-speos-results-v1-MergeSpeos360ToStereoSpeos360_Request) | [MergeSpeos360ToStereoSpeos360_Response](#ansys-api-speos-results-v1-MergeSpeos360ToStereoSpeos360_Response) | Merge left and right speos360 files into a stereoscopic Speos360 file. [Unsupported] |
+| SplitSpeos360IntoXMPs | [SplitSpeos360IntoXMPs_Request](#ansys-api-speos-results-v1-SplitSpeos360IntoXMPs_Request) | [SplitSpeos360IntoXMPs_Response](#ansys-api-speos-results-v1-SplitSpeos360IntoXMPs_Response) | Split a Speos360 file into a list of XMP files. [Unsupported] |
 
  <!-- end services -->
 
@@ -4836,7 +5013,7 @@ Request to read a Scene in ScenesManager
 <a name="ansys-api-speos-scene-v1-SaveFile_Request"></a>
 
 ### SaveFile_Request
-Request to SaveFile service
+Request to SaveFile service. Warning: SaveFile is not supported.
 
 
 | Field | Type | Label | Description |
@@ -4852,7 +5029,7 @@ Request to SaveFile service
 <a name="ansys-api-speos-scene-v1-SaveFile_Response"></a>
 
 ### SaveFile_Response
-Response to SaveFile service
+Response to SaveFile service. Warning: SaveFile is not supported.
 
 
 
@@ -5564,7 +5741,7 @@ Actions available on a Scene
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | LoadFile | [LoadFile_Request](#ansys-api-speos-scene-v1-LoadFile_Request) | [LoadFile_Response](#ansys-api-speos-scene-v1-LoadFile_Response) | Load .speos file |
-| SaveFile | [SaveFile_Request](#ansys-api-speos-scene-v1-SaveFile_Request) | [SaveFile_Response](#ansys-api-speos-scene-v1-SaveFile_Response) | Save .speos file |
+| SaveFile | [SaveFile_Request](#ansys-api-speos-scene-v1-SaveFile_Request) | [SaveFile_Response](#ansys-api-speos-scene-v1-SaveFile_Response) | Save .speos file. Warning: SaveFile is not supported. |
 | GetSourceRayPaths | [GetSourceRayPaths_Request](#ansys-api-speos-scene-v1-GetSourceRayPaths_Request) | [results.v1.RayPath](#ansys-api-speos-results-v1-RayPath) stream | Get RayPaths generated by a source |
 
 
@@ -5601,6 +5778,7 @@ Request to create a Scene in ScenesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | scene | [Scene](#ansys-api-speos-scene-v2-Scene) |  |  |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -5701,6 +5879,7 @@ Request to LoadFile service
 | ----- | ---- | ----- | ----------- |
 | guid | [string](#string) |  | Guid of a ScenesManager element to update |
 | file_uri | [string](#string) |  | File uri (path or guid from FileTransferService) |
+| password | [string](#string) |  | Password needed to open the speos lightbox file (only necessary if user protects the speos light box with a password) |
 
 
 
@@ -5750,7 +5929,7 @@ Request to read a Scene in ScenesManager
 <a name="ansys-api-speos-scene-v2-SaveFile_Request"></a>
 
 ### SaveFile_Request
-Request to SaveFile service
+Request to SaveFile service. Warning: SaveFile is not supported.
 
 
 | Field | Type | Label | Description |
@@ -5766,7 +5945,7 @@ Request to SaveFile service
 <a name="ansys-api-speos-scene-v2-SaveFile_Response"></a>
 
 ### SaveFile_Response
-Response to SaveFile service
+Response to SaveFile service. Warning: SaveFile is not supported.
 
 
 
@@ -5785,6 +5964,7 @@ Optical scene definition made of parts, optical properties, sources, sensors and
 | description | [string](#string) |  |  |
 | metadata | [Scene.MetadataEntry](#ansys-api-speos-scene-v2-Scene-MetadataEntry) | repeated | User defined metadata |
 | part_guid | [string](#string) |  | Guid from PartsManager of the geometrical part included inside the scene |
+| sub_scene_anchor_axis_system | [double](#double) | repeated | Only used for sub-scene - Represents the axis system to be attached to the one describing the scene instance. If the coordinate system is not orthonormal, it will be automatically orthonormalized |
 | sources | [Scene.SourceInstance](#ansys-api-speos-scene-v2-Scene-SourceInstance) | repeated | The sources added in the scene |
 | sensors | [Scene.SensorInstance](#ansys-api-speos-scene-v2-Scene-SensorInstance) | repeated | The sensors added in the scene |
 | simulations | [Scene.SimulationInstance](#ansys-api-speos-scene-v2-Scene-SimulationInstance) | repeated | The simulations added in the scene |
@@ -5858,17 +6038,20 @@ If the object GeoPaths is NOT defined, this means "No geometry selected".
 <a name="ansys-api-speos-scene-v2-Scene-MaterialInstance"></a>
 
 ### Scene.MaterialInstance
-Instance of a Material to apply on geometries of the scene
+Instance of a material to apply on geometries of the scene
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in the scene |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
 | metadata | [Scene.MaterialInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-MaterialInstance-MetadataEntry) | repeated | User defined metadata |
 | vop_guid | [string](#string) | optional | optional - Guid of the volume optical property to instantiate |
 | non_homogeneous_properties | [Scene.MaterialInstance.NonHomogeneousProperties](#ansys-api-speos-scene-v2-Scene-MaterialInstance-NonHomogeneousProperties) |  | To be filled if the vop_guid corresponds to a VOPTemplate of type NonHomogeneous |
-| sop_guids | [string](#string) | repeated | Guid(s) of the surface optical property(ies) to instantiate |
+| sop_guids | [string](#string) | repeated | Deprecated - Better use sop oneof field (either sop_guid or texture) |
+| sop_guid | [string](#string) |  | Guid of the surface optical property to instantiate |
+| texture | [Scene.MaterialInstance.Texture](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture) |  | Surface optical property to instantiate using texture (can be composed of several layers) |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v2-Scene-GeoPaths) |  | Geometries that will use this material |
 
 
@@ -5907,6 +6090,131 @@ Instance of a Material to apply on geometries of the scene
 
 
 
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture"></a>
+
+### Scene.MaterialInstance.Texture
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| layers | [Scene.MaterialInstance.Texture.Layer](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-Layer) | repeated | List of texture layers (also called multi texture in case of several layers) |
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-Layer"></a>
+
+### Scene.MaterialInstance.Texture.Layer
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| sop_guid | [string](#string) |  | Guid of the surface optical property to bind to geometry |
+| image_properties | [Scene.MaterialInstance.Texture.Layer.TextureMappingInfo](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-Layer-TextureMappingInfo) |  | To be filled if the SOPTemplate/Texture contains image field |
+| normal_map_properties | [Scene.MaterialInstance.Texture.Layer.TextureMappingInfo](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-Layer-TextureMappingInfo) |  | To be filled if the SOPTemplate/Texture contains normal_map field |
+| anisotropy_map_properties | [Scene.MaterialInstance.Texture.Layer.TextureMappingInfo](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-Layer-TextureMappingInfo) |  | To be filled if the SOPTemplate is anisotropic (for example an anisotropicbsdf as Library file uri) |
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-Layer-TextureMappingInfo"></a>
+
+### Scene.MaterialInstance.Texture.Layer.TextureMappingInfo
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| mapping_operator | [Scene.MaterialInstance.Texture.MappingOperator](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator) |  | Mapping operator to create UV mapping in corresponding face |
+| vertices_data_index | [uint32](#uint32) |  | Index in face's vertices_data where UV mapping is stored |
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator"></a>
+
+### Scene.MaterialInstance.Texture.MappingOperator
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| planar | [Scene.MaterialInstance.Texture.MappingOperator.Planar](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Planar) |  |  |
+| cubic | [Scene.MaterialInstance.Texture.MappingOperator.Cubic](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Cubic) |  |  |
+| spherical | [Scene.MaterialInstance.Texture.MappingOperator.Spherical](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Spherical) |  |  |
+| cylindrical | [Scene.MaterialInstance.Texture.MappingOperator.Cylindrical](#ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Cylindrical) |  |  |
+| axis_system | [double](#double) | repeated | Reference for the mapping operator (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz) |
+| u_offset | [double](#double) |  | Shift on U direction (mm) |
+| v_offset | [double](#double) |  | Shift on V direction (mm) |
+| u_scale_factor | [double](#double) |  | Scale factor on U dimension |
+| v_scale_factor | [double](#double) |  | Scale factor on V dimension |
+| u_length | [double](#double) |  | Dimension on U direction (mm) |
+| v_length | [double](#double) | optional | Optional - Dimension on V direction (mm). If not filled, then the image ratio is used to define v_length from u_length. |
+| rotation | [double](#double) |  | Rotation of UVs (degree) ]-360, 360[ |
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Cubic"></a>
+
+### Scene.MaterialInstance.Texture.MappingOperator.Cubic
+
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Cylindrical"></a>
+
+### Scene.MaterialInstance.Texture.MappingOperator.Cylindrical
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| base_perimeter | [double](#double) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Planar"></a>
+
+### Scene.MaterialInstance.Texture.MappingOperator.Planar
+
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-MaterialInstance-Texture-MappingOperator-Spherical"></a>
+
+### Scene.MaterialInstance.Texture.MappingOperator.Spherical
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| sphere_perimeter | [double](#double) |  |  |
+
+
+
+
+
+
 <a name="ansys-api-speos-scene-v2-Scene-MetadataEntry"></a>
 
 ### Scene.MetadataEntry
@@ -5931,7 +6239,8 @@ Instance of a Material to apply on geometries of the scene
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in the scene |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
 | metadata | [Scene.SceneInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SceneInstance-MetadataEntry) | repeated | User defined metadata |
 | scene_guid | [string](#string) |  | Guid of the element to instantiate |
@@ -5966,7 +6275,8 @@ Instance of a sensor to add in the scene
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in the scene |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
 | metadata | [Scene.SensorInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SensorInstance-MetadataEntry) | repeated | User defined metadata |
 | sensor_guid | [string](#string) |  | Guid of the SensorTemplate in SensorTemplatesManager to instantiate |
@@ -5977,6 +6287,8 @@ Instance of a sensor to add in the scene
 | intensity_properties | [Scene.SensorInstance.IntensityProperties](#ansys-api-speos-scene-v2-Scene-SensorInstance-IntensityProperties) |  | To be filled if the sensor_guid corresponds to a SensorTemplate of type IntensitySensorTemplate |
 | polar_intensity_properties | [Scene.SensorInstance.PolarIntensityProperties](#ansys-api-speos-scene-v2-Scene-SensorInstance-PolarIntensityProperties) |  | To be filled if the sensor_guid corresponds to a SensorTemplate of type PolarIntensitySensorTemplate |
 | irradiance_3d_properties | [Scene.SensorInstance.Irradiance3DProperties](#ansys-api-speos-scene-v2-Scene-SensorInstance-Irradiance3DProperties) |  | To be filled if the sensor_guid corresponds to a SensorTemplate of type SensorTemplate::Irradiance3D |
+| observer_properties | [Scene.SensorInstance.ObserverProperties](#ansys-api-speos-scene-v2-Scene-SensorInstance-ObserverProperties) |  | To be filled if the sensor_guid corresponds to a SensorTemplate of type SensorTemplate::Observer |
+| immersive_properties | [Scene.SensorInstance.ImmersiveProperties](#ansys-api-speos-scene-v2-Scene-SensorInstance-ImmersiveProperties) |  | To be filled if the sensor_guid corresponds to a SensorTemplate of type SensorTemplate::Immersive |
 | lxp_properties | [Scene.SensorInstance.LXPProperties](#ansys-api-speos-scene-v2-Scene-SensorInstance-LXPProperties) |  | To activate lxp feature, we must fill this field |
 
 
@@ -5996,6 +6308,23 @@ Instance of a sensor to add in the scene
 | trajectory_file_uri | [string](#string) |  | Trajectory file, used to define the positions and orientations of the Camera sensor in time. |
 | layer_type_none | [Scene.SensorInstance.LayerTypeNone](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeNone) |  | Layer type : None |
 | layer_type_source | [Scene.SensorInstance.LayerTypeSource](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeSource) |  | Layer type : Source |
+
+
+
+
+
+
+<a name="ansys-api-speos-scene-v2-Scene-SensorInstance-ImmersiveProperties"></a>
+
+### Scene.SensorInstance.ImmersiveProperties
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| axis_system | [double](#double) | repeated | Position of the sensor (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz). X corresponds to Front direction. Y corresponds to Top direction. Z corresponds to Right direction. |
+| layer_type_none | [Scene.SensorInstance.LayerTypeNone](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeNone) |  | Layer type : None. |
+| layer_type_source | [Scene.SensorInstance.LayerTypeSource](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeSource) |  | Layer type : Source. |
 
 
 
@@ -6187,6 +6516,23 @@ Includes one layer per active source in the result.
 
 
 
+<a name="ansys-api-speos-scene-v2-Scene-SensorInstance-ObserverProperties"></a>
+
+### Scene.SensorInstance.ObserverProperties
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| axis_system | [double](#double) | repeated | Position of the observed object/scene. (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz). X corresponds to Horizontal direction. Y corresponds to Vertical direction. |
+| layer_type_none | [Scene.SensorInstance.LayerTypeNone](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeNone) |  | Layer type : None. |
+| layer_type_source | [Scene.SensorInstance.LayerTypeSource](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeSource) |  | Layer type : Source. |
+
+
+
+
+
+
 <a name="ansys-api-speos-scene-v2-Scene-SensorInstance-PolarIntensityProperties"></a>
 
 ### Scene.SensorInstance.PolarIntensityProperties
@@ -6230,13 +6576,15 @@ Instance of a simulation to add in the scene
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in the scene |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
 | metadata | [Scene.SimulationInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SimulationInstance-MetadataEntry) | repeated | User defined metadata |
 | simulation_guid | [string](#string) |  | Guid of the element to instantiate |
 | sensor_paths | [string](#string) | repeated | Sensors that this simulation will include (empty for no sensor, [""] for all sensors, "<sensor name>" for a specific sensor in the current scene, or "<scene name>/<sensor name>" for a specific sensor in a specific sub scene) |
 | source_paths | [string](#string) | repeated | Sources that this simulation will include (empty for no source, [""] for all sources, "<source name>" for a specific source in the current scene, or "<scene name>/<source name>" for a specific source in a specific sub scene) |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v2-Scene-GeoPaths) |  | Geometries that this simulation will include - Not yet functional (All geometries are included by default in each simulation) |
+| vbb_properties | [Scene.SimulationInstance.VirtualBSDFBenchProperties](#ansys-api-speos-scene-v2-Scene-SimulationInstance-VirtualBSDFBenchProperties) |  | To be filled if the simulation_guid corresponds to a SimulationTemplate of type VirtualBSDFBench |
 
 
 
@@ -6259,6 +6607,23 @@ Instance of a simulation to add in the scene
 
 
 
+<a name="ansys-api-speos-scene-v2-Scene-SimulationInstance-VirtualBSDFBenchProperties"></a>
+
+### Scene.SimulationInstance.VirtualBSDFBenchProperties
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| axis_system | [double](#double) | repeated | Axis system of measurement (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz), O will be the measurement position, Z will be the normal axis (theta angle reference) and X the orientation on the surface (phi angle reference) |
+| analysis_x_ratio | [double](#double) |  | Ratio to reduce the analysis area following x, must be in range ]0., 100.] |
+| analysis_y_ratio | [double](#double) |  | Ratio to reduce the analysis area following y, must be in range ]0., 100.] |
+
+
+
+
+
+
 <a name="ansys-api-speos-scene-v2-Scene-SourceInstance"></a>
 
 ### Scene.SourceInstance
@@ -6267,7 +6632,8 @@ Instance of a source to add in the scene
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  |  |
+| name | [string](#string) |  | Unique identifier in the scene |
+| display_name | [string](#string) |  | User name to be displayed |
 | description | [string](#string) |  |  |
 | metadata | [Scene.SourceInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SourceInstance-MetadataEntry) | repeated | User defined metadata |
 | source_guid | [string](#string) |  | Guid of the SourceTemplate in SourceTemplatesManager to instantiate |
@@ -6769,8 +7135,8 @@ Actions available on a Scene
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
-| LoadFile | [LoadFile_Request](#ansys-api-speos-scene-v2-LoadFile_Request) | [LoadFile_Response](#ansys-api-speos-scene-v2-LoadFile_Response) | Load .speos file |
-| SaveFile | [SaveFile_Request](#ansys-api-speos-scene-v2-SaveFile_Request) | [SaveFile_Response](#ansys-api-speos-scene-v2-SaveFile_Response) | Save .speos file |
+| LoadFile | [LoadFile_Request](#ansys-api-speos-scene-v2-LoadFile_Request) | [LoadFile_Response](#ansys-api-speos-scene-v2-LoadFile_Response) | Load .speos, .SPEOSLightBox file |
+| SaveFile | [SaveFile_Request](#ansys-api-speos-scene-v2-SaveFile_Request) | [SaveFile_Response](#ansys-api-speos-scene-v2-SaveFile_Response) | Save .speos file. Warning: SaveFile is not supported. |
 | GetSourceRayPaths | [GetSourceRayPaths_Request](#ansys-api-speos-scene-v2-GetSourceRayPaths_Request) | [results.v1.RayPath](#ansys-api-speos-results-v1-RayPath) stream | Get RayPaths generated by a source |
 
 
@@ -6938,7 +7304,7 @@ Allows to set every Camera Sensor parameters, including the photometric definiti
 | png_bits | [EnumSensorCameraPNGBits](#ansys-api-speos-sensor-v1-EnumSensorCameraPNGBits) |  | Choose between 8, 10, 12 and 16-bit. |
 | color_mode_color | [SensorCameraColorModeColor](#ansys-api-speos-sensor-v1-SensorCameraColorModeColor) |  | Color mode : Color |
 | color_mode_monochromatic | [SensorCameraColorModeMonochromatic](#ansys-api-speos-sensor-v1-SensorCameraColorModeMonochromatic) |  | Color mode : Monochromatic |
-| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral excursion to use for simulation |
+| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral range to use for simulation. |
 
 
 
@@ -6973,6 +7339,26 @@ Allows to set every Camera Sensor parameters, including the photometric definiti
 
 ## sensor/v1/common.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+
+
+<a name="ansys-api-speos-sensor-v1-AngularRange"></a>
+
+### AngularRange
+Angular range and sampling along two directions.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| x_start | [double](#double) |  | Start angle along X direction (deg). |
+| x_end | [double](#double) |  | End angle along X direction (deg). |
+| x_sampling | [uint32](#uint32) |  | Sampling along X direction. |
+| y_start | [double](#double) |  | Start angle along Y direction (deg). |
+| y_end | [double](#double) |  | End angle along Y direction (deg). |
+| y_sampling | [uint32](#uint32) |  | Sampling along Y direction. |
+
+
+
+
 
 
 <a name="ansys-api-speos-sensor-v1-ConoscopicIntensityDimensions"></a>
@@ -7226,7 +7612,7 @@ Color results without any spectral data or layer separation.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral excursion to use for simulation |
+| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral range to use for simulation. |
 
 
 
@@ -7261,7 +7647,7 @@ Color results and spectral data separated by wavelength.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral excursion to use for simulation |
+| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral range to use for simulation. |
 
 
 
@@ -7350,6 +7736,7 @@ Request to create a SensorTemplate in SensorTemplatesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | sensor_template | [SensorTemplate](#ansys-api-speos-sensor-v1-SensorTemplate) |  | SensorTemplate containing its basic characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -7468,6 +7855,47 @@ Sensor template with its basic characteristics
 | intensity_sensor_template | [SensorTemplate.Intensity](#ansys-api-speos-sensor-v1-SensorTemplate-Intensity) |  |  |
 | polar_intensity_sensor_template | [SensorTemplate.PolarIntensity](#ansys-api-speos-sensor-v1-SensorTemplate-PolarIntensity) |  |  |
 | irradiance_3d | [SensorTemplate.Irradiance3D](#ansys-api-speos-sensor-v1-SensorTemplate-Irradiance3D) |  |  |
+| observer_sensor_template | [SensorTemplate.Observer](#ansys-api-speos-sensor-v1-SensorTemplate-Observer) |  |  |
+| immersive_sensor_template | [SensorTemplate.Immersive](#ansys-api-speos-sensor-v1-SensorTemplate-Immersive) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-sensor-v1-SensorTemplate-Immersive"></a>
+
+### SensorTemplate.Immersive
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| sampling | [uint32](#uint32) |  | Sampling (horizontal and vertical number of pixels) for a face. |
+| stereo | [SensorTemplate.Stereo](#ansys-api-speos-sensor-v1-SensorTemplate-Stereo) |  | Activates stereo. When not set, stereo is disabled for the sensor. |
+| integration_angle | [double](#double) |  | Integration angle in degrees for direct simulations. |
+| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral range to use for simulation. |
+| exclude_faces | [SensorTemplate.Immersive.ExcludeFaces](#ansys-api-speos-sensor-v1-SensorTemplate-Immersive-ExcludeFaces) |  | Possibility to exclude some faces. |
+
+
+
+
+
+
+<a name="ansys-api-speos-sensor-v1-SensorTemplate-Immersive-ExcludeFaces"></a>
+
+### SensorTemplate.Immersive.ExcludeFaces
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| front | [bool](#bool) |  | Exclude front face if true. |
+| back | [bool](#bool) |  | Exclude back face if true. |
+| left | [bool](#bool) |  | Exclude left face if true. |
+| right | [bool](#bool) |  | Exclude right face if true. |
+| top | [bool](#bool) |  | Exclude top face if true. |
+| bottom | [bool](#bool) |  | Exclude bottom face if true. |
 
 
 
@@ -7607,6 +8035,27 @@ The sensor considers the entire spectrum and gets the results in W/m2.
 
 
 
+<a name="ansys-api-speos-sensor-v1-SensorTemplate-Observer"></a>
+
+### SensorTemplate.Observer
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| focal | [double](#double) |  | Distance between the sensor radiance plan and the observer point. The larger the focal, the closer to the object. (mm) |
+| integration_angle | [double](#double) |  | Integration angle in degrees for direct simulations. |
+| wavelengths_range | [WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  | Spectral range to use for simulation. |
+| dimensions | [SensorDimensions](#ansys-api-speos-sensor-v1-SensorDimensions) |  | Dimensions of the sensor. |
+| stereo | [SensorTemplate.Stereo](#ansys-api-speos-sensor-v1-SensorTemplate-Stereo) |  | Activates stereo. When not set, stereo is disabled for the sensor. |
+| distance | [double](#double) |  | Radius of the sphere on which the sensors will be placed. (mm) |
+| sensors_locations | [AngularRange](#ansys-api-speos-sensor-v1-AngularRange) |  | Locations of the sensors on the sphere. X corresponds to Horizontal direction. Y corresponds to Vertical direction. |
+
+
+
+
+
+
 <a name="ansys-api-speos-sensor-v1-SensorTemplate-PolarIntensity"></a>
 
 ### SensorTemplate.PolarIntensity
@@ -7659,6 +8108,21 @@ The sensor considers the entire spectrum and gets the results in W/m2.
 | focal | [double](#double) |  | Observer type : focal (mm) |
 | integration_angle | [double](#double) |  | Integration angle, in degree |
 | dimensions | [SensorDimensions](#ansys-api-speos-sensor-v1-SensorDimensions) |  | Dimensions of the sensor |
+
+
+
+
+
+
+<a name="ansys-api-speos-sensor-v1-SensorTemplate-Stereo"></a>
+
+### SensorTemplate.Stereo
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| interocular_distance | [double](#double) |  | distance between viewpoints in mm. To use, make sure that front direction is horizontal and top vertical |
 
 
 
@@ -7726,6 +8190,57 @@ Defines how the illuminance is integrated in the sensor
 
 
   <!-- Remove base directory -->
+<a name="ansys_api_speos_server_info_v1_server_info-proto"></a>
+
+
+## server_info/v1/server_info.proto <!-- Use the cleaned file name here -->
+(c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+
+
+<a name="ansys-api-speos-server_info-v1-GetVersion_Request"></a>
+
+### GetVersion_Request
+
+
+
+
+
+
+
+<a name="ansys-api-speos-server_info-v1-GetVersion_Response"></a>
+
+### GetVersion_Response
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| version | [string](#string) |  | Version of the server. Format: "major.minor.patch.build". Example "2025.2.1.31394". |
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+
+<a name="ansys-api-speos-server_info-v1-ServerInfo"></a>
+
+### ServerInfo
+
+
+| Method Name | Request Type | Response Type | Description |
+| ----------- | ------------ | ------------- | ------------|
+| GetVersion | [GetVersion_Request](#ansys-api-speos-server_info-v1-GetVersion_Request) | [GetVersion_Response](#ansys-api-speos-server_info-v1-GetVersion_Response) | Get the server version |
+
+ <!-- end services -->
+
+
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_simulation_v1_simulation_template-proto"></a>
 
 
@@ -7742,6 +8257,7 @@ Request to create a SimulationTemplate in SimulationTemplatesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | simulation_template | [SimulationTemplate](#ansys-api-speos-simulation-v1-templates-SimulationTemplate) |  | SimulationTemplate containing its basic characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -7803,6 +8319,7 @@ Request to delete a SimulationTemplate in SimulationTemplatesManager
 | dispersion | [bool](#bool) |  | To activate the dispersion calculation. |
 | fast_transmission_gathering | [bool](#bool) |  | To accelerate the simulation by neglecting the light refraction that occurs when the light is being transmitted through a transparent surface. |
 | ambient_material_uri | [string](#string) |  | To select an ambient material *.material |
+| texture | [Texture](#ansys-api-speos-simulation-v1-templates-Texture) |  | To activate texture. |
 
 
 
@@ -7828,6 +8345,7 @@ Request to delete a SimulationTemplate in SimulationTemplatesManager
 | maximum_gathering_error_percentage | [double](#double) |  | This value defines the level below which a source can be neglected. 0, the default value means that no approximation will be done. |
 | fast_transmission_gathering | [bool](#bool) |  | To accelerate the simulation by neglecting the light refraction that occurs when the light is being transmitted through a transparent surface. |
 | ambient_material_uri | [string](#string) |  | To select an ambient material *.material |
+| texture | [Texture](#ansys-api-speos-simulation-v1-templates-Texture) |  | To activate texture. |
 
 
 
@@ -7903,6 +8421,7 @@ Simulation template with its basic characteristics
 | direct_mc_simulation_template | [DirectMCSimulationTemplate](#ansys-api-speos-simulation-v1-templates-DirectMCSimulationTemplate) |  |  |
 | inverse_mc_simulation_template | [InverseMCSimulationTemplate](#ansys-api-speos-simulation-v1-templates-InverseMCSimulationTemplate) |  |  |
 | interactive_simulation_template | [SimulationTemplate.Interactive](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-Interactive) |  |  |
+| virtual_bsdf_bench_simulation_template | [SimulationTemplate.VirtualBSDFBench](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench) |  |  |
 
 
 
@@ -7922,6 +8441,7 @@ Simulation template with its basic characteristics
 | weight | [Weight](#ansys-api-speos-simulation-v1-templates-Weight) |  | Activates Weight. Highly recommended to fill |
 | colorimetric_standard | [EnumColorimetricStandard](#ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard) |  | Default Colorimetric Standard |
 | ambient_material_uri | [string](#string) |  | To define the environment in which the light will propagate (water, fog, smoke etc.). It is expressed in a .material file |
+| texture | [Texture](#ansys-api-speos-simulation-v1-templates-Texture) |  | To activate texture. |
 
 
 
@@ -7938,6 +8458,233 @@ Simulation template with its basic characteristics
 | ----- | ---- | ----- | ----------- |
 | key | [string](#string) |  |  |
 | value | [string](#string) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench"></a>
+
+### SimulationTemplate.VirtualBSDFBench
+Virtual BSDF Bench
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| geom_distance_tolerance | [double](#double) |  | Maximum distance in mm to consider two faces as tangent. |
+| max_impact | [int32](#int32) |  | Defines a value to determine the maximum number of ray impacts during propagation. When a ray has interacted N times with the geometry, the propagation of the ray stops. |
+| weight | [Weight](#ansys-api-speos-simulation-v1-templates-Weight) |  | Activates Weight. It is highly recommended to activate. |
+| colorimetric_standard | [EnumColorimetricStandard](#ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard) |  | Default Colorimetric Standard |
+| texture | [Texture](#ansys-api-speos-simulation-v1-templates-Texture) |  | Activates texture. |
+| roughness_only | [SimulationTemplate.VirtualBSDFBench.RoughnessOnly](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-RoughnessOnly) |  | BSDF depends on surface roughness only |
+| all_characteristics | [SimulationTemplate.VirtualBSDFBench.AllCharacteristics](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics) |  | BSDF depends on all properties |
+| wavelengths_range | [sensor.v1.WavelengthsRange](#ansys-api-speos-sensor-v1-WavelengthsRange) |  |  |
+| sensor | [SimulationTemplate.VirtualBSDFBench.Sensor](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-Sensor) |  | Sensor definition |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics"></a>
+
+### SimulationTemplate.VirtualBSDFBench.AllCharacteristics
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| is_bsdf180 | [bool](#bool) |  | Corresponds to the parameter "BSDF depends on light incidence side". When set to true, the Theta sampling for the source is defined on [0,180] instead of [0,90]. |
+| iridescence | [SimulationTemplate.VirtualBSDFBench.AllCharacteristics.Iridescence](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-Iridescence) |  | Color depends on viewing direction |
+| no_iridescence | [SimulationTemplate.VirtualBSDFBench.AllCharacteristics.NoIridescence](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-NoIridescence) |  | Color does not depend on viewing direction |
+| sensor_reflection_and_transmission | [bool](#bool) |  | When set to true, it measures the reflection and transmission (theta in [0,180]). When set to false, it measures the reflection only (theta in [0,90]). |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-Iridescence"></a>
+
+### SimulationTemplate.VirtualBSDFBench.AllCharacteristics.Iridescence
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| uniform_isotropic | [SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformIsotropic](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformIsotropic) |  |  |
+| adaptive | [SimulationTemplate.VirtualBSDFBench.SourceSamplingAdaptive](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingAdaptive) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-NoIridescence"></a>
+
+### SimulationTemplate.VirtualBSDFBench.AllCharacteristics.NoIridescence
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| isotropic | [SimulationTemplate.VirtualBSDFBench.AllCharacteristics.NoIridescence.Isotropic](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-NoIridescence-Isotropic) |  |  |
+| anisotropic | [SimulationTemplate.VirtualBSDFBench.AllCharacteristics.NoIridescence.Anisotropic](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-NoIridescence-Anisotropic) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-NoIridescence-Anisotropic"></a>
+
+### SimulationTemplate.VirtualBSDFBench.AllCharacteristics.NoIridescence.Anisotropic
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| uniform_anisotropic | [SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformAnisotropic](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformAnisotropic) |  |  |
+| adaptive | [SimulationTemplate.VirtualBSDFBench.SourceSamplingAdaptive](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingAdaptive) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-AllCharacteristics-NoIridescence-Isotropic"></a>
+
+### SimulationTemplate.VirtualBSDFBench.AllCharacteristics.NoIridescence.Isotropic
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| uniform_isotropic | [SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformIsotropic](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformIsotropic) |  |  |
+| adaptive | [SimulationTemplate.VirtualBSDFBench.SourceSamplingAdaptive](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingAdaptive) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-RoughnessOnly"></a>
+
+### SimulationTemplate.VirtualBSDFBench.RoughnessOnly
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| uniform_isotropic | [SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformIsotropic](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformIsotropic) |  | oneof with adaptive |
+| adaptive | [SimulationTemplate.VirtualBSDFBench.SourceSamplingAdaptive](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingAdaptive) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-Sensor"></a>
+
+### SimulationTemplate.VirtualBSDFBench.Sensor
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| integration_angle | [double](#double) |  |  |
+| uniform | [SimulationTemplate.VirtualBSDFBench.Sensor.SensorSamplingUniform](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-Sensor-SensorSamplingUniform) |  |  |
+| automatic | [SimulationTemplate.VirtualBSDFBench.Sensor.SensorSamplingAutomatic](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-Sensor-SensorSamplingAutomatic) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-Sensor-SensorSamplingAutomatic"></a>
+
+### SimulationTemplate.VirtualBSDFBench.Sensor.SensorSamplingAutomatic
+
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-Sensor-SensorSamplingUniform"></a>
+
+### SimulationTemplate.VirtualBSDFBench.Sensor.SensorSamplingUniform
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| theta_sampling | [uint32](#uint32) |  | Number of samples created along the polar angle Theta (around the normal Z-axis) in the range [0,90] degrees. Each sample represents the position of the sensor on Theta. |
+| phi_sampling | [uint32](#uint32) |  | Number of samples created along the azimuthal angle Phi (around the X-axis). Each sample represents the position of the sensor on Phi. |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingAdaptive"></a>
+
+### SimulationTemplate.VirtualBSDFBench.SourceSamplingAdaptive
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| file_uri | [string](#string) |  | uri of incident sampling file |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformAnisotropic"></a>
+
+### SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformAnisotropic
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| theta_sampling | [uint32](#uint32) |  | Number of samples created along the polar angle Theta (around the normal Z-axis) in the range [0,90] degrees, with a minimum value of 2 degrees. Each sample represents the position of the source on Theta. |
+| phi_sampling | [uint32](#uint32) |  | Number of samples created along the azimuthal angle Phi (around the X-axis). Each sample represents the position of the source on Phi. |
+| symmetry_type | [SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformAnisotropic.PhiSymmetry](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformAnisotropic-PhiSymmetry) |  | Define symmetry type. Not needed if there is no symmetry in measure. |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformIsotropic"></a>
+
+### SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformIsotropic
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| theta_sampling | [uint32](#uint32) |  | Number of samples created along the polar angle Theta (around the normal Z-axis) in the range [0,90] degrees, with a minimum value of 2 degrees. Each sample represents the position of the source on Theta. |
+
+
+
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-Texture"></a>
+
+### Texture
+If texture has been applied in the scene, fill Texture message.
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| texture_normalization | [Texture.TextureNormalization](#ansys-api-speos-simulation-v1-templates-Texture-TextureNormalization) |  | Rendering of the texture. |
+| normal_map | [bool](#bool) |  | To activate normal map. |
 
 
 
@@ -7973,7 +8720,12 @@ Request to update a SimulationTemplate in SimulationTemplatesManager
 <a name="ansys-api-speos-simulation-v1-templates-Weight"></a>
 
 ### Weight
-
+The Weight represents the ray energy. In real life, a ray looses some energy (power) when it interacts with an object.
+Activating weight means that the Weight message is present.
+When weight is not activated, rays' energy stays constant and probability laws dictate if rays continue or stop propagating.
+When weight is activated, rays' energy evolves with interactions until rays reach the sensors.
+It is highly recommended to activate Weight, except in Interactive simulation.
+Not activating Weight is useful to understand certain phenomena as absorption.
 
 
 | Field | Type | Label | Description |
@@ -7996,6 +8748,34 @@ Default Colorimetric Standard
 | ---- | ------ | ----------- |
 | CIE_1931 | 0 | 2 degrees CIE Standard Colorimetric Observer Data. |
 | CIE_1964 | 1 | 10 degrees CIE Standard Colorimetric Observer Data. |
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-SimulationTemplate-VirtualBSDFBench-SourceSamplingUniformAnisotropic-PhiSymmetry"></a>
+
+### SimulationTemplate.VirtualBSDFBench.SourceSamplingUniformAnisotropic.PhiSymmetry
+
+
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| PHI_SYMMETRY_UNSPECIFIED | 0 |  |
+| PHI_SYMMETRY_NONE | 1 |  |
+| PHI_SYMMETRY_1_PLANE | 2 | Symmetry to plane 0 - 180 |
+| PHI_SYMMETRY_2_PLANES | 3 | Symmetry to planes 0 - 180 and 90 - 270 |
+
+
+
+<a name="ansys-api-speos-simulation-v1-templates-Texture-TextureNormalization"></a>
+
+### Texture.TextureNormalization
+
+
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| TEXTURE_NORMALIZATION_UNSPECIFIED | 0 |  |
+| TEXTURE_NORMALIZATION_NONE | 1 | The simulation result uses both the image texture and the texture mapping optical properties. |
+| TEXTURE_NORMALIZATION_COLOR_FROM_TEXTURE | 2 | The simulation result uses the color and the color lightness of the image texture. |
+| TEXTURE_NORMALIZATION_COLOR_FROM_BSDF | 3 | The simulation result uses the BSDF information of the texture mapping optical properties. |
 
 
  <!-- end enums -->
@@ -8036,6 +8816,7 @@ Request to create a SOPTemplate in SOPTemplatesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | sop_template | [SOPTemplate](#ansys-api-speos-sop-v1-SOPTemplate) |  | SOPTemplate containing its basic characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -8153,6 +8934,7 @@ Defines the behavior of light rays when they hit the surface of a body.
 | optical_polished | [SOPTemplate.OpticalPolished](#ansys-api-speos-sop-v1-SOPTemplate-OpticalPolished) |  | Transparent or perfectly polished material (glass, plastic) |
 | library | [SOPTemplate.Library](#ansys-api-speos-sop-v1-SOPTemplate-Library) |  | Based on surface optical properties file |
 | plugin | [SOPTemplate.Plugin](#ansys-api-speos-sop-v1-SOPTemplate-Plugin) |  | Custom made plug-in |
+| texture | [SOPTemplate.Texture](#ansys-api-speos-sop-v1-SOPTemplate-Texture) |  | Define to activate texture - optional |
 
 
 
@@ -8225,6 +9007,88 @@ Custom made plug-in
 | ----- | ---- | ----- | ----------- |
 | plugin_sop_file_uri | [string](#string) |  | .sop plug-in |
 | parameters_file_uri | [string](#string) |  | parameters file needed for the plug-in |
+
+
+
+
+
+
+<a name="ansys-api-speos-sop-v1-SOPTemplate-Texture"></a>
+
+### SOPTemplate.Texture
+Activate texture
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| image | [SOPTemplate.Texture.Image](#ansys-api-speos-sop-v1-SOPTemplate-Texture-Image) |  |  |
+| normal_map | [SOPTemplate.Texture.NormalMap](#ansys-api-speos-sop-v1-SOPTemplate-Texture-NormalMap) |  |  |
+
+
+
+
+
+
+<a name="ansys-api-speos-sop-v1-SOPTemplate-Texture-Image"></a>
+
+### SOPTemplate.Texture.Image
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| bitmap_file_uri | [string](#string) |  | Bitmap |
+| repeat_along_u | [bool](#bool) |  | Activate/deactivate the repeatability of the texture image on U axe. |
+| repeat_along_v | [bool](#bool) |  | Activate/deactivate the repeatability of the texture image on V axe. |
+
+
+
+
+
+
+<a name="ansys-api-speos-sop-v1-SOPTemplate-Texture-NormalMap"></a>
+
+### SOPTemplate.Texture.NormalMap
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| from_image | [SOPTemplate.Texture.NormalMap.FromImage](#ansys-api-speos-sop-v1-SOPTemplate-Texture-NormalMap-FromImage) |  |  |
+| from_normal_map | [SOPTemplate.Texture.NormalMap.FromNormalMap](#ansys-api-speos-sop-v1-SOPTemplate-Texture-NormalMap-FromNormalMap) |  |  |
+| roughness | [float](#float) |  |  |
+| repeat_along_u | [bool](#bool) |  | Activate/deactivate the repeatability of the texture normal map on U axe. |
+| repeat_along_v | [bool](#bool) |  | Activate/deactivate the repeatability of the texture normal map on V axe. |
+
+
+
+
+
+
+<a name="ansys-api-speos-sop-v1-SOPTemplate-Texture-NormalMap-FromImage"></a>
+
+### SOPTemplate.Texture.NormalMap.FromImage
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| bitmap_file_uri | [string](#string) |  | Bitmap used to build normal map. |
+
+
+
+
+
+
+<a name="ansys-api-speos-sop-v1-SOPTemplate-Texture-NormalMap-FromNormalMap"></a>
+
+### SOPTemplate.Texture.NormalMap.FromNormalMap
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| normal_map_file_uri | [string](#string) |  | Normal map file. |
 
 
 
@@ -8305,6 +9169,7 @@ Request to create a SourceTemplate in SourceTemplatesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | source_template | [SourceTemplate](#ansys-api-speos-source-v1-SourceTemplate) |  | SourceTemplate containing its basic characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -9038,6 +9903,7 @@ Request to create a Spectrum in SpectrumsManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | spectrum | [Spectrum](#ansys-api-speos-spectrum-v1-Spectrum) |  | Spectrum containing its basic characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
@@ -9394,6 +10260,7 @@ Request to create a VOPTemplate in VOPTemplatesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | vop_template | [VOPTemplate](#ansys-api-speos-vop-v1-VOPTemplate) |  | VOPTemplate containing its basic characteristics |
+| guid | [string](#string) | optional | Optional field to specify the guid used in the database. If not set, a unique guid will be generated for that entry and sent back in the Create_Response. |
 
 
 
