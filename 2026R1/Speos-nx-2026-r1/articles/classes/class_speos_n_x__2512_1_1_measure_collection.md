@@ -1,4 +1,9 @@
-﻿# MeasureCollection
+﻿---
+uid: measure_collection
+title: MeasureCollection
+---
+
+# MeasureCollection
 
 **Full Name**: `SpeosNX_2512::MeasureCollection`
 

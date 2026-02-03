@@ -1,4 +1,9 @@
-﻿# FeatureCollection
+﻿---
+uid: feature_collection
+title: FeatureCollection
+---
+
+# FeatureCollection
 
 **Full Name**: `SpeosNX_2512::FeatureCollection`
 
