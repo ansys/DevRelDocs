@@ -5,10 +5,9 @@ This is a unified index of all classes, structures, namespaces, files, and direc
 
 ## Namespaces
 
-* [cli](namespacecli.md#namespacecli): The namespace for command line interface feature under autonomy.
-* [core](namespacecore.md#namespacecore): The namespace for all core functionalities under namespace [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework).
-* [evaluator](namespaceevaluator.md#namespaceevaluator): The namespace containing evaluator implementations.
 * [autonomy](namespaceautonomy.md#namespaceautonomy): The namespace for all autonomy specific functionalities.
+* [core](namespacecore.md#namespacecore): The namespace for all core functionalities under namespace [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework).
+* [cli](namespacecli.md#namespacecli): The namespace for command line interface feature under autonomy.
 * [fmi4cpp](namespacefmi4cpp.md#namespacefmi4cpp)
   * [fmi4cpp::fmi2](namespacefmi4cpp_1_1fmi2.md#namespacefmi4cpp_1_1fmi2)
 * [kpi](namespacekpi.md#namespacekpi): The namespace for kpi definition and corresponding APIs under namespace simulation_framework::evaluator.
@@ -31,53 +30,54 @@ This is a unified index of all classes, structures, namespaces, files, and direc
     * [simulation_framework::core::time](namespacesimulation__framework_1_1core_1_1time.md#namespacesimulation__framework_1_1core_1_1time)
     * [simulation_framework::core::topic_registry](namespacesimulation__framework_1_1core_1_1topic__registry.md#namespacesimulation__framework_1_1core_1_1topic__registry)
   * [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
+* [evaluator](namespaceevaluator.md#namespaceevaluator): The namespace containing evaluator implementations.
 * [topic_registry](namespacetopic__registry.md#namespacetopic__registry): The namespace for topic registry in communication module under namespace simulation_framework::autonomy.
 * [time](namespacetime.md#namespacetime): The namespace for simulation time related implementation under namespace simulation_framework::core.
-* [utils](namespaceutils.md#namespaceutils)
+* [util](namespaceutil.md#namespaceutil): The namespace for utilities under autonomy.
 ## Classes
 
 * [simulation_framework::autonomy::ISimInstanceCreator](classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator): Defines a generic interface for creating instances of <code>[core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance)</code>.
 * [simulation_framework::autonomy::AutonomySimInstanceCreator](classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1AutonomySimInstanceCreator): Creates simulation instances specific to autonomy simulation.
 * [simulation_framework::autonomy::ActivityFactory](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory): Factory class for creating activities for autonomy simulation.
-* [simulation_framework::autonomy::cli::CliProvider](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider): Provides a command-line interface for simulation execution via dependency injection.
 * [simulation_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker): Checks for the completion status of a simulation.
+* [simulation_framework::autonomy::cli::CliProvider](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider): Provides a command-line interface for simulation execution via dependency injection.
 * [simulation_framework::core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli): Handles the decision to start the simulation framework.
-* [simulation_framework::core::CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser): Command-line argument parser for simulation framework.
-* [simulation_framework::core::IPublisher](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher)
-* [simulation_framework::avx_sensor_cosim::AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter): AVX VSS API Adapter.
 * [simulation_framework::core::IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator): class [IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator)
+* [simulation_framework::core::CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser): Command-line argument parser for simulation framework.
 * [simulation_framework::core::ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer): class [ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer)
-* [simulation_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner): Interface for controlling and managing simulation execution.
+* [simulation_framework::core::IPublisher](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher)
 * [simulation_framework::core::IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator): This is the interface class for creating a standalone activity service. It defines how a customized activity needs to be instantiated through or not through StandaloneInitData.
+* [simulation_framework::avx_sensor_cosim::AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter): AVX VSS API Adapter.
+* [simulation_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner): Interface for controlling and managing simulation execution.
 * [simulation_framework::core::ITopic](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic)
-* [simulation_framework::core::kpi::Datatype](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype)
 * [simulation_framework::core::ISubscriber](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber)
+* [simulation_framework::core::kpi::Datatype](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype)
 * [simulation_framework::core::kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi): Represents core KPI calculation logic.
-* [simulation_framework::core::kpi::KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter): class [KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter)
 * [simulation_framework::core::kpi::IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter): Interface for converting KPI messages between different formats.
+* [simulation_framework::core::kpi::KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter): class [KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter)
 * [simulation_framework::core::lifecycle::BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity): This is the basic implementation of [IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) interface. Inheriting classes, i.e. a concrete simulation activity, should implement their logic in [ExecuteStep()](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aaf5d84e0430a2703b697eb867e8bf303) and add needed pub/sub in [AddPublisherAndSubscriber()](#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aaf5d84e0430a2703b697eb867e8bf303) and add needed pub/sub in [AddPublisherAndSubscriber()](#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aa898aa5e721f110f678994731a05aa6e) method.
 * [simulation_framework::core::lifecycle::FmuBaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity): An activity that subscribes to messages to input to an FMU and publishes the FMU output.
 * [simulation_framework::core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity): Interface for simulation activities.
 * [simulation_framework::core::lifecycle::FmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic): An implementation of the [IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic) interface using the [FMI4cpp](https://github.com/NTNU-IHB/FMI4cpp) library.
-* [simulation_framework::core::lifecycle::IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory): Interface for creating simulation activities.
-* [simulation_framework::core::lifecycle::SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance): class [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance)
 * [simulation_framework::core::lifecycle::IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic): The interface for FMU Logic to be used by an FMU activity.
+* [simulation_framework::core::lifecycle::SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance): class [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance)
+* [simulation_framework::core::lifecycle::IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory): Interface for creating simulation activities.
 * [simulation_framework::core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance): class [ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance)
 * [simulation_framework::core::logging::LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance): A singleton class to be used for all logging purposes. It can be used to register additional loggers based on the ILogger class to introduce additional logging mechanisms. By default a ConsoleLogger will be registered with each new [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance). If logging to console is not desired in your use case, you can call [ClearLoggers()](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a8d0242626303b56597a921397ccf0313) before adding your custom loggers to disable console logging.
-* [simulation_framework::core::scheduling::ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient)
 * [simulation_framework::core::SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner): Simulation runner with external control logic.
+* [simulation_framework::core::scheduling::ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient)
 * [simulation_framework::core::SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer): class [SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer)
 * [simulation_framework::core::StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService): It provides a running process of desired activity returned by interface [IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator) and keeps it communicating and being scheduled by simulation framework core process.
-* [simulation_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock): class [IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock)
 * [simulation_framework::core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock): Interface for managing and manipulating simulation time.
-* [simulation_framework::core::Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic): This is the concrete [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) class that can be used for creation of a communication channel with given underlying message. As default type, DDS type will be applied. TopicId is globally unique and represents one single [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic). Different Topics can hold same underlying message type but they are different topics for communication.
-* [simulation_framework::evaluator::DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator): class [DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator)
-* [simulation_framework::evaluator::DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator): class [DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator)
 * [simulation_framework::core::time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker): Interface for determining simulation completion.
+* [simulation_framework::evaluator::DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator): class [DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator)
+* [simulation_framework::core::Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic): This is the concrete [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) class that can be used for creation of a communication channel with given underlying message. As default type, DDS type will be applied. TopicId is globally unique and represents one single [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic). Different Topics can hold same underlying message type but they are different topics for communication.
+* [simulation_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock): class [IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock)
+* [simulation_framework::evaluator::DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator): class [DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator)
 * [simulation_framework::evaluator::GtBaseEvaluator](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator): This is the implementation of IEvaluator interface and provides users ability to evaluate KPIs that are added by themselves. This class controls all KPIs centrally and fill/reset the KpiMessage accordingly based on each KPI's calculation result.
+* [simulation_framework::evaluator::PredictiveTimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator): class [PredictiveTimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator)
 * [simulation_framework::evaluator::MinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator): class [MinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator)
 * [simulation_framework::evaluator::PredictiveMinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator): class [PredictiveMinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator)
-* [simulation_framework::evaluator::PredictiveTimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator): class [PredictiveTimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator)
 ## Structures
 
 * [simulation_framework::core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent): struct [KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent)
@@ -87,66 +87,66 @@ This is a unified index of all classes, structures, namespaces, files, and direc
 * [simulation_framework::core::StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback): Represents feedback for the execution status of a control command.
 ## Files
 
-* [autonomy/communication/topic_registry/topic_registry.h](autonomy_2communication_2topic__registry_2topic__registry_8h.md#autonomy_2communication_2topic__registry_2topic__registry_8h): © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 * [cli_provider.h](cli__provider_8h.md#cli__provider_8h)
+* [autonomy/communication/topic_registry/topic_registry.h](autonomy_2communication_2topic__registry_2topic__registry_8h.md#autonomy_2communication_2topic__registry_2topic__registry_8h): © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+* [osi_to_dds_converter.h](osi__to__dds__converter_8h.md#osi__to__dds__converter_8h)
 * [core/communication/topic_registry.h](core_2communication_2topic__registry_8h.md#core_2communication_2topic__registry_8h)
+* [distance_calculator.cpp](distance__calculator_8cpp.md#distance__calculator_8cpp)
 * [distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)
 * [distance_driven_evaluator.cpp](distance__driven__evaluator_8cpp.md#distance__driven__evaluator_8cpp)
-* [distance_calculator.cpp](distance__calculator_8cpp.md#distance__calculator_8cpp)
-* [osi_to_dds_converter.h](osi__to__dds__converter_8h.md#osi__to__dds__converter_8h)
 * [distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)
-* [min_ttc_evaluator.cpp](min__ttc__evaluator_8cpp.md#min__ttc__evaluator_8cpp)
 * [gt_base_evaluator.h](gt__base__evaluator_8h.md#gt__base__evaluator_8h)
+* [min_ttc_evaluator.cpp](min__ttc__evaluator_8cpp.md#min__ttc__evaluator_8cpp)
+* [min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h)
 * [predictive_min_ttc_evaluator.cpp](predictive__min__ttc__evaluator_8cpp.md#predictive__min__ttc__evaluator_8cpp)
 * [predictive_min_ttc_evaluator.h](predictive__min__ttc__evaluator_8h.md#predictive__min__ttc__evaluator_8h)
-* [predictive_ttc_calculator.cpp](predictive__ttc__calculator_8cpp.md#predictive__ttc__calculator_8cpp)
 * [predictive_ttc_calculator.h](predictive__ttc__calculator_8h.md#predictive__ttc__calculator_8h)
-* [min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h)
-* [ttc_calculator.cpp](ttc__calculator_8cpp.md#ttc__calculator_8cpp)
+* [predictive_ttc_calculator.cpp](predictive__ttc__calculator_8cpp.md#predictive__ttc__calculator_8cpp)
 * [ttc_calculator.h](ttc__calculator_8h.md#ttc__calculator_8h)
+* [ttc_calculator.cpp](ttc__calculator_8cpp.md#ttc__calculator_8cpp)
 * [activity_factory.h](activity__factory_8h.md#activity__factory_8h)
 * [i_sim_instance_creator.h](i__sim__instance__creator_8h.md#i__sim__instance__creator_8h)
-* [autonomy_sim_instance_creator.h](autonomy__sim__instance__creator_8h.md#autonomy__sim__instance__creator_8h)
-* [simulation_completion_checker.h](simulation__completion__checker_8h.md#simulation__completion__checker_8h)
 * [simulation_input_definition.h](simulation__input__definition_8h.md#simulation__input__definition_8h)
+* [autonomy_sim_instance_creator.h](autonomy__sim__instance__creator_8h.md#autonomy__sim__instance__creator_8h)
 * [simulation_input_utils.h](simulation__input__utils_8h.md#simulation__input__utils_8h)
-* [i_publisher.h](i__publisher_8h.md#i__publisher_8h)
 * [avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h)
-* [i_subscriber.h](i__subscriber_8h.md#i__subscriber_8h)
+* [simulation_completion_checker.h](simulation__completion__checker_8h.md#simulation__completion__checker_8h)
+* [i_publisher.h](i__publisher_8h.md#i__publisher_8h)
 * [i_topic.h](i__topic_8h.md#i__topic_8h)
+* [i_subscriber.h](i__subscriber_8h.md#i__subscriber_8h)
 * [topic.h](topic_8h.md#topic_8h)
-* [kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)
-* [i_evaluator.h](i__evaluator_8h.md#i__evaluator_8h)
 * [communication_manager_creator.h](communication__manager__creator_8h.md#communication__manager__creator_8h)
-* [i_kpi_message_converter.h](i__kpi__message__converter_8h.md#i__kpi__message__converter_8h)
+* [kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)
 * [i_kpi.h](i__kpi_8h.md#i__kpi_8h)
+* [i_evaluator.h](i__evaluator_8h.md#i__evaluator_8h)
+* [i_kpi_message_converter.h](i__kpi__message__converter_8h.md#i__kpi__message__converter_8h)
 * [kpi_message_converter.h](kpi__message__converter_8h.md#kpi__message__converter_8h)
-* [i_activity.h](i__activity_8h.md#i__activity_8h)
 * [base_activity.h](base__activity_8h.md#base__activity_8h)
-* [fmu_config.h](fmu__config_8h.md#fmu__config_8h)
 * [fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)
+* [fmu_config.h](fmu__config_8h.md#fmu__config_8h)
 * [fmu_logic.h](fmu__logic_8h.md#fmu__logic_8h)
-* [i_simulation_instance.h](i__simulation__instance_8h.md#i__simulation__instance_8h)
-* [i_fmu_logic.h](i__fmu__logic_8h.md#i__fmu__logic_8h)
-* [simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h)
+* [i_activity.h](i__activity_8h.md#i__activity_8h)
 * [i_activity_factory.h](i__activity__factory_8h.md#i__activity__factory_8h)
+* [i_fmu_logic.h](i__fmu__logic_8h.md#i__fmu__logic_8h)
+* [i_simulation_instance.h](i__simulation__instance_8h.md#i__simulation__instance_8h)
 * [logging.h](logging_8h.md#logging_8h)
-* [scheduler_client_creator.h](scheduler__client__creator_8h.md#scheduler__client__creator_8h)
+* [simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h)
 * [i_scheduler_client.h](i__scheduler__client_8h.md#i__scheduler__client_8h)
+* [scheduler_client_creator.h](scheduler__client__creator_8h.md#scheduler__client__creator_8h)
 * [cli.h](cli_8h.md#cli_8h)
-* [i_cli_server.h](i__cli__server_8h.md#i__cli__server_8h)
-* [cli_server.h](cli__server_8h.md#cli__server_8h)
-* [simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)
 * [cli_parser.h](cli__parser_8h.md#cli__parser_8h)
-* [i_sim_runner.h](i__sim__runner_8h.md#i__sim__runner_8h)
+* [cli_server.h](cli__server_8h.md#cli__server_8h)
+* [i_cli_server.h](i__cli__server_8h.md#i__cli__server_8h)
+* [simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h)
 * [sim_runner.h](sim__runner_8h.md#sim__runner_8h)
 * [i_standalone_activity_creator.h](i__standalone__activity__creator_8h.md#i__standalone__activity__creator_8h)
+* [i_sim_runner.h](i__sim__runner_8h.md#i__sim__runner_8h)
 * [standalone_activity_service.h](standalone__activity__service_8h.md#standalone__activity__service_8h)
 * [standalone_init_data.h](standalone__init__data_8h.md#standalone__init__data_8h)
 * [clock.h](clock_8h.md#clock_8h)
-* [timestamp.h](timestamp_8h.md#timestamp_8h)
 * [i_clock.h](i__clock_8h.md#i__clock_8h)
-* [i_simulation_completion_checker.h](i__simulation__completion__checker_8h.md#i__simulation__completion__checker_8h)
+* [timestamp.h](timestamp_8h.md#timestamp_8h)
+* [version.h](version_8h.md#version_8h)
 ## Directories
 
 * [autonomy](dir_6b406ca34183b54f87547f38f78277f2.md#dir_6b406ca34183b54f87547f38f78277f2)
@@ -218,6 +218,11 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetSimulationBaseCycleTime](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a94f462204396f9cb530415976df06210) Function
   * [SetSimulationBaseCycleTime](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1affd15ea8f52128efdef54859ed514dc7) Function
   * [IfAvxSensorSettingsDefined](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a37defb0d81b110616e4870d0406c19eb) Function
+* [simulation_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker) Class
+  * [clock_ptr_](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1af1c0d738c53bf09dccec4eff20c78d11) Variable
+  * [SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a85bd966e1832c48fc6c12667dc5f5e78) Function
+  * [IsSimulationFinished](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a0645db7a9eac221d6bb082aa9e17ee40) Function
+  * [GetSimulationDuration](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a674728b07de32646b3cb51aa3e24f61f) Function
 * [simulation_framework::autonomy::cli::CliProvider](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider) Class
   * [core_parameters_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1afb2c42c4fc3a5092bf95ae6909148f40) Variable
   * [cli_](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a89353709d46735be53952123878fb8e7) Variable
@@ -227,16 +232,19 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetCommandLineInterface](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a5989884eebef1c6a32141f72b7842b9f) Function
   * [GetCoreParameters](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1a632fd12769ad3ba2aecaf2d854602e9a) Function
   * [Parse](classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider.md#classsimulation__framework_1_1autonomy_1_1cli_1_1CliProvider_1abd689d5923a3218f0acb267f080ec591) Function
-* [simulation_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker) Class
-  * [clock_ptr_](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1af1c0d738c53bf09dccec4eff20c78d11) Variable
-  * [SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a85bd966e1832c48fc6c12667dc5f5e78) Function
-  * [IsSimulationFinished](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a0645db7a9eac221d6bb082aa9e17ee40) Function
-  * [GetSimulationDuration](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker_1a674728b07de32646b3cb51aa3e24f61f) Function
 * [simulation_framework::core::Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli) Class
   * [sim_runner_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1ac350a9a1674fc9305d0600744ad0474c) Variable
   * [simfwk_cli_server_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a6fc4816cf540674cce0a2ed77de36b91) Variable
   * [Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a807aa80e06431cbd27fe12c4856b668f) Function
   * [Execute](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a39259f9147a9151d89d372d4fa9f278f) Function
+* [simulation_framework::core::IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator) Class
+  * [~IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a605a97c7c7aef7588ff1ce0957d97f79) Function
+  * [Init](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1ac62458dfff2bf4a0287bc48335bec4ff) Function
+  * [Reset](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a4f2140b6e5dc9289d084c601c1f28cf2) Function
+  * [Evaluate](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a251fb9feee11d29b6c4bd5161a7b7089) Function
+  * [AddKpi](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a382b22c39881af2b0397df0caee82063) Function
+  * [GetKpiMessage](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a81ab03795b81308e647d4f7022a64d4a) Function
+  * [SetInput](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a17db67a251425e3ecc47d45c03a1b056) Function
 * [simulation_framework::core::CliParser](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser) Class
   * [core_parameters_](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a70998fd63a6aa647188c42f9e446ff40) Variable
   * [parser_message_](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a30fd4b7316869f8f69360287c195b50f) Variable
@@ -245,12 +253,21 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetSimulationParameters](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a475c151971317b0d7c2667053ea385a9) Function
   * [GetSimulationConfig](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a2b6a9281bb2736988da72eae4e3a7bc8) Function
   * [ConvertCustomizedParameterFromArgs](classsimulation__framework_1_1core_1_1CliParser.md#classsimulation__framework_1_1core_1_1CliParser_1a28eafcd480e1f5145b0d55d27fbc9677) Function
+* [simulation_framework::core::ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer) Class
+  * [~ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ae0b305b84f2c9c13f7bafa2b258c2b4d) Function
+  * [BindSimRunner](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ac0aa11b3e94c4c6280ff4f45d247712c) Function
+  * [WaitForCommand](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1a762214a4e54414550af137c57b29d174) Function
+  * [GetServerAddress](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ad6d63581bc9214f61ed06c0c55747b28) Function
 * [simulation_framework::core::IPublisher](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher) Class
   * [~IPublisher](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher_1a3207f1c1ab1a0af9d22b45ecd0e55ae3) Function
   * [Execute](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher_1a550e5304e6c852a1d9e509b94170c77a) Function
   * [Init](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher_1a8f652981baaa9d13d890c4804f997d4f) Function
   * [WaitForSubscriber](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher_1aeff22992ade6d0b81e6f1f4abf645690) Function
   * [WaitForSubscribersInNumberOf](classsimulation__framework_1_1core_1_1IPublisher.md#classsimulation__framework_1_1core_1_1IPublisher_1ae7f7b03a9e41da48dfb5b88f9dc69688) Function
+* [simulation_framework::core::IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator) Class
+  * [~IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator_1aacad7964a9dc269209c7e8edbd8f3931) Function
+  * [GetName](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator_1a61fa7488f9850ed80c0f102da8a966bd) Function
+  * [Create](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator_1a4c1bc889e97510c6357b16f893c755b4) Function
 * [simulation_framework::avx_sensor_cosim::AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter) Class
   * [SensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a912b41e7bc7520b5321f8eedfa36dd07) Typedef
   * [vss_simulation_control_osi_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a414d61218965bf1b20afe2a975687123) Variable
@@ -281,19 +298,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [WaitForConnection](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a607bd314f3c7972927a14ec1b1952960) Function
   * [ReadSensorDataDescription](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0620b9bd54dd8ce55579536b17133dc9) Function
   * [IsAllSensorDataDescriptionsAvailable](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad34f7a9ef15162b7cc5ed2d4e09db83f) Function
-* [simulation_framework::core::IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator) Class
-  * [~IEvaluator](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a605a97c7c7aef7588ff1ce0957d97f79) Function
-  * [Init](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1ac62458dfff2bf4a0287bc48335bec4ff) Function
-  * [Reset](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a4f2140b6e5dc9289d084c601c1f28cf2) Function
-  * [Evaluate](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a251fb9feee11d29b6c4bd5161a7b7089) Function
-  * [AddKpi](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a382b22c39881af2b0397df0caee82063) Function
-  * [GetKpiMessage](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a81ab03795b81308e647d4f7022a64d4a) Function
-  * [SetInput](classsimulation__framework_1_1core_1_1IEvaluator.md#classsimulation__framework_1_1core_1_1IEvaluator_1a17db67a251425e3ecc47d45c03a1b056) Function
-* [simulation_framework::core::ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer) Class
-  * [~ISimfwkCliServer](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ae0b305b84f2c9c13f7bafa2b258c2b4d) Function
-  * [BindSimRunner](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ac0aa11b3e94c4c6280ff4f45d247712c) Function
-  * [WaitForCommand](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1a762214a4e54414550af137c57b29d174) Function
-  * [GetServerAddress](classsimulation__framework_1_1core_1_1ISimfwkCliServer.md#classsimulation__framework_1_1core_1_1ISimfwkCliServer_1ad6d63581bc9214f61ed06c0c55747b28) Function
 * [simulation_framework::core::ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner) Class
   * [~ISimRunner](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1a28739232c9e3879e863cd5fa158ef709) Function
   * [Run](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1ab7615f9b015b1c52e3af9e21ef2bf6ee) Function
@@ -305,10 +309,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetSimulationState](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1a66d4287f6da13af21331fbfc1c5ff226) Function
   * [GetExecutedStepCount](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1ae60fbe830aef619e8cbd39a092f1f995) Function
   * [RunOverSimulation](classsimulation__framework_1_1core_1_1ISimRunner.md#classsimulation__framework_1_1core_1_1ISimRunner_1af5cc40c4bdd9360cd2e95e1c2f8e5626) Function
-* [simulation_framework::core::IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator) Class
-  * [~IStandaloneActivityCreator](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator_1aacad7964a9dc269209c7e8edbd8f3931) Function
-  * [GetName](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator_1a61fa7488f9850ed80c0f102da8a966bd) Function
-  * [Create](classsimulation__framework_1_1core_1_1IStandaloneActivityCreator.md#classsimulation__framework_1_1core_1_1IStandaloneActivityCreator_1a4c1bc889e97510c6357b16f893c755b4) Function
 * [simulation_framework::core::ITopic](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic) Class
   * [~ITopic](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic_1ac3d4c1cecd1a0c394f8b5a308a0439b5) Function
   * [GetId](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic_1ad4e077cd059e9c6f0ce9ad0df73ca3cd) Function
@@ -320,6 +320,11 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [ClearPubSub](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic_1a470392793ee8cb2fc406b8b1e1b55d2d) Function
   * [GetSubscribers](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic_1a52c9a4a95089eb1dfbc0606974d9a8d0) Function
   * [GetPublishers](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic_1aa02ef4f55132426e2af9de01bde3bf4b) Function
+* [simulation_framework::core::ISubscriber](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber) Class
+  * [~ISubscriber](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a6653b5684339599b7c0de3deb5fa2f33) Function
+  * [Execute](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a2c0cb372702d4a21ff6dee465dfc4e90) Function
+  * [Init](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a4325847fef6bc9881e53582482e16c1a) Function
+  * [WaitForPublisher](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a7377aee4592d5d47ad611f43831aa7c5) Function
 * [simulation_framework::core::kpi::Datatype](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype) Class
   * [Value](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a8e5ae86a5a1e5379617e5a6fc39d0bea) Enumeration type
   * [kDouble](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a8e5ae86a5a1e5379617e5a6fc39d0beaa7fb3efa35444cd88d5a31dc125ca9c28) Enumerator
@@ -337,11 +342,16 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [ToString](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a38259bca11339cce1a9174bcdd0a19ec) Function
   * [FromString](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1abba602ae17c98e1bb12c3ac29148c56f) Function
   * [operator==](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a3d785be16a1608f79fcdb9d5add8b136) Function
-* [simulation_framework::core::ISubscriber](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber) Class
-  * [~ISubscriber](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a6653b5684339599b7c0de3deb5fa2f33) Function
-  * [Execute](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a2c0cb372702d4a21ff6dee465dfc4e90) Function
-  * [Init](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a4325847fef6bc9881e53582482e16c1a) Function
-  * [WaitForPublisher](classsimulation__framework_1_1core_1_1ISubscriber.md#classsimulation__framework_1_1core_1_1ISubscriber_1a7377aee4592d5d47ad611f43831aa7c5) Function
+* [simulation_framework::core::kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi) Class
+  * [~IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1ab56f1f4f0afe45f82e9c591df22d1377) Function
+  * [Init](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1affa38e79e2d2fe57ac913fa736437fae) Function
+  * [Reset](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1ad08cdb1d1091c84920a9733a81c752a5) Function
+  * [CalculateKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1a614cb6051405e8865257360eefff9ab6) Function
+  * [GetKpiType](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1aeef163c532f5b7b03e685642cb75ccaa) Function
+* [simulation_framework::core::kpi::IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter) Class
+  * [~IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter_1af54431daceb2d5ef852cba9bf59317d9) Function
+  * [ConvertToDds](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter_1a699c2d4c5a9988817af01cc45b70f311) Function
+  * [DecodeFromDds](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter_1a561068ec047f83b66d3cea126d012851) Function
 * [simulation_framework::core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent) Structure
   * [timestamp](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a73325646ec9fb7f492a862661dacb6c5) Variable
   * [name](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a19f476823880c2ce9f0b54bec0553410) Variable
@@ -349,19 +359,20 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [value](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a3e00b46acd4f898e02d3045b52d5bdbc) Variable
   * [unit](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a19b45ebebdf32046936fd03eb4576989) Variable
   * [type](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent_1a2c9ab36a6b5e02f52ea9faa9ba7eed73) Variable
-* [simulation_framework::core::kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi) Class
-  * [~IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1ab56f1f4f0afe45f82e9c591df22d1377) Function
-  * [Init](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1affa38e79e2d2fe57ac913fa736437fae) Function
-  * [Reset](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1ad08cdb1d1091c84920a9733a81c752a5) Function
-  * [CalculateKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1a614cb6051405e8865257360eefff9ab6) Function
-  * [GetKpiType](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1aeef163c532f5b7b03e685642cb75ccaa) Function
 * [simulation_framework::core::kpi::KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter) Class
   * [ConvertToDds](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter_1a89ef06109941dddab49e4f134858ff9e) Function
   * [DecodeFromDds](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter_1a2ebb41223306f090d84657aeb770cbd8) Function
-* [simulation_framework::core::kpi::IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter) Class
-  * [~IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter_1af54431daceb2d5ef852cba9bf59317d9) Function
-  * [ConvertToDds](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter_1a699c2d4c5a9988817af01cc45b70f311) Function
-  * [DecodeFromDds](classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter_1a561068ec047f83b66d3cea126d012851) Function
+* [simulation_framework::core::lifecycle::FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig) Structure
+  * [MessageType](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a5b7524bfcab172e0d161c88aec679232) Enumeration type
+  * [kFmuMessage](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a5b7524bfcab172e0d161c88aec679232aa34d479d4dc2fa62e3fa7c8f58d2f998) Enumerator
+  * [kGenericBytesMessage](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a5b7524bfcab172e0d161c88aec679232a65ca5a1a8b3417b8294240f3ba50712b) Enumerator
+  * [path](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a3ce88d8094180550abc85335f25ef154) Variable
+  * [topics_to_inputs](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1ae9a0cf231b10adcf4c58faa184549895) Variable
+  * [topics_to_init_params](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a8868da8c0ec4e6245a2ae2c0e8fcd4f0) Variable
+  * [topics_to_outputs](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a939d9a485202244d144f22c4335d376d) Variable
+  * [message_to_var_name](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a4ef56beea7ad1e6fd2a4cd5ea946a5b4) Variable
+  * [var_to_message_name](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1ac92f7f1e13f5722988ddcba3a63dff28) Variable
+  * [topic_to_message_type](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1aa9811f8dd43a6451679082273223883e) Variable
 * [simulation_framework::core::lifecycle::BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity) Class
   * [name_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a35c8f4f3abcf43c034aee89011f30597) Variable
   * [communication_manager_ptr_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a523727eb50a1a7e7af9abbec75f674f1) Variable
@@ -406,17 +417,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [EncodeBytesMessage](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1ad210963059911414220f275bd1682579) Function
   * [AddSubscriberForTopic](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a9152b8c7429871e44fd191ab9aa026b9) Function
   * [AddPublisherForTopic](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a00befd5e3be463458b3f8e74067b71e4) Function
-* [simulation_framework::core::lifecycle::FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig) Structure
-  * [MessageType](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a5b7524bfcab172e0d161c88aec679232) Enumeration type
-  * [kFmuMessage](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a5b7524bfcab172e0d161c88aec679232aa34d479d4dc2fa62e3fa7c8f58d2f998) Enumerator
-  * [kGenericBytesMessage](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a5b7524bfcab172e0d161c88aec679232a65ca5a1a8b3417b8294240f3ba50712b) Enumerator
-  * [path](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a3ce88d8094180550abc85335f25ef154) Variable
-  * [topics_to_inputs](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1ae9a0cf231b10adcf4c58faa184549895) Variable
-  * [topics_to_init_params](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a8868da8c0ec4e6245a2ae2c0e8fcd4f0) Variable
-  * [topics_to_outputs](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a939d9a485202244d144f22c4335d376d) Variable
-  * [message_to_var_name](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1a4ef56beea7ad1e6fd2a4cd5ea946a5b4) Variable
-  * [var_to_message_name](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1ac92f7f1e13f5722988ddcba3a63dff28) Variable
-  * [topic_to_message_type](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig_1aa9811f8dd43a6451679082273223883e) Variable
 * [simulation_framework::core::lifecycle::IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) Class
   * [~IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1aa2353eb3f2ef5955c1c3c2d1024c8c48) Function
   * [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1ada1e5ab14eb5c159068ccbfc1f8e559c) Function
@@ -453,24 +453,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetCsFmuPtr](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1ab9b56c6037217a85c73fc7595bc622fd) Function
   * [GetFmuInstancePtr](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1ae1052072c17b9b4bb54f106f654f610a) Function
   * [GetFmuState](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1aa7d7eb647e32858cac8c728e68e50d05) Function
-* [simulation_framework::core::lifecycle::IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory) Class
-  * [~IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1adf2fbce25a6e1ead3b04a8490dfdc498) Function
-  * [Create](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1a9ec94cdb7f7a92ff15ccee4e63dd0c3c) Function
-  * [CreateFmuActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1a96c9a911627cd3dd1410e161eca05e63) Function
-  * [GetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1a4ccd952c296850abe2efccad25634c4d) Function
-  * [SetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1ae79c188b8b5e40fc4bfb4e87f24a4a9d) Function
-* [simulation_framework::core::lifecycle::SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance) Class
-  * [impl_](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ac3014d4327563f6020fb56428c78f8b0) Variable
-  * [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ad1479260858b3f23ef24d5cdb2484f26) Function
-  * [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a478f75ae1610aca1ef3f14b83f511774) Function
-  * [~SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a40cfd8a4b227d2a02bc46554504ed372) Function
-  * [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a80fd1fe5ea5f8c1187464f0aab2cf035) Function
-  * [StepOnce](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a4567f8812aa9fb4909191dd0cd78f6d7) Function
-  * [Reset](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a7828f047e5aa4ce477b5b3b55d85fe01) Function
-  * [IsSimulationFinished](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ace04d54df178ccb14d5c17817d010489) Function
-  * [IsPauseRequested](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1aa2fd258d5ef6c4b2f27e15d551748e21) Function
-  * [GetSimulationDuration](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a2d9fb927c4cc2bfe836b2743b547c0a2) Function
-  * [GetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1af6974f312cdfb505bcb95e6d7e7fa239) Function
 * [simulation_framework::core::lifecycle::IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic) Class
   * [~IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a1d689116fcc83336da3bca36b0fc0bcc) Function
   * [SetupExperiment](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a31bd3fac13966e3bbeac00874fc8a2a2) Function
@@ -485,6 +467,24 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetOutputs](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a78a9abe5d2efee8fd629b82b41c52753) Function
   * [GetOutputs](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a871f93e3dc6c01f7fded7d5952538e61) Function
   * [GetFmuState](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a4ccb7416f23b3c208a084b39c396514d) Function
+* [simulation_framework::core::lifecycle::SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance) Class
+  * [impl_](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ac3014d4327563f6020fb56428c78f8b0) Variable
+  * [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ad1479260858b3f23ef24d5cdb2484f26) Function
+  * [SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a478f75ae1610aca1ef3f14b83f511774) Function
+  * [~SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a40cfd8a4b227d2a02bc46554504ed372) Function
+  * [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a80fd1fe5ea5f8c1187464f0aab2cf035) Function
+  * [StepOnce](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a4567f8812aa9fb4909191dd0cd78f6d7) Function
+  * [Reset](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a7828f047e5aa4ce477b5b3b55d85fe01) Function
+  * [IsSimulationFinished](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1ace04d54df178ccb14d5c17817d010489) Function
+  * [IsPauseRequested](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1aa2fd258d5ef6c4b2f27e15d551748e21) Function
+  * [GetSimulationDuration](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1a2d9fb927c4cc2bfe836b2743b547c0a2) Function
+  * [GetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance_1af6974f312cdfb505bcb95e6d7e7fa239) Function
+* [simulation_framework::core::lifecycle::IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory) Class
+  * [~IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1adf2fbce25a6e1ead3b04a8490dfdc498) Function
+  * [Create](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1a9ec94cdb7f7a92ff15ccee4e63dd0c3c) Function
+  * [CreateFmuActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1a96c9a911627cd3dd1410e161eca05e63) Function
+  * [GetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1a4ccd952c296850abe2efccad25634c4d) Function
+  * [SetSimulationBaseCycleTime](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1ae79c188b8b5e40fc4bfb4e87f24a4a9d) Function
 * [simulation_framework::core::lifecycle::ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance) Class
   * [~ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1addee87e95b1819ef9db341cca0a302a2) Function
   * [StepOnce](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance_1a80cbbbd41aa237e59428d0becfe1dc0d) Function
@@ -507,15 +507,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [SetLogLevel](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3062c31daef0227b191825fc9ce19d1a) Function
   * [GetInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a452a2f89b01be3de22e5c93b9e515747) Function
   * [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1ab22c29e95f6416514eb26f0fc30b2aab) Function
-* [simulation_framework::core::scheduling::ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient) Class
-  * [~ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a8ca123b421503d053eedd4da40d2624a) Function
-  * [BindActivity](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a5e4746f85ab1765dc9c5ba92d3cf5678) Function
-  * [ShouldStep](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1ac6a1cb5df2433aa3fb9e08fb293137d9) Function
-  * [SendAbort](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a92d7ec9b317fdd7ec0f5d9e98b548d4d) Function
-  * [GetCurrentTimestamp](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a8c765474d5eee90b0efa2fe6a4bae686) Function
-  * [GetSimulationSettings](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a702d2e97502ffc37067a009b450e1c71) Function
-  * [IsPrimaryActivity](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1ac9c317c08f22030bf4db201103da3224) Function
-  * [SetSimulationSettings](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a8c3161558e38af1267a574d64ff9899a) Function
 * [simulation_framework::core::SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner) Class
   * [impl_](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ae47e23a3e4257071739015ee0b74d626) Variable
   * [~SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1a86df4168e20485587e74801f5400dda4) Function
@@ -529,6 +520,15 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetSimulationState](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab5f6d34b0bbd35000cfff95bcfeb901f) Function
   * [GetExecutedStepCount](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab7b56bf2aa50f1ca9b14b928268939eb) Function
   * [RunOverSimulation](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1a4ba901d04097297295b7b680ac151da9) Function
+* [simulation_framework::core::scheduling::ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient) Class
+  * [~ISchedulerClient](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a8ca123b421503d053eedd4da40d2624a) Function
+  * [BindActivity](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a5e4746f85ab1765dc9c5ba92d3cf5678) Function
+  * [ShouldStep](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1ac6a1cb5df2433aa3fb9e08fb293137d9) Function
+  * [SendAbort](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a92d7ec9b317fdd7ec0f5d9e98b548d4d) Function
+  * [GetCurrentTimestamp](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a8c765474d5eee90b0efa2fe6a4bae686) Function
+  * [GetSimulationSettings](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a702d2e97502ffc37067a009b450e1c71) Function
+  * [IsPrimaryActivity](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1ac9c317c08f22030bf4db201103da3224) Function
+  * [SetSimulationSettings](classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient.md#classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient_1a8c3161558e38af1267a574d64ff9899a) Function
 * [simulation_framework::core::SimfwkCliServer](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer) Class
   * [server_address_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1a2ef8d83c1198c96a58b595a49cbd0d1c) Variable
   * [sim_runner_binded_](classsimulation__framework_1_1core_1_1SimfwkCliServer.md#classsimulation__framework_1_1core_1_1SimfwkCliServer_1af5413384ac2a767a9dc427466074dfed) Variable
@@ -555,24 +555,16 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [timescale_factor](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1aca58e1bd9cc396ed5b520495c61f818a) Variable
   * [debugger_enabled](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a045453a8cf2bac1ca819d5c49e5c9863) Variable
   * [breakpoints_file_path](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a8d443b6771dafc576ce1138f399e2760) Variable
-* [simulation_framework::core::StandaloneInitData](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData) Structure
-  * [input_file_stream](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ac6c9eda5a2c9d017dd5bfb7a2c651c3e) Variable
-  * [primary_activity_cycle_time_in_ms](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ad45eab2c54317f7f9dc949a917e9a7d1) Variable
 * [simulation_framework::core::StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService) Class
   * [StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1a2b5fef164520062893b4ba86072763ae) Function
   * [~StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1a2d96ab83e3bae2d6c557f8a55428c966) Function
   * [Run](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1a421e29a06e115be20823def55afaede1) Function
+* [simulation_framework::core::StandaloneInitData](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData) Structure
+  * [input_file_stream](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ac6c9eda5a2c9d017dd5bfb7a2c651c3e) Variable
+  * [primary_activity_cycle_time_in_ms](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ad45eab2c54317f7f9dc949a917e9a7d1) Variable
 * [simulation_framework::core::StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback) Structure
   * [execute_status](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback_1a8d8e5cd79fb548feec4dae9cc75bf024) Variable
   * [error_msg](structsimulation__framework_1_1core_1_1StateFeedback.md#structsimulation__framework_1_1core_1_1StateFeedback_1ac35cce08425ee09c1dd47b6d72f6b4ff) Variable
-* [simulation_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock) Class
-  * [ms_](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1aea060288e6563be195f4af8d7921d341) Variable
-  * [Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1ae8da70736b2057ef064ed347106050a0) Function
-  * [SetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a6742585d7fab0823c46e9008fe2c7400) Function
-  * [SetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1ab2bda9ca1779ea42389abd38a29b7202) Function
-  * [GetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a42892510ffaad796e1e6944e57b4541b) Function
-  * [GetNowAsTimestamp](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a1ce05facc1733248af0c7d0126904442) Function
-  * [IncrementBy](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a4b6110fac75c44e37fa2fef35e551fc5) Function
 * [simulation_framework::core::time::IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock) Class
   * [~IClock](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a81888860915574a48b4f436e87fbc35e) Function
   * [SetNow](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a1c559515085520b85213dd1e85527149) Function
@@ -580,10 +572,19 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetNow](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a23ad965396946a6fad21103baf8ed5ff) Function
   * [GetNowAsTimestamp](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a08b2e6144d8dc49bce2f684e6fdf8199) Function
   * [IncrementBy](classsimulation__framework_1_1core_1_1time_1_1IClock.md#classsimulation__framework_1_1core_1_1time_1_1IClock_1a93cef605ec46a30ae9542ba40e5bda21) Function
+* [simulation_framework::core::time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker) Class
+  * [IsSimulationFinished](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1a3c2a846e58738327837d794ed4ce6136) Function
+  * [~ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1ac4b8c8898ef46c452ef5631a5c4c62ee) Function
+  * [GetSimulationDuration](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1a7c36f8d7309df7770a08208f5157a3a1) Function
 * [simulation_framework::core::time::Timestamp](structsimulation__framework_1_1core_1_1time_1_1Timestamp.md#structsimulation__framework_1_1core_1_1time_1_1Timestamp) Structure
   * [seconds](structsimulation__framework_1_1core_1_1time_1_1Timestamp.md#structsimulation__framework_1_1core_1_1time_1_1Timestamp_1a874f54ccc9cd185a833b0200bdd30024) Variable
   * [nanoseconds](structsimulation__framework_1_1core_1_1time_1_1Timestamp.md#structsimulation__framework_1_1core_1_1time_1_1Timestamp_1a16da98ea44a7c74ff5d7801801f3743b) Variable
   * [DebugString](structsimulation__framework_1_1core_1_1time_1_1Timestamp.md#structsimulation__framework_1_1core_1_1time_1_1Timestamp_1a0d767ac74ad6600bec664655bdb96892) Function
+* [simulation_framework::evaluator::DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator) Class
+  * [last_xpos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb) Variable
+  * [last_ypos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334) Variable
+  * [is_initialized_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256) Variable
+  * [Calculate](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1ab8226778bd055bda3a5b216f57289092) Function
 * [simulation_framework::core::Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Class
   * [PublisherCallback](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic_1a0f29e64e5b4720391091e07f6250e20a) Typedef
   * [SubscriberMessageCallback](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic_1a2c04396e41962b68a36c63f8a3c215f1) Typedef
@@ -602,11 +603,14 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [ClearPubSub](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic_1ac366c5dd53e4c5770b1a5f40ae2c8956) Function
   * [GetSubscribers](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic_1ab0a3ea471d469cf2b0611b6548752298) Function
   * [GetPublishers](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic_1ac31691f84f68ad4a3aeda6074739676f) Function
-* [simulation_framework::evaluator::DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator) Class
-  * [last_xpos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb) Variable
-  * [last_ypos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334) Variable
-  * [is_initialized_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256) Variable
-  * [Calculate](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1ab8226778bd055bda3a5b216f57289092) Function
+* [simulation_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock) Class
+  * [ms_](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1aea060288e6563be195f4af8d7921d341) Variable
+  * [Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1ae8da70736b2057ef064ed347106050a0) Function
+  * [SetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a6742585d7fab0823c46e9008fe2c7400) Function
+  * [SetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1ab2bda9ca1779ea42389abd38a29b7202) Function
+  * [GetNow](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a42892510ffaad796e1e6944e57b4541b) Function
+  * [GetNowAsTimestamp](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a1ce05facc1733248af0c7d0126904442) Function
+  * [IncrementBy](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock_1a4b6110fac75c44e37fa2fef35e551fc5) Function
 * [simulation_framework::evaluator::DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator) Class
   * [driven_dist_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a656af3eabf2c13d54d4bcf4cd8904c93) Variable
   * [kpi_name_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a84bdd2b207cccb4ac4ff3d9da4a9d515) Variable
@@ -618,10 +622,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [Reset](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a0ae35bde229b1db909a6331e8062d3ac) Function
   * [CalculateKpi](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a84b5bd6ae0f4af77a17363b20ed5b086) Function
   * [GetKpiType](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1acc4088bba0acb50e544228f3ed1fa35a) Function
-* [simulation_framework::core::time::ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker) Class
-  * [IsSimulationFinished](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1a3c2a846e58738327837d794ed4ce6136) Function
-  * [~ISimulationCompletionChecker](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1ac4b8c8898ef46c452ef5631a5c4c62ee) Function
-  * [GetSimulationDuration](classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker.md#classsimulation__framework_1_1core_1_1time_1_1ISimulationCompletionChecker_1a7c36f8d7309df7770a08208f5157a3a1) Function
 * [simulation_framework::evaluator::GtBaseEvaluator](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator) Class
   * [kpis_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a810c42382e79c8bb888193f874129d8d) Variable
   * [ground_truth_](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1af9435daa8efa20eadbd158f318a94bb8) Variable
@@ -634,6 +634,10 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [AddKpi](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a7d9970bad7943a552c385b01785fb66f) Function
   * [GetKpiMessage](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1a2e37677f4b8884d78f028589c6adac48) Function
   * [SetInput](classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator.md#classsimulation__framework_1_1evaluator_1_1GtBaseEvaluator_1adc68080d44c2f5a294dbb511fe7d1c77) Function
+* [simulation_framework::evaluator::PredictiveTimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator) Class
+  * [predictive_ttc_precision_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1ab533c9a25f48054357c33ffe53a0f858) Variable
+  * [predictive_ttc_max_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1a8470dab615a4276538dcb76ec677de5a) Variable
+  * [Calculate](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1aeb6dab536ddc23eafec60a4dca7b066e) Function
 * [simulation_framework::evaluator::MinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator) Class
   * [min_ttc_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad1a6cf8672aeb605683309debf6c78ae) Variable
   * [kpi_name_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad2e2fd8366c7775a33cf48786286babe) Variable
@@ -654,35 +658,32 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [Reset](classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator_1a8f78acf7646d8476fdbbdc931fbc3ffe) Function
   * [CalculateKpi](classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator_1a8778dbbad77b21dec72930729a8f52a7) Function
   * [GetKpiType](classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1PredictiveMinTtcEvaluator_1afa04796b1e66b16c1f33ee011530cb90) Function
-* [simulation_framework::evaluator::PredictiveTimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator) Class
-  * [predictive_ttc_precision_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1ab533c9a25f48054357c33ffe53a0f858) Variable
-  * [predictive_ttc_max_](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1a8470dab615a4276538dcb76ec677de5a) Variable
-  * [Calculate](classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1PredictiveTimeToCollisionCalculator_1aeb6dab536ddc23eafec60a4dca7b066e) Function
+* [autonomy](namespaceautonomy.md#namespaceautonomy) Namespace
 * [simulation_framework::evaluator::TimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator) Class
   * [Calculate](classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator_1aae6550ba8e9cff9880853cc9e32c65b8) Function
-* [cli](namespacecli.md#namespacecli) Namespace
 * [core](namespacecore.md#namespacecore) Namespace
-* [evaluator](namespaceevaluator.md#namespaceevaluator) Namespace
-* [autonomy](namespaceautonomy.md#namespaceautonomy) Namespace
+* [cli](namespacecli.md#namespacecli) Namespace
 * [fmi4cpp](namespacefmi4cpp.md#namespacefmi4cpp) Namespace
 * [kpi](namespacekpi.md#namespacekpi) Namespace
+* [fmi4cpp::fmi2](namespacefmi4cpp_1_1fmi2.md#namespacefmi4cpp_1_1fmi2) Namespace
 * [rtidds](namespacertidds.md#namespacertidds) Namespace
   * [VariantMessage](namespacertidds.md#namespacertidds_1a442f59bc02e5668d37a306af1c6faacd) Typedef
   * [VariantData](namespacertidds.md#namespacertidds_1a5d98a2ba88abe876a19cf09c458e06e1) Typedef
   * [VariantDatatype](namespacertidds.md#namespacertidds_1ae065fe2b5abd93b78891593a53ef039b) Typedef
-* [fmi4cpp::fmi2](namespacefmi4cpp_1_1fmi2.md#namespacefmi4cpp_1_1fmi2) Namespace
 * [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework) Namespace
+* [simulation_framework::autonomy::cli](namespacesimulation__framework_1_1autonomy_1_1cli.md#namespacesimulation__framework_1_1autonomy_1_1cli) Namespace
+* [simulation_framework::autonomy::communication](namespacesimulation__framework_1_1autonomy_1_1communication.md#namespacesimulation__framework_1_1autonomy_1_1communication) Namespace
+* [evaluator](namespaceevaluator.md#namespaceevaluator) Namespace
 * [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy) Namespace
   * [kOpenScenarioFileName](namespacesimulation__framework_1_1autonomy.md#simulation__input__definition_8h_1acb5213eea78ecb37953d8c2199b57a54) Variable
   * [kGtGenUserSettingsFileName](namespacesimulation__framework_1_1autonomy.md#simulation__input__definition_8h_1a063616f6ad0d8e7987102b21a8cb5e3e) Variable
   * [kDriverInputFileName](namespacesimulation__framework_1_1autonomy.md#simulation__input__definition_8h_1a3b7dbb9e16e186458301ee764279ea69) Variable
   * [kDefaultDriverInputFilePath](namespacesimulation__framework_1_1autonomy.md#simulation__input__definition_8h_1acf6d18fcb0645c838aeb07e726447c12) Variable
   * [kDefaultDriverInputFileContent](namespacesimulation__framework_1_1autonomy.md#simulation__input__definition_8h_1ad3b96b1989244b2ef3a73dce81b7e919) Variable
-* [simulation_framework::autonomy::cli](namespacesimulation__framework_1_1autonomy_1_1cli.md#namespacesimulation__framework_1_1autonomy_1_1cli) Namespace
-* [simulation_framework::autonomy::communication](namespacesimulation__framework_1_1autonomy_1_1communication.md#namespacesimulation__framework_1_1autonomy_1_1communication) Namespace
 * [simulation_framework::autonomy::communication::utils](namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md#namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils) Namespace
   * [CreateDdsMessageFromOsiProto](namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md#osi__to__dds__converter_8h_1ae82f0d1c345a05db16e2203ab801fa13) Function
   * [ParseOsiProtoFromDdsMessage](namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md#osi__to__dds__converter_8h_1aafc666d7c2564e9ae290e2d4f78fa186) Function
+* [simulation_framework::avx_sensor_cosim](namespacesimulation__framework_1_1avx__sensor__cosim.md#namespacesimulation__framework_1_1avx__sensor__cosim) Namespace
 * [simulation_framework::autonomy::topic_registry](namespacesimulation__framework_1_1autonomy_1_1topic__registry.md#namespacesimulation__framework_1_1autonomy_1_1topic__registry) Namespace
   * [ScenarioVariableTopicType](namespacesimulation__framework_1_1autonomy_1_1topic__registry.md#autonomy_2communication_2topic__registry_2topic__registry_8h_1abc5d170dec018a5f04fd69307316a25a) Typedef
   * [GetExistingTopicById](namespacesimulation__framework_1_1autonomy_1_1topic__registry.md#autonomy_2communication_2topic__registry_2topic__registry_8h_1a7e5a96139f19e44af79116bc58dd0341) Function
@@ -691,7 +692,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetInputOpenScenarioFilePath](namespacesimulation__framework_1_1autonomy_1_1util.md#simulation__input__utils_8h_1ac3cccfc541b0992295896d732876f335) Function
   * [GetGtGenUserSettingsFilePath](namespacesimulation__framework_1_1autonomy_1_1util.md#simulation__input__utils_8h_1a32c5e8aee385054142e14cde2b40f957) Function
   * [GetDriverInputFilePath](namespacesimulation__framework_1_1autonomy_1_1util.md#simulation__input__utils_8h_1a18c536d8f920c54958e743434aa60b4f) Function
-* [simulation_framework::avx_sensor_cosim](namespacesimulation__framework_1_1avx__sensor__cosim.md#namespacesimulation__framework_1_1avx__sensor__cosim) Namespace
 * [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core) Namespace
   * [SimState](namespacesimulation__framework_1_1core.md#i__sim__runner_8h_1ae9ca02fd4e0731b79817f05941f5590a) Enumeration type
   * [kInitialized](namespacesimulation__framework_1_1core.md#i__sim__runner_8h_1ae9ca02fd4e0731b79817f05941f5590aab661416dbe99f1eddca1a5547a8bd720) Enumerator
@@ -712,11 +712,6 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [GetCoreVersion](namespacesimulation__framework_1_1core.md#version_8h_1a768e6b06776077a5db62df376285bc6a) Function
   * [GetCorePublicVersion](namespacesimulation__framework_1_1core.md#version_8h_1a563c5bcaf61efc6d07d644f997b55fe3) Function
   * [GetCoreInternalVersion](namespacesimulation__framework_1_1core.md#version_8h_1a73f64a709c3af4245b457706ef762a64) Function
-* [simulation_framework::core::communication_manager_creator](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator) Namespace
-  * [Type](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a282d2dc6a4261dac4762b2da1e36ac4a) Enumeration type
-  * [kRTIDDS](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a282d2dc6a4261dac4762b2da1e36ac4aadcdc344069d78d9d7508e68ed678df10) Enumerator
-  * [kMOCK](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a282d2dc6a4261dac4762b2da1e36ac4aa453add0e2ed08d8c7d2d5a42dd4b5b40) Enumerator
-  * [Create](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a337ae4b90128bb328b0afa07179e7995) Function
 * [simulation_framework::core::kpi](namespacesimulation__framework_1_1core_1_1kpi.md#namespacesimulation__framework_1_1core_1_1kpi) Namespace
   * [Type](namespacesimulation__framework_1_1core_1_1kpi.md#kpi__definition_8h_1adade5b8284e150d681b5618eb2d7a2e8) Enumeration type
   * [kScalar](namespacesimulation__framework_1_1core_1_1kpi.md#kpi__definition_8h_1adade5b8284e150d681b5618eb2d7a2e8ad84b20d8e2277928cd3c2efeef3a302b) Enumerator
@@ -725,6 +720,17 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [kOther](namespacesimulation__framework_1_1core_1_1kpi.md#kpi__definition_8h_1adade5b8284e150d681b5618eb2d7a2e8a341b8a8f03cf33821c46aa5c3aad4b7a) Enumerator
   * [KpiMessage](namespacesimulation__framework_1_1core_1_1kpi.md#kpi__definition_8h_1a1cab1b867d784412904244d649583679) Typedef
   * [operator==](namespacesimulation__framework_1_1core_1_1kpi.md#kpi__definition_8h_1a5592166abd473357a83880a8b4cd68c4) Function
+* [simulation_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging) Namespace
+  * [SetLogLevel](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1a3620e08da764e24634a79d1855f9d16c) Function
+  * [Debug](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1a271b769dd8c1312409a2e9082bc87b9c) Function
+  * [Info](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1a9905ad665cb34c3c9f0c2bc7f619d434) Function
+  * [Warning](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1aec8442f1cd4b626846d6917c918bd225) Function
+  * [Error](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1ae2778842b88c9cb0cae44779738d61b0) Function
+* [simulation_framework::core::communication_manager_creator](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator) Namespace
+  * [Type](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a282d2dc6a4261dac4762b2da1e36ac4a) Enumeration type
+  * [kRTIDDS](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a282d2dc6a4261dac4762b2da1e36ac4aadcdc344069d78d9d7508e68ed678df10) Enumerator
+  * [kMOCK](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a282d2dc6a4261dac4762b2da1e36ac4aa453add0e2ed08d8c7d2d5a42dd4b5b40) Enumerator
+  * [Create](namespacesimulation__framework_1_1core_1_1communication__manager__creator.md#namespacesimulation__framework_1_1core_1_1communication__manager__creator_1a337ae4b90128bb328b0afa07179e7995) Function
 * [simulation_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle) Namespace
   * [FmuInOutType](namespacesimulation__framework_1_1core_1_1lifecycle.md#fmu__config_8h_1a076e42c1fd44e91ae78c9c07c528ac93) Typedef
   * [FmuInOutMap](namespacesimulation__framework_1_1core_1_1lifecycle.md#fmu__config_8h_1a0cb1cc423853afcdeeba0c345220300a) Typedef
@@ -736,18 +742,14 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [SchedulerClientType](namespacesimulation__framework_1_1core_1_1scheduling.md#i__scheduler__client_8h_1ac76a3d7176d8d397cb7820e9aa8b8fd8) Enumeration type
   * [kRTIDDS](namespacesimulation__framework_1_1core_1_1scheduling.md#i__scheduler__client_8h_1ac76a3d7176d8d397cb7820e9aa8b8fd8adcdc344069d78d9d7508e68ed678df10) Enumerator
   * [kDUMMY](namespacesimulation__framework_1_1core_1_1scheduling.md#i__scheduler__client_8h_1ac76a3d7176d8d397cb7820e9aa8b8fd8a97dc514bc7729fe1f3867ff60f5b8fa6) Enumerator
-* [simulation_framework::core::scheduling::scheduling_client_creator](namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md#namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator) Namespace
-  * [Create](namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md#scheduler__client__creator_8h_1a2c8d689e686b89011993438a2b0aa130) Function
-* [simulation_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging) Namespace
-  * [SetLogLevel](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1a3620e08da764e24634a79d1855f9d16c) Function
-  * [Debug](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1a271b769dd8c1312409a2e9082bc87b9c) Function
-  * [Info](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1a9905ad665cb34c3c9f0c2bc7f619d434) Function
-  * [Warning](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1aec8442f1cd4b626846d6917c918bd225) Function
-  * [Error](namespacesimulation__framework_1_1core_1_1logging.md#logging_8h_1ae2778842b88c9cb0cae44779738d61b0) Function
 * [simulation_framework::core::time](namespacesimulation__framework_1_1core_1_1time.md#namespacesimulation__framework_1_1core_1_1time) Namespace
   * [timepoint](namespacesimulation__framework_1_1core_1_1time.md#i__clock_8h_1a933383468bb88c1c83b7295ee2deaac7) Typedef
   * [milliseconds](namespacesimulation__framework_1_1core_1_1time.md#i__clock_8h_1a2759cf8fdb075261382ae0325c030245) Typedef
   * [operator==](namespacesimulation__framework_1_1core_1_1time.md#timestamp_8h_1a3086344f06f610fe2b98ed7d1dec802e) Function
+* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator) Namespace
+* [simulation_framework::core::scheduling::scheduling_client_creator](namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md#namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator) Namespace
+  * [Create](namespacesimulation__framework_1_1core_1_1scheduling_1_1scheduling__client__creator.md#scheduler__client__creator_8h_1a2c8d689e686b89011993438a2b0aa130) Function
+* [topic_registry](namespacetopic__registry.md#namespacetopic__registry) Namespace
 * [simulation_framework::core::topic_registry](namespacesimulation__framework_1_1core_1_1topic__registry.md#namespacesimulation__framework_1_1core_1_1topic__registry) Namespace
   * [StringTopicType](namespacesimulation__framework_1_1core_1_1topic__registry.md#core_2communication_2topic__registry_8h_1a9edbd07732d0c58d7c78107bc211bd46) Typedef
   * [KpiMessageTopicType](namespacesimulation__framework_1_1core_1_1topic__registry.md#core_2communication_2topic__registry_8h_1a7e388e2d7f8cdf8897e06a4c19fa7462) Typedef
@@ -755,120 +757,118 @@ This is a unified index of all classes, structures, namespaces, files, and direc
   * [FmuMessageTopicType](namespacesimulation__framework_1_1core_1_1topic__registry.md#core_2communication_2topic__registry_8h_1aa347191e2437a3c66320fe75e0b4a143) Typedef
   * [VariantDataTopicType](namespacesimulation__framework_1_1core_1_1topic__registry.md#core_2communication_2topic__registry_8h_1a362ca8d00ab5265ca118b7d810b1ad96) Typedef
   * [VariantMapTopicType](namespacesimulation__framework_1_1core_1_1topic__registry.md#core_2communication_2topic__registry_8h_1a4b336cd1471bdad879e9680854039b6f) Typedef
-* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator) Namespace
-* [topic_registry](namespacetopic__registry.md#namespacetopic__registry) Namespace
 * [time](namespacetime.md#namespacetime) Namespace
-* [utils](namespaceutils.md#namespaceutils) Namespace
 * [util](namespaceutil.md#namespaceutil) Namespace
-* [autonomy/communication/topic_registry/topic_registry.h](autonomy_2communication_2topic__registry_2topic__registry_8h.md#autonomy_2communication_2topic__registry_2topic__registry_8h) File
 * [cli_provider.h](cli__provider_8h.md#cli__provider_8h) File
+* [utils](namespaceutils.md#namespaceutils) Namespace
+* [autonomy/communication/topic_registry/topic_registry.h](autonomy_2communication_2topic__registry_2topic__registry_8h.md#autonomy_2communication_2topic__registry_2topic__registry_8h) File
+* [osi_to_dds_converter.h](osi__to__dds__converter_8h.md#osi__to__dds__converter_8h) File
 * [core/communication/topic_registry.h](core_2communication_2topic__registry_8h.md#core_2communication_2topic__registry_8h) File
+* [distance_calculator.cpp](distance__calculator_8cpp.md#distance__calculator_8cpp) File
 * [distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h) File
 * [distance_driven_evaluator.cpp](distance__driven__evaluator_8cpp.md#distance__driven__evaluator_8cpp) File
-* [distance_calculator.cpp](distance__calculator_8cpp.md#distance__calculator_8cpp) File
-* [osi_to_dds_converter.h](osi__to__dds__converter_8h.md#osi__to__dds__converter_8h) File
 * [distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h) File
-* [min_ttc_evaluator.cpp](min__ttc__evaluator_8cpp.md#min__ttc__evaluator_8cpp) File
 * [gt_base_evaluator.h](gt__base__evaluator_8h.md#gt__base__evaluator_8h) File
+* [min_ttc_evaluator.cpp](min__ttc__evaluator_8cpp.md#min__ttc__evaluator_8cpp) File
+* [min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h) File
 * [predictive_min_ttc_evaluator.cpp](predictive__min__ttc__evaluator_8cpp.md#predictive__min__ttc__evaluator_8cpp) File
 * [predictive_min_ttc_evaluator.h](predictive__min__ttc__evaluator_8h.md#predictive__min__ttc__evaluator_8h) File
-* [predictive_ttc_calculator.cpp](predictive__ttc__calculator_8cpp.md#predictive__ttc__calculator_8cpp) File
 * [predictive_ttc_calculator.h](predictive__ttc__calculator_8h.md#predictive__ttc__calculator_8h) File
-* [min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h) File
-* [ttc_calculator.cpp](ttc__calculator_8cpp.md#ttc__calculator_8cpp) File
+* [predictive_ttc_calculator.cpp](predictive__ttc__calculator_8cpp.md#predictive__ttc__calculator_8cpp) File
 * [ttc_calculator.h](ttc__calculator_8h.md#ttc__calculator_8h) File
+* [ttc_calculator.cpp](ttc__calculator_8cpp.md#ttc__calculator_8cpp) File
 * [activity_factory.h](activity__factory_8h.md#activity__factory_8h) File
 * [i_sim_instance_creator.h](i__sim__instance__creator_8h.md#i__sim__instance__creator_8h) File
-* [autonomy_sim_instance_creator.h](autonomy__sim__instance__creator_8h.md#autonomy__sim__instance__creator_8h) File
-* [simulation_completion_checker.h](simulation__completion__checker_8h.md#simulation__completion__checker_8h) File
 * [simulation_input_definition.h](simulation__input__definition_8h.md#simulation__input__definition_8h) File
+* [autonomy_sim_instance_creator.h](autonomy__sim__instance__creator_8h.md#autonomy__sim__instance__creator_8h) File
 * [simulation_input_utils.h](simulation__input__utils_8h.md#simulation__input__utils_8h) File
-* [i_publisher.h](i__publisher_8h.md#i__publisher_8h) File
 * [avx_vss_api_adapter.h](avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h) File
-* [i_subscriber.h](i__subscriber_8h.md#i__subscriber_8h) File
+* [simulation_completion_checker.h](simulation__completion__checker_8h.md#simulation__completion__checker_8h) File
+* [i_publisher.h](i__publisher_8h.md#i__publisher_8h) File
 * [i_topic.h](i__topic_8h.md#i__topic_8h) File
+* [i_subscriber.h](i__subscriber_8h.md#i__subscriber_8h) File
 * [topic.h](topic_8h.md#topic_8h) File
-* [kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h) File
-* [i_evaluator.h](i__evaluator_8h.md#i__evaluator_8h) File
 * [communication_manager_creator.h](communication__manager__creator_8h.md#communication__manager__creator_8h) File
-* [i_kpi_message_converter.h](i__kpi__message__converter_8h.md#i__kpi__message__converter_8h) File
+* [kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h) File
 * [i_kpi.h](i__kpi_8h.md#i__kpi_8h) File
+* [i_evaluator.h](i__evaluator_8h.md#i__evaluator_8h) File
+* [i_kpi_message_converter.h](i__kpi__message__converter_8h.md#i__kpi__message__converter_8h) File
 * [kpi_message_converter.h](kpi__message__converter_8h.md#kpi__message__converter_8h) File
-* [i_activity.h](i__activity_8h.md#i__activity_8h) File
 * [base_activity.h](base__activity_8h.md#base__activity_8h) File
-* [fmu_config.h](fmu__config_8h.md#fmu__config_8h) File
 * [fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h) File
+* [fmu_config.h](fmu__config_8h.md#fmu__config_8h) File
 * [fmu_logic.h](fmu__logic_8h.md#fmu__logic_8h) File
-* [i_simulation_instance.h](i__simulation__instance_8h.md#i__simulation__instance_8h) File
-* [i_fmu_logic.h](i__fmu__logic_8h.md#i__fmu__logic_8h) File
-* [simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h) File
+* [i_activity.h](i__activity_8h.md#i__activity_8h) File
 * [i_activity_factory.h](i__activity__factory_8h.md#i__activity__factory_8h) File
+* [i_fmu_logic.h](i__fmu__logic_8h.md#i__fmu__logic_8h) File
+* [i_simulation_instance.h](i__simulation__instance_8h.md#i__simulation__instance_8h) File
 * [logging.h](logging_8h.md#logging_8h) File
-* [scheduler_client_creator.h](scheduler__client__creator_8h.md#scheduler__client__creator_8h) File
+* [simulation_instance.h](simulation__instance_8h.md#simulation__instance_8h) File
 * [i_scheduler_client.h](i__scheduler__client_8h.md#i__scheduler__client_8h) File
+* [scheduler_client_creator.h](scheduler__client__creator_8h.md#scheduler__client__creator_8h) File
 * [cli.h](cli_8h.md#cli_8h) File
-* [i_cli_server.h](i__cli__server_8h.md#i__cli__server_8h) File
-* [cli_server.h](cli__server_8h.md#cli__server_8h) File
-* [simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h) File
 * [cli_parser.h](cli__parser_8h.md#cli__parser_8h) File
-* [i_sim_runner.h](i__sim__runner_8h.md#i__sim__runner_8h) File
+* [cli_server.h](cli__server_8h.md#cli__server_8h) File
+* [i_cli_server.h](i__cli__server_8h.md#i__cli__server_8h) File
+* [simulation_parameters.h](simulation__parameters_8h.md#simulation__parameters_8h) File
 * [sim_runner.h](sim__runner_8h.md#sim__runner_8h) File
 * [i_standalone_activity_creator.h](i__standalone__activity__creator_8h.md#i__standalone__activity__creator_8h) File
+* [i_sim_runner.h](i__sim__runner_8h.md#i__sim__runner_8h) File
 * [standalone_activity_service.h](standalone__activity__service_8h.md#standalone__activity__service_8h) File
 * [standalone_init_data.h](standalone__init__data_8h.md#standalone__init__data_8h) File
 * [clock.h](clock_8h.md#clock_8h) File
-* [timestamp.h](timestamp_8h.md#timestamp_8h) File
 * [i_clock.h](i__clock_8h.md#i__clock_8h) File
-* [i_simulation_completion_checker.h](i__simulation__completion__checker_8h.md#i__simulation__completion__checker_8h) File
+* [timestamp.h](timestamp_8h.md#timestamp_8h) File
 * [version.h](version_8h.md#version_8h) File
+* [i_simulation_completion_checker.h](i__simulation__completion__checker_8h.md#i__simulation__completion__checker_8h) File
+* [activity](dir_70b7870b0df6ef278515a71a06bc965a.md#dir_70b7870b0df6ef278515a71a06bc965a) Directory
+* [avx_vss_api_adapter](dir_a861dcf56f10373b480cc8666b573612.md#dir_a861dcf56f10373b480cc8666b573612) Directory
 * [activity_factory](dir_763b84ef50c71fe91f7408b16f9ee66b.md#dir_763b84ef50c71fe91f7408b16f9ee66b) Directory
 * [autonomy](dir_6b406ca34183b54f87547f38f78277f2.md#dir_6b406ca34183b54f87547f38f78277f2) Directory
 * [avx_sensor](dir_e7782c7468d93f38b31d187338700412.md#dir_e7782c7468d93f38b31d187338700412) Directory
-* [activity](dir_70b7870b0df6ef278515a71a06bc965a.md#dir_70b7870b0df6ef278515a71a06bc965a) Directory
-* [cli](dir_e2eb8e450ccbd2c34a9553a09bc9e3c4.md#dir_e2eb8e450ccbd2c34a9553a09bc9e3c4) Directory
-* [avx_vss_api_adapter](dir_a861dcf56f10373b480cc8666b573612.md#dir_a861dcf56f10373b480cc8666b573612) Directory
 * [cli](dir_527943f8016654dd4a27746db1302a95.md#dir_527943f8016654dd4a27746db1302a95) Directory
-* [cli](dir_bbd0589d1981c0eaa420b675ffe435a9.md#dir_bbd0589d1981c0eaa420b675ffe435a9) Directory
 * [cli_provider](dir_bddad0293b39a25854791189aec5114a.md#dir_bddad0293b39a25854791189aec5114a) Directory
+* [cli](dir_e2eb8e450ccbd2c34a9553a09bc9e3c4.md#dir_e2eb8e450ccbd2c34a9553a09bc9e3c4) Directory
+* [cli](dir_bbd0589d1981c0eaa420b675ffe435a9.md#dir_bbd0589d1981c0eaa420b675ffe435a9) Directory
 * [clock](dir_b8272551b78d6c8e440d798b1cb4a3e4.md#dir_b8272551b78d6c8e440d798b1cb4a3e4) Directory
 * [co_sim](dir_5fb5adecbcf1de8ddc80f96793df9c8b.md#dir_5fb5adecbcf1de8ddc80f96793df9c8b) Directory
-* [communication](dir_0c9abbf4a1f92ca601c0207650d108cf.md#dir_0c9abbf4a1f92ca601c0207650d108cf) Directory
-* [communication](dir_66b2c59343c3c2cfb2f0e96d3bd45b6f.md#dir_66b2c59343c3c2cfb2f0e96d3bd45b6f) Directory
 * [core](dir_4270bfced15e0e73154b13468c7c9ad9.md#dir_4270bfced15e0e73154b13468c7c9ad9) Directory
-* [definition](dir_35935b072cb2f4b4de9fb0fe261c7c6d.md#dir_35935b072cb2f4b4de9fb0fe261c7c6d) Directory
+* [communication](dir_66b2c59343c3c2cfb2f0e96d3bd45b6f.md#dir_66b2c59343c3c2cfb2f0e96d3bd45b6f) Directory
 * [distance_calculator](dir_4d912fd63dc1037683ab9bac091158ac.md#dir_4d912fd63dc1037683ab9bac091158ac) Directory
+* [communication](dir_0c9abbf4a1f92ca601c0207650d108cf.md#dir_0c9abbf4a1f92ca601c0207650d108cf) Directory
+* [definition](dir_35935b072cb2f4b4de9fb0fe261c7c6d.md#dir_35935b072cb2f4b4de9fb0fe261c7c6d) Directory
+* [evaluator](dir_487e7b49de963d23ebb8a14c1589bc0e.md#dir_487e7b49de963d23ebb8a14c1589bc0e) Directory
 * [distance_driven_evaluator](dir_3d3deff19be5216861a3a3c2a6e8e8ca.md#dir_3d3deff19be5216861a3a3c2a6e8e8ca) Directory
 * [fmu_activity](dir_a82d2fe8d582ac88b73ad6458a14e30d.md#dir_a82d2fe8d582ac88b73ad6458a14e30d) Directory
-* [evaluator](dir_487e7b49de963d23ebb8a14c1589bc0e.md#dir_487e7b49de963d23ebb8a14c1589bc0e) Directory
-* [gt_base_evaluator](dir_26cdca89c23679ac5684e42b7e87764f.md#dir_26cdca89c23679ac5684e42b7e87764f) Directory
-* [i_activity_factory](dir_da1bfee11fd1599f749c6983d45aefd5.md#dir_da1bfee11fd1599f749c6983d45aefd5) Directory
-* [grpc](dir_bba887062b0784d29a7fd3d4e1eab71e.md#dir_bba887062b0784d29a7fd3d4e1eab71e) Directory
 * [i_clock](dir_bdd136b40807ebcaec9201255784b185.md#dir_bdd136b40807ebcaec9201255784b185) Directory
+* [i_activity_factory](dir_da1bfee11fd1599f749c6983d45aefd5.md#dir_da1bfee11fd1599f749c6983d45aefd5) Directory
+* [gt_base_evaluator](dir_26cdca89c23679ac5684e42b7e87764f.md#dir_26cdca89c23679ac5684e42b7e87764f) Directory
+* [grpc](dir_bba887062b0784d29a7fd3d4e1eab71e.md#dir_bba887062b0784d29a7fd3d4e1eab71e) Directory
+* [i_scheduler_client](dir_d1dd280558da5867f3977676b27b7eeb.md#dir_d1dd280558da5867f3977676b27b7eeb) Directory
 * [i_evaluator](dir_c6e07cc489e58714584ed674b9b5c55d.md#dir_c6e07cc489e58714584ed674b9b5c55d) Directory
 * [i_kpi](dir_08fdb092cd5ef1d7fb1a828de6d37285.md#dir_08fdb092cd5ef1d7fb1a828de6d37285) Directory
-* [i_scheduler_client](dir_d1dd280558da5867f3977676b27b7eeb.md#dir_d1dd280558da5867f3977676b27b7eeb) Directory
 * [i_simulation_completion_checker](dir_fb6f31da0121b4bb6749f05e0ac72d46.md#dir_fb6f31da0121b4bb6749f05e0ac72d46) Directory
 * [kpi](dir_ef2ea148ae9d5565c6bbf71edfd5ea61.md#dir_ef2ea148ae9d5565c6bbf71edfd5ea61) Directory
 * [kpi_message_converter](dir_bf542fd3f1137680d37dc56d53e951c3.md#dir_bf542fd3f1137680d37dc56d53e951c3) Directory
-* [i_simulation_instance](dir_2b6fa84f074780d9bd690004d27a7667.md#dir_2b6fa84f074780d9bd690004d27a7667) Directory
-* [lifecycle](dir_9ddb69810b170dd0fb7bc360a0649267.md#dir_9ddb69810b170dd0fb7bc360a0649267) Directory
 * [logging](dir_b751399702050315a33a084c6c8b3021.md#dir_b751399702050315a33a084c6c8b3021) Directory
-* [min_ttc_evaluator](dir_482e07c6431066476d295e4a89ddac65.md#dir_482e07c6431066476d295e4a89ddac65) Directory
+* [lifecycle](dir_9ddb69810b170dd0fb7bc360a0649267.md#dir_9ddb69810b170dd0fb7bc360a0649267) Directory
+* [i_simulation_instance](dir_2b6fa84f074780d9bd690004d27a7667.md#dir_2b6fa84f074780d9bd690004d27a7667) Directory
 * [parameter](dir_13a704c51eef964178fecb92604bcd02.md#dir_13a704c51eef964178fecb92604bcd02) Directory
-* [scheduler](dir_526a59b3066e22642edde750eac71dbf.md#dir_526a59b3066e22642edde750eac71dbf) Directory
-* [predictive_ttc_calculator](dir_3cc5211be7c031fed8929c0dbc27b28e.md#dir_3cc5211be7c031fed8929c0dbc27b28e) Directory
-* [scheduler_client](dir_3e01259001638e8971a81f7641e0ae11.md#dir_3e01259001638e8971a81f7641e0ae11) Directory
-* [sim_instance](dir_f78a54a1dad0a3deab0677338dca40ec.md#dir_f78a54a1dad0a3deab0677338dca40ec) Directory
-* [service](dir_d915a612a1f7638502e38ae1a0ff6ce7.md#dir_d915a612a1f7638502e38ae1a0ff6ce7) Directory
+* [min_ttc_evaluator](dir_482e07c6431066476d295e4a89ddac65.md#dir_482e07c6431066476d295e4a89ddac65) Directory
 * [predictive_min_ttc_evaluator](dir_d646a280644b9252bed97c1f9fa3a484.md#dir_d646a280644b9252bed97c1f9fa3a484) Directory
+* [predictive_ttc_calculator](dir_3cc5211be7c031fed8929c0dbc27b28e.md#dir_3cc5211be7c031fed8929c0dbc27b28e) Directory
+* [service](dir_d915a612a1f7638502e38ae1a0ff6ce7.md#dir_d915a612a1f7638502e38ae1a0ff6ce7) Directory
+* [scheduler_client](dir_3e01259001638e8971a81f7641e0ae11.md#dir_3e01259001638e8971a81f7641e0ae11) Directory
+* [scheduler](dir_526a59b3066e22642edde750eac71dbf.md#dir_526a59b3066e22642edde750eac71dbf) Directory
+* [sim_instance](dir_f78a54a1dad0a3deab0677338dca40ec.md#dir_f78a54a1dad0a3deab0677338dca40ec) Directory
 * [sim_runner](dir_d0e88119e59091b248b1cab2487334e7.md#dir_d0e88119e59091b248b1cab2487334e7) Directory
 * [simulation](dir_2d7eae873c5f203655e120c8928f13e9.md#dir_2d7eae873c5f203655e120c8928f13e9) Directory
-* [standalone_activity_creator](dir_685f365573ede1e18c5dd4af7170bc1f.md#dir_685f365573ede1e18c5dd4af7170bc1f) Directory
-* [standalone_activity_service](dir_595f24491086dc7cb2b941e517105383.md#dir_595f24491086dc7cb2b941e517105383) Directory
 * [simulation_completion_checker](dir_72b4319b30b6de811973398edb4eaf0c.md#dir_72b4319b30b6de811973398edb4eaf0c) Directory
 * [simulation_instance](dir_4a26078192b4c40fc4bb581b98ee51d3.md#dir_4a26078192b4c40fc4bb581b98ee51d3) Directory
+* [standalone_activity_service](dir_595f24491086dc7cb2b941e517105383.md#dir_595f24491086dc7cb2b941e517105383) Directory
+* [standalone_activity_creator](dir_685f365573ede1e18c5dd4af7170bc1f.md#dir_685f365573ede1e18c5dd4af7170bc1f) Directory
 * [standalone_init_data](dir_b7f6c931c17f3bc252b552b14ae41ccb.md#dir_b7f6c931c17f3bc252b552b14ae41ccb) Directory
 * [time](dir_aa63182e9105a1d3b4c49ed59ca073cb.md#dir_aa63182e9105a1d3b4c49ed59ca073cb) Directory
-* [ttc_calculator](dir_a250fbd8d1298201f6cef23cfde18871.md#dir_a250fbd8d1298201f6cef23cfde18871) Directory
 * [topic_registry](dir_cdc3077048e919c89975214ef7541aa3.md#dir_cdc3077048e919c89975214ef7541aa3) Directory
+* [ttc_calculator](dir_a250fbd8d1298201f6cef23cfde18871.md#dir_a250fbd8d1298201f6cef23cfde18871) Directory
 * [utils](dir_3b310f94ed32c1bdfdb5f637d261db80.md#dir_3b310f94ed32c1bdfdb5f637d261db80) Directory

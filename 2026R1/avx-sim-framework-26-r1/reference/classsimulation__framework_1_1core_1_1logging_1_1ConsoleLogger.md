@@ -18,7 +18,6 @@ A basic implementation of the logger which logs to stdout/stderr.
 * [GetCurrentLogLevel](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a5fa0554c57b1663845e43bd72bd7f483)
 * [GetCurrentTimestamp](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a7ce6beb10222c900bd54acc10e78ba33)
 * [Log](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a9d2ff51ab9e4e3b050fc243b55f03fb7)
-* [log_level_](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a171a87d562a39f69472fe1d54605aa23)
 * [SetCurrentLogLevel](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1aaf1a52b229da07a50705df5bf08307a3)
 * [ShouldUseColorsForStderr](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1afc3230e4743964d30f8a0abb24e63851)
 * [ShouldUseColorsForStdout](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1aac76cb16f147da289364d73baf353d90)
@@ -151,98 +150,6 @@ Log a message on the logging interface
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::ConsoleLogger::Log"}]}`
--->
-
-## Private functions
-
-<a id="classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1aac76cb16f147da289364d73baf353d90"></a>
-### Function ShouldUseColorsForStdout
-
-![][private]
-![][const]
-
-
-```cpp
-bool simulation_framework::core::logging::ConsoleLogger::ShouldUseColorsForStdout() const
-```
-
-
-Check if colors should be used for stdout (i.e., stdout is going to a terminal)
-
-**Returns**:
-
-true if colors should be enabled, false otherwise
-
-
-
-**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::ConsoleLogger::ShouldUseColorsForStdout"}]}`
--->
-
-<a id="classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1afc3230e4743964d30f8a0abb24e63851"></a>
-### Function ShouldUseColorsForStderr
-
-![][private]
-![][const]
-
-
-```cpp
-bool simulation_framework::core::logging::ConsoleLogger::ShouldUseColorsForStderr() const
-```
-
-
-Check if colors should be used for stderr (i.e., stderr is going to a terminal)
-
-**Returns**:
-
-true if colors should be enabled, false otherwise
-
-
-
-**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::ConsoleLogger::ShouldUseColorsForStderr"}]}`
--->
-
-<a id="classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger_1a7ce6beb10222c900bd54acc10e78ba33"></a>
-### Function GetCurrentTimestamp
-
-![][private]
-![][const]
-
-
-```cpp
-std::string simulation_framework::core::logging::ConsoleLogger::GetCurrentTimestamp() const
-```
-
-
-Get current system time as a human-readable timestamp string.
-
-**Returns**:
-
-A formatted timestamp string in the format "YYYY-MM-DD HH:MM:SS"
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::ConsoleLogger::GetCurrentTimestamp"}]}`
--->
-
-<!--
-**TODO**:
-
-* `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"console__logger_8h"},"children":[{"type":"text","text":"console_logger.h"}]}`
 -->
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

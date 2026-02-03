@@ -11,14 +11,10 @@ This class is used to interact with AVX VSS API. Provides a simple interface, wi
 
 ## Members
 
-* [api_variant_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4b590db627a6c93f3254f8cacb81de6f)
 * [AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a59b09da2ec12532a4342551366aab665)
-* [context_sensor_data_notifier_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a270bfeac71fd61b77f40db25a3ae61bd)
 * [DeserializeSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a353382be749e0909337e395af828bc61)
 * [GetLatestSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1aeb52b2acbff9db3edcd4a33d8ba9211c)
 * [GetSensorIdentifiers](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ac5a21c59e7e440e46a0bbbf88ece7a54)
-* [grpc_channel_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1adf655bcef358c1e09c9a2ae21bce7475)
-* [grpc_endpoint_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad55c8e53cedcf0b228730fb167e54c03)
 * [Initialize](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a91a12968c3e9a3f1e7601124347dc424)
 * [IsAllSensorDataDescriptionsAvailable](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad34f7a9ef15162b7cc5ed2d4e09db83f)
 * [IsRequestSuccessful](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af0c66b6549fea0cbc7a6f46c4e04ac07)
@@ -26,9 +22,6 @@ This class is used to interact with AVX VSS API. Provides a simple interface, wi
 * [Load](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a65b1764c35521d1454692fd3459c6f37)
 * [Load](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ab9ba91ec020160a02458f373f6847d09)
 * [ReadSensorDataDescription](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0620b9bd54dd8ce55579536b17133dc9)
-* [sensor_data_description_reader_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a36eecdd0ff5acfa3db4755c72c659f05)
-* [sensor_data_notifier_stub_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a2254896299de131e37ab707d627129a4)
-* [sensor_identifiers_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0b882d5493c67a831fbc99cd514b7dcb)
 * [SensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a912b41e7bc7520b5321f8eedfa36dd07)
 * [SerializeSensorDataDescriptions](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a70012a5e06c4ba2f1292029f664e3fb8)
 * [SetSensorIdentifiers](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af1a11124e5274c64568d294ee629b68f)
@@ -36,8 +29,6 @@ This class is used to interact with AVX VSS API. Provides a simple interface, wi
 * [Unload](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af3fdcb93ae044c647df4e63ea9156571)
 * [Update](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1aeaf57c2d395c56a8141c4e3daf37b826)
 * [Update](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a444e4091516e63dcab3e627cbfe79968)
-* [vss_simulation_control_osi_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a414d61218965bf1b20afe2a975687123)
-* [vss_simulation_control_v1_](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a4a4571d8a7032b22498b8f784253fdc6)
 * [WaitForConnection](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a607bd314f3c7972927a14ec1b1952960)
 * [~AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0c49dcc2c769f8859994306149e0b92e)
 
@@ -612,168 +603,6 @@ A vector of SensorDataDescription objects
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::DeserializeSensorDataDescriptions"}]}`
--->
-
-## Private functions
-
-<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1af0c66b6549fea0cbc7a6f46c4e04ac07"></a>
-### Function IsRequestSuccessful
-
-![][private]
-
-
-```cpp
-bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::IsRequestSuccessful(const grpc::Status &grpc_status, const std::string &request_name)
-```
-
-
-Check if the request was successful.
-
-Checks if the request was successful by checking the grpc status and the vss status. 
-**Parameters**:
-
-* **grpc_status**: The grpc status
-* **vss_status**: The vss status
-* **request_name**: The name of the request
-
-
-**Returns**:
-
-True if the request was successful, false otherwise
-
-
-
-**Parameters**:
-
-* const grpc::Status & **grpc_status**
-* const std::string & **request_name**
-
-**Return type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::IsRequestSuccessful"}]}`
--->
-
-<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a607bd314f3c7972927a14ec1b1952960"></a>
-### Function WaitForConnection
-
-![][private]
-
-
-```cpp
-bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::WaitForConnection(const std::chrono::seconds &timeout_in_seconds, const bool silent_info=false)
-```
-
-
-Wait for the connection to AVX to be established.
-
-Waits for the connection to AVX to be established. If the connection is not established after the timeout, the function will return false. 
-**Parameters**:
-
-* **timeout_in_seconds**: The timeout in seconds
-* **silent_info**: If true, the function will not print any info messages
-
-
-**Returns**:
-
-True if the connection was established, false otherwise
-
-
-
-**Parameters**:
-
-* const std::chrono::seconds & **timeout_in_seconds**
-* const bool **silent_info** = false 
-
-**Return type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::WaitForConnection"}]}`
--->
-
-<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1a0620b9bd54dd8ce55579536b17133dc9"></a>
-### Function ReadSensorDataDescription
-
-![][private]
-
-
-```cpp
-bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::ReadSensorDataDescription(ansys::api::avxcelerate::sensors::v1::data_access::SensorDataDescription &sd_description, const std::chrono::milliseconds &timeout_in_milliseconds)
-```
-
-
-Read sensor data description with timeout.
-
-Attempts to read sensor data description continuously until successful or timeout is reached. 
-**Parameters**:
-
-* **sd_description**: The sensor data description to be filled
-* **timeout_in_seconds**: The timeout in seconds
-
-
-**Returns**:
-
-True if the sensor data description was read successfully, false if timeout occurred
-
-
-
-**Parameters**:
-
-* ansys::api::avxcelerate::sensors::v1::data_access::SensorDataDescription & **sd_description**
-* const std::chrono::milliseconds & **timeout_in_milliseconds**
-
-**Return type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::ReadSensorDataDescription"}]}`
--->
-
-<a id="classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter_1ad34f7a9ef15162b7cc5ed2d4e09db83f"></a>
-### Function IsAllSensorDataDescriptionsAvailable
-
-![][private]
-
-
-```cpp
-bool simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::IsAllSensorDataDescriptionsAvailable(const SensorDataDescriptions &sensor_data_descriptions)
-```
-
-
-Check if all sensor data descriptions are available.
-
-**Parameters**:
-
-* **sensor_data_descriptions**: The sensor data descriptions to check
-
-
-**Returns**:
-
-True if all sensor data descriptions are available, false otherwise
-
-
-
-**Parameters**:
-
-* const SensorDataDescriptions & **sensor_data_descriptions**
-
-**Return type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::avx_sensor_cosim::AvxVssApiAdapter::IsAllSensorDataDescriptionsAvailable"}]}`
--->
-
-<!--
-**TODO**:
-
-* `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"avx__vss__api__adapter_8h"},"children":[{"type":"text","text":"avx_vss_api_adapter.h"}]}`
 -->
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -15,8 +15,6 @@ The <code>[Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__fr
 
 * [Cli](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a807aa80e06431cbd27fe12c4856b668f)
 * [Execute](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a39259f9147a9151d89d372d4fa9f278f)
-* [sim_runner_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1ac350a9a1674fc9305d0600744ad0474c)
-* [simfwk_cli_server_](classsimulation__framework_1_1core_1_1Cli.md#classsimulation__framework_1_1core_1_1Cli_1a6fc4816cf540674cce0a2ed77de36b91)
 
 ## Public functions
 

@@ -30,13 +30,11 @@ The class also manages the base cycle time for the simulation, which can be retr
 ## Members
 
 * [ActivityFactory](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a95a2f9ae094f44fbbfec5391e5fbd97c)
-* [base_cycle_time_](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a20e520974b59e234385790385389c0df)
 * [Create](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1aadc073761ddca70660c778b109cd8f2a)
 * [CreateFmuActivity](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1ae25fb9a822daf739975964cdafb610d2)
 * [GetSimulationBaseCycleTime](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a94f462204396f9cb530415976df06210)
 * [IfAvxSensorSettingsDefined](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a37defb0d81b110616e4870d0406c19eb)
 * [SetSimulationBaseCycleTime](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1affd15ea8f52128efdef54859ed514dc7)
-* [sim_params_](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a1bfaa8abb6c8f26b16b2e8af1f2d0f1a)
 * [~IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory_1adf2fbce25a6e1ead3b04a8490dfdc498)
 
 ## Public functions
@@ -262,45 +260,6 @@ Updates the base cycle time used for scheduling and synchronization in the simul
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::ActivityFactory::SetSimulationBaseCycleTime"}]}`
--->
-
-## Private functions
-
-<a id="classsimulation__framework_1_1autonomy_1_1ActivityFactory_1a37defb0d81b110616e4870d0406c19eb"></a>
-### Function IfAvxSensorSettingsDefined
-
-![][private]
-![][const]
-
-
-```cpp
-bool simulation_framework::autonomy::ActivityFactory::IfAvxSensorSettingsDefined(const std::string &activity_name, const std::vector< avx_sensor_cosim::AvxSensorSetting > &avx_sensor_settings) const
-```
-
-
-Check if the AVxcelerate Sensor settings are defined.
-
-
-
-
-
-**Parameters**:
-
-* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
-* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::vector< avx_sensor_cosim::AvxSensorSetting > & **avx_sensor_settings**
-
-**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::ActivityFactory::IfAvxSensorSettingsDefined"}]}`
--->
-
-<!--
-**TODO**:
-
-* `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"activity__factory_8h"},"children":[{"type":"text","text":"activity_factory.h"}]}`
 -->
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

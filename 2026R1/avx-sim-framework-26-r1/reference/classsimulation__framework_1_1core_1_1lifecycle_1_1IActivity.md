@@ -443,4 +443,3 @@ Set the simulation settings for this activity.
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)

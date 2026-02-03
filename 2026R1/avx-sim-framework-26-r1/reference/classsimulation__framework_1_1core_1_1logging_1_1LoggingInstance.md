@@ -16,7 +16,6 @@ A singleton class to be used for all logging purposes. It can be used to registe
 * [GetLoggers](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a2eb401fe3115b87936427b9ca29cd05a)
 * [ILoggerContainer](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a6dd9f78b23d7faf49ba8f998bb803224)
 * [Log](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a2536343b1dc6df11fa67321a4e41e525)
-* [loggers_](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3cee128a45463b7df4981decc9f71b1d)
 * [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3946cfed6c421a90ffc1e5cc92da5da1)
 * [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1ab22c29e95f6416514eb26f0fc30b2aab)
 * [operator=](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a63a61b155ccf69d9dbae7efe7f338791)
@@ -310,39 +309,6 @@ Returns a reference to global singleton logging instance.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::LoggingInstance::GetInstance"}]}`
--->
-
-## Private functions
-
-<a id="classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1ab22c29e95f6416514eb26f0fc30b2aab"></a>
-### Function LoggingInstance
-
-![][private]
-
-
-```cpp
-simulation_framework::core::logging::LoggingInstance::LoggingInstance()
-```
-
-
-
-
-
-
-
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::LoggingInstance::LoggingInstance"}]}`
--->
-
-<!--
-**TODO**:
-
-* `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"logging_8h"},"children":[{"type":"text","text":"logging.h"}]}`
 -->
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

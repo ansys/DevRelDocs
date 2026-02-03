@@ -67,7 +67,6 @@ class MyActivity : public BaseActivity
 * [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a650b1e86ca7059ad464709ca0d06347f)
 * [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a4ccbf97b81ac7b2a43ceef2c151138e1)
 * [BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a8a0d6519c43db4cd308cbe2e62af2810)
-* [communication_manager_ptr_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a523727eb50a1a7e7af9abbec75f674f1)
 * [ExecuteStep](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aaf5d84e0430a2703b697eb867e8bf303)
 * [Finalize](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a9162ba92fb21fd805a6c72b1065b187c)
 * [GetCurrentTimestamp](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a2cfe6105cb8e660b2757e602d4fc1a87)
@@ -76,14 +75,10 @@ class MyActivity : public BaseActivity
 * [GetName](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a11d72f1e983f825e5d812224aa43c432)
 * [GetSimulationOutputDirectory](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aeca0631080d2751212ad8958d16860e9)
 * [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a7373af65d0b4c133cb5de42bf2f88caf)
-* [is_init_step_finished_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a57099acd8929a247b8206e56b4f0fa77)
-* [name_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a35c8f4f3abcf43c034aee89011f30597)
-* [scheduler_client_ptr_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a097c7767b500e8ee7551431fc36788a1)
 * [SetSimulationSettings](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a3f7d19a88d57a2b77941db44fe0a4e65)
 * [SetUpCommunication](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a3355c18c8d6519f9649ec7de4274e645)
 * [Shutdown](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1ac0a680a9bd6db9111ba085d641a16126)
 * [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a45bf4108dc4b3b77b4ca997b824ea07f)
-* [timeout_](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1ae3295afdda5cdc8455bc6554c81444e5)
 * [WaitForPubSubConnection](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aec1044c8ce73f976233c54e496740b04)
 * [~BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aa52831f008141d199920090685f078fd)
 * [~IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1aa2353eb3f2ef5955c1c3c2d1024c8c48)
@@ -703,41 +698,6 @@ Template method which allows user to add one subscriber receiving message to the
 
 * `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"typename"}]},{"type":"text","text":" "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"Topic"}]}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::BaseActivity::AddSubscriber"}]}`
--->
-
-## Private functions
-
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aec1044c8ce73f976233c54e496740b04"></a>
-### Function WaitForPubSubConnection
-
-![][private]
-
-
-```cpp
-void simulation_framework::core::lifecycle::BaseActivity::WaitForPubSubConnection() override
-```
-
-
-Default Initial methods called here, e.g. Communication hand-shaking. Modifying by Inherting classes is NOT allowed.
-
-
-
-
-
-**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
-
-**Reimplements**: [WaitForPubSubConnection](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1a29ff4fb0ec86c24b24ff9296107df773)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::BaseActivity::WaitForPubSubConnection"}]}`
--->
-
-<!--
-**TODO**:
-
-* `includes  {"type":"element","name":"includes","attributes":{"local":"no","refid":"base__activity_8h"},"children":[{"type":"text","text":"base_activity.h"}]}`
 -->
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
