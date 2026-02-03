@@ -23,8 +23,9 @@
 
 ## Public functions
 
-<a id="structIRockyDeviceModel_1ab03adbadfc1d2a7a8f3a1f849be73d1a"></a>
 ### Function get\_timestep
+
+<a id="structIRockyDeviceModel_1ab03adbadfc1d2a7a8f3a1f849be73d1a"></a>
 
 ![][public]
 ![][const]
@@ -51,8 +52,9 @@ The value of the simulation timestep.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyDeviceModel::get_timestep"}]}`
 -->
 
-<a id="structIRockyDeviceModel_1a089a84ac233a433ac17ac46fbbb229b3"></a>
 ### Function get\_current\_time
+
+<a id="structIRockyDeviceModel_1a089a84ac233a433ac17ac46fbbb229b3"></a>
 
 ![][public]
 ![][const]
@@ -79,8 +81,9 @@ The value of the current time in the simulation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyDeviceModel::get_current_time"}]}`
 -->
 
-<a id="structIRockyDeviceModel_1ac59cb9db0136afc98b82bfb07573101a"></a>
 ### Function get\_gravity
+
+<a id="structIRockyDeviceModel_1ac59cb9db0136afc98b82bfb07573101a"></a>
 
 ![][public]
 ![][const]
@@ -112,8 +115,9 @@ A <code>double3</code> value representing the current gravity acceleration vecto
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyDeviceModel::get_gravity"}]}`
 -->
 
-<a id="structIRockyDeviceModel_1a9980c5362764f3bf7a159ccd7865d947"></a>
 ### Function set\_gravity
+
+<a id="structIRockyDeviceModel_1a9980c5362764f3bf7a159ccd7865d947"></a>
 
 ![][public]
 
@@ -148,8 +152,9 @@ globally in the simulation from that time onward.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyDeviceModel::set_gravity"}]}`
 -->
 
-<a id="structIRockyDeviceModel_1ac4d4eb7321ad6815176bda70de368c17"></a>
 ### Function get\_particle\_cloud\_point
+
+<a id="structIRockyDeviceModel_1ac4d4eb7321ad6815176bda70de368c17"></a>
 
 ![][public]
 
@@ -191,8 +196,9 @@ An <code>IRockyParticleCloudPoint</code> object, which can be used to get cloud 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyDeviceModel::get_particle_cloud_point"}]}`
 -->
 
-<a id="structIRockyDeviceModel_1a380db6692ee5fe3c15b52d62cef723cd"></a>
 ### Function get\_pair\_scalars
+
+<a id="structIRockyDeviceModel_1a380db6692ee5fe3c15b52d62cef723cd"></a>
 
 ![][public]
 
@@ -227,8 +233,9 @@ An <code>[IRockyPairScalars](structIRockyPairScalars.md#structIRockyPairScalars)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyDeviceModel::get_pair_scalars"}]}`
 -->
 
-<a id="structIRockyDeviceModel_1a9bd2b236ca0c6f7859924b0ed588c584"></a>
 ### Function get\_geometry\_scalars
+
+<a id="structIRockyDeviceModel_1a9bd2b236ca0c6f7859924b0ed588c584"></a>
 
 ![][public]
 

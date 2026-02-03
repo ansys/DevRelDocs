@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1logging_1_1ILogger"></a>
-# Class simulation\_framework::core::logging::ILogger
+# Class simulation_framework::core::logging::ILogger
 
 ![][C++]
 ![][public]
 
-#include: <[i_logger.h](i__logger_8h.md#i__logger_8h)>
+**Definition**: `core/logging/i_logger.h` (line 31)
 
 An interface for implementing custom logging mechanisms.
 
@@ -12,7 +11,7 @@ An interface for implementing custom logging mechanisms.
 
 **Inherited by**:
 
-* [simulation\_framework::core::logging::ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger)
+* [simulation_framework::core::logging::ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger)
 
 ## Members
 
@@ -105,7 +104,7 @@ Set the current log level
 
 * LogLevel **log_level**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -143,7 +142,7 @@ Log a message on the logging interface
 * LogLevel **level**
 * std::string_view **message**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 

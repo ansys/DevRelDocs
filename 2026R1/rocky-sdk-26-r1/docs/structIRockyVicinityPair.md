@@ -23,8 +23,9 @@ The <code>[IRockyVicinityPair](structIRockyVicinityPair.md#structIRockyVicinityP
 
 ## Public functions
 
-<a id="structIRockyVicinityPair_1a6453667273c56febeed7c2806fa4a516"></a>
 ### Function get\_home\_particle
+
+<a id="structIRockyVicinityPair_1a6453667273c56febeed7c2806fa4a516"></a>
 
 ![][public]
 ![][const]
@@ -51,8 +52,9 @@ An <code>[IRockyParticle](structIRockyParticle.md#structIRockyParticle)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyVicinityPair::get_home_particle"}]}`
 -->
 
-<a id="structIRockyVicinityPair_1a1085098207fdb2d038dcf55d10c318e1"></a>
 ### Function get\_near\_particle
+
+<a id="structIRockyVicinityPair_1a1085098207fdb2d038dcf55d10c318e1"></a>
 
 ![][public]
 ![][const]
@@ -79,8 +81,9 @@ An <code>[IRockyParticle](structIRockyParticle.md#structIRockyParticle)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyVicinityPair::get_near_particle"}]}`
 -->
 
-<a id="structIRockyVicinityPair_1a3d83f2759c519cadcd1a4a4199be6bb1"></a>
 ### Function get\_near\_triangle
+
+<a id="structIRockyVicinityPair_1a3d83f2759c519cadcd1a4a4199be6bb1"></a>
 
 ![][public]
 ![][const]
@@ -107,8 +110,9 @@ An <code>[IRockyGeometryTriangle](structIRockyGeometryTriangle.md#structIRockyGe
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyVicinityPair::get_near_triangle"}]}`
 -->
 
-<a id="structIRockyVicinityPair_1a4e8173adc82c91c5d26edd8b0100c2f3"></a>
 ### Function is\_particle\_particle
+
+<a id="structIRockyVicinityPair_1a4e8173adc82c91c5d26edd8b0100c2f3"></a>
 
 ![][public]
 ![][const]
@@ -135,8 +139,9 @@ True if the pair represents a particle-to-particle vicinity, false otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyVicinityPair::is_particle_particle"}]}`
 -->
 
-<a id="structIRockyVicinityPair_1ad5120c027dba90895cf9d05d99e54e7d"></a>
 ### Function is\_particle\_triangle
+
+<a id="structIRockyVicinityPair_1ad5120c027dba90895cf9d05d99e54e7d"></a>
 
 ![][public]
 ![][const]
@@ -163,8 +168,9 @@ True if the pair represents a particle-to-triangle vicinity, false otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyVicinityPair::is_particle_triangle"}]}`
 -->
 
-<a id="structIRockyVicinityPair_1a34b7e627e2b53650ec7a6b230528ee6f"></a>
 ### Function get\_distance
+
+<a id="structIRockyVicinityPair_1a34b7e627e2b53650ec7a6b230528ee6f"></a>
 
 ![][public]
 ![][const]
@@ -191,8 +197,9 @@ The distance between the centroids of the two entities in the vicinity.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyVicinityPair::get_distance"}]}`
 -->
 
-<a id="structIRockyVicinityPair_1ac697ba9682008871b110a31c8be3a48b"></a>
 ### Function get\_squared\_distance
+
+<a id="structIRockyVicinityPair_1ac697ba9682008871b110a31c8be3a48b"></a>
 
 ![][public]
 ![][const]

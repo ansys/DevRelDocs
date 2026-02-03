@@ -1,4 +1,9 @@
-﻿# OpticalPropertiesBuilder
+﻿---
+uid: optical_properties_builder
+title: OpticalPropertiesBuilder
+---
+
+# OpticalPropertiesBuilder
 
 **Full Name**: `SpeosNX_2512::OpticalPropertiesBuilder`
 

@@ -1,4 +1,3 @@
-<a id="dir_1ceceec62c04a0e6911af44f7cafce80"></a>
 # Directory version
 
 **Location**: `core/version/`

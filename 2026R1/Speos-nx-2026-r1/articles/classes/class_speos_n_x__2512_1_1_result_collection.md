@@ -1,4 +1,9 @@
-﻿# ResultCollection
+﻿---
+uid: result_collection
+title: ResultCollection
+---
+
+# ResultCollection
 
 **Full Name**: `SpeosNX_2512::ResultCollection`
 

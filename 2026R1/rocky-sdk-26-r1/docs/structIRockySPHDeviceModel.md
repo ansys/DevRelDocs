@@ -36,8 +36,9 @@
 
 ## Public functions
 
-<a id="structIRockySPHDeviceModel_1a1b3b0ad0b9b4e4f723fed8cd6d859ff1"></a>
 ### Function get\_sph\_timestep
+
+<a id="structIRockySPHDeviceModel_1a1b3b0ad0b9b4e4f723fed8cd6d859ff1"></a>
 
 ![][public]
 ![][const]
@@ -64,8 +65,9 @@ The timestep value used for the integration of all SPH model equations.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_sph_timestep"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a2e07d8b951637326aa17c3869fa75f6f"></a>
 ### Function get\_element\_mass
+
+<a id="structIRockySPHDeviceModel_1a2e07d8b951637326aa17c3869fa75f6f"></a>
 
 ![][public]
 ![][const]
@@ -92,8 +94,9 @@ The mass associated to each one of the SPH elements in the simulation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_element_mass"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1aa0dda18957c28775ae86803575275db2"></a>
 ### Function get\_initial\_element\_spacing
+
+<a id="structIRockySPHDeviceModel_1aa0dda18957c28775ae86803575275db2"></a>
 
 ![][public]
 ![][const]
@@ -120,8 +123,9 @@ The spacing between SPH elements when they enter into the simulation. This is a 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_initial_element_spacing"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1ac0f6dab31e47087f957b9c5f921044ca"></a>
 ### Function get\_kernel\_weight
+
+<a id="structIRockySPHDeviceModel_1ac0f6dab31e47087f957b9c5f921044ca"></a>
 
 ![][public]
 ![][const]
@@ -157,8 +161,9 @@ The value of the kernel function evaluated at a point located at a given distanc
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_kernel_weight"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a878401756bbf4517bd2dbf7c0b6f53b5"></a>
 ### Function get\_kernel\_derivative
+
+<a id="structIRockySPHDeviceModel_1a878401756bbf4517bd2dbf7c0b6f53b5"></a>
 
 ![][public]
 ![][const]
@@ -194,8 +199,9 @@ The value of the derivative of the kernel function evaluated at a point located 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_kernel_derivative"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a08276af5f02f29358b677c6c5c4eb623"></a>
 ### Function get\_smoothing\_length
+
+<a id="structIRockySPHDeviceModel_1a08276af5f02f29358b677c6c5c4eb623"></a>
 
 ![][public]
 ![][const]
@@ -222,8 +228,9 @@ The value of the smoothing length considered in the SPH discretization. The radi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_smoothing_length"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a11adf37fd1989526607c500a68f5a190"></a>
 ### Function get\_minimum\_distance
+
+<a id="structIRockySPHDeviceModel_1a11adf37fd1989526607c500a68f5a190"></a>
 
 ![][public]
 ![][const]
@@ -250,8 +257,9 @@ The value of the minimum distance between any two neighbor SPH elements in a sim
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_minimum_distance"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a02751c7624b5eebe898fd497fd368f7e"></a>
 ### Function get\_minimum\_distance\_squared
+
+<a id="structIRockySPHDeviceModel_1a02751c7624b5eebe898fd497fd368f7e"></a>
 
 ![][public]
 ![][const]
@@ -278,8 +286,9 @@ The squared value of the minimum distance between any two neighbor SPH elements 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_minimum_distance_squared"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a0e7d219d00a03afa23f4340f966f274f"></a>
 ### Function get\_fluid\_viscosity
+
+<a id="structIRockySPHDeviceModel_1a0e7d219d00a03afa23f4340f966f274f"></a>
 
 ![][public]
 ![][const]
@@ -306,8 +315,9 @@ The user-prescribed value of the fluid's dynamic viscosity. Not suitable when va
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_fluid_viscosity"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a30c701000a588378110aa2a163a07847"></a>
 ### Function get\_fluid\_density
+
+<a id="structIRockySPHDeviceModel_1a30c701000a588378110aa2a163a07847"></a>
 
 ![][public]
 ![][const]
@@ -334,8 +344,9 @@ The user-prescribed value of the fluid's density.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_fluid_density"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a53bf5a5c5dc38bed487a0ff75b4f881e"></a>
 ### Function get\_fluid\_thermal\_conductivity
+
+<a id="structIRockySPHDeviceModel_1a53bf5a5c5dc38bed487a0ff75b4f881e"></a>
 
 ![][public]
 ![][const]
@@ -362,8 +373,9 @@ The user-prescribed value of the fluid's thermal conductivity.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_fluid_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a3f511dafb251e18d7dfc8a8f7c9cfcf1"></a>
 ### Function get\_fluid\_specific\_heat
+
+<a id="structIRockySPHDeviceModel_1a3f511dafb251e18d7dfc8a8f7c9cfcf1"></a>
 
 ![][public]
 ![][const]
@@ -390,8 +402,9 @@ The user-prescribed value of the fluid's specific heat.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_fluid_specific_heat"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a085435fa6f49074b90d50686b5b6dd6c"></a>
 ### Function get\_turbulent\_prandtl\_number
+
+<a id="structIRockySPHDeviceModel_1a085435fa6f49074b90d50686b5b6dd6c"></a>
 
 ![][public]
 ![][const]
@@ -418,8 +431,9 @@ The user-prescribed value of the turbulent Prandtl number, which is the ratio be
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_turbulent_prandtl_number"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a53367cb9b7f97cb102cb9e1703a95131"></a>
 ### Function get\_speed\_of\_sound
+
+<a id="structIRockySPHDeviceModel_1a53367cb9b7f97cb102cb9e1703a95131"></a>
 
 ![][public]
 ![][const]
@@ -446,8 +460,9 @@ The user-prescribed value of the speed of sound in the fluid.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_speed_of_sound"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1ad52e0f31256e039c7043a7de165fadf7"></a>
 ### Function get\_surface\_tension
+
+<a id="structIRockySPHDeviceModel_1ad52e0f31256e039c7043a7de165fadf7"></a>
 
 ![][public]
 ![][const]
@@ -474,8 +489,9 @@ The user-prescribed value of the surface tension at a free surface.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_surface_tension"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1aa0fa9e6fb5e51db54a99a4bc45949409"></a>
 ### Function get\_stiffness
+
+<a id="structIRockySPHDeviceModel_1aa0fa9e6fb5e51db54a99a4bc45949409"></a>
 
 ![][public]
 ![][const]
@@ -502,8 +518,9 @@ The value of the stiffness used when modeling the repulsive normal force at boun
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_stiffness"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a7a1b280f7d23137f75cafb3eb29cf2bd"></a>
 ### Function get\_damping\_coefficient
+
+<a id="structIRockySPHDeviceModel_1a7a1b280f7d23137f75cafb3eb29cf2bd"></a>
 
 ![][public]
 ![][const]
@@ -530,8 +547,9 @@ The value of the damping coefficient used when modeling the dissipative force at
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_damping_coefficient"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a98a93eadf944d6ad89416d384e1476c3"></a>
 ### Function get\_wall\_turbulent\_thermal\_conductance
+
+<a id="structIRockySPHDeviceModel_1a98a93eadf944d6ad89416d384e1476c3"></a>
 
 ![][public]
 ![][const]
@@ -569,8 +587,9 @@ The thermal conductance between a SPH element and a geometry triangle, calculate
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_wall_turbulent_thermal_conductance"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1a707d2c43244e0a2db08047ba86dbfd78"></a>
 ### Function get\_element\_cloud\_point
+
+<a id="structIRockySPHDeviceModel_1a707d2c43244e0a2db08047ba86dbfd78"></a>
 
 ![][public]
 
@@ -612,8 +631,9 @@ An <code>IRockySPHElementCloudPoint</code> object, which can be used to get clou
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHDeviceModel::get_element_cloud_point"}]}`
 -->
 
-<a id="structIRockySPHDeviceModel_1aeafb1df061969bc91b4912460cebedb5"></a>
 ### Function has\_turbulence\_modeling
+
+<a id="structIRockySPHDeviceModel_1aeafb1df061969bc91b4912460cebedb5"></a>
 
 ![][public]
 ![][const]

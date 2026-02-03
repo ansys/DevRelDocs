@@ -23,8 +23,9 @@
 
 ## Public functions
 
-<a id="classIRockyPluginDataEntry_1a67a2a72cd88df362f2fbe128b6814c17"></a>
 ### Function has
+
+<a id="classIRockyPluginDataEntry_1a67a2a72cd88df362f2fbe128b6814c17"></a>
 
 ![][public]
 ![][const]
@@ -60,8 +61,9 @@ True if the parameter specified by name actually exists in the <code>[IRockyPlug
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPluginDataEntry::has"}]}`
 -->
 
-<a id="classIRockyPluginDataEntry_1afb831ee2119c05117bde33db7e5f965c"></a>
 ### Function get\_bool
+
+<a id="classIRockyPluginDataEntry_1afb831ee2119c05117bde33db7e5f965c"></a>
 
 ![][public]
 ![][const]
@@ -97,8 +99,9 @@ The boolean value specified for the given parameter in the Rocky UI through a ch
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPluginDataEntry::get_bool"}]}`
 -->
 
-<a id="classIRockyPluginDataEntry_1ab1a99ba3c573dbfc7547cc35ded461be"></a>
 ### Function get\_int
+
+<a id="classIRockyPluginDataEntry_1ab1a99ba3c573dbfc7547cc35ded461be"></a>
 
 ![][public]
 ![][const]
@@ -134,8 +137,9 @@ The integer value specified for the given parameter in the Rocky UI.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPluginDataEntry::get_int"}]}`
 -->
 
-<a id="classIRockyPluginDataEntry_1af0df7ed2b038b1a48228a24b1b840692"></a>
 ### Function get\_double
+
+<a id="classIRockyPluginDataEntry_1af0df7ed2b038b1a48228a24b1b840692"></a>
 
 ![][public]
 ![][const]
@@ -171,8 +175,9 @@ The double precision value specified for the given parameter in the Rocky UI.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPluginDataEntry::get_double"}]}`
 -->
 
-<a id="classIRockyPluginDataEntry_1a9e4a1299866b05178f910869689c7ac9"></a>
 ### Function get\_string
+
+<a id="classIRockyPluginDataEntry_1a9e4a1299866b05178f910869689c7ac9"></a>
 
 ![][public]
 ![][const]
@@ -208,8 +213,9 @@ The string value specified for the given parameter in the Rocky UI.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPluginDataEntry::get_string"}]}`
 -->
 
-<a id="classIRockyPluginDataEntry_1ad0ca70feaf5f67d7ebb52802dad39989"></a>
 ### Function get\_list\_size
+
+<a id="classIRockyPluginDataEntry_1ad0ca70feaf5f67d7ebb52802dad39989"></a>
 
 ![][public]
 ![][const]
@@ -245,8 +251,9 @@ The number of <code>[IRockyPluginDataEntry](classIRockyPluginDataEntry.md#classI
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPluginDataEntry::get_list_size"}]}`
 -->
 
-<a id="classIRockyPluginDataEntry_1ab8a6c4631f842a5c2d724f4661287665"></a>
 ### Function get\_list\_item
+
+<a id="classIRockyPluginDataEntry_1ab8a6c4631f842a5c2d724f4661287665"></a>
 
 ![][public]
 ![][const]

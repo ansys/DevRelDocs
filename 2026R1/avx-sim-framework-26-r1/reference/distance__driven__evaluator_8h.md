@@ -1,9 +1,8 @@
-<a id="distance__driven__evaluator_8h"></a>
-# File distance\_driven\_evaluator.h
+# File distance_driven_evaluator.h
 
 ![][C++]
 
-**Location**: `autonomy/evaluator/distance\_driven\_evaluator/distance\_driven\_evaluator.h`
+**Location**: `autonomy/evaluator/distance_driven_evaluator/distance_driven_evaluator.h`
 
 
 
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::evaluator::DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator)
+* [simulation_framework::evaluator::DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
 * [evaluator](namespaceevaluator.md#namespaceevaluator)
-* [simulation\_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
+* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
 
 ## Includes
 
@@ -25,55 +24,6 @@
 * [core/kpi/i_kpi/i_kpi.h](i__kpi_8h.md#i__kpi_8h)
 
 
-```mermaid
-graph LR
-2["autonomy/evaluator/distance_calculator/distance_calculator.h"]
-click 2 "distance__calculator_8h_source.md#distance__calculator_8h_source"
-2 --> 3
-2 --> 4
-
-1["distance_driven_evaluator.h"]
-click 1 "distance__driven__evaluator_8h.md#distance__driven__evaluator_8h"
-1 --> 2
-1 --> 5
-
-6["core/kpi/definition/kpi_definition.h"]
-click 6 "kpi__definition_8h_source.md#kpi__definition_8h_source"
-6 --> 7
-6 --> 10
-6 --> 13
-
-5["core/kpi/i_kpi/i_kpi.h"]
-click 5 "i__kpi_8h_source.md#i__kpi_8h_source"
-5 --> 6
-5 --> 12
-
-7["core/time/i_clock/i_clock.h"]
-click 7 "i__clock_8h_source.md#i__clock_8h_source"
-7 --> 8
-7 --> 11
-7 --> 12
-
-8["core/time/i_clock/timestamp.h"]
-click 8 "timestamp_8h_source.md#timestamp_8h_source"
-8 --> 9
-8 --> 10
-
-11["chrono"]
-
-9["cstdint"]
-
-12["memory"]
-
-4["optional"]
-
-3["osi_groundtruth.pb.h"]
-
-10["string"]
-
-13["vector"]
-
-```
 
 
 ## Included by
@@ -81,16 +31,6 @@ click 8 "timestamp_8h_source.md#timestamp_8h_source"
 * [distance_driven_evaluator.cpp](distance__driven__evaluator_8cpp.md#distance__driven__evaluator_8cpp)
 
 
-```mermaid
-graph RL
-2["distance_driven_evaluator.cpp"]
-click 2 "distance__driven__evaluator_8cpp_source.md#distance__driven__evaluator_8cpp_source"
-
-1["distance_driven_evaluator.h"]
-click 1 "distance__driven__evaluator_8h.md#distance__driven__evaluator_8h"
-2 --> 1
-
-```
 
 
 ## Source

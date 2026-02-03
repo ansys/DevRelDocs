@@ -13,11 +13,11 @@ For quick hands-on, after downloading the package for Linux, unpack it and run f
 bash INSTALL -silent -LM
 ```
 
-### Add a license to Ansys License Manager
+## Add a license to Ansys License Manager
 
 Please ask your customer support to have the detailed documentation.
 
-### Using Ansys License Manager remotely
+## Using Ansys License Manager remotely
 
 If the license file has been set up and runs remotely, you can also use simulation framework by setting the environment variable `ANSYSLMD_LICENSE_FILE`, once the connection or proxy allows. i.e.
 

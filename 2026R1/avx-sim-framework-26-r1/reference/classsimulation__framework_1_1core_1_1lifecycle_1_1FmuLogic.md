@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic"></a>
-# Class simulation\_framework::core::lifecycle::FmuLogic
+# Class simulation_framework::core::lifecycle::FmuLogic
 
 ![][C++]
 ![][public]
 
-#include: <[fmu_logic.h](fmu__logic_8h.md#fmu__logic_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_logic.h` (line 40)
 
 An implementation of the [IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic) interface using the [FMI4cpp](https://github.com/NTNU-IHB/FMI4cpp) library.
 
@@ -12,7 +11,7 @@ An implementation of the [IFmuLogic](classsimulation__framework_1_1core_1_1lifec
 
 **Inherits from**:
 
-* [simulation\_framework::core::lifecycle::IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic)
+* [simulation_framework::core::lifecycle::IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic)
 
 ## Members
 
@@ -28,7 +27,7 @@ An implementation of the [IFmuLogic](classsimulation__framework_1_1core_1_1lifec
 * [GetOutputs](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1ae31cf08f14147691cf9f354f1cadd7cf)
 * [GetOutputs](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a611e8286778b474c013150f46e37caf0)
 * [GetSimulationTime](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1abf602595ae1d4b9c0eb21315aaa11b1f)
-* [impl\_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a3381d52429a868f805ceae49325399da)
+* [impl_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a3381d52429a868f805ceae49325399da)
 * [InitInOutMap](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a8899be3914f9378637f15fd3aa6fbdef)
 * [SetInitializationParams](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a75a19b6df4df4e7ea9771f41cae5f0de)
 * [SetInputs](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a1b0f3a1cba93d938fc55bd8917e836b5)
@@ -38,35 +37,6 @@ An implementation of the [IFmuLogic](classsimulation__framework_1_1core_1_1lifec
 * [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1add2ea6f3b48f6010178076e8916db410)
 * [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a00b5e8f8ecd66354c524a2cc1d4fe2e3)
 * [~IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a1d689116fcc83336da3bca36b0fc0bcc)
-
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic_1a3381d52429a868f805ceae49325399da"></a>
-### Variable impl\_
-
-![][private]
-
-#include: <[fmu_logic.h](fmu__logic_8h.md#fmu__logic_8h)>
-
-
-```cpp
-std::unique_ptr<FmuLogicImpl> simulation_framework::core::lifecycle::FmuLogic::impl_
-```
-
-
-Pointer to the implementation of this class.
-
-
-
-
-
-**Type**: std::unique_ptr< FmuLogicImpl >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::FmuLogic::impl_"}]}`
--->
 
 ## Public functions
 
@@ -91,7 +61,7 @@ Constructor for [FmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1Fm
 
 **Parameters**:
 
-* const std::string & **fmu_path**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **fmu_path**
 
 **Return type**: 
 
@@ -124,11 +94,11 @@ Call <code>fmi2SetupExperiment</code>
 
 **Parameters**:
 
-* double **start** = 0 
-* double **stop** = 0 
-* double **tolerance** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **start** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **stop** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **tolerance** = 0 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetupExperiment](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a31bd3fac13966e3bbeac00874fc8a2a2)
 
@@ -155,7 +125,7 @@ Call <code>fmi2EnterInitializationMode</code>
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [EnterInitialization](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a37799269a2473c00bc062dec185ccec2)
 
@@ -182,7 +152,7 @@ Call <code>fmi2ExitInitializationMode</code>
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [ExitInitialization](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1ae6fc6b7997934b0029c1502d1cd9b891)
 
@@ -215,11 +185,11 @@ Call SetupExperiment, EnterInitialization, and ExitInitialization.
 
 **Parameters**:
 
-* double **start** = 0 
-* double **stop** = 0 
-* double **tolerance** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **start** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **stop** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **tolerance** = 0 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Setup](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a3a68d8e71105c3f41094d2f34cf4a7bf)
 
@@ -294,10 +264,10 @@ A boolean value indicating whether the step was successful
 
 **Parameters**:
 
-* double **step_size**
-* const FmuInOutMap & **input**
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **step_size**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **input**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a9bcdb0a6da50c28e4ea0fc43dde61c5b)
 
@@ -333,9 +303,9 @@ A boolean value indicating whether the step was successful
 
 **Parameters**:
 
-* double **step_size**
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **step_size**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a9c0f65bae99a9e27d265b70c8e96540f)
 
@@ -366,9 +336,9 @@ Set the fmu initialization parameters.
 
 **Parameters**:
 
-* const FmuInOutMap & **params**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **params**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetInitializationParams](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a81945792cd1a72262218b5f985b1ae61)
 
@@ -399,9 +369,9 @@ Set the fmu inputs.
 
 **Parameters**:
 
-* const FmuInOutMap & **inputs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **inputs**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [SetInputs](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a2561e600ec9b6cd47fba87d4f7abccda)
 
@@ -436,15 +406,15 @@ Modify or set a parameter for a single variable in the FMU.
 
 **Parameters**:
 
-* const std::string & **variable_name**
-* const T & **value**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **variable_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [T](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) & **value**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
 
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename T"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"typename"}]},{"type":"text","text":" "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"T"}]}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::FmuLogic::SetValue"}]}`
 -->
 
@@ -478,14 +448,14 @@ The value of the variable
 
 **Parameters**:
 
-* const std::string & **variable_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **variable_name**
 
-**Return type**: T
+**Return type**: [T](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
 
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename T"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"typename"}]},{"type":"text","text":" "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classsimulation__framework_1_1core_1_1Topic"},"children":[{"type":"text","text":"T"}]}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::lifecycle::FmuLogic::GetOutput"}]}`
 -->
 
@@ -543,7 +513,7 @@ Get a subset of the fmu outputs.
 
 * FmuInOutMap & **requested_outputs**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [GetOutputs](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a871f93e3dc6c01f7fded7d5952538e61)
 
@@ -573,7 +543,7 @@ The value of the simulation time as a double
 
 
 
-**Return type**: double
+**Return type**: [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -629,7 +599,7 @@ The pointer to the FMU object
 
 
 
-**Return type**: const fmi::fmu *
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) fmi::fmu *
 
 <!--
 **TODO**:
@@ -657,7 +627,7 @@ The pointer to the Co-simulation FMU object
 
 
 
-**Return type**: const fmi::cs_fmu *
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) fmi::cs_fmu *
 
 <!--
 **TODO**:
@@ -685,7 +655,7 @@ The pointer to the Co-simulation FMU instance object
 
 
 
-**Return type**: const fmi::cs_slave *
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) fmi::cs_slave *
 
 <!--
 **TODO**:
@@ -713,7 +683,7 @@ The current FmuState enum value
 
 
 
-**Return type**: FmuState
+**Return type**: [FmuState](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [GetFmuState](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic_1a4ccb7416f23b3c208a084b39c396514d)
 
@@ -734,3 +704,4 @@ The current FmuState enum value
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[protected]: https://img.shields.io/badge/-protected-yellow (protected)

@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1IPublisher"></a>
-# Class simulation\_framework::core::IPublisher
+# Class simulation_framework::core::IPublisher
 
 ![][C++]
 ![][public]
 
-#include: <[i_publisher.h](i__publisher_8h.md#i__publisher_8h)>
+**Definition**: `core/communication/i_publisher.h` (line 22)
 
 
 
@@ -62,7 +61,7 @@ virtual void simulation_framework::core::IPublisher::Execute()=0
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -87,7 +86,7 @@ virtual void simulation_framework::core::IPublisher::Init()=0
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -116,7 +115,7 @@ virtual bool simulation_framework::core::IPublisher::WaitForSubscriber(std::chro
 
 * std::chrono::milliseconds **timeout** = std::chrono::milliseconds(60000) 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -143,10 +142,10 @@ virtual bool simulation_framework::core::IPublisher::WaitForSubscribersInNumberO
 
 **Parameters**:
 
-* const int **subscriber_count**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **subscriber_count**
 * std::chrono::milliseconds **timeout** = std::chrono::milliseconds(60000) 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

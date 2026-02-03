@@ -25,8 +25,9 @@ An <code>[IRockyParticleBreakageScalarsModel](structIRockyParticleBreakageScalar
 
 ## Public functions
 
-<a id="structIRockyParticleBreakageScalarsModel_1a360827c2e0c1a676e3a8c6be6ed26362"></a>
 ### Function enable\_t10
+
+<a id="structIRockyParticleBreakageScalarsModel_1a360827c2e0c1a676e3a8c6be6ed26362"></a>
 
 ![][public]
 
@@ -52,8 +53,9 @@ breakage model that is intended to work along with built-in fragment size distri
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalarsModel::enable_t10"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalarsModel_1a00666ca9d343b8d3284975687ce4d087"></a>
 ### Function find
+
+<a id="structIRockyParticleBreakageScalarsModel_1a00666ca9d343b8d3284975687ce4d087"></a>
 
 ![][public]
 
@@ -93,8 +95,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalarsModel_1a7dbaee843fb6e694d1b9a4940c9eeaa2"></a>
 ### Function add
+
+<a id="structIRockyParticleBreakageScalarsModel_1a7dbaee843fb6e694d1b9a4940c9eeaa2"></a>
 
 ![][public]
 
@@ -138,8 +141,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalarsModel_1aed6f4019176f0d14ff941493d3e4dcb0"></a>
 ### Function reset
+
+<a id="structIRockyParticleBreakageScalarsModel_1aed6f4019176f0d14ff941493d3e4dcb0"></a>
 
 ![][public]
 
@@ -172,8 +176,9 @@ void IRockyParticleBreakageScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalarsModel_1aa084abe67dcb26bd2e050a39061ce0e0"></a>
 ### Function set\_dimension
+
+<a id="structIRockyParticleBreakageScalarsModel_1aa084abe67dcb26bd2e050a39061ce0e0"></a>
 
 ![][public]
 

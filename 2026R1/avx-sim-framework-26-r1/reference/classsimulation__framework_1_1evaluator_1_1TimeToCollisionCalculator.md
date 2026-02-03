@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator"></a>
-# Class simulation\_framework::evaluator::TimeToCollisionCalculator
+# Class simulation_framework::evaluator::TimeToCollisionCalculator
 
 ![][C++]
 ![][public]
 
-#include: <[ttc_calculator.h](ttc__calculator_8h.md#ttc__calculator_8h)>
+**Definition**: `autonomy/evaluator/ttc_calculator/ttc_calculator.h` (line 41)
 
 class [TimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator)
 

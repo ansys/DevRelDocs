@@ -1,9 +1,8 @@
-<a id="predictive__ttc__calculator_8cpp"></a>
-# File predictive\_ttc\_calculator.cpp
+# File predictive_ttc_calculator.cpp
 
 ![][C++]
 
-**Location**: `autonomy/evaluator/predictive\_ttc\_calculator/predictive\_ttc\_calculator.cpp`
+**Location**: `autonomy/evaluator/predictive_ttc_calculator/predictive_ttc_calculator.cpp`
 
 
 
@@ -11,8 +10,8 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
 * [utils](namespaceutils.md#namespaceutils)
 
 ## Includes
@@ -22,25 +21,6 @@
 * <optional>
 
 
-```mermaid
-graph LR
-1["predictive_ttc_calculator.cpp"]
-click 1 "predictive__ttc__calculator_8cpp.md#predictive__ttc__calculator_8cpp"
-1 --> 2
-1 --> 4
-1 --> 5
-
-2["autonomy/evaluator/predictive_ttc_calculator/predictive_ttc_calculator.h"]
-click 2 "predictive__ttc__calculator_8h_source.md#predictive__ttc__calculator_8h_source"
-2 --> 3
-
-4["autonomy/evaluator/predictive_ttc_calculator/utils.h"]
-
-5["optional"]
-
-3["osi_groundtruth.pb.h"]
-
-```
 
 
 ## Source

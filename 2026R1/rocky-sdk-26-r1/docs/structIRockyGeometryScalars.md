@@ -24,8 +24,9 @@ When running a simulation, an <code>[IRockyGeometryScalars](structIRockyGeometry
 
 ## Public functions
 
-<a id="structIRockyGeometryScalars_1aa943cd14cadc5673b99e273f135e82e1"></a>
 ### Function get\_scalar
+
+<a id="structIRockyGeometryScalars_1aa943cd14cadc5673b99e273f135e82e1"></a>
 
 ![][public]
 ![][const]
@@ -66,8 +67,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyGeometryScalars_1a566039747df70cbffa7bba5225906a5e"></a>
 ### Function set\_scalar
+
+<a id="structIRockyGeometryScalars_1a566039747df70cbffa7bba5225906a5e"></a>
 
 ![][public]
 ![][const]
@@ -105,8 +107,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyGeometryScalars_1a870beada21c47f75239b2f523e1dfca1"></a>
 ### Function add\_scalar
+
+<a id="structIRockyGeometryScalars_1a870beada21c47f75239b2f523e1dfca1"></a>
 
 ![][public]
 ![][const]
@@ -144,8 +147,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyGeometryScalars_1aa5bd66e1850855de607d9499a7dfc0b4"></a>
 ### Function max\_scalar
+
+<a id="structIRockyGeometryScalars_1aa5bd66e1850855de607d9499a7dfc0b4"></a>
 
 ![][public]
 ![][const]

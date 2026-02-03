@@ -1,4 +1,9 @@
-﻿# SelectFaceList
+﻿---
+uid: select_face_list
+title: SelectFaceList
+---
+
+# SelectFaceList
 
 **Full Name**: `SpeosNX_2512::SelectFaceList`
 

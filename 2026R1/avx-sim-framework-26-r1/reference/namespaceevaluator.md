@@ -1,9 +1,8 @@
-<a id="namespaceevaluator"></a>
 # Namespace evaluator
 
 ![][C++]
 
-#include: <[min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h)>
+**Definition**: `autonomy/evaluator/min_ttc_evaluator/min_ttc_evaluator.h` (line 19)
 
 The namespace containing evaluator implementations.
 

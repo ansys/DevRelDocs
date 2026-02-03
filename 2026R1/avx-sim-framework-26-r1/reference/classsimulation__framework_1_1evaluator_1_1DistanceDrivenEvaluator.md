@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator"></a>
-# Class simulation\_framework::evaluator::DistanceDrivenEvaluator
+# Class simulation_framework::evaluator::DistanceDrivenEvaluator
 
 ![][C++]
 ![][public]
 
-#include: <[distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)>
+**Definition**: `autonomy/evaluator/distance_driven_evaluator/distance_driven_evaluator.h` (line 29)
 
 class [DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator)
 
@@ -12,131 +11,21 @@ Definition of [DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_
 
 **Inherits from**:
 
-* [simulation\_framework::core::kpi::IKpi\< osi3::GroundTruth \>](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
+* [simulation_framework::core::kpi::IKpi\< osi3::GroundTruth \>](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
 
 ## Members
 
 * [CalculateKpi](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a84b5bd6ae0f4af77a17363b20ed5b086)
-* [distance\_calculator\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a7ebc00139a927cc1f94eebaa75a96a8f)
+* [distance_calculator_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a7ebc00139a927cc1f94eebaa75a96a8f)
 * [DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a73f1fbf32fa117be135700df7bd9bf80)
-* [driven\_dist\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a656af3eabf2c13d54d4bcf4cd8904c93)
+* [driven_dist_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a656af3eabf2c13d54d4bcf4cd8904c93)
 * [GetKpiType](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1acc4088bba0acb50e544228f3ed1fa35a)
 * [Init](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1abfe81ec22fdea705cf8ed83d51f2f3eb)
-* [kpi\_content\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1ade7cc0ec061e066b6ac081c2ff7c101c)
-* [kpi\_name\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a84bdd2b207cccb4ac4ff3d9da4a9d515)
+* [kpi_content_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1ade7cc0ec061e066b6ac081c2ff7c101c)
+* [kpi_name_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a84bdd2b207cccb4ac4ff3d9da4a9d515)
 * [Reset](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a0ae35bde229b1db909a6331e8062d3ac)
 * [~DistanceDrivenEvaluator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1ae4f36d8b8680c725648fee833bb1f501)
 * [~IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1ab56f1f4f0afe45f82e9c591df22d1377)
-
-## Private attributes
-
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a656af3eabf2c13d54d4bcf4cd8904c93"></a>
-### Variable driven\_dist\_
-
-![][private]
-
-#include: <[distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)>
-
-
-```cpp
-double simulation_framework::evaluator::DistanceDrivenEvaluator::driven_dist_
-```
-
-
-
-
-
-
-
-
-**Type**: double
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::DistanceDrivenEvaluator::driven_dist_"}]}`
--->
-
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a84bdd2b207cccb4ac4ff3d9da4a9d515"></a>
-### Variable kpi\_name\_
-
-![][private]
-
-#include: <[distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)>
-
-
-```cpp
-std::string simulation_framework::evaluator::DistanceDrivenEvaluator::kpi_name_
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::DistanceDrivenEvaluator::kpi_name_"}]}`
--->
-
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1ade7cc0ec061e066b6ac081c2ff7c101c"></a>
-### Variable kpi\_content\_
-
-![][private]
-
-#include: <[distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)>
-
-
-```cpp
-core::kpi::KpiContent simulation_framework::evaluator::DistanceDrivenEvaluator::kpi_content_ {}
-```
-
-
-
-
-
-
-
-
-**Type**: [core::kpi::KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::DistanceDrivenEvaluator::kpi_content_"}]}`
--->
-
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenEvaluator_1a7ebc00139a927cc1f94eebaa75a96a8f"></a>
-### Variable distance\_calculator\_
-
-![][private]
-
-#include: <[distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)>
-
-
-```cpp
-DistanceDrivenCalculator simulation_framework::evaluator::DistanceDrivenEvaluator::distance_calculator_ {}
-```
-
-
-
-
-
-
-
-
-**Type**: [DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::DistanceDrivenEvaluator::distance_calculator_"}]}`
--->
 
 ## Public functions
 

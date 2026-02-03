@@ -1,4 +1,3 @@
-<a id="clock_8h"></a>
 # File clock.h
 
 ![][C++]
@@ -11,45 +10,19 @@
 
 ## Classes
 
-* [simulation\_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock)
+* [simulation_framework::core::time::Clock](classsimulation__framework_1_1core_1_1time_1_1Clock.md#classsimulation__framework_1_1core_1_1time_1_1Clock)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::core::time](namespacesimulation__framework_1_1core_1_1time.md#namespacesimulation__framework_1_1core_1_1time)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core::time](namespacesimulation__framework_1_1core_1_1time.md#namespacesimulation__framework_1_1core_1_1time)
 
 ## Includes
 
 * [core/time/i_clock/i_clock.h](i__clock_8h.md#i__clock_8h)
 
 
-```mermaid
-graph LR
-1["clock.h"]
-click 1 "clock_8h.md#clock_8h"
-1 --> 2
-
-2["core/time/i_clock/i_clock.h"]
-click 2 "i__clock_8h_source.md#i__clock_8h_source"
-2 --> 3
-2 --> 6
-2 --> 7
-
-3["core/time/i_clock/timestamp.h"]
-click 3 "timestamp_8h_source.md#timestamp_8h_source"
-3 --> 4
-3 --> 5
-
-6["chrono"]
-
-4["cstdint"]
-
-7["memory"]
-
-5["string"]
-
-```
 
 
 ## Source

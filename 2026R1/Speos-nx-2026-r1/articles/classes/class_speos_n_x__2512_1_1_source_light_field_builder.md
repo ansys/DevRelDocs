@@ -1,4 +1,9 @@
-﻿# SourceLightFieldBuilder
+﻿---
+uid: source_light_field_builder
+title: SourceLightFieldBuilder
+---
+
+# SourceLightFieldBuilder
 
 **Full Name**: `SpeosNX_2512::SourceLightFieldBuilder`
 

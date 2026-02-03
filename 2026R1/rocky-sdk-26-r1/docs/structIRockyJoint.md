@@ -64,8 +64,9 @@ When it is necessary to distinguish between the two elements linked by a joint, 
 
 ## Public functions
 
-<a id="structIRockyJoint_1ab006cbc3b38064611dfa5dae2cbdf672"></a>
 ### Function get\_elastic\_force
+
+<a id="structIRockyJoint_1ab006cbc3b38064611dfa5dae2cbdf672"></a>
 
 ![][public]
 ![][const]
@@ -97,8 +98,9 @@ A vector in Cartesian coordinates, obtained as the vector sum of the normal and 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_elastic_force"}]}`
 -->
 
-<a id="structIRockyJoint_1a3447c9a4ef194097e8c3898b25ebe942"></a>
 ### Function get\_moments\_due\_to\_force
+
+<a id="structIRockyJoint_1a3447c9a4ef194097e8c3898b25ebe942"></a>
 
 ![][public]
 ![][const]
@@ -139,8 +141,9 @@ A tuple of two vectors in Cartesian coordinates, the first one is the moment on 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_moments_due_to_force"}]}`
 -->
 
-<a id="structIRockyJoint_1a8eeb46a9210aeaf532467ecb77c580e7"></a>
 ### Function get\_elastic\_moment
+
+<a id="structIRockyJoint_1a8eeb46a9210aeaf532467ecb77c580e7"></a>
 
 ![][public]
 ![][const]
@@ -172,8 +175,9 @@ A vector in Cartesian coordinates, obtained as the vector sum of the moments def
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_elastic_moment"}]}`
 -->
 
-<a id="structIRockyJoint_1a7c2d0b63f577c279227b2df8daffbf5c"></a>
 ### Function get\_damping\_force
+
+<a id="structIRockyJoint_1a7c2d0b63f577c279227b2df8daffbf5c"></a>
 
 ![][public]
 ![][const]
@@ -205,8 +209,9 @@ A vector in Cartesian coordinates, obtained as the vector sum of the forces defi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_damping_force"}]}`
 -->
 
-<a id="structIRockyJoint_1a71de79fea3ed20ae451b5cb36d2b6349"></a>
 ### Function get\_damping\_moment
+
+<a id="structIRockyJoint_1a71de79fea3ed20ae451b5cb36d2b6349"></a>
 
 ![][public]
 ![][const]
@@ -238,8 +243,9 @@ A vector in Cartesian coordinates, obtained as the vector sum of the moments def
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_damping_moment"}]}`
 -->
 
-<a id="structIRockyJoint_1add47e1c2a985abef3a9fef24c44902e2"></a>
 ### Function get\_normal\_deformation
+
+<a id="structIRockyJoint_1add47e1c2a985abef3a9fef24c44902e2"></a>
 
 ![][public]
 ![][const]
@@ -271,8 +277,9 @@ A vector in Cartesian coordinates, calculated as the product of the magnitude gi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_normal_deformation"}]}`
 -->
 
-<a id="structIRockyJoint_1a3d324dbcee8a4366284a5fb84547dd9d"></a>
 ### Function get\_tangential\_deformation
+
+<a id="structIRockyJoint_1a3d324dbcee8a4366284a5fb84547dd9d"></a>
 
 ![][public]
 ![][const]
@@ -304,8 +311,9 @@ A vector in Cartesian coordinates. For more details, please refer to the DEM Tec
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_tangential_deformation"}]}`
 -->
 
-<a id="structIRockyJoint_1abd22a485b99c59a2141dff07e6f9b9e0"></a>
 ### Function get\_normal\_deformation\_velocity
+
+<a id="structIRockyJoint_1abd22a485b99c59a2141dff07e6f9b9e0"></a>
 
 ![][public]
 ![][const]
@@ -337,8 +345,9 @@ The normal component of the linear deformation velocity, expressed in Cartesian 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_normal_deformation_velocity"}]}`
 -->
 
-<a id="structIRockyJoint_1a35e3299e0b5a35128aff0ca6f7604e38"></a>
 ### Function get\_tangential\_deformation\_velocity
+
+<a id="structIRockyJoint_1a35e3299e0b5a35128aff0ca6f7604e38"></a>
 
 ![][public]
 ![][const]
@@ -370,8 +379,9 @@ The tangential component of the linear deformation velocity, expressed in Cartes
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_tangential_deformation_velocity"}]}`
 -->
 
-<a id="structIRockyJoint_1a7c84ef4dad6d9e1f38b2d227ac1f083a"></a>
 ### Function get\_number\_angular\_deformations
+
+<a id="structIRockyJoint_1a7c84ef4dad6d9e1f38b2d227ac1f083a"></a>
 
 ![][public]
 ![][const]
@@ -398,8 +408,9 @@ An integer representing the number of possible angular deformations. For joints 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_number_angular_deformations"}]}`
 -->
 
-<a id="structIRockyJoint_1a46c8b6ca5aa8e78f55cb6c0a70f1cc6d"></a>
 ### Function get\_angular\_deformation
+
+<a id="structIRockyJoint_1a46c8b6ca5aa8e78f55cb6c0a70f1cc6d"></a>
 
 ![][public]
 ![][const]
@@ -440,8 +451,9 @@ The value of the angle for the given direction.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_angular_deformation"}]}`
 -->
 
-<a id="structIRockyJoint_1a1be4ec6e88935d14a4b900d09fdbfadf"></a>
 ### Function get\_angular\_deformation\_velocity
+
+<a id="structIRockyJoint_1a1be4ec6e88935d14a4b900d09fdbfadf"></a>
 
 ![][public]
 ![][const]
@@ -482,8 +494,9 @@ The magnitude of the angular deformation velocity for the given direction.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_angular_deformation_velocity"}]}`
 -->
 
-<a id="structIRockyJoint_1ae4c1028eba2077ae552c21aba43ce638"></a>
 ### Function get\_angular\_deformation\_direction
+
+<a id="structIRockyJoint_1ae4c1028eba2077ae552c21aba43ce638"></a>
 
 ![][public]
 ![][const]
@@ -524,8 +537,9 @@ The unit vector in Cartesian coordinates associated to for the given direction.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_angular_deformation_direction"}]}`
 -->
 
-<a id="structIRockyJoint_1a47718a93f4aa6bffe9ef0e03bfff3fa9"></a>
 ### Function get\_normal\_stiffness
+
+<a id="structIRockyJoint_1a47718a93f4aa6bffe9ef0e03bfff3fa9"></a>
 
 ![][public]
 ![][const]
@@ -557,8 +571,9 @@ The stiffness value calculated. For more details, please refer to the DEM Techni
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_normal_stiffness"}]}`
 -->
 
-<a id="structIRockyJoint_1a48e95a4cc7245305980339ea8ddf43b3"></a>
 ### Function get\_tangential\_stiffness
+
+<a id="structIRockyJoint_1a48e95a4cc7245305980339ea8ddf43b3"></a>
 
 ![][public]
 ![][const]
@@ -590,8 +605,9 @@ The stiffness value calculated. For more details, please refer to the DEM Techni
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_tangential_stiffness"}]}`
 -->
 
-<a id="structIRockyJoint_1a299b8659e8bb2ddba28de92d18055e5b"></a>
 ### Function get\_angular\_stiffness
+
+<a id="structIRockyJoint_1a299b8659e8bb2ddba28de92d18055e5b"></a>
 
 ![][public]
 ![][const]
@@ -632,8 +648,9 @@ A stiffness value calculated with one of the following equations of the DEM Tech
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_angular_stiffness"}]}`
 -->
 
-<a id="structIRockyJoint_1ad55375a544cfd11a0c0fb52986b1fc74"></a>
 ### Function get\_normal\_damping\_coefficient
+
+<a id="structIRockyJoint_1ad55375a544cfd11a0c0fb52986b1fc74"></a>
 
 ![][public]
 ![][const]
@@ -665,8 +682,9 @@ The damping coefficient calculated. For more details, please refer to the DEM Te
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_normal_damping_coefficient"}]}`
 -->
 
-<a id="structIRockyJoint_1a25c86f76033636ab37b3ff19ba60b41a"></a>
 ### Function get\_tangential\_damping\_coefficient
+
+<a id="structIRockyJoint_1a25c86f76033636ab37b3ff19ba60b41a"></a>
 
 ![][public]
 ![][const]
@@ -698,8 +716,9 @@ The damping coefficient calculated. For more details, please refer to the DEM Te
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_tangential_damping_coefficient"}]}`
 -->
 
-<a id="structIRockyJoint_1a83db4989103e17e6158b6e96a030457d"></a>
 ### Function get\_angular\_damping\_coefficient
+
+<a id="structIRockyJoint_1a83db4989103e17e6158b6e96a030457d"></a>
 
 ![][public]
 ![][const]
@@ -740,8 +759,9 @@ A damping coefficient calculated with one of the following equations of the DEM 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_angular_damping_coefficient"}]}`
 -->
 
-<a id="structIRockyJoint_1af300e95bee5d2a332c3085e6fad91af2"></a>
 ### Function get\_normal\_vector
+
+<a id="structIRockyJoint_1af300e95bee5d2a332c3085e6fad91af2"></a>
 
 ![][public]
 ![][const]
@@ -768,8 +788,9 @@ The unit normal vector associated to the joint. This vector is defined as indica
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_normal_vector"}]}`
 -->
 
-<a id="structIRockyJoint_1af2ea637b5ce30f553c19f973411ef451"></a>
 ### Function get\_area
+
+<a id="structIRockyJoint_1af2ea637b5ce30f553c19f973411ef451"></a>
 
 ![][public]
 ![][const]
@@ -796,8 +817,9 @@ The cross sectional area associated to the joint. For fibers, it will be the are
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_area"}]}`
 -->
 
-<a id="structIRockyJoint_1a22573a85d220d9db4afa1b0f67337196"></a>
 ### Function get\_area\_moment\_of\_inertia
+
+<a id="structIRockyJoint_1a22573a85d220d9db4afa1b0f67337196"></a>
 
 ![][public]
 ![][const]
@@ -833,8 +855,9 @@ The area moment of inertia of the cross section of the joint associated to defor
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_area_moment_of_inertia"}]}`
 -->
 
-<a id="structIRockyJoint_1a2d57d8f171e77be4e1de3f2eb2b10fb3"></a>
 ### Function get\_young\_modulus
+
+<a id="structIRockyJoint_1a2d57d8f171e77be4e1de3f2eb2b10fb3"></a>
 
 ![][public]
 ![][const]
@@ -861,8 +884,9 @@ The value of the Young's modulus specified in the Rocky UI for the material asso
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_young_modulus"}]}`
 -->
 
-<a id="structIRockyJoint_1a09693f2837c14dfb1a0fa4d40373553f"></a>
 ### Function get\_poisson\_ratio
+
+<a id="structIRockyJoint_1a09693f2837c14dfb1a0fa4d40373553f"></a>
 
 ![][public]
 ![][const]
@@ -889,8 +913,9 @@ The value of the Poisson's ratio specified in the Rocky UI for the material asso
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyJoint_1a0912316f01b3785c5f711aad2a3ebde1"></a>
 ### Function get\_normal\_elastic\_ratio
+
+<a id="structIRockyJoint_1a0912316f01b3785c5f711aad2a3ebde1"></a>
 
 ![][public]
 ![][const]
@@ -922,8 +947,9 @@ If the [Anisotropic] option is enabled in the Rocky UI, it will return the value
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_normal_elastic_ratio"}]}`
 -->
 
-<a id="structIRockyJoint_1aeeae504e7d95c787e088c8dd5a55c83c"></a>
 ### Function get\_tangential\_elastic\_ratio
+
+<a id="structIRockyJoint_1aeeae504e7d95c787e088c8dd5a55c83c"></a>
 
 ![][public]
 ![][const]
@@ -955,8 +981,9 @@ If the [Anisotropic] option is enabled in the Rocky UI, it will return the value
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_tangential_elastic_ratio"}]}`
 -->
 
-<a id="structIRockyJoint_1a23fa06ce00c95412142f49e82825bca1"></a>
 ### Function get\_torsion\_elastic\_ratio
+
+<a id="structIRockyJoint_1a23fa06ce00c95412142f49e82825bca1"></a>
 
 ![][public]
 ![][const]
@@ -988,8 +1015,9 @@ If the [Anisotropic] option is enabled in the Rocky UI, it will return the value
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_torsion_elastic_ratio"}]}`
 -->
 
-<a id="structIRockyJoint_1a83474e7ee11615ca201de8fec94c8c22"></a>
 ### Function get\_bending\_elastic\_ratio
+
+<a id="structIRockyJoint_1a83474e7ee11615ca201de8fec94c8c22"></a>
 
 ![][public]
 ![][const]
@@ -1021,8 +1049,9 @@ If the [Anisotropic] option is enabled in the Rocky UI, it will return the value
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_bending_elastic_ratio"}]}`
 -->
 
-<a id="structIRockyJoint_1a997ad60ff60b99d485c1d3d2fce74ff2"></a>
 ### Function get\_joint\_damping\_ratio
+
+<a id="structIRockyJoint_1a997ad60ff60b99d485c1d3d2fce74ff2"></a>
 
 ![][public]
 ![][const]
@@ -1049,8 +1078,9 @@ The value of the damping ratio specified for the joint, used in the joint dampin
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_joint_damping_ratio"}]}`
 -->
 
-<a id="structIRockyJoint_1a200f5da4324981ce63eeca693082ce3f"></a>
 ### Function get\_angle\_scaling\_factor
+
+<a id="structIRockyJoint_1a200f5da4324981ce63eeca693082ce3f"></a>
 
 ![][public]
 ![][const]
@@ -1082,8 +1112,9 @@ The angle scaling factor defined above.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_angle_scaling_factor"}]}`
 -->
 
-<a id="structIRockyJoint_1a53d243061f43d6e0a291de65afec3b3c"></a>
 ### Function get\_equivalent\_mass
+
+<a id="structIRockyJoint_1a53d243061f43d6e0a291de65afec3b3c"></a>
 
 ![][public]
 ![][const]
@@ -1110,8 +1141,9 @@ The equivalent or effective mass used for calculating joint damping coefficients
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_equivalent_mass"}]}`
 -->
 
-<a id="structIRockyJoint_1ad78b35364784e0ffe09508d99facd5a3"></a>
 ### Function get\_normal\_stiffness\_per\_area
+
+<a id="structIRockyJoint_1ad78b35364784e0ffe09508d99facd5a3"></a>
 
 ![][public]
 ![][const]
@@ -1138,8 +1170,9 @@ The value of the normal stiffness per area unit associated to the joint. Please 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_normal_stiffness_per_area"}]}`
 -->
 
-<a id="structIRockyJoint_1a1444e28a82d898d15775180373952ee1"></a>
 ### Function get\_tangential\_stiffness\_per\_area
+
+<a id="structIRockyJoint_1a1444e28a82d898d15775180373952ee1"></a>
 
 ![][public]
 ![][const]
@@ -1166,8 +1199,9 @@ The value of the tangential stiffness per area unit associated to the joint. Ple
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_tangential_stiffness_per_area"}]}`
 -->
 
-<a id="structIRockyJoint_1a2f87ef623553e934f8fdca19d163669a"></a>
 ### Function get\_young\_modulus\_multiplier
+
+<a id="structIRockyJoint_1a2f87ef623553e934f8fdca19d163669a"></a>
 
 ![][public]
 ![][const]
@@ -1194,8 +1228,9 @@ For custom fibers only, this will return the factor in the right-hand side of eq
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_young_modulus_multiplier"}]}`
 -->
 
-<a id="structIRockyJoint_1af78ec40df8e4715343434772668bf70d"></a>
 ### Function get\_scalars
+
+<a id="structIRockyJoint_1af78ec40df8e4715343434772668bf70d"></a>
 
 ![][public]
 
@@ -1226,8 +1261,9 @@ The class to manipulate joint's scalars
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_scalars"}]}`
 -->
 
-<a id="structIRockyJoint_1acd6105a244aacfbbc5a833760c7ca1b9"></a>
 ### Function get\_home\_element\_orientation
+
+<a id="structIRockyJoint_1acd6105a244aacfbbc5a833760c7ca1b9"></a>
 
 ![][public]
 ![][const]
@@ -1254,8 +1290,9 @@ A tuple whose two components define the axis-angle _home_ element orientation. T
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_home_element_orientation"}]}`
 -->
 
-<a id="structIRockyJoint_1addfb58409bb1dc5703d9d3ab64b3e458"></a>
 ### Function get\_near\_element\_orientation
+
+<a id="structIRockyJoint_1addfb58409bb1dc5703d9d3ab64b3e458"></a>
 
 ![][public]
 ![][const]
@@ -1282,8 +1319,9 @@ A tuple whose two components define the axis-angle _near_ element orientation. T
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_near_element_orientation"}]}`
 -->
 
-<a id="structIRockyJoint_1a4422c62fbad4e4f34c011d683fc0d859"></a>
 ### Function get\_home\_element\_centroid\_position
+
+<a id="structIRockyJoint_1a4422c62fbad4e4f34c011d683fc0d859"></a>
 
 ![][public]
 ![][const]
@@ -1310,8 +1348,9 @@ The joint _home element_ center point coordinates.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_home_element_centroid_position"}]}`
 -->
 
-<a id="structIRockyJoint_1a3a804cfa90d13e065de6d983d7a35caf"></a>
 ### Function get\_near\_element\_centroid\_position
+
+<a id="structIRockyJoint_1a3a804cfa90d13e065de6d983d7a35caf"></a>
 
 ![][public]
 ![][const]
@@ -1338,8 +1377,9 @@ The joint _near element_ center point coordinates.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_near_element_centroid_position"}]}`
 -->
 
-<a id="structIRockyJoint_1a86a5ed840cdc8b276f3ff65ad8148a3c"></a>
 ### Function get\_home\_arm
+
+<a id="structIRockyJoint_1a86a5ed840cdc8b276f3ff65ad8148a3c"></a>
 
 ![][public]
 ![][const]
@@ -1366,8 +1406,9 @@ The vector that joins the _home element_ center to the joint center.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_home_arm"}]}`
 -->
 
-<a id="structIRockyJoint_1a4129719851a851ff1ac7d0190d834ad3"></a>
 ### Function get\_near\_arm
+
+<a id="structIRockyJoint_1a4129719851a851ff1ac7d0190d834ad3"></a>
 
 ![][public]
 ![][const]
@@ -1394,8 +1435,9 @@ The vector that joins the _near element_ center to the joint center.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJoint::get_near_arm"}]}`
 -->
 
-<a id="structIRockyJoint_1a37e1bd3fb20a03cf9be8a2d4dd317d22"></a>
 ### Function get\_element\_tags
+
+<a id="structIRockyJoint_1a37e1bd3fb20a03cf9be8a2d4dd317d22"></a>
 
 ![][public]
 ![][const]

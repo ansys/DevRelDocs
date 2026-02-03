@@ -1,4 +1,9 @@
-﻿# ComponentOpticalDesignExchangeResultFeature
+﻿---
+uid: component_optical_design_exchange_result_feature
+title: ComponentOpticalDesignExchangeResultFeature
+---
+
+# ComponentOpticalDesignExchangeResultFeature
 
 **Full Name**: `SpeosNX_2512::ComponentOpticalDesignExchangeResultFeature`
 

@@ -2,7 +2,6 @@
 
 <p id="module_specification"></p>
 
-
 The way that a custom [module](glossary.md#module) must interact with the
 Rocky UI is specified by means of a Python file. From this file, Rocky
 extracts two primary kinds of information:
@@ -18,7 +17,9 @@ The way in which these specifications must be coded is described
 throughout this chapter. It is assumed that users have a basic knowledge
 of the Python language.
 
-##  <p id="structure-of-the-specification-file">Structure of the specification file</p>
+## Structure of the specification file
+
+<p id="structure-of-the-specification-file"></p>
 
 The first operation that must be made in the file is the importation of
 some utilities, most of them defined by the Rocky Solver SDK itself. The
@@ -121,7 +122,7 @@ The other variables are in fact classes that contain the specification
 of each individual parameter needed by the module. Examples of the
 implementation of such classes are given in the following sections.
 
-##  Module general properties
+## Module general properties
 
 Module general properties are not associated to specific entities in a
 Rocky UI as are the other types of properties described in the following
@@ -194,7 +195,7 @@ class CustomListSpecs:
     custom_list_quantity_2 = Quantity(value=0.2, unit='m', caption='Quantity 2')
 ```
 
-##  Module material properties
+## Module material properties
 
 A module can add custom properties to [materials](glossary.md#material) apart
 from the ones defined by default in Rocky. The specification of these
@@ -218,7 +219,7 @@ class CustomMaterialProperties:
     mat_prop_2 = Quantity(value=300.0, unit='K', caption='Custom Material Property 2')
 ```
 
-##  Module materials interactions properties
+## Module materials interactions properties
 
 
 Rocky can associate module parameters to [materials
@@ -246,7 +247,7 @@ class CustomInteractionProperties:
     custom_mi_quantity_2 = Quantity(value=7.0, unit='-', caption='Custom Quantity 2')
 ```
 
-##  Module geometry properties
+## Module geometry properties
 
 When Rocky associates module parameters to each one of the individual
 boundaries in a project, those parameters are called geometry
@@ -267,7 +268,7 @@ class CustomGeometryProperties:
     custom_property = Quantity(value=0.0, unit='N', caption='Custom Geometry Property')
 ```
 
-##  Module particle group properties
+## Module particle group properties
 
 
 When this type of property is defined in a module, different values can
@@ -292,7 +293,7 @@ class CustomParticleGroupProperties:
 
 *Figure 2.6: Module particle group properties displayed in the Rocky UI*
 
-##  Module particle input properties
+## Module particle input properties
 
 Rocky supports the ability to associate custom values to every particle
 in a simulation. In Rocky, these values are associated to special
@@ -314,7 +315,7 @@ the associated particle group, since it is not possible to associate
 individual values per particle as it is done with the built-in particle
 properties.
 
-![input prop](./images/input_prop_sc.png)
+![input prop sc](./images/input_prop_sc.png)
 
 *Figure 2.7: Custom scalar displayed in the Rocky UI with the initial value set in the module’s particle-input properties sub-tab.*
 
@@ -338,7 +339,7 @@ values of the new particle scalar must be stored in disk throughout a
 simulation, and be able to be displayed in a 3D view window at output
 times, as shown in Figure 2.7.
 
-##  Specification of custom models
+## Specification of custom models
 
 <p id="specification-of-custom-models"></p>
 
@@ -468,7 +469,7 @@ other two. An example of the latter case is the pair of models
 instantaneous breakage and fragment size distribution, in which the
 first one can calculate custom data needed by the second one.
 
-##  Specification of variable properties
+## Specification of variable properties
 
 
 Since Rocky 2022R1, the Rocky Solver SDK gives developers the ability
@@ -606,7 +607,7 @@ how a module can perform that replacement.
 | Temperature            |  temperature              |  Temperature             |
 
 
-##  The .plugin file
+## The .plugin file
 
 <p id="plugin-file"></p>
 
@@ -656,7 +657,7 @@ where:
 
 See Section [Class Reference](class_reference_index.md) for an example plugin file.
 
-##  Module version
+## Module version
 
 <p id="module-version"></p>
 

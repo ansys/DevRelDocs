@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1ITopic"></a>
-# Class simulation\_framework::core::ITopic
+# Class simulation_framework::core::ITopic
 
 ![][C++]
 ![][public]
 
-#include: <[i_topic.h](i__topic_8h.md#i__topic_8h)>
+**Definition**: `core/communication/i_topic.h` (line 36)
 
 
 
@@ -12,7 +11,7 @@ This is abstraction class of a [Topic](classsimulation__framework_1_1core_1_1Top
 
 **Inherited by**:
 
-* [simulation\_framework::core::Topic\< TopicMsgType \>](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
+* [simulation_framework::core::Topic\< TopicMsgType \>](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 ## Members
 
@@ -206,7 +205,7 @@ Add one publisher of this [Topic](classsimulation__framework_1_1core_1_1Topic.md
 
 * std::unique_ptr< IPublisher > **pub_ptr**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -242,7 +241,7 @@ Add one subscriber to this [Topic](classsimulation__framework_1_1core_1_1Topic.m
 
 * std::unique_ptr< ISubscriber > **sub_ptr**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -271,7 +270,7 @@ Remove all publisher and subscriber which are asociated with this [Topic](classs
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -303,7 +302,7 @@ The list of assigned subscriber which are listening to this [Topic](classsimulat
 
 
 
-**Return type**: const Subscribers &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Subscribers &
 
 **Reimplemented by**:
 
@@ -335,7 +334,7 @@ The list of assigned publisher which are publishing message to this [Topic](clas
 
 
 
-**Return type**: const Publishers &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Publishers &
 
 **Reimplemented by**:
 

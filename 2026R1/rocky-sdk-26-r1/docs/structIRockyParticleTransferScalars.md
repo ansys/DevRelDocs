@@ -28,8 +28,9 @@ When running a simulation, an <code>[IRockyParticleTransferScalars](structIRocky
 
 ## Public functions
 
-<a id="structIRockyParticleTransferScalars_1adb482691a11732335076edd8113087cd"></a>
 ### Function get\_heat\_transfer
+
+<a id="structIRockyParticleTransferScalars_1adb482691a11732335076edd8113087cd"></a>
 
 ![][public]
 ![][const]
@@ -56,8 +57,9 @@ The value of the total heat transfer rate to the particle at a given time. This 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalars::get_heat_transfer"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalars_1a3990cc0e8e9d91d57cb4dd5edfebc8c1"></a>
 ### Function set\_heat\_transfer
+
+<a id="structIRockyParticleTransferScalars_1a3990cc0e8e9d91d57cb4dd5edfebc8c1"></a>
 
 ![][public]
 
@@ -92,8 +94,9 @@ will be used in the thermal energy balance equation of the particle in order to 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalars::set_heat_transfer"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalars_1a698d33f0f3ed82cf1a62ff21c881fb74"></a>
 ### Function add\_heat\_transfer
+
+<a id="structIRockyParticleTransferScalars_1a698d33f0f3ed82cf1a62ff21c881fb74"></a>
 
 ![][public]
 
@@ -126,8 +129,9 @@ ROCKY_FUNCTIONS void IRockyParticleTransferScalars::add_heat_transfer(const doub
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalars::add_heat_transfer"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalars_1a8f0eeb9e7c46b0a82b746c80f7bcc3c2"></a>
 ### Function add\_heat\_source
+
+<a id="structIRockyParticleTransferScalars_1a8f0eeb9e7c46b0a82b746c80f7bcc3c2"></a>
 
 ![][public]
 
@@ -162,8 +166,9 @@ equation of a particle. The added value can be positive (heat is generated) or n
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalars::add_heat_source"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalars_1aa840c5918e86e974c13e7d630251c5b4"></a>
 ### Function get\_scalar
+
+<a id="structIRockyParticleTransferScalars_1aa840c5918e86e974c13e7d630251c5b4"></a>
 
 ![][public]
 ![][const]
@@ -204,8 +209,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalars_1a32a00ee4ca40287266b284214e8a2c9c"></a>
 ### Function set\_scalar
+
+<a id="structIRockyParticleTransferScalars_1a32a00ee4ca40287266b284214e8a2c9c"></a>
 
 ![][public]
 ![][const]
@@ -243,8 +249,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalars_1a20599ee8283e5adcb2af659ca7b60985"></a>
 ### Function add\_scalar
+
+<a id="structIRockyParticleTransferScalars_1a20599ee8283e5adcb2af659ca7b60985"></a>
 
 ![][public]
 ![][const]
@@ -282,8 +289,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalars_1a9cef39b6f42cca4284f2bd733ee4d173"></a>
 ### Function max\_scalar
+
+<a id="structIRockyParticleTransferScalars_1a9cef39b6f42cca4284f2bd733ee4d173"></a>
 
 ![][public]
 ![][const]

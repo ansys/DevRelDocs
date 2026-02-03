@@ -20,8 +20,9 @@
 
 ## Public functions
 
-<a id="structIRockyGeometriesMotionData_1a089856efc3afdea2fdf9c90652e411e8"></a>
 ### Function get\_number\_of\_geometries
+
+<a id="structIRockyGeometriesMotionData_1a089856efc3afdea2fdf9c90652e411e8"></a>
 
 ![][public]
 ![][const]
@@ -48,8 +49,9 @@ The number of geometries in the Rocky project.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometriesMotionData::get_number_of_geometries"}]}`
 -->
 
-<a id="structIRockyGeometriesMotionData_1a36a8aa9aa2bd497f7381980b78c83cb9"></a>
 ### Function get\_geometry
+
+<a id="structIRockyGeometriesMotionData_1a36a8aa9aa2bd497f7381980b78c83cb9"></a>
 
 ![][public]
 ![][const]
@@ -90,8 +92,9 @@ A geometry's motion.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometriesMotionData::get_geometry"}]}`
 -->
 
-<a id="structIRockyGeometriesMotionData_1a97350213657a5dfca98e787a4200ccc7"></a>
 ### Function get\_geometry
+
+<a id="structIRockyGeometriesMotionData_1a97350213657a5dfca98e787a4200ccc7"></a>
 
 ![][public]
 ![][const]
@@ -132,8 +135,9 @@ A geometry's motion.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometriesMotionData::get_geometry"}]}`
 -->
 
-<a id="structIRockyGeometriesMotionData_1a0a9f25ad715ac525854a83d7b591100f"></a>
 ### Function has\_linked\_motion\_frame
+
+<a id="structIRockyGeometriesMotionData_1a0a9f25ad715ac525854a83d7b591100f"></a>
 
 ![][public]
 ![][const]

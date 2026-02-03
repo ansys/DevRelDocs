@@ -1,4 +1,9 @@
-﻿# SimulationInverseBuilder
+﻿---
+uid: simulation_inverse_builder
+title: SimulationInverseBuilder
+---
+
+# SimulationInverseBuilder
 
 **Full Name**: `SpeosNX_2512::SimulationInverseBuilder`
 

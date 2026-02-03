@@ -1,9 +1,8 @@
-<a id="fmu__logic_8h"></a>
-# File fmu\_logic.h
+# File fmu_logic.h
 
 ![][C++]
 
-**Location**: `core/lifecycle/fmu\_activity/fmu\_logic.h`
+**Location**: `core/lifecycle/fmu_activity/fmu_logic.h`
 
 
 
@@ -11,15 +10,15 @@
 
 ## Classes
 
-* [simulation\_framework::core::lifecycle::FmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic)
+* [simulation_framework::core::lifecycle::FmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic)
 
 ## Namespaces
 
 * [fmi4cpp](namespacefmi4cpp.md#namespacefmi4cpp)
 * [fmi4cpp::fmi2](namespacefmi4cpp_1_1fmi2.md#namespacefmi4cpp_1_1fmi2)
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core::lifecycle](namespacesimulation__framework_1_1core_1_1lifecycle.md#namespacesimulation__framework_1_1core_1_1lifecycle)
 
 ## Includes
 
@@ -29,45 +28,6 @@
 * <set>
 
 
-```mermaid
-graph LR
-4["core/lifecycle/fmu_activity/fmu_config.h"]
-click 4 "fmu__config_8h_source.md#fmu__config_8h_source"
-4 --> 5
-4 --> 6
-4 --> 7
-4 --> 8
-4 --> 9
-
-1["fmu_logic.h"]
-click 1 "fmu__logic_8h.md#fmu__logic_8h"
-1 --> 2
-1 --> 3
-1 --> 10
-1 --> 6
-
-3["core/lifecycle/fmu_activity/i_fmu_logic.h"]
-click 3 "i__fmu__logic_8h_source.md#i__fmu__logic_8h_source"
-3 --> 4
-3 --> 2
-3 --> 6
-3 --> 7
-
-2["core/lifecycle/fmu_activity/fmu_state.h"]
-
-5["map"]
-
-10["memory"]
-
-6["set"]
-
-7["string"]
-
-8["variant"]
-
-9["vector"]
-
-```
 
 
 ## Source

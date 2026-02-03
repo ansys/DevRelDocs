@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator"></a>
-# Class simulation\_framework::evaluator::MinTtcEvaluator
+# Class simulation_framework::evaluator::MinTtcEvaluator
 
 ![][C++]
 ![][public]
 
-#include: <[min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h)>
+**Definition**: `autonomy/evaluator/min_ttc_evaluator/min_ttc_evaluator.h` (line 32)
 
 class [MinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator)
 
@@ -12,103 +11,20 @@ Definition of [MinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1MinTt
 
 **Inherits from**:
 
-* [simulation\_framework::core::kpi::IKpi\< osi3::GroundTruth \>](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
+* [simulation_framework::core::kpi::IKpi\< osi3::GroundTruth \>](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
 
 ## Members
 
 * [CalculateKpi](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1aec1741a5c8b655182c090b2bafdafb12)
 * [GetKpiType](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1af021217919c4e7498c6247dd46947e2c)
 * [Init](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1a1c317953b082649c8134c3c79cec5160)
-* [kpi\_name\_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad2e2fd8366c7775a33cf48786286babe)
-* [min\_ttc\_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad1a6cf8672aeb605683309debf6c78ae)
+* [kpi_name_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad2e2fd8366c7775a33cf48786286babe)
+* [min_ttc_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad1a6cf8672aeb605683309debf6c78ae)
 * [MinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1a5a35e9df18a09910460479a7bfdadf7e)
 * [Reset](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1aff4c106aeed6de6bb55d3e5c4680e04a)
-* [ttc\_calculator\_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1a8a31f922824fe4210a92603a14c85ad9)
+* [ttc_calculator_](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1a8a31f922824fe4210a92603a14c85ad9)
 * [~IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi_1ab56f1f4f0afe45f82e9c591df22d1377)
 * [~MinTtcEvaluator](classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator.md#classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1afdb0fa3d5dc75f71132a46cba5bcf912)
-
-## Private attributes
-
-<a id="classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad1a6cf8672aeb605683309debf6c78ae"></a>
-### Variable min\_ttc\_
-
-![][private]
-
-#include: <[min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h)>
-
-
-```cpp
-std::chrono::milliseconds simulation_framework::evaluator::MinTtcEvaluator::min_ttc_
-```
-
-
-
-
-
-
-
-
-**Type**: std::chrono::milliseconds
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::MinTtcEvaluator::min_ttc_"}]}`
--->
-
-<a id="classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1ad2e2fd8366c7775a33cf48786286babe"></a>
-### Variable kpi\_name\_
-
-![][private]
-
-#include: <[min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h)>
-
-
-```cpp
-std::string simulation_framework::evaluator::MinTtcEvaluator::kpi_name_
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::MinTtcEvaluator::kpi_name_"}]}`
--->
-
-<a id="classsimulation__framework_1_1evaluator_1_1MinTtcEvaluator_1a8a31f922824fe4210a92603a14c85ad9"></a>
-### Variable ttc\_calculator\_
-
-![][private]
-
-#include: <[min_ttc_evaluator.h](min__ttc__evaluator_8h.md#min__ttc__evaluator_8h)>
-
-
-```cpp
-TimeToCollisionCalculator simulation_framework::evaluator::MinTtcEvaluator::ttc_calculator_ {}
-```
-
-
-
-
-
-
-
-
-**Type**: [TimeToCollisionCalculator](classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator.md#classsimulation__framework_1_1evaluator_1_1TimeToCollisionCalculator)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::MinTtcEvaluator::ttc_calculator_"}]}`
--->
 
 ## Public functions
 

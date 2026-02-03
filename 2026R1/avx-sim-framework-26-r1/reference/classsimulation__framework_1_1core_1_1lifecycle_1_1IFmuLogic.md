@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic"></a>
-# Class simulation\_framework::core::lifecycle::IFmuLogic
+# Class simulation_framework::core::lifecycle::IFmuLogic
 
 ![][C++]
 ![][public]
 
-#include: <[i_fmu_logic.h](i__fmu__logic_8h.md#i__fmu__logic_8h)>
+**Definition**: `core/lifecycle/fmu_activity/i_fmu_logic.h` (line 26)
 
 The interface for FMU Logic to be used by an FMU activity.
 
@@ -12,7 +11,7 @@ An implementation of this class can be used from a high level to control the exe
 
 **Inherited by**:
 
-* [simulation\_framework::core::lifecycle::FmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic)
+* [simulation_framework::core::lifecycle::FmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuLogic)
 
 ## Members
 
@@ -80,11 +79,11 @@ Call <code>fmi2SetupExperiment</code>
 
 **Parameters**:
 
-* double **start** = 0 
-* double **stop** = 0 
-* double **tolerance** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **start** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **stop** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **tolerance** = 0 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -113,7 +112,7 @@ Call <code>fmi2EnterInitializationMode</code>
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -142,7 +141,7 @@ Call <code>fmi2ExitInitializationMode</code>
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -177,11 +176,11 @@ Call SetupExperiment, EnterInitialization, and ExitInitialization.
 
 **Parameters**:
 
-* double **start** = 0 
-* double **stop** = 0 
-* double **tolerance** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **start** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **stop** = 0 
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **tolerance** = 0 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -219,9 +218,9 @@ A boolean value indicating whether the step was successful
 
 **Parameters**:
 
-* double **step_size**
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **step_size**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -300,10 +299,10 @@ A boolean value indicating whether the step was successful
 
 **Parameters**:
 
-* double **step_size**
-* const FmuInOutMap & **input**
+* [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **step_size**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **input**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -336,9 +335,9 @@ Set the fmu initialization parameters.
 
 **Parameters**:
 
-* const FmuInOutMap & **params**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **params**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -371,9 +370,9 @@ Set the fmu inputs.
 
 **Parameters**:
 
-* const FmuInOutMap & **inputs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **inputs**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -441,7 +440,7 @@ Get a subset of the fmu outputs.
 
 * FmuInOutMap & **requested_outputs**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -473,7 +472,7 @@ The current FmuState enum value
 
 
 
-**Return type**: FmuState
+**Return type**: [FmuState](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 

@@ -122,8 +122,6 @@ new functionalities or modify some specific behavior
 
 In CUDA-related operations, it refers to the CPU and its memory.
 
-
-
 ## Instantaneous breakage
 
 <p id="instantaneous-breakage"></p>
@@ -273,7 +271,9 @@ used in Rocky for simulating the motion of solid particles, since the
 fluid is represented by discrete elements of constant mass whose
 motion is determined by integration of Newton’s second law.
 
-## Transfer scalar<p id="transfer-scalars"></p>
+## Transfer scalar
+
+<p id="transfer-scalars"></p>
 
 A type of scalar variable whose values are reset automatically at the
 beginning of each new time iteration. Currently defined only for

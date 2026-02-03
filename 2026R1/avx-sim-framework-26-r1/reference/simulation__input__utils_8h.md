@@ -1,9 +1,8 @@
-<a id="simulation__input__utils_8h"></a>
-# File simulation\_input\_utils.h
+# File simulation_input_utils.h
 
 ![][C++]
 
-**Location**: `autonomy/simulation/sim\_instance/simulation\_input\_utils.h`
+**Location**: `autonomy/simulation/sim_instance/simulation_input_utils.h`
 
 
 
@@ -11,11 +10,11 @@
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
 * [autonomy](namespaceautonomy.md#namespaceautonomy)
-* [simulation\_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
+* [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
 * [util](namespaceutil.md#namespaceutil)
-* [simulation\_framework::autonomy::util](namespacesimulation__framework_1_1autonomy_1_1util.md#namespacesimulation__framework_1_1autonomy_1_1util)
+* [simulation_framework::autonomy::util](namespacesimulation__framework_1_1autonomy_1_1util.md#namespacesimulation__framework_1_1autonomy_1_1util)
 
 ## Includes
 
@@ -23,31 +22,6 @@
 * <optional>
 
 
-```mermaid
-graph LR
-1["simulation_input_utils.h"]
-click 1 "simulation__input__utils_8h.md#simulation__input__utils_8h"
-1 --> 2
-1 --> 7
-
-2["core/service/parameter/simulation_parameters.h"]
-click 2 "simulation__parameters_8h_source.md#simulation__parameters_8h_source"
-2 --> 3
-2 --> 4
-2 --> 5
-2 --> 6
-
-3["chrono"]
-
-7["optional"]
-
-4["string"]
-
-5["unordered_map"]
-
-6["vector"]
-
-```
 
 
 ## Source

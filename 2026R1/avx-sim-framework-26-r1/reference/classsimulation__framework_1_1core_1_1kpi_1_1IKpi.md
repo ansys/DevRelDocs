@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1kpi_1_1IKpi"></a>
-# Class simulation\_framework::core::kpi::IKpi
+# Class simulation_framework::core::kpi::IKpi
 
 ![][C++]
 ![][public]
 
-#include: <[i_kpi.h](i__kpi_8h.md#i__kpi_8h)>
+**Definition**: `core/kpi/i_kpi/i_kpi.h` (line 38)
 
 Represents core KPI calculation logic.
 
@@ -18,7 +17,7 @@ The <code>[IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimul
 
 **Template parameters**:
 
-* typename T
+* [typename](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [T](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 ## Members
 
@@ -72,7 +71,7 @@ Sets up any necessary state or resources required for KPI calculation.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -103,7 +102,7 @@ Clears temporary data and prepares the KPI logic for a new calculation, especial
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -143,7 +142,7 @@ The calculated KPI content as a <code>[KpiContent](structsimulation__framework_1
 
 **Parameters**:
 
-* const T & **input**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [T](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) & **input**
 
 **Return type**: [KpiContent](structsimulation__framework_1_1core_1_1kpi_1_1KpiContent.md#structsimulation__framework_1_1core_1_1kpi_1_1KpiContent)
 

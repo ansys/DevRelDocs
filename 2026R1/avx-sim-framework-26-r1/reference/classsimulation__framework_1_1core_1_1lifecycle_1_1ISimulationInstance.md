@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance"></a>
-# Class simulation\_framework::core::lifecycle::ISimulationInstance
+# Class simulation_framework::core::lifecycle::ISimulationInstance
 
 ![][C++]
 ![][public]
 
-#include: <[i_simulation_instance.h](i__simulation__instance_8h.md#i__simulation__instance_8h)>
+**Definition**: `core/lifecycle/i_simulation_instance/i_simulation_instance.h` (line 24)
 
 class [ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1ISimulationInstance)
 
@@ -12,7 +11,7 @@ class [ISimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1I
 
 **Inherited by**:
 
-* [simulation\_framework::core::lifecycle::SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance)
+* [simulation_framework::core::lifecycle::SimulationInstance](classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance.md#classsimulation__framework_1_1core_1_1lifecycle_1_1SimulationInstance)
 
 ## Members
 
@@ -69,7 +68,7 @@ Step the simulation based on base cycle time.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -98,7 +97,7 @@ provides the reset to [SimRunner](classsimulation__framework_1_1core_1_1SimRunne
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -127,7 +126,7 @@ Initialize based on user config and turn the instance to ready state.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -156,7 +155,7 @@ indicates whether this run if simulation reaches the end
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -185,7 +184,7 @@ indicates whether pause is requested
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 

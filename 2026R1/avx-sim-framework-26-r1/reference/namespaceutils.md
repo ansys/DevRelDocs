@@ -1,9 +1,8 @@
-<a id="namespaceutils"></a>
 # Namespace utils
 
 ![][C++]
 
-#include: <[predictive_ttc_calculator.cpp](predictive__ttc__calculator_8cpp.md#predictive__ttc__calculator_8cpp)>
+**Definition**: `autonomy/evaluator/predictive_ttc_calculator/predictive_ttc_calculator.cpp` (line 12)
 
 
 

@@ -1,10 +1,9 @@
-<a id="structsimulation__framework_1_1core_1_1time_1_1Timestamp"></a>
-# Structure simulation\_framework::core::time::Timestamp
+# Structure simulation_framework::core::time::Timestamp
 
 ![][C++]
 ![][public]
 
-#include: <[timestamp.h](timestamp_8h.md#timestamp_8h)>
+**Definition**: `core/time/i_clock/timestamp.h` (line 22)
 
 
 
@@ -23,7 +22,7 @@
 
 ![][public]
 
-#include: <[timestamp.h](timestamp_8h.md#timestamp_8h)>
+**Definition**: `core/time/i_clock/timestamp.h` (line 24)
 
 
 ```cpp
@@ -37,7 +36,7 @@ uint32_t simulation_framework::core::time::Timestamp::seconds
 
 
 
-**Type**: uint32_t
+**Type**: [uint32_t](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -50,7 +49,7 @@ uint32_t simulation_framework::core::time::Timestamp::seconds
 
 ![][public]
 
-#include: <[timestamp.h](timestamp_8h.md#timestamp_8h)>
+**Definition**: `core/time/i_clock/timestamp.h` (line 25)
 
 
 ```cpp
@@ -64,7 +63,7 @@ uint32_t simulation_framework::core::time::Timestamp::nanoseconds
 
 
 
-**Type**: uint32_t
+**Type**: [uint32_t](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

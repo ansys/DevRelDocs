@@ -1,4 +1,9 @@
-﻿# SelectObjectList
+﻿---
+uid: select_object_list
+title: SelectObjectList
+---
+
+# SelectObjectList
 
 **Full Name**: `SpeosNX_2512::SelectObjectList`
 

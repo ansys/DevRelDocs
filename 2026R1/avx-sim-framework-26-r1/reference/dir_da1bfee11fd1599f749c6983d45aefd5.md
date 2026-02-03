@@ -1,7 +1,6 @@
-<a id="dir_da1bfee11fd1599f749c6983d45aefd5"></a>
-# Directory i\_activity\_factory
+# Directory i_activity_factory
 
-**Location**: `core/lifecycle/i\_activity\_factory/`
+**Location**: `core/lifecycle/i_activity_factory/`
 
 
 
@@ -9,7 +8,7 @@
 
 ## Files
 
-* [i\_activity\_factory.h](i__activity__factory_8h.md#i__activity__factory_8h)
+* [i_activity_factory.h](i__activity__factory_8h.md#i__activity__factory_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

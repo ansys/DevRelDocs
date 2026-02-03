@@ -1,9 +1,8 @@
-<a id="avx__vss__api__adapter_8h"></a>
-# File avx\_vss\_api\_adapter.h
+# File avx_vss_api_adapter.h
 
 ![][C++]
 
-**Location**: `co\_sim/avx\_sensor/avx\_vss\_api\_adapter/avx\_vss\_api\_adapter.h`
+**Location**: `co_sim/avx_sensor/avx_vss_api_adapter/avx_vss_api_adapter.h`
 
 
 
@@ -11,12 +10,12 @@
 
 ## Classes
 
-* [simulation\_framework::avx\_sensor\_cosim::AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter)
+* [simulation_framework::avx_sensor_cosim::AvxVssApiAdapter](classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter.md#classsimulation__framework_1_1avx__sensor__cosim_1_1AvxVssApiAdapter)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::avx\_sensor\_cosim](namespacesimulation__framework_1_1avx__sensor__cosim.md#namespacesimulation__framework_1_1avx__sensor__cosim)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::avx_sensor_cosim](namespacesimulation__framework_1_1avx__sensor__cosim.md#namespacesimulation__framework_1_1avx__sensor__cosim)
 
 ## Includes
 
@@ -41,69 +40,6 @@
 * <vector>
 
 
-```mermaid
-graph LR
-1["avx_vss_api_adapter.h"]
-click 1 "avx__vss__api__adapter_8h.md#avx__vss__api__adapter_8h"
-1 --> 2
-1 --> 3
-1 --> 4
-1 --> 5
-1 --> 6
-1 --> 7
-1 --> 8
-1 --> 9
-1 --> 10
-1 --> 11
-1 --> 12
-1 --> 13
-1 --> 14
-1 --> 15
-1 --> 16
-1 --> 17
-1 --> 18
-1 --> 19
-1 --> 20
-
-3["ansys/api/avxcelerate/sensors/osi/v1/simulation/configuration.pb.h"]
-
-4["ansys/api/avxcelerate/sensors/osi/v1/simulation/simulation.grpc.pb.h"]
-
-5["ansys/api/avxcelerate/sensors/v1/data_access/sensor_data_access.grpc.pb.h"]
-
-6["ansys/api/avxcelerate/sensors/v1/data_access/sensor_data_output_notification.grpc.pb.h"]
-
-7["ansys/api/avxcelerate/sensors/v1/sensor_data/sensor_data.pb.h"]
-
-8["ansys/api/avxcelerate/sensors/v1/simulation/configuration.pb.h"]
-
-9["ansys/api/avxcelerate/sensors/v1/simulation/simulation.grpc.pb.h"]
-
-10["ansys/api/avxcelerate/sensors/v1/simulation/simulation_parameters.pb.h"]
-
-16["chrono"]
-
-2["co_sim/avx_sensor/avx_sensor_setting/avx_sensor_setting.h"]
-
-11["google/protobuf/empty.pb.h"]
-
-12["google/protobuf/stubs/common.h"]
-
-13["grpc++/grpc++.h"]
-
-14["grpcpp/grpcpp.h"]
-
-17["memory"]
-
-15["osi_sensorview.pb.h"]
-
-18["string"]
-
-19["thread"]
-
-20["vector"]
-
-```
 
 
 ## Source

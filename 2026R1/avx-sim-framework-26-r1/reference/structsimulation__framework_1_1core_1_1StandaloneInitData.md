@@ -1,10 +1,9 @@
-<a id="structsimulation__framework_1_1core_1_1StandaloneInitData"></a>
-# Structure simulation\_framework::core::StandaloneInitData
+# Structure simulation_framework::core::StandaloneInitData
 
 ![][C++]
 ![][public]
 
-#include: <[standalone_init_data.h](standalone__init__data_8h.md#standalone__init__data_8h)>
+**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 19)
 
 
 
@@ -12,17 +11,17 @@
 
 ## Members
 
-* [input\_file\_stream](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ac6c9eda5a2c9d017dd5bfb7a2c651c3e)
-* [primary\_activity\_cycle\_time\_in\_ms](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ad45eab2c54317f7f9dc949a917e9a7d1)
+* [input_file_stream](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ac6c9eda5a2c9d017dd5bfb7a2c651c3e)
+* [primary_activity_cycle_time_in_ms](structsimulation__framework_1_1core_1_1StandaloneInitData.md#structsimulation__framework_1_1core_1_1StandaloneInitData_1ad45eab2c54317f7f9dc949a917e9a7d1)
 
 ## Public attributes
 
 <a id="structsimulation__framework_1_1core_1_1StandaloneInitData_1ac6c9eda5a2c9d017dd5bfb7a2c651c3e"></a>
-### Variable input\_file\_stream
+### Variable input_file_stream
 
 ![][public]
 
-#include: <[standalone_init_data.h](standalone__init__data_8h.md#standalone__init__data_8h)>
+**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 22)
 
 
 ```cpp
@@ -45,11 +44,11 @@ A stream which is parsed from input file.
 -->
 
 <a id="structsimulation__framework_1_1core_1_1StandaloneInitData_1ad45eab2c54317f7f9dc949a917e9a7d1"></a>
-### Variable primary\_activity\_cycle\_time\_in\_ms
+### Variable primary_activity_cycle_time_in_ms
 
 ![][public]
 
-#include: <[standalone_init_data.h](standalone__init__data_8h.md#standalone__init__data_8h)>
+**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 25)
 
 
 ```cpp

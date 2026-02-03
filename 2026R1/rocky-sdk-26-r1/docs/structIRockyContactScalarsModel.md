@@ -38,8 +38,9 @@ During the setup phase of a module, an <code>[IRockyContactScalarsModel](structI
 
 ## Public functions
 
-<a id="structIRockyContactScalarsModel_1ad35ceabceb6ec8d839a3e89086643f99"></a>
 ### Function find
+
+<a id="structIRockyContactScalarsModel_1ad35ceabceb6ec8d839a3e89086643f99"></a>
 
 ![][public]
 
@@ -79,8 +80,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a5066c63ea6e2b3b4791f4812b206a65f"></a>
 ### Function reset
+
+<a id="structIRockyContactScalarsModel_1a5066c63ea6e2b3b4791f4812b206a65f"></a>
 
 ![][public]
 
@@ -113,8 +115,9 @@ void IRockyContactScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a95938d3b140e2fbf6b3f417ad88cefd8"></a>
 ### Function set\_dimension
+
+<a id="structIRockyContactScalarsModel_1a95938d3b140e2fbf6b3f417ad88cefd8"></a>
 
 ![][public]
 
@@ -151,8 +154,9 @@ to a scalar variable. This factor will be used to nondimensionalize their values
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::set_dimension"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a00693cfaa879794cda713e943549644f"></a>
 ### Function add
+
+<a id="structIRockyContactScalarsModel_1a00693cfaa879794cda713e943549644f"></a>
 
 ![][public]
 
@@ -196,8 +200,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a295989b18e690130d92c31881a61ba76"></a>
 ### Function add
+
+<a id="structIRockyContactScalarsModel_1a295989b18e690130d92c31881a61ba76"></a>
 
 ![][public]
 
@@ -242,8 +247,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1afd6b2a12584b9aca0884eef45b372e1c"></a>
 ### Function enable\_variable\_dynamic\_friction\_coefficient
+
+<a id="structIRockyContactScalarsModel_1afd6b2a12584b9aca0884eef45b372e1c"></a>
 
 ![][public]
 
@@ -269,8 +275,9 @@ that will override the constant values specified per material interaction in the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_variable_dynamic_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a3a8d067f500bb3b7d39f1cb96f993f78"></a>
 ### Function enable\_variable\_static\_friction\_coefficient
+
+<a id="structIRockyContactScalarsModel_1a3a8d067f500bb3b7d39f1cb96f993f78"></a>
 
 ![][public]
 
@@ -296,8 +303,9 @@ that will override the constant values specified per material interaction in the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_variable_static_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a7c098d6a1bb42017f323521a267459bd"></a>
 ### Function enable\_variable\_restitution\_coefficient
+
+<a id="structIRockyContactScalarsModel_1a7c098d6a1bb42017f323521a267459bd"></a>
 
 ![][public]
 
@@ -323,8 +331,9 @@ property at contacts. When this scalar is enabled, a different value of the rest
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_variable_restitution_coefficient"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a8e8fb75a47341a734ee04707a58f658f"></a>
 ### Function enable\_storage\_sliding\_distance
+
+<a id="structIRockyContactScalarsModel_1a8e8fb75a47341a734ee04707a58f658f"></a>
 
 ![][public]
 
@@ -350,8 +359,9 @@ distance during the processing of the contact forces. In this way, that value wi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_sliding_distance"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a2a383fbe3de38c7aab855c0b775a293b"></a>
 ### Function enable\_storage\_is\_sliding\_marker
+
+<a id="structIRockyContactScalarsModel_1a2a383fbe3de38c7aab855c0b775a293b"></a>
 
 ![][public]
 
@@ -377,8 +387,9 @@ is sliding or not at a given moment. Normally this marker is used only internall
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_is_sliding_marker"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a5a65f842ce3bea36ee46b346a2741911"></a>
 ### Function enable\_storage\_tangential\_contact\_force
+
+<a id="structIRockyContactScalarsModel_1a5a65f842ce3bea36ee46b346a2741911"></a>
 
 ![][public]
 
@@ -404,8 +415,9 @@ force vector that is calculated by any contact tangential force model active in 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_tangential_contact_force"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a30a72264168db13de798df7cdff440c5"></a>
 ### Function enable\_storage\_normal\_relative\_velocity
+
+<a id="structIRockyContactScalarsModel_1a30a72264168db13de798df7cdff440c5"></a>
 
 ![][public]
 
@@ -431,8 +443,9 @@ relative velocity at a contact. In this way that value, which is normally calcul
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_normal_relative_velocity"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1ad8ba6db25bce594fbb62b415b0634a95"></a>
 ### Function enable\_storage\_tangential\_relative\_velocity
+
+<a id="structIRockyContactScalarsModel_1ad8ba6db25bce594fbb62b415b0634a95"></a>
 
 ![][public]
 
@@ -458,8 +471,9 @@ relative velocity at a contact. In this way that value, which is normally calcul
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_tangential_relative_velocity"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a0b773628077520e21f189ab64b8b1e69"></a>
 ### Function enable\_storage\_normal\_adhesion\_force
+
+<a id="structIRockyContactScalarsModel_1a0b773628077520e21f189ab64b8b1e69"></a>
 
 ![][public]
 
@@ -485,8 +499,9 @@ adhesion force. In this way, if an adhesive force model is active in a simulatio
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_normal_adhesion_force"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1ab390c75dee689878d04d1db89be3fb95"></a>
 ### Function enable\_storage\_tangential\_adhesion\_force
+
+<a id="structIRockyContactScalarsModel_1ab390c75dee689878d04d1db89be3fb95"></a>
 
 ![][public]
 
@@ -512,8 +527,9 @@ adhesion force. Only some external modules, such as the Liquid Bridge Model modu
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_tangential_adhesion_force"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a36a468305e9a49ba36de61846260c1f1"></a>
 ### Function enable\_storage\_previous\_normal\_vector
+
+<a id="structIRockyContactScalarsModel_1a36a468305e9a49ba36de61846260c1f1"></a>
 
 ![][public]
 
@@ -539,8 +555,9 @@ normal unit vector at the end of a time iteration, with the purpose of making it
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_storage_previous_normal_vector"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1ab2927b1c13fc4325a5bd28ba97e15230"></a>
 ### Function enable\_previous\_moment\_vector
+
+<a id="structIRockyContactScalarsModel_1ab2927b1c13fc4325a5bd28ba97e15230"></a>
 
 ![][public]
 
@@ -566,8 +583,9 @@ in which the rolling resistance is updated on each time iteration. It enables a 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalarsModel::enable_previous_moment_vector"}]}`
 -->
 
-<a id="structIRockyContactScalarsModel_1a29e181ff7eef3349c42038e6b7f9541a"></a>
 ### Function mark\_scalar\_as\_history\_dependent
+
+<a id="structIRockyContactScalarsModel_1a29e181ff7eef3349c42038e6b7f9541a"></a>
 
 ![][public]
 

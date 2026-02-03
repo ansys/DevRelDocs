@@ -24,8 +24,9 @@ When running a simulation an <code>[IRockyJointScalars](structIRockyJointScalars
 
 ## Public functions
 
-<a id="structIRockyJointScalars_1a99bd176be9958223d6dc2a9e62f7ec30"></a>
 ### Function get\_scalar
+
+<a id="structIRockyJointScalars_1a99bd176be9958223d6dc2a9e62f7ec30"></a>
 
 ![][public]
 ![][const]
@@ -66,8 +67,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyJointScalars_1a41d7ac3675a9d3ee3e79cd79c9de1f26"></a>
 ### Function set\_scalar
+
+<a id="structIRockyJointScalars_1a41d7ac3675a9d3ee3e79cd79c9de1f26"></a>
 
 ![][public]
 ![][const]
@@ -105,8 +107,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyJointScalars_1abc05fdd6e7595ea79f4fa0aeafd93552"></a>
 ### Function add\_scalar
+
+<a id="structIRockyJointScalars_1abc05fdd6e7595ea79f4fa0aeafd93552"></a>
 
 ![][public]
 ![][const]
@@ -144,8 +147,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyJointScalars_1a5e95059b8068dc460f40119e2a58d32f"></a>
 ### Function max\_scalar
+
+<a id="structIRockyJointScalars_1a5e95059b8068dc460f40119e2a58d32f"></a>
 
 ![][public]
 ![][const]

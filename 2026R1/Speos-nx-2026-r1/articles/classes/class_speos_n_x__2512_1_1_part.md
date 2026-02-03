@@ -1,4 +1,9 @@
-﻿# Part
+﻿---
+uid: part
+title: Part
+---
+
+# Part
 
 **Full Name**: `SpeosNX_2512::Part`
 

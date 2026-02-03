@@ -1,9 +1,8 @@
-<a id="simulation__completion__checker_8h"></a>
-# File simulation\_completion\_checker.h
+# File simulation_completion_checker.h
 
 ![][C++]
 
-**Location**: `autonomy/simulation/simulation\_completion\_checker/simulation\_completion\_checker.h`
+**Location**: `autonomy/simulation/simulation_completion_checker/simulation_completion_checker.h`
 
 
 
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker)
+* [simulation_framework::autonomy::SimulationCompletionChecker](classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker.md#classsimulation__framework_1_1autonomy_1_1SimulationCompletionChecker)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
 * [autonomy](namespaceautonomy.md#namespaceautonomy)
-* [simulation\_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
+* [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
 
 ## Includes
 
@@ -25,37 +24,6 @@
 * [core/time/i_simulation_completion_checker/i_simulation_completion_checker.h](i__simulation__completion__checker_8h.md#i__simulation__completion__checker_8h)
 
 
-```mermaid
-graph LR
-1["simulation_completion_checker.h"]
-click 1 "simulation__completion__checker_8h.md#simulation__completion__checker_8h"
-1 --> 2
-1 --> 8
-
-2["core/time/i_clock/i_clock.h"]
-click 2 "i__clock_8h_source.md#i__clock_8h_source"
-2 --> 3
-2 --> 6
-2 --> 7
-
-3["core/time/i_clock/timestamp.h"]
-click 3 "timestamp_8h_source.md#timestamp_8h_source"
-3 --> 4
-3 --> 5
-
-8["core/time/i_simulation_completion_checker/i_simulation_completion_checker.h"]
-click 8 "i__simulation__completion__checker_8h_source.md#i__simulation__completion__checker_8h_source"
-8 --> 2
-
-6["chrono"]
-
-4["cstdint"]
-
-7["memory"]
-
-5["string"]
-
-```
 
 
 ## Source

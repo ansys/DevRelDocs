@@ -24,8 +24,9 @@
 
 ## Public functions
 
-<a id="structIRockyJointScalarsModel_1ac684ddb11f55d3edbbb5606ea6ea633a"></a>
 ### Function find
+
+<a id="structIRockyJointScalarsModel_1ac684ddb11f55d3edbbb5606ea6ea633a"></a>
 
 ![][public]
 
@@ -65,8 +66,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyJointScalarsModel_1a31fa0b2b6d8243aa4bc8513edf3c6b0c"></a>
 ### Function add
+
+<a id="structIRockyJointScalarsModel_1a31fa0b2b6d8243aa4bc8513edf3c6b0c"></a>
 
 ![][public]
 
@@ -110,8 +112,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyJointScalarsModel_1ad8c7b148adb48869b7d0d7b4ccea6280"></a>
 ### Function reset
+
+<a id="structIRockyJointScalarsModel_1ad8c7b148adb48869b7d0d7b4ccea6280"></a>
 
 ![][public]
 
@@ -144,8 +147,9 @@ void IRockyJointScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyJointScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyJointScalarsModel_1af5bcf3383dfd931122762e839dd0750b"></a>
 ### Function set\_dimension
+
+<a id="structIRockyJointScalarsModel_1af5bcf3383dfd931122762e839dd0750b"></a>
 
 ![][public]
 

@@ -2,7 +2,6 @@
 
 <p id="getting_started"></p>
 
-
 The Rocky Solver SDK is supported for the following operating systems:
 
 - Windows 10 64-bit

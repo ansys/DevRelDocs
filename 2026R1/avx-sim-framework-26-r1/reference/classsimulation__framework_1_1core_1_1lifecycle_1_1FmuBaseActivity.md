@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity"></a>
-# Class simulation\_framework::core::lifecycle::FmuBaseActivity
+# Class simulation_framework::core::lifecycle::FmuBaseActivity
 
 ![][C++]
 ![][public]
 
-#include: <[fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_base_activity.h` (line 30)
 
 An activity that subscribes to messages to input to an FMU and publishes the FMU output.
 
@@ -14,7 +13,7 @@ The configuration of the topics and which FMU variables they contain is given by
 
 **Inherits from**:
 
-* [simulation\_framework::core::lifecycle::BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity)
+* [simulation_framework::core::lifecycle::BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity)
 
 ## Members
 
@@ -33,8 +32,8 @@ The configuration of the topics and which FMU variables they contain is given by
 * [EncodeMessage](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1aa1b8aea2a86d97ed5e5d4abcd30a527f)
 * [ExecuteStep](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a412b94d22b964d6762321464970c6d34)
 * [Finalize](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a9162ba92fb21fd805a6c72b1065b187c)
-* [fmu\_config\_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a55ba412be4a52a61cc7c68207b8f3d88)
-* [fmu\_logic\_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a8c713dd64a2a30af59a6908caf3bc14b)
+* [fmu_config_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a55ba412be4a52a61cc7c68207b8f3d88)
+* [fmu_logic_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a8c713dd64a2a30af59a6908caf3bc14b)
 * [FmuBaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1adbe15957d5e1d89197264acc6f012656)
 * [GetCurrentTimestamp](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a2cfe6105cb8e660b2757e602d4fc1a87)
 * [GetCustomizedParameters](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a56fe34c6d46420a6049b7ee19a7f8e1f)
@@ -42,25 +41,25 @@ The configuration of the topics and which FMU variables they contain is given by
 * [GetName](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a11d72f1e983f825e5d812224aa43c432)
 * [GetSimulationOutputDirectory](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aeca0631080d2751212ad8958d16860e9)
 * [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a7f2b0dba2e396cdd58cc414f3a52848c)
-* [init\_param\_topics\_to\_var\_map\_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a13d382fb97f13f8a7fb8ffb6d9a8b666)
-* [input\_topics\_to\_var\_map\_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a9c5e9745f447f179dffaff037cb09338)
-* [output\_topics\_to\_var\_map\_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1ab2ff48df96a66b5816e41c0a3c7f6194)
+* [init_param_topics_to_var_map_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a13d382fb97f13f8a7fb8ffb6d9a8b666)
+* [input_topics_to_var_map_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a9c5e9745f447f179dffaff037cb09338)
+* [output_topics_to_var_map_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1ab2ff48df96a66b5816e41c0a3c7f6194)
 * [SetSimulationSettings](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a3f7d19a88d57a2b77941db44fe0a4e65)
 * [SetUpCommunication](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a3355c18c8d6519f9649ec7de4274e645)
 * [Shutdown](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1ac0a680a9bd6db9111ba085d641a16126)
 * [Step](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a45bf4108dc4b3b77b4ca997b824ea07f)
-* [step\_size\_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a5645715270857e72b39cc22475cee6d3)
+* [step_size_](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a5645715270857e72b39cc22475cee6d3)
 * [~BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aa52831f008141d199920090685f078fd)
 * [~IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity_1aa2353eb3f2ef5955c1c3c2d1024c8c48)
 
 ## Protected attributes
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a55ba412be4a52a61cc7c68207b8f3d88"></a>
-### Variable fmu\_config\_
+### Variable fmu_config_
 
 ![][protected]
 
-#include: <[fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_base_activity.h` (line 89)
 
 
 ```cpp
@@ -83,11 +82,11 @@ A struct containing information about topics and corresponding FMU variables.
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a8c713dd64a2a30af59a6908caf3bc14b"></a>
-### Variable fmu\_logic\_
+### Variable fmu_logic_
 
 ![][protected]
 
-#include: <[fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_base_activity.h` (line 92)
 
 
 ```cpp
@@ -110,11 +109,11 @@ A pointer to the logic that manages simulating the FMU.
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a5645715270857e72b39cc22475cee6d3"></a>
-### Variable step\_size\_
+### Variable step_size_
 
 ![][protected]
 
-#include: <[fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_base_activity.h` (line 95)
 
 
 ```cpp
@@ -128,7 +127,7 @@ The step size to increment the FMU's independent variable.
 
 
 
-**Type**: std::optional< double >
+**Type**: std::optional< [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) >
 
 <!--
 **TODO**:
@@ -137,11 +136,11 @@ The step size to increment the FMU's independent variable.
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a13d382fb97f13f8a7fb8ffb6d9a8b666"></a>
-### Variable init\_param\_topics\_to\_var\_map\_
+### Variable init_param_topics_to_var_map_
 
 ![][protected]
 
-#include: <[fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_base_activity.h` (line 98)
 
 
 ```cpp
@@ -164,11 +163,11 @@ A mapping of intialization parameter topics to FMU variables.
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1a9c5e9745f447f179dffaff037cb09338"></a>
-### Variable input\_topics\_to\_var\_map\_
+### Variable input_topics_to_var_map_
 
 ![][protected]
 
-#include: <[fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_base_activity.h` (line 101)
 
 
 ```cpp
@@ -191,11 +190,11 @@ A mapping of input topics to FMU variables.
 -->
 
 <a id="classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity_1ab2ff48df96a66b5816e41c0a3c7f6194"></a>
-### Variable output\_topics\_to\_var\_map\_
+### Variable output_topics_to_var_map_
 
 ![][protected]
 
-#include: <[fmu_base_activity.h](fmu__base__activity_8h.md#fmu__base__activity_8h)>
+**Definition**: `core/lifecycle/fmu_activity/fmu_base_activity.h` (line 104)
 
 
 ```cpp
@@ -245,12 +244,12 @@ Construct an FMU activity to join the simulation.
 
 **Parameters**:
 
-* const std::string & **name**
-* std::shared_ptr< CommunicationManager > **communication_manager**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **name**
+* std::shared_ptr< [CommunicationManager](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > **communication_manager**
 * std::unique_ptr< scheduling::ISchedulerClient > **scheduler_client**
 * [FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig) **fmu_config**
 * std::unique_ptr< [IFmuLogic](classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IFmuLogic) > **fmu_logic**
-* const std::optional< double > **step_size** = std::nullopt 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::optional< [double](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > **step_size** = std::nullopt 
 
 **Return type**: 
 
@@ -277,7 +276,7 @@ Sets FMU inputs from subscribed topics, steps the FMU, and gets FMU outputs read
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [ExecuteStep](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aaf5d84e0430a2703b697eb867e8bf303)
 
@@ -304,7 +303,7 @@ Initialize FMU parameters.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [Init](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1a7373af65d0b4c133cb5de42bf2f88caf)
 
@@ -331,7 +330,7 @@ Adds publishers and subscribers of rtidds::FmuMessage based on information from 
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplements**: [AddPublisherAndSubscriber](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity_1aa898aa5e721f110f678994731a05aa6e)
 
@@ -370,7 +369,7 @@ A map of variable names to variable values to be sent to the FMU
 
 **Parameters**:
 
-* const rtidds::FmuMessage & **message**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) rtidds::FmuMessage & **message**
 
 **Return type**: FmuInOutMap
 
@@ -407,7 +406,7 @@ The message to be published
 
 **Parameters**:
 
-* const FmuInOutMap & **outputs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **outputs**
 
 **Return type**: rtidds::FmuMessage
 
@@ -444,7 +443,7 @@ A map of variable names to variable values to be sent to the FMU
 
 **Parameters**:
 
-* const rtidds::GenericBytesMessage & **message**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) rtidds::GenericBytesMessage & **message**
 
 **Return type**: FmuInOutMap
 
@@ -481,7 +480,7 @@ The message to be published
 
 **Parameters**:
 
-* const FmuInOutMap & **outputs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **outputs**
 
 **Return type**: rtidds::GenericBytesMessage
 
@@ -513,10 +512,10 @@ Helper to add a subscriber for a topic whose values should populate the provided
 
 **Parameters**:
 
-* const std::string & **topic_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **topic_name**
 * FmuInOutMap & **var_map**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -546,10 +545,10 @@ Helper to add a publisher for a topic whose values come from the provided variab
 
 **Parameters**:
 
-* const std::string & **topic_name**
-* const FmuInOutMap & **var_map**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **topic_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) FmuInOutMap & **var_map**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

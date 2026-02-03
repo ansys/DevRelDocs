@@ -1,4 +1,9 @@
-﻿# Namespace: SpeosNX_2512
+﻿---
+uid: namespace_speos_n_x__2512
+title: SpeosNX_2512
+---
+
+# Namespace: SpeosNX_2512
 
 ## Classes
 

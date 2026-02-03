@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator"></a>
-# Class simulation\_framework::evaluator::DistanceDrivenCalculator
+# Class simulation_framework::evaluator::DistanceDrivenCalculator
 
 ![][C++]
 ![][public]
 
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
+**Definition**: `autonomy/evaluator/distance_calculator/distance_calculator.h` (line 38)
 
 class [DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator)
 
@@ -24,92 +23,9 @@ class [DistanceDrivenCalculator](classsimulation__framework_1_1evaluator_1_1Dist
 ## Members
 
 * [Calculate](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1ab8226778bd055bda3a5b216f57289092)
-* [is\_initialized\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256)
-* [last\_xpos\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb)
-* [last\_ypos\_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334)
-
-## Private attributes
-
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb"></a>
-### Variable last\_xpos\_
-
-![][private]
-
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
-
-
-```cpp
-std::optional<double> simulation_framework::evaluator::DistanceDrivenCalculator::last_xpos_
-```
-
-
-
-
-
-
-
-
-**Type**: std::optional< double >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::DistanceDrivenCalculator::last_xpos_"}]}`
--->
-
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334"></a>
-### Variable last\_ypos\_
-
-![][private]
-
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
-
-
-```cpp
-std::optional<double> simulation_framework::evaluator::DistanceDrivenCalculator::last_ypos_
-```
-
-
-
-
-
-
-
-
-**Type**: std::optional< double >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::DistanceDrivenCalculator::last_ypos_"}]}`
--->
-
-<a id="classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256"></a>
-### Variable is\_initialized\_
-
-![][private]
-
-#include: <[distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)>
-
-
-```cpp
-bool simulation_framework::evaluator::DistanceDrivenCalculator::is_initialized_ {false}
-```
-
-
-
-
-
-
-
-
-**Type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::evaluator::DistanceDrivenCalculator::is_initialized_"}]}`
--->
+* [is_initialized_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1a413c65b561e4975611c09353cf06c256)
+* [last_xpos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af8e3381edad285161268d93b3a58e7fb)
+* [last_ypos_](classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator.md#classsimulation__framework_1_1evaluator_1_1DistanceDrivenCalculator_1af239d0f26b687d481b496322a3a13334)
 
 ## Public functions
 

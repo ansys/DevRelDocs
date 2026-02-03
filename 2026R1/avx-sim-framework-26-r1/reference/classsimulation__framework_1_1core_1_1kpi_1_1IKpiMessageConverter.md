@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1kpi_1_1IKpiMessageConverter"></a>
-# Class simulation\_framework::core::kpi::IKpiMessageConverter
+# Class simulation_framework::core::kpi::IKpiMessageConverter
 
 ![][C++]
 ![][public]
 
-#include: <[i_kpi_message_converter.h](i__kpi__message__converter_8h.md#i__kpi__message__converter_8h)>
+**Definition**: `core/kpi/kpi_message_converter/i_kpi_message_converter.h` (line 28)
 
 Interface for converting KPI messages between different formats.
 
@@ -15,7 +14,7 @@ The <code>[IKpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1IK
 
 **Inherited by**:
 
-* [simulation\_framework::core::kpi::KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter)
+* [simulation_framework::core::kpi::KpiMessageConverter](classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter.md#classsimulation__framework_1_1core_1_1kpi_1_1KpiMessageConverter)
 
 ## Members
 
@@ -76,7 +75,7 @@ The converted <code>rtidds::KpiMessage</code> object.
 
 **Parameters**:
 
-* const KpiMessage & **kpi_msgs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) KpiMessage & **kpi_msgs**
 
 **Return type**: rtidds::KpiMessage
 
@@ -116,7 +115,7 @@ The decoded <code>KpiMessage</code> object.
 
 **Parameters**:
 
-* const rtidds::KpiMessage & **kpi_msgs**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) rtidds::KpiMessage & **kpi_msgs**
 
 **Return type**: KpiMessage
 

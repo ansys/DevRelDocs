@@ -1,9 +1,8 @@
-<a id="i__kpi_8h"></a>
-# File i\_kpi.h
+# File i_kpi.h
 
 ![][C++]
 
-**Location**: `core/kpi/i\_kpi/i\_kpi.h`
+**Location**: `core/kpi/i_kpi/i_kpi.h`
 
 
 
@@ -11,15 +10,15 @@
 
 ## Classes
 
-* [simulation\_framework::core::kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
+* [simulation_framework::core::kpi::IKpi](classsimulation__framework_1_1core_1_1kpi_1_1IKpi.md#classsimulation__framework_1_1core_1_1kpi_1_1IKpi)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
 * [core](namespacecore.md#namespacecore)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
 * [kpi](namespacekpi.md#namespacekpi)
-* [simulation\_framework::core::kpi](namespacesimulation__framework_1_1core_1_1kpi.md#namespacesimulation__framework_1_1core_1_1kpi)
+* [simulation_framework::core::kpi](namespacesimulation__framework_1_1core_1_1kpi.md#namespacesimulation__framework_1_1core_1_1kpi)
 
 ## Includes
 
@@ -27,41 +26,6 @@
 * <memory>
 
 
-```mermaid
-graph LR
-2["core/kpi/definition/kpi_definition.h"]
-click 2 "kpi__definition_8h_source.md#kpi__definition_8h_source"
-2 --> 3
-2 --> 6
-2 --> 9
-
-1["i_kpi.h"]
-click 1 "i__kpi_8h.md#i__kpi_8h"
-1 --> 2
-1 --> 8
-
-3["core/time/i_clock/i_clock.h"]
-click 3 "i__clock_8h_source.md#i__clock_8h_source"
-3 --> 4
-3 --> 7
-3 --> 8
-
-4["core/time/i_clock/timestamp.h"]
-click 4 "timestamp_8h_source.md#timestamp_8h_source"
-4 --> 5
-4 --> 6
-
-7["chrono"]
-
-5["cstdint"]
-
-8["memory"]
-
-6["string"]
-
-9["vector"]
-
-```
 
 
 ## Included by
@@ -72,44 +36,6 @@ click 4 "timestamp_8h_source.md#timestamp_8h_source"
 * [predictive_min_ttc_evaluator.h](predictive__min__ttc__evaluator_8h.md#predictive__min__ttc__evaluator_8h)
 
 
-```mermaid
-graph RL
-3["distance_driven_evaluator.cpp"]
-click 3 "distance__driven__evaluator_8cpp_source.md#distance__driven__evaluator_8cpp_source"
-
-2["distance_driven_evaluator.h"]
-click 2 "distance__driven__evaluator_8h_source.md#distance__driven__evaluator_8h_source"
-3 --> 2
-
-5["gt_base_evaluator.h"]
-click 5 "gt__base__evaluator_8h_source.md#gt__base__evaluator_8h_source"
-
-7["min_ttc_evaluator.cpp"]
-click 7 "min__ttc__evaluator_8cpp_source.md#min__ttc__evaluator_8cpp_source"
-
-6["min_ttc_evaluator.h"]
-click 6 "min__ttc__evaluator_8h_source.md#min__ttc__evaluator_8h_source"
-7 --> 6
-
-9["predictive_min_ttc_evaluator.cpp"]
-click 9 "predictive__min__ttc__evaluator_8cpp_source.md#predictive__min__ttc__evaluator_8cpp_source"
-
-8["predictive_min_ttc_evaluator.h"]
-click 8 "predictive__min__ttc__evaluator_8h_source.md#predictive__min__ttc__evaluator_8h_source"
-9 --> 8
-
-4["i_evaluator.h"]
-click 4 "i__evaluator_8h_source.md#i__evaluator_8h_source"
-5 --> 4
-
-1["i_kpi.h"]
-click 1 "i__kpi_8h.md#i__kpi_8h"
-2 --> 1
-4 --> 1
-6 --> 1
-8 --> 1
-
-```
 
 
 ## Source

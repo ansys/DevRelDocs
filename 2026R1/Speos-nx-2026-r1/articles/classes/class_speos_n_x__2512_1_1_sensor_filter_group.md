@@ -1,4 +1,9 @@
-﻿# SensorFilterGroup
+﻿---
+uid: sensor_filter_group
+title: SensorFilterGroup
+---
+
+# SensorFilterGroup
 
 **Full Name**: `SpeosNX_2512::SensorFilterGroup`
 

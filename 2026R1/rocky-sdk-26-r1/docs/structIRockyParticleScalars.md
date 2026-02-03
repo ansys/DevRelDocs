@@ -43,8 +43,9 @@ When running a simulation, an <code>[IRockyParticleScalars](structIRockyParticle
 
 ## Public functions
 
-<a id="structIRockyParticleScalars_1a4a64868ea5dae08ca841701423268d24"></a>
 ### Function get\_temperature
+
+<a id="structIRockyParticleScalars_1a4a64868ea5dae08ca841701423268d24"></a>
 
 ![][public]
 ![][const]
@@ -71,8 +72,9 @@ The value of the current particle's temperature. Temperature is a built-in parti
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::get_temperature"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a228debc629b2c74943a35a6411e85e34"></a>
 ### Function get\_mass\_increment
+
+<a id="structIRockyParticleScalars_1a228debc629b2c74943a35a6411e85e34"></a>
 
 ![][public]
 ![][const]
@@ -99,8 +101,9 @@ The value of the mass increment of the particle in relation to the initial mass 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::get_mass_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a07d6c5c74fe0291617efe4f1c5c0b530"></a>
 ### Function get\_volume\_increment
+
+<a id="structIRockyParticleScalars_1a07d6c5c74fe0291617efe4f1c5c0b530"></a>
 
 ![][public]
 ![][const]
@@ -127,8 +130,9 @@ The value of the volume increment of the particle in relation to the initial vol
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::get_volume_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a52baa075b4469ce9c99fb3598b1e3495"></a>
 ### Function set\_temperature
+
+<a id="structIRockyParticleScalars_1a52baa075b4469ce9c99fb3598b1e3495"></a>
 
 ![][public]
 
@@ -161,8 +165,9 @@ ROCKY_FUNCTIONS void IRockyParticleScalars::set_temperature(const double value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::set_temperature"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1add3b52baa679fb29168078afd6f414c4"></a>
 ### Function set\_mass\_increment
+
+<a id="structIRockyParticleScalars_1add3b52baa679fb29168078afd6f414c4"></a>
 
 ![][public]
 
@@ -197,8 +202,9 @@ to the initial mass at the time of entrance.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::set_mass_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a1cf60c38b7d56949f4bd938a71139b3a"></a>
 ### Function set\_volume\_increment
+
+<a id="structIRockyParticleScalars_1a1cf60c38b7d56949f4bd938a71139b3a"></a>
 
 ![][public]
 
@@ -233,8 +239,9 @@ to the initial volume at the time of entrance.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::set_volume_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1aae018069db36996a8d86fd9f6c18a0cf"></a>
 ### Function add\_temperature
+
+<a id="structIRockyParticleScalars_1aae018069db36996a8d86fd9f6c18a0cf"></a>
 
 ![][public]
 
@@ -267,8 +274,9 @@ ROCKY_FUNCTIONS void IRockyParticleScalars::add_temperature(const double value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_temperature"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1ad8f1693fb8d2e2f901791f0d55ffafd9"></a>
 ### Function add\_explicit\_fluid\_momentum
+
+<a id="structIRockyParticleScalars_1ad8f1693fb8d2e2f901791f0d55ffafd9"></a>
 
 ![][public]
 
@@ -303,8 +311,9 @@ associated to the cell where the particle centroid is located. This operation is
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_explicit_fluid_momentum"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a4ec6b9153716ae4de2399ce1cb148a35"></a>
 ### Function add\_implicit\_fluid\_momentum
+
+<a id="structIRockyParticleScalars_1a4ec6b9153716ae4de2399ce1cb148a35"></a>
 
 ![][public]
 
@@ -339,8 +348,9 @@ associated to the cell where the particle centroid is located. This operation is
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_implicit_fluid_momentum"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a879d37039a8dac11578b008f69510232"></a>
 ### Function add\_explicit\_fluid\_heat\_transfer\_rate
+
+<a id="structIRockyParticleScalars_1a879d37039a8dac11578b008f69510232"></a>
 
 ![][public]
 
@@ -375,8 +385,9 @@ associated to the cell where the particle centroid is located. This operation is
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_explicit_fluid_heat_transfer_rate"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1afc8afe09fcf6cbbc037884a382f40386"></a>
 ### Function add\_implicit\_fluid\_heat\_transfer\_rate
+
+<a id="structIRockyParticleScalars_1afc8afe09fcf6cbbc037884a382f40386"></a>
 
 ![][public]
 
@@ -411,8 +422,9 @@ associated to the cell where the particle centroid is located. This operation is
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_implicit_fluid_heat_transfer_rate"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1ae7c53f46ae9e8420e3546939841cb267"></a>
 ### Function add\_mass\_increment
+
+<a id="structIRockyParticleScalars_1ae7c53f46ae9e8420e3546939841cb267"></a>
 
 ![][public]
 
@@ -445,8 +457,9 @@ ROCKY_FUNCTIONS void IRockyParticleScalars::add_mass_increment(const double valu
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_mass_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a76d6d6d09083736d7e40bb09710bfa37"></a>
 ### Function add\_volume\_increment
+
+<a id="structIRockyParticleScalars_1a76d6d6d09083736d7e40bb09710bfa37"></a>
 
 ![][public]
 
@@ -479,8 +492,9 @@ ROCKY_FUNCTIONS void IRockyParticleScalars::add_volume_increment(const double va
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_volume_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a3c656901b88bf6938e16f0559e1f8554"></a>
 ### Function get\_thermal\_conductivity
+
+<a id="structIRockyParticleScalars_1a3c656901b88bf6938e16f0559e1f8554"></a>
 
 ![][public]
 ![][const]
@@ -507,8 +521,9 @@ The value of the thermal conductivity of the particle. The Rocky solver has a bu
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::get_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a2e9ff5092bd888f58d2441f26503717b"></a>
 ### Function set\_thermal\_conductivity
+
+<a id="structIRockyParticleScalars_1a2e9ff5092bd888f58d2441f26503717b"></a>
 
 ![][public]
 
@@ -543,8 +558,9 @@ the corresponding built-in particle scalar was enabled. Otherwise, a segmentatio
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::set_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a2e527a39101f66c5b8107634655f7ac0"></a>
 ### Function get\_specific\_heat
+
+<a id="structIRockyParticleScalars_1a2e527a39101f66c5b8107634655f7ac0"></a>
 
 ![][public]
 ![][const]
@@ -571,8 +587,9 @@ The value of the specific heat of the particle. The Rocky solver has a built-in 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::get_specific_heat"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a161b925c5cb9660521995eae19230b98"></a>
 ### Function set\_specific\_heat
+
+<a id="structIRockyParticleScalars_1a161b925c5cb9660521995eae19230b98"></a>
 
 ![][public]
 
@@ -607,8 +624,9 @@ the corresponding built-in particle scalar was enabled. Otherwise, a segmentatio
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::set_specific_heat"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1aa2e33b5ad44cf4487e8c28f69bab1bbc"></a>
 ### Function get\_poisson\_ratio
+
+<a id="structIRockyParticleScalars_1aa2e33b5ad44cf4487e8c28f69bab1bbc"></a>
 
 ![][public]
 ![][const]
@@ -635,8 +653,9 @@ The value of the Poisson's ratio assigned to the particle. The Rocky solver has 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::get_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a575c4ba7f23f9b8b0344964a5ddf4e01"></a>
 ### Function set\_poisson\_ratio
+
+<a id="structIRockyParticleScalars_1a575c4ba7f23f9b8b0344964a5ddf4e01"></a>
 
 ![][public]
 
@@ -671,8 +690,9 @@ the corresponding built-in particle scalar was enabled. Otherwise, a segmentatio
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::set_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a22cb79d50006e74ccc257c1b7b7c65ce"></a>
 ### Function get\_scalar
+
+<a id="structIRockyParticleScalars_1a22cb79d50006e74ccc257c1b7b7c65ce"></a>
 
 ![][public]
 ![][const]
@@ -713,8 +733,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a18a2bdf028e0356b59e5c7bfa7d35a05"></a>
 ### Function set\_scalar
+
+<a id="structIRockyParticleScalars_1a18a2bdf028e0356b59e5c7bfa7d35a05"></a>
 
 ![][public]
 ![][const]
@@ -752,8 +773,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a7583200a98dabab00cb51f19e90356a4"></a>
 ### Function add\_scalar
+
+<a id="structIRockyParticleScalars_1a7583200a98dabab00cb51f19e90356a4"></a>
 
 ![][public]
 ![][const]
@@ -791,8 +813,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyParticleScalars_1a83a4b26c94d203d6b02708fa7ec52c65"></a>
 ### Function max\_scalar
+
+<a id="structIRockyParticleScalars_1a83a4b26c94d203d6b02708fa7ec52c65"></a>
 
 ![][public]
 ![][const]

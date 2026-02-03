@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1kpi_1_1Datatype"></a>
-# Class simulation\_framework::core::kpi::Datatype
+# Class simulation_framework::core::kpi::Datatype
 
 ![][C++]
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 32)
 
 
 
@@ -20,7 +19,7 @@
 * [operator==](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a3d785be16a1608f79fcdb9d5add8b136)
 * [ToString](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a38259bca11339cce1a9174bcdd0a19ec)
 * [Value](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a8e5ae86a5a1e5379617e5a6fc39d0bea)
-* [value\_](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a95adac444829848befdc53a24a06e6f7)
+* [value_](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a95adac444829848befdc53a24a06e6f7)
 * [~Datatype](classsimulation__framework_1_1core_1_1kpi_1_1Datatype.md#classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a8ed281e5a363b6554fea3a1dc5edd691)
 
 ## Public types
@@ -30,7 +29,7 @@
 
 ![][public]
 
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
+**Definition**: `core/kpi/definition/kpi_definition.h` (line 35)
 
 
 ```cpp
@@ -97,35 +96,6 @@ Datatype of this KPI.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::kpi::Datatype::Value"}]}`
--->
-
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1kpi_1_1Datatype_1a95adac444829848befdc53a24a06e6f7"></a>
-### Variable value\_
-
-![][private]
-
-#include: <[kpi_definition.h](kpi__definition_8h.md#kpi__definition_8h)>
-
-
-```cpp
-Value simulation_framework::core::kpi::Datatype::value_
-```
-
-
-
-
-
-
-
-
-**Type**: Value
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::kpi::Datatype::value_"}]}`
 -->
 
 ## Public functions
@@ -203,7 +173,7 @@ simulation_framework::core::kpi::Datatype::Datatype(const std::string &value_str
 
 **Parameters**:
 
-* const std::string & **value_string**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **value_string**
 
 **Return type**: 
 
@@ -309,9 +279,9 @@ void simulation_framework::core::kpi::Datatype::FromString(const std::string &va
 
 **Parameters**:
 
-* const std::string & **value_string**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **value_string**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -341,7 +311,7 @@ bool simulation_framework::core::kpi::Datatype::operator==(Datatype other) const
 
 * Datatype **other**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -353,3 +323,4 @@ bool simulation_framework::core::kpi::Datatype::operator==(Datatype other) const
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

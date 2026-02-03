@@ -89,8 +89,9 @@ Contact scalars are special variables that store values per contact that are pre
 
 ## Public functions
 
-<a id="structIRockyContact_1ae1890c831f2bb90143d3459352dee316"></a>
 ### Function get\_home\_material
+
+<a id="structIRockyContact_1ae1890c831f2bb90143d3459352dee316"></a>
 
 ![][public]
 ![][const]
@@ -117,8 +118,9 @@ An <code>[IRockyMaterial](structIRockyMaterial.md#structIRockyMaterial)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_home_material"}]}`
 -->
 
-<a id="structIRockyContact_1a8ec1a085944bc63f455c4007531aea61"></a>
 ### Function get\_near\_material
+
+<a id="structIRockyContact_1a8ec1a085944bc63f455c4007531aea61"></a>
 
 ![][public]
 ![][const]
@@ -145,8 +147,9 @@ An <code>[IRockyMaterial](structIRockyMaterial.md#structIRockyMaterial)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_near_material"}]}`
 -->
 
-<a id="structIRockyContact_1aff52effeb3fe2a5015ac05022df63731"></a>
 ### Function get\_material\_interaction
+
+<a id="structIRockyContact_1aff52effeb3fe2a5015ac05022df63731"></a>
 
 ![][public]
 ![][const]
@@ -173,8 +176,9 @@ An <code>[IRockyMaterialInteraction](structIRockyMaterialInteraction.md#structIR
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_material_interaction"}]}`
 -->
 
-<a id="structIRockyContact_1ab05070dcc53936225c506abfc2645ff4"></a>
 ### Function get\_material\_interaction\_index
+
+<a id="structIRockyContact_1ab05070dcc53936225c506abfc2645ff4"></a>
 
 ![][public]
 ![][const]
@@ -201,8 +205,9 @@ The internal index of the material interaction associated to the contact. Every 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_material_interaction_index"}]}`
 -->
 
-<a id="structIRockyContact_1aed9e6fcfa92276bc514e21564f0603fb"></a>
 ### Function get\_home\_particle
+
+<a id="structIRockyContact_1aed9e6fcfa92276bc514e21564f0603fb"></a>
 
 ![][public]
 ![][const]
@@ -229,8 +234,9 @@ An <code>[IRockyParticle](structIRockyParticle.md#structIRockyParticle)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_home_particle"}]}`
 -->
 
-<a id="structIRockyContact_1a2cd1c1e40befd0cf6910d663432c3695"></a>
 ### Function get\_home\_particle\_group\_index
+
+<a id="structIRockyContact_1a2cd1c1e40befd0cf6910d663432c3695"></a>
 
 ![][public]
 ![][const]
@@ -257,8 +263,9 @@ The index that uniquely identifies the particle group to which the home particle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_home_particle_group_index"}]}`
 -->
 
-<a id="structIRockyContact_1a6c85a39640365d283d22437792c51f0f"></a>
 ### Function get\_near\_particle
+
+<a id="structIRockyContact_1a6c85a39640365d283d22437792c51f0f"></a>
 
 ![][public]
 ![][const]
@@ -285,8 +292,9 @@ An <code>[IRockyParticle](structIRockyParticle.md#structIRockyParticle)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_near_particle"}]}`
 -->
 
-<a id="structIRockyContact_1a244d24fa1cc78a23d6f4553d5797ab0b"></a>
 ### Function get\_near\_particle\_group\_index
+
+<a id="structIRockyContact_1a244d24fa1cc78a23d6f4553d5797ab0b"></a>
 
 ![][public]
 ![][const]
@@ -313,8 +321,9 @@ The index that uniquely identifies the particle group to which the near particle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_near_particle_group_index"}]}`
 -->
 
-<a id="structIRockyContact_1aa2479a695d48de98b5caf29d52134b8a"></a>
 ### Function get\_near\_triangle
+
+<a id="structIRockyContact_1aa2479a695d48de98b5caf29d52134b8a"></a>
 
 ![][public]
 ![][const]
@@ -341,8 +350,9 @@ An <code>[IRockyGeometryTriangle](structIRockyGeometryTriangle.md#structIRockyGe
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_near_triangle"}]}`
 -->
 
-<a id="structIRockyContact_1a3f551f05cfe40b8c6b95b3df8a311ca4"></a>
 ### Function get\_near\_geometry\_index
+
+<a id="structIRockyContact_1a3f551f05cfe40b8c6b95b3df8a311ca4"></a>
 
 ![][public]
 ![][const]
@@ -369,8 +379,9 @@ The internal index that uniquely identifies the geometry to which belongs the ge
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_near_geometry_index"}]}`
 -->
 
-<a id="structIRockyContact_1a0a27611118aab7a27fb6c1e53939cba1"></a>
 ### Function is\_particle\_particle\_contact
+
+<a id="structIRockyContact_1a0a27611118aab7a27fb6c1e53939cba1"></a>
 
 ![][public]
 ![][const]
@@ -397,8 +408,9 @@ True if the contact is a particle-to-particle contact, false otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::is_particle_particle_contact"}]}`
 -->
 
-<a id="structIRockyContact_1a9de7fba112ea033f15e8ee1fb0305960"></a>
 ### Function is\_particle\_triangle\_contact
+
+<a id="structIRockyContact_1a9de7fba112ea033f15e8ee1fb0305960"></a>
 
 ![][public]
 ![][const]
@@ -425,8 +437,9 @@ True if the contact is a particle-to-triangle contact, false otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::is_particle_triangle_contact"}]}`
 -->
 
-<a id="structIRockyContact_1ae83dc410da7f54a0badbfb0c75fdaa4b"></a>
 ### Function is\_frictional
+
+<a id="structIRockyContact_1ae83dc410da7f54a0badbfb0c75fdaa4b"></a>
 
 ![][public]
 ![][const]
@@ -453,8 +466,9 @@ True if the contact is frictional, that is, the contacting entities are touching
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::is_frictional"}]}`
 -->
 
-<a id="structIRockyContact_1a46453e5b227065edb55c7b67177584f9"></a>
 ### Function is\_adhesive
+
+<a id="structIRockyContact_1a46453e5b227065edb55c7b67177584f9"></a>
 
 ![][public]
 ![][const]
@@ -481,8 +495,9 @@ True if the contact is adhesive, which is the case for all contacts if an adhesi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::is_adhesive"}]}`
 -->
 
-<a id="structIRockyContact_1ab6c8fca161c75cf870eb059f9ed3b11c"></a>
 ### Function get\_previous\_overlap
+
+<a id="structIRockyContact_1ab6c8fca161c75cf870eb059f9ed3b11c"></a>
 
 ![][public]
 ![][const]
@@ -509,8 +524,9 @@ The value of the overlap corresponding to the previous timestep.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_previous_overlap"}]}`
 -->
 
-<a id="structIRockyContact_1a26aef3fac3655fe686283be4bd2fe7f0"></a>
 ### Function get\_overlap
+
+<a id="structIRockyContact_1a26aef3fac3655fe686283be4bd2fe7f0"></a>
 
 ![][public]
 ![][const]
@@ -537,8 +553,9 @@ The value of the current overlap, which is the small distance that a particle ov
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_overlap"}]}`
 -->
 
-<a id="structIRockyContact_1a04a9d6e5ba1478bc00d4955bcaa1a2fd"></a>
 ### Function get\_normal\_unit\_vector
+
+<a id="structIRockyContact_1a04a9d6e5ba1478bc00d4955bcaa1a2fd"></a>
 
 ![][public]
 ![][const]
@@ -565,8 +582,9 @@ The unit normal vector in Cartesian coordinates. Conventionally, this vector is 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_normal_unit_vector"}]}`
 -->
 
-<a id="structIRockyContact_1aafeae8748cf36743d08f4570b198f001"></a>
 ### Function get\_contact\_position
+
+<a id="structIRockyContact_1aafeae8748cf36743d08f4570b198f001"></a>
 
 ![][public]
 ![][const]
@@ -593,8 +611,9 @@ The Cartesian coordinates of the point at which the contact force is applied.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_contact_position"}]}`
 -->
 
-<a id="structIRockyContact_1ad0940d0dcefd839aaba3770689a034bb"></a>
 ### Function get\_scale\_factor
+
+<a id="structIRockyContact_1ad0940d0dcefd839aaba3770689a034bb"></a>
 
 ![][public]
 ![][const]
@@ -621,8 +640,9 @@ The value of the scale factor, which is a reduction factor of the contact force 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_scale_factor"}]}`
 -->
 
-<a id="structIRockyContact_1ab280ec2c5bc3fe90ca4822939514d3b5"></a>
 ### Function just\_started\_frictional
+
+<a id="structIRockyContact_1ab280ec2c5bc3fe90ca4822939514d3b5"></a>
 
 ![][public]
 ![][const]
@@ -649,8 +669,9 @@ True if the contact is frictional and it has begun at the current timestep, fals
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::just_started_frictional"}]}`
 -->
 
-<a id="structIRockyContact_1a33e06ba2b8ca80ff15946ac27885dbd7"></a>
 ### Function just\_started\_adhesive
+
+<a id="structIRockyContact_1a33e06ba2b8ca80ff15946ac27885dbd7"></a>
 
 ![][public]
 ![][const]
@@ -677,8 +698,9 @@ True if the contact is adhesive and it has begun at the current timestep, false 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::just_started_adhesive"}]}`
 -->
 
-<a id="structIRockyContact_1afbda49c86a367e9a4f20492ff5007333"></a>
 ### Function just\_finished\_frictional
+
+<a id="structIRockyContact_1afbda49c86a367e9a4f20492ff5007333"></a>
 
 ![][public]
 ![][const]
@@ -709,8 +731,9 @@ This method will work properly only if called within the <code>ROCKY_PLUGIN_POST
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::just_finished_frictional"}]}`
 -->
 
-<a id="structIRockyContact_1a52439d8dd07c36c9475eb248d7dcb38e"></a>
 ### Function just\_finished\_adhesive
+
+<a id="structIRockyContact_1a52439d8dd07c36c9475eb248d7dcb38e"></a>
 
 ![][public]
 ![][const]
@@ -741,8 +764,9 @@ This method will work properly only if called within the <code>ROCKY_PLUGIN_POST
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::just_finished_adhesive"}]}`
 -->
 
-<a id="structIRockyContact_1a395c9be7e50adea7317a808279faec0c"></a>
 ### Function is\_loading
+
+<a id="structIRockyContact_1a395c9be7e50adea7317a808279faec0c"></a>
 
 ![][public]
 ![][const]
@@ -769,8 +793,9 @@ True if the contact is in a loading period (overlap increasing), false otherwise
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::is_loading"}]}`
 -->
 
-<a id="structIRockyContact_1abe5cd05335fe5264bc05d9808b23a9fe"></a>
 ### Function is\_unloading
+
+<a id="structIRockyContact_1abe5cd05335fe5264bc05d9808b23a9fe"></a>
 
 ![][public]
 ![][const]
@@ -797,8 +822,9 @@ True if the contact is in a unloading period (overlap decreasing), false otherwi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::is_unloading"}]}`
 -->
 
-<a id="structIRockyContact_1a79c5a7fb09b962d62eefe61f27cddcd7"></a>
 ### Function is\_positive\_oriented
+
+<a id="structIRockyContact_1a79c5a7fb09b962d62eefe61f27cddcd7"></a>
 
 ![][public]
 ![][const]
@@ -825,8 +851,9 @@ True if the topological orientation of the contact coincides with the convention
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::is_positive_oriented"}]}`
 -->
 
-<a id="structIRockyContact_1a6cc48e3759e515587e236d283d904f00"></a>
 ### Function get\_current\_time
+
+<a id="structIRockyContact_1a6cc48e3759e515587e236d283d904f00"></a>
 
 ![][public]
 ![][const]
@@ -853,8 +880,9 @@ The current simulation time.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_current_time"}]}`
 -->
 
-<a id="structIRockyContact_1a4cc9eb65e78d4eb4cbe34bb7c7baf85d"></a>
 ### Function get\_timestep
+
+<a id="structIRockyContact_1a4cc9eb65e78d4eb4cbe34bb7c7baf85d"></a>
 
 ![][public]
 ![][const]
@@ -881,8 +909,9 @@ The magnitude of the simulation timestep.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_timestep"}]}`
 -->
 
-<a id="structIRockyContact_1af937221f53319cd4a30871829e3cc7e0"></a>
 ### Function get\_particle\_contact\_scalars
+
+<a id="structIRockyContact_1af937221f53319cd4a30871829e3cc7e0"></a>
 
 ![][public]
 ![][const]
@@ -909,8 +938,9 @@ An <code>[IRockyContactScalars](structIRockyContactScalars.md#structIRockyContac
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_particle_contact_scalars"}]}`
 -->
 
-<a id="structIRockyContact_1ab14e84d2a580a95b2fbcb3d1f5c92a25"></a>
 ### Function get\_triangle\_contact\_scalars
+
+<a id="structIRockyContact_1ab14e84d2a580a95b2fbcb3d1f5c92a25"></a>
 
 ![][public]
 ![][const]
@@ -937,8 +967,9 @@ An <code>[IRockyContactScalars](structIRockyContactScalars.md#structIRockyContac
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_triangle_contact_scalars"}]}`
 -->
 
-<a id="structIRockyContact_1a1816640d165bb54d339ee9aaf2873046"></a>
 ### Function get\_home\_stiffness
+
+<a id="structIRockyContact_1a1816640d165bb54d339ee9aaf2873046"></a>
 
 ![][public]
 ![][const]
@@ -965,8 +996,9 @@ The value of the stiffness associated to the _home_ particle. For more details a
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_home_stiffness"}]}`
 -->
 
-<a id="structIRockyContact_1aa49e3ddd3916fabf25a90e8fefb5cc4c"></a>
 ### Function get\_near\_stiffness
+
+<a id="structIRockyContact_1aa49e3ddd3916fabf25a90e8fefb5cc4c"></a>
 
 ![][public]
 ![][const]
@@ -993,8 +1025,9 @@ The value of the stiffness associated to the _near_ particle or the _near_ trian
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_near_stiffness"}]}`
 -->
 
-<a id="structIRockyContact_1aa373c6f200518285d6bb85817d12ccae"></a>
 ### Function get\_equivalent\_stiffness
+
+<a id="structIRockyContact_1aa373c6f200518285d6bb85817d12ccae"></a>
 
 ![][public]
 ![][const]
@@ -1021,8 +1054,9 @@ The value of the equivalent stiffness for the contact. The returned value is alr
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_equivalent_stiffness"}]}`
 -->
 
-<a id="structIRockyContact_1aff778f8122d9ea2f81da59e1ff279b45"></a>
 ### Function get\_home\_stiffness\_fraction
+
+<a id="structIRockyContact_1aff778f8122d9ea2f81da59e1ff279b45"></a>
 
 ![][public]
 ![][const]
@@ -1049,8 +1083,9 @@ The fraction of the stiffness of the near entity to the sum of the stiffnesses o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_home_stiffness_fraction"}]}`
 -->
 
-<a id="structIRockyContact_1acc8512372077732bfe12aa3483f2e35b"></a>
 ### Function get\_reduced\_young\_modulus
+
+<a id="structIRockyContact_1acc8512372077732bfe12aa3483f2e35b"></a>
 
 ![][public]
 ![][const]
@@ -1077,8 +1112,9 @@ The value of the reduced Young's modulus. This property is usually used in the H
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_reduced_young_modulus"}]}`
 -->
 
-<a id="structIRockyContact_1ae4f9b67c0a4577089b37854e9fa5fe9b"></a>
 ### Function get\_equivalent\_mass
+
+<a id="structIRockyContact_1ae4f9b67c0a4577089b37854e9fa5fe9b"></a>
 
 ![][public]
 ![][const]
@@ -1105,8 +1141,9 @@ The value of the equivalent or effective mass for the contact. For more details,
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_equivalent_mass"}]}`
 -->
 
-<a id="structIRockyContact_1a473c87b27145d22e24f15e67ab160d89"></a>
 ### Function get\_equivalent\_radius
+
+<a id="structIRockyContact_1a473c87b27145d22e24f15e67ab160d89"></a>
 
 ![][public]
 ![][const]
@@ -1133,8 +1170,9 @@ The value of the equivalent or effective radius for the contact. For more detail
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_equivalent_radius"}]}`
 -->
 
-<a id="structIRockyContact_1a9e085d9bb5684b5d34c33525bb1d021c"></a>
 ### Function get\_normal\_contact\_force
+
+<a id="structIRockyContact_1a9e085d9bb5684b5d34c33525bb1d021c"></a>
 
 ![][public]
 ![][const]
@@ -1161,8 +1199,9 @@ The value of the normal component of the contact force, calculated according to 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_normal_contact_force"}]}`
 -->
 
-<a id="structIRockyContact_1aca5aae0a4d0c2033bbad4da067657704"></a>
 ### Function get\_tangential\_contact\_force
+
+<a id="structIRockyContact_1aca5aae0a4d0c2033bbad4da067657704"></a>
 
 ![][public]
 ![][const]
@@ -1190,8 +1229,9 @@ The tangential component of the contact force as a vector in Cartesian coordinat
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_tangential_contact_force"}]}`
 -->
 
-<a id="structIRockyContact_1af05c086a0b75c761b13fa744061789e4"></a>
 ### Function calculate\_relative\_velocity
+
+<a id="structIRockyContact_1af05c086a0b75c761b13fa744061789e4"></a>
 
 ![][public]
 ![][const]
@@ -1227,8 +1267,9 @@ The current relative velocity vector between two contacting particles or a parti
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::calculate_relative_velocity"}]}`
 -->
 
-<a id="structIRockyContact_1a6e335a5d032dded094c6b36ad5ea23c1"></a>
 ### Function get\_restitution\_coefficient
+
+<a id="structIRockyContact_1a6e335a5d032dded094c6b36ad5ea23c1"></a>
 
 ![][public]
 ![][const]
@@ -1255,8 +1296,9 @@ The value of the coefficient of restitution associated to the contact. If the re
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_restitution_coefficient"}]}`
 -->
 
-<a id="structIRockyContact_1ad5f45118ba3d4bdedd2194640fc4c79d"></a>
 ### Function set\_restitution\_coefficient
+
+<a id="structIRockyContact_1ad5f45118ba3d4bdedd2194640fc4c79d"></a>
 
 ![][public]
 
@@ -1291,8 +1333,9 @@ It can be used only if the coefficient of restitution was defined as a variable 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::set_restitution_coefficient"}]}`
 -->
 
-<a id="structIRockyContact_1a00daba07ec1b0b1df0be1e8d761a408e"></a>
 ### Function get\_dynamic\_friction\_coefficient
+
+<a id="structIRockyContact_1a00daba07ec1b0b1df0be1e8d761a408e"></a>
 
 ![][public]
 ![][const]
@@ -1319,8 +1362,9 @@ The value of the coefficient of dynamic or kinetic friction associated to the co
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_dynamic_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyContact_1aaa4594d0c921983edc1d1033661c6500"></a>
 ### Function set\_dynamic\_friction\_coefficient
+
+<a id="structIRockyContact_1aaa4594d0c921983edc1d1033661c6500"></a>
 
 ![][public]
 
@@ -1355,8 +1399,9 @@ contact. It can be used only if that coefficient was defined as a variable prope
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::set_dynamic_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyContact_1a9b6c747c62166e351d363d693e18c46a"></a>
 ### Function get\_static\_friction\_coefficient
+
+<a id="structIRockyContact_1a9b6c747c62166e351d363d693e18c46a"></a>
 
 ![][public]
 ![][const]
@@ -1383,8 +1428,9 @@ The value of the coefficient of static friction associated to the contact. If th
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_static_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyContact_1a5a3233239461058a2f33a9f49494666c"></a>
 ### Function set\_static\_friction\_coefficient
+
+<a id="structIRockyContact_1a5a3233239461058a2f33a9f49494666c"></a>
 
 ![][public]
 
@@ -1419,8 +1465,9 @@ It can be used only if that coefficient was defined as a variable property in th
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::set_static_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyContact_1afe041153be8e43d3e5d7c7a500a49501"></a>
 ### Function get\_sliding\_distance
+
+<a id="structIRockyContact_1afe041153be8e43d3e5d7c7a500a49501"></a>
 
 ![][public]
 ![][const]
@@ -1447,8 +1494,9 @@ The value of the sliding distance calculated during the most recent simulation t
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_sliding_distance"}]}`
 -->
 
-<a id="structIRockyContact_1a1acfe6d4f8e36c9fd417a658aac1c041"></a>
 ### Function get\_is\_sliding\_marker
+
+<a id="structIRockyContact_1a1acfe6d4f8e36c9fd417a658aac1c041"></a>
 
 ![][public]
 ![][const]
@@ -1475,8 +1523,9 @@ The value of the sliding marker registered during the most recent calculation of
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_is_sliding_marker"}]}`
 -->
 
-<a id="structIRockyContact_1a379476b7b01576be8fc0eb3f0dde7a1e"></a>
 ### Function get\_normal\_relative\_velocity
+
+<a id="structIRockyContact_1a379476b7b01576be8fc0eb3f0dde7a1e"></a>
 
 ![][public]
 ![][const]
@@ -1503,8 +1552,9 @@ The value of the normal component of the contact's relative velocity calculated 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_normal_relative_velocity"}]}`
 -->
 
-<a id="structIRockyContact_1a9fab3f0e6f78ea64e96209fbbd540b85"></a>
 ### Function get\_tangential\_relative\_velocity
+
+<a id="structIRockyContact_1a9fab3f0e6f78ea64e96209fbbd540b85"></a>
 
 ![][public]
 ![][const]
@@ -1531,8 +1581,9 @@ The value of the tangential component of the contact's relative velocity calcula
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_tangential_relative_velocity"}]}`
 -->
 
-<a id="structIRockyContact_1a21587a9de6f69f4af1d215c3879fca66"></a>
 ### Function get\_normal\_adhesion\_force
+
+<a id="structIRockyContact_1a21587a9de6f69f4af1d215c3879fca66"></a>
 
 ![][public]
 ![][const]
@@ -1559,8 +1610,9 @@ The value of the normal component of the adhesion force calculated during the la
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_normal_adhesion_force"}]}`
 -->
 
-<a id="structIRockyContact_1a20d7ffad55e1c1c28c848eb3b09c41f2"></a>
 ### Function get\_tangential\_adhesion\_force
+
+<a id="structIRockyContact_1a20d7ffad55e1c1c28c848eb3b09c41f2"></a>
 
 ![][public]
 ![][const]
@@ -1587,8 +1639,9 @@ The value of the tangential component of the adhesion force calculated during th
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_tangential_adhesion_force"}]}`
 -->
 
-<a id="structIRockyContact_1afa684887b3dcfad056850ccfdf399ec3"></a>
 ### Function get\_previous\_normal\_vector
+
+<a id="structIRockyContact_1afa684887b3dcfad056850ccfdf399ec3"></a>
 
 ![][public]
 ![][const]
@@ -1615,8 +1668,9 @@ The value of the contact's normal unit vector recorded during the previous time 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_previous_normal_vector"}]}`
 -->
 
-<a id="structIRockyContact_1a4d10fc8ec36500e0a8f6673f3e7628fd"></a>
 ### Function get\_previous\_moment\_vector
+
+<a id="structIRockyContact_1a4d10fc8ec36500e0a8f6673f3e7628fd"></a>
 
 ![][public]
 ![][const]
@@ -1643,8 +1697,9 @@ The value the previous rolling resistance moment stored by a custom module that 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContact::get_previous_moment_vector"}]}`
 -->
 
-<a id="structIRockyContact_1a302215189897e9ad39f8d7a3ff571d6c"></a>
 ### Function set\_previous\_moment\_vector
+
+<a id="structIRockyContact_1a302215189897e9ad39f8d7a3ff571d6c"></a>
 
 ![][public]
 

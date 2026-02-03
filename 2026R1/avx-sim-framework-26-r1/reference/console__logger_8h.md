@@ -1,9 +1,8 @@
-<a id="console__logger_8h"></a>
-# File console\_logger.h
+# File console_logger.h
 
 ![][C++]
 
-**Location**: `core/logging/console\_logger.h`
+**Location**: `core/logging/console_logger.h`
 
 
 
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::core::logging::ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger)
+* [simulation_framework::core::logging::ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
-* [simulation\_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
-* [simulation\_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework::core](namespacesimulation__framework_1_1core.md#namespacesimulation__framework_1_1core)
+* [simulation_framework::core::logging](namespacesimulation__framework_1_1core_1_1logging.md#namespacesimulation__framework_1_1core_1_1logging)
 
 ## Includes
 
@@ -30,38 +29,6 @@
 * <unistd.h>
 
 
-```mermaid
-graph LR
-1["console_logger.h"]
-click 1 "console__logger_8h.md#console__logger_8h"
-1 --> 2
-1 --> 5
-1 --> 6
-1 --> 7
-1 --> 8
-1 --> 4
-1 --> 9
-
-2["core/logging/i_logger.h"]
-click 2 "i__logger_8h_source.md#i__logger_8h_source"
-2 --> 3
-2 --> 4
-
-5["chrono"]
-
-6["iomanip"]
-
-7["iostream"]
-
-8["sstream"]
-
-3["string"]
-
-4["string_view"]
-
-9["unistd.h"]
-
-```
 
 
 ## Included by
@@ -69,20 +36,6 @@ click 2 "i__logger_8h_source.md#i__logger_8h_source"
 * [logging.h](logging_8h.md#logging_8h)
 
 
-```mermaid
-graph RL
-3["simulation_instance.h"]
-click 3 "simulation__instance_8h_source.md#simulation__instance_8h_source"
-
-1["console_logger.h"]
-click 1 "console__logger_8h.md#console__logger_8h"
-2 --> 1
-
-2["logging.h"]
-click 2 "logging_8h_source.md#logging_8h_source"
-3 --> 2
-
-```
 
 
 ## Source

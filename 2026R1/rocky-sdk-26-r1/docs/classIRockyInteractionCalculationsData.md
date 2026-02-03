@@ -31,8 +31,9 @@
 
 ## Public functions
 
-<a id="classIRockyInteractionCalculationsData_1ab5fb8e3d498bfc78f116eec7b53b22b8"></a>
 ### Function get\_number\_particle\_groups
+
+<a id="classIRockyInteractionCalculationsData_1ab5fb8e3d498bfc78f116eec7b53b22b8"></a>
 
 ![][public]
 ![][const]
@@ -59,8 +60,9 @@ The total number of particle groups defined in the project. A particle group is 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_number_particle_groups"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1a700a3993ce6c50786c1323e0b91a7c3a"></a>
 ### Function get\_particle\_material\_index
+
+<a id="classIRockyInteractionCalculationsData_1a700a3993ce6c50786c1323e0b91a7c3a"></a>
 
 ![][public]
 ![][const]
@@ -96,8 +98,9 @@ The index that uniquely identifies internally in Rocky the material associated w
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_particle_material_index"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1a1ce09b00f677c903a2d25426f8447300"></a>
 ### Function get\_particle\_min\_sieve\_size
+
+<a id="classIRockyInteractionCalculationsData_1a1ce09b00f677c903a2d25426f8447300"></a>
 
 ![][public]
 ![][const]
@@ -133,8 +136,9 @@ The sieve size of the smallest particle in a particle group. Zero is returned if
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_particle_min_sieve_size"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1ac12016128279790932537b32c1c7410d"></a>
 ### Function get\_particle\_max\_sieve\_size
+
+<a id="classIRockyInteractionCalculationsData_1ac12016128279790932537b32c1c7410d"></a>
 
 ![][public]
 ![][const]
@@ -170,8 +174,9 @@ The sieve size of the largest particle in a particle group. Zero is returned if 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_particle_max_sieve_size"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1a641adbab81c6c430aa1b0eae6eff29f4"></a>
 ### Function get\_particle\_min\_mass
+
+<a id="classIRockyInteractionCalculationsData_1a641adbab81c6c430aa1b0eae6eff29f4"></a>
 
 ![][public]
 ![][const]
@@ -207,8 +212,9 @@ The mass of the smallest particle in a particle group. Zero is returned if no pa
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_particle_min_mass"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1a986da6321cca08d20d20dbd43962a74a"></a>
 ### Function get\_number\_geometry\_materials
+
+<a id="classIRockyInteractionCalculationsData_1a986da6321cca08d20d20dbd43962a74a"></a>
 
 ![][public]
 ![][const]
@@ -235,8 +241,9 @@ The total number of different materials associated to the geometries or boundari
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_number_geometry_materials"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1a05cb28a940233bc976b806a5893c639c"></a>
 ### Function get\_geometry\_material\_index
+
+<a id="classIRockyInteractionCalculationsData_1a05cb28a940233bc976b806a5893c639c"></a>
 
 ![][public]
 ![][const]
@@ -272,8 +279,9 @@ The internal index in Rocky that identifies a material.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_geometry_material_index"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1a609eb08b9a568e07c35953bd616d9551"></a>
 ### Function get\_material
+
+<a id="classIRockyInteractionCalculationsData_1a609eb08b9a568e07c35953bd616d9551"></a>
 
 ![][public]
 ![][const]
@@ -309,8 +317,9 @@ An <code>[IRockyMaterial](structIRockyMaterial.md#structIRockyMaterial)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_material"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1a1cf7ad2b906aa2f033494b390522bbb3"></a>
 ### Function get\_material\_interaction\_index
+
+<a id="classIRockyInteractionCalculationsData_1a1cf7ad2b906aa2f033494b390522bbb3"></a>
 
 ![][public]
 ![][const]
@@ -348,8 +357,9 @@ The internal index in Rocky that identifies a material interaction.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyInteractionCalculationsData::get_material_interaction_index"}]}`
 -->
 
-<a id="classIRockyInteractionCalculationsData_1aeb94fd8ed1f75bd0523634285ad94e4d"></a>
 ### Function get\_material\_interaction
+
+<a id="classIRockyInteractionCalculationsData_1aeb94fd8ed1f75bd0523634285ad94e4d"></a>
 
 ![][public]
 ![][const]

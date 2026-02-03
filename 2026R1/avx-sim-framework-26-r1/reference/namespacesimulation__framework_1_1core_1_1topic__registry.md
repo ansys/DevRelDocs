@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1core_1_1topic__registry"></a>
-# Namespace simulation\_framework::core::topic\_registry
+# Namespace simulation_framework::core::topic_registry
 
 ![][C++]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 59)
 
 
 
@@ -11,16 +10,16 @@
 
 ## Typedefs
 
-<a id="core_2communication_2topic__registry_8h_1a142e483f52b5afa62401572960d4010a"></a>
+<a id="core_2communication_2topic__registry_8h_1a9edbd07732d0c58d7c78107bc211bd46"></a>
 ### Typedef StringTopicType
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 133)
 
 
 ```cpp
-using simulation_framework::core::topic_registry::StringTopicType =  Topic<rtidds::CommonString>
+using simulation_framework::core::topic_registry::StringTopicType = typedef Topic<rtidds::CommonString>
 ```
 
 
@@ -110,16 +109,16 @@ topic->Publish(msg);
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::topic_registry::StringTopicType"}]}`
 -->
 
-<a id="core_2communication_2topic__registry_8h_1a37489cde8bf25129ff0f82648631a3af"></a>
+<a id="core_2communication_2topic__registry_8h_1a7e388e2d7f8cdf8897e06a4c19fa7462"></a>
 ### Typedef KpiMessageTopicType
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 157)
 
 
 ```cpp
-using simulation_framework::core::topic_registry::KpiMessageTopicType =  Topic<rtidds::KpiMessage>
+using simulation_framework::core::topic_registry::KpiMessageTopicType = typedef Topic<rtidds::KpiMessage>
 ```
 
 
@@ -143,7 +142,7 @@ topic->Publish(kpi_msg);
 
 
 
-**See also**: rtidds::KpiMessage, [core/kpi/definition/kpi\_definition.h](kpi__definition_8h_source.md#kpi__definition_8h_source), documentation/markdown/kpi_and_kpi_logging.md
+**See also**: rtidds::KpiMessage, [core/kpi/definition/kpi_definition.h](kpi__definition_8h.md documentation/markdown/kpi_and_kpi_logging.md
 
 
 
@@ -155,16 +154,16 @@ topic->Publish(kpi_msg);
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::topic_registry::KpiMessageTopicType"}]}`
 -->
 
-<a id="core_2communication_2topic__registry_8h_1aeccddb0946dc0c5c4e59c39d934543aa"></a>
+<a id="core_2communication_2topic__registry_8h_1a967762d6bfe6d9cadfd09a40bab7a9f1"></a>
 ### Typedef GenericBytesTopicType
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 175)
 
 
 ```cpp
-using simulation_framework::core::topic_registry::GenericBytesTopicType =  Topic<rtidds::GenericBytesMessage>
+using simulation_framework::core::topic_registry::GenericBytesTopicType = typedef Topic<rtidds::GenericBytesMessage>
 ```
 
 
@@ -195,16 +194,16 @@ topic->Publish(msg);
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::topic_registry::GenericBytesTopicType"}]}`
 -->
 
-<a id="core_2communication_2topic__registry_8h_1ab43172e5e1298dc8b77e910856df2bf3"></a>
+<a id="core_2communication_2topic__registry_8h_1aa347191e2437a3c66320fe75e0b4a143"></a>
 ### Typedef FmuMessageTopicType
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 194)
 
 
 ```cpp
-using simulation_framework::core::topic_registry::FmuMessageTopicType =  Topic<rtidds::FmuMessage>
+using simulation_framework::core::topic_registry::FmuMessageTopicType = typedef Topic<rtidds::FmuMessage>
 ```
 
 
@@ -224,7 +223,7 @@ topic->Publish(msg);
  
 
 
-**See also**: rtidds::FmuMessage, [core/lifecycle/fmu\_activity/fmu\_base\_activity.h](fmu__base__activity_8h_source.md#fmu__base__activity_8h_source)
+**See also**: rtidds::FmuMessage, [core/lifecycle/fmu_activity/fmu_base_activity.h](fmu__base__activity_8h.md
 
 
 
@@ -236,22 +235,22 @@ topic->Publish(msg);
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::topic_registry::FmuMessageTopicType"}]}`
 -->
 
-<a id="core_2communication_2topic__registry_8h_1a6923b71b0205f5167b01d64e9a641249"></a>
+<a id="core_2communication_2topic__registry_8h_1a362ca8d00ab5265ca118b7d810b1ad96"></a>
 ### Typedef VariantDataTopicType
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 212)
 
 
 ```cpp
-using simulation_framework::core::topic_registry::VariantDataTopicType =  Topic<rtidds::VariantMessage>
+using simulation_framework::core::topic_registry::VariantDataTopicType = typedef Topic<rtidds::VariantMessage>
 ```
 
 
 [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) type for variant data messages.
 
-Uses [rtidds::VariantMessage](namespacertidds.md#namespacertidds_1ac35b14c276cd5d698f53163f30132293) (currently aliased to rtidds::FmuMessage) as the underlying message type. This topic type is intended for variant data communication, sharing the same structure as FmuMessage with support for multiple data types (boolean, integer, double, string, bytes) in a single message. 
+Uses [rtidds::VariantMessage](namespacertidds.md#namespacertidds_1a442f59bc02e5668d37a306af1c6faacd) (currently aliased to rtidds::FmuMessage) as the underlying message type. This topic type is intended for variant data communication, sharing the same structure as FmuMessage with support for multiple data types (boolean, integer, double, string, bytes) in a single message. 
 ```cpp
 auto topic = std::make_shared<VariantDataTopicType>("VariantDataTopic");
 rtidds::VariantMessage msg;  // or rtidds::FmuMessage
@@ -265,11 +264,11 @@ topic->Publish(msg);
  
 
 
-**See also**: [rtidds::VariantMessage](namespacertidds.md#namespacertidds_1ac35b14c276cd5d698f53163f30132293), rtidds::FmuMessage
+**See also**: [rtidds::VariantMessage](namespacertidds.md#namespacertidds_1a442f59bc02e5668d37a306af1c6faacd), rtidds::FmuMessage
 
 
 
-**Return type**: [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)< [rtidds::VariantMessage](namespacertidds.md#namespacertidds_1ac35b14c276cd5d698f53163f30132293) >
+**Return type**: [Topic](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)< [rtidds::VariantMessage](namespacertidds.md#namespacertidds_1a442f59bc02e5668d37a306af1c6faacd) >
 
 <!--
 **TODO**:
@@ -277,16 +276,16 @@ topic->Publish(msg);
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::topic_registry::VariantDataTopicType"}]}`
 -->
 
-<a id="core_2communication_2topic__registry_8h_1ae76a5fb1020faa5cc1bbf584c074ca4b"></a>
+<a id="core_2communication_2topic__registry_8h_1a4b336cd1471bdad879e9680854039b6f"></a>
 ### Typedef VariantMapTopicType
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `core/communication/topic_registry.h` (line 233)
 
 
 ```cpp
-using simulation_framework::core::topic_registry::VariantMapTopicType =  Topic<rtidds::VariantMap>
+using simulation_framework::core::topic_registry::VariantMapTopicType = typedef Topic<rtidds::VariantMap>
 ```
 
 

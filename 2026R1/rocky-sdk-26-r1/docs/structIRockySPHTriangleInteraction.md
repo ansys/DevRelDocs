@@ -28,8 +28,9 @@
 
 ## Public functions
 
-<a id="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5"></a>
 ### Function get\_home\_element
+
+<a id="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5"></a>
 
 ![][public]
 ![][const]
@@ -56,8 +57,9 @@ An <code>[IRockySPHElement](structIRockySPHElement.md#structIRockySPHElement)</c
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_home_element"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a469b4ac53234c9e707fee62725b0470a"></a>
 ### Function get\_near\_triangle
+
+<a id="structIRockySPHTriangleInteraction_1a469b4ac53234c9e707fee62725b0470a"></a>
 
 ![][public]
 ![][const]
@@ -84,8 +86,9 @@ An <code>[IRockyGeometryTriangle](structIRockyGeometryTriangle.md#structIRockyGe
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_near_triangle"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a6bfc347dab63cdbb89a8045f878ba16f"></a>
 ### Function calculate\_element\_triangle\_distance
+
+<a id="structIRockySPHTriangleInteraction_1a6bfc347dab63cdbb89a8045f878ba16f"></a>
 
 ![][public]
 ![][const]
@@ -112,8 +115,9 @@ The distance between the SPH element and the near geometry triangle, measured in
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::calculate_element_triangle_distance"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a665a945d4045772b3a4759b76daf697b"></a>
 ### Function get\_orthogonal\_projection
+
+<a id="structIRockySPHTriangleInteraction_1a665a945d4045772b3a4759b76daf697b"></a>
 
 ![][public]
 ![][const]
@@ -140,8 +144,9 @@ The Cartesian coordinates of the orthogonal projection of the home SPH element p
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_orthogonal_projection"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a23aa813897c50610e3989dc625f1993a"></a>
 ### Function get\_unit\_vector
+
+<a id="structIRockySPHTriangleInteraction_1a23aa813897c50610e3989dc625f1993a"></a>
 
 ![][public]
 ![][const]
@@ -168,8 +173,9 @@ The unit vector normal to the near geometry triangle. This vector always points 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_unit_vector"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1afc2786e2e46e3b025371c17290a88f45"></a>
 ### Function get\_home\_element\_velocity
+
+<a id="structIRockySPHTriangleInteraction_1afc2786e2e46e3b025371c17290a88f45"></a>
 
 ![][public]
 ![][const]
@@ -196,8 +202,9 @@ The velocity vector of the SPH element labeled as _home_ in the SPH interaction.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_home_element_velocity"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1ab240320819db1ece083e25b69f305e12"></a>
 ### Function get\_boundary\_velocity
+
+<a id="structIRockySPHTriangleInteraction_1ab240320819db1ece083e25b69f305e12"></a>
 
 ![][public]
 ![][const]
@@ -224,8 +231,9 @@ The instantaneous velocity of the point that coincides with the orthogonal proje
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_boundary_velocity"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a9df83c2a83bd932798eba6a099398ce4"></a>
 ### Function get\_normal\_relative\_velocity
+
+<a id="structIRockySPHTriangleInteraction_1a9df83c2a83bd932798eba6a099398ce4"></a>
 
 ![][public]
 ![][const]
@@ -252,8 +260,9 @@ The normal component of the SPH element's velocity relative to the the velocity 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_normal_relative_velocity"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a5ff11979743a9bd389afbc153b7124d9"></a>
 ### Function get\_tangential\_relative\_velocity
+
+<a id="structIRockySPHTriangleInteraction_1a5ff11979743a9bd389afbc153b7124d9"></a>
 
 ![][public]
 ![][const]
@@ -280,8 +289,9 @@ The tangential component of the SPH element's velocity relative to the the veloc
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_tangential_relative_velocity"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8"></a>
 ### Function get\_wall\_turbulent\_thermal\_conductance
+
+<a id="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8"></a>
 
 ![][public]
 ![][const]
@@ -319,8 +329,9 @@ The thermal conductance between a SPH element and a geometry triangle, calculate
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::get_wall_turbulent_thermal_conductance"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a749ae0224b1bd279d33404b3d0b84010"></a>
 ### Function add\_force
+
+<a id="structIRockySPHTriangleInteraction_1a749ae0224b1bd279d33404b3d0b84010"></a>
 
 ![][public]
 
@@ -355,8 +366,9 @@ so they are applied to the SPH element and the geometry triangle in the referred
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHTriangleInteraction::add_force"}]}`
 -->
 
-<a id="structIRockySPHTriangleInteraction_1a1578dfd6da083096eb169fe24913dd5b"></a>
 ### Function add\_acceleration
+
+<a id="structIRockySPHTriangleInteraction_1a1578dfd6da083096eb169fe24913dd5b"></a>
 
 ![][public]
 

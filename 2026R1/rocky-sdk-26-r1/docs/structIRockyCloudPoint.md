@@ -24,8 +24,9 @@
 
 ## Public functions
 
-<a id="structIRockyCloudPoint_1a1d06a1eb80ad0811ab2794f2a494fe17"></a>
 ### Function get\_position
+
+<a id="structIRockyCloudPoint_1a1d06a1eb80ad0811ab2794f2a494fe17"></a>
 
 ![][public]
 ![][const]
@@ -52,8 +53,9 @@ The Cartesian coordinates of the referred point in the cloud point.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCloudPoint::get_position"}]}`
 -->
 
-<a id="structIRockyCloudPoint_1a51d29e82619836ed172e8f3135bf0f51"></a>
 ### Function get\_property
+
+<a id="structIRockyCloudPoint_1a51d29e82619836ed172e8f3135bf0f51"></a>
 
 ![][public]
 ![][const]
@@ -85,8 +87,9 @@ The value of a property in the cloud point dataset, corresponding to the referre
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCloudPoint::get_property"}]}`
 -->
 
-<a id="structIRockyCloudPoint_1a9136329c0b219a389b02ae624761b741"></a>
 ### Function add\_property
+
+<a id="structIRockyCloudPoint_1a9136329c0b219a389b02ae624761b741"></a>
 
 ![][public]
 ![][const]
@@ -121,8 +124,9 @@ Adds value to the current property value identified by property_index. This meth
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCloudPoint::add_property"}]}`
 -->
 
-<a id="structIRockyCloudPoint_1a0668da5d5605bad7835355c5f6e3d269"></a>
 ### Function set\_property
+
+<a id="structIRockyCloudPoint_1a0668da5d5605bad7835355c5f6e3d269"></a>
 
 ![][public]
 ![][const]
@@ -157,8 +161,9 @@ Set the value of property identified by property_index to the passed value. This
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCloudPoint::set_property"}]}`
 -->
 
-<a id="structIRockyCloudPoint_1ae9e37938664d6977e49593d1ec8f3dbd"></a>
 ### Function is\_enabled
+
+<a id="structIRockyCloudPoint_1ae9e37938664d6977e49593d1ec8f3dbd"></a>
 
 ![][public]
 ![][const]
@@ -185,8 +190,9 @@ True if the current point cloud is enabled, false otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCloudPoint::is_enabled"}]}`
 -->
 
-<a id="structIRockyCloudPoint_1a79dfeecd7f7360ed1e25135ed54ed312"></a>
 ### Function is\_valid
+
+<a id="structIRockyCloudPoint_1a79dfeecd7f7360ed1e25135ed54ed312"></a>
 
 ![][public]
 ![][const]
@@ -213,8 +219,9 @@ True if the nearest point is a valid one for the particle passed to get_particle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCloudPoint::is_valid"}]}`
 -->
 
-<a id="structIRockyCloudPoint_1a2cb5ab14f36601af7337fd8ac71363fa"></a>
 ### Function add\_property
+
+<a id="structIRockyCloudPoint_1a2cb5ab14f36601af7337fd8ac71363fa"></a>
 
 ![][public]
 ![][const]
@@ -245,8 +252,9 @@ void IRockyCloudPoint::add_property(int property_index, const _data_type value) 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCloudPoint::add_property"}]}`
 -->
 
-<a id="structIRockyCloudPoint_1a92918f0daa29121981d3549569518573"></a>
 ### Function set\_property
+
+<a id="structIRockyCloudPoint_1a92918f0daa29121981d3549569518573"></a>
 
 ![][public]
 ![][const]

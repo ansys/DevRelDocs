@@ -1,7 +1,6 @@
-<a id="dir_3d3deff19be5216861a3a3c2a6e8e8ca"></a>
-# Directory distance\_driven\_evaluator
+# Directory distance_driven_evaluator
 
-**Location**: `autonomy/evaluator/distance\_driven\_evaluator/`
+**Location**: `autonomy/evaluator/distance_driven_evaluator/`
 
 
 
@@ -9,8 +8,8 @@
 
 ## Files
 
-* [distance\_driven\_evaluator.cpp](distance__driven__evaluator_8cpp.md#distance__driven__evaluator_8cpp)
-* [distance\_driven\_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)
+* [distance_driven_evaluator.cpp](distance__driven__evaluator_8cpp.md#distance__driven__evaluator_8cpp)
+* [distance_driven_evaluator.h](distance__driven__evaluator_8h.md#distance__driven__evaluator_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

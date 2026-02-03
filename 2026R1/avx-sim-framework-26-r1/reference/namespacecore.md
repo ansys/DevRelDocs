@@ -1,11 +1,10 @@
-<a id="namespacecore"></a>
 # Namespace core
 
 ![][C++]
 
-#include: <[i_kpi.h](i__kpi_8h.md#i__kpi_8h)>
+**Definition**: `core/kpi/i_kpi/i_kpi.h` (line 18)
 
-The namespace for all core functionalities under namespace [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework).
+The namespace for all core functionalities under namespace [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework).
 
 
 

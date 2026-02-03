@@ -33,8 +33,9 @@ For the mathematical definitions of the statistics calculated by this struct, pl
 
 ## Public functions
 
-<a id="structIRockyStatisticsAdder_1a2d87767ca1065f1a48778cf3d1e0f8ce"></a>
 ### Function add\_value
+
+<a id="structIRockyStatisticsAdder_1a2d87767ca1065f1a48778cf3d1e0f8ce"></a>
 
 ![][public]
 
@@ -70,8 +71,9 @@ which <code>[IRockyStatisticsAdder](structIRockyStatisticsAdder.md#structIRockyS
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAdder::add_value"}]}`
 -->
 
-<a id="structIRockyStatisticsAdder_1a57d3816e4f01de3fdd781ef229c9f771"></a>
 ### Function get\_mean
+
+<a id="structIRockyStatisticsAdder_1a57d3816e4f01de3fdd781ef229c9f771"></a>
 
 ![][public]
 ![][const]
@@ -98,8 +100,9 @@ The mean value of the set of values successively supplied with the <code>add_val
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAdder::get_mean"}]}`
 -->
 
-<a id="structIRockyStatisticsAdder_1ac1c33e3ab2e1afd1590aef6e2c40eb64"></a>
 ### Function get\_std\_deviation
+
+<a id="structIRockyStatisticsAdder_1ac1c33e3ab2e1afd1590aef6e2c40eb64"></a>
 
 ![][public]
 ![][const]
@@ -126,8 +129,9 @@ The standard deviation of the set of values successively supplied with the <code
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAdder::get_std_deviation"}]}`
 -->
 
-<a id="structIRockyStatisticsAdder_1a4968d2f7ab3265b9aefafe064ae16ba0"></a>
 ### Function get\_skewness
+
+<a id="structIRockyStatisticsAdder_1a4968d2f7ab3265b9aefafe064ae16ba0"></a>
 
 ![][public]
 ![][const]
@@ -154,8 +158,9 @@ The skewness of the set of values successively supplied with the <code>add_value
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAdder::get_skewness"}]}`
 -->
 
-<a id="structIRockyStatisticsAdder_1a6f398ed07d36a7deccea3621e9780109"></a>
 ### Function get\_kurtosis
+
+<a id="structIRockyStatisticsAdder_1a6f398ed07d36a7deccea3621e9780109"></a>
 
 ![][public]
 ![][const]
@@ -182,8 +187,9 @@ The kurtosis of the set of values successively supplied with the <code>add_value
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAdder::get_kurtosis"}]}`
 -->
 
-<a id="structIRockyStatisticsAdder_1ae4b238da655579b44c6293a573cd9449"></a>
 ### Function reset
+
+<a id="structIRockyStatisticsAdder_1ae4b238da655579b44c6293a573cd9449"></a>
 
 ![][public]
 
@@ -209,8 +215,9 @@ of statistics for a new set of values.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAdder::reset"}]}`
 -->
 
-<a id="structIRockyStatisticsAdder_1a56563b07a2763d52804e5180f3ae0b07"></a>
 ### Function join
+
+<a id="structIRockyStatisticsAdder_1a56563b07a2763d52804e5180f3ae0b07"></a>
 
 ![][public]
 

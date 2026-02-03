@@ -29,8 +29,9 @@ An <code>[IRockyParticleScalarsModel](structIRockyParticleScalarsModel.md#struct
 
 ## Public functions
 
-<a id="structIRockyParticleScalarsModel_1a82310007a102c845cbb5e6163a8863b0"></a>
 ### Function enable\_mass\_increment
+
+<a id="structIRockyParticleScalarsModel_1a82310007a102c845cbb5e6163a8863b0"></a>
 
 ![][public]
 
@@ -56,8 +57,9 @@ When this scalar is enabled, the instantaneous mass of a particle is equal to th
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::enable_mass_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1ab60645cee4e4e0dc368f0f11bc9b75d9"></a>
 ### Function enable\_volume\_increment
+
+<a id="structIRockyParticleScalarsModel_1ab60645cee4e4e0dc368f0f11bc9b75d9"></a>
 
 ![][public]
 
@@ -83,8 +85,9 @@ When this scalar is enabled, the instantaneous volume of a particle is equal to 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::enable_volume_increment"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1aa415607030884508e190c512b1218856"></a>
 ### Function enable\_variable\_thermal\_conductivity
+
+<a id="structIRockyParticleScalarsModel_1aa415607030884508e190c512b1218856"></a>
 
 ![][public]
 
@@ -110,8 +113,9 @@ When this scalar is enabled, a different value of thermal conductivity can be sp
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::enable_variable_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1acd067b0a46a10fd2c931702257974e2b"></a>
 ### Function enable\_variable\_poisson\_ratio
+
+<a id="structIRockyParticleScalarsModel_1acd067b0a46a10fd2c931702257974e2b"></a>
 
 ![][public]
 
@@ -137,8 +141,9 @@ When this scalar is enabled, the instantaneous Poisson's ratio is defined as a v
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::enable_variable_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1a7527c9be8d999b23208f43917f13a5a0"></a>
 ### Function enable\_variable\_specific\_heat
+
+<a id="structIRockyParticleScalarsModel_1a7527c9be8d999b23208f43917f13a5a0"></a>
 
 ![][public]
 
@@ -164,8 +169,9 @@ When this scalar is enabled, the instantaneous specific heat is defined as a var
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::enable_variable_specific_heat"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1a2fe0d14a5fc4f803eb04374ec6d2a40f"></a>
 ### Function find
+
+<a id="structIRockyParticleScalarsModel_1a2fe0d14a5fc4f803eb04374ec6d2a40f"></a>
 
 ![][public]
 
@@ -205,8 +211,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1a6c5d694427108fb05dbe32f418394f71"></a>
 ### Function add
+
+<a id="structIRockyParticleScalarsModel_1a6c5d694427108fb05dbe32f418394f71"></a>
 
 ![][public]
 
@@ -250,8 +257,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1a4884be92519fd1d4d274d7558864b85f"></a>
 ### Function reset
+
+<a id="structIRockyParticleScalarsModel_1a4884be92519fd1d4d274d7558864b85f"></a>
 
 ![][public]
 
@@ -284,8 +292,9 @@ void IRockyParticleScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyParticleScalarsModel_1a40b74ee0226b8f635092a200a7be71b1"></a>
 ### Function set\_dimension
+
+<a id="structIRockyParticleScalarsModel_1a40b74ee0226b8f635092a200a7be71b1"></a>
 
 ![][public]
 

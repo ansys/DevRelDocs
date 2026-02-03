@@ -1,9 +1,8 @@
-<a id="namespaceautonomy"></a>
 # Namespace autonomy
 
 ![][C++]
 
-#include: <[activity_factory.h](activity__factory_8h.md#activity__factory_8h)>
+**Definition**: `autonomy/simulation/activity_factory/activity_factory.h` (line 20)
 
 The namespace for all autonomy specific functionalities.
 

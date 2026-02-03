@@ -25,7 +25,7 @@ The AVxcelerate Sensor co-simulation operates by:
 
 To add an AVxcelerate Sensor activity to your simulation, you need to configure it in the simulation scheduling section of your configuration file. Creation of one generic AVxcelerate Sensor activity is available as `built-in` type.
 
-### Basic configuration
+## Basic configuration
 
 Add the following activity configuration to your `simulation_scheduling.activities` array:
 
@@ -45,7 +45,7 @@ Add the following activity configuration to your `simulation_scheduling.activiti
 }
 ```
 
-### Configuration parameters
+## Configuration parameters
 
 Based on which kind of sensor actually runs the AVxcelerate Sensor Service, you can give the activity a specific `"name"`. It is identified as AVxcelerate Sensor activity once you specify the `"avx_sensor_setting"` field.
 
@@ -59,11 +59,11 @@ The `avx_sensor_setting` object contains the following parameters:
 | `use_vss_osi_api`  | boolean | No       | Whether to use VSS OSI API directly instead of converting OSI data to VSS format. Set to `true` to use native OSI support in VSS API (requires AVxcelerate Sensor v261+), `false` to use OSI to VSS conversion by Simfwk. Default is `false`. **Note**: If set to `true`, the AVx sensors process must be started with `-osi` mode. |
 | `transport_mode`   | object  | No       | Transport mode configuration for gRPC communication. See [Transport Mode Configuration](#transport-mode-configuration) section below for details. Default is `insecure` mode. |
 
-### Transport Mode Configuration
+## Transport Mode Configuration
 
 The AVxcelerate Sensor co-simulation supports different gRPC transport modes for communication with the AVxcelerate Sensor service. You can configure the transport mode in the `avx_sensor_setting` section of your simulation configuration.
 
-#### Configuration
+## Configuration
 
 Add the `transport_mode` object to your `avx_sensor_setting` configuration:
 
@@ -82,7 +82,7 @@ Add the `transport_mode` object to your `avx_sensor_setting` configuration:
 }
 ```
 
-#### Transport Mode Parameters
+## Transport Mode Parameters
 
 | Parameter          | Type   | Required | Description                                                                                                                                    |
 | ------------------ | ------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -90,11 +90,11 @@ Add the `transport_mode` object to your `avx_sensor_setting` configuration:
 | `uds_socket_id`    | string | No       | Socket ID for Unix Domain Socket mode. Used to construct the socket filename (e.g., `vss-<socket_id>.sock`). If empty, defaults to `vss.sock`.   |
 | `uds_custom_path`  | string | No       | Custom path for Unix Domain Socket mode. Overrides the default location (`<USER_HOME_DIRECTORY>/.conn`). If not specified, uses default path. |
 
-#### Transport Modes
+## Transport Modes
 
 The following transport modes are supported:
 
-##### 1. Insecure Mode (Default)
+## 1. Insecure Mode (Default)
 
 **Mode value**: `"insecure"`
 
@@ -121,7 +121,7 @@ The following transport modes are supported:
 
 **Note**: If `transport_mode` is not specified, the system defaults to insecure mode for backward compatibility.
 
-##### 2. Mutual TLS (mTLS) Mode
+## 2. Mutual TLS (mTLS) Mode
 
 **Mode value**: `"mtls"`
 
@@ -158,7 +158,7 @@ The following transport modes are supported:
 
 **Note**: For detailed information on certificate setup and mTLS configuration, please refer to the AVx Sensors documentation.
 
-##### 3. Unix Domain Socket (UDS) Mode
+## 3. Unix Domain Socket (UDS) Mode
 
 **Mode value**: `"unix_domain_socket"`
 
@@ -207,7 +207,7 @@ The following transport modes are supported:
 - The socket file must be accessible by both Simfwk and AVxcelerate Sensor processes
 - Ensure the AVxcelerate Sensor service is configured to use the same socket path
 
-#### Cross-Reference with AVx Sensors Documentation
+## Cross-Reference with AVx Sensors Documentation
 
 For detailed information about transport modes, certificate setup, and AVxcelerate Sensor service configuration, please refer to the official **AVx Sensors documentation**. The transport mode implementation in Simfwk follows the same patterns and defaults as the AVx Sensors VSS API to ensure compatibility.
 
@@ -218,11 +218,11 @@ For detailed information about transport modes, certificate setup, and AVxcelera
 - Server-side transport mode settings
 - Network and security considerations
 
-### Dependencies
+## Dependencies
 
 The AVxcelerate Sensor activity subscribes to `SensorViewTopic` as input and hence depends on the `groundtruth_generator_activity` to receive the simulation's ground truth data. This ensures that the sensor receives the latest world state before processing.
 
-### Activity behavior
+## Activity behavior
 
 The AVxcelerate Sensor activity:
 
@@ -238,7 +238,7 @@ The AVxcelerate Sensor activity:
 
 The AVxcelerate Sensor co-simulation requires a dedicated configuration file that specifies the sensor setup, connection parameters, and object mappings.
 
-### Configuration file structure
+## Configuration file structure
 
 The AVxcelerate Sensor configuration file must be in JSON format and contain the following structure:
 
@@ -262,7 +262,7 @@ The AVxcelerate Sensor configuration file must be in JSON format and contain the
 }
 ```
 
-### Configuration fields
+## Configuration fields
 
 | Field                | Type    | Required | Description                                                                                                                         |
 | -------------------- | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -273,7 +273,7 @@ The AVxcelerate Sensor configuration file must be in JSON format and contain the
 | `Track`              | string  | Yes      | Path to the track file used by the AVxcelerate Sensor. The file must be accessible to the AVxcelerate Sensor service.               |
 | `ObjectMapping`      | array   | Yes      | Array of object mappings between `OpenScenario` objects and AVxcelerate Sensor assets.                                              |
 
-### Object mapping
+## Object mapping
 
 The `ObjectMapping` array defines how objects in your `OpenScenario` file correspond to AVxcelerate Sensor assets. Here is an example where two `OpenScenario` objects map to AVxcelerate assets. 
 Note that based on which AVxcelerate Sensor version is used, the path towards asset files could be different. 
@@ -307,7 +307,7 @@ Note that based on which AVxcelerate Sensor version is used, the path towards as
 
 - `AVxAsset`: Path to the corresponding AVxcelerate asset file (`.asset` format). Note that Simfwk only sends the path as string to AVxcelerate Sensor as configuration; the asset files must be resolvable by AVxcelerate Sensor itself.
 
-### Example configuration
+## Example configuration
 
 Here's a complete example Simfwk configuration for AVxcelerate Sensor co-simulation:
 
@@ -393,7 +393,7 @@ Here's a complete example Simfwk configuration for AVxcelerate Sensor co-simulat
 
 The AVxcelerate Sensor co-simulation provides access to sensor output data through a configurable data access mechanism. This feature allows other activities in the simulation framework to receive and process sensor data generated by the AVxcelerate Sensor service.
 
-### Configuration
+## Configuration
 
 Sensor data access can be enabled through the `sensor_data_access` configuration section in your simulation settings:
 
@@ -418,14 +418,14 @@ Sensor data access can be enabled through the `sensor_data_access` configuration
 ...
 ```
 
-### Configuration parameters in "sensor_data_access"
+## Configuration parameters in "sensor_data_access"
 
 | Parameter            | Type    | Required | Description                                                                                                                     |
 | -------------------- | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | `enabled`            | boolean | Yes      | Whether to enable sensor data access. Set to `true` to publish sensor data to the specified topic.                              |
 | `publish_topic_name` | string  | Yes      | The name of the topic where sensor data will be published. Other activities can subscribe to this topic to receive sensor data. |
 
-### Data format
+## Data format
 
 When sensor data access is enabled, the AVxcelerate Sensor activity publishes sensor data to the specified topic in the following format:
 
@@ -433,7 +433,7 @@ When sensor data access is enabled, the AVxcelerate Sensor activity publishes se
 - **Message Type**: `rtidds::GenericBytesMessage`
 - **Content**: Serialized sensor data descriptions containing metadata and data references
 
-### Usage in other activities
+## Usage in other activities
 
 Other activities in the simulation framework can subscribe to the sensor data topic to receive and process sensor outputs. For example, a visualization activity could subscribe to receive camera images, or a perception activity could receive lidar point clouds.
 
@@ -455,7 +455,7 @@ AddSubscriber<core::Topic<rtidds::GenericBytesMessage>>(
 ```
 To deserialize the `SensorDataDescription` from received bytes in the topic, a static method `DeserializeSensorDataDescriptions(bytes)` is provided in `AvxVssApiAdapter` class.
 
-### Data retrieval
+## Data retrieval
 
 To access the actual sensor data content, activities need to:
 
@@ -492,7 +492,7 @@ for (const auto& sensor_data_description : received_sensor_data_descriptions_)
 }
 ```
 
-### Supported sensor types
+## Supported sensor types
 
 The sensor data access mechanism supports various sensor types including:
 
@@ -513,7 +513,7 @@ Before using AVxcelerate Sensor co-simulation, ensure you have:
 4. **Track Files**: Required AVxcelerate Track files (`.track` format) for your simulation objects and resolvable by AVxcelerate Sensor
 5. **Sensor Configurations**: Valid sensor configuration files (`.sencfgx` and parameter files, generated by AVxcelerate Sensor Lab)
 
-### Network configuration
+## Network configuration
 
 The AVxcelerate Sensor co-simulation uses gRPC for communication. Ensure:
 
@@ -521,7 +521,7 @@ The AVxcelerate Sensor co-simulation uses gRPC for communication. Ensure:
 - No firewall restrictions block the gRPC connection
 - The AVxcelerate Sensor service is running and listening on the specified endpoint
 
-### File paths
+## File paths
 
 All file paths in the configuration can be:
 

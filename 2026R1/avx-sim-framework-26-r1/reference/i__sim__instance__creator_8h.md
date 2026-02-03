@@ -1,9 +1,8 @@
-<a id="i__sim__instance__creator_8h"></a>
-# File i\_sim\_instance\_creator.h
+# File i_sim_instance_creator.h
 
 ![][C++]
 
-**Location**: `autonomy/simulation/sim\_instance/i\_sim\_instance\_creator.h`
+**Location**: `autonomy/simulation/sim_instance/i_sim_instance_creator.h`
 
 
 
@@ -11,13 +10,13 @@
 
 ## Classes
 
-* [simulation\_framework::autonomy::ISimInstanceCreator](classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator)
+* [simulation_framework::autonomy::ISimInstanceCreator](classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator.md#classsimulation__framework_1_1autonomy_1_1ISimInstanceCreator)
 
 ## Namespaces
 
-* [simulation\_framework](namespacesimulation__framework.md#namespacesimulation__framework)
+* [simulation_framework](namespacesimulation__framework.md#namespacesimulation__framework)
 * [autonomy](namespaceautonomy.md#namespaceautonomy)
-* [simulation\_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
+* [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
 
 ## Includes
 
@@ -26,36 +25,6 @@
 * <memory>
 
 
-```mermaid
-graph LR
-1["i_sim_instance_creator.h"]
-click 1 "i__sim__instance__creator_8h.md#i__sim__instance__creator_8h"
-1 --> 2
-1 --> 4
-1 --> 8
-
-2["core/lifecycle/i_simulation_instance/i_simulation_instance.h"]
-click 2 "i__simulation__instance_8h_source.md#i__simulation__instance_8h_source"
-2 --> 3
-
-4["core/service/parameter/simulation_parameters.h"]
-click 4 "simulation__parameters_8h_source.md#simulation__parameters_8h_source"
-4 --> 3
-4 --> 5
-4 --> 6
-4 --> 7
-
-3["chrono"]
-
-8["memory"]
-
-5["string"]
-
-6["unordered_map"]
-
-7["vector"]
-
-```
 
 
 ## Included by
@@ -64,20 +33,6 @@ click 4 "simulation__parameters_8h_source.md#simulation__parameters_8h_source"
 * [cli_provider.h](cli__provider_8h.md#cli__provider_8h)
 
 
-```mermaid
-graph RL
-3["cli_provider.h"]
-click 3 "cli__provider_8h_source.md#cli__provider_8h_source"
-
-2["autonomy_sim_instance_creator.h"]
-click 2 "autonomy__sim__instance__creator_8h_source.md#autonomy__sim__instance__creator_8h_source"
-
-1["i_sim_instance_creator.h"]
-click 1 "i__sim__instance__creator_8h.md#i__sim__instance__creator_8h"
-2 --> 1
-3 --> 1
-
-```
 
 
 ## Source

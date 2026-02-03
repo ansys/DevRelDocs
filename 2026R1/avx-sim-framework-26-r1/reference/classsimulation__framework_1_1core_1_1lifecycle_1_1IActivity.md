@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity"></a>
-# Class simulation\_framework::core::lifecycle::IActivity
+# Class simulation_framework::core::lifecycle::IActivity
 
 ![][C++]
 ![][public]
 
-#include: <[i_activity.h](i__activity_8h.md#i__activity_8h)>
+**Definition**: `core/lifecycle/activity/i_activity.h` (line 26)
 
 Interface for simulation activities.
 
@@ -12,7 +11,7 @@ The <code>[IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivi
 
 **Inherited by**:
 
-* [simulation\_framework::core::lifecycle::BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity)
+* [simulation_framework::core::lifecycle::BaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1BaseActivity)
 
 ## Members
 
@@ -74,7 +73,7 @@ Implement any logic related to the initialization phase here.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -107,7 +106,7 @@ Ensures the communication channels are correctly paired before proceeding.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -136,7 +135,7 @@ Implement the main logic for each simulation step here.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -165,7 +164,7 @@ Implement any logic related to the finalization phase here.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -194,7 +193,7 @@ Implement logic to conclude the activity and release any resources here.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -324,7 +323,7 @@ A map of customized parameters.
 
 
 
-**Return type**: const [SimulationParameters::CustomizedParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a25a000c4c4dfefb04ff71a796e06c787) &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [SimulationParameters::CustomizedParameters](structsimulation__framework_1_1core_1_1SimulationParameters.md#structsimulation__framework_1_1core_1_1SimulationParameters_1a25a000c4c4dfefb04ff71a796e06c787) &
 
 **Reimplemented by**:
 
@@ -386,7 +385,7 @@ Registers the activity's communication channels into the bus.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 
@@ -419,9 +418,9 @@ Set the simulation settings for this activity.
 
 **Parameters**:
 
-* const scheduling::SimulationSettings & **sim_settings**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) scheduling::SimulationSettings & **sim_settings**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 

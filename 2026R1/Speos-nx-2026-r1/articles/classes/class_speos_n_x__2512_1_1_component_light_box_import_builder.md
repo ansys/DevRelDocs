@@ -1,4 +1,9 @@
-﻿# ComponentLightBoxImportBuilder
+﻿---
+uid: component_light_box_import_builder
+title: ComponentLightBoxImportBuilder
+---
+
+# ComponentLightBoxImportBuilder
 
 **Full Name**: `SpeosNX_2512::ComponentLightBoxImportBuilder`
 

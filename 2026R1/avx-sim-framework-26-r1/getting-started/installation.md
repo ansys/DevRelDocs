@@ -22,7 +22,7 @@ Run the installer script with one or more of the following options:
 ./install.sh [options]
 ```
 
-### Basic Options
+## Basic Options
 
 | Option               | Description                                        |
 | -------------------- | -------------------------------------------------- |
@@ -31,7 +31,7 @@ Run the installer script with one or more of the following options:
 | `-o, --output=<dir>` | Destination directory for installing the framework |
 | `-y, --yes`          | Auto-confirm all prompts (non-interactive mode)    |
 
-### Installation Step Flags
+## Installation Step Flags
 
 You may select specific steps or run the full installer:
 

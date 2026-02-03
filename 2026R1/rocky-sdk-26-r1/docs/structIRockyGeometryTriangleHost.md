@@ -37,8 +37,9 @@
 
 ## Public functions
 
-<a id="structIRockyGeometryTriangleHost_1a4d4f0981020bd999343324777061578f"></a>
 ### Function get\_material
+
+<a id="structIRockyGeometryTriangleHost_1a4d4f0981020bd999343324777061578f"></a>
 
 ![][public]
 ![][const]
@@ -65,8 +66,9 @@ An <code>[IRockyMaterial](structIRockyMaterial.md#structIRockyMaterial)</code> o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_material"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1acf71ec5c2b5cf6d20f276e3e11cf5ede"></a>
 ### Function get\_normal\_unit\_vector
+
+<a id="structIRockyGeometryTriangleHost_1acf71ec5c2b5cf6d20f276e3e11cf5ede"></a>
 
 ![][public]
 ![][const]
@@ -93,8 +95,9 @@ A unit vector in the normal direction to the geometry triangle, in Cartesian coo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_normal_unit_vector"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1ab782a5e82eba4116e3fdc03086ac6e70"></a>
 ### Function get\_area
+
+<a id="structIRockyGeometryTriangleHost_1ab782a5e82eba4116e3fdc03086ac6e70"></a>
 
 ![][public]
 ![][const]
@@ -121,8 +124,9 @@ The unsigned area of the geometry triangle.   <br/>
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_area"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1ae049045265b3b4d44366e60086052049"></a>
 ### Function get\_centroid
+
+<a id="structIRockyGeometryTriangleHost_1ae049045265b3b4d44366e60086052049"></a>
 
 ![][public]
 ![][const]
@@ -149,8 +153,9 @@ The centroid point of the geometry triangle in Cartesian coordinates.   <br/>
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_centroid"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a90f497b2b42411676707aae7b1c73dbc"></a>
 ### Function get\_geometry\_index
+
+<a id="structIRockyGeometryTriangleHost_1a90f497b2b42411676707aae7b1c73dbc"></a>
 
 ![][public]
 ![][const]
@@ -177,8 +182,9 @@ The index that uniquely identifies the geometry to which the geometry triangle b
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_geometry_index"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1ab68909270e06bc1b702c11e54fc39b87"></a>
 ### Function get\_material\_index
+
+<a id="structIRockyGeometryTriangleHost_1ab68909270e06bc1b702c11e54fc39b87"></a>
 
 ![][public]
 ![][const]
@@ -205,8 +211,9 @@ The material index that uniquely identifies the material associated to the geome
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_material_index"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1af55f61fe49b8582002b87e1c5d4db703"></a>
 ### Function get\_translational\_velocity
+
+<a id="structIRockyGeometryTriangleHost_1af55f61fe49b8582002b87e1c5d4db703"></a>
 
 ![][public]
 ![][const]
@@ -245,8 +252,9 @@ The instantaneous triangle's translational velocity vector, expressed in Cartesi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_translational_velocity"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a1d39d94664969c8e81279f4d395cfd7e"></a>
 ### Function get\_geometry\_rotational\_velocity
+
+<a id="structIRockyGeometryTriangleHost_1a1d39d94664969c8e81279f4d395cfd7e"></a>
 
 ![][public]
 ![][const]
@@ -273,8 +281,9 @@ The rotational velocity vector of the geometry to which the triangle belongs, ex
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_geometry_rotational_velocity"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a35e0413744dea0b6d847172dec76ada4"></a>
 ### Function get\_geometry\_rotation\_center
+
+<a id="structIRockyGeometryTriangleHost_1a35e0413744dea0b6d847172dec76ada4"></a>
 
 ![][public]
 ![][const]
@@ -301,8 +310,9 @@ The Cartesian coordinates of the rotation center of the motion frame attached to
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_geometry_rotation_center"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1ad63935796d98370d0164f0e700639a82"></a>
 ### Function get\_temperature
+
+<a id="structIRockyGeometryTriangleHost_1ad63935796d98370d0164f0e700639a82"></a>
 
 ![][public]
 ![][const]
@@ -329,8 +339,9 @@ The temperature associated to the triangle. If that temperature was defined as a
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_temperature"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a2da990675204aa1b75f7d99d27d0edf4"></a>
 ### Function set\_temperature
+
+<a id="structIRockyGeometryTriangleHost_1a2da990675204aa1b75f7d99d27d0edf4"></a>
 
 ![][public]
 
@@ -365,8 +376,9 @@ for geometry triangles in the module's specification file. A segmentation fault 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::set_temperature"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a296b5f25ba526e166233ecc93a361840"></a>
 ### Function is\_adiabatic
+
+<a id="structIRockyGeometryTriangleHost_1a296b5f25ba526e166233ecc93a361840"></a>
 
 ![][public]
 ![][const]
@@ -393,8 +405,9 @@ True if the geometry to which the boundary triangle belongs is adiabatic (i.e. i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::is_adiabatic"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1aba16fb8ad2df2dc54ff931c091850675"></a>
 ### Function get\_thermal\_conductivity
+
+<a id="structIRockyGeometryTriangleHost_1aba16fb8ad2df2dc54ff931c091850675"></a>
 
 ![][public]
 ![][const]
@@ -421,8 +434,9 @@ The triangle's thermal conductivity. If this property was defined as variable fo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a4b7dc627f3943f1a897e28c3219da0ba"></a>
 ### Function set\_thermal\_conductivity
+
+<a id="structIRockyGeometryTriangleHost_1a4b7dc627f3943f1a897e28c3219da0ba"></a>
 
 ![][public]
 
@@ -457,8 +471,9 @@ was defined as variable in the module's specification file. If this method is us
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::set_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a48d3df84ac1785c1ada100faad008624"></a>
 ### Function get\_poisson\_ratio
+
+<a id="structIRockyGeometryTriangleHost_1a48d3df84ac1785c1ada100faad008624"></a>
 
 ![][public]
 ![][const]
@@ -485,8 +500,9 @@ The triangle's Poisson's ratio. If this property was defined as variable for tri
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::get_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a53c07e03e2af77cfe1549d7ad9ac22ee"></a>
 ### Function set\_poisson\_ratio
+
+<a id="structIRockyGeometryTriangleHost_1a53c07e03e2af77cfe1549d7ad9ac22ee"></a>
 
 ![][public]
 
@@ -521,8 +537,9 @@ was defined as variable in the module's specification file. If this method is us
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryTriangleHost::set_poisson_ratio"}]}`
 -->
 
-<a id="structIRockyGeometryTriangleHost_1a32507720156ec81050cfe8c9179a18a2"></a>
 ### Function get\_scalars
+
+<a id="structIRockyGeometryTriangleHost_1a32507720156ec81050cfe8c9179a18a2"></a>
 
 ![][public]
 

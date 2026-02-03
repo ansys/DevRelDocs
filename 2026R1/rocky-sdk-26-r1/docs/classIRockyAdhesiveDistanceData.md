@@ -37,8 +37,9 @@ The class <code>[IRockyAdhesiveDistanceData](classIRockyAdhesiveDistanceData.md#
 
 ## Public functions
 
-<a id="classIRockyAdhesiveDistanceData_1a7d103731c5133db24f461e91e24e2f7a"></a>
 ### Function set\_adhesive\_distance
+
+<a id="classIRockyAdhesiveDistanceData_1a7d103731c5133db24f461e91e24e2f7a"></a>
 
 ![][public]
 

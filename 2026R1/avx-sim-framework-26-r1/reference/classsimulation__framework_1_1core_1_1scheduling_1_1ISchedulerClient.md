@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1scheduling_1_1ISchedulerClient"></a>
-# Class simulation\_framework::core::scheduling::ISchedulerClient
+# Class simulation_framework::core::scheduling::ISchedulerClient
 
 ![][C++]
 ![][public]
 
-#include: <[i_scheduler_client.h](i__scheduler__client_8h.md#i__scheduler__client_8h)>
+**Definition**: `core/scheduler/i_scheduler_client/i_scheduler_client.h` (line 38)
 
 
 
@@ -71,7 +70,7 @@ Bind with an activity so that it can be controlled by scheduling event.
 
 * [IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) * **activity**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -100,9 +99,9 @@ Determine if a certain topic should be stepped at this point based on scheduling
 
 **Parameters**:
 
-* const std::string & **topic_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **topic_name**
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -127,7 +126,7 @@ Actively send a abort signal to stop simulation.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -183,7 +182,7 @@ The static simulation settings struct
 
 
 
-**Return type**: const SimulationSettings &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [SimulationSettings](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) &
 
 <!--
 **TODO**:
@@ -211,7 +210,7 @@ True if the activity is simulation primary activity, false otherwise
 
 
 
-**Return type**: bool
+**Return type**: [bool](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -240,9 +239,9 @@ Set the simulation settings struct.
 
 **Parameters**:
 
-* const SimulationSettings & **sim_settings**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [SimulationSettings](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) & **sim_settings**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

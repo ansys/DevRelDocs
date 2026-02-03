@@ -1,10 +1,9 @@
-<a id="classsimulation__framework_1_1core_1_1lifecycle_1_1IActivityFactory"></a>
-# Class simulation\_framework::core::lifecycle::IActivityFactory
+# Class simulation_framework::core::lifecycle::IActivityFactory
 
 ![][C++]
 ![][public]
 
-#include: <[i_activity_factory.h](i__activity__factory_8h.md#i__activity__factory_8h)>
+**Definition**: `core/lifecycle/i_activity_factory/i_activity_factory.h` (line 30)
 
 Interface for creating simulation activities.
 
@@ -14,7 +13,7 @@ The <code>[IActivityFactory](classsimulation__framework_1_1core_1_1lifecycle_1_1
 
 **Inherited by**:
 
-* [simulation\_framework::autonomy::ActivityFactory](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory)
+* [simulation_framework::autonomy::ActivityFactory](classsimulation__framework_1_1autonomy_1_1ActivityFactory.md#classsimulation__framework_1_1autonomy_1_1ActivityFactory)
 
 ## Members
 
@@ -79,8 +78,8 @@ A unique pointer to the created <code>[IActivity](classsimulation__framework_1_1
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* const scheduling::SchedulerClientType **type** = scheduling::SchedulerClientType::kDUMMY 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) scheduling::SchedulerClientType **type** = scheduling::SchedulerClientType::kDUMMY 
 
 **Return type**: std::unique_ptr< [IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) >
 
@@ -123,9 +122,9 @@ A unique pointer to the created FMU-based <code>[IActivity](classsimulation__fra
 
 **Parameters**:
 
-* const std::string & **activity_name**
-* const [FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig) & **fmu_config**
-* const scheduling::SchedulerClientType **type** = scheduling::SchedulerClientType::kDUMMY 
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **activity_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [FmuConfig](structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig.md#structsimulation__framework_1_1core_1_1lifecycle_1_1FmuConfig) & **fmu_config**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) scheduling::SchedulerClientType **type** = scheduling::SchedulerClientType::kDUMMY 
 
 **Return type**: std::unique_ptr< [IActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1IActivity) >
 
@@ -194,9 +193,9 @@ Adjusts the frequency of activity execution by updating the base cycle time.
 
 **Parameters**:
 
-* const time::milliseconds & **time**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) time::milliseconds & **time**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 **Reimplemented by**:
 

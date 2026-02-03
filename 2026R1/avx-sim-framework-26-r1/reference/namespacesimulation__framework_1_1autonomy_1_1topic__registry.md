@@ -1,9 +1,8 @@
-<a id="namespacesimulation__framework_1_1autonomy_1_1topic__registry"></a>
-# Namespace simulation\_framework::autonomy::topic\_registry
+# Namespace simulation_framework::autonomy::topic_registry
 
 ![][C++]
 
-#include: <topic_registry.h>
+**Definition**: `autonomy/communication/topic_registry/topic_registry.h` (line 34)
 
 
 
@@ -107,20 +106,20 @@ AddSubscriber<core::topic_registry::VariantMapTopicType>(
 
 
 ?> VariantMap references
-* For the RTI-DDS message type and Topic alias, see <code>[core/communication/topic\_registry.h](core_2communication_2topic__registry_8h_source.md#core_2communication_2topic__registry_8h_source)</code>.
+* For the RTI-DDS message type and Topic alias, see <code>[core/communication/topic_registry.h](core_2communication_2topic__registry_8h.md
 
 * For the C++ native <code>VariantMap</code> API and bi-directional conversion helpers, see <code>core/communication/utils/variant_map.h</code> and <code>core/communication/utils/variant_map_converter.h</code>.
 
-<a id="autonomy_2communication_2topic__registry_2topic__registry_8h_1a26a786b44e80d8a6b2ba42ba4b689554"></a>
+<a id="autonomy_2communication_2topic__registry_2topic__registry_8h_1abc5d170dec018a5f04fd69307316a25a"></a>
 ### Typedef ScenarioVariableTopicType
 
 ![][public]
 
-#include: <topic_registry.h>
+**Definition**: `autonomy/communication/topic_registry/topic_registry.h` (line 118)
 
 
 ```cpp
-using simulation_framework::autonomy::topic_registry::ScenarioVariableTopicType =  simulation_framework::core::topic_registry::VariantMapTopicType
+using simulation_framework::autonomy::topic_registry::ScenarioVariableTopicType = typedef simulation_framework::core::topic_registry::VariantMapTopicType
 ```
 
 
@@ -128,13 +127,13 @@ Alias for scenario variable Topic type in Autonomy.
 
 ?> Variant message aliases
 
-In core, <code>[rtidds::VariantMessage](namespacertidds.md#namespacertidds_1ac35b14c276cd5d698f53163f30132293)</code> is currently an alias of <code>rtidds::FmuMessage</code>. Similarly, <code>[rtidds::VariantData](namespacertidds.md#namespacertidds_1aae35e1634347f425630b55b8e956864d)</code> aliases <code>rtidds::FmuData</code>, and <code>[rtidds::VariantDatatype](namespacertidds.md#namespacertidds_1a4641aa3b5d2f6aa988504f083bb15126)</code> aliases <code>rtidds::FmuDatatype</code>. This provides a semantic "Variant" naming today while retaining full compatibility with FMU message structure. If dedicated Variant types are introduced in the future, these aliases can be updated centrally. 
+In core, <code>[rtidds::VariantMessage](namespacertidds.md#namespacertidds_1a442f59bc02e5668d37a306af1c6faacd)</code> is currently an alias of <code>rtidds::FmuMessage</code>. Similarly, <code>[rtidds::VariantData](namespacertidds.md#namespacertidds_1a5d98a2ba88abe876a19cf09c458e06e1)</code> aliases <code>rtidds::FmuData</code>, and <code>[rtidds::VariantDatatype](namespacertidds.md#namespacertidds_1ae065fe2b5abd93b78891593a53ef039b)</code> aliases <code>rtidds::FmuDatatype</code>. This provides a semantic "Variant" naming today while retaining full compatibility with FMU message structure. If dedicated Variant types are introduced in the future, these aliases can be updated centrally. 
 Maps to <code>simulation_framework::core::topic_registry::VariantMapTopicType</code> which uses <code>rtidds::VariantMap</code> as the underlying RTI-DDS message. 
-**See also**: [core/communication/topic\_registry.h](core_2communication_2topic__registry_8h_source.md#core_2communication_2topic__registry_8h_source)
+**See also**: [core/communication/topic_registry.h](core_2communication_2topic__registry_8h.md
 
 
 
-**Return type**: [simulation\_framework::core::topic\_registry::VariantMapTopicType](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
+**Return type**: [simulation_framework::core::topic_registry::VariantMapTopicType](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -168,7 +167,7 @@ A <code>std::shared_ptr<[core::ITopic](classsimulation__framework_1_1core_1_1ITo
 
 **Parameters**:
 
-* const std::string & **topic_id**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **topic_id**
 
 **Return type**: std::shared_ptr< [core::ITopic](classsimulation__framework_1_1core_1_1ITopic.md#classsimulation__framework_1_1core_1_1ITopic) >
 

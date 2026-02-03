@@ -1,4 +1,9 @@
-﻿# Preset
+﻿---
+uid: preset
+title: Preset
+---
+
+# Preset
 
 **Full Name**: `SpeosNX_2512::Preset`
 

@@ -20,8 +20,9 @@
 
 ## Public functions
 
-<a id="structIRockyStatisticsAccumulator_1aa6f9107d44777f2914054a2567018438"></a>
 ### Function add\_value
+
+<a id="structIRockyStatisticsAccumulator_1aa6f9107d44777f2914054a2567018438"></a>
 
 ![][public]
 
@@ -54,8 +55,9 @@ ROCKY_FUNCTIONS void IRockyStatisticsAccumulator::add_value(double value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAccumulator::add_value"}]}`
 -->
 
-<a id="structIRockyStatisticsAccumulator_1a465ef9a481493da8c59e760a3f37e3e6"></a>
 ### Function get\_sum
+
+<a id="structIRockyStatisticsAccumulator_1a465ef9a481493da8c59e760a3f37e3e6"></a>
 
 ![][public]
 ![][const]
@@ -82,8 +84,9 @@ The value of the sum accumulated so far.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAccumulator::get_sum"}]}`
 -->
 
-<a id="structIRockyStatisticsAccumulator_1acb15234baa81417b3382410594d7150b"></a>
 ### Function reset
+
+<a id="structIRockyStatisticsAccumulator_1acb15234baa81417b3382410594d7150b"></a>
 
 ![][public]
 
@@ -107,8 +110,9 @@ void IRockyStatisticsAccumulator::reset()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyStatisticsAccumulator::reset"}]}`
 -->
 
-<a id="structIRockyStatisticsAccumulator_1a6a0a426d29d79255741700958cdc9511"></a>
 ### Function join
+
+<a id="structIRockyStatisticsAccumulator_1a6a0a426d29d79255741700958cdc9511"></a>
 
 ![][public]
 

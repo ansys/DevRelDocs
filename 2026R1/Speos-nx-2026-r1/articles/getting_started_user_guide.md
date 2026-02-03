@@ -1,4 +1,9 @@
-﻿# User guide
+﻿---
+uid: _getting_started_user_guide
+title: Getting Started Guide
+---
+
+# User guide
 
 ## What you can do with automation in Speos for NX
 

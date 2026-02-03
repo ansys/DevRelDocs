@@ -1,4 +1,4 @@
-# Overview
+# Install Simulation Framework
 
 For detailed instructions, refer to the **installation** guide.
 
@@ -6,23 +6,27 @@ For detailed instructions, refer to the **installation** guide.
 
 If you install Simulation Framework locally in `ubuntu 24.04 machine` or inside `ubuntu 24.04 VM` , all build and runtime dependencies will be installed during the installation script above. Alternatively, a `Dockerfile` containing all required dependencies is also provided, if you need to build or test in virtual environment for cloud deployment.
 
-### Build dependencies
+## Build dependencies
 
 In Simulation Framework deployment, a bazel `WORKSPACE` is provided as default build system. You can run example or build your own activity application based on that. However, Simulation Framework is not restricted to any build system.
 
 | Type                                | Name                            | Version | Source                                                                               |
 | ----------------------------------- | ------------------------------- | ------- | ------------------------------------------------------------------------------------ |
 | Compiler                            | GCC/G++                         | 11      | add-apt-repository -y ppa:ubuntu-toolchain-r/test &&% apt-get install gcc-11 g++-11  |
-| Build System (default)              | BAZEL                           | 5.1.1   | <https://github.com/bazelbuild/bazelisk/releases/download/v1.5.0/bazelisk-linux-amd64> |
+| Build System (default)              | Bazelisk                        | v1.5.0  | <https://github.com/bazelbuild/bazelisk/releases/download/v1.5.0/bazelisk-linux-amd64> |
 | Ubuntu (Noble Numbat 24.04) Package | Build Essential                 | latest  | apt-get install build-essential                                                      |
 | Ubuntu (Noble Numbat 24.04) Package | software-properties-common      | latest  | apt-get install software-properties-common                                           |
 | Ubuntu (Noble Numbat 24.04) Package | Manual pages                    | latest  | apt-get install manpages-dev                                                         |
 | Ubuntu (Noble Numbat 24.04) Package | Cartographic projection library | latest  | apt-get install proj-bin                                                             |
 | Ubuntu (Noble Numbat 24.04) Package | Zlib library                    | latest  | apt-get install zlib1g-dev                                                           |
+| Ubuntu (Noble Numbat 24.04) Package | ZSTD library                    | latest  | apt-get install libzstd-dev                                                          |
 
-### System requirement
+
+## System requirement
 
 Depending on how complex your simulation is, you might need different recommended CPU/memory resources.
+## Reference simulation
+
 For execution of the [reference simulation](#reference-simulation), following requirements shall be considered:
 
 | Environment       | recommended. CPU           | recommended. Memory | recommended. Disk Space |
@@ -33,18 +37,18 @@ For execution of the [reference simulation](#reference-simulation), following re
 ## Run example
 
 Within the deployment, an example code is provided to show how to use APIs of Simulation Framework and how to do customization.
-Before running the example, please make sure you have valid license setup and be able to connect with Ansys License Manager. More hint please see [setup License](./../documentation/markdown/setup_license.md)
+Before running the example, please make sure you have valid license setup and be able to connect with Ansys License Manager. More hint please see [setup License](setup_license.md)
 
 ```bash
 cd simulation_framework/example
 ./my_activity/run.sh
 ```
 
-This script compiles automatically the example `my_activity` and triggers the simulation using `my_activity` by means of [command line tool](./../documentation/markdown/command_line_tool.md) provided by Simulation Framework. It provides a basic example using bazel to show how Simulation Framework is used as lib. If the test works, you should see some simulation logs and then the evaluated `min_ttc` result in json format prints in console.
+This script compiles automatically the example `my_activity` and triggers the simulation using `my_activity` by means of [command line tool](command_line_tool.md) provided by Simulation Framework. It provides a basic example using bazel to show how Simulation Framework is used as lib. If the test works, you should see some simulation logs and then the evaluated `min_ttc` result in json format prints in console.
 
 ## Built-in and default standalone Activities
 
-The autonomy `simfwk_cli` stands as an exemplary application constructed with the Simulation Framework library, offering four predefined activities as references. Users have the flexibility to use these activities to initiate the default simulation application or seamlessly integrate them into a customized simulation. These activities, implemented in the `simfwk-autonomy`, can be selected as `built-in` activities based on their specified `type` in the configuration, contributing to the adaptability of the simulation at any given point. Details about config please refer to [schedule your simulation](./../documentation/markdown/simulation_scheduling.md).
+The autonomy `simfwk_cli` stands as an exemplary application constructed with the Simulation Framework library, offering four predefined activities as references. Users have the flexibility to use these activities to initiate the default simulation application or seamlessly integrate them into a customized simulation. These activities, implemented in the `simfwk-autonomy`, can be selected as `built-in` activities based on their specified `type` in the configuration, contributing to the adaptability of the simulation at any given point. Details about config please refer to [schedule your simulation](simulation_scheduling.md).
 
 | Activity Description             | Type       | Name in Simulation Config        | Publish Topic(s)   | Subscribe Topic(s) |
 | -------------------------------- | ---------- | -------------------------------- | ------------------ | ------------------ |
@@ -61,14 +65,14 @@ The table above illustrates the names of default activities provided in the Simu
 
 These built-in activities are provided within the Simulation Framework Autonomy binary, and their source code is not included. The exception is the source code for the KPI implementation used by the KPI Evaluator. This implementation provides four KPIs: `min_ttc`, `predictive_min_ttc`, `driven_dist` and `collision_detector`. They are based on a simple generic mathematical model and are included in the package under `./include/autonomy/evaluator`. Please verify the logic and use the default KPI Evaluator at your own risk.
 
-### Foxglove Activity
+## Foxglove Activity
 
 This activity supports visualization by starting a Foxglove websocket server on a default host and port.
 A `Lichtblick Client(A Visualization Tool)` can connect to the server and consume OSI groundtruth data via a streaming websocket in order to visualize.
 The default host and port used are `localhost:8679`. The host and port can be configured by the user by setting values as given in
 `Enabling Visualization using Lichtblick` section.
 
-#### Enabling Visualization using Lichtblick/Foxglove
+## Enabling Visualization using Lichtblick/Foxglove
 
 The user needs to add the below config setting json node as a child of `simulation_scheduling` in the `solver_setting_configuration.json` in order to enable visualization using Lichtblick/Foxglove Studio.
 
@@ -112,7 +116,7 @@ The user needs to add the below config setting json node as a child of `simulati
 
 **Note:** You can subscribe to any combination of the supported topics based on your visualization needs. All topics use OSI protobuf format except `KpiLoggerTopic` which uses JSON format.
 
-#### Visualization Plots for GroundTruth wrt time from GroundTruth using Lichtblick
+## Visualization Plots for GroundTruth wrt time from GroundTruth using Lichtblick
 
 **Using live streaming:**
 
@@ -120,7 +124,7 @@ The user needs to add the below config setting json node as a child of `simulati
 - Select `Open a Connection` at `localhost:8700` in Lichtblick.
 - Set any field to plot for y-axis from the /sim/groundtruth_topic
 - Set seconds from /sim/simulation_time on the x-axis.
-    Refer settings at ![Lichtblick settings for live streaming](./../images/lichtblick_settings_live_streaming.png)
+    Refer settings at ![Lichtblick settings for live streaming](../images/lichtblick_settings_live_streaming.png)
 - The plot will be drawn if the simulation has not ended yet.
 
 **Using MCAP file:**
@@ -129,17 +133,17 @@ The user needs to add the below config setting json node as a child of `simulati
 - Select `Open a local file` created in the previous step in Lichtblick.
 - Set any field to plot for y-axis from the /sim/groundtruth_topic
 - Set seconds from /sim/simulation_time on the x-axis.
-    Refer settings at ![Lichtblick settings for live streaming](./../images/lichtblick_settings_mcap_file.png)
+    Refer settings at ![Lichtblick settings for live streaming](../images/lichtblick_settings_mcap_file.png)
 - The plot will be drawn for the mcap file selected.
 
-### GroundTruth Generator (GT Gen)
+## GroundTruth Generator (GT Gen)
 
 GT Gen serves as the default world simulator in Autonomy and provides ground truth information for the entire simulation based on input `OpenScenario` and `OpenDRIVE` files. Depending on the configuration, it can operate in two modes: `ExternalMovement` and `InternalMovement`.
 
 - **InternalMovement**: This open-loop mode provides simulation ground truth based on a predefined trajectory in the open scenario and map.
 - **ExternalMovement (Closed-loop)**: This mode receives `TrafficUpdate` from an external driver and follows its movement commands for closed-loop behavior.
 
-#### Subscribing to OSC Variable References
+## Subscribing to OSC Variable References
 
 GT Gen can optionally subscribe to `ScenarioVariableTopic` to receive dynamic variable updates during simulation. This feature enables runtime control of OpenScenario variable conditions (e.g., `CarSpeedChangeCondition`) from external activities. To enable this feature, add the `enable_external_scenario_variables` parameter to the `groundtruth_generator_activity` configuration:
 
@@ -158,7 +162,7 @@ GT Gen can optionally subscribe to `ScenarioVariableTopic` to receive dynamic va
 
 When enabled, GT Gen will subscribe to `ScenarioVariableTopic` and update simulation variables based on messages received from publishers. The default value is `false` if the parameter is not specified.
 
-### Mcap Trace Writer
+## Mcap Trace Writer
 
 This activity writes the GroundTruth (OSI) data into a trace file in MCAP format. After the simulation finishes successfully, the trace file `simout_trace.mcap` will be available in the specified output directory.
 To enable creation of the trace file, user needs to add and enable the below field `save_mcap` as below in the config `solver_setting_configuration.json`.
@@ -210,19 +214,19 @@ To enable creation of the trace file, user needs to add and enable the below fie
 }
 ```
 
-### Dummy TPM Model
+## Dummy TPM Model
 
 The Dummy Traffic Participant (TPM) model uses the ground truth information generated by GT Gen to control the host vehicle's movement. It relies on a simple mathematical model to publish `TrafficUpdateTopic`.
 
-### Dummy Driver Model
+## Dummy Driver Model
 
 The Dummy Driver Model mimics driver behavior based on GroundTruth and publishes a driver input topic that contains log data (in KPI format) of the driver's behavior.
 
-### Standalone GroundTruth Generator
+## Standalone GroundTruth Generator
 
 The Standalone GroundTruth Generator functions similarly to the built-in GroundTruth Generator. The difference is that it is a separate executable using the Simulation Framework standalone activity service.
 
-#### Command-Line Options
+## Command-Line Options
 
 The standalone GT Gen activity supports the following command-line options:
 
@@ -240,7 +244,7 @@ To view all available options:
 ./standalone_gt_gen_activity --help
 ```
 
-### GroundTruth KPI Evaluator
+## GroundTruth KPI Evaluator
 
 The KPI Evaluator calculates four KPIs based on GroundTruth:
 
@@ -259,9 +263,9 @@ The KPI Evaluator calculates four KPIs based on GroundTruth:
 
     Note: The example in below section shows a case where the host collided with two objects simultaneously, and both collisions are recorded, one did reduce its speed other did not.
 
-To add more KPIs to the simulation, please refer to the [customized KPI chapter](./../documentation/markdown/customized_kpi_evaluator.md).
+To add more KPIs to the simulation, please refer to the [customized KPI chapter](../user-guide/customized_kpi_evaluator.md).
 
-### Default KPI logger
+## Default KPI logger
 
 The KPI logger captures the evaluated KPI data in `KpiLoggerTopic`, sent from KPI Evaluator, and stores them in JSON output for analyzing your simulation later. If you use the default `GroundTruth KPI Evaluator`, the final KPI file `kpi_results.json` could consist of the following fields:
 
@@ -323,7 +327,7 @@ The KPI logger captures the evaluated KPI data in `KpiLoggerTopic`, sent from KP
 }
 ```
 
-### How to safely utilize the KPI logger
+## How to safely utilize the KPI logger
 
 As outlined above, the KPI logger subscribes to KPI messages and records them in a JSON file. To effectively use the KPI logger, follow these steps:
 
@@ -338,11 +342,11 @@ As outlined above, the KPI logger subscribes to KPI messages and records them in
 
 By following these guidelines, you can ensure the safe and effective use of the KPI logger in your simulation. By verifying the field `latest_timestamp_in_ms` into your KPI analysis, you can enhance the reliability of your simulation results and foster a more robust safety protocol for your application.
 
-### Customization
+## Customization
 
 The Simulation Framework Autonomy not only offers users the capability to extend or customize the default simulation setup but also empowers them to bring their own logic into specific activities and seamlessly communicate with other activities through the introduction of new topics. Additionally, users can incorporate new KPIs, which will be automatically logged by the Simulation Framework.
 
-For detailed instructions on implementing and using customized activities, refer to [how to implement and use customized Activity](./../documentation/markdown/customized_activity.md). Furthermore, guidance on adding and utilizing customized KPIs can be found in [how to add and use customized KPIs](./../documentation/markdown/customized_kpi_evaluator.md).
+For detailed instructions on implementing and using customized activities, refer to [how to implement and use customized Activity](../user-guide/customized_activity.md). Furthermore, guidance on adding and utilizing customized KPIs can be found in [how to add and use customized KPIs](../user-guide/customized_kpi_evaluator.md).
 
 ## Simulation domain ID
 
@@ -351,18 +355,18 @@ The connection between standalone activities, built-in activities and simfwk cor
 For the use case where you want to customized the domain ID, i.e. to isolate one standalone activity from `simfwk_cli` or want to run two `simfwk_cli` executables in the same machine. for instance, you can adapt the `simfwk_cli` domain ID through environment variable:
 
 ```bash
-# open new terminal and adapt the Domian ID in this console
+## open new terminal and adapt the Domian ID in this console
 export SIMFWK_DDS_DOMAIN_ID=<other_uint16_number>
-# then execute simfwk_cli, it will runs in different domain
+## then execute simfwk_cli, it will runs in different domain
 ./simfwk_cli -s <your_solver_setting_config.json>
 ```
 
 or run one customized activity in different domain rather than default `147`
 
 ```bash
-# open new terminal and adapt the Domian ID in this console
+## open new terminal and adapt the Domian ID in this console
 export SIMFWK_DDS_DOMAIN_ID=407
-# then execute simfwk_cli, it will runs in domain 407
+## then execute simfwk_cli, it will runs in domain 407
 ./your_customized_activity_executable
 ```
 
@@ -372,7 +376,7 @@ Note that please be careful to use this feature because two same processes in th
 
 If simulation or setup faced critical error and can not proceed, Simulation Framework will terminate the simulation or throw exceptions with proper messages to indicate a solution or root causes.
 
-### Licensing error
+## Licensing error
 
 **Unset of `ANSYSLMD_LICENSE_FILE`**
 
@@ -388,7 +392,7 @@ If simulation or setup faced critical error and can not proceed, Simulation Fram
 [Licensing] License check with Ansys License Manager at <your-ansys-license-domain> failed! Please verify address or contact customer support!
 ```
 
-### Path error
+## Path error
 
 **Can not access simulation config**
 
@@ -400,7 +404,7 @@ terminate called after throwing an instance of 'std::runtime_error'
   what():  [Scheduling] Error in scheduling configuration!
 ```
 
-### Scheduling error
+## Scheduling error
 
 **Wrong definition in config**
 Any wrong definitions, e.g. missing mandatory field or wrongly defined parameter, name or dependency, exception will be thrown immediately.
@@ -437,9 +441,9 @@ SchedulingFeedback for the Event with ID 11 received and its action result is Ac
 Executing original terminate handler...terminate called after throwing an instance of 'std::runtime_error'
 ```
 
-The root cause of this issue could be that the environment where your simulation applicaiont runs does not have enough resouces, e.g. the CPU was stressed or memory is not enough. Other possible reason is that you have another application process built with Simulation Framework running in the same simulation domain. Please refer to the documentation of [Simulation domain ID section in lifecycle](./../documentation/markdown/lifecycle.md)
+The root cause of this issue could be that the environment where your simulation applicaiont runs does not have enough resouces, e.g. the CPU was stressed or memory is not enough. Other possible reason is that you have another application process built with Simulation Framework running in the same simulation domain. Please refer to the [Simulation domain ID](#simulation-domain-id) section in this document
 
-### Communication error
+## Communication error
 
 **Multiple publisher for same Topic**
 

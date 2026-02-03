@@ -24,8 +24,9 @@
 
 ## Public functions
 
-<a id="structIRockyBreakableParticle_1a39311189362162e429f060557815729c"></a>
 ### Function get\_minimum\_fragment\_size
+
+<a id="structIRockyBreakableParticle_1a39311189362162e429f060557815729c"></a>
 
 ![][public]
 ![][const]
@@ -52,8 +53,9 @@ The minimum size that a fragment generated at a breakage event of the particle c
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyBreakableParticle::get_minimum_fragment_size"}]}`
 -->
 
-<a id="structIRockyBreakableParticle_1a22690da66add12be7a332bc4a0e596cc"></a>
 ### Function get\_original\_volume
+
+<a id="structIRockyBreakableParticle_1a22690da66add12be7a332bc4a0e596cc"></a>
 
 ![][public]
 ![][const]
@@ -80,8 +82,9 @@ The volume of the particle at the moment it enters a simulation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyBreakableParticle::get_original_volume"}]}`
 -->
 
-<a id="structIRockyBreakableParticle_1a6c9870ef714ee07eeb24bef485dac1b9"></a>
 ### Function get\_particle\_group\_index
+
+<a id="structIRockyBreakableParticle_1a6c9870ef714ee07eeb24bef485dac1b9"></a>
 
 ![][public]
 ![][const]
@@ -108,8 +111,9 @@ The index that identifies internally the particle group to which the particle be
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyBreakableParticle::get_particle_group_index"}]}`
 -->
 
-<a id="structIRockyBreakableParticle_1abaff8573c455f7cf3793fefd8c43a793"></a>
 ### Function get\_strength
+
+<a id="structIRockyBreakableParticle_1abaff8573c455f7cf3793fefd8c43a793"></a>
 
 ![][public]
 ![][const]
@@ -136,8 +140,9 @@ A random value between 0 and 1 assigned to a particle at the time of generation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyBreakableParticle::get_strength"}]}`
 -->
 
-<a id="structIRockyBreakableParticle_1aca4e9c89438f779e191757c12103c65f"></a>
 ### Function get\_original\_size
+
+<a id="structIRockyBreakableParticle_1aca4e9c89438f779e191757c12103c65f"></a>
 
 ![][public]
 ![][const]
@@ -164,8 +169,9 @@ The value of the particle's size at the moment it enters a simulation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyBreakableParticle::get_original_size"}]}`
 -->
 
-<a id="structIRockyBreakableParticle_1a685c12928a91ee0fe62a243f35167d42"></a>
 ### Function set\_as\_unbreakable
+
+<a id="structIRockyBreakableParticle_1a685c12928a91ee0fe62a243f35167d42"></a>
 
 ![][public]
 ![][const]
@@ -192,8 +198,9 @@ will be marked to be ignored at all instantaneous breakage-related procedures du
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyBreakableParticle::set_as_unbreakable"}]}`
 -->
 
-<a id="structIRockyBreakableParticle_1a624157a56984db93a967eb5cad75fa83"></a>
 ### Function get\_scalars
+
+<a id="structIRockyBreakableParticle_1a624157a56984db93a967eb5cad75fa83"></a>
 
 ![][public]
 
@@ -219,8 +226,9 @@ An <code>[IRockyParticleScalars](structIRockyParticleScalars.md#structIRockyPart
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyBreakableParticle::get_scalars"}]}`
 -->
 
-<a id="structIRockyBreakableParticle_1a5ccd372c25b095a9739c11dae8f02ab7"></a>
 ### Function get\_breakage\_scalars
+
+<a id="structIRockyBreakableParticle_1a5ccd372c25b095a9739c11dae8f02ab7"></a>
 
 ![][public]
 

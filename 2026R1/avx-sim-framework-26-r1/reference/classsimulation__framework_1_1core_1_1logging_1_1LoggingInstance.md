@@ -1,12 +1,11 @@
-<a id="classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance"></a>
-# Class simulation\_framework::core::logging::LoggingInstance
+# Class simulation_framework::core::logging::LoggingInstance
 
 ![][C++]
 ![][public]
 
-#include: <[logging.h](logging_8h.md#logging_8h)>
+**Definition**: `core/logging/logging.h` (line 28)
 
-A singleton class to be used for all logging purposes. It can be used to register additional loggers based on the [ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger) class to introduce additional logging mechanisms. By default a [ConsoleLogger](classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger.md#classsimulation__framework_1_1core_1_1logging_1_1ConsoleLogger) will be registered with each new [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance). If logging to console is not desired in your use case, you can call [ClearLoggers()](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a8d0242626303b56597a921397ccf0313) before adding your custom loggers to disable console logging.
+A singleton class to be used for all logging purposes. It can be used to register additional loggers based on the ILogger class to introduce additional logging mechanisms. By default a ConsoleLogger will be registered with each new [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance). If logging to console is not desired in your use case, you can call [ClearLoggers()](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a8d0242626303b56597a921397ccf0313) before adding your custom loggers to disable console logging.
 
 
 
@@ -15,9 +14,9 @@ A singleton class to be used for all logging purposes. It can be used to registe
 * [ClearLoggers](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a8d0242626303b56597a921397ccf0313)
 * [GetInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a452a2f89b01be3de22e5c93b9e515747)
 * [GetLoggers](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a2eb401fe3115b87936427b9ca29cd05a)
-* [ILoggerContainer](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1aed83bf9aa78a1a6e327f885e8cd2b33b)
+* [ILoggerContainer](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a6dd9f78b23d7faf49ba8f998bb803224)
 * [Log](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a2536343b1dc6df11fa67321a4e41e525)
-* [loggers\_](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3cee128a45463b7df4981decc9f71b1d)
+* [loggers_](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3cee128a45463b7df4981decc9f71b1d)
 * [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3946cfed6c421a90ffc1e5cc92da5da1)
 * [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1ab22c29e95f6416514eb26f0fc30b2aab)
 * [operator=](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a63a61b155ccf69d9dbae7efe7f338791)
@@ -27,16 +26,16 @@ A singleton class to be used for all logging purposes. It can be used to registe
 
 ## Public types
 
-<a id="classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1aed83bf9aa78a1a6e327f885e8cd2b33b"></a>
+<a id="classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a6dd9f78b23d7faf49ba8f998bb803224"></a>
 ### Typedef ILoggerContainer
 
 ![][public]
 
-#include: <[logging.h](logging_8h.md#logging_8h)>
+**Definition**: `core/logging/logging.h` (line 31)
 
 
 ```cpp
-using simulation_framework::core::logging::LoggingInstance::ILoggerContainer =  std::vector<std::unique_ptr<ILogger>>
+using simulation_framework::core::logging::LoggingInstance::ILoggerContainer =  std::vector<std::unique_ptr<ILogger> >
 ```
 
 
@@ -46,41 +45,12 @@ using simulation_framework::core::logging::LoggingInstance::ILoggerContainer =  
 
 
 
-**Return type**: std::vector< std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger) > >
+**Return type**: std::vector< std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > >
 
 <!--
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::LoggingInstance::ILoggerContainer"}]}`
--->
-
-## Private attributes
-
-<a id="classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance_1a3cee128a45463b7df4981decc9f71b1d"></a>
-### Variable loggers\_
-
-![][private]
-
-#include: <[logging.h](logging_8h.md#logging_8h)>
-
-
-```cpp
-ILoggerContainer simulation_framework::core::logging::LoggingInstance::loggers_
-```
-
-
-
-
-
-
-
-
-**Type**: ILoggerContainer
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::logging::LoggingInstance::loggers_"}]}`
 -->
 
 ## Public functions
@@ -129,7 +99,7 @@ simulation_framework::core::logging::LoggingInstance::LoggingInstance(const Logg
 
 **Parameters**:
 
-* const [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) &
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) &
 
 **Return type**: 
 
@@ -158,7 +128,7 @@ LoggingInstance & simulation_framework::core::logging::LoggingInstance::operator
 
 **Parameters**:
 
-* const [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) &
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) &
 
 **Return type**: [LoggingInstance](classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance.md#classsimulation__framework_1_1core_1_1logging_1_1LoggingInstance) &
 
@@ -189,9 +159,9 @@ Register a new logger.
 
 **Parameters**:
 
-* std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1logging_1_1ILogger.md#classsimulation__framework_1_1core_1_1logging_1_1ILogger) > **logger**
+* std::unique_ptr< [ILogger](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) > **logger**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -216,7 +186,7 @@ Remove all currently registered loggers.
 
 
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -242,7 +212,7 @@ Return a const reference to the container of registered loggers.
 
 
 
-**Return type**: const ILoggerContainer &
+**Return type**: [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) ILoggerContainer &
 
 <!--
 **TODO**:
@@ -272,10 +242,10 @@ Log a message on the logging interface.
 
 **Parameters**:
 
-* LogLevel **level**
+* [LogLevel](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **level**
 * std::string_view **message**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:
@@ -304,9 +274,9 @@ Set Log level of all registered loggers.
 
 **Parameters**:
 
-* LogLevel **log_level**
+* [LogLevel](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **log_level**
 
-**Return type**: void
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
 
 <!--
 **TODO**:

@@ -26,8 +26,9 @@ An <code>[IRockyGeometryScalarsModel](structIRockyGeometryScalarsModel.md#struct
 
 ## Public functions
 
-<a id="structIRockyGeometryScalarsModel_1a1cc2456dbf51f7f97c9cfd4c08fd890b"></a>
 ### Function get\_statistics\_adder\_array
+
+<a id="structIRockyGeometryScalarsModel_1a1cc2456dbf51f7f97c9cfd4c08fd890b"></a>
 
 ![][public]
 
@@ -62,8 +63,9 @@ The array of all <code>[IRockyStatisticsAdder](structIRockyStatisticsAdder.md#st
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalarsModel::get_statistics_adder_array"}]}`
 -->
 
-<a id="structIRockyGeometryScalarsModel_1af5e62356931688660f277719ca88ff2c"></a>
 ### Function get\_statistics\_accumulator\_array
+
+<a id="structIRockyGeometryScalarsModel_1af5e62356931688660f277719ca88ff2c"></a>
 
 ![][public]
 
@@ -98,8 +100,9 @@ The array of all <code>[IRockyStatisticsAccumulator](structIRockyStatisticsAccum
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalarsModel::get_statistics_accumulator_array"}]}`
 -->
 
-<a id="structIRockyGeometryScalarsModel_1a8605e8eb24231ebdcbd9087602aa64fa"></a>
 ### Function find
+
+<a id="structIRockyGeometryScalarsModel_1a8605e8eb24231ebdcbd9087602aa64fa"></a>
 
 ![][public]
 
@@ -139,8 +142,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyGeometryScalarsModel_1ac5361e4dec1e3d63aa923b3576d8cb69"></a>
 ### Function add
+
+<a id="structIRockyGeometryScalarsModel_1ac5361e4dec1e3d63aa923b3576d8cb69"></a>
 
 ![][public]
 
@@ -184,8 +188,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyGeometryScalarsModel_1a0c029b4e23f71891ed12a704f0f0cde4"></a>
 ### Function reset
+
+<a id="structIRockyGeometryScalarsModel_1a0c029b4e23f71891ed12a704f0f0cde4"></a>
 
 ![][public]
 
@@ -218,8 +223,9 @@ void IRockyGeometryScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyGeometryScalarsModel_1aa7148cfa90081ff19a8fda5e7e1cb379"></a>
 ### Function set\_dimension
+
+<a id="structIRockyGeometryScalarsModel_1aa7148cfa90081ff19a8fda5e7e1cb379"></a>
 
 ![][public]
 

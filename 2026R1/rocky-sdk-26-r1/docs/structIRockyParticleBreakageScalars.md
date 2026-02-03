@@ -26,8 +26,9 @@ When running a simulation, an <code>[IRockyParticleBreakageScalars](structIRocky
 
 ## Public functions
 
-<a id="structIRockyParticleBreakageScalars_1af47b2e930c6a25249584df9d3600945b"></a>
 ### Function get\_t10
+
+<a id="structIRockyParticleBreakageScalars_1af47b2e930c6a25249584df9d3600945b"></a>
 
 ![][public]
 ![][const]
@@ -54,8 +55,9 @@ The value of the `formula {"type":"element","name":"formula","attributes":{"id":
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalars::get_t10"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalars_1afde7cd6ccf288b6e0834357e74344578"></a>
 ### Function set\_t10
+
+<a id="structIRockyParticleBreakageScalars_1afde7cd6ccf288b6e0834357e74344578"></a>
 
 ![][public]
 
@@ -90,8 +92,9 @@ breakage event. Please refer to the DEM Technical Manual for the definition of t
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalars::set_t10"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalars_1af101f19299a5a1d5d3da3fe1d2a0f74b"></a>
 ### Function get\_scalar
+
+<a id="structIRockyParticleBreakageScalars_1af101f19299a5a1d5d3da3fe1d2a0f74b"></a>
 
 ![][public]
 ![][const]
@@ -132,8 +135,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalars_1a71109dbd97b7c53d5a001f6d8c66d66f"></a>
 ### Function set\_scalar
+
+<a id="structIRockyParticleBreakageScalars_1a71109dbd97b7c53d5a001f6d8c66d66f"></a>
 
 ![][public]
 ![][const]
@@ -171,8 +175,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalars_1a8c8fe58709bc4dcc7becc23e716483d6"></a>
 ### Function add\_scalar
+
+<a id="structIRockyParticleBreakageScalars_1a8c8fe58709bc4dcc7becc23e716483d6"></a>
 
 ![][public]
 ![][const]
@@ -210,8 +215,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleBreakageScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyParticleBreakageScalars_1ad5d957f09f3fc73349741c296f66b7d1"></a>
 ### Function max\_scalar
+
+<a id="structIRockyParticleBreakageScalars_1ad5d957f09f3fc73349741c296f66b7d1"></a>
 
 ![][public]
 ![][const]

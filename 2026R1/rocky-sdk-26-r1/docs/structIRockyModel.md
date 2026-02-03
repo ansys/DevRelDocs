@@ -64,8 +64,9 @@
 
 ## Public functions
 
-<a id="structIRockyModel_1a5dcfa443dbca79a9c34001fca9873b93"></a>
 ### Function get\_gravity
+
+<a id="structIRockyModel_1a5dcfa443dbca79a9c34001fca9873b93"></a>
 
 ![][public]
 ![][const]
@@ -97,8 +98,9 @@ A <code>double3</code> value representing the current gravity acceleration vecto
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_gravity"}]}`
 -->
 
-<a id="structIRockyModel_1a4ae85b1a5081581bd5c758d347d7e31c"></a>
 ### Function set\_gravity
+
+<a id="structIRockyModel_1a4ae85b1a5081581bd5c758d347d7e31c"></a>
 
 ![][public]
 
@@ -133,8 +135,9 @@ globally in the simulation from that time onward.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::set_gravity"}]}`
 -->
 
-<a id="structIRockyModel_1a3caea658ae1557e11ed4e72dc80fb0a2"></a>
 ### Function get\_softening\_factor
+
+<a id="structIRockyModel_1a3caea658ae1557e11ed4e72dc80fb0a2"></a>
 
 ![][public]
 ![][const]
@@ -161,8 +164,9 @@ The value of the numerical softening factor, which is a global reduction factor 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_softening_factor"}]}`
 -->
 
-<a id="structIRockyModel_1a6c0be64519ddd583f26570ece5a4aee1"></a>
 ### Function get\_timestep
+
+<a id="structIRockyModel_1a6c0be64519ddd583f26570ece5a4aee1"></a>
 
 ![][public]
 ![][const]
@@ -189,8 +193,9 @@ The current value of the simulation timestep.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_timestep"}]}`
 -->
 
-<a id="structIRockyModel_1ada3d1d7b6e1de1d7e4ef0739a1f4dd8a"></a>
 ### Function trigger\_update\_timestep
+
+<a id="structIRockyModel_1ada3d1d7b6e1de1d7e4ef0739a1f4dd8a"></a>
 
 ![][public]
 ![][const]
@@ -223,8 +228,9 @@ If timestep is set using the advanced parameters, the update timestep calculatio
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::trigger_update_timestep"}]}`
 -->
 
-<a id="structIRockyModel_1ac1f146615e6b930769ff4008c4a0bb6c"></a>
 ### Function is\_thermal\_simulation
+
+<a id="structIRockyModel_1ac1f146615e6b930769ff4008c4a0bb6c"></a>
 
 ![][public]
 ![][const]
@@ -251,8 +257,9 @@ True if the thermal option is enabled in the current Rocky project, false otherw
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::is_thermal_simulation"}]}`
 -->
 
-<a id="structIRockyModel_1a021623b1b816354c3fe778f6de07c2e5"></a>
 ### Function has\_adhesion
+
+<a id="structIRockyModel_1a021623b1b816354c3fe778f6de07c2e5"></a>
 
 ![][public]
 ![][const]
@@ -279,8 +286,9 @@ True if the current Rocky project has enabled some adhesion model. Adhesive cont
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::has_adhesion"}]}`
 -->
 
-<a id="structIRockyModel_1ac9dd7ca3cdad5289325c080a10bf2ad7"></a>
 ### Function set\_adhesive\_distance
+
+<a id="structIRockyModel_1ac9dd7ca3cdad5289325c080a10bf2ad7"></a>
 
 ![][public]
 
@@ -319,8 +327,9 @@ for a custom adhesive force model. Whenever a new value set for an adhesive dist
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::set_adhesive_distance"}]}`
 -->
 
-<a id="structIRockyModel_1a8c30579eb47a2e20abd0fc393b3b2532"></a>
 ### Function set\_minimum\_restitution\_coefficient
+
+<a id="structIRockyModel_1a8c30579eb47a2e20abd0fc393b3b2532"></a>
 
 ![][public]
 
@@ -359,8 +368,9 @@ coefficient model. It allows the module to set the minimum expected value of the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::set_minimum_restitution_coefficient"}]}`
 -->
 
-<a id="structIRockyModel_1ac9a1e9a6ac20f978dd08f6fc67fd0904"></a>
 ### Function get\_interactions\_data
+
+<a id="structIRockyModel_1ac9a1e9a6ac20f978dd08f6fc67fd0904"></a>
 
 ![][public]
 ![][const]
@@ -391,8 +401,9 @@ This method iterates over all particles in the simulation, which may introduce s
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_interactions_data"}]}`
 -->
 
-<a id="structIRockyModel_1a4f71066b464f74b32fb560c8a58dd030"></a>
 ### Function get\_contact\_data\_recorder
+
+<a id="structIRockyModel_1a4f71066b464f74b32fb560c8a58dd030"></a>
 
 ![][public]
 ![][const]
@@ -419,8 +430,9 @@ An <code>[IRockyContactDataRecorder](structIRockyContactDataRecorder.md#structIR
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_contact_data_recorder"}]}`
 -->
 
-<a id="structIRockyModel_1a1b8fe53d49b68f6097261e884fa769c5"></a>
 ### Function get\_number\_of\_particle\_groups
+
+<a id="structIRockyModel_1a1b8fe53d49b68f6097261e884fa769c5"></a>
 
 ![][public]
 ![][const]
@@ -447,8 +459,9 @@ The total number of particle groups defined in the Rocky project. A particle gro
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_particle_groups"}]}`
 -->
 
-<a id="structIRockyModel_1a1c6cf48153d8b8278bcc67c3f31eff7b"></a>
 ### Function get\_number\_of\_particles
+
+<a id="structIRockyModel_1a1c6cf48153d8b8278bcc67c3f31eff7b"></a>
 
 ![][public]
 ![][const]
@@ -475,8 +488,9 @@ The total number of individual particles in a whole simulation.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_particles"}]}`
 -->
 
-<a id="structIRockyModel_1a54b2c41da7a4f9f719ac76fb83f0eb0a"></a>
 ### Function get\_number\_of\_geometries
+
+<a id="structIRockyModel_1a54b2c41da7a4f9f719ac76fb83f0eb0a"></a>
 
 ![][public]
 ![][const]
@@ -503,8 +517,9 @@ The total number of boundaries defined in the Rocky project.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_geometries"}]}`
 -->
 
-<a id="structIRockyModel_1a56c275ba379255adc3b2fc2af8ea83d7"></a>
 ### Function get\_number\_of\_materials
+
+<a id="structIRockyModel_1a56c275ba379255adc3b2fc2af8ea83d7"></a>
 
 ![][public]
 ![][const]
@@ -531,8 +546,9 @@ The total number of materials defined in the Rocky project.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_materials"}]}`
 -->
 
-<a id="structIRockyModel_1a59425e7004ad5636d9a6dc06e31e288d"></a>
 ### Function get\_number\_of\_material\_interactions
+
+<a id="structIRockyModel_1a59425e7004ad5636d9a6dc06e31e288d"></a>
 
 ![][public]
 ![][const]
@@ -559,8 +575,9 @@ The total number of material interactions that it is possible to define with the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_material_interactions"}]}`
 -->
 
-<a id="structIRockyModel_1a7fb2a67e2e5126c5140ce80ede04b713"></a>
 ### Function get\_geometry\_name
+
+<a id="structIRockyModel_1a7fb2a67e2e5126c5140ce80ede04b713"></a>
 
 ![][public]
 ![][const]
@@ -591,8 +608,9 @@ The name given in the Rocky UI the geometry identified by <code>geometry_index</
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_geometry_name"}]}`
 -->
 
-<a id="structIRockyModel_1a04e185eee0bdd70cc84ad48459584823"></a>
 ### Function get\_particle\_group\_name
+
+<a id="structIRockyModel_1a04e185eee0bdd70cc84ad48459584823"></a>
 
 ![][public]
 ![][const]
@@ -623,8 +641,9 @@ The name given in the Rocky UI the particle group identified by <code>particle_g
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_particle_group_name"}]}`
 -->
 
-<a id="structIRockyModel_1ae53de7e654b59031b4a5787a3330c96b"></a>
 ### Function get\_simulation\_variables
+
+<a id="structIRockyModel_1ae53de7e654b59031b4a5787a3330c96b"></a>
 
 ![][public]
 ![][const]
@@ -651,8 +670,9 @@ An <code>[IRockySimulationVariables](structIRockySimulationVariables.md#structIR
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_simulation_variables"}]}`
 -->
 
-<a id="structIRockyModel_1a4788543c01a10a60e17c3623a6847708"></a>
 ### Function get\_particle\_scalars
+
+<a id="structIRockyModel_1a4788543c01a10a60e17c3623a6847708"></a>
 
 ![][public]
 ![][const]
@@ -679,8 +699,9 @@ An <code>[IRockyParticleScalarsModel](structIRockyParticleScalarsModel.md#struct
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_particle_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a9c78ff441fc0220adf389ae4b733c808"></a>
 ### Function get\_particle\_transfer\_scalars
+
+<a id="structIRockyModel_1a9c78ff441fc0220adf389ae4b733c808"></a>
 
 ![][public]
 ![][const]
@@ -707,8 +728,9 @@ An <code>[IRockyParticleTransferScalarsModel](structIRockyParticleTransferScalar
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_particle_transfer_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a1076a0e1ada498f29c18caf6840e520a"></a>
 ### Function get\_particle\_breakage\_scalars
+
+<a id="structIRockyModel_1a1076a0e1ada498f29c18caf6840e520a"></a>
 
 ![][public]
 ![][const]
@@ -735,8 +757,9 @@ An <code>[IRockyParticleBreakageScalarsModel](structIRockyParticleBreakageScalar
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_particle_breakage_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1ac6b0ba79dc72914434cfce14b9807e22"></a>
 ### Function get\_joint\_scalars
+
+<a id="structIRockyModel_1ac6b0ba79dc72914434cfce14b9807e22"></a>
 
 ![][public]
 ![][const]
@@ -763,8 +786,9 @@ An <code>[IRockyJointScalarsModel](structIRockyJointScalarsModel.md#structIRocky
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_joint_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a2fe828d3fb961280069bb549d49a52bc"></a>
 ### Function get\_pair\_scalars
+
+<a id="structIRockyModel_1a2fe828d3fb961280069bb549d49a52bc"></a>
 
 ![][public]
 ![][const]
@@ -791,8 +815,9 @@ An <code>[IRockyPairScalarsModel](structIRockyPairScalarsModel.md#structIRockyPa
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_pair_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a43441eb2d02d3dc9c691328eef5e99b5"></a>
 ### Function get\_geometry\_scalars
+
+<a id="structIRockyModel_1a43441eb2d02d3dc9c691328eef5e99b5"></a>
 
 ![][public]
 ![][const]
@@ -819,8 +844,9 @@ An <code>[IRockyGeometryScalarsModel](structIRockyGeometryScalarsModel.md#struct
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_geometry_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a8a3d81fcb670ecba5ab7ca97e520f0a7"></a>
 ### Function get\_triangle\_scalars
+
+<a id="structIRockyModel_1a8a3d81fcb670ecba5ab7ca97e520f0a7"></a>
 
 ![][public]
 ![][const]
@@ -847,8 +873,9 @@ An <code>[IRockyTriangleScalarsModel](structIRockyTriangleScalarsModel.md#struct
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_triangle_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a552edce9a8cb94fc20d5286f43f2185b"></a>
 ### Function get\_particle\_contact\_scalars
+
+<a id="structIRockyModel_1a552edce9a8cb94fc20d5286f43f2185b"></a>
 
 ![][public]
 ![][const]
@@ -877,8 +904,9 @@ An <code>[IRockyContactScalarsModel](structIRockyContactScalarsModel.md#structIR
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_particle_contact_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a5d2028ca0b20101281cf8124a54509f1"></a>
 ### Function get\_triangle\_contact\_scalars
+
+<a id="structIRockyModel_1a5d2028ca0b20101281cf8124a54509f1"></a>
 
 ![][public]
 ![][const]
@@ -907,8 +935,9 @@ An <code>[IRockyContactScalarsModel](structIRockyContactScalarsModel.md#structIR
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_triangle_contact_scalars"}]}`
 -->
 
-<a id="structIRockyModel_1a93ef35ae1eb9cf50ca77ab2070a769ab"></a>
 ### Function get\_current\_time
+
+<a id="structIRockyModel_1a93ef35ae1eb9cf50ca77ab2070a769ab"></a>
 
 ![][public]
 ![][const]
@@ -935,8 +964,9 @@ The value of the current simulation time.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_current_time"}]}`
 -->
 
-<a id="structIRockyModel_1ae98c232add53267e07db794e37304a25"></a>
 ### Function get\_output\_interval
+
+<a id="structIRockyModel_1ae98c232add53267e07db794e37304a25"></a>
 
 ![][public]
 ![][const]
@@ -963,8 +993,9 @@ The value of the simulation output interval.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_output_interval"}]}`
 -->
 
-<a id="structIRockyModel_1a38a15145f4f2bb47b79ab785f50d8277"></a>
 ### Function get\_number\_of\_active\_particles
+
+<a id="structIRockyModel_1a38a15145f4f2bb47b79ab785f50d8277"></a>
 
 ![][public]
 ![][const]
@@ -991,8 +1022,9 @@ The current number of active particles in the simulation. This number can vary t
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_active_particles"}]}`
 -->
 
-<a id="structIRockyModel_1a4bfb9f69ea26364b55aaad33463de669"></a>
 ### Function get\_number\_of\_active\_triangles
+
+<a id="structIRockyModel_1a4bfb9f69ea26364b55aaad33463de669"></a>
 
 ![][public]
 
@@ -1018,8 +1050,9 @@ The current number of active triangles in the simulation. This number can vary t
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_active_triangles"}]}`
 -->
 
-<a id="structIRockyModel_1a5e03d46944ec6e42596ee5f2d5f8aaeb"></a>
 ### Function get\_number\_of\_processes
+
+<a id="structIRockyModel_1a5e03d46944ec6e42596ee5f2d5f8aaeb"></a>
 
 ![][public]
 ![][const]
@@ -1046,8 +1079,9 @@ The number of allowed parallel processes when the simulation runs in CPU.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_processes"}]}`
 -->
 
-<a id="structIRockyModel_1a1fd1011aa809fe64647e9cacf1956a11"></a>
 ### Function get\_number\_of\_devices
+
+<a id="structIRockyModel_1a1fd1011aa809fe64647e9cacf1956a11"></a>
 
 ![][public]
 ![][const]
@@ -1074,8 +1108,9 @@ The number of devices set to run the simulation when using multi-GPU.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_number_of_devices"}]}`
 -->
 
-<a id="structIRockyModel_1ae8f8865c809a31988291f9180d7cda2b"></a>
 ### Function get\_device\_id
+
+<a id="structIRockyModel_1ae8f8865c809a31988291f9180d7cda2b"></a>
 
 ![][public]
 ![][const]
@@ -1106,8 +1141,9 @@ The index that identifies a given device when running a simulation in multi-GPU.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_device_id"}]}`
 -->
 
-<a id="structIRockyModel_1ae4797d71a2b43ae408fe83e317f818b7"></a>
 ### Function find\_point\_cloud
+
+<a id="structIRockyModel_1ae4797d71a2b43ae408fe83e317f818b7"></a>
 
 ![][public]
 
@@ -1145,8 +1181,9 @@ The index that uniquely identifies the wanted point cloud, if it was actually fo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::find_point_cloud"}]}`
 -->
 
-<a id="structIRockyModel_1aabdba4a3eee5c51c75c45345f6cf6839"></a>
 ### Function find\_point\_cloud\_property
+
+<a id="structIRockyModel_1aabdba4a3eee5c51c75c45345f6cf6839"></a>
 
 ![][public]
 
@@ -1188,8 +1225,9 @@ The index that uniquely identifies the wanted point cloud property, if it was ac
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::find_point_cloud_property"}]}`
 -->
 
-<a id="structIRockyModel_1a8c57d2cafc46d41dd8477e2521d62b12"></a>
 ### Function set\_point\_cloud\_property\_dimension
+
+<a id="structIRockyModel_1a8c57d2cafc46d41dd8477e2521d62b12"></a>
 
 ![][public]
 
@@ -1228,8 +1266,9 @@ to a point cloud property. This factor will be used to nondimensionalize all the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::set_point_cloud_property_dimension"}]}`
 -->
 
-<a id="structIRockyModel_1a65411ff4a85f74e96457979f8158eccd"></a>
 ### Function get\_curve\_collections
+
+<a id="structIRockyModel_1a65411ff4a85f74e96457979f8158eccd"></a>
 
 ![][public]
 ![][const]
@@ -1256,8 +1295,9 @@ An <code>[IRockyCurveCollectionData](structIRockyCurveCollectionData.md#structIR
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_curve_collections"}]}`
 -->
 
-<a id="structIRockyModel_1acdec4e25234fe0304e441d82ccfc3192"></a>
 ### Function get\_length\_factor
+
+<a id="structIRockyModel_1acdec4e25234fe0304e441d82ccfc3192"></a>
 
 ![][public]
 ![][const]
@@ -1284,8 +1324,9 @@ The length factor in meters, used to nondimensionalize length parameters.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_length_factor"}]}`
 -->
 
-<a id="structIRockyModel_1ae8c9acf215323ada8de9ff9344b1db94"></a>
 ### Function get\_mass\_factor
+
+<a id="structIRockyModel_1ae8c9acf215323ada8de9ff9344b1db94"></a>
 
 ![][public]
 ![][const]
@@ -1312,8 +1353,9 @@ The length factor in kilograms, used to nondimensionalize mass parameters.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_mass_factor"}]}`
 -->
 
-<a id="structIRockyModel_1aadaee25a53bade557d45bf633e995690"></a>
 ### Function get\_time\_factor
+
+<a id="structIRockyModel_1aadaee25a53bade557d45bf633e995690"></a>
 
 ![][public]
 ![][const]
@@ -1340,8 +1382,9 @@ The time factor in seconds, used to nondimensionalize time parameters.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_time_factor"}]}`
 -->
 
-<a id="structIRockyModel_1aa12e90812c32e8092c0a67c28b5cc21b"></a>
 ### Function get\_viscosity\_factor
+
+<a id="structIRockyModel_1aa12e90812c32e8092c0a67c28b5cc21b"></a>
 
 ![][public]
 ![][const]
@@ -1368,8 +1411,9 @@ The viscosity factor in Pa.s, used to nondimensionalize viscosity parameters.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_viscosity_factor"}]}`
 -->
 
-<a id="structIRockyModel_1afdf327f827860b500a82c511492d2f1e"></a>
 ### Function get\_temperature\_factor
+
+<a id="structIRockyModel_1afdf327f827860b500a82c511492d2f1e"></a>
 
 ![][public]
 ![][const]
@@ -1396,8 +1440,9 @@ The temperature factor in Kelvin, used to nondimensionalize temperature paramete
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_temperature_factor"}]}`
 -->
 
-<a id="structIRockyModel_1a8800430b5e336d3fd04d0fce83f83883"></a>
 ### Function get\_force\_factor
+
+<a id="structIRockyModel_1a8800430b5e336d3fd04d0fce83f83883"></a>
 
 ![][public]
 ![][const]
@@ -1424,8 +1469,9 @@ The force factor in Newton, used to nondimensionalize force parameters.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_force_factor"}]}`
 -->
 
-<a id="structIRockyModel_1abb53bd424c9e2d61065410a0b2d53b8b"></a>
 ### Function get\_pressure\_factor
+
+<a id="structIRockyModel_1abb53bd424c9e2d61065410a0b2d53b8b"></a>
 
 ![][public]
 ![][const]
@@ -1452,8 +1498,9 @@ The pressure factor in Pascal, used to nondimensionalize pressure parameters.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_pressure_factor"}]}`
 -->
 
-<a id="structIRockyModel_1a9fba76aa437dad8ff9674eedb0b6acc0"></a>
 ### Function get\_energy\_factor
+
+<a id="structIRockyModel_1a9fba76aa437dad8ff9674eedb0b6acc0"></a>
 
 ![][public]
 ![][const]
@@ -1480,8 +1527,9 @@ The energy factor in Joule, used to nondimensionalize energy parameters.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyModel::get_energy_factor"}]}`
 -->
 
-<a id="structIRockyModel_1a33a082f281ae2ca159cdb420d2fabbb8"></a>
 ### Function get\_power\_factor
+
+<a id="structIRockyModel_1a33a082f281ae2ca159cdb420d2fabbb8"></a>
 
 ![][public]
 ![][const]

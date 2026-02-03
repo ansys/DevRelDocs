@@ -24,8 +24,9 @@
 
 ## Public functions
 
-<a id="structIRockyCFDModel_1a001b18af80c99c01ce4baa357bac4977"></a>
 ### Function get\_fluid\_scalars
+
+<a id="structIRockyCFDModel_1a001b18af80c99c01ce4baa357bac4977"></a>
 
 ![][public]
 ![][const]
@@ -52,8 +53,9 @@ An <code>[IRockyFluidScalarsModel](structIRockyFluidScalarsModel.md#structIRocky
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDModel::get_fluid_scalars"}]}`
 -->
 
-<a id="structIRockyCFDModel_1a121e67b3f5efdd1783a32a7fa642080c"></a>
 ### Function get\_coupling\_mode
+
+<a id="structIRockyCFDModel_1a121e67b3f5efdd1783a32a7fa642080c"></a>
 
 ![][public]
 ![][const]
@@ -85,8 +87,9 @@ An <code>ECFDCouplingMode</code> enum which represents the CFD coupling mode. Th
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDModel::get_coupling_mode"}]}`
 -->
 
-<a id="structIRockyCFDModel_1a733281fb5b40b3cfbf10c29869208343"></a>
 ### Function is\_cfd\_coupling\_iteration
+
+<a id="structIRockyCFDModel_1a733281fb5b40b3cfbf10c29869208343"></a>
 
 ![][public]
 ![][const]
@@ -113,8 +116,9 @@ On simulations with CFD 1-way or 2-way coupling, this methods returns true if, i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDModel::is_cfd_coupling_iteration"}]}`
 -->
 
-<a id="structIRockyCFDModel_1a0eaf07fa0aa63473b83a633dad1e8f25"></a>
 ### Function is\_single\_phase
+
+<a id="structIRockyCFDModel_1a0eaf07fa0aa63473b83a633dad1e8f25"></a>
 
 ![][public]
 ![][const]
@@ -141,8 +145,9 @@ This method returns true if Fluent case is single-phase.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDModel::is_single_phase"}]}`
 -->
 
-<a id="structIRockyCFDModel_1a4ac3f8164add3366c5f08f4f819a79fd"></a>
 ### Function has\_species
+
+<a id="structIRockyCFDModel_1a4ac3f8164add3366c5f08f4f819a79fd"></a>
 
 ![][public]
 ![][const]
@@ -169,8 +174,9 @@ This method returns true if Fluent case has species.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDModel::has_species"}]}`
 -->
 
-<a id="structIRockyCFDModel_1a6bc367fb97d56786d71d89351957a2a1"></a>
 ### Function get\_phase\_names
+
+<a id="structIRockyCFDModel_1a6bc367fb97d56786d71d89351957a2a1"></a>
 
 ![][public]
 
@@ -196,8 +202,9 @@ This method returns a vector with phase names. It returns an empty vector for si
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDModel::get_phase_names"}]}`
 -->
 
-<a id="structIRockyCFDModel_1a83c9a597793b791d1e42e0756ddddb06"></a>
 ### Function get\_primary\_phase\_name
+
+<a id="structIRockyCFDModel_1a83c9a597793b791d1e42e0756ddddb06"></a>
 
 ![][public]
 
@@ -223,8 +230,9 @@ This method returns the primary phase name defined in Fluent. It return a empty 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDModel::get_primary_phase_name"}]}`
 -->
 
-<a id="structIRockyCFDModel_1aac7f217cdfc15f0dd301dfd99127a194"></a>
 ### Function get\_species\_names
+
+<a id="structIRockyCFDModel_1aac7f217cdfc15f0dd301dfd99127a194"></a>
 
 ![][public]
 

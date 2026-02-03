@@ -1,4 +1,9 @@
-﻿# MeasureFeature
+﻿---
+uid: measure_feature
+title: MeasureFeature
+---
+
+# MeasureFeature
 
 **Full Name**: `SpeosNX_2512::MeasureFeature`
 
