@@ -3,7 +3,7 @@ uid: getting-started
 title: Getting Started
 ---
 
-# Getting Started
+# Getting started
 
 This section provides information on how to get started with the SpeosNX Python API.
 
@@ -15,11 +15,11 @@ Before using the SpeosNX API, ensure you have:
 2. **Python** environment configured
 3. **SPEOS_NX_DIR** environment variable set correctly
 
-## Basic Setup
+## Basic setup
 
 To use the SpeosNX API in your Python scripts, follow these steps:
 
-### 1. Import Required Modules
+### 1. Import required modules
 
 ```python
 import os
@@ -29,7 +29,7 @@ import sys
 import NXOpen
 ```
 
-### 2. Add SpeosNX to Python Path
+### 2. Add SpeosNX to Python path
 
 ```python
 # Add path to import SpeosNX
@@ -37,7 +37,7 @@ sys.path.append(os.environ["SPEOS_NX_DIR"] + "\\application")
 import SpeosNX
 ```
 
-### 3. Initialize the Session
+### 3. Initialize the session
 
 ```python
 # Set load option
@@ -63,13 +63,13 @@ FeatureCollection = Work.Features
 PartCollection.Load()
 ```
 
-## Core Concepts
+## Core concepts
 
 ### Session
 
 The `Session` object is the entry point to the SpeosNX API. It provides access to all parts and features.
 
-### Parts and Features
+### Parts and features
 
 - **Part**: Represents a Speos For NX part
 - **FeatureCollection**: Contains all Speos features in a part
@@ -83,7 +83,7 @@ Builders are used to create and configure Speos objects:
 - **SensorBuilder**: Create sensors
 - **SimulationBuilder**: Create and configure simulations
 
-## Next Steps
+## Next steps
 
 - [User Guide](getting_started_user_guide.md) - Detailed user guide
 - [Usage Examples](usage_examples.md) - See practical code examples
