@@ -24,8 +24,9 @@ During the iterative process of a simulation, <code>[IRockyContactScalars](struc
 
 ## Public functions
 
-<a id="structIRockyContactScalars_1ad4f28cca964b58258b7011f0dc59040d"></a>
 ### Function get\_scalar
+
+<a id="structIRockyContactScalars_1ad4f28cca964b58258b7011f0dc59040d"></a>
 
 ![][public]
 ![][const]
@@ -66,8 +67,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyContactScalars_1abdde96805bdced6ebf4f7c2a1b5d9a70"></a>
 ### Function set\_scalar
+
+<a id="structIRockyContactScalars_1abdde96805bdced6ebf4f7c2a1b5d9a70"></a>
 
 ![][public]
 ![][const]
@@ -105,8 +107,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyContactScalars_1a67c155eff0d5724c29859512b0d994de"></a>
 ### Function add\_scalar
+
+<a id="structIRockyContactScalars_1a67c155eff0d5724c29859512b0d994de"></a>
 
 ![][public]
 ![][const]
@@ -144,8 +147,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyContactScalars_1a6413332aeb968cdc28e96a351deb3bcb"></a>
 ### Function max\_scalar
+
+<a id="structIRockyContactScalars_1a6413332aeb968cdc28e96a351deb3bcb"></a>
 
 ![][public]
 ![][const]

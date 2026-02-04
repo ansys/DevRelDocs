@@ -24,8 +24,9 @@ An <code>[IRockyParticleTransferScalarsModel](structIRockyParticleTransferScalar
 
 ## Public functions
 
-<a id="structIRockyParticleTransferScalarsModel_1a6d1850250b4509904702af664aed3e26"></a>
 ### Function find
+
+<a id="structIRockyParticleTransferScalarsModel_1a6d1850250b4509904702af664aed3e26"></a>
 
 ![][public]
 
@@ -65,8 +66,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalarsModel_1acbfca5e53543c5617fe3197d57bcb011"></a>
 ### Function add
+
+<a id="structIRockyParticleTransferScalarsModel_1acbfca5e53543c5617fe3197d57bcb011"></a>
 
 ![][public]
 
@@ -110,8 +112,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalarsModel_1a631c82eba37e60df503645f60d8ddd24"></a>
 ### Function reset
+
+<a id="structIRockyParticleTransferScalarsModel_1a631c82eba37e60df503645f60d8ddd24"></a>
 
 ![][public]
 
@@ -144,8 +147,9 @@ void IRockyParticleTransferScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyParticleTransferScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyParticleTransferScalarsModel_1a6d5cd79b547774f98c5c692afe75a87f"></a>
 ### Function set\_dimension
+
+<a id="structIRockyParticleTransferScalarsModel_1a6d5cd79b547774f98c5c692afe75a87f"></a>
 
 ![][public]
 

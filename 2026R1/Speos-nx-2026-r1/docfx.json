@@ -1,0 +1,44 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "modern"
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "disableGitFeatures": true,
+    "globalMetadata": {
+      "title": "Speos for NX Library",
+      "summary": "The documentation of the Speos for NX library for Python",
+      "version": "2026 R1",
+      "product": "Speos",
+      "programming language": "python",
+      "product collection": "Optics",
+      "physics": "Optics",
+      "_enableSearch": true,
+      "_enableNewTab": true
+    }
+  }
+}

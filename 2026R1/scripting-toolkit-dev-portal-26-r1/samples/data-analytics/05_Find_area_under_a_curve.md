@@ -9,9 +9,9 @@ Create a session, and specify a database and table.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 
 db = mi.get_db(db_key="MI_Training")
 db.unit_system = "SI (Consistent)"
@@ -48,8 +48,7 @@ you separate the datum into the first list item (the column headers) and the sub
 import pandas as pd
 
 def functional_to_dataframe(attr):
-    headers = attr.value[0]
-    func_data = attr.value[1:]
+    headers, *func_data = attr.table_view.table_view
     df = pd.DataFrame(func_data, columns=headers)
     return df
 
@@ -72,8 +71,8 @@ df_stress_strain.head()
       <th>Strain [strain]</th>
       <th>Temperature [°C]</th>
       <th>Time [s]</th>
-      <th>Other []</th>
-      <th>Stress/Strain Curve Type []</th>
+      <th>Other [None]</th>
+      <th>Stress/Strain Curve Type [None]</th>
       <th>Estimated point?</th>
     </tr>
   </thead>
@@ -156,7 +155,7 @@ def clean_dataframe(df, y_name, x_name, columns_to_drop=None, columns_to_keep=No
         columns_to_drop = []
     if not columns_to_keep:
         columns_to_keep = []
-    new_df = df.drop(columns=[f"Y max ({y_name})"]+[f"Y min ({y_name})"]+columns_to_drop)
+    new_df = df.drop(columns=[f"Y max ({y_name})"] + [f"Y min ({y_name})"] + columns_to_drop)
     new_df["y"] = df[[f"Y max ({y_name})", f"Y min ({y_name})"]].mean(axis=1)
     new_df = new_df.rename(columns={x_name: "x"})
     new_df[columns_to_keep] = df[columns_to_keep]
@@ -175,8 +174,8 @@ df_stress_strain_clean = clean_dataframe(
         "Y max (Tensile Stress/Strain, L [Pa])",
         "Time [s]",
         "Estimated point?",
-        "Other []",
-        "Stress/Strain Curve Type []"
+        "Other [None]",
+        "Stress/Strain Curve Type [None]",
     ],
     columns_to_keep=["Temperature [°C]"],
 )
@@ -244,7 +243,7 @@ df_yield_stress_clean = clean_dataframe(
         "Y max (Tens. Yield Stress (L-dir) with Temp. [Pa])",
         "Time [s]",
         "Estimated point?",
-        "Other []",
+        "Other [None]",
     ],
 )
 df_yield_stress_clean.head()
@@ -304,7 +303,7 @@ df_youngs_modulus_clean = clean_dataframe(
         "Y max (Tensile Modulus (L-dir) with Temp. [Pa])",
         "Time [s]",
         "Estimated point?",
-        "Other []",
+        "Other [None]",
     ],
 )
 df_youngs_modulus_clean.head()
@@ -524,14 +523,14 @@ _ = ax.set_title("Deformation Energy $U_T$ vs Temperature")
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_39_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_39_0.png)
     
 
 
 ### Compare Deformation Energy at temperature extrema
 
 The area under the high- and low-temperature *Stress-Strain* curves can be shown graphically, providing a
-more visual comparison. 
+more visual comparison.
 
 Create a basic *Stress-Strain* plot at both temperatures, dividing the plotted y values by $10^6$ and changing the
 y-axis units to MPa. Add the legend manually.
@@ -572,7 +571,7 @@ _ = ax.legend(handles, labels)
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_43_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_43_0.png)
     
 
 
@@ -627,12 +626,12 @@ fig
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_47_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_47_0.png)
     
 
 
 
-Finally, add a chart title and annotate the filled areas with the corresponding *Deformation Energy*. 
+Finally, add a chart title and annotate the filled areas with the corresponding *Deformation Energy*.
 
 To render the *Deformation Energy* value in standard form, we've defined a function which returns the mantissa and
 exponent, and inserted them into LaTeX-formatted strings.
@@ -675,7 +674,7 @@ fig
 
 
     
-![png](05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_49_0.png)
+![png](./05_Find_area_under_a_curve_files/05_Find_area_under_a_curve_49_0.png)
     
 
 

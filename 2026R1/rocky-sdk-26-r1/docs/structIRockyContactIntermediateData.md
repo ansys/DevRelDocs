@@ -19,8 +19,9 @@
 
 ## Public functions
 
-<a id="structIRockyContactIntermediateData_1ae7271a8689305777b1f39beb47898553"></a>
 ### Function get\_home\_centroid\_to\_contact\_point\_vector
+
+<a id="structIRockyContactIntermediateData_1ae7271a8689305777b1f39beb47898553"></a>
 
 ![][public]
 ![][const]
@@ -47,8 +48,9 @@ Cartesian coordinates of the vector that joins the home particle centroid to the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactIntermediateData::get_home_centroid_to_contact_point_vector"}]}`
 -->
 
-<a id="structIRockyContactIntermediateData_1a00c355cde831bad36cd029544a7bbb16"></a>
 ### Function get\_near\_centroid\_to\_contact\_point\_vector
+
+<a id="structIRockyContactIntermediateData_1a00c355cde831bad36cd029544a7bbb16"></a>
 
 ![][public]
 ![][const]
@@ -75,8 +77,9 @@ Cartesian coordinates of the vector that joins the near particle centroid to the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyContactIntermediateData::get_near_centroid_to_contact_point_vector"}]}`
 -->
 
-<a id="structIRockyContactIntermediateData_1a3efba296a1d32e115acbb7071cdbf775"></a>
 ### Function get\_friction\_coefficient
+
+<a id="structIRockyContactIntermediateData_1a3efba296a1d32e115acbb7071cdbf775"></a>
 
 ![][public]
 ![][const]

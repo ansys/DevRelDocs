@@ -1,0 +1,157 @@
+- name: Introduction
+  href: index.md
+- name: glTF extensions
+  href: gltf-exts.md
+- name: Reference
+  items:
+  - name: Classes
+    items:
+    - name: Animation
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_animation.md
+    - name: AnimationSampler
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_animation_sampler.md
+    - name: Attribute
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_attribute.md
+    - name: Buffer
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_buffer.md
+    - name: Camera
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_camera.md
+    - name: GLTF
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_g_l_t_f.md
+    - name: Image
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_image.md
+    - name: Index
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_index.md
+    - name: Legend
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_legend.md
+    - name: Light
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_light.md
+    - name: Material
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_material.md
+    - name: Mesh
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_mesh.md
+    - name: Node
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_node.md
+    - name: Object
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_object.md
+    - name: Parameter
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_parameter.md
+    - name: Primitive
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_primitive.md
+    - name: Program
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_program.md
+    - name: Sampler
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_sampler.md
+    - name: Scene
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_scene.md
+    - name: Shader
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_shader.md
+    - name: State
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_state.md
+    - name: Technique
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_technique.md
+    - name: Texture
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_texture.md
+    - name: Utils
+      items:
+      - name: Repack
+        href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_utils_1_1_repack.md
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_utils_1_1_repack.md
+    - name: Value
+      href: ./reference/classes/class_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_value.md
+  - name: Files
+    items:
+    - name: GLTFAnimation.h
+      href: ./reference/files/_g_l_t_f_animation_8h.md
+    - name: GLTFAttribute.h
+      href: ./reference/files/_g_l_t_f_attribute_8h.md
+    - name: GLTFBuffer.h
+      href: ./reference/files/_g_l_t_f_buffer_8h.md
+    - name: GLTFCamera.h
+      href: ./reference/files/_g_l_t_f_camera_8h.md
+    - name: GLTFCommon.h
+      href: ./reference/files/_g_l_t_f_common_8h.md
+    - name: GLTFGLTF.h
+      href: ./reference/files/_g_l_t_f_g_l_t_f_8h.md
+    - name: GLTFImage.h
+      href: ./reference/files/_g_l_t_f_image_8h.md
+    - name: GLTFIndex.h
+      href: ./reference/files/_g_l_t_f_index_8h.md
+    - name: GLTFLegend.h
+      href: ./reference/files/_g_l_t_f_legend_8h.md
+    - name: GLTFLight.h
+      href: ./reference/files/_g_l_t_f_light_8h.md
+    - name: GLTFMarkup.h
+      href: ./reference/files/_g_l_t_f_markup_8h.md
+    - name: GLTFMaterial.h
+      href: ./reference/files/_g_l_t_f_material_8h.md
+    - name: GLTFMesh.h
+      href: ./reference/files/_g_l_t_f_mesh_8h.md
+    - name: GLTFNode.h
+      href: ./reference/files/_g_l_t_f_node_8h.md
+    - name: GLTFObject.h
+      href: ./reference/files/_g_l_t_f_object_8h.md
+    - name: GLTFProgram.h
+      href: ./reference/files/_g_l_t_f_program_8h.md
+    - name: GLTFSampler.h
+      href: ./reference/files/_g_l_t_f_sampler_8h.md
+    - name: GLTFScene.h
+      href: ./reference/files/_g_l_t_f_scene_8h.md
+    - name: GLTFShader.h
+      href: ./reference/files/_g_l_t_f_shader_8h.md
+    - name: GLTFTechnique.h
+      href: ./reference/files/_g_l_t_f_technique_8h.md
+    - name: GLTFTexture.h
+      href: ./reference/files/_g_l_t_f_texture_8h.md
+    - name: GLTFUtils.h
+      href: ./reference/files/_g_l_t_f_utils_8h.md
+    - name: GLTFValue.h
+      href: ./reference/files/_g_l_t_f_value_8h.md
+    - name: GLTFWriter.h
+      href: ./reference/files/_g_l_t_f_writer_8h.md
+    - name: gltfwriter.md
+      href: ./reference/files/gltfwriter_8md.md
+  - name: Namespaces
+    items:
+    - name: ANSYS
+      href: ./reference/namespaces/namespace_a_n_s_y_s.md
+    - name: ANSYS::AVZ
+      href: ./reference/namespaces/namespace_a_n_s_y_s_1_1_a_v_z.md
+    - name: ANSYS::AVZ::GLTFWriter
+      href: ./reference/namespaces/namespace_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer.md
+    - name: ANSYS::AVZ::GLTFWriter::Markup
+      href: ./reference/namespaces/namespace_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_markup.md
+    - name: ANSYS::AVZ::GLTFWriter::Utils
+      href: ./reference/namespaces/namespace_a_n_s_y_s_1_1_a_v_z_1_1_g_l_t_f_writer_1_1_utils.md
+- name: Examples
+  items:
+  - name: Test.cpp
+    href: ./examples/_test_8cpp-example.md
+  - name: Test001.cpp
+    href: ./examples/_test001_8cpp-example.md
+  - name: Test002.cpp
+    href: ./examples/_test002_8cpp-example.md
+  - name: Test003.cpp
+    href: ./examples/_test003_8cpp-example.md
+  - name: Test004.cpp
+    href: ./examples/_test004_8cpp-example.md
+  - name: Test005.cpp
+    href: ./examples/_test005_8cpp-example.md
+  - name: Test006.cpp
+    href: ./examples/_test006_8cpp-example.md
+  - name: Test007.cpp
+    href: ./examples/_test007_8cpp-example.md
+  - name: Test008.cpp
+    href: ./examples/_test008_8cpp-example.md
+  - name: Test009.cpp
+    href: ./examples/_test009_8cpp-example.md
+  - name: Test010.cpp
+    href: ./examples/_test010_8cpp-example.md
+  - name: Test011.cpp
+    href: ./examples/_test011_8cpp-example.md
+  - name: Test012.cpp
+    href: ./examples/_test012_8cpp-example.md
+  - name: Test013.cpp
+    href: ./examples/_test013_8cpp-example.md
+  - name: Test014.cpp
+    href: ./examples/_test014_8cpp-example.md

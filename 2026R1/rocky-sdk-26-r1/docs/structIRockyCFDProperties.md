@@ -32,8 +32,9 @@
 
 ## Public functions
 
-<a id="structIRockyCFDProperties_1ad1b8eb5a0bb1345469d62bcd8429daf8"></a>
 ### Function get\_fluid\_density
+
+<a id="structIRockyCFDProperties_1ad1b8eb5a0bb1345469d62bcd8429daf8"></a>
 
 ![][public]
 ![][const]
@@ -60,8 +61,9 @@ The value of the fluid density within the CFD cell in which the interacting part
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_fluid_density"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1ace8fe3ed8b6755c7594c337ded2fbe58"></a>
 ### Function get\_fluid\_viscosity
+
+<a id="structIRockyCFDProperties_1ace8fe3ed8b6755c7594c337ded2fbe58"></a>
 
 ![][public]
 ![][const]
@@ -88,8 +90,9 @@ The value of the fluid absolute viscosity within the CFD cell in which the inter
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_fluid_viscosity"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a9efc8d5c0074cae18fcbcada620ae162"></a>
 ### Function get\_fluid\_temperature
+
+<a id="structIRockyCFDProperties_1a9efc8d5c0074cae18fcbcada620ae162"></a>
 
 ![][public]
 ![][const]
@@ -116,8 +119,9 @@ The value of the fluid temperature within the CFD cell in which the interacting 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_fluid_temperature"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a6f7d6f28278bd653921f6dd19b8972f1"></a>
 ### Function get\_fluid\_specific\_heat
+
+<a id="structIRockyCFDProperties_1a6f7d6f28278bd653921f6dd19b8972f1"></a>
 
 ![][public]
 ![][const]
@@ -144,8 +148,9 @@ The value of the fluid specific heat within the CFD cell in which the interactin
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_fluid_specific_heat"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a2bc489cf137e3010d27ee7165d62f8ef"></a>
 ### Function get\_fluid\_thermal\_conductivity
+
+<a id="structIRockyCFDProperties_1a2bc489cf137e3010d27ee7165d62f8ef"></a>
 
 ![][public]
 ![][const]
@@ -172,8 +177,9 @@ The value of the fluid thermal conductivity within the CFD cell in which the int
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_fluid_thermal_conductivity"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a50a9b64cedef031bdf38377de0d0665a"></a>
 ### Function get\_fluid\_pressure\_gradient
+
+<a id="structIRockyCFDProperties_1a50a9b64cedef031bdf38377de0d0665a"></a>
 
 ![][public]
 ![][const]
@@ -200,8 +206,9 @@ The pressure gradient in the fluid within the CFD cell in which the interacting 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_fluid_pressure_gradient"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a9070705d5011bf627a5ca1e083b28bb7"></a>
 ### Function compute\_fluid\_vorticity
+
+<a id="structIRockyCFDProperties_1a9070705d5011bf627a5ca1e083b28bb7"></a>
 
 ![][public]
 ![][const]
@@ -228,8 +235,9 @@ The vorticity vector associated to the fluid flow within the CFD cell in which t
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::compute_fluid_vorticity"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a891e79c0311177f586f49ead9b9a182f"></a>
 ### Function get\_relative\_velocity
+
+<a id="structIRockyCFDProperties_1a891e79c0311177f586f49ead9b9a182f"></a>
 
 ![][public]
 ![][const]
@@ -256,8 +264,9 @@ The relative velocity vector in Cartesian coordinates. In this context, the rela
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_relative_velocity"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a56a3b748ff0a15c3b4870b5fd240bd53"></a>
 ### Function get\_reynolds\_number
+
+<a id="structIRockyCFDProperties_1a56a3b748ff0a15c3b4870b5fd240bd53"></a>
 
 ![][public]
 ![][const]
@@ -284,8 +293,9 @@ The Reynolds number value, based on the relative velocity and the particle's equ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_reynolds_number"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a6fd3d1388c1b57c53e0d6a0966ecbd0b"></a>
 ### Function compute\_vorticity\_reynolds\_number
+
+<a id="structIRockyCFDProperties_1a6fd3d1388c1b57c53e0d6a0966ecbd0b"></a>
 
 ![][public]
 ![][const]
@@ -312,8 +322,9 @@ The Reynolds number value, based on the flow vorticity and the particle's equiva
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::compute_vorticity_reynolds_number"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1adc32c375f6f3d377b21cd019c336e8c5"></a>
 ### Function compute\_relative\_angular\_reynolds\_number
+
+<a id="structIRockyCFDProperties_1adc32c375f6f3d377b21cd019c336e8c5"></a>
 
 ![][public]
 ![][const]
@@ -344,8 +355,9 @@ The Reynolds number value, based on the relative angular velocity and the partic
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::compute_relative_angular_reynolds_number"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a345be7a5c45f89f292fb864311c36ad6"></a>
 ### Function get\_prandtl\_number
+
+<a id="structIRockyCFDProperties_1a345be7a5c45f89f292fb864311c36ad6"></a>
 
 ![][public]
 ![][const]
@@ -372,8 +384,9 @@ The Prandtl number value, defined as the ratio of the fluid's momentum diffusivi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_prandtl_number"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1af868d4c581ae2e98db27b2785523b688"></a>
 ### Function get\_solid\_fraction
+
+<a id="structIRockyCFDProperties_1af868d4c581ae2e98db27b2785523b688"></a>
 
 ![][public]
 ![][const]
@@ -400,8 +413,9 @@ The solid fraction at the CFD cell in which the interacting particle is located.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_solid_fraction"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a07a10f12cf5cb16540107a1272e3cea9"></a>
 ### Function get\_cell\_volume
+
+<a id="structIRockyCFDProperties_1a07a10f12cf5cb16540107a1272e3cea9"></a>
 
 ![][public]
 ![][const]
@@ -428,8 +442,9 @@ The volume of the CFD cell in which the interacting particle is located. Before 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_cell_volume"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a995c4c9158aff6f72e0b1fdfe39dac9f"></a>
 ### Function get\_scalars
+
+<a id="structIRockyCFDProperties_1a995c4c9158aff6f72e0b1fdfe39dac9f"></a>
 
 ![][public]
 ![][const]
@@ -456,8 +471,9 @@ An <code>[IRockyFluidScalars](structIRockyFluidScalars.md#structIRockyFluidScala
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCFDProperties::get_scalars"}]}`
 -->
 
-<a id="structIRockyCFDProperties_1a39fb9991d8c793491701fa07c269de2e"></a>
 ### Function get\_cfd\_time\_step
+
+<a id="structIRockyCFDProperties_1a39fb9991d8c793491701fa07c269de2e"></a>
 
 ![][public]
 ![][const]

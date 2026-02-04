@@ -31,8 +31,9 @@ Variables associated with surfaces may return different values at each iteration
 
 ## Public functions
 
-<a id="structIRockySimulationVariables_1a72c8b7810fadee28bc24ceb891dad77c"></a>
 ### Function find\_particles\_variable
+
+<a id="structIRockySimulationVariables_1a72c8b7810fadee28bc24ceb891dad77c"></a>
 
 ![][public]
 ![][const]
@@ -73,8 +74,9 @@ The index that uniquely identifies the wanted variable if it was actually found.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySimulationVariables::find_particles_variable"}]}`
 -->
 
-<a id="structIRockySimulationVariables_1aa2cc11d88530b413d94a92480553db87"></a>
 ### Function find\_sph\_variable
+
+<a id="structIRockySimulationVariables_1aa2cc11d88530b413d94a92480553db87"></a>
 
 ![][public]
 ![][const]
@@ -115,8 +117,9 @@ The index that uniquely identifies the wanted variable if it was actually found.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySimulationVariables::find_sph_variable"}]}`
 -->
 
-<a id="structIRockySimulationVariables_1a90ff535fc5c8542919ac42b6dc889f50"></a>
 ### Function get\_variable
+
+<a id="structIRockySimulationVariables_1a90ff535fc5c8542919ac42b6dc889f50"></a>
 
 ![][public]
 ![][const]

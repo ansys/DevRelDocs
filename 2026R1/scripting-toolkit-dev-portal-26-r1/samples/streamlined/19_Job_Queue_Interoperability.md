@@ -27,10 +27,10 @@ First create an MI Scripting Toolkit session.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
 SERVICE_LAYER_URL = "http://my.server.name/mi_servicelayer"
-mi = mpy.connect(SERVICE_LAYER_URL, autologon=True)
+mi = mpy.SessionBuilder(SERVICE_LAYER_URL).with_autologon()
 ```
 
 Next, access all records in a specific tree location. We will need the database key later, so
@@ -43,8 +43,7 @@ db = mi.get_db(db_key=DB_KEY)
 tensile_test_data = db.get_table("Tensile Test Data")
 
 records = tensile_test_data.get_records_from_path(
-    starting_node=None,
-    tree_path=["High Alloy Steels", "AMS 6520", "Plate", "300°F"]
+    starting_node=None, tree_path=["High Alloy Steels", "AMS 6520", "Plate", "300°F"]
 )
 records
 ```
@@ -123,7 +122,7 @@ from pathlib import Path
 request = ExcelExportJobRequest(
     name="Example export",
     description="A demonstration of how to export data to Excel using Granta MI JobQueue",
-    template_file=Path("supporting_files/23_Export_Template.xlsx"),
+    template_file=Path("supporting_files/18_Export_Template.xlsx"),
     database_key=DB_KEY,
     records=export_records,
 )

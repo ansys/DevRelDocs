@@ -36,8 +36,9 @@ When running a simulation, an <code>[IRockySPHElementScalars](structIRockySPHEle
 
 ## Public functions
 
-<a id="structIRockySPHElementScalars_1acf45b1ddd0d68df837ec264d2758693f"></a>
 ### Function get\_scalar
+
+<a id="structIRockySPHElementScalars_1acf45b1ddd0d68df837ec264d2758693f"></a>
 
 ![][public]
 ![][const]
@@ -79,8 +80,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1af70cf6bb3041f4c5e9a8c336ea47b201"></a>
 ### Function get\_turbulent\_viscosity
+
+<a id="structIRockySPHElementScalars_1af70cf6bb3041f4c5e9a8c336ea47b201"></a>
 
 ![][public]
 ![][const]
@@ -107,8 +109,9 @@ The value of the turbulent viscosity. Turbulent viscosity is a built-in SPH elem
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::get_turbulent_viscosity"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1aa7d031c763a7c8c643ec7a86c07ae6d3"></a>
 ### Function get\_temperature
+
+<a id="structIRockySPHElementScalars_1aa7d031c763a7c8c643ec7a86c07ae6d3"></a>
 
 ![][public]
 ![][const]
@@ -135,8 +138,9 @@ The value of the temperature of the SPH element. Temperature is a built-in SPH e
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::get_temperature"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1a8a1580996da5f171f535de7e7487fe01"></a>
 ### Function get\_heat\_transfer
+
+<a id="structIRockySPHElementScalars_1a8a1580996da5f171f535de7e7487fe01"></a>
 
 ![][public]
 ![][const]
@@ -163,8 +167,9 @@ The value of the total heat transfer rate towards/from the SPH element. Heat tra
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::get_heat_transfer"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1a21d991fe945a35f8c7a1f4dffd7c5fe4"></a>
 ### Function get\_velocity\_gradient\_x
+
+<a id="structIRockySPHElementScalars_1a21d991fe945a35f8c7a1f4dffd7c5fe4"></a>
 
 ![][public]
 ![][const]
@@ -191,8 +196,9 @@ The gradient of the component of the SPH element velocity along the X-axis. Velo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::get_velocity_gradient_x"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1a0b6e39222f53c9977ed3cdcf74cb4a9f"></a>
 ### Function get\_velocity\_gradient\_y
+
+<a id="structIRockySPHElementScalars_1a0b6e39222f53c9977ed3cdcf74cb4a9f"></a>
 
 ![][public]
 ![][const]
@@ -219,8 +225,9 @@ The gradient of the component of the SPH element velocity along the Y-axis. Velo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::get_velocity_gradient_y"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1ace9533abcbc59ad7581a97d988d4c880"></a>
 ### Function get\_velocity\_gradient\_z
+
+<a id="structIRockySPHElementScalars_1ace9533abcbc59ad7581a97d988d4c880"></a>
 
 ![][public]
 ![][const]
@@ -247,8 +254,9 @@ The gradient of the component of the SPH element velocity along the Z-axis. Velo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::get_velocity_gradient_z"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1a5dae91ede893e406367059aae00764d5"></a>
 ### Function set\_scalar
+
+<a id="structIRockySPHElementScalars_1a5dae91ede893e406367059aae00764d5"></a>
 
 ![][public]
 ![][const]
@@ -287,8 +295,9 @@ this method can be used to store a value on it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1aebb2bc65cb47b22517249ce65c8728a8"></a>
 ### Function set\_turbulent\_viscosity
+
+<a id="structIRockySPHElementScalars_1aebb2bc65cb47b22517249ce65c8728a8"></a>
 
 ![][public]
 
@@ -323,8 +332,9 @@ set the value of the turbulent viscosity for later use in the flow equations.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::set_turbulent_viscosity"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1aa04f956ddd857b6b6fd7e2a6fe44a494"></a>
 ### Function set\_temperature
+
+<a id="structIRockySPHElementScalars_1aa04f956ddd857b6b6fd7e2a6fe44a494"></a>
 
 ![][public]
 
@@ -359,8 +369,9 @@ set the value of the temperature of a SPH element.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::set_temperature"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1af40e66b6c4bbea654f110c9d42b3a72f"></a>
 ### Function set\_heat\_transfer
+
+<a id="structIRockySPHElementScalars_1af40e66b6c4bbea654f110c9d42b3a72f"></a>
 
 ![][public]
 
@@ -395,8 +406,9 @@ set the calculated value of the total heat transfer towards/from a SPH element.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::set_heat_transfer"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1a72d99d6c1f69b32a5e9e77325974b1f1"></a>
 ### Function add\_scalar
+
+<a id="structIRockySPHElementScalars_1a72d99d6c1f69b32a5e9e77325974b1f1"></a>
 
 ![][public]
 ![][const]
@@ -435,8 +447,9 @@ this method can be used to sum a value to the current one stored in it.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1a22c42af1b9c839d1693a42ac889a09df"></a>
 ### Function add\_turbulent\_viscosity
+
+<a id="structIRockySPHElementScalars_1a22c42af1b9c839d1693a42ac889a09df"></a>
 
 ![][public]
 
@@ -469,8 +482,9 @@ ROCKY_FUNCTIONS void IRockySPHElementScalars::add_turbulent_viscosity(const floa
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::add_turbulent_viscosity"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1ae6f55ad8e1a6915cccbade3f199315a4"></a>
 ### Function add\_temperature
+
+<a id="structIRockySPHElementScalars_1ae6f55ad8e1a6915cccbade3f199315a4"></a>
 
 ![][public]
 
@@ -503,8 +517,9 @@ ROCKY_FUNCTIONS void IRockySPHElementScalars::add_temperature(const float value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::add_temperature"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1ace6ee0291cca05f39eb04ba4c760afe0"></a>
 ### Function add\_heat\_transfer
+
+<a id="structIRockySPHElementScalars_1ace6ee0291cca05f39eb04ba4c760afe0"></a>
 
 ![][public]
 
@@ -539,8 +554,9 @@ SPH element interchanges with the surrounding SPH elements, DEM elements and geo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockySPHElementScalars::add_heat_transfer"}]}`
 -->
 
-<a id="structIRockySPHElementScalars_1af020615c90124b8fe6d7168e964515b6"></a>
 ### Function max\_scalar
+
+<a id="structIRockySPHElementScalars_1af020615c90124b8fe6d7168e964515b6"></a>
 
 ![][public]
 ![][const]

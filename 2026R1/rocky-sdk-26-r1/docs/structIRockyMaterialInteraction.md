@@ -22,8 +22,9 @@
 
 ## Public functions
 
-<a id="structIRockyMaterialInteraction_1a83c3e5bc364c65dfc9ff275e345d369c"></a>
 ### Function get\_restitution\_coefficient
+
+<a id="structIRockyMaterialInteraction_1a83c3e5bc364c65dfc9ff275e345d369c"></a>
 
 ![][public]
 ![][const]
@@ -54,8 +55,9 @@ The value returned by this function is always the one prescribed through the Roc
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyMaterialInteraction::get_restitution_coefficient"}]}`
 -->
 
-<a id="structIRockyMaterialInteraction_1a897ea40cf65b252af203bd1e9b9a3855"></a>
 ### Function get\_minimum\_restitution\_coefficient
+
+<a id="structIRockyMaterialInteraction_1a897ea40cf65b252af203bd1e9b9a3855"></a>
 
 ![][public]
 ![][const]
@@ -82,8 +84,9 @@ The value of the minimum restitution coefficient set by a module implementing a 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyMaterialInteraction::get_minimum_restitution_coefficient"}]}`
 -->
 
-<a id="structIRockyMaterialInteraction_1a4daf7d4586429504ce237697b7a7659f"></a>
 ### Function get\_static\_friction\_coefficient
+
+<a id="structIRockyMaterialInteraction_1a4daf7d4586429504ce237697b7a7659f"></a>
 
 ![][public]
 ![][const]
@@ -110,8 +113,9 @@ The value of the static coefficient of friction, which is used in tangential for
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyMaterialInteraction::get_static_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyMaterialInteraction_1ae9ce701837e46ca374d260c7b828dac7"></a>
 ### Function get\_dynamic\_friction\_coefficient
+
+<a id="structIRockyMaterialInteraction_1ae9ce701837e46ca374d260c7b828dac7"></a>
 
 ![][public]
 ![][const]
@@ -138,8 +142,9 @@ The value of the dynamic coefficient of friction, which is used in tangential fo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyMaterialInteraction::get_dynamic_friction_coefficient"}]}`
 -->
 
-<a id="structIRockyMaterialInteraction_1af0f10152e6cba7d896304a45ed822fa8"></a>
 ### Function get\_stiffness\_multiplier
+
+<a id="structIRockyMaterialInteraction_1af0f10152e6cba7d896304a45ed822fa8"></a>
 
 ![][public]
 ![][const]
@@ -166,8 +171,9 @@ The value of the stiffness multiplier, which is used to increase the stiffness i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyMaterialInteraction::get_stiffness_multiplier"}]}`
 -->
 
-<a id="structIRockyMaterialInteraction_1a766d1bbd19828566927faadc683b4242"></a>
 ### Function get\_tangential\_stiffness\_ratio
+
+<a id="structIRockyMaterialInteraction_1a766d1bbd19828566927faadc683b4242"></a>
 
 ![][public]
 ![][const]

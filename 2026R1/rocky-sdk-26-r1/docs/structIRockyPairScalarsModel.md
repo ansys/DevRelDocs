@@ -26,8 +26,9 @@ An <code>[IRockyPairScalarsModel](structIRockyPairScalarsModel.md#structIRockyPa
 
 ## Public functions
 
-<a id="structIRockyPairScalarsModel_1a6c98a12b64d8698092cf6977a1c2b1ca"></a>
 ### Function get\_statistics\_adder\_array
+
+<a id="structIRockyPairScalarsModel_1a6c98a12b64d8698092cf6977a1c2b1ca"></a>
 
 ![][public]
 
@@ -62,8 +63,9 @@ The array of all <code>[IRockyStatisticsAdder](structIRockyStatisticsAdder.md#st
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPairScalarsModel::get_statistics_adder_array"}]}`
 -->
 
-<a id="structIRockyPairScalarsModel_1ab74d805c25cdf60a17a2df3addd8e1df"></a>
 ### Function get\_statistics\_accumulator\_array
+
+<a id="structIRockyPairScalarsModel_1ab74d805c25cdf60a17a2df3addd8e1df"></a>
 
 ![][public]
 
@@ -98,8 +100,9 @@ The array of all <code>[IRockyStatisticsAccumulator](structIRockyStatisticsAccum
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPairScalarsModel::get_statistics_accumulator_array"}]}`
 -->
 
-<a id="structIRockyPairScalarsModel_1a9db6d59f40d249a8bee649b0830a3cd2"></a>
 ### Function find
+
+<a id="structIRockyPairScalarsModel_1a9db6d59f40d249a8bee649b0830a3cd2"></a>
 
 ![][public]
 
@@ -139,8 +142,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPairScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyPairScalarsModel_1ac7c9db171244f51dd12e41bcd16629a8"></a>
 ### Function add
+
+<a id="structIRockyPairScalarsModel_1ac7c9db171244f51dd12e41bcd16629a8"></a>
 
 ![][public]
 
@@ -184,8 +188,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPairScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyPairScalarsModel_1aae898890d803e0df2c0bf0ac23553f6a"></a>
 ### Function reset
+
+<a id="structIRockyPairScalarsModel_1aae898890d803e0df2c0bf0ac23553f6a"></a>
 
 ![][public]
 
@@ -218,8 +223,9 @@ void IRockyPairScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyPairScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyPairScalarsModel_1a4134ab37bc984b4443ecf94dff64e720"></a>
 ### Function set\_dimension
+
+<a id="structIRockyPairScalarsModel_1a4134ab37bc984b4443ecf94dff64e720"></a>
 
 ![][public]
 

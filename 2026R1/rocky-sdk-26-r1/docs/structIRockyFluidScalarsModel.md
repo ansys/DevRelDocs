@@ -33,8 +33,9 @@ An <code>[IRockyFluidScalarsModel](structIRockyFluidScalarsModel.md#structIRocky
 
 ## Public types
 
-<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4"></a>
 ### Enumeration type SpeciesVariableType
+
+<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4"></a>
 
 ![][public]
 
@@ -57,29 +58,33 @@ enum SpeciesVariableType {
 
 
 
-<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4a44a1737f86fd00acf12d92df0013d543"></a>
 #### Enumerator MoleFraction
 
+<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4a44a1737f86fd00acf12d92df0013d543"></a>
 
 
 
 
-<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4afe8ce5347f023f3151d502f2941eebd3"></a>
+
 #### Enumerator MassDiffusivity
 
+<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4afe8ce5347f023f3151d502f2941eebd3"></a>
 
 
 
 
-<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4a320e4c7d7e00d2d08a58569ef770bc64"></a>
+
 #### Enumerator MolecularWeight
 
+<a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4a320e4c7d7e00d2d08a58569ef770bc64"></a>
 
 
 
+
+
+#### Enumerator MassSource
 
 <a id="structIRockyFluidScalarsModel_1a1465371482cae63842154f22ab4ebbb4a5e73301a4198a91d715a1b5cc230a19a"></a>
-#### Enumerator MassSource
 
 
 
@@ -93,8 +98,9 @@ enum SpeciesVariableType {
 
 ## Public functions
 
-<a id="structIRockyFluidScalarsModel_1a6f1e21645261447c930050eff3ecb35b"></a>
 ### Function enable\_storage\_cell\_volume
+
+<a id="structIRockyFluidScalarsModel_1a6f1e21645261447c930050eff3ecb35b"></a>
 
 ![][public]
 
@@ -118,8 +124,9 @@ void IRockyFluidScalarsModel::enable_storage_cell_volume()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalarsModel::enable_storage_cell_volume"}]}`
 -->
 
-<a id="structIRockyFluidScalarsModel_1a427a7869774490548c1bf586eb982efd"></a>
 ### Function find\_species\_scalar
+
+<a id="structIRockyFluidScalarsModel_1a427a7869774490548c1bf586eb982efd"></a>
 
 ![][public]
 
@@ -163,8 +170,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalarsModel::find_species_scalar"}]}`
 -->
 
-<a id="structIRockyFluidScalarsModel_1a42b5926c5293c2e9b6e1ae0bf6f3db2c"></a>
 ### Function get\_scalar\_name
+
+<a id="structIRockyFluidScalarsModel_1a42b5926c5293c2e9b6e1ae0bf6f3db2c"></a>
 
 ![][public]
 
@@ -202,8 +210,9 @@ the scalar name if the index is valid. Throws an error otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalarsModel::get_scalar_name"}]}`
 -->
 
-<a id="structIRockyFluidScalarsModel_1a702ee4844ebadeb36f72564dd8b6a732"></a>
 ### Function get\_scalar\_unit
+
+<a id="structIRockyFluidScalarsModel_1a702ee4844ebadeb36f72564dd8b6a732"></a>
 
 ![][public]
 
@@ -241,8 +250,9 @@ the scalar unit if the index is valid. Throws an error otherwise..
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalarsModel::get_scalar_unit"}]}`
 -->
 
-<a id="structIRockyFluidScalarsModel_1a9b9a2807854efdeaea33d558210c3901"></a>
 ### Function find
+
+<a id="structIRockyFluidScalarsModel_1a9b9a2807854efdeaea33d558210c3901"></a>
 
 ![][public]
 
@@ -282,8 +292,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyFluidScalarsModel_1a9e0b69da64fd09543ff1b9a43c30e6b3"></a>
 ### Function add
+
+<a id="structIRockyFluidScalarsModel_1a9e0b69da64fd09543ff1b9a43c30e6b3"></a>
 
 ![][public]
 
@@ -327,8 +338,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyFluidScalarsModel_1a91892f2da14aaaf2473361223db628c4"></a>
 ### Function reset
+
+<a id="structIRockyFluidScalarsModel_1a91892f2da14aaaf2473361223db628c4"></a>
 
 ![][public]
 
@@ -361,8 +373,9 @@ void IRockyFluidScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyFluidScalarsModel_1aceb74d48527a53376833f9336f0073cd"></a>
 ### Function set\_dimension
+
+<a id="structIRockyFluidScalarsModel_1aceb74d48527a53376833f9336f0073cd"></a>
 
 ![][public]
 

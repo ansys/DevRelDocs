@@ -14,28 +14,106 @@ Export a MeshedRegion in the pyVista format.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 2</strong>|  coordinates |[`field`](../../core-concepts/dpf-types.md#field) | Node coordinates. If not set, the node coordinates of the mesh are employed. |
-| <strong>Pin 6</strong>|  as_linear |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Export a linear version of the mesh (quadratic surface elements do no include midside nodes). If not set, defaults to true. |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | mesh to export in pyVista format |
-| <strong>Pin 60</strong>|  vtk_updated |[`bool`](../../core-concepts/dpf-types.md#standard-types) | True if the VTK version employed by pyVista is > VTK 9. Default true. |
-| <strong>Pin 200</strong>|  as_poly |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Export elements as polyhedrons (cell-face-node representation). Default false. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>2</strong>|  [coordinates](#input_2) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>6</strong>|  [as_linear](#input_6) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mesh](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>60</strong>|  [vtk_updated](#input_60) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>200</strong>|  [as_poly](#input_200) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_2"></a>
+### coordinates (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Node coordinates. If not set, the node coordinates of the mesh are employed.
+
+<a id="input_6"></a>
+### as_linear (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Export a linear version of the mesh (quadratic surface elements do no include midside nodes). If not set, defaults to true.
+
+<a id="input_7"></a>
+### mesh (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+mesh to export in pyVista format
+
+<a id="input_60"></a>
+### vtk_updated (Pin 60)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+True if the VTK version employed by pyVista is > VTK 9. Default true.
+
+<a id="input_200"></a>
+### as_poly (Pin 200)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Export elements as polyhedrons (cell-face-node representation). Default false.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| nodes |[`field`](../../core-concepts/dpf-types.md#field) | Node coordinates double vector |
-|  **Pin 1**| cells |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | Cell connectivity int vector |
-|  **Pin 2**| cell_types |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | Cell types property int vector |
-|  **Pin 3**| offsets |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | If vtk_updated=false, offsets int vector |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [nodes](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **1**| [cells](#output_1) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **2**| [cell_types](#output_2) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **3**| [offsets](#output_3) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="output_0"></a>
+### nodes (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Node coordinates double vector
+
+<a id="output_1"></a>
+### cells (Pin 1)
+
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+Cell connectivity int vector
+
+<a id="output_2"></a>
+### cell_types (Pin 2)
+
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+Cell types property int vector
+
+<a id="output_3"></a>
+### offsets (Pin 3)
+
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+If vtk_updated=false, offsets int vector
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

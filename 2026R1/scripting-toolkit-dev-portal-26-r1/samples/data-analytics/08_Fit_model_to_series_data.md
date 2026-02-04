@@ -11,9 +11,9 @@ Set the unit system explicitly to ensure repeatable results.
 
 
 ```python
-from GRANTA_MIScriptingToolkit import granta as mpy
+import ansys.grantami.core as mpy
 
-mi = mpy.connect("http://my.server.name/mi_servicelayer", autologon=True)
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
 db = mi.get_db(db_key="MI_Training")
 
 db.unit_system = "Metric"
@@ -28,13 +28,7 @@ to iterate through the different values of *Test Temperature*.
 
 
 ```python
-all_records = test_data_table.get_records_from_path(
-    starting_node=None,
-    tree_path=[
-        "High Alloy Steels",
-        "AMS 6520"
-    ]
-)
+all_records = test_data_table.get_records_from_path(starting_node=None, tree_path=["High Alloy Steels", "AMS 6520"])
 plate_record = all_records[0]
 temperature_test_groups = plate_record.children
 
@@ -60,7 +54,7 @@ temperature_unit = test_temperature.unit
 tensile_response = test_data_table.attributes["Tensile Response (11 axis)"]
 tensile_response_unit = tensile_response.unit
 strain_unit = tensile_response.parameters["Strain"].unit
-record_name = mpy.PseudoAttributeDefinition(name="name")
+record_name = mpy.RecordProperties.name
 
 test_record_dict = {}
 for test_group in temperature_test_groups:
@@ -71,7 +65,8 @@ for test_group in temperature_test_groups:
     )
 
     test_records = [
-        test_record for test_record in test_records
+        test_record
+        for test_record in test_records
         if not test_record.attributes["Test Temperature"].is_empty()
         and not test_record.attributes["Tensile Response (11 axis)"].is_empty()
     ]
@@ -103,14 +98,14 @@ import numpy as np
 
 def ramberg_osgood_model(stress_: np.ndarray, modulus_: float, k_: float, n_: float) -> np.ndarray:
     hook_strain = stress_ / modulus_
-    return hook_strain + k_ * hook_strain ** n_
+    return hook_strain + k_ * hook_strain**n_
 ```
 
 ## Define a helper function to fit the model to a series
 
 Using the `scipy.optimize` package, fit the Ramberg-Osgood model to the stress-strain data at each temperature.
 
-Provide initial values and constrain the parameters to positive and realistic values. These values are material 
+Provide initial values and constrain the parameters to positive and realistic values. These values are material
 dependent - for Steel we use the following:
 
 | Parameter | Minimum | Maximum    | Initial Value |
@@ -127,20 +122,16 @@ The goodness of fit can be estimated by inspecting the diagonal of the covarianc
 from typing import Tuple, List
 from scipy.optimize import curve_fit
 
-def fit_ramberg_osgood_model(stress_strain_data: np.ndarray) -> Tuple[np.ndarray, Tuple[float, float, float]]:
+def fit_ramberg_osgood_model(
+    stress_strain_data: np.ndarray,
+) -> Tuple[np.ndarray, Tuple[float, float, float]]:
     parameter_bounds = ((1, 0, 0), (1e5, 1e2, 1e2))
     f_init = (1e3, 1, 1)
 
     stress = stress_strain_data[:, 0]
     strain = stress_strain_data[:, 1]
 
-    fitted_parameters, covariance = curve_fit(
-        ramberg_osgood_model,
-        stress,
-        strain,
-        f_init,
-        bounds=parameter_bounds
-    )
+    fitted_parameters, covariance = curve_fit(ramberg_osgood_model, stress, strain, f_init, bounds=parameter_bounds)
 
     # Compute the sum-of-squared error for each model parameter
     sse = np.sqrt(np.diag(covariance))
@@ -162,20 +153,16 @@ Define three more helper functions to make the main loop easier to understand:
 
 ```python
 def get_response_data(records: List[mpy.Record]) -> np.ndarray:
-    # Iterate through records, extract the appropriate attribute and ensure the units are set correctly
-    test_response_attributes = []
+    # Iterate through records, extract the appropriate attribute
+    test_response_series = []
     for record in records:
         tensile_response = record.attributes["Tensile Response (11 axis)"]
-        test_response_attributes.append(tensile_response)
+        # Test records are expected to include a single series
+        if len(tensile_response.value) != 1:
+            raise ValueError
+        test_response_series.append(tensile_response.value[0])
 
-    # Convert the AttributeValue objects into numpy arrays:
-    # 1. Trim off the first row, which contains the column headers
-    # 2. Cast each element to float (numpy treats these values as an object unless told otherwise)
-    test_response_data = [np.array(attribute.value[1:]).astype(float) for attribute in test_response_attributes]
-
-    # The MI Scripting Toolkit stores all functional data as ranges. Since both values are the same,
-    # take the first.
-    stress_strain_response = [np.column_stack((curve[1:, 0], curve[1:, 2])) for curve in test_response_data]
+    stress_strain_response = [np.column_stack((series.y, series.x)) for series in test_response_series]
     return stress_strain_response
 
 
@@ -200,7 +187,7 @@ def compute_yield_point(stress_strain_data: np.ndarray, modulus: float) -> Tuple
 
 ## Fit to the data
 
-For each set of test records, extract the stress-strain curve and fit to the Ramberg-Osgood model using the helper 
+For each set of test records, extract the stress-strain curve and fit to the Ramberg-Osgood model using the helper
 functions defined above. Combine all the test runs into one dataset and fit the model to the aggregate data.
 
 In your own scripts, you will also need to take into account multiple series, range data, and other features of your
@@ -229,7 +216,7 @@ for test_temperature, tests_at_temperature in sorted(test_record_dict.items()):
         "modulus": modulus,
         "yield_point": (yield_strain, yield_stress),
         "k": k,
-        "n": n
+        "n": n,
     }
     print(f"Fit parameters at Temperature {test_temperature:.1f}{temperature_unit}:")
     pprint.pprint(tests_at_temperature["model_parameters"])
@@ -238,51 +225,50 @@ for test_temperature, tests_at_temperature in sorted(test_record_dict.items()):
 *Previous cell output:*
 ```output
 Fit parameters at Temperature 194.3K:
-{'k': np.float64(0.14863494441724703),
- 'modulus': np.float64(2062.0202035684933),
- 'n': np.float64(8.791864160782794),
- 'yield_point': (np.float64(1.2342202393471564),
-                 np.float64(2132.5830284732797))}
+{'k': np.float64(0.1486344480944722),
+ 'modulus': np.float64(2062.019771768718),
+ 'n': np.float64(8.791873200741906),
+ 'yield_point': (np.float64(1.234217805863505), np.float64(2132.5775640058087))}
 
 
 Fit parameters at Temperature 296.1K:
-{'k': np.float64(0.1791326818346526),
- 'modulus': np.float64(1981.6619869624521),
- 'n': np.float64(9.114593900403749),
- 'yield_point': (np.float64(1.2120542799247618),
-                 np.float64(2005.5494952695572))}
+{'k': np.float64(0.17913223713103874),
+ 'modulus': np.float64(1981.6616644768533),
+ 'n': np.float64(9.114602167742552),
+ 'yield_point': (np.float64(1.2120572321072252),
+                 np.float64(2005.5550191234408))}
 
 
 Fit parameters at Temperature 422.0K:
-{'k': np.float64(0.30688860274078),
- 'modulus': np.float64(1904.622968058874),
- 'n': np.float64(8.456684372086439),
- 'yield_point': (np.float64(1.1505510048627243),
-                 np.float64(1810.4412761729873))}
+{'k': np.float64(0.30688819443104687),
+ 'modulus': np.float64(1904.6227482778297),
+ 'n': np.float64(8.456689311588288),
+ 'yield_point': (np.float64(1.1505438661129421),
+                 np.float64(1810.4274706346653))}
 
 
 Fit parameters at Temperature 588.7K:
-{'k': np.float64(0.46386736088140446),
- 'modulus': np.float64(1825.4403056571182),
- 'n': np.float64(8.486132455089072),
- 'yield_point': (np.float64(1.1055238461378185),
-                 np.float64(1652.9797264736287))}
+{'k': np.float64(0.4638673295642107),
+ 'modulus': np.float64(1825.4402932299422),
+ 'n': np.float64(8.486132687862076),
+ 'yield_point': (np.float64(1.1055222098943815),
+                 np.float64(1652.9767283558251))}
 
 
 Fit parameters at Temperature 699.8K:
-{'k': np.float64(0.4788380313466644),
- 'modulus': np.float64(1720.6433395354948),
- 'n': np.float64(7.1629878083927006),
- 'yield_point': (np.float64(1.0851718213011277),
-                 np.float64(1523.0649986662886))}
+{'k': np.float64(0.47884481281833274),
+ 'modulus': np.float64(1720.646273499455),
+ 'n': np.float64(7.162934830935863),
+ 'yield_point': (np.float64(1.0851710034728455),
+                 np.float64(1523.0661885353247))}
 
 
 Fit parameters at Temperature 810.9K:
-{'k': np.float64(3.0310550950006268),
- 'modulus': np.float64(1501.671776811084),
- 'n': np.float64(6.911013554765233),
- 'yield_point': (np.float64(0.8747695429959347),
-                 np.float64(1013.2823785687083))}
+{'k': np.float64(3.0310724717671658),
+ 'modulus': np.float64(1501.6751764376415),
+ 'n': np.float64(6.910966909404485),
+ 'yield_point': (np.float64(0.8747594343770989),
+                 np.float64(1013.2694926711931))}
 ```
 ## Plot the results
 
@@ -312,13 +298,11 @@ for test_temperature, tests_at_temperature in sorted(test_record_dict.items()):
 
     # Plot source data series
     for series in response_data:
-        ax_current.plot(
-            series[:, 1], series[:, 0], alpha=0.3
-        )
+        ax_current.plot(series[:, 1], series[:, 0], alpha=0.3)
 
     # Plot fitted model
     fitted_data = tests_at_temperature["fitted_model_data"]
-    fit_curve = ax_current.plot(fitted_data[:, 1], fitted_data[:, 0], '--', label="Fitted Model")
+    fit_curve = ax_current.plot(fitted_data[:, 1], fitted_data[:, 0], "--", label="Fitted Model")
 
     # Add the yield point
     yield_strain, yield_stress = model_parameters["yield_point"]
@@ -329,16 +313,13 @@ for test_temperature, tests_at_temperature in sorted(test_record_dict.items()):
         xytext=(-50, -60),
         textcoords="offset points",
         size=8,
-        arrowprops={
-            "arrowstyle": "->",
-            "connectionstyle": "arc3,rad=.2"
-        }
+        arrowprops={"arrowstyle": "->", "connectionstyle": "arc3,rad=.2"},
     )
 
     # Add the elastic response line
-    elastic_strain_region = [0., yield_strain]
-    elastic_stress = [0., model_parameters["modulus"] * yield_strain]
-    elastic_curve = ax_current.plot(elastic_strain_region, elastic_stress, '-.', label="Elastic Response")
+    elastic_strain_region = [0.0, yield_strain]
+    elastic_stress = [0.0, model_parameters["modulus"] * yield_strain]
+    elastic_curve = ax_current.plot(elastic_strain_region, elastic_stress, "-.", label="Elastic Response")
 
     # Add Legend to last subplot (where there is more whitespace)
     if current_plot_index == 5:
@@ -351,6 +332,6 @@ plt.tight_layout()
 
 
     
-![png](08_Fit_model_to_series_data_files/08_Fit_model_to_series_data_16_0.png)
+![png](./08_Fit_model_to_series_data_files/08_Fit_model_to_series_data_16_0.png)
     
 

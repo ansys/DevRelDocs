@@ -31,8 +31,9 @@ An <code>[IRockyTimestepData](classIRockyTimestepData.md#classIRockyTimestepData
 
 ## Public functions
 
-<a id="classIRockyTimestepData_1a3a8aecd285747c87e9987fd439a14a3b"></a>
 ### Function get\_loading\_n\_steps
+
+<a id="classIRockyTimestepData_1a3a8aecd285747c87e9987fd439a14a3b"></a>
 
 ![][public]
 ![][const]

@@ -30,8 +30,9 @@
 
 ## Public functions
 
-<a id="structIRockyTriangleScalarsModel_1afc273a1e67e4995f848452fda3f71c31"></a>
 ### Function find
+
+<a id="structIRockyTriangleScalarsModel_1afc273a1e67e4995f848452fda3f71c31"></a>
 
 ![][public]
 
@@ -71,8 +72,9 @@ The index that uniquely identifies the wanted scalar if it was actually found. I
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::find"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1a41b8986cbde7d37e0946a3a8a8361d19"></a>
 ### Function add
+
+<a id="structIRockyTriangleScalarsModel_1a41b8986cbde7d37e0946a3a8a8361d19"></a>
 
 ![][public]
 
@@ -116,8 +118,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::add"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1ac3e84af17e0dfaea602eab3a7a888b83"></a>
 ### Function add\_accumulation\_scalar
+
+<a id="structIRockyTriangleScalarsModel_1ac3e84af17e0dfaea602eab3a7a888b83"></a>
 
 ![][public]
 
@@ -162,8 +165,9 @@ The index that will uniquely identify the scalar variable during the execution o
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::add_accumulation_scalar"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1ae4f5d565ed2b3fa05b52f9274d542d69"></a>
 ### Function reset
+
+<a id="structIRockyTriangleScalarsModel_1ae4f5d565ed2b3fa05b52f9274d542d69"></a>
 
 ![][public]
 
@@ -196,8 +200,9 @@ void IRockyTriangleScalarsModel::reset(int scalar_index)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::reset"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1aa02d862be5d91a62af18a1b1320286e7"></a>
 ### Function set\_dimension
+
+<a id="structIRockyTriangleScalarsModel_1aa02d862be5d91a62af18a1b1320286e7"></a>
 
 ![][public]
 
@@ -234,8 +239,9 @@ to a scalar variable. This factor will be used to nondimensionalize their values
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::set_dimension"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1a01f4979062e25a0fb10b874f9f1f81d9"></a>
 ### Function enable\_storage\_of\_exchanged\_heat
+
+<a id="structIRockyTriangleScalarsModel_1a01f4979062e25a0fb10b874f9f1f81d9"></a>
 
 ![][public]
 
@@ -261,8 +267,9 @@ exchanged by geometry triangles with surrounding particles and/or SPH fluid elem
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::enable_storage_of_exchanged_heat"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1abe794fd133422249549fad8c56fee6eb"></a>
 ### Function reset\_exchanged\_heat
+
+<a id="structIRockyTriangleScalarsModel_1abe794fd133422249549fad8c56fee6eb"></a>
 
 ![][public]
 
@@ -288,8 +295,9 @@ exchanged by geometry triangles with surrounding particles and/or SPH fluid elem
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::reset_exchanged_heat"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1acba5f06875d88bba1d66bd829c37fb52"></a>
 ### Function calculate\_sum\_over\_geometries
+
+<a id="structIRockyTriangleScalarsModel_1acba5f06875d88bba1d66bd829c37fb52"></a>
 
 ![][public]
 
@@ -319,8 +327,9 @@ A vector of the size of geometries in a project, in which every value is the sum
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::calculate_sum_over_geometries"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1a60ee5f18541c3104a7a286d244a5f896"></a>
 ### Function pull\_scalar\_from\_devices
+
+<a id="structIRockyTriangleScalarsModel_1a60ee5f18541c3104a7a286d244a5f896"></a>
 
 ![][public]
 
@@ -357,8 +366,9 @@ Copies the scalar values defined by scalar_index from the device memory to the h
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyTriangleScalarsModel::pull_scalar_from_devices"}]}`
 -->
 
-<a id="structIRockyTriangleScalarsModel_1a1111ee6479b40ce1e086aec31c405e3e"></a>
 ### Function push\_scalar\_to\_devices
+
+<a id="structIRockyTriangleScalarsModel_1a1111ee6479b40ce1e086aec31c405e3e"></a>
 
 ![][public]
 

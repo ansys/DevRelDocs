@@ -14,21 +14,46 @@ Return a GenericDataContainer used to instantiate the Changelog of an operator b
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  operator_name |[`string`](../../core-concepts/dpf-types.md#standard-types) | Operator internal name. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [operator_name](#input_0) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### operator_name (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Operator internal name.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| changelog_gdc |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) | GenericDataContainer used to instantiate a Changelog. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [changelog_gdc](#output_0) |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
+
+
+<a id="output_0"></a>
+### changelog_gdc (Pin 0)
+
+- **Expected type(s):** [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container)
+
+GenericDataContainer used to instantiate a Changelog.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

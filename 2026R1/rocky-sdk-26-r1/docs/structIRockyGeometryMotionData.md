@@ -39,8 +39,9 @@ The geometry's gravity center is the reference position Rocky uses for the geome
 
 ## Public functions
 
-<a id="structIRockyGeometryMotionData_1a21c87d2c5d4ad69dfd28651613888be7"></a>
 ### Function get\_id
+
+<a id="structIRockyGeometryMotionData_1a21c87d2c5d4ad69dfd28651613888be7"></a>
 
 ![][public]
 ![][const]
@@ -67,8 +68,9 @@ The ID of the geometry.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_id"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1ae4a43219e823a55f3ced79f234d7a6d9"></a>
 ### Function get\_name
+
+<a id="structIRockyGeometryMotionData_1ae4a43219e823a55f3ced79f234d7a6d9"></a>
 
 ![][public]
 ![][const]
@@ -95,8 +97,9 @@ The name of the geometry.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_name"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a5be8af9c351470d287879e3d6f2a10e9"></a>
 ### Function get\_force
+
+<a id="structIRockyGeometryMotionData_1a5be8af9c351470d287879e3d6f2a10e9"></a>
 
 ![][public]
 ![][const]
@@ -123,8 +126,9 @@ The Cartesian components of the force applied by Rocky to the geometry.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_force"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1af213ddfd08829027f4c45d73cf566ff1"></a>
 ### Function get\_moment
+
+<a id="structIRockyGeometryMotionData_1af213ddfd08829027f4c45d73cf566ff1"></a>
 
 ![][public]
 ![][const]
@@ -151,8 +155,9 @@ The Cartesian components of the moment applied by Rocky to the geometry.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_moment"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1ac676748d6121c999c4d5097ab7246e08"></a>
 ### Function get\_position
+
+<a id="structIRockyGeometryMotionData_1ac676748d6121c999c4d5097ab7246e08"></a>
 
 ![][public]
 ![][const]
@@ -179,8 +184,9 @@ The Cartesian coordinates of the reference position for the motion, which coinci
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_position"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a08d097c2e959733cb32c365c3fb2eef7"></a>
 ### Function get\_translational\_velocity
+
+<a id="structIRockyGeometryMotionData_1a08d097c2e959733cb32c365c3fb2eef7"></a>
 
 ![][public]
 ![][const]
@@ -207,8 +213,9 @@ The Cartesian components of the geometry's translational velocity.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_translational_velocity"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a1a5cc239a4d3485280530fc6a46fe9d4"></a>
 ### Function get\_orientation\_quaternion
+
+<a id="structIRockyGeometryMotionData_1a1a5cc239a4d3485280530fc6a46fe9d4"></a>
 
 ![][public]
 ![][const]
@@ -235,8 +242,9 @@ The orientation of the geometry expressed as a quaternion (w, x, y and z).
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_orientation_quaternion"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a0dbec31c54d9c33096a0841ac1379fc2"></a>
 ### Function get\_orientation\_euler\_angles
+
+<a id="structIRockyGeometryMotionData_1a0dbec31c54d9c33096a0841ac1379fc2"></a>
 
 ![][public]
 ![][const]
@@ -263,8 +271,9 @@ A vector whose components are the Euler angles that define the orientation of th
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_orientation_euler_angles"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1ad0aa494b8066b46a6d983031d1a53538"></a>
 ### Function get\_rotational\_velocity
+
+<a id="structIRockyGeometryMotionData_1ad0aa494b8066b46a6d983031d1a53538"></a>
 
 ![][public]
 ![][const]
@@ -291,8 +300,9 @@ The Cartesian components of the geometry's rotational velocity.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::get_rotational_velocity"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1ab3fc0d338a140c8ca95b78bd2e8c4c94"></a>
 ### Function set\_position
+
+<a id="structIRockyGeometryMotionData_1ab3fc0d338a140c8ca95b78bd2e8c4c94"></a>
 
 ![][public]
 
@@ -331,8 +341,9 @@ Calling set_position in a geometry that is already linked to a motion frame is n
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::set_position"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a4f37dc923051f58381e6268199936eac"></a>
 ### Function set\_translational\_velocity
+
+<a id="structIRockyGeometryMotionData_1a4f37dc923051f58381e6268199936eac"></a>
 
 ![][public]
 
@@ -369,8 +380,9 @@ Calling set_translational_velocity in a geometry that is already linked to a mot
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::set_translational_velocity"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a7169363d2fe6b5631ce18293cb31144b"></a>
 ### Function set\_orientation
+
+<a id="structIRockyGeometryMotionData_1a7169363d2fe6b5631ce18293cb31144b"></a>
 
 ![][public]
 
@@ -407,8 +419,9 @@ Calling set_orientation in a geometry that is already linked to a motion frame i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::set_orientation"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a059a62e2d9453660725a0dc88313c73c"></a>
 ### Function set\_orientation\_angles
+
+<a id="structIRockyGeometryMotionData_1a059a62e2d9453660725a0dc88313c73c"></a>
 
 ![][public]
 
@@ -445,8 +458,9 @@ Calling set_orientation_angles in a geometry that is already linked to a motion 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::set_orientation_angles"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a90073262648b9550296f899fc4e85127"></a>
 ### Function set\_rotational\_velocity
+
+<a id="structIRockyGeometryMotionData_1a90073262648b9550296f899fc4e85127"></a>
 
 ![][public]
 
@@ -483,8 +497,9 @@ Calling set_rotational_velocity in a geometry that is already linked to a motion
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyGeometryMotionData::set_rotational_velocity"}]}`
 -->
 
-<a id="structIRockyGeometryMotionData_1a03b51d01d3dcaaff8bfbd132e92370e7"></a>
 ### Function has\_linked\_motion\_frame
+
+<a id="structIRockyGeometryMotionData_1a03b51d01d3dcaaff8bfbd132e92370e7"></a>
 
 ![][public]
 ![][const]

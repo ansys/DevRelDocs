@@ -1370,6 +1370,8 @@
       href: operator-specifications/result/read_cms_rbd_file.md
     - name: recombine harmonic indeces cyclic
       href: operator-specifications/result/recombine_harmonic_indeces_cyclic.md
+    - name: record reader
+      href: operator-specifications/result/record_reader.md
     - name: remove rigid body motion
       href: operator-specifications/result/remove_rigid_body_motion.md
     - name: remove rigid body motion fc

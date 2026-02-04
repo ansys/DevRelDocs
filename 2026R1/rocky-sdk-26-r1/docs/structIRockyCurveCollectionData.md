@@ -50,8 +50,9 @@ A curve is composed of a pair of domain and image datasets. A dataset is a set o
 
 ## Public functions
 
-<a id="structIRockyCurveCollectionData_1aa3ea8900da748813b0e1eba05372cb53"></a>
 ### Function create\_particles\_dataset
+
+<a id="structIRockyCurveCollectionData_1aa3ea8900da748813b0e1eba05372cb53"></a>
 
 ![][public]
 
@@ -88,8 +89,9 @@ and the unit of the physical magnitude associated. Initially empty, the dataset 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_particles_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a17782fefaebd1a1f368510eff05dc6b3"></a>
 ### Function create\_solver\_dataset
+
+<a id="structIRockyCurveCollectionData_1a17782fefaebd1a1f368510eff05dc6b3"></a>
 
 ![][public]
 
@@ -126,8 +128,9 @@ and the unit of the physical magnitude associated. Initially empty, the dataset 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_solver_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1aac6750ba6fce2ee80a5a1fe1edb356e4"></a>
 ### Function create\_geometry\_dataset
+
+<a id="structIRockyCurveCollectionData_1aac6750ba6fce2ee80a5a1fe1edb356e4"></a>
 
 ![][public]
 
@@ -166,8 +169,9 @@ its name and the unit of the associated physical magnitude. Initially empty, the
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_geometry_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a9d540d1d87039559fe088e897504fd99"></a>
 ### Function create\_dataset
+
+<a id="structIRockyCurveCollectionData_1a9d540d1d87039559fe088e897504fd99"></a>
 
 ![][public]
 
@@ -206,8 +210,9 @@ physical magnitude associated. Such dataset is related to a given named owner en
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a88494c4828a9d06cea380ca4d21fdc73"></a>
 ### Function create\_particles\_curve
+
+<a id="structIRockyCurveCollectionData_1a88494c4828a9d06cea380ca4d21fdc73"></a>
 
 ![][public]
 
@@ -244,8 +249,9 @@ curve is related to particles. Shown within the Rocky UI as a curve.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_particles_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1aeda2a88bc1565623080026c55946b01e"></a>
 ### Function create\_solver\_curve
+
+<a id="structIRockyCurveCollectionData_1aeda2a88bc1565623080026c55946b01e"></a>
 
 ![][public]
 
@@ -282,8 +288,9 @@ curve is related to the solver. Shown within the Rocky UI as a curve.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_solver_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1add0cf572f25fb257dd0f007b53593f21"></a>
 ### Function create\_geometry\_curve
+
+<a id="structIRockyCurveCollectionData_1add0cf572f25fb257dd0f007b53593f21"></a>
 
 ![][public]
 
@@ -322,8 +329,9 @@ curve is related to a geometry. Shown within the Rocky UI as a curve.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_geometry_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a9ac4b935090edf6975d4f46cf74aa86e"></a>
 ### Function add\_curve
+
+<a id="structIRockyCurveCollectionData_1a9ac4b935090edf6975d4f46cf74aa86e"></a>
 
 ![][public]
 
@@ -362,8 +370,9 @@ curve is related to a given named entity. Shown within the Rocky UI as a curve.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::add_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a7942a28df7cd10c70ed086b9d11ebf2b"></a>
 ### Function setup\_particles\_dataset\_dimension
+
+<a id="structIRockyCurveCollectionData_1a7942a28df7cd10c70ed086b9d11ebf2b"></a>
 
 ![][public]
 
@@ -400,8 +409,9 @@ This factor will be used to nondimensionalize their values for the calculations.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_particles_dataset_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1ab7b3c581d4cfc117c0c2b4e9c9be61af"></a>
 ### Function setup\_solver\_dataset\_dimension
+
+<a id="structIRockyCurveCollectionData_1ab7b3c581d4cfc117c0c2b4e9c9be61af"></a>
 
 ![][public]
 
@@ -438,8 +448,9 @@ This factor will be used to nondimensionalize their values for the calculations.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_solver_dataset_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1ab5752c7598d6b2f21c090e470eb50d3b"></a>
 ### Function setup\_geometry\_dataset\_dimension
+
+<a id="structIRockyCurveCollectionData_1ab5752c7598d6b2f21c090e470eb50d3b"></a>
 
 ![][public]
 
@@ -478,8 +489,9 @@ This factor will be used to nondimensionalize their values for the calculations.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_geometry_dataset_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a4316fe7409b88eb683ed59d60d5b5fae"></a>
 ### Function setup\_dataset\_dimension
+
+<a id="structIRockyCurveCollectionData_1a4316fe7409b88eb683ed59d60d5b5fae"></a>
 
 ![][public]
 
@@ -518,8 +530,9 @@ This factor will be used to nondimensionalize their values for calculations. Dim
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_dataset_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a7f24452610d153c6f8da6e25f7bb1185"></a>
 ### Function update\_particles\_dataset
+
+<a id="structIRockyCurveCollectionData_1a7f24452610d153c6f8da6e25f7bb1185"></a>
 
 ![][public]
 
@@ -558,8 +571,9 @@ Intended to be used only at output times. The dataset to be added should corresp
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::update_particles_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a6bc5b0a03bcb799edc02934e386e41ea"></a>
 ### Function update\_solver\_dataset
+
+<a id="structIRockyCurveCollectionData_1a6bc5b0a03bcb799edc02934e386e41ea"></a>
 
 ![][public]
 
@@ -598,8 +612,9 @@ Intended to be used only at output times. The dataset to be added should corresp
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::update_solver_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1aee59308015e7f60c741a0296a1c17a25"></a>
 ### Function update\_geometry\_dataset
+
+<a id="structIRockyCurveCollectionData_1aee59308015e7f60c741a0296a1c17a25"></a>
 
 ![][public]
 
@@ -640,8 +655,9 @@ Intended to be used only at output times. The dataset to be added should corresp
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::update_geometry_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a77d905fa54397c6f5b7fdc84795b01a6"></a>
 ### Function update\_dataset
+
+<a id="structIRockyCurveCollectionData_1a77d905fa54397c6f5b7fdc84795b01a6"></a>
 
 ![][public]
 
@@ -682,8 +698,9 @@ Intended to be used only at output times. The dataset to be added should corresp
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::update_dataset"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1ae638f72f97d27b18d69ad0ded3b26d4b"></a>
 ### Function create\_particles\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1ae638f72f97d27b18d69ad0ded3b26d4b"></a>
 
 ![][public]
 
@@ -720,8 +737,9 @@ unit of the physical magnitude associated. Initially empty, the curve must be fi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_particles_time_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a90860210505cb726accf7089cfec5ab2"></a>
 ### Function create\_solver\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1a90860210505cb726accf7089cfec5ab2"></a>
 
 ![][public]
 
@@ -758,8 +776,9 @@ unit of the physical magnitude associated. Initially empty, the curve must be fi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_solver_time_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1aab6ad0a64db6e08afcc4c09643f2fbaa"></a>
 ### Function create\_geometry\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1aab6ad0a64db6e08afcc4c09643f2fbaa"></a>
 
 ![][public]
 
@@ -798,8 +817,9 @@ name and the unit of the physical magnitude associated. Initially empty, the tim
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_geometry_time_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a521adcdec892f96ea7b628c5aa1a3560"></a>
 ### Function create\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1a521adcdec892f96ea7b628c5aa1a3560"></a>
 
 ![][public]
 
@@ -838,8 +858,9 @@ name and the unit of the physical magnitude associated. Initially empty, the tim
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::create_time_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a230f2f9be559dcb98d57a4e5c7218dd0"></a>
 ### Function setup\_particles\_time\_curve\_dimension
+
+<a id="structIRockyCurveCollectionData_1a230f2f9be559dcb98d57a4e5c7218dd0"></a>
 
 ![][public]
 
@@ -876,8 +897,9 @@ This factor will be used to nondimensionalize their values. Dimensional factors 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_particles_time_curve_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1aec18b36979a9d48a3a48016d1d9b5b06"></a>
 ### Function setup\_solver\_time\_curve\_dimension
+
+<a id="structIRockyCurveCollectionData_1aec18b36979a9d48a3a48016d1d9b5b06"></a>
 
 ![][public]
 
@@ -914,8 +936,9 @@ This factor will be used to nondimensionalize their values. Dimensional factors 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_solver_time_curve_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1aa445fbd38bfb1770a1c197f806890908"></a>
 ### Function setup\_geometry\_time\_curve\_dimension
+
+<a id="structIRockyCurveCollectionData_1aa445fbd38bfb1770a1c197f806890908"></a>
 
 ![][public]
 
@@ -954,8 +977,9 @@ This factor will be used to nondimensionalize their values. Dimensional factors 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_geometry_time_curve_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1ad43383c1fe177dc20d46ec205f8cb675"></a>
 ### Function setup\_time\_curve\_dimension
+
+<a id="structIRockyCurveCollectionData_1ad43383c1fe177dc20d46ec205f8cb675"></a>
 
 ![][public]
 
@@ -994,8 +1018,9 @@ This factor will be used to nondimensionalize their values. Dimensional factors 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::setup_time_curve_dimension"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a650d74b4c42f6d63489f98ee5835d942"></a>
 ### Function update\_particles\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1a650d74b4c42f6d63489f98ee5835d942"></a>
 
 ![][public]
 
@@ -1032,8 +1057,9 @@ Intended to be used only at output times. The value to be added should correspon
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::update_particles_time_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a237fae8d13385fc04866ad4c4b24aa73"></a>
 ### Function update\_solver\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1a237fae8d13385fc04866ad4c4b24aa73"></a>
 
 ![][public]
 
@@ -1070,8 +1096,9 @@ Intended to be used only at output times. The value to be added should correspon
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::update_solver_time_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a3da24f758d62665100b5c43b8f1075d9"></a>
 ### Function update\_geometry\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1a3da24f758d62665100b5c43b8f1075d9"></a>
 
 ![][public]
 
@@ -1110,8 +1137,9 @@ Intended to be used only at output times. The value to be added should correspon
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyCurveCollectionData::update_geometry_time_curve"}]}`
 -->
 
-<a id="structIRockyCurveCollectionData_1a024664c7b45eb7a6728a3207eeb82ee3"></a>
 ### Function update\_time\_curve
+
+<a id="structIRockyCurveCollectionData_1a024664c7b45eb7a6728a3207eeb82ee3"></a>
 
 ![][public]
 

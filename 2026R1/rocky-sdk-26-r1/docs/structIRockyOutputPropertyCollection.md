@@ -22,8 +22,9 @@
 
 ## Public functions
 
-<a id="structIRockyOutputPropertyCollection_1a562a3ad7f55e9b3f2ea033b3678d04cb"></a>
 ### Function create\_particles\_instantaneous\_property
+
+<a id="structIRockyOutputPropertyCollection_1a562a3ad7f55e9b3f2ea033b3678d04cb"></a>
 
 ![][public]
 
@@ -62,8 +63,9 @@ consists of a value per particle, which is generated only at output times.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyOutputPropertyCollection::create_particles_instantaneous_property"}]}`
 -->
 
-<a id="structIRockyOutputPropertyCollection_1a12a985fe7f1a21e14166190fae435063"></a>
 ### Function create\_particles\_statistical\_property
+
+<a id="structIRockyOutputPropertyCollection_1a12a985fe7f1a21e14166190fae435063"></a>
 
 ![][public]
 
@@ -102,8 +104,9 @@ consists of a value per particle, which is obtained by processing a sequence of 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyOutputPropertyCollection::create_particles_statistical_property"}]}`
 -->
 
-<a id="structIRockyOutputPropertyCollection_1a5d45d1e096da70b7d8cb225fa5f53239"></a>
 ### Function create\_triangles\_instantaneous\_property
+
+<a id="structIRockyOutputPropertyCollection_1a5d45d1e096da70b7d8cb225fa5f53239"></a>
 
 ![][public]
 
@@ -142,8 +145,9 @@ consists of a value per geometry triangle, which is generated only at output tim
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyOutputPropertyCollection::create_triangles_instantaneous_property"}]}`
 -->
 
-<a id="structIRockyOutputPropertyCollection_1a8df0ae8b8289603cb4ca3a79a6a410e2"></a>
 ### Function create\_triangles\_statistical\_property
+
+<a id="structIRockyOutputPropertyCollection_1a8df0ae8b8289603cb4ca3a79a6a410e2"></a>
 
 ![][public]
 
@@ -182,8 +186,9 @@ consists of a value per geometry triangle, which is obtained by processing a seq
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyOutputPropertyCollection::create_triangles_statistical_property"}]}`
 -->
 
-<a id="structIRockyOutputPropertyCollection_1adb9ddaf60d9dd7f8a2f1f373ff96a686"></a>
 ### Function create\_vertex\_triangles\_instantaneous\_property
+
+<a id="structIRockyOutputPropertyCollection_1adb9ddaf60d9dd7f8a2f1f373ff96a686"></a>
 
 ![][public]
 
@@ -222,8 +227,9 @@ consists of a value per vertex of a geometry, which is generated only at output 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyOutputPropertyCollection::create_vertex_triangles_instantaneous_property"}]}`
 -->
 
-<a id="structIRockyOutputPropertyCollection_1acd8689ea4a1e86fc064b6e4e6a813a2c"></a>
 ### Function create\_vertex\_triangles\_statistical\_property
+
+<a id="structIRockyOutputPropertyCollection_1acd8689ea4a1e86fc064b6e4e6a813a2c"></a>
 
 ![][public]
 

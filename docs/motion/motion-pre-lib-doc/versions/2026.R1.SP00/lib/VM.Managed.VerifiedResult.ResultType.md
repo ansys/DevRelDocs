@@ -1,0 +1,32 @@
+# Enum VerifiedResult.ResultType
+<a id="VM_Managed_VerifiedResult_ResultType"></a>
+
+Namespace: [VM.Managed](VM.Managed.md)  
+Assembly: VMAppCore.dll  
+
+Specifies type for result.
+
+```csharp
+public enum VerifiedResult.ResultType
+```
+
+## Fields
+
+`Exit = 2` 
+
+Exit.
+
+
+
+`None = 0` 
+
+None.
+
+
+
+`Report = 1` 
+
+Report.
+
+
+

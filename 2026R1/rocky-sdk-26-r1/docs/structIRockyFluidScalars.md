@@ -24,8 +24,9 @@ During the iterative process of a simulation, <code>[IRockyFluidScalars](structI
 
 ## Public functions
 
-<a id="structIRockyFluidScalars_1a75d5c92f06422a5d29704788404405d0"></a>
 ### Function get\_scalar
+
+<a id="structIRockyFluidScalars_1a75d5c92f06422a5d29704788404405d0"></a>
 
 ![][public]
 ![][const]
@@ -66,8 +67,9 @@ The value currently stored in the scalar variable.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalars::get_scalar"}]}`
 -->
 
-<a id="structIRockyFluidScalars_1aec66ca90576555d400f9c6d401b049e4"></a>
 ### Function set\_scalar
+
+<a id="structIRockyFluidScalars_1aec66ca90576555d400f9c6d401b049e4"></a>
 
 ![][public]
 ![][const]
@@ -115,8 +117,9 @@ will be converted to kg/m3.s before sending it to Fluent.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalars::set_scalar"}]}`
 -->
 
-<a id="structIRockyFluidScalars_1a536c29f3a14dc5bbed6047f43baa37ec"></a>
 ### Function add\_scalar
+
+<a id="structIRockyFluidScalars_1a536c29f3a14dc5bbed6047f43baa37ec"></a>
 
 ![][public]
 ![][const]
@@ -167,8 +170,9 @@ will be converted to kg/m3.s before sending it to Fluent.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyFluidScalars::add_scalar"}]}`
 -->
 
-<a id="structIRockyFluidScalars_1aaa969c416dea0ac4eb4721c5b8d75b24"></a>
 ### Function max\_scalar
+
+<a id="structIRockyFluidScalars_1aaa969c416dea0ac4eb4721c5b8d75b24"></a>
 
 ![][public]
 ![][const]

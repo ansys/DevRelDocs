@@ -18,8 +18,9 @@
 
 ## Public functions
 
-<a id="structIRockyAdhesionOutputData_1ad7c2fa5fb68f60dfa44d4f24efa06c01"></a>
 ### Function set\_normal\_force
+
+<a id="structIRockyAdhesionOutputData_1ad7c2fa5fb68f60dfa44d4f24efa06c01"></a>
 
 ![][public]
 
@@ -54,8 +55,9 @@ adhesion model. Rocky will sum this force to both entities associated to the con
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"IRockyAdhesionOutputData::set_normal_force"}]}`
 -->
 
-<a id="structIRockyAdhesionOutputData_1a99e185831e9028fe03fde885059767d0"></a>
 ### Function set\_tangential\_force
+
+<a id="structIRockyAdhesionOutputData_1a99e185831e9028fe03fde885059767d0"></a>
 
 ![][public]
 
@@ -92,4 +94,3 @@ calculated by a custom adhesion model. Rocky will sum this force to both entitie
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[const]: https://img.shields.io/badge/-const-lightblue (const)

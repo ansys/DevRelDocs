@@ -1,0 +1,99 @@
+---
+category: mapping
+plugin: core
+license: None
+---
+
+# mapping:solid to skin fc
+
+**Version: 0.0.0**
+
+## Description
+
+Maps a fields container defined on solid elements to a fields container defined on skin elements. Three cases are possible, based on the solid field data location; (i) Elemental: The values associated with the solid elements are copied according to those underlying the skin, (ii) Nodal: The solid field is rescoped with respect to the nodes of the skin mesh, (iii) ElementalNodal: The values are copied from the solid mesh to the skin mesh for each element face and the nodes associated with it.
+
+## Inputs
+
+| Input | Name | Expected type(s) | Description |
+|-------|-------|------------------|-------------|
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | skin mesh region expected |
+| <strong>Pin 2</strong>|  solid_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Solid mesh support (optional). |
+
+## Outputs
+
+| Output |  Name | Expected type(s) | Description |
+|-------|------|------------------|-------------|
+|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
+
+## Configurations
+
+| Name| Expected type(s) | Default value | Description |
+|-----|------|----------|-------------|
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
+| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+
+## Scripting
+
+ **Category**: mapping
+
+ **Plugin**: core
+
+ **Scripting name**: solid_to_skin_fc
+
+ **Full name**: mapping.solid_to_skin_fc
+
+ **Internal name**: solid_to_skin_fc
+
+ **License**: None
+
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("solid_to_skin_fc"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(1, my_mesh);
+op.connect(2, my_solid_mesh);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.solid_to_skin_fc() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.mesh.connect(my_mesh)
+op.inputs.solid_mesh.connect(my_solid_mesh)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.solid_to_skin_fc() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.solid_mesh.Connect(my_solid_mesh)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
+
+## Changelog
+
+- Version 0.0.0: Initial release.
