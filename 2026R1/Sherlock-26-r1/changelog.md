@@ -1,26 +1,39 @@
 # Changelog
 
-## Version 2025 R2
+## Version 2026 R1
 
 ### New APIs
 
-- `listLayers()`: Lists all available layers as seen in the Layer Viewer for a project CCA.
-- `exportLayerImage()`: Exports one or more 2D Layer Viewer images from a project CCA.
-- `updateComponentFailureMechanismProps()`: Updates the Component Failure Mechanism analysis properties.
-- `getSolderInfo()`: Returns solder information including names, types, and modulus values.
-- `updateSemiconductorWearoutProps()`: Sets properties for Semiconductor Wearout analysis.
-- `updatePTHFatigueProps()`: Sets properties for Plated Through Hole fatigue analysis.
-- `updatePadProperties()`: Sets PCB pad properties for one or more parts.
-- `getPartsListProperties()`: Retrieves properties for parts in the Parts List.
-- `deletePartsFromPartsList()`: Removes parts from the Parts List.
-- `importGDSIIFile()`: Imports a GDSII file and any optional, associated configuration files.
-- `addOutlineFiles()`: Adds outline files in CSV/Excel, Gerber, or IPC-2581 format.
+- `get_test_point_props()`: Retrieves test point properties.
+- `get_ict_fixtures_props()`: Retrieves ICT fixture properties.
+- `update_test_points()`: Updates test point properties.
+- `update_ict_fixtures()`: Updates ICT fixture properties.
+- `get_mount_point_props()`: Retrieves mount point properties.
+- `update_mount_points()`: Updates mount point properties.
+- `import_copper_files()`: Imports copper files into the project.
+- `import_thermal_signal()`: Imports a thermal signal profile.
+- `save_harmonic_profile()`: Saves a harmonic vibration profile.
+- `save_random_vibe_profile()`: Saves a random vibration profile.
+- `save_shock_pulse_profile()`: Saves a shock pulse profile.
+- `save_thermal_profile()`: Saves a thermal profile.
+- `delete_event()`: Deletes a lifecycle event.
+- `delete_phase()`: Deletes a lifecycle phase.
+- `import_parts_to_avl()`: Imports parts into the Approved Vendor List (AVL).
 
 ### Modified APIs
 
-- `addThermalMaps()` and `updateThermalMaps()`: Now include an optional "Add Temperature Offset" parameter.
+- `import_thermal_signal()`: Updated rainflow cycle binning to use separate binning parameters for range, mean, and dwell.
+- `export_FEA_model()`: Added `pcb_material_elasticity` option.
+- `get_stackup_props()`: Response now includes `improveStackupModelEnabled`.
+
+### Removed APIs
+
+- `get_part_location()`: Removed deprecated API from `SherlockPartsService`.
 
 ### API bug fixes
 
-- Updated `addShockProfiles()` API to return proper error for invalid non-shock phase/event names.
-- Fixed `updateHarmonicVibeProps()` API accepting invalid harmonicVibeCount values.
+- `load_random_vibe_profile()`: Fixed issue preventing CSV files from loading into life cycle profiles.
+- `load_thermal_profile()`: Fixed issue preventing CSV files from loading into life cycle profiles.
+- `load_harmonic_profile()`: Fixed issue preventing CSV files from loading into life cycle profiles.
+- `load_shock_profile_dataset()`: Fixed issue preventing CSV files from loading into life cycle profiles.
+- `load_shock_profile_pulses()`: Fixed issue preventing CSV files from loading into life cycle profiles.
