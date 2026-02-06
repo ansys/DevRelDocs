@@ -26,6 +26,8 @@
     href: core-concepts/dpf-types.md
   - name: Operator fundamentals
     href: core-concepts/operator.md
+  - name: Operator configurations
+    href: core-concepts/operator-configurations.md
 - name: Operator specifications
   items:
   - name: Operator specifications
@@ -1370,6 +1372,8 @@
       href: operator-specifications/result/read_cms_rbd_file.md
     - name: recombine harmonic indeces cyclic
       href: operator-specifications/result/recombine_harmonic_indeces_cyclic.md
+    - name: record reader
+      href: operator-specifications/result/record_reader.md
     - name: remove rigid body motion
       href: operator-specifications/result/remove_rigid_body_motion.md
     - name: remove rigid body motion fc
@@ -1961,6 +1965,6 @@
       href: operator-specifications/utility/unitary_field.md
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
-  
+
 - name: Changelog
   href: changelog/changelog.md
