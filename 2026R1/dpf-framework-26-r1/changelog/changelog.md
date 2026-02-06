@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 26.1.pre1 (as of 2026-01-26).
+Changes since the last released version for DPF 26.1.pre1 (as of 2026-02-06).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -1906,16 +1906,16 @@ The following table shows which components have updates in each category.
 
 #### compression
 
-- [quantization](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization.md):
+- [quantization](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization.md):
   > Scales a field to a given precision threshold, then rounds all the values to the unit.
 
-- [quantization_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization_fc.md):
+- [quantization_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization_fc.md):
   > Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
 
 
 #### info
 
-- [markdown_latex_example](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/info/markdown_latex_example.md):
+- [markdown_latex_example](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/info/markdown_latex_example.md):
   > This operator showcases the use of Markdown and LaTeX in operator and pin descriptions:
   > # Headings
   > ## h2
@@ -2007,67 +2007,67 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
-- [apply_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/apply_mechanical_native_mapping.md):
+- [apply_mechanical_native_mapping](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/apply_mechanical_native_mapping.md):
   > Maps source data from source mesh to target mesh (computes interpolation).This operator needs to be used with the prepare mechanical native mapping associated one.
 
-- [create_mech_kriging_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_kriging_workflow.md):
+- [create_mech_kriging_workflow](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_kriging_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [create_mech_point_cloud_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_point_cloud_workflow.md):
+- [create_mech_point_cloud_workflow](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_point_cloud_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [create_mech_shape_func_surf_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_shape_func_surf_workflow.md):
+- [create_mech_shape_func_surf_workflow](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_shape_func_surf_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [create_mech_shape_func_vol_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_shape_func_vol_workflow.md):
+- [create_mech_shape_func_vol_workflow](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_mech_shape_func_vol_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [create_sc_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_sc_mapping_workflow.md):
+- [create_sc_mapping_workflow](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/create_sc_mapping_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [prepare_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping.md):
+- [prepare_mechanical_native_mapping](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping.md):
   > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator needs to be used with the apply mechanical native mapping associated one. At least one of the optional DataTree inputs need to be set, in order to chose the mapping algorithm and set the mapping options.
 
-- [prepare_mechanical_native_mapping_kriging](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md):
+- [prepare_mechanical_native_mapping_kriging](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md):
   > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point kriging algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
 
-- [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
+- [prepare_mechanical_native_mapping_point_cloud](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
   > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point cloud based algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
 
-- [prepare_mechanical_native_mapping_shape_functions_for_surfaces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md):
+- [prepare_mechanical_native_mapping_shape_functions_for_surfaces](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md):
   > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
 
-- [prepare_mechanical_native_mapping_shape_functions_for_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume.md):
+- [prepare_mechanical_native_mapping_shape_functions_for_volume](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume.md):
   > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for volume elements but can also be used with surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
 
-- [sc_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/sc_mapping.md):
+- [sc_mapping](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/sc_mapping.md):
   > Apply System Coupling to map data from an input mesh to a target mesh.
 
-- [sysc_point_cloud_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/sysc_point_cloud_wf.md):
+- [sysc_point_cloud_wf](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/sysc_point_cloud_wf.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [sysc_shape_function_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/sysc_shape_function_wf.md):
+- [sysc_shape_function_wf](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/sysc_shape_function_wf.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 
 #### mesh
 
-- [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/morphed_field.md):
+- [morphed_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/morphed_field.md):
   > Computes the displacement to apply on input coordinates (in 2) if a morphing field (in 0) is applied on coordinates (in 1)
 
-- [morphing](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/morphing.md):
+- [morphing](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/morphing.md):
   > Applies morphing on a meshed region depending on an input displacement field.
 
-- [prepare_morphing](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/prepare_morphing.md):
+- [prepare_morphing](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/prepare_morphing.md):
   > Prepare morphing on a meshed region depending on an input displacement field.
 
 
 #### result
 
-- [acoustic_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/acoustic_energy_density.md):
+- [acoustic_energy_density](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/acoustic_energy_density.md):
   > Read/compute AED by calling the readers defined by the datasources.
 
-- [creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain.md):
+- [creep_strain](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain.md):
   > Read/compute element nodal component creep strains by calling the readers defined by the datasources.
   > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
   > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
@@ -2101,25 +2101,25 @@ The following table shows which components have updates in each category.
   > | 13      | Pretension      |
   > 
 
-- [creep_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_X.md):
+- [creep_strain_X](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_X.md):
   > Read/compute element nodal component creep strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_XY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_XY.md):
+- [creep_strain_XY](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_XY.md):
   > Read/compute element nodal component creep strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_XZ.md):
+- [creep_strain_XZ](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_XZ.md):
   > Read/compute element nodal component creep strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_Y.md):
+- [creep_strain_Y](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_Y.md):
   > Read/compute element nodal component creep strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_YZ.md):
+- [creep_strain_YZ](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_YZ.md):
   > Read/compute element nodal component creep strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_Z.md):
+- [creep_strain_Z](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_Z.md):
   > Read/compute element nodal component creep strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_eqv.md):
+- [creep_strain_eqv](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_eqv.md):
   > Read/compute element nodal equivalent component creep strains by calling the readers defined by the datasources.
   > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
   > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
@@ -2153,123 +2153,123 @@ The following table shows which components have updates in each category.
   > | 13      | Pretension      |
   > 
 
-- [creep_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_intensity.md):
+- [creep_strain_intensity](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_intensity.md):
   > Reads/computes element nodal component creep strains, average it on nodes (by default) and computes its invariants.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
 
-- [creep_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_max_shear.md):
+- [creep_strain_max_shear](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_max_shear.md):
   > Reads/computes element nodal component creep strains, average it on nodes (by default) and computes its invariants.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
 
-- [creep_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_principal_1.md):
+- [creep_strain_principal_1](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_principal_1.md):
   > Read/compute element nodal component creep strains 1st principal component by calling the readers defined by the datasources and computing its eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
-- [creep_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_principal_2.md):
+- [creep_strain_principal_2](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_principal_2.md):
   > Read/compute element nodal component creep strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
-- [creep_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_principal_3.md):
+- [creep_strain_principal_3](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_principal_3.md):
   > Read/compute element nodal component creep strains 3rd principal component by calling the readers defined by the datasources and computing its eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
-- [fluid_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/fluid_velocity.md):
+- [fluid_velocity](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/fluid_velocity.md):
   > Read/compute FV by calling the readers defined by the datasources.
 
-- [gasket_total_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure.md):
+- [gasket_total_closure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure.md):
   > computes the gasket total closure (sum of gasket thermal closure and gasket inelastic closure).
 
-- [gasket_total_closure_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_X.md):
+- [gasket_total_closure_X](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_X.md):
   > Read/compute elemental gasket total closure XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [gasket_total_closure_XY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_XY.md):
+- [gasket_total_closure_XY](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_XY.md):
   > Read/compute elemental gasket total closure XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [gasket_total_closure_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_XZ.md):
+- [gasket_total_closure_XZ](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_total_closure_XZ.md):
   > Read/compute elemental gasket total closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [input_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/input_sound_power.md):
+- [input_sound_power](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/input_sound_power.md):
   > Read/compute PINC by calling the readers defined by the datasources.
 
-- [layer_orientation_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/layer_orientation_provider.md):
+- [layer_orientation_provider](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/layer_orientation_provider.md):
   > Read the layer orientations.
 
-- [modal_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/modal_acceleration.md):
+- [modal_acceleration](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/modal_acceleration.md):
   > Read/compute modal acceleration by calling the readers defined by the datasources.
 
-- [modal_coordinate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/modal_coordinate.md):
+- [modal_coordinate](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/modal_coordinate.md):
   > Read/compute modal coordinate by calling the readers defined by the datasources.
 
-- [modal_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/modal_velocity.md):
+- [modal_velocity](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/modal_velocity.md):
   > Read/compute modal velocity by calling the readers defined by the datasources.
 
-- [nodal_rotation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation.md):
+- [nodal_rotation](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation.md):
   > Read/compute nodal rotation by calling the readers defined by the datasources.
 
-- [nodal_rotation_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation_X.md):
+- [nodal_rotation_X](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation_X.md):
   > Read/compute nodal rotation X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [nodal_rotation_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation_Y.md):
+- [nodal_rotation_Y](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation_Y.md):
   > Read/compute nodal rotation Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [nodal_rotation_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation_Z.md):
+- [nodal_rotation_Z](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotation_Z.md):
   > Read/compute nodal rotation Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration.md):
+- [nodal_rotational_acceleration](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration.md):
   > Read/compute nodal rotational acceleration by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration_X.md):
+- [nodal_rotational_acceleration_X](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration_X.md):
   > Read/compute nodal rotational acceleration X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration_Y.md):
+- [nodal_rotational_acceleration_Y](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration_Y.md):
   > Read/compute nodal rotational acceleration Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration_Z.md):
+- [nodal_rotational_acceleration_Z](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_acceleration_Z.md):
   > Read/compute nodal rotational acceleration Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity.md):
+- [nodal_rotational_velocity](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity.md):
   > Read/compute nodal rotational velocity by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity_X.md):
+- [nodal_rotational_velocity_X](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity_X.md):
   > Read/compute nodal rotational velocity X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity_Y.md):
+- [nodal_rotational_velocity_Y](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity_Y.md):
   > Read/compute nodal rotational velocity Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity_Z.md):
+- [nodal_rotational_velocity_Z](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nodal_rotational_velocity_Z.md):
   > Read/compute nodal rotational velocity Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [node_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations.md):
+- [node_orientations](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations.md):
   > Read/compute node euler angles by calling the readers defined by the datasources.
 
-- [node_orientations_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_X.md):
+- [node_orientations_X](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_X.md):
   > Read/compute node euler angles X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [node_orientations_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_Y.md):
+- [node_orientations_Y](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_Y.md):
   > Read/compute node euler angles Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [node_orientations_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_Z.md):
+- [node_orientations_Z](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/node_orientations_Z.md):
   > Read/compute node euler angles Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [output_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/output_sound_power.md):
+- [output_sound_power](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/output_sound_power.md):
   > Read/compute POUT by calling the readers defined by the datasources.
 
-- [record_reader](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/record_reader.md):
+- [record_reader](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/record_reader.md):
   > Extracts a record from a file.
 
-- [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/squared_l2norm_pressure.md):
+- [squared_l2norm_pressure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/squared_l2norm_pressure.md):
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
 
 #### serialization
 
-- [export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/serialization/export_mesh_with_prime.md):
+- [export_mesh_with_prime](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/serialization/export_mesh_with_prime.md):
   > Transfer DPF's meshed region into an external layer prime model and serialize it into a given file format.
 
 
 #### utility
 
-- [concatenate_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields.md):
+- [concatenate_fields](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields.md):
   > Concatenates fields into a unique one by incrementing the number of components.
   > 
   > Example:
@@ -2277,7 +2277,7 @@ The following table shows which components have updates in each category.
   > - Field2 components: { RX, RY, RZ }
   > - Output field : { UX, UY, UZ, RX, RY, RZ }
 
-- [concatenate_fields_containers](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields_containers.md):
+- [concatenate_fields_containers](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/concatenate_fields_containers.md):
   > Concatenates fields containers into a unique one by concatenating each of their fields.
   > 
   > Example:
@@ -2291,19 +2291,19 @@ The following table shows which components have updates in each category.
   > 	- Field1 with components: { UX, UY, UZ, RX, RY, RZ }
   > 	- Field2 with components: { VX, VY, VZ, AX, AY, AZ }
 
-- [customtypefield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/customtypefield_get_attribute.md):
+- [customtypefield_get_attribute](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/customtypefield_get_attribute.md):
   > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
 
-- [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/cyclic_support_get_attribute.md):
+- [cyclic_support_get_attribute](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
 
-- [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/get_operators.md):
+- [get_operators](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
 
-- [operator_changelog](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/operator_changelog.md):
+- [operator_changelog](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/operator_changelog.md):
   > Return a GenericDataContainer used to instantiate the Changelog of an operator based on its name.
 
-- [propertyfield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/propertyfield_get_attribute.md):
+- [propertyfield_get_attribute](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/propertyfield_get_attribute.md):
   > Gets a property from an input field/field container. A PropertyFieldin pin 0, a property name (string) in pin 1 are expected as inputs
 
 
@@ -2312,7 +2312,7 @@ The following table shows which components have updates in each category.
 
 #### averaging
 
-- [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation.md)
+- [force_summation](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation.md)
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
 
@@ -2321,7 +2321,7 @@ The following table shows which components have updates in each category.
   > 1.0.0: The moment unit is now kept from the input units and not converted to N.m.
 
 
-- [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation_psd.md)
+- [force_summation_psd](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/averaging/force_summation_psd.md)
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
 
@@ -2330,12 +2330,12 @@ The following table shows which components have updates in each category.
   > 1.0.0: The moment unit is now kept from the input units and not converted to N*m.
 
 
-- [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal.md)
+- [nodal_to_elemental_nodal](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal.md)
 
   > 0.0.1: Fixed issue with resize output field.
 
 
-- [nodal_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal_fc.md)
+- [nodal_to_elemental_nodal_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/averaging/nodal_to_elemental_nodal_fc.md)
 
   > 0.0.1: Fixed issue with resize output fields.
 
@@ -2343,7 +2343,7 @@ The following table shows which components have updates in each category.
 
 #### filter
 
-- [abc_weightings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/filter/abc_weightings.md)
+- [abc_weightings](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/filter/abc_weightings.md)
 
   > 0.0.1: Fixed bug in frequency calculation with multiple rpms in the support.
 
@@ -2351,14 +2351,14 @@ The following table shows which components have updates in each category.
 
 #### geo
 
-- [normals_provider_nl](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/geo/normals_provider_nl.md)
+- [normals_provider_nl](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/geo/normals_provider_nl.md)
 
   > 0.0.1: Bug fixed for input mesh type containing solid elements.
 
   > 1.0.0: Fixed reference coordinate-system on which normals are calculated.
 
 
-- [rotate_in_cylindrical_cs](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/geo/rotate_in_cylindrical_cs.md)
+- [rotate_in_cylindrical_cs](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/geo/rotate_in_cylindrical_cs.md)
 
   > 1.0.0: Fix bug for the rotation of strain fields with a cylindrical system whose axis is rotated.
 
@@ -2366,14 +2366,14 @@ The following table shows which components have updates in each category.
 
 #### logic
 
-- [elementary_data_selector](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/logic/elementary_data_selector.md)
+- [elementary_data_selector](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/logic/elementary_data_selector.md)
 
   > 0.1.0: fix of crash when input field data pointer is empty, the operator will output an empty field in this case moving forward.
 
   > 0.2.0: fix of crash when input field had no data pointer, the operator will output an empty field in this case moving forward.
 
 
-- [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/logic/solid_shell_fields.md)
+- [solid_shell_fields](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/logic/solid_shell_fields.md)
 
   > 0.0.1: Input Fields Containers can contain empty fields.
 
@@ -2381,12 +2381,12 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
-- [find_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/find_reduced_coordinates.md)
+- [find_reduced_coordinates](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/find_reduced_coordinates.md)
 
   > 0.1.0: Fix bug with interpolation points at corner nodes.
 
 
-- [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/on_coordinates.md)
+- [on_coordinates](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/on_coordinates.md)
 
   > 0.1.0: Performance improvement.
 
@@ -2395,7 +2395,7 @@ The following table shows which components have updates in each category.
   > 0.3.0: Fix bug with missing results and use_quadratic_elements pin.
 
 
-- [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin.md)
+- [solid_to_skin](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin.md)
 
   > 0.1.0: Improving performance for Nodal locations.
 
@@ -2406,7 +2406,7 @@ The following table shows which components have updates in each category.
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
 
 
-- [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin_fc.md)
+- [solid_to_skin_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
   > 0.1.0: Improving performance for Nodal locations. Added parallelization.
 
@@ -2424,59 +2424,59 @@ The following table shows which components have updates in each category.
 
 #### math
 
-- [accumulate_level_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_level_over_label_fc.md)
+- [accumulate_level_over_label_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_level_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [accumulate_min_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_min_over_label_fc.md)
+- [accumulate_min_over_label_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_min_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [accumulate_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_over_label_fc.md)
+- [accumulate_over_label_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/accumulate_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [average_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/average_over_label_fc.md)
+- [average_over_label_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/average_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [compute_residual_and_error](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/compute_residual_and_error.md)
+- [compute_residual_and_error](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/compute_residual_and_error.md)
 
   > 0.1.0: Support generic labels (not only time) in the input FieldsContainer
 
   > 0.1.1: Fixed the size of output scaling factors for the absolute normalization
 
 
-- [expansion_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/expansion_psd.md)
+- [expansion_psd](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/expansion_psd.md)
 
   > 0.0.1: Fix handling of empty fields in mode shapes.
 
 
-- [scale](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/scale.md)
+- [scale](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/scale.md)
 
   > 0.0.1: Fixed a segmentation fault.
 
 
-- [scale_by_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/scale_by_field.md)
+- [scale_by_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/scale_by_field.md)
 
   > 0.0.1: Add support of fields with shell layers
 
 
-- [scale_by_field_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/scale_by_field_fc.md)
+- [scale_by_field_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/scale_by_field_fc.md)
 
   > 0.0.1: Add support of fields with shell layers
 
 
-- [sweeping_phase](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/sweeping_phase.md)
+- [sweeping_phase](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/sweeping_phase.md)
 
   > 0.0.1: Clarify the documentation.
 
 
-- [sweeping_phase_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/math/sweeping_phase_fc.md)
+- [sweeping_phase_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/math/sweeping_phase_fc.md)
 
   > 0.0.1: Clarify the documentation.
 
@@ -2484,7 +2484,7 @@ The following table shows which components have updates in each category.
 
 #### mesh
 
-- [from_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/from_scoping.md)
+- [from_scoping](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/from_scoping.md)
 
   > 0.1.0: Improvement in the performance.
 
@@ -2495,31 +2495,31 @@ The following table shows which components have updates in each category.
   > 0.1.3: Fixed undefined behavior with custom property fields.
 
 
-- [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/from_scopings.md)
+- [from_scopings](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/from_scopings.md)
 
   > 0.0.1: Improvement in the performance.
 
   > 0.0.2: Fixing issue with connectivity.
 
 
-- [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/mesh_provider.md)
+- [mesh_provider](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/mesh_provider.md)
 
   > 0.1.0: Update the effect of the permissive configuration.
 
 
-- [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/meshes_provider.md)
+- [meshes_provider](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/meshes_provider.md)
 
   > 0.1.0: Update the effect of the permissive configuration.
 
 
-- [skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/skin.md)
+- [skin](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/skin.md)
 
   > 0.0.1: Fixing issue related to share pointers of property fields and mesh.
 
   > 0.0.2: Internal change to share pointers of property fields and mesh.
 
 
-- [split_mesh](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/mesh/split_mesh.md)
+- [split_mesh](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/mesh/split_mesh.md)
 
   > 0.0.1: Improvement in the performance.
 
@@ -2529,22 +2529,22 @@ The following table shows which components have updates in each category.
 
 #### metadata
 
-- [boundary_condition_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/boundary_condition_provider.md)
+- [boundary_condition_provider](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/metadata/boundary_condition_provider.md)
 
   > 0.0.1: Improved documentation and exceptions handling.
 
 
-- [element_types_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/element_types_provider.md)
+- [element_types_provider](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/metadata/element_types_provider.md)
 
   > 0.1.0: Added the possibility to output a PropertyField.
 
 
-- [streams_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/streams_provider.md)
+- [streams_provider](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/metadata/streams_provider.md)
 
   > 0.1.0: Add the permissive configuration.
 
 
-- [time_freq_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/metadata/time_freq_support_get_attribute.md)
+- [time_freq_support_get_attribute](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/metadata/time_freq_support_get_attribute.md)
 
   > 0.1.0: Add new supported property name 'step_id_from_harmonic_index' returning an int.
 
@@ -2552,487 +2552,487 @@ The following table shows which components have updates in each category.
 
 #### result
 
-- [accu_eqv_creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/accu_eqv_creep_strain.md)
+- [accu_eqv_creep_strain](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/accu_eqv_creep_strain.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [accu_eqv_plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/accu_eqv_plastic_strain.md)
+- [accu_eqv_plastic_strain](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/accu_eqv_plastic_strain.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [artificial_hourglass_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/artificial_hourglass_energy.md)
+- [artificial_hourglass_energy](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/artificial_hourglass_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [beam_axial_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_axial_force.md)
+- [beam_axial_force](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_axial_force.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_axial_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_axial_stress.md)
+- [beam_axial_stress](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_axial_stress.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_axial_total_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_axial_total_strain.md)
+- [beam_axial_total_strain](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_axial_total_strain.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_s_bending_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_s_bending_moment.md)
+- [beam_s_bending_moment](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_s_bending_moment.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_s_shear_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_s_shear_force.md)
+- [beam_s_shear_force](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_s_shear_force.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_t_bending_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_t_bending_moment.md)
+- [beam_t_bending_moment](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_t_bending_moment.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_t_shear_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_t_shear_force.md)
+- [beam_t_shear_force](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_t_shear_force.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_torsional_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/beam_torsional_moment.md)
+- [beam_torsional_moment](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/beam_torsional_moment.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [co_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/co_energy.md)
+- [co_energy](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/co_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_fluid_penetration_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_fluid_penetration_pressure.md)
+- [contact_fluid_penetration_pressure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_fluid_penetration_pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_friction_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_friction_stress.md)
+- [contact_friction_stress](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_friction_stress.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_gap_distance](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_gap_distance.md)
+- [contact_gap_distance](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_gap_distance.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_penetration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_penetration.md)
+- [contact_penetration](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_penetration.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_pressure.md)
+- [contact_pressure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_sliding_distance](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_sliding_distance.md)
+- [contact_sliding_distance](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_sliding_distance.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_status](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_status.md)
+- [contact_status](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_status.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_surface_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_surface_heat_flux.md)
+- [contact_surface_heat_flux](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_surface_heat_flux.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_total_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/contact_total_stress.md)
+- [contact_total_stress](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/contact_total_stress.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [coordinate_system](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/coordinate_system.md)
+- [coordinate_system](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/coordinate_system.md)
 
   > 0.0.1: Output pin 0 documentation update.
 
 
-- [creep_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_energy_density.md)
+- [creep_strain_energy_density](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/creep_strain_energy_density.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/displacement.md)
+- [displacement](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/displacement.md)
 
   > 1.0.0: Modal coordinates from RFRQ, RDSP and DSUB files can't be extracted through displacement operator anymore, user can use modal_coordinate operator instead.
 
 
-- [elastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain.md)
+- [elastic_strain](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [elastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_energy_density.md)
+- [elastic_strain_energy_density](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_energy_density.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_eqv.md)
+- [elastic_strain_eqv](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_eqv.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_intensity.md)
+- [elastic_strain_intensity](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_intensity.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_max_shear.md)
+- [elastic_strain_max_shear](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_max_shear.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_principal_1.md)
+- [elastic_strain_principal_1](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_principal_2.md)
+- [elastic_strain_principal_2](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_principal_3.md)
+- [elastic_strain_principal_3](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elastic_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [electric_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/electric_field.md)
+- [electric_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/electric_field.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [electric_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/electric_flux_density.md)
+- [electric_flux_density](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/electric_flux_density.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [electric_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/electric_potential.md)
+- [electric_potential](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/electric_potential.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [element_centroids](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/element_centroids.md)
+- [element_centroids](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/element_centroids.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [element_nodal_forces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/element_nodal_forces.md)
+- [element_nodal_forces](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/element_nodal_forces.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [element_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/element_orientations.md)
+- [element_orientations](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/element_orientations.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elemental_heat_generation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_heat_generation.md)
+- [elemental_heat_generation](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_heat_generation.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elemental_mass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_mass.md)
+- [elemental_mass](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_mass.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elemental_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_volume.md)
+- [elemental_volume](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/elemental_volume.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [equivalent_mass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/equivalent_mass.md)
+- [equivalent_mass](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/equivalent_mass.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [eqv_stress_parameter](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/eqv_stress_parameter.md)
+- [eqv_stress_parameter](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/eqv_stress_parameter.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [gasket_inelastic_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_inelastic_closure.md)
+- [gasket_inelastic_closure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_inelastic_closure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [gasket_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_stress.md)
+- [gasket_stress](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_stress.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [gasket_thermal_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_thermal_closure.md)
+- [gasket_thermal_closure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/gasket_thermal_closure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/heat_flux.md)
+- [heat_flux](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/heat_flux.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [hydrostatic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/hydrostatic_pressure.md)
+- [hydrostatic_pressure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/hydrostatic_pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [incremental_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/incremental_energy.md)
+- [incremental_energy](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/incremental_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [kinetic_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/kinetic_energy.md)
+- [kinetic_energy](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/kinetic_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_field.md)
+- [magnetic_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_field.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [magnetic_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_flux_density.md)
+- [magnetic_flux_density](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_flux_density.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [magnetic_scalar_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_scalar_potential.md)
+- [magnetic_scalar_potential](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_scalar_potential.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [magnetic_vector_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_vector_potential.md)
+- [magnetic_vector_potential](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/magnetic_vector_potential.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [mapdl.pres_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/mapdl.pres_to_field.md)
+- [mapdl.pres_to_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/mapdl.pres_to_field.md)
 
   > 0.0.1: Fix crash caused by invalid iterator when reading shell data.
 
 
-- [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/nmisc.md)
+- [nmisc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/nmisc.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [num_surface_status_changes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/num_surface_status_changes.md)
+- [num_surface_status_changes](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/num_surface_status_changes.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_state_variable.md)
+- [plastic_state_variable](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_state_variable.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain.md)
+- [plastic_strain](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [plastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_energy_density.md)
+- [plastic_strain_energy_density](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_energy_density.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_eqv.md)
+- [plastic_strain_eqv](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_eqv.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_intensity.md)
+- [plastic_strain_intensity](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_intensity.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_max_shear.md)
+- [plastic_strain_max_shear](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_max_shear.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_1.md)
+- [plastic_strain_principal_1](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_2.md)
+- [plastic_strain_principal_2](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_3.md)
+- [plastic_strain_principal_3](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/plastic_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [poynting_vector_surface](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/poynting_vector_surface.md)
+- [poynting_vector_surface](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/poynting_vector_surface.md)
 
   > 0.0.1: Fix bug in memory allocation for some local variables participating in interpolation at integration points.
 
 
-- [pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/pressure.md)
+- [pressure](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [raw_displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/raw_displacement.md)
+- [raw_displacement](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/raw_displacement.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [raw_reaction_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/raw_reaction_force.md)
+- [raw_reaction_force](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/raw_reaction_force.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
+- [recombine_harmonic_indeces_cyclic](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
 
   > 0.1.0: Addition of is_constant pin
 
 
-- [remove_rigid_body_motion](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/remove_rigid_body_motion.md)
+- [remove_rigid_body_motion](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/remove_rigid_body_motion.md)
 
   > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
 
 
-- [remove_rigid_body_motion_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/remove_rigid_body_motion_fc.md)
+- [remove_rigid_body_motion_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/remove_rigid_body_motion_fc.md)
 
   > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
 
 
-- [result_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/result_provider.md)
+- [result_provider](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/result_provider.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were only performed if the requested result was a 3D vector or a symmetrical 3x3 matrix.
 
 
-- [smisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/smisc.md)
+- [smisc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/smisc.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/state_variable.md)
+- [state_variable](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/state_variable.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [stiffness_matrix_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stiffness_matrix_energy.md)
+- [stiffness_matrix_energy](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stiffness_matrix_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress.md)
+- [stress](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [stress_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_intensity.md)
+- [stress_intensity](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress_intensity.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_max_shear.md)
+- [stress_max_shear](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress_max_shear.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_principal_1.md)
+- [stress_principal_1](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_principal_2.md)
+- [stress_principal_2](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_principal_3.md)
+- [stress_principal_3](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_ratio](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_ratio.md)
+- [stress_ratio](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress_ratio.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [stress_von_mises](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/stress_von_mises.md)
+- [stress_von_mises](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/stress_von_mises.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [structural_temperature](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/structural_temperature.md)
+- [structural_temperature](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/structural_temperature.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [swelling_strains](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/swelling_strains.md)
+- [swelling_strains](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/swelling_strains.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [temperature](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/temperature.md)
+- [temperature](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/temperature.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [temperature_grad](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/temperature_grad.md)
+- [temperature_grad](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/temperature_grad.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [thermal_dissipation_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_dissipation_energy.md)
+- [thermal_dissipation_energy](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_dissipation_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [thermal_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain.md)
+- [thermal_strain](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [thermal_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain_principal_1.md)
+- [thermal_strain_principal_1](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [thermal_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain_principal_2.md)
+- [thermal_strain_principal_2](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [thermal_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain_principal_3.md)
+- [thermal_strain_principal_3](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [thermal_strains_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strains_eqv.md)
+- [thermal_strains_eqv](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/thermal_strains_eqv.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [thickness](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/thickness.md)
+- [thickness](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/thickness.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [torque](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/result/torque.md)
+- [torque](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/result/torque.md)
 
   > 0.1.0: Fields container supported on pin 1. Pin 1 name changed.
 
@@ -3042,27 +3042,27 @@ The following table shows which components have updates in each category.
 
 #### scoping
 
-- [rescope](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope.md)
+- [rescope](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope.md)
 
   > 0.1.0: Performance improvement.
 
 
-- [rescope_custom_type_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope_custom_type_field.md)
+- [rescope_custom_type_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope_custom_type_field.md)
 
   > 0.1.0: Performance improvement.
 
 
-- [rescope_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope_fc.md)
+- [rescope_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope_fc.md)
 
   > 0.1.0: Performance improvement.
 
 
-- [rescope_property_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope_property_field.md)
+- [rescope_property_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/scoping/rescope_property_field.md)
 
   > 0.1.0: Performance improvement.
 
 
-- [transpose](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/scoping/transpose.md)
+- [transpose](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/scoping/transpose.md)
 
   > 0.1.0: Improvement of performance
 
@@ -3072,12 +3072,12 @@ The following table shows which components have updates in each category.
 
 #### serialization
 
-- [csv_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/serialization/csv_to_field.md)
+- [csv_to_field](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/serialization/csv_to_field.md)
 
   > 1.0.0: Fixed issue while reading csv with multiple fields and common time id between fields.
 
 
-- [field_to_csv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/serialization/field_to_csv.md)
+- [field_to_csv](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/serialization/field_to_csv.md)
 
   > 1.0.0: Fixed issue while writing csv with multiple fields and common time id between fields.
 
@@ -3085,22 +3085,22 @@ The following table shows which components have updates in each category.
 
 #### utility
 
-- [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/extract_scoping.md)
+- [extract_scoping](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
 
 
-- [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/html_doc.md)
+- [html_doc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/html_doc.md)
 
   > 0.1.0: Show operator version and changelog.
 
 
-- [ints_to_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/ints_to_scoping.md)
+- [ints_to_scoping](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/ints_to_scoping.md)
 
   > 0.1.0: Add input pin 2 to specify an upper bound to create a scoping for a given range (taking single input in pin 0 as the lower bound).
 
 
-- [producer_consumer_for_each](https://ansys-a.devportal.io/docs/dpf-framework-2026-r1/operator-specifications/utility/producer_consumer_for_each.md)
+- [producer_consumer_for_each](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/producer_consumer_for_each.md)
 
   > 0.1.0: Addition of events to monitor the status of the operator.
 
