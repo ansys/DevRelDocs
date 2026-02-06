@@ -19,7 +19,7 @@
 
 </details>
 
-#### 2 Go through the docs pages
+#### 2 Getting started
 
 <details>
   <summary>Click to expand</summary>
@@ -34,7 +34,7 @@
 
 </details>
 
-#### 3 Start with Examples
+#### 3 Examples
 
 <details>
   <summary>Click to expand</summary>
