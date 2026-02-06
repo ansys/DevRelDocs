@@ -17,6 +17,10 @@ This page provides links to general information useful for all Ansys developers.
 * [Ansys Learning Hub (ALH)](https://learninghub.ansys.com/pages/17/home-page)
 * [EMEA PyAnsys Training Q4|24](https://developer.ansys.com/knowledge-base/pyansys-training-q4-24)
 
+## Learning Roadmaps
+
+* [PyMechanical Roadmap](<https://developer.ansys.com/docs/ansys-developer-product-guide/learning_roadmaps.md#ip-pymechanical>)
+
 ## Ansys Python Manager
 
 If you are interested in getting started with PyAnsys or any of Ansys' Python tools, Ansys provides the open-source Ansys Python Manager for assistance with installing Python and creating virtual environments.
