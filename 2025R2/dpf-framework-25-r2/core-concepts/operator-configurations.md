@@ -59,7 +59,7 @@ The following are all the framework-level configurations. Not all operators supp
 
 **Type:** [`bool`](./dpf-types.md#standard-types)
 
-**Default:** `false` (most operators default to `false` for safety; some rotation operators default to `true` for performance)
+**Default:** `false` (most operators default to `false` for safety; some rotation operators default to `true` for memory efficieny)
 
 **Description:** When set to `true`, the operator modifies input data directly instead of creating a new output copy, reducing memory consumption and avoiding copy overhead. This is particularly beneficial for large field operations where memory is constrained. However, this modifies the original input data, which can cause issues if the input is reused elsewhere or connected to multiple operators. Not all operators support `inplace` with all input types - refer to the specific operator specification for limitations.
 
