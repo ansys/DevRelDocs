@@ -11,13 +11,13 @@ Configurations are distinct from operator inputs (pins):
 
 Importantly, configurations do not change the result of an operator, only how it computes that result. For example, enabling `run_in_parallel` will produce the same output as running sequentially, but potentially faster.
 
-Because configurations are defined at the framework level, the same configuration option (like `use_cache` or `num_threads`) behaves consistently across different operators. In contrast, each operator defines its own unique set of input pins.
+Configurations are described at the framework level, making them available session-wide (e.g., `num_threads=6` for all operators supporting multithreading) with a consistent meaning in terms of expected behavior. They can be overridden at the operator level when necessary (e.g., `num_threads=2` for a specific operator). In contrast, each operator defines its own unique set of input pins.
 
 Most operators work well with default configuration values. Explicit configuration is optional but can significantly improve performance and resource usage for specific use cases.
 
 ## Available configuration options
 
-The following are all the framework-level configurations. Not all operators support every configuration - refer to the individual [operator specification](../operator-specifications/operator-specifications.md) page to see which configurations are available for a specific operator.
+The following are all the currently existing configurations. Not all operators support every configuration - refer to the individual [operator specification](../operator-specifications/operator-specifications.md) page to see which configurations are available for a specific operator.
 
 ### Performance and parallelization
 
