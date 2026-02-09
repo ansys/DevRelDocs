@@ -11,13 +11,13 @@ Configurations are distinct from operator inputs (pins):
 
 Importantly, configurations do not change the result of an operator, only how it computes that result. For example, enabling `run_in_parallel` will produce the same output as running sequentially, but potentially faster.
 
-Because configurations are defined at the framework level, the same configuration option (like `use_cache` or `num_threads`) behaves consistently across different operators. In contrast, each operator defines its own unique set of input pins.
+Configurations are described at the framework level, making them available session-wide (e.g., `num_threads=6` for all operators supporting multithreading) with a consistent meaning in terms of expected behavior. They can be overridden at the operator level when necessary (e.g., `num_threads=2` for a specific operator). In contrast, each operator defines its own unique set of input pins.
 
 Most operators work well with default configuration values. Explicit configuration is optional but can significantly improve performance and resource usage for specific use cases.
 
 ## Available configuration options
 
-The following are all the framework-level configurations. Not all operators support every configuration - refer to the individual [operator specification](../operator-specifications/operator-specifications.md) page to see which configurations are available for a specific operator.
+The following are all the currently existing configurations. Not all operators support every configuration - refer to the individual [operator specification](../operator-specifications/operator-specifications.md) page to see which configurations are available for a specific operator.
 
 ### Performance and parallelization
 
@@ -29,7 +29,7 @@ The following are all the framework-level configurations. Not all operators supp
 
 **Default:** `true`
 
-**Description:** When set to `true`, enables parallel execution of loops within the operator using multiprocessing. This can significantly improve performance for operations on large datasets by distributing work across multiple processes. Note that this controls multiprocessing, not multithreading - the number of threads for each process is controlled separately by `num_threads`. Set to `false` when you need sequential execution for debugging or when parallel execution causes conflicts with shared resources.
+**Description:** When set to `true`, enables parallel execution of loops within the operator using multithreading. This can significantly improve performance for operations on large datasets by distributing work across multiple threads. This option enables/disables multithreading - the actual number of threads is controlled separately by `num_threads`. Set to `false` when you need sequential execution for debugging or when parallel execution causes conflicts with shared resources.
 
 #### `num_threads`
 
@@ -59,7 +59,7 @@ The following are all the framework-level configurations. Not all operators supp
 
 **Type:** [`bool`](./dpf-types.md#standard-types)
 
-**Default:** `false` (most operators default to `false` for safety; some rotation operators default to `true` for performance)
+**Default:** `false` (most operators default to `false` for safety; some rotation operators default to `true` for memory efficieny)
 
 **Description:** When set to `true`, the operator modifies input data directly instead of creating a new output copy, reducing memory consumption and avoiding copy overhead. This is particularly beneficial for large field operations where memory is constrained. However, this modifies the original input data, which can cause issues if the input is reused elsewhere or connected to multiple operators. Not all operators support `inplace` with all input types - refer to the specific operator specification for limitations.
 
