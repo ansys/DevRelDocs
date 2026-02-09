@@ -29,7 +29,7 @@ The following are all the framework-level configurations. Not all operators supp
 
 **Default:** `true`
 
-**Description:** When set to `true`, enables parallel execution of loops within the operator using multiprocessing. This can significantly improve performance for operations on large datasets by distributing work across multiple processes. Note that this controls multiprocessing, not multithreading - the number of threads for each process is controlled separately by `num_threads`. Set to `false` when you need sequential execution for debugging or when parallel execution causes conflicts with shared resources.
+**Description:** When set to `true`, enables parallel execution of loops within the operator using multithreading. This can significantly improve performance for operations on large datasets by distributing work across multiple threads. This option enables/disables multithreading - the actual number of threads is controlled separately by `num_threads`. Set to `false` when you need sequential execution for debugging or when parallel execution causes conflicts with shared resources.
 
 #### `num_threads`
 
