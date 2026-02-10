@@ -1,0 +1,150 @@
+---
+category: averaging
+plugin: core
+license: None
+---
+
+# averaging:elemental mean (field)
+
+**Version: 0.0.0**
+
+## Description
+
+Computes the average of a multi-entity field, (ElementalNodal -> Elemental), (NodalElemental -> Nodal).
+
+## Inputs
+
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong>|  [collapse_shell_layers](#input_1) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [force_averaging](#input_2) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [scoping](#input_3) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="input_0"></a>
+### field (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_1"></a>
+### collapse_shell_layers (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true, shell layers are averaged as well (default is false).
+
+<a id="input_2"></a>
+### force_averaging (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true you average, if false you just sum.
+
+<a id="input_3"></a>
+### scoping (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Average only on these elements. If it is a scoping container, the label must correspond to the one of the fields containers.
+
+
+## Outputs
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### field (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+
+## Configurations
+
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
+
+## Scripting
+
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: elemental_mean
+
+ **Full name**: averaging.elemental_mean
+
+ **Internal name**: entity_average
+
+ **License**: None
+
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("entity_average"); // operator instantiation
+op.connect(0, my_field);
+op.connect(1, my_collapse_shell_layers);
+op.connect(2, my_force_averaging);
+op.connect(3, my_scoping);
+ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.averaging.elemental_mean() # operator instantiation
+op.inputs.field.connect(my_field)
+op.inputs.collapse_shell_layers.connect(my_collapse_shell_layers)
+op.inputs.force_averaging.connect(my_force_averaging)
+op.inputs.scoping.connect(my_scoping)
+my_field = op.outputs.field()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.averaging.elemental_mean() # operator instantiation
+op.inputs.field.Connect(my_field)
+op.inputs.collapse_shell_layers.Connect(my_collapse_shell_layers)
+op.inputs.force_averaging.Connect(my_force_averaging)
+op.inputs.scoping.Connect(my_scoping)
+my_field = op.outputs.field.GetData()
+```
+</details>
+<br>
+
+## Changelog
+
+- Version 0.0.0: Initial release.

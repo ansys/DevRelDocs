@@ -36,7 +36,7 @@ Error = VirtualRealityLab.SetSourcePowerById(0, 100)
 Error = VirtualRealityLab.SetSourcePowerById(1, 120)
 Error = VirtualRealityLab.SetSourcePowerById(2, 150)
 ' Update the visualization
-Error = VirtualRealityLab.Update()
+Error = VirtualRealityLab.Update
 MsgBox ("After Update")
 End Sub
 

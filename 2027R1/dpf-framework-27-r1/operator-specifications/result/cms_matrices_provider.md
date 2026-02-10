@@ -1,0 +1,126 @@
+---
+category: result
+plugin: mapdl
+license: None
+---
+
+# result:cms matrices provider
+
+**Version: 0.0.0**
+
+## Description
+
+Read reduced matrices for cms elements. Extract stiffness, damping, mass matrices and load vector from a subfile.
+
+## Inputs
+
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>200</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [matrix_form](#input_200) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+Data_sources (must contain at list one subfile).
+
+<a id="input_200"></a>
+### matrix_form (Pin 200)
+
+- **Required:** Yes
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If this pin i set to true, data are return as matrix form.
+
+
+## Outputs
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### fields_container (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container containing in this order : stiffness, damping, mass matrices, and then load vector. But if pin 200 is set to true, it's in matrix form.
+
+
+## Configurations
+
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
+
+## Scripting
+
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: cms_matrices_provider
+
+ **Full name**: result.cms_matrices_provider
+
+ **Internal name**: cms_matrices_provider
+
+ **License**: None
+
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("cms_matrices_provider"); // operator instantiation
+op.connect(4, my_data_sources);
+op.connect(200, my_matrix_form);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.result.cms_matrices_provider() # operator instantiation
+op.inputs.data_sources.connect(my_data_sources)
+op.inputs.matrix_form.connect(my_matrix_form)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.result.cms_matrices_provider() # operator instantiation
+op.inputs.data_sources.Connect(my_data_sources)
+op.inputs.matrix_form.Connect(my_matrix_form)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
+
+## Changelog
+
+- Version 0.0.0: Initial release.

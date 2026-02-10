@@ -2,7 +2,7 @@
 
 Geometry selections are required for almost any Speos object definition. They can be performed using the SpaceClaim selection.
 
- - Generic object selection can be performed using the SpaceClaim
+- Generic object selection can be performed using the SpaceClaim
 
     ```ironpython
     Geometries can be set using the SpaceClaim Selection:
@@ -19,7 +19,7 @@ Geometry selections are required for almost any Speos object definition. They ca
     newMaterial.VolumeGeometries.Set(Selection.GetActive())
     ```
 
- - Origin or directions selection
+- Origin or directions selection
 
     ```ironpython
     displaySource = SpeosSim.SourceDisplay.Create()
@@ -33,7 +33,7 @@ Geometry selections are required for almost any Speos object definition. They ca
     displaySource.YDirection.Set(displayYDirection)
     ```
 
- - Oriented faces selection \(used in surface sources or FOPs to orientate the normal to the selected faces\)
+- Oriented faces selection \(used in surface sources or FOPs to orientate the normal to the selected faces\)
 
     ```ironpython
     orientedFace = SpeosSim.OrientedFace.Create()

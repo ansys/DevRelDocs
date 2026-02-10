@@ -7,5 +7,11 @@
 - name: Changelog
   href: changelogs\speos_changelogs_rpc.md
   items:
+  - name: Speos RPC Changelog 2026 R1
+    href: changelogs\speos_changelogs_rpc_261.md
+  - name: Speos RPC Changelog 2025 R2 SP03
+    href: changelogs\speos_changelogs_rpc_2523.md
+  - name: Speos RPC Changelog 2025 R2 SP01
+    href: changelogs\speos_changelogs_rpc_2521.md
   - name: Speos RPC Changelog 2025 R2
     href: changelogs\speos_changelogs_rpc_252.md

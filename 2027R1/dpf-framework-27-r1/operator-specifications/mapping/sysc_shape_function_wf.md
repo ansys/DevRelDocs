@@ -1,0 +1,157 @@
+---
+category: mapping
+plugin: N/A
+license: any_dpf_supported_increments
+---
+
+# mapping:create sysc shape function mapping workflow
+
+**Version: 0.0.0**
+
+## Description
+
+Prepares a workflow able to map data from an input mesh to a target mesh.
+
+## Inputs
+
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [source_mesh](#input_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>1</strong>|  [target_mesh](#input_1) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>6</strong>|  [target_scoping](#input_6) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>10</strong>|  [options_data_tree](#input_10) |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+
+
+<a id="input_0"></a>
+### source_mesh (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+Mesh where the source data is defined. If not set, an input pin named "source_mesh" is exposed.
+
+<a id="input_1"></a>
+### target_mesh (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+Mesh where the target data is defined. If not set, an input pin named "source_mesh" is exposed.
+
+<a id="input_6"></a>
+### target_scoping (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+Scoping that restricts the interpolation to a given set of nodes/elements in the target mesh. If not set, an input pin named "target_scoping" is exposed.
+
+<a id="input_10"></a>
+### options_data_tree (Pin 10)
+
+- **Required:** No
+- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+DataTree that contains an optional 'mapping_options' subtree with 'conservative' (bool, default is false) information, and a mandatory 'data_definition' subtree with 'location' (string) and 'dimensionality' (int) information, that are required by the mapping operator.
+
+
+## Outputs
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [mapping_workflow](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+
+
+<a id="output_0"></a>
+### mapping_workflow (Pin 0)
+
+- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+
+Workflow with input pin 'source_data'; optionally 'source_mesh', 'target_mesh', 'target_scoping', and 'options_data_tree'; and output pin 'target_data'.
+
+
+## Configurations
+
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### permissive
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+If permissive is set to false, the validity of the source and target meshes is checked before performing mapping, raising an error if they are invalid. If permissive is set to true, no check is done. Default is true.
+
+
+
+## Scripting
+
+ **Category**: mapping
+
+ **Plugin**: N/A
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: sysc_shape_function_wf
+
+ **License**: any_dpf_supported_increments
+
+## Examples
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("sysc_shape_function_wf"); // operator instantiation
+op.connect(0, my_source_mesh);
+op.connect(1, my_target_mesh);
+op.connect(6, my_target_scoping);
+op.connect(10, my_options_data_tree);
+ansys::dpf::Workflow my_mapping_workflow = op.getOutput<ansys::dpf::Workflow>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mapping.None() # operator instantiation
+op.inputs.source_mesh.connect(my_source_mesh)
+op.inputs.target_mesh.connect(my_target_mesh)
+op.inputs.target_scoping.connect(my_target_scoping)
+op.inputs.options_data_tree.connect(my_options_data_tree)
+my_mapping_workflow = op.outputs.mapping_workflow()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mapping.None() # operator instantiation
+op.inputs.source_mesh.Connect(my_source_mesh)
+op.inputs.target_mesh.Connect(my_target_mesh)
+op.inputs.target_scoping.Connect(my_target_scoping)
+op.inputs.options_data_tree.Connect(my_options_data_tree)
+my_mapping_workflow = op.outputs.mapping_workflow.GetData()
+```
+</details>
+<br>
+
+## Changelog
+
+- Version 0.0.0: Initial release.
